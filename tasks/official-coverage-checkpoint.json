@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-07-14T20:55:00+09:00",
+  "updatedAt": "2026-07-14T21:05:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kanagawa-official-coverage-007",
-    "municipality": "大井町・松田町・山北町・開成町",
-    "adopted": 33,
-    "held": 621,
+    "code": "kanagawa-official-coverage-008",
+    "municipality": "箱根町・真鶴町・湯河原町・愛川町",
+    "adopted": 37,
+    "held": 444,
     "excluded": 0,
-    "sourceUrlsChecked": 33,
+    "sourceUrlsChecked": 37,
     "validation": {
-      "previousMunicipality": "神奈川県公式棚卸し007として、14362大井町、14363松田町、14364山北町、14366開成町を確認した。候補654件から公式本文の短い根拠を確認し、大井町13件、松田町5件、山北町7件、開成町8件の計33件を採用した。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for kanagawa-official-coverage-007.json / candidates / manual-snippets / municipalities / official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 33 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 33 primary official URLs returned HTTP 200",
+      "previousMunicipality": "神奈川県公式棚卸し008として、14382箱根町、14383真鶴町、14384湯河原町、14401愛川町を確認した。候補481件から公式本文の短い根拠を確認し、箱根町12件、真鶴町4件、湯河原町12件、愛川町9件の計37件を採用した。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for kanagawa-official-coverage-008.json / candidates / manual-snippets / municipalities / url-leads / official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 37 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 37 primary official URLs returned HTTP 200",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11412, officialLinkedActive 11374, manuallyVerifiedActive 11374, 神奈川県 localOfficial 266)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11449, officialLinkedActive 11411, manuallyVerifiedActive 11411, 神奈川県 localOfficial 303)"
     }
   },
   "next": {
-    "code": "kanagawa-official-coverage-008",
-    "municipality": "箱根町・真鶴町・湯河原町・愛川町",
-    "shortlist": "神奈川県公式棚卸し007は候補654件から大井町13件、松田町5件、山北町7件、開成町8件を採用した。松田町のEV導入・災害予防復旧・木造耐震等、山北町の妊婦健診・1か月児健診・新生児聴覚検査等、開成町のゼロカーボン・中小企業GX・創業者利子補給・未熟児養育医療等は第2巡候補に残す。",
-    "instructions": "次回は神奈川県公式棚卸し008として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に14382箱根町、14383真鶴町、14384湯河原町、14401愛川町を確認する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kanagawa-official-coverage-009",
+    "municipality": "清川村",
+    "shortlist": "神奈川県公式棚卸し008は候補481件から箱根町12件、真鶴町4件、湯河原町12件、愛川町9件を採用した。真鶴町子ども食堂事業補助金は検索インデックス上で制度本文を確認したが、公式URLがHTTP 404のため第2巡URL再確認候補に残す。",
+    "instructions": "次回は神奈川県公式棚卸し009として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に14402清川村を確認する。清川村で神奈川県第1巡が完了する見込みだが、全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "神奈川県",
     "status": "in-progress",
-    "lastBatch": "kanagawa-official-coverage-007",
-    "notes": "神奈川県は14366開成町まで自治体コード順に確認済み。東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
+    "lastBatch": "kanagawa-official-coverage-008",
+    "notes": "神奈川県は14401愛川町まで自治体コード順に確認済み。次は14402清川村。東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

@@ -8434,3 +8434,43 @@
   - トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、様式のみ、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
 - 次:
   - 神奈川県公式棚卸し008として、14382箱根町、14383真鶴町、14384湯河原町、14401愛川町を自治体コード順に確認する。
+
+### 2026-07-14 神奈川県公式棚卸し008（14382箱根町・14383真鶴町・14384湯河原町・14401愛川町）
+
+- 作業範囲:
+  - 14382 箱根町、14383 真鶴町、14384 湯河原町、14401 愛川町の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 生成候補481件（箱根町200件、真鶴町49件、湯河原町207件、愛川町25件）が150件を超えたため、`tasks/discovery/kanagawa-official-coverage-008-manual-snippets.json` に公式本文の短い根拠を保存し、制度名・対象・金額/上限・条件・期限/受付状況が揃う制度を優先した。
+- 採用:
+  - 合計37件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 箱根町12件: 物価高騰対策定額給付金、省エネ設備等更新促進補助金、小児医療費助成、ひとり親家庭等医療費助成制度、妊婦のための支援給付金、はこねっこ誕生祝金、不妊治療費・不育症治療費助成、1か月児健康診査費用助成、新生児聴覚検査費用助成、就学援助・通学費補助制度、生ごみ処理機器購入費等補助金、合併処理浄化槽設置整備事業補助金。
+  - 真鶴町4件: 小児医療費助成、ひとり親家庭等医療費助成、すくすく赤ちゃん子育て支援給付金、物価高対応子育て応援手当。
+  - 湯河原町12件: 妊婦のための支援給付事業、小児医療費助成、ひとり親家庭等医療費助成、住宅リフォーム等助成事業、住宅用スマートエネルギー設備等導入補助金、事業者物価高騰対策支援金、子育て世帯支援給付金、高校生通学定期券購入費助成、町民生活応援給付金、火葬料補助、合併処理浄化槽設置整備事業補助金、猫不妊・去勢手術費補助金。
+  - 愛川町9件: 小児医療費助成制度、ひとり親家庭等医療費助成制度、保育士等サポート給付金、スマートエネルギー設備導入費補助金、結婚新生活支援事業補助金、赤ちゃん育児用品購入助成券、妊婦のための支援給付、ベビーシッター利用支援事業補助金、介護職員等人材確保支援事業助成金。
+- 生成ファイル:
+  - `tasks/discovery/kanagawa-official-coverage-008-municipalities.json`
+  - `tasks/discovery/kanagawa-official-coverage-008-14382-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-008-14383-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-008-14384-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-008-14401-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-008-14382-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-008-14383-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-008-14384-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-008-14401-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-008-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-008-url-leads.json`
+  - `tasks/discovery/kanagawa-official-coverage-008-manual-snippets.json`
+  - `tasks/discovery/kanagawa-official-coverage-008.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（`kanagawa-official-coverage-008.json`、候補JSON、手動スニペットJSON、municipalities、url-leads、checkpoint）。
+  - 追加slug重複: pass（37件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（37 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11449、officialLinkedActive 11411、manuallyVerifiedActive 11411、神奈川県 localOfficial 303）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または神奈川県一部自治体の着手のみで全国完了扱いしない。
+  - 真鶴町子ども食堂事業補助金は検索インデックス上で制度本文を確認したが、公式URLがHTTP 404のため採用せず第2巡URL再確認候補に残す。
+  - トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、様式のみ、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
+- 次:
+  - 神奈川県公式棚卸し009として、14402清川村を自治体コード順に確認する。清川村で神奈川県第1巡が完了する見込みだが、全国公式棚卸しは未完了扱いを維持する。

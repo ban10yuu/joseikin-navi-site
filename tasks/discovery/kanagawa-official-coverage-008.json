@@ -1,0 +1,115 @@
+{
+  "batch": "kanagawa-official-coverage-008",
+  "checkedAt": "2026-07-14T21:05:00+09:00",
+  "prefecture": "神奈川県",
+  "municipalities": [
+    {
+      "code": "14382",
+      "name": "箱根町",
+      "officialSite": "https://www.town.hakone.kanagawa.jp/",
+      "candidates": 200,
+      "adopted": 12
+    },
+    {
+      "code": "14383",
+      "name": "真鶴町",
+      "officialSite": "https://www.town.manazuru.kanagawa.jp/",
+      "candidates": 49,
+      "adopted": 4
+    },
+    {
+      "code": "14384",
+      "name": "湯河原町",
+      "officialSite": "https://www.town.yugawara.kanagawa.jp/",
+      "candidates": 207,
+      "adopted": 12
+    },
+    {
+      "code": "14401",
+      "name": "愛川町",
+      "officialSite": "https://www.town.aikawa.kanagawa.jp/",
+      "candidates": 25,
+      "adopted": 9
+    }
+  ],
+  "candidateFiles": [
+    "tasks/discovery/kanagawa-official-coverage-008-municipalities.json",
+    "tasks/discovery/kanagawa-official-coverage-008-14382-municipality.json",
+    "tasks/discovery/kanagawa-official-coverage-008-14383-municipality.json",
+    "tasks/discovery/kanagawa-official-coverage-008-14384-municipality.json",
+    "tasks/discovery/kanagawa-official-coverage-008-14401-municipality.json",
+    "tasks/discovery/kanagawa-official-coverage-008-14382-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-008-14383-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-008-14384-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-008-14401-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-008-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-008-url-leads.json",
+    "tasks/discovery/kanagawa-official-coverage-008-manual-snippets.json"
+  ],
+  "totals": {
+    "candidates": 481,
+    "adopted": 37,
+    "heldForSecondPass": 444,
+    "excluded": 0
+  },
+  "adoptedByMunicipality": {
+    "箱根町": [
+      "物価高騰対策定額給付金",
+      "省エネ設備等更新促進補助金",
+      "小児医療費助成",
+      "ひとり親家庭等医療費助成制度",
+      "妊婦のための支援給付金",
+      "はこねっこ誕生祝金",
+      "不妊治療費・不育症治療費助成",
+      "1か月児健康診査費用助成",
+      "新生児聴覚検査費用助成",
+      "就学援助・通学費補助制度",
+      "生ごみ処理機器購入費等補助金",
+      "合併処理浄化槽設置整備事業補助金"
+    ],
+    "真鶴町": [
+      "小児医療費助成",
+      "ひとり親家庭等医療費助成",
+      "すくすく赤ちゃん子育て支援給付金",
+      "物価高対応子育て応援手当"
+    ],
+    "湯河原町": [
+      "妊婦のための支援給付事業",
+      "小児医療費助成",
+      "ひとり親家庭等医療費助成",
+      "住宅リフォーム等助成事業",
+      "住宅用スマートエネルギー設備等導入補助金",
+      "事業者物価高騰対策支援金",
+      "子育て世帯支援給付金",
+      "高校生通学定期券購入費助成",
+      "町民生活応援給付金",
+      "火葬料補助",
+      "合併処理浄化槽設置整備事業補助金",
+      "猫不妊・去勢手術費補助金"
+    ],
+    "愛川町": [
+      "小児医療費助成制度",
+      "ひとり親家庭等医療費助成制度",
+      "保育士等サポート給付金",
+      "スマートエネルギー設備導入費補助金",
+      "結婚新生活支援事業補助金",
+      "赤ちゃん育児用品購入助成券",
+      "妊婦のための支援給付",
+      "ベビーシッター利用支援事業補助金",
+      "介護職員等人材確保支援事業助成金"
+    ]
+  },
+  "secondPassNotes": [
+    "真鶴町子ども食堂事業補助金は検索インデックス上で制度本文を確認したが、公式URLがHTTP 404のため採用せず、第2巡URL再確認候補に残す。",
+    "箱根町、湯河原町のサイト内巡回で抽出したトップ、カテゴリ、サイトマップ、共通ナビ一致、様式のみ、本文中の金額又は受付状況不足候補は第2巡候補に残す。",
+    "候補481件が150件を超えたため、公式本文の短い根拠を tasks/discovery/kanagawa-official-coverage-008-manual-snippets.json に保存し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページを優先した。"
+  ],
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for kanagawa-official-coverage-008.json / candidates / manual-snippets / municipalities / url-leads / official-coverage-checkpoint.json",
+    "addedSlugUniqueness": "pass: 37 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 37 primary official URLs returned HTTP 200",
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11449, officialLinkedActive 11411, manuallyVerifiedActive 11411, 神奈川県 localOfficial 303)"
+  }
+}

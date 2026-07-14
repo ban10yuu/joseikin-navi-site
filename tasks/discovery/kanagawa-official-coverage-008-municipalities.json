@@ -1,0 +1,26 @@
+{
+  "batchId": "kanagawa-official-coverage-008",
+  "prefecture": "神奈川県",
+  "municipalities": [
+    {
+      "code": "14382",
+      "name": "箱根町",
+      "officialBaseUrl": "https://www.town.hakone.kanagawa.jp/"
+    },
+    {
+      "code": "14383",
+      "name": "真鶴町",
+      "officialBaseUrl": "https://www.town.manazuru.kanagawa.jp/"
+    },
+    {
+      "code": "14384",
+      "name": "湯河原町",
+      "officialBaseUrl": "https://www.town.yugawara.kanagawa.jp/"
+    },
+    {
+      "code": "14401",
+      "name": "愛川町",
+      "officialBaseUrl": "https://www.town.aikawa.kanagawa.jp/"
+    }
+  ]
+}

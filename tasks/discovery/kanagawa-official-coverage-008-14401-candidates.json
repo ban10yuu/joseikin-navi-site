@@ -1,0 +1,1811 @@
+{
+  "batchId": "kanagawa-official-coverage-008-14401",
+  "prefecture": "神奈川県",
+  "generatedAt": "2026-07-14T11:23:49.457Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 25,
+  "results": [
+    {
+      "code": "14401",
+      "name": "愛川町",
+      "officialBaseUrl": "https://www.town.aikawa.kanagawa.jp/",
+      "discoveredUrlCount": 220,
+      "candidateCount": 25,
+      "strongCandidateCount": 0,
+      "lowPriorityCandidateCount": 25,
+      "candidates": [
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/kurashi/index.html",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/kosodate_kyoiku/index.html",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/index.html",
+          "status": 200,
+          "title": "福祉・医療",
+          "h1": "福祉・医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/shigoto_sangyo/index.html",
+          "status": 200,
+          "title": "しごと・産業",
+          "h1": "しごと・産業",
+          "updatedAt": "",
+          "keywordHits": [
+            "林業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/shisetsu/index.html",
+          "status": 200,
+          "title": "施設ガイド",
+          "h1": "施設ガイド",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/info/kouhou_kouchou/9054.html",
+          "status": 200,
+          "title": "愛川町LINE公式アカウント",
+          "h1": "愛川町LINE公式アカウント",
+          "updatedAt": "2024年05月09日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/kurashi/zeikin/hurusato/index.html",
+          "status": 200,
+          "title": "ふるさと納税",
+          "h1": "ふるさと納税",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/bousai/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/aid/7218.html",
+          "status": 200,
+          "title": "救急・休日・夜間医療",
+          "h1": "救急・休日・夜間医療",
+          "updatedAt": "2026年04月03日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/seisakuhisho/hishokoho/info/13178.html",
+          "status": 200,
+          "title": "愛川町メール配信サービス",
+          "h1": "愛川町メール配信サービス",
+          "updatedAt": "2025年07月04日",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/jouhou/7189.html",
+          "status": 200,
+          "title": "新型コロナウイルス感染症について",
+          "h1": "新型コロナウイルス感染症について",
+          "updatedAt": "2024年11月22日",
+          "keywordHits": [
+            "事業者",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/kurashi/zeikin/hurusato/15059.html",
+          "status": 200,
+          "title": "ふるさと納税の申込方法",
+          "h1": "ふるさと納税の申込方法",
+          "updatedAt": "2026年06月17日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/event/12493.html",
+          "status": 200,
+          "title": "詩吟教室生徒募集",
+          "h1": "詩吟教室生徒募集",
+          "updatedAt": "2026年07月01日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/event/18598.html",
+          "status": 200,
+          "title": "参加者募集‼古民家山十邸文化講座「中津箒（ほうき）手づくり教室」を開催します",
+          "h1": "参加者募集‼古民家山十邸文化講座「中津箒（ほうき）手づくり教室」を開催します",
+          "updatedAt": "2026年06月30日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/event/18427.html",
+          "status": 200,
+          "title": "愛川町冬の軽音フェス 若者たちの音楽祭12",
+          "h1": "愛川町冬の軽音フェス 若者たちの音楽祭12",
+          "updatedAt": "2026年06月30日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/event/index.html",
+          "status": 200,
+          "title": "イベント情報",
+          "h1": "イベント情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/info/mayor/index.html",
+          "status": 200,
+          "title": "町長の部屋",
+          "h1": "町長の部屋",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/kanko/promotion/aikawabrand/index.html",
+          "status": 200,
+          "title": "愛川ブランド認定品",
+          "h1": "愛川ブランド認定品",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/foreigners/18389.html",
+          "status": 200,
+          "title": "外国籍住民のための生活ガイドブックを作成",
+          "h1": "外国籍住民のための生活ガイドブックを作成",
+          "updatedAt": "2026年05月15日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/seisakuhisho/hishokoho/info/13195.html",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "2026年05月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/calendar.html",
+          "status": 200,
+          "title": "イベントカレンダー",
+          "h1": "イベントカレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/kyouikuiinkai/shogaigakusyu/bunka/calendar.html",
+          "status": 200,
+          "title": "文化会館カレンダー",
+          "h1": "文化会館カレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/5851.html",
+          "status": 200,
+          "title": "情報公開・個人情報保護",
+          "h1": "情報公開・個人情報保護",
+          "updatedAt": "2026年05月11日",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "2023年03月01日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14401",
+          "municipalityName": "愛川町",
+          "sourceUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/index.html",
+          "status": 200,
+          "title": "町役場の組織",
+          "h1": "町役場の組織",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/kosodate_kyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/kosodate_kyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/sports_bunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/sports_bunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/kanko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/kanko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/shigoto_sangyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/shigoto_sangyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/info/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/info/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/info/kouhou_kouchou/9054.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/info/kouhou_kouchou/9054.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/kurashi/zeikin/hurusato/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/kurashi/zeikin/hurusato/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/soshiki/kankyou_keizai/syoko/syoko/info/kigyou/17580.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/kankyou_keizai/syoko/syoko/info/kigyou/17580.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/aid/7218.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/aid/7218.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/seisakuhisho/hishokoho/info/13178.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/seisakuhisho/hishokoho/info/13178.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/jouhou/7189.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/jouhou/7189.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/kurashi/zeikin/hurusato/15059.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/kurashi/zeikin/hurusato/15059.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/kurashi/17633.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/kurashi/17633.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/soshiki/kiki/kiki/info/18462.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/kiki/kiki/info/18462.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/news_ichiran.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/news_ichiran.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/cgi-bin/feed.php?siteNew=1&amp;displayCount=10&amp;displayRange=90&amp;includeShortcut=1",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/cgi-bin/feed.php?siteNew=1&amp;displayCount=10&amp;displayRange=90&amp;includeShortcut=1",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/event/18796.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/event/18796.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/event/16107.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/event/16107.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/event/18791.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/event/18791.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/event/18792.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/event/18792.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/event/12493.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/event/12493.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/event/17192.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/event/17192.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/event/16105.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/event/16105.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/event/17559.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/event/17559.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/event/18598.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/event/18598.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/event/18427.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/event/18427.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/event/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/event/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/info/mayor/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/info/mayor/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/info/kouhou_kouchou/koho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/info/kouhou_kouchou/koho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/kanko/promotion/aikawabrand/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/kanko/promotion/aikawabrand/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/seisakuhisho/hishokoho/info/13210.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/seisakuhisho/hishokoho/info/13210.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/seisakuhisho/kikakuseisaku/info/16043.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/seisakuhisho/kikakuseisaku/info/16043.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/foreigners/18389.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/foreigners/18389.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/shinsei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/shinsei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/gomi_search/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/gomi_search/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/soshiki/kyouikuiinkai/spobun/spobun/info/sports/1422533824781.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/kyouikuiinkai/spobun/spobun/info/sports/1422533824781.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/seisakuhisho/hishokoho/info/13195.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/seisakuhisho/hishokoho/info/13195.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/calendar.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/calendar.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/soshiki/kyouikuiinkai/shogaigakusyu/bunka/calendar.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/kyouikuiinkai/shogaigakusyu/bunka/calendar.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/info/kouji/18466.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/info/kouji/18466.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/info/community/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/info/community/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/saposen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/saposen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/juminkyoudo/kyoudosuisin/info_1/public/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/juminkyoudo/kyoudosuisin/info_1/public/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/juminkyoudo/kyoudosuisin/info_1/singikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/juminkyoudo/kyoudosuisin/info_1/singikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/seisakuhisho/hishokoho/info/kocho/13056.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/seisakuhisho/hishokoho/info/kocho/13056.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/juminkyoudo/kyoudosuisin/info_1/jichikai/14058.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/juminkyoudo/kyoudosuisin/info_1/jichikai/14058.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/seisakuhisho/hishokoho/info/1422277896928.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/soumu1/seisakuhisho/hishokoho/info/1422277896928.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/soshiki/minsei/jumin/madoguchi/info/jinkou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/minsei/jumin/madoguchi/info/jinkou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aboutlink.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aboutlink.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/5851.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/5851.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/info/about/9109.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/info/about/9109.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/soshiki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/soshiki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/section/reiki_int/reiki_menu.html",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/section/reiki_int/reiki_menu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/accesibility/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/accesibility/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/1512717703020/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/1512717703020/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/1512717957505/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/1512717957505/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/2020_aikawacalendar/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/2020_aikawacalendar/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/Eat_buy/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/Eat_buy/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/Eat_buy/buy/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/Eat_buy/buy/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/Eat_buy/eat/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/Eat_buy/eat/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/Eat_buy/service/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/Eat_buy/service/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/Experience_play/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/Experience_play/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/Sightseeing/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/Sightseeing/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/event/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/event/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/event/news/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/event/news/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/hiking/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/hiking/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/kameiten/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/kameiten/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/kameiten/buy/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/kameiten/buy/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/kameiten/eat/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/kameiten/eat/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/kameiten/service/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/kameiten/service/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/kameiten/stay/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/kameiten/stay/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/kanko_map/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/kanko_map/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/keisyo10sen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/keisyo10sen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/tomaru/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/aikawa_kankoukyoukai/tomaru/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/boutyou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/boutyou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/enquete/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/enquete/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/gikai_dayori/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/gikai_dayori/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h19/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h19/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h20/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h20/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h21/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h21/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h22/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h22/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h23/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h23/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h24/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h24/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h25/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h25/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h26/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h26/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h27/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h27/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h28/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h28/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h29/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h29/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h30/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h30/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h31/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/h31/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/r02/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/r02/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/r03/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/r03/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/r04/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/r04/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/r05/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/kousaihi/r05/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/s_sisatu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/s_sisatu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/s_sisatu/s_reiwa6/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/s_sisatu/s_reiwa6/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/s_sisatu/s_reiwa7/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/kouhou/s_sisatu/s_reiwa7/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/ikensyo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/ikensyo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kaiha/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kaiha/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/H28/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/H28/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/H29/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/H29/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/H30/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/H30/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/H31/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/H31/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/R02/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/R02/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/R03/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/R03/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h16/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h16/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h17/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h17/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h18/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h18/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h19/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h19/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h20/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h20/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h21/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h21/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h22/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h22/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h23/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h23/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h24/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h24/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h25/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h25/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h26/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h26/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h27/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/h27/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/kekka4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/kekka/kekka4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/tinzyoukekka/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/kekka/tinzyoukekka/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/h22/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/h22/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/h23/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/h23/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/h24/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/h24/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/h25/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/h25/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/h26/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/h26/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/h27/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/h27/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/heisei28/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/heisei28/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/heisei29/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/heisei29/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/heisei30/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/heisei30/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/heisei31/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/heisei31/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/reiwa2/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/reiwa2/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/reiwa3/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/reiwa3/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/reiwa4/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/reiwa4/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/reiwa5/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/nittei/reiwa5/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/h19/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/h19/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/h20/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/h20/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/h21/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/h21/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/h22/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/h22/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/h23/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/h23/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/h24/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/h24/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/h25/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/schedule/shitsumon/h25/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/shikumi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/shikumi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/syoukai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/syoukai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/assembly/torikumi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/assembly/torikumi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/aid/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/aid/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/aid/99/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/aid/99/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/aid/aed/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/aid/aed/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/aid/kousyu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/aid/kousyu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/aid/kyu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/aid/kyu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/aid/syoni/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/aid/syoni/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/aid/tekisei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/aid/tekisei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/bou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/bou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/bou/hogokeikaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/bou/hogokeikaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/bou/huusuigai/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/bou/huusuigai/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/bou/jalert/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/bou/jalert/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/bou/jishin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/bou/jishin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/bou/keikaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/bou/keikaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/bou/musen/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/bou/musen/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/bou/sonae/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/bou/sonae/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/bouka/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/bouka/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/dan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/dan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/dan/bundan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/dan/bundan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/fire_prevention/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/fire_prevention/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/honbu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/honbu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/jourei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/jourei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/jutaku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/jutaku/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/kanri/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/kanri/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/kiken/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/kiken/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/setsubi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/bousai/syoubou/setsubi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/event/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/event/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/foreigners/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/foreigners/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/foreigners/bombeiros/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/foreigners/bombeiros/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/foreigners/bombeiros/manual/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/foreigners/bombeiros/manual/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/foreigners/data_ikou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/foreigners/data_ikou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/hinannsienn/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/hinannsienn/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/hitorioya/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/hitorioya/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/fukushi_seido_service/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/fukushi_seido_service/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/genmen_waribiki/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/genmen_waribiki/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/genmen_waribiki/koutsu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/genmen_waribiki/koutsu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/genmen_waribiki/zeikoujo/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/genmen_waribiki/zeikoujo/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/iryou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/iryou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/kankei_kikan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/kankei_kikan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/soudan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/soudan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/teate_nenkin/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/teate_nenkin/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/techou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/hukushi/syougaisya/techou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/COVID-19/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/COVID-19/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/aid/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/aid/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/josei/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/josei/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/jouhou/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/jouhou/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/kenkou_gan/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/kenkou_gan/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/kenkoudukuri/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/kenkoudukuri/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/soudan_kouza/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/soudan_kouza/sitemap.dir.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/syokuiku/sitemap.dir.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.aikawa.kanagawa.jp/fukushi_iryo/kenkou_iryou_kyuukyuu/syokuiku/sitemap.dir.xml",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}
