@@ -1,0 +1,36 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-014",
+  "generatedAt": "2026-07-14T00:51:49.279Z",
+  "status": "validated",
+  "municipalities": [
+    {
+      "code": "12443",
+      "name": "御宿町"
+    },
+    {
+      "code": "12463",
+      "name": "鋸南町"
+    }
+  ],
+  "selectedCount": 31,
+  "selectedByMunicipality": {
+    "御宿町": 17,
+    "鋸南町": 14
+  },
+  "excludedCount": 9,
+  "files": {
+    "municipalities": "tasks/discovery/chiba-official-coverage-014-municipalities.json",
+    "targetSnippets": "tasks/discovery/chiba-official-coverage-014-target-snippets.json",
+    "selectedMain": "tasks/discovery/chiba-official-coverage-014-selected-main.json",
+    "selectedSnippets": "tasks/discovery/chiba-official-coverage-014-selected-snippets.json"
+  },
+  "next": "千葉県内市町村のコード順棚卸しは014で一巡。全国公式棚卸しは未完了のため、進捗JSON・HEAD・対象ファイルで次の未完了都道府県又は団体を確認して継続。",
+  "validations": {
+    "nodeCheck": "pass",
+    "slugDuplicates": "pass (31 additions, duplicates 0)",
+    "officialUrlReachability": "pass (31/31 HTTP 200)",
+    "eslint": "pass",
+    "gitDiffCheck": "pass",
+    "auditCoverage": "pass (failures 0, 千葉県 localOfficial 539)"
+  }
+}
