@@ -1,0 +1,31 @@
+{
+  "batchId": "niigata-official-coverage-008",
+  "prefecture": "新潟県",
+  "municipalities": [
+    {
+      "code": "15461",
+      "name": "湯沢町",
+      "officialBaseUrl": "https://www.town.yuzawa.lg.jp/"
+    },
+    {
+      "code": "15482",
+      "name": "津南町",
+      "officialBaseUrl": "https://www.town.tsunan.niigata.jp/"
+    },
+    {
+      "code": "15504",
+      "name": "刈羽村",
+      "officialBaseUrl": "https://www.vill.kariwa.niigata.jp/www/index.jsp"
+    },
+    {
+      "code": "15581",
+      "name": "関川村",
+      "officialBaseUrl": "http://www.vill.sekikawa.niigata.jp/"
+    },
+    {
+      "code": "15586",
+      "name": "粟島浦村",
+      "officialBaseUrl": "https://www.vill.awashimaura.lg.jp/"
+    }
+  ]
+}

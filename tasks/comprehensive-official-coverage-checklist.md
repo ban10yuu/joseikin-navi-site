@@ -8777,3 +8777,48 @@
   - 弥彦村の空き家住宅リフォーム助成事業は現在実施なし、阿賀町の移住支援まとめ、出雲崎町のカテゴリ・寄附・旧コロナ・一覧候補は第2巡候補に残す。
 - 次:
   - 新潟県公式棚卸し008として、15461湯沢町から自治体コード順に確認する。
+
+### 2026-07-14 新潟県公式棚卸し008（15461湯沢町・15482津南町・15504刈羽村・15581関川村・15586粟島浦村）
+
+- 作業範囲:
+  - 15461 湯沢町、15482 津南町、15504 刈羽村、15581 関川村、15586 粟島浦村の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページ/PDFを確認した。
+  - 自治体別クロールで候補365件を取得し、候補が150件超のため `tasks/discovery/niigata-official-coverage-008-snippets.json` に公式本文の短い根拠684件を保存した。
+  - 公式ドメイン限定URLリード260件を抽出し、詳細684件を `tasks/discovery/niigata-official-coverage-008-details.json` に取得した。刈羽村は公式ベースURLとメタリフレッシュ遷移を補正し、粟島浦村はPDF本文をpdftotextで確認した。
+- 採用:
+  - 合計84件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 湯沢町11件: 湯沢町骨髄等移植ドナー支援事業助成金、起業サポート補助金、社会福祉法人等による利用者負担軽減制度のお知らせ、湯沢町介護人材確保支援事業補助金について、妊産婦への医療費・健康診査費助成、すくすく子育て応援金について、未熟児養育医療給付について、湯沢町食料品等価格高騰対応支援金について、湯沢町防犯カメラ設置補助金、湯沢町防犯灯設置費補助金、不妊治療費助成。
+  - 津南町38件: 津南中等教育学校（町外在住前期生）通学費補助金、津南町高校生等通学費補助金、令和6年10月から児童手当の制度が拡充されました、津南町母子父子手当、津南町物価高対応子育て応援手当について、令和7年度津南町物価高対応低所得世帯支援給付金のお知らせ、ひとり親家庭等の医療費、1か月児健康診査費用助成のご案内、令和7年度インフルエンザ予防接種費用助成について、児童扶養手当、児童手当、重度心身障害者医療費、軽・中等度難聴者の補聴器購入費の一部助成について、子どもの医療費助成、人間ドック検査費用助成事業、妊婦のための支援給付、妊産婦医療費助成事業、日常生活用具の給付について、老人医療費助成、精神障害者医療費助成事業、新生児聴覚検査費用助成のご案内、津南町立津南病院就職支援金のご案内、特別児童扶養手当、住宅改修の手続きについて、津南町地方就職支援金、津南町移住・就業等支援事業補助金、町内で起業・創業に係る費用の一部を補助します、津南町子育て世帯移住支援金、津南町産業育成資金の貸付について、津南町アパート・貸家家賃支援事業補助金、津南町老朽危険空き家等除却費補助事業、住宅省エネ改修補助金事業について、克雪住宅について、木造住宅の耐震改修を補助します。、木造住宅の耐震診断料を補助します、渇水対策水田整備事業補助金の申請について、津南町結婚新生活支援事業補助金について、津南町難視聴共聴組合等支援事業補助金。
+  - 刈羽村9件: 刈羽村 不妊・不育治療費助成、刈羽村 妊婦・配偶者歯科健診費用助成、刈羽村 出産・子育て応援給付金、刈羽村 母子健康手帳交付・妊産婦医療費助成、刈羽村 妊産婦医療費助成、刈羽村奨学金制度、刈羽村補聴器購入費助成、刈羽村スポーツ・文化ツーリズム推進補助金、刈羽村 妊産婦・乳児健康診査費助成。
+  - 関川村25件: 関川村雪下ろし命綱固定アンカー等設置補助金、関川村住宅リフォーム補助金交付事業、関川村空き家リフォーム補助金、空家等解体費補助金について、関川村結婚祝金、関川村結婚新生活支援補助金、妊娠を希望する女性への風しん予防接種費用の全額助成を行います、子どもの任意インフルエンザ予防接種費用の一部助成のお知らせ、関川村妊産婦医療費助成について、高齢者インフルエンザと新型コロナウイルスの定期予防接種費用の一部助成のお知らせ、18歳以上の難聴者へ補聴器購入費を助成します、６次産業化チャレンジ事業補助金のご案内、関川村鳥獣害防除対策事業（電気柵等補助）について、関川村環境保全型農業推進事業（生分解性マルチ助成）のご案内、木質バイオマスストーブ等設置補助事業、関川村事業所改修補助金、関川村工業等導入促進対策補助金、関川村移動販売支援事業補助金、関川村起業支援補助金、児童手当について、通学定期券購入費補助事業、関川村暮らし応援商品券について、関川村子育てファミリー等移住支援金、関川村「新潟県婚活マッチングシステム」登録料補助金、関川村移住・就業等支援補助金。
+  - 粟島浦村1件: 令和7年度 粟島浦村観光バス乗入補助金。
+- 生成ファイル:
+  - `tasks/discovery/niigata-official-coverage-008-municipalities.json`
+  - `tasks/discovery/niigata-official-coverage-008-15461-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-008-15482-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-008-15504-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-008-15581-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-008-15586-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-008-15461-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-008-15482-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-008-15504-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-008-15581-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-008-15586-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-008-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-008-snippets.json`
+  - `tasks/discovery/niigata-official-coverage-008-url-leads.json`
+  - `tasks/discovery/niigata-official-coverage-008-details.json`
+  - `tasks/discovery/niigata-official-coverage-008-adopted-urls.json`
+  - `tasks/discovery/niigata-official-coverage-008.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（008関連JSON、checkpoint）。
+  - 追加slug重複: pass（84件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（84 primary official URLsすべてHTTP 200）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11988、officialLinkedActive 11868、manuallyVerifiedActive 11868、新潟県 localOfficial 518）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は新潟県15586粟島浦村到達のみで全国完了扱いしない。
+  - カテゴリページ、トップ、一覧、受付終了、全国制度案内、金額・対象・受付表現不足候補は第2巡候補に残す。粟島浦村の申請書・計画PDF等は、個別補助制度として必要項目が揃うもののみ採用した。
+- 次:
+  - 富山県公式棚卸し001として、16201富山市から自治体コード順に確認する。

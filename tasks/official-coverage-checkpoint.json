@@ -2,34 +2,34 @@
   "updatedAt": "2026-07-14T22:57:46+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "niigata-official-coverage-007",
-    "municipality": "弥彦村・田上町・阿賀町・出雲崎町",
-    "adopted": 94,
-    "held": 226,
+    "code": "niigata-official-coverage-008",
+    "municipality": "湯沢町・津南町・刈羽村・関川村・粟島浦村",
+    "adopted": 84,
+    "held": 281,
     "excluded": 0,
-    "sourceUrlsChecked": 320,
+    "sourceUrlsChecked": 684,
     "validation": {
-      "previousMunicipality": "新潟県公式棚卸し007として、15342弥彦村・15361田上町・15385阿賀町・15405出雲崎町を確認した。自治体別クロールで候補267件を取得し、短い本文スニペット286件と公式ドメイン限定URLリード102件、カテゴリ内アンカー抽出を加えて詳細320件の公式本文を確認した。カテゴリページ、受付終了、寄附・ふるさと納税、全国制度案内に近い候補を除き、個別公式ページ94件を新規採用した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "新潟県公式棚卸し008として、15461湯沢町・15482津南町・15504刈羽村・15581関川村・15586粟島浦村を確認した。自治体別クロールで候補365件を取得し、短い本文スニペット684件と公式ドメイン限定URLリード260件を加えて詳細684件の公式本文・PDFを確認した。カテゴリページ、トップ、一覧、受付終了、全国制度案内、金額・対象・受付表現不足の候補を除き、個別公式ページ84件を新規採用した。新潟県は15586粟島浦村まで第1巡到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for niigata-official-coverage-007.json / snippets / url-leads / details / adopted-urls / municipalities / split municipality inputs / candidates / official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 94 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 94 primary official URLs returned HTTP 200",
-      "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+      "json": "pass: JSON.parse for niigata-official-coverage-008.json / snippets / url-leads / details / adopted-urls / municipalities / split municipality inputs / candidates / official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 84 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 84 primary official URLs returned HTTP 200",
+      "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11904, officialLinkedActive 11784, manuallyVerifiedActive 11784, 新潟県 localOfficial 434)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11988, officialLinkedActive 11868, manuallyVerifiedActive 11868, 新潟県 localOfficial 518)"
     }
   },
   "next": {
-    "code": "niigata-official-coverage-008",
-    "municipality": "湯沢町",
-    "shortlist": "新潟県公式棚卸し007は弥彦村23件、田上町16件、阿賀町25件、出雲崎町30件の計94件を採用した。弥彦村の空き家住宅リフォーム助成事業（現在実施なし）、阿賀町の移住支援まとめ、出雲崎町のカテゴリ・寄附・旧コロナ・一覧候補は第2巡候補として保持する。",
-    "instructions": "次回は新潟県公式棚卸し008として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に15461湯沢町から開始する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "toyama-official-coverage-001",
+    "municipality": "富山市",
+    "shortlist": "新潟県公式棚卸し008は湯沢町11件、津南町38件、刈羽村9件、関川村25件、粟島浦村1件の計84件を採用した。カテゴリページ、トップ、一覧、受付終了、全国制度案内、金額・対象・受付表現不足候補、粟島浦村の申請書・計画PDF等は第2巡候補として保持する。",
+    "instructions": "次回は富山県公式棚卸し001として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に16201富山市から開始する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "新潟県",
-    "status": "in-progress",
-    "lastBatch": "niigata-official-coverage-007",
-    "notes": "新潟県は15405出雲崎町まで自治体コード順に到達。次は15461湯沢町。神奈川県は14402清川村まで第1巡到達済み、東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
+    "status": "first-pass-complete",
+    "lastBatch": "niigata-official-coverage-008",
+    "notes": "新潟県は15586粟島浦村まで自治体コード順に第1巡到達。次は富山県16201富山市。神奈川県は14402清川村まで第1巡到達済み、東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
