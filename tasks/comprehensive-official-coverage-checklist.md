@@ -9353,3 +9353,45 @@
   - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 山梨県公式棚卸し002として、19207韮崎市から自治体コード順に確認する。
+
+
+### 2026-07-15 山梨県公式棚卸し002（19207韮崎市・19208南アルプス市・19209北杜市・19210甲斐市・19211笛吹市）
+
+- 作業範囲:
+  - 19207 韮崎市、19208 南アルプス市、19209 北杜市、19210 甲斐市、19211 笛吹市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 自治体別クロールで候補471件を取得した。shortlistが150件超かつcrawl候補の40%超だったため、候補本文スニペット471件に加え、アンカーテキスト起点の制度リード634件から500ページを再取得し、再スコア対象971件を保存した。
+  - 採用対象の75公式ページは全件HTTP 200を確認した。
+- 採用:
+  - 合計75件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 韮崎市12件: ひとり親家庭医療費助成金制度について、移住希望者向けお試し住宅について、医療費が高額になったとき(高額療養費・限度額適用認定証)、結婚新生活支援事業補助金について、国保の給付について(出産育児一時金・葬祭費)、国民年金保険料の免除制度について、子ども医療費助成制度について、重度心身障害者医療助成制度、中小企業振興資金等融資制度について、韮崎市移住支援金交付事業について、韮崎市起業支援補助金について、不妊症対策支援事業。
+  - 南アルプス市15件: 結婚新生活支援事業補助金、ひとり親家庭医療費助成制度、ひとり親家庭小中学校入進学支度金、一時預かり事業の無償化が始まります、学校給食費無償化及び学校給食費等補助金制度について、子ども医療費助成制度、重度心身障害者医療費助成制度、出産育児一時金、南アルプス市子育て世帯住宅取得支援事業、南アルプス市創業支援補助金、不妊治療費助成事業、物価高対応子育て応援手当の支給について、保育料の第一子無償化が令和４年４月から始まります、令和8年度若者世帯定住支援奨励金事業、令和8年度南アルプス市猫不妊・去勢手術費補助金。
+  - 北杜市16件: 0歳児から2歳児の保育料の無料化について（北杜市独自事業）、こどもの予防接種の種類と受け方、ひとり親家庭医療費助成制度、マタニティタクシー補助金について、空き家バンク活用促進リフォーム補助金について、犬や猫の不妊去勢手術と補助金制度、高齢者肺炎球菌予防接種（65歳の方）、国民年金保険料の免除について、子ども医療費助成制度、死亡一時金の受給要件と手続き、児童手当、児童手当の制度の制度改正について（令和6年１０月分から）、自立支援医療費 精神通院医療（障害児支援）、重度心身障害者医療費助成制度、重度心身障害者医療費助成制度（障害児支援）、帯状疱疹予防接種 定期接種（65歳、70歳、75歳、80歳、85歳、90歳、95歳、100歳の方）。
+  - 甲斐市16件: 「物価高対応子育て応援手当」及び「山梨物価高対応子育て応援特別給付金」について、【妊婦対象】RSウイルス感染症定期予防接種について、ひとり親医療費助成制度、ひとり親家庭高等学校卒業程度認定試験合格支援事業、一部負担金の減免制度、下水道使用料の減免、下水道排水設備工事利子補給制度について、学校給食費の無償化について、給食費（主食費・副食費）の負担軽減について、空き家バンクリフォーム補助金、軽自動車税の減免制度について、甲斐市こども医療費助成金制度について、甲斐市に移住で最大100万円＋子ども加算！甲斐市移住支援金制度、甲斐市移住支援事業補助金、甲斐市再生可能エネルギー電力導入補助金を交付します、甲斐市住宅取得支援事業(補助制度)。
+  - 笛吹市16件: 「高齢者の補聴器購入に対する助成を行います」、学校給食費無償化及び笛吹市義務教育諸学校児童生徒学校給食費等補助金について、市民の保育料と給食費を無償化します、児童手当、児童扶養手当、住居確保給付金の支給、出産育児一時金、奨学金返還支援事業、租税条約に基づく個人住民税の免除申請について、笛吹市やまなしKAITEKI住宅普及促進事業補助金について、笛吹市有料ごみ袋（可燃ごみ用）の無料配布、不妊治療費支援事業、幼児教育・保育無償化について、令和8年度子育て世帯住宅取得支援事業、令和8年度子育て世帯住宅取得補助事業、家庭用生ごみ処理機等補助金。
+- 生成ファイル:
+  - `tasks/discovery/yamanashi-official-coverage-002-19207-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-002-19208-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-002-19209-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-002-19210-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-002-19211-municipality.json`
+  - `tasks/discovery/yamanashi-official-coverage-002-adopted-urls.json`
+  - `tasks/discovery/yamanashi-official-coverage-002-adoption-ranked.json`
+  - `tasks/discovery/yamanashi-official-coverage-002-candidates.json`
+  - `tasks/discovery/yamanashi-official-coverage-002-municipalities.json`
+  - `tasks/discovery/yamanashi-official-coverage-002-rescored-snippets.json`
+  - `tasks/discovery/yamanashi-official-coverage-002-snippets.json`
+  - `tasks/discovery/yamanashi-official-coverage-002-url-leads.json`
+  - `tasks/discovery/yamanashi-official-coverage-002.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（002関連JSON）。
+  - 追加slug重複: pass（75件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（75 primary official URLsすべてHTTP 200）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 12927、officialLinkedActive 12807、manuallyVerifiedActive 12807、山梨県 localOfficial 251）。
+- 注意:
+  - 山梨県は19201甲府市から19211笛吹市まで第1巡に到達したが、全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は山梨県19211笛吹市到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 山梨県公式棚卸し003として、19212上野原市から自治体コード順に確認する。

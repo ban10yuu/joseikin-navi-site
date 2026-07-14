@@ -1,0 +1,32 @@
+{
+  "batchId": "yamanashi-official-coverage-002",
+  "prefecture": "山梨県",
+  "generatedAt": "2026-07-15T03:05:00+09:00",
+  "municipalities": [
+    {
+      "code": "19207",
+      "name": "韮崎市",
+      "officialBaseUrl": "https://www.city.nirasaki.lg.jp/"
+    },
+    {
+      "code": "19208",
+      "name": "南アルプス市",
+      "officialBaseUrl": "https://www.city.minami-alps.yamanashi.jp/"
+    },
+    {
+      "code": "19209",
+      "name": "北杜市",
+      "officialBaseUrl": "https://www.city.hokuto.yamanashi.jp/"
+    },
+    {
+      "code": "19210",
+      "name": "甲斐市",
+      "officialBaseUrl": "https://www.city.kai.yamanashi.jp/"
+    },
+    {
+      "code": "19211",
+      "name": "笛吹市",
+      "officialBaseUrl": "https://www.city.fuefuki.yamanashi.jp/"
+    }
+  ]
+}

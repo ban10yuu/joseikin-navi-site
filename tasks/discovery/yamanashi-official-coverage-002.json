@@ -1,0 +1,156 @@
+{
+  "batchId": "yamanashi-official-coverage-002",
+  "prefecture": "山梨県",
+  "generatedAt": "2026-07-15T03:35:00+09:00",
+  "scope": [
+    {
+      "code": "19207",
+      "name": "韮崎市",
+      "officialBaseUrl": "https://www.city.nirasaki.lg.jp/"
+    },
+    {
+      "code": "19208",
+      "name": "南アルプス市",
+      "officialBaseUrl": "https://www.city.minami-alps.yamanashi.jp/"
+    },
+    {
+      "code": "19209",
+      "name": "北杜市",
+      "officialBaseUrl": "https://www.city.hokuto.yamanashi.jp/"
+    },
+    {
+      "code": "19210",
+      "name": "甲斐市",
+      "officialBaseUrl": "https://www.city.kai.yamanashi.jp/"
+    },
+    {
+      "code": "19211",
+      "name": "笛吹市",
+      "officialBaseUrl": "https://www.city.fuefuki.yamanashi.jp/"
+    }
+  ],
+  "discovery": {
+    "candidateCount": 471,
+    "snippetCount": 971,
+    "urlLeadCount": 634,
+    "rankedCount": 157,
+    "adoptedCount": 75,
+    "heldCount": 896
+  },
+  "adoptedByMunicipality": {
+    "韮崎市": {
+      "count": 12,
+      "titles": [
+        "ひとり親家庭医療費助成金制度について",
+        "移住希望者向けお試し住宅について",
+        "医療費が高額になったとき(高額療養費・限度額適用認定証)",
+        "結婚新生活支援事業補助金について",
+        "国保の給付について(出産育児一時金・葬祭費)",
+        "国民年金保険料の免除制度について",
+        "子ども医療費助成制度について",
+        "重度心身障害者医療助成制度",
+        "中小企業振興資金等融資制度について",
+        "韮崎市移住支援金交付事業について",
+        "韮崎市起業支援補助金について",
+        "不妊症対策支援事業"
+      ]
+    },
+    "南アルプス市": {
+      "count": 15,
+      "titles": [
+        "結婚新生活支援事業補助金",
+        "ひとり親家庭医療費助成制度",
+        "ひとり親家庭小中学校入進学支度金",
+        "一時預かり事業の無償化が始まります",
+        "学校給食費無償化及び学校給食費等補助金制度について",
+        "子ども医療費助成制度",
+        "重度心身障害者医療費助成制度",
+        "出産育児一時金",
+        "南アルプス市子育て世帯住宅取得支援事業",
+        "南アルプス市創業支援補助金",
+        "不妊治療費助成事業",
+        "物価高対応子育て応援手当の支給について",
+        "保育料の第一子無償化が令和４年４月から始まります",
+        "令和8年度若者世帯定住支援奨励金事業",
+        "令和8年度南アルプス市猫不妊・去勢手術費補助金"
+      ]
+    },
+    "北杜市": {
+      "count": 16,
+      "titles": [
+        "0歳児から2歳児の保育料の無料化について（北杜市独自事業）",
+        "こどもの予防接種の種類と受け方",
+        "ひとり親家庭医療費助成制度",
+        "マタニティタクシー補助金について",
+        "空き家バンク活用促進リフォーム補助金について",
+        "犬や猫の不妊去勢手術と補助金制度",
+        "高齢者肺炎球菌予防接種（65歳の方）",
+        "国民年金保険料の免除について",
+        "子ども医療費助成制度",
+        "死亡一時金の受給要件と手続き",
+        "児童手当",
+        "児童手当の制度の制度改正について（令和6年１０月分から）",
+        "自立支援医療費 精神通院医療（障害児支援）",
+        "重度心身障害者医療費助成制度",
+        "重度心身障害者医療費助成制度（障害児支援）",
+        "帯状疱疹予防接種 定期接種（65歳、70歳、75歳、80歳、85歳、90歳、95歳、100歳の方）"
+      ]
+    },
+    "甲斐市": {
+      "count": 16,
+      "titles": [
+        "「物価高対応子育て応援手当」及び「山梨物価高対応子育て応援特別給付金」について",
+        "【妊婦対象】RSウイルス感染症定期予防接種について",
+        "ひとり親医療費助成制度",
+        "ひとり親家庭高等学校卒業程度認定試験合格支援事業",
+        "一部負担金の減免制度",
+        "下水道使用料の減免",
+        "下水道排水設備工事利子補給制度について",
+        "学校給食費の無償化について",
+        "給食費（主食費・副食費）の負担軽減について",
+        "空き家バンクリフォーム補助金",
+        "軽自動車税の減免制度について",
+        "甲斐市こども医療費助成金制度について",
+        "甲斐市に移住で最大100万円＋子ども加算！甲斐市移住支援金制度",
+        "甲斐市移住支援事業補助金",
+        "甲斐市再生可能エネルギー電力導入補助金を交付します",
+        "甲斐市住宅取得支援事業(補助制度)"
+      ]
+    },
+    "笛吹市": {
+      "count": 16,
+      "titles": [
+        "「高齢者の補聴器購入に対する助成を行います」",
+        "学校給食費無償化及び笛吹市義務教育諸学校児童生徒学校給食費等補助金について",
+        "市民の保育料と給食費を無償化します",
+        "児童手当",
+        "児童扶養手当",
+        "住居確保給付金の支給",
+        "出産育児一時金",
+        "奨学金返還支援事業",
+        "租税条約に基づく個人住民税の免除申請について",
+        "笛吹市やまなしKAITEKI住宅普及促進事業補助金について",
+        "笛吹市有料ごみ袋（可燃ごみ用）の無料配布",
+        "不妊治療費支援事業",
+        "幼児教育・保育無償化について",
+        "令和8年度子育て世帯住宅取得支援事業",
+        "令和8年度子育て世帯住宅取得補助事業",
+        "家庭用生ごみ処理機等補助金"
+      ]
+    }
+  },
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for yamanashi-official-coverage-002 JSON files",
+    "addedSlugUniqueness": "pass: 75 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 75 primary official URLs returned HTTP 200",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12927, officialLinkedActive 12807, manuallyVerifiedActive 12807, 山梨県 localOfficial 251)"
+  },
+  "next": {
+    "batchId": "yamanashi-official-coverage-003",
+    "startMunicipalityCode": "19212",
+    "startMunicipalityName": "上野原市"
+  }
+}

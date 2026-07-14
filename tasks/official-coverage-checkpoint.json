@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T02:50:00+09:00",
+  "updatedAt": "2026-07-15T03:35:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "yamanashi-official-coverage-001",
-    "municipality": "甲府市・富士吉田市・都留市・山梨市・大月市",
-    "adopted": 100,
-    "held": 6443,
+    "code": "yamanashi-official-coverage-002",
+    "municipality": "韮崎市・南アルプス市・北杜市・甲斐市・笛吹市",
+    "adopted": 75,
+    "held": 896,
     "excluded": 0,
-    "sourceUrlsChecked": 100,
+    "sourceUrlsChecked": 75,
     "validation": {
-      "previousMunicipality": "山梨県公式棚卸し001として、19201甲府市・19202富士吉田市・19204都留市・19205山梨市・19206大月市を確認した。自治体別クロールで候補607件、短い本文スニペット6543件、公式URLリード3748件を保存し、個別公式ページ100件を新規採用した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "山梨県公式棚卸し002として、19207韮崎市・19208南アルプス市・19209北杜市・19210甲斐市・19211笛吹市を確認した。自治体別クロールで候補471件、再スコア対象971件、公式URLリード634件を保存し、個別公式ページ75件を新規採用した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for yamanashi-official-coverage-001 JSON files and official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 100 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 100 primary official URLs returned HTTP 200",
+      "json": "pass: JSON.parse for yamanashi-official-coverage-002 JSON files",
+      "addedSlugUniqueness": "pass: 75 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 75 primary official URLs returned HTTP 200",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12852, officialLinkedActive 12732, manuallyVerifiedActive 12732, 山梨県 localOfficial 176)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 12927, officialLinkedActive 12807, manuallyVerifiedActive 12807, 山梨県 localOfficial 251)"
     }
   },
   "next": {
-    "code": "yamanashi-official-coverage-002",
-    "municipality": "韮崎市",
-    "shortlist": "山梨県公式棚卸し001は甲府市20件、富士吉田市20件、都留市20件、山梨市20件、大月市20件の計100件を採用した。トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補として保持する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、19207韮崎市を開始地点として山梨県公式棚卸し002を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "yamanashi-official-coverage-003",
+    "municipality": "上野原市",
+    "shortlist": "山梨県公式棚卸し002は韮崎市12件、南アルプス市15件、北杜市16件、甲斐市16件、笛吹市16件の計75件を採用した。トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補として保持する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、19212上野原市を開始地点として山梨県公式棚卸し003を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "山梨県",
     "status": "in-progress",
-    "lastBatch": "yamanashi-official-coverage-001",
-    "notes": "山梨県は19201甲府市から19206大月市まで自治体コード順に第1巡到達。全国公式棚卸しは未完了。次は19207韮崎市から継続する。"
+    "lastBatch": "yamanashi-official-coverage-002",
+    "notes": "山梨県は19201甲府市から19211笛吹市まで自治体コード順に第1巡到達。全国公式棚卸しは未完了。次は19212上野原市から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
