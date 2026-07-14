@@ -1,0 +1,4701 @@
+{
+  "batchId": "kanagawa-official-coverage-002-14206",
+  "prefecture": "神奈川県",
+  "generatedAt": "2026-07-14T09:26:45.977Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 157,
+  "results": [
+    {
+      "code": "14206",
+      "name": "小田原市",
+      "officialBaseUrl": "https://www.city.odawara.kanagawa.jp/",
+      "discoveredUrlCount": 300,
+      "candidateCount": 157,
+      "strongCandidateCount": 1,
+      "lowPriorityCandidateCount": 156,
+      "candidates": [
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/",
+          "status": 200,
+          "title": "小田原市",
+          "h1": "小田原市",
+          "updatedAt": "令和8年6月1日",
+          "keywordHits": [
+            "貸付",
+            "事業者",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/emergency/emergency-case/jap.html",
+          "status": 200,
+          "title": "急患・医療",
+          "h1": "急患・医療",
+          "updatedAt": "2025年12月23日",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/disaster/disaster/allhazardmap.html",
+          "status": 200,
+          "title": "小田原市ハザードマップ等一覧(令和４年９月発行)",
+          "h1": "小田原市ハザードマップ等一覧(令和４年９月発行)",
+          "updatedAt": "2025年12月04日",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "耐震"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/disaster/disaster/siryo/k_hinanjyo.html",
+          "status": 200,
+          "title": "避難所・避難場所・仮設救護所一覧",
+          "h1": "避難所・避難場所・仮設救護所一覧",
+          "updatedAt": "2026年05月29日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/f-fight/",
+          "status": 200,
+          "title": "小田原市消防本部",
+          "h1": "小田原市消防本部",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/28/",
+          "status": 200,
+          "title": "小田原市 | 広報広聴室",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/16/",
+          "status": 200,
+          "title": "小田原市 | 企画部：企画政策課",
+          "h1": "",
+          "updatedAt": "平成29年3月28日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/32/",
+          "status": 200,
+          "title": "小田原市 | 企画部：財政課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/50/",
+          "status": 200,
+          "title": "小田原市 | 総務部：総務課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/35/",
+          "status": 200,
+          "title": "小田原市 | 総務部：市税総務課",
+          "h1": "",
+          "updatedAt": "令和8年7月31日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/36/",
+          "status": 200,
+          "title": "小田原市 | 総務部：市民税課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/38/",
+          "status": 200,
+          "title": "小田原市 | 総務部：資産税課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/51/",
+          "status": 200,
+          "title": "小田原市 | 市民部：地域政策課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/63/",
+          "status": 200,
+          "title": "小田原市 | 防災部：防災対策課",
+          "h1": "",
+          "updatedAt": "令和8年6月26日",
+          "keywordHits": [
+            "補助金",
+            "耐震"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/47/",
+          "status": 200,
+          "title": "小田原市 | 文化部：生涯学習課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/60/",
+          "status": 200,
+          "title": "小田原市 | 文化部：文化財課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/45/",
+          "status": 200,
+          "title": "小田原市 | 文化部：図書館",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/12/",
+          "status": 200,
+          "title": "小田原市 | 環境部：環境政策課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/104/",
+          "status": 200,
+          "title": "小田原市 | 環境部：ゼロカーボン推進課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/13/",
+          "status": 200,
+          "title": "小田原市 | 環境部：環境保護課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "不妊"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/58/",
+          "status": 200,
+          "title": "小田原市 | 福祉健康部：福祉政策課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/103/",
+          "status": 200,
+          "title": "小田原市 | 福祉健康部：生活援護課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/30/",
+          "status": 200,
+          "title": "小田原市 | 福祉健康部：高齢介護課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/42/",
+          "status": 200,
+          "title": "小田原市 | 福祉健康部：障がい福祉課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "減免",
+            "医療費助成",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/61/",
+          "status": 200,
+          "title": "小田原市 | 福祉健康部：保険課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "一時金",
+            "減免",
+            "免除",
+            "移住",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/21/",
+          "status": 200,
+          "title": "小田原市 | 福祉健康部：健康づくり課（保健センター）",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/34/",
+          "status": 200,
+          "title": "小田原市 | 子ども若者部：子ども政策課",
+          "h1": "",
+          "updatedAt": "令和9年1月10日",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "貸付",
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 27,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/118/",
+          "status": 200,
+          "title": "小田原市 | 子ども若者部：子ども若者支援課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/88/",
+          "status": 200,
+          "title": "小田原市 | 子ども若者部：保育課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "事業者"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/33/",
+          "status": 200,
+          "title": "小田原市 | 経済部：産業政策課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "住宅",
+            "創業",
+            "起業"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/56/",
+          "status": 200,
+          "title": "小田原市 | 経済部：農政課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "農業",
+            "林業"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/46/",
+          "status": 200,
+          "title": "小田原市 | 経済部：水産海浜課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "水産"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/53/",
+          "status": 200,
+          "title": "小田原市 | 都市部：都市政策課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家",
+            "空家"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/52/",
+          "status": 200,
+          "title": "小田原市 | 都市部：都市計画課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/24/",
+          "status": 200,
+          "title": "小田原市 | 都市部：建築指導課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/8/",
+          "status": 200,
+          "title": "小田原市 | 都市部：開発審査課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/54/",
+          "status": 200,
+          "title": "小田原市 | 建設部：道水路整備課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/2/",
+          "status": 200,
+          "title": "小田原市 | 建設部：みどり公園課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/23/",
+          "status": 200,
+          "title": "小田原市 | 建設部：建築課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/40/",
+          "status": 200,
+          "title": "小田原市 | 会計管理者：出納室",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/126/",
+          "status": 200,
+          "title": "小田原市 | 患者サポートセンター",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/116/",
+          "status": 200,
+          "title": "小田原市 | 病院管理局：施設用度課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/65/",
+          "status": 200,
+          "title": "小田原市 | 消防：予防課",
+          "h1": "",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/107/",
+          "status": 200,
+          "title": "小田原市 | 消防：救急課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/6/",
+          "status": 200,
+          "title": "小田原市 | 上下水道局：給排水業務課(小田原市高田401)",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/26/",
+          "status": 200,
+          "title": "小田原市 | 上下水道局：水道整備課(小田原市高田401)",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/5/",
+          "status": 200,
+          "title": "小田原市 | 上下水道局：下水道整備課(小田原市高田401)",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/19/",
+          "status": 200,
+          "title": "小田原市 | 教育部：教育総務課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/9/",
+          "status": 200,
+          "title": "小田原市 | 教育部：保健給食課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/10/",
+          "status": 200,
+          "title": "小田原市 | 教育部：教育指導課",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/msec/55/",
+          "status": 200,
+          "title": "小田原市 | 農業委員会事務局",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/emergency/",
+          "status": 200,
+          "title": "いざというときに",
+          "h1": "いざというときに",
+          "updatedAt": "令和8年6月26日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/",
+          "status": 200,
+          "title": "小田原で暮らす",
+          "h1": "小田原で暮らす",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "医療費助成",
+            "住宅",
+            "事業者",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/tax-resi/",
+          "status": 200,
+          "title": "戸籍・税",
+          "h1": "戸籍・税",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/edu-ch/",
+          "status": 200,
+          "title": "教育・子育て",
+          "h1": "教育・子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "事業者",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/disaster/",
+          "status": 200,
+          "title": "防災・安全",
+          "h1": "防災・安全",
+          "updatedAt": "令和8年6月26日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/welfare/",
+          "status": 200,
+          "title": "福祉・健康",
+          "h1": "福祉・健康",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "一時金",
+            "減免",
+            "免除",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "事業者",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/envi/",
+          "status": 200,
+          "title": "環境・エネルギー",
+          "h1": "環境・エネルギー",
+          "updatedAt": "令和6年3月20日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "省エネ"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/industry/",
+          "status": 200,
+          "title": "地域経済",
+          "h1": "地域経済",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "奨励金",
+            "住宅",
+            "創業",
+            "起業",
+            "事業者",
+            "農業",
+            "林業",
+            "水産",
+            "奨学金"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/c-planning/",
+          "status": 200,
+          "title": "都市基盤",
+          "h1": "都市基盤",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "空家",
+            "事業者",
+            "耐震"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/i-national/",
+          "status": 200,
+          "title": "市民活動/地域運営",
+          "h1": "市民活動/地域運営",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/lifelong/",
+          "status": 200,
+          "title": "文化・生涯学習",
+          "h1": "文化・生涯学習",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "奨励金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/",
+          "status": 200,
+          "title": "行政経営",
+          "h1": "行政経営",
+          "updatedAt": "平成27年7月20日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "農業",
+            "水産",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/hospital/",
+          "status": 200,
+          "title": "小田原市立総合医療センター",
+          "h1": "小田原市立総合医療センター",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学",
+            "省エネ"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/event/",
+          "status": 200,
+          "title": "小田原市 | イベントカレンダー",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/jigyou/",
+          "status": 200,
+          "title": "事業者の方へ",
+          "h1": "事業者の方へ",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "補助金",
+            "支援金",
+            "奨励金",
+            "貸付",
+            "住宅",
+            "事業者",
+            "農業",
+            "水産",
+            "子育て",
+            "奨学金",
+            "耐震"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/public_private_partnerships/",
+          "status": 200,
+          "title": "小田原市 | 公民連携の取り組み",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/mayor/",
+          "status": 200,
+          "title": "ようこそ市長室のホームページへ",
+          "h1": "ようこそ市長室のホームページへ",
+          "updatedAt": "令和8年2月16日",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/about/introduction/",
+          "status": 200,
+          "title": "小田原市 | 小田原ってどんなまち",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/public-i/",
+          "status": 200,
+          "title": "公共施設",
+          "h1": "公共施設",
+          "updatedAt": "令和3年7月31日",
+          "keywordHits": [
+            "貸付",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/public-i/admin/",
+          "status": 200,
+          "title": "市役所、タウンセンター、住民窓口・市民窓口",
+          "h1": "市役所、タウンセンター、住民窓口・市民窓口",
+          "updatedAt": "",
+          "keywordHits": [
+            "耐震"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/public-i/medical/",
+          "status": 200,
+          "title": "医療/消防/保健・福祉",
+          "h1": "医療/消防/保健・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/public-i/education/",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/public-i/e_f/",
+          "status": 200,
+          "title": "市民活動・生涯学習・社会教育",
+          "h1": "市民活動・生涯学習・社会教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/public-i/market/",
+          "status": 200,
+          "title": "市場・漁港",
+          "h1": "市場・漁港",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "水産",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/public-i/reien/",
+          "status": 200,
+          "title": "斎場・霊園",
+          "h1": "斎場・霊園",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/peace/human/jinken/parole/p39754.html",
+          "status": 200,
+          "title": "社会を明るくする運動",
+          "h1": "社会を明るくする運動",
+          "updatedAt": "2026年07月01日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/movie/colorful/p32112.html",
+          "status": 200,
+          "title": "広報番組「colorful（カラフル）」",
+          "h1": "広報番組「colorful（カラフル）」",
+          "updatedAt": "2026年07月01日",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/public/detail/11300/",
+          "status": 200,
+          "title": "小田原市 | 広報小田原アーカイブ（令和8年7月1日発行)",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/movie",
+          "status": 200,
+          "title": "動画コーナー",
+          "h1": "動画コーナー",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/welfare/funds/odawara-redcross/p42040.html",
+          "status": 200,
+          "title": "【小田原市赤十字奉仕団主催】 救急法基礎講習の受講者募集",
+          "h1": "【小田原市赤十字奉仕団主催】 救急法基礎講習の受講者募集",
+          "updatedAt": "2026年07月10日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/industry/fisher/event/p41638.html",
+          "status": 200,
+          "title": "第33回小田原みなとまつり",
+          "h1": "第33回小田原みなとまつり",
+          "updatedAt": "2026年07月09日",
+          "keywordHits": [
+            "移住",
+            "水産",
+            "就学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/industry/fisher/morningmarket/p14096.html",
+          "status": 200,
+          "title": "小田原・港の朝市",
+          "h1": "",
+          "updatedAt": "2026年07月09日",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/topix/",
+          "status": 200,
+          "title": "トピックス",
+          "h1": "トピックス",
+          "updatedAt": "令和8年7月31日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/public-i/market/p42032.html",
+          "status": 200,
+          "title": "小田原市 | 小田原市公設水産地方卸売市場自動販売機設置場所の貸付けについて",
+          "h1": "",
+          "updatedAt": "2026年07月10日",
+          "keywordHits": [
+            "貸付",
+            "水産"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/edu-ch/event/p41899.html",
+          "status": 200,
+          "title": "わってらか×子ども政策課",
+          "h1": "わってらか×子ども政策課",
+          "updatedAt": "2026年07月08日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/lifelong/sports/sport-f/shiteikanri/p41905.html",
+          "status": 200,
+          "title": "小田原市スポーツ施設指定管理者の募集について",
+          "h1": "小田原市スポーツ施設指定管理者の募集について",
+          "updatedAt": "2026年07月02日",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/recruit/p08594.html",
+          "status": 200,
+          "title": "小田原市ホームページバナー広告募集",
+          "h1": "小田原市ホームページバナー広告募集",
+          "updatedAt": "2026年07月01日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/recruit/",
+          "status": 200,
+          "title": "募集情報",
+          "h1": "募集情報",
+          "updatedAt": "平成28年3月21日",
+          "keywordHits": [
+            "補助金",
+            "貸付",
+            "事業者",
+            "水産",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13809",
+          "status": 200,
+          "title": "小田原市 | 記者発表資料「そらジローと学ぼう！ 熱中症予防啓発授業」",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13802",
+          "status": 200,
+          "title": "小田原市 | 記者発表資料「小田原ふるさと大使・林 英哲氏が、演奏活動55周年記念コンサートを開催！」",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13807",
+          "status": 200,
+          "title": "小田原市 | 記者発表資料「「第33回小田原みなとまつり」開催！」",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13800",
+          "status": 200,
+          "title": "小田原市 | 記者発表資料「「夏休みおもしろ学校」2次申し込みを受け付けます」",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/press/",
+          "status": 200,
+          "title": "小田原市 | 記者発表資料検索",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "水産",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/envi/refuse/",
+          "status": 200,
+          "title": "ごみ・資源",
+          "h1": "ごみ・資源",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/peace/human/jinken/foreign/p37421.html",
+          "status": 200,
+          "title": "外国人(がいこくじん)の方(かた)へ",
+          "h1": "外国人(がいこくじん)の方(かた)へ",
+          "updatedAt": "2024年12月06日",
+          "keywordHits": [
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/public/",
+          "status": 200,
+          "title": "小田原市 | 広報小田原アーカイブ（令和8年分)",
+          "h1": "",
+          "updatedAt": "令和8年1月1日",
+          "keywordHits": [
+            "支援金",
+            "空き家",
+            "水産",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/announcing/shiseiikenteian2.html",
+          "status": 200,
+          "title": "市政へのご意見・ご提案",
+          "h1": "市政へのご意見・ご提案",
+          "updatedAt": "2023年06月13日",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/soudan/",
+          "status": 200,
+          "title": "小田原市 | 相談",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/mailmagazine/",
+          "status": 200,
+          "title": "おだわらメールマガジン",
+          "h1": "おだわらメールマガジン",
+          "updatedAt": "",
+          "keywordHits": [
+            "省エネ"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/ubio/pc/",
+          "status": 200,
+          "title": "小田原市",
+          "h1": "小田原市",
+          "updatedAt": "令和8年6月26日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/welfare/health/h-class/p29379.html",
+          "status": 200,
+          "title": "まちなか健康相談",
+          "h1": "まちなか健康相談",
+          "updatedAt": "2026年05月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/welfare/health/h-class/hyakusai.html",
+          "status": 200,
+          "title": "市民体操『おだわら百彩』",
+          "h1": "市民体操『おだわら百彩』",
+          "updatedAt": "2026年06月05日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/disclosure/singikaitounokoukai/information/houkagojidoukurabusennteiiinnkai.html",
+          "status": 200,
+          "title": "小田原市放課後児童クラブ運営事業者選定委員会のお知らせ",
+          "h1": "小田原市放課後児童クラブ運営事業者選定委員会のお知らせ",
+          "updatedAt": "2026年07月03日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/disclosure/singikaitounokoukai/information/shiseki.html",
+          "status": 200,
+          "title": "史跡小田原城跡調査・整備委員会のお知らせ",
+          "h1": "史跡小田原城跡調査・整備委員会のお知らせ",
+          "updatedAt": "2026年06月08日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/encycl/",
+          "status": 200,
+          "title": "小田原市 | 小田原デジタルアーカイブ",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/OCS/",
+          "status": 200,
+          "title": "おだわら市民学校",
+          "h1": "おだわら市民学校",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/industry/corpo/",
+          "status": 200,
+          "title": "企業誘致",
+          "h1": "企業誘致",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/announcing/promotion/p08406.html",
+          "status": 200,
+          "title": "小田原市ソーシャルメディア・SNSアカウント一覧",
+          "h1": "小田原市ソーシャルメディア・SNSアカウント一覧",
+          "updatedAt": "2026年06月03日",
+          "keywordHits": [
+            "移住",
+            "水産",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/tax-resi/tax2/furusato/",
+          "status": 200,
+          "title": "ふるさと納税",
+          "h1": "ふるさと納税",
+          "updatedAt": "令和7年10月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/itpolicy/p25549.html",
+          "status": 200,
+          "title": "小田原市オープンデータサイト",
+          "h1": "小田原市オープンデータサイト",
+          "updatedAt": "2026年06月17日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/about/statistics/",
+          "status": 200,
+          "title": "統計",
+          "h1": "統計",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "林業"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/link/",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "",
+          "keywordHits": [
+            "林業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/public-i/admin/p-office/",
+          "status": 200,
+          "title": "市役所",
+          "h1": "市役所",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/about/introduction/kakuka.html",
+          "status": 200,
+          "title": "小田原市の組織",
+          "h1": "小田原市の組織",
+          "updatedAt": "2026年05月01日",
+          "keywordHits": [
+            "移住",
+            "農業",
+            "水産",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/sitemap/",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "令和3年7月31日",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "奨励金",
+            "減免",
+            "医療費助成",
+            "住宅",
+            "事業者",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て",
+            "就学",
+            "奨学金",
+            "省エネ",
+            "予防接種"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/lifelong/culture/event/con_bank.html",
+          "status": 200,
+          "title": "ODAWARAコンサートバンク",
+          "h1": "ODAWARAコンサートバンク",
+          "updatedAt": "2025年03月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/field/tax-resi/tax2/furusato/",
+          "status": 200,
+          "title": "ふるさと納税",
+          "h1": "ふるさと納税",
+          "updatedAt": "令和7年10月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/p40228.html",
+          "status": 200,
+          "title": "小田原市",
+          "h1": "小田原市",
+          "updatedAt": "2026年01月28日",
+          "keywordHits": [
+            "補助金",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://kyufukin.city.odawara.kanagawa.jp/m?f=7",
+          "status": 200,
+          "title": "ログイン",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/hikiotoshi-bank.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2023年04月05日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/hoken.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2016年06月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/hokenryouhenkan.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2016年06月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/kaigonijuu.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2016年06月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/kaigononouhu.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2021年11月05日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/keigen.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2016年06月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/nenkin.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2016年06月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/nenkin2.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2016年06月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/nenkin3.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2016年06月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/nouhugimusya.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2025年05月28日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05837.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2024年04月01日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05838.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2024年04月01日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05839.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2024年04月01日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05840.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2024年04月01日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05841.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2024年04月01日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05842.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2024年04月01日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05843.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2016年02月17日",
+          "keywordHits": [
+            "一時金",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05843-1.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2020年03月18日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05844.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2016年02月17日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05845.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2011年03月29日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05846.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2018年12月21日",
+          "keywordHits": [
+            "免除",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05847.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2023年03月23日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05848.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2023年03月23日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05849.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2023年03月23日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05851.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2020年03月12日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05852.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2023年03月17日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05854.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2020年03月04日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05856.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2023年03月17日",
+          "keywordHits": [
+            "免除",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05857.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2026年07月01日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05858.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2016年02月17日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05859.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2021年04月13日",
+          "keywordHits": [
+            "免除",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05860.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2021年04月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05861.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2016年02月17日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05862.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2018年03月08日",
+          "keywordHits": [
+            "免除",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05873.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2019年03月18日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05874.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2019年03月18日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14206",
+          "municipalityName": "小田原市",
+          "sourceUrl": "https://www.city.odawara.kanagawa.jp/faq/p05893.html",
+          "status": 200,
+          "title": "よくある質問と回答",
+          "h1": "よくある質問と回答",
+          "updatedAt": "2021年10月28日",
+          "keywordHits": [
+            "免除",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/emergency/emergency-case/jap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/emergency/emergency-case/jap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/disaster/disaster/allhazardmap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/disaster/disaster/allhazardmap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/disaster/disaster/siryo/k_hinanjyo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/disaster/disaster/siryo/k_hinanjyo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/f-fight/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/f-fight/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/57/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/57/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/28/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/28/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/121/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/121/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/16/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/16/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/32/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/32/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/124/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/124/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/43/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/43/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/50/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/50/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/44/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/44/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/14/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/14/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/25/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/25/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/35/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/35/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/36/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/36/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/38/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/38/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/39/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/39/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/51/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/51/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/62/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/62/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/87/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/87/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/37/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/37/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/63/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/63/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/59/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/59/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/47/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/47/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/60/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/60/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/45/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/45/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/3/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/3/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/114/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/114/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/12/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/12/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/104/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/104/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/13/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/13/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/11/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/11/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/58/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/58/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/103/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/103/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/30/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/30/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/42/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/42/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/61/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/61/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/21/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/21/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/34/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/34/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/118/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/118/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/88/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/88/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/33/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/33/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/15/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/15/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/56/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/56/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/46/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/46/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/53/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/53/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/52/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/52/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/27/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/27/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/24/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/24/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/8/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/8/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/22/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/22/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/122/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/122/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/31/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/31/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/54/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/54/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/2/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/23/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/23/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/40/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/40/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/126/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/126/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/20/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/20/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/116/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/116/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/84/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/84/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/41/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/41/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/65/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/65/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/66/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/66/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/107/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/107/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/108/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/108/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/64/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/64/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/67/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/67/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/68/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/68/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/4/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/4/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/6/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/6/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/26/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/26/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/5/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/5/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/70/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/70/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/19/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/19/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/9/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/9/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/10/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/10/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/49/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/49/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/71/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/71/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/55/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/55/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/msec/17/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/msec/17/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/emergency/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/emergency/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/tax-resi/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/tax-resi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/edu-ch/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/disaster/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/disaster/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/welfare/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/welfare/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/envi/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/envi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/industry/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/industry/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/c-planning/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/c-planning/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/i-national/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/i-national/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/lifelong/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/lifelong/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/hospital/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/hospital/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/kanko/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/kanko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/event/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/event/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/jigyou/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/jigyou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/jigyou/proposal/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/jigyou/proposal/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/public_private_partnerships/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/public_private_partnerships/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/about/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/about/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/mayor/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/mayor/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/citycounc/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/citycounc/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/about/staffin/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/about/staffin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/about/introduction/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/about/introduction/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/admin/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/admin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/medical/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/medical/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/sport/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/sport/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/park/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/park/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/facilities/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/facilities/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/recycle/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/recycle/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/education/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/education/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/e_f/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/e_f/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/market/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/market/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/reien/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/reien/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/parking/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/parking/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/national/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/national/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/disaster/bohan/roadsafety/topics/R4natsu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/disaster/bohan/roadsafety/topics/R4natsu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/peace/peace/p41885.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/peace/peace/p41885.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/peace/human/jinken/parole/p39754.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/peace/human/jinken/parole/p39754.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/movie/colorful/p32112.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/movie/colorful/p32112.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public/detail/11300/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public/detail/11300/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/movie",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/movie",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/emergency/road_traffic_information/p42039.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/emergency/road_traffic_information/p42039.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/envi/envi_topics/p41866.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/envi/envi_topics/p41866.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/about/staffin/saiyou/p40968.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/about/staffin/saiyou/p40968.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/disaster/disaster/torikumi/p41639.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/disaster/disaster/torikumi/p41639.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/welfare/funds/odawara-redcross/p42040.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/welfare/funds/odawara-redcross/p42040.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/facilities/library/liblaryevent/p42058.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/facilities/library/liblaryevent/p42058.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/industry/keirinn/maintenance.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/industry/keirinn/maintenance.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/envi/refuse/circulation/compost/ikigomikurabu-event.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/envi/refuse/circulation/compost/ikigomikurabu-event.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/industry/fisher/event/p41638.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/industry/fisher/event/p41638.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/industry/fisher/morningmarket/p14096.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/industry/fisher/morningmarket/p14096.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/topix/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/topix/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/market/p42032.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/market/p42032.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/edu-ch/event/p41899.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/edu-ch/event/p41899.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/industry/manage/p41773.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/industry/manage/p41773.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/lifelong/sports/sport-f/shiteikanri/p41905.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/lifelong/sports/sport-f/shiteikanri/p41905.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/recruit/p08594.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/recruit/p08594.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/facilities/library/liblaryevent/p39853.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/facilities/library/liblaryevent/p39853.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/recruit/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/recruit/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13806",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13806",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13809",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13809",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13813",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13813",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13802",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13802",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13807",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13807",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13810",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13810",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13764",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13764",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13791",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13791",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13792",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13792",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13800",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/press/detail.php?prs_id=13800",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/press/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/press/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/,",
+          "status": 404,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/,",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/);j$(",
+          "status": 404,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/);j$(",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/tax-resi/resident/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/tax-resi/resident/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/envi/refuse/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/envi/refuse/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/peace/human/jinken/foreign/p37421.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/peace/human/jinken/foreign/p37421.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/digital/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/digital/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/announcing/shiseiikenteian2.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/announcing/shiseiikenteian2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/soudan/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/soudan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/mailmagazine/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/mailmagazine/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/ubio/pc/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/ubio/pc/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/welfare/health/h-class/p29379.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/welfare/health/h-class/p29379.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/welfare/health/h-class/hyakusai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/welfare/health/h-class/hyakusai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/disclosure/singikaitounokoukai/information/houkagojidoukurabusennteiiinnkai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/disclosure/singikaitounokoukai/information/houkagojidoukurabusennteiiinnkai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/disclosure/singikaitounokoukai/information/shiseki.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/disclosure/singikaitounokoukai/information/shiseki.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/envi/pet-wildlife/sakawa/p41814.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/envi/pet-wildlife/sakawa/p41814.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/kanko/livecamera.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/kanko/livecamera.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/encycl/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/encycl/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/yoyaku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/yoyaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/OCS/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/OCS/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/industry/corpo/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/industry/corpo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/about/staffin/saiyou/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/about/staffin/saiyou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/announcing/promotion/p08406.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/announcing/promotion/p08406.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/municipality/announcing/promotion/p29959.html",
+          "status": 404,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/municipality/announcing/promotion/p29959.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/about/statistics/m-report/new.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/about/statistics/m-report/new.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/vision/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/vision/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/finance/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/finance/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/about/jourei/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/about/jourei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/about/introduction/ambassador/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/about/introduction/ambassador/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/tax-resi/tax2/furusato/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/tax-resi/tax2/furusato/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/field/municipality/itpolicy/p25549.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/municipality/itpolicy/p25549.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/about/statistics/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/about/statistics/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/link/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/link/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/qjp/dB054",
+          "status": 200,
+          "finalUrl": "https://jscloud.sunnet.co.jp/odawara_R8/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/public-i/admin/p-office/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/public-i/admin/p-office/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/about/introduction/kakuka.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/about/introduction/kakuka.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/tyosaku/tyosakuetc.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/tyosaku/tyosakuetc.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/sitemap/",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/sitemap/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/concertbank.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/lifelong/culture/event/con_bank.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/furusato.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/field/tax-resi/tax2/furusato/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/p10571.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/p10571.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/p20548.html",
+          "status": 200,
+          "finalUrl": "https://odawalab.com/about/p17684.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/p35970.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/p35970.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/p36610.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/p36610.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/p37549.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/p37549.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/p40228.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/p40228.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/p40840.html",
+          "status": 200,
+          "finalUrl": "https://kyufukin.city.odawara.kanagawa.jp/m?f=3",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/p41299.html",
+          "status": 200,
+          "finalUrl": "https://kyufukin.city.odawara.kanagawa.jp/m?f=7",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/saiyou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/about/staffin/saiyou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/welcome1.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/welcome1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/welcome2.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/welcome2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/yoyaku-kiosk.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/yoyaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/yoyaku-riyoukizyun.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/yoyaku-riyoukizyun.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/event/ki-20230337.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/event/ki-20230337.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/event/ki-20240377.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/event/ki-20240377.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/event/ko-20206.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/kanko/event/OCT/odennmaturi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/event/p38463.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/event/p38463.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/Attention.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/Attention.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/demae.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/demae.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/denwa.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/denwa.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/hikiotoshi-bank.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/hikiotoshi-bank.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/hikiotoshi-haishi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/hikiotoshi-haishi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/hikiotoshi-henkou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/hikiotoshi-henkou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/hikiotoshi-kanpu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/hikiotoshi-kanpu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/hikiotoshi-keiji.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/hikiotoshi-keiji.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/hikiotoshi-shibou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/hikiotoshi-shibou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/hikiotoshi-yuusou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/hikiotoshi-yuusou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/hoken.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/hoken.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/hokenryouhenkan.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/hokenryouhenkan.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/ikkatsunouhu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/ikkatsunouhu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/kaigonijuu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/kaigonijuu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/kaigononouhu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/kaigononouhu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/keigen.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/keigen.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/keihou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/keihou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/kisho.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/kisho.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/meigikouen.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/meigikouen.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/nenkin.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/nenkin.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/nenkin2.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/nenkin2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/nenkin3.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/nenkin3.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/nouhugimusya.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/nouhugimusya.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/nouzeishoumei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/nouzeishoumei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05823.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05823.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05825.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05825.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05826.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05826.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05827.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05827.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05830.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05830.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05831.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05831.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05836.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05836.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05837.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05837.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05838.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05838.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05839.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05839.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05840.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05840.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05841.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05841.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05842.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05842.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05843.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05843.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05843-1.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05843-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05844.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05844.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05845.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05845.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05846.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05846.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05847.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05847.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05848.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05848.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05849.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05849.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05851.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05851.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05852.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05852.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05854.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05854.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05856.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05856.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05857.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05857.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05858.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05858.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05859.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05859.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05860.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05860.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05861.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05861.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05862.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05862.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05863.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05863.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05864.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05864.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05865.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05865.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05866.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05866.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05867.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05867.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05868.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05868.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05869.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05869.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05871.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05871.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05872.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05872.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05873.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05873.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05874.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05874.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05875.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05875.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05876.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05876.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05877.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05877.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05878.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05878.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05879.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05879.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05880.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05880.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05881.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05881.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05882.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05882.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05883.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05883.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05884.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05884.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05885.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05885.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05886.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05886.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05887.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05887.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05888.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05888.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05889.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05889.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05890.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05890.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05891.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05891.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05892.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05892.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.odawara.kanagawa.jp/faq/p05893.html",
+          "status": 200,
+          "finalUrl": "https://www.city.odawara.kanagawa.jp/faq/p05893.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

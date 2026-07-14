@@ -8195,3 +8195,43 @@
   - トップ、カテゴリ、サイトマップ、共通ナビ一致、様式のみ、広報・議会・計画ページ、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
 - 次:
   - 神奈川県公式棚卸し002として、14203平塚市、14204鎌倉市、14205藤沢市、14206小田原市を自治体コード順に確認する。
+
+### 2026-07-14 神奈川県公式棚卸し002（14203平塚市・14204鎌倉市・14205藤沢市・14206小田原市）
+
+- 作業範囲:
+  - 14203 平塚市、14204 鎌倉市、14205 藤沢市、14206 小田原市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 生成候補708件（平塚市89件、鎌倉市289件、藤沢市173件、小田原市157件）が150件を超えたため、`tasks/discovery/kanagawa-official-coverage-002-manual-snippets.json` に公式本文の短い根拠を保存し、制度名・対象・金額/上限・条件・期限/受付状況が揃う制度を優先した。
+- 採用:
+  - 合計22件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 平塚市6件: 物価高対応生活支援給付金、市民活動推進補助金、企業立地促進補助金、脱炭素設備投資促進補助金、中小企業等DX支援補助金、青少年奨学金返還支援金。
+  - 鎌倉市9件: 障害者就労移行支援金、住宅用再生可能エネルギー・省エネ機器等設置費補助金、重点対策加速化事業費補助金、民有緑地維持管理助成事業、介護予防・健康づくり自主活動団体補助金、若年者在宅ターミナルケア支援助成、がん患者補整具購入費助成、骨髄等移植ドナー支援、2026縁むすびカード。
+  - 藤沢市4件: 高効率機器設置費補助金、事業者用太陽光発電システム等設置費補助金、障がい者施設等通所交通費助成、障がい者福祉手当。
+  - 小田原市3件: 地域経済循環型住宅リフォーム支援事業、子どもの居場所づくり事業補助金、市民活動・協働応援制度補助金。
+- 生成ファイル:
+  - `tasks/discovery/kanagawa-official-coverage-002-municipalities.json`
+  - `tasks/discovery/kanagawa-official-coverage-002-14203-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-002-14204-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-002-14205-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-002-14206-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-002-14203-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-002-14204-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-002-14205-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-002-14206-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-002-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-002-manual-snippets.json`
+  - `tasks/discovery/kanagawa-official-coverage-002.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（`kanagawa-official-coverage-002.json`、候補JSON、手動スニペットJSON、checkpoint）。
+  - 追加slug重複: pass（22件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（22 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11301、officialLinkedActive 11263、manuallyVerifiedActive 11263、神奈川県 localOfficial 155）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または神奈川県一部自治体の着手のみで全国完了扱いしない。
+  - 小田原市の地球温暖化対策推進事業費補助金、空き店舗等利活用促進事業、創業支援利子補給、木造住宅耐震改修等は既存URL重複として今回追加しなかった。
+  - 藤沢市の物価高対応子育て応援手当、鎌倉市HPV償還払い、小田原市物価高騰対応生活支援給付金は受付終了又は対象年度終了のため採用保留にした。
+  - トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、広報・予算PDF、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
+- 次:
+  - 神奈川県公式棚卸し003として、14207茅ヶ崎市、14208逗子市、14210三浦市、14211秦野市を自治体コード順に確認する。

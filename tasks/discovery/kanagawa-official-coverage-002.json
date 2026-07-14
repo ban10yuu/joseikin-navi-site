@@ -1,0 +1,104 @@
+{
+  "batchId": "kanagawa-official-coverage-002",
+  "prefecture": "神奈川県",
+  "completedAt": "2026-07-14T19:43:00+09:00",
+  "municipalities": [
+    {
+      "code": "14203",
+      "name": "平塚市",
+      "officialUrl": "https://www.city.hiratsuka.kanagawa.jp/",
+      "candidateCount": 89,
+      "adopted": 6,
+      "held": 83
+    },
+    {
+      "code": "14204",
+      "name": "鎌倉市",
+      "officialUrl": "https://www.city.kamakura.kanagawa.jp/",
+      "candidateCount": 289,
+      "adopted": 9,
+      "held": 280
+    },
+    {
+      "code": "14205",
+      "name": "藤沢市",
+      "officialUrl": "https://www.city.fujisawa.kanagawa.jp/",
+      "candidateCount": 173,
+      "adopted": 4,
+      "held": 169
+    },
+    {
+      "code": "14206",
+      "name": "小田原市",
+      "officialUrl": "https://www.city.odawara.kanagawa.jp/",
+      "candidateCount": 157,
+      "adopted": 3,
+      "held": 154
+    }
+  ],
+  "candidateTotal": 708,
+  "adoptedTotal": 22,
+  "heldTotal": 686,
+  "sourceUrlsChecked": [
+    "https://www.city.hiratsuka.kanagawa.jp/fukushi/page43_00170.html",
+    "https://www.city.hiratsuka.kanagawa.jp/kyodo/page37_00016.html",
+    "https://www.city.hiratsuka.kanagawa.jp/kigyo/page-c_01591.html",
+    "https://www.city.hiratsuka.kanagawa.jp/sangyo/page33_00104.html",
+    "https://www.city.hiratsuka.kanagawa.jp/sangyo/page33_00096.html",
+    "https://www.city.hiratsuka.kanagawa.jp/kyoiku/page65_00092.html",
+    "https://www.city.kamakura.kanagawa.jp/syougaijisha/syougaisyasyuurouikousienkin.html",
+    "https://www.city.kamakura.kanagawa.jp/kankyo/saiseihojyo.html",
+    "https://www.city.kamakura.kanagawa.jp/kankyo/saiseihojo-juten.html",
+    "https://www.city.kamakura.kanagawa.jp/midori/ijikanrijosei.html",
+    "https://www.city.kamakura.kanagawa.jp/skenkou/jisyuhojo.html",
+    "https://www.city.kamakura.kanagawa.jp/skenkou/terminal_care.html",
+    "https://www.city.kamakura.kanagawa.jp/skenkou/wig.html",
+    "https://www.city.kamakura.kanagawa.jp/skenkou/doner.html",
+    "https://www.city.kamakura.kanagawa.jp/shoukou/ennmusubi2026.html",
+    "https://www.city.fujisawa.kanagawa.jp/zeroc/machizukuri/kankyo/hojo/koukouritu.html",
+    "https://www.city.fujisawa.kanagawa.jp/zeroc/machizukuri/kankyo/hojo/jigyousha_taiyoko_jikasyouhi.html",
+    "https://www.city.fujisawa.kanagawa.jp/shogaifu/kenko/fukushi/shogai/fukushiservice/koutsuuhi.html",
+    "https://www.city.fujisawa.kanagawa.jp/shogaifu/kenko/fukushi/shogai/teate/teate.html",
+    "https://www.city.odawara.kanagawa.jp/field/industry/industrial_promotion/p41603.html",
+    "https://www.city.odawara.kanagawa.jp/field/lifelong/social-engagement/kodomonoibasho/p41200.html",
+    "https://www.city.odawara.kanagawa.jp/field/municipality/i-national/volunteer/active/p37286.html"
+  ],
+  "adoptedSlugs": [
+    "hiratsuka-price-relief-living-support-benefit-2026",
+    "hiratsuka-civic-activity-promotion-subsidy-2026",
+    "hiratsuka-enterprise-location-subsidy-2026",
+    "hiratsuka-decarbon-equipment-investment-subsidy-2026",
+    "hiratsuka-sme-dx-support-subsidy-2026",
+    "hiratsuka-youth-scholarship-repayment-support-2026",
+    "kamakura-disabled-employment-transition-benefit-2026",
+    "kamakura-residential-renewable-energy-equipment-subsidy-2026",
+    "kamakura-accelerated-decarbonization-subsidy-2026",
+    "kamakura-private-green-space-maintenance-subsidy-2026",
+    "kamakura-senior-preventive-activity-subsidy-2026",
+    "kamakura-young-terminal-care-home-support-subsidy-2026",
+    "kamakura-cancer-wig-purchase-subsidy-2026",
+    "kamakura-bone-marrow-donor-support-subsidy-2026",
+    "kamakura-enmusubi-card-2026",
+    "fujisawa-high-efficiency-equipment-subsidy-2026",
+    "fujisawa-business-solar-storage-subsidy-2026",
+    "fujisawa-disabled-commute-transport-subsidy-2026",
+    "fujisawa-disabled-welfare-allowance-2026",
+    "odawara-housing-reform-local-catalog-gift-support-2026",
+    "odawara-child-place-activity-subsidy-2026",
+    "odawara-civic-collaboration-support-subsidy-2026"
+  ],
+  "heldExamples": [
+    "トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、広報・予算PDF、国制度説明ページは第2巡候補として保持した。",
+    "小田原市の地球温暖化対策推進事業費補助金、空き店舗等利活用促進事業、創業支援利子補給、木造住宅耐震改修等は既存URL重複として今回追加しなかった。",
+    "藤沢市の物価高対応子育て応援手当、鎌倉市HPV償還払い、小田原市物価高騰対応生活支援給付金は受付終了又は対象年度終了のため採用保留にした。"
+  ],
+  "validation": {
+    "status": "pass",
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for kanagawa-official-coverage-002.json / candidates / manual-snippets / official-coverage-checkpoint.json",
+    "addedSlugUniqueness": "pass: 22 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 22 primary official URLs returned HTTP 200",
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11301, officialLinkedActive 11263, manuallyVerifiedActive 11263, 神奈川県 localOfficial 155)"
+  }
+}
