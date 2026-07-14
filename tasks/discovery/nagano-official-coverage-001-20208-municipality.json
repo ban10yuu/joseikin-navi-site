@@ -1,0 +1,1430 @@
+{
+  "code": "20208",
+  "name": "小諸市",
+  "prefecture": "長野県",
+  "officialBaseUrl": "https://www.city.komoro.lg.jp/",
+  "discoveredUrlCount": 220,
+  "candidateCount": 5,
+  "strongCandidateCount": 0,
+  "lowPriorityCandidateCount": 5,
+  "candidates": [
+    {
+      "municipalityCode": "20208",
+      "municipalityName": "小諸市",
+      "sourceUrl": "https://www.city.komoro.lg.jp/",
+      "status": 200,
+      "title": "長野県 小諸市 Komoro City 住みたい 行きたい 帰ってきたい まち 小諸",
+      "h1": "長野県 小諸市 Komoro City 住みたい 行きたい 帰ってきたい まち 小諸",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住",
+        "空き家"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "20208",
+      "municipalityName": "小諸市",
+      "sourceUrl": "https://www.city.komoro.lg.jp/index.html",
+      "status": 200,
+      "title": "長野県 小諸市 Komoro City 住みたい 行きたい 帰ってきたい まち 小諸",
+      "h1": "長野県 小諸市 Komoro City 住みたい 行きたい 帰ってきたい まち 小諸",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住",
+        "空き家"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "20208",
+      "municipalityName": "小諸市",
+      "sourceUrl": "https://www.city.komoro.lg.jp/official/index.html",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "平成28年4月1日",
+      "keywordHits": [
+        "補助金",
+        "移住",
+        "福祉"
+      ],
+      "candidateScore": 11,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "20208",
+      "municipalityName": "小諸市",
+      "sourceUrl": "https://www.city.komoro.lg.jp/citypromotion/index.html",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 2,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "20208",
+      "municipalityName": "小諸市",
+      "sourceUrl": "https://www.city.komoro.lg.jp/kurasu/index.html",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "助成金",
+        "給付金",
+        "移住",
+        "空き家",
+        "創業",
+        "起業",
+        "子育て"
+      ],
+      "candidateScore": 14,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://www.city.komoro.lg.jp/",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/sitemap.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/sitemap.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/sitemap_index.xml",
+      "status": 404,
+      "finalUrl": "https://www.city.komoro.lg.jp/sitemap_index.xml",
+      "ok": false
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/robots.txt",
+      "status": 404,
+      "finalUrl": "https://www.city.komoro.lg.jp/robots.txt",
+      "ok": false
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/index.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/index.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/citypromotion/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/citypromotion/index.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/index.html",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/index.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/citypromotion/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/citypromotion/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/citypromotion/gift/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/citypromotion/gift/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/citypromotion/news/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/citypromotion/news/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/citypromotion/places/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/citypromotion/places/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kaikoen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kaikoen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kaikoen/about/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kaikoen/about/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kaikoen/around/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kaikoen/around/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kaikoen/event/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kaikoen/event/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/komoro_zoo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/komoro_zoo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/komoro_zoo/ibenntojyouhou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/komoro_zoo/ibenntojyouhou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/komoro_zoo/ichiran/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/komoro_zoo/ichiran/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/komoro_zoo/ichiran/1/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/komoro_zoo/ichiran/1/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/komoro_zoo/ichiran/2/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/komoro_zoo/ichiran/2/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/komoro_zoo/ichiran/3/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/komoro_zoo/ichiran/3/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/komoro_zoo/map/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/komoro_zoo/map/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/komoro_zoo/riyouannai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/komoro_zoo/riyouannai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/komoro_zoo/shitsumon/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/komoro_zoo/shitsumon/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/komoro_zoo/unei/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/komoro_zoo/unei/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/access/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/access/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/akiya/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/akiya/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/ijyujoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/ijyujoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/ijyujoho/pamphlet/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/ijyujoho/pamphlet/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/ijyujoho/yakudati/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/ijyujoho/yakudati/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/ijyusya/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/ijyusya/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/info/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/info/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/info/event/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/info/event/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/info/held_event/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/info/held_event/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/info/pickup/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/info/pickup/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/kosodate/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/kosodate/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/kosodate/kosodate/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/kosodate/kosodate/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/kosodate/kosodate/1/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/kosodate/kosodate/1/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/kosodate/kosodate/2/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/kosodate/kosodate/2/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/kosodate/kosodate/3/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/kosodate/kosodate/3/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/kosodate/kosodate/5/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/kosodate/kosodate/5/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/kosodate/kosodate/6/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/kosodate/kosodate/6/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/kosodate/kosodate/7/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/kosodate/kosodate/7/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/kurasi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/kurasi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/kurasu/miryoku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/kurasu/miryoku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/material/sitemap/sitemap.recruit.1.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/material/sitemap/sitemap.recruit.1.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/aramachikan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/aramachikan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/hommachimachiyakan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/hommachimachiyakan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/ichiritsukomorotoshokan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/ichiritsukomorotoshokan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/komorogijukukinenkan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/komorogijukukinenkan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/komorokogembijutsukan_shiratorieisetsukan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/komorokogembijutsukan_shiratorieisetsukan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/komoroshibunkacenter/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/komoroshibunkacenter/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/komoroshishiminkoryucenter/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/komoroshishiminkoryucenter/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/komorotakahamakyoshikinenkan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/komorotakahamakyoshikinenkan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/koyamakeizobijutsukan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/koyamakeizobijutsukan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/tosonkinenkan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/tosonkinenkan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/yorakan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/bunkakyoyoshisetsu/yorakan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/hokenfukushishisetsu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/hokenfukushishisetsu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/kankyoshisetsu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/kankyoshisetsu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/kanrenjoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/kanrenjoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/koen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/koen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/koen/komoroshidobutsuen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/koen/komoroshidobutsuen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/koen/komoroshidobutsuen/kaikoen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/koen/komoroshidobutsuen/kaikoen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/koen/komoroshijidoyuenchi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/koen/komoroshijidoyuenchi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/kosodateshien_hoikuen_yochien_shochugakko/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/kosodateshien_hoikuen_yochien_shochugakko/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/sonota/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/sonota/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/sportsshisetsu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/facility_map/shisetsuannai/sportsshisetsu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/garbage_search/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/garbage_search/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/garbage_search/kateigomi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/garbage_search/kateigomi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/omakasenavi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/omakasenavi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/douro-suiro/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/douro-suiro/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/jougesuidou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/jougesuidou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/kaigohoken/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/kaigohoken/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/kokuminkenkouhoken/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/kokuminkenkouhoken/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/kokuminkenkouhoken_1/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/kokuminkenkouhoken_1/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/koseki-jumintoroku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/koseki-jumintoroku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/kosodate-jidouteate/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/kosodate-jidouteate/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/koujikankei/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/koujikankei/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/koureishahukushi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/koureishahukushi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/shougaihukusi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/shougaihukusi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/sonota/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/sonota/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/zeimu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/benri/yosikidownroad/zeimu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/ibennto/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/ibennto/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/kankoannai_spot/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/kankoannai_spot/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/kankojoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/kankojoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/rekishi_bunka/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/rekishi_bunka/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/rekishi_bunka/1/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/rekishi_bunka/1/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/rekishi_bunka/2/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kanko/rekishi_bunka/2/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kigyoritchi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/kigyoritchi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/museum/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/museum/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/noringyo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/noringyo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/noringyo/ninaiteshien_shinkishuno_hojokin/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/noringyo/ninaiteshien_shinkishuno_hojokin/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/noringyo/nochitaishaku_nogyoiinkai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/noringyo/nochitaishaku_nogyoiinkai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/noringyo/nogyonosonshinko_nosambutsutobrandka/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/noringyo/nogyonosonshinko_nosambutsutobrandka/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/noringyo/oshirase_chuijoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/noringyo/oshirase_chuijoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/noringyo/shinrin_chojutaisaku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/noringyo/shinrin_chojutaisaku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/shokogyo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/shokogyo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kanko_sangyo/shushoku_rodoshien/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kanko_sangyo/shushoku_rodoshien/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kinkyu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kinkyu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kinkyu/covid19category/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kinkyu/covid19category/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/asamayamabosaijoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/asamayamabosaijoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/asamayamabosaijoho/3/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/asamayamabosaijoho/3/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/bosai_saigai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/bosai_saigai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/bosai_saigai/taihudai19goukannrenn/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/bosai_saigai/taihudai19goukannrenn/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/bosaigyoseimusen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/bosaigyoseimusen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/bosaijoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/bosaijoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/bouahnntou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/bouahnntou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/hikoonnikansurujoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/hikoonnikansurujoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/hoshasentonikansurujoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/hoshasentonikansurujoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/kokuminhogo_bosaikeikaku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/kokuminhogo_bosaikeikaku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/kotsuanzen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/kotsuanzen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/kyukyu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/kyukyu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/shobo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/bosai_anzen/shobo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/gomi_recycle/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/gomi_recycle/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/gomi_recycle/gominodashikata_bumbetsuhoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/gomi_recycle/gominodashikata_bumbetsuhoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/gomi_recycle/gominogenryoka/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/gomi_recycle/gominogenryoka/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/gomi_recycle/gomishori_shigenkaishutoshinseisho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/gomi_recycle/gomishori_shigenkaishutoshinseisho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/gomi_recycle/kanrenjoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/gomi_recycle/kanrenjoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/hoken_nenkin/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/hoken_nenkin/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/hoken_nenkin/kaigohoken/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/hoken_nenkin/kaigohoken/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/hoken_nenkin/kokikoreishairyohoken/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/hoken_nenkin/kokikoreishairyohoken/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/hoken_nenkin/kokuminkenkohoken/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/hoken_nenkin/kokuminkenkohoken/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/hoken_nenkin/kokuminnenkin/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/hoken_nenkin/kokuminnenkin/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iju_koryu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iju_koryu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iju_koryu/eventjoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iju_koryu/eventjoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iju_koryu/komorodekurasu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iju_koryu/komorodekurasu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iryo_kenshin/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iryo_kenshin/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iryo_kenshin/iryohojoseido/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iryo_kenshin/iryohojoseido/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iryo_kenshin/ishikakuho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iryo_kenshin/ishikakuho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iryo_kenshin/kenshin_kenshin/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iryo_kenshin/kenshin_kenshin/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iryo_kenshin/kokuminkenkohoken/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iryo_kenshin/kokuminkenkohoken/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iryo_kenshin/otonanokenko/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iryo_kenshin/otonanokenko/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iryo_kenshin/otonanokenko/1/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/iryo_kenshin/otonanokenko/1/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jidofukushi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jidofukushi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jinkendowakyoiku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jinkendowakyoiku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jinkendowakyoiku/kenshu_keihatsu_kondankai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jinkendowakyoiku/kenshu_keihatsu_kondankai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/gesuido/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/gesuido/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/jigyosyanominasamahe/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/jigyosyanominasamahe/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/josuidokaoshirase/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/josuidokaoshirase/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/kominrenkei/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/kominrenkei/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/kondankai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/kondankai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/kondankai/heisei28nendo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/kondankai/heisei28nendo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/kondankai/heisei29nendo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/kondankai/heisei29nendo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/kondankai/heisei30nendo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/kondankai/heisei30nendo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/kosyosyuri/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/kosyosyuri/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/ryokintodokede/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/ryokintodokede/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/suidojigyojoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/suidojigyojoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/suidotopix/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/jogesuido/josuido/suidotopix/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kenkosupport/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kenkosupport/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kenkosupport/chiiki/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kenkosupport/chiiki/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kenkosupport/kenkosodan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kenkosupport/kenkosodan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kenkosupport/kokoro/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kenkosupport/kokoro/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kenkosupport/shokuikusuishin/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kenkosupport/shokuikusuishin/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kenkosupport/undou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kenkosupport/undou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/komoroshikyoikuiinkai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/komoroshikyoikuiinkai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/komoroshikyoikuiinkai/kaigijoho/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/komoroshikyoikuiinkai/kaigijoho/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/komoroshikyoikuiinkai/kaigijoho/meeting_archive/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/komoroshikyoikuiinkai/kaigijoho/meeting_archive/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/komoroshikyoikuiinkai/komoroshichokigakkokaichikukeikaku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/komoroshikyoikuiinkai/komoroshichokigakkokaichikukeikaku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/komoroshikyoikuiinkai/komoroshikyoikushinkokihonkeikaku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/komoroshikyoikuiinkai/komoroshikyoikushinkokihonkeikaku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/komoroshikyoikuiinkai/kyoikuiinnoshokai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/komoroshikyoikuiinkai/kyoikuiinnoshokai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/kaigohokenseido/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/kaigohokenseido/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/kaigohokentodokedeshinsei/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/kaigohokentodokedeshinsei/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/keikaku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/keikaku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/koureisyahukushi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/koureisyahukushi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/koureisyahukushi/ikigaikenkoudukuri/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/koureisyahukushi/ikigaikenkoudukuri/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/koureisyahukushi/keashisutemu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/koureisyahukushi/keashisutemu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/koureisyahukushi/kenriyougo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/koureisyahukushi/kenriyougo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/koureisyahukushi/mimamori/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/koureisyahukushi/mimamori/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/koureisyahukushi/seikatushien/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/koureisyahukushi/seikatushien/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/zaitakukaigoshienjigyo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koreishafukushi/zaitakukaigoshienjigyo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/hoikuen_yochien/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/hoikuen_yochien/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/kenshin_kyoshitsu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/kenshin_kyoshitsu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/kodomonokenko/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/kodomonokenko/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/kosodateshiencenter_kodomocenter_jidokan_jidoclub/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/kosodateshiencenter_kodomocenter_jidokan_jidoclub/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/ninshin_shussan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/ninshin_shussan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/sodan/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/sodan/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/teate_shien/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kosodate/teate_shien/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koza_kyoshitsu_gakkyunogoannai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/koza_kyoshitsu_gakkyunogoannai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kyoiku_gakko/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kyoiku_gakko/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kyoiku_gakko/seishonen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kyoiku_gakko/seishonen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kyoiku_gakko/shogakko_chugakko/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/kyoiku_gakko/shogakko_chugakko/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/seikatsuhogo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/seikatsuhogo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/seikatsukaizen/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/seikatsukaizen/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/NPO_volunteer/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/NPO_volunteer/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/NPO_volunteer/siminhozyo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/NPO_volunteer/siminhozyo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/bunshohaifuichiran/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/bunshohaifuichiran/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/jinkenseisaku_danjokyodosankaku_tabunkakyosei/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/jinkenseisaku_danjokyodosankaku_tabunkakyosei/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/komorocampus/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/komorocampus/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/komorocampus/keiou/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/komorocampus/keiou/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/komorocampus/meigaku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/komorocampus/meigaku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/komorocampus/miraigizyuku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/komorocampus/miraigizyuku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/komorocampus/sakudaigaku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/komorocampus/sakudaigaku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/komoroshikuchokai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/komoroshikuchokai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/komorozyoseimtg/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/komorozyoseimtg/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/kuhozyokin/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/kuhozyokin/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/ninkachiendantai/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shiminkyodo/ninkachiendantai/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shogaishafukushi/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shogaishafukushi/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shogaishafukushi/hojo_menjo/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shogaishafukushi/hojo_menjo/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shogaishafukushi/kanrenshisetsu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shogaishafukushi/kanrenshisetsu/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shogaishafukushi/shogaishakeikaku/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shogaishafukushi/shogaishakeikaku/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shogaishafukushi/sodan_shien/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shogaishafukushi/sodan_shien/sitemap.dir.xml",
+      "ok": true
+    },
+    {
+      "url": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shogaishafukushi/techonokofu/sitemap.dir.xml",
+      "status": 200,
+      "finalUrl": "https://www.city.komoro.lg.jp/official/kurashi_tetsuzuki/shogaishafukushi/techonokofu/sitemap.dir.xml",
+      "ok": true
+    }
+  ]
+}

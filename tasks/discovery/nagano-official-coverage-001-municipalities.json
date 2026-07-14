@@ -1,0 +1,37 @@
+{
+  "batchId": "nagano-official-coverage-001",
+  "prefecture": "長野県",
+  "generatedAt": "2026-07-15T06:35:00+09:00",
+  "municipalities": [
+    {
+      "code": "20204",
+      "name": "岡谷市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.okaya.lg.jp/"
+    },
+    {
+      "code": "20205",
+      "name": "飯田市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.iida.lg.jp/"
+    },
+    {
+      "code": "20206",
+      "name": "諏訪市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.suwa.lg.jp/"
+    },
+    {
+      "code": "20207",
+      "name": "須坂市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.suzaka.nagano.jp/"
+    },
+    {
+      "code": "20208",
+      "name": "小諸市",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.city.komoro.lg.jp/"
+    }
+  ]
+}

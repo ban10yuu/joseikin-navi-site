@@ -9565,3 +9565,46 @@
   - トップ、カテゴリ、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 長野県公式棚卸し001として、20204岡谷市から自治体コード順に確認する。
+
+
+### 2026-07-15 長野県公式棚卸し001（20204岡谷市・20205飯田市・20206諏訪市・20207須坂市・20208小諸市）
+
+- 作業範囲:
+  - 20204 岡谷市、20205 飯田市、20206 諏訪市、20207 須坂市、20208 小諸市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 5自治体の公式トップはすべてHTTP 200を確認した。
+  - 自治体別クロールで候補475件を取得した。shortlistが150件超かつcrawl候補の40%超だったため、候補本文スニペット475件を抽出し、アンカーテキスト起点の制度リード192件を再取得し、再スコア対象664件を保存した。
+  - 採用対象の60公式ページは、間隔付きcurlで全件HTTP 200を確認した。
+- 採用:
+  - 合計60件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 岡谷市8件: 福祉医療費給付金制度について、産婦健康診査県外受診補助金交付事業、妊婦一般健康診査県外受診補助金交付事業、住宅の耐震診断・耐震改修補助制度のお知らせ、下水道接続に関わる補助金制度、令和8年度からの岡谷市不妊治療・不育症治療の助成事業について、【移住を検討される方へ】交通費・宿泊費・体験住宅の家賃を補助します！、奨学金制度。
+  - 飯田市20件: 不妊治療・不育症治療の費用を助成します、1か月児健康診査の費用を一部助成します、妊婦さんのための支援金を給付します、新生児聴覚検査の費用を一部助成します、児童扶養手当についてお知らせします、国保加入者が出産したとき（出産育児一時金の支給）、児童手当、低所得の妊婦に対し初回産科受診料を助成します、産婦健康診査の費用を一部助成します、飯田市軽度・中等度難聴児補聴器購入費用等助成金、飯田市重症心身障がい児（者）遠隔地施設等利用交通費助成金、人工透析患者通院交通費助成金、飯田市認知症カフェ運営事業助成金について、特殊詐欺等被害防止対策機器設置の補助金、移住支援金、骨髄移植等により免疫が消失したお子様に対して、再度の予防接種にかかる費用を補助します、「飯田市公認地域クラブ」活動支援補助金について、介護保険負担限度額差額支給申請について、令和8年度飯田市猫の不妊去勢手術補助金のお知らせ、飯田市歴史研究所 歴史研究活動助成の募集。
+  - 諏訪市20件: 諏訪市工場等立地促進助成金、児童手当の制度案内、市税の減免・徴収猶予、出産育児一時金、福祉医療費給付金制度、多胎妊娠 妊婦健康診査の追加助成について、諏訪市企業支援情報サイト-補助金・助成金、雇用促進奨励金、中小企業者奨学金返済支援制度応援補助金について、紙おむつ購入費用助成事業、【児童手当】振込について、諏訪市がん患者へのアピアランスケア助成事業、法人市民税の減免について、軽自動車税の減免について、コミュニティ助成事業（検討中の皆さんへ）、後日の費用（医療費等）支給（国民健康保険・後期高齢者医療保険）、国民年金保険料の免除制度、年金生活者支援給付金の制度案内、国民健康保険税の軽減・減免制度、福祉医療給付金制度が変わります。
+  - 須坂市6件: 令和7年度 須坂市中小企業退職金共済加入奨励補助金、宿泊施設に避難する方に宿泊費を助成します（登録・申請）、福祉医療給付金、アスベスト飛散防止対策に対する補助制度、戦没者等の遺族に対する特別弔慰金（第十二回特別弔慰金）を支給します、市税の減免について。
+  - 小諸市6件: 小諸市お試し移住施設利用助成金交付事業、小諸市移住促進補助金、蓄電システムの導入に補助金を交付します（令和8年度）、電気自動車等の購入に補助金を交付します（令和8年度）、電気自動車充給電設備設置に補助金を交付します（令和8年度）、小諸市移住者起業支援給付金事業。
+- 生成ファイル:
+  - `tasks/discovery/nagano-official-coverage-001-20204-municipality.json`
+  - `tasks/discovery/nagano-official-coverage-001-20205-municipality.json`
+  - `tasks/discovery/nagano-official-coverage-001-20206-municipality.json`
+  - `tasks/discovery/nagano-official-coverage-001-20207-municipality.json`
+  - `tasks/discovery/nagano-official-coverage-001-20208-municipality.json`
+  - `tasks/discovery/nagano-official-coverage-001-adopted-urls.json`
+  - `tasks/discovery/nagano-official-coverage-001-adoption-ranked.json`
+  - `tasks/discovery/nagano-official-coverage-001-candidates.json`
+  - `tasks/discovery/nagano-official-coverage-001-municipalities.json`
+  - `tasks/discovery/nagano-official-coverage-001-rescored-snippets.json`
+  - `tasks/discovery/nagano-official-coverage-001-snippets.json`
+  - `tasks/discovery/nagano-official-coverage-001-url-leads.json`
+  - `tasks/discovery/nagano-official-coverage-001.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（001関連JSON、checkpoint）。
+  - 追加slug重複: pass（60件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（60 primary official URLsすべてHTTP 200、間隔付きcurl）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 13255、officialLinkedActive 13135、manuallyVerifiedActive 13135、長野県 localOfficial 169）。
+- 注意:
+  - 長野県は20201長野市から20208小諸市まで第1巡に到達した。ただし全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は長野県20208小諸市到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、ポータル、様式、申請書単体、Q&A、周知のみ、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 長野県公式棚卸し002として、20209伊那市から自治体コード順に確認する。
