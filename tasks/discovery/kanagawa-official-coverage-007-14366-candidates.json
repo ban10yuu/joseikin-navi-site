@@ -1,0 +1,4236 @@
+{
+  "batchId": "kanagawa-official-coverage-007-14366",
+  "prefecture": "神奈川県",
+  "generatedAt": "2026-07-14T11:04:10.289Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 132,
+  "results": [
+    {
+      "code": "14366",
+      "name": "開成町",
+      "officialBaseUrl": "https://www.town.kaisei.kanagawa.jp/",
+      "discoveredUrlCount": 300,
+      "candidateCount": 132,
+      "strongCandidateCount": 0,
+      "lowPriorityCandidateCount": 132,
+      "candidates": [
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/mg/18",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年11月29日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/141",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年11月29日",
+          "keywordHits": [
+            "奨励金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/16",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/82",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年11月29日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/8",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/84",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "福祉",
+            "通学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/mg/23",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/52",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/101",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/102",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "福祉"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/mg/24",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/103",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/9",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "医療費助成",
+            "福祉",
+            "不妊"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/105",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/106",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/18",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/mg/25",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年11月29日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/107",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年11月29日",
+          "keywordHits": [
+            "奨励金",
+            "住宅"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/31",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年10月1日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/34",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/109",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/110",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "農業",
+            "省エネ"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/mg/26",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/142",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "平成28年8月9日",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/35",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和7年4月1日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "就学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/mg/27",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/115",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/19",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/mg/20",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/86",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "不妊"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/87",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和7年11月21日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/mg/21",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "子育て",
+            "就学",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/89",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/90",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/91",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/92",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/147",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/93",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/94",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学",
+            "妊婦"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/95",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/mg/22",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/96",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/97",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/98",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/99",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/mg/15",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "創業",
+            "農業"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/121",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "貸付",
+            "住宅",
+            "創業",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/122",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "農業"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/123",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "創業",
+            "農業"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/mg/28",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/143",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "創業",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/21",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/mg/6",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/3",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/mg/29",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/56",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/mg/30",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/127",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/2",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/146",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/41",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和6年12月16日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/mg/31",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/menu/129",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/326",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和4年6月1日",
+          "keywordHits": [
+            "医療費助成",
+            "子育て"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/2006",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和7年10月1日",
+          "keywordHits": [
+            "免除",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/506",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "補助金",
+            "住宅"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/121",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "減免",
+            "医療費助成",
+            "住宅",
+            "空き家",
+            "福祉",
+            "就学",
+            "耐震"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/divlist",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/2619",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/2653",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/60",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年1月5日",
+          "keywordHits": [
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/417",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和7年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1639",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/2691",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/alllist/whatsnew",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年11月29日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/405",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/Info/210",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/98",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/873",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "平成24年4月1日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/2042",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/817",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "空き家",
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/521",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/58",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1465",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/297",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/129",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/491",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1399",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1273",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/377",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1195",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1949",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/2322",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和7年6月7日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/134",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/288",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/2014",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "一時金",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/2052",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年5月20日",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/362",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/436",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1956",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和6年1月1日",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/210",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/2029",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/31",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1471",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/453",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "耐震"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/2080",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1968",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1808",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/2035",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1686",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1685",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/2664",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1020",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/65",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/54",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "平成26年1月1日",
+          "keywordHits": [
+            "就学",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1904",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "就学"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1235",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1255",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1041",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1849",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/2139",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1440",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和8年2月5日",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/66",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "令和4年4月2日",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/951",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/871",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "子育て"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/870",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/141",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/1708",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/2083",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/948",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14366",
+          "municipalityName": "開成町",
+          "sourceUrl": "https://www.town.kaisei.kanagawa.jp/info/2211",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "就学"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/18",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/18",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/141",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/141",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/80",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/80",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/16",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/16",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/82",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/82",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/19",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/19",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/8",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/8",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/83",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/83",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/84",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/84",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/33",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/33",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/23",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/23",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/52",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/52",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/101",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/101",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/102",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/102",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/54",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/54",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/24",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/24",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/103",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/103",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/9",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/9",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/105",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/105",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/106",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/106",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/18",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/18",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/25",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/25",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/107",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/107",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/31",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/31",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/34",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/34",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/109",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/109",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/110",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/110",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/26",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/26",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/32",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/32",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/142",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/142",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/113",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/113",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/35",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/35",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/27",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/27",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/115",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/115",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/116",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/116",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/117",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/117",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/19",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/19",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/20",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/20",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/86",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/86",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/87",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/87",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/21",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/21",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/89",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/89",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/90",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/90",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/91",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/91",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/92",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/92",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/147",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/147",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/93",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/93",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/94",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/94",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/95",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/95",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/22",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/22",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/96",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/96",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/97",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/97",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/98",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/98",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/99",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/99",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/3",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/3",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/119",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/119",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/4",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/4",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/15",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/15",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/121",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/121",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/122",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/122",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/123",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/123",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/28",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/28",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/143",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/143",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/21",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/21",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/125",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/125",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/126",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/126",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/6",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/6",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/36",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/36",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/3",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/3",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/42",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/42",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/144",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/144",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/29",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/29",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/56",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/56",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/29",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/29",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/30",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/30",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/53",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/53",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/127",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/127",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/2",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/2",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/146",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/146",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/41",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/41",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/31",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/31",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/128",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/128",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/7",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/7",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/129",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/129",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/130",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/130",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/32",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/32",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/30",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/30",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/24",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/24",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/33",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/33",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/148",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/148",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/76",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/76",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/mg/34",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/mg/34",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/13",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/13",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/131",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/131",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/326",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/326",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2006",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2006",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/177",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/177",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1695",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1695",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/506",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/506",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/643",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/643",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/121",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/121",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/sitemap",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/sitemap",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/divlist",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/divlist",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/menu/145",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/menu/145",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/MemberLogon/",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/MemberLogon/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/0",
+          "status": 500,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/Error/Error0/?aspxerrorpath=/RSSFeed/menu/0",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/247",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/247",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/244",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/244",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/206",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/206",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/207",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/207",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/208",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/208",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/209",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/209",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/210",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/210",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/211",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/211",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/213",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/213",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/214",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/214",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2619",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2619",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2653",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2653",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1987",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1987",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2407",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2407",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/60",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/60",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2428",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2428",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/477",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/477",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2592",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2592",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/alllist/topic",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/alllist/topic",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/topic",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/topic",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1841",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1841",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2693",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2693",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/417",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/417",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1639",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1639",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/497",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/497",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2691",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2691",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2508",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2508",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/alllist/whatsnew",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/alllist/whatsnew",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/whatsnew",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/whatsnew",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2690",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2690",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2689",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2689",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2688",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2688",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2687",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2687",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2685",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2685",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2684",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2684",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/215",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/215",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/165",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/165",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/149",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/149",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/82",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/82",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/84",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/84",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/227",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/227",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/153",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/153",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/151",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/151",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/42",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/42",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/43",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/43",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/44",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/44",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/155",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/155",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/45",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/45",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/46",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/46",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/156",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/156",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/47",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/47",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/48",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/48",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/405",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/405",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/30",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/30",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/Info/210",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/Info/210",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/165",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/165",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/168",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/168",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/169",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/169",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/170",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/170",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/249",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/249",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/248",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/248",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/240",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/240",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/245",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/245",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/link/itemlist/66",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/link/itemlist/66",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/98",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/98",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/forms/contactaccept/edit/div/16",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/forms/contactaccept/edit/div/16",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/Info/3",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/Info/3",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1008",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1008",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/18",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/18",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/873",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/873",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/topic/18/mg",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/topic/18/mg",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2116",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2116",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2042",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2042",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/817",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/817",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/521",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/521",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/58",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/58",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2130",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2130",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2425",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2425",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1465",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1465",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/whatsnew/18/mg",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/whatsnew/18/mg",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/297",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/297",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/129",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/129",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/491",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/491",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1399",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1399",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1273",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1273",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/377",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/377",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1195",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1195",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1949",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1949",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/141",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/141",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/@Model.mg_local_id",
+          "status": 404,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/@Model.mg_local_id",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2322",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2322",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1762",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1762",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/134",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/134",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/80",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/80",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/16",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/16",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/288",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/288",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1565",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1565",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2014",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2014",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2002",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2002",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1007",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1007",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2052",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2052",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/362",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/362",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/59",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/59",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2081",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2081",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/436",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/436",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/82",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/82",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/19",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/19",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1956",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1956",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/topic/19/mg",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/topic/19/mg",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/81",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/81",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/178",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/178",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/992",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/992",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1346",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1346",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/whatsnew/19/mg",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/whatsnew/19/mg",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2531",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2531",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/267",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/267",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/110",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/110",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/210",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/210",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1500",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1500",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2029",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2029",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/31",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/31",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1878",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1878",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1503",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1503",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2059",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2059",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1471",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1471",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1303",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1303",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1036",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1036",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2553",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2553",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/505",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/505",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/453",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/453",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/295",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/295",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/8",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/8",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2541",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2541",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2080",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2080",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1968",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1968",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/83",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/83",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2377",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2377",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1808",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1808",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1773",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1773",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2035",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2035",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1375",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1375",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2439",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2439",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2430",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2430",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1174",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1174",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1349",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1349",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1686",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1686",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2583",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2583",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1685",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1685",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2476",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2476",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2479",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2479",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2210",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2210",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/84",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/84",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/412",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/412",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/33",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/33",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/23",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/23",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/topic/23/mg",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/topic/23/mg",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2666",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2666",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2673",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2673",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2648",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2648",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2670",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2670",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2664",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2664",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/whatsnew/23/mg",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/whatsnew/23/mg",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1020",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1020",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/65",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/65",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/54",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/54",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1904",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1904",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1235",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1235",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/820",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/820",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1255",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1255",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1041",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1041",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1849",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1849",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2139",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2139",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1440",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1440",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/66",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/66",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/951",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/951",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/871",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/871",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/870",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/870",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/141",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/141",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/1708",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/1708",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/52",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/52",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2077",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2077",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2168",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2168",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/333",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/333",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/495",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/495",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2083",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2083",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/352",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/352",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/948",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/948",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/101",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/RSSFeed/menu/101",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2378",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2378",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.kaisei.kanagawa.jp/info/2211",
+          "status": 200,
+          "finalUrl": "https://www.town.kaisei.kanagawa.jp/info/2211",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

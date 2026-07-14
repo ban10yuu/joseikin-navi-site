@@ -8397,3 +8397,40 @@
   - トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、様式のみ、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
 - 次:
   - 神奈川県公式棚卸し007として、14362大井町、14363松田町、14364山北町、14366開成町を自治体コード順に確認する。
+
+### 2026-07-14 神奈川県公式棚卸し007（14362大井町・14363松田町・14364山北町・14366開成町）
+
+- 作業範囲:
+  - 14362 大井町、14363 松田町、14364 山北町、14366 開成町の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 生成候補654件（大井町282件、松田町121件、山北町119件、開成町132件）が150件を超えたため、`tasks/discovery/kanagawa-official-coverage-007-manual-snippets.json` に公式本文の短い根拠を保存し、制度名・対象・金額/上限・条件・期限/受付状況が揃う制度を優先した。
+- 採用:
+  - 合計33件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 大井町13件: 「農ある暮らし」空家活用移住促進事業補助金、空家片付け補助金、住宅取得補助金、三世代同居住宅改修補助金、三世代同居住宅取得補助金、ブロック塀撤去費等補助制度、木造住宅耐震改修工事等補助制度、木造住宅耐震診断費補助制度、空き店舗対策補助制度、小規模事業者経営改善資金利子補助制度、農産物等加工品用機械購入補助制度、中小企業信用保証料補助制度、中小企業退職金共済制度奨励事業補助制度。
+  - 松田町5件: 生ごみ等処理機購入費助成金、録画機能付きドアホン購入費補助金、自転車ヘルメット購入費補助金、妊婦のための支援給付、小児医療費助成制度。
+  - 山北町7件: 英語検定料補助金、空き家活用助成金、住宅取得助成金、勤労者等住宅資金利子補助金、結婚新生活支援事業、妊婦タクシー費用助成事業、出産祝い金支給事業。
+  - 開成町8件: 木造住宅の耐震診断費及び耐震改修工事等補助制度、骨髄移植ドナー支援事業、こども医療費助成制度、特定不妊治療費（先進医療）助成事業、初回産科受診料助成、1か月児健康診査費用の助成、新生児聴覚検査費用の助成、中小企業退職金共済制度奨励補助金。
+- 生成ファイル:
+  - `tasks/discovery/kanagawa-official-coverage-007-municipalities.json`
+  - `tasks/discovery/kanagawa-official-coverage-007-14362-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-007-14363-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-007-14364-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-007-14366-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-007-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-007-manual-snippets.json`
+  - `tasks/discovery/kanagawa-official-coverage-007.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（`kanagawa-official-coverage-007.json`、候補JSON、手動スニペットJSON、municipalities、checkpoint）。
+  - 追加slug重複: pass（33件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（33 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11412、officialLinkedActive 11374、manuallyVerifiedActive 11374、神奈川県 localOfficial 266）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または神奈川県一部自治体の着手のみで全国完了扱いしない。
+  - 松田町のEV導入、災害予防・復旧、ブロック塀、木造住宅耐震、生垣、チャイルドシート、就園料は本文確認済みだが、今回の33件集約では採用せず第2巡候補に残す。
+  - 山北町の妊婦健康診査、1か月児健康診査、新生児聴覚検査、小児医療費、ひとり親家庭等医療費、障害者施設通所交通費は第2巡候補に残す。
+  - 開成町のゼロカーボンシティ創成補助、中小企業GX設備補助・利子補給、創業者支援利子補給、妊産婦健康診査、未熟児養育医療、ひとり親家庭等医療費はPDF又は表詳細・制度分割確認を第2巡候補に残す。
+  - トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、様式のみ、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
+- 次:
+  - 神奈川県公式棚卸し008として、14382箱根町、14383真鶴町、14384湯河原町、14401愛川町を自治体コード順に確認する。

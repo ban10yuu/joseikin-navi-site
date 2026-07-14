@@ -1,0 +1,26 @@
+{
+  "batchId": "kanagawa-official-coverage-007",
+  "prefecture": "神奈川県",
+  "municipalities": [
+    {
+      "code": "14362",
+      "name": "大井町",
+      "officialBaseUrl": "https://www.town.oi.kanagawa.jp/"
+    },
+    {
+      "code": "14363",
+      "name": "松田町",
+      "officialBaseUrl": "https://town.matsuda.kanagawa.jp/"
+    },
+    {
+      "code": "14364",
+      "name": "山北町",
+      "officialBaseUrl": "https://www.town.yamakita.kanagawa.jp/"
+    },
+    {
+      "code": "14366",
+      "name": "開成町",
+      "officialBaseUrl": "https://www.town.kaisei.kanagawa.jp/"
+    }
+  ]
+}
