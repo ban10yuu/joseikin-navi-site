@@ -1,0 +1,26 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-010",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13213",
+      "name": "東村山市",
+      "officialBaseUrl": "https://www.city.higashimurayama.tokyo.jp/"
+    },
+    {
+      "code": "13214",
+      "name": "国分寺市",
+      "officialBaseUrl": "https://www.city.kokubunji.tokyo.jp/"
+    },
+    {
+      "code": "13215",
+      "name": "国立市",
+      "officialBaseUrl": "https://www.city.kunitachi.tokyo.jp/"
+    },
+    {
+      "code": "13218",
+      "name": "福生市",
+      "officialBaseUrl": "https://www.city.fussa.tokyo.jp/"
+    }
+  ]
+}

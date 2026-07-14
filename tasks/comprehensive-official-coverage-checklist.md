@@ -7883,3 +7883,45 @@
     - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補、直接取得403の候補は第2巡候補又は次回継続候補に残す。
   - 次:
     - 東京都公式棚卸し010として、13213東村山市の直接取得403候補を公式本文/PDF又はキャッシュで再確認し、続けて13214国分寺市、13215国立市、13218福生市を自治体コード順に確認する。
+
+- 東京都公式棚卸し010
+  - 対象:
+    - 13213 東村山市、13214 国分寺市、13215 国立市、13218 福生市。
+  - 方法:
+    - 公式トップ到達を4自治体すべて確認し、候補411件を抽出した。
+    - 候補が150件を超えたため、採用候補の本文スニペット15件を保存し、制度強語・金額/上限・対象条件・受付表現を優先して再確認した。
+    - 東村山市は候補184件を抽出したが、個別制度ページの直接取得403候補が残るため、公式本文/PDF又はキャッシュで必須項目を確認できるまで第2巡候補に保持した。
+    - 国分寺市は脱炭素社会の実現に向けた再エネ・省エネ機器等設置助成、公共施設設置事業補助、掲示板設置事業補助、住居確保給付金を公式本文で確認した。
+    - 国立市は携帯・簡易トイレ購入助成、住宅省エネルギー化補助、起業プランサポート、防犯機器等購入助成、住宅用スマートエネルギー関連システム設置補助を公式本文で確認した。
+    - 福生市は防犯機器等購入緊急補助、空き店舗活用、介護人材育成支援、低所得世帯エアコン設置等緊急支援、雨水浸透施設設置、認証保育所利用助成を公式本文で確認した。
+    - カテゴリ導線、様式のみ、金額又は受付状況が公式本文だけで確定できない候補、直接取得403の候補、年度外の可能性がある候補は第2巡候補に残す。
+  - 採用:
+    - 国分寺市4件: 脱炭素社会の実現に向けた再エネ・省エネ機器等設置助成制度、公共施設設置事業補助制度、掲示板設置事業補助制度、住居確保給付金（家賃補助）。
+    - 国立市5件: 携帯・簡易トイレ購入助成、住宅省エネルギー化補助制度、起業プランサポート事業補助金、防犯機器等購入助成、住宅用スマートエネルギー関連システム設置補助金。
+    - 福生市6件: 防犯機器等購入緊急補助金、空き店舗活用補助金、介護人材育成支援補助金、低所得世帯エアコン設置等緊急支援事業、雨水浸透施設設置助成金制度、認証保育所利用助成。
+  - 生成ファイル:
+    - `tasks/discovery/tokyo-official-coverage-010-municipalities.json`
+    - `tasks/discovery/tokyo-official-coverage-010-13213-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-010-13214-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-010-13215-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-010-13218-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-010-13213-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-010-13214-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-010-13215-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-010-13218-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-010-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-010-target-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-010.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（15件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（15 official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 11163、officialLinkedActive 11125、manuallyVerifiedActive 11125、東京都 localOfficial 547）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補、直接取得403の候補は第2巡候補又は次回継続候補に残す。
+    - 福生市空き店舗活用補助金は公式ページとして採用したが申請期限2026年2月13日のため、activePublishedには加算されない。
+  - 次:
+    - 東京都公式棚卸し011として、13219狛江市、13220東大和市、13221清瀬市、13222東久留米市を自治体コード順に確認する。東村山市の直接取得403候補は第2巡候補として保持する。

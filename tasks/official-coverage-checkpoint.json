@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-07-14T13:45:00+09:00",
+  "updatedAt": "2026-07-14T14:05:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "tokyo-official-coverage-009",
-    "municipality": "小金井市・小平市・日野市",
+    "code": "tokyo-official-coverage-010",
+    "municipality": "東村山市・国分寺市・国立市・福生市",
     "adopted": 15,
-    "held": 790,
+    "held": 396,
     "excluded": 0,
     "sourceUrlsChecked": 15,
     "validation": {
-      "previousMunicipality": "東京都公式棚卸し009として、13210小金井市、13211小平市、13212日野市の公式本文を確認し各5件、計15件を採用した。13213東村山市は候補184件を抽出したが、個別制度ページの直接取得でCloudFront 403があり、公式本文再確認が必要なため次回継続とした。全国公式棚卸しは未完了。",
+      "previousMunicipality": "東京都公式棚卸し010として、13213東村山市、13214国分寺市、13215国立市、13218福生市を確認した。東村山市は候補184件を抽出したが直接取得403候補が残るため第2巡候補に保持し、国分寺市4件、国立市5件、福生市6件の公式本文を確認して計15件を採用した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
       "addedSlugUniqueness": "pass: 15 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
       "urlReachability": "pass: 15 official URLs returned HTTP 200",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 11149, officialLinkedActive 11111, manuallyVerifiedActive 11111, Tokyo localOfficial 533"
+      "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 11163, officialLinkedActive 11125, manuallyVerifiedActive 11125, Tokyo localOfficial 547"
     }
   },
   "next": {
-    "code": "tokyo-official-coverage-010",
-    "municipality": "東村山市・国分寺市・国立市・福生市",
-    "shortlist": "東京都公式棚卸し009は候補805件から小金井市5件、小平市5件、日野市5件を採用した。東村山市は候補184件を抽出し、エコecoチャレンジ、低所得世帯等エアコン、中小企業等成長支援、事業継続補助、公益活動補助などの制度候補があるが、個別制度ページの直接取得でCloudFront 403があり、公式本文で必須項目を再確認できたものだけ次回採用判断する。カテゴリ導線、様式のみ、金額又は受付状況不足候補は第2巡候補に残す。",
-    "instructions": "東京都公式棚卸し010として、13213東村山市の直接取得403候補を公式本文/PDF又はキャッシュで再確認し、続けて13214国分寺市、13215国立市、13218福生市を自治体コード順に確認する。制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。"
+    "code": "tokyo-official-coverage-011",
+    "municipality": "狛江市・東大和市・清瀬市・東久留米市",
+    "shortlist": "東京都公式棚卸し010は候補411件から国分寺市4件、国立市5件、福生市6件を採用した。東村山市は候補184件を抽出済みだが、直接取得403候補が残るため第2巡候補に保持する。国分寺市、国立市、福生市のカテゴリ導線、様式のみ、金額又は受付状況不足候補、年度外候補も第2巡候補に残す。",
+    "instructions": "東京都公式棚卸し011として、13219狛江市、13220東大和市、13221清瀬市、13222東久留米市を自治体コード順に確認する。制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。東村山市の直接取得403候補は公式本文/PDF又はキャッシュで確認できるまで全国完了扱いにしない。"
   },
   "prefectureMilestone": {
     "prefecture": "東京都",
     "status": "in-progress",
-    "lastBatch": "tokyo-official-coverage-009",
-    "notes": "東京都23区と市部を自治体コード順に継続中。13212日野市まで公式本文確認済み。13213東村山市は直接取得403候補を再確認してから継続。"
+    "lastBatch": "tokyo-official-coverage-010",
+    "notes": "東京都23区と市部を自治体コード順に継続中。13218福生市まで公式本文確認済み。ただし13213東村山市は直接取得403候補を第2巡候補として保持。次は13219狛江市から継続。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

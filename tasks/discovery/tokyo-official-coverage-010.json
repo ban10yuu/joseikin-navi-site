@@ -1,0 +1,65 @@
+{
+  "batchId": "tokyo-official-coverage-010",
+  "prefecture": "東京都",
+  "processedAt": "2026-07-14T14:05:00+09:00",
+  "municipalities": [
+    { "code": "13213", "name": "東村山市", "adopted": 0, "held": 184 },
+    { "code": "13214", "name": "国分寺市", "adopted": 4, "held": 91 },
+    { "code": "13215", "name": "国立市", "adopted": 5, "held": 21 },
+    { "code": "13218", "name": "福生市", "adopted": 6, "held": 100 }
+  ],
+  "candidateCount": 411,
+  "adoptedCount": 15,
+  "heldCount": 396,
+  "sourceUrlsChecked": 15,
+  "notes": [
+    "候補総数411件が150件を超えたため、採用候補15件の短い本文スニペットを tasks/discovery/tokyo-official-coverage-010-target-snippets.json に保存して再スコアリングした。",
+    "東村山市は候補184件を抽出済みだが、個別制度ページの直接取得403候補が残るため、公式本文/PDF又はキャッシュで必須項目を確認できるまで第2巡候補に保持した。",
+    "国分寺市、国立市、福生市は制度名、対象、金額/上限、条件、期限/受付状況、公式URLを公式HTML本文で確認できた15件を採用した。",
+    "福生市空き店舗活用補助金は公式ページとして採用したが、申請期限が2026-02-13のためactivePublishedには加算されない。"
+  ],
+  "adopted": [
+    "kokubunji-renewable-energy-equipment-subsidy-2026",
+    "kokubunji-community-facility-equipment-subsidy-2026",
+    "kokubunji-neighborhood-bulletin-board-subsidy-2026",
+    "kokubunji-housing-security-benefit-2026",
+    "kunitachi-portable-toilet-purchase-subsidy-2026",
+    "kunitachi-home-energy-saving-renovation-subsidy-2026",
+    "kunitachi-startup-plan-support-subsidy-2026",
+    "kunitachi-home-security-equipment-subsidy-2026",
+    "kunitachi-smart-energy-system-subsidy-2026",
+    "fussa-home-security-equipment-subsidy-2026",
+    "fussa-vacant-store-utilization-subsidy-2026",
+    "fussa-care-worker-training-subsidy-2026",
+    "fussa-low-income-air-conditioner-subsidy-2026",
+    "fussa-rainwater-infiltration-facility-subsidy-2026",
+    "fussa-certified-nursery-use-subsidy-2026"
+  ],
+  "generatedFiles": [
+    "tasks/discovery/tokyo-official-coverage-010-municipalities.json",
+    "tasks/discovery/tokyo-official-coverage-010-13213-municipality.json",
+    "tasks/discovery/tokyo-official-coverage-010-13214-municipality.json",
+    "tasks/discovery/tokyo-official-coverage-010-13215-municipality.json",
+    "tasks/discovery/tokyo-official-coverage-010-13218-municipality.json",
+    "tasks/discovery/tokyo-official-coverage-010-13213-candidates.json",
+    "tasks/discovery/tokyo-official-coverage-010-13214-candidates.json",
+    "tasks/discovery/tokyo-official-coverage-010-13215-candidates.json",
+    "tasks/discovery/tokyo-official-coverage-010-13218-candidates.json",
+    "tasks/discovery/tokyo-official-coverage-010-candidates.json",
+    "tasks/discovery/tokyo-official-coverage-010-target-snippets.json",
+    "tasks/discovery/tokyo-official-coverage-010.json"
+  ],
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: 15 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 15 official URLs returned HTTP 200",
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage failures 0, activePublished 11163, officialLinkedActive 11125, manuallyVerifiedActive 11125, Tokyo localOfficial 547"
+  },
+  "next": {
+    "code": "tokyo-official-coverage-011",
+    "municipality": "狛江市・東大和市・清瀬市・東久留米市",
+    "instructions": "13219狛江市、13220東大和市、13221清瀬市、13222東久留米市を自治体コード順に確認する。東村山市の直接取得403候補は第2巡候補として保持し、公式本文/PDF又はキャッシュで制度名・対象・金額/上限・条件・期限/受付状況が揃うものだけ採用判断する。"
+  }
+}
