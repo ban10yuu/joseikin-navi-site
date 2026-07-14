@@ -1,0 +1,41 @@
+{
+  "batchId": "tokyo-official-coverage-011",
+  "prefecture": "東京都",
+  "completedAt": "2026-07-14T14:38:00+09:00",
+  "municipalities": [
+    { "code": "13219", "name": "狛江市", "adopted": 4 },
+    { "code": "13220", "name": "東大和市", "adopted": 5 },
+    { "code": "13221", "name": "清瀬市", "adopted": 5 },
+    { "code": "13222", "name": "東久留米市", "adopted": 5 }
+  ],
+  "candidateTotal": 493,
+  "adoptedTotal": 19,
+  "heldTotal": 474,
+  "sourceUrlsChecked": 19,
+  "adoptedSlugs": [
+    "komae-senior-smartphone-purchase-subsidy-2026",
+    "komae-living-support-benefit-2026",
+    "komae-low-income-household-benefit-2026",
+    "komae-child-raising-inflation-benefit-2026",
+    "higashiyamato-home-security-equipment-subsidy-2026",
+    "higashiyamato-seismic-retrofit-demolition-subsidy-2026",
+    "higashiyamato-senior-smartphone-purchase-subsidy-2026",
+    "higashiyamato-senior-hearing-aid-subsidy-2026",
+    "higashiyamato-child-raising-inflation-benefit-2026",
+    "kiyose-child-raising-inflation-benefit-2026",
+    "kiyose-food-waste-processor-subsidy-2026",
+    "kiyose-seismic-relocation-subsidy-2026",
+    "kiyose-wooden-house-seismic-retrofit-subsidy-2026",
+    "kiyose-wooden-house-seismic-diagnosis-subsidy-2026",
+    "higashikurume-low-income-air-conditioner-subsidy-2026",
+    "higashikurume-shopping-street-vacant-store-subsidy-2026",
+    "higashikurume-home-security-equipment-subsidy-2026",
+    "higashikurume-food-waste-processor-subsidy-2026",
+    "higashikurume-child-cafeteria-support-subsidy-2026"
+  ],
+  "notes": [
+    "候補493件のため採用候補だけ短い本文スニペットを保存し再スコアした。",
+    "トップ、カテゴリ、サイトマップ、様式のみ、金額又は受付状況が公式本文だけで確定しない候補は第2巡候補に保持した。",
+    "狛江市の物価高対応子育て応援手当は狛江市子育て情報サイトで本文確認し、公式子育てポータルとして採用した。"
+  ]
+}

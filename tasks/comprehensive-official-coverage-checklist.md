@@ -7925,3 +7925,41 @@
     - 福生市空き店舗活用補助金は公式ページとして採用したが申請期限2026年2月13日のため、activePublishedには加算されない。
   - 次:
     - 東京都公式棚卸し011として、13219狛江市、13220東大和市、13221清瀬市、13222東久留米市を自治体コード順に確認する。東村山市の直接取得403候補は第2巡候補として保持する。
+
+- 東京都公式棚卸し011
+  - 対象:
+    - 13219 狛江市、13220 東大和市、13221 清瀬市、13222 東久留米市。
+  - 方法:
+    - 公式トップ到達を4自治体すべて確認し、候補493件を抽出した。
+    - 候補が150件を超えたため、採用候補の本文スニペット19件を `tasks/discovery/tokyo-official-coverage-011-target-snippets.json` に保存し、制度強語・金額/上限・対象条件・期限/受付状況を優先して再スコアした。
+    - 狛江市は高齢者スマートフォン購入費助成、物価高対策市民生活応援給付金、物価高対策低所得者世帯応援給付金、物価高対応子育て応援手当を公式本文又は公式子育てポータルで確認した。
+    - 東大和市は防犯機器等導入費補助、耐震診断・耐震改修・除却助成、高齢者スマホ購入補助、高齢者補聴器購入費助成、物価高対応子育て応援手当を公式本文で確認した。
+    - 清瀬市は物価高対応子育て応援手当、生ごみ減量化処理機器購入費助成、耐震化住宅住み替え促進助成、木造住宅耐震改修等助成、木造住宅耐震診断助成を公式本文で確認した。
+    - 東久留米市は低所得世帯向けエアコン設置緊急支援、商店街活性化対策事業補助、住宅防犯設備設置費補助、生ごみ処理機器購入費助成、こども食堂支援事業補助を公式本文で確認した。
+    - トップ、カテゴリ、サイトマップ、様式のみ、金額又は受付状況が公式本文だけで確定しない候補、年度外の可能性がある候補は第2巡候補に残す。
+  - 採用:
+    - 狛江市4件: 高齢者スマートフォン購入費助成事業、物価高対策市民生活応援給付金、物価高対策低所得者世帯応援給付金、物価高対応子育て応援手当。
+    - 東大和市5件: 防犯機器等導入費補助事業、耐震診断・耐震改修・除却の助成制度、高齢者スマホ購入補助金、高齢者補聴器購入費助成事業、物価高対応子育て応援手当。
+    - 清瀬市5件: 物価高対応子育て応援手当、生ごみ減量化処理機器の購入費助成金制度、耐震化住宅住み替え促進助成、木造住宅耐震改修等助成、木造住宅耐震診断助成制度。
+    - 東久留米市5件: 低所得世帯向けエアコン設置緊急支援事業、商店街活性化対策事業補助金、住宅防犯設備設置費補助金、生ごみ処理機器購入費助成金、こども食堂支援事業補助金。
+  - 生成ファイル:
+    - `tasks/discovery/tokyo-official-coverage-011-municipalities.json`
+    - `tasks/discovery/tokyo-official-coverage-011-13219-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-011-13220-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-011-13221-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-011-13222-municipality.json`
+    - `tasks/discovery/tokyo-official-coverage-011-candidates.json`
+    - `tasks/discovery/tokyo-official-coverage-011-target-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-011.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（19件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（19 official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 11179、officialLinkedActive 11141、manuallyVerifiedActive 11141、東京都 localOfficial 563）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補、直接取得403の候補は第2巡候補又は次回継続候補に残す。
+  - 次:
+    - 東京都公式棚卸し012として、13223武蔵村山市、13224多摩市、13225稲城市、13227羽村市を自治体コード順に確認する。東村山市の直接取得403候補は第2巡候補として保持する。

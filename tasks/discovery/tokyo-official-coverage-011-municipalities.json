@@ -1,0 +1,26 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-011",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13219",
+      "name": "狛江市",
+      "officialBaseUrl": "https://www.city.komae.tokyo.jp/"
+    },
+    {
+      "code": "13220",
+      "name": "東大和市",
+      "officialBaseUrl": "https://www.city.higashiyamato.lg.jp/"
+    },
+    {
+      "code": "13221",
+      "name": "清瀬市",
+      "officialBaseUrl": "https://www.city.kiyose.lg.jp/"
+    },
+    {
+      "code": "13222",
+      "name": "東久留米市",
+      "officialBaseUrl": "https://www.city.higashikurume.lg.jp/"
+    }
+  ]
+}
