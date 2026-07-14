@@ -1,0 +1,175 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-001",
+  "generatedAt": "2026-07-14T01:08:27.733Z",
+  "selectedCount": 14,
+  "selected": [
+    {
+      "slug": "chiyoda-heat-island-measures-subsidy-2026",
+      "municipality": "千代田区",
+      "officialUrl": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kankyo/hojo/heat-island.html",
+      "sourceKind": "extra",
+      "sourceKey": "chiyoda-heat-island",
+      "status": 200,
+      "selected": true
+    },
+    {
+      "slug": "chiyoda-citizen-funeral-cremation-subsidy-2026",
+      "municipality": "千代田区",
+      "officialUrl": "https://www.city.chiyoda.lg.jp/koho/kurashi/koseki/sogi.html",
+      "sourceKind": "target",
+      "sourceKey": 11,
+      "status": 200,
+      "selected": true
+    },
+    {
+      "slug": "chuo-return-home-pregnancy-checkup-subsidy-2026",
+      "municipality": "中央区",
+      "officialUrl": "https://www.city.chuo.lg.jp/a0031/kosodate/shussan/josei/ninpukennshin.html",
+      "sourceKind": "target",
+      "sourceKey": 3,
+      "status": 200,
+      "selected": true
+    },
+    {
+      "slug": "chuo-certified-nursery-fee-subsidy-2026",
+      "municipality": "中央区",
+      "officialUrl": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/hoiku/ninshouhoiku/ninsyouhoikusyotouhoikuryou.html",
+      "sourceKind": "target",
+      "sourceKey": 4,
+      "status": 200,
+      "selected": true
+    },
+    {
+      "slug": "chuo-home-security-measures-subsidy-2026",
+      "municipality": "中央区",
+      "officialUrl": "https://www.city.chuo.lg.jp/a0010/bousaianzen/bouhan/service/sumainobouhanntaisakuzyosei.html",
+      "sourceKind": "target",
+      "sourceKey": 7,
+      "status": 200,
+      "selected": true
+    },
+    {
+      "slug": "chuo-life-support-shopping-voucher-2026",
+      "municipality": "中央区",
+      "officialUrl": "https://www.city.chuo.lg.jp/shigoto/sangyoushinkou/bukkakoutoutaisaku/seikatsuouenkaimonokenhaifu.html",
+      "sourceKind": "target",
+      "sourceKey": 8,
+      "status": 200,
+      "selected": true
+    },
+    {
+      "slug": "chuo-pediatric-psychiatric-hospitalization-subsidy-2026",
+      "municipality": "中央区",
+      "officialUrl": "https://www.city.chuo.lg.jp/a0023/kosodate/kosodate/teatejosei/iryouhijosei/seisinsyogai.html",
+      "sourceKind": "target",
+      "sourceKey": 19,
+      "status": 200,
+      "selected": true
+    },
+    {
+      "slug": "chuo-mumps-vaccination-subsidy-2026",
+      "municipality": "中央区",
+      "officialUrl": "https://www.city.chuo.lg.jp/a0031/kenkouiryou/iryou/yobousesshu/suitouotahukuitibujosei.html",
+      "sourceKind": "target",
+      "sourceKey": 29,
+      "status": 200,
+      "selected": true
+    },
+    {
+      "slug": "chuo-pregnancy-hypertension-medical-subsidy-2026",
+      "municipality": "中央区",
+      "officialUrl": "https://www.city.chuo.lg.jp/a0031/kosodate/shussan/josei/nyuinzyosei.html",
+      "sourceKind": "target",
+      "sourceKey": 38,
+      "status": 200,
+      "selected": true
+    },
+    {
+      "slug": "chuo-senior-care-support-allowance-2026",
+      "municipality": "中央区",
+      "officialUrl": "https://www.city.chuo.lg.jp/a0028/kenkouiryou/koureikaigo/zaitakuiryou/zaitakushienservice/nintei/kaigooenteate.html",
+      "sourceKind": "target",
+      "sourceKey": 54,
+      "status": 200,
+      "selected": true
+    },
+    {
+      "slug": "chuo-diverse-group-activities-support-benefit-2026",
+      "municipality": "中央区",
+      "officialUrl": "https://www.city.chuo.lg.jp/a0049/kosodate/kosodate/teatejosei/chuotayouna-hogosya.html",
+      "sourceKind": "target",
+      "sourceKey": 58,
+      "status": 200,
+      "selected": true
+    },
+    {
+      "slug": "chuo-newborn-gift-voucher-2026",
+      "municipality": "中央区",
+      "officialUrl": "https://www.city.chuo.lg.jp/a0020/kosodate/shussan/shussanshien/kaimonokenn.html",
+      "sourceKind": "target",
+      "sourceKey": 77,
+      "status": 200,
+      "selected": true
+    },
+    {
+      "slug": "minato-premium-shopping-voucher-2026",
+      "municipality": "港区",
+      "officialUrl": "https://www.city.minato.tokyo.jp/sangyousinkou/20220530.html",
+      "sourceKind": "target",
+      "sourceKey": 9,
+      "status": 200,
+      "selected": true
+    },
+    {
+      "slug": "shinjuku-crime-prevention-equipment-subsidy-2026",
+      "municipality": "新宿区",
+      "officialUrl": "https://www.city.shinjuku.lg.jp/anzen/kikikanri01_000001_00218.html",
+      "sourceKind": "target",
+      "sourceKey": 13,
+      "status": 200,
+      "selected": true
+    }
+  ],
+  "heldOver": [
+    {
+      "municipality": "千代田区",
+      "url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kankyo/hojo/clean-ene-jidoshajosei.html",
+      "reason": "令和8年度は申請受付休止のため採用除外"
+    },
+    {
+      "municipality": "千代田区",
+      "url": "https://www.city.chiyoda.lg.jp/koho/kurashi/sodanmadoguchi/teigakugenzei-fusokugaku.html",
+      "reason": "受付終了ページ。第2巡で過年度・終了制度台帳確認"
+    },
+    {
+      "municipality": "中央区",
+      "url": "https://www.city.chuo.lg.jp/a0036/machizukuri/bika/taisaku/kikijosei/ecojosei_jutaku.html",
+      "reason": "公式HTMLで対象・期限は確認。機器別上限額表はPDF側確認を第2巡へ保留"
+    },
+    {
+      "municipality": "中央区",
+      "url": "https://www.city.chuo.lg.jp/a0036/machizukuri/bika/taisaku/kikijosei/ecojosei_jigyosho.html",
+      "reason": "公式HTMLで対象・期限は確認。機器別上限額表はPDF側確認を第2巡へ保留"
+    },
+    {
+      "municipality": "中央区",
+      "url": "https://www.city.chuo.lg.jp/a0016/shigoto/kigyoushien/hojokin/shoukan.html",
+      "reason": "申請受付終了のため採用除外"
+    },
+    {
+      "municipality": "中央区",
+      "url": "https://www.city.chuo.lg.jp/a0022/kurashi/sumai/kyojuushien/jyuutakuteate.html",
+      "reason": "住居確保給付金は全国制度色が強く、地方独自掲載としては第2巡判定"
+    },
+    {
+      "municipality": "港区",
+      "url": "https://www.city.minato.tokyo.jp/sitemap.xml",
+      "reason": "XML sitemapは大量候補。港区の制度ページは第2巡で追加クロールが必要"
+    },
+    {
+      "municipality": "新宿区",
+      "url": "https://www.city.shinjuku.lg.jp/sitemap.html",
+      "reason": "HTML sitemap由来の制度ページ再抽出を第2巡へ保留"
+    }
+  ]
+}

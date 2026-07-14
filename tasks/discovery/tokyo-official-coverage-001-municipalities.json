@@ -1,0 +1,26 @@
+{
+  "batchId": "tokyo-comprehensive-official-coverage-001",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13101",
+      "name": "千代田区",
+      "officialBaseUrl": "https://www.city.chiyoda.lg.jp/"
+    },
+    {
+      "code": "13102",
+      "name": "中央区",
+      "officialBaseUrl": "https://www.city.chuo.lg.jp/"
+    },
+    {
+      "code": "13103",
+      "name": "港区",
+      "officialBaseUrl": "https://www.city.minato.tokyo.jp/"
+    },
+    {
+      "code": "13104",
+      "name": "新宿区",
+      "officialBaseUrl": "https://www.city.shinjuku.lg.jp/"
+    }
+  ]
+}

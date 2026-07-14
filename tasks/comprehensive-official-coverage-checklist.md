@@ -7502,3 +7502,41 @@
     - 受付終了、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、県・国制度紹介は第2巡候補に残す。
   - 次:
     - 進捗JSON・HEAD・対象ファイルで次の未完了都道府県又は団体を確認し、古い固定コミットや古い自治体名を再開地点にせず、全国公式棚卸しを継続する。
+
+- 東京都公式棚卸し001
+  - 対象:
+    - 13101 千代田区、13102 中央区、13103 港区、13104 新宿区。
+  - 方法:
+    - 公式トップ到達を4自治体すべてHTTP 200で確認した。
+    - `scripts/discover-official-candidates.mjs` で候補458件を抽出し、候補数が150件を超えたため、公式本文スニペット83件を保存して再スコアリングした。
+    - 千代田区はヒートアイランド対策助成、区民葬儀火葬料金助成、中央区は里帰り出産等妊産婦健康診査等、認証保育所保育料、住まいの防犯対策、生活応援買物券、小児精神障害者入院医療費、おたふくかぜ任意予防接種、妊娠高血圧症候群等医療費、おとしより介護応援手当、多様な集団活動等利用支援、新生児誕生祝品、港区はみなトクPAYプレミアム商品券、新宿区は防犯対策用品購入補助の公式本文で制度名・対象・金額/上限・条件・期限/受付状況を確認した。
+    - 千代田区のクリーンエネルギー自動車購入費等助成制度は令和8年度申請受付休止のため採用しない。
+    - 中央区ホームページ作成費用補助は申請受付終了、中央区住宅・事業所用自然エネルギー・省エネルギー機器等導入費助成はPDF側の機器別上限額表精査が必要、中央区住居確保給付金は全国制度色が強いため第2巡候補に残す。
+    - 港区・新宿区はサイトマップ由来の制度ページ再抽出を第2巡候補に残す。
+  - 採用:
+    - 千代田区2件: 令和8年度ヒートアイランド対策助成、区民葬儀火葬料金助成制度。
+    - 中央区10件: 里帰り出産等に伴う妊産婦健康診査等の費用助成、認証保育所保育料補助、住まいの防犯対策助成、区民の生活応援買物券配布、小児精神障害者入院医療費助成制度、おたふくかぜ任意予防接種費用一部助成、妊娠高血圧症候群等医療費助成、おとしより介護応援手当、多様な集団活動等利用支援事業、新生児誕生祝品。
+    - 港区1件: みなトクPAYプレミアム商品券。
+    - 新宿区1件: 防犯カメラなどの防犯対策用品購入補助。
+  - 生成ファイル:
+    - `tasks/discovery/tokyo-official-coverage-001-municipalities.json`
+    - `tasks/discovery/tokyo-official-coverage-001-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-001-sitemap-keyword-urls.json`
+    - `tasks/discovery/tokyo-official-coverage-001-target-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-001-extra-official-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-001-selected-main.json`
+    - `tasks/discovery/tokyo-official-coverage-001-selected-snippets.json`
+    - `tasks/discovery/tokyo-official-coverage-001-url-check.json`
+    - `tasks/discovery/tokyo-official-coverage-001.json`
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+    - 追加slug重複: pass（14件、`verified-local-misc-2026.ts` 内で各1件）。
+    - 公式URL到達: pass（14 official URLsすべてHTTP 200）。
+    - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+    - `git diff --check`: pass。
+    - `npm run audit:coverage`: pass（failures 0、activePublished 10986、officialLinkedActive 10948、manuallyVerifiedActive 10948、東京都 localOfficial 370）。
+  - 注意:
+    - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+    - 受付終了、受付休止、404、金額又は受付状況不足、PDF精査待ち、カテゴリ導線、様式のみ、国制度色が強い候補は第2巡候補に残す。
+  - 次:
+    - 東京都公式棚卸し002として、13105文京区、13106台東区、13107墨田区、13108江東区を自治体コード順に確認する。
