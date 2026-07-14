@@ -1,0 +1,64 @@
+{
+  "batchId": "nagano-official-coverage-007",
+  "prefecture": "長野県",
+  "generatedAt": "2026-07-15T05:40:25+09:00",
+  "scope": [
+    {
+      "code": "20382",
+      "name": "辰野町",
+      "officialBaseUrl": "https://www.town.tatsuno.lg.jp/"
+    },
+    {
+      "code": "20383",
+      "name": "箕輪町",
+      "officialBaseUrl": "https://www.town.minowa.lg.jp/"
+    },
+    {
+      "code": "20384",
+      "name": "飯島町",
+      "officialBaseUrl": "https://www.town.iijima.lg.jp/"
+    },
+    {
+      "code": "20385",
+      "name": "南箕輪村",
+      "officialBaseUrl": "https://www.vill.minamiminowa.lg.jp/"
+    },
+    {
+      "code": "20386",
+      "name": "中川村",
+      "officialBaseUrl": "https://www.vill.nakagawa.nagano.jp/"
+    }
+  ],
+  "discovery": {
+    "candidateCount": 273,
+    "municipalityCount": 5,
+    "snippetCount": 273
+  },
+  "adopted": {
+    "total": 60,
+    "byMunicipality": {
+      "辰野町": 5,
+      "箕輪町": 7,
+      "南箕輪村": 48
+    },
+    "sourceUrlCount": 60
+  },
+  "held": {
+    "notes": "飯島町・中川村は通常クロールで個別制度本文の必須項目確認が弱い候補を第2巡へ保持。辰野町・箕輪町・南箕輪村でもトップ、カテゴリ導線、PDF、申請書単体、募集記事、到達不可や制度要件不足候補は第2巡へ保持。"
+  },
+  "validation": {
+    "previousMunicipality": "長野県公式棚卸し007として、20382辰野町・20383箕輪町・20384飯島町・20385南箕輪村・20386中川村を確認した。候補273件、本文スニペット273件を保存し、辰野町5件、箕輪町7件、南箕輪村48件の合計60件を新規採用した。飯島町・中川村及びカテゴリ導線・申請書単体・募集記事は第2巡候補保持。長野県第1巡は20386中川村まで到達。全国公式棚卸しは未完了。",
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for nagano-official-coverage-007 JSON files and checkpoint update inputs",
+    "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 60 unique adopted official URLs returned HTTP 200 by interval curl",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13615, officialLinkedActive 13495, manuallyVerifiedActive 13495, 長野県 localOfficial 529)"
+  },
+  "next": {
+    "batchId": "nagano-official-coverage-008",
+    "code": "20388",
+    "municipality": "宮田村"
+  }
+}

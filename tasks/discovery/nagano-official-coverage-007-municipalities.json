@@ -1,0 +1,37 @@
+{
+  "batchId": "nagano-official-coverage-007",
+  "prefecture": "長野県",
+  "generatedAt": "2026-07-15T06:25:00+09:00",
+  "municipalities": [
+    {
+      "code": "20382",
+      "name": "辰野町",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.town.tatsuno.lg.jp/"
+    },
+    {
+      "code": "20383",
+      "name": "箕輪町",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.town.minowa.lg.jp/"
+    },
+    {
+      "code": "20384",
+      "name": "飯島町",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.town.iijima.lg.jp/"
+    },
+    {
+      "code": "20385",
+      "name": "南箕輪村",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.vill.minamiminowa.lg.jp/"
+    },
+    {
+      "code": "20386",
+      "name": "中川村",
+      "prefecture": "長野県",
+      "officialBaseUrl": "https://www.vill.nakagawa.nagano.jp/"
+    }
+  ]
+}

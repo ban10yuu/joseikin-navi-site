@@ -9813,3 +9813,42 @@
   - トップ、カテゴリ、ポータル、PDF、様式、申請書単体、イベント・募集記事、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 長野県公式棚卸し007として、20382辰野町から自治体コード順に確認する。
+
+
+### 2026-07-15 長野県公式棚卸し007（20382辰野町・20383箕輪町・20384飯島町・20385南箕輪村・20386中川村）
+- 範囲:
+  - 20382 辰野町: `https://www.town.tatsuno.lg.jp/`
+  - 20383 箕輪町: `https://www.town.minowa.lg.jp/`
+  - 20384 飯島町: `https://www.town.iijima.lg.jp/`
+  - 20385 南箕輪村: `https://www.vill.minamiminowa.lg.jp/`
+  - 20386 中川村: `https://www.vill.nakagawa.nagano.jp/`
+- 探索:
+  - `node scripts/discover-official-candidates.mjs --input tasks/discovery/nagano-official-coverage-007-municipalities.json --output tasks/discovery/nagano-official-coverage-007-candidates.json --initial-limit-per-municipality 80 --deep-limit-per-municipality 220 --limit-per-municipality 220 --concurrency 4 --timeout-ms 30000`
+  - 候補273件。辰野町21件、箕輪町22件、飯島町34件、南箕輪村196件、中川村0件。キャッシュ本文からスニペット273件を抽出し、制度名・対象・金額/上限・申請/受付表現が揃う個別ページ・公式一覧を優先した。
+- 採用:
+  - 合計60件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 辰野町5件: 住民税非課税世帯エアコン設置促進、通学定期券等購入費重点支援、水道基本料金減免、有機農業推進、プレミアム付デジタル商品券。
+  - 箕輪町7件: ゼロカーボン推進、児童扶養手当、特別児童扶養手当、児童手当、不妊治療費助成、妊婦のための支援給付、在宅保育応援手当。
+  - 南箕輪村48件: 既存住宅エネルギー自立化、商工業振興資金融資、生ごみ処理器、企業人材育成、住宅用新エネルギー、耐震、住宅リフォーム、中退共掛金、空き工場等、企業振興、ブロック塀撤去、骨髄バンクドナー、不妊・不育症、人間ドック、奨学金返還支援、女性就労環境、空き家バンク、妊婦支援、初回産科受診料、乳幼児おむつ用品、子育て家庭優待、福祉医療費、児童手当、ひとり親、子育てサークル、勤労者生活資金、勤労者制度、高年齢者雇用促進、勤労者住宅利子補給、間伐、森林づくり、強い農業、免許自主返納、高齢者福祉、障がい福祉、高齢者補聴器、猫繁殖制限手術、地域総合整備資金、商工業制度、助成・補助・融資一覧、移住・定住、妊娠・出産、子育て支援、農林業、雇用・勤労者、福祉・サービスの公式一覧。
+  - 飯島町・中川村はカテゴリ、生活案内、PDF、申請書、周知中心で個別制度本文の必須項目確認が弱い候補を第2巡候補として保持した。
+- 生成ファイル:
+  - `tasks/discovery/nagano-official-coverage-007-adopted-urls.json`
+  - `tasks/discovery/nagano-official-coverage-007-candidates.json`
+  - `tasks/discovery/nagano-official-coverage-007-municipalities.json`
+  - `tasks/discovery/nagano-official-coverage-007-official-lists.json`
+  - `tasks/discovery/nagano-official-coverage-007-snippets.json`
+  - `tasks/discovery/nagano-official-coverage-007-url-status.txt`
+  - `tasks/discovery/nagano-official-coverage-007.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（007関連JSON、checkpoint）。
+  - 追加slug重複: pass（60件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（採用元の重複排除60URLすべてHTTP 200、間隔付きcurl）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 13615、officialLinkedActive 13495、manuallyVerifiedActive 13495、長野県 localOfficial 529）。
+- 注意:
+  - 長野県は20201長野市から20386中川村まで第1巡に到達した。ただし全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は長野県20386中川村到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、ポータル、PDF、様式、申請書単体、イベント・募集記事、制度要件不足候補は第2巡候補に残す。
+- 次:
+  - 長野県公式棚卸し008として、20388宮田村から自治体コード順に確認する。
