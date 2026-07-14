@@ -8043,3 +8043,40 @@
   - 受付終了、広報・計画ページ、カテゴリ導線、様式のみ、金額又は受付状況不足候補、PDF精査待ち候補、直接取得403の候補は第2巡候補又は次回継続候補に残す。
 - 次:
   - 東京都公式棚卸し014として、13307檜原村、13308奥多摩町、13361大島町、13362利島村を自治体コード順に確認する。東村山市の直接取得403候補は第2巡候補として保持する。
+
+### 2026-07-14 東京都公式棚卸し014（13307檜原村・13308奥多摩町・13361大島町・13362利島村）
+
+- 作業範囲:
+  - 13307 檜原村、13308 奥多摩町、13361 大島町、13362 利島村の公式サイト・公式例規を対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 生成候補276件（檜原村108件、奥多摩町6件、大島町107件、利島村55件）が閾値を超えたため、`tasks/discovery/tokyo-official-coverage-014-manual-snippets.json` に公式本文の短い根拠を保存し、制度名・対象・金額/上限・条件・期限/受付状況が揃う制度を優先した。
+- 採用:
+  - 合計22件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 檜原村13件: 地域おこし事業、ものづくり支援事業、定住促進サポート事業支援金、土地造成事業補助金、老朽空き家除却補助金、高齢者補聴器購入費助成、低所得世帯エアコン購入費助成、がん患者ウィッグ等購入費助成、乳幼児育児用品助成、チャイルドシート購入費補助、農業用機械購入補助、生ごみ処理機器購入費補助、浄化槽設置整備事業補助。
+  - 奥多摩町3件: 移住・定住応援補助金、定住促進サポート事業支援金、まちづくり推進事業支援金。
+  - 大島町4件: 国保加入者への人間ドック助成、帯状疱疹ワクチン費用助成、出産育児一時金、妊婦支援特別対策事業。
+  - 利島村2件: 定住促進サポート事業支援金、出産助成金。
+- 生成ファイル:
+  - `tasks/discovery/tokyo-official-coverage-014-municipalities.json`
+  - `tasks/discovery/tokyo-official-coverage-014-13307-municipality.json`
+  - `tasks/discovery/tokyo-official-coverage-014-13308-municipality.json`
+  - `tasks/discovery/tokyo-official-coverage-014-13361-municipality.json`
+  - `tasks/discovery/tokyo-official-coverage-014-13362-municipality.json`
+  - `tasks/discovery/tokyo-official-coverage-014-13307-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-014-13308-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-014-13361-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-014-13362-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-014-candidates.json`
+  - `tasks/discovery/tokyo-official-coverage-014-manual-snippets.json`
+  - `tasks/discovery/tokyo-official-coverage-014.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - 追加slug重複: pass（22件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（22 official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11256、officialLinkedActive 11218、manuallyVerifiedActive 11218、東京都 localOfficial 640）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または一部自治体の着手のみで全国完了扱いしない。
+  - 受付終了、カテゴリ導線、様式のみ、金額又は受付状況不足候補、広報・間接導線、PDF精査待ち候補は第2巡候補又は次回継続候補に残す。
+- 次:
+  - 東京都公式棚卸し015として、13363新島村、13364神津島村、13381三宅村、13382御蔵島村を自治体コード順に確認する。東村山市の直接取得403候補は第2巡候補として保持する。

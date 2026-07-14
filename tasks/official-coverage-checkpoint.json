@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-07-14T15:58:00+09:00",
+  "updatedAt": "2026-07-14T16:36:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "tokyo-official-coverage-013",
-    "municipality": "あきる野市・西東京市・瑞穂町・日の出町",
-    "adopted": 29,
-    "held": 711,
+    "code": "tokyo-official-coverage-014",
+    "municipality": "檜原村・奥多摩町・大島町・利島村",
+    "adopted": 22,
+    "held": 254,
     "excluded": 0,
     "sourceUrlsChecked": 29,
     "validation": {
-      "previousMunicipality": "東京都公式棚卸し013として、13228あきる野市、13229西東京市、13303瑞穂町、13305日の出町を確認した。候補740件が閾値を超えたため手動スニペット台帳で再スコアし、あきる野市4件、西東京市5件、瑞穂町9件、日の出町11件の公式本文又は公式PDFを確認して計29件を採用した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "東京都公式棚卸し014として、13307檜原村、13308奥多摩町、13361大島町、13362利島村を確認した。候補276件が閾値を超えたため手動スニペット台帳で再スコアし、檜原村13件、奥多摩町3件、大島町4件、利島村2件の公式本文又は公式例規を確認して計22件を採用した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "addedSlugUniqueness": "pass: 29 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 29 official URLs returned HTTP 200",
+      "addedSlugUniqueness": "pass: 22 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 22 official URLs returned HTTP 200",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11235, officialLinkedActive 11197, manuallyVerifiedActive 11197, 東京都 localOfficial 619)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11256, officialLinkedActive 11218, manuallyVerifiedActive 11218, 東京都 localOfficial 640)"
     }
   },
   "next": {
-    "code": "tokyo-official-coverage-014",
-    "municipality": "檜原村・奥多摩町・大島町・利島村",
-    "shortlist": "東京都公式棚卸し013は候補740件からあきる野市4件、西東京市5件、瑞穂町9件、日の出町11件を採用した。金額不足、カテゴリ導線、広報・計画ページ、様式のみ、終了済みで現行確認価値が低い候補は第2巡候補に残す。",
-    "instructions": "東京都公式棚卸し014として、13307檜原村、13308奥多摩町、13361大島町、13362利島村を自治体コード順に確認する。制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。東村山市の直接取得403候補は公式本文/PDF又はキャッシュで確認できるまで全国完了扱いにしない。"
+    "code": "tokyo-official-coverage-015",
+    "municipality": "新島村・神津島村・三宅村・御蔵島村",
+    "shortlist": "東京都公式棚卸し014は候補276件から檜原村13件、奥多摩町3件、大島町4件、利島村2件を採用した。金額不足、カテゴリ導線、様式のみ、広報・間接導線、PDF精査待ち、受付状況不足候補は第2巡候補に残す。",
+    "instructions": "東京都公式棚卸し015として、13363新島村、13364神津島村、13381三宅村、13382御蔵島村を自治体コード順に確認する。制度名・対象・金額/上限・条件・期限/受付状況が揃う個別制度だけ採用する。東村山市の直接取得403候補は公式本文/PDF又はキャッシュで確認できるまで全国完了扱いにしない。"
   },
   "prefectureMilestone": {
     "prefecture": "東京都",
     "status": "in-progress",
-    "lastBatch": "tokyo-official-coverage-013",
-    "notes": "東京都23区と市部を自治体コード順に継続中。13305日の出町まで公式本文又は公式PDF確認済み。ただし13213東村山市は直接取得403候補を第2巡候補として保持。次は13307檜原村から継続。"
+    "lastBatch": "tokyo-official-coverage-014",
+    "notes": "東京都23区、市部、西多摩郡、島しょ部を自治体コード順に継続中。13362利島村まで公式本文又は公式例規確認済み。ただし13213東村山市は直接取得403候補を第2巡候補として保持。次は13363新島村から継続。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

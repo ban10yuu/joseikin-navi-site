@@ -1,0 +1,26 @@
+{
+  "batchId": "tokyo-official-coverage-014",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13307",
+      "name": "檜原村",
+      "officialBaseUrl": "https://www.vill.hinohara.tokyo.jp/"
+    },
+    {
+      "code": "13308",
+      "name": "奥多摩町",
+      "officialBaseUrl": "https://www.town.okutama.tokyo.jp/"
+    },
+    {
+      "code": "13361",
+      "name": "大島町",
+      "officialBaseUrl": "https://www.town.oshima.tokyo.jp/"
+    },
+    {
+      "code": "13362",
+      "name": "利島村",
+      "officialBaseUrl": "https://www.toshimamura.org/"
+    }
+  ]
+}

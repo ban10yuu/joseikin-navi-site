@@ -1,0 +1,121 @@
+{
+  "batchId": "tokyo-official-coverage-014",
+  "prefecture": "東京都",
+  "municipality": {
+    "code": "13308",
+    "name": "奥多摩町",
+    "officialBaseUrl": "https://www.town.okutama.tokyo.jp/"
+  },
+  "candidateCount": 6,
+  "candidates": [
+    {
+      "municipalityCode": "13308",
+      "municipalityName": "奥多摩町",
+      "sourceUrl": "https://www.town.okutama.tokyo.jp/",
+      "status": 200,
+      "title": "奥多摩町 Okutama Town 人と自然にいやされるまち おくたま",
+      "h1": "奥多摩町 Okutama Town 人と自然にいやされるまち おくたま",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住",
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13308",
+      "municipalityName": "奥多摩町",
+      "sourceUrl": "https://www.town.okutama.tokyo.jp/index.html",
+      "status": 200,
+      "title": "奥多摩町 Okutama Town 人と自然にいやされるまち おくたま",
+      "h1": "奥多摩町 Okutama Town 人と自然にいやされるまち おくたま",
+      "updatedAt": "",
+      "keywordHits": [
+        "移住",
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13308",
+      "municipalityName": "奥多摩町",
+      "sourceUrl": "https://www.town.okutama.tokyo.jp/gyosei/index.html",
+      "status": 200,
+      "title": "奥多摩町 Okutama Town 人と自然にいやされるまち おくたま",
+      "h1": "奥多摩町 Okutama Town 人と自然にいやされるまち おくたま",
+      "updatedAt": "",
+      "keywordHits": [
+        "子育て"
+      ],
+      "candidateScore": 4,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13308",
+      "municipalityName": "奥多摩町",
+      "sourceUrl": "https://www.town.okutama.tokyo.jp/kosodate/index.html",
+      "status": 200,
+      "title": "",
+      "h1": "",
+      "updatedAt": "",
+      "keywordHits": [
+        "補助金",
+        "移住",
+        "空家",
+        "子育て",
+        "予防接種"
+      ],
+      "candidateScore": 9,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13308",
+      "municipalityName": "奥多摩町",
+      "sourceUrl": "https://www.town.okutama.tokyo.jp/sitemap.html",
+      "status": 200,
+      "title": "サイトマップ",
+      "h1": "サイトマップ",
+      "updatedAt": "2022年04月01日",
+      "keywordHits": [
+        "移住",
+        "子育て"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    },
+    {
+      "municipalityCode": "13308",
+      "municipalityName": "奥多摩町",
+      "sourceUrl": "https://www.town.okutama.tokyo.jp/gyosei/1083.html",
+      "status": 200,
+      "title": "リンク集",
+      "h1": "リンク集",
+      "updatedAt": "2026年04月14日",
+      "keywordHits": [
+        "福祉"
+      ],
+      "candidateScore": 0,
+      "candidatePriority": "low",
+      "contentType": "text/html",
+      "stage": "discovery",
+      "verificationStatus": "unverified"
+    }
+  ]
+}

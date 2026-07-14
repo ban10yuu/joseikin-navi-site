@@ -1,0 +1,76 @@
+{
+  "batchId": "tokyo-official-coverage-014",
+  "generatedAt": "2026-07-14T16:36:00+09:00",
+  "prefecture": "東京都",
+  "municipalities": [
+    {
+      "code": "13307",
+      "name": "檜原村",
+      "officialUrl": "https://www.vill.hinohara.tokyo.jp/",
+      "candidateCount": 108,
+      "adoptedCount": 13
+    },
+    {
+      "code": "13308",
+      "name": "奥多摩町",
+      "officialUrl": "https://www.town.okutama.tokyo.jp/",
+      "candidateCount": 6,
+      "adoptedCount": 3
+    },
+    {
+      "code": "13361",
+      "name": "大島町",
+      "officialUrl": "https://www.town.oshima.tokyo.jp/",
+      "candidateCount": 107,
+      "adoptedCount": 4
+    },
+    {
+      "code": "13362",
+      "name": "利島村",
+      "officialUrl": "https://www.toshimamura.org/",
+      "candidateCount": 55,
+      "adoptedCount": 2
+    }
+  ],
+  "candidateTotal": 276,
+  "adoptedTotal": 22,
+  "heldTotal": 254,
+  "rescore": {
+    "reason": "候補総数が150件を超えたため、公式本文の短いスニペットを保存して再スコアした。",
+    "snippetFile": "tasks/discovery/tokyo-official-coverage-014-manual-snippets.json",
+    "priority": "制度名・対象・金額/上限・条件・期限/受付状況が公式本文で揃う個別ページを優先した。トップ、カテゴリ、様式のみ、金額又は受付状況不足、広報・例規以外の間接導線は第2巡候補に残した。"
+  },
+  "adoptedSlugs": [
+    "hinohara-community-revitalization-subsidy-2026",
+    "hinohara-product-development-subsidy-2026",
+    "hinohara-settlement-support-grant-2026",
+    "hinohara-land-development-subsidy-2026",
+    "hinohara-vacant-house-demolition-subsidy-2026",
+    "hinohara-hearing-aid-subsidy-2026",
+    "hinohara-low-income-air-conditioner-subsidy-2026",
+    "hinohara-cancer-wig-subsidy-2026",
+    "hinohara-infant-supplies-subsidy-2026",
+    "hinohara-child-seat-subsidy-2026",
+    "hinohara-agricultural-machinery-subsidy-2026",
+    "hinohara-food-waste-processor-subsidy-2026",
+    "hinohara-septic-tank-installation-subsidy-2026",
+    "okutama-migration-settlement-housing-subsidy-2026",
+    "okutama-settlement-support-grant-2026",
+    "okutama-community-development-grant-2026",
+    "oshima-national-health-insurance-medical-checkup-subsidy-2026",
+    "oshima-shingles-vaccine-subsidy-2026",
+    "oshima-childbirth-lump-sum-2026",
+    "oshima-pregnant-women-special-support-subsidy-2026",
+    "toshima-settlement-support-grant-2026",
+    "toshima-childbirth-support-grant-2026"
+  ],
+  "next": {
+    "batchId": "tokyo-official-coverage-015",
+    "municipalities": [
+      "13363 新島村",
+      "13364 神津島村",
+      "13381 三宅村",
+      "13382 御蔵島村"
+    ]
+  }
+}
