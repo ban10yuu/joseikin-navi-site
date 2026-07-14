@@ -1,0 +1,4649 @@
+{
+  "batchId": "kanagawa-official-coverage-005",
+  "prefecture": "神奈川県",
+  "generatedAt": "2026-07-14T10:23:11.632Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 141,
+  "results": [
+    {
+      "code": "14216",
+      "name": "座間市",
+      "officialBaseUrl": "https://www.city.zama.kanagawa.jp/",
+      "discoveredUrlCount": 350,
+      "candidateCount": 141,
+      "strongCandidateCount": 18,
+      "lowPriorityCandidateCount": 123,
+      "candidates": [
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "住宅",
+            "創業",
+            "農業",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/about/1007659.html",
+          "status": 200,
+          "title": "市へのお問い合わせ",
+          "h1": "市へのお問い合わせ",
+          "updatedAt": "令和5年5月31日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/1001665.html",
+          "status": 200,
+          "title": "座間市防災ハザードマップ",
+          "h1": "座間市防災ハザードマップ",
+          "updatedAt": "令和7年12月22日",
+          "keywordHits": [
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/konnatoki/1006462.html",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "令和7年7月23日",
+          "keywordHits": [
+            "一時金",
+            "医療費助成",
+            "妊婦"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/konnatoki/1006463.html",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "令和7年7月23日",
+          "keywordHits": [
+            "医療費助成",
+            "事業者",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/konnatoki/1006464.html",
+          "status": 200,
+          "title": "就職・退職",
+          "h1": "就職・退職",
+          "updatedAt": "令和5年1月24日",
+          "keywordHits": [
+            "補助金",
+            "貸付"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/konnatoki/1006466.html",
+          "status": 200,
+          "title": "引越・住まい",
+          "h1": "引越・住まい",
+          "updatedAt": "令和5年12月28日",
+          "keywordHits": [
+            "貸付",
+            "減免",
+            "住宅",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/konnatoki/1006467.html",
+          "status": 200,
+          "title": "税金",
+          "h1": "税金",
+          "updatedAt": "令和6年2月9日",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "住宅",
+            "事業者",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/konnatoki/1006470.html",
+          "status": 200,
+          "title": "相談",
+          "h1": "相談",
+          "updatedAt": "令和5年1月24日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/koutsu/bus/1002529.html",
+          "status": 200,
+          "title": "コミュニティバス(ザマフレンド号)",
+          "h1": "コミュニティバス(ザマフレンド号)",
+          "updatedAt": "令和6年10月1日",
+          "keywordHits": [
+            "事業者",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisetsu/index.html",
+          "status": 200,
+          "title": "施設案内",
+          "h1": "施設案内",
+          "updatedAt": "令和5年8月18日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisei/joho/security/1005710.html",
+          "status": 200,
+          "title": "電子申請システム",
+          "h1": "電子申請システム",
+          "updatedAt": "令和8年5月1日",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/opendata/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/index.html",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "令和5年8月18日",
+          "keywordHits": [
+            "貸付",
+            "住宅",
+            "空き家",
+            "事業者",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/zei/index.html",
+          "status": 200,
+          "title": "市税",
+          "h1": "市税",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/index.html",
+          "status": 200,
+          "title": "資源物・ごみ",
+          "h1": "資源物・ごみ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/sumai/index.html",
+          "status": 200,
+          "title": "住まい・市営住宅",
+          "h1": "住まい・市営住宅",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "住宅",
+            "空き家",
+            "耐震"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/fukushi/index.html",
+          "status": 200,
+          "title": "健康・福祉・医療",
+          "h1": "健康・福祉・医療",
+          "updatedAt": "令和5年8月18日",
+          "keywordHits": [
+            "給付金",
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/fukushi/1008515/index.html",
+          "status": 200,
+          "title": "非課税世帯等給付金及び定額減税捕捉給付金（調整給付）",
+          "h1": "非課税世帯等給付金及び定額減税捕捉給付金（調整給付）",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/fukushi/iryo/index.html",
+          "status": 200,
+          "title": "医療",
+          "h1": "医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/fukushi/shakaifukushi/index.html",
+          "status": 200,
+          "title": "社会福祉",
+          "h1": "社会福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/fukushi/koureisha/index.html",
+          "status": 200,
+          "title": "高齢者福祉",
+          "h1": "高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/fukushi/shogai/index.html",
+          "status": 200,
+          "title": "障がい者福祉",
+          "h1": "障がい者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/fukushi/kaigo/index.html",
+          "status": 200,
+          "title": "介護保険",
+          "h1": "介護保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/index.html",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "令和5年8月18日",
+          "keywordHits": [
+            "給付金",
+            "子育て",
+            "就学",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/index.html",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "",
+          "keywordHits": [
+            "不妊"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/1007648/index.html",
+          "status": 200,
+          "title": "健診・予防接種",
+          "h1": "健診・予防接種",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/index.html",
+          "status": 200,
+          "title": "子育て支援",
+          "h1": "子育て支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/index.html",
+          "status": 200,
+          "title": "教育・青少年",
+          "h1": "教育・青少年",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/bunkasports/index.html",
+          "status": 200,
+          "title": "文化・スポーツ・公園",
+          "h1": "文化・スポーツ・公園",
+          "updatedAt": "令和5年8月18日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/sangyo/index.html",
+          "status": 200,
+          "title": "産業・ビジネス",
+          "h1": "産業・ビジネス",
+          "updatedAt": "令和5年8月18日",
+          "keywordHits": [
+            "創業",
+            "事業者",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/sangyo/sougyou/index.html",
+          "status": 200,
+          "title": "創業・商業",
+          "h1": "創業・商業",
+          "updatedAt": "",
+          "keywordHits": [
+            "創業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/sangyo/chusho/index.html",
+          "status": 200,
+          "title": "中小企業事業主の方へ",
+          "h1": "中小企業事業主の方へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/sangyo/nougyou/index.html",
+          "status": 200,
+          "title": "農業",
+          "h1": "農業",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisei/index.html",
+          "status": 200,
+          "title": "市政情報",
+          "h1": "市政情報",
+          "updatedAt": "令和5年8月18日",
+          "keywordHits": [
+            "補助金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisei/kichi/index.html",
+          "status": 200,
+          "title": "基地政策",
+          "h1": "基地政策",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisei/keikaku/index.html",
+          "status": 200,
+          "title": "市の計画",
+          "h1": "市の計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisei/shingikai/index.html",
+          "status": 200,
+          "title": "審議会など",
+          "h1": "審議会など",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisei/koho/kouhouzama/r8/1013736.html",
+          "status": 200,
+          "title": "広報ざま令和8年7月号",
+          "h1": "広報ざま令和8年7月号",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/youkoso/index.html",
+          "status": 200,
+          "title": "ようこそ座間へ",
+          "h1": "ようこそ座間へ",
+          "updatedAt": "令和5年3月27日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisei/koho/hashin/1005094.html",
+          "status": 200,
+          "title": "座間市LINE公式アカウント",
+          "h1": "座間市LINE公式アカウント",
+          "updatedAt": "令和8年3月23日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisei/seisaku/furusato/1004157.html",
+          "status": 200,
+          "title": "座間市へ寄附をお考えの方へ",
+          "h1": "座間市へ寄附をお考えの方へ",
+          "updatedAt": "令和8年6月11日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/1009615/1013095/1013060.html",
+          "status": 200,
+          "title": "生活応援商品券の配布",
+          "h1": "生活応援商品券の配布",
+          "updatedAt": "令和8年6月19日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/koseki/tetsuduki/1007732.html",
+          "status": 200,
+          "title": "オンラインで転出届出・転入転居予約ができます",
+          "h1": "オンラインで転出届出・転入転居予約ができます",
+          "updatedAt": "令和8年5月11日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/chaizama/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "令和7年11月17日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/index.html",
+          "status": 200,
+          "title": "ごみの分別",
+          "h1": "ごみの分別",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/fukushi/kaigo/jigyousha/1010514/1003009.html",
+          "status": 200,
+          "title": "座間市指定介護保険事業所自己点検シート",
+          "h1": "座間市指定介護保険事業所自己点検シート",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/family/1003113.html",
+          "status": 200,
+          "title": "ファミリー・サポート事業の協力会員募集（子育てを応援したい人向け）",
+          "h1": "ファミリー・サポート事業の協力会員募集（子育てを応援したい人向け）",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/event/kyoiku/1001629/1001632.html",
+          "status": 200,
+          "title": "北地区文化センター「おはなし会」",
+          "h1": "北地区文化センター「おはなし会」",
+          "updatedAt": "令和8年7月13日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/newslist.html",
+          "status": 200,
+          "title": "新着更新情報",
+          "h1": "新着更新情報",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "空き家",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisei/jinji/saiyo/1009463.html",
+          "status": 200,
+          "title": "保健師のしごと紹介",
+          "h1": "保健師のしごと紹介",
+          "updatedAt": "令和8年6月19日",
+          "keywordHits": [
+            "貸付"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisei/photonews/r8/1013766/1013789.html",
+          "status": 200,
+          "title": "写真ニュース：「夏の販売会」を開催中。ハンドメイド作品や手作りお菓子から、新鮮な野菜まで勢ぞろい！（令和8年）",
+          "h1": "写真ニュース：「夏の販売会」を開催中。ハンドメイド作品や手作りお菓子から、新鮮な野菜まで勢ぞろい！（令和8年）",
+          "updatedAt": "令和8年7月8日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisei/seisaku/furusato/index.html",
+          "status": 200,
+          "title": "ふるさと納税・寄附",
+          "h1": "ふるさと納税・寄附",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisei/shiyakusho/floor/1003698.html",
+          "status": 200,
+          "title": "市役所各階案内",
+          "h1": "市役所各階案内",
+          "updatedAt": "令和8年3月2日",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/about/site/howtouse.html",
+          "status": 200,
+          "title": "情報の探し方・ページ閲覧支援",
+          "h1": "情報の探し方・ページ閲覧支援",
+          "updatedAt": "令和5年2月27日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisei/shiyakusho/1007957/index.html",
+          "status": 200,
+          "title": "市の組織・窓口案内",
+          "h1": "市の組織・窓口案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/event/index.html",
+          "status": 200,
+          "title": "イベントカレンダー",
+          "h1": "イベントカレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/event/kodomomirai/index.html",
+          "status": 200,
+          "title": "こども未来部",
+          "h1": "こども未来部",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/event/fukushi/index.html",
+          "status": 200,
+          "title": "福祉部",
+          "h1": "福祉部",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/event/toshi/index.html",
+          "status": 200,
+          "title": "都市部",
+          "h1": "都市部",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/event/kyoiku/index.html",
+          "status": 200,
+          "title": "教育部",
+          "h1": "教育部",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/event/nougyou/index.html",
+          "status": 200,
+          "title": "農業委員会事務局",
+          "h1": "農業委員会事務局",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisetsu/oshirase/index.html",
+          "status": 200,
+          "title": "公共施設からのお知らせ",
+          "h1": "公共施設からのお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisetsu/kosodate/index.html",
+          "status": 200,
+          "title": "子育て・保育施設",
+          "h1": "子育て・保育施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisetsu/kenko/index.html",
+          "status": 200,
+          "title": "健康・福祉施設",
+          "h1": "健康・福祉施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/youkoso/location/index.html",
+          "status": 200,
+          "title": "ロケーションサービス",
+          "h1": "ロケーションサービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/chaizama/1007576.html",
+          "status": 200,
+          "title": "1歳から2歳",
+          "h1": "1歳から2歳",
+          "updatedAt": "令和5年1月30日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/chaizama/1007577.html",
+          "status": 200,
+          "title": "3歳から5歳",
+          "h1": "3歳から5歳",
+          "updatedAt": "令和5年1月30日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/chaizama/1007578.html",
+          "status": 200,
+          "title": "子どもの健康",
+          "h1": "子どもの健康",
+          "updatedAt": "令和5年9月22日",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/chaizama/1007579.html",
+          "status": 200,
+          "title": "転入された方へ",
+          "h1": "転入された方へ",
+          "updatedAt": "令和5年1月30日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/opendata/opendata/index.html",
+          "status": 200,
+          "title": "座間市オープンデータ",
+          "h1": "座間市オープンデータ",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/cgi-opd/opendata.cgi",
+          "status": 200,
+          "title": "オープンデータ検索",
+          "h1": "オープンデータ検索",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "福祉",
+            "就学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/opendata/1000085/index.html",
+          "status": 200,
+          "title": "カテゴリで絞り込み",
+          "h1": "カテゴリで絞り込み",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/konnatoki/index.html",
+          "status": 200,
+          "title": "ライフシーンから探す",
+          "h1": "ライフシーンから探す",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/forforeigners/1009806.html",
+          "status": 200,
+          "title": "こども を そだてる／きょういく Childrearing/Education",
+          "h1": "こども を そだてる／きょういく Childrearing/Education",
+          "updatedAt": "令和7年2月20日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/about/1006471.html",
+          "status": 200,
+          "title": "お役立ちリンク",
+          "h1": "お役立ちリンク",
+          "updatedAt": "令和7年6月30日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/event/shimin/1001508/1013388.html",
+          "status": 200,
+          "title": "令和8年度座間市総合防災訓練",
+          "h1": "令和8年度座間市総合防災訓練",
+          "updatedAt": "令和8年4月15日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/joho/index.html",
+          "status": 200,
+          "title": "防災情報の伝達",
+          "h1": "防災情報の伝達",
+          "updatedAt": "令和8年5月29日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/index.html",
+          "status": 200,
+          "title": "防災ガイド・ハザードマップ",
+          "h1": "防災ガイド・ハザードマップ",
+          "updatedAt": "令和8年5月29日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map1.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map2-2.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map3.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map4.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map5-2.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map6.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map7-2.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map8.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map9-2.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map10-2.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/1001666.html",
+          "status": 200,
+          "title": "子育てファミリーのための防災ハンドブック",
+          "h1": "子育てファミリーのための防災ハンドブック",
+          "updatedAt": "令和5年7月28日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/sumai/taishin/1002575.html",
+          "status": 200,
+          "title": "危険ブロック塀など撤去補助制度",
+          "h1": "危険ブロック塀など撤去補助制度",
+          "updatedAt": "令和6年5月10日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "通学"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/sumai/taishin/1002569.html",
+          "status": 200,
+          "title": "耐震診断および耐震改修工事補助制度",
+          "h1": "耐震診断および耐震改修工事補助制度",
+          "updatedAt": "令和8年4月7日",
+          "keywordHits": [
+            "減免",
+            "住宅",
+            "耐震"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/1001668.html",
+          "status": 200,
+          "title": "家庭での食料品備蓄(3日間は自力で生き残れる準備を)",
+          "h1": "家庭での食料品備蓄(3日間は自力で生き残れる準備を)",
+          "updatedAt": "令和5年2月3日",
+          "keywordHits": [
+            "事業者",
+            "水産"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/1001653.html",
+          "status": 200,
+          "title": "避難の心得",
+          "h1": "避難の心得",
+          "updatedAt": "令和4年12月7日",
+          "keywordHits": [
+            "妊婦"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/1001656.html",
+          "status": 200,
+          "title": "避難所開設訓練(平成26年度)",
+          "h1": "避難所開設訓練(平成26年度)",
+          "updatedAt": "令和4年12月7日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/hanso/index.html",
+          "status": 200,
+          "title": "救急搬送・救急協力",
+          "h1": "救急搬送・救急協力",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/yobou/index.html",
+          "status": 200,
+          "title": "火災予防",
+          "h1": "火災予防",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/nenkin/kenkouhoken/kanyu/1002014.html",
+          "status": 200,
+          "title": "国民健康保険に加入する人",
+          "h1": "国民健康保険に加入する人",
+          "updatedAt": "令和7年12月8日",
+          "keywordHits": [
+            "農業",
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/ninshin/1003056.html",
+          "status": 200,
+          "title": "母子健康手帳",
+          "h1": "母子健康手帳",
+          "updatedAt": "令和7年12月19日",
+          "keywordHits": [
+            "事業者",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/josei/1003085.html",
+          "status": 200,
+          "title": "小児医療費助成",
+          "h1": "小児医療費助成",
+          "updatedAt": "令和8年3月25日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/josei/1003086.html",
+          "status": 200,
+          "title": "未熟児養育医療給付",
+          "h1": "未熟児養育医療給付",
+          "updatedAt": "令和8年2月20日",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/1007621/1003127.html",
+          "status": 200,
+          "title": "児童手当",
+          "h1": "児童手当",
+          "updatedAt": "令和8年2月20日",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "奨学金"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/nenkin/kenkouhoken/kyufu/1002054.html",
+          "status": 200,
+          "title": "加入者に子どもが生まれたとき(出産育児一時金)",
+          "h1": "加入者に子どもが生まれたとき(出産育児一時金)",
+          "updatedAt": "令和8年3月30日",
+          "keywordHits": [
+            "一時金"
+          ],
+          "candidateScore": 13,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/event/kenko/1001548/1003079.html",
+          "status": 200,
+          "title": "令和8年度健康相談",
+          "h1": "令和8年度健康相談",
+          "updatedAt": "令和8年3月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/event/kodomomirai/1001581/1003061.html",
+          "status": 200,
+          "title": "ハローベビークラス（母親父親教室）",
+          "h1": "ハローベビークラス（母親父親教室）",
+          "updatedAt": "令和8年7月9日",
+          "keywordHits": [
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/event/kodomomirai/1001581/1003076.html",
+          "status": 200,
+          "title": "離乳食教室（初期・中期）",
+          "h1": "離乳食教室（初期・中期）",
+          "updatedAt": "令和8年3月31日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/event/kodomomirai/1001581/1003075.html",
+          "status": 200,
+          "title": "離乳食教室（後期・完了期）",
+          "h1": "離乳食教室（後期・完了期）",
+          "updatedAt": "令和8年3月31日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/soudan/1003080.html",
+          "status": 200,
+          "title": "未熟児訪問指導事業",
+          "h1": "未熟児訪問指導事業",
+          "updatedAt": "令和5年9月4日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/ninshin/1003058.html",
+          "status": 200,
+          "title": "妊婦健康診査",
+          "h1": "妊婦健康診査",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "妊婦"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/ninshin/1003060.html",
+          "status": 200,
+          "title": "多胎妊婦の健康診査",
+          "h1": "多胎妊婦の健康診査",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "助成金",
+            "妊婦"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/network/1003117.html",
+          "status": 200,
+          "title": "【生涯学習課】ざまこそだてカレンダー",
+          "h1": "【生涯学習課】ざまこそだてカレンダー",
+          "updatedAt": "令和8年6月24日",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/guide/1003093.html",
+          "status": 200,
+          "title": "子育て情報ウェブサイト「子育て応援ひろば ざますく」",
+          "h1": "子育て情報ウェブサイト「子育て応援ひろば ざますく」",
+          "updatedAt": "令和5年8月14日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/fukushi/iryo/kyukyu/1002656.html",
+          "status": 200,
+          "title": "座間市24時間健康電話相談",
+          "h1": "座間市24時間健康電話相談",
+          "updatedAt": "令和6年12月24日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/1007648/chusha/1003083.html",
+          "status": 200,
+          "title": "予防接種(乳幼児・小学生)",
+          "h1": "予防接種(乳幼児・小学生)",
+          "updatedAt": "令和8年4月24日",
+          "keywordHits": [
+            "助成金",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1006825.html",
+          "status": 200,
+          "title": "幼児教育・保育無償化のご案内（認可外保育施設等）",
+          "h1": "幼児教育・保育無償化のご案内（認可外保育施設等）",
+          "updatedAt": "令和8年4月2日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisetsu/kosodate/1007585.html",
+          "status": 200,
+          "title": "第1子育て支援センター ざまりんのおうち「ゆめ」",
+          "h1": "第1子育て支援センター ざまりんのおうち「ゆめ」",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisetsu/kosodate/1007589.html",
+          "status": 200,
+          "title": "第2子育て支援センター ざまりんのおうち「ひまわり」",
+          "h1": "第2子育て支援センター ざまりんのおうち「ひまわり」",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/shisetsu/kosodate/1007591.html",
+          "status": 200,
+          "title": "第3子育て支援センター ざまりんのおうち「かがやき」",
+          "h1": "第3子育て支援センター ざまりんのおうち「かがやき」",
+          "updatedAt": "令和8年7月1日",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/event/kodomomirai/1001581/1003078.html",
+          "status": 200,
+          "title": "育児相談（乳幼児）",
+          "h1": "育児相談（乳幼児）",
+          "updatedAt": "令和8年4月17日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/seishonen/1003224.html",
+          "status": 200,
+          "title": "青少年相談",
+          "h1": "青少年相談",
+          "updatedAt": "令和7年12月12日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/soudan/1003209.html",
+          "status": 200,
+          "title": "就学相談",
+          "h1": "就学相談",
+          "updatedAt": "令和8年4月8日",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/hitorioya/index.html",
+          "status": 200,
+          "title": "ひとり親家庭の支援(ひとり親になることを検討している方も対象です)",
+          "h1": "ひとり親家庭の支援(ひとり親になることを検討している方も対象です)",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "給付金",
+            "貸付",
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/josei/index.html",
+          "status": 200,
+          "title": "医療費の助成",
+          "h1": "医療費の助成",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/shugaku/index.html",
+          "status": 200,
+          "title": "就学援助等",
+          "h1": "就学援助等",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/1003095.html",
+          "status": 200,
+          "title": "公共施設の「授乳」「搾乳」「おむつ替え」の対応状況",
+          "h1": "公共施設の「授乳」「搾乳」「おむつ替え」の対応状況",
+          "updatedAt": "令和8年2月27日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/youchien/1003167.html",
+          "status": 200,
+          "title": "【事業者向け】子育てのための施設等利用給付負担金に係る提出書類",
+          "h1": "【事業者向け】子育てのための施設等利用給付負担金に係る提出書類",
+          "updatedAt": "令和7年6月2日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/nenkin/nenkin/nenkin/1002066.html",
+          "status": 200,
+          "title": "こんな時は年金の手続きを",
+          "h1": "こんな時は年金の手続きを",
+          "updatedAt": "令和5年12月14日",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/sangyo/koyou/chusho/1003477.html",
+          "status": 200,
+          "title": "勤労者生活資金貸付",
+          "h1": "勤労者生活資金貸付",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "貸付",
+            "福祉"
+          ],
+          "candidateScore": 13,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/sangyo/chusho/shien/1003470.html",
+          "status": 200,
+          "title": "障害者雇用報奨金",
+          "h1": "障害者雇用報奨金",
+          "updatedAt": "令和7年9月1日",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/sangyo/chusho/shien/1003472.html",
+          "status": 200,
+          "title": "中小企業退職金共済奨励補助金",
+          "h1": "中小企業退職金共済奨励補助金",
+          "updatedAt": "令和5年4月24日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/sangyo/chusho/yuushi/1003466.html",
+          "status": 200,
+          "title": "事業資金利子補助、信用保証料補助",
+          "h1": "事業資金利子補助、信用保証料補助",
+          "updatedAt": "令和8年1月29日",
+          "keywordHits": [
+            "貸付",
+            "創業",
+            "事業者"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/koseki/koseki/1001850.html",
+          "status": 200,
+          "title": "離婚届",
+          "h1": "離婚届",
+          "updatedAt": "令和8年7月8日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/1007621/1003130.html",
+          "status": 200,
+          "title": "児童扶養手当",
+          "h1": "児童扶養手当",
+          "updatedAt": "令和8年6月13日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/1007621/1003131.html",
+          "status": 200,
+          "title": "特別児童扶養手当",
+          "h1": "特別児童扶養手当",
+          "updatedAt": "令和8年6月12日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/nyugaku/1003185.html",
+          "status": 200,
+          "title": "小・中学校の転校手続き",
+          "h1": "小・中学校の転校手続き",
+          "updatedAt": "令和6年6月21日",
+          "keywordHits": [
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002152.html",
+          "status": 200,
+          "title": "粗大ごみ手数料の減免申請方法",
+          "h1": "粗大ごみ手数料の減免申請方法",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "減免",
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002147.html",
+          "status": 200,
+          "title": "粗大ごみの出し方",
+          "h1": "粗大ごみの出し方",
+          "updatedAt": "令和8年2月3日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002138.html",
+          "status": 200,
+          "title": "市では収集できないごみの出し方",
+          "h1": "市では収集できないごみの出し方",
+          "updatedAt": "令和6年4月23日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "14216",
+          "municipalityName": "座間市",
+          "sourceUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002116.html",
+          "status": 200,
+          "title": "違法な不用品回収業者にご注意ください",
+          "h1": "違法な不用品回収業者にご注意ください",
+          "updatedAt": "令和5年5月19日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.zama.kanagawa.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/about/site/usability.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/about/site/usability.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/about/1007659.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/about/1007659.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/1001665.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/1001665.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/1001651.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/1001651.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/konnatoki/1006462.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/konnatoki/1006462.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/konnatoki/1006463.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/konnatoki/1006463.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/konnatoki/1006464.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/konnatoki/1006464.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/konnatoki/1006465.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/konnatoki/1006465.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/konnatoki/1006466.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/konnatoki/1006466.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/konnatoki/1006467.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/konnatoki/1006467.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/konnatoki/1006468.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/konnatoki/1006468.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/konnatoki/1006469.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/konnatoki/1006469.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/konnatoki/1006470.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/konnatoki/1006470.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/koutsu/bus/1002529.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/koutsu/bus/1002529.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/concierge/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/concierge/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/joho/security/1005710.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/joho/security/1005710.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event_calendar.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event_calendar.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/bunkasports/sports/yoyaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/bunkasports/sports/yoyaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/opendata/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/opendata/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/koseki/madoguchi/1001830.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/koseki/madoguchi/1001830.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/1009615/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/1009615/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/koseki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/koseki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/1011184/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/1011184/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/zei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/zei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/nenkin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/nenkin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/soudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/soudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/kankyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/kankyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/suidou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/suidou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/doubutsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/doubutsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/sumai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/sumai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/koutsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/koutsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/jichi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/jichi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/1008515/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/1008515/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/covid19/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/covid19/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/iryo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/iryo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/seikatsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/seikatsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/shakaifukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/shakaifukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/koureisha/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/koureisha/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/shogai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/shogai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/kaigo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/kaigo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/1007648/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/1007648/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/shien/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/bunkasports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/bunkasports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/bunkasports/bunka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/bunkasports/bunka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/bunkasports/sports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/bunkasports/sports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/bunkasports/gakushu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/bunkasports/gakushu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/bunkasports/bunkazai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/bunkasports/bunkazai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/bunkasports/toshokan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/bunkasports/toshokan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/bunkasports/kouen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/bunkasports/kouen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sangyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sangyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sangyo/keiyaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sangyo/keiyaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sangyo/1010089/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sangyo/1010089/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sangyo/youchi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sangyo/youchi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sangyo/sougyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sangyo/sougyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sangyo/chusho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sangyo/chusho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sangyo/koyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sangyo/koyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sangyo/nougyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sangyo/nougyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sangyo/koukoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sangyo/koukoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/mayor/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/mayor/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shigikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shigikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/shiyakusho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/shiyakusho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/1011627/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/1011627/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/kishakaiken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/kishakaiken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/sougoukeikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/sougoukeikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/seisaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/seisaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/1007669/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/1007669/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/kichi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/kichi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/keikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/keikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/zaisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/zaisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/kaikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/kaikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/machi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/machi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/shingikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/shingikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/kyodo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/kyodo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/publiccomment/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/publiccomment/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/jinken/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/jinken/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/kansa/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/kansa/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/jinji/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/jinji/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/kouryu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/kouryu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/koho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/koho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/photonews/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/photonews/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/joho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/joho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/senkyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/senkyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/1012764/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/1012764/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/1013099/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/1013099/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/koho/kouhouzama/r8/1013736.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/koho/kouhouzama/r8/1013736.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/youkoso/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/youkoso/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/koho/hashin/1005094.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/koho/hashin/1005094.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/seisaku/furusato/1004157.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/seisaku/furusato/1004157.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/kenko/nechusho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/kenko/nechusho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/about/site/keysearch.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/about/site/keysearch.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/about/site/idsearch.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/about/site/idsearch.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/1009615/1013095/1013060.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/1009615/1013095/1013060.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/koseki/tetsuduki/1007732.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/koseki/tetsuduki/1007732.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/koseki/madoguchi/1001832.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/koseki/madoguchi/1001832.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/koseki/okuyami/1009940.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/koseki/okuyami/1009940.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/jinji/saiyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/jinji/saiyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/1007159.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/1007159.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/chaizama/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/chaizama/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/youkoso/tokusan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/youkoso/tokusan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/kaigo/jigyousha/1010514/1003009.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/kaigo/jigyousha/1010514/1003009.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/kishakaiken/1013372/1013776.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/kishakaiken/1013372/1013776.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/koutsu/bouhan/1013760.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/koutsu/bouhan/1013760.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/shien/family/1003113.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/family/1003113.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/kyoiku/1001629/1001632.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/kyoiku/1001629/1001632.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/newslist.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/newslist.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/seisaku/1008873/1009261.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/seisaku/1008873/1009261.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/jinji/saiyo/1009463.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/jinji/saiyo/1009463.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/koho/kouhouzama/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/koho/kouhouzama/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/photonews/r8/1013766/1013789.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/photonews/r8/1013766/1013789.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/seisaku/furusato/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/seisaku/furusato/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/koho/channel/1005087.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/koho/channel/1005087.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/koho/hashin/1005093.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/koho/hashin/1005093.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/mayor/1004037.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/mayor/1004037.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/soudan/1013284/1002210.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/soudan/1013284/1002210.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sangyo/koukoku/yuryo/1003533.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sangyo/koukoku/yuryo/1003533.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/about/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/about/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/about/1007657.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/about/1007657.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/about/accessibility/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/about/accessibility/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/shiyakusho/floor/1003698.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/shiyakusho/floor/1003698.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/shiyakusho/access/1003711.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/shiyakusho/access/1003711.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/about/site/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/about/site/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/about/site/howtouse.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/about/site/howtouse.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/about/site/barrierfree.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/about/site/barrierfree.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/about/site/eventinput/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/about/site/eventinput/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisei/shiyakusho/1007957/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisei/shiyakusho/1007957/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/shicho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/shicho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/zaimu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/zaimu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/kodomomirai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/kodomomirai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/kankyokeizi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/kankyokeizi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/shimin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/shimin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/fukushi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/fukushi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/toshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/toshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/kaikei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/kaikei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/suido/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/suido/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/shobo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/shobo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/gikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/gikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/kyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/kyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/senkyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/senkyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/kansa/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/kansa/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/nougyou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/nougyou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/map/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/map/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/oshirase/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/oshirase/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/shiyakusho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/shiyakusho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/suports/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/suports/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/toshokan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/toshokan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/shobo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/shobo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/gomi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/gomi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/kyoiku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/kyoiku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/kenko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/kenko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/community/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/community/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/kouen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/kouen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shigikai/1012749/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shigikai/1012749/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shigikai/nittei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shigikai/nittei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shigikai/yakuwari/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shigikai/yakuwari/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shigikai/bocho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shigikai/bocho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shigikai/giin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shigikai/giin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shigikai/shitsumon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shigikai/shitsumon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shigikai/kekka/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shigikai/kekka/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shigikai/ketsugi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shigikai/ketsugi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shigikai/dayori/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shigikai/dayori/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shigikai/kousaihi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shigikai/kousaihi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shigikai/seimu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shigikai/seimu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shigikai/shisatsu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shigikai/shisatsu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/youkoso/shokai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/youkoso/shokai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/youkoso/kanko/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/youkoso/kanko/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/youkoso/promotion/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/youkoso/promotion/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/youkoso/location/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/youkoso/location/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/youkoso/album/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/youkoso/album/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/youkoso/welcome/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/youkoso/welcome/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/chaizama/1007576.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/chaizama/1007576.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/chaizama/1007577.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/chaizama/1007577.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/chaizama/1007578.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/chaizama/1007578.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/chaizama/1007579.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/chaizama/1007579.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/opendata/about/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/opendata/about/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/opendata/opendata/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/opendata/opendata/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/opendata/sagamiopendata/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/opendata/sagamiopendata/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/cgi-opd/opendata.cgi",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/cgi-opd/opendata.cgi",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/opendata/1000085/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/opendata/1000085/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/konnatoki/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/konnatoki/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/1012476.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/1012476.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/1009852.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/1009852.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/1009797/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/1009797/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/foreignlanguage.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/foreignlanguage.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/1009869.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/1009869.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/1009806.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/1009806.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/1009865.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/1009865.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/1009807.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/1009807.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/1009805.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/1009805.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/1012524/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/1012524/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/1009727/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/1009727/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/1009774/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/1009774/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/1009775/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/1009775/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/1009770/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/1009770/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/forforeigners/1011325.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/forforeigners/1011325.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/about/1009420.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/about/1009420.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/about/analytics.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/about/analytics.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/about/rss.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/about/rss.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/about/1006471.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/about/1006471.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/concierge/moving_in.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/concierge/moving_in.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/concierge/moving_house.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/concierge/moving_house.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/concierge/moving_out.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/concierge/moving_out.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/concierge/marriage.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/concierge/marriage.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/concierge/divorce.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/concierge/divorce.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/concierge/childbirth.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/concierge/childbirth.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/concierge/pass_away.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/concierge/pass_away.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/concierge/1007152/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/concierge/1007152/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/cgi-bin/contacts/G1018010",
+          "status": 400,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/cgi-bin/contacts/G1018010",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/shimin/1001508/1013388.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/shimin/1001508/1013388.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/1013133.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/1013133.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/1011780.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/1011780.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/1013397.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/1013397.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/keihatu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/keihatu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/joho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/joho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/fusuigai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/fusuigai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/1011693/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/1011693/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/kunren/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/kunren/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/jishu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/jishu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/1012412/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/1012412/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hogo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hogo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/shien/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/shien/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/higashinihon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/higashinihon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/1009647/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/1009647/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/joho/1001659.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/joho/1001659.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map1.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map1.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map2-2.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map2-2.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map3.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map3.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map4.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map4.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map5-2.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map5-2.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map6.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map6.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map7-2.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map7-2.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map8.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map8.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map9-2.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map9-2.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map10-2.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/001/665/map10-2.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/1001664.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/1001664.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/1001666.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/1001666.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/suidou/gesuidou/saigai/1002434.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/suidou/gesuidou/saigai/1002434.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/sumai/taishin/1002575.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/sumai/taishin/1002575.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/sumai/taishin/1002569.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/sumai/taishin/1002569.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/cgi-bin/contacts/G1052010",
+          "status": 400,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/cgi-bin/contacts/G1052010",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/1001667.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/1001667.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/1001668.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/guide/1001668.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/1001649.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/1001649.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/1001653.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/1001653.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/1001654.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/1001654.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/1001656.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/1001656.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/1001657.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/bousai/hinanjo/1001657.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/shobo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/shobo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/119/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/119/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/aed/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/aed/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/hanso/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/hanso/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/koushu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/koushu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/yobou/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/yobou/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/shobousho/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/shobousho/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/shouboudan/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/shouboudan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/hourei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/hourei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/todokede/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/kyukyu/todokede/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/nenkin/kenkouhoken/kanyu/1002014.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/nenkin/kenkouhoken/kanyu/1002014.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/koseki/koseki/1001847.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/koseki/koseki/1001847.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/ninshin/1003056.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/ninshin/1003056.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/josei/1003085.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/josei/1003085.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/josei/1003086.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/josei/1003086.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/shien/1007621/1003127.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/1007621/1003127.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/nenkin/kenkouhoken/kyufu/1002054.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/nenkin/kenkouhoken/kyufu/1002054.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/kenko/1001548/1003079.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/kenko/1001548/1003079.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/kodomomirai/1001581/1003061.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/kodomomirai/1001581/1003061.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/kodomomirai/1001581/1003076.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/kodomomirai/1001581/1003076.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/kodomomirai/1001581/1003075.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/kodomomirai/1001581/1003075.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/shien/soudan/1003080.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/soudan/1003080.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/kenko/soudan/1002683.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/kenko/soudan/1002683.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1003147.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1003147.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/ninshin/1003058.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/ninshin/1003058.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/ninshin/1003060.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/ninshin/1003060.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/shien/shinseiji/1003073.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/shinseiji/1003073.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/shien/network/1003117.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/network/1003117.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/shien/guide/1003093.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/guide/1003093.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/iryo/kyukyu/1002657.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/iryo/kyukyu/1002657.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/iryo/kyukyu/1002655.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/iryo/kyukyu/1002655.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/iryo/kyukyu/1002658.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/iryo/kyukyu/1002658.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/1007648/kenshin/1003069.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/1007648/kenshin/1003069.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/fukushi/iryo/kyukyu/1002656.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/fukushi/iryo/kyukyu/1002656.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/1007648/chusha/1003083.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/1007648/chusha/1003083.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1006825.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/hoikuen/1006825.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/kosodate/1007585.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/kosodate/1007585.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/kosodate/1007589.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/kosodate/1007589.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/shisetsu/kosodate/1007591.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/shisetsu/kosodate/1007591.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/event/kodomomirai/1001581/1003078.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/event/kodomomirai/1001581/1003078.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/seishonen/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/seishonen/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/seishonen/1003224.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/seishonen/1003224.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/shien/soudan/1003099.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/soudan/1003099.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/kenkyujo/1003243.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/kenkyujo/1003243.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/soudan/1003209.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/soudan/1003209.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/shien/1003214.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/shien/1003214.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/ijime/1003216.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/ijime/1003216.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/kenkyujo/1003250.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/kenkyujo/1003250.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/soudan/1003208.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/soudan/1003208.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/shien/hitorioya/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/hitorioya/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/josei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/ninshin/josei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/shugaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/shugaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/shien/1003095.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/1003095.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/youchien/1003167.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/hoiku/youchien/1003167.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/nenkin/kenkouhoken/kanyu/1002015.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/nenkin/kenkouhoken/kanyu/1002015.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/nenkin/kenkouhoken/kanyu/1002017.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/nenkin/kenkouhoken/kanyu/1002017.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/nenkin/nenkin/nenkin/1002066.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/nenkin/nenkin/nenkin/1002066.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sangyo/koyou/chusho/1003477.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sangyo/koyou/chusho/1003477.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sangyo/chusho/shien/1003470.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sangyo/chusho/shien/1003470.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sangyo/koyou/chusho/1003476.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sangyo/koyou/chusho/1003476.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sangyo/chusho/shien/1003472.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sangyo/chusho/shien/1003472.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/sangyo/chusho/yuushi/1003466.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/sangyo/chusho/yuushi/1003466.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/koseki/koseki/1001845.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/koseki/koseki/1001845.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/koseki/koseki/1001850.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/koseki/koseki/1001850.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/koseki/koseki/1001846.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/koseki/koseki/1001846.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/shien/1007621/1003130.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/1007621/1003130.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/shien/1007621/1003131.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/shien/1007621/1003131.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/koseki/tetsuduki/1001839.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/koseki/tetsuduki/1001839.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/koseki/koseki/1001849.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/koseki/koseki/1001849.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/nyugaku/1003185.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kosodate/seishonen/nyugaku/1003185.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002120.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002120.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002152.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002152.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002150.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002150.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002147.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002147.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002139.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002139.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002138.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002138.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002123.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002123.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002116.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002116.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.zama.kanagawa.jp/kurashi/jichi/jichikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.zama.kanagawa.jp/kurashi/jichi/jichikai/index.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

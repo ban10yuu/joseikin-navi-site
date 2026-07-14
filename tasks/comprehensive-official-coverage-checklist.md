@@ -8316,3 +8316,43 @@
   - トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、様式のみ、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
 - 次:
   - 神奈川県公式棚卸し005として、14216座間市、14217南足柄市、14218綾瀬市、14301葉山町を自治体コード順に確認する。
+
+### 2026-07-14 神奈川県公式棚卸し005（14216座間市・14217南足柄市・14218綾瀬市・14301葉山町）
+
+- 作業範囲:
+  - 14216 座間市、14217 南足柄市、14218 綾瀬市、14301 葉山町の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 生成候補538件（座間市141件、南足柄市344件、綾瀬市23件、葉山町30件）が150件を超えたため、`tasks/discovery/kanagawa-official-coverage-005-manual-snippets.json` に公式本文の短い根拠を保存し、制度名・対象・金額/上限・条件・期限/受付状況が揃う制度を優先した。
+- 採用:
+  - 合計25件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 座間市11件: くらし応援商品券、スマートハウス関連設備設置補助金、共同住宅用太陽光発電システム設置補助金、事業用太陽光発電システム設置補助金、危険ブロック塀等撤去補助制度、小児医療費助成、未熟児養育医療給付、中小企業退職金共済掛金補助制度、事業資金利子補助・信用保証料補助、障害者雇用報奨金、新たな企業投資に対する支援措置。
+  - 南足柄市6件: 金太郎ふるさと商品券、ZEH・省エネ設備等導入補助金、省エネ家電買換え促進補助金、合併処理浄化槽設置補助金、危険ブロック塀等撤去費補助金、重度心身障害者医療費助成。
+  - 綾瀬市6件: くらしを応援！ayaseギフトクーポン、きらめき補助金、中小企業強靭化推進補助金、ダイバーシティ経営推進補助金、中小企業退職金共済制度奨励補助金、障がい者雇用促進報奨金。
+  - 葉山町2件: 再生可能エネルギーシステム等設置補助金、高校生奨学給付金。
+- 生成ファイル:
+  - `tasks/discovery/kanagawa-official-coverage-005-municipalities.json`
+  - `tasks/discovery/kanagawa-official-coverage-005-14216-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-005-14217-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-005-14218-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-005-14301-municipality.json`
+  - `tasks/discovery/kanagawa-official-coverage-005-14216-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-005-14217-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-005-14218-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-005-14301-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-005-candidates.json`
+  - `tasks/discovery/kanagawa-official-coverage-005-manual-snippets.json`
+  - `tasks/discovery/kanagawa-official-coverage-005.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（`kanagawa-official-coverage-005.json`、候補JSON、手動スニペットJSON、municipalities、checkpoint）。
+  - 追加slug重複: pass（25件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（25 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11355、officialLinkedActive 11317、manuallyVerifiedActive 11317、神奈川県 localOfficial 209）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、または神奈川県一部自治体の着手のみで全国完了扱いしない。
+  - 座間市住宅リフォーム、綾瀬市あやせっ子スタート応援給付金、綾瀬市ものづくり人材就職定住奨励金は既存URL重複のため今回追加しなかった。
+  - 座間市の電気自動車補助、綾瀬市の受注拡大支援補助金は受付終了中心のため、今回は採用せず第2巡候補に残す。
+  - 座間市の妊婦健康診査・多胎妊婦健康診査、葉山町の子育て世帯物価高騰対策給付金、トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、様式のみ、金額又は受付状況不足候補は第2巡候補又は次回継続候補に残す。
+- 次:
+  - 神奈川県公式棚卸し006として、14321寒川町、14341大磯町、14342二宮町、14361中井町を自治体コード順に確認する。

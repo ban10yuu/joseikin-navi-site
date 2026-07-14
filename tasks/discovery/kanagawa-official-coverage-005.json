@@ -1,0 +1,108 @@
+{
+  "batch": "kanagawa-official-coverage-005",
+  "prefecture": "神奈川県",
+  "completedAt": "2026-07-14T20:05:00+09:00",
+  "municipalities": [
+    {
+      "code": "14216",
+      "name": "座間市",
+      "officialBaseUrl": "https://www.city.zama.kanagawa.jp/",
+      "candidateCount": 141,
+      "strongCandidateCount": 18,
+      "adopted": 11
+    },
+    {
+      "code": "14217",
+      "name": "南足柄市",
+      "officialBaseUrl": "https://www.city.minamiashigara.kanagawa.jp/",
+      "candidateCount": 344,
+      "strongCandidateCount": 8,
+      "adopted": 6
+    },
+    {
+      "code": "14218",
+      "name": "綾瀬市",
+      "officialBaseUrl": "https://www.city.ayase.kanagawa.jp/",
+      "candidateCount": 23,
+      "strongCandidateCount": 0,
+      "adopted": 6
+    },
+    {
+      "code": "14301",
+      "name": "葉山町",
+      "officialBaseUrl": "https://www.town.hayama.lg.jp/",
+      "candidateCount": 30,
+      "strongCandidateCount": 0,
+      "adopted": 2
+    }
+  ],
+  "candidateSummary": {
+    "totalCandidates": 538,
+    "adopted": 25,
+    "existingDuplicateUrls": 3,
+    "heldForSecondPass": 510,
+    "shortlistMethod": "title/h1/main/article/URLの制度強語に加え、金額、対象条件、期限又は受付状況が公式本文で確認できた個別ページを優先。トップ、カテゴリ、サイトマップ、共通ナビ、様式のみ、受付終了中心、金額又は対象不足の候補は第2巡候補に保持。"
+  },
+  "adoptedSlugs": [
+    "zama-life-support-voucher-2026",
+    "zama-smart-house-equipment-subsidy-2026",
+    "zama-apartment-solar-subsidy-2026",
+    "zama-business-solar-subsidy-2026",
+    "zama-dangerous-block-wall-removal-subsidy-2026",
+    "zama-child-medical-expense-subsidy-2026",
+    "zama-premature-infant-medical-care-benefit-2026",
+    "zama-retirement-mutual-aid-subsidy-2026",
+    "zama-business-interest-guarantee-subsidy-2026",
+    "zama-disability-employment-reward-2026",
+    "zama-enterprise-investment-support-2026",
+    "minamiashigara-kintaro-hometown-voucher-2026",
+    "minamiashigara-zeh-energy-equipment-subsidy-2026",
+    "minamiashigara-energy-saving-appliance-replacement-subsidy-2026",
+    "minamiashigara-septic-tank-installation-subsidy-2026",
+    "minamiashigara-dangerous-block-wall-safety-subsidy-2026",
+    "minamiashigara-severe-disability-medical-expense-subsidy-2026",
+    "ayase-gift-coupon-2026",
+    "ayase-kirameki-civic-activity-subsidy-2026",
+    "ayase-sme-resilience-promotion-subsidy-2026",
+    "ayase-diversity-management-promotion-subsidy-2026",
+    "ayase-retirement-mutual-aid-subsidy-2026",
+    "ayase-disability-employment-reward-2026",
+    "hayama-renewable-energy-system-subsidy-2026",
+    "hayama-high-school-scholarship-benefit-2026"
+  ],
+  "existingDuplicateUrls": [
+    "https://www.city.zama.kanagawa.jp/kurashi/sumai/josei/1013056.html",
+    "https://www.city.ayase.kanagawa.jp/soshiki/kodomokatesenta/kosodateshiensite/2/3/24027.html",
+    "https://www.city.ayase.kanagawa.jp/soshiki/shokosinkoka/kogyotanto/4/19724.html"
+  ],
+  "heldNotes": [
+    "座間市の電気自動車補助は公式ページで申請受付終了のため第2巡候補に保持。",
+    "座間市の妊婦健康診査・多胎妊婦健康診査は金額表の精査対象として第2巡候補に保持。",
+    "綾瀬市の受注拡大支援補助金は公式ページで新規申請受付終了のため第2巡候補に保持。",
+    "葉山町の子育て世帯物価高騰対策給付金は令和7年度中心の期限経過候補として第2巡候補に保持。",
+    "トップ、カテゴリ、サイトマップ、募集一覧、共通ナビ一致、部署ページ、PDF様式のみ、金額又は受付状況不足候補は削除せず第2巡候補に残した。"
+  ],
+  "sourceArtifacts": [
+    "tasks/discovery/kanagawa-official-coverage-005-municipalities.json",
+    "tasks/discovery/kanagawa-official-coverage-005-14216-municipality.json",
+    "tasks/discovery/kanagawa-official-coverage-005-14217-municipality.json",
+    "tasks/discovery/kanagawa-official-coverage-005-14218-municipality.json",
+    "tasks/discovery/kanagawa-official-coverage-005-14301-municipality.json",
+    "tasks/discovery/kanagawa-official-coverage-005-14216-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-005-14217-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-005-14218-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-005-14301-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-005-candidates.json",
+    "tasks/discovery/kanagawa-official-coverage-005-manual-snippets.json"
+  ],
+  "validation": {
+    "status": "pass",
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "jsonParse": "pass: 13 JSON artifacts parsed",
+    "addedSlugUniqueness": "pass: 25 added slugs, duplicateCount 0",
+    "urlReachability": "pass: 25 primary official URLs returned HTTP 200",
+    "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11355, officialLinkedActive 11317, manuallyVerifiedActive 11317, 神奈川県 localOfficial 209)"
+  }
+}

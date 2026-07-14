@@ -1,0 +1,26 @@
+{
+  "batchId": "kanagawa-official-coverage-005",
+  "prefecture": "神奈川県",
+  "municipalities": [
+    {
+      "code": "14216",
+      "name": "座間市",
+      "officialBaseUrl": "https://www.city.zama.kanagawa.jp/"
+    },
+    {
+      "code": "14217",
+      "name": "南足柄市",
+      "officialBaseUrl": "https://www.city.minamiashigara.kanagawa.jp/"
+    },
+    {
+      "code": "14218",
+      "name": "綾瀬市",
+      "officialBaseUrl": "https://www.city.ayase.kanagawa.jp/"
+    },
+    {
+      "code": "14301",
+      "name": "葉山町",
+      "officialBaseUrl": "https://www.town.hayama.lg.jp/"
+    }
+  ]
+}
