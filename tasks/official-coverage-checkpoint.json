@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-07-14T21:45:00+09:00",
+  "updatedAt": "2026-07-14T21:15:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kanagawa-official-coverage-009",
-    "municipality": "清川村",
-    "adopted": 33,
-    "held": 5,
+    "code": "niigata-official-coverage-001",
+    "municipality": "新潟市",
+    "adopted": 27,
+    "held": 17,
     "excluded": 0,
-    "sourceUrlsChecked": 33,
+    "sourceUrlsChecked": 52,
     "validation": {
-      "previousMunicipality": "神奈川県公式棚卸し009として、14402清川村を確認した。候補19件と村の支援事業ガイドの制度表から公式本文の短い根拠を確認し、清川村33件を採用した。清川村で神奈川県第1巡は自治体コード順に到達済み。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for kanagawa-official-coverage-009.json / candidates / manual-snippets / municipalities / official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 33 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 33 primary official URLs returned HTTP 200",
+      "previousMunicipality": "新潟県公式棚卸し001として、15100新潟市を確認した。候補277件が150件超のため短い本文スニペットを再スコアリングし、URLリード52件の公式本文を確認した。既存登録済み制度と受付終了制度を除き、新潟市27件を新規採用した。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for niigata-official-coverage-001.json / snippets / url-leads / details / municipalities / official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 27 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 27 primary official URLs returned HTTP 200",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11482, officialLinkedActive 11444, manuallyVerifiedActive 11444, 神奈川県 localOfficial 336)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11509, officialLinkedActive 11471, manuallyVerifiedActive 11471, 新潟県 localOfficial 121)"
     }
   },
   "next": {
-    "code": "niigata-official-coverage-001",
-    "municipality": "新潟市",
-    "shortlist": "神奈川県公式棚卸し009は清川村33件を採用し、神奈川県第1巡は自治体コード順に到達済み。清川村の結婚新生活支援、住宅取得奨励、勤労者生活資金融資、中小企業事業資金融資、高齢者運転免許自主返納支援等は第2巡候補に残す。",
-    "instructions": "次回は新潟県公式棚卸し001として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に15100新潟市（必要に応じて政令市区を公式ページ単位で確認）から開始する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "niigata-official-coverage-002",
+    "municipality": "長岡市",
+    "shortlist": "新潟県公式棚卸し001は新潟市27件を採用した。新潟市のこども医療費助成、奨学金制度、住宅用再生可能エネルギー、不妊治療費助成、耐震設計は既存登録済みのため今回の新規採用から除外。湿地プロジェクト、省人化サポート、XR、住宅建替・購入支援は受付終了又は予算上限到達のため第2巡候補に残す。",
+    "instructions": "次回は新潟県公式棚卸し002として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に15202長岡市から開始する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "神奈川県",
-    "status": "first-pass-complete",
-    "lastBatch": "kanagawa-official-coverage-009",
-    "notes": "神奈川県は14402清川村まで自治体コード順に第1巡到達済み。第2巡保留候補は保持。次は新潟県15100新潟市から再開。東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
+    "prefecture": "新潟県",
+    "status": "in-progress",
+    "lastBatch": "niigata-official-coverage-001",
+    "notes": "新潟県は15100新潟市まで自治体コード順に到達。次は15202長岡市。神奈川県は14402清川村まで第1巡到達済み、東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

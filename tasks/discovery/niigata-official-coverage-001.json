@@ -1,0 +1,102 @@
+{
+  "batchId": "niigata-official-coverage-001",
+  "prefecture": "新潟県",
+  "municipalities": [
+    {
+      "code": "15100",
+      "name": "新潟市",
+      "officialBaseUrl": "https://www.city.niigata.lg.jp/"
+    }
+  ],
+  "generatedAt": "2026-07-14T21:10:00+09:00",
+  "candidateFiles": [
+    "tasks/discovery/niigata-official-coverage-001-municipalities.json",
+    "tasks/discovery/niigata-official-coverage-001-candidates.json",
+    "tasks/discovery/niigata-official-coverage-001-snippets.json",
+    "tasks/discovery/niigata-official-coverage-001-url-leads.json",
+    "tasks/discovery/niigata-official-coverage-001-details.json"
+  ],
+  "sourceCounts": {
+    "rawCandidates": 277,
+    "rescoredSnippets": 277,
+    "urlLeads": 52,
+    "detailPagesFetched": 52,
+    "detailPagesHttp200": 52
+  },
+  "adoptedCount": 27,
+  "adoptedSlugs": [
+    "niigata-elderly-medical-expense-subsidy-2026",
+    "niigata-marriage-matching-registration-subsidy-2026",
+    "niigata-newlywed-life-support-subsidy-2026",
+    "niigata-school-enrollment-preparation-loan-2026",
+    "niigata-company-scholarship-repayment-support-2026",
+    "niigata-childcare-worker-training-loan-2026",
+    "niigata-business-solar-storage-subsidy-2026",
+    "niigata-perovskite-solar-demonstration-subsidy-2026",
+    "niigata-labor-saving-energy-saving-subsidy-2026",
+    "niigata-new-recruiting-activity-subsidy-2026",
+    "niigata-human-resource-development-subsidy-2026",
+    "niigata-male-parental-leave-incentive-2026",
+    "niigata-manufacturing-location-subsidy-2026",
+    "niigata-head-office-location-subsidy-2026",
+    "niigata-digital-innovation-location-subsidy-2026",
+    "niigata-logistics-facility-location-subsidy-2026",
+    "niigata-credit-guarantee-fee-subsidy-2026",
+    "niigata-crime-victim-support-grant-2026",
+    "niigata-wooden-house-earthquake-retrofit-subsidy-2026",
+    "niigata-liquefaction-residential-land-restoration-subsidy-2026",
+    "niigata-disaster-housing-loan-interest-subsidy-2026",
+    "niigata-recurrent-pregnancy-loss-genetic-test-subsidy-2026",
+    "niigata-recurrent-pregnancy-loss-treatment-subsidy-2026",
+    "niigata-maternity-medical-expense-subsidy-2026",
+    "niigata-premature-infant-medical-care-benefit-2026",
+    "niigata-pediatric-chronic-disease-equipment-benefit-2026",
+    "niigata-single-parent-medical-expense-subsidy-2026"
+  ],
+  "heldOrExcluded": [
+    {
+      "reason": "既存の公式確認済み制度と重複するため今回の新規採用から除外",
+      "examples": [
+        "こども医療費助成",
+        "新潟市奨学金制度",
+        "住宅用再生可能エネルギー等導入促進事業補助金",
+        "新潟市不妊治療費助成事業",
+        "新潟市木造住宅耐震改修工事等補助制度（耐震設計）"
+      ]
+    },
+    {
+      "reason": "受付終了又は予算上限到達のため第2巡保留",
+      "examples": [
+        "湿地プロジェクト補助金",
+        "省人化サポート補助金",
+        "新潟市XRコンテンツ実装事業補助金",
+        "住宅建替・購入支援制度"
+      ]
+    },
+    {
+      "reason": "カテゴリページ、募集一覧、様式中心、又は金額・対象・受付状況の同時確認が薄いため第2巡保留",
+      "examples": [
+        "障がい者への医療費助成",
+        "障がい者手当と年金",
+        "雨水浸透ます・貯留タンク設置助成",
+        "水洗化工事の融資・助成金制度",
+        "浄化槽設置整備事業補助金",
+        "犯罪被害者等貸付金",
+        "マンション耐震改修補助制度",
+        "特定建築物耐震診断等補助事業"
+      ]
+    }
+  ],
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "addedSlugUniqueness": "pass: 27 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 27 primary official URLs returned HTTP 200",
+    "notes": "shortlistが277件で150件超のため、snippets JSONに短い本文根拠を保存し、個別制度ページ/PDF相当の金額・対象・期限又は受付状況が揃うものを優先した。"
+  },
+  "next": {
+    "batchId": "niigata-official-coverage-002",
+    "municipality": "長岡市",
+    "code": "15202",
+    "notes": "全国公式棚卸しは未完了。次回は新潟県15202長岡市から自治体コード順に再開する。"
+  }
+}

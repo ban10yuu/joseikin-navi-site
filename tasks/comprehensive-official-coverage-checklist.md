@@ -8502,3 +8502,35 @@
   - 結婚新生活支援事業、住宅取得奨励金制度、勤労者生活資金融資制度、中小企業事業資金融資制度、高齢者運転免許証自主返納者支援事業は、金額・受付状況又は個別要件の確認が薄いため第2巡候補に残す。
 - 次:
   - 新潟県公式棚卸し001として、15100新潟市（必要に応じて政令市区を公式ページ単位で確認）から自治体コード順に再開する。
+
+### 2026-07-14 新潟県公式棚卸し001（15100新潟市）
+
+- 作業範囲:
+  - 15100 新潟市の公式サイトを対象に、補助金・助成金・給付金・貸付・一時金等の個別公式ページを確認した。
+  - 生成候補277件が150件を超えたため、`tasks/discovery/niigata-official-coverage-001-snippets.json` に公式本文の短い根拠を保存し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページを優先した。
+  - URLリード52件を `tasks/discovery/niigata-official-coverage-001-details.json` に取得し、全52件がHTTP 200で到達することを確認した。
+- 採用:
+  - 合計27件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 新潟市27件: 老人医療費助成、新潟県婚活マッチングシステム登録料補助金、結婚新生活支援補助金、入学準備金貸付制度、企業参加型奨学金返済支援事業、保育士修学資金貸付等事業、事業者用太陽光発電・蓄電池設備導入補助金、ペロブスカイト太陽電池等実証事業補助金、省力化・省エネ化補助金、新規採用活動支援事業補助金、人材育成助成金、男性の育児休業取得促進事業奨励金、製造業工業振興条例助成金、本社機能施設立地促進事業補助金、デジタル・イノベーション企業立地促進補助金、物流施設立地促進事業補助金、信用保証協会保証料補助金、犯罪被害者等助成金、木造住宅耐震改修工事等補助制度（耐震改修工事）、液状化被災宅地等復旧支援事業、被災住宅再建資金融資利子補給、不育症検査費用助成事業、不育症治療費助成事業、妊産婦医療費助成、養育医療（未熟児のために）、小児慢性特定疾患児日常生活用具給付制度、ひとり親家庭等医療費助成。
+- 生成ファイル:
+  - `tasks/discovery/niigata-official-coverage-001-municipalities.json`
+  - `tasks/discovery/niigata-official-coverage-001-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-001-snippets.json`
+  - `tasks/discovery/niigata-official-coverage-001-url-leads.json`
+  - `tasks/discovery/niigata-official-coverage-001-details.json`
+  - `tasks/discovery/niigata-official-coverage-001.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（`niigata-official-coverage-001.json`、snippets、url-leads、details、municipalities、checkpoint）。
+  - 追加slug重複: pass（27件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（27 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11509、officialLinkedActive 11471、manuallyVerifiedActive 11471、新潟県 localOfficial 121）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は新潟市着手のみで全国完了扱いしない。
+  - こども医療費助成、奨学金制度、住宅用再生可能エネルギー等導入促進事業補助金、不妊治療費助成事業、木造住宅耐震改修工事等補助制度（耐震設計）は既存登録済みのため、今回の新規採用から除外した。
+  - 湿地プロジェクト補助金、省人化サポート補助金、新潟市XRコンテンツ実装事業補助金、住宅建替・購入支援制度は受付終了又は予算上限到達のため第2巡候補に残す。
+  - 雨水浸透ます・貯留タンク設置助成、水洗化工事の融資・助成金制度、浄化槽設置整備事業補助金、犯罪被害者等貸付金、マンション耐震改修補助制度、特定建築物耐震診断等補助事業、障がい者医療費助成・手当カテゴリは、金額・対象・受付状況又は制度分割確認を第2巡候補に残す。
+- 次:
+  - 新潟県公式棚卸し002として、15202長岡市から自治体コード順に確認する。
