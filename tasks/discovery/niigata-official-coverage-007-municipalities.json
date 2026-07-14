@@ -1,0 +1,26 @@
+{
+  "batchId": "niigata-official-coverage-007",
+  "prefecture": "新潟県",
+  "municipalities": [
+    {
+      "code": "15342",
+      "name": "弥彦村",
+      "officialBaseUrl": "https://www.vill.yahiko.niigata.jp/"
+    },
+    {
+      "code": "15361",
+      "name": "田上町",
+      "officialBaseUrl": "https://www.town.tagami.niigata.jp/"
+    },
+    {
+      "code": "15385",
+      "name": "阿賀町",
+      "officialBaseUrl": "https://www.town.aga.niigata.jp/"
+    },
+    {
+      "code": "15405",
+      "name": "出雲崎町",
+      "officialBaseUrl": "https://www.town.izumozaki.niigata.jp/"
+    }
+  ]
+}

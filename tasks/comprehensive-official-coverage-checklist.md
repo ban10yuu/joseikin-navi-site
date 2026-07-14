@@ -8735,3 +8735,45 @@
   - 魚沼市の就学援助カテゴリ、若者県内就職促進奨学金返還支援事業、胎内市のコロナ利子補給、聖籠町の児童手当重複ページなどは、県制度・カテゴリ・受付終了・重複候補として第2巡候補に残す。
 - 次:
   - 新潟県公式棚卸し007として、15342弥彦村から自治体コード順に確認する。
+
+### 2026-07-14 新潟県公式棚卸し007（15342弥彦村・15361田上町・15385阿賀町・15405出雲崎町）
+
+- 作業範囲:
+  - 15342 弥彦村、15361 田上町、15385 阿賀町、15405 出雲崎町の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 自治体別クロールで候補267件を取得し、候補が150件超のため `tasks/discovery/niigata-official-coverage-007-snippets.json` に公式本文の短い根拠286件を保存した。
+  - 公式ドメイン限定URLリード102件に加え、カテゴリ内アンカーテキストから個別公式ページを追加抽出し、詳細320件を `tasks/discovery/niigata-official-coverage-007-details.json` に取得した。
+- 採用:
+  - 合計94件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 弥彦村23件: 1か月児健康診査費助成事業、看護職員修学資金貸付金、産後ケア費用助成事業、自立支援医療制度（育成医療）、住宅リフォーム助成事業、除雪オペレーター人材確保支援事業補助金、奨学金、新生児聴覚検査助成事業、大人の風しん予防接種費用助成事業、妊産婦健康診査交通費助成事業、妊産婦出産時交通費助成、妊婦のための支援給付事業、物価高騰対策支援、ふるさとカムバック事業補助金、空き家バンク利活用促進補助金、商工施設リフォーム補助金、小規模事業者経営改善資金利子補給金、地域振興事業補助金、老人医療費助成制度、在宅介護支援金、児童扶養手当、難聴者補聴器購入助成金、乳幼児紙おむつ等購入費支援給付金。
+  - 田上町16件: 在宅介護手当支給事業、紙おむつ購入費助成事業、児童手当、児童扶養手当、寝たきり高齢者等訪問理容サービス助成事業、婚活マッチングシステム登録料補助事業、マイホーム取得支援補助金、結婚新生活支援補助事業、暮らし応援リフォーム補助金、木造住宅耐震診断・改修費補助金、特別児童扶養手当、難聴者補聴器購入費助成事業、乳幼児育児用品購入費助成、令和8年度生活応援券、老人医療費助成事業、老人の日常生活用具の給付。
+  - 阿賀町25件: 空き家バンク家財道具等処分費補助金、チャイルドシート購入補助事業、国民健康保険人間ドック健診費用助成事業、補聴器購入費助成事業、木造住宅耐震診断支援事業及び耐震改修促進事業補助金、固定資産税の減免、骨髄等移植ドナー支援、子ども医療費助成、紙おむつ購入費助成、児童手当、児童扶養手当、自立支援医療、重度心身障がい者医療費助成制度、出産・子育て応援事業、小児慢性特定疾病児童等の入院時助成、同養育手当、生ごみ処理装置補助金、精神障がい者医療費・通院交通費助成事業、地域チャレンジ支援事業、特別児童扶養手当、日常生活用具の給付、妊産婦医療費助成、妊産婦健康診査費および交通費助成、不妊治療費助成事業、子育て応援祝金。
+  - 出雲崎町30件: がんばる街なみ支援助成金、ひとり親家庭高等学校卒業程度認定試験合格支援事業、まち恋お見合い婚活応援事業、街なみ整備助成金、軽・中等度難聴者補聴器購入費助成、高校生通学費等助成金制度、高齢者・障害者安心住まいる整備補助、高齢者日常生活用具給付、紙おむつ等の支給、集落外灯電気料補助金、住宅リフォーム助成金、ふるさと逸品開発等補助金、空家等再生活用支援事業補助金、障害者手当、精神障害者医療費助成、創業等応援補助金、地方産業育成資金貸付、出雲崎町不妊治療費助成事業、奨学金制度、奨学金返還支援事業助成金制度、小規模土地改良補助事業、寝たきり老人等介護手当支給、新規就農者支援制度、新生活支援金、新生児聴覚検査費助成、新定住支援金、身体障害者等自動車燃料費助成、人工透析者通院費助成、生ごみ等補助金事業、地域づくり推進事業費補助金。
+- 生成ファイル:
+  - `tasks/discovery/niigata-official-coverage-007-municipalities.json`
+  - `tasks/discovery/niigata-official-coverage-007-15342-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-007-15361-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-007-15385-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-007-15405-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-007-15342-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-007-15361-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-007-15385-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-007-15405-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-007-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-007-snippets.json`
+  - `tasks/discovery/niigata-official-coverage-007-url-leads.json`
+  - `tasks/discovery/niigata-official-coverage-007-details.json`
+  - `tasks/discovery/niigata-official-coverage-007-adopted-urls.json`
+  - `tasks/discovery/niigata-official-coverage-007.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（007関連JSON、checkpoint）。
+  - 追加slug重複: pass（94件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（94 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11904、officialLinkedActive 11784、manuallyVerifiedActive 11784、新潟県 localOfficial 434）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は新潟県15405出雲崎町到達のみで全国完了扱いしない。
+  - 弥彦村の空き家住宅リフォーム助成事業は現在実施なし、阿賀町の移住支援まとめ、出雲崎町のカテゴリ・寄附・旧コロナ・一覧候補は第2巡候補に残す。
+- 次:
+  - 新潟県公式棚卸し008として、15461湯沢町から自治体コード順に確認する。

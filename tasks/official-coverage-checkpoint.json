@@ -1,34 +1,35 @@
 {
-  "updatedAt": "2026-07-14T23:34:00+09:00",
+  "updatedAt": "2026-07-14T22:57:46+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "niigata-official-coverage-006",
-    "municipality": "魚沼市・南魚沼市・胎内市・聖籠町",
-    "adopted": 48,
-    "held": 174,
+    "code": "niigata-official-coverage-007",
+    "municipality": "弥彦村・田上町・阿賀町・出雲崎町",
+    "adopted": 94,
+    "held": 226,
     "excluded": 0,
-    "sourceUrlsChecked": 222,
+    "sourceUrlsChecked": 320,
     "validation": {
-      "previousMunicipality": "新潟県公式棚卸し006として、15225魚沼市・15226南魚沼市・15227胎内市・15307聖籠町を確認した。自治体別クロールで候補342件を取得し、短い本文スニペット341件と公式ドメイン限定URLリード435件から詳細222件の公式本文を確認した。胎内市は補助金一覧PDF内の個別公式リンクを追加確認し、カテゴリページ、受付終了、金額不足、県制度案内を除いて48件を新規採用した。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for niigata-official-coverage-006.json / snippets / url-leads / details / adopted-urls / municipalities / split municipality inputs / candidates / official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 48 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 48 primary official URLs returned HTTP 200",
+      "previousMunicipality": "新潟県公式棚卸し007として、15342弥彦村・15361田上町・15385阿賀町・15405出雲崎町を確認した。自治体別クロールで候補267件を取得し、短い本文スニペット286件と公式ドメイン限定URLリード102件、カテゴリ内アンカー抽出を加えて詳細320件の公式本文を確認した。カテゴリページ、受付終了、寄附・ふるさと納税、全国制度案内に近い候補を除き、個別公式ページ94件を新規採用した。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+      "json": "pass: JSON.parse for niigata-official-coverage-007.json / snippets / url-leads / details / adopted-urls / municipalities / split municipality inputs / candidates / official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 94 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 94 primary official URLs returned HTTP 200",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11810, officialLinkedActive 11690, manuallyVerifiedActive 11690, 新潟県 localOfficial 340)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11904, officialLinkedActive 11784, manuallyVerifiedActive 11784, 新潟県 localOfficial 434)"
     }
   },
   "next": {
-    "code": "niigata-official-coverage-007",
-    "municipality": "弥彦村",
-    "shortlist": "新潟県公式棚卸し006は魚沼市20件、南魚沼市7件、胎内市16件、聖籠町5件の計48件を採用した。魚沼市の就学援助カテゴリ、若者県内就職促進奨学金返還支援事業、胎内市のコロナ利子補給、聖籠町の児童手当重複ページなどは県制度・カテゴリ・受付終了・重複候補として第2巡候補に残す。",
-    "instructions": "次回は新潟県公式棚卸し007として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に15342弥彦村から開始する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "niigata-official-coverage-008",
+    "municipality": "湯沢町",
+    "shortlist": "新潟県公式棚卸し007は弥彦村23件、田上町16件、阿賀町25件、出雲崎町30件の計94件を採用した。弥彦村の空き家住宅リフォーム助成事業（現在実施なし）、阿賀町の移住支援まとめ、出雲崎町のカテゴリ・寄附・旧コロナ・一覧候補は第2巡候補として保持する。",
+    "instructions": "次回は新潟県公式棚卸し008として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に15461湯沢町から開始する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "新潟県",
     "status": "in-progress",
-    "lastBatch": "niigata-official-coverage-006",
-    "notes": "新潟県は15307聖籠町まで自治体コード順に到達。次は15342弥彦村。神奈川県は14402清川村まで第1巡到達済み、東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
+    "lastBatch": "niigata-official-coverage-007",
+    "notes": "新潟県は15405出雲崎町まで自治体コード順に到達。次は15461湯沢町。神奈川県は14402清川村まで第1巡到達済み、東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

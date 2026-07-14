@@ -1,0 +1,2123 @@
+{
+  "batchId": "niigata-official-coverage-007-15361",
+  "prefecture": "新潟県",
+  "generatedAt": "2026-07-14T13:49:16.616Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 59,
+  "results": [
+    {
+      "code": "15361",
+      "name": "田上町",
+      "officialBaseUrl": "https://www.town.tagami.niigata.jp/",
+      "discoveredUrlCount": 170,
+      "candidateCount": 59,
+      "strongCandidateCount": 3,
+      "lowPriorityCandidateCount": 56,
+      "candidates": [
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/",
+          "status": 200,
+          "title": "新潟県田上町",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/gyosei.html",
+          "status": 200,
+          "title": "行政トップページ - 新潟県田上町",
+          "h1": "",
+          "updatedAt": "令和8年3月7日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/chousei/iju/",
+          "status": 200,
+          "title": "移住・定住",
+          "h1": "移住・定住",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/sitemap/",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kosodate/",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/",
+          "status": 200,
+          "title": "健康・福祉",
+          "h1": "健康・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/sangyou/",
+          "status": 200,
+          "title": "産業・農業",
+          "h1": "産業・農業",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kurashi/hojokin/",
+          "status": 200,
+          "title": "補助金・助成金",
+          "h1": "補助金・助成金",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金"
+          ],
+          "candidateScore": 16,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/81193.html",
+          "status": 200,
+          "title": "「老人憩いの家 心起園」の入浴を臨時休止しています",
+          "h1": "「老人憩いの家 心起園」の入浴を臨時休止しています",
+          "updatedAt": "令和8年7月14日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/77756.html",
+          "status": 200,
+          "title": "入札結果（令和8年度分）",
+          "h1": "入札結果（令和8年度分）",
+          "updatedAt": "令和8年7月10日",
+          "keywordHits": [
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/8928.html",
+          "status": 200,
+          "title": "町長の部屋",
+          "h1": "町長の部屋",
+          "updatedAt": "令和8年1月16日",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/77555.html",
+          "status": 200,
+          "title": "令和8年度",
+          "h1": "令和8年度",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/8965.html",
+          "status": 200,
+          "title": "フードドライブ活動",
+          "h1": "フードドライブ活動",
+          "updatedAt": "令和8年7月12日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/22628.html",
+          "status": 200,
+          "title": "新潟薬科大学連携事業「医療・健康講座 in 田上町交流会館」",
+          "h1": "新潟薬科大学連携事業「医療・健康講座 in 田上町交流会館」",
+          "updatedAt": "令和8年3月7日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/72802.html",
+          "status": 200,
+          "title": "【終了しました】田上町産業まつりを開催します",
+          "h1": "【終了しました】田上町産業まつりを開催します",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/16942.html",
+          "status": 200,
+          "title": "令和６年度田上町文化祭を開催します。",
+          "h1": "令和６年度田上町文化祭を開催します。",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/mokuteki/02/",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/shisetsu/",
+          "status": 200,
+          "title": "施設案内",
+          "h1": "施設案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/8930.html",
+          "status": 200,
+          "title": "申請書ダウンロード",
+          "h1": "申請書ダウンロード",
+          "updatedAt": "令和4年8月9日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/8297.html",
+          "status": 200,
+          "title": "新婚・子育て世帯向け個人住宅取得資金利子補給金",
+          "h1": "新婚・子育て世帯向け個人住宅取得資金利子補給金",
+          "updatedAt": "平成31年1月1日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "移住",
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/12292.html",
+          "status": 200,
+          "title": "空き家情報バンクのご案内",
+          "h1": "空き家情報バンクのご案内",
+          "updatedAt": "令和5年8月20日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/64648.html",
+          "status": 200,
+          "title": "田上町子育て応援ガイドブック",
+          "h1": "田上町子育て応援ガイドブック",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/54027.html",
+          "status": 200,
+          "title": "ほっと一息(ひといき)応援券について",
+          "h1": "ほっと一息(ひといき)応援券について",
+          "updatedAt": "令和9年3月31日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "移住"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/8298.html",
+          "status": 200,
+          "title": "田上町マイホーム取得支援補助金",
+          "h1": "田上町マイホーム取得支援補助金",
+          "updatedAt": "令和9年3月31日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "移住",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/12472.html",
+          "status": 200,
+          "title": "移住希望者向けのサイトのご案内",
+          "h1": "移住希望者向けのサイトのご案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/12414.html",
+          "status": 200,
+          "title": "移住希望者向けプロモーションビデオ",
+          "h1": "移住希望者向けプロモーションビデオ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/8598.html",
+          "status": 200,
+          "title": "移住支援事業の情報",
+          "h1": "移住支援事業の情報",
+          "updatedAt": "令和4年4月1日",
+          "keywordHits": [
+            "支援金",
+            "移住",
+            "起業",
+            "通学"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/8578.html",
+          "status": 200,
+          "title": "ふるさと田上応援寄附金",
+          "h1": "ふるさと田上応援寄附金",
+          "updatedAt": "令和7年9月26日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/docs/13426.html",
+          "status": 200,
+          "title": "企業版ふるさと納税",
+          "h1": "企業版ふるさと納税",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/index.html",
+          "status": 200,
+          "title": "新潟県田上町",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kurashi/jutaku/",
+          "status": 200,
+          "title": "住宅・空き家",
+          "h1": "住宅・空き家",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kosodate/ninshin-shussan/",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kosodate/kosodate/",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kosodate/youchien/",
+          "status": 200,
+          "title": "認定こども園・幼稚園",
+          "h1": "認定こども園・幼稚園",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kosodate/gakkou/",
+          "status": 200,
+          "title": "小・中学校",
+          "h1": "小・中学校",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kosodate/kyouikuiinkai/",
+          "status": 200,
+          "title": "教育委員会",
+          "h1": "教育委員会",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kosodate/sports/",
+          "status": 200,
+          "title": "スポーツ",
+          "h1": "スポーツ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kosodate/shougaigakusuu/",
+          "status": 200,
+          "title": "生涯学習",
+          "h1": "生涯学習",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kosodate/shougaigakusuu/annai/",
+          "status": 200,
+          "title": "施設案内",
+          "h1": "施設案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kosodate/shougaigakusuu/dayori/",
+          "status": 200,
+          "title": "生涯学習情報・学習センターだより",
+          "h1": "生涯学習情報・学習センターだより",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kosodate/syakaikyouiku/",
+          "status": 200,
+          "title": "社会教育",
+          "h1": "社会教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/covid-19/",
+          "status": 200,
+          "title": "新型コロナウイルス感染症関連",
+          "h1": "新型コロナウイルス感染症関連",
+          "updatedAt": "令和5年3月13日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/toubani/",
+          "status": 200,
+          "title": "休日当番医",
+          "h1": "休日当番医",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/kenkou/",
+          "status": 200,
+          "title": "健康・医療",
+          "h1": "健康・医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/kenkou/kenshin/",
+          "status": 200,
+          "title": "健診",
+          "h1": "健診",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/kenkou/yobousesshu/",
+          "status": 200,
+          "title": "予防接種",
+          "h1": "予防接種",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/kenkou/kenkouzoushin/",
+          "status": 200,
+          "title": "健康づくり",
+          "h1": "健康づくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/kenkou/kenketsu/",
+          "status": 200,
+          "title": "献血",
+          "h1": "献血",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/kenkou/iryohi/",
+          "status": 200,
+          "title": "医療費助成",
+          "h1": "医療費助成",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/kenkou/jigyokeikaku/",
+          "status": 200,
+          "title": "事業・計画",
+          "h1": "事業・計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/kokuho/",
+          "status": 200,
+          "title": "国民健康保険",
+          "h1": "国民健康保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/kaigohoken/",
+          "status": 200,
+          "title": "介護保険",
+          "h1": "介護保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/yobousesshu/",
+          "status": 200,
+          "title": "高齢者の予防接種",
+          "h1": "高齢者の予防接種",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/joho/",
+          "status": 200,
+          "title": "介護の仕事に興味がある方向け情報",
+          "h1": "介護の仕事に興味がある方向け情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/",
+          "status": 200,
+          "title": "高齢者・介護",
+          "h1": "高齢者・介護",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/kaigoyobou/",
+          "status": 200,
+          "title": "介護予防・日常生活支援",
+          "h1": "介護予防・日常生活支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/fukushiservice/",
+          "status": 200,
+          "title": "高齢者福祉サービス",
+          "h1": "高齢者福祉サービス",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/zaitaku/",
+          "status": 200,
+          "title": "田上町在宅医療介護連携推進協議会",
+          "h1": "田上町在宅医療介護連携推進協議会",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "15361",
+          "municipalityName": "田上町",
+          "sourceUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/zigyosya/",
+          "status": 200,
+          "title": "事業者向け情報",
+          "h1": "事業者向け情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.tagami.niigata.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.tagami.niigata.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.tagami.niigata.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.tagami.niigata.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/_emergency/list.part.json",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/_emergency/list.part.json",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/_important-news/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/_important-news/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/gyosei.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/gyosei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/chousei/iju/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/chousei/iju/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/chousei/furusato/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/chousei/furusato/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/search.html?cx=003020273515507554208%3Ahqmmvjgjaay&cof=FORID%3A10&ie=UTF-8&sa=%E6%A4%9C%E7%B4%A2&q=%E8%A6%B3%E5%85%89%E6%83%85%E5%A0%B1",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/search.html?cx=003020273515507554208%3Ahqmmvjgjaay&cof=FORID%3A10&ie=UTF-8&sa=%E6%A4%9C%E7%B4%A2&q=%E8%A6%B3%E5%85%89%E6%83%85%E5%A0%B1",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/search.html?cx=003020273515507554208%3Ahqmmvjgjaay&cof=FORID%3A10&ie=UTF-8&sa=%E6%A4%9C%E7%B4%A2&q=%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/search.html?cx=003020273515507554208%3Ahqmmvjgjaay&cof=FORID%3A10&ie=UTF-8&sa=%E6%A4%9C%E7%B4%A2&q=%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/search.html?cx=003020273515507554208%3Ahqmmvjgjaay&cof=FORID%3A10&ie=UTF-8&sa=%E6%A4%9C%E7%B4%A2&q=%E5%AD%90%E8%82%B2%E3%81%A6%E6%94%AF%E6%8F%B4",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/search.html?cx=003020273515507554208%3Ahqmmvjgjaay&cof=FORID%3A10&ie=UTF-8&sa=%E6%A4%9C%E7%B4%A2&q=%E5%AD%90%E8%82%B2%E3%81%A6%E6%94%AF%E6%8F%B4",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/search.html?cx=003020273515507554208%3Ahqmmvjgjaay&cof=FORID%3A10&ie=UTF-8&sa=%E6%A4%9C%E7%B4%A2&q=%E9%98%B2%E7%81%BD%E6%83%85%E5%A0%B1",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/search.html?cx=003020273515507554208%3Ahqmmvjgjaay&cof=FORID%3A10&ie=UTF-8&sa=%E6%A4%9C%E7%B4%A2&q=%E9%98%B2%E7%81%BD%E6%83%85%E5%A0%B1",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/search.html?cx=003020273515507554208%3Ahqmmvjgjaay&cof=FORID%3A10&ie=UTF-8&sa=%E6%A4%9C%E7%B4%A2&q=%E7%A9%BA%E3%81%8D%E5%AE%B6",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/search.html?cx=003020273515507554208%3Ahqmmvjgjaay&cof=FORID%3A10&ie=UTF-8&sa=%E6%A4%9C%E7%B4%A2&q=%E7%A9%BA%E3%81%8D%E5%AE%B6",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/site/about.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/site/about.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/site/privacy.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/site/privacy.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/site/accessibility.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/site/accessibility.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/sitemap/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/sitemap/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/form/contact/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/form/contact/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/site/foreignlanguage.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/site/foreignlanguage.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/bousai-anzen/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/bousai-anzen/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kosodate/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kosodate/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/sangyou/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/sangyou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/chousei/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/chousei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/17950.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/17950.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/80844.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/80844.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/hojokin/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/hojokin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/81193.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/81193.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/77756.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/77756.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/81178.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/81178.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/81179.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/81179.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/81164.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/81164.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/81136.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/81136.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/81117.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/81117.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/8928.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/8928.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/77555.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/77555.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/81067.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/81067.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/oshirase/news/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/oshirase/news/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/oshirase/news/rss.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/oshirase/news/rss.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/8965.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/8965.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/22628.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/22628.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/8501.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/8501.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/72802.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/72802.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/16942.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/16942.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/29402.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/29402.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/oshirase/event/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/oshirase/event/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/oshirase/event/rss.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/oshirase/event/rss.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/docs/80874.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/docs/80874.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/docs/80946.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/docs/80946.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/docs/80939.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/docs/80939.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/docs/80941.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/docs/80941.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/docs/53949.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/docs/53949.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/docs/77849.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/docs/77849.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/docs/77697.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/docs/77697.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/docs/77028.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/docs/77028.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/docs/45725.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/docs/45725.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/docs/76967.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/docs/76967.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/oshirase/kankou/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/oshirase/kankou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/oshirase/kankou/rss.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/oshirase/kankou/rss.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/mokuteki/01/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/mokuteki/01/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/mokuteki/02/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/mokuteki/02/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/mokuteki/03/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/mokuteki/03/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/mokuteki/04/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/mokuteki/04/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/mokuteki/05/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/mokuteki/05/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/mokuteki/06/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/mokuteki/06/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/mokuteki/07/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/mokuteki/07/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/mokuteki/08/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/mokuteki/08/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/mokuteki/09/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/mokuteki/09/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/mokuteki/10/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/mokuteki/10/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/chousei/tagami/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/chousei/tagami/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/chousei/chouchou/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/chousei/chouchou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/gikai/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/gikai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/gomi/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/gomi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/education/tagami-es/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/education/tagami-es/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/education/hanyuda-es/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/education/hanyuda-es/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/education/tagami-jhs/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/education/tagami-jhs/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/shisetsu/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/shisetsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/8930.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/8930.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/event",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/event",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/8528.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/8528.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/reiki/reiki_menu.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/reiki/reiki_menu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/photo-gallery/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/photo-gallery/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/zz_koukoku/7776.html?redirect=https%3A%2F%2Fwww.mod.go.jp%2Fgsdf%2Fjieikanbosyu%2Findex.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/zz_koukoku/7776.html?redirect=https%3A%2F%2Fwww.mod.go.jp%2Fgsdf%2Fjieikanbosyu%2Findex.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/zz_koukoku/7777.html?redirect=%2Fdocs%2F8632.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/zz_koukoku/7777.html?redirect=%2Fdocs%2F8632.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/8632.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/8632.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/information/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/information/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/information/rss.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/information/rss.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/docs/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/docs/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/guide/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/guide/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/map/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/map/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/shisetsu/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/shisetsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/event/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/event/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kankou/flour/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kankou/flour/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/8297.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/8297.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/12292.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/12292.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/64648.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/64648.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/54027.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/54027.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/8298.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/8298.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/12472.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/12472.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/12414.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/12414.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/8598.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/8598.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/8578.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/8578.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/13426.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/13426.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/docs/44565.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/docs/44565.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/site/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/site/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/site/checklist.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/site/checklist.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/site/uri-list.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/site/uri-list.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/oshirase/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/oshirase/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/todokede/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/todokede/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/todokede/jumin/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/todokede/jumin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/todokede/koseki/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/todokede/koseki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/todokede/inkan/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/todokede/inkan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/todokede/passport/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/todokede/passport/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/todokede/mynumber/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/todokede/mynumber/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/todokede/mynumber-toriatsukai/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/todokede/mynumber-toriatsukai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/zeikin/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/zeikin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/zeikin/chomin/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/zeikin/chomin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/zeikin/houjin/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/zeikin/houjin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/zeikin/kokuho/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/zeikin/kokuho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/zeikin/koteishisan/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/zeikin/koteishisan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/zeikin/kei/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/zeikin/kei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/zeikin/nouzei/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/zeikin/nouzei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/zeikin/shinkoku/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/zeikin/shinkoku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/suido/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/suido/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/suido/suido/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/suido/suido/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/suido/gesui/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/suido/gesui/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/seikatsu/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/seikatsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/douro/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/douro/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/jutaku/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/jutaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/gomi/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/gomi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/sensei/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/sensei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/soudan/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/soudan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kurashi/koutsu/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kurashi/koutsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/bousai-anzen/bousai/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/bousai-anzen/bousai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/bousai-anzen/koutsuanzen/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/bousai-anzen/koutsuanzen/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/bousai-anzen/bouhan/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/bousai-anzen/bouhan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/bousai-anzen/houshasen/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/bousai-anzen/houshasen/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/bousai-anzen/link/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/bousai-anzen/link/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kosodate/ninshin-shussan/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kosodate/ninshin-shussan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kosodate/kosodate/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kosodate/kosodate/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kosodate/youchien/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kosodate/youchien/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kosodate/gakkou/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kosodate/gakkou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kosodate/kyouikuiinkai/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kosodate/kyouikuiinkai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kosodate/sports/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kosodate/sports/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kosodate/shougaigakusuu/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kosodate/shougaigakusuu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kosodate/shougaigakusuu/annai/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kosodate/shougaigakusuu/annai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kosodate/shougaigakusuu/dayori/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kosodate/shougaigakusuu/dayori/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kosodate/syakaikyouiku/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kosodate/syakaikyouiku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/covid-19/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/covid-19/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/toubani/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/toubani/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/kenkou/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/kenkou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/kenkou/kenshin/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/kenkou/kenshin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/kenkou/yobousesshu/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/kenkou/yobousesshu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/kenkou/kenkouzoushin/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/kenkou/kenkouzoushin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/kenkou/kenketsu/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/kenkou/kenketsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/kenkou/iryohi/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/kenkou/iryohi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/kenkou/jigyokeikaku/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/kenkou/jigyokeikaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/kokuho/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/kokuho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/koureisha/kaigohoken/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/kaigohoken/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/koureisha/yobousesshu/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/yobousesshu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/koureisha/joho/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/joho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/koureisha/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/koureisha/kaigoyobou/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/kaigoyobou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/koureisha/fukushiservice/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/fukushiservice/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/koureisha/zaitaku/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/zaitaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.tagami.niigata.jp/kenkou/koureisha/zigyosya/",
+          "status": 200,
+          "finalUrl": "https://www.town.tagami.niigata.jp/kenkou/koureisha/zigyosya/",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}
