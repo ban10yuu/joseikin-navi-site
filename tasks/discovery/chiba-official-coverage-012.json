@@ -1,0 +1,45 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-012",
+  "prefecture": "千葉県",
+  "municipalities": [
+    "12410 横芝光町",
+    "12421 一宮町",
+    "12422 睦沢町",
+    "12423 長生村"
+  ],
+  "candidateCount": 343,
+  "selectedCount": 26,
+  "selectedSlugs": [
+    "yokoshibahikari-care-worker-training-subsidy-2026",
+    "yokoshibahikari-infertility-treatment-subsidy-2026",
+    "ichinomiya-child-medical-expense-subsidy-2026",
+    "ichinomiya-sick-child-care-fee-subsidy-2026",
+    "ichinomiya-pregnant-women-support-benefit-2026",
+    "ichinomiya-school-lunch-free-program-2026",
+    "ichinomiya-english-test-fee-subsidy-2026",
+    "ichinomiya-agricultural-successor-support-subsidy-2026",
+    "ichinomiya-agricultural-waste-plastic-disposal-subsidy-2026",
+    "mutsuzawa-residential-decarbonization-equipment-subsidy-2026",
+    "mutsuzawa-single-parent-medical-subsidy-2026",
+    "mutsuzawa-child-medical-expense-subsidy-2026",
+    "mutsuzawa-newborn-hearing-test-subsidy-2026",
+    "mutsuzawa-block-wall-removal-subsidy-2026",
+    "mutsuzawa-home-fire-alarm-subsidy-2026",
+    "mutsuzawa-bicycle-helmet-subsidy-2026",
+    "chosei-disaster-prevention-specialist-subsidy-2026",
+    "chosei-bicycle-helmet-subsidy-2026",
+    "chosei-marriage-new-life-support-2026",
+    "chosei-food-waste-composter-subsidy-2026",
+    "chosei-residential-decarbonization-equipment-subsidy-2026",
+    "chosei-pregnant-women-support-benefit-2026",
+    "chosei-infertility-treatment-subsidy-2026",
+    "chosei-test-challenge-subsidy-2026",
+    "chosei-single-parent-medical-subsidy-2026",
+    "chosei-child-medical-expense-subsidy-2026"
+  ],
+  "notes": [
+    "公式トップ4自治体すべてHTTP 200",
+    "候補343件のため公式本文スニペットを保存して再スコアリング",
+    "受付終了・金額不明・既掲載重複は第2巡候補へ"
+  ]
+}

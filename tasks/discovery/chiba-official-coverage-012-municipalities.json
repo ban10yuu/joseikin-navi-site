@@ -1,0 +1,26 @@
+{
+  "batchId": "chiba-comprehensive-official-coverage-012",
+  "prefecture": "千葉県",
+  "municipalities": [
+    {
+      "code": "12410",
+      "name": "横芝光町",
+      "officialBaseUrl": "https://www.town.yokoshibahikari.chiba.jp/"
+    },
+    {
+      "code": "12421",
+      "name": "一宮町",
+      "officialBaseUrl": "https://www.town.ichinomiya.chiba.jp/"
+    },
+    {
+      "code": "12422",
+      "name": "睦沢町",
+      "officialBaseUrl": "https://www.town.mutsuzawa.chiba.jp/"
+    },
+    {
+      "code": "12423",
+      "name": "長生村",
+      "officialBaseUrl": "https://www.vill.chosei.chiba.jp/"
+    }
+  ]
+}
