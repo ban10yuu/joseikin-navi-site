@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-07-14T21:55:00+09:00",
+  "updatedAt": "2026-07-14T22:28:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "niigata-official-coverage-003",
-    "municipality": "小千谷市・加茂市・十日町市・見附市",
-    "adopted": 40,
-    "held": 30,
-    "excluded": 1,
-    "sourceUrlsChecked": 71,
+    "code": "niigata-official-coverage-004",
+    "municipality": "村上市・燕市・糸魚川市・妙高市",
+    "adopted": 52,
+    "held": 12,
+    "excluded": 0,
+    "sourceUrlsChecked": 64,
     "validation": {
-      "previousMunicipality": "新潟県公式棚卸し003として、15208小千谷市・15209加茂市・15210十日町市・15211見附市を確認した。候補1087件が150件超のため短い本文スニペットを再スコアリングし、URLリード602件から詳細71件の公式本文を確認した。既存登録済み制度、明示的受付終了制度、カテゴリページ、様式主体ページ、404 URLを除き40件を新規採用した。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for niigata-official-coverage-003.json / snippets / url-leads / details / municipalities / official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 40 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 40 primary official URLs returned HTTP 200",
+      "previousMunicipality": "新潟県公式棚卸し004として、15212村上市・15213燕市・15216糸魚川市・15217妙高市を確認した。低上限の自治体別クロールで候補277件を取得し、短い本文スニペット277件とURLリード127件から詳細64件の公式本文を確認した。既存登録済み制度、明示的受付終了制度、全国制度、カテゴリページ、外部サイト候補を除き52件を新規採用した。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for niigata-official-coverage-004.json / snippets / url-leads / details / municipalities / split municipality inputs / candidates / official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 52 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 52 primary official URLs returned HTTP 200",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11585, officialLinkedActive 11547, manuallyVerifiedActive 11547, 新潟県 localOfficial 197)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11637, officialLinkedActive 11599, manuallyVerifiedActive 11599, 新潟県 localOfficial 249)"
     }
   },
   "next": {
-    "code": "niigata-official-coverage-004",
-    "municipality": "村上市",
-    "shortlist": "新潟県公式棚卸し003は小千谷市15件、加茂市13件、十日町市5件、見附市7件の計40件を採用した。小千谷市の住宅補助総合案内、消雪用井戸申請、克雪すまいづくり、住宅エコリフォーム、防犯カメラ、防犯灯、企業立地、収入減少支援、加茂市の大学生等保護者生活支援金、創業チャレンジ、地場産品開発、工場等遮熱断熱、企業設置奨励、命綱固定アンカー、不妊治療、産婦健康診査、特定福祉用具購入、十日町市の介護事業者向け補助・UIターンカテゴリ、見附市の浄化槽申請書・移住カテゴリ・受付終了ページは第2巡候補又は除外候補に残す。",
-    "instructions": "次回は新潟県公式棚卸し004として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に15212村上市から開始する。既に村上市の既存登録済み又は修正済みエントリがあるため、公式URL重複を機械確認してから未採用制度だけを扱う。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "niigata-official-coverage-005",
+    "municipality": "五泉市",
+    "shortlist": "新潟県公式棚卸し004は村上市17件、燕市10件、糸魚川市21件、妙高市4件の計52件を採用した。村上市の物価高対応子育て応援手当・介護福祉施設物価高騰対策支援金・道路側溝清掃補助金、燕市の物価高対応子育て応援手当・職場環境実証事業支援補助金、糸魚川市のチャレンジ補助金・ガス衣類乾燥機導入助成金・観光協会外部ページ、妙高市の金額抽出不足ページは第2巡候補に残す。",
+    "instructions": "次回は新潟県公式棚卸し005として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に15218五泉市から開始する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "新潟県",
     "status": "in-progress",
-    "lastBatch": "niigata-official-coverage-003",
-    "notes": "新潟県は15211見附市まで自治体コード順に到達。次は15212村上市。神奈川県は14402清川村まで第1巡到達済み、東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
+    "lastBatch": "niigata-official-coverage-004",
+    "notes": "新潟県は15217妙高市まで自治体コード順に到達。次は15218五泉市。神奈川県は14402清川村まで第1巡到達済み、東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

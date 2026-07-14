@@ -8605,3 +8605,49 @@
   - 十日町市の介護事業者向け補助、人材確保、外国人材受入、UIターン補助カテゴリ、見附市の浄化槽申請書、移住補助制度カテゴリ、起業創業支援、企業人材育成支援は、予算/募集停止、カテゴリ、404又は受付終了のため第2巡候補又は除外候補に残す。
 - 次:
   - 新潟県公式棚卸し004として、15212村上市から自治体コード順に確認する。村上市は既存登録済み・修正済みエントリがあるため、公式URL重複を機械確認してから未採用制度だけを扱う。
+
+### 2026-07-14 新潟県公式棚卸し004（15212村上市・15213燕市・15216糸魚川市・15217妙高市）
+
+- 作業範囲:
+  - 15212 村上市、15213 燕市、15216 糸魚川市、15217 妙高市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 一括クロールが無出力で長時間化したため、同一バッチ内で自治体別の低上限クロールに切り替え、候補277件を取得した。
+  - 生成候補277件が150件超のため、`tasks/discovery/niigata-official-coverage-004-snippets.json` に公式本文の短い根拠を保存し、URLリード127件を抽出した。
+  - URLリードから詳細64件を `tasks/discovery/niigata-official-coverage-004-details.json` に取得し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページを優先した。
+- 採用:
+  - 合計52件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 村上市17件: お試し移住体験事業、奨学金返還支援補助金、産業支援プログラム事業補助金、出前託児事業補助金、子ども医療費助成、ひとり親家庭等医療費助成、介護事業所勤務者給付金、結婚新生活支援補助金、婚活マッチングシステム登録料補助金、敬老祝事業補助金、産材利用住宅等建築奨励事業補助金、木質バイオマスストーブ設置費補助金、創業応援事業、素材生産拡大推進事業補助金、森林整備等推進事業補助金、漆栽培事業補助金、林間ワサビ栽培奨励事業補助金。
+  - 燕市10件: 男性の育児休業取得促進奨励金、育児短時間勤務給付金、保育士等奨学金返還補助金、こどもの生活・学習支援事業補助金、入学準備金貸付事業、妊産婦医療費助成、子ども医療費助成、ひとり親家庭等医療費助成、結婚新生活支援金、移住者住宅支援事業補助金。
+  - 糸魚川市21件: 子ども医療費助成、妊産婦医療費助成、ひとり親家庭等医療費助成、障害者の医療、新婚ハッピー住まいる補助金、チャレンジ補助金、住居確保給付金、大学生等地元定着促進新幹線通学応援事業補助金、公共交通機関利用促進事業補助金、通学定期券購入費補助金、大型運転免許等取得支援補助金、地元就職おめでとう補助金、DX推進補助金、商店街賑わいづくり創出事業補助金、共同利用農業機械整備支援事業補助金、森林資源活用・普及促進事業補助金、Uターン等修学資金返済支援事業補助金、有害鳥獣捕獲の担い手確保補助金、狩猟免許取得補助金、医療技術者・介護従事者ふるさと就職応援補助金、介護人材育成支援事業補助金制度。
+  - 妙高市4件: 診療所開設支援補助金、防犯カメラ設置補助金、優良宅地造成支援事業補助金、奨学金貸付制度。
+- 生成ファイル:
+  - `tasks/discovery/niigata-official-coverage-004-municipalities.json`
+  - `tasks/discovery/niigata-official-coverage-004-15212-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-004-15213-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-004-15216-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-004-15217-municipality.json`
+  - `tasks/discovery/niigata-official-coverage-004-15212-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-004-15213-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-004-15216-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-004-15217-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-004-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-004-snippets.json`
+  - `tasks/discovery/niigata-official-coverage-004-url-leads.json`
+  - `tasks/discovery/niigata-official-coverage-004-details.json`
+  - `tasks/discovery/niigata-official-coverage-004-adopted-urls.json`
+  - `tasks/discovery/niigata-official-coverage-004.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（004関連JSON、checkpoint）。
+  - 追加slug重複: pass（52件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（52 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11637、officialLinkedActive 11599、manuallyVerifiedActive 11599、新潟県 localOfficial 249）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は新潟県15217妙高市到達のみで全国完了扱いしない。
+  - 村上市の物価高対応子育て応援手当、介護・福祉施設物価高騰対策支援金、道路側溝清掃補助金、県・外部サイト候補は年度・受付状況又は公式性確認を第2巡候補に残す。
+  - 燕市の物価高対応子育て応援手当、職場環境実証事業支援補助金、児童手当、年金生活者支援給付金、カテゴリページは全国制度・受付終了又は第2巡候補に残す。
+  - 糸魚川市のガス衣類乾燥機導入助成金、観光協会外部ページ、NPO助成金情報、自動車置場貸付は受付状況・金額不足又は公式性確認候補として保持する。
+  - 妙高市の老人医療費助成、家族と環境にやさしい住宅取得等支援、UIターン住宅、移住支援、子育て世帯移住支援は金額抽出不足のため第2巡で詳細確認候補として保持する。
+- 次:
+  - 新潟県公式棚卸し005として、15218五泉市から自治体コード順に確認する。
