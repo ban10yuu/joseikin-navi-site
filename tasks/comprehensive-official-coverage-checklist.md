@@ -9852,3 +9852,41 @@
   - トップ、カテゴリ、ポータル、PDF、様式、申請書単体、イベント・募集記事、制度要件不足候補は第2巡候補に残す。
 - 次:
   - 長野県公式棚卸し008として、20388宮田村から自治体コード順に確認する。
+
+
+### 2026-07-15 長野県公式棚卸し008（20388宮田村・20402松川町・20403高森町・20404阿南町・20407阿智村）
+- 範囲:
+  - 20388 宮田村: `https://www.vill.miyada.nagano.jp/`
+  - 20402 松川町: `https://www.town.matsukawa.lg.jp/`
+  - 20403 高森町: `https://www.town.nagano-takamori.lg.jp/`
+  - 20404 阿南町: `http://www.town.anan.nagano.jp/`
+  - 20407 阿智村: `https://www.vill.achi.lg.jp/`
+- 探索:
+  - `node scripts/discover-official-candidates.mjs --input tasks/discovery/nagano-official-coverage-008-municipalities.json --output tasks/discovery/nagano-official-coverage-008-candidates.json --initial-limit-per-municipality 80 --deep-limit-per-municipality 220 --limit-per-municipality 220 --concurrency 4 --timeout-ms 30000`
+  - 候補563件。宮田村0件、松川町20件、高森町185件、阿南町157件、阿智村201件。shortlistが150件を超えたため、キャッシュ本文からスニペット563件を抽出し、制度名・対象・金額/上限・申請/受付表現が揃う個別ページ・公式一覧を優先した。
+- 採用:
+  - 合計60件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 阿南町20件: 環境・防災・安全各種補助、住宅リフォーム、太陽光発電・蓄電、空き家利用促進、住宅新築、木造住宅耐震、雨水貯留、太陽熱温水器、特殊詐欺対策機器、生ごみ処理機、合併処理浄化槽、下水道施設整備、地元施行工事、人間ドック・脳ドック、ふっとふっと、商工業補助、農業補助、チャイルドシート等。
+  - 阿智村40件: 新規就農、エネルギー価格高騰、婚活イベント、集会所備品、集落維持、集会所新改築、村づくり委員会、住宅リフォーム、残農薬、農業経営持続化、振興作物、農業機械、大豆・そば、特産品、家畜防疫、畜産環境、果樹農業、補聴器、太陽光発電、サテライトオフィス、生ごみ処理機器、予防接種、農業共済、ぬくもりの田舎暮らし、地元施行除雪・道路維持・防災伐採、かんがい排水、企業人財確保、固定資産税減免、奨学金返還、UIJターン、Iターン、定住者支援、各種支援一覧。
+  - 宮田村は通常クロールで候補0件、松川町・高森町は公式カテゴリ本文から候補を抽出したがローカル再到達が403のため第2巡候補として保持した。
+- 生成ファイル:
+  - `tasks/discovery/nagano-official-coverage-008-adopted-urls.json`
+  - `tasks/discovery/nagano-official-coverage-008-candidates.json`
+  - `tasks/discovery/nagano-official-coverage-008-municipalities.json`
+  - `tasks/discovery/nagano-official-coverage-008-official-lists.json`
+  - `tasks/discovery/nagano-official-coverage-008-snippets.json`
+  - `tasks/discovery/nagano-official-coverage-008-url-status.txt`
+  - `tasks/discovery/nagano-official-coverage-008.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（008関連JSON、checkpoint）。
+  - 追加slug重複: pass（60件、`verified-local-misc-2026.ts` 全体 duplicateCount 0）。
+  - 公式URL到達: pass（採用元の重複排除60URLすべてHTTP 200、間隔付きcurl）。
+  - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 13675、officialLinkedActive 13555、manuallyVerifiedActive 13555、長野県 localOfficial 589）。
+- 注意:
+  - 長野県は20201長野市から20407阿智村まで第1巡に到達した。ただし全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は長野県20407阿智村到達のみで全国完了扱いしない。
+  - トップ、カテゴリ、ポータル、PDF、様式、申請書単体、イベント・募集記事、制度要件不足候補、WAF再到達対象は第2巡候補に残す。
+- 次:
+  - 長野県公式棚卸し009として、20409平谷村から自治体コード順に確認する。

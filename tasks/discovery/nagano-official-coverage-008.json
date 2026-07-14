@@ -1,0 +1,63 @@
+{
+  "batchId": "nagano-official-coverage-008",
+  "prefecture": "長野県",
+  "generatedAt": "2026-07-15T05:56:55+09:00",
+  "scope": [
+    {
+      "code": "20388",
+      "name": "宮田村",
+      "officialBaseUrl": "https://www.vill.miyada.nagano.jp/"
+    },
+    {
+      "code": "20402",
+      "name": "松川町",
+      "officialBaseUrl": "https://www.town.matsukawa.lg.jp/"
+    },
+    {
+      "code": "20403",
+      "name": "高森町",
+      "officialBaseUrl": "https://www.town.nagano-takamori.lg.jp/"
+    },
+    {
+      "code": "20404",
+      "name": "阿南町",
+      "officialBaseUrl": "http://www.town.anan.nagano.jp/"
+    },
+    {
+      "code": "20407",
+      "name": "阿智村",
+      "officialBaseUrl": "https://www.vill.achi.lg.jp/"
+    }
+  ],
+  "discovery": {
+    "candidateCount": 563,
+    "municipalityCount": 5,
+    "snippetCount": 563
+  },
+  "adopted": {
+    "total": 60,
+    "byMunicipality": {
+      "阿南町": 20,
+      "阿智村": 40
+    },
+    "sourceUrlCount": 60
+  },
+  "held": {
+    "notes": "宮田村は候補0件。松川町・高森町は公式カテゴリ本文から制度候補を抽出したが、個別URLのローカル再到達が403のため第2巡へ保持。阿南町・阿智村でもトップ、カテゴリ導線、PDF、申請書単体、募集記事、制度要件不足候補は第2巡へ保持。"
+  },
+  "validation": {
+    "previousMunicipality": "長野県公式棚卸し008として、20388宮田村・20402松川町・20403高森町・20404阿南町・20407阿智村を確認した。候補563件、本文スニペット563件を保存し、阿南町20件、阿智村40件の合計60件を新規採用した。宮田村・松川町・高森町及びカテゴリ導線・申請書単体・WAF再到達対象は第2巡候補保持。長野県第1巡は20407阿智村まで到達。全国公式棚卸しは未完了。",
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for nagano-official-coverage-008 JSON files and checkpoint update inputs",
+    "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 60 unique adopted official URLs returned HTTP 200 by interval curl",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 13675, officialLinkedActive 13555, manuallyVerifiedActive 13555, 長野県 localOfficial 589)"
+  },
+  "next": {
+    "batchId": "nagano-official-coverage-009",
+    "code": "20409",
+    "municipality": "平谷村"
+  }
+}

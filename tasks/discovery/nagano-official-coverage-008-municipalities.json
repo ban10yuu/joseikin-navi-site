@@ -1,0 +1,31 @@
+{
+  "batchId": "nagano-official-coverage-008",
+  "prefecture": "長野県",
+  "municipalities": [
+    {
+      "code": "20388",
+      "name": "宮田村",
+      "officialBaseUrl": "https://www.vill.miyada.nagano.jp/"
+    },
+    {
+      "code": "20402",
+      "name": "松川町",
+      "officialBaseUrl": "https://www.town.matsukawa.lg.jp/"
+    },
+    {
+      "code": "20403",
+      "name": "高森町",
+      "officialBaseUrl": "https://www.town.nagano-takamori.lg.jp/"
+    },
+    {
+      "code": "20404",
+      "name": "阿南町",
+      "officialBaseUrl": "http://www.town.anan.nagano.jp/"
+    },
+    {
+      "code": "20407",
+      "name": "阿智村",
+      "officialBaseUrl": "https://www.vill.achi.lg.jp/"
+    }
+  ]
+}
