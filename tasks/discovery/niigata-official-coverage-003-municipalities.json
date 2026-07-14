@@ -1,0 +1,10 @@
+{
+  "batchId": "niigata-official-coverage-003",
+  "prefecture": "新潟県",
+  "municipalities": [
+    { "code": "15208", "name": "小千谷市", "officialBaseUrl": "https://www.city.ojiya.niigata.jp/" },
+    { "code": "15209", "name": "加茂市", "officialBaseUrl": "https://www.city.kamo.niigata.jp/" },
+    { "code": "15210", "name": "十日町市", "officialBaseUrl": "https://www.city.tokamachi.lg.jp/" },
+    { "code": "15211", "name": "見附市", "officialBaseUrl": "https://www.city.mitsuke.niigata.jp/" }
+  ]
+}

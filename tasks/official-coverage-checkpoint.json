@@ -1,34 +1,34 @@
 {
-  "updatedAt": "2026-07-14T22:25:00+09:00",
+  "updatedAt": "2026-07-14T21:55:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "niigata-official-coverage-002",
-    "municipality": "長岡市・三条市・柏崎市・新発田市",
-    "adopted": 39,
-    "held": 42,
-    "excluded": 9,
-    "sourceUrlsChecked": 90,
+    "code": "niigata-official-coverage-003",
+    "municipality": "小千谷市・加茂市・十日町市・見附市",
+    "adopted": 40,
+    "held": 30,
+    "excluded": 1,
+    "sourceUrlsChecked": 71,
     "validation": {
-      "previousMunicipality": "新潟県公式棚卸し002として、15202長岡市・15204三条市・15205柏崎市・15206新発田市を確認した。候補628件が150件超のため短い本文スニペットを再スコアリングし、URLリード341件から詳細90件の公式本文を確認した。既存登録済み制度、受付終了制度、全国制度・証明書案内を除き39件を新規採用した。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for niigata-official-coverage-002.json / snippets / url-leads / details / municipalities / official-coverage-checkpoint.json",
-      "addedSlugUniqueness": "pass: 39 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 39 primary official URLs returned HTTP 200",
+      "previousMunicipality": "新潟県公式棚卸し003として、15208小千谷市・15209加茂市・15210十日町市・15211見附市を確認した。候補1087件が150件超のため短い本文スニペットを再スコアリングし、URLリード602件から詳細71件の公式本文を確認した。既存登録済み制度、明示的受付終了制度、カテゴリページ、様式主体ページ、404 URLを除き40件を新規採用した。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and JSON.parse for niigata-official-coverage-003.json / snippets / url-leads / details / municipalities / official-coverage-checkpoint.json",
+      "addedSlugUniqueness": "pass: 40 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 40 primary official URLs returned HTTP 200",
       "eslint": "pass: npm run lint -- src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11548, officialLinkedActive 11510, manuallyVerifiedActive 11510, 新潟県 localOfficial 160)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 11585, officialLinkedActive 11547, manuallyVerifiedActive 11547, 新潟県 localOfficial 197)"
     }
   },
   "next": {
-    "code": "niigata-official-coverage-003",
-    "municipality": "小千谷市",
-    "shortlist": "新潟県公式棚卸し002は長岡市5件、三条市8件、柏崎市19件、新発田市7件の計39件を採用した。長岡市の克雪すまいづくり支援事業・一般住宅リフォーム支援事業は既存登録済み又は受付終了、三条市農業振興補助事業は期限後、柏崎市の重複カテゴリURL・様式案内・金額又は受付状況不足ページ、新発田市の児童手当・証明書案内は第2巡候補又は除外候補に残す。",
-    "instructions": "次回は新潟県公式棚卸し003として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に15208小千谷市から開始する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "niigata-official-coverage-004",
+    "municipality": "村上市",
+    "shortlist": "新潟県公式棚卸し003は小千谷市15件、加茂市13件、十日町市5件、見附市7件の計40件を採用した。小千谷市の住宅補助総合案内、消雪用井戸申請、克雪すまいづくり、住宅エコリフォーム、防犯カメラ、防犯灯、企業立地、収入減少支援、加茂市の大学生等保護者生活支援金、創業チャレンジ、地場産品開発、工場等遮熱断熱、企業設置奨励、命綱固定アンカー、不妊治療、産婦健康診査、特定福祉用具購入、十日町市の介護事業者向け補助・UIターンカテゴリ、見附市の浄化槽申請書・移住カテゴリ・受付終了ページは第2巡候補又は除外候補に残す。",
+    "instructions": "次回は新潟県公式棚卸し004として、固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から自治体コード順に15212村上市から開始する。既に村上市の既存登録済み又は修正済みエントリがあるため、公式URL重複を機械確認してから未採用制度だけを扱う。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "新潟県",
     "status": "in-progress",
-    "lastBatch": "niigata-official-coverage-002",
-    "notes": "新潟県は15206新発田市まで自治体コード順に到達。次は15208小千谷市。神奈川県は14402清川村まで第1巡到達済み、東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
+    "lastBatch": "niigata-official-coverage-003",
+    "notes": "新潟県は15211見附市まで自治体コード順に到達。次は15212村上市。神奈川県は14402清川村まで第1巡到達済み、東京都は13421小笠原村まで第1巡到達済みだが、第2巡保留候補を保持。全国公式棚卸しは未完了。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

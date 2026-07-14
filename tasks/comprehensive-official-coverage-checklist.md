@@ -8570,3 +8570,38 @@
   - 新発田市の児童手当、児童手当支払額証明書は全国制度又は証明書案内のため新規採用から除外した。
 - 次:
   - 新潟県公式棚卸し003として、15208小千谷市から自治体コード順に確認する。
+
+### 2026-07-14 新潟県公式棚卸し003（15208小千谷市・15209加茂市・15210十日町市・15211見附市）
+
+- 作業範囲:
+  - 15208 小千谷市、15209 加茂市、15210 十日町市、15211 見附市の公式サイトを対象に、補助金・助成金・給付金・支援金等の個別公式ページを確認した。
+  - 生成候補1087件が150件超のため、`tasks/discovery/niigata-official-coverage-003-snippets.json` に公式本文の短い根拠を保存し、再スコアリングした。
+  - URLリード602件から詳細71件を `tasks/discovery/niigata-official-coverage-003-details.json` に取得し、制度名・対象・金額/上限・条件・期限/受付状況が揃う個別ページを優先した。
+- 採用:
+  - 合計40件を `src/data/grants/verified-local-misc-2026.ts` に追加。
+  - 小千谷市15件: おぢやごころ奨学金返還支援事業補助金、市民協働支援補助金、U・Iターン就職活動支援補助金、空き家利活用支援事業補助金、家財道具等処分支援事業補助金、移住支援金、子育て世帯移住支援金、結婚新生活支援補助金、ずっと住まいる応援事業補助金、診療所開設支援補助金、第三子以降学校給食費補助金、脱炭素設備導入促進補助金、有害鳥獣捕獲担い手緊急確保事業補助金、男女共同参画推進企業認定奨励金、宅地開発支援事業補助金。
+  - 加茂市13件: 妊産婦医療費助成、結婚新生活支援補助金、在宅介護手当、収益力向上支援事業費補助金、診療所設置奨励事業補助金、移住促進住宅取得補助金、自主防災組織活動事業補助金、自主防災組織設立資機材整備事業補助金、妊婦のための支援給付、新生児聴覚検査費助成、不育症治療費用助成、がん患者医療用補整具購入費補助、難聴者補聴器購入費助成事業。
+  - 十日町市5件: 看護学生支援事業補助金、市外出産安心パック給付金、高等職業訓練促進給付金等事業、自立支援教育訓練給付金事業、働く環境パワーアップ支援補助金。
+  - 見附市7件: まちなか賑わい事業支援補助金（空き店舗活用支援事業）、市民活動支援補助金、新エネルギー導入促進事業補助金、障がい者団体等育成支援補助金、育児休業取得促進助成金、診療所新規開業等支援事業補助金、がん患者医療用補整具購入費助成。
+- 生成ファイル:
+  - `tasks/discovery/niigata-official-coverage-003-municipalities.json`
+  - `tasks/discovery/niigata-official-coverage-003-candidates.json`
+  - `tasks/discovery/niigata-official-coverage-003-snippets.json`
+  - `tasks/discovery/niigata-official-coverage-003-url-leads.json`
+  - `tasks/discovery/niigata-official-coverage-003-details.json`
+  - `tasks/discovery/niigata-official-coverage-003.json`
+- 検証:
+  - `node --check src/data/grants/verified-local-misc-2026.ts`: pass。
+  - JSON parse: pass（`niigata-official-coverage-003.json`、snippets、url-leads、details、municipalities、candidates、checkpoint）。
+  - 追加slug重複: pass（40件、`verified-local-misc-2026.ts` 内で各1件）。
+  - 公式URL到達: pass（40 primary official URLsすべてHTTP 200）。
+  - `npm run lint -- src/data/grants/verified-local-misc-2026.ts`: pass。
+  - `git diff --check`: pass。
+  - `npm run audit:coverage`: pass（failures 0、activePublished 11585、officialLinkedActive 11547、manuallyVerifiedActive 11547、新潟県 localOfficial 197）。
+- 注意:
+  - 全国公式棚卸しは未完了。既存rawのgap 0、HTTP 200、又は新潟県15211見附市到達のみで全国完了扱いしない。
+  - 小千谷市の住宅補助総合案内、消雪用井戸申請、克雪すまいづくり、住宅エコリフォーム、防犯カメラ、防犯灯、企業立地、収入減少支援は、カテゴリ・様式主体、受付終了又は金額/受付状況の追加確認候補として第2巡候補に残す。
+  - 加茂市の大学生等保護者生活支援金、創業チャレンジ、地場産品開発、工場等遮熱断熱、企業設置奨励、命綱固定アンカー、不妊治療、産婦健康診査、特定福祉用具購入は、年度・受付状況又は制度分割確認を第2巡候補に残す。
+  - 十日町市の介護事業者向け補助、人材確保、外国人材受入、UIターン補助カテゴリ、見附市の浄化槽申請書、移住補助制度カテゴリ、起業創業支援、企業人材育成支援は、予算/募集停止、カテゴリ、404又は受付終了のため第2巡候補又は除外候補に残す。
+- 次:
+  - 新潟県公式棚卸し004として、15212村上市から自治体コード順に確認する。村上市は既存登録済み・修正済みエントリがあるため、公式URL重複を機械確認してから未採用制度だけを扱う。
