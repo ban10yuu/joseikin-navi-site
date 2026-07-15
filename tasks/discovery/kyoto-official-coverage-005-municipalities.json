@@ -1,0 +1,37 @@
+{
+  "batchId": "kyoto-official-coverage-005",
+  "prefecture": "京都府",
+  "createdAt": "2026-07-15T22:46:00+09:00",
+  "municipalities": [
+    {
+      "code": "26365",
+      "name": "和束町",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.town.wazuka.lg.jp/"
+    },
+    {
+      "code": "26366",
+      "name": "精華町",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.town.seika.kyoto.jp/"
+    },
+    {
+      "code": "26367",
+      "name": "南山城村",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.vill.minamiyamashiro.lg.jp/"
+    },
+    {
+      "code": "26407",
+      "name": "京丹波町",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.town.kyotamba.kyoto.jp/"
+    },
+    {
+      "code": "26463",
+      "name": "伊根町",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.town.ine.kyoto.jp/"
+    }
+  ]
+}

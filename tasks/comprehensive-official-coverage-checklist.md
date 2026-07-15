@@ -10368,3 +10368,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16894、officialLinkedActive 16774、manuallyVerifiedActive 16774、京都府 localOfficial 331）
 - 到達点: 京都府は26100京都市から26364笠置町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 京都府公式棚卸し005として、26365和束町から再開
+
+
+### 京都府公式棚卸し005（26365和束町・26366精華町・26367南山城村・26407京丹波町・26463伊根町）
+- 実施日: 2026-07-15
+- 候補: 400件（公式カテゴリリンクリード469件、公式リスト81件、採用URL81本）
+- 採用: 81件（和束町12件、精華町22件、南山城村11件、京丹波町19件、伊根町17件）
+- 公式URL: 採用URL到達確認は tasks/discovery/kyoto-official-coverage-005-url-status.txt に記録（81本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、通常行政案内、申請書単体、計画・報告、公募・プロポーザル、広報、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。和束町・精華町・京丹波町・伊根町は通常クロールで下位制度が薄かったため、公式カテゴリ導線と公式ドメイン限定検索結果で補完
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16975、officialLinkedActive 16855、manuallyVerifiedActive 16855、京都府 localOfficial 412）
+- 到達点: 京都府は26100京都市から26463伊根町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 京都府公式棚卸し006として、26465与謝野町から再開

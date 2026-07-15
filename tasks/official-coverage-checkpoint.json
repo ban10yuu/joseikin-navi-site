@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T22:58:00+09:00",
+  "updatedAt": "2026-07-15T23:46:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kyoto-official-coverage-004",
-    "municipality": "大山崎町・久御山町・井手町・宇治田原町・笠置町",
-    "adopted": 83,
+    "code": "kyoto-official-coverage-005",
+    "municipality": "和束町・精華町・南山城村・京丹波町・伊根町",
+    "adopted": 81,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 83,
+    "sourceUrlsChecked": 81,
     "validation": {
-      "previousMunicipality": "京都府公式棚卸し004として、26303大山崎町・26322久御山町・26343井手町・26344宇治田原町・26364笠置町を確認した。候補362件、公式カテゴリリンクリード2040件、公式リスト83件を保存し、5町で合計83件を新規採用した。トップ、カテゴリ導線、共通ナビ、通常行政案内、申請書単体、計画・報告、公募・プロポーザル、広報、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。全国公式棚卸しは未完了。",
+      "previousMunicipality": "京都府公式棚卸し005として、26365和束町・26366精華町・26367南山城村・26407京丹波町・26463伊根町を確認した。候補400件、公式カテゴリリンクリード469件、公式リスト81件を保存し、5町村で合計81件を新規採用した。トップ、カテゴリ導線、共通ナビ、通常行政案内、申請書単体、計画・報告、公募・プロポーザル、広報、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for kyoto-official-coverage-004 JSON files",
-      "addedSlugUniqueness": "pass: 83 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 83 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for kyoto-official-coverage-005 JSON files",
+      "addedSlugUniqueness": "pass: 81 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 81 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16894, officialLinkedActive 16774, manuallyVerifiedActive 16774, 京都府 localOfficial 331)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16975, officialLinkedActive 16855, manuallyVerifiedActive 16855, 京都府 localOfficial 412)"
     }
   },
   "next": {
-    "code": "kyoto-official-coverage-005",
-    "municipality": "和束町",
-    "shortlist": "京都府公式棚卸し004は大山崎町14件、久御山町22件、井手町15件、宇治田原町18件、笠置町14件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、京都府公式棚卸し005として26365和束町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kyoto-official-coverage-006",
+    "municipality": "与謝野町",
+    "shortlist": "京都府公式棚卸し005は和束町12件、精華町22件、南山城村11件、京丹波町19件、伊根町17件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、京都府公式棚卸し006として26465与謝野町を開始地点に自治体コード順で再開する。京都府は与謝野町で第1巡完了見込み。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "京都府",
     "status": "in-progress-first-pass",
-    "lastBatch": "kyoto-official-coverage-004",
-    "notes": "京都府公式棚卸し004で26303大山崎町・26322久御山町・26343井手町・26344宇治田原町・26364笠置町を確認し、83件を新規採用した。次は26365和束町から再開する。"
+    "lastBatch": "kyoto-official-coverage-005",
+    "notes": "京都府公式棚卸し005で26365和束町・26366精華町・26367南山城村・26407京丹波町・26463伊根町を確認し、81件を新規採用した。次は26465与謝野町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

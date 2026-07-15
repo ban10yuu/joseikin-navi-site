@@ -1,0 +1,50 @@
+{
+  "batchId": "kyoto-official-coverage-005",
+  "prefecture": "京都府",
+  "completedAt": "2026-07-15T23:46:00+09:00",
+  "municipalities": [
+    {
+      "code": "26365",
+      "name": "和束町",
+      "adopted": 12
+    },
+    {
+      "code": "26366",
+      "name": "精華町",
+      "adopted": 22
+    },
+    {
+      "code": "26367",
+      "name": "南山城村",
+      "adopted": 11
+    },
+    {
+      "code": "26407",
+      "name": "京丹波町",
+      "adopted": 19
+    },
+    {
+      "code": "26463",
+      "name": "伊根町",
+      "adopted": 17
+    }
+  ],
+  "candidateCount": 400,
+  "linkLeadCount": 469,
+  "adopted": 81,
+  "sourceUrlsChecked": 81,
+  "heldPolicy": "トップ、カテゴリ導線、共通ナビ、通常行政案内、申請書単体、計画・報告、公募・プロポーザル、広報、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。和束町・精華町・京丹波町・伊根町は公式カテゴリ導線と公式ドメイン限定検索結果で補完。",
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for kyoto-official-coverage-005 JSON files",
+    "addedSlugUniqueness": "pass: 81 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 81 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16975, officialLinkedActive 16855, manuallyVerifiedActive 16855, 京都府 localOfficial 412)"
+  },
+  "next": {
+    "batchId": "kyoto-official-coverage-006",
+    "start": "26465与謝野町"
+  }
+}
