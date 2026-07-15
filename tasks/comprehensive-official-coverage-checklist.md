@@ -10291,3 +10291,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16437、officialLinkedActive 16317、manuallyVerifiedActive 16317、滋賀県 localOfficial 168）
 - 到達点: 滋賀県は25201大津市から25206草津市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 滋賀県公式棚卸し002として、25207守山市から再開
+
+
+### 滋賀県公式棚卸し002（25207守山市・25208栗東市・25209甲賀市・25210野洲市・25211湖南市）
+- 実施日: 2026-07-15
+- 候補: 708件（公式カテゴリリンクリード573件、公式リスト72件、採用URL72本）
+- 採用: 72件（守山市12件、栗東市8件、甲賀市21件、野洲市11件、湖南市20件）
+- 公式URL: 採用URL到達確認は tasks/discovery/shiga-official-coverage-002-url-status.txt に記録（72本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16509、officialLinkedActive 16389、manuallyVerifiedActive 16389、滋賀県 localOfficial 240）
+- 到達点: 滋賀県は25201大津市から25211湖南市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 滋賀県公式棚卸し003として、25212高島市から再開

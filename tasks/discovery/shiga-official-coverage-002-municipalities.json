@@ -1,0 +1,36 @@
+{
+  "batchId": "shiga-official-coverage-002",
+  "prefecture": "滋賀県",
+  "municipalities": [
+    {
+      "code": "25207",
+      "name": "守山市",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.city.moriyama.lg.jp/"
+    },
+    {
+      "code": "25208",
+      "name": "栗東市",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.city.ritto.lg.jp/"
+    },
+    {
+      "code": "25209",
+      "name": "甲賀市",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.city.koka.lg.jp/"
+    },
+    {
+      "code": "25210",
+      "name": "野洲市",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.city.yasu.lg.jp/"
+    },
+    {
+      "code": "25211",
+      "name": "湖南市",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.city.shiga-konan.lg.jp/"
+    }
+  ]
+}

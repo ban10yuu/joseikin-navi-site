@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T20:32:00+09:00",
+  "updatedAt": "2026-07-15T21:03:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "shiga-official-coverage-001",
-    "municipality": "大津市・彦根市・長浜市・近江八幡市・草津市",
-    "adopted": 80,
-    "held": 488,
-    "excluded": 0,
-    "sourceUrlsChecked": 80,
+    "code": "shiga-official-coverage-002",
+    "municipality": "守山市・栗東市・甲賀市・野洲市・湖南市",
+    "adopted": 72,
+    "held": 636,
+    "excluded": 3,
+    "sourceUrlsChecked": 72,
     "validation": {
-      "previousMunicipality": "滋賀県公式棚卸し001として、25201大津市・25202彦根市・25203長浜市・25204近江八幡市・25206草津市を確認した。候補568件、公式カテゴリリンクリード581件、公式リスト80件を保存し、5市で合計80件を新規採用した。トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。全国公式棚卸しは未完了。",
+      "previousMunicipality": "滋賀県公式棚卸し002として、25207守山市・25208栗東市・25209甲賀市・25210野洲市・25211湖南市を確認した。候補708件、公式カテゴリリンクリード573件、公式リスト72件を保存し、5市で合計72件を新規採用した。トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for shiga-official-coverage-001 JSON files",
-      "addedSlugUniqueness": "pass: 80 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 80 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for shiga-official-coverage-002 JSON files",
+      "addedSlugUniqueness": "pass: 72 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 72 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16437, officialLinkedActive 16317, manuallyVerifiedActive 16317, 滋賀県 localOfficial 168)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16509, officialLinkedActive 16389, manuallyVerifiedActive 16389, 滋賀県 localOfficial 240)"
     }
   },
   "next": {
-    "code": "shiga-official-coverage-002",
-    "municipality": "守山市",
-    "shortlist": "滋賀県公式棚卸し001は大津市18件、彦根市17件、長浜市15件、近江八幡市11件、草津市19件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、滋賀県公式棚卸し002として25207守山市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "shiga-official-coverage-003",
+    "municipality": "高島市",
+    "shortlist": "滋賀県公式棚卸し002は守山市12件、栗東市8件、甲賀市21件、野洲市11件、湖南市20件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、滋賀県公式棚卸し003として25212高島市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "滋賀県",
     "status": "in-progress-first-pass",
-    "lastBatch": "shiga-official-coverage-001",
-    "notes": "滋賀県公式棚卸し001で25201大津市・25202彦根市・25203長浜市・25204近江八幡市・25206草津市を確認し、80件を新規採用した。次は25207守山市から再開する。"
+    "lastBatch": "shiga-official-coverage-002",
+    "notes": "滋賀県公式棚卸し002で25207守山市・25208栗東市・25209甲賀市・25210野洲市・25211湖南市を確認し、72件を新規採用した。次は25212高島市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

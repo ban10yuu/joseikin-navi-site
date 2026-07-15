@@ -1,0 +1,54 @@
+{
+  "batchId": "shiga-official-coverage-002",
+  "prefecture": "滋賀県",
+  "completedAt": "2026-07-15T21:03:00+09:00",
+  "municipalities": [
+    {
+      "code": "25207",
+      "name": "守山市",
+      "adopted": 12
+    },
+    {
+      "code": "25208",
+      "name": "栗東市",
+      "adopted": 8
+    },
+    {
+      "code": "25209",
+      "name": "甲賀市",
+      "adopted": 21
+    },
+    {
+      "code": "25210",
+      "name": "野洲市",
+      "adopted": 11
+    },
+    {
+      "code": "25211",
+      "name": "湖南市",
+      "adopted": 20
+    }
+  ],
+  "discovery": {
+    "candidateCount": 708,
+    "linkLeadCount": 573,
+    "selectedCount": 72,
+    "adoptedCount": 72,
+    "heldCount": 636
+  },
+  "heldPolicy": "トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。",
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for shiga-official-coverage-002 JSON files",
+    "addedSlugUniqueness": "pass: 72 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 72 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16509, officialLinkedActive 16389, manuallyVerifiedActive 16389, 滋賀県 localOfficial 240)"
+  },
+  "next": {
+    "code": "shiga-official-coverage-003",
+    "municipality": "高島市",
+    "instructions": "次回は滋賀県公式棚卸し003として、25212高島市から自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+  }
+}
