@@ -1,0 +1,46 @@
+{
+  "batchId": "aichi-official-coverage-002",
+  "prefecture": "愛知県",
+  "municipalities": [
+    "半田市",
+    "春日井市",
+    "豊川市",
+    "津島市",
+    "碧南市"
+  ],
+  "generatedAt": "2026-07-15T07:14:12.866Z",
+  "artifacts": [
+    "tasks/discovery/aichi-official-coverage-002-municipalities.json",
+    "tasks/discovery/aichi-official-coverage-002-candidates.json",
+    "tasks/discovery/aichi-official-coverage-002-link-leads.json",
+    "tasks/discovery/aichi-official-coverage-002-detail-snippets.json",
+    "tasks/discovery/aichi-official-coverage-002-detail-shortlist.csv",
+    "tasks/discovery/aichi-official-coverage-002-entries.json",
+    "tasks/discovery/aichi-official-coverage-002-adopted-urls.json",
+    "tasks/discovery/aichi-official-coverage-002-official-lists.json"
+  ],
+  "summary": {
+    "candidateCount": 391,
+    "linkLeads": 755,
+    "detailSnippets": 755,
+    "adopted": 71,
+    "adoptedByMunicipality": {
+      "半田市": 18,
+      "津島市": 14,
+      "碧南市": 18,
+      "豊川市": 8,
+      "春日井市": 13
+    },
+    "held": 684
+  },
+  "status": "validated-pass",
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for aichi-official-coverage-002 JSON files and checkpoint",
+    "addedSlugUniqueness": "pass: 71 added slugs, duplicateCount 0",
+    "urlReachability": "pass: 71 adopted official URLs returned HTTP 200",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0)"
+  }
+}

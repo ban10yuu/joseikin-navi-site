@@ -1,0 +1,36 @@
+{
+  "batchId": "aichi-official-coverage-002",
+  "prefecture": "愛知県",
+  "municipalities": [
+    {
+      "code": "23205",
+      "name": "半田市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.handa.lg.jp/"
+    },
+    {
+      "code": "23206",
+      "name": "春日井市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.kasugai.lg.jp/"
+    },
+    {
+      "code": "23207",
+      "name": "豊川市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.toyokawa.lg.jp/"
+    },
+    {
+      "code": "23208",
+      "name": "津島市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.tsushima.lg.jp/"
+    },
+    {
+      "code": "23209",
+      "name": "碧南市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.hekinan.lg.jp/"
+    }
+  ]
+}
