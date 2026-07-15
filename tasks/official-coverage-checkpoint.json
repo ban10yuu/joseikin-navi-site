@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T21:55:00+09:00",
+  "updatedAt": "2026-07-15T22:35:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "shiga-official-coverage-004",
-    "municipality": "愛荘町・豊郷町・甲良町・多賀町",
-    "adopted": 48,
-    "held": 1190,
-    "excluded": 4,
-    "sourceUrlsChecked": 48,
+    "code": "kyoto-official-coverage-001",
+    "municipality": "京都市・福知山市・舞鶴市・綾部市・宇治市",
+    "adopted": 59,
+    "held": 1254,
+    "excluded": 18,
+    "sourceUrlsChecked": 59,
     "validation": {
-      "previousMunicipality": "滋賀県公式棚卸し004として、25425愛荘町・25441豊郷町・25442甲良町・25443多賀町を確認した。候補294件、公式カテゴリリンクリード1238件、公式リスト48件を保存し、4町で合計48件を新規採用した。トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、予算・議会・広報、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。滋賀県は県内全市町の第1巡を完了。全国公式棚卸しは未完了。",
+      "previousMunicipality": "京都府公式棚卸し001として、26100京都市・26201福知山市・26202舞鶴市・26203綾部市・26204宇治市を確認した。候補1359件、公式カテゴリリンクリード1313件、公式リスト59件を保存し、5市で合計59件を新規採用した。京都市は既存公式URL重複が多かったため新規採用は0件、重複URLは除外。トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、報道・広報、リンク集、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for shiga-official-coverage-004 JSON files",
-      "addedSlugUniqueness": "pass: 48 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 48 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for kyoto-official-coverage-001 JSON files",
+      "addedSlugUniqueness": "pass: 59 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 59 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16627, officialLinkedActive 16507, manuallyVerifiedActive 16507, 滋賀県 localOfficial 358)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16686, officialLinkedActive 16566, manuallyVerifiedActive 16566, 京都府 localOfficial 123)"
     }
   },
   "next": {
-    "code": "kyoto-official-coverage-001",
-    "municipality": "京都市",
-    "shortlist": "滋賀県公式棚卸し004は愛荘町10件、豊郷町5件、甲良町10件、多賀町23件を採用した。滋賀県は県内全市町の第1巡完了。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、京都府公式棚卸し001として26100京都市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kyoto-official-coverage-002",
+    "municipality": "宮津市",
+    "shortlist": "京都府公式棚卸し001は福知山市16件、舞鶴市8件、綾部市16件、宇治市19件を採用した。京都市は既存公式URL重複を除き新規採用0件。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、京都府公式棚卸し002として26205宮津市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "滋賀県",
-    "status": "first-pass-complete",
-    "lastBatch": "shiga-official-coverage-004",
-    "notes": "滋賀県公式棚卸し004で25425愛荘町・25441豊郷町・25442甲良町・25443多賀町を確認し、48件を新規採用した。滋賀県は25201大津市から25443多賀町まで県内全市町の第1巡を完了。次は京都府26100京都市から再開する。"
+    "prefecture": "京都府",
+    "status": "in-progress-first-pass",
+    "lastBatch": "kyoto-official-coverage-001",
+    "notes": "京都府公式棚卸し001で26100京都市・26201福知山市・26202舞鶴市・26203綾部市・26204宇治市を確認し、59件を新規採用した。次は26205宮津市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

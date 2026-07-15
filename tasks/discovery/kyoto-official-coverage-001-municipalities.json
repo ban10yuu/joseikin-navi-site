@@ -1,0 +1,37 @@
+{
+  "batchId": "kyoto-official-coverage-001",
+  "prefecture": "京都府",
+  "createdAt": "2026-07-15T12:43:14.281Z",
+  "municipalities": [
+    {
+      "code": "26100",
+      "name": "京都市",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.city.kyoto.lg.jp/"
+    },
+    {
+      "code": "26201",
+      "name": "福知山市",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.city.fukuchiyama.lg.jp/"
+    },
+    {
+      "code": "26202",
+      "name": "舞鶴市",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.city.maizuru.kyoto.jp/"
+    },
+    {
+      "code": "26203",
+      "name": "綾部市",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.city.ayabe.lg.jp/"
+    },
+    {
+      "code": "26204",
+      "name": "宇治市",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.city.uji.kyoto.jp/"
+    }
+  ]
+}

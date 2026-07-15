@@ -10324,3 +10324,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16627、officialLinkedActive 16507、manuallyVerifiedActive 16507、滋賀県 localOfficial 358）
 - 到達点: 滋賀県は25201大津市から25443多賀町まで第1巡到達し、県内全市区町村の第1巡完了。全国公式棚卸しは未完了
 - 次回: 京都府公式棚卸し001として、26100京都市から再開
+
+
+### 京都府公式棚卸し001（26100京都市・26201福知山市・26202舞鶴市・26203綾部市・26204宇治市）
+- 実施日: 2026-07-15
+- 候補: 1359件（公式カテゴリリンクリード1313件、公式リスト59件、採用URL59本）
+- 採用: 59件（京都市0件、福知山市16件、舞鶴市8件、綾部市16件、宇治市19件）
+- 公式URL: 採用URL到達確認は tasks/discovery/kyoto-official-coverage-001-url-status.txt に記録（59本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、報道・広報、リンク集、受付終了のみ、本文根拠が薄い候補、既存公式URL重複は第2巡候補または重複除外として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16686、officialLinkedActive 16566、manuallyVerifiedActive 16566、京都府 localOfficial 123）
+- 到達点: 京都府は26100京都市から26204宇治市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 京都府公式棚卸し002として、26205宮津市から再開

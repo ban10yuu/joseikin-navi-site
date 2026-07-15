@@ -1,0 +1,55 @@
+{
+  "batchId": "kyoto-official-coverage-001",
+  "prefecture": "京都府",
+  "completedAt": "2026-07-15T22:35:00+09:00",
+  "municipalities": [
+    {
+      "code": "26100",
+      "name": "京都市",
+      "adopted": 0
+    },
+    {
+      "code": "26201",
+      "name": "福知山市",
+      "adopted": 16
+    },
+    {
+      "code": "26202",
+      "name": "舞鶴市",
+      "adopted": 8
+    },
+    {
+      "code": "26203",
+      "name": "綾部市",
+      "adopted": 16
+    },
+    {
+      "code": "26204",
+      "name": "宇治市",
+      "adopted": 19
+    }
+  ],
+  "discovery": {
+    "candidateCount": 1359,
+    "linkLeadCount": 1313,
+    "selectedOfficialPages": 59,
+    "adoptedUrls": 59,
+    "held": 1254,
+    "explicitlyExcluded": 18
+  },
+  "heldPolicy": "トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、報道・広報、リンク集、受付終了のみ、本文根拠が薄い候補、既存公式URL重複は第2巡候補または重複除外として保持。",
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for kyoto-official-coverage-001 JSON files",
+    "addedSlugUniqueness": "pass: 59 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 59 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16686, officialLinkedActive 16566, manuallyVerifiedActive 16566, 京都府 localOfficial 123)"
+  },
+  "next": {
+    "code": "kyoto-official-coverage-002",
+    "municipality": "宮津市",
+    "instructions": "次回は京都府公式棚卸し002として、26205宮津市から自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+  }
+}
