@@ -1,0 +1,36 @@
+{
+  "batchId": "aichi-official-coverage-005",
+  "prefecture": "愛知県",
+  "municipalities": [
+    {
+      "code": "23221",
+      "name": "新城市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.shinshiro.lg.jp/"
+    },
+    {
+      "code": "23222",
+      "name": "東海市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.tokai.aichi.jp/"
+    },
+    {
+      "code": "23223",
+      "name": "大府市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.obu.aichi.jp/"
+    },
+    {
+      "code": "23224",
+      "name": "知多市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.chita.lg.jp/"
+    },
+    {
+      "code": "23225",
+      "name": "知立市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.chiryu.aichi.jp/"
+    }
+  ]
+}

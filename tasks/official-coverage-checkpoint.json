@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T17:05:00+09:00",
+  "updatedAt": "2026-07-15T17:42:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "aichi-official-coverage-004",
-    "municipality": "犬山市・常滑市・江南市・小牧市・稲沢市",
+    "code": "aichi-official-coverage-005",
+    "municipality": "新城市・東海市・大府市・知多市・知立市",
     "adopted": 75,
-    "held": 1475,
+    "held": 1194,
     "excluded": 0,
     "sourceUrlsChecked": 75,
     "validation": {
-      "previousMunicipality": "愛知県公式棚卸し004として、23215犬山市・23216常滑市・23217江南市・23219小牧市・23220稲沢市を確認した。候補531件、公式カテゴリリンクリード1550件、詳細スニペット1603件、公式リスト75件を保存し、5市で合計75件を新規採用した。トップ、カテゴリ導線、共通ナビ、広報・採用・イベント・申請書・要綱・手続専用ページ・PDF資料・本文根拠が薄い候補は第2巡候補として保持。愛知県第1巡は23220稲沢市まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "愛知県公式棚卸し005として、23221新城市・23222東海市・23223大府市・23224知多市・23225知立市を確認した。候補626件、公式カテゴリリンクリード1269件、詳細スニペット1269件、公式リスト75件を保存し、5市で合計75件を新規採用した。トップ、カテゴリ導線、共通ナビ、広報・採用・イベント・申請書・要綱・手続専用ページ・PDF資料・受付終了のみ・本文根拠が薄い候補は第2巡候補として保持。愛知県第1巡は23225知立市まで到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for aichi-official-coverage-004 JSON files and checkpoint",
+      "json": "pass: JSON.parse for aichi-official-coverage-005 JSON files and checkpoint",
       "addedSlugUniqueness": "pass: 75 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
       "urlReachability": "pass: 75 adopted official URLs returned HTTP 200 by interval fetch",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 15440, officialLinkedActive 15320, manuallyVerifiedActive 15320, 愛知県 localOfficial 393)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 15515, officialLinkedActive 15395, manuallyVerifiedActive 15395, 愛知県 localOfficial 468)"
     }
   },
   "next": {
-    "code": "aichi-official-coverage-005",
-    "municipality": "新城市",
-    "shortlist": "愛知県公式棚卸し004は犬山市15件、常滑市15件、江南市15件、小牧市15件、稲沢市15件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、23221新城市を開始地点として愛知県公式棚卸し005を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "aichi-official-coverage-006",
+    "municipality": "尾張旭市",
+    "shortlist": "愛知県公式棚卸し005は新城市15件、東海市15件、大府市15件、知多市15件、知立市15件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、23226尾張旭市を開始地点として愛知県公式棚卸し006を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "愛知県",
     "status": "in-progress-first-pass",
-    "lastBatch": "aichi-official-coverage-004",
-    "notes": "愛知県公式棚卸し004で23215犬山市・23216常滑市・23217江南市・23219小牧市・23220稲沢市を確認し、75件を新規採用した。愛知県は23220稲沢市まで第1巡到達。全国公式棚卸しは未完了。次は23221新城市から愛知県公式棚卸し005を開始する。"
+    "lastBatch": "aichi-official-coverage-005",
+    "notes": "愛知県公式棚卸し005で23221新城市・23222東海市・23223大府市・23224知多市・23225知立市を確認し、75件を新規採用した。愛知県は23225知立市まで第1巡到達。全国公式棚卸しは未完了。次は23226尾張旭市から愛知県公式棚卸し006を開始する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
