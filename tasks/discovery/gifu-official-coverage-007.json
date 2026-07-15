@@ -1,0 +1,35 @@
+{
+  "batchId": "gifu-official-coverage-007",
+  "prefecture": "岐阜県",
+  "municipalities": [
+    "21403 大野町",
+    "21404 池田町",
+    "21421 北方町",
+    "21501 坂祝町",
+    "21502 富加町"
+  ],
+  "candidateCount": 463,
+  "snippetCount": 463,
+  "linkLeadCount": 454,
+  "selectedVerificationCount": 257,
+  "adoptedCount": 110,
+  "heldCount": 353,
+  "adoptedByMunicipality": {
+    "大野町": 31,
+    "池田町": 38,
+    "北方町": 6,
+    "坂祝町": 10,
+    "富加町": 25
+  },
+  "files": {
+    "municipalities": "tasks/discovery/gifu-official-coverage-007-municipalities.json",
+    "candidates": "tasks/discovery/gifu-official-coverage-007-candidates.json",
+    "snippets": "tasks/discovery/gifu-official-coverage-007-snippets.json",
+    "linkLeads": "tasks/discovery/gifu-official-coverage-007-link-leads.json",
+    "verificationSnippets": "tasks/discovery/gifu-official-coverage-007-verification-snippets.json",
+    "adoptedUrls": "tasks/discovery/gifu-official-coverage-007-adopted-urls.json",
+    "urlStatus": "tasks/discovery/gifu-official-coverage-007-url-status.txt"
+  },
+  "status": "adopted-official-pages-added",
+  "next": "gifu-official-coverage-008 / 21503 川辺町"
+}
