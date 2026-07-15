@@ -1,0 +1,1162 @@
+{
+  "batchId": "gifu-official-coverage-003",
+  "prefecture": "岐阜県",
+  "generatedAt": "2026-07-15T10:10:00+09:00",
+  "adoptedCount": 81,
+  "byMunicipality": {
+    "美濃加茂市": 18,
+    "土岐市": 14,
+    "各務原市": 17,
+    "可児市": 8,
+    "山県市": 24
+  },
+  "grants": [
+    {
+      "slug": "gifu-official-003-001-2026",
+      "title": "美濃加茂市 令和8年度 東京圏からの移住支援金事業補助金",
+      "organization": "美濃加茂市",
+      "maxAmount": "支援金額：（基準額）30万円＋（子育て加算）子1人あたり5万円",
+      "maxAmountNum": 300000,
+      "category": "living",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "美濃加茂市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページで受付終了または終了制度として案内",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/2/1044.html",
+      "sourceName": "美濃加茂市 令和8年度 東京圏からの移住支援金事業補助金"
+    },
+    {
+      "slug": "gifu-official-003-002-2026",
+      "title": "美濃加茂市 美濃加茂市事業活性化支援利子補助金制度",
+      "organization": "美濃加茂市",
+      "maxAmount": "対象利子の一部または相当額を補助",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "美濃加茂市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/12/1611.html",
+      "sourceName": "美濃加茂市 美濃加茂市事業活性化支援利子補助金制度"
+    },
+    {
+      "slug": "gifu-official-003-003-2026",
+      "title": "美濃加茂市 美濃加茂市小口融資利子補助制度",
+      "organization": "美濃加茂市",
+      "maxAmount": "対象利子の一部または相当額を補助",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "美濃加茂市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/12/1609.html",
+      "sourceName": "美濃加茂市 美濃加茂市小口融資利子補助制度"
+    },
+    {
+      "slug": "gifu-official-003-004-2026",
+      "title": "美濃加茂市 幼児教育・保育の無償化（認定）の申込み案内をします",
+      "organization": "美濃加茂市",
+      "maxAmount": "対象費用を無償化または無料化",
+      "maxAmountNum": 0,
+      "category": "education",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "美濃加茂市の対象児童・生徒、保護者または子育て世帯",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/8/1364.html",
+      "sourceName": "美濃加茂市 幼児教育・保育の無償化（認定）の申込み案内をします"
+    },
+    {
+      "slug": "gifu-official-003-005-2026",
+      "title": "美濃加茂市 がん患者医療用補正具購入費助成事業",
+      "organization": "美濃加茂市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "美濃加茂市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/6/1256.html",
+      "sourceName": "美濃加茂市 がん患者医療用補正具購入費助成事業"
+    },
+    {
+      "slug": "gifu-official-003-006-2026",
+      "title": "美濃加茂市 定期予防接種の費用助成について(予防接種実施依頼書の発行と、接種に要した費用の一部又は全部還付)",
+      "organization": "美濃加茂市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [],
+      "eligibility": "美濃加茂市に住所を有し、公式ページの健康・医療要件を満たす方",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/6/12987.html",
+      "sourceName": "美濃加茂市 定期予防接種の費用助成について(予防接種実施依頼書の発行と、接種に要した費用の一部又は全部還付)"
+    },
+    {
+      "slug": "gifu-official-003-007-2026",
+      "title": "美濃加茂市 市が行う成人健康診査の自己負担金減免",
+      "organization": "美濃加茂市",
+      "maxAmount": "対象費用を無償化または無料化",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "美濃加茂市が公式ページで定める対象者",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/6/1317.html",
+      "sourceName": "美濃加茂市 市が行う成人健康診査の自己負担金減免"
+    },
+    {
+      "slug": "gifu-official-003-008-2026",
+      "title": "美濃加茂市 風しんワクチン予防接種（任意）費用助成事業",
+      "organization": "美濃加茂市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "美濃加茂市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/6/1276.html",
+      "sourceName": "美濃加茂市 風しんワクチン予防接種（任意）費用助成事業"
+    },
+    {
+      "slug": "gifu-official-003-009-2026",
+      "title": "美濃加茂市 骨髄移植等により定期予防接種の免疫が低下・消失した方への再接種費用の助成",
+      "organization": "美濃加茂市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [],
+      "eligibility": "美濃加茂市に住所を有し、公式ページの健康・医療要件を満たす方",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/6/1262.html",
+      "sourceName": "美濃加茂市 骨髄移植等により定期予防接種の免疫が低下・消失した方への再接種費用の助成"
+    },
+    {
+      "slug": "gifu-official-003-010-2026",
+      "title": "美濃加茂市 美濃加茂市家族介護支援金支給事業",
+      "organization": "美濃加茂市",
+      "maxAmount": "月額２，０００円 要介護３～５ ： 月額５，０００円",
+      "maxAmountNum": 2000,
+      "category": "nursing",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "美濃加茂市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/10/16608.html",
+      "sourceName": "美濃加茂市 美濃加茂市家族介護支援金支給事業"
+    },
+    {
+      "slug": "gifu-official-003-011-2026",
+      "title": "美濃加茂市 敬老事業補助金",
+      "organization": "美濃加茂市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "美濃加茂市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/10/11407.html",
+      "sourceName": "美濃加茂市 敬老事業補助金"
+    },
+    {
+      "slug": "gifu-official-003-012-2026",
+      "title": "美濃加茂市 商業活性化事業助成制度",
+      "organization": "美濃加茂市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "美濃加茂市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/12/1615.html",
+      "sourceName": "美濃加茂市 商業活性化事業助成制度"
+    },
+    {
+      "slug": "gifu-official-003-013-2026",
+      "title": "美濃加茂市 企業誘致条例の奨励金制度",
+      "organization": "美濃加茂市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "美濃加茂市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/12/1624.html",
+      "sourceName": "美濃加茂市 企業誘致条例の奨励金制度"
+    },
+    {
+      "slug": "gifu-official-003-014-2026",
+      "title": "美濃加茂市 平成姫街道事業に伴う起業支援補助金",
+      "organization": "美濃加茂市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "美濃加茂市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/12/1616.html",
+      "sourceName": "美濃加茂市 平成姫街道事業に伴う起業支援補助金"
+    },
+    {
+      "slug": "gifu-official-003-015-2026",
+      "title": "美濃加茂市 美濃加茂市商店街共同施設等補助制度",
+      "organization": "美濃加茂市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "美濃加茂市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/12/1614.html",
+      "sourceName": "美濃加茂市 美濃加茂市商店街共同施設等補助制度"
+    },
+    {
+      "slug": "gifu-official-003-016-2026",
+      "title": "美濃加茂市 美濃加茂市小口融資信用保証料補助制度",
+      "organization": "美濃加茂市",
+      "maxAmount": "信用保証料を補助",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "美濃加茂市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/12/1610.html",
+      "sourceName": "美濃加茂市 美濃加茂市小口融資信用保証料補助制度"
+    },
+    {
+      "slug": "gifu-official-003-017-2026",
+      "title": "美濃加茂市 中小企業設備資金利子補助制度",
+      "organization": "美濃加茂市",
+      "maxAmount": "対象利子の一部または相当額を補助",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "美濃加茂市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/12/1608.html",
+      "sourceName": "美濃加茂市 中小企業設備資金利子補助制度"
+    },
+    {
+      "slug": "gifu-official-003-018-2026",
+      "title": "美濃加茂市 中小企業退職金共済掛金補助制度",
+      "organization": "美濃加茂市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "美濃加茂市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.minokamo.lg.jp/soshiki/12/1607.html",
+      "sourceName": "美濃加茂市 中小企業退職金共済掛金補助制度"
+    },
+    {
+      "slug": "gifu-official-003-019-2026",
+      "title": "土岐市 令和8年度 子育て世帯外出支援事業補助金（チャイルドシート等の購入費用助成）",
+      "organization": "土岐市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "childcare",
+        "employment"
+      ],
+      "eligibility": "土岐市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "令和8年4月1日（水曜日）から令和9年3月31日（水曜日）です",
+      "officialUrl": "https://www.city.toki.lg.jp/kosodate/1010076/1010081/1003458.html",
+      "sourceName": "土岐市 令和8年度 子育て世帯外出支援事業補助金（チャイルドシート等の購入費用助成）"
+    },
+    {
+      "slug": "gifu-official-003-020-2026",
+      "title": "土岐市 高等学校就学準備等支援金",
+      "organization": "土岐市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "education",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "土岐市の対象児童・生徒、保護者または子育て世帯",
+      "applicationPeriod": "公式ページで受付終了または終了制度として案内",
+      "officialUrl": "https://www.city.toki.lg.jp/kosodate/1010076/1010081/1007116.html",
+      "sourceName": "土岐市 高等学校就学準備等支援金"
+    },
+    {
+      "slug": "gifu-official-003-021-2026",
+      "title": "土岐市 母子・父子・寡婦福祉資金の貸付",
+      "organization": "土岐市",
+      "maxAmount": "公式制度に基づき貸付または融資",
+      "maxAmountNum": 0,
+      "category": "nursing",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "土岐市に住所を有し、障がい・介護・福祉の公式要件を満たす方または介護者",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.toki.lg.jp/kosodate/1010076/1010086/1010285/1003441.html",
+      "sourceName": "土岐市 母子・父子・寡婦福祉資金の貸付"
+    },
+    {
+      "slug": "gifu-official-003-022-2026",
+      "title": "土岐市 母子家庭等自立支援教育訓練給付金",
+      "organization": "土岐市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "education",
+      "relatedCategories": [
+        "childcare",
+        "living"
+      ],
+      "eligibility": "土岐市が公式ページで定める対象者",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.toki.lg.jp/kosodate/1010076/1010086/1010285/1003438.html",
+      "sourceName": "土岐市 母子家庭等自立支援教育訓練給付金"
+    },
+    {
+      "slug": "gifu-official-003-023-2026",
+      "title": "土岐市 結婚新生活応援補助金",
+      "organization": "土岐市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [],
+      "eligibility": "土岐市に関係し、公式ページの生活支援要件を満たす方",
+      "applicationPeriod": "令和8年4月1日から令和9年3月31日までの間に支払った費用が対象となります",
+      "officialUrl": "https://www.city.toki.lg.jp/kurashi/shimin/1004744/1009663.html",
+      "sourceName": "土岐市 結婚新生活応援補助金"
+    },
+    {
+      "slug": "gifu-official-003-024-2026",
+      "title": "土岐市 父子・母子家庭等の医療費助成制度",
+      "organization": "土岐市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "土岐市に住所を有し、公式ページの健康・医療要件を満たす方",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.toki.lg.jp/kosodate/1010076/1010086/1010284/1003433.html",
+      "sourceName": "土岐市 父子・母子家庭等の医療費助成制度"
+    },
+    {
+      "slug": "gifu-official-003-025-2026",
+      "title": "土岐市 学校通学費の補助",
+      "organization": "土岐市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "education",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "土岐市の対象児童・生徒、保護者または子育て世帯",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.toki.lg.jp/kosodate/1010076/1010089/gakko/1005495/1003185.html",
+      "sourceName": "土岐市 学校通学費の補助"
+    },
+    {
+      "slug": "gifu-official-003-026-2026",
+      "title": "土岐市 児童扶養手当",
+      "organization": "土岐市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "土岐市の対象児童・生徒、保護者または子育て世帯",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.toki.lg.jp/kosodate/1010076/1010086/1010284/1003435.html",
+      "sourceName": "土岐市 児童扶養手当"
+    },
+    {
+      "slug": "gifu-official-003-027-2026",
+      "title": "土岐市 障害者の助成・給付制度",
+      "organization": "土岐市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "nursing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "土岐市に住所を有し、障がい・介護・福祉の公式要件を満たす方または介護者",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.toki.lg.jp/kenko/shogai/1004832/index.html",
+      "sourceName": "土岐市 障害者の助成・給付制度"
+    },
+    {
+      "slug": "gifu-official-003-028-2026",
+      "title": "土岐市 防災資機材等整備に関する補助金",
+      "organization": "土岐市",
+      "maxAmount": "25万円（公式ページ記載額）",
+      "maxAmountNum": 250000,
+      "category": "disaster",
+      "relatedCategories": [],
+      "eligibility": "土岐市内の自主防災組織、対象世帯または公式要件を満たす方",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.toki.lg.jp/kurashi/bosai/1004753/1003802.html",
+      "sourceName": "土岐市 防災資機材等整備に関する補助金"
+    },
+    {
+      "slug": "gifu-official-003-029-2026",
+      "title": "土岐市 土岐市がん患者医療用補正具購入費用助成事業",
+      "organization": "土岐市",
+      "maxAmount": "2万円（公式ページ記載額）",
+      "maxAmountNum": 20000,
+      "category": "medical",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "土岐市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.toki.lg.jp/kenko/kyukyu/1003633.html",
+      "sourceName": "土岐市 土岐市がん患者医療用補正具購入費用助成事業"
+    },
+    {
+      "slug": "gifu-official-003-030-2026",
+      "title": "土岐市 小口資金貸付",
+      "organization": "土岐市",
+      "maxAmount": "5万円（公式ページ記載額）",
+      "maxAmountNum": 50000,
+      "category": "living",
+      "relatedCategories": [],
+      "eligibility": "土岐市が公式ページで定める対象者",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.toki.lg.jp/kenko/seikatsushien/1003518.html",
+      "sourceName": "土岐市 小口資金貸付"
+    },
+    {
+      "slug": "gifu-official-003-031-2026",
+      "title": "土岐市 幼児教育・保育の無償化",
+      "organization": "土岐市",
+      "maxAmount": "対象費用を無償化または無料化",
+      "maxAmountNum": 0,
+      "category": "education",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "土岐市の対象児童・生徒、保護者または子育て世帯",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.toki.lg.jp/kosodate/1010076/1010082/1010256/1003428.html",
+      "sourceName": "土岐市 幼児教育・保育の無償化"
+    },
+    {
+      "slug": "gifu-official-003-032-2026",
+      "title": "土岐市 婚活支援事業補助金",
+      "organization": "土岐市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "土岐市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.toki.lg.jp/kurashi/shimin/1004744/1004336.html",
+      "sourceName": "土岐市 婚活支援事業補助金"
+    },
+    {
+      "slug": "gifu-official-003-033-2026",
+      "title": "各務原市 幼児教育・保育の無償化",
+      "organization": "各務原市",
+      "maxAmount": "月額上限42,000円）（なお、令和8年10月より上限45,700円",
+      "maxAmountNum": 42000,
+      "category": "education",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "各務原市の対象児童・生徒、保護者または子育て世帯",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1002261.html",
+      "sourceName": "各務原市 幼児教育・保育の無償化"
+    },
+    {
+      "slug": "gifu-official-003-034-2026",
+      "title": "各務原市 各務原市企業内保育施設等補助金",
+      "organization": "各務原市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "education",
+      "relatedCategories": [
+        "childcare",
+        "employment"
+      ],
+      "eligibility": "各務原市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/kodomo/hoiku/1027937.html",
+      "sourceName": "各務原市 各務原市企業内保育施設等補助金"
+    },
+    {
+      "slug": "gifu-official-003-035-2026",
+      "title": "各務原市 令和6年度各務原市物価高騰重点支援給付金",
+      "organization": "各務原市",
+      "maxAmount": "支給額 1世帯あたり3万円",
+      "maxAmountNum": 30000,
+      "category": "living",
+      "relatedCategories": [],
+      "eligibility": "各務原市が公式ページで定める対象者",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/kenkofukushi/fukushi/1024098.html",
+      "sourceName": "各務原市 令和6年度各務原市物価高騰重点支援給付金"
+    },
+    {
+      "slug": "gifu-official-003-036-2026",
+      "title": "各務原市 商店街等活性化総合支援事業補助金",
+      "organization": "各務原市",
+      "maxAmount": "上限：20万円",
+      "maxAmountNum": 200000,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "各務原市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "令和8年7月14日 印刷 大きな文字で印刷 商店街等活性化総合支援事業補助金 市内の商店街等の活性化を総合的に支援するため、予算の範囲内で",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/shisei/shisaku/sangyo/1028046.html",
+      "sourceName": "各務原市 商店街等活性化総合支援事業補助金"
+    },
+    {
+      "slug": "gifu-official-003-037-2026",
+      "title": "各務原市 岐阜県地域防災力向上推進事業費補助金の募集",
+      "organization": "各務原市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "disaster",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "各務原市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/life/bousai/1001202/1027466/1027451.html",
+      "sourceName": "各務原市 岐阜県地域防災力向上推進事業費補助金の募集"
+    },
+    {
+      "slug": "gifu-official-003-038-2026",
+      "title": "各務原市 各務原市民公園周辺地区店舗開業支援補助金",
+      "organization": "各務原市",
+      "maxAmount": "200万円（公式ページ記載額）",
+      "maxAmountNum": 2000000,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "各務原市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/business/shokogyo/1020309.html",
+      "sourceName": "各務原市 各務原市民公園周辺地区店舗開業支援補助金"
+    },
+    {
+      "slug": "gifu-official-003-039-2026",
+      "title": "各務原市 各務原市中小企業者等物価高騰対策支援事業補助金",
+      "organization": "各務原市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "各務原市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "令和8年2月24日 印刷 大きな文字で印刷 各務原市中小企業者等物価高騰対策支援事業補助金 物価高騰の影響により業績が悪化している市内の中",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/business/shokogyo/1025341.html",
+      "sourceName": "各務原市 各務原市中小企業者等物価高騰対策支援事業補助金"
+    },
+    {
+      "slug": "gifu-official-003-040-2026",
+      "title": "各務原市 岐阜県地域防災クラブ活動支援事業費補助金の募集",
+      "organization": "各務原市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "disaster",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "各務原市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/life/bousai/1001202/1027466/1027452.html",
+      "sourceName": "各務原市 岐阜県地域防災クラブ活動支援事業費補助金の募集"
+    },
+    {
+      "slug": "gifu-official-003-041-2026",
+      "title": "各務原市 各務原市女性活躍推進・職場環境整備補助金",
+      "organization": "各務原市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [],
+      "eligibility": "各務原市が公式ページで定める対象者",
+      "applicationPeriod": "令和8年6月2日 印刷 大きな文字で印刷 各務原市女性活躍推進・職場環境整備補助金 女性の就労促進および活躍推進を図るため、女性のための",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/shisei/shisaku/sangyo/1008446/1022027/1027377.html",
+      "sourceName": "各務原市 各務原市女性活躍推進・職場環境整備補助金"
+    },
+    {
+      "slug": "gifu-official-003-042-2026",
+      "title": "各務原市 各務原市収益力向上・賃上げ環境整備補助金",
+      "organization": "各務原市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [],
+      "eligibility": "各務原市が公式ページで定める対象者",
+      "applicationPeriod": "令和8年4月13日から令和9年1月29日まで（必着） 補助対象者 次の各号のいずれにも該当する者",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/shisei/shisaku/sangyo/1008446/1022027/1026700.html",
+      "sourceName": "各務原市 各務原市収益力向上・賃上げ環境整備補助金"
+    },
+    {
+      "slug": "gifu-official-003-043-2026",
+      "title": "各務原市 各務原市若者人材確保のためのWeb対策支援補助金",
+      "organization": "各務原市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "各務原市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "令和8年7月6日 印刷 大きな文字で印刷 各務原市若者人材確保のためのWeb対策支援補助金 採用情報のウェブ発信を支援し、人材確保の促進",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/shisei/shisaku/sangyo/1008446/1022027/1024869.html",
+      "sourceName": "各務原市 各務原市若者人材確保のためのWeb対策支援補助金"
+    },
+    {
+      "slug": "gifu-official-003-044-2026",
+      "title": "各務原市 各務原市ものづくりビジネスマッチング支援事業補助金",
+      "organization": "各務原市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "各務原市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "令和8年4月1日から令和9年3月31日の間に開催される展示会を対象とします",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/shisei/shisaku/sangyo/1008446/1022027/1017705.html",
+      "sourceName": "各務原市 各務原市ものづくりビジネスマッチング支援事業補助金"
+    },
+    {
+      "slug": "gifu-official-003-045-2026",
+      "title": "各務原市 各務原市デジタル人材育成推進事業補助金",
+      "organization": "各務原市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "各務原市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/shisei/shisaku/sangyo/1008446/1022027/1011510.html",
+      "sourceName": "各務原市 各務原市デジタル人材育成推進事業補助金"
+    },
+    {
+      "slug": "gifu-official-003-046-2026",
+      "title": "各務原市 各務原市太陽光発電設備等設置費補助金",
+      "organization": "各務原市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [],
+      "eligibility": "各務原市内の対象住宅・空家・設備等について公式要件を満たす方",
+      "applicationPeriod": "令和8年4月27日 印刷 大きな文字で印刷 各務原市 太陽光発電設備等設置費補助金は終了しました 令和7年度まで実施していた各務原市太陽光",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/life/kankyogomi/1015765.html",
+      "sourceName": "各務原市 各務原市太陽光発電設備等設置費補助金"
+    },
+    {
+      "slug": "gifu-official-003-047-2026",
+      "title": "各務原市 児童手当",
+      "organization": "各務原市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "各務原市の対象児童・生徒、保護者または子育て世帯",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/kodomo/teate/1002010/index.html",
+      "sourceName": "各務原市 児童手当"
+    },
+    {
+      "slug": "gifu-official-003-048-2026",
+      "title": "各務原市 医療費助成",
+      "organization": "各務原市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [],
+      "eligibility": "各務原市に住所を有し、公式ページの健康・医療要件を満たす方",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/kodomo/teate/1002018/index.html",
+      "sourceName": "各務原市 医療費助成"
+    },
+    {
+      "slug": "gifu-official-003-049-2026",
+      "title": "各務原市 初回の産科受診料の費用助成",
+      "organization": "各務原市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [],
+      "eligibility": "各務原市に住所を有し、公式ページの健康・医療要件を満たす方",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.kakamigahara.lg.jp/kodomo/ninshin/1017526.html",
+      "sourceName": "各務原市 初回の産科受診料の費用助成"
+    },
+    {
+      "slug": "gifu-official-003-050-2026",
+      "title": "可児市 児童手当",
+      "organization": "可児市",
+      "maxAmount": "月額） 第１・２子 第３子以降 0歳から３歳未満 15,000円 30,000円 ３歳から18歳の誕生日後の最初の３月31日まで 10,000円",
+      "maxAmountNum": 15000,
+      "category": "living",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "可児市の対象児童・生徒、保護者または子育て世帯",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.kani.lg.jp/25168.htm",
+      "sourceName": "可児市 児童手当"
+    },
+    {
+      "slug": "gifu-official-003-051-2026",
+      "title": "可児市 可児市住宅新築リフォーム助成事業の申請受付",
+      "organization": "可児市",
+      "maxAmount": "５万円（公式ページ記載額）",
+      "maxAmountNum": 50000,
+      "category": "housing",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "可児市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.kani.lg.jp/3173.htm",
+      "sourceName": "可児市 可児市住宅新築リフォーム助成事業の申請受付"
+    },
+    {
+      "slug": "gifu-official-003-052-2026",
+      "title": "可児市 可児市装飾街路灯設置等補助金",
+      "organization": "可児市",
+      "maxAmount": "補助金額 補助対象経費 補助率 補助限度額 設置 ３分の１以内 １００，０００円 改修 ２分の１以内 ２０，０００円 撤去 ２分の１以内 ５０，０００円",
+      "maxAmountNum": 100000,
+      "category": "living",
+      "relatedCategories": [],
+      "eligibility": "可児市が公式ページで定める対象者",
+      "applicationPeriod": "公式ページで受付終了または終了制度として案内",
+      "officialUrl": "https://www.city.kani.lg.jp/25133.htm",
+      "sourceName": "可児市 可児市装飾街路灯設置等補助金"
+    },
+    {
+      "slug": "gifu-official-003-053-2026",
+      "title": "可児市 事業所等設置奨励金・雇用促進奨励金",
+      "organization": "可児市",
+      "maxAmount": "上限3,000万円",
+      "maxAmountNum": 30000000,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "可児市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.kani.lg.jp/3167.htm",
+      "sourceName": "可児市 事業所等設置奨励金・雇用促進奨励金"
+    },
+    {
+      "slug": "gifu-official-003-054-2026",
+      "title": "可児市 水道料金のうち基本料金の減免",
+      "organization": "可児市",
+      "maxAmount": "583円（公式ページ記載額）",
+      "maxAmountNum": 583,
+      "category": "living",
+      "relatedCategories": [],
+      "eligibility": "可児市に関係し、公式ページの生活支援要件を満たす方",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.kani.lg.jp/26970.htm",
+      "sourceName": "可児市 水道料金のうち基本料金の減免"
+    },
+    {
+      "slug": "gifu-official-003-055-2026",
+      "title": "可児市 児童扶養手当",
+      "organization": "可児市",
+      "maxAmount": "月額11,350円から5,680円",
+      "maxAmountNum": 11350,
+      "category": "living",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "可児市の対象児童・生徒、保護者または子育て世帯",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.kani.lg.jp/2713.htm",
+      "sourceName": "可児市 児童扶養手当"
+    },
+    {
+      "slug": "gifu-official-003-056-2026",
+      "title": "可児市 地方就職支援金",
+      "organization": "可児市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "可児市が公式ページで定める対象者",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.kani.lg.jp/25022.htm",
+      "sourceName": "可児市 地方就職支援金"
+    },
+    {
+      "slug": "gifu-official-003-057-2026",
+      "title": "可児市 小規模事業者持続化補助金",
+      "organization": "可児市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "可児市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.kani.lg.jp/17620.htm",
+      "sourceName": "可児市 小規模事業者持続化補助金"
+    },
+    {
+      "slug": "gifu-official-003-058-2026",
+      "title": "山県市 教育ローン利子補給金交付制度",
+      "organization": "山県市",
+      "maxAmount": "対象利子の一部または相当額を補助",
+      "maxAmountNum": 0,
+      "category": "education",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "山県市が公式ページで定める対象者",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/yamanavi/1554.html",
+      "sourceName": "山県市 教育ローン利子補給金交付制度"
+    },
+    {
+      "slug": "gifu-official-003-059-2026",
+      "title": "山県市 小中学校就学援助制度",
+      "organization": "山県市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "education",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "山県市の対象児童・生徒、保護者または子育て世帯",
+      "applicationPeriod": "令和8年4月30日（木曜）まで ※上記の期限までに申請書の提出があり、認定された場合は4月分からの支給となります",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/yamanavi/1553.html",
+      "sourceName": "山県市 小中学校就学援助制度"
+    },
+    {
+      "slug": "gifu-official-003-060-2026",
+      "title": "山県市 山県市空家利活用促進補助金",
+      "organization": "山県市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [],
+      "eligibility": "山県市内の対象住宅・空家・設備等について公式要件を満たす方",
+      "applicationPeriod": "公式ページで受付終了または終了制度として案内",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/yamanavi/48643.html",
+      "sourceName": "山県市 山県市空家利活用促進補助金"
+    },
+    {
+      "slug": "gifu-official-003-061-2026",
+      "title": "山県市 山県市地域貢献型空家等利活用事業補助金",
+      "organization": "山県市",
+      "maxAmount": "上限：200万円",
+      "maxAmountNum": 2000000,
+      "category": "housing",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "山県市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページで受付終了または終了制度として案内",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/yamanavi/47849.html",
+      "sourceName": "山県市 山県市地域貢献型空家等利活用事業補助金"
+    },
+    {
+      "slug": "gifu-official-003-062-2026",
+      "title": "山県市 令和8年度山県市子ども食堂・子ども宅食運営支援事業補助金の補助事業者を募集します",
+      "organization": "山県市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [],
+      "eligibility": "山県市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "令和8年4月1日から令和9年3月31日までに実施する事業に要する経費で、次の表に掲げる経費です",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/yamanavi/23787.html",
+      "sourceName": "山県市 令和8年度山県市子ども食堂・子ども宅食運営支援事業補助金の補助事業者を募集します"
+    },
+    {
+      "slug": "gifu-official-003-063-2026",
+      "title": "山県市 高等職業訓練促進給付金等事業",
+      "organization": "山県市",
+      "maxAmount": "支給額・期間 支給額 月額 100,000円（市町村民税非課税世帯） 月額 70,500円（市町村民税課税世帯） ※修学期間の最後の12カ月間は月額4万円",
+      "maxAmountNum": 40000,
+      "category": "living",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "山県市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/yamanavi/2532.html",
+      "sourceName": "山県市 高等職業訓練促進給付金等事業"
+    },
+    {
+      "slug": "gifu-official-003-064-2026",
+      "title": "山県市 私立幼稚園（子ども・子育て支援新制度未移行園）における幼児教育の無償化",
+      "organization": "山県市",
+      "maxAmount": "月額25,700円",
+      "maxAmountNum": 25700,
+      "category": "education",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "山県市の対象児童・生徒、保護者または子育て世帯",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/yamanavi/6908.html",
+      "sourceName": "山県市 私立幼稚園（子ども・子育て支援新制度未移行園）における幼児教育の無償化"
+    },
+    {
+      "slug": "gifu-official-003-065-2026",
+      "title": "山県市 福祉医療費助成制度",
+      "organization": "山県市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [],
+      "eligibility": "山県市に住所を有し、公式ページの健康・医療要件を満たす方",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/yamanavi/1008.html",
+      "sourceName": "山県市 福祉医療費助成制度"
+    },
+    {
+      "slug": "gifu-official-003-066-2026",
+      "title": "山県市 ひとり親家庭自立支援教育訓練給付金事業",
+      "organization": "山県市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "education",
+      "relatedCategories": [
+        "childcare",
+        "living",
+        "employment"
+      ],
+      "eligibility": "山県市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/yamanavi/46480.html",
+      "sourceName": "山県市 ひとり親家庭自立支援教育訓練給付金事業"
+    },
+    {
+      "slug": "gifu-official-003-067-2026",
+      "title": "山県市 妊娠判定受診費用の助成",
+      "organization": "山県市",
+      "maxAmount": "助成額 1回当たり（上限）7,000円",
+      "maxAmountNum": 7000,
+      "category": "medical",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "山県市に住所を有し、公式ページの健康・医療要件を満たす方",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/yamanavi/35233.html",
+      "sourceName": "山県市 妊娠判定受診費用の助成"
+    },
+    {
+      "slug": "gifu-official-003-068-2026",
+      "title": "山県市 令和8年度山県市中小企業等人材確保のための奨学金返還支援補助金",
+      "organization": "山県市",
+      "maxAmount": "補助金額 次の1.2.のうち低い方の金額（24万円",
+      "maxAmountNum": 240000,
+      "category": "education",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "山県市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/soshiki/norinshoko/48937.html",
+      "sourceName": "山県市 令和8年度山県市中小企業等人材確保のための奨学金返還支援補助金"
+    },
+    {
+      "slug": "gifu-official-003-069-2026",
+      "title": "山県市 児童手当",
+      "organization": "山県市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "山県市の対象児童・生徒、保護者または子育て世帯",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/yamanavi/1524.html",
+      "sourceName": "山県市 児童手当"
+    },
+    {
+      "slug": "gifu-official-003-070-2026",
+      "title": "山県市 1か月児健康診査の助成",
+      "organization": "山県市",
+      "maxAmount": "助成額 対象者1人につき、6,000円",
+      "maxAmountNum": 6000,
+      "category": "medical",
+      "relatedCategories": [],
+      "eligibility": "山県市が公式ページで定める対象者",
+      "applicationPeriod": "令和7年4月1日以降に生まれたお子さんを対象に、1か月児健康診査の費用の一部助成を実施します",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/yamanavi/48262.html",
+      "sourceName": "山県市 1か月児健康診査の助成"
+    },
+    {
+      "slug": "gifu-official-003-071-2026",
+      "title": "山県市 山県市要電源重度障がい児者災害時等非常用電源装置等購入助成事業",
+      "organization": "山県市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "disaster",
+      "relatedCategories": [
+        "employment",
+        "nursing"
+      ],
+      "eligibility": "山県市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/soshiki/fukushi/27211.html",
+      "sourceName": "山県市 山県市要電源重度障がい児者災害時等非常用電源装置等購入助成事業"
+    },
+    {
+      "slug": "gifu-official-003-072-2026",
+      "title": "山県市 幼児教育・保育の無償化",
+      "organization": "山県市",
+      "maxAmount": "対象費用を無償化または無料化",
+      "maxAmountNum": 0,
+      "category": "education",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "山県市の対象児童・生徒、保護者または子育て世帯",
+      "applicationPeriod": "令和8年4月1日時点で、山県市内の無償化対象施設については次のとおりです",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/yamanavi/4437.html",
+      "sourceName": "山県市 幼児教育・保育の無償化"
+    },
+    {
+      "slug": "gifu-official-003-073-2026",
+      "title": "山県市 不妊治療費および不妊検査費助成事業",
+      "organization": "山県市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "山県市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "令和5年4月1日以降に支払った費用を対象に、特定不妊治療費助成事業費補助金の受け付けを始めました",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/yamanavi/1009.html",
+      "sourceName": "山県市 不妊治療費および不妊検査費助成事業"
+    },
+    {
+      "slug": "gifu-official-003-074-2026",
+      "title": "山県市 令和8年度カーボン・マイナス・シティ推進家庭用補助金",
+      "organization": "山県市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [],
+      "eligibility": "山県市内の対象住宅・空家・設備等について公式要件を満たす方",
+      "applicationPeriod": "令和8年5月1日（金曜）～令和9年1月29日（金曜） ※受け付けは先着順です",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/carbonminuscity-yamagata/40412.html",
+      "sourceName": "山県市 令和8年度カーボン・マイナス・シティ推進家庭用補助金"
+    },
+    {
+      "slug": "gifu-official-003-075-2026",
+      "title": "山県市 防災士取得助成事業",
+      "organization": "山県市",
+      "maxAmount": "上限額3万円",
+      "maxAmountNum": 30000,
+      "category": "disaster",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "山県市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページで受付終了または終了制度として案内",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/bousai/1084.html",
+      "sourceName": "山県市 防災士取得助成事業"
+    },
+    {
+      "slug": "gifu-official-003-076-2026",
+      "title": "山県市 自主防災組織等活動費補助金",
+      "organization": "山県市",
+      "maxAmount": "20万円（公式ページ記載額）",
+      "maxAmountNum": 200000,
+      "category": "disaster",
+      "relatedCategories": [],
+      "eligibility": "山県市内の自主防災組織、対象世帯または公式要件を満たす方",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/bousai/10153.html",
+      "sourceName": "山県市 自主防災組織等活動費補助金"
+    },
+    {
+      "slug": "gifu-official-003-077-2026",
+      "title": "山県市 令和8年度山県市民間PPAモデル導入事業補助金",
+      "organization": "山県市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "山県市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "令和8年6月1日時点） 募集内容 残り件数 太陽光発電設備 （民間PPAモデル） 700kw相当 申請受付期間 令和8年5月1日（金曜）",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/carbonminuscity-yamagata/47940.html",
+      "sourceName": "山県市 令和8年度山県市民間PPAモデル導入事業補助金"
+    },
+    {
+      "slug": "gifu-official-003-078-2026",
+      "title": "山県市 令和8年度カーボン・マイナス・シティ推進事業用補助金",
+      "organization": "山県市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "山県市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "令和8年5月1日（金曜）～令和9年1月29日（金曜） 受け付けは先着順です",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/carbonminuscity-yamagata/40482.html",
+      "sourceName": "山県市 令和8年度カーボン・マイナス・シティ推進事業用補助金"
+    },
+    {
+      "slug": "gifu-official-003-079-2026",
+      "title": "山県市 山県市難聴児補聴器購入費等助成事業",
+      "organization": "山県市",
+      "maxAmount": "公式ページ記載の支援内容に従う",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "山県市内の対象事業者または制度要件を満たす中小企業者等",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/soshiki/fukushi/9733.html",
+      "sourceName": "山県市 山県市難聴児補聴器購入費等助成事業"
+    },
+    {
+      "slug": "gifu-official-003-080-2026",
+      "title": "山県市 家具等転倒防止器具購入費・設置推進助成金",
+      "organization": "山県市",
+      "maxAmount": "3,000円（公式ページ記載額）",
+      "maxAmountNum": 3000,
+      "category": "disaster",
+      "relatedCategories": [],
+      "eligibility": "山県市が公式ページで定める対象者",
+      "applicationPeriod": "公式ページに従い事前相談または申請",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/soshiki/fukushi/1455.html",
+      "sourceName": "山県市 家具等転倒防止器具購入費・設置推進助成金"
+    },
+    {
+      "slug": "gifu-official-003-081-2026",
+      "title": "山県市 母子父子寡婦福祉資金貸付",
+      "organization": "山県市",
+      "maxAmount": "公式制度に基づき貸付または融資",
+      "maxAmountNum": 0,
+      "category": "nursing",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "山県市に住所を有し、障がい・介護・福祉の公式要件を満たす方または介護者",
+      "applicationPeriod": "公式ページに従い申請",
+      "officialUrl": "https://www.city.yamagata.gifu.jp/site/yamanavi/1495.html",
+      "sourceName": "山県市 母子父子寡婦福祉資金貸付"
+    }
+  ]
+}
