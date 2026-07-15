@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T18:30:00+09:00",
+  "updatedAt": "2026-07-15T18:55:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "aichi-official-coverage-010",
-    "municipality": "阿久比町・東浦町・南知多町・美浜町・武豊町",
-    "adopted": 75,
-    "held": 584,
+    "code": "aichi-official-coverage-011",
+    "municipality": "幸田町・設楽町・東栄町・豊根村",
+    "adopted": 60,
+    "held": 191,
     "excluded": 0,
-    "sourceUrlsChecked": 75,
+    "sourceUrlsChecked": 60,
     "validation": {
-      "previousMunicipality": "愛知県公式棚卸し010として、23441阿久比町・23442東浦町・23445南知多町・23446美浜町・23447武豊町を確認した。候補492件、公式カテゴリリンクリード706件、詳細スニペット706件、詳細ショートリスト327件、美浜町追加公式クロール1300URL・候補332件、公式リスト75件を保存し、5町で合計75件を新規採用した。トップ、カテゴリ導線、共通ナビ、広報・採用・イベント・申請書・要綱・PDF資料・受付終了のみ・本文根拠が薄い候補は第2巡候補として保持。愛知県第1巡は23447武豊町まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "愛知県公式棚卸し011として、23501幸田町・23561設楽町・23562東栄町・23563豊根村を確認した。候補1298件、公式カテゴリリンクリード1995件、詳細スニペット1662件、詳細ショートリスト251件、公式リスト60件を保存し、4町村で合計60件を新規採用した。トップ、カテゴリ導線、共通ナビ、外部サイト、広報・採用・イベント・申請書・要綱・PDF資料・受付終了のみ・本文根拠が薄い候補は第2巡候補として保持。愛知県第1巡は23563豊根村まで到達し、愛知県内の全市区町村第1巡が完了。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for aichi-official-coverage-010 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 75 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 75 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for aichi-official-coverage-011 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 60 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 15890, officialLinkedActive 15770, manuallyVerifiedActive 15770, 愛知県 localOfficial 843)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 15950, officialLinkedActive 15830, manuallyVerifiedActive 15830, 愛知県 localOfficial 903)"
     }
   },
   "next": {
-    "code": "aichi-official-coverage-011",
-    "municipality": "幸田町",
-    "shortlist": "愛知県公式棚卸し010は阿久比町15件、東浦町15件、南知多町15件、美浜町15件、武豊町15件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、23501幸田町を開始地点として愛知県公式棚卸し011を自治体コード順に再開する。想定対象は23501幸田町・23561設楽町・23562東栄町・23563豊根村。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "mie-official-coverage-001",
+    "municipality": "津市",
+    "shortlist": "愛知県公式棚卸し011は幸田町15件、設楽町15件、東栄町15件、豊根村15件を採用した。愛知県第1巡は完了。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、三重県公式棚卸し001として津市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "愛知県",
-    "status": "in-progress-first-pass",
-    "lastBatch": "aichi-official-coverage-010",
-    "notes": "愛知県公式棚卸し010で23441阿久比町・23442東浦町・23445南知多町・23446美浜町・23447武豊町を確認し、75件を新規採用した。愛知県は23447武豊町まで第1巡到達。全国公式棚卸しは未完了。次は23501幸田町から愛知県公式棚卸し011を開始する。"
+    "status": "completed-first-pass",
+    "lastBatch": "aichi-official-coverage-011",
+    "notes": "愛知県公式棚卸し011で23501幸田町・23561設楽町・23562東栄町・23563豊根村を確認し、60件を新規採用した。愛知県は23563豊根村まで第1巡到達し、県内全市区町村の第1巡が完了。全国公式棚卸しは未完了。次は三重県公式棚卸し001として津市から開始する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

@@ -1,0 +1,30 @@
+{
+  "batchId": "aichi-official-coverage-011",
+  "prefecture": "愛知県",
+  "municipalities": [
+    {
+      "code": "23501",
+      "name": "幸田町",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.town.kota.lg.jp/"
+    },
+    {
+      "code": "23561",
+      "name": "設楽町",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.town.shitara.lg.jp/"
+    },
+    {
+      "code": "23562",
+      "name": "東栄町",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.town.toei.aichi.jp/"
+    },
+    {
+      "code": "23563",
+      "name": "豊根村",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.vill.toyone.aichi.jp/"
+    }
+  ]
+}
