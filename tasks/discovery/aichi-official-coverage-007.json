@@ -1,0 +1,29 @@
+{
+  "batchId": "aichi-official-coverage-007",
+  "prefecture": "愛知県",
+  "executedAt": "2026-07-15",
+  "municipalities": [
+    "23231田原市",
+    "23232愛西市",
+    "23233清須市",
+    "23234北名古屋市",
+    "23235弥富市"
+  ],
+  "candidateCount": 743,
+  "officialCategoryLinkLeads": 5989,
+  "detailSnippets": 2100,
+  "detailShortlist": 2088,
+  "adopted": 75,
+  "adoptedByMunicipality": {
+    "田原市": 15,
+    "愛西市": 15,
+    "清須市": 15,
+    "北名古屋市": 15,
+    "弥富市": 15
+  },
+  "adoptedUrlStatus": "75 adopted URLs returned HTTP 200",
+  "held": 2013,
+  "excluded": 0,
+  "next": "愛知県公式棚卸し008として、23236みよし市から再開",
+  "nationwideStatus": "未完了"
+}

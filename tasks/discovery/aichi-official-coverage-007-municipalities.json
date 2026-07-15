@@ -1,0 +1,36 @@
+{
+  "batchId": "aichi-official-coverage-007",
+  "prefecture": "愛知県",
+  "municipalities": [
+    {
+      "code": "23231",
+      "name": "田原市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.tahara.aichi.jp/"
+    },
+    {
+      "code": "23232",
+      "name": "愛西市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.aisai.lg.jp/"
+    },
+    {
+      "code": "23233",
+      "name": "清須市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.kiyosu.aichi.jp/"
+    },
+    {
+      "code": "23234",
+      "name": "北名古屋市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.kitanagoya.lg.jp/"
+    },
+    {
+      "code": "23235",
+      "name": "弥富市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.yatomi.lg.jp/"
+    }
+  ]
+}

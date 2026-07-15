@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T18:05:00+09:00",
+  "updatedAt": "2026-07-15T17:28:56+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "aichi-official-coverage-006",
-    "municipality": "尾張旭市・高浜市・岩倉市・豊明市・日進市",
+    "code": "aichi-official-coverage-007",
+    "municipality": "田原市・愛西市・清須市・北名古屋市・弥富市",
     "adopted": 75,
-    "held": 1712,
+    "held": 2013,
     "excluded": 0,
     "sourceUrlsChecked": 75,
     "validation": {
-      "previousMunicipality": "愛知県公式棚卸し006として、23226尾張旭市・23227高浜市・23228岩倉市・23229豊明市・23230日進市を確認した。候補1291件、公式カテゴリリンクリード3919件、詳細スニペット1800件、公式リスト75件を保存し、5市で合計75件を新規採用した。トップ、カテゴリ導線、共通ナビ、広報・採用・イベント・申請書・要綱・手続専用ページ・PDF資料・受付終了のみ・本文根拠が薄い候補は第2巡候補として保持。愛知県第1巡は23230日進市まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "愛知県公式棚卸し007として、23231田原市・23232愛西市・23233清須市・23234北名古屋市・23235弥富市を確認した。候補743件、公式カテゴリリンクリード5989件、詳細スニペット2100件、公式リスト75件を保存し、5市で合計75件を新規採用した。トップ、カテゴリ導線、共通ナビ、広報・採用・イベント・申請書・要綱・PDF資料・受付終了のみ・本文根拠が薄い候補は第2巡候補として保持。愛知県第1巡は23235弥富市まで到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for aichi-official-coverage-006 JSON files and checkpoint",
+      "json": "pass: JSON.parse for aichi-official-coverage-007 JSON files and checkpoint",
       "addedSlugUniqueness": "pass: 75 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
       "urlReachability": "pass: 75 adopted official URLs returned HTTP 200 by interval fetch",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 15590, officialLinkedActive 15470, manuallyVerifiedActive 15470, 愛知県 localOfficial 543)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 15665, officialLinkedActive 15545, manuallyVerifiedActive 15545, 愛知県 localOfficial 618)"
     }
   },
   "next": {
-    "code": "aichi-official-coverage-007",
-    "municipality": "田原市",
-    "shortlist": "愛知県公式棚卸し006は尾張旭市15件、高浜市15件、岩倉市15件、豊明市15件、日進市15件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、23231田原市を開始地点として愛知県公式棚卸し007を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "aichi-official-coverage-008",
+    "municipality": "みよし市",
+    "shortlist": "愛知県公式棚卸し007は田原市15件、愛西市15件、清須市15件、北名古屋市15件、弥富市15件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、23236みよし市を開始地点として愛知県公式棚卸し008を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "愛知県",
     "status": "in-progress-first-pass",
-    "lastBatch": "aichi-official-coverage-006",
-    "notes": "愛知県公式棚卸し006で23226尾張旭市・23227高浜市・23228岩倉市・23229豊明市・23230日進市を確認し、75件を新規採用した。愛知県は23230日進市まで第1巡到達。全国公式棚卸しは未完了。次は23231田原市から愛知県公式棚卸し007を開始する。"
+    "lastBatch": "aichi-official-coverage-007",
+    "notes": "愛知県公式棚卸し007で23231田原市・23232愛西市・23233清須市・23234北名古屋市・23235弥富市を確認し、75件を新規採用した。愛知県は23235弥富市まで第1巡到達。全国公式棚卸しは未完了。次は23236みよし市から愛知県公式棚卸し008を開始する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
