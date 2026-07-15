@@ -1,0 +1,36 @@
+{
+  "batchId": "shizuoka-official-coverage-002",
+  "prefecture": "静岡県",
+  "municipalities": [
+    {
+      "code": "22205",
+      "name": "熱海市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.atami.lg.jp/"
+    },
+    {
+      "code": "22206",
+      "name": "三島市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.mishima.shizuoka.jp/"
+    },
+    {
+      "code": "22207",
+      "name": "富士宮市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.fujinomiya.lg.jp/"
+    },
+    {
+      "code": "22208",
+      "name": "伊東市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.ito.shizuoka.jp/"
+    },
+    {
+      "code": "22209",
+      "name": "島田市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.shimada.shizuoka.jp/"
+    }
+  ]
+}

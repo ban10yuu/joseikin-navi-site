@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T11:50:00+09:00",
+  "updatedAt": "2026-07-15T12:00:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "gifu-shizuoka-official-coverage-009",
-    "municipality": "御嵩町・白川村・静岡市・浜松市・沼津市",
+    "code": "shizuoka-official-coverage-002",
+    "municipality": "熱海市・三島市・富士宮市・伊東市・島田市",
     "adopted": 65,
-    "held": 611,
+    "held": 374,
     "excluded": 0,
-    "sourceUrlsChecked": 59,
+    "sourceUrlsChecked": 65,
     "validation": {
-      "previousMunicipality": "岐阜県公式棚卸し009・静岡県公式棚卸し001として、21521御嵩町・21604白川村・22101静岡市・22102浜松市・22203沼津市を確認した。候補676件、本文スニペット676件、公式リスト9件を保存し、合計65件を新規採用した。トップ、カテゴリ導線、共通ナビ、既存URL重複、本文根拠が薄い候補は第2巡候補として保持。岐阜県第1巡は21604白川村まで完了し、静岡県第1巡は22203沼津市まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "静岡県公式棚卸し002として、22205熱海市・22206三島市・22207富士宮市・22208伊東市・22209島田市を確認した。候補439件、本文スニペット439件、公式リスト25件を保存し、5自治体で各13件、合計65件を新規採用した。トップ、カテゴリ導線、共通ナビ、重複トピック、本文根拠が薄い候補は第2巡候補として保持。静岡県第1巡は22209島田市まで到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for gifu-shizuoka-official-coverage-009 JSON files and checkpoint",
+      "json": "pass: JSON.parse for shizuoka-official-coverage-002 JSON files and checkpoint",
       "addedSlugUniqueness": "pass: 65 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 59 unique adopted official URLs returned HTTP 200 by interval fetch",
+      "urlReachability": "pass: 65 unique adopted official URLs returned HTTP 200 by interval fetch",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 14699, officialLinkedActive 14579, manuallyVerifiedActive 14579, 岐阜県 localOfficial 724, 静岡県 localOfficial 149)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 14764, officialLinkedActive 14644, manuallyVerifiedActive 14644, 静岡県 localOfficial 214)"
     }
   },
   "next": {
-    "code": "shizuoka-official-coverage-002",
-    "municipality": "熱海市",
-    "shortlist": "岐阜県公式棚卸し009・静岡県公式棚卸し001は御嵩町12件、白川村8件、静岡市15件、浜松市15件、沼津市15件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、22205熱海市を開始地点として静岡県公式棚卸し002を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "shizuoka-official-coverage-003",
+    "municipality": "富士市",
+    "shortlist": "静岡県公式棚卸し002は熱海市13件、三島市13件、富士宮市13件、伊東市13件、島田市13件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、22210富士市を開始地点として静岡県公式棚卸し003を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "静岡県",
     "status": "in-progress-first-pass",
-    "lastBatch": "gifu-shizuoka-official-coverage-009",
-    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20602栄村まで第1巡完了。岐阜県は21201岐阜市から21604白川村まで第1巡完了。静岡県は22101静岡市から22203沼津市まで到達。全国公式棚卸しは未完了。次は22205熱海市から継続する。"
+    "lastBatch": "shizuoka-official-coverage-002",
+    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20602栄村まで第1巡完了。岐阜県は21201岐阜市から21604白川村まで第1巡完了。静岡県は22101静岡市から22209島田市まで到達。全国公式棚卸しは未完了。次は22210富士市から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

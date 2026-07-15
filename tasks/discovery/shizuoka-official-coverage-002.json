@@ -1,0 +1,44 @@
+{
+  "batchId": "shizuoka-official-coverage-002",
+  "prefecture": "静岡県",
+  "checkedAt": "2026-07-15T12:00:00+09:00",
+  "municipalities": [
+    {
+      "municipalityCode": "22205",
+      "municipality": "熱海市",
+      "officialUrl": "https://www.city.atami.lg.jp/",
+      "adopted": 13
+    },
+    {
+      "municipalityCode": "22206",
+      "municipality": "三島市",
+      "officialUrl": "https://www.city.mishima.shizuoka.jp/",
+      "adopted": 13
+    },
+    {
+      "municipalityCode": "22207",
+      "municipality": "富士宮市",
+      "officialUrl": "https://www.city.fujinomiya.lg.jp/",
+      "adopted": 13
+    },
+    {
+      "municipalityCode": "22208",
+      "municipality": "伊東市",
+      "officialUrl": "https://www.city.ito.shizuoka.jp/",
+      "adopted": 13
+    },
+    {
+      "municipalityCode": "22209",
+      "municipality": "島田市",
+      "officialUrl": "https://www.city.shimada.shizuoka.jp/",
+      "adopted": 13
+    }
+  ],
+  "adoptedCount": 65,
+  "heldCount": 374,
+  "adoptedUrlCount": 65,
+  "officialListCount": 25,
+  "notes": "トップ、カテゴリ導線、共通ナビ、重複トピック、本文根拠が薄い候補は第2巡候補として保持。",
+  "candidateCount": 439,
+  "snippetCount": 439
+}
