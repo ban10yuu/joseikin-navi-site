@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T18:55:00+09:00",
+  "updatedAt": "2026-07-15T18:42:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
     "code": "aichi-official-coverage-011",
@@ -21,9 +21,26 @@
   },
   "next": {
     "code": "mie-official-coverage-001",
-    "municipality": "津市",
-    "shortlist": "愛知県公式棚卸し011は幸田町15件、設楽町15件、東栄町15件、豊根村15件を採用した。愛知県第1巡は完了。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、三重県公式棚卸し001として津市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "municipality": "津市・四日市市・伊勢市・松阪市・桑名市",
+    "shortlist": "三重県公式棚卸し001として、24201津市・24202四日市市・24203伊勢市・24204松阪市・24205桑名市の公式トップHTTP 200を確認し、候補1323件、公式カテゴリリンクリード442件、詳細スニペット900件、詳細ショートリスト752件を保存した。松阪市・桑名市はカテゴリ/通常案内混入が多いため、個別制度URLだけに絞って採用判定する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・tasks/discovery/mie-official-coverage-001-* から、三重県公式棚卸し001の制度採用を津市・四日市市・伊勢市・松阪市・桑名市の順で再開する。トップ、カテゴリ、サイトマップ、共通ナビ、通常行政案内、受付終了のみ、本文に金額/対象/申請根拠が薄い候補は第2巡候補に保持し、全国公式棚卸しは未完了扱いを維持する。"
+  },
+  "inProgress": {
+    "code": "mie-official-coverage-001",
+    "municipality": "津市・四日市市・伊勢市・松阪市・桑名市",
+    "candidateCount": 1323,
+    "linkLeads": 442,
+    "detailSnippets": 900,
+    "detailShortlist": 752,
+    "adopted": 0,
+    "artifacts": [
+      "tasks/discovery/mie-official-coverage-001-municipalities.json",
+      "tasks/discovery/mie-official-coverage-001-candidates.json",
+      "tasks/discovery/mie-official-coverage-001-link-leads.json",
+      "tasks/discovery/mie-official-coverage-001-detail-snippets.json",
+      "tasks/discovery/mie-official-coverage-001-detail-shortlist.csv"
+    ],
+    "notes": "津市・四日市市・伊勢市は個別制度ページ候補が多い。松阪市はsoshiki/site配下に絞ってもカテゴリ共通ナビ由来の過大スコアが多いため、タイトルと本文冒頭に制度名・金額/上限・対象・申請/受付が揃うページのみ採用する。桑名市は利子補給、現金5000円、子育て短期支援、産婦健診等を優先確認し、税控除・観光・外国語重複ページは保留する。"
   },
   "prefectureMilestone": {
     "prefecture": "愛知県",

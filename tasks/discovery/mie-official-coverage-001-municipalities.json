@@ -1,0 +1,36 @@
+{
+  "batchId": "mie-official-coverage-001",
+  "prefecture": "三重県",
+  "municipalities": [
+    {
+      "code": "24201",
+      "name": "津市",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.info.city.tsu.mie.jp/"
+    },
+    {
+      "code": "24202",
+      "name": "四日市市",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.city.yokkaichi.lg.jp/"
+    },
+    {
+      "code": "24203",
+      "name": "伊勢市",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.city.ise.mie.jp/"
+    },
+    {
+      "code": "24204",
+      "name": "松阪市",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.city.matsusaka.mie.jp/"
+    },
+    {
+      "code": "24205",
+      "name": "桑名市",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.city.kuwana.lg.jp/"
+    }
+  ]
+}

@@ -10215,3 +10215,9 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass
 - 到達点: 愛知県は23100名古屋市から23563豊根村まで第1巡到達し、県内全市区町村の第1巡完了。全国公式棚卸しは未完了
 - 次回: 三重県公式棚卸し001として、津市から再開
+
+### 三重県公式棚卸し001（24201津市・24202四日市市・24203伊勢市・24204松阪市・24205桑名市）着手
+- 実施日: 2026-07-15
+- 状態: 公式トップ5件のHTTP 200を確認し、候補1323件、公式カテゴリリンクリード442件、詳細スニペット900件、詳細ショートリスト752件を保存した。採用判定は未完了。
+- 成果物: `tasks/discovery/mie-official-coverage-001-municipalities.json`, `tasks/discovery/mie-official-coverage-001-candidates.json`, `tasks/discovery/mie-official-coverage-001-link-leads.json`, `tasks/discovery/mie-official-coverage-001-detail-snippets.json`, `tasks/discovery/mie-official-coverage-001-detail-shortlist.csv`
+- 次回: `tasks/discovery/mie-official-coverage-001-detail-snippets.json` から既掲載URLを除外し、津市・四日市市・伊勢市・松阪市・桑名市の順に、制度名・対象・金額/上限・条件・期限/受付状況が本文で揃う個別ページのみ採用する。松阪市・桑名市はカテゴリ/通常案内混入が多いため、個別制度URLと本文根拠を優先して再選別する。
