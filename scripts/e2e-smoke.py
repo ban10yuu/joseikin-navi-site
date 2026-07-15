@@ -112,11 +112,29 @@ with sync_playwright() as playwright:
     ended, ended_errors = open_page(browser, '/grant/sumitomo-zaidan-kankyou-josei/', 390, 844)
     check(ended.get_by_text('次回募集・後継制度を公式サイトで確認').count() >= 1, '終了制度のCTAが次回募集確認になっていません')
     check(ended.get_by_text('締切間近（受付中）').count() == 0, '終了制度に締切間近表示が残っています')
-    check(ended.locator('[data-analytics-event="affiliate_impression"]').count() == 0, '案件未設定なのにPR枠が表示されています')
+    check(ended.locator('[data-analytics-event="affiliate_impression"]').count() == 0, '無効な候補案件のPR枠が表示されています')
     official = ended.locator('.grant-official-primary')
     check(official.get_attribute('target') == '_blank' and 'noopener' in (official.get_attribute('rel') or ''), '公式CTAの外部リンク属性が不足しています')
     check(len(ended_errors) == 0, f'制度詳細: console error {ended_errors}')
     ended.close()
+
+    affiliate, affiliate_errors = open_page(browser, '/grant/amagasaki-startup-support/', 390, 844)
+    affiliate_impression = affiliate.locator('[data-analytics-event="affiliate_impression"]')
+    affiliate_link = affiliate.locator('[data-analytics-event="affiliate_click"]')
+    check(affiliate_impression.count() == 1, '関連する事業者向け制度にPR枠が1件表示されません')
+    check(affiliate_link.count() == 1, 'PR枠のリンクが1件に制限されていません')
+    affiliate_rel = affiliate_link.get_attribute('rel') or ''
+    check(all(value in affiliate_rel.split() for value in ['sponsored', 'nofollow', 'noopener', 'noreferrer']), 'PRリンクのrel属性が不足しています')
+    check(affiliate_link.get_attribute('target') == '_blank', 'PRリンクが新しいタブで開く設定になっていません')
+    check('（PR）' in (affiliate_link.inner_text() or ''), 'PRリンクのボタン文言にPR表記がありません')
+    check(affiliate.locator('.grant-official-primary').count() >= 1, 'PR表示ページに公式CTAがありません')
+    check(affiliate.locator('.grant-official-primary').evaluate('(el) => Boolean(el.compareDocumentPosition(document.querySelector(\'[data-analytics-event="affiliate_impression"]\')) & Node.DOCUMENT_POSITION_FOLLOWING)'), 'PR枠が公式CTAより上に表示されています')
+    check(len(affiliate_errors) == 0, f'PR表示制度詳細: console error {affiliate_errors}')
+    affiliate.close()
+
+    privacy, _ = open_page(browser, '/privacy/', 390, 844)
+    check('A8.net' in privacy.locator('body').inner_text(), '公開案件があるのにA8.netを利用中ASPとして表示していません')
+    privacy.close()
 
     subscribe, _ = open_page(browser, '/subscribe/', 390, 844)
     check(subscribe.locator('input[type="email"]').count() == 0, '配信先未設定なのにメールアドレス入力欄が表示されています')
@@ -152,7 +170,7 @@ summary = [
 if failures:
     summary += ['## 失敗', ''] + [f'- {failure}' for failure in failures]
 else:
-    summary += ['主要導線、320〜1440pxの横スクロール、終了CTA、PR非表示、重大なWCAG A/AA違反はいずれも問題ありませんでした。']
+    summary += ['主要導線、320〜1440pxの横スクロール、終了CTA、PRの表示条件と非表示条件、重大なWCAG A/AA違反はいずれも問題ありませんでした。']
 (REPORT_DIR / 'summary.md').write_text('\n'.join(summary), encoding='utf-8')
 print('\n'.join(summary))
 if failures:

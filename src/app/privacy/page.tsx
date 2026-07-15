@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 const enabledAffiliateNetworks = [...new Set(
   AFFILIATE_OFFERS
-    .filter((offer) => offer.enabled && offer.destinationUrl && offer.verifiedAt)
+    .filter((offer) => offer.enabled && offer.partnershipStatus === 'partnered' && offer.destinationUrl && offer.verifiedAt)
     .map((offer) => offer.network),
 )];
 
@@ -20,6 +20,8 @@ export default function PrivacyPage() {
   const usesVercelAnalytics = siteConfig.analytics.vercelAnalyticsEnabled;
   const usesAnalytics = usesGa4 || usesVercelAnalytics;
   const usesAdvertising = isAdsenseEnabled || enabledAffiliateNetworks.length > 0;
+  const advertisingSectionNumber = usesAnalytics ? 3 : 2;
+  const externalServicesSectionNumber = 2 + Number(usesAnalytics) + Number(usesAdvertising);
 
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 py-12">
@@ -50,7 +52,7 @@ export default function PrivacyPage() {
 
         {usesAdvertising && (
           <section>
-            <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">3. 広告・アフィリエイト</h2>
+            <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">{advertisingSectionNumber}. 広告・アフィリエイト</h2>
             {isAdsenseEnabled && <p className="text-ink">Google AdSenseを利用しています。広告配信に伴うデータの取り扱いは、Googleのポリシーをご確認ください。</p>}
             {enabledAffiliateNetworks.length > 0 && (
               <p className="text-ink">利用中のアフィリエイトサービス：{enabledAffiliateNetworks.join('、')}。PRリンク経由で申込みがあった場合、当サイトが紹介料を受け取ることがあります。</p>
@@ -59,7 +61,7 @@ export default function PrivacyPage() {
         )}
 
         <section>
-          <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">{usesAdvertising ? '4' : usesAnalytics ? '3' : '2'}. 外部サービスへの送信</h2>
+          <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">{externalServicesSectionNumber}. 外部サービスへの送信</h2>
           <p className="text-ink">上記サービスを有効にしている場合、閲覧したページ、端末・ブラウザに関する情報、Cookie等の識別子が各サービス提供者へ送信されることがあります。メールアドレス、氏名、世帯年収、職業をアクセス解析イベントへ送信しない設計とします。</p>
         </section>
 

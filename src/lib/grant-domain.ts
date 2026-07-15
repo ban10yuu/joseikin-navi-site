@@ -1,4 +1,5 @@
 import type {
+  AffiliateIntent,
   Audience,
   ContentStatus,
   GrantCategory,
@@ -134,6 +135,28 @@ function inferPurposes(input: LegacyGrant): Purpose[] {
   return unique(purposes.length ? purposes : ['other']);
 }
 
+const AFFILIATE_INTENT_PATTERNS: Array<[AffiliateIntent, RegExp]> = [
+  ['accounting', /クラウド会計|会計(?:ソフト|システム)|経理(?:ソフト|システム|業務)|確定申告(?:ソフト|システム)/],
+  ['expenseManagement', /経費精算/],
+  ['payroll', /給与計算/],
+  ['attendance', /勤怠管理|タイムカード/],
+  ['humanResources', /人事管理|労務管理/],
+  ['electronicContract', /電子契約|電子署名|契約書.{0,8}電子/],
+  ['cloudStorage', /クラウドストレージ|オンラインストレージ/],
+  ['businessPlanning', /事業計画/],
+  ['ecommerce', /ECサイト|ネットショップ|電子商取引/],
+  ['reservationSystem', /予約管理|予約システム/],
+  ['pos', /POSレジ|POSシステム/],
+  ['employeeTraining', /従業員研修|社員研修|人材育成/],
+  ['professionalConsultation', /税理士相談|社労士相談|専門家相談/],
+];
+
+function inferAffiliateIntents(input: LegacyGrant): AffiliateIntent[] {
+  if (input.affiliateIntents !== undefined) return unique(input.affiliateIntents);
+  const text = [input.title, input.description, input.eligibility, ...input.tags, ...input.sections.flatMap((section) => [section.heading, section.content])].join(' ');
+  return AFFILIATE_INTENT_PATTERNS.filter(([, pattern]) => pattern.test(text)).map(([intent]) => intent);
+}
+
 function inferVerificationMethod(input: LegacyGrant): VerificationMethod {
   if (input.verificationMethod) return input.verificationMethod;
   if (input.humanReviewedAt && input.verifiedAt) return 'mixed';
@@ -181,6 +204,18 @@ export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
   const contentStatus: ContentStatus = unconfirmedExistence
     ? 'needsReview'
     : input.contentStatus ?? (!hasOfficialSource ? 'unverified' : hasInternalPublicCopy ? 'needsReview' : 'published');
+  const indexStatus = unconfirmedExistence ? 'noindex' : input.indexStatus ?? (
+    hasOfficialSource && contentStatus === 'published' ? 'index' : 'noindex'
+  );
+  const affiliateIntents = inferAffiliateIntents(input);
+  const businessAudiences = new Set<Audience>(['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization']);
+  const sensitivePurposes = new Set<Purpose>(['medical', 'welfare', 'disaster', 'livingSupport']);
+  const inferredMonetizationAllowed = hasOfficialSource
+    && contentStatus === 'published'
+    && indexStatus === 'index'
+    && affiliateIntents.length > 0
+    && audiences.some((audience) => businessAudiences.has(audience))
+    && !purposes.some((purpose) => sensitivePurposes.has(purpose));
   const sections = input.sections
     .filter((section) => !containsInternalAuditText(section.heading))
     .map((section) => ({
@@ -220,9 +255,8 @@ export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
     sourceCheckedAt: input.verifiedAt ?? null,
     contentUpdatedAt: input.contentUpdatedAt ?? input.publishedAt,
     contentStatus,
-    indexStatus: unconfirmedExistence ? 'noindex' : input.indexStatus ?? (
-      hasOfficialSource && contentStatus === 'published' ? 'index' : 'noindex'
-    ),
-    monetizationAllowed: input.monetizationAllowed ?? false,
+    indexStatus,
+    affiliateIntents,
+    monetizationAllowed: input.monetizationAllowed === false ? false : inferredMonetizationAllowed,
   };
 }

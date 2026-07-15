@@ -106,7 +106,7 @@ fs.writeFileSync(path.join(reportDir, 'content-audit.csv'), `severity,code,slug,
 const issueCounts = [...new Map(issues.map((issue) => [issue.code, issues.filter((item) => item.code === issue.code).length])).entries()].sort((a, b) => b[1] - a[1]);
 const markdown = `# コンテンツ品質レポート\n\n生成日時：${summary.generatedAt}\n\n| 指標 | 件数 |\n|---|---:|\n${[
   ['総制度数', summary.total], ['公式URLあり', summary.officialUrl], ['自動照合', summary.automated], ['人手確認', summary.humanReviewed], ['noindex', summary.noindex], ['期限切れ', summary.expired], ['重複指摘', summary.duplicates], ['修正待ち', summary.needsReview], ['貸付', summary.loans], ['アフィリエイト掲載可能', summary.affiliateEligible], ['アフィリエイト掲載禁止', summary.affiliateBlocked], ['重大エラー', summary.critical], ['警告', summary.warnings],
-].map(([label, value]) => `| ${label} | ${Number(value).toLocaleString('ja-JP')} |`).join('\n')}\n\n## 指摘内訳\n\n${issueCounts.length ? issueCounts.map(([code, count]) => `- ${code}: ${count.toLocaleString('ja-JP')}件`).join('\n') : '- 指摘なし'}\n\n## 判定方針\n\n- 人手確認は humanReviewedAt が明示された制度だけを集計しています。\n- 公式URLなし、修正待ち、内部監査文言を含む制度は公開インデックス対象にしません。\n- アフィリエイト掲載可能は事業者向けかつセンシティブ目的でない制度の潜在件数です。実案件が未設定のため、公開画面にはPR枠を表示しません。\n`;
+].map(([label, value]) => `| ${label} | ${Number(value).toLocaleString('ja-JP')} |`).join('\n')}\n\n## 指摘内訳\n\n${issueCounts.length ? issueCounts.map(([code, count]) => `- ${code}: ${count.toLocaleString('ja-JP')}件`).join('\n') : '- 指摘なし'}\n\n## 判定方針\n\n- 人手確認は humanReviewedAt が明示された制度だけを集計しています。\n- 公式URLなし、修正待ち、内部監査文言を含む制度は公開インデックス対象にしません。\n- アフィリエイト掲載可能は事業者向けかつセンシティブ目的でない制度の潜在件数です。候補案件は提携・公開条件を満たすまで無効化し、公開画面にはPR枠を表示しません。\n`;
 fs.writeFileSync(path.join(reportDir, 'content-audit.md'), markdown);
 fs.writeFileSync(path.join(root, 'docs', 'content-quality-report.md'), markdown);
 

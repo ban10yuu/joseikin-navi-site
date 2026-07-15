@@ -64,6 +64,17 @@ for (const page of pages) {
     const nearby = page.html.slice(match.index, match.index + 800);
     if (!/adsbygoogle|affiliate_impression|sponsored/.test(nearby)) add('critical', 'EMPTY_AD_LABEL', page.route, `${match[1]}ラベルの後に広告本体がありません。`);
   }
+  const affiliateImpressions = [...page.html.matchAll(/data-analytics-event="affiliate_impression"/g)];
+  if (page.route.startsWith('/grant/') && affiliateImpressions.length > 1) add('critical', 'TOO_MANY_AFFILIATE_OFFERS', page.route, '制度詳細にPR案件が2件以上表示されています。');
+  const officialIndex = page.html.indexOf('data-analytics-event="official_source_click"');
+  const affiliateIndex = page.html.indexOf('data-analytics-event="affiliate_impression"');
+  if (affiliateIndex >= 0 && (officialIndex < 0 || affiliateIndex < officialIndex)) add('critical', 'AFFILIATE_BEFORE_OFFICIAL', page.route, 'PR枠が公式情報への導線より前にあります。');
+  for (const anchor of page.html.matchAll(/<a\b[^>]*>/g)) {
+    if (!anchor[0].includes('data-analytics-event="affiliate_click"')) continue;
+    const rel = anchor[0].match(/rel="([^"]*)"/)?.[1] ?? '';
+    for (const required of ['sponsored', 'nofollow', 'noopener', 'noreferrer']) if (!rel.split(/\s+/).includes(required)) add('critical', 'INVALID_AFFILIATE_REL', page.route, `PRリンクのrelに${required}がありません。`);
+    if (!anchor[0].includes('target="_blank"')) add('critical', 'INVALID_AFFILIATE_TARGET', page.route, 'PRリンクが新しいタブで開く設定になっていません。');
+  }
 }
 
 for (const field of ['title', 'description']) {

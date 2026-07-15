@@ -93,6 +93,20 @@ export type GrantStatus =
 export type VerificationMethod = 'automated' | 'human' | 'mixed' | 'unknown';
 export type ContentStatus = 'published' | 'needsReview' | 'duplicate' | 'unverified' | 'archived';
 export type IndexStatus = 'index' | 'noindex';
+export type AffiliateIntent =
+  | 'accounting'
+  | 'expenseManagement'
+  | 'payroll'
+  | 'attendance'
+  | 'humanResources'
+  | 'electronicContract'
+  | 'cloudStorage'
+  | 'businessPlanning'
+  | 'ecommerce'
+  | 'reservationSystem'
+  | 'pos'
+  | 'employeeTraining'
+  | 'professionalConsultation';
 
 // ── 助成金タイプ ──
 export type GrantType = 'national' | 'local' | 'ngo';
@@ -157,7 +171,7 @@ export interface Grant {
   contentStatus?: ContentStatus;
   indexStatus?: IndexStatus;
   noindexReason?: string;
-  affiliateIntents?: string[];
+  affiliateIntents?: AffiliateIntent[];
   monetizationAllowed?: boolean;
   redirectFrom?: string[];
 }
@@ -189,6 +203,7 @@ export type NormalizedGrant = Omit<
   | 'contentUpdatedAt'
   | 'contentStatus'
   | 'indexStatus'
+  | 'affiliateIntents'
   | 'monetizationAllowed'
 > & {
   id: string;
@@ -211,6 +226,7 @@ export type NormalizedGrant = Omit<
   contentUpdatedAt: string;
   contentStatus: ContentStatus;
   indexStatus: IndexStatus;
+  affiliateIntents: AffiliateIntent[];
   monetizationAllowed: boolean;
 };
 

@@ -1,6 +1,6 @@
 # 最終作業報告
 
-作業日：2026年7月13日
+作業日：2026年7月13日（アフィリエイト基盤を2026年7月15日に更新）
 作業ブランチ：`feature/joseikin-trust-platform`
 
 ## 実装内容
@@ -40,12 +40,13 @@
 |---|---|
 | `npm run lint` | 成功 |
 | `npm run typecheck` | 成功 |
-| `npm test` | 69件成功 |
+| `npm test` | 95件成功 |
+| `npm run audit:affiliates` | 登録3件、公開2件、重大エラー0件（審査中1件は非表示） |
 | `npm run check:copy` | 成功 |
 | `npm run audit:content` | 重大エラー0件 |
-| `npm run build` | 成功、7,323ページ生成 |
+| `npm run build` | 成功、8,266ルート生成 |
 | `npm run audit:build` | 重大エラー0件 |
-| `npm run test:e2e` | 34ケース成功、axe重大違反0件 |
+| `npm run test:e2e` | 39ケース成功、axe重大違反0件 |
 
 Lighthouseのモバイル計測中央値はPerformance 97、Accessibility 100、Best Practices 100、SEO 100でした。LCPは2.6秒、CLSは0、Total Blocking Timeは10msです。詳細は `reports/lighthouse-summary.md` に記録しました。
 
@@ -68,10 +69,14 @@ Lighthouseのモバイル計測中央値はPerformance 97、Accessibility 100、
 
 ## アフィリエイト案件の有効化
 
-`src/config/affiliate-offers.ts`へ、確認済みの案件だけを追加します。`enabled`、広告主、案件名、URL、対象者、目的、掲載ページ、掲載期間、確認日、PR文言、ボタン文言を設定してください。初期状態では事業者向けのみが対象で、医療、福祉、災害、生活支援などのページは除外されます。URLなし、期限切れ、無効な案件は表示されません。
+2026年7月15日にA8.netへ「支援制度ナビ」を副サイト登録し、会計、勤怠、電子契約の候補3件へ提携申請しました。freee会計とKANBEI SIGNは提携完了・広告リンク取得済み、スマレジ・タイムカードは審査中です。提携済み2件だけを有効化し、審査中案件は非表示にしています。
+
+案件選定にはintent一致を追加し、制度詳細の表示上限を1件に固定しました。提携状態、HTTPSリンク、確認日、期間、対象者、intent、掲載ページ、センシティブ除外、CTA、開示文を`npm run audit:affiliates`で検査できます。詳細な有効化手順は`docs/affiliate-activation.md`に記録しています。
+
+A8.netの審査中案件は承認を確認した後にだけ、発行された広告リンク、`partnershipStatus=partnered`、`enabled=true`を設定します。公開案件は月1回以上、提携状態とリンク有効性を再確認します。
 
 ## 未解決項目
 
-コンテンツ監査には警告2,417件が残っています。内訳の中心は説明文不足、公式URL重複、公式確認先不足です。該当ページはnoindex基準と修正待ち判定で検索公開を抑えていますが、公式資料を照合したうえで順次修正する必要があります。
+コンテンツ監査には警告2,430件が残っています。内訳の中心は説明文不足、公式URL重複、公式確認先不足です。該当ページはnoindex基準と修正待ち判定で検索公開を抑えていますが、公式資料を照合したうえで順次修正する必要があります。
 
 この作業は専用ブランチにあり、現在の本番へは未公開です。全国収集側の最新変更を取り込んで競合を確認し、全検査を再実行してからmainへ統合してください。

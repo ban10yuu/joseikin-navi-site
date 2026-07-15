@@ -81,7 +81,9 @@ export default async function GrantDetailPage({ params }: Props) {
     pageType: 'grant',
     audiences: grant.audiences ?? [],
     purposes: grant.purposes ?? [],
+    intents: grant.affiliateIntents ?? [],
     monetizationAllowed: grant.monetizationAllowed ?? false,
+    limit: 1,
   });
   const primaryOfficialUrl = getValidOfficialSourceUrls(grant)[0];
 
@@ -163,7 +165,7 @@ export default async function GrantDetailPage({ params }: Props) {
 
           <section className="mt-8 rounded-xl border border-line bg-white p-5" aria-labelledby="correction-title"><h2 id="correction-title" className="text-lg font-black text-navy">掲載情報の訂正・修正依頼</h2><p className="mt-2 text-sm leading-7 text-muted">制度の更新や誤りにお気づきの場合は、制度名と公式情報のURLを添えてお知らせください。</p><Link href={`/correction/?grant=${encodeURIComponent(grant.slug)}`} className="mt-3 inline-flex min-h-11 items-center font-bold text-navy underline underline-offset-4" data-analytics-event="correction_request" data-page-type="grant" data-grant-id={grant.slug}>この制度について訂正を依頼する</Link></section>
 
-          {affiliateOffers.map((offer, index) => <AffiliateRecommendation key={offer.id} offer={offer} placement="grant-after-correction" position={index + 1} />)}
+          {affiliateOffers.map((offer, index) => <AffiliateRecommendation key={offer.id} offer={offer} pageType="grant" grantId={grant.slug} audience={grant.primaryAudience} purpose={grant.primaryPurpose} placement="grant-after-correction" position={index + 1} />)}
 
           {grant.tags.length > 0 && <div className="grant-tag-list" aria-label="関連タグ">{grant.tags.map((tag) => <Link key={tag} href={`/tag/${encodeURIComponent(tag.toLowerCase().replace(/\s+/g, '-'))}/`}>#{tag}</Link>)}</div>}
           {classifiedCount === 0 && <p className="mt-6 text-xs leading-6 text-muted">詳細項目は公式ページでご確認ください。</p>}

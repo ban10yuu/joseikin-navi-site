@@ -165,4 +165,72 @@ describe('normalizeGrant', () => {
     assert.equal(result.contentStatus, 'needsReview');
     assert.equal(result.indexStatus, 'noindex');
   });
+
+  it('公式情報がある事業者向け制度に明確な語がある場合だけaffiliate intentを付与する', () => {
+    const result = normalizeGrant({
+      ...baseGrant,
+      title: '例示市 クラウド会計ソフト導入補助金',
+      description: '中小企業の会計ソフト導入費を補助します。',
+      audiences: ['business'],
+      purposes: ['digitalTransformation'],
+    });
+
+    assert.deepEqual(result.affiliateIntents, ['accounting']);
+    assert.equal(result.monetizationAllowed, true);
+  });
+
+  it('センシティブ目的と明示的な収益化不許可を最優先する', () => {
+    const sensitive = normalizeGrant({
+      ...baseGrant,
+      title: '医療法人向け クラウド会計ソフト導入補助金',
+      audiences: ['business'],
+      purposes: ['medical'],
+    });
+    const explicitlyBlocked = normalizeGrant({
+      ...baseGrant,
+      title: '例示市 クラウド会計ソフト導入補助金',
+      audiences: ['business'],
+      purposes: ['digitalTransformation'],
+      monetizationAllowed: false,
+    });
+
+    assert.equal(sensitive.monetizationAllowed, false);
+    assert.equal(explicitlyBlocked.monetizationAllowed, false);
+  });
+
+  it('明示的な収益化許可でも安全条件を迂回できない', () => {
+    const unsafeCases = [
+      { purposes: ['medical'], officialUrl: baseGrant.officialUrl, indexStatus: 'index' },
+      { purposes: ['digitalTransformation'], officialUrl: '', indexStatus: 'index' },
+      { purposes: ['digitalTransformation'], officialUrl: baseGrant.officialUrl, indexStatus: 'noindex' },
+      { purposes: ['digitalTransformation'], officialUrl: baseGrant.officialUrl, contentStatus: 'needsReview' },
+      { purposes: ['digitalTransformation'], officialUrl: baseGrant.officialUrl, audiences: ['individual'] },
+      { purposes: ['digitalTransformation'], officialUrl: baseGrant.officialUrl, affiliateIntents: [] },
+    ];
+
+    for (const unsafe of unsafeCases) {
+      const result = normalizeGrant({
+        ...baseGrant,
+        ...unsafe,
+        title: '例示市 クラウド会計ソフト導入補助金',
+        audiences: unsafe.audiences ?? ['business'],
+        monetizationAllowed: true,
+      });
+      assert.equal(result.monetizationAllowed, false);
+    }
+  });
+
+  it('公式情報がない制度や明確なintentがない制度を収益化対象にしない', () => {
+    const noSource = normalizeGrant({
+      ...baseGrant,
+      title: '例示市 クラウド会計ソフト導入補助金',
+      audiences: ['business'],
+      purposes: ['digitalTransformation'],
+      officialUrl: '',
+    });
+    const noIntent = normalizeGrant({ ...baseGrant, audiences: ['business'] });
+
+    assert.equal(noSource.monetizationAllowed, false);
+    assert.equal(noIntent.monetizationAllowed, false);
+  });
 });

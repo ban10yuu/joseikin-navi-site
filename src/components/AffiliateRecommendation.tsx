@@ -1,15 +1,29 @@
-import type { AffiliateOffer } from '@/config/affiliate-offers';
-import { AFFILIATE_LINK_REL } from '@/lib/monetization';
+import type { AffiliateOffer, AffiliatePageType } from '@/config/affiliate-offers';
+import { AFFILIATE_LINK_REL, isAffiliateOfferPublishable } from '@/lib/monetization';
+import type { Audience, Purpose } from '@/lib/types';
 import AffiliateDisclosure from './AffiliateDisclosure';
 
-export default function AffiliateRecommendation({ offer, placement, position = 1 }: { offer: AffiliateOffer; placement: string; position?: number }) {
-  if (!offer.enabled || !offer.destinationUrl || !offer.verifiedAt) return null;
+interface AffiliateRecommendationProps {
+  offer: AffiliateOffer;
+  pageType: AffiliatePageType;
+  placement: string;
+  position?: number;
+  grantId?: string;
+  audience?: Audience;
+  purpose?: Purpose;
+}
+
+export default function AffiliateRecommendation({ offer, pageType, placement, position = 1, grantId, audience, purpose }: AffiliateRecommendationProps) {
+  if (!isAffiliateOfferPublishable(offer)) return null;
   return (
     <aside
       className="mt-8 rounded-xl border border-amber-300 bg-amber-50 p-5"
       data-analytics-event="affiliate_impression"
       data-analytics-impression="true"
-      data-page-type="grant"
+      data-page-type={pageType}
+      data-grant-id={grantId}
+      data-audience={audience}
+      data-purpose={purpose}
       data-offer-id={offer.id}
       data-network={offer.network}
       data-placement={placement}
@@ -25,7 +39,10 @@ export default function AffiliateRecommendation({ offer, placement, position = 1
         rel={AFFILIATE_LINK_REL}
         className="mt-4 inline-flex min-h-11 items-center rounded-lg border-2 border-amber-800 bg-white px-5 font-bold text-amber-950"
         data-analytics-event="affiliate_click"
-        data-page-type="grant"
+        data-page-type={pageType}
+        data-grant-id={grantId}
+        data-audience={audience}
+        data-purpose={purpose}
         data-offer-id={offer.id}
         data-network={offer.network}
         data-placement={placement}

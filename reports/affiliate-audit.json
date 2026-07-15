@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-07-15T01:57:46.884Z",
+  "totalOffers": 3,
+  "enabledOffers": 2,
+  "criticalIssues": 0,
+  "warningIssues": 2,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "INVALID_DESTINATION_URL",
+      "offerId": "a8-smaregi-timecard",
+      "message": "HTTPSの案件リンクが必要です。"
+    },
+    {
+      "severity": "warning",
+      "code": "NOT_PARTNERED",
+      "offerId": "a8-smaregi-timecard",
+      "message": "提携完了前の案件です。"
+    }
+  ]
+}

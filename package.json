@@ -12,6 +12,7 @@
     "test:e2e": "python3 scripts/run-e2e.py",
     "check:copy": "node scripts/check-public-copy.mjs",
     "audit:content": "node scripts/audit-content.mjs",
+    "audit:affiliates": "node scripts/audit-affiliates.mjs",
     "audit:build": "node scripts/audit-build.mjs",
     "audit:coverage": "node scripts/audit-coverage.mjs",
     "audit:deadlines": "node --test src/lib/deadline.test.mjs src/lib/grant-status.test.mjs",
