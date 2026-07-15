@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T22:35:00+09:00",
+  "updatedAt": "2026-07-15T22:07:34+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kyoto-official-coverage-001",
-    "municipality": "京都市・福知山市・舞鶴市・綾部市・宇治市",
-    "adopted": 59,
-    "held": 1254,
-    "excluded": 18,
-    "sourceUrlsChecked": 59,
+    "code": "kyoto-official-coverage-002",
+    "municipality": "宮津市・亀岡市・城陽市・向日市・長岡京市",
+    "adopted": 36,
+    "held": 284,
+    "excluded": 0,
+    "sourceUrlsChecked": 36,
     "validation": {
-      "previousMunicipality": "京都府公式棚卸し001として、26100京都市・26201福知山市・26202舞鶴市・26203綾部市・26204宇治市を確認した。候補1359件、公式カテゴリリンクリード1313件、公式リスト59件を保存し、5市で合計59件を新規採用した。京都市は既存公式URL重複が多かったため新規採用は0件、重複URLは除外。トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、報道・広報、リンク集、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。全国公式棚卸しは未完了。",
+      "previousMunicipality": "京都府公式棚卸し002として、26205宮津市・26206亀岡市・26207城陽市・26208向日市・26209長岡京市を確認した。候補1673件、公式カテゴリリンクリード2110件、公式リスト36件を保存し、5市で合計36件を新規採用した。トップ、カテゴリ導線、共通ナビ、通常行政案内、相談会・告知、受付終了のみ、本文根拠が薄い候補、制度ページではないカテゴリ一覧は第2巡候補として保持。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for kyoto-official-coverage-001 JSON files",
-      "addedSlugUniqueness": "pass: 59 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 59 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for kyoto-official-coverage-002 JSON files",
+      "addedSlugUniqueness": "pass: 36 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 36 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16686, officialLinkedActive 16566, manuallyVerifiedActive 16566, 京都府 localOfficial 123)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16722, officialLinkedActive 16602, manuallyVerifiedActive 16602, 京都府 localOfficial 159)"
     }
   },
   "next": {
-    "code": "kyoto-official-coverage-002",
-    "municipality": "宮津市",
-    "shortlist": "京都府公式棚卸し001は福知山市16件、舞鶴市8件、綾部市16件、宇治市19件を採用した。京都市は既存公式URL重複を除き新規採用0件。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、京都府公式棚卸し002として26205宮津市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kyoto-official-coverage-003",
+    "municipality": "八幡市",
+    "shortlist": "京都府公式棚卸し002は宮津市15件、亀岡市2件、城陽市6件、向日市9件、長岡京市4件を採用した。カテゴリ一覧・通常行政案内・相談会告知は第2巡候補として保持。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、京都府公式棚卸し003として26210八幡市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "京都府",
     "status": "in-progress-first-pass",
-    "lastBatch": "kyoto-official-coverage-001",
-    "notes": "京都府公式棚卸し001で26100京都市・26201福知山市・26202舞鶴市・26203綾部市・26204宇治市を確認し、59件を新規採用した。次は26205宮津市から再開する。"
+    "lastBatch": "kyoto-official-coverage-002",
+    "notes": "京都府公式棚卸し002で26205宮津市・26206亀岡市・26207城陽市・26208向日市・26209長岡京市を確認し、36件を新規採用した。次は26210八幡市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

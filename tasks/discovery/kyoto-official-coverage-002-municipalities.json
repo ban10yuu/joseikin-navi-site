@@ -1,0 +1,37 @@
+{
+  "batchId": "kyoto-official-coverage-002",
+  "prefecture": "京都府",
+  "createdAt": "2026-07-15T12:53:40.644Z",
+  "municipalities": [
+    {
+      "code": "26205",
+      "name": "宮津市",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.city.miyazu.kyoto.jp/"
+    },
+    {
+      "code": "26206",
+      "name": "亀岡市",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.city.kameoka.kyoto.jp/"
+    },
+    {
+      "code": "26207",
+      "name": "城陽市",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.city.joyo.kyoto.jp/"
+    },
+    {
+      "code": "26208",
+      "name": "向日市",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.city.muko.kyoto.jp/"
+    },
+    {
+      "code": "26209",
+      "name": "長岡京市",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.city.nagaokakyo.lg.jp/"
+    }
+  ]
+}

@@ -10335,3 +10335,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16686、officialLinkedActive 16566、manuallyVerifiedActive 16566、京都府 localOfficial 123）
 - 到達点: 京都府は26100京都市から26204宇治市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 京都府公式棚卸し002として、26205宮津市から再開
+
+
+### 京都府公式棚卸し002（26205宮津市・26206亀岡市・26207城陽市・26208向日市・26209長岡京市）
+- 実施日: 2026-07-15
+- 候補: 1673件（公式カテゴリリンクリード2110件、公式リスト36件、採用URL36本）
+- 採用: 36件（宮津市15件、亀岡市2件、城陽市6件、向日市9件、長岡京市4件）
+- 公式URL: 採用URL到達確認は tasks/discovery/kyoto-official-coverage-002-url-status.txt に記録（36本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、通常行政案内、相談会・告知、受付終了のみ、本文根拠が薄い候補、制度ページではないカテゴリ一覧は第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16722、officialLinkedActive 16602、manuallyVerifiedActive 16602、京都府 localOfficial 159）
+- 到達点: 京都府は26100京都市から26209長岡京市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 京都府公式棚卸し003として、26210八幡市から再開
