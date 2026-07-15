@@ -1,0 +1,36 @@
+{
+  "batchId": "mie-official-coverage-003",
+  "prefecture": "三重県",
+  "municipalities": [
+    {
+      "code": "24212",
+      "name": "熊野市",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.city.kumano.lg.jp/"
+    },
+    {
+      "code": "24214",
+      "name": "いなべ市",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.city.inabe.mie.jp/"
+    },
+    {
+      "code": "24215",
+      "name": "志摩市",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.city.shima.mie.jp/"
+    },
+    {
+      "code": "24216",
+      "name": "伊賀市",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.city.iga.lg.jp/"
+    },
+    {
+      "code": "24303",
+      "name": "木曽岬町",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.town.kisosaki.lg.jp/"
+    }
+  ]
+}
