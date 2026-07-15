@@ -1,0 +1,36 @@
+{
+  "batchId": "mie-official-coverage-005",
+  "prefecture": "三重県",
+  "municipalities": [
+    {
+      "code": "24442",
+      "name": "明和町",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.town.meiwa.mie.jp/"
+    },
+    {
+      "code": "24443",
+      "name": "大台町",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.odaitown.jp/"
+    },
+    {
+      "code": "24461",
+      "name": "玉城町",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://kizuna.town.tamaki.mie.jp/"
+    },
+    {
+      "code": "24470",
+      "name": "度会町",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.town.watarai.lg.jp/"
+    },
+    {
+      "code": "24471",
+      "name": "大紀町",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.town.taiki.mie.jp/"
+    }
+  ]
+}
