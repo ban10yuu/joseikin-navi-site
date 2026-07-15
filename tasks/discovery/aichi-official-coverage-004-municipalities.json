@@ -1,0 +1,36 @@
+{
+  "batchId": "aichi-official-coverage-004",
+  "prefecture": "愛知県",
+  "municipalities": [
+    {
+      "code": "23215",
+      "name": "犬山市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.inuyama.aichi.jp/"
+    },
+    {
+      "code": "23216",
+      "name": "常滑市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.tokoname.aichi.jp/"
+    },
+    {
+      "code": "23217",
+      "name": "江南市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.konan.lg.jp/"
+    },
+    {
+      "code": "23219",
+      "name": "小牧市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.komaki.aichi.jp/"
+    },
+    {
+      "code": "23220",
+      "name": "稲沢市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.inazawa.aichi.jp/"
+    }
+  ]
+}
