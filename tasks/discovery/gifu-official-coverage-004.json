@@ -1,0 +1,35 @@
+{
+  "batchId": "gifu-official-coverage-004",
+  "prefecture": "岐阜県",
+  "municipalities": [
+    "21216 瑞穂市",
+    "21217 飛騨市",
+    "21218 本巣市",
+    "21219 郡上市",
+    "21220 下呂市"
+  ],
+  "candidateCount": 947,
+  "snippetCount": 947,
+  "categoryDeepSnippetCount": 389,
+  "selectedVerificationCount": 95,
+  "adoptedCount": 95,
+  "heldCount": 852,
+  "adoptedByMunicipality": {
+    "瑞穂市": 5,
+    "飛騨市": 18,
+    "本巣市": 24,
+    "郡上市": 25,
+    "下呂市": 23
+  },
+  "files": {
+    "municipalities": "tasks/discovery/gifu-official-coverage-004-municipalities.json",
+    "candidates": "tasks/discovery/gifu-official-coverage-004-candidates.json",
+    "snippets": "tasks/discovery/gifu-official-coverage-004-snippets.json",
+    "categoryDeepSnippets": "tasks/discovery/gifu-official-coverage-004-category-deep-snippets.json",
+    "verificationSnippets": "tasks/discovery/gifu-official-coverage-004-verification-snippets.json",
+    "adoptedUrls": "tasks/discovery/gifu-official-coverage-004-adopted-urls.json",
+    "urlStatus": "tasks/discovery/gifu-official-coverage-004-url-status.txt"
+  },
+  "status": "adopted-official-pages-added",
+  "next": "gifu-official-coverage-005 / 21221 海津市"
+}
