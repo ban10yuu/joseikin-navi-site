@@ -1,0 +1,36 @@
+{
+  "batchId": "mie-official-coverage-004",
+  "prefecture": "三重県",
+  "municipalities": [
+    {
+      "code": "24324",
+      "name": "東員町",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.town.toin.lg.jp/"
+    },
+    {
+      "code": "24341",
+      "name": "菰野町",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www2.town.komono.mie.jp/"
+    },
+    {
+      "code": "24343",
+      "name": "朝日町",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www2.town.asahi.mie.jp/"
+    },
+    {
+      "code": "24344",
+      "name": "川越町",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.town.kawagoe.mie.jp/"
+    },
+    {
+      "code": "24441",
+      "name": "多気町",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.town.taki.mie.jp/"
+    }
+  ]
+}

@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-07-15T19:24:57+09:00",
+  "updatedAt": "2026-07-15T20:00:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "mie-official-coverage-003",
-    "municipality": "熊野市・いなべ市・志摩市・伊賀市・木曽岬町",
-    "adopted": 64,
-    "held": 922,
+    "code": "mie-official-coverage-004",
+    "municipality": "東員町・菰野町・朝日町・川越町・多気町",
+    "adopted": 54,
+    "held": 539,
     "excluded": 0,
-    "sourceUrlsChecked": 64,
+    "sourceUrlsChecked": 54,
     "validation": {
-      "previousMunicipality": "三重県公式棚卸し003として、24212熊野市・24214いなべ市・24215志摩市・24216伊賀市・24303木曽岬町を確認した。候補949件、公式カテゴリリンクリード745件、詳細スニペット1609件、詳細ショートリスト986件、公式リスト64件を保存し、5市町で合計64件を新規採用した。トップ、カテゴリ導線、共通ナビ、通常行政案内、計画ページ、本文根拠が薄い候補は第2巡候補として保持。全国公式棚卸しは未完了。",
+      "previousMunicipality": "三重県公式棚卸し004として、24324東員町・24341菰野町・24343朝日町・24344川越町・24441多気町を確認した。候補1008件、公式カテゴリリンクリード1006件、詳細スニペット1006件、詳細ショートリスト593件、公式リスト54件を保存し、5町で合計54件を新規採用した。トップ、カテゴリ導線、共通ナビ、通常行政案内、計画ページ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for mie-official-coverage-003 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 64 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 64 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for mie-official-coverage-004 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 54 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 54 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16174, officialLinkedActive 16054, manuallyVerifiedActive 16054, 三重県 localOfficial 315)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16228, officialLinkedActive 16108, manuallyVerifiedActive 16108, 三重県 localOfficial 369)"
     }
   },
   "next": {
-    "code": "mie-official-coverage-004",
-    "municipality": "東員町",
-    "shortlist": "三重県公式棚卸し003は熊野市15件、いなべ市15件、志摩市4件、伊賀市15件、木曽岬町15件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、三重県公式棚卸し004として東員町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "mie-official-coverage-005",
+    "municipality": "明和町",
+    "shortlist": "三重県公式棚卸し004は東員町9件、菰野町10件、朝日町15件、川越町15件、多気町5件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、三重県公式棚卸し005として明和町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "愛知県",
