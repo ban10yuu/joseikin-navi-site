@@ -1,0 +1,36 @@
+{
+  "batchId": "aichi-official-coverage-010",
+  "prefecture": "愛知県",
+  "municipalities": [
+    {
+      "code": "23441",
+      "name": "阿久比町",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.town.agui.lg.jp/"
+    },
+    {
+      "code": "23442",
+      "name": "東浦町",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.town.aichi-higashiura.lg.jp/"
+    },
+    {
+      "code": "23445",
+      "name": "南知多町",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.town.minamichita.lg.jp/"
+    },
+    {
+      "code": "23446",
+      "name": "美浜町",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.town.aichi-mihama.lg.jp/"
+    },
+    {
+      "code": "23447",
+      "name": "武豊町",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.town.taketoyo.lg.jp/"
+    }
+  ]
+}
