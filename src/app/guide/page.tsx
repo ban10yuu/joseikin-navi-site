@@ -1,5 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import AffiliateRecommendation from '@/components/AffiliateRecommendation';
+import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
+import { getEligibleAffiliateOffers } from '@/lib/monetization';
 import { toSiteUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
@@ -40,6 +43,12 @@ function GuideSteps({ steps }: { steps: readonly { title: string; text: string }
 }
 
 export default function GuidePage() {
+  const businessAffiliate = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+    pageType: 'businessGuide', audiences: ['soleProprietor', 'business', 'nonprofit'],
+    purposes: ['startup', 'businessGrowth', 'digitalTransformation'], intents: ['accounting', 'electronicContract'],
+    monetizationAllowed: true, limit: 1,
+  })[0];
+
   return (
     <>
       <header className="border-b-4 border-accent bg-navy py-10 text-white sm:py-14">
@@ -67,6 +76,7 @@ export default function GuidePage() {
           <p className="text-sm font-black text-accent-deep">事業者・団体向け</p>
           <h2 id="business-guide-title" className="mt-1 text-2xl font-black leading-relaxed text-navy">公募要領から実績報告まで</h2>
           <p className="mb-5 mt-2 text-base leading-8 text-muted">対象経費や着手時期を誤らないよう、申請前だけでなく交付決定後の義務まで確認します。</p>
+          {businessAffiliate && <div className="mb-5"><AffiliateRecommendation offer={businessAffiliate} pageType="businessGuide" placement="business-guide-intro" position={1} audience="business" purpose="businessGrowth" compact headingLevel="h3" /></div>}
           <GuideSteps steps={businessSteps} />
         </section>
 

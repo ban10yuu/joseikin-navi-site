@@ -66,9 +66,11 @@ for (const page of pages) {
   }
   const affiliateImpressions = [...page.html.matchAll(/data-analytics-event="affiliate_impression"/g)];
   if (page.route.startsWith('/grant/') && affiliateImpressions.length > 1) add('critical', 'TOO_MANY_AFFILIATE_OFFERS', page.route, '制度詳細にPR案件が2件以上表示されています。');
+  if (page.route === '/' && affiliateImpressions.length > 2) add('critical', 'TOO_MANY_HOME_AFFILIATE_OFFERS', page.route, 'トップページにPR案件が3件以上表示されています。');
+  if (page.route === '/guide/' && affiliateImpressions.length > 1) add('critical', 'TOO_MANY_GUIDE_AFFILIATE_OFFERS', page.route, '申請前ガイドにPR案件が2件以上表示されています。');
   const officialIndex = page.html.indexOf('data-analytics-event="official_source_click"');
   const affiliateIndex = page.html.indexOf('data-analytics-event="affiliate_impression"');
-  if (affiliateIndex >= 0 && (officialIndex < 0 || affiliateIndex < officialIndex)) add('critical', 'AFFILIATE_BEFORE_OFFICIAL', page.route, 'PR枠が公式情報への導線より前にあります。');
+  if (page.route.startsWith('/grant/') && affiliateIndex >= 0 && (officialIndex < 0 || affiliateIndex < officialIndex)) add('critical', 'AFFILIATE_BEFORE_OFFICIAL', page.route, '制度詳細のPR枠が公式情報への導線より前にあります。');
   for (const anchor of page.html.matchAll(/<a\b[^>]*>/g)) {
     if (!anchor[0].includes('data-analytics-event="affiliate_click"')) continue;
     const rel = anchor[0].match(/rel="([^"]*)"/)?.[1] ?? '';

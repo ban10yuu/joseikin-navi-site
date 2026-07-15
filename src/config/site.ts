@@ -1,4 +1,5 @@
 import { getSiteUrl, isIndexableDeployment } from '@/lib/site-url';
+import { shouldLoadAdsenseScript, shouldRenderDisplayAd } from '@/lib/monetization';
 
 function optionalValue(value: string | undefined): string | null {
   const normalized = value?.trim();
@@ -33,6 +34,8 @@ export const siteConfig = {
   },
 } as const;
 
-export const isAdsenseEnabled = Boolean(
-  siteConfig.adsense.clientId && siteConfig.adsense.slotId
+export const isAdsenseVerificationEnabled = shouldLoadAdsenseScript(siteConfig.adsense.clientId);
+export const isAdsenseEnabled = shouldRenderDisplayAd(
+  siteConfig.adsense.clientId,
+  siteConfig.adsense.slotId,
 );

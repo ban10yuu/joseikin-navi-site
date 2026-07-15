@@ -34,6 +34,10 @@ export function shouldRenderDisplayAd(clientId?: string | null, slotId?: string 
   return Boolean(clientId?.trim() && slotId?.trim());
 }
 
+export function shouldLoadAdsenseScript(clientId?: string | null): boolean {
+  return Boolean(clientId?.trim());
+}
+
 export type PublishableAffiliateOffer = AffiliateOffer & {
   enabled: true;
   partnershipStatus: 'partnered';

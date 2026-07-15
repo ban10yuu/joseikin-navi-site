@@ -60,6 +60,14 @@ with sync_playwright() as playwright:
     # 主要URLとフォーム、メニュー、URLクエリの動作
     home, home_errors = open_page(browser, '/', 390, 844)
     home.screenshot(path=str(REPORT_DIR / 'home-390.png'), full_page=True)
+    hero_pr = home.locator('[data-analytics-event="affiliate_impression"][data-placement="home-hero"]')
+    check(hero_pr.count() == 1, 'トップのファーストビューに事業者向けPRが表示されません')
+    if hero_pr.count() == 1:
+        hero_pr_box = hero_pr.bounding_box()
+        check(hero_pr_box['y'] >= 0 and hero_pr_box['y'] + hero_pr_box['height'] <= 844, 'トップのPR全体が最初の画面内に収まりません')
+        check(hero_pr.locator('[data-ad-label]').is_visible(), 'トップのPR表記が見える状態ではありません')
+    check(home.locator('[data-analytics-event="affiliate_impression"][data-placement="home-business-entry"]').count() == 1, 'トップの事業者向け入口に関連PRが表示されません')
+    check(home.locator('[data-analytics-event="affiliate_impression"]').count() == 2, 'トップのPR枠が2件を超過または不足しています')
     home.get_by_role('button', name='事業者・団体向け').click()
     check(home.locator('input[name="audience"]').get_attribute('value') == 'business', 'トップ: 対象切替が検索条件へ反映されません')
     home.get_by_role('button', name='メニューを開く').click()
@@ -131,6 +139,11 @@ with sync_playwright() as playwright:
     check(affiliate.locator('.grant-official-primary').evaluate('(el) => Boolean(el.compareDocumentPosition(document.querySelector(\'[data-analytics-event="affiliate_impression"]\')) & Node.DOCUMENT_POSITION_FOLLOWING)'), 'PR枠が公式CTAより上に表示されています')
     check(len(affiliate_errors) == 0, f'PR表示制度詳細: console error {affiliate_errors}')
     affiliate.close()
+
+    business_guide, business_guide_errors = open_page(browser, '/guide/#business-guide', 390, 844)
+    check(business_guide.locator('[data-analytics-event="affiliate_impression"][data-page-type="businessGuide"]').count() == 1, '事業者向け申請ガイドに関連PRが1件表示されません')
+    check(len(business_guide_errors) == 0, f'事業者向け申請ガイド: console error {business_guide_errors}')
+    business_guide.close()
 
     privacy, _ = open_page(browser, '/privacy/', 390, 844)
     check('A8.net' in privacy.locator('body').inner_text(), '公開案件があるのにA8.netを利用中ASPとして表示していません')

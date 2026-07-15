@@ -3,7 +3,7 @@ import { Analytics } from '@vercel/analytics/next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AnalyticsEvents from '@/components/AnalyticsEvents';
-import { siteConfig, isAdsenseEnabled } from '@/config/site';
+import { siteConfig, isAdsenseVerificationEnabled } from '@/config/site';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -48,7 +48,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ja">
       <head>
-        {isAdsenseEnabled && (
+        {isAdsenseVerificationEnabled && (
           <>
             <meta name="google-adsense-account" content={siteConfig.adsense.clientId ?? undefined} />
             <script

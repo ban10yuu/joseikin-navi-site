@@ -1,6 +1,6 @@
 import type { AffiliateIntent, Audience, Purpose } from '@/lib/types';
 
-export type AffiliatePageType = 'grant' | 'businessGuide' | 'comparison';
+export type AffiliatePageType = 'home' | 'grant' | 'businessGuide' | 'comparison';
 export type AffiliatePartnershipStatus = 'candidate' | 'applied' | 'partnered' | 'suspended';
 
 export interface AffiliateOffer {
@@ -35,7 +35,7 @@ export const AFFILIATE_OFFERS: AffiliateOffer[] = [
     offerName: 'クラウド会計ソフト【freee会計】', destinationUrl: 'https://px.a8.net/svt/ejp?a8mat=4B8111+7NNQMY+3SPO+9FL80Y',
     audiences: ['soleProprietor', 'business', 'nonprofit', 'localOrganization'],
     intents: ['accounting', 'businessPlanning'], allowedPurposes: ['startup', 'businessGrowth', 'digitalTransformation'],
-    blockedPurposes: SENSITIVE_PURPOSES, allowedPageTypes: ['grant', 'businessGuide'],
+    blockedPurposes: SENSITIVE_PURPOSES, allowedPageTypes: ['home', 'grant', 'businessGuide'],
     validFrom: '2026-07-15', validUntil: null, verifiedAt: '2026-07-15',
     disclosureText: '以下にはアフィリエイトリンクが含まれます。申込みが発生した場合、当サイトが紹介料を受け取ることがあります。',
     buttonText: 'サービスの詳細を見る（PR）', trackingId: '038',
@@ -46,7 +46,7 @@ export const AFFILIATE_OFFERS: AffiliateOffer[] = [
     offerName: 'クラウド勤怠管理【スマレジ・タイムカード】', destinationUrl: null,
     audiences: ['soleProprietor', 'business', 'nonprofit', 'localOrganization'],
     intents: ['attendance', 'payroll', 'humanResources'], allowedPurposes: ['businessGrowth', 'digitalTransformation', 'wageIncrease'],
-    blockedPurposes: SENSITIVE_PURPOSES, allowedPageTypes: ['grant', 'businessGuide'],
+    blockedPurposes: SENSITIVE_PURPOSES, allowedPageTypes: ['home', 'grant', 'businessGuide'],
     validFrom: null, validUntil: null, verifiedAt: '2026-07-15',
     disclosureText: '以下にはアフィリエイトリンクが含まれます。申込みが発生した場合、当サイトが紹介料を受け取ることがあります。',
     buttonText: 'サービスの詳細を見る（PR）', trackingId: null,
@@ -57,7 +57,7 @@ export const AFFILIATE_OFFERS: AffiliateOffer[] = [
     offerName: '電子契約サービス【KANBEI SIGN】', destinationUrl: 'https://px.a8.net/svt/ejp?a8mat=4B8111+81Y55M+3SPO+BETIUA',
     audiences: ['soleProprietor', 'business', 'nonprofit', 'localOrganization'],
     intents: ['electronicContract'], allowedPurposes: ['businessGrowth', 'digitalTransformation'],
-    blockedPurposes: SENSITIVE_PURPOSES, allowedPageTypes: ['grant', 'businessGuide'],
+    blockedPurposes: SENSITIVE_PURPOSES, allowedPageTypes: ['home', 'grant', 'businessGuide'],
     validFrom: '2026-07-15', validUntil: null, verifiedAt: '2026-07-15',
     disclosureText: '以下にはアフィリエイトリンクが含まれます。申込みが発生した場合、当サイトが紹介料を受け取ることがあります。',
     buttonText: 'サービスの詳細を見る（PR）', trackingId: '002',

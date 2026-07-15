@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
-import { AFFILIATE_LINK_REL, getEligibleAffiliateOffers, isAffiliateOfferPublishable, shouldRenderDisplayAd } from './monetization.ts';
+import { AFFILIATE_LINK_REL, getEligibleAffiliateOffers, isAffiliateOfferPublishable, shouldLoadAdsenseScript, shouldRenderDisplayAd } from './monetization.ts';
 
 const offer = {
   id: 'accounting-1', enabled: true, network: 'verified-network', advertiserName: '事業者',
@@ -16,6 +16,12 @@ describe('display ads', () => {
     assert.equal(shouldRenderDisplayAd(null, '123'), false);
     assert.equal(shouldRenderDisplayAd('ca-pub-123', null), false);
     assert.equal(shouldRenderDisplayAd('ca-pub-123', '456'), true);
+  });
+
+  it('AdSense所有権確認スクリプトはクライアントIDだけで読み込める', () => {
+    assert.equal(shouldLoadAdsenseScript(null), false);
+    assert.equal(shouldLoadAdsenseScript('  '), false);
+    assert.equal(shouldLoadAdsenseScript('ca-pub-123'), true);
   });
 });
 

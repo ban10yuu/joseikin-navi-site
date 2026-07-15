@@ -1,11 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import AffiliateRecommendation from '@/components/AffiliateRecommendation';
 import GrantCard from '@/components/GrantCard';
 import HomeGrantSearch from '@/components/HomeGrantSearch';
 import SubscribeForm from '@/components/SubscribeForm';
+import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
 import { siteConfig } from '@/config/site';
 import { getGrantQualityStats, getOfficialLinkedGrants, getRecentlyUpdatedGrants } from '@/lib/grants';
 import { getEffectiveGrantStatus } from '@/lib/grant-status';
+import { getEligibleAffiliateOffers } from '@/lib/monetization';
 import { isNewsletterEnabled } from '@/lib/newsletter';
 import { CATEGORY_LABELS, type GrantCategory } from '@/lib/types';
 import { CATEGORY_VISUALS, HOME_HERO_MOTIFS, ILLUSTRATION_VISUALS } from '@/lib/visual-assets';
@@ -30,6 +33,14 @@ export default function HomePage() {
     .sort((left, right) => (left.deadlineDate ?? '').localeCompare(right.deadlineDate ?? ''))
     .slice(0, 4);
   const newsletterEnabled = isNewsletterEnabled(siteConfig.newsletter.endpoint);
+  const heroAffiliate = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+    pageType: 'home', audiences: ['soleProprietor', 'business'], purposes: ['startup', 'businessGrowth', 'digitalTransformation'],
+    intents: ['accounting'], monetizationAllowed: true, limit: 1,
+  })[0];
+  const businessAffiliate = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+    pageType: 'home', audiences: ['soleProprietor', 'business'], purposes: ['businessGrowth', 'digitalTransformation'],
+    intents: ['electronicContract'], monetizationAllowed: true, limit: 1,
+  })[0];
 
   return (
     <>
@@ -55,6 +66,7 @@ export default function HomePage() {
             </div>
             <p className="home-hero-description">国・自治体・民間団体の公式情報をもとに、対象、支援内容、申請期限、確認先を整理しています。</p>
           </div>
+          {heroAffiliate && <div className="mx-auto mb-5 max-w-4xl"><AffiliateRecommendation offer={heroAffiliate} pageType="home" placement="home-hero" position={1} audience="business" purpose="businessGrowth" compact /></div>}
           <HomeGrantSearch totalCount={stats.total} officialLinkedCount={stats.officialLinked} />
           <p className="mx-auto mt-4 max-w-4xl text-center text-xs leading-6 text-slate-600">掲載情報だけで対象可否は確定しません。申請前に公式募集要項をご確認ください。</p>
           <ul className="home-trust-strip" aria-label="助成金ナビの情報方針">
@@ -78,6 +90,7 @@ export default function HomePage() {
               <Image src={ILLUSTRATION_VISUALS.business} alt="" width={640} height={640} className="home-audience-visual" sizes="(max-width: 640px) 120px, 180px" />
             </Link>
           </div>
+          {businessAffiliate && <div className="mt-5"><AffiliateRecommendation offer={businessAffiliate} pageType="home" placement="home-business-entry" position={1} audience="business" purpose="digitalTransformation" compact headingLevel="h3" /></div>}
         </div>
       </section>
 
