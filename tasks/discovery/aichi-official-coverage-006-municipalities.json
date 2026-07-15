@@ -1,0 +1,36 @@
+{
+  "batchId": "aichi-official-coverage-006",
+  "prefecture": "愛知県",
+  "municipalities": [
+    {
+      "code": "23226",
+      "name": "尾張旭市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.owariasahi.lg.jp/"
+    },
+    {
+      "code": "23227",
+      "name": "高浜市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.takahama.lg.jp/"
+    },
+    {
+      "code": "23228",
+      "name": "岩倉市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.iwakura.aichi.jp/"
+    },
+    {
+      "code": "23229",
+      "name": "豊明市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.toyoake.lg.jp/"
+    },
+    {
+      "code": "23230",
+      "name": "日進市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.nisshin.lg.jp/"
+    }
+  ]
+}
