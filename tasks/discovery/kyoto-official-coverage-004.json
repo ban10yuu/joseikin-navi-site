@@ -1,0 +1,50 @@
+{
+  "batchId": "kyoto-official-coverage-004",
+  "prefecture": "京都府",
+  "completedAt": "2026-07-15T22:58:00+09:00",
+  "municipalities": [
+    {
+      "code": "26303",
+      "name": "大山崎町",
+      "adopted": 14
+    },
+    {
+      "code": "26322",
+      "name": "久御山町",
+      "adopted": 22
+    },
+    {
+      "code": "26343",
+      "name": "井手町",
+      "adopted": 15
+    },
+    {
+      "code": "26344",
+      "name": "宇治田原町",
+      "adopted": 18
+    },
+    {
+      "code": "26364",
+      "name": "笠置町",
+      "adopted": 14
+    }
+  ],
+  "candidateCount": 362,
+  "linkLeadCount": 2040,
+  "adopted": 83,
+  "sourceUrlsChecked": 83,
+  "heldPolicy": "トップ、カテゴリ導線、共通ナビ、通常行政案内、申請書単体、計画・報告、公募・プロポーザル、広報、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。久御山町は公式カテゴリページと公式ドメイン限定検索結果を補完確認した。",
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for kyoto-official-coverage-004 JSON files",
+    "addedSlugUniqueness": "pass: 83 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 83 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16894, officialLinkedActive 16774, manuallyVerifiedActive 16774, 京都府 localOfficial 331)"
+  },
+  "next": {
+    "batchId": "kyoto-official-coverage-005",
+    "start": "26365和束町"
+  }
+}

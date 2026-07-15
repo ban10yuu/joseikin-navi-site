@@ -1,0 +1,37 @@
+{
+  "batchId": "kyoto-official-coverage-004",
+  "prefecture": "京都府",
+  "createdAt": "2026-07-15T22:28:00+09:00",
+  "municipalities": [
+    {
+      "code": "26303",
+      "name": "大山崎町",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.town.oyamazaki.kyoto.jp/"
+    },
+    {
+      "code": "26322",
+      "name": "久御山町",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.town.kumiyama.lg.jp/"
+    },
+    {
+      "code": "26343",
+      "name": "井手町",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.town.ide.kyoto.jp/"
+    },
+    {
+      "code": "26344",
+      "name": "宇治田原町",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.town.ujitawara.kyoto.jp/"
+    },
+    {
+      "code": "26364",
+      "name": "笠置町",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.town.kasagi.lg.jp/"
+    }
+  ]
+}

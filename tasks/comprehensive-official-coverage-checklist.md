@@ -10357,3 +10357,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16811、officialLinkedActive 16691、manuallyVerifiedActive 16691、京都府 localOfficial 248）
 - 到達点: 京都府は26100京都市から26214木津川市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 京都府公式棚卸し004として、26303大山崎町から再開
+
+
+### 京都府公式棚卸し004（26303大山崎町・26322久御山町・26343井手町・26344宇治田原町・26364笠置町）
+- 実施日: 2026-07-15
+- 候補: 362件（公式カテゴリリンクリード2040件、公式リスト83件、採用URL83本）
+- 採用: 83件（大山崎町14件、久御山町22件、井手町15件、宇治田原町18件、笠置町14件）
+- 公式URL: 採用URL到達確認は tasks/discovery/kyoto-official-coverage-004-url-status.txt に記録（83本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、通常行政案内、申請書単体、計画・報告、公募・プロポーザル、広報、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。久御山町は通常クロールで下位制度が薄かったため、公式カテゴリページと公式ドメイン限定検索結果で補完
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16894、officialLinkedActive 16774、manuallyVerifiedActive 16774、京都府 localOfficial 331）
+- 到達点: 京都府は26100京都市から26364笠置町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 京都府公式棚卸し005として、26365和束町から再開
