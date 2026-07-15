@@ -1,0 +1,36 @@
+{
+  "batchId": "shizuoka-official-coverage-005",
+  "prefecture": "静岡県",
+  "municipalities": [
+    {
+      "code": "22222",
+      "name": "伊豆市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.izu.shizuoka.jp/"
+    },
+    {
+      "code": "22223",
+      "name": "御前崎市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.omaezaki.shizuoka.jp/"
+    },
+    {
+      "code": "22224",
+      "name": "菊川市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.kikugawa.shizuoka.jp/"
+    },
+    {
+      "code": "22225",
+      "name": "伊豆の国市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.izunokuni.shizuoka.jp/"
+    },
+    {
+      "code": "22226",
+      "name": "牧之原市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.makinohara.shizuoka.jp/"
+    }
+  ]
+}

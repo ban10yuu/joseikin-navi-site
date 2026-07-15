@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T13:45:00+09:00",
+  "updatedAt": "2026-07-15T14:45:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "shizuoka-official-coverage-004",
-    "municipality": "御殿場市・袋井市・下田市・裾野市・湖西市",
+    "code": "shizuoka-official-coverage-005",
+    "municipality": "伊豆市・御前崎市・菊川市・伊豆の国市・牧之原市",
     "adopted": 65,
-    "held": 95,
+    "held": 266,
     "excluded": 0,
     "sourceUrlsChecked": 65,
     "validation": {
-      "previousMunicipality": "静岡県公式棚卸し004として、22215御殿場市・22216袋井市・22219下田市・22220裾野市・22221湖西市を確認した。候補160件、本文スニペット160件、公式カテゴリリンクリード338件、公式リスト21件を保存し、5自治体で各13件、合計65件を新規採用した。トップ、カテゴリ導線、共通ナビ、重複トピック、本文根拠が薄い候補は第2巡候補として保持。静岡県第1巡は22221湖西市まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "静岡県公式棚卸し005として、22222伊豆市・22223御前崎市・22224菊川市・22225伊豆の国市・22226牧之原市を確認した。候補331件、本文スニペット331件、公式カテゴリリンクリード163件、公式リスト21件を保存し、5自治体で各13件、合計65件を新規採用した。トップ、カテゴリ導線、共通ナビ、重複トピック、本文根拠が薄い候補は第2巡候補として保持。静岡県第1巡は22226牧之原市まで到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for shizuoka-official-coverage-004 JSON files and checkpoint",
+      "json": "pass: JSON.parse for shizuoka-official-coverage-005 JSON files and checkpoint",
       "addedSlugUniqueness": "pass: 65 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
       "urlReachability": "pass: 65 adopted official URLs returned HTTP 200 by interval fetch",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 14894, officialLinkedActive 14774, manuallyVerifiedActive 14774, 静岡県 localOfficial 344)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 14959, officialLinkedActive 14839, manuallyVerifiedActive 14839, 静岡県 localOfficial 409)"
     }
   },
   "next": {
-    "code": "shizuoka-official-coverage-005",
-    "municipality": "伊豆市",
-    "shortlist": "静岡県公式棚卸し004は御殿場市13件、袋井市13件、下田市13件、裾野市13件、湖西市13件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、22222伊豆市を開始地点として静岡県公式棚卸し005を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "shizuoka-official-coverage-006",
+    "municipality": "東伊豆町",
+    "shortlist": "静岡県公式棚卸し005は伊豆市13件、御前崎市13件、菊川市13件、伊豆の国市13件、牧之原市13件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、22301東伊豆町を開始地点として静岡県公式棚卸し006を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "静岡県",
     "status": "in-progress-first-pass",
-    "lastBatch": "shizuoka-official-coverage-004",
-    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20602栄村まで第1巡完了。岐阜県は21201岐阜市から21604白川村まで第1巡完了。静岡県は22101静岡市から22221湖西市まで到達。全国公式棚卸しは未完了。次は22222伊豆市から継続する。"
+    "lastBatch": "shizuoka-official-coverage-005",
+    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20602栄村まで第1巡完了。岐阜県は21201岐阜市から21604白川村まで第1巡完了。静岡県は22101静岡市から22226牧之原市まで到達。全国公式棚卸しは未完了。次は22301東伊豆町から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
