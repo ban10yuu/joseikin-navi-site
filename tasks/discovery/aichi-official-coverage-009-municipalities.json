@@ -1,0 +1,36 @@
+{
+  "batchId": "aichi-official-coverage-009",
+  "prefecture": "愛知県",
+  "municipalities": [
+    {
+      "code": "23361",
+      "name": "大口町",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.town.oguchi.lg.jp/"
+    },
+    {
+      "code": "23362",
+      "name": "扶桑町",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.town.fuso.lg.jp/"
+    },
+    {
+      "code": "23424",
+      "name": "大治町",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.town.oharu.aichi.jp/"
+    },
+    {
+      "code": "23425",
+      "name": "蟹江町",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.town.kanie.aichi.jp/"
+    },
+    {
+      "code": "23427",
+      "name": "飛島村",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.vill.tobishima.aichi.jp/"
+    }
+  ]
+}
