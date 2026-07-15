@@ -1,0 +1,16 @@
+{
+  "batchId": "gifu-official-coverage-006",
+  "linkLeadCount": 461,
+  "adoptedByMunicipality": {
+    "関ケ原町": 16,
+    "神戸町": 24,
+    "輪之内町": 20,
+    "安八町": 18,
+    "揖斐川町": 15
+  },
+  "officialListSources": [
+    "tasks/discovery/gifu-official-coverage-006-snippets.json",
+    "tasks/discovery/gifu-official-coverage-006-link-leads.json",
+    "tasks/discovery/gifu-official-coverage-006-verification-snippets.json"
+  ]
+}
