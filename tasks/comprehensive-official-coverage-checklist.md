@@ -10302,3 +10302,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16509、officialLinkedActive 16389、manuallyVerifiedActive 16389、滋賀県 localOfficial 240）
 - 到達点: 滋賀県は25201大津市から25211湖南市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 滋賀県公式棚卸し003として、25212高島市から再開
+
+
+### 滋賀県公式棚卸し003（25212高島市・25213東近江市・25214米原市・25383日野町・25384竜王町）
+- 実施日: 2026-07-15
+- 候補: 654件（公式カテゴリリンクリード203件、公式リスト70件、採用URL70本）
+- 採用: 70件（高島市10件、東近江市8件、米原市21件、日野町12件、竜王町19件）
+- 公式URL: 採用URL到達確認は tasks/discovery/shiga-official-coverage-003-url-status.txt に記録（70本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16579、officialLinkedActive 16459、manuallyVerifiedActive 16459、滋賀県 localOfficial 310）
+- 到達点: 滋賀県は25201大津市から25384竜王町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 滋賀県公式棚卸し004として、25425愛荘町から再開

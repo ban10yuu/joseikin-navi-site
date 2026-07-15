@@ -1,0 +1,36 @@
+{
+  "batchId": "shiga-official-coverage-003",
+  "prefecture": "滋賀県",
+  "municipalities": [
+    {
+      "code": "25212",
+      "name": "高島市",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.city.takashima.lg.jp/"
+    },
+    {
+      "code": "25213",
+      "name": "東近江市",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.city.higashiomi.shiga.jp/"
+    },
+    {
+      "code": "25214",
+      "name": "米原市",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.city.maibara.lg.jp/"
+    },
+    {
+      "code": "25383",
+      "name": "日野町",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.town.shiga-hino.lg.jp/"
+    },
+    {
+      "code": "25384",
+      "name": "竜王町",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.town.ryuoh.shiga.jp/"
+    }
+  ]
+}
