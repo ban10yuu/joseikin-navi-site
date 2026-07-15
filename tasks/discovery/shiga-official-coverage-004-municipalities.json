@@ -1,0 +1,31 @@
+{
+  "batchId": "shiga-official-coverage-004",
+  "prefecture": "滋賀県",
+  "createdAt": "2026-07-15T12:30:17.343Z",
+  "municipalities": [
+    {
+      "code": "25425",
+      "name": "愛荘町",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.town.aisho.shiga.jp/"
+    },
+    {
+      "code": "25441",
+      "name": "豊郷町",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.town.toyosato.shiga.jp/"
+    },
+    {
+      "code": "25442",
+      "name": "甲良町",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.kouratown.jp/"
+    },
+    {
+      "code": "25443",
+      "name": "多賀町",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.town.taga.lg.jp/"
+    }
+  ]
+}

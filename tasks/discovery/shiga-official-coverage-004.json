@@ -1,0 +1,50 @@
+{
+  "batchId": "shiga-official-coverage-004",
+  "prefecture": "滋賀県",
+  "completedAt": "2026-07-15T21:55:00+09:00",
+  "municipalities": [
+    {
+      "code": "25425",
+      "name": "愛荘町",
+      "adopted": 10
+    },
+    {
+      "code": "25441",
+      "name": "豊郷町",
+      "adopted": 5
+    },
+    {
+      "code": "25442",
+      "name": "甲良町",
+      "adopted": 10
+    },
+    {
+      "code": "25443",
+      "name": "多賀町",
+      "adopted": 23
+    }
+  ],
+  "discovery": {
+    "candidateCount": 294,
+    "linkLeadCount": 1238,
+    "selectedOfficialPages": 48,
+    "adoptedUrls": 48,
+    "held": 1190,
+    "explicitlyExcluded": 4
+  },
+  "heldPolicy": "トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、予算・議会・広報、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。",
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for shiga-official-coverage-004 JSON files",
+    "addedSlugUniqueness": "pass: 48 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 48 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16627, officialLinkedActive 16507, manuallyVerifiedActive 16507, 滋賀県 localOfficial 358)"
+  },
+  "next": {
+    "code": "kyoto-official-coverage-001",
+    "municipality": "京都市",
+    "instructions": "次回は京都府公式棚卸し001として、26100京都市から自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+  }
+}

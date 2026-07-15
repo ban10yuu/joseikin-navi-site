@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T21:25:00+09:00",
+  "updatedAt": "2026-07-15T21:55:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "shiga-official-coverage-003",
-    "municipality": "高島市・東近江市・米原市・日野町・竜王町",
-    "adopted": 70,
-    "held": 584,
-    "excluded": 3,
-    "sourceUrlsChecked": 70,
+    "code": "shiga-official-coverage-004",
+    "municipality": "愛荘町・豊郷町・甲良町・多賀町",
+    "adopted": 48,
+    "held": 1190,
+    "excluded": 4,
+    "sourceUrlsChecked": 48,
     "validation": {
-      "previousMunicipality": "滋賀県公式棚卸し003として、25212高島市・25213東近江市・25214米原市・25383日野町・25384竜王町を確認した。候補654件、公式カテゴリリンクリード203件、公式リスト70件を保存し、5市町で合計70件を新規採用した。トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。全国公式棚卸しは未完了。",
+      "previousMunicipality": "滋賀県公式棚卸し004として、25425愛荘町・25441豊郷町・25442甲良町・25443多賀町を確認した。候補294件、公式カテゴリリンクリード1238件、公式リスト48件を保存し、4町で合計48件を新規採用した。トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、予算・議会・広報、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。滋賀県は県内全市町の第1巡を完了。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for shiga-official-coverage-003 JSON files",
-      "addedSlugUniqueness": "pass: 70 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 70 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for shiga-official-coverage-004 JSON files",
+      "addedSlugUniqueness": "pass: 48 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 48 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16579, officialLinkedActive 16459, manuallyVerifiedActive 16459, 滋賀県 localOfficial 310)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16627, officialLinkedActive 16507, manuallyVerifiedActive 16507, 滋賀県 localOfficial 358)"
     }
   },
   "next": {
-    "code": "shiga-official-coverage-004",
-    "municipality": "愛荘町",
-    "shortlist": "滋賀県公式棚卸し003は高島市10件、東近江市8件、米原市21件、日野町12件、竜王町19件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、滋賀県公式棚卸し004として25425愛荘町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kyoto-official-coverage-001",
+    "municipality": "京都市",
+    "shortlist": "滋賀県公式棚卸し004は愛荘町10件、豊郷町5件、甲良町10件、多賀町23件を採用した。滋賀県は県内全市町の第1巡完了。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、京都府公式棚卸し001として26100京都市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "滋賀県",
-    "status": "in-progress-first-pass",
-    "lastBatch": "shiga-official-coverage-003",
-    "notes": "滋賀県公式棚卸し003で25212高島市・25213東近江市・25214米原市・25383日野町・25384竜王町を確認し、70件を新規採用した。次は25425愛荘町から再開する。"
+    "status": "first-pass-complete",
+    "lastBatch": "shiga-official-coverage-004",
+    "notes": "滋賀県公式棚卸し004で25425愛荘町・25441豊郷町・25442甲良町・25443多賀町を確認し、48件を新規採用した。滋賀県は25201大津市から25443多賀町まで県内全市町の第1巡を完了。次は京都府26100京都市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
