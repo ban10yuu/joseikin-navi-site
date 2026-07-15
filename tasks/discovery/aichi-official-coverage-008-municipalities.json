@@ -1,0 +1,36 @@
+{
+  "batchId": "aichi-official-coverage-008",
+  "prefecture": "愛知県",
+  "municipalities": [
+    {
+      "code": "23236",
+      "name": "みよし市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.aichi-miyoshi.lg.jp/"
+    },
+    {
+      "code": "23237",
+      "name": "あま市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.ama.aichi.jp/"
+    },
+    {
+      "code": "23238",
+      "name": "長久手市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.nagakute.lg.jp/"
+    },
+    {
+      "code": "23302",
+      "name": "東郷町",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.town.aichi-togo.lg.jp/"
+    },
+    {
+      "code": "23342",
+      "name": "豊山町",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.town.toyoyama.lg.jp/"
+    }
+  ]
+}
