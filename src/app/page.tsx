@@ -61,10 +61,6 @@ export default function HomePage() {
     pageType: 'home', audiences: ['soleProprietor', 'business'], purposes: ['startup', 'businessGrowth', 'digitalTransformation'],
     intents: ['accounting'], monetizationAllowed: true, limit: 1,
   })[0];
-  const businessAffiliate = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
-    pageType: 'home', audiences: ['soleProprietor', 'business'], purposes: ['businessGrowth', 'digitalTransformation'],
-    intents: ['electronicContract'], monetizationAllowed: true, limit: 1,
-  })[0];
 
   return (
     <>
@@ -124,23 +120,6 @@ export default function HomePage() {
             <li><span aria-hidden="true">✓</span> 制度ごとに公式ページを案内</li>
             <li><span aria-hidden="true">✓</span> 自動照合日と人手確認を区別</li>
           </ul>
-        </div>
-      </section>
-
-      <section className="border-b border-line bg-white py-10 sm:py-14" aria-labelledby="audience-heading">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <div className="home-section-heading text-center"><p>対象から近道</p><h2 id="audience-heading">あなたに近い入口を選んでください</h2></div>
-          <div className="grid gap-4 md:grid-cols-2">
-            <Link href="/grants/?audience=individual" className="group grid min-h-44 grid-cols-[minmax(0,1fr)_130px] items-center gap-4 rounded-2xl border-2 border-blue-200 bg-blue-50 p-5 transition hover:border-blue-600 hover:bg-white sm:grid-cols-[minmax(0,1fr)_180px]">
-              <div><p className="text-xs font-bold text-blue-700">暮らし・家族・学び</p><h3 className="mt-1 text-xl font-black text-navy">個人・家族向け</h3><p className="mt-2 text-sm leading-7 text-slate-600">子育て、住まい、医療、教育、生活支援などから探せます。</p><span className="mt-3 inline-flex font-bold text-blue-800 underline underline-offset-4">個人・家族向けを探す →</span></div>
-              <Image src={ILLUSTRATION_VISUALS.individual} alt="" width={640} height={640} className="home-audience-visual" sizes="(max-width: 640px) 120px, 180px" />
-            </Link>
-            <Link href="/grants/?audience=business" className="group grid min-h-44 grid-cols-[minmax(0,1fr)_130px] items-center gap-4 rounded-2xl border-2 border-emerald-200 bg-emerald-50 p-5 transition hover:border-emerald-700 hover:bg-white sm:grid-cols-[minmax(0,1fr)_180px]">
-              <div><p className="text-xs font-bold text-emerald-800">創業・雇用・設備投資</p><h3 className="mt-1 text-xl font-black text-navy">事業者・団体向け</h3><p className="mt-2 text-sm leading-7 text-slate-600">創業、事業成長、デジタル化、省エネ、雇用などから探せます。</p><span className="mt-3 inline-flex font-bold text-emerald-900 underline underline-offset-4">事業者・団体向けを探す →</span></div>
-              <Image src={ILLUSTRATION_VISUALS.business} alt="" width={640} height={640} className="home-audience-visual" sizes="(max-width: 640px) 120px, 180px" />
-            </Link>
-          </div>
-          {businessAffiliate && <div className="mt-5"><AffiliateRecommendation offer={businessAffiliate} pageType="home" placement="home-business-entry" position={1} audience="business" purpose="digitalTransformation" compact headingLevel="h3" /></div>}
         </div>
       </section>
 
