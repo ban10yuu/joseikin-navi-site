@@ -1,0 +1,28 @@
+{
+  "batchId": "mie-official-coverage-001",
+  "prefecture": "三重県",
+  "municipalities": [
+    "24201津市",
+    "24202四日市市",
+    "24203伊勢市",
+    "24204松阪市",
+    "24205桑名市"
+  ],
+  "candidateCount": 1323,
+  "linkLeads": 442,
+  "detailSnippets": 900,
+  "detailShortlist": 752,
+  "adopted": 75,
+  "held": 677,
+  "sourceUrlsChecked": 75,
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for mie-official-coverage-001 JSON files and checkpoint",
+    "addedSlugUniqueness": "pass: 75 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+    "urlReachability": "pass: 75 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16025, officialLinkedActive 15905, manuallyVerifiedActive 15905, 三重県 localOfficial 166)"
+  },
+  "notes": "津市・四日市市・伊勢市・松阪市・桑名市を自治体コード順に確認し、各15件、計75件を採用。トップ、カテゴリ、サイトマップ、共通ナビ、通常行政案内、受付終了のみ、本文根拠が薄い候補は第2巡候補に保持。"
+}
