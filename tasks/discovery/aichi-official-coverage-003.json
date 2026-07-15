@@ -1,0 +1,48 @@
+{
+  "batchId": "aichi-official-coverage-003",
+  "prefecture": "愛知県",
+  "municipalities": [
+    "刈谷市",
+    "豊田市",
+    "安城市",
+    "西尾市",
+    "蒲郡市"
+  ],
+  "generatedAt": "2026-07-15T07:22:56.469Z",
+  "artifacts": [
+    "tasks/discovery/aichi-official-coverage-003-municipalities.json",
+    "tasks/discovery/aichi-official-coverage-003-candidates.json",
+    "tasks/discovery/aichi-official-coverage-003-link-leads.json",
+    "tasks/discovery/aichi-official-coverage-003-detail-snippets.json",
+    "tasks/discovery/aichi-official-coverage-003-detail-shortlist.csv",
+    "tasks/discovery/aichi-official-coverage-003-entries.json",
+    "tasks/discovery/aichi-official-coverage-003-adopted-urls.json",
+    "tasks/discovery/aichi-official-coverage-003-official-lists.json",
+    "tasks/discovery/aichi-official-coverage-003-url-status.txt"
+  ],
+  "summary": {
+    "candidateCount": 840,
+    "seedUrls": 831,
+    "linkLeads": 2231,
+    "detailSnippets": 2231,
+    "adopted": 75,
+    "adoptedByMunicipality": {
+      "刈谷市": 15,
+      "豊田市": 15,
+      "安城市": 15,
+      "西尾市": 15,
+      "蒲郡市": 15
+    },
+    "held": 2156
+  },
+  "status": "validated-pass",
+  "validation": {
+    "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
+    "json": "pass: JSON.parse for aichi-official-coverage-003 JSON files and checkpoint",
+    "addedSlugUniqueness": "pass: 75 added slugs, duplicateCount 0",
+    "urlReachability": "pass: 75 adopted official URLs returned HTTP 200",
+    "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
+    "diffCheck": "pass: git diff --check",
+    "auditCoverage": "pass: npm run audit:coverage (failures 0)"
+  }
+}

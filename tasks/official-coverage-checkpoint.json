@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T16:55:00+09:00",
+  "updatedAt": "2026-07-15T17:25:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "aichi-official-coverage-002",
-    "municipality": "半田市・春日井市・豊川市・津島市・碧南市",
-    "adopted": 71,
-    "held": 684,
+    "code": "aichi-official-coverage-003",
+    "municipality": "刈谷市・豊田市・安城市・西尾市・蒲郡市",
+    "adopted": 75,
+    "held": 2156,
     "excluded": 0,
-    "sourceUrlsChecked": 71,
+    "sourceUrlsChecked": 75,
     "validation": {
-      "previousMunicipality": "愛知県公式棚卸し002として、23205半田市・23206春日井市・23207豊川市・23208津島市・23209碧南市を確認した。候補391件、公式カテゴリリンクリード755件、詳細スニペット755件、公式リスト71件を保存し、5市で合計71件を新規採用した。トップ、カテゴリ導線、共通ナビ、広報・採用・イベント・申請書・要綱・手続専用ページ・既存URL重複・本文根拠が薄い候補は第2巡候補として保持。愛知県第1巡は23209碧南市まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "愛知県公式棚卸し003として、23210刈谷市・23211豊田市・23212安城市・23213西尾市・23214蒲郡市を確認した。候補840件、公式カテゴリリンクリード2231件、詳細スニペット2231件、公式リスト75件を保存し、5市で合計75件を新規採用した。トップ、カテゴリ導線、共通ナビ、広報・採用・イベント・申請書・要綱・手続専用ページ・PDF資料・本文根拠が薄い候補は第2巡候補として保持。愛知県第1巡は23214蒲郡市まで到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for aichi-official-coverage-002 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 71 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 71 adopted official URLs returned HTTP 200 by interval fetch",
+      "json": "pass: JSON.parse for aichi-official-coverage-003 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 75 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 75 adopted official URLs returned HTTP 200 by interval fetch",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 15290, officialLinkedActive 15170, manuallyVerifiedActive 15170, 愛知県 localOfficial 243)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 15365, officialLinkedActive 15245, manuallyVerifiedActive 15245, 愛知県 localOfficial 318)"
     }
   },
   "next": {
-    "code": "aichi-official-coverage-003",
-    "municipality": "刈谷市",
-    "shortlist": "愛知県公式棚卸し002は半田市18件、春日井市13件、豊川市8件、津島市14件、碧南市18件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、23210刈谷市を開始地点として愛知県公式棚卸し003を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "aichi-official-coverage-004",
+    "municipality": "犬山市",
+    "shortlist": "愛知県公式棚卸し003は刈谷市15件、豊田市15件、安城市15件、西尾市15件、蒲郡市15件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、23215犬山市を開始地点として愛知県公式棚卸し004を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "愛知県",
     "status": "in-progress-first-pass",
-    "lastBatch": "aichi-official-coverage-002",
-    "notes": "愛知県公式棚卸し002で23205半田市・23206春日井市・23207豊川市・23208津島市・23209碧南市を確認し、71件を新規採用した。愛知県は23209碧南市まで第1巡到達。全国公式棚卸しは未完了。次は23210刈谷市から愛知県公式棚卸し003を開始する。"
+    "lastBatch": "aichi-official-coverage-003",
+    "notes": "愛知県公式棚卸し003で23210刈谷市・23211豊田市・23212安城市・23213西尾市・23214蒲郡市を確認し、75件を新規採用した。愛知県は23214蒲郡市まで第1巡到達。全国公式棚卸しは未完了。次は23215犬山市から愛知県公式棚卸し004を開始する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

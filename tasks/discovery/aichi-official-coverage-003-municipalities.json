@@ -1,0 +1,36 @@
+{
+  "batchId": "aichi-official-coverage-003",
+  "prefecture": "愛知県",
+  "municipalities": [
+    {
+      "code": "23210",
+      "name": "刈谷市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.kariya.lg.jp/"
+    },
+    {
+      "code": "23211",
+      "name": "豊田市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.toyota.aichi.jp/"
+    },
+    {
+      "code": "23212",
+      "name": "安城市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.anjo.aichi.jp/"
+    },
+    {
+      "code": "23213",
+      "name": "西尾市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.nishio.aichi.jp/"
+    },
+    {
+      "code": "23214",
+      "name": "蒲郡市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.gamagori.lg.jp/"
+    }
+  ]
+}
