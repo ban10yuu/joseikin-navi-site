@@ -1,0 +1,36 @@
+{
+  "batchId": "shizuoka-official-coverage-007",
+  "prefecture": "静岡県",
+  "municipalities": [
+    {
+      "code": "22325",
+      "name": "函南町",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.town.kannami.shizuoka.jp/"
+    },
+    {
+      "code": "22341",
+      "name": "清水町",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.town.shimizu.shizuoka.jp/"
+    },
+    {
+      "code": "22342",
+      "name": "長泉町",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.town.nagaizumi.lg.jp/"
+    },
+    {
+      "code": "22344",
+      "name": "小山町",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.fuji-oyama.jp/"
+    },
+    {
+      "code": "22424",
+      "name": "吉田町",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.town.yoshida.shizuoka.jp/"
+    }
+  ]
+}
