@@ -1,0 +1,36 @@
+{
+  "batchId": "shiga-official-coverage-001",
+  "prefecture": "滋賀県",
+  "municipalities": [
+    {
+      "code": "25201",
+      "name": "大津市",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.city.otsu.lg.jp/"
+    },
+    {
+      "code": "25202",
+      "name": "彦根市",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.city.hikone.lg.jp/"
+    },
+    {
+      "code": "25203",
+      "name": "長浜市",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.city.nagahama.lg.jp/"
+    },
+    {
+      "code": "25204",
+      "name": "近江八幡市",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.city.omihachiman.lg.jp/"
+    },
+    {
+      "code": "25206",
+      "name": "草津市",
+      "prefecture": "滋賀県",
+      "officialBaseUrl": "https://www.city.kusatsu.shiga.jp/"
+    }
+  ]
+}

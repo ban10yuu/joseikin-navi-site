@@ -10280,3 +10280,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16357、officialLinkedActive 16237、manuallyVerifiedActive 16237、三重県 localOfficial 498）
 - 到達点: 三重県は24201津市から24562紀宝町まで第1巡到達し、県内全市区町村の第1巡完了。全国公式棚卸しは未完了
 - 次回: 滋賀県公式棚卸し001として、25201大津市から再開
+
+
+### 滋賀県公式棚卸し001（25201大津市・25202彦根市・25203長浜市・25204近江八幡市・25206草津市）
+- 実施日: 2026-07-15
+- 候補: 568件（公式カテゴリリンクリード581件、公式リスト80件、採用URL80本）
+- 採用: 80件（大津市18件、彦根市17件、長浜市15件、近江八幡市11件、草津市19件）
+- 公式URL: 採用URL到達確認は tasks/discovery/shiga-official-coverage-001-url-status.txt に記録（80本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16437、officialLinkedActive 16317、manuallyVerifiedActive 16317、滋賀県 localOfficial 168）
+- 到達点: 滋賀県は25201大津市から25206草津市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 滋賀県公式棚卸し002として、25207守山市から再開
