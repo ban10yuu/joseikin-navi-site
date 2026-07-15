@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T10:44:00+09:00",
+  "updatedAt": "2026-07-15T11:20:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "gifu-official-coverage-007",
-    "municipality": "大野町・池田町・北方町・坂祝町・富加町",
-    "adopted": 110,
-    "held": 353,
+    "code": "gifu-official-coverage-008",
+    "municipality": "川辺町・七宗町・八百津町・白川町・東白川村",
+    "adopted": 99,
+    "held": 780,
     "excluded": 0,
-    "sourceUrlsChecked": 107,
+    "sourceUrlsChecked": 99,
     "validation": {
-      "previousMunicipality": "岐阜県公式棚卸し007として、21403大野町・21404池田町・21421北方町・21501坂祝町・21502富加町を確認した。候補463件、本文スニペット463件、公式カテゴリリンクリード454件、選定検証257件を保存し、合計110件を新規採用した。外部サイト、カテゴリ導線、申請書単体、本文根拠が薄い候補は第2巡候補として保持。岐阜県第1巡は21502富加町まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "岐阜県公式棚卸し008として、21503川辺町・21504七宗町・21505八百津町・21506白川町・21507東白川村を確認した。候補879件、本文スニペット879件、公式カテゴリリンクリード680件、選定検証320件を保存し、合計99件を新規採用した。外部サイト、カテゴリ導線、申請書単体、本文根拠が薄い候補は第2巡候補として保持。岐阜県第1巡は21507東白川村まで到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for gifu-official-coverage-007 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 110 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 107 unique adopted official URLs returned HTTP 200 by interval fetch",
+      "json": "pass: JSON.parse for gifu-official-coverage-008 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 99 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 99 unique adopted official URLs returned HTTP 200 by interval fetch",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 14535, officialLinkedActive 14415, manuallyVerifiedActive 14415, 岐阜県 localOfficial 605)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 14634, officialLinkedActive 14514, manuallyVerifiedActive 14514, 岐阜県 localOfficial 704)"
     }
   },
   "next": {
-    "code": "gifu-official-coverage-008",
-    "municipality": "川辺町",
-    "shortlist": "岐阜県公式棚卸し007は大野町31件、池田町38件、北方町6件、坂祝町10件、富加町25件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、21503川辺町を開始地点として岐阜県公式棚卸し008を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "gifu-official-coverage-009",
+    "municipality": "御嵩町",
+    "shortlist": "岐阜県公式棚卸し008は川辺町23件、七宗町27件、八百津町12件、白川町27件、東白川村10件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、21521御嵩町を開始地点として岐阜県公式棚卸し009を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "岐阜県",
     "status": "in-progress-first-pass",
-    "lastBatch": "gifu-official-coverage-007",
-    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20602栄村まで第1巡完了。岐阜県は21201岐阜市から21502富加町まで到達。全国公式棚卸しは未完了。次は21503川辺町から継続する。"
+    "lastBatch": "gifu-official-coverage-008",
+    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20602栄村まで第1巡完了。岐阜県は21201岐阜市から21507東白川村まで到達。全国公式棚卸しは未完了。次は21521御嵩町から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

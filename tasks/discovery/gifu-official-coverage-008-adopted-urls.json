@@ -1,0 +1,806 @@
+{
+  "batchId": "gifu-official-coverage-008",
+  "generatedAt": "2026-07-15T02:23:25.250Z",
+  "adoptedCount": 99,
+  "counts": {
+    "川辺町": 23,
+    "七宗町": 27,
+    "八百津町": 12,
+    "白川町": 27,
+    "東白川村": 10
+  },
+  "adoptedUrls": [
+    {
+      "slug": "gifu-official-008-001-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 子育て世帯定住促進助成金",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=47302",
+      "sourceName": "川辺町 子育て世帯定住促進助成金"
+    },
+    {
+      "slug": "gifu-official-008-002-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 農地防護柵設置事業補助金",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=41953",
+      "sourceName": "川辺町 農地防護柵設置事業補助金"
+    },
+    {
+      "slug": "gifu-official-008-003-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 合併処理浄化槽の補助金制度",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=1557",
+      "sourceName": "川辺町 合併処理浄化槽の補助金制度"
+    },
+    {
+      "slug": "gifu-official-008-004-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 母子家庭等医療費助成制度",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=1607",
+      "sourceName": "川辺町 母子家庭等医療費助成制度"
+    },
+    {
+      "slug": "gifu-official-008-005-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 乳幼児等医療費助成制度",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=1604",
+      "sourceName": "川辺町 乳幼児等医療費助成制度"
+    },
+    {
+      "slug": "gifu-official-008-006-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 重度心身障がい者医療費助成制度",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=1600",
+      "sourceName": "川辺町 重度心身障がい者医療費助成制度"
+    },
+    {
+      "slug": "gifu-official-008-007-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 父子家庭等医療費助成制度",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=1609",
+      "sourceName": "川辺町 父子家庭等医療費助成制度"
+    },
+    {
+      "slug": "gifu-official-008-008-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 福祉医療費助成制度",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=1598",
+      "sourceName": "川辺町 福祉医療費助成制度"
+    },
+    {
+      "slug": "gifu-official-008-009-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 空き家バンク登録物件改修事業補助金",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=16926",
+      "sourceName": "川辺町 空き家バンク登録物件改修事業補助金"
+    },
+    {
+      "slug": "gifu-official-008-010-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 中小企業退職金共済掛金補助金",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=28644",
+      "sourceName": "川辺町 中小企業退職金共済掛金補助金"
+    },
+    {
+      "slug": "gifu-official-008-011-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 ごみ収納箱設置補助金",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=35867",
+      "sourceName": "川辺町 ごみ収納箱設置補助金"
+    },
+    {
+      "slug": "gifu-official-008-012-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 福祉人材確保等補助金",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=46968",
+      "sourceName": "川辺町 福祉人材確保等補助金"
+    },
+    {
+      "slug": "gifu-official-008-013-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 家庭廃棄物処理装置購入補助金",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=4815",
+      "sourceName": "川辺町 家庭廃棄物処理装置購入補助金"
+    },
+    {
+      "slug": "gifu-official-008-014-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 小規模企業者事業所等整備補助金",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=61505",
+      "sourceName": "川辺町 小規模企業者事業所等整備補助金"
+    },
+    {
+      "slug": "gifu-official-008-015-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 感震ブレーカー設置補助金",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=62942",
+      "sourceName": "川辺町 感震ブレーカー設置補助金"
+    },
+    {
+      "slug": "gifu-official-008-016-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 防災士資格取得補助金",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=7932",
+      "sourceName": "川辺町 防災士資格取得補助金"
+    },
+    {
+      "slug": "gifu-official-008-017-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 特別障害者手当・障害児福祉手当",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=1590",
+      "sourceName": "川辺町 特別障害者手当・障害児福祉手当"
+    },
+    {
+      "slug": "gifu-official-008-018-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 特別児童扶養手当",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=1588",
+      "sourceName": "川辺町 特別児童扶養手当"
+    },
+    {
+      "slug": "gifu-official-008-019-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 児童手当",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=1033",
+      "sourceName": "川辺町 児童手当"
+    },
+    {
+      "slug": "gifu-official-008-020-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 児童扶養手当",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=1035",
+      "sourceName": "川辺町 児童扶養手当"
+    },
+    {
+      "slug": "gifu-official-008-021-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 企業立地促進奨励金制度",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=3800",
+      "sourceName": "川辺町 企業立地促進奨励金制度"
+    },
+    {
+      "slug": "gifu-official-008-022-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 がん患者医療用補正具購入費助成事業",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=30311",
+      "sourceName": "川辺町 がん患者医療用補正具購入費助成事業"
+    },
+    {
+      "slug": "gifu-official-008-023-2026",
+      "municipalityCode": "21503",
+      "municipalityName": "川辺町",
+      "title": "川辺町 空家解体支援事業補助",
+      "officialUrl": "https://www.kawabe-gifu.jp/?page_id=61858",
+      "sourceName": "川辺町 空家解体支援事業補助"
+    },
+    {
+      "slug": "gifu-official-008-024-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 定額減税補足給付金（不足額給付分）",
+      "officialUrl": "https://www.hichiso.jp/fr7so/frzeimu/zyumin250908/",
+      "sourceName": "七宗町 定額減税補足給付金（不足額給付分）"
+    },
+    {
+      "slug": "gifu-official-008-025-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 定額減税調整給付金",
+      "officialUrl": "https://www.hichiso.jp/fr7so/frzyumin/%e4%bb%a4%e5%92%8c6%e5%b9%b4%e5%ba%a6%e3%80%8c%e5%ae%9a%e9%a1%8d%e6%b8%9b%e7%a8%8e%e3%81%97%e3%81%8d%e3%82%8c%e3%81%aa%e3%81%84%e3%81%a8%e8%a6%8b%e8%be%bc%e3%81%be%e3%82%8c%e3%82%8b%e6%96%b9%e3%80%8d/",
+      "sourceName": "七宗町 定額減税調整給付金"
+    },
+    {
+      "slug": "gifu-official-008-026-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 一部負担金の減免および徴収猶予",
+      "officialUrl": "https://www.hichiso.jp/fpage/pzeimu/%e4%b8%80%e9%83%a8%e8%b2%a0%e6%8b%85%e9%87%91%e3%81%ae%e6%b8%9b%e5%85%8d%e3%81%8a%e3%82%88%e3%81%b3%e5%be%b4%e5%8f%8e%e7%8c%b6%e4%ba%88%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+      "sourceName": "七宗町 一部負担金の減免および徴収猶予"
+    },
+    {
+      "slug": "gifu-official-008-027-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 資格取得助成金",
+      "officialUrl": "https://www.hichiso.jp/fpage/life/life190318/",
+      "sourceName": "七宗町 資格取得助成金"
+    },
+    {
+      "slug": "gifu-official-008-028-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 住民税非課税世帯臨時特別給付金",
+      "officialUrl": "https://www.hichiso.jp/fr7so/frzyumin/koken240401/",
+      "sourceName": "七宗町 住民税非課税世帯臨時特別給付金"
+    },
+    {
+      "slug": "gifu-official-008-029-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 生ごみ堆肥化装置購入補助金",
+      "officialUrl": "https://www.hichiso.jp/fpage/dust/composit/",
+      "sourceName": "七宗町 生ごみ堆肥化装置購入補助金"
+    },
+    {
+      "slug": "gifu-official-008-030-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 骨髄移植ドナー等助成金",
+      "officialUrl": "https://www.hichiso.jp/fpage/kaigo/fukusi240502/",
+      "sourceName": "七宗町 骨髄移植ドナー等助成金"
+    },
+    {
+      "slug": "gifu-official-008-031-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 移住奨励金",
+      "officialUrl": "https://www.hichiso.jp/fpage/support/%e2%98%85%e4%b8%83%e5%ae%97%e7%94%ba%e3%81%ab%e7%a7%bb%e4%bd%8f%e3%81%97%e3%81%9f%e6%96%b9%e3%81%ab%e5%af%be%e3%81%97%e3%81%a6%e5%a5%a8%e5%8a%b1%e9%87%91%e3%81%8c%e6%94%af%e7%b5%a6%e3%81%95%e3%82%8c/",
+      "sourceName": "七宗町 移住奨励金"
+    },
+    {
+      "slug": "gifu-official-008-032-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 住宅用太陽光発電システム設置事業補助金",
+      "officialUrl": "https://www.hichiso.jp/fr7so/frdoboku/water251004/",
+      "sourceName": "七宗町 住宅用太陽光発電システム設置事業補助金"
+    },
+    {
+      "slug": "gifu-official-008-033-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 高校生等通学費補助金",
+      "officialUrl": "https://www.hichiso.jp/fr7so/frkyouiku/edu250801/",
+      "sourceName": "七宗町 高校生等通学費補助金"
+    },
+    {
+      "slug": "gifu-official-008-034-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 転作奨励金",
+      "officialUrl": "https://www.hichiso.jp/fr7so/frnourin/agri260325/",
+      "sourceName": "七宗町 転作奨励金"
+    },
+    {
+      "slug": "gifu-official-008-035-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 農業振興パイプハウス設置補助金",
+      "officialUrl": "https://www.hichiso.jp/fr7so/frnourin/noumu240321/",
+      "sourceName": "七宗町 農業振興パイプハウス設置補助金"
+    },
+    {
+      "slug": "gifu-official-008-036-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 農作物鳥獣防除対策補助金",
+      "officialUrl": "https://www.hichiso.jp/fr7so/frnourin/noumu636/",
+      "sourceName": "七宗町 農作物鳥獣防除対策補助金"
+    },
+    {
+      "slug": "gifu-official-008-037-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 薪購入補助金",
+      "officialUrl": "https://www.hichiso.jp/fr7so/frnourin/sinkou230131a/",
+      "sourceName": "七宗町 薪購入補助金"
+    },
+    {
+      "slug": "gifu-official-008-038-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 薪割り機購入補助金",
+      "officialUrl": "https://www.hichiso.jp/fr7so/frnourin/sinkou230131b/",
+      "sourceName": "七宗町 薪割り機購入補助金"
+    },
+    {
+      "slug": "gifu-official-008-039-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 薪ストーブ等導入促進事業補助金",
+      "officialUrl": "https://www.hichiso.jp/fr7so/frnourin/sinkou230131c/",
+      "sourceName": "七宗町 薪ストーブ等導入促進事業補助金"
+    },
+    {
+      "slug": "gifu-official-008-040-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 耐震シェルター設置補助金",
+      "officialUrl": "https://www.hichiso.jp/fr7so/frsoum/bousai250522/",
+      "sourceName": "七宗町 耐震シェルター設置補助金"
+    },
+    {
+      "slug": "gifu-official-008-041-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 住民税非課税世帯追加給付金",
+      "officialUrl": "https://www.hichiso.jp/fr7so/frzyumin/zyumin250408/",
+      "sourceName": "七宗町 住民税非課税世帯追加給付金"
+    },
+    {
+      "slug": "gifu-official-008-042-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 幼児用補助装置購入費等補助金",
+      "officialUrl": "https://www.hichiso.jp/fr7so/kenfuku/kenfuku2/%e4%b8%83%e5%ae%97%e7%94%ba%e5%b9%bc%e5%85%90%e7%94%a8%e8%a3%9c%e5%8a%a9%e8%a3%85%e7%bd%ae%e8%b3%bc%e5%85%a5%e8%b2%bb%e7%ad%89%e8%a3%9c%e5%8a%a9%e9%87%91%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+      "sourceName": "七宗町 幼児用補助装置購入費等補助金"
+    },
+    {
+      "slug": "gifu-official-008-043-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 福祉医療費助成制度",
+      "officialUrl": "https://www.hichiso.jp/fr7so/kenfuku/kenfuku2/fukusi241227/",
+      "sourceName": "七宗町 福祉医療費助成制度"
+    },
+    {
+      "slug": "gifu-official-008-044-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 高齢者肺炎球菌予防接種費助成",
+      "officialUrl": "https://www.hichiso.jp/fpage/kaigo/medical240621/",
+      "sourceName": "七宗町 高齢者肺炎球菌予防接種費助成"
+    },
+    {
+      "slug": "gifu-official-008-045-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 移住定住奨励金",
+      "officialUrl": "https://www.hichiso.jp/fpage/pizyu/izyu241006/",
+      "sourceName": "七宗町 移住定住奨励金"
+    },
+    {
+      "slug": "gifu-official-008-046-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 高等学校就学準備等支援金",
+      "officialUrl": "https://www.hichiso.jp/fr7so/kenfuku/kenfuku2/fukusi230920/",
+      "sourceName": "七宗町 高等学校就学準備等支援金"
+    },
+    {
+      "slug": "gifu-official-008-047-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 児童手当制度",
+      "officialUrl": "https://www.hichiso.jp/fr7so/kenfuku/kenfuku2/fukusi240920/",
+      "sourceName": "七宗町 児童手当制度"
+    },
+    {
+      "slug": "gifu-official-008-048-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 物価高対応子育て応援手当",
+      "officialUrl": "https://www.hichiso.jp/fr7so/kenfuku/kenfuku2/fukusi260120/",
+      "sourceName": "七宗町 物価高対応子育て応援手当"
+    },
+    {
+      "slug": "gifu-official-008-049-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 水道料金減免",
+      "officialUrl": "https://www.hichiso.jp/fr7so/water/water260220/",
+      "sourceName": "七宗町 水道料金減免"
+    },
+    {
+      "slug": "gifu-official-008-050-2026",
+      "municipalityCode": "21504",
+      "municipalityName": "七宗町",
+      "title": "七宗町 特定不妊治療・不育症検査等助成",
+      "officialUrl": "https://www.hichiso.jp/fpage/bosi/bosi240502/",
+      "sourceName": "七宗町 特定不妊治療・不育症検査等助成"
+    },
+    {
+      "slug": "gifu-official-008-051-2026",
+      "municipalityCode": "21505",
+      "municipalityName": "八百津町",
+      "title": "八百津町 不育治療助成事業",
+      "officialUrl": "https://www.town.yaotsu.lg.jp/2205.htm",
+      "sourceName": "八百津町 不育治療助成事業"
+    },
+    {
+      "slug": "gifu-official-008-052-2026",
+      "municipalityCode": "21505",
+      "municipalityName": "八百津町",
+      "title": "八百津町 新生児聴覚検査助成",
+      "officialUrl": "https://www.town.yaotsu.lg.jp/1380.htm",
+      "sourceName": "八百津町 新生児聴覚検査助成"
+    },
+    {
+      "slug": "gifu-official-008-053-2026",
+      "municipalityCode": "21505",
+      "municipalityName": "八百津町",
+      "title": "八百津町 乳幼児医療費助成制度",
+      "officialUrl": "https://www.town.yaotsu.lg.jp/1320.htm",
+      "sourceName": "八百津町 乳幼児医療費助成制度"
+    },
+    {
+      "slug": "gifu-official-008-054-2026",
+      "municipalityCode": "21505",
+      "municipalityName": "八百津町",
+      "title": "八百津町 児童手当",
+      "officialUrl": "https://www.town.yaotsu.lg.jp/1295.htm",
+      "sourceName": "八百津町 児童手当"
+    },
+    {
+      "slug": "gifu-official-008-055-2026",
+      "municipalityCode": "21505",
+      "municipalityName": "八百津町",
+      "title": "八百津町 ひとり親の方への金銭的支援",
+      "officialUrl": "https://www.town.yaotsu.lg.jp/2209.htm",
+      "sourceName": "八百津町 ひとり親の方への金銭的支援"
+    },
+    {
+      "slug": "gifu-official-008-056-2026",
+      "municipalityCode": "21505",
+      "municipalityName": "八百津町",
+      "title": "八百津町 未熟児・障がい・難病のある子どもへの金銭的支援",
+      "officialUrl": "https://www.town.yaotsu.lg.jp/3233.htm",
+      "sourceName": "八百津町 未熟児・障がい・難病のある子どもへの金銭的支援"
+    },
+    {
+      "slug": "gifu-official-008-057-2026",
+      "municipalityCode": "21505",
+      "municipalityName": "八百津町",
+      "title": "八百津町 妊婦のための支援給付",
+      "officialUrl": "https://www.town.yaotsu.lg.jp/7369.htm",
+      "sourceName": "八百津町 妊婦のための支援給付"
+    },
+    {
+      "slug": "gifu-official-008-058-2026",
+      "municipalityCode": "21505",
+      "municipalityName": "八百津町",
+      "title": "八百津町 就学援助制度",
+      "officialUrl": "https://www.town.yaotsu.lg.jp/1513.htm",
+      "sourceName": "八百津町 就学援助制度"
+    },
+    {
+      "slug": "gifu-official-008-059-2026",
+      "municipalityCode": "21505",
+      "municipalityName": "八百津町",
+      "title": "八百津町 重度心身障がい者医療費助成制度",
+      "officialUrl": "https://www.town.yaotsu.lg.jp/1293.htm",
+      "sourceName": "八百津町 重度心身障がい者医療費助成制度"
+    },
+    {
+      "slug": "gifu-official-008-060-2026",
+      "municipalityCode": "21505",
+      "municipalityName": "八百津町",
+      "title": "八百津町 ひとり親家庭等医療費助成制度",
+      "officialUrl": "https://www.town.yaotsu.lg.jp/1294.htm",
+      "sourceName": "八百津町 ひとり親家庭等医療費助成制度"
+    },
+    {
+      "slug": "gifu-official-008-061-2026",
+      "municipalityCode": "21505",
+      "municipalityName": "八百津町",
+      "title": "八百津町 中小企業および小規模企業支援融資利子補給制度",
+      "officialUrl": "https://www.town.yaotsu.lg.jp/1439.htm",
+      "sourceName": "八百津町 中小企業および小規模企業支援融資利子補給制度"
+    },
+    {
+      "slug": "gifu-official-008-062-2026",
+      "municipalityCode": "21505",
+      "municipalityName": "八百津町",
+      "title": "八百津町 町小口融資",
+      "officialUrl": "https://www.town.yaotsu.lg.jp/1452.htm",
+      "sourceName": "八百津町 町小口融資"
+    },
+    {
+      "slug": "gifu-official-008-063-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 奨学金関係",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kosodate_kyouiku/1002456.html",
+      "sourceName": "白川町 奨学金関係"
+    },
+    {
+      "slug": "gifu-official-008-064-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 就学援助制度",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kosodate_kyouiku/gakkou/1001912/1001913.html",
+      "sourceName": "白川町 就学援助制度"
+    },
+    {
+      "slug": "gifu-official-008-065-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 空家除却等支援補助金",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kurashi/sumai/1001762/1001766.html",
+      "sourceName": "白川町 空家除却等支援補助金"
+    },
+    {
+      "slug": "gifu-official-008-066-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 再生可能エネルギー・薪ストーブ等設置補助金",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kurashi/sumai/1001774/1001777.html",
+      "sourceName": "白川町 再生可能エネルギー・薪ストーブ等設置補助金"
+    },
+    {
+      "slug": "gifu-official-008-067-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 高校生通学支援事業",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kosodate_kyouiku/gakkou/1001912/1002675/index.html",
+      "sourceName": "白川町 高校生通学支援事業"
+    },
+    {
+      "slug": "gifu-official-008-068-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 小中学校児童生徒遠距離通学費補助金",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kosodate_kyouiku/gakkou/1001912/1002695/index.html",
+      "sourceName": "白川町 小中学校児童生徒遠距離通学費補助金"
+    },
+    {
+      "slug": "gifu-official-008-069-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 自主防災活動補助金",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kurashi/kinkyu/1001798/1001806.html",
+      "sourceName": "白川町 自主防災活動補助金"
+    },
+    {
+      "slug": "gifu-official-008-070-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 防災士資格取得補助金制度",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kurashi/kinkyu/1001798/1001805.html",
+      "sourceName": "白川町 防災士資格取得補助金制度"
+    },
+    {
+      "slug": "gifu-official-008-071-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 耐震シェルター設置補助金",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kurashi/kinkyu/1003325/1003320.html",
+      "sourceName": "白川町 耐震シェルター設置補助金"
+    },
+    {
+      "slug": "gifu-official-008-072-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 防犯灯整備補助金",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kurashi/kinkyu/1002460/1002444.html",
+      "sourceName": "白川町 防犯灯整備補助金"
+    },
+    {
+      "slug": "gifu-official-008-073-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 消防団員準中型免許等取得費補助金",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kurashi/kinkyu/1001816/1002997.html",
+      "sourceName": "白川町 消防団員準中型免許等取得費補助金"
+    },
+    {
+      "slug": "gifu-official-008-074-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 物価高対応子育て応援手当",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kosodate_kyouiku/kosodate/1003222.html",
+      "sourceName": "白川町 物価高対応子育て応援手当"
+    },
+    {
+      "slug": "gifu-official-008-075-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 通学支援補助金",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kosodate_kyouiku/gakkou/1001912/1002882/index.html",
+      "sourceName": "白川町 通学支援補助金"
+    },
+    {
+      "slug": "gifu-official-008-076-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 移住定住促進住宅支援事業補助金",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kurashi/sumai/1001762/1001763.html",
+      "sourceName": "白川町 移住定住促進住宅支援事業補助金"
+    },
+    {
+      "slug": "gifu-official-008-077-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 副業人材活用支援事業補助金",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kankou/koyou_roudou/1002037/1002580.html",
+      "sourceName": "白川町 副業人材活用支援事業補助金"
+    },
+    {
+      "slug": "gifu-official-008-078-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 創業支援事業補助金",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kankou/koyou_roudou/1002037/1002735/index.html",
+      "sourceName": "白川町 創業支援事業補助金"
+    },
+    {
+      "slug": "gifu-official-008-079-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 事業承継支援事業補助金",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kankou/koyou_roudou/1002037/1003104/index.html",
+      "sourceName": "白川町 事業承継支援事業補助金"
+    },
+    {
+      "slug": "gifu-official-008-080-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 医療費助成",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kenkou_fukushi/iryou/1001943/index.html",
+      "sourceName": "白川町 医療費助成"
+    },
+    {
+      "slug": "gifu-official-008-081-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 重度心身障害者医療費助成制度",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kenkou_fukushi/shougaisha/1001962.html",
+      "sourceName": "白川町 重度心身障害者医療費助成制度"
+    },
+    {
+      "slug": "gifu-official-008-082-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 保育園通園費補助金",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kosodate_kyouiku/kosodate/1001872/1002935/index.html",
+      "sourceName": "白川町 保育園通園費補助金"
+    },
+    {
+      "slug": "gifu-official-008-083-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 浄化槽に関する補助制度",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kurashi/gomi/1001843/1001844.html",
+      "sourceName": "白川町 浄化槽に関する補助制度"
+    },
+    {
+      "slug": "gifu-official-008-084-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 木造住宅耐震診断事業",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kurashi/kinkyu/1003325/1002999.html",
+      "sourceName": "白川町 木造住宅耐震診断事業"
+    },
+    {
+      "slug": "gifu-official-008-085-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 勤労者生活資金融資制度",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kankou/koyou_roudou/1002878.html",
+      "sourceName": "白川町 勤労者生活資金融資制度"
+    },
+    {
+      "slug": "gifu-official-008-086-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 住宅用太陽光発電設備等助成",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kurashi/sumai/1001774/1001764.html",
+      "sourceName": "白川町 住宅用太陽光発電設備等助成"
+    },
+    {
+      "slug": "gifu-official-008-087-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 医療・介護サービス従事者人材確保支援奨励金",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kenkou_fukushi/iryou/1003342.html",
+      "sourceName": "白川町 医療・介護サービス従事者人材確保支援奨励金"
+    },
+    {
+      "slug": "gifu-official-008-088-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 児童手当",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/kosodate_kyouiku/kosodate/1002587/index.html",
+      "sourceName": "白川町 児童手当"
+    },
+    {
+      "slug": "gifu-official-008-089-2026",
+      "municipalityCode": "21506",
+      "municipalityName": "白川町",
+      "title": "白川町 がんばる青少年奨励金",
+      "officialUrl": "https://www.town.shirakawa.lg.jp/shougaigakushu_sports/sports/1002868/index.html",
+      "sourceName": "白川町 がんばる青少年奨励金"
+    },
+    {
+      "slug": "gifu-official-008-090-2026",
+      "municipalityCode": "21507",
+      "municipalityName": "東白川村",
+      "title": "東白川村 がんばる地域づくり補助金",
+      "officialUrl": "https://www.vill.higashishirakawa.gifu.jp/kurashi/chiikidukuri/hojokin/",
+      "sourceName": "東白川村 がんばる地域づくり補助金"
+    },
+    {
+      "slug": "gifu-official-008-091-2026",
+      "municipalityCode": "21507",
+      "municipalityName": "東白川村",
+      "title": "東白川村 医療費助成制度",
+      "officialUrl": "https://www.vill.higashishirakawa.gifu.jp/kurashi/iryou/josei/",
+      "sourceName": "東白川村 医療費助成制度"
+    },
+    {
+      "slug": "gifu-official-008-092-2026",
+      "municipalityCode": "21507",
+      "municipalityName": "東白川村",
+      "title": "東白川村 生活福祉資金貸付制度",
+      "officialUrl": "https://www.vill.higashishirakawa.gifu.jp/kurashi/fukushi/shakyou/kashitsuke/",
+      "sourceName": "東白川村 生活福祉資金貸付制度"
+    },
+    {
+      "slug": "gifu-official-008-093-2026",
+      "municipalityCode": "21507",
+      "municipalityName": "東白川村",
+      "title": "東白川村 重度心身障がい老人等医療費助成",
+      "officialUrl": "https://www.vill.higashishirakawa.gifu.jp/kurashi/fukushi/kourei/jyosei/",
+      "sourceName": "東白川村 重度心身障がい老人等医療費助成"
+    },
+    {
+      "slug": "gifu-official-008-094-2026",
+      "municipalityCode": "21507",
+      "municipalityName": "東白川村",
+      "title": "東白川村 木造住宅耐震診断助成事業",
+      "officialUrl": "https://www.vill.higashishirakawa.gifu.jp/kurashi/sumai/taishinjyosei/",
+      "sourceName": "東白川村 木造住宅耐震診断助成事業"
+    },
+    {
+      "slug": "gifu-official-008-095-2026",
+      "municipalityCode": "21507",
+      "municipalityName": "東白川村",
+      "title": "東白川村 災害見舞金等",
+      "officialUrl": "https://www.vill.higashishirakawa.gifu.jp/anzen/bousai/saigai/",
+      "sourceName": "東白川村 災害見舞金等"
+    },
+    {
+      "slug": "gifu-official-008-096-2026",
+      "municipalityCode": "21507",
+      "municipalityName": "東白川村",
+      "title": "東白川村 被災者支援",
+      "officialUrl": "https://www.vill.higashishirakawa.gifu.jp/anzen/bousai/shien/",
+      "sourceName": "東白川村 被災者支援"
+    },
+    {
+      "slug": "gifu-official-008-097-2026",
+      "municipalityCode": "21507",
+      "municipalityName": "東白川村",
+      "title": "東白川村 高校通学支援",
+      "officialUrl": "https://www.vill.higashishirakawa.gifu.jp/kurashi/kyouiku/koukou/",
+      "sourceName": "東白川村 高校通学支援"
+    },
+    {
+      "slug": "gifu-official-008-098-2026",
+      "municipalityCode": "21507",
+      "municipalityName": "東白川村",
+      "title": "東白川村 下水処理・浄化槽補助",
+      "officialUrl": "https://www.vill.higashishirakawa.gifu.jp/kurashi/sumai/joukasou/",
+      "sourceName": "東白川村 下水処理・浄化槽補助"
+    },
+    {
+      "slug": "gifu-official-008-099-2026",
+      "municipalityCode": "21507",
+      "municipalityName": "東白川村",
+      "title": "東白川村 老朽危険空き家等解体支援事業",
+      "officialUrl": "https://www.vill.higashishirakawa.gifu.jp/kurashi/sumai/kaitai/",
+      "sourceName": "東白川村 老朽危険空き家等解体支援事業"
+    }
+  ]
+}
