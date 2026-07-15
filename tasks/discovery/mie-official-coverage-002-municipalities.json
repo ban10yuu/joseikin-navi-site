@@ -1,0 +1,36 @@
+{
+  "batchId": "mie-official-coverage-002",
+  "prefecture": "三重県",
+  "municipalities": [
+    {
+      "code": "24207",
+      "name": "鈴鹿市",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.city.suzuka.lg.jp/"
+    },
+    {
+      "code": "24208",
+      "name": "名張市",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.city.nabari.lg.jp/"
+    },
+    {
+      "code": "24209",
+      "name": "尾鷲市",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.city.owase.lg.jp/"
+    },
+    {
+      "code": "24210",
+      "name": "亀山市",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.city.kameyama.mie.jp/"
+    },
+    {
+      "code": "24211",
+      "name": "鳥羽市",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.city.toba.mie.jp/"
+    }
+  ]
+}

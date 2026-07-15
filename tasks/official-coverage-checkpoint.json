@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-07-15T19:00:00+09:00",
+  "updatedAt": "2026-07-15T19:09:27+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "mie-official-coverage-001",
-    "municipality": "津市・四日市市・伊勢市・松阪市・桑名市",
-    "adopted": 75,
-    "held": 677,
+    "code": "mie-official-coverage-002",
+    "municipality": "鈴鹿市・名張市・尾鷲市・亀山市・鳥羽市",
+    "adopted": 85,
+    "held": 547,
     "excluded": 0,
-    "sourceUrlsChecked": 75,
+    "sourceUrlsChecked": 85,
     "validation": {
-      "previousMunicipality": "三重県公式棚卸し001として、24201津市・24202四日市市・24203伊勢市・24204松阪市・24205桑名市を確認した。候補1323件、公式カテゴリリンクリード442件、詳細スニペット900件、詳細ショートリスト752件、公式リスト75件を保存し、5市で合計75件を新規採用した。トップ、カテゴリ導線、共通ナビ、通常行政案内、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。全国公式棚卸しは未完了。",
+      "previousMunicipality": "三重県公式棚卸し002として、24207鈴鹿市・24208名張市・24209尾鷲市・24210亀山市・24211鳥羽市を確認した。候補892件、公式カテゴリリンクリード297件、詳細スニペット724件、詳細ショートリスト632件、公式リスト85件を保存し、5市で合計85件を新規採用した。トップ、カテゴリ導線、共通ナビ、通常行政案内、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for mie-official-coverage-001 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 75 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 75 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for mie-official-coverage-002 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 85 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 85 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16025, officialLinkedActive 15905, manuallyVerifiedActive 15905, 三重県 localOfficial 166)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16110, officialLinkedActive 15990, manuallyVerifiedActive 15990, 三重県 localOfficial 251)"
     }
   },
   "next": {
-    "code": "mie-official-coverage-002",
-    "municipality": "鈴鹿市",
-    "shortlist": "三重県公式棚卸し001は津市15件、四日市市15件、伊勢市15件、松阪市15件、桑名市15件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、三重県公式棚卸し002として鈴鹿市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "mie-official-coverage-003",
+    "municipality": "熊野市",
+    "shortlist": "三重県公式棚卸し002は鈴鹿市19件、名張市18件、尾鷲市23件、亀山市22件、鳥羽市3件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、三重県公式棚卸し003として熊野市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "愛知県",
