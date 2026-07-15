@@ -1,0 +1,37 @@
+{
+  "batchId": "kyoto-official-coverage-003",
+  "prefecture": "京都府",
+  "municipalities": [
+    {
+      "code": "26210",
+      "name": "八幡市",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.city.yawata.kyoto.jp/"
+    },
+    {
+      "code": "26211",
+      "name": "京田辺市",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.city.kyotanabe.lg.jp/"
+    },
+    {
+      "code": "26212",
+      "name": "京丹後市",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.city.kyotango.lg.jp/"
+    },
+    {
+      "code": "26213",
+      "name": "南丹市",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.city.nantan.kyoto.jp/"
+    },
+    {
+      "code": "26214",
+      "name": "木津川市",
+      "prefecture": "京都府",
+      "officialBaseUrl": "https://www.city.kizugawa.lg.jp/"
+    }
+  ],
+  "createdAt": "2026-07-15T13:11:54.226Z"
+}

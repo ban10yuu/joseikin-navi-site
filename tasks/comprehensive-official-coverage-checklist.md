@@ -10346,3 +10346,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16722、officialLinkedActive 16602、manuallyVerifiedActive 16602、京都府 localOfficial 159）
 - 到達点: 京都府は26100京都市から26209長岡京市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 京都府公式棚卸し003として、26210八幡市から再開
+
+
+### 京都府公式棚卸し003（26210八幡市・26211京田辺市・26212京丹後市・26213南丹市・26214木津川市）
+- 実施日: 2026-07-15
+- 候補: 659件（公式カテゴリリンクリード1838件、公式リスト89件、採用URL89本）
+- 採用: 89件（八幡市15件、京田辺市16件、京丹後市26件、南丹市15件、木津川市17件）
+- 公式URL: 採用URL到達確認は tasks/discovery/kyoto-official-coverage-003-url-status.txt に記録（89本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、通常行政案内、相談会・告知、受付終了のみ、本文根拠が薄い候補、制度ページではないカテゴリ一覧、重複制度URLは第2巡候補として保持。南丹市は通常クロールで候補が薄かったため公式ドメイン限定検索で補完
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16811、officialLinkedActive 16691、manuallyVerifiedActive 16691、京都府 localOfficial 248）
+- 到達点: 京都府は26100京都市から26214木津川市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 京都府公式棚卸し004として、26303大山崎町から再開
