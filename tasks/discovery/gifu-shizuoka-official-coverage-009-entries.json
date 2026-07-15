@@ -1,0 +1,1088 @@
+{
+  "batchId": "gifu-shizuoka-official-coverage-009",
+  "adoptedCount": 65,
+  "byMunicipality": {
+    "御嵩町": 12,
+    "白川村": 8,
+    "静岡市": 15,
+    "浜松市": 15,
+    "沼津市": 15
+  },
+  "entries": [
+    {
+      "slug": "gifu-official-009-001-2026",
+      "title": "御嵩町 福祉医療費（高校生等）の助成",
+      "organization": "御嵩町",
+      "maxAmount": "保険診療自己負担分を助成",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "御嵩町内の高校生等で公式の福祉医療費助成要件を満たす方",
+      "applicationPeriod": "受給者証交付など公式手続に従い申請",
+      "officialUrl": "https://www.town.mitake.lg.jp/portal/child-education/consultation-subsidy/subsidy/post0072424/",
+      "sourceName": "御嵩町 福祉医療費（高校生等）の助成",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-002-2026",
+      "title": "御嵩町 遺児手当",
+      "organization": "御嵩町",
+      "maxAmount": "公式ページ記載の手当を支給",
+      "maxAmountNum": 0,
+      "category": "childcare",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "父母等を亡くした児童を養育する保護者など公式要件を満たす方",
+      "applicationPeriod": "公式ページ記載の手続に従い申請",
+      "officialUrl": "https://www.town.mitake.lg.jp/portal/child-education/consultation-subsidy/subsidy/post0011842/",
+      "sourceName": "御嵩町 遺児手当",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-003-2026",
+      "title": "御嵩町 児童扶養手当",
+      "organization": "御嵩町",
+      "maxAmount": "所得・児童数に応じて手当を支給",
+      "maxAmountNum": 0,
+      "category": "childcare",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "ひとり親家庭等で公式の児童扶養手当要件を満たす方",
+      "applicationPeriod": "認定請求・現況届など公式手続に従い申請",
+      "officialUrl": "https://www.town.mitake.lg.jp/portal/child-education/consultation-subsidy/subsidy/post0011473/",
+      "sourceName": "御嵩町 児童扶養手当",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-004-2026",
+      "title": "御嵩町 福祉医療費（乳幼児）の助成",
+      "organization": "御嵩町",
+      "maxAmount": "保険診療自己負担分を助成",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "御嵩町内の乳幼児で公式の福祉医療費助成要件を満たす方",
+      "applicationPeriod": "受給者証交付など公式手続に従い申請",
+      "officialUrl": "https://www.town.mitake.lg.jp/portal/child-education/consultation-subsidy/subsidy/post0010713/",
+      "sourceName": "御嵩町 福祉医療費（乳幼児）の助成",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-005-2026",
+      "title": "御嵩町 福祉医療費（義務教育就学児）の助成",
+      "organization": "御嵩町",
+      "maxAmount": "保険診療自己負担分を助成",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "御嵩町内の義務教育就学児で公式の福祉医療費助成要件を満たす方",
+      "applicationPeriod": "受給者証交付など公式手続に従い申請",
+      "officialUrl": "https://www.town.mitake.lg.jp/portal/child-education/consultation-subsidy/subsidy/post0010683/",
+      "sourceName": "御嵩町 福祉医療費（義務教育就学児）の助成",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-006-2026",
+      "title": "御嵩町 福祉医療費（母子家庭等）の助成",
+      "organization": "御嵩町",
+      "maxAmount": "保険診療自己負担分を助成",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "childcare",
+        "living"
+      ],
+      "eligibility": "母子家庭等で公式の福祉医療費助成要件を満たす方",
+      "applicationPeriod": "受給者証交付など公式手続に従い申請",
+      "officialUrl": "https://www.town.mitake.lg.jp/portal/health-welfare/disability-welfare/disabilities-subsidy/post0009371/",
+      "sourceName": "御嵩町 福祉医療費（母子家庭等）の助成",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-007-2026",
+      "title": "御嵩町 福祉医療費（父子家庭）の助成",
+      "organization": "御嵩町",
+      "maxAmount": "保険診療自己負担分を助成",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "childcare",
+        "living"
+      ],
+      "eligibility": "父子家庭で公式の福祉医療費助成要件を満たす方",
+      "applicationPeriod": "受給者証交付など公式手続に従い申請",
+      "officialUrl": "https://www.town.mitake.lg.jp/portal/health-welfare/disability-welfare/disabilities-subsidy/post0009362/",
+      "sourceName": "御嵩町 福祉医療費（父子家庭）の助成",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-008-2026",
+      "title": "御嵩町 福祉医療費（重度障害）の助成",
+      "organization": "御嵩町",
+      "maxAmount": "保険診療自己負担分を助成",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "重度障害者等で公式の福祉医療費助成要件を満たす方",
+      "applicationPeriod": "受給者証交付など公式手続に従い申請",
+      "officialUrl": "https://www.town.mitake.lg.jp/portal/health-welfare/disability-welfare/disabilities-subsidy/post0009314/",
+      "sourceName": "御嵩町 福祉医療費（重度障害）の助成",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-009-2026",
+      "title": "御嵩町 特別障害者手当",
+      "organization": "御嵩町",
+      "maxAmount": "月額30,450円",
+      "maxAmountNum": 30450,
+      "category": "living",
+      "relatedCategories": [
+        "medical"
+      ],
+      "eligibility": "著しく重度の障害状態にあり常時特別の介護を必要とする在宅の20歳以上の方",
+      "applicationPeriod": "公式ページ記載の手続に従い申請",
+      "officialUrl": "https://www.town.mitake.lg.jp/portal/health-welfare/disability-welfare/disabilities-subsidy/post0009319/",
+      "sourceName": "御嵩町 手当、助成等",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-010-2026",
+      "title": "御嵩町 障害児福祉手当",
+      "organization": "御嵩町",
+      "maxAmount": "公式ページ記載の手当を支給",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "medical",
+        "childcare"
+      ],
+      "eligibility": "重度の障害状態にあり常時介護を必要とする20歳未満の児童など公式要件を満たす方",
+      "applicationPeriod": "公式ページ記載の手続に従い申請",
+      "officialUrl": "https://www.town.mitake.lg.jp/portal/health-welfare/disability-welfare/disabilities-subsidy/post0009319/",
+      "sourceName": "御嵩町 手当、助成等",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-011-2026",
+      "title": "御嵩町 成年後見制度利用支援事業",
+      "organization": "御嵩町",
+      "maxAmount": "申立費用・報酬助成等を支援",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "nursing"
+      ],
+      "eligibility": "認知症高齢者や障害者等で成年後見制度利用支援が必要な方",
+      "applicationPeriod": "公式ページ記載の相談・申請手続に従う",
+      "officialUrl": "https://www.town.mitake.lg.jp/portal/health-welfare/elderly-welfare/dementia-support/post0065805/",
+      "sourceName": "御嵩町 成年後見制度利用支援事業",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-012-2026",
+      "title": "御嵩町 運転免許証自主返納者バス回数券交付",
+      "organization": "御嵩町",
+      "maxAmount": "バス回数券を交付",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "nursing"
+      ],
+      "eligibility": "運転免許証を自主返納した御嵩町民で公式要件を満たす方",
+      "applicationPeriod": "自主返納後に公式手続に従い申請",
+      "officialUrl": "https://www.town.mitake.lg.jp/portal/life-process/post0090035/",
+      "sourceName": "御嵩町 運転免許証自主返納者バス回数券交付",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-013-2026",
+      "title": "白川村 移住支援金",
+      "organization": "白川村",
+      "maxAmount": "世帯最大100万円、子育て加算あり",
+      "maxAmountNum": 1000000,
+      "category": "housing",
+      "relatedCategories": [
+        "employment",
+        "living"
+      ],
+      "eligibility": "東京圏から白川村へ移住し就業・起業等の公式要件を満たす方",
+      "applicationPeriod": "移住後、公式要件と受付状況に従い申請",
+      "officialUrl": "https://www.vill.shirakawa.lg.jp/1268.htm",
+      "sourceName": "岐阜県東京圏からの移住支援事業における白川村移住支援金",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-014-2026",
+      "title": "白川村 民間賃貸住宅居住助成金",
+      "organization": "白川村",
+      "maxAmount": "家賃等の一部を助成",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "白川村内の民間賃貸住宅に居住し公式要件を満たす方",
+      "applicationPeriod": "公式ページ記載の手続に従い申請",
+      "officialUrl": "https://www.vill.shirakawa.lg.jp/1270.htm",
+      "sourceName": "白川村民間賃貸住宅居住助成金",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-015-2026",
+      "title": "白川村 定住対策親雪補助金",
+      "organization": "白川村",
+      "maxAmount": "除雪・親雪対策費を補助",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "housing"
+      ],
+      "eligibility": "白川村に定住し公式の親雪補助要件を満たす世帯等",
+      "applicationPeriod": "公式ページ記載の手続に従い申請",
+      "officialUrl": "https://www.vill.shirakawa.lg.jp/2767.htm",
+      "sourceName": "白川村定住対策親雪補助金",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-016-2026",
+      "title": "白川村 空き家再生活用事業補助金",
+      "organization": "白川村",
+      "maxAmount": "空き家改修等を補助",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "白川村内の空き家を再生活用し公式要件を満たす所有者・利用者等",
+      "applicationPeriod": "事業着手前に公式手続に従い申請",
+      "officialUrl": "https://www.vill.shirakawa.lg.jp/1259.htm",
+      "sourceName": "白川村空き家再生活用事業補助金",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-017-2026",
+      "title": "白川村 老朽危険空家等除却支援事業補助金",
+      "organization": "白川村",
+      "maxAmount": "老朽危険空家等の除却費を補助",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "disaster"
+      ],
+      "eligibility": "白川村内の老朽危険空家等の所有者等で公式要件を満たす方",
+      "applicationPeriod": "事業着手前に公式手続に従い申請",
+      "officialUrl": "https://www.vill.shirakawa.lg.jp/2799.htm",
+      "sourceName": "白川村老朽危険空家等除却支援事業補助金",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-018-2026",
+      "title": "白川村 通勤就職者助成金",
+      "organization": "白川村",
+      "maxAmount": "通勤・就職に関する助成",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "白川村に居住し通勤就職者助成の公式要件を満たす方",
+      "applicationPeriod": "公式ページ記載の手続に従い申請",
+      "officialUrl": "https://www.vill.shirakawa.lg.jp/1269.htm",
+      "sourceName": "白川村通勤就職者助成金",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-019-2026",
+      "title": "白川村 起業者支援事業補助金",
+      "organization": "白川村",
+      "maxAmount": "起業経費の一部を補助",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "白川村内で起業し公式の補助対象者要件を満たす方",
+      "applicationPeriod": "事業着手前に公式手続に従い申請",
+      "officialUrl": "https://www.vill.shirakawa.lg.jp/2394.htm",
+      "sourceName": "白川村起業者支援事業補助金",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "gifu-official-009-020-2026",
+      "title": "白川村 障がい者支援制度",
+      "organization": "白川村",
+      "maxAmount": "各障がい者支援制度により異なる",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "medical"
+      ],
+      "eligibility": "白川村内の障がい者等で各支援制度の公式要件を満たす方",
+      "applicationPeriod": "各制度の公式手続に従い申請",
+      "officialUrl": "https://www.vill.shirakawa.lg.jp/1056.htm",
+      "sourceName": "白川村 障がい者支援",
+      "prefecture": "岐阜県"
+    },
+    {
+      "slug": "shizuoka-official-001-001-2026",
+      "title": "静岡市 スタートアップ立地促進事業補助金",
+      "organization": "静岡市",
+      "maxAmount": "公式ページ記載の上限額に従う",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "静岡市内に立地するスタートアップ等で公式要件を満たす事業者",
+      "applicationPeriod": "公式ページ記載の募集期間・手続に従い申請",
+      "officialUrl": "https://www.city.shizuoka.lg.jp/s2859/hojokin.html",
+      "sourceName": "静岡市スタートアップ立地促進事業補助金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-002-2026",
+      "title": "静岡市 お茶ツーリズム体験プログラム高付加価値化補助金",
+      "organization": "静岡市",
+      "maxAmount": "公式ページ記載の補助上限に従う",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "お茶ツーリズム体験プログラムの高付加価値化に取り組む事業者等",
+      "applicationPeriod": "公式ページ記載の募集期間に従い申請",
+      "officialUrl": "https://www.city.shizuoka.lg.jp/s4852/s013848.html",
+      "sourceName": "静岡市お茶ツーリズム体験プログラム高付加価値化補助金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-003-2026",
+      "title": "静岡市 物流効率化等生産性向上支援事業補助金",
+      "organization": "静岡市",
+      "maxAmount": "公式ページ記載の補助上限に従う",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "物流効率化等による生産性向上に取り組む市内事業者等",
+      "applicationPeriod": "公式ページ記載の募集期間に従い申請",
+      "officialUrl": "https://www.city.shizuoka.lg.jp/s2859/s013091.html",
+      "sourceName": "静岡市物流効率化等生産性向上支援事業補助金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-004-2026",
+      "title": "静岡市 ECサイト販売促進支援補助金",
+      "organization": "静岡市",
+      "maxAmount": "EC販売促進経費を補助",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "ECサイトを活用した販売促進に取り組む静岡市内中小企業等",
+      "applicationPeriod": "公式ページ記載の募集期間に従い申請",
+      "officialUrl": "https://www.city.shizuoka.lg.jp/s2746/s013079.html",
+      "sourceName": "静岡市 ECサイト販売促進支援補助金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-005-2026",
+      "title": "静岡市 中小企業DX人材等育成支援事業補助金",
+      "organization": "静岡市",
+      "maxAmount": "DX人材育成経費を補助",
+      "maxAmountNum": 0,
+      "category": "education",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "DX人材等の育成に取り組む静岡市内中小企業等",
+      "applicationPeriod": "公式ページ記載の募集期間に従い申請",
+      "officialUrl": "https://www.city.shizuoka.lg.jp/s2746/s013081.html",
+      "sourceName": "静岡市 中小企業DX人材等育成支援事業補助金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-006-2026",
+      "title": "静岡市 中小企業等デジタル活用事業補助金",
+      "organization": "静岡市",
+      "maxAmount": "デジタル活用経費を補助",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "デジタル活用により経営課題解決を図る静岡市内中小企業等",
+      "applicationPeriod": "公式ページ記載の募集期間に従い申請",
+      "officialUrl": "https://www.city.shizuoka.lg.jp/s2746/s003772.html",
+      "sourceName": "静岡市 中小企業等デジタル活用事業補助金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-007-2026",
+      "title": "静岡市 機械設備設置に対する助成",
+      "organization": "静岡市",
+      "maxAmount": "機械設備設置に対する助成",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "静岡市内で機械設備を設置し公式要件を満たす企業等",
+      "applicationPeriod": "設備設置にあたり公式手続に従い申請",
+      "officialUrl": "https://www.city.shizuoka.lg.jp/s2746/s003785.html",
+      "sourceName": "静岡市 機械設備設置に対する助成",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-008-2026",
+      "title": "静岡市 新製品開発・販路開拓に対する助成",
+      "organization": "静岡市",
+      "maxAmount": "新製品開発・販路開拓経費を助成",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "新製品開発や販路開拓に取り組む静岡市内中小企業等",
+      "applicationPeriod": "公式ページ記載の募集期間に従い申請",
+      "officialUrl": "https://www.city.shizuoka.lg.jp/s2746/s003776.html",
+      "sourceName": "静岡市 新製品開発・販路開拓に対する助成",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-009-2026",
+      "title": "静岡市 街頭防犯カメラ設置事業補助金",
+      "organization": "静岡市",
+      "maxAmount": "防犯カメラ設置費を補助",
+      "maxAmountNum": 0,
+      "category": "disaster",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "地域防犯のため街頭防犯カメラを設置する自治会等で公式要件を満たす団体",
+      "applicationPeriod": "公式ページ記載の受付期間に従い申請",
+      "officialUrl": "https://www.city.shizuoka.lg.jp/s9623/s000015.html",
+      "sourceName": "静岡市 街頭防犯カメラ設置事業補助金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-010-2026",
+      "title": "静岡市 空き家改修補助金事業",
+      "organization": "静岡市",
+      "maxAmount": "空き家改修費を補助",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "静岡市内の空き家を改修し居住・活用する方で公式要件を満たす方",
+      "applicationPeriod": "工事着手前に公式手続に従い申請",
+      "officialUrl": "https://www.city.shizuoka.lg.jp/s7345/s000894.html",
+      "sourceName": "静岡市空き家改修補助金事業",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-011-2026",
+      "title": "静岡市 空き家片付け事業補助金",
+      "organization": "静岡市",
+      "maxAmount": "空き家片付け費を補助",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "静岡市内の空き家の片付けを行う所有者等で公式要件を満たす方",
+      "applicationPeriod": "事業着手前に公式手続に従い申請",
+      "officialUrl": "https://www.city.shizuoka.lg.jp/s7345/s013030.html",
+      "sourceName": "静岡市空き家片付け事業補助金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-012-2026",
+      "title": "静岡市 中山間地域空き家改修補助金事業",
+      "organization": "静岡市",
+      "maxAmount": "中山間地域の空き家改修費を補助",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "静岡市中山間地域の空き家を改修し公式要件を満たす方",
+      "applicationPeriod": "工事着手前に公式手続に従い申請",
+      "officialUrl": "https://www.city.shizuoka.lg.jp/okushizuoka/s013267.html",
+      "sourceName": "静岡市中山間地域空き家改修補助金事業",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-013-2026",
+      "title": "静岡市 雨水貯留浸透施設設置への助成制度",
+      "organization": "静岡市",
+      "maxAmount": "雨水貯留浸透施設設置費を助成",
+      "maxAmountNum": 0,
+      "category": "disaster",
+      "relatedCategories": [
+        "housing"
+      ],
+      "eligibility": "静岡市内で雨水貯留浸透施設を設置する方で公式要件を満たす方",
+      "applicationPeriod": "設置前に公式手続に従い申請",
+      "officialUrl": "https://www.city.shizuoka.lg.jp/s6487/s001084.html",
+      "sourceName": "静岡市 雨水貯留浸透施設設置への助成制度",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-014-2026",
+      "title": "静岡市 浄化槽の設置補助制度",
+      "organization": "静岡市",
+      "maxAmount": "浄化槽設置費を補助",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "housing"
+      ],
+      "eligibility": "静岡市内で補助対象浄化槽を設置し公式要件を満たす方",
+      "applicationPeriod": "設置前に公式手続に従い申請",
+      "officialUrl": "https://www.city.shizuoka.lg.jp/s7948/s000903.html",
+      "sourceName": "静岡市 浄化槽の設置補助制度",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-015-2026",
+      "title": "静岡市 結婚新生活支援補助金",
+      "organization": "静岡市",
+      "maxAmount": "結婚新生活費を補助",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "childcare",
+        "living"
+      ],
+      "eligibility": "新婚世帯で所得・年齢等の公式要件を満たす方",
+      "applicationPeriod": "公式ページ記載の受付期間に従い申請",
+      "officialUrl": "https://www.city.shizuoka.lg.jp/s4395/s002140.html",
+      "sourceName": "静岡市 結婚新生活支援",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-016-2026",
+      "title": "浜松市 新産業創出事業費補助金",
+      "organization": "浜松市",
+      "maxAmount": "最大1,000万円",
+      "maxAmountNum": 10000000,
+      "category": "employment",
+      "relatedCategories": [
+        "education"
+      ],
+      "eligibility": "新技術・新製品等の研究開発に取り組む浜松市内中小事業者等",
+      "applicationPeriod": "令和8年度浜松市中小事業者向け支援の募集要件に従い申請",
+      "officialUrl": "https://www.city.hamamatsu.shizuoka.jp/documents/167631/r8hojokin_7koushin.pdf",
+      "sourceUrls": [
+        "https://www.city.hamamatsu.shizuoka.jp/sangyoshinko/hojokin.html",
+        "https://www.city.hamamatsu.shizuoka.jp/documents/167631/r8hojokin_7koushin.pdf"
+      ],
+      "sourceName": "浜松市 令和8年度浜松市中小事業者向け支援【商工】",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-017-2026",
+      "title": "浜松市 産業用ロボット導入支援事業費補助金",
+      "organization": "浜松市",
+      "maxAmount": "最大500万円",
+      "maxAmountNum": 5000000,
+      "category": "employment",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "産業用ロボット導入により生産性向上を図る浜松市内中小事業者等",
+      "applicationPeriod": "令和8年度浜松市中小事業者向け支援の募集要件に従い申請",
+      "officialUrl": "https://www.city.hamamatsu.shizuoka.jp/documents/167631/r8hojokin_7koushin.pdf",
+      "sourceUrls": [
+        "https://www.city.hamamatsu.shizuoka.jp/sangyoshinko/hojokin.html",
+        "https://www.city.hamamatsu.shizuoka.jp/documents/167631/r8hojokin_7koushin.pdf"
+      ],
+      "sourceName": "浜松市 令和8年度浜松市中小事業者向け支援【商工】",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-018-2026",
+      "title": "浜松市 サービスロボット導入支援事業費補助金",
+      "organization": "浜松市",
+      "maxAmount": "最大200万円",
+      "maxAmountNum": 2000000,
+      "category": "employment",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "サービスロボットの購入・リース等に取り組む浜松市内中小事業者等",
+      "applicationPeriod": "令和8年度浜松市中小事業者向け支援の募集要件に従い申請",
+      "officialUrl": "https://www.city.hamamatsu.shizuoka.jp/documents/167631/r8hojokin_7koushin.pdf",
+      "sourceUrls": [
+        "https://www.city.hamamatsu.shizuoka.jp/sangyoshinko/hojokin.html",
+        "https://www.city.hamamatsu.shizuoka.jp/documents/167631/r8hojokin_7koushin.pdf"
+      ],
+      "sourceName": "浜松市 令和8年度浜松市中小事業者向け支援【商工】",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-019-2026",
+      "title": "浜松市 AIエージェント導入支援事業費補助金",
+      "organization": "浜松市",
+      "maxAmount": "最大500万円",
+      "maxAmountNum": 5000000,
+      "category": "employment",
+      "relatedCategories": [
+        "education"
+      ],
+      "eligibility": "AIエージェント導入に取り組む浜松市内中小事業者等",
+      "applicationPeriod": "令和8年度浜松市中小事業者向け支援の募集要件に従い申請",
+      "officialUrl": "https://www.city.hamamatsu.shizuoka.jp/documents/167631/r8hojokin_7koushin.pdf",
+      "sourceUrls": [
+        "https://www.city.hamamatsu.shizuoka.jp/sangyoshinko/hojokin.html",
+        "https://www.city.hamamatsu.shizuoka.jp/documents/167631/r8hojokin_7koushin.pdf"
+      ],
+      "sourceName": "浜松市 令和8年度浜松市中小事業者向け支援【商工】",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-020-2026",
+      "title": "浜松市 ものづくり販路開拓事業費補助金",
+      "organization": "浜松市",
+      "maxAmount": "最大50万円",
+      "maxAmountNum": 500000,
+      "category": "employment",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "国内外の展示会出展等により販路開拓に取り組む浜松市内中小事業者等",
+      "applicationPeriod": "令和8年度浜松市中小事業者向け支援の募集要件に従い申請",
+      "officialUrl": "https://www.city.hamamatsu.shizuoka.jp/documents/167631/r8hojokin_7koushin.pdf",
+      "sourceUrls": [
+        "https://www.city.hamamatsu.shizuoka.jp/sangyoshinko/hojokin.html",
+        "https://www.city.hamamatsu.shizuoka.jp/documents/167631/r8hojokin_7koushin.pdf"
+      ],
+      "sourceName": "浜松市 令和8年度浜松市中小事業者向け支援【商工】",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-021-2026",
+      "title": "浜松市 会社設立支援補助金",
+      "organization": "浜松市",
+      "maxAmount": "最大10万円",
+      "maxAmountNum": 100000,
+      "category": "employment",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "浜松市内で会社を設立し公式要件を満たす創業者等",
+      "applicationPeriod": "令和8年度浜松市中小事業者向け支援の募集要件に従い申請",
+      "officialUrl": "https://www.city.hamamatsu.shizuoka.jp/documents/167631/r8hojokin_7koushin.pdf",
+      "sourceUrls": [
+        "https://www.city.hamamatsu.shizuoka.jp/sangyoshinko/hojokin.html",
+        "https://www.city.hamamatsu.shizuoka.jp/documents/167631/r8hojokin_7koushin.pdf"
+      ],
+      "sourceName": "浜松市 令和8年度浜松市中小事業者向け支援【商工】",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-022-2026",
+      "title": "浜松市 ICT活用販路開拓事業費補助金",
+      "organization": "浜松市",
+      "maxAmount": "最大15万円",
+      "maxAmountNum": 150000,
+      "category": "employment",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "ホームページ・EC等ICT活用による販路開拓に取り組む浜松市内中小事業者等",
+      "applicationPeriod": "令和8年度浜松市中小事業者向け支援の募集要件に従い申請",
+      "officialUrl": "https://www.city.hamamatsu.shizuoka.jp/documents/167631/r8hojokin_7koushin.pdf",
+      "sourceUrls": [
+        "https://www.city.hamamatsu.shizuoka.jp/sangyoshinko/hojokin.html",
+        "https://www.city.hamamatsu.shizuoka.jp/documents/167631/r8hojokin_7koushin.pdf"
+      ],
+      "sourceName": "浜松市 令和8年度浜松市中小事業者向け支援【商工】",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-023-2026",
+      "title": "浜松市 天竜材の家 百年住居る事業",
+      "organization": "浜松市",
+      "maxAmount": "地域材利用住宅への助成",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "天竜材等の地域材を利用した住宅を建築する方で公式要件を満たす方",
+      "applicationPeriod": "公式ページ記載の受付状況に従い申請",
+      "officialUrl": "https://www.city.hamamatsu.shizuoka.jp/ringyou/shinko/forestry/ringyou/index.html",
+      "sourceName": "浜松市 地域材を利用した住宅への助成事業",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-024-2026",
+      "title": "浜松市 勤労者住宅建設資金等償還利子補助事業",
+      "organization": "浜松市",
+      "maxAmount": "住宅建設資金等の利子を補助",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "勤労者住宅建設資金等を利用し公式要件を満たす方",
+      "applicationPeriod": "公式ページ記載の手続に従い申請",
+      "officialUrl": "https://www.city.hamamatsu.shizuoka.jp/sangyosomu/juutakushikin.html",
+      "sourceName": "浜松市 勤労者住宅建設資金等償還利子補助事業",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-025-2026",
+      "title": "浜松市 合併処理浄化槽設置費補助制度",
+      "organization": "浜松市",
+      "maxAmount": "浄化槽設置費を補助",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "housing"
+      ],
+      "eligibility": "浜松市内で合併処理浄化槽を設置し公式要件を満たす方",
+      "applicationPeriod": "設置前に公式手続に従い申請",
+      "officialUrl": "https://www.city.hamamatsu.shizuoka.jp/service/wastewater/zyoukasou/hojo.html",
+      "sourceName": "浜松市 合併処理浄化槽設置費補助制度",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-026-2026",
+      "title": "浜松市 まちなか定住促進・子育て応援環境づくり補助金",
+      "organization": "浜松市",
+      "maxAmount": "まちなか定住・子育て環境づくりを補助",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "childcare",
+        "living"
+      ],
+      "eligibility": "中心市街地等で定住・子育て環境づくりに取り組み公式要件を満たす方",
+      "applicationPeriod": "公式ページ記載の受付状況に従い申請",
+      "officialUrl": "https://www.city.hamamatsu.shizuoka.jp/jutaku/matinaka_kosodate.html",
+      "sourceName": "浜松市 まちなか定住促進・子育て応援環境づくり補助金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-027-2026",
+      "title": "浜松市 木造住宅耐震補強助成事業",
+      "organization": "浜松市",
+      "maxAmount": "木造住宅耐震補強費を助成",
+      "maxAmountNum": 0,
+      "category": "disaster",
+      "relatedCategories": [
+        "housing"
+      ],
+      "eligibility": "昭和56年5月以前の木造住宅など公式耐震補強要件を満たす住宅所有者",
+      "applicationPeriod": "工事着手前に公式手続に従い申請",
+      "officialUrl": "https://www.city.hamamatsu.shizuoka.jp/kensido/home_tochi/home/kensido/taisin/jigyou_03.html",
+      "sourceName": "浜松市 木造住宅耐震補強助成事業",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-028-2026",
+      "title": "浜松市 耐震シェルター整備事業",
+      "organization": "浜松市",
+      "maxAmount": "耐震シェルター整備費を助成",
+      "maxAmountNum": 0,
+      "category": "disaster",
+      "relatedCategories": [
+        "housing"
+      ],
+      "eligibility": "浜松市内の住宅に耐震シェルター等を整備し公式要件を満たす方",
+      "applicationPeriod": "設置前に公式手続に従い申請",
+      "officialUrl": "https://www.city.hamamatsu.shizuoka.jp/kensido/sheruta.html",
+      "sourceName": "浜松市 耐震シェルター整備事業",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-029-2026",
+      "title": "浜松市 感震ブレーカー設置費助成事業",
+      "organization": "浜松市",
+      "maxAmount": "感震ブレーカー設置費を助成",
+      "maxAmountNum": 0,
+      "category": "disaster",
+      "relatedCategories": [
+        "housing"
+      ],
+      "eligibility": "浜松市内の住宅等に感震ブレーカーを設置し公式要件を満たす方",
+      "applicationPeriod": "設置前に公式手続に従い申請",
+      "officialUrl": "https://www.city.hamamatsu.shizuoka.jp/kiki/kansin.html",
+      "sourceName": "浜松市 感震ブレーカー設置費助成事業",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-030-2026",
+      "title": "浜松市 空き家等除却促進事業費補助金",
+      "organization": "浜松市",
+      "maxAmount": "空き家等除却費を補助",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "disaster"
+      ],
+      "eligibility": "浜松市内の空き家等を除却し公式要件を満たす所有者等",
+      "applicationPeriod": "工事着手前に公式手続に従い申請",
+      "officialUrl": "https://www.city.hamamatsu.shizuoka.jp/simink/akiya/akiyahozixyo.html",
+      "sourceName": "浜松市 空き家等除却促進事業費補助金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-031-2026",
+      "title": "沼津市 お試し移住補助金",
+      "organization": "沼津市",
+      "maxAmount": "お試し移住に要する経費を補助",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "沼津市への移住を検討しお試し移住の公式要件を満たす方",
+      "applicationPeriod": "公式ページ記載の受付状況に従い申請",
+      "officialUrl": "https://www.city.numazu.shizuoka.jp/shisei/iju/howto/shien/otameshi.htm",
+      "sourceName": "沼津市 お試し移住補助金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-032-2026",
+      "title": "沼津市 移住者支援交通費補助金",
+      "organization": "沼津市",
+      "maxAmount": "移住相談等の交通費を補助",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "沼津市への移住を検討し公式の交通費補助要件を満たす方",
+      "applicationPeriod": "公式ページ記載の受付状況に従い申請",
+      "officialUrl": "https://www.city.numazu.shizuoka.jp/shisei/iju/howto/shien/koutsuhi.htm",
+      "sourceName": "沼津市 移住者支援交通費補助金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-033-2026",
+      "title": "沼津市 移住・就業支援金",
+      "organization": "沼津市",
+      "maxAmount": "世帯最大100万円、子育て加算あり",
+      "maxAmountNum": 1000000,
+      "category": "housing",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "東京圏等から沼津市へ移住し就業・起業等の公式要件を満たす方",
+      "applicationPeriod": "移住後、公式ページ記載の受付状況に従い申請",
+      "officialUrl": "https://www.city.numazu.shizuoka.jp/shisei/iju/howto/shien/shien.htm",
+      "sourceName": "沼津市 移住・就業支援金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-034-2026",
+      "title": "沼津市 感震ブレーカー設置補助",
+      "organization": "沼津市",
+      "maxAmount": "感震ブレーカー設置費を補助",
+      "maxAmountNum": 0,
+      "category": "disaster",
+      "relatedCategories": [
+        "housing"
+      ],
+      "eligibility": "沼津市内で感震ブレーカーを設置し公式要件を満たす方",
+      "applicationPeriod": "設置前に公式手続に従い申請",
+      "officialUrl": "https://www.city.numazu.shizuoka.jp/kurashi/anshin/bousai/breaker_secchi/index.htm",
+      "sourceName": "沼津市 感震ブレーカー設置補助",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-035-2026",
+      "title": "沼津市 悪質電話対策機器購入費補助金",
+      "organization": "沼津市",
+      "maxAmount": "悪質電話対策機器購入費を補助",
+      "maxAmountNum": 0,
+      "category": "living",
+      "relatedCategories": [
+        "nursing"
+      ],
+      "eligibility": "悪質電話対策機器を購入する高齢者等で公式要件を満たす方",
+      "applicationPeriod": "購入・申請にあたり公式手続に従う",
+      "officialUrl": "https://www.city.numazu.shizuoka.jp/kurashi/anshin/bouhan/hojokin/akushitsudenwa.htm",
+      "sourceName": "沼津市 悪質電話対策機器購入費補助金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-036-2026",
+      "title": "沼津市 若年がん患者等支援事業",
+      "organization": "沼津市",
+      "maxAmount": "在宅療養等に要する費用を助成",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "若年がん患者等で公式の支援対象要件を満たす方",
+      "applicationPeriod": "公式ページ記載の手続に従い申請",
+      "officialUrl": "https://www.city.numazu.shizuoka.jp/kurashi/health/kenko_hoken/jyosei/jyakunengan/index.htm",
+      "sourceName": "沼津市 若年がん患者等支援事業",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-037-2026",
+      "title": "沼津市 骨髄バンクドナー登録・助成金",
+      "organization": "沼津市",
+      "maxAmount": "骨髄等提供者等へ助成",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "骨髄バンクを通じ骨髄等を提供した方や勤務先等で公式要件を満たす方",
+      "applicationPeriod": "提供後、公式手続に従い申請",
+      "officialUrl": "https://www.city.numazu.shizuoka.jp/kurashi/health/kenko_hoken/donor/index.htm",
+      "sourceName": "沼津市 骨髄バンクドナー登録・助成金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-038-2026",
+      "title": "沼津市 不妊・不育症治療費助成",
+      "organization": "沼津市",
+      "maxAmount": "不妊・不育症治療費を助成",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "不妊・不育症治療を受け公式要件を満たす夫婦等",
+      "applicationPeriod": "治療後、公式ページ記載の期限・手続に従い申請",
+      "officialUrl": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/byoki/funinfuiku.htm",
+      "sourceName": "沼津市 不妊・不育症治療費助成",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-039-2026",
+      "title": "沼津市 住居確保給付金（家賃補助）",
+      "organization": "沼津市",
+      "maxAmount": "家賃相当額を支給",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "離職・休業等により住居を失うおそれがあり公式要件を満たす方",
+      "applicationPeriod": "生活困窮者自立支援の相談・申請手続に従う",
+      "officialUrl": "https://www.city.numazu.shizuoka.jp/kurashi/fukushi/seikatsu/jyukyokakuho1.htm",
+      "sourceName": "沼津市 住居確保給付金（家賃補助）",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-040-2026",
+      "title": "沼津市 企業立地促進事業費補助金",
+      "organization": "沼津市",
+      "maxAmount": "企業立地に係る費用を補助",
+      "maxAmountNum": 0,
+      "category": "employment",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "沼津市内へ工場等を立地し公式要件を満たす企業",
+      "applicationPeriod": "立地計画にあたり公式手続に従い申請",
+      "officialUrl": "https://www.city.numazu.shizuoka.jp/business/yuchi/ricchi/kigyo.htm",
+      "sourceName": "沼津市 企業立地促進事業費補助金",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-041-2026",
+      "title": "沼津市 こども医療費助成",
+      "organization": "沼津市",
+      "maxAmount": "こども医療費を助成",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "childcare"
+      ],
+      "eligibility": "沼津市内のこどもで公式の医療費助成要件を満たす方",
+      "applicationPeriod": "受給者証交付など公式手続に従い申請",
+      "officialUrl": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/byoki/kodomoiryohi.htm",
+      "sourceName": "沼津市 こども医療費助成",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-042-2026",
+      "title": "沼津市 ひとり親家庭等医療費助成",
+      "organization": "沼津市",
+      "maxAmount": "ひとり親家庭等の医療費を助成",
+      "maxAmountNum": 0,
+      "category": "medical",
+      "relatedCategories": [
+        "childcare",
+        "living"
+      ],
+      "eligibility": "ひとり親家庭等で公式の医療費助成要件を満たす方",
+      "applicationPeriod": "受給者証交付など公式手続に従い申請",
+      "officialUrl": "https://www.city.numazu.shizuoka.jp/kurashi/kyoiku/kosodate/byoki/boshikatei.htm",
+      "sourceName": "沼津市 ひとり親家庭等医療費助成",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-043-2026",
+      "title": "沼津市 奨学金返還支援制度",
+      "organization": "沼津市",
+      "maxAmount": "奨学金返還を支援",
+      "maxAmountNum": 0,
+      "category": "education",
+      "relatedCategories": [
+        "employment"
+      ],
+      "eligibility": "沼津市内で就労・居住し公式の奨学金返還支援要件を満たす方",
+      "applicationPeriod": "公式ページ記載の受付期間に従い申請",
+      "officialUrl": "https://www.city.numazu.shizuoka.jp/kurashi/fukushi/roudou/syurou/shogakukinhenkan.htm",
+      "sourceName": "沼津市 奨学金返還支援制度",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-044-2026",
+      "title": "沼津市 空き家活用定住支援事業",
+      "organization": "沼津市",
+      "maxAmount": "空き家活用・定住費用を補助",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "沼津市内の空き家を活用し定住する方で公式要件を満たす方",
+      "applicationPeriod": "事業着手前に公式手続に従い申請",
+      "officialUrl": "https://www.city.numazu.shizuoka.jp/shisei/iju/howto/shien/akiya.htm",
+      "sourceName": "沼津市 空き家活用定住支援事業",
+      "prefecture": "静岡県"
+    },
+    {
+      "slug": "shizuoka-official-001-045-2026",
+      "title": "沼津市 住宅用新エネ・省エネ機器設置費及び省エネリフォーム費補助金",
+      "organization": "沼津市",
+      "maxAmount": "新エネ・省エネ機器設置等を補助",
+      "maxAmountNum": 0,
+      "category": "housing",
+      "relatedCategories": [
+        "living"
+      ],
+      "eligibility": "沼津市内住宅に新エネ・省エネ機器設置または省エネリフォームを行い公式要件を満たす方",
+      "applicationPeriod": "公式ページ記載の受付期間に従い申請",
+      "officialUrl": "https://www.city.numazu.shizuoka.jp/kurashi/sumai/kankyo/hojyo/shinene.htm",
+      "sourceName": "沼津市 住宅用新エネ・省エネ機器設置費及び省エネリフォーム費補助金",
+      "prefecture": "静岡県"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "batchId": "gifu-shizuoka-official-coverage-009",
+  "checkedAt": "2026-07-15T11:45:00+09:00",
+  "municipalities": [
+    "御嵩町",
+    "白川村",
+    "静岡市",
+    "浜松市",
+    "沼津市"
+  ],
+  "candidateCount": 676,
+  "adoptedCount": 65,
+  "heldCount": 611,
+  "byMunicipality": {
+    "御嵩町": 12,
+    "白川村": 8,
+    "静岡市": 15,
+    "浜松市": 15,
+    "沼津市": 15
+  },
+  "officialListCount": 9,
+  "next": {
+    "code": "shizuoka-official-coverage-002",
+    "municipality": "熱海市",
+    "instructionStart": "22205熱海市"
+  }
+}

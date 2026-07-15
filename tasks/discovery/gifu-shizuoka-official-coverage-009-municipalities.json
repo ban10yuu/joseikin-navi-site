@@ -1,0 +1,36 @@
+{
+  "batchId": "gifu-shizuoka-official-coverage-009",
+  "prefecture": "岐阜県・静岡県",
+  "municipalities": [
+    {
+      "code": "21521",
+      "name": "御嵩町",
+      "prefecture": "岐阜県",
+      "officialBaseUrl": "https://www.town.mitake.lg.jp/"
+    },
+    {
+      "code": "21604",
+      "name": "白川村",
+      "prefecture": "岐阜県",
+      "officialBaseUrl": "https://www.vill.shirakawa.lg.jp/"
+    },
+    {
+      "code": "22101",
+      "name": "静岡市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.shizuoka.lg.jp/"
+    },
+    {
+      "code": "22102",
+      "name": "浜松市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.hamamatsu.shizuoka.jp/"
+    },
+    {
+      "code": "22203",
+      "name": "沼津市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.numazu.shizuoka.jp/"
+    }
+  ]
+}
