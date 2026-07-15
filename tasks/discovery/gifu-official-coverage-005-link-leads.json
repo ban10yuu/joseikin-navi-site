@@ -1,0 +1,1185 @@
+{
+  "batchId": "gifu-official-coverage-005",
+  "checkedAt": "2026-07-15T11:55:00+09:00",
+  "seedCount": 125,
+  "leadCount": 146,
+  "leadCountsByMunicipality": {
+    "海津市": 71,
+    "岐南町": 29,
+    "笠松町": 14,
+    "養老町": 16,
+    "垂井町": 8,
+    "www.kiriken.jp": 1,
+    "www.chisou.go.jp": 7
+  },
+  "leads": [
+    {
+      "url": "https://www.city.kaizu.lg.jp/shisei/category/2-1-3-0-0-0-0-0-0-0.html",
+      "anchor": "農業委員会",
+      "seedUrl": "https://www.city.kaizu.lg.jp/sitemap.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/shisei/category/2-1-2-0-0-0-0-0-0-0.html",
+      "anchor": "農林業",
+      "seedUrl": "https://www.city.kaizu.lg.jp/sitemap.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/download/category/3-3-1-0-0-0-0-0-0-0.html",
+      "anchor": "福祉医療",
+      "seedUrl": "https://www.city.kaizu.lg.jp/sitemap.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/download/category/3-3-21-0-0-0-0-0-0-0.html",
+      "anchor": "農業・林業",
+      "seedUrl": "https://www.city.kaizu.lg.jp/sitemap.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1056.htm",
+      "anchor": "障がい者支援",
+      "seedUrl": "https://www.town.ginan.lg.jp/sitemap.html",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.kasamatsu.gifu.jp/category/bunya/kurashi/shushoku_taishoku/",
+      "anchor": "就職・退職",
+      "seedUrl": "https://www.town.kasamatsu.gifu.jp/",
+      "host": "www.town.kasamatsu.gifu.jp",
+      "municipalityName": "笠松町",
+      "municipalityCode": "21303"
+    },
+    {
+      "url": "https://www.town.kasamatsu.gifu.jp/formmail_list/formmail_kyusyoku/12/",
+      "anchor": "学校給食センターの意見箱",
+      "seedUrl": "https://www.town.kasamatsu.gifu.jp/sitemap.html",
+      "host": "www.town.kasamatsu.gifu.jp",
+      "municipalityName": "笠松町",
+      "municipalityCode": "21303"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/childcare/1003262/index.html",
+      "anchor": "妊娠・出産",
+      "seedUrl": "https://www.town.yoro.gifu.jp/",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.town.tarui.lg.jp/life/4/20/",
+      "anchor": "農業・林業",
+      "seedUrl": "https://www.town.tarui.lg.jp/sitemap.html",
+      "host": "www.town.tarui.lg.jp",
+      "municipalityName": "垂井町",
+      "municipalityCode": "21361"
+    },
+    {
+      "url": "https://www.town.tarui.lg.jp/soshiki/12/",
+      "anchor": "農業委員会事務局",
+      "seedUrl": "https://www.town.tarui.lg.jp/sitemap.html",
+      "host": "www.town.tarui.lg.jp",
+      "municipalityName": "垂井町",
+      "municipalityCode": "21361"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/shisei/0000004640.html",
+      "anchor": "防犯機能付き固定電話等購入補助金について",
+      "seedUrl": "https://www.city.kaizu.lg.jp/shisei/0000003915.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/shisei/0000004641.html",
+      "anchor": "誰もが働きやすい職場環境づくり事業補助金について",
+      "seedUrl": "https://www.city.kaizu.lg.jp/shisei/0000003915.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/shisei/0000000748.html",
+      "anchor": "ツアー造成経費の補助について",
+      "seedUrl": "https://www.city.kaizu.lg.jp/shisei/0000003915.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/shisei/0000002648.html",
+      "anchor": "若者や子育て世代を雇用する企業への奨励金制度のお知らせ",
+      "seedUrl": "https://www.city.kaizu.lg.jp/shisei/0000003915.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/shisei/0000003883.html",
+      "anchor": "リーディングショップ進出支援事業補助金のお知らせ",
+      "seedUrl": "https://www.city.kaizu.lg.jp/shisei/0000003915.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/shisei/0000003241.html",
+      "anchor": "ステップアップ中小企業支援事業補助金のお知らせ",
+      "seedUrl": "https://www.city.kaizu.lg.jp/shisei/0000003915.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kurashi/0000003746.html",
+      "anchor": "海津市養老鉄道利用促進事業補助金",
+      "seedUrl": "https://www.city.kaizu.lg.jp/shisei/0000003915.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/shisei/0000002304.html",
+      "anchor": "西美濃創生産業活性化広域連携推進事業補助金制度について",
+      "seedUrl": "https://www.city.kaizu.lg.jp/shisei/0000003915.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/shisei/0000002965.html",
+      "anchor": "大垣労務推進協会 各種助成金のご案内",
+      "seedUrl": "https://www.city.kaizu.lg.jp/shisei/0000003915.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/secure/1141/sousaihojyo_sinnseisyo.rtf",
+      "anchor": "葬祭補助金交付申請書（様式）.rtf(60KB)",
+      "seedUrl": "https://www.town.ginan.lg.jp/1130.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1614.htm",
+      "anchor": "児童手当",
+      "seedUrl": "https://www.town.ginan.lg.jp/4227.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/3578.htm",
+      "anchor": "令和6年10月から児童手当制度が変わりました",
+      "seedUrl": "https://www.town.ginan.lg.jp/4227.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1382.htm",
+      "anchor": "児童扶養手当について",
+      "seedUrl": "https://www.town.ginan.lg.jp/4227.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1621.htm",
+      "anchor": "幼児教育・保育の無償化について",
+      "seedUrl": "https://www.town.ginan.lg.jp/4227.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1624.htm",
+      "anchor": "無償化に係る認定申請について",
+      "seedUrl": "https://www.town.ginan.lg.jp/4227.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1622.htm",
+      "anchor": "無償化に係る償還払いの申請について",
+      "seedUrl": "https://www.town.ginan.lg.jp/4227.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/2510.htm",
+      "anchor": "私立幼稚園の副食費補助について",
+      "seedUrl": "https://www.town.ginan.lg.jp/4227.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/yorokko/1002888/1001957/1001958/index.html",
+      "anchor": "児童手当",
+      "seedUrl": "https://www.town.yoro.gifu.jp/yorokko/1002888/1001957/index.html",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/yorokko/1002888/1001957/1001962/index.html",
+      "anchor": "児童扶養手当",
+      "seedUrl": "https://www.town.yoro.gifu.jp/yorokko/1002888/1001957/index.html",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/yorokko/1002888/1001957/1003275.html",
+      "anchor": "物価高対応子育て応援手当に関するお知らせ",
+      "seedUrl": "https://www.town.yoro.gifu.jp/yorokko/1002888/1001957/index.html",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/yorokko/1002888/1001957/1001968/index.html",
+      "anchor": "医療費助成（子育て）",
+      "seedUrl": "https://www.town.yoro.gifu.jp/yorokko/1002888/1001957/index.html",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/shisei/0000002678.html",
+      "anchor": "若年夫婦・子育て世帯住宅取得等奨励事業",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/category/5-9-0-0-0-0-0-0-0-0.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/download/0000002931.html",
+      "anchor": "奨学金返還支援事業",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/category/5-9-0-0-0-0-0-0-0-0.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000001373.html",
+      "anchor": "児童手当",
+      "seedUrl": "https://www.city.kaizu.lg.jp/kensaku/category/7-5-0-0-0-0-0-0-0-0.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000001007.html",
+      "anchor": "出産手当金",
+      "seedUrl": "https://www.city.kaizu.lg.jp/kensaku/category/7-5-0-0-0-0-0-0-0-0.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000001009.html",
+      "anchor": "出産育児一時金（国民健康保険加入者）",
+      "seedUrl": "https://www.city.kaizu.lg.jp/kensaku/category/7-5-0-0-0-0-0-0-0-0.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000001369.html",
+      "anchor": "自立支援医療（育成医療）の助成",
+      "seedUrl": "https://www.city.kaizu.lg.jp/kensaku/category/7-5-0-0-0-0-0-0-0-0.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kurashi/0000003627.html",
+      "anchor": "物価高騰対応生活支援給付金について",
+      "seedUrl": "https://www.city.kaizu.lg.jp/kurashi/category/1-11-11-0-0-0-0-0-0-0.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kurashi/0000002829.html",
+      "anchor": "電力・ガス・食料品等価格高騰生活支援特別給付金",
+      "seedUrl": "https://www.city.kaizu.lg.jp/kurashi/category/1-11-11-0-0-0-0-0-0-0.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.town.kasamatsu.gifu.jp/docs/2012121200014/",
+      "anchor": "子ども医療費助成",
+      "seedUrl": "https://www.town.kasamatsu.gifu.jp/category/bunya/kosodate_kyouiku/kosodate/iryouhi_josei/",
+      "host": "www.town.kasamatsu.gifu.jp",
+      "municipalityName": "笠松町",
+      "municipalityCode": "21303"
+    },
+    {
+      "url": "https://www.town.kasamatsu.gifu.jp/docs/2012121200045/",
+      "anchor": "ひとり親家庭等医療費助成",
+      "seedUrl": "https://www.town.kasamatsu.gifu.jp/category/bunya/kosodate_kyouiku/kosodate/iryouhi_josei/",
+      "host": "www.town.kasamatsu.gifu.jp",
+      "municipalityName": "笠松町",
+      "municipalityCode": "21303"
+    },
+    {
+      "url": "https://www.town.kasamatsu.gifu.jp/docs/2012121101281/",
+      "anchor": "不妊症診断検査費助成事業",
+      "seedUrl": "https://www.town.kasamatsu.gifu.jp/category/bunya/kosodate_kyouiku/kosodate/teate_josei/",
+      "host": "www.town.kasamatsu.gifu.jp",
+      "municipalityName": "笠松町",
+      "municipalityCode": "21303"
+    },
+    {
+      "url": "https://www.town.kasamatsu.gifu.jp/docs/2012121100680/",
+      "anchor": "児童扶養手当",
+      "seedUrl": "https://www.town.kasamatsu.gifu.jp/category/bunya/kosodate_kyouiku/kosodate/teate_josei/",
+      "host": "www.town.kasamatsu.gifu.jp",
+      "municipalityName": "笠松町",
+      "municipalityCode": "21303"
+    },
+    {
+      "url": "https://www.town.kasamatsu.gifu.jp/docs/2013011500061/",
+      "anchor": "新生児聴覚検査費助成事業",
+      "seedUrl": "https://www.town.kasamatsu.gifu.jp/category/bunya/kosodate_kyouiku/kosodate/teate_josei/",
+      "host": "www.town.kasamatsu.gifu.jp",
+      "municipalityName": "笠松町",
+      "municipalityCode": "21303"
+    },
+    {
+      "url": "https://www.town.tarui.lg.jp/site/sukoyaka/6119.html",
+      "anchor": "児童扶養手当",
+      "seedUrl": "https://www.town.tarui.lg.jp/life/2/16/77/",
+      "host": "www.town.tarui.lg.jp",
+      "municipalityName": "垂井町",
+      "municipalityCode": "21361"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/shisei/0000002276.html",
+      "anchor": "宅地造成支援補助金のご案内",
+      "seedUrl": "https://www.city.kaizu.lg.jp/shisei/0000000024.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/shisei/0000003639.html",
+      "anchor": "海津市域学連携活動支援補助金",
+      "seedUrl": "https://www.city.kaizu.lg.jp/shisei/0000000024.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1481.htm",
+      "anchor": "介護給付費過誤申立書(事業者用)",
+      "seedUrl": "https://www.town.ginan.lg.jp/6020.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1438.htm",
+      "anchor": "住宅改修の見積書（標準様式）について",
+      "seedUrl": "https://www.town.ginan.lg.jp/6020.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kurashi/0000004328.html",
+      "anchor": "空家バンク登録物件番号17（南濃町太田）",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kurashi/0000001552.html",
+      "anchor": "空家バンク物件情報一覧",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kurashi/0000003672.html",
+      "anchor": "空家バンク登録物件番号14（海津町平原）",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kurashi/0000001546.html",
+      "anchor": "空家バンク登録物件番号2（海津町高須町）",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kurashi/0000000738.html",
+      "anchor": "空家バンク制度",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/iju/0000000775.html",
+      "anchor": "定住促進住宅に入居するには",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000001447.html",
+      "anchor": "不妊症（一般不妊治療・特定不妊治療）の治療費助成",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000003714.html",
+      "anchor": "妊婦のための支援給付",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000001435.html",
+      "anchor": "予防接種",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000002666.html",
+      "anchor": "高校生等通学費補助金",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000001477.html",
+      "anchor": "インフルエンザ予防接種（任意）※令和7年度は終了しました",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000003715.html",
+      "anchor": "妊娠判定検査費助成事業",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000003016.html",
+      "anchor": "高等学校就学準備等支援金について",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000001409.html",
+      "anchor": "妊婦歯科健康診査",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000001410.html",
+      "anchor": "妊婦健康診査",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000001436.html",
+      "anchor": "不育症治療費助成",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000001451.html",
+      "anchor": "養育医療費の助成",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000001453.html",
+      "anchor": "新生児聴覚検査の助成",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000002870.html",
+      "anchor": "出産・子育て応援事業のご案内",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000001000.html",
+      "anchor": "乳幼児等福祉医療費助成",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kurashi/0000001517.html",
+      "anchor": "任意風しん予防接種（麻しん風しん混合)",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kurashi/0000002838.html",
+      "anchor": "人間ドック費用助成",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kurashi/0000002807.html",
+      "anchor": "帯状疱疹ワクチンの費用助成について",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kurashi/0000000991.html",
+      "anchor": "ひとり親家庭等福祉医療費助成制度（母子家庭等、父子家庭）",
+      "seedUrl": "https://www.city.kaizu.lg.jp/iju/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/module/shareform.php?so_cd=5-1-3-0-0",
+      "anchor": "障害福祉係のお問い合わせフォーム",
+      "seedUrl": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/soshiki/13-0-0-0-0_23.html",
+      "anchor": "農業委員会",
+      "seedUrl": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/module/shareform.php?so_cd=13-0-0-0-0",
+      "anchor": "農業委員会のお問い合わせフォーム",
+      "seedUrl": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/module/shareform.php?so_cd=12-2-2-0-0",
+      "anchor": "住宅都市係のお問い合わせフォーム",
+      "seedUrl": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/soshiki/2-8-1-20-0_1.html",
+      "anchor": "城跡住宅",
+      "seedUrl": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/soshiki/2-8-1-21-0_1.html",
+      "anchor": "東大城住宅",
+      "seedUrl": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/soshiki/2-8-1-22-0_1.html",
+      "anchor": "山の手住宅",
+      "seedUrl": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/soshiki/2-8-1-24-0_1.html",
+      "anchor": "南濃第一市営住宅",
+      "seedUrl": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/soshiki/2-8-1-25-0_1.html",
+      "anchor": "南濃第二市営住宅",
+      "seedUrl": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/soshiki/2-17-1-8-0_1.html",
+      "anchor": "志津農業集落排水処理施設",
+      "seedUrl": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/soshiki/2-17-1-9-0_1.html",
+      "anchor": "駒野新田農業集落排水処理施設",
+      "seedUrl": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/soshiki/2-7-1-1-0_1.html",
+      "anchor": "学校給食センター",
+      "seedUrl": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/module/shareform.php?so_cd=2-7-1-1-0",
+      "anchor": "学校給食センターのお問い合わせフォーム",
+      "seedUrl": "https://www.city.kaizu.lg.jp/soshiki_list.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.town.kasamatsu.gifu.jp/docs/2020021200010/",
+      "anchor": "英語検定料助成金のリンクはこちらから",
+      "seedUrl": "https://www.town.kasamatsu.gifu.jp/docs/2026062900025/",
+      "host": "www.town.kasamatsu.gifu.jp",
+      "municipalityName": "笠松町",
+      "municipalityCode": "21303"
+    },
+    {
+      "url": "https://www.town.kasamatsu.gifu.jp/category/bunya/kosodate_kyouiku/kyouiku/gakkou_kyushoku/",
+      "anchor": "学校給食",
+      "seedUrl": "https://www.town.kasamatsu.gifu.jp/docs/2022053100023/",
+      "host": "www.town.kasamatsu.gifu.jp",
+      "municipalityName": "笠松町",
+      "municipalityCode": "21303"
+    },
+    {
+      "url": "https://www.town.kasamatsu.gifu.jp/organization_list/kyouikubunnkabu/gakkoukyuusyoku/",
+      "anchor": "学校給食センター",
+      "seedUrl": "https://www.town.kasamatsu.gifu.jp/docs/2022053100023/",
+      "host": "www.town.kasamatsu.gifu.jp",
+      "municipalityName": "笠松町",
+      "municipalityCode": "21303"
+    },
+    {
+      "url": "https://www.town.kasamatsu.gifu.jp/category/bunya/kosodate_kyouiku/kosodate/kodomono_yobouseshu/",
+      "anchor": "子どもの予防接種",
+      "seedUrl": "https://www.town.kasamatsu.gifu.jp/docs/2012121100635/",
+      "host": "www.town.kasamatsu.gifu.jp",
+      "municipalityName": "笠松町",
+      "municipalityCode": "21303"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/tourism/sports/1003452.html",
+      "anchor": "スポーツ振興くじ（toto）助成金の活用について",
+      "seedUrl": "https://www.town.yoro.gifu.jp/tourism/sports/index.html",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/tourism/sports/1002624.html",
+      "anchor": "体育振興会補助金（申請書ダウンロード）",
+      "seedUrl": "https://www.town.yoro.gifu.jp/tourism/sports/index.html",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.town.tarui.lg.jp/site/townpromotion/6526.html",
+      "anchor": "移住定住促進住宅取得費補助金",
+      "seedUrl": "https://www.town.tarui.lg.jp/site/townpromotion/",
+      "host": "www.town.tarui.lg.jp",
+      "municipalityName": "垂井町",
+      "municipalityCode": "21361"
+    },
+    {
+      "url": "https://www.town.tarui.lg.jp/site/townpromotion/6580.html",
+      "anchor": "移住促進住宅リフォーム事業補助金",
+      "seedUrl": "https://www.town.tarui.lg.jp/site/townpromotion/",
+      "host": "www.town.tarui.lg.jp",
+      "municipalityName": "垂井町",
+      "municipalityCode": "21361"
+    },
+    {
+      "url": "https://www.town.tarui.lg.jp/site/townpromotion/4382.html",
+      "anchor": "東京圏からの移住支援事業",
+      "seedUrl": "https://www.town.tarui.lg.jp/site/townpromotion/",
+      "host": "www.town.tarui.lg.jp",
+      "municipalityName": "垂井町",
+      "municipalityCode": "21361"
+    },
+    {
+      "url": "https://www.town.tarui.lg.jp/site/townpromotion/list51-147.html",
+      "anchor": "移住支援",
+      "seedUrl": "https://www.town.tarui.lg.jp/site/townpromotion/",
+      "host": "www.town.tarui.lg.jp",
+      "municipalityName": "垂井町",
+      "municipalityCode": "21361"
+    },
+    {
+      "url": "https://www.kiriken.jp/new-%E7%AA%93-%E8%A3%9C%E5%8A%A9%E9%87%91%E7%89%B9%E8%A8%AD%E3%83%9A%E3%83%BC%E3%82%B8/",
+      "anchor": "NEW！「窓」補助金特設ページ！",
+      "seedUrl": "https://www.kiriken.jp/",
+      "host": "www.kiriken.jp",
+      "municipalityName": "www.kiriken.jp",
+      "municipalityCode": ""
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/0000001555.html",
+      "anchor": "幼児教育・保育の無償化について",
+      "seedUrl": "https://www.city.kaizu.lg.jp/kosodate/",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/category/6-1-2-0-0-0-0-0-0-0.html",
+      "anchor": "出産に関する補助金と制度",
+      "seedUrl": "https://www.city.kaizu.lg.jp/kosodate/",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/category/6-1-4-0-0-0-0-0-0-0.html",
+      "anchor": "出産したら",
+      "seedUrl": "https://www.city.kaizu.lg.jp/kosodate/",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/category/6-1-5-0-0-0-0-0-0-0.html",
+      "anchor": "不妊治療",
+      "seedUrl": "https://www.city.kaizu.lg.jp/kosodate/",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/category/6-1-6-0-0-0-0-0-0-0.html",
+      "anchor": "妊娠・出産に関する支援活動",
+      "seedUrl": "https://www.city.kaizu.lg.jp/kosodate/",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/category/6-4-1-0-0-0-0-0-0-0.html",
+      "anchor": "手当と助成制度",
+      "seedUrl": "https://www.city.kaizu.lg.jp/kosodate/",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/category/6-4-4-0-0-0-0-0-0-0.html",
+      "anchor": "障がい児支援",
+      "seedUrl": "https://www.city.kaizu.lg.jp/kosodate/",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kosodate/category/6-7-5-0-0-0-0-0-0-0.html",
+      "anchor": "給食献立表（小学校・中学校）",
+      "seedUrl": "https://www.city.kaizu.lg.jp/kosodate/",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/2259.htm",
+      "anchor": "高齢者の予防接種",
+      "seedUrl": "https://www.town.ginan.lg.jp/3361.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/2255.htm",
+      "anchor": "助成制度",
+      "seedUrl": "https://www.town.ginan.lg.jp/3361.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/item/1830.htm",
+      "anchor": "妊婦健康診査",
+      "seedUrl": "https://www.town.ginan.lg.jp/1770.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1384.htm",
+      "anchor": "未熟児養育医療費給付事業",
+      "seedUrl": "https://www.town.ginan.lg.jp/1770.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1634.htm",
+      "anchor": "福祉医療費助成制度",
+      "seedUrl": "https://www.town.ginan.lg.jp/1770.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1226.htm",
+      "anchor": "運転免許証を返納された高齢者へのコミュニティタクシー利用助成",
+      "seedUrl": "https://www.town.ginan.lg.jp/2341.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/4020.htm",
+      "anchor": "高齢者補聴器購入費助成金",
+      "seedUrl": "https://www.town.ginan.lg.jp/2341.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/5495.htm",
+      "anchor": "在宅高齢者紙おむつ等購入助成",
+      "seedUrl": "https://www.town.ginan.lg.jp/2341.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1420.htm",
+      "anchor": "療養の給付",
+      "seedUrl": "https://www.town.ginan.lg.jp/2368.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1493.htm",
+      "anchor": "出産育児一時金",
+      "seedUrl": "https://www.town.ginan.lg.jp/2368.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1494.htm",
+      "anchor": "葬祭費",
+      "seedUrl": "https://www.town.ginan.lg.jp/2368.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1421.htm",
+      "anchor": "高額療養費貸付制度",
+      "seedUrl": "https://www.town.ginan.lg.jp/2368.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/3585.htm",
+      "anchor": "新型コロナウイルス感染症に係る傷病手当金",
+      "seedUrl": "https://www.town.ginan.lg.jp/2368.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.kasamatsu.gifu.jp/category/bunya/jigyoshamuke_jouhou/nouringyou/",
+      "anchor": "農林業",
+      "seedUrl": "https://www.town.kasamatsu.gifu.jp/docs/2018072600019/",
+      "host": "www.town.kasamatsu.gifu.jp",
+      "municipalityName": "笠松町",
+      "municipalityCode": "21303"
+    },
+    {
+      "url": "https://www.town.kasamatsu.gifu.jp/category/bunya/jigyoshamuke_jouhou/nouringyou/nouringyou2/",
+      "anchor": "農林業",
+      "seedUrl": "https://www.town.kasamatsu.gifu.jp/docs/2018072600019/",
+      "host": "www.town.kasamatsu.gifu.jp",
+      "municipalityName": "笠松町",
+      "municipalityCode": "21303"
+    },
+    {
+      "url": "https://www.town.kasamatsu.gifu.jp/category/bunya/kosodate_kyouiku/ninshin_shusan/shussan/",
+      "anchor": "出産",
+      "seedUrl": "https://www.town.kasamatsu.gifu.jp/docs/2023121200010/",
+      "host": "www.town.kasamatsu.gifu.jp",
+      "municipalityName": "笠松町",
+      "municipalityCode": "21303"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/1002742.html",
+      "anchor": "［福祉医療］福祉医療を受けていますが、県外の病院で医療費を支払いました。医療費の払い戻しの方法は？",
+      "seedUrl": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/index.html",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/1002743.html",
+      "anchor": "［福祉医療］福祉医療を受けていますが、コルセットをつくりました。費用はもどりますか？",
+      "seedUrl": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/index.html",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/1002633/1002741.html",
+      "anchor": "［介護保険］介護保険の住宅改修費の支給について",
+      "seedUrl": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/index.html",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/1002627/1002745.html",
+      "anchor": "質問：［障がい者福祉］身体障害者手帳とは",
+      "seedUrl": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/index.html",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/1002627/1002746.html",
+      "anchor": "質問：［障がい者福祉］身体障害者手帳交付によってどんなサービスが受けられるの？",
+      "seedUrl": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/index.html",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/1002627/1002752.html",
+      "anchor": "質問：［障がい者福祉］有料道路割引について",
+      "seedUrl": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/index.html",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/1002627/1002753.html",
+      "anchor": "質問：［障がい者福祉］NHK放送受信料の減免",
+      "seedUrl": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/index.html",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/1002627/1002754.html",
+      "anchor": "質問：［障がい者福祉］車いすマークのステッカーを車に付けている人をよく見るのですが、役場で交付してもらえるのですか？",
+      "seedUrl": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/index.html",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/1002627/1002755.html",
+      "anchor": "質問：［障がい者福祉］手当・共済制度について",
+      "seedUrl": "https://www.town.yoro.gifu.jp/faq/welfare/1002726/index.html",
+      "host": "www.town.yoro.gifu.jp",
+      "municipalityName": "養老町",
+      "municipalityCode": "21341"
+    },
+    {
+      "url": "https://www.chisou.go.jp/iikamo/ijushienkin/",
+      "anchor": "移住支援金のはなし",
+      "seedUrl": "https://www.chisou.go.jp/iikamo/index.html",
+      "host": "www.chisou.go.jp",
+      "municipalityName": "www.chisou.go.jp",
+      "municipalityCode": ""
+    },
+    {
+      "url": "https://www.chisou.go.jp/iikamo/shienkinkaisetsu/index.html",
+      "anchor": "「移住支援金」について、もっと詳しく",
+      "seedUrl": "https://www.chisou.go.jp/iikamo/index.html",
+      "host": "www.chisou.go.jp",
+      "municipalityName": "www.chisou.go.jp",
+      "municipalityCode": ""
+    },
+    {
+      "url": "https://www.chisou.go.jp/iikamo/shushokushienkin/index.html",
+      "anchor": "使いこなそう「地方就職支援金」",
+      "seedUrl": "https://www.chisou.go.jp/iikamo/index.html",
+      "host": "www.chisou.go.jp",
+      "municipalityName": "www.chisou.go.jp",
+      "municipalityCode": ""
+    },
+    {
+      "url": "https://www.chisou.go.jp/iikamo/shushokushienkin/",
+      "anchor": "解説 使いこなそう「地方就職支援金」",
+      "seedUrl": "https://www.chisou.go.jp/iikamo/index.html",
+      "host": "www.chisou.go.jp",
+      "municipalityName": "www.chisou.go.jp",
+      "municipalityCode": ""
+    },
+    {
+      "url": "https://www.chisou.go.jp/iikamo/column/column43.html",
+      "anchor": "デジタルの力で、移住希望者と地域の空き家をマッチング",
+      "seedUrl": "https://www.chisou.go.jp/iikamo/index.html",
+      "host": "www.chisou.go.jp",
+      "municipalityName": "www.chisou.go.jp",
+      "municipalityCode": ""
+    },
+    {
+      "url": "https://www.chisou.go.jp/sousei/shienkin_index.html",
+      "anchor": "しごと探し 東京から地方移住のための仕事探し最大100万円の移住支援金",
+      "seedUrl": "https://www.chisou.go.jp/iikamo/index.html",
+      "host": "www.chisou.go.jp",
+      "municipalityName": "www.chisou.go.jp",
+      "municipalityCode": ""
+    },
+    {
+      "url": "https://www.chisou.go.jp/sousei/moving/index.html",
+      "anchor": "暮らし・移住支援 地方での暮らしの支援情報サイト",
+      "seedUrl": "https://www.chisou.go.jp/iikamo/index.html",
+      "host": "www.chisou.go.jp",
+      "municipalityName": "www.chisou.go.jp",
+      "municipalityCode": ""
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kurashi/0000002273.html",
+      "anchor": "医療用ウイッグ・乳房補正具の購入費用を助成します（がん患者医療用補正具購入費助成事業）",
+      "seedUrl": "https://www.city.kaizu.lg.jp/kurashi/0000003710.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kurashi/category/1-10-14-0-0-0-0-0-0-0.html",
+      "anchor": "妊娠・出産",
+      "seedUrl": "https://www.city.kaizu.lg.jp/download/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.city.kaizu.lg.jp/kurashi/category/1-10-11-6-0-0-0-0-0-0.html",
+      "anchor": "手当と助成",
+      "seedUrl": "https://www.city.kaizu.lg.jp/download/index.html",
+      "host": "www.city.kaizu.lg.jp",
+      "municipalityName": "海津市",
+      "municipalityCode": "21221"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/1554.htm",
+      "anchor": "契約及び交付する補助金からの暴力団排除について",
+      "seedUrl": "https://www.town.ginan.lg.jp/jigyousya/",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/4599.htm",
+      "anchor": "国・県の補助金",
+      "seedUrl": "https://www.town.ginan.lg.jp/jigyousya/",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/4600.htm",
+      "anchor": "融資制度",
+      "seedUrl": "https://www.town.ginan.lg.jp/jigyousya/",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/5346.htm",
+      "anchor": "スポーツ振興くじ（toto）助成事業",
+      "seedUrl": "https://www.town.ginan.lg.jp/6047.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.ginan.lg.jp/5652.htm",
+      "anchor": "住宅用家屋証明",
+      "seedUrl": "https://www.town.ginan.lg.jp/2302.htm",
+      "host": "www.town.ginan.lg.jp",
+      "municipalityName": "岐南町",
+      "municipalityCode": "21302"
+    },
+    {
+      "url": "https://www.town.tarui.lg.jp/site/gomi-risaikuru/list84-258.html",
+      "anchor": "助成・支援",
+      "seedUrl": "https://www.town.tarui.lg.jp/site/gomi-risaikuru/",
+      "host": "www.town.tarui.lg.jp",
+      "municipalityName": "垂井町",
+      "municipalityCode": "21361"
+    }
+  ]
+}

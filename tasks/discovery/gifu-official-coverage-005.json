@@ -1,0 +1,35 @@
+{
+  "batchId": "gifu-official-coverage-005",
+  "prefecture": "岐阜県",
+  "municipalities": [
+    "21221 海津市",
+    "21302 岐南町",
+    "21303 笠松町",
+    "21341 養老町",
+    "21361 垂井町"
+  ],
+  "candidateCount": 766,
+  "snippetCount": 766,
+  "linkLeadCount": 146,
+  "selectedVerificationCount": 74,
+  "adoptedCount": 51,
+  "heldCount": 715,
+  "adoptedByMunicipality": {
+    "海津市": 26,
+    "岐南町": 11,
+    "笠松町": 5,
+    "養老町": 5,
+    "垂井町": 4
+  },
+  "files": {
+    "municipalities": "tasks/discovery/gifu-official-coverage-005-municipalities.json",
+    "candidates": "tasks/discovery/gifu-official-coverage-005-candidates.json",
+    "snippets": "tasks/discovery/gifu-official-coverage-005-snippets.json",
+    "linkLeads": "tasks/discovery/gifu-official-coverage-005-link-leads.json",
+    "verificationSnippets": "tasks/discovery/gifu-official-coverage-005-verification-snippets.json",
+    "adoptedUrls": "tasks/discovery/gifu-official-coverage-005-adopted-urls.json",
+    "urlStatus": "tasks/discovery/gifu-official-coverage-005-url-status.txt"
+  },
+  "status": "adopted-official-pages-added",
+  "next": "gifu-official-coverage-006 / 21362 関ケ原町"
+}

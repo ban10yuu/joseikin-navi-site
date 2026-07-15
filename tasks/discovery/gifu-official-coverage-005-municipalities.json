@@ -1,0 +1,31 @@
+{
+  "batchId": "gifu-official-coverage-005",
+  "prefecture": "岐阜県",
+  "municipalities": [
+    {
+      "code": "21221",
+      "name": "海津市",
+      "officialBaseUrl": "https://www.city.kaizu.lg.jp/"
+    },
+    {
+      "code": "21302",
+      "name": "岐南町",
+      "officialBaseUrl": "https://www.town.ginan.lg.jp/"
+    },
+    {
+      "code": "21303",
+      "name": "笠松町",
+      "officialBaseUrl": "https://www.town.kasamatsu.gifu.jp/"
+    },
+    {
+      "code": "21341",
+      "name": "養老町",
+      "officialBaseUrl": "https://www.town.yoro.gifu.jp/"
+    },
+    {
+      "code": "21361",
+      "name": "垂井町",
+      "officialBaseUrl": "https://www.town.tarui.lg.jp/"
+    }
+  ]
+}

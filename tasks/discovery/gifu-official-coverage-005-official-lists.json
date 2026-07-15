@@ -1,0 +1,13 @@
+{
+  "batchId": "gifu-official-coverage-005",
+  "notes": "公式カテゴリ・サイトマップ・候補本文から個別制度ページを優先して採用。外部サイト、カテゴリ導線、申請書単体、本文根拠が薄い候補は第2巡候補として保持。",
+  "municipalityCounts": {
+    "海津市": 26,
+    "岐南町": 11,
+    "笠松町": 5,
+    "養老町": 5,
+    "垂井町": 4
+  },
+  "linkLeads": "tasks/discovery/gifu-official-coverage-005-link-leads.json",
+  "selectedUrls": "tasks/discovery/gifu-official-coverage-005-selected-urls.json"
+}

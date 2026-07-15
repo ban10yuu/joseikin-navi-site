@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T10:55:00+09:00",
+  "updatedAt": "2026-07-15T12:15:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "gifu-official-coverage-004",
-    "municipality": "瑞穂市・飛騨市・本巣市・郡上市・下呂市",
-    "adopted": 95,
-    "held": 852,
+    "code": "gifu-official-coverage-005",
+    "municipality": "海津市・岐南町・笠松町・養老町・垂井町",
+    "adopted": 51,
+    "held": 715,
     "excluded": 0,
-    "sourceUrlsChecked": 95,
+    "sourceUrlsChecked": 51,
     "validation": {
-      "previousMunicipality": "岐阜県公式棚卸し004として、21216瑞穂市・21217飛騨市・21218本巣市・21219郡上市・21220下呂市を確認した。候補947件、本文スニペット947件、カテゴリ深掘り389件、選定検証95件を保存し、合計95件を新規採用した。トップ、カテゴリ導線、共通ナビ、申請書単体、本文根拠が薄い候補は第2巡候補として保持。岐阜県第1巡は21220下呂市まで到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "岐阜県公式棚卸し005として、21221海津市・21302岐南町・21303笠松町・21341養老町・21361垂井町を確認した。候補766件、本文スニペット766件、公式カテゴリリンクリード146件、選定検証74件を保存し、合計51件を新規採用した。外部サイト、カテゴリ導線、申請書単体、本文根拠が薄い候補は第2巡候補として保持。岐阜県第1巡は21361垂井町まで到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for gifu-official-coverage-004 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 95 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 95 unique adopted official URLs returned HTTP 200 by interval fetch",
+      "json": "pass: JSON.parse for gifu-official-coverage-005 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 51 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 51 unique adopted official URLs returned HTTP 200 by interval fetch",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 14281, officialLinkedActive 14161, manuallyVerifiedActive 14161, 岐阜県 localOfficial 351)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 14332, officialLinkedActive 14212, manuallyVerifiedActive 14212, 岐阜県 localOfficial 402)"
     }
   },
   "next": {
-    "code": "gifu-official-coverage-005",
-    "municipality": "海津市",
-    "shortlist": "岐阜県公式棚卸し004は瑞穂市5件、飛騨市18件、本巣市24件、郡上市25件、下呂市23件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、21221海津市を開始地点として岐阜県公式棚卸し005を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "gifu-official-coverage-006",
+    "municipality": "関ケ原町",
+    "shortlist": "岐阜県公式棚卸し005は海津市26件、岐南町11件、笠松町5件、養老町5件、垂井町4件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、21362関ケ原町を開始地点として岐阜県公式棚卸し006を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "岐阜県",
     "status": "in-progress-first-pass",
-    "lastBatch": "gifu-official-coverage-004",
-    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20602栄村まで第1巡完了。岐阜県は21201岐阜市から21220下呂市まで到達。全国公式棚卸しは未完了。次は21221海津市から継続する。"
+    "lastBatch": "gifu-official-coverage-005",
+    "notes": "山梨県は19201甲府市から19443丹波山村まで第1巡完了。長野県は20201長野市から20602栄村まで第1巡完了。岐阜県は21201岐阜市から21361垂井町まで到達。全国公式棚卸しは未完了。次は21362関ケ原町から継続する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
