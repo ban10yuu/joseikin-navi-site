@@ -1,0 +1,504 @@
+{
+  "batchId": "shizuoka-official-coverage-004",
+  "prefecture": "静岡県",
+  "generatedAt": "2026-07-15T13:45:00+09:00",
+  "municipalities": [
+    {
+      "code": "22215",
+      "name": "御殿場市",
+      "officialBaseUrl": "https://www.city.gotemba.lg.jp/"
+    },
+    {
+      "code": "22216",
+      "name": "袋井市",
+      "officialBaseUrl": "https://www.city.fukuroi.shizuoka.jp/"
+    },
+    {
+      "code": "22219",
+      "name": "下田市",
+      "officialBaseUrl": "https://www.city.shimoda.shizuoka.jp/"
+    },
+    {
+      "code": "22220",
+      "name": "裾野市",
+      "officialBaseUrl": "https://www.city.susono.shizuoka.jp/"
+    },
+    {
+      "code": "22221",
+      "name": "湖西市",
+      "officialBaseUrl": "https://www.city.kosai.shizuoka.jp/"
+    }
+  ],
+  "candidateCount": 160,
+  "snippetCount": 160,
+  "linkLeadCount": 338,
+  "officialListCount": 21,
+  "adoptedCount": 65,
+  "heldCount": 95,
+  "excludedCount": 0,
+  "adoptedByMunicipality": {
+    "御殿場市": 13,
+    "袋井市": 13,
+    "下田市": 13,
+    "裾野市": 13,
+    "湖西市": 13
+  },
+  "adoptedUrls": [
+    {
+      "slug": "shizuoka-official-004-001-2026",
+      "title": "御殿場市 若年がん患者妊孕性温存治療費用助成",
+      "organization": "御殿場市",
+      "officialUrl": "https://www.city.gotemba.lg.jp/kenkou/c-1/c-1-15/14963.html",
+      "sourceName": "御殿場市 若年がん患者妊孕性温存治療費用助成"
+    },
+    {
+      "slug": "shizuoka-official-004-002-2026",
+      "title": "御殿場市 がん患者医療用補整具購入費助成",
+      "organization": "御殿場市",
+      "officialUrl": "https://www.city.gotemba.lg.jp/kenkou/c-1/c-1-15/2790.html",
+      "sourceName": "御殿場市 がん患者医療用補整具購入費助成"
+    },
+    {
+      "slug": "shizuoka-official-004-003-2026",
+      "title": "御殿場市 骨髄ドナー助成金交付事業",
+      "organization": "御殿場市",
+      "officialUrl": "https://www.city.gotemba.lg.jp/kenkou/c-1/c-1-18/11642.html",
+      "sourceName": "御殿場市 骨髄ドナー助成金交付事業"
+    },
+    {
+      "slug": "shizuoka-official-004-004-2026",
+      "title": "御殿場市 特別の理由による任意予防接種費助成",
+      "organization": "御殿場市",
+      "officialUrl": "https://www.city.gotemba.lg.jp/kenkou/c-1/c-1-5/12750.html",
+      "sourceName": "御殿場市 特別の理由による任意予防接種費助成"
+    },
+    {
+      "slug": "shizuoka-official-004-005-2026",
+      "title": "御殿場市 子どもインフルエンザ任意予防接種費用Gコイン交付",
+      "organization": "御殿場市",
+      "officialUrl": "https://www.city.gotemba.lg.jp/kenkou/c-1/c-1-5/13808.html",
+      "sourceName": "御殿場市 子どもインフルエンザ任意予防接種費用Gコイン交付"
+    },
+    {
+      "slug": "shizuoka-official-004-006-2026",
+      "title": "御殿場市 帯状疱疹ワクチン任意予防接種費用一部助成",
+      "organization": "御殿場市",
+      "officialUrl": "https://www.city.gotemba.lg.jp/kenkou/c-1/c-1-5/13362.html",
+      "sourceName": "御殿場市 帯状疱疹ワクチン任意予防接種費用一部助成"
+    },
+    {
+      "slug": "shizuoka-official-004-007-2026",
+      "title": "御殿場市 おとなの風しんワクチン接種費用助成",
+      "organization": "御殿場市",
+      "officialUrl": "https://www.city.gotemba.lg.jp/kenkou/c-1/c-1-5/2229.html",
+      "sourceName": "御殿場市 おとなの風しんワクチン接種費用助成"
+    },
+    {
+      "slug": "shizuoka-official-004-008-2026",
+      "title": "御殿場市 妊産婦応援タクシー利用料金助成",
+      "organization": "御殿場市",
+      "officialUrl": "https://www.city.gotemba.lg.jp/kenkou/c-4/c-4-1/12090.html",
+      "sourceName": "御殿場市 妊産婦応援タクシー利用料金助成"
+    },
+    {
+      "slug": "shizuoka-official-004-009-2026",
+      "title": "御殿場市 妊婦のための支援給付金",
+      "organization": "御殿場市",
+      "officialUrl": "https://www.city.gotemba.lg.jp/kenkou/c-4/c-4-1/11976.html",
+      "sourceName": "御殿場市 妊婦のための支援給付金"
+    },
+    {
+      "slug": "shizuoka-official-004-010-2026",
+      "title": "御殿場市 不妊治療医療費助成",
+      "organization": "御殿場市",
+      "officialUrl": "https://www.city.gotemba.lg.jp/kenkou/c-4/c-4-1/528.html",
+      "sourceName": "御殿場市 不妊治療医療費助成"
+    },
+    {
+      "slug": "shizuoka-official-004-011-2026",
+      "title": "御殿場市 ひとり親家庭等医療費助成制度",
+      "organization": "御殿場市",
+      "officialUrl": "https://www.city.gotemba.lg.jp/kenkou/c-4/c-4-2/4340.html",
+      "sourceName": "御殿場市 ひとり親家庭等医療費助成制度"
+    },
+    {
+      "slug": "shizuoka-official-004-012-2026",
+      "title": "御殿場市 子ども医療費助成制度",
+      "organization": "御殿場市",
+      "officialUrl": "https://www.city.gotemba.lg.jp/kenkou/c-4/c-4-2/678.html",
+      "sourceName": "御殿場市 子ども医療費助成制度"
+    },
+    {
+      "slug": "shizuoka-official-004-013-2026",
+      "title": "御殿場市 結婚新生活支援事業費補助金",
+      "organization": "御殿場市",
+      "officialUrl": "https://www.city.gotemba.lg.jp/kenkou/c-4/c-4-10/12080.html",
+      "sourceName": "御殿場市 結婚新生活支援事業費補助金"
+    },
+    {
+      "slug": "shizuoka-official-004-014-2026",
+      "title": "袋井市 児童手当",
+      "organization": "袋井市",
+      "officialUrl": "https://www.city.fukuroi.shizuoka.jp/kosodate_kyoiku/kosodateshien/teate/14544.html",
+      "sourceName": "袋井市 児童手当"
+    },
+    {
+      "slug": "shizuoka-official-004-015-2026",
+      "title": "袋井市 子ども医療費助成",
+      "organization": "袋井市",
+      "officialUrl": "https://www.city.fukuroi.shizuoka.jp/kosodate_kyoiku/kosodateshien/teate/14571.html",
+      "sourceName": "袋井市 子ども医療費助成"
+    },
+    {
+      "slug": "shizuoka-official-004-016-2026",
+      "title": "袋井市 就学援助費新入学学用品費入学前支給",
+      "organization": "袋井市",
+      "officialUrl": "https://www.city.fukuroi.shizuoka.jp/kosodate_kyoiku/kosodateshien/teate/1537923411286.html",
+      "sourceName": "袋井市 就学援助費新入学学用品費入学前支給"
+    },
+    {
+      "slug": "shizuoka-official-004-017-2026",
+      "title": "袋井市 勤労者住宅建設資金利子補給制度",
+      "organization": "袋井市",
+      "officialUrl": "https://www.city.fukuroi.shizuoka.jp/kosodate_kyoiku/kosodateshien/teate/1425446989888.html",
+      "sourceName": "袋井市 勤労者住宅建設資金利子補給制度"
+    },
+    {
+      "slug": "shizuoka-official-004-018-2026",
+      "title": "袋井市 はり・きゅう・マッサージの施術費助成",
+      "organization": "袋井市",
+      "officialUrl": "https://www.city.fukuroi.shizuoka.jp/kenko_iryo/korei/josei/1425446933116.html",
+      "sourceName": "袋井市 はり・きゅう・マッサージの施術費助成"
+    },
+    {
+      "slug": "shizuoka-official-004-019-2026",
+      "title": "袋井市 高齢者等配食サービスの助成",
+      "organization": "袋井市",
+      "officialUrl": "https://www.city.fukuroi.shizuoka.jp/kenko_iryo/korei/josei/1532498373453.html",
+      "sourceName": "袋井市 高齢者等配食サービスの助成"
+    },
+    {
+      "slug": "shizuoka-official-004-020-2026",
+      "title": "袋井市 高齢者等訪問理美容サービスの助成",
+      "organization": "袋井市",
+      "officialUrl": "https://www.city.fukuroi.shizuoka.jp/kenko_iryo/korei/josei/1606203029690.html",
+      "sourceName": "袋井市 高齢者等訪問理美容サービスの助成"
+    },
+    {
+      "slug": "shizuoka-official-004-021-2026",
+      "title": "袋井市 ねたきり高齢者等紙おむつ購入費助成",
+      "organization": "袋井市",
+      "officialUrl": "https://www.city.fukuroi.shizuoka.jp/kenko_iryo/korei/josei/1533006071941.html",
+      "sourceName": "袋井市 ねたきり高齢者等紙おむつ購入費助成"
+    },
+    {
+      "slug": "shizuoka-official-004-022-2026",
+      "title": "袋井市 特別な理由による予防接種再接種費用助成",
+      "organization": "袋井市",
+      "officialUrl": "https://www.city.fukuroi.shizuoka.jp/kenko_iryo/iryo/yobo/1584348178642.html",
+      "sourceName": "袋井市 特別な理由による予防接種再接種費用助成"
+    },
+    {
+      "slug": "shizuoka-official-004-023-2026",
+      "title": "袋井市 麻しん風しん混合ワクチン接種費用助成",
+      "organization": "袋井市",
+      "officialUrl": "https://www.city.fukuroi.shizuoka.jp/kenko_iryo/iryo/yobo/12108.html",
+      "sourceName": "袋井市 麻しん風しん混合ワクチン接種費用助成"
+    },
+    {
+      "slug": "shizuoka-official-004-024-2026",
+      "title": "袋井市 帯状疱疹ワクチン接種費用助成",
+      "organization": "袋井市",
+      "officialUrl": "https://www.city.fukuroi.shizuoka.jp/kenko_iryo/iryo/yobo/12400.html",
+      "sourceName": "袋井市 帯状疱疹ワクチン接種費用助成"
+    },
+    {
+      "slug": "shizuoka-official-004-025-2026",
+      "title": "袋井市 おたふくかぜワクチン接種費用助成",
+      "organization": "袋井市",
+      "officialUrl": "https://www.city.fukuroi.shizuoka.jp/kenko_iryo/iryo/yobo/12416.html",
+      "sourceName": "袋井市 おたふくかぜワクチン接種費用助成"
+    },
+    {
+      "slug": "shizuoka-official-004-026-2026",
+      "title": "袋井市 重度障害者（児）医療費助成",
+      "organization": "袋井市",
+      "officialUrl": "https://www.city.fukuroi.shizuoka.jp/kenko_iryo/shogaifukushi/josei/1425446939184.html",
+      "sourceName": "袋井市 重度障害者（児）医療費助成"
+    },
+    {
+      "slug": "shizuoka-official-004-027-2026",
+      "title": "下田市 子ども医療費助成制度",
+      "organization": "下田市",
+      "officialUrl": "https://www.city.shimoda.shizuoka.jp/category/040200kosodate_ouen/144317.html",
+      "sourceName": "下田市 子ども医療費助成制度"
+    },
+    {
+      "slug": "shizuoka-official-004-028-2026",
+      "title": "下田市 母子家庭等高等職業訓練促進給付金",
+      "organization": "下田市",
+      "officialUrl": "https://www.city.shimoda.shizuoka.jp/category/040200kosodate_ouen/123180.html",
+      "sourceName": "下田市 母子家庭等高等職業訓練促進給付金"
+    },
+    {
+      "slug": "shizuoka-official-004-029-2026",
+      "title": "下田市 妊婦のための支援給付事業",
+      "organization": "下田市",
+      "officialUrl": "https://www.city.shimoda.shizuoka.jp/category/040200kosodate_ouen/151404.html",
+      "sourceName": "下田市 妊婦のための支援給付事業"
+    },
+    {
+      "slug": "shizuoka-official-004-030-2026",
+      "title": "下田市 母子家庭等自立支援教育訓練給付金",
+      "organization": "下田市",
+      "officialUrl": "https://www.city.shimoda.shizuoka.jp/category/040200kosodate_ouen/123182.html",
+      "sourceName": "下田市 母子家庭等自立支援教育訓練給付金"
+    },
+    {
+      "slug": "shizuoka-official-004-031-2026",
+      "title": "下田市 ひとり親家庭就学支援事業",
+      "organization": "下田市",
+      "officialUrl": "https://www.city.shimoda.shizuoka.jp/category/040200kosodate_ouen/123195.html",
+      "sourceName": "下田市 ひとり親家庭就学支援事業"
+    },
+    {
+      "slug": "shizuoka-official-004-032-2026",
+      "title": "下田市 中学校就学準備給付金",
+      "organization": "下田市",
+      "officialUrl": "https://www.city.shimoda.shizuoka.jp/category/040200kosodate_ouen/147175.html",
+      "sourceName": "下田市 中学校就学準備給付金"
+    },
+    {
+      "slug": "shizuoka-official-004-033-2026",
+      "title": "下田市 不妊治療助成事業",
+      "organization": "下田市",
+      "officialUrl": "https://www.city.shimoda.shizuoka.jp/category/030000kenkou_hoken/142198.html",
+      "sourceName": "下田市 不妊治療助成事業"
+    },
+    {
+      "slug": "shizuoka-official-004-034-2026",
+      "title": "下田市 高齢者の予防接種助成",
+      "organization": "下田市",
+      "officialUrl": "https://www.city.shimoda.shizuoka.jp/category/030000kenkou_hoken/157641.html",
+      "sourceName": "下田市 高齢者の予防接種助成"
+    },
+    {
+      "slug": "shizuoka-official-004-035-2026",
+      "title": "下田市 障害者の手当",
+      "organization": "下田市",
+      "officialUrl": "https://www.city.shimoda.shizuoka.jp/category/030000kenkou_hoken/112284.html",
+      "sourceName": "下田市 障害者の手当"
+    },
+    {
+      "slug": "shizuoka-official-004-036-2026",
+      "title": "下田市 医療費助成制度",
+      "organization": "下田市",
+      "officialUrl": "https://www.city.shimoda.shizuoka.jp/category/030000kenkou_hoken/112287.html",
+      "sourceName": "下田市 医療費助成制度"
+    },
+    {
+      "slug": "shizuoka-official-004-037-2026",
+      "title": "下田市 宿泊滞在費補助金",
+      "organization": "下田市",
+      "officialUrl": "https://www.city.shimoda.shizuoka.jp/category/081800koryukyoju/155424.html",
+      "sourceName": "下田市 宿泊滞在費補助金"
+    },
+    {
+      "slug": "shizuoka-official-004-038-2026",
+      "title": "下田市 移住・就業支援金",
+      "organization": "下田市",
+      "officialUrl": "https://www.city.shimoda.shizuoka.jp/category/081800koryukyoju/149842.html",
+      "sourceName": "下田市 移住・就業支援金"
+    },
+    {
+      "slug": "shizuoka-official-004-039-2026",
+      "title": "下田市 地方就職学生支援金",
+      "organization": "下田市",
+      "officialUrl": "https://www.city.shimoda.shizuoka.jp/category/081800koryukyoju/156889.html",
+      "sourceName": "下田市 地方就職学生支援金"
+    },
+    {
+      "slug": "shizuoka-official-004-040-2026",
+      "title": "裾野市 移住・就業支援金",
+      "organization": "裾野市",
+      "officialUrl": "https://www.city.susono.shizuoka.jp/mokuteki/hojokin/20543.html",
+      "sourceName": "裾野市 移住・就業支援金"
+    },
+    {
+      "slug": "shizuoka-official-004-041-2026",
+      "title": "裾野市 勤労者住宅建設・教育資金利子補給制度",
+      "organization": "裾野市",
+      "officialUrl": "https://www.city.susono.shizuoka.jp/mokuteki/hojokin/sumai/6627.html",
+      "sourceName": "裾野市 勤労者住宅建設・教育資金利子補給制度"
+    },
+    {
+      "slug": "shizuoka-official-004-042-2026",
+      "title": "裾野市 住居確保給付金",
+      "organization": "裾野市",
+      "officialUrl": "http://www.city.susono.shizuoka.jp/mokuteki/hojokin/sumai/14130.html",
+      "sourceName": "裾野市 住居確保給付金"
+    },
+    {
+      "slug": "shizuoka-official-004-043-2026",
+      "title": "裾野市 浄化槽設置整備事業補助金",
+      "organization": "裾野市",
+      "officialUrl": "https://www.city.susono.shizuoka.jp/mokuteki/hojokin/sumai/14350.html",
+      "sourceName": "裾野市 浄化槽設置整備事業補助金"
+    },
+    {
+      "slug": "shizuoka-official-004-044-2026",
+      "title": "裾野市 妊婦のための支援給付事業",
+      "organization": "裾野市",
+      "officialUrl": "https://www.city.susono.shizuoka.jp/mokuteki/hojokin/kodomo/22041.html",
+      "sourceName": "裾野市 妊婦のための支援給付事業"
+    },
+    {
+      "slug": "shizuoka-official-004-045-2026",
+      "title": "裾野市 不妊・不育症治療費補助金交付事業",
+      "organization": "裾野市",
+      "officialUrl": "http://www.city.susono.shizuoka.jp/mokuteki/hojokin/kodomo/6001.html",
+      "sourceName": "裾野市 不妊・不育症治療費補助金交付事業"
+    },
+    {
+      "slug": "shizuoka-official-004-046-2026",
+      "title": "裾野市 就学援助制度",
+      "organization": "裾野市",
+      "officialUrl": "https://www.city.susono.shizuoka.jp/mokuteki/hojokin/kodomo/7986.html",
+      "sourceName": "裾野市 就学援助制度"
+    },
+    {
+      "slug": "shizuoka-official-004-047-2026",
+      "title": "裾野市 企業立地促進事業費補助金",
+      "organization": "裾野市",
+      "officialUrl": "https://www.city.susono.shizuoka.jp/mokuteki/hojokin/1/6002.html",
+      "sourceName": "裾野市 企業立地促進事業費補助金"
+    },
+    {
+      "slug": "shizuoka-official-004-048-2026",
+      "title": "裾野市 有害獣防護柵設置費補助金",
+      "organization": "裾野市",
+      "officialUrl": "https://www.city.susono.shizuoka.jp/mokuteki/hojokin/1/5997.html",
+      "sourceName": "裾野市 有害獣防護柵設置費補助金"
+    },
+    {
+      "slug": "shizuoka-official-004-049-2026",
+      "title": "裾野市 有害鳥獣捕獲従事者育成支援補助金",
+      "organization": "裾野市",
+      "officialUrl": "https://www.city.susono.shizuoka.jp/mokuteki/hojokin/1/9915.html",
+      "sourceName": "裾野市 有害鳥獣捕獲従事者育成支援補助金"
+    },
+    {
+      "slug": "shizuoka-official-004-050-2026",
+      "title": "裾野市 こども医療費助成制度",
+      "organization": "裾野市",
+      "officialUrl": "http://www.city.susono.shizuoka.jp/mokuteki/kosodate/1/5852.html",
+      "sourceName": "裾野市 こども医療費助成制度"
+    },
+    {
+      "slug": "shizuoka-official-004-051-2026",
+      "title": "裾野市 母子家庭等自立支援給付金事業",
+      "organization": "裾野市",
+      "officialUrl": "https://www.city.susono.shizuoka.jp/mokuteki/kosodate/1/5846.html",
+      "sourceName": "裾野市 母子家庭等自立支援給付金事業"
+    },
+    {
+      "slug": "shizuoka-official-004-052-2026",
+      "title": "裾野市 ひとり親家庭等医療費助成制度",
+      "organization": "裾野市",
+      "officialUrl": "https://www.city.susono.shizuoka.jp/mokuteki/kosodate/1/5847.html",
+      "sourceName": "裾野市 ひとり親家庭等医療費助成制度"
+    },
+    {
+      "slug": "shizuoka-official-004-053-2026",
+      "title": "湖西市 妊婦のための支援給付",
+      "organization": "湖西市",
+      "officialUrl": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/mokutekibetsu/teate-josei/17600.html",
+      "sourceName": "湖西市 妊婦のための支援給付"
+    },
+    {
+      "slug": "shizuoka-official-004-054-2026",
+      "title": "湖西市 マタニティタクシー助成金制度",
+      "organization": "湖西市",
+      "officialUrl": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/mokutekibetsu/teate-josei/17596.html",
+      "sourceName": "湖西市 マタニティタクシー助成金制度"
+    },
+    {
+      "slug": "shizuoka-official-004-055-2026",
+      "title": "湖西市 産前産後ホームヘルプサービス利用費助成金制度",
+      "organization": "湖西市",
+      "officialUrl": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/mokutekibetsu/teate-josei/17597.html",
+      "sourceName": "湖西市 産前産後ホームヘルプサービス利用費助成金制度"
+    },
+    {
+      "slug": "shizuoka-official-004-056-2026",
+      "title": "湖西市 特定不妊治療費補助金",
+      "organization": "湖西市",
+      "officialUrl": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/mokutekibetsu/teate-josei/17598.html",
+      "sourceName": "湖西市 特定不妊治療費補助金"
+    },
+    {
+      "slug": "shizuoka-official-004-057-2026",
+      "title": "湖西市 不育症治療費助成制度",
+      "organization": "湖西市",
+      "officialUrl": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/mokutekibetsu/teate-josei/17605.html",
+      "sourceName": "湖西市 不育症治療費助成制度"
+    },
+    {
+      "slug": "shizuoka-official-004-058-2026",
+      "title": "湖西市 児童手当",
+      "organization": "湖西市",
+      "officialUrl": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/mokutekibetsu/teate-josei/17601.html",
+      "sourceName": "湖西市 児童手当"
+    },
+    {
+      "slug": "shizuoka-official-004-059-2026",
+      "title": "湖西市 こども医療費の助成",
+      "organization": "湖西市",
+      "officialUrl": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/mokutekibetsu/teate-josei/17602.html",
+      "sourceName": "湖西市 こども医療費の助成"
+    },
+    {
+      "slug": "shizuoka-official-004-060-2026",
+      "title": "湖西市 母子家庭等自立支援給付金",
+      "organization": "湖西市",
+      "officialUrl": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/mokutekibetsu/teate-josei/17608.html",
+      "sourceName": "湖西市 母子家庭等自立支援給付金"
+    },
+    {
+      "slug": "shizuoka-official-004-061-2026",
+      "title": "湖西市 ひとり親家庭就学支援事業助成金",
+      "organization": "湖西市",
+      "officialUrl": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/mokutekibetsu/hitorioyanoshien/17642.html",
+      "sourceName": "湖西市 ひとり親家庭就学支援事業助成金"
+    },
+    {
+      "slug": "shizuoka-official-004-062-2026",
+      "title": "湖西市 交通遺児等福祉手当",
+      "organization": "湖西市",
+      "officialUrl": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/mokutekibetsu/hitorioyanoshien/17641.html",
+      "sourceName": "湖西市 交通遺児等福祉手当"
+    },
+    {
+      "slug": "shizuoka-official-004-063-2026",
+      "title": "湖西市 村田光雄奨学金の支給",
+      "organization": "湖西市",
+      "officialUrl": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/mokutekibetsu/hitorioyanoshien/17646.html",
+      "sourceName": "湖西市 村田光雄奨学金の支給"
+    },
+    {
+      "slug": "shizuoka-official-004-064-2026",
+      "title": "湖西市 障害児福祉手当",
+      "organization": "湖西市",
+      "officialUrl": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/mokutekibetsu/shogainoarukodomonoshien/17650.html",
+      "sourceName": "湖西市 障害児福祉手当"
+    },
+    {
+      "slug": "shizuoka-official-004-065-2026",
+      "title": "湖西市 重度障害者（児）医療費助成",
+      "organization": "湖西市",
+      "officialUrl": "https://www.city.kosai.shizuoka.jp/kosodate_kyoiku/kosodate/mokutekibetsu/shogainoarukodomonoshien/17654.html",
+      "sourceName": "湖西市 重度障害者（児）医療費助成"
+    }
+  ],
+  "notes": "短縮クロール候補160件に本文スニペット160件と公式カテゴリリンクリード338件を追加し、公式個別ページ単位で65件を採用。トップ、カテゴリ導線、共通ナビ、重複トピック、本文根拠が薄い候補は第2巡保留。"
+}

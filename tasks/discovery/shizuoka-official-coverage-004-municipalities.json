@@ -1,0 +1,36 @@
+{
+  "batchId": "shizuoka-official-coverage-004",
+  "prefecture": "静岡県",
+  "municipalities": [
+    {
+      "code": "22215",
+      "name": "御殿場市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.gotemba.lg.jp/"
+    },
+    {
+      "code": "22216",
+      "name": "袋井市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.fukuroi.shizuoka.jp/"
+    },
+    {
+      "code": "22219",
+      "name": "下田市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.shimoda.shizuoka.jp/"
+    },
+    {
+      "code": "22220",
+      "name": "裾野市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.susono.shizuoka.jp/"
+    },
+    {
+      "code": "22221",
+      "name": "湖西市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.kosai.shizuoka.jp/"
+    }
+  ]
+}
