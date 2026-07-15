@@ -1,0 +1,36 @@
+{
+  "batchId": "aichi-official-coverage-001",
+  "prefecture": "愛知県",
+  "municipalities": [
+    {
+      "code": "23100",
+      "name": "名古屋市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.nagoya.jp/"
+    },
+    {
+      "code": "23201",
+      "name": "豊橋市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.toyohashi.lg.jp/"
+    },
+    {
+      "code": "23202",
+      "name": "岡崎市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.okazaki.lg.jp/"
+    },
+    {
+      "code": "23203",
+      "name": "一宮市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.ichinomiya.aichi.jp/"
+    },
+    {
+      "code": "23204",
+      "name": "瀬戸市",
+      "prefecture": "愛知県",
+      "officialBaseUrl": "https://www.city.seto.aichi.jp/"
+    }
+  ]
+}

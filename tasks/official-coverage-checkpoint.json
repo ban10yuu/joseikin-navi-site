@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T17:35:00+09:00",
+  "updatedAt": "2026-07-15T16:05:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "shizuoka-official-coverage-008",
-    "municipality": "川根本町・森町",
-    "adopted": 60,
-    "held": 650,
+    "code": "aichi-official-coverage-001",
+    "municipality": "名古屋市・豊橋市・岡崎市・一宮市・瀬戸市",
+    "adopted": 70,
+    "held": 1808,
     "excluded": 0,
-    "sourceUrlsChecked": 60,
+    "sourceUrlsChecked": 70,
     "validation": {
-      "previousMunicipality": "静岡県公式棚卸し008として、22429川根本町・22461森町を確認した。候補30件、本文スニペット30件、公式カテゴリリンクリード710件、詳細スニペット710件、公式リスト9件を保存し、2町で合計60件を新規採用した。トップ、カテゴリ導線、共通ナビ、受付終了明記、本文根拠が薄い候補は第2巡候補として保持。静岡県第1巡は22461森町まで完了。全国公式棚卸しは未完了。",
+      "previousMunicipality": "愛知県公式棚卸し001として、23100名古屋市・23201豊橋市・23202岡崎市・23203一宮市・23204瀬戸市を確認した。候補494件、本文スニペット494件、公式カテゴリリンクリード1878件、詳細スニペット1878件、公式リスト40件を保存し、5市で合計70件を新規採用した。トップ、カテゴリ導線、共通ナビ、広報・採用・イベント・受付終了・既存URL重複・本文根拠が薄い候補は第2巡候補として保持。愛知県第1巡は23204瀬戸市まで到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for shizuoka-official-coverage-008 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 60 adopted official URLs returned HTTP 200 by interval fetch",
+      "json": "pass: JSON.parse for aichi-official-coverage-001 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 70 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 70 adopted official URLs returned HTTP 200 by interval fetch",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 15149, officialLinkedActive 15029, manuallyVerifiedActive 15029, 静岡県 localOfficial 599)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 15219, officialLinkedActive 15099, manuallyVerifiedActive 15099, 愛知県 localOfficial 172)"
     }
   },
   "next": {
-    "code": "aichi-official-coverage-001",
-    "municipality": "名古屋市",
-    "shortlist": "静岡県公式棚卸し008は川根本町30件、森町30件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、23100名古屋市を開始地点として愛知県公式棚卸し001を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "aichi-official-coverage-002",
+    "municipality": "半田市",
+    "shortlist": "愛知県公式棚卸し001は名古屋市22件、豊橋市13件、岡崎市8件、一宮市13件、瀬戸市14件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、23205半田市を開始地点として愛知県公式棚卸し002を自治体コード順に再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "静岡県",
-    "status": "complete-first-pass",
-    "lastBatch": "shizuoka-official-coverage-008",
-    "notes": "静岡県公式棚卸し008で22429川根本町・22461森町を確認し、60件を新規採用した。静岡県は22101静岡市から22461森町まで第1巡完了。全国公式棚卸しは未完了。次は23100名古屋市から愛知県公式棚卸し001を開始する。"
+    "prefecture": "愛知県",
+    "status": "in-progress-first-pass",
+    "lastBatch": "aichi-official-coverage-001",
+    "notes": "愛知県公式棚卸し001で23100名古屋市・23201豊橋市・23202岡崎市・23203一宮市・23204瀬戸市を確認し、70件を新規採用した。愛知県は23204瀬戸市まで第1巡到達。全国公式棚卸しは未完了。次は23205半田市から愛知県公式棚卸し002を開始する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
