@@ -1,0 +1,30 @@
+{
+  "batchId": "mie-official-coverage-006",
+  "prefecture": "三重県",
+  "municipalities": [
+    {
+      "code": "24472",
+      "name": "南伊勢町",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.town.minamiise.lg.jp/"
+    },
+    {
+      "code": "24543",
+      "name": "紀北町",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.town.mie-kihoku.lg.jp/"
+    },
+    {
+      "code": "24561",
+      "name": "御浜町",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.town.mihama.mie.jp/"
+    },
+    {
+      "code": "24562",
+      "name": "紀宝町",
+      "prefecture": "三重県",
+      "officialBaseUrl": "https://www.town.kiho.lg.jp/"
+    }
+  ]
+}

@@ -10269,3 +10269,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass
 - 到達点: 三重県は24201津市から24471大紀町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 三重県公式棚卸し006として、24472南伊勢町から再開
+
+
+### 三重県公式棚卸し006（24472南伊勢町・24543紀北町・24561御浜町・24562紀宝町）
+- 実施日: 2026-07-15
+- 候補: 692件（公式カテゴリリンクリード1423件、公式リスト77件、採用URL77本）
+- 採用: 77件（南伊勢町15件、紀北町25件、御浜町15件、紀宝町22件）
+- 公式URL: 採用URL到達確認は tasks/discovery/mie-official-coverage-006-url-status.txt に記録（77本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16357、officialLinkedActive 16237、manuallyVerifiedActive 16237、三重県 localOfficial 498）
+- 到達点: 三重県は24201津市から24562紀宝町まで第1巡到達し、県内全市区町村の第1巡完了。全国公式棚卸しは未完了
+- 次回: 滋賀県公式棚卸し001として、25201大津市から再開

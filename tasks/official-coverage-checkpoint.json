@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T20:05:00+09:00",
+  "updatedAt": "2026-07-15T20:45:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "mie-official-coverage-005",
-    "municipality": "明和町・大台町・玉城町・度会町・大紀町",
-    "adopted": 52,
-    "held": 104,
+    "code": "mie-official-coverage-006",
+    "municipality": "南伊勢町・紀北町・御浜町・紀宝町",
+    "adopted": 77,
+    "held": 615,
     "excluded": 0,
-    "sourceUrlsChecked": 52,
+    "sourceUrlsChecked": 77,
     "validation": {
-      "previousMunicipality": "三重県公式棚卸し005として、24442明和町・24443大台町・24461玉城町・24470度会町・24471大紀町を確認した。候補227件、公式カテゴリリンクリード461件、詳細スニペット461件、詳細ショートリスト156件、公式リスト52件を保存し、5町で合計52件を新規採用した。トップ、カテゴリ導線、共通ナビ、通常行政案内、計画ページ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。全国公式棚卸しは未完了。",
+      "previousMunicipality": "三重県公式棚卸し006として、24472南伊勢町・24543紀北町・24561御浜町・24562紀宝町を確認した。候補692件、公式カテゴリリンクリード1423件、公式リスト77件を保存し、4町で合計77件を新規採用した。トップ、カテゴリ導線、共通ナビ、通常行政案内、PDF・申請書単体、計画ページ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。三重県は県内全市区町村の第1巡完了。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for mie-official-coverage-005 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 52 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 52 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for mie-official-coverage-006 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 77 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 77 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16280, officialLinkedActive 16160, manuallyVerifiedActive 16160, 三重県 localOfficial 421)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16357, officialLinkedActive 16237, manuallyVerifiedActive 16237, 三重県 localOfficial 498)"
     }
   },
   "next": {
-    "code": "mie-official-coverage-006",
-    "municipality": "南伊勢町",
-    "shortlist": "三重県公式棚卸し005は明和町4件、大台町20件、玉城町15件、度会町8件、大紀町5件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、三重県公式棚卸し006として24472南伊勢町を開始地点に自治体コード順で再開する。三重県の残りは24543紀北町・24561御浜町・24562紀宝町まで。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "shiga-official-coverage-001",
+    "municipality": "大津市",
+    "shortlist": "三重県公式棚卸し006は南伊勢町15件、紀北町25件、御浜町15件、紀宝町22件を採用し、三重県第1巡を完了した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、滋賀県公式棚卸し001として25201大津市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "愛知県",
+    "prefecture": "三重県",
     "status": "completed-first-pass",
-    "lastBatch": "aichi-official-coverage-011",
-    "notes": "愛知県公式棚卸し011で23501幸田町・23561設楽町・23562東栄町・23563豊根村を確認し、60件を新規採用した。愛知県は23563豊根村まで第1巡到達し、県内全市区町村の第1巡が完了。全国公式棚卸しは未完了。次は三重県公式棚卸し001として津市から開始する。"
+    "lastBatch": "mie-official-coverage-006",
+    "notes": "三重県公式棚卸し006で24472南伊勢町・24543紀北町・24561御浜町・24562紀宝町を確認し、77件を新規採用した。三重県は24562紀宝町まで第1巡到達し、県内全市区町村の第1巡が完了。全国公式棚卸しは未完了。次は滋賀県公式棚卸し001として大津市から開始する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
