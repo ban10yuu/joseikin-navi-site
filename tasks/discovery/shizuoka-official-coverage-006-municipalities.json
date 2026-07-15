@@ -1,0 +1,36 @@
+{
+  "batchId": "shizuoka-official-coverage-006",
+  "prefecture": "静岡県",
+  "municipalities": [
+    {
+      "code": "22301",
+      "name": "東伊豆町",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.town.higashiizu.lg.jp/"
+    },
+    {
+      "code": "22302",
+      "name": "河津町",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.town.kawazu.shizuoka.jp/"
+    },
+    {
+      "code": "22304",
+      "name": "南伊豆町",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.town.minamiizu.shizuoka.jp/"
+    },
+    {
+      "code": "22305",
+      "name": "松崎町",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.town.matsuzaki.shizuoka.jp/"
+    },
+    {
+      "code": "22306",
+      "name": "西伊豆町",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.town.nishiizu.shizuoka.jp/"
+    }
+  ]
+}
