@@ -11,6 +11,7 @@ import {
   getGrantBySlug,
   getGrantSourceStatus,
   getOfficialLinkedGrants,
+  getRecentlyUpdatedGrants,
   getRelatedGrants,
   hasOfficialSource,
   isGrantExpired,
@@ -26,8 +27,14 @@ import { CATEGORY_LABELS, SUPPORT_TYPE_LABELS, type Section } from '@/lib/types'
 
 interface Props { params: Promise<{ slug: string }> }
 
+export const dynamicParams = true;
+export const revalidate = 86400;
+
 export async function generateStaticParams() {
-  return getOfficialLinkedGrants().filter((grant) => grant.indexStatus !== 'noindex' && grant.contentStatus === 'published').map((grant) => ({ slug: grant.slug }));
+  const recentGrantSlugs = new Set(getRecentlyUpdatedGrants(240).map((grant) => grant.slug));
+  return getOfficialLinkedGrants()
+    .filter((grant) => grant.indexStatus !== 'noindex' && grant.contentStatus === 'published' && recentGrantSlugs.has(grant.slug))
+    .map((grant) => ({ slug: grant.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
