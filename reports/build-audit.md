@@ -2,8 +2,8 @@
 
 | 指標 | 件数 |
 |---|---:|
-| HTMLページ | 8,260 |
-| index可能 | 8,258 |
+| HTMLページ | 8,272 |
+| index可能 | 8,268 |
 | 重大エラー | 0 |
 | 警告 | 75 |
 
@@ -80,7 +80,7 @@
 - warning / DUPLICATE_META_TITLE / /grant/yatsushiro-child-medical-aid/: 2ページで重複：八代市 こども医療費助成制度｜対象・金額・申請期限｜助成金ナビ
 - warning / DUPLICATE_META_TITLE / /grant/yokohama-child-medical/: 2ページで重複：横浜市 小児医療費助成｜対象・金額・申請期限｜助成金ナビ
 - warning / DUPLICATE_META_TITLE / /grant/yokote-child-medical-aid/: 2ページで重複：横手市 福祉医療費制度（乳幼児・小中学生・高校生等）｜対象・金額・申請期限｜助成金ナビ
-- warning / DUPLICATE_META_DESCRIPTION / /advertising-policy/: 7ページで重複：国・自治体・民間団体の公式情報をもとに、対象、支援内容、申請期限、確認先を整理。地域、対象者、目的、制度種別から支援制度を探せます。
+- warning / DUPLICATE_META_DESCRIPTION / /advertising-policy/: 6ページで重複：国・自治体・民間団体の公式情報をもとに、対象、支援内容、申請期限、確認先を整理。地域、対象者、目的、制度種別から支援制度を探せます。
 - warning / DUPLICATE_META_DESCRIPTION / /grant/kure-school-lunch-subsidy/: 2ページで重複：呉市 令和8年度学校給食費の実質無償化（呉市）の主な対象は呉市立小学校および義務教育学校の学校給食費について、令和8年度から実施する国の支援額ではまかなえない保護者負担分が対象です。。支援内容は小学校
 - warning / DUPLICATE_META_DESCRIPTION / /grant/nenkin-seikatsusha-shien-kyuufukin/: 2ページで重複：年金生活者支援給付金（厚生労働省・日本年金機構）の主な対象は老齢基礎年金、障害基礎年金、遺族基礎年金を受給し、所得等の要件を満たす方が対象です。。支援内容は年金に上乗せ（種類・所得で異なる）、対象者へ
 - warning / DUPLICATE_META_DESCRIPTION / /grant/shimonoseki-scholarship-repayment/: 2ページで重複：下関市奨学金返還支援補助金制度（下関市）の主な対象は下関市での就職・起業を希望または検討し、対象奨学金の貸与を受けている方など、公式要件を満たす方が対象です。。支援内容は奨学金返還を支援、年度ごと。公

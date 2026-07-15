@@ -37,8 +37,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const prefecture = slugToPref(slug);
   if (!prefecture) return {};
-  const title = `${prefecture}の支援制度｜対象・目的・受付状況から探す`;
-  const description = `${prefecture}で利用できる支援制度を、地域独自の制度と全国対象の制度に分け、公式情報の確認先とともに整理しています。`;
+  const title = `${prefecture}の補助金・助成金・給付金｜対象・目的・受付状況から探す`;
+  const description = `${prefecture}で利用できる補助金・助成金・給付金などの支援制度を、地域独自の制度と全国対象の制度に分け、公式情報の確認先とともに整理しています。`;
   const url = toSiteUrl(`/prefecture/${encodeURIComponent(prefecture)}/`);
   return { title, description, alternates: { canonical: url }, openGraph: { title, description, url } };
 }
@@ -67,7 +67,7 @@ export default async function PrefecturePage({ params }: Props) {
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <nav aria-label="パンくず" className="mb-4 text-sm text-white/70"><Link href="/" className="underline underline-offset-4">ホーム</Link><span className="mx-2" aria-hidden="true">/</span><span aria-current="page">{prefecture}</span></nav>
           <span className="inline-flex rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs font-bold">{region}</span>
-          <h1 className="mt-3 text-3xl font-black leading-tight">{prefecture}の支援制度</h1>
+          <h1 className="mt-3 text-3xl font-black leading-tight">{prefecture}の補助金・助成金・給付金</h1>
           <p className="mt-4 max-w-3xl text-base leading-8 text-white/85">{prefecture}独自の制度と、全国を対象とする制度を分けて掲載しています。市区町村や対象条件は制度ごとに公式情報をご確認ください。</p>
           <p className="mt-3 text-sm font-bold">公式情報の確認先がある制度：{grants.length.toLocaleString('ja-JP')}件</p>
           <p className="mt-1 text-xs text-white/70">{prefecture}独自 {localGrants.length.toLocaleString('ja-JP')}件・全国対象 {nationalGrants.length.toLocaleString('ja-JP')}件</p>

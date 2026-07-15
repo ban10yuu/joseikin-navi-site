@@ -54,8 +54,8 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
   const params = await searchParams;
   const filtered = hasSearchConditions(params);
   return {
-    title: '支援制度を探す｜地域・対象・目的で検索',
-    description: '国・自治体・民間団体の支援制度を、対象者、地域、目的、制度種別、受付状況などの条件から検索できます。',
+    title: '補助金・助成金・給付金を検索｜地域・対象・目的で探す',
+    description: '全国の補助金・助成金・給付金・支援制度を、地域、対象者、目的、制度種別、受付状況、公式情報リンクの有無から検索できます。',
     alternates: { canonical: toSiteUrl('/grants/') },
     robots: filtered ? { index: false, follow: true } : undefined,
   };
@@ -255,7 +255,8 @@ export default async function GrantsListPage({ searchParams }: { searchParams: P
       <div className="border-b-4 border-accent bg-navy py-10 sm:py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <nav aria-label="パンくず" className="mb-4 text-xs text-white/70"><Link href="/" className="hover:underline">ホーム</Link><span className="mx-2" aria-hidden="true">/</span><span aria-current="page">制度を探す</span></nav>
-          <h1 className="mb-3 text-2xl font-black tracking-wide text-white sm:text-3xl">地域・対象・目的から支援制度を探す</h1>
+          <h1 className="mb-3 text-2xl font-black tracking-wide text-white sm:text-3xl">補助金・助成金・給付金を検索</h1>
+          <p className="mb-3 max-w-3xl text-sm leading-7 text-white/85">国・自治体・民間団体の支援制度を、地域、対象、利用目的、制度種別から絞り込めます。</p>
           <p className="text-sm leading-7 text-white/85">公式情報の確認先がある制度：{stats.officialLinked.toLocaleString('ja-JP')}件</p>
           <p className="text-xs leading-6 text-white/70">総掲載数{stats.total.toLocaleString('ja-JP')}件。複数カテゴリに該当する制度があるため、カテゴリ別件数の合計とは一致しません。</p>
         </div>

@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import AffiliateRecommendation from '@/components/AffiliateRecommendation';
@@ -10,7 +11,8 @@ import { getGrantQualityStats, getOfficialLinkedGrants, getRecentlyUpdatedGrants
 import { getEffectiveGrantStatus } from '@/lib/grant-status';
 import { getEligibleAffiliateOffers } from '@/lib/monetization';
 import { isNewsletterEnabled } from '@/lib/newsletter';
-import { CATEGORY_LABELS, type GrantCategory } from '@/lib/types';
+import { toSiteUrl } from '@/lib/site-url';
+import { CATEGORY_LABELS, SUPPORT_TYPE_LABELS, type GrantCategory, type Purpose, type SupportType } from '@/lib/types';
 import { CATEGORY_VISUALS, HOME_HERO_MOTIFS, ILLUSTRATION_VISUALS } from '@/lib/visual-assets';
 
 const REGIONS = [
@@ -23,6 +25,28 @@ const REGIONS = [
   { name: '四国', prefectures: ['徳島県', '香川県', '愛媛県', '高知県'] },
   { name: '九州・沖縄', prefectures: ['福岡県', '佐賀県', '長崎県', '熊本県', '大分県', '宮崎県', '鹿児島県', '沖縄県'] },
 ];
+
+const FEATURED_PURPOSE_LINKS: { label: string; purpose: Purpose; audience: 'individual' | 'business'; description: string }[] = [
+  { label: '子育て・出産の給付金', purpose: 'childcare', audience: 'individual', description: '子ども医療費、出産、保育に関する制度' },
+  { label: '住宅・リフォーム補助金', purpose: 'housing', audience: 'individual', description: '住宅取得、改修、耐震、移住支援' },
+  { label: '創業・開業補助金', purpose: 'startup', audience: 'business', description: '新規事業、開業、店舗整備の支援' },
+  { label: '設備投資・省エネ補助金', purpose: 'energySaving', audience: 'business', description: '機械設備、省エネ、更新投資の支援' },
+  { label: '雇用・賃上げ助成金', purpose: 'wageIncrease', audience: 'business', description: '採用、雇用維持、賃上げ関連制度' },
+  { label: '生活支援・福祉制度', purpose: 'livingSupport', audience: 'individual', description: '生活、福祉、家計支援の制度' },
+];
+
+const SUPPORT_TYPE_LINKS: SupportType[] = ['subsidy', 'grant', 'benefit', 'allowance', 'loan', 'voucher'];
+
+export const metadata: Metadata = {
+  title: { absolute: '補助金・助成金・給付金を地域から検索｜助成金ナビ' },
+  description: '全国の補助金・助成金・給付金・支援制度を、地域、対象者、利用目的、制度種別から検索。国・自治体などの公式情報リンクと確認日を整理しています。',
+  alternates: { canonical: toSiteUrl('/') },
+  openGraph: {
+    title: '補助金・助成金・給付金を地域から検索｜助成金ナビ',
+    description: '公式情報リンク付きの支援制度を、地域、対象者、利用目的から探せます。',
+    url: toSiteUrl('/'),
+  },
+};
 
 export default function HomePage() {
   const stats = getGrantQualityStats();
@@ -46,10 +70,17 @@ export default function HomePage() {
     <>
       <section className="home-hero">
         <div className="mx-auto max-w-6xl px-4 py-7 sm:px-6 sm:py-12">
+          <nav className="home-topic-nav" aria-label="主要な検索入口">
+            <Link href="/support-type/subsidy/">補助金を探す</Link>
+            <Link href="/support-type/grant/">助成金を探す</Link>
+            <Link href="/support-type/benefit/">給付金を探す</Link>
+            <Link href="/prefecture/%E6%9D%B1%E4%BA%AC%E9%83%BD/">東京都</Link>
+            <Link href="/prefecture/%E5%A4%A7%E9%98%AA%E5%BA%9C/">大阪府</Link>
+          </nav>
           <div className="home-hero-top">
             <div className="home-hero-intro">
               <p className="home-hero-kicker">国・自治体などの公式情報を整理</p>
-              <h1>地域と目的から、利用できる可能性のある支援制度を探す</h1>
+              <h1>補助金・助成金・給付金を、地域と目的から探す</h1>
             </div>
             <div className="home-hero-visual" aria-hidden="true">
               <div className="home-hero-picture">
@@ -64,10 +95,29 @@ export default function HomePage() {
                 ))}
               </ul>
             </div>
-            <p className="home-hero-description">国・自治体・民間団体の公式情報をもとに、対象、支援内容、申請期限、確認先を整理しています。</p>
+            <p className="home-hero-description">国・自治体・民間団体の公式情報をもとに、対象、支援内容、申請期限、確認先を整理しています。個人・家族向け、事業者・団体向けを分けて検索できます。</p>
           </div>
           {heroAffiliate && <div className="mx-auto mb-5 max-w-4xl"><AffiliateRecommendation offer={heroAffiliate} pageType="home" placement="home-hero" position={1} audience="business" purpose="businessGrowth" compact /></div>}
           <HomeGrantSearch totalCount={stats.total} officialLinkedCount={stats.officialLinked} />
+          <section className="home-seo-link-panel" aria-labelledby="popular-search-title">
+            <div>
+              <p className="home-search-eyebrow">よく探される条件</p>
+              <h2 id="popular-search-title">目的・制度種別からすぐ探す</h2>
+            </div>
+            <div className="home-seo-link-grid">
+              {FEATURED_PURPOSE_LINKS.map((item) => (
+                <Link key={item.label} href={`/grants/?audience=${item.audience}&purpose=${item.purpose}`}>
+                  <strong>{item.label}</strong>
+                  <span>{item.description}</span>
+                </Link>
+              ))}
+            </div>
+            <div className="home-support-links" aria-label="制度種別から探す">
+              {SUPPORT_TYPE_LINKS.map((supportType) => (
+                <Link key={supportType} href={`/support-type/${supportType}/`}>{SUPPORT_TYPE_LABELS[supportType]}</Link>
+              ))}
+            </div>
+          </section>
           <p className="mx-auto mt-4 max-w-4xl text-center text-xs leading-6 text-slate-600">掲載情報だけで対象可否は確定しません。申請前に公式募集要項をご確認ください。</p>
           <ul className="home-trust-strip" aria-label="助成金ナビの情報方針">
             <li><span aria-hidden="true">✓</span> 国・自治体などの公式情報が基準</li>
@@ -175,6 +225,56 @@ export default function HomePage() {
           </div>
         </section>
       )}
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@graph': [
+              {
+                '@type': 'WebPage',
+                name: '補助金・助成金・給付金を地域から検索｜助成金ナビ',
+                url: toSiteUrl('/'),
+                description: '全国の補助金・助成金・給付金・支援制度を地域、対象者、目的、制度種別から検索できるページです。',
+                inLanguage: 'ja',
+                isPartOf: { '@type': 'WebSite', name: siteConfig.name, url: siteConfig.url },
+                about: ['補助金', '助成金', '給付金', '支援制度', '自治体制度'],
+              },
+              {
+                '@type': 'ItemList',
+                name: '主な支援制度の検索入口',
+                itemListElement: FEATURED_PURPOSE_LINKS.map((item, index) => ({
+                  '@type': 'ListItem',
+                  position: index + 1,
+                  name: item.label,
+                  url: toSiteUrl(`/grants/?audience=${item.audience}&purpose=${item.purpose}`),
+                })).concat(SUPPORT_TYPE_LINKS.map((supportType, index) => ({
+                  '@type': 'ListItem',
+                  position: FEATURED_PURPOSE_LINKS.length + index + 1,
+                  name: `${SUPPORT_TYPE_LABELS[supportType]}を探す`,
+                  url: toSiteUrl(`/support-type/${supportType}/`),
+                }))),
+              },
+              {
+                '@type': 'FAQPage',
+                mainEntity: [
+                  {
+                    '@type': 'Question',
+                    name: '助成金ナビだけで対象可否は確定しますか？',
+                    acceptedAnswer: { '@type': 'Answer', text: '確定しません。掲載情報は候補を探すための整理情報です。申請前に必ず公式募集要項と担当窓口で最新条件を確認してください。' },
+                  },
+                  {
+                    '@type': 'Question',
+                    name: '補助金・助成金・給付金を地域で検索できますか？',
+                    acceptedAnswer: { '@type': 'Answer', text: '都道府県、市区町村、対象者、目的、制度種別などの条件で検索できます。全国対象の制度もあわせて確認できます。' },
+                  },
+                ],
+              },
+            ],
+          }),
+        }}
+      />
     </>
   );
 }

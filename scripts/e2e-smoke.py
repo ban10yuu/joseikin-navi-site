@@ -76,7 +76,7 @@ with sync_playwright() as playwright:
     check(home.get_by_role('button', name='メニューを開く').evaluate('(element) => document.activeElement === element'), 'Escape後にメニューボタンへフォーカスが戻りません')
     home.locator('#home-grant-prefecture').select_option('東京都')
     home.locator('#home-grant-query').fill('子育て')
-    home.get_by_role('button', name='この条件で制度を探す').click()
+    home.get_by_role('button', name='補助金・助成金を検索する').click()
     home.wait_for_load_state('networkidle')
     check('/grants/' in home.url and 'pref=' in home.url and 'q=' in home.url, 'トップ検索: URLへ条件が反映されません')
     check(len(home_errors) == 0, f'トップ: console error {home_errors}')
@@ -89,6 +89,13 @@ with sync_playwright() as playwright:
     check(grants.get_by_text('選択中の条件').is_visible(), '検索一覧: 選択中の条件が表示されません')
     check(len(grant_errors) == 0, f'検索一覧: console error {grant_errors}')
     grants.close()
+
+    support_type, support_type_errors = open_page(browser, '/support-type/subsidy/', 390, 844)
+    check(support_type.get_by_role('heading', name='補助金を地域・対象から探す').is_visible(), '制度種別LP: H1が表示されません')
+    check(support_type.locator('.grant-card').count() > 0, '制度種別LP: 制度カードが表示されません')
+    check('/support-type/subsidy/' in (support_type.locator('link[rel="canonical"]').get_attribute('href') or ''), '制度種別LP: canonicalが不足しています')
+    check(len(support_type_errors) == 0, f'制度種別LP: console error {support_type_errors}')
+    support_type.close()
 
     focused_search, _ = open_page(browser, '/grants/?focus=search', 390, 844)
     check(focused_search.locator('details').first.get_attribute('open') is not None, 'モバイル検索アイコンの遷移先で検索条件が開きません')
@@ -162,7 +169,7 @@ with sync_playwright() as playwright:
             page.close()
 
     # WCAG A/AAの自動検査（critical/seriousを失敗扱い）
-    for path in ['/', '/grants/', '/guide/', '/faq/', '/category/childcare/', '/grant/sumitomo-zaidan-kankyou-josei/']:
+    for path in ['/', '/grants/', '/guide/', '/faq/', '/category/childcare/', '/support-type/subsidy/', '/grant/sumitomo-zaidan-kankyou-josei/']:
         page, _ = open_page(browser, path, 1280, 900)
         audit = Axe().run(page, options={'runOnly': {'type': 'tag', 'values': ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa']}, 'resultTypes': ['violations']})
         axe_results[path] = audit.response

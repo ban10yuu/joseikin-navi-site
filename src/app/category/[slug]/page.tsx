@@ -44,8 +44,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   if (!validCategories.includes(slug)) return {};
   const label = CATEGORY_LABELS[slug as GrantCategory];
-  const title = `${label}の支援制度｜対象・地域・受付状況から探す`;
-  const description = `${label}に関する支援制度を、主な対象、地域、支援内容、受付状況、公式情報の確認先とともに整理しています。`;
+  const title = `${label}の補助金・助成金・給付金｜対象・地域・受付状況から探す`;
+  const description = `${label}に関する補助金・助成金・給付金などの支援制度を、主な対象、地域、支援内容、受付状況、公式情報の確認先とともに整理しています。`;
   return { title, description, alternates: { canonical: toSiteUrl(`/category/${slug}/`) }, openGraph: { title, description, url: toSiteUrl(`/category/${slug}/`) } };
 }
 
@@ -82,7 +82,7 @@ export default async function CategoryPage({ params }: Props) {
           <div>
             <nav aria-label="パンくず" className="mb-4 text-sm text-white/70"><Link href="/" className="underline underline-offset-4">ホーム</Link><span className="mx-2" aria-hidden="true">/</span><span aria-current="page">{label}</span></nav>
             <span className={`inline-flex rounded-full border px-3 py-1 text-xs font-bold ${CATEGORY_COLORS[category]}`}>{label}</span>
-            <h1 className="mt-3 text-3xl font-black leading-tight">{label}の支援制度</h1>
+            <h1 className="mt-3 text-3xl font-black leading-tight">{label}の補助金・助成金・給付金</h1>
             <p className="mt-4 max-w-3xl text-base leading-8 text-white/85">{CATEGORY_INTROS[category]}</p>
             <p className="mt-3 text-sm font-bold text-white">公式情報の確認先がある制度：{grants.length.toLocaleString('ja-JP')}件</p>
           </div>

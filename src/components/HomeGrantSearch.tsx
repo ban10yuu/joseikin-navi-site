@@ -83,9 +83,9 @@ export default function HomeGrantSearch({
     <section aria-labelledby="home-search-title" className="home-search home-search-panel">
       <div className="home-search-heading">
         <div>
-          <p className="home-search-eyebrow">条件から候補を絞り込み</p>
+          <p className="home-search-eyebrow">補助金・助成金・給付金を検索</p>
           <h2 id="home-search-title" className="text-xl sm:text-2xl font-black text-navy leading-tight">
-            地域と目的から探す
+            使える可能性のある制度を探す
           </h2>
         </div>
         <p className="home-search-total">
@@ -116,7 +116,7 @@ export default function HomeGrantSearch({
       <form action="/grants/" method="get" role="search" aria-label="助成金・補助金を検索" data-analytics-event="search_submit" data-page-type="home">
         <fieldset className="home-search-step">
           <legend className="home-search-step-label">
-            <span>1</span> 探したい目的の種類
+            <span>1</span> 対象を選択
           </legend>
           <div className="home-audience-switch">
             <button
@@ -138,12 +138,12 @@ export default function HomeGrantSearch({
               事業者・団体向け
             </button>
           </div>
-          <p className="home-audience-note">選んだ区分に合わせて、次の目的候補を切り替えます。検索条件には、目的またはキーワードを使います。</p>
+          <p className="home-audience-note">個人・家族向けと事業者・団体向けを分けて検索します。選択に合わせて目的候補が切り替わります。</p>
         </fieldset>
 
         <fieldset className="home-search-step">
           <legend className="home-search-step-label">
-            <span>2</span> 目的を選んでください
+            <span>2</span> 利用目的を選択
           </legend>
           <div className="home-purpose-list">
             {PURPOSES[audience].map((purpose) => (
@@ -162,7 +162,7 @@ export default function HomeGrantSearch({
 
         <fieldset className="home-search-step">
           <legend className="home-search-step-label">
-            <span>3</span> 地域・キーワードを指定してください
+            <span>3</span> 地域・キーワードを指定
           </legend>
           <div className="home-search-fields">
             <div className="home-search-field">
@@ -198,7 +198,7 @@ export default function HomeGrantSearch({
                   setCategory('');
                   setSelectedPurpose('');
                 }}
-                placeholder={audience === 'personal' ? '例：子育て、住宅、奨学金' : '例：創業、設備投資、省エネ'}
+                placeholder={audience === 'personal' ? '例：子育て、住宅、奨学金、給付金' : '例：創業、設備投資、省エネ、補助金'}
                 className="home-search-input"
                 autoComplete="off"
               />
@@ -210,7 +210,7 @@ export default function HomeGrantSearch({
         {category && <input type="hidden" name="cat" value={category} />}
 
         <button type="submit" className="home-search-submit">
-          この条件で制度を探す
+          補助金・助成金を検索する
           <span aria-hidden="true">→</span>
         </button>
       </form>

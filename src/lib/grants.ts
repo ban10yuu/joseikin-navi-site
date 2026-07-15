@@ -1,4 +1,4 @@
-import { Grant, GrantCategory, GrantType, LegacyGrant, NormalizedGrant } from '@/lib/types';
+import { Grant, GrantCategory, GrantType, LegacyGrant, NormalizedGrant, SupportType } from '@/lib/types';
 import { normalizeGrant } from '@/lib/grant-domain';
 import { getGrantSourceStatus, hasOfficialSource, isManuallyVerifiedGrant } from '@/lib/grant-source';
 import { isGrantExpired } from '@/lib/deadline';
@@ -421,6 +421,10 @@ export function getGrantsByPrefecture(prefecture: string): Grant[] {
   return officialLinkedGrants.filter(
     (g) => g.prefecture === prefecture || g.prefecture === '全国'
   );
+}
+
+export function getGrantsBySupportType(supportType: SupportType): Grant[] {
+  return officialLinkedGrants.filter((grant) => grant.supportType === supportType);
 }
 
 export function getRecentlyUpdatedGrants(limit = 10): Grant[] {
