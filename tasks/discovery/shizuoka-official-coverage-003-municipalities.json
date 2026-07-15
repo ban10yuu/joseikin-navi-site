@@ -1,0 +1,36 @@
+{
+  "batchId": "shizuoka-official-coverage-003",
+  "prefecture": "静岡県",
+  "municipalities": [
+    {
+      "code": "22210",
+      "name": "富士市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.fuji.shizuoka.jp/"
+    },
+    {
+      "code": "22211",
+      "name": "磐田市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.iwata.shizuoka.jp/"
+    },
+    {
+      "code": "22212",
+      "name": "焼津市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.yaizu.lg.jp/"
+    },
+    {
+      "code": "22213",
+      "name": "掛川市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.kakegawa.shizuoka.jp/"
+    },
+    {
+      "code": "22214",
+      "name": "藤枝市",
+      "prefecture": "静岡県",
+      "officialBaseUrl": "https://www.city.fujieda.shizuoka.jp/"
+    }
+  ]
+}
