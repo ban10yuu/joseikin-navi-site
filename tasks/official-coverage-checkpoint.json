@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T06:20:00+09:00",
+  "updatedAt": "2026-07-17T06:34:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "hiroshima-official-coverage-005",
-    "municipality": "大崎上島町・世羅町・神石高原町",
-    "adopted": 78,
+    "code": "yamaguchi-official-coverage-001",
+    "municipality": "下関市・宇部市・山口市・萩市・防府市",
+    "adopted": 74,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 78,
+    "sourceUrlsChecked": 74,
     "validation": {
-      "previousMunicipality": "広島県公式棚卸し005として34431大崎上島町・34462世羅町・34545神石高原町を確認し78件を採用。広島県第1巡は完了。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/hiroshima-official-coverage-005-build.mjs",
-      "json": "pass: JSON.parse for hiroshima-official-coverage-005 JSON files",
-      "addedSlugUniqueness": "pass: 78 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 78 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "previousMunicipality": "山口県公式棚卸し001として35201下関市・35202宇部市・35203山口市・35204萩市・35206防府市を確認し74件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/yamaguchi-official-coverage-001 build/gather scripts",
+      "json": "pass: JSON.parse for yamaguchi-official-coverage-001 JSON files",
+      "addedSlugUniqueness": "pass: 74 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 74 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 20928、officialLinkedActive 20807、manuallyVerifiedActive 20807、広島県 localOfficial 524)",
-      "notes": "標準discoverは0件。公式カテゴリページ、公式サイト内リンク、公式sitemap、本文スニペット再スコアで現行ページを補完。大崎上島町は福祉・補助・住まいカテゴリ、世羅町は子育て・住まい・環境・移住定住ページ、神石高原町は子育て・保健福祉・産業・定住住宅ページを起点に確認した。"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 21002、officialLinkedActive 20881、manuallyVerifiedActive 20881、山口県 localOfficial 176)",
+      "notes": "標準discoverは0件。公式sitemap本文再スコア、公式カテゴリページ、既存公式確認URL、萩市公式カテゴリ、公式検索結果を補完。トップ、カテゴリ導線、共通ナビ、FAQ、申請書・PDF単体、広報・報告・相談・採用・外部制度のみは第2巡候補に保持した。"
     }
   },
   "next": {
-    "code": "yamaguchi-official-coverage-001",
-    "municipality": "下関市",
-    "shortlist": "広島県005で大崎上島町・世羅町・神石高原町を確認し、広島県第1巡を完了。次は山口県の自治体コード順で35201下関市から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、山口県公式棚卸し001として35201下関市を開始地点に自治体コード順で再開する。想定対象は35201下関市・35202宇部市・35203山口市・35204萩市・35206防府市。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "yamaguchi-official-coverage-002",
+    "municipality": "下松市",
+    "shortlist": "山口県001で下関市・宇部市・山口市・萩市・防府市を確認。次は山口県の自治体コード順で35207下松市から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、山口県公式棚卸し002として35207下松市を開始地点に自治体コード順で再開する。想定対象は35207下松市・35208岩国市・35210光市・35211長門市・35212柳井市。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "広島県",
-    "status": "completed-first-pass",
-    "lastBatch": "hiroshima-official-coverage-005",
-    "notes": "広島県公式棚卸し005で34431大崎上島町・34462世羅町・34545神石高原町を確認し、78件を新規採用。広島県第1巡は完了。次は山口県35201下関市から再開する。"
+    "prefecture": "山口県",
+    "status": "in-progress-first-pass",
+    "lastBatch": "yamaguchi-official-coverage-001",
+    "notes": "山口県公式棚卸し001で35201下関市・35202宇部市・35203山口市・35204萩市・35206防府市を確認し、74件を新規採用。次は35207下松市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

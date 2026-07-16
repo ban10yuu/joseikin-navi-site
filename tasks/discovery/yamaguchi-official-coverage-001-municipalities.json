@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-07-17T06:18:00+09:00",
+  "batch": "yamaguchi-official-coverage-001",
+  "prefecture": "山口県",
+  "municipalities": [
+    {
+      "code": "35201",
+      "name": "下関市",
+      "officialUrl": "https://www.city.shimonoseki.lg.jp/"
+    },
+    {
+      "code": "35202",
+      "name": "宇部市",
+      "officialUrl": "https://www.city.ube.yamaguchi.jp/"
+    },
+    {
+      "code": "35203",
+      "name": "山口市",
+      "officialUrl": "https://www.city.yamaguchi.lg.jp/"
+    },
+    {
+      "code": "35204",
+      "name": "萩市",
+      "officialUrl": "https://www.city.hagi.lg.jp/"
+    },
+    {
+      "code": "35206",
+      "name": "防府市",
+      "officialUrl": "https://www.city.hofu.yamaguchi.jp/"
+    }
+  ]
+}

@@ -10899,3 +10899,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 20928、officialLinkedActive 20807、manuallyVerifiedActive 20807、広島県 localOfficial 524）
 - 到達点: 広島県は34100広島市から34545神石高原町まで第1巡完了。全国公式棚卸しは未完了
 - 次回: 山口県公式棚卸し001として、35201下関市から再開
+
+### 山口県公式棚卸し001（35201下関市・35202宇部市・35203山口市・35204萩市・35206防府市）
+- 実施日: 2026-07-17
+- 候補: 標準discoverは0件。公式sitemap本文再スコア、公式カテゴリページ、既存公式確認URL、萩市公式カテゴリ、公式検索結果を補完し、公式HTML個別制度ページ・公式制度掲載ページ74本を採用
+- 採用: 74件（下関市13件、宇部市10件、山口市19件、萩市23件、防府市9件）
+- 公式URL: 採用URL到達確認は tasks/discovery/yamaguchi-official-coverage-001-url-status.txt に記録（74本すべてHTTP 200）
+- 保留: 標準discoverが0件、公式検索は一部で共通ナビ中心だったため、sitemap本文再スコアと公式カテゴリを補完。下関市・宇部市・山口市・防府市は既存公式確認URLを種に現行到達を再確認し、萩市は子育て・健康福祉・事業者向け融資助成・移住支援・介護人材カテゴリを起点に確認。トップ、カテゴリ導線、共通ナビ、FAQ、申請書・PDF単体、広報・報告・相談・採用・外部制度のみ、本文根拠が薄い候補、同一制度の重複ページは第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 21002、officialLinkedActive 20881、manuallyVerifiedActive 20881、山口県 localOfficial 176）
+- 到達点: 山口県は35201下関市から35206防府市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 山口県公式棚卸し002として、35207下松市から再開
