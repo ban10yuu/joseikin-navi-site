@@ -10455,3 +10455,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17410、officialLinkedActive 17290、manuallyVerifiedActive 17290、大阪府 localOfficial 563）
 - 到達点: 大阪府は27100大阪市から27228泉南市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 大阪府公式棚卸し007として、27229四條畷市から再開
+
+### 大阪府公式棚卸し007（27229四條畷市・27230交野市・27231大阪狭山市・27232阪南市・27301島本町）
+- 実施日: 2026-07-16
+- 候補: 1037件（公式カテゴリリンクリード257件、公式リスト85件、採用URL85本）
+- 採用: 85件（四條畷市16件、交野市14件、大阪狭山市18件、阪南市17件、島本町20件）
+- 公式URL: 採用URL到達確認は tasks/discovery/osaka-official-coverage-007-url-status.txt に記録（85本すべてHTTP 200）
+- 保留: shortlistが150件超のため公式カテゴリリンクとローカル再スコアで個別制度ページを抽出。トップ、カテゴリ導線、共通ナビ、通常行政案内、申請書PDF単体、外部制度のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。交野市・大阪狭山市・阪南市は通常クロールでtitleが薄かったため公式カテゴリ導線で補完
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17495、officialLinkedActive 17375、manuallyVerifiedActive 17375、大阪府 localOfficial 648）
+- 到達点: 大阪府は27100大阪市から27301島本町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 大阪府公式棚卸し008として、27321豊能町から再開

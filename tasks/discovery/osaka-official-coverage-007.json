@@ -1,0 +1,41 @@
+{
+  "batchId": "osaka-official-coverage-007",
+  "prefecture": "大阪府",
+  "completedAt": "2026-07-16T11:35:00+09:00",
+  "municipalities": [
+    {
+      "code": "27229",
+      "name": "四條畷市",
+      "adopted": 16
+    },
+    {
+      "code": "27230",
+      "name": "交野市",
+      "adopted": 14
+    },
+    {
+      "code": "27231",
+      "name": "大阪狭山市",
+      "adopted": 18
+    },
+    {
+      "code": "27232",
+      "name": "阪南市",
+      "adopted": 17
+    },
+    {
+      "code": "27301",
+      "name": "島本町",
+      "adopted": 20
+    }
+  ],
+  "candidateCount": 1037,
+  "linkLeadCount": 85,
+  "adopted": 85,
+  "sourceUrlsChecked": 85,
+  "heldPolicy": "shortlistが150件超のため公式カテゴリリンクとローカル再スコアで個別制度ページを抽出。トップ、カテゴリ導線、共通ナビ、通常行政案内、申請書PDF単体、外部制度のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。交野市・大阪狭山市・阪南市は通常クロールでtitleが薄かったため公式カテゴリ導線で補完。",
+  "next": {
+    "batchId": "osaka-official-coverage-008",
+    "start": "27321豊能町"
+  }
+}

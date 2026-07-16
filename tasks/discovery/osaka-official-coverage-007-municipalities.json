@@ -1,0 +1,37 @@
+{
+  "batchId": "osaka-official-coverage-007",
+  "prefecture": "大阪府",
+  "createdAt": "2026-07-16T11:03:00+09:00",
+  "municipalities": [
+    {
+      "code": "27229",
+      "name": "四條畷市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.shijonawate.lg.jp/"
+    },
+    {
+      "code": "27230",
+      "name": "交野市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.katano.osaka.jp/"
+    },
+    {
+      "code": "27231",
+      "name": "大阪狭山市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.osakasayama.osaka.jp/"
+    },
+    {
+      "code": "27232",
+      "name": "阪南市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.hannan.lg.jp/"
+    },
+    {
+      "code": "27301",
+      "name": "島本町",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.town.shimamoto.lg.jp/"
+    }
+  ]
+}
