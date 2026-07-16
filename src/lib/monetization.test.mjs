@@ -9,6 +9,11 @@ const offer = {
   allowedPageTypes: ['grant'], validFrom: '2026-01-01', validUntil: '2026-12-31',
   verifiedAt: '2026-07-01', disclosureText: 'PR', buttonText: 'サービスの詳細を見る（PR）',
   trackingId: null, externalProgramId: 'program-1', partnershipStatus: 'partnered', priority: 1,
+  creativeImageUrl: 'https://www23.a8.net/svt/bgt?aid=example',
+  creativeAlt: '会計サービス',
+  creativeWidth: 300,
+  creativeHeight: 250,
+  impressionPixelUrl: 'https://www11.a8.net/0.gif?a8mat=example',
 };
 
 describe('display ads', () => {

@@ -22,6 +22,11 @@ export interface AffiliateOffer {
   buttonText: string;
   trackingId: string | null;
   externalProgramId: string | null;
+  creativeImageUrl: string | null;
+  creativeAlt: string | null;
+  creativeWidth: number | null;
+  creativeHeight: number | null;
+  impressionPixelUrl: string | null;
   partnershipStatus: AffiliatePartnershipStatus;
   priority: number;
 }
@@ -31,7 +36,7 @@ const SENSITIVE_PURPOSES: Purpose[] = ['medical', 'welfare', 'disaster', 'living
 // A8.netで存在と条件を確認した候補。提携完了・広告リンク取得までは公開しない。
 export const AFFILIATE_OFFERS: AffiliateOffer[] = [
   {
-    id: 'a8-freee-accounting-wiz', enabled: true, network: 'A8.net', advertiserName: '株式会社Ｗｉｚ',
+    id: 'a8-freee-accounting-wiz', enabled: false, network: 'A8.net', advertiserName: '株式会社Ｗｉｚ',
     offerName: 'クラウド会計ソフト【freee会計】', destinationUrl: 'https://px.a8.net/svt/ejp?a8mat=4B8111+7NNQMY+3SPO+9FL80Y',
     audiences: ['soleProprietor', 'business', 'nonprofit', 'localOrganization'],
     intents: ['accounting', 'businessPlanning'], allowedPurposes: ['startup', 'businessGrowth', 'digitalTransformation'],
@@ -39,7 +44,8 @@ export const AFFILIATE_OFFERS: AffiliateOffer[] = [
     validFrom: '2026-07-15', validUntil: null, verifiedAt: '2026-07-15',
     disclosureText: '以下にはアフィリエイトリンクが含まれます。申込みが発生した場合、当サイトが紹介料を受け取ることがあります。',
     buttonText: 'サービスを見る', trackingId: '038',
-    externalProgramId: 's00000017718057', partnershipStatus: 'partnered', priority: 30,
+    externalProgramId: 's00000017718057', creativeImageUrl: null, creativeAlt: null, creativeWidth: null, creativeHeight: null,
+    impressionPixelUrl: null, partnershipStatus: 'partnered', priority: 30,
   },
   {
     id: 'a8-smaregi-timecard', enabled: false, network: 'A8.net', advertiserName: '株式会社スマレジ',
@@ -50,17 +56,25 @@ export const AFFILIATE_OFFERS: AffiliateOffer[] = [
     validFrom: null, validUntil: null, verifiedAt: '2026-07-15',
     disclosureText: '以下にはアフィリエイトリンクが含まれます。申込みが発生した場合、当サイトが紹介料を受け取ることがあります。',
     buttonText: 'サービスを見る', trackingId: null,
-    externalProgramId: 's00000023202005', partnershipStatus: 'applied', priority: 20,
+    externalProgramId: 's00000023202005', creativeImageUrl: null, creativeAlt: null, creativeWidth: null, creativeHeight: null,
+    impressionPixelUrl: null, partnershipStatus: 'applied', priority: 20,
   },
   {
     id: 'a8-kanbei-sign', enabled: true, network: 'A8.net', advertiserName: '株式会社Ｗｉｚ',
-    offerName: '電子契約サービス【KANBEI SIGN】', destinationUrl: 'https://px.a8.net/svt/ejp?a8mat=4B8111+81Y55M+3SPO+BETIUA',
+    offerName: '電子契約サービス【KANBEI SIGN】', destinationUrl: 'https://px.a8.net/svt/ejp?a8mat=4B8111+81Y55M+3SPO+BEUDPD',
     audiences: ['soleProprietor', 'business', 'nonprofit', 'localOrganization'],
-    intents: ['electronicContract'], allowedPurposes: ['businessGrowth', 'digitalTransformation'],
+    intents: ['electronicContract', 'businessPlanning'], allowedPurposes: ['startup', 'businessGrowth', 'digitalTransformation'],
     blockedPurposes: SENSITIVE_PURPOSES, allowedPageTypes: ['home', 'grant', 'businessGuide'],
     validFrom: '2026-07-15', validUntil: null, verifiedAt: '2026-07-15',
     disclosureText: '以下にはアフィリエイトリンクが含まれます。申込みが発生した場合、当サイトが紹介料を受け取ることがあります。',
     buttonText: 'サービスを見る', trackingId: '002',
-    externalProgramId: 's00000017718069', partnershipStatus: 'partnered', priority: 10,
+    externalProgramId: 's00000017718069',
+    creativeImageUrl: 'https://www23.a8.net/svt/bgt?aid=260715061487&wid=002&eno=01&mid=s00000017718069006000&mc=1',
+    creativeAlt: '電子契約サービス KANBEI SIGN',
+    creativeWidth: 300,
+    creativeHeight: 250,
+    impressionPixelUrl: 'https://www11.a8.net/0.gif?a8mat=4B8111+81Y55M+3SPO+BEUDPD',
+    partnershipStatus: 'partnered',
+    priority: 40,
   },
 ];

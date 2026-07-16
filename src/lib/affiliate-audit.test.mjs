@@ -10,6 +10,11 @@ const validOffer = {
   verifiedAt: '2026-07-15', disclosureText: '以下にはアフィリエイトリンクが含まれます。',
   buttonText: 'サービスの詳細を見る（PR）', trackingId: null, priority: 1,
   externalProgramId: 's00000000000001', partnershipStatus: 'partnered',
+  creativeImageUrl: 'https://www23.a8.net/svt/bgt?aid=example',
+  creativeAlt: '確認済み会計サービス',
+  creativeWidth: 300,
+  creativeHeight: 250,
+  impressionPixelUrl: 'https://www11.a8.net/0.gif?a8mat=example',
 };
 
 describe('affiliate offer audit', () => {
@@ -48,6 +53,21 @@ describe('affiliate offer audit', () => {
   it('提携完了前の案件を有効化すると重大エラーにする', () => {
     const issues = auditAffiliateOffers([{ ...validOffer, partnershipStatus: 'candidate' }], new Date('2026-07-15'));
     assert.equal(issues.find((issue) => issue.code === 'NOT_PARTNERED')?.severity, 'critical');
+  });
+
+  it('公開案件に公式クリエイティブがない場合は重大エラーにする', () => {
+    const issues = auditAffiliateOffers([{
+      ...validOffer,
+      creativeImageUrl: null,
+      creativeAlt: null,
+      creativeWidth: null,
+      creativeHeight: null,
+      impressionPixelUrl: null,
+    }], new Date('2026-07-15'));
+    const codes = new Set(issues.map((issue) => issue.code));
+    for (const code of ['MISSING_OFFICIAL_CREATIVE', 'MISSING_CREATIVE_ALT', 'MISSING_CREATIVE_SIZE', 'MISSING_IMPRESSION_PIXEL']) {
+      assert.equal(codes.has(code), true, `${code}を検出できませんでした`);
+    }
   });
 
   it('不正な日付と未来の確認日を重大エラーにする', () => {

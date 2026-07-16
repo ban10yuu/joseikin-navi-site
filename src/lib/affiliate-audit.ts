@@ -23,6 +23,10 @@ function isHttpsUrl(value: string | null): boolean {
   }
 }
 
+function isPositiveInteger(value: number | null): boolean {
+  return Number.isInteger(value) && Number(value) > 0;
+}
+
 export function auditAffiliateOffers(offers: AffiliateOffer[], now = new Date()): AffiliateAuditIssue[] {
   const issues: AffiliateAuditIssue[] = [];
   const idCounts = new Map<string, number>();
@@ -57,6 +61,12 @@ export function auditAffiliateOffers(offers: AffiliateOffer[], now = new Date())
     if (!offer.disclosureText.trim()) add(offer, 'MISSING_DISCLOSURE', 'アフィリエイト開示文がありません。');
     if (!offer.advertiserName.trim()) add(offer, 'MISSING_ADVERTISER', '広告主名がありません。');
     if (!offer.offerName.trim()) add(offer, 'MISSING_OFFER_NAME', '案件名がありません。');
+    if (offer.enabled) {
+      if (!isHttpsUrl(offer.creativeImageUrl)) add(offer, 'MISSING_OFFICIAL_CREATIVE', '公開案件にはASP公式クリエイティブ画像が必要です。');
+      if (!offer.creativeAlt?.trim()) add(offer, 'MISSING_CREATIVE_ALT', '公式クリエイティブ画像の代替テキストがありません。');
+      if (!isPositiveInteger(offer.creativeWidth) || !isPositiveInteger(offer.creativeHeight)) add(offer, 'MISSING_CREATIVE_SIZE', '公式クリエイティブ画像の表示サイズがありません。');
+      if (!isHttpsUrl(offer.impressionPixelUrl)) add(offer, 'MISSING_IMPRESSION_PIXEL', 'A8公式タグの計測ピクセルURLがありません。');
+    }
   }
 
   return issues;

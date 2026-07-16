@@ -62,7 +62,7 @@ for (const page of pages) {
   }
   for (const match of page.html.matchAll(/data-ad-label[^>]*>\s*(広告|PR)\s*</g)) {
     const nearby = page.html.slice(match.index, match.index + 800);
-    if (!/adsbygoogle|affiliate_impression|sponsored/.test(nearby)) add('critical', 'EMPTY_AD_LABEL', page.route, `${match[1]}ラベルの後に広告本体がありません。`);
+    if (!/adsbygoogle|affiliate_impression|sponsored|affiliate-creative-image/.test(nearby)) add('critical', 'EMPTY_AD_LABEL', page.route, `${match[1]}ラベルの後に広告本体がありません。`);
   }
   const affiliateImpressions = [...page.html.matchAll(/data-analytics-event="affiliate_impression"/g)];
   if (page.route.startsWith('/grant/') && affiliateImpressions.length > 1) add('critical', 'TOO_MANY_AFFILIATE_OFFERS', page.route, '制度詳細にPR案件が2件以上表示されています。');
