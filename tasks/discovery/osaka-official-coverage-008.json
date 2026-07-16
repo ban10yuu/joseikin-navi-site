@@ -1,0 +1,41 @@
+{
+  "batchId": "osaka-official-coverage-008",
+  "prefecture": "大阪府",
+  "completedAt": "2026-07-16T12:00:00+09:00",
+  "municipalities": [
+    {
+      "code": "27321",
+      "name": "豊能町",
+      "adopted": 20
+    },
+    {
+      "code": "27322",
+      "name": "能勢町",
+      "adopted": 1
+    },
+    {
+      "code": "27341",
+      "name": "忠岡町",
+      "adopted": 10
+    },
+    {
+      "code": "27361",
+      "name": "熊取町",
+      "adopted": 35
+    },
+    {
+      "code": "27362",
+      "name": "田尻町",
+      "adopted": 16
+    }
+  ],
+  "candidateCount": 328,
+  "linkLeadCount": 707,
+  "adopted": 82,
+  "sourceUrlsChecked": 82,
+  "heldPolicy": "shortlistが150件超のため公式カテゴリリンクと下位カテゴリリンクを抽出して再スコアリング。トップ、カテゴリ導線、計画・会議録、募集・相談、受付終了のみ、外部制度紹介のみ、本文根拠が薄い候補は第2巡候補として保持。",
+  "next": {
+    "batchId": "osaka-official-coverage-009",
+    "start": "27366岬町"
+  }
+}

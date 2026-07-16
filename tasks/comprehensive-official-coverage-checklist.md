@@ -10465,3 +10465,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17495、officialLinkedActive 17375、manuallyVerifiedActive 17375、大阪府 localOfficial 648）
 - 到達点: 大阪府は27100大阪市から27301島本町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 大阪府公式棚卸し008として、27321豊能町から再開
+
+### 大阪府公式棚卸し008（27321豊能町・27322能勢町・27341忠岡町・27361熊取町・27362田尻町）
+- 実施日: 2026-07-16
+- 候補: 328件（公式カテゴリリンクリード707件、公式リスト82件、採用URL82本）
+- 採用: 82件（豊能町20件、能勢町1件、忠岡町10件、熊取町35件、田尻町16件）
+- 公式URL: 採用URL到達確認は tasks/discovery/osaka-official-coverage-008-url-status.txt に記録（82本すべてHTTP 200）
+- 保留: shortlistが150件超のため公式カテゴリリンクと下位カテゴリリンクを抽出して再スコアリング。トップ、カテゴリ導線、共通ナビ、計画・会議録、募集・相談、申請書PDF単体、外部制度紹介のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。能勢町は公式カテゴリ・サイトマップで制度ページが少なく、公式本文確認済みの妊産婦健診助成1件を採用
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17577、officialLinkedActive 17457、manuallyVerifiedActive 17457、大阪府 localOfficial 730）
+- 到達点: 大阪府は27100大阪市から27362田尻町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 大阪府公式棚卸し009として、27366岬町から再開

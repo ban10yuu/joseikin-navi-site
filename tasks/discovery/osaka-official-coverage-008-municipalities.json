@@ -1,0 +1,37 @@
+{
+  "batchId": "osaka-official-coverage-008",
+  "prefecture": "大阪府",
+  "createdAt": "2026-07-16T11:17:00+09:00",
+  "municipalities": [
+    {
+      "code": "27321",
+      "name": "豊能町",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.town.toyono.osaka.jp/"
+    },
+    {
+      "code": "27322",
+      "name": "能勢町",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.town.nose.osaka.jp/"
+    },
+    {
+      "code": "27341",
+      "name": "忠岡町",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.town.tadaoka.osaka.jp/"
+    },
+    {
+      "code": "27361",
+      "name": "熊取町",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.town.kumatori.lg.jp/"
+    },
+    {
+      "code": "27362",
+      "name": "田尻町",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.town.tajiri.osaka.jp/"
+    }
+  ]
+}
