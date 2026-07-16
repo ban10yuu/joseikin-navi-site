@@ -10495,3 +10495,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17736、officialLinkedActive 17616、manuallyVerifiedActive 17616、兵庫県 localOfficial 224）
 - 到達点: 兵庫県は28100神戸市から28204西宮市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 兵庫県公式棚卸し002として、28205洲本市から再開
+
+### 兵庫県公式棚卸し002（28205洲本市・28206芦屋市・28207伊丹市・28208相生市・28209豊岡市）
+- 実施日: 2026-07-16
+- 候補: 1628件（公式カテゴリリンクリード2327件、公式リスト61件、採用URL61本）
+- 採用: 61件（洲本市14件、芦屋市18件、伊丹市5件、相生市13件、豊岡市11件）
+- 公式URL: 採用URL到達確認は tasks/discovery/hyogo-official-coverage-002-url-status.txt に記録（61本すべてHTTP 200）
+- 保留: shortlistが150件超のため、公式候補ページ本文と同一ドメイン内リンクを抽出し、制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、記者発表、計画・審議会、申請書単体、外部制度紹介のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。カテゴリ・古い特別給付金・オンライン申請・募集告知のみのページ29件は採用から除外
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17797、officialLinkedActive 17677、manuallyVerifiedActive 17677、兵庫県 localOfficial 285）
+- 到達点: 兵庫県は28100神戸市から28209豊岡市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 兵庫県公式棚卸し003として、28210加古川市から再開

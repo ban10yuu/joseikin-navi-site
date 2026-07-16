@@ -1,0 +1,42 @@
+{
+  "batchId": "hyogo-official-coverage-002",
+  "prefecture": "兵庫県",
+  "completedAt": "2026-07-16T19:25:00+09:00",
+  "municipalities": [
+    {
+      "code": "28205",
+      "name": "洲本市",
+      "adopted": 14
+    },
+    {
+      "code": "28206",
+      "name": "芦屋市",
+      "adopted": 18
+    },
+    {
+      "code": "28207",
+      "name": "伊丹市",
+      "adopted": 5
+    },
+    {
+      "code": "28208",
+      "name": "相生市",
+      "adopted": 13
+    },
+    {
+      "code": "28209",
+      "name": "豊岡市",
+      "adopted": 11
+    }
+  ],
+  "candidateCount": 1628,
+  "linkLeadCount": 2327,
+  "adopted": 61,
+  "sourceUrlsChecked": 61,
+  "heldPolicy": "shortlistが150件超のため、公式候補ページ本文と同一ドメイン内リンクを抽出し、制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、記者発表、計画・審議会、申請書単体、外部制度紹介のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。",
+  "next": {
+    "batchId": "hyogo-official-coverage-003",
+    "start": "28210加古川市"
+  },
+  "filteredOut": 29
+}

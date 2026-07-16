@@ -1,0 +1,37 @@
+{
+  "batchId": "hyogo-official-coverage-002",
+  "prefecture": "兵庫県",
+  "createdAt": "2026-07-16T19:05:00+09:00",
+  "municipalities": [
+    {
+      "code": "28205",
+      "name": "洲本市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.sumoto.lg.jp/"
+    },
+    {
+      "code": "28206",
+      "name": "芦屋市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.ashiya.lg.jp/"
+    },
+    {
+      "code": "28207",
+      "name": "伊丹市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.itami.lg.jp/"
+    },
+    {
+      "code": "28208",
+      "name": "相生市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.aioi.lg.jp/"
+    },
+    {
+      "code": "28209",
+      "name": "豊岡市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.toyooka.lg.jp/"
+    }
+  ]
+}
