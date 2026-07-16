@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T23:46:00+09:00",
+  "updatedAt": "2026-07-15T23:55:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kyoto-official-coverage-005",
-    "municipality": "和束町・精華町・南山城村・京丹波町・伊根町",
-    "adopted": 81,
+    "code": "kyoto-official-coverage-006-and-osaka-official-coverage-001",
+    "municipality": "与謝野町・大阪市・堺市・岸和田市・豊中市",
+    "adopted": 50,
     "held": 0,
-    "excluded": 0,
-    "sourceUrlsChecked": 81,
+    "excluded": 1,
+    "sourceUrlsChecked": 50,
     "validation": {
-      "previousMunicipality": "京都府公式棚卸し005として、26365和束町・26366精華町・26367南山城村・26407京丹波町・26463伊根町を確認した。候補400件、公式カテゴリリンクリード469件、公式リスト81件を保存し、5町村で合計81件を新規採用した。トップ、カテゴリ導線、共通ナビ、通常行政案内、申請書単体、計画・報告、公募・プロポーザル、広報、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。全国公式棚卸しは未完了。",
+      "previousMunicipality": "京都府公式棚卸し006として26465与謝野町を確認し8件を採用。続けて大阪府公式棚卸し001として27100大阪市・27140堺市・27202岸和田市・27203豊中市を確認し42件を採用した。京都府は第1巡完了。与謝野町の高齢者向け商品券は公式カテゴリに導線が残るが詳細URLが404のため第2巡候補へ回した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for kyoto-official-coverage-005 JSON files",
-      "addedSlugUniqueness": "pass: 81 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 81 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for kyoto-official-coverage-006 and osaka-official-coverage-001 JSON files",
+      "addedSlugUniqueness": "pass: 50 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 50 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 16975, officialLinkedActive 16855, manuallyVerifiedActive 16855, 京都府 localOfficial 412)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 17023, officialLinkedActive 16903, manuallyVerifiedActive 16903, 京都府 localOfficial 420, 大阪府 localOfficial 176)"
     }
   },
   "next": {
-    "code": "kyoto-official-coverage-006",
-    "municipality": "与謝野町",
-    "shortlist": "京都府公式棚卸し005は和束町12件、精華町22件、南山城村11件、京丹波町19件、伊根町17件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、京都府公式棚卸し006として26465与謝野町を開始地点に自治体コード順で再開する。京都府は与謝野町で第1巡完了見込み。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "osaka-official-coverage-002",
+    "municipality": "池田市",
+    "shortlist": "京都府006は与謝野町8件、大阪府001は大阪市16件、堺市8件、岸和田市6件、豊中市12件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、大阪府公式棚卸し002として27204池田市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "京都府",
+    "prefecture": "大阪府",
     "status": "in-progress-first-pass",
-    "lastBatch": "kyoto-official-coverage-005",
-    "notes": "京都府公式棚卸し005で26365和束町・26366精華町・26367南山城村・26407京丹波町・26463伊根町を確認し、81件を新規採用した。次は26465与謝野町から再開する。"
+    "lastBatch": "osaka-official-coverage-001",
+    "notes": "京都府は26100京都市から26465与謝野町まで第1巡完了。大阪府公式棚卸し001で大阪市・堺市・岸和田市・豊中市を確認し、42件を新規採用した。次は27204池田市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

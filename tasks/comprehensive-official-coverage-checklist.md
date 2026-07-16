@@ -10379,3 +10379,25 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 16975、officialLinkedActive 16855、manuallyVerifiedActive 16855、京都府 localOfficial 412）
 - 到達点: 京都府は26100京都市から26463伊根町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 京都府公式棚卸し006として、26465与謝野町から再開
+
+
+### 京都府公式棚卸し006（26465与謝野町）
+- 実施日: 2026-07-15
+- 候補: 294件（公式カテゴリリンクリード8件、公式リスト8件、採用URL8本）
+- 採用: 8件（与謝野町8件）
+- 公式URL: 採用URL到達確認は tasks/discovery/kyoto-official-coverage-006-url-status.txt に記録（8本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、通常行政案内、実績報告、相談会・告知、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。高齢者向け商品券は公式カテゴリに導線が残るが詳細URLが404のため第2巡候補へ回した
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17023、officialLinkedActive 16903、manuallyVerifiedActive 16903、京都府 localOfficial 420）
+- 到達点: 京都府は26100京都市から26465与謝野町まで第1巡到達し、県内全市区町村の第1巡完了。全国公式棚卸しは未完了
+- 次回: 大阪府公式棚卸し001として、27100大阪市から再開（同一ターン内で実施）
+
+
+### 大阪府公式棚卸し001（27100大阪市・27140堺市・27202岸和田市・27203豊中市）
+- 実施日: 2026-07-15
+- 候補: 647件（公式カテゴリリンクリード42件、公式リスト42件、採用URL42本）
+- 採用: 42件（大阪市16件、堺市8件、岸和田市6件、豊中市12件）
+- 公式URL: 採用URL到達確認は tasks/discovery/osaka-official-coverage-001-url-status.txt に記録（42本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、予算・議会PDF、制度説明会、相談会・告知、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。大阪市・堺市・岸和田市・豊中市は公式サイト内検索と公式カテゴリ導線で補完
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17023、officialLinkedActive 16903、manuallyVerifiedActive 16903、大阪府 localOfficial 176）
+- 到達点: 大阪府は27100大阪市から27203豊中市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 大阪府公式棚卸し002として、27204池田市から再開

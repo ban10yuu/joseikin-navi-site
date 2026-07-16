@@ -1,0 +1,21 @@
+{
+  "batchId": "kyoto-official-coverage-006",
+  "prefecture": "京都府",
+  "completedAt": "2026-07-15T23:35:00+09:00",
+  "municipalities": [
+    {
+      "code": "26465",
+      "name": "与謝野町",
+      "adopted": 8
+    }
+  ],
+  "candidateCount": 294,
+  "linkLeadCount": 8,
+  "adopted": 8,
+  "sourceUrlsChecked": 8,
+  "heldPolicy": "トップ、カテゴリ導線、共通ナビ、通常行政案内、実績報告、相談会・告知、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。 2026与謝野町くらし応援商品券（高齢者向け）は公式カテゴリに導線が残るが詳細URLが404のため第2巡候補へ回した。",
+  "next": {
+    "batchId": "osaka-official-coverage-001",
+    "start": "27100大阪市"
+  }
+}

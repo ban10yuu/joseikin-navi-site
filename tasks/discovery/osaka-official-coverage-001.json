@@ -1,0 +1,36 @@
+{
+  "batchId": "osaka-official-coverage-001",
+  "prefecture": "大阪府",
+  "completedAt": "2026-07-15T23:35:00+09:00",
+  "municipalities": [
+    {
+      "code": "27100",
+      "name": "大阪市",
+      "adopted": 16
+    },
+    {
+      "code": "27140",
+      "name": "堺市",
+      "adopted": 8
+    },
+    {
+      "code": "27202",
+      "name": "岸和田市",
+      "adopted": 6
+    },
+    {
+      "code": "27203",
+      "name": "豊中市",
+      "adopted": 12
+    }
+  ],
+  "candidateCount": 647,
+  "linkLeadCount": 42,
+  "adopted": 42,
+  "sourceUrlsChecked": 42,
+  "heldPolicy": "トップ、カテゴリ導線、共通ナビ、予算・議会PDF、制度説明会、相談会・告知、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。大阪市・堺市・岸和田市・豊中市は公式サイト内検索と公式カテゴリ導線で補完。",
+  "next": {
+    "batchId": "osaka-official-coverage-002",
+    "start": "27204池田市"
+  }
+}
