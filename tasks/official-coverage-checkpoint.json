@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-17T00:21:36+09:00",
+  "updatedAt": "2026-07-17T00:57:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "wakayama-official-coverage-006",
-    "municipality": "那智勝浦町・太地町・古座川町・北山村・串本町",
-    "adopted": 85,
+    "code": "tottori-official-coverage-001",
+    "municipality": "鳥取市・米子市・倉吉市・境港市・岩美町",
+    "adopted": 96,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 85,
+    "sourceUrlsChecked": 96,
     "validation": {
-      "previousMunicipality": "和歌山県公式棚卸し006として30421那智勝浦町・30422太地町・30424古座川町・30427北山村・30428串本町を確認し85件を採用。和歌山県は30201和歌山市から30428串本町まで第1巡完了。全国公式棚卸しは未完了。",
+      "previousMunicipality": "鳥取県公式棚卸し001として31201鳥取市・31202米子市・31203倉吉市・31204境港市・31302岩美町を確認し96件を採用。鳥取県は31201鳥取市から31302岩美町まで第1巡到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for wakayama-official-coverage-006 JSON files",
-      "addedSlugUniqueness": "pass: 85 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 85 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for tottori-official-coverage-001 JSON files",
+      "addedSlugUniqueness": "pass: 96 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 96 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 19286、officialLinkedActive 19165、manuallyVerifiedActive 19165、和歌山県 localOfficial 525)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 19382、officialLinkedActive 19261、manuallyVerifiedActive 19261、鳥取県 localOfficial 174)"
     }
   },
   "next": {
-    "code": "tottori-official-coverage-001",
-    "municipality": "鳥取市",
-    "shortlist": "和歌山県006は那智勝浦町19件、太地町21件、古座川町7件、北山村17件、串本町21件を採用した。通常候補1103件に加え公式サイト内リンクリード4979件を展開し、本文再スコア候補128件から個別公式ページ中心に85本へ絞った。古座川町は個別制度ページが少ないため、公式の制度掲載ページ単位で採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、鳥取県公式棚卸し001として31201鳥取市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "tottori-official-coverage-002",
+    "municipality": "若桜町",
+    "shortlist": "鳥取県001は鳥取市20件、米子市18件、倉吉市20件、境港市20件、岩美町18件を採用した。通常候補2163件に加え公式サイト内リンクリード18081件を展開し、本文再スコア候補175件からPDF単体・カテゴリ導線・共通ナビ・重複クエリURLを除いて公式HTML個別制度ページ中心に96本へ絞った。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、鳥取県公式棚卸し002として31325若桜町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "和歌山県",
-    "status": "completed-first-pass",
-    "lastBatch": "wakayama-official-coverage-006",
-    "notes": "和歌山県公式棚卸し001で30201和歌山市から30205御坊市、002で30206田辺市・30207新宮市・30208紀の川市・30209岩出市・30304紀美野町、003で30341かつらぎ町・30343九度山町・30344高野町・30361湯浅町・30362広川町、004で30366有田川町・30381美浜町・30382日高町・30383由良町・30390印南町、005で30391みなべ町・30392日高川町・30401白浜町・30404上富田町・30406すさみ町、006で30421那智勝浦町・30422太地町・30424古座川町・30427北山村・30428串本町を確認し、累計496件を新規採用して第1巡完了。次は鳥取県31201鳥取市から再開する。"
+    "prefecture": "鳥取県",
+    "status": "in-progress-first-pass",
+    "lastBatch": "tottori-official-coverage-001",
+    "notes": "鳥取県公式棚卸し001で31201鳥取市・31202米子市・31203倉吉市・31204境港市・31302岩美町を確認し、96件を新規採用。次は31325若桜町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

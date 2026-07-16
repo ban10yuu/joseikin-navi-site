@@ -1,0 +1,36 @@
+{
+  "batchId": "tottori-official-coverage-001",
+  "prefecture": "鳥取県",
+  "municipalities": [
+    {
+      "code": "31201",
+      "name": "鳥取市",
+      "prefecture": "鳥取県",
+      "officialBaseUrl": "https://www.city.tottori.lg.jp/"
+    },
+    {
+      "code": "31202",
+      "name": "米子市",
+      "prefecture": "鳥取県",
+      "officialBaseUrl": "https://www.city.yonago.lg.jp/"
+    },
+    {
+      "code": "31203",
+      "name": "倉吉市",
+      "prefecture": "鳥取県",
+      "officialBaseUrl": "https://www.city.kurayoshi.lg.jp/"
+    },
+    {
+      "code": "31204",
+      "name": "境港市",
+      "prefecture": "鳥取県",
+      "officialBaseUrl": "https://www.city.sakaiminato.lg.jp/"
+    },
+    {
+      "code": "31302",
+      "name": "岩美町",
+      "prefecture": "鳥取県",
+      "officialBaseUrl": "https://www.iwami.gr.jp/"
+    }
+  ]
+}

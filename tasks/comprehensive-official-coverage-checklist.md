@@ -10706,3 +10706,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19286、officialLinkedActive 19165、manuallyVerifiedActive 19165、和歌山県 localOfficial 525）
 - 到達点: 和歌山県は30201和歌山市から30428串本町まで第1巡完了。全国公式棚卸しは未完了
 - 次回: 鳥取県公式棚卸し001として、31201鳥取市から再開
+
+### 鳥取県公式棚卸し001（31201鳥取市・31202米子市・31203倉吉市・31204境港市・31302岩美町）
+- 実施日: 2026-07-17
+- 候補: 2163件（公式サイト内リンクリード18081件、本文再スコア後に個別公式ページ96本を採用）
+- 採用: 96件（鳥取市20件、米子市18件、倉吉市20件、境港市20件、岩美町18件）
+- 公式URL: 採用URL到達確認は tasks/discovery/tottori-official-coverage-001-url-status.txt に記録（96本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、PDF単体、申請書単体、募集終了のみ、職員募集、観光・寄附、本文根拠が薄い候補は第2巡候補として保持。境港市は ?view= の公式URLへ正規化し、岩美町は https://www.iwami.gr.jp/ を公式ドメインとして確認
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19382、officialLinkedActive 19261、manuallyVerifiedActive 19261、鳥取県 localOfficial 174）
+- 到達点: 鳥取県は31201鳥取市から31302岩美町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 鳥取県公式棚卸し002として、31325若桜町から再開
