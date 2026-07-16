@@ -1,0 +1,42 @@
+{
+  "batchId": "hyogo-official-coverage-001",
+  "prefecture": "兵庫県",
+  "completedAt": "2026-07-16T18:25:00+09:00",
+  "municipalities": [
+    {
+      "code": "28100",
+      "name": "神戸市",
+      "adopted": 9
+    },
+    {
+      "code": "28201",
+      "name": "姫路市",
+      "adopted": 17
+    },
+    {
+      "code": "28202",
+      "name": "尼崎市",
+      "adopted": 18
+    },
+    {
+      "code": "28203",
+      "name": "明石市",
+      "adopted": 20
+    },
+    {
+      "code": "28204",
+      "name": "西宮市",
+      "adopted": 15
+    }
+  ],
+  "candidateCount": 1524,
+  "linkLeadCount": 3911,
+  "adopted": 79,
+  "sourceUrlsChecked": 79,
+  "heldPolicy": "shortlistが150件超のため、公式候補ページ本文と同一ドメイン内リンクを抽出し、制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、記者発表、計画・審議会、申請書単体、外部制度紹介のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。",
+  "next": {
+    "batchId": "hyogo-official-coverage-002",
+    "start": "28205洲本市"
+  },
+  "filteredOut": 21
+}

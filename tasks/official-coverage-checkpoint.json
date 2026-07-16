@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-16T17:35:00+09:00",
+  "updatedAt": "2026-07-16T18:35:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "osaka-official-coverage-009",
-    "municipality": "岬町・太子町・河南町・千早赤阪村",
-    "adopted": 80,
+    "code": "hyogo-official-coverage-001",
+    "municipality": "神戸市・姫路市・尼崎市・明石市・西宮市",
+    "adopted": 79,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 80,
+    "sourceUrlsChecked": 79,
     "validation": {
-      "previousMunicipality": "大阪府公式棚卸し009として27366岬町・27381太子町・27382河南町・27383千早赤阪村を確認し80件を採用。大阪府は府内全市区町村の第1巡を完了。全国公式棚卸しは未完了。",
+      "previousMunicipality": "兵庫県公式棚卸し001として28100神戸市・28201姫路市・28202尼崎市・28203明石市・28204西宮市を確認し79件を採用。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for osaka-official-coverage-009 JSON files",
-      "addedSlugUniqueness": "pass: 80 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 80 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for hyogo-official-coverage-001 JSON files",
+      "addedSlugUniqueness": "pass: 79 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 79 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 17657, officialLinkedActive 17537, manuallyVerifiedActive 17537, 大阪府 localOfficial 810)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 17736, officialLinkedActive 17616, manuallyVerifiedActive 17616, 兵庫県 localOfficial 224)"
     }
   },
   "next": {
-    "code": "hyogo-official-coverage-001",
-    "municipality": "神戸市",
-    "shortlist": "大阪府009は岬町27件、太子町15件、河南町30件、千早赤阪村8件を採用し、大阪府内全市区町村の第1巡を完了した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、兵庫県公式棚卸し001として28100神戸市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "hyogo-official-coverage-002",
+    "municipality": "洲本市",
+    "shortlist": "兵庫県001は神戸市9件、姫路市17件、尼崎市18件、明石市20件、西宮市15件を採用した。shortlistが150件超のため公式候補本文と同一ドメインリンクを再スコアリングし、カテゴリ・問い合わせ・FAQ・募集告知のみのページ21件を除外した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、兵庫県公式棚卸し002として28205洲本市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "大阪府",
-    "status": "complete-first-pass",
-    "lastBatch": "osaka-official-coverage-009",
-    "notes": "大阪府公式棚卸し009で岬町・太子町・河南町・千早赤阪村を確認し、80件を新規採用した。大阪府は27100大阪市から27383千早赤阪村まで府内全市区町村の第1巡を完了。次は兵庫県28100神戸市から再開する。"
+    "prefecture": "兵庫県",
+    "status": "in-progress-first-pass",
+    "lastBatch": "hyogo-official-coverage-001",
+    "notes": "兵庫県公式棚卸し001で神戸市・姫路市・尼崎市・明石市・西宮市を確認し、79件を新規採用した。兵庫県は28100神戸市から28204西宮市まで第1巡到達。次は28205洲本市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

@@ -10485,3 +10485,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17657、officialLinkedActive 17537、manuallyVerifiedActive 17537、大阪府 localOfficial 810）
 - 到達点: 大阪府は27100大阪市から27383千早赤阪村まで第1巡到達し、府内全市区町村の第1巡完了。全国公式棚卸しは未完了
 - 次回: 兵庫県公式棚卸し001として、28100神戸市から再開
+
+### 兵庫県公式棚卸し001（28100神戸市・28201姫路市・28202尼崎市・28203明石市・28204西宮市）
+- 実施日: 2026-07-16
+- 候補: 1524件（公式カテゴリリンクリード3911件、公式リスト79件、採用URL79本）
+- 採用: 79件（神戸市9件、姫路市17件、尼崎市18件、明石市20件、西宮市15件）
+- 公式URL: 採用URL到達確認は tasks/discovery/hyogo-official-coverage-001-url-status.txt に記録（79本すべてHTTP 200）
+- 保留: shortlistが150件超のため、公式候補ページ本文と同一ドメイン内リンクを抽出し、制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、記者発表、計画・審議会、申請書単体、外部制度紹介のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。カテゴリ・問い合わせ・FAQ・募集告知のみのページ21件は採用から除外
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17736、officialLinkedActive 17616、manuallyVerifiedActive 17616、兵庫県 localOfficial 224）
+- 到達点: 兵庫県は28100神戸市から28204西宮市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 兵庫県公式棚卸し002として、28205洲本市から再開
