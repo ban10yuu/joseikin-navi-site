@@ -151,10 +151,19 @@ const AFFILIATE_INTENT_PATTERNS: Array<[AffiliateIntent, RegExp]> = [
   ['professionalConsultation', /税理士相談|社労士相談|専門家相談/],
 ];
 
-function inferAffiliateIntents(input: LegacyGrant): AffiliateIntent[] {
+const BUSINESS_AUDIENCES = new Set<Audience>(['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization']);
+const BUSINESS_PLANNING_PURPOSES = new Set<Purpose>(['startup', 'businessGrowth', 'digitalTransformation']);
+const SENSITIVE_PURPOSES = new Set<Purpose>(['medical', 'welfare', 'disaster', 'livingSupport']);
+
+function inferAffiliateIntents(input: LegacyGrant, audiences: Audience[], purposes: Purpose[]): AffiliateIntent[] {
   if (input.affiliateIntents !== undefined) return unique(input.affiliateIntents);
   const text = [input.title, input.description, input.eligibility, ...input.tags, ...input.sections.flatMap((section) => [section.heading, section.content])].join(' ');
-  return AFFILIATE_INTENT_PATTERNS.filter(([, pattern]) => pattern.test(text)).map(([intent]) => intent);
+  const matchedIntents = AFFILIATE_INTENT_PATTERNS.filter(([, pattern]) => pattern.test(text)).map(([intent]) => intent);
+  if (matchedIntents.length > 0) return matchedIntents;
+  if (audiences.some((audience) => BUSINESS_AUDIENCES.has(audience)) && purposes.some((purpose) => BUSINESS_PLANNING_PURPOSES.has(purpose))) {
+    return ['businessPlanning'];
+  }
+  return [];
 }
 
 function inferVerificationMethod(input: LegacyGrant): VerificationMethod {
@@ -207,15 +216,13 @@ export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
   const indexStatus = unconfirmedExistence ? 'noindex' : input.indexStatus ?? (
     hasOfficialSource && contentStatus === 'published' ? 'index' : 'noindex'
   );
-  const affiliateIntents = inferAffiliateIntents(input);
-  const businessAudiences = new Set<Audience>(['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization']);
-  const sensitivePurposes = new Set<Purpose>(['medical', 'welfare', 'disaster', 'livingSupport']);
+  const affiliateIntents = inferAffiliateIntents(input, audiences, purposes);
   const inferredMonetizationAllowed = hasOfficialSource
     && contentStatus === 'published'
     && indexStatus === 'index'
     && affiliateIntents.length > 0
-    && audiences.some((audience) => businessAudiences.has(audience))
-    && !purposes.some((purpose) => sensitivePurposes.has(purpose));
+    && audiences.some((audience) => BUSINESS_AUDIENCES.has(audience))
+    && !purposes.some((purpose) => SENSITIVE_PURPOSES.has(purpose));
   const sections = input.sections
     .filter((section) => !containsInternalAuditText(section.heading))
     .map((section) => ({

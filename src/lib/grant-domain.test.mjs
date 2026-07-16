@@ -179,6 +179,19 @@ describe('normalizeGrant', () => {
     assert.equal(result.monetizationAllowed, true);
   });
 
+  it('事業準備と関連する目的の事業者向け制度にはbusinessPlanning intentを補完する', () => {
+    const result = normalizeGrant({
+      ...baseGrant,
+      title: '例示市 創業支援補助金',
+      description: '市内で創業する中小企業者の経費を支援します。',
+      audiences: ['business'],
+      purposes: ['startup'],
+    });
+
+    assert.deepEqual(result.affiliateIntents, ['businessPlanning']);
+    assert.equal(result.monetizationAllowed, true);
+  });
+
   it('センシティブ目的と明示的な収益化不許可を最優先する', () => {
     const sensitive = normalizeGrant({
       ...baseGrant,
@@ -220,7 +233,7 @@ describe('normalizeGrant', () => {
     }
   });
 
-  it('公式情報がない制度や明確なintentがない制度を収益化対象にしない', () => {
+  it('公式情報がない制度や関連目的・明確なintentがない制度を収益化対象にしない', () => {
     const noSource = normalizeGrant({
       ...baseGrant,
       title: '例示市 クラウド会計ソフト導入補助金',
@@ -228,7 +241,13 @@ describe('normalizeGrant', () => {
       purposes: ['digitalTransformation'],
       officialUrl: '',
     });
-    const noIntent = normalizeGrant({ ...baseGrant, audiences: ['business'] });
+    const noIntent = normalizeGrant({
+      ...baseGrant,
+      title: '例示市 事業者向け資格取得支援金',
+      tags: ['資格', '事業者'],
+      audiences: ['business'],
+      purposes: ['education'],
+    });
 
     assert.equal(noSource.monetizationAllowed, false);
     assert.equal(noIntent.monetizationAllowed, false);

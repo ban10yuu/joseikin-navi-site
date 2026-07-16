@@ -72,6 +72,11 @@ describe('affiliate offers', () => {
     assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, audiences: ['family'] }, new Date('2026-07-13')), []);
   });
 
+  it('他の掲載条件を満たしていても受付終了制度には表示しない', () => {
+    assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, status: 'closed' }, new Date('2026-07-13')), []);
+    assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, status: 'open' }, new Date('2026-07-13')).map((item) => item.id), [offer.id]);
+  });
+
   it('制度のintentと一致しない案件やintent未設定案件を表示しない', () => {
     assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, intents: ['payroll'] }, new Date('2026-07-13')), []);
     assert.deepEqual(getEligibleAffiliateOffers([{ ...offer, intents: [] }], context, new Date('2026-07-13')), []);

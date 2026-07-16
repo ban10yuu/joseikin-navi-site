@@ -55,16 +55,43 @@ with sync_playwright() as playwright:
         if audience_visual.count() == 1:
             guide_number = first_guide.locator('.home-search-guide-number').bounding_box()
             check(not rectangles_overlap(guide_number, audience_visual.bounding_box()), f'トップ ({visual_width}px): 手順番号が対象アイコンへ重なっています')
+        affiliate_image = visual_home.locator('.home-affiliate-rail .affiliate-creative-image')
+        check(affiliate_image.count() == 1, f'トップ ({visual_width}px): 公式PR画像が1件ではありません')
+        if affiliate_image.count() == 1:
+            affiliate_image_box = affiliate_image.bounding_box()
+            displayed_ratio = affiliate_image_box['width'] / affiliate_image_box['height']
+            check(abs(displayed_ratio - (300 / 250)) <= 0.02, f'トップ ({visual_width}px): 公式PR画像の300:250比率が崩れています')
         visual_home.close()
+
+    # PCでは検索フォームの右に公式PRを配置する
+    desktop_home, desktop_home_errors = open_page(browser, '/', 1440, 1000)
+    desktop_search = desktop_home.locator('.home-search-main .home-search-panel')
+    desktop_rail = desktop_home.locator('.home-affiliate-rail')
+    desktop_pr = desktop_home.locator('.home-affiliate-rail [data-analytics-event="affiliate_impression"]')
+    check(desktop_pr.count() == 1, 'トップPC: 検索フォーム右のPR枠が1件ではありません')
+    if desktop_pr.count() == 1:
+        desktop_search_box = desktop_search.bounding_box()
+        desktop_rail_box = desktop_rail.bounding_box()
+        desktop_pr_box = desktop_pr.bounding_box()
+        check(desktop_pr_box['x'] >= desktop_search_box['x'] + desktop_search_box['width'], 'トップPC: PR枠が検索フォームの右側にありません')
+        check(abs(desktop_rail_box['y'] - desktop_search_box['y']) <= 8, 'トップPC: PRカラムと検索フォームの上端が揃っていません')
+        check(desktop_pr_box['width'] <= 320, 'トップPC: PR枠が300pxクリエイティブより不自然に広がっています')
+        check(desktop_pr_box['y'] + desktop_pr_box['height'] <= 1000, 'トップPC: PR枠が最初の画面内に収まりません')
+    check(len(desktop_home_errors) == 0, f'トップPC: console error {desktop_home_errors}')
+    desktop_home.screenshot(path=str(REPORT_DIR / 'home-1440.png'), full_page=False)
+    desktop_home.close()
 
     # 主要URLとフォーム、メニュー、URLクエリの動作
     home, home_errors = open_page(browser, '/', 390, 844)
     home.screenshot(path=str(REPORT_DIR / 'home-390.png'), full_page=True)
     hero_pr = home.locator('[data-analytics-event="affiliate_impression"][data-placement="home-hero"]')
-    check(hero_pr.count() == 1, 'トップのファーストビューに事業者向けPRが表示されません')
+    check(hero_pr.count() == 1, 'トップに事業者向けPRが表示されません')
     if hero_pr.count() == 1:
         hero_pr_box = hero_pr.bounding_box()
-        check(hero_pr_box['y'] >= 0 and hero_pr_box['y'] + hero_pr_box['height'] <= 844, 'トップのPR全体が最初の画面内に収まりません')
+        search_box = home.locator('.home-search-main .home-search-panel').bounding_box()
+        check(hero_pr_box['y'] >= search_box['y'] + search_box['height'], 'トップモバイル: PR枠が検索フォームより前にあります')
+        check(home.locator('.home-search-main').evaluate('(el) => Boolean(el.compareDocumentPosition(document.querySelector(\'.home-affiliate-rail\')) & Node.DOCUMENT_POSITION_FOLLOWING)'), 'トップモバイル: PR枠のDOM順が検索フォームより前です')
+        check(hero_pr_box['width'] <= 320, 'トップモバイル: PR枠が300pxクリエイティブより不自然に広がっています')
         check(hero_pr.locator('[data-ad-label]').is_visible(), 'トップのPR表記が見える状態ではありません')
         check(hero_pr.locator('[data-ad-label]').inner_text().strip() == 'PR', 'トップのPR表記がPRだけではありません')
         check(hero_pr.locator('.affiliate-banner-visual').count() == 0, 'トップPRに自作ビジュアル要素が残っています')
@@ -136,7 +163,31 @@ with sync_playwright() as playwright:
     check(len(ended_errors) == 0, f'制度詳細: console error {ended_errors}')
     ended.close()
 
-    affiliate, affiliate_errors = open_page(browser, '/grant/amagasaki-startup-support/', 390, 844)
+    ended_business, ended_business_errors = open_page(browser, '/grant/adachi-startup-support/', 390, 844)
+    check(ended_business.get_by_text('次回募集・後継制度を公式サイトで確認').count() >= 1, '終了済み創業制度のCTAが次回募集確認になっていません')
+    check(ended_business.locator('[data-analytics-event="affiliate_impression"]').count() == 0, '終了済み創業制度にPR枠が表示されています')
+    check(len(ended_business_errors) == 0, f'終了済み創業制度: console error {ended_business_errors}')
+    ended_business.close()
+
+    affiliate_desktop, affiliate_desktop_errors = open_page(browser, '/grant/hachioji-startup-support/', 1440, 1000)
+    affiliate_desktop_article = affiliate_desktop.locator('.grant-detail-article')
+    affiliate_desktop_rail = affiliate_desktop.locator('.grant-affiliate-rail')
+    affiliate_desktop_pr = affiliate_desktop_rail.locator('[data-analytics-event="affiliate_impression"]')
+    check(affiliate_desktop_pr.count() == 1, '制度詳細PC: 右レールのPR枠が1件ではありません')
+    if affiliate_desktop_pr.count() == 1:
+        affiliate_desktop_article_box = affiliate_desktop_article.bounding_box()
+        affiliate_desktop_rail_box = affiliate_desktop_rail.bounding_box()
+        affiliate_desktop_image_box = affiliate_desktop_pr.locator('.affiliate-creative-image').bounding_box()
+        check(affiliate_desktop_rail_box['x'] >= affiliate_desktop_article_box['x'] + affiliate_desktop_article_box['width'], '制度詳細PC: PR枠が本文の右側にありません')
+        check(abs(affiliate_desktop_rail_box['y'] - affiliate_desktop_article_box['y']) <= 8, '制度詳細PC: PRカラムと本文の上端が揃っていません')
+        check(abs(affiliate_desktop_image_box['width'] - 300) <= 1 and abs(affiliate_desktop_image_box['height'] - 250) <= 1, '制度詳細PC: 公式PR画像が300×250で表示されていません')
+        check(abs((affiliate_desktop_image_box['width'] / affiliate_desktop_image_box['height']) - (300 / 250)) <= 0.02, '制度詳細PC: 公式PR画像の300:250比率が崩れています')
+        check(affiliate_desktop_article.evaluate('(el) => Boolean(el.compareDocumentPosition(document.querySelector(\'.grant-affiliate-rail\')) & Node.DOCUMENT_POSITION_FOLLOWING)'), '制度詳細PC: PR枠のDOM順が本文より前です')
+    check(len(affiliate_desktop_errors) == 0, f'制度詳細PC: console error {affiliate_desktop_errors}')
+    affiliate_desktop.screenshot(path=str(REPORT_DIR / 'grant-affiliate-1440.png'), full_page=False)
+    affiliate_desktop.close()
+
+    affiliate, affiliate_errors = open_page(browser, '/grant/hachioji-startup-support/', 390, 844)
     affiliate_impression = affiliate.locator('[data-analytics-event="affiliate_impression"]')
     affiliate_link = affiliate.locator('[data-analytics-event="affiliate_click"]')
     check(affiliate_impression.count() == 1, '関連する事業者向け制度にPR枠が1件表示されません')
@@ -147,8 +198,11 @@ with sync_playwright() as playwright:
     check(affiliate_impression.locator('[data-ad-label]').inner_text().strip() == 'PR', 'PR表記がPRだけではありません')
     check(affiliate_impression.locator('.affiliate-banner-visual').count() == 0, '制度詳細PRに自作ビジュアル要素が残っています')
     check(affiliate_impression.locator('.affiliate-creative-image').is_visible(), '制度詳細PRにASP公式クリエイティブ画像が表示されていません')
+    affiliate_mobile_image_box = affiliate_impression.locator('.affiliate-creative-image').bounding_box()
+    check(abs((affiliate_mobile_image_box['width'] / affiliate_mobile_image_box['height']) - (300 / 250)) <= 0.02, '制度詳細モバイル: 公式PR画像の300:250比率が崩れています')
     check(affiliate.locator('.grant-official-primary').count() >= 1, 'PR表示ページに公式CTAがありません')
     check(affiliate.locator('.grant-official-primary').evaluate('(el) => Boolean(el.compareDocumentPosition(document.querySelector(\'[data-analytics-event="affiliate_impression"]\')) & Node.DOCUMENT_POSITION_FOLLOWING)'), 'PR枠が公式CTAより上に表示されています')
+    check(affiliate.locator('.grant-detail-article').evaluate('(el) => Boolean(el.compareDocumentPosition(document.querySelector(\'.grant-affiliate-rail\')) & Node.DOCUMENT_POSITION_FOLLOWING)'), '制度詳細モバイル: PR枠のDOM順が本文より前です')
     check(len(affiliate_errors) == 0, f'PR表示制度詳細: console error {affiliate_errors}')
     affiliate.close()
 
@@ -167,7 +221,7 @@ with sync_playwright() as playwright:
 
     # 320px〜1440pxで横スクロールがないこと
     for width in [320, 375, 390, 768, 1024, 1440]:
-        for path in ['/', '/grants/', '/grant/sumitomo-zaidan-kankyou-josei/']:
+        for path in ['/', '/grants/', '/grant/sumitomo-zaidan-kankyou-josei/', '/grant/hachioji-startup-support/']:
             page, _ = open_page(browser, path, width, 900)
             overflow = page.evaluate('document.documentElement.scrollWidth > document.documentElement.clientWidth')
             check(not overflow, f'{path} ({width}px): 横スクロールが発生しています')

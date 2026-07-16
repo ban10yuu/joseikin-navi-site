@@ -1,5 +1,5 @@
 import type { AffiliateOffer, AffiliatePageType } from '../config/affiliate-offers.ts';
-import type { AffiliateIntent, Audience, Purpose } from './types.ts';
+import type { AffiliateIntent, Audience, GrantStatus, Purpose } from './types.ts';
 import { getTokyoDate, isValidAffiliateDate } from './affiliate-date.ts';
 
 export const AFFILIATE_LINK_REL = 'sponsored nofollow noopener noreferrer';
@@ -14,6 +14,7 @@ export interface MonetizationContext {
   purposes: Purpose[];
   intents: AffiliateIntent[];
   monetizationAllowed: boolean;
+  status?: GrantStatus;
   limit?: number;
 }
 
@@ -64,6 +65,7 @@ export function getEligibleAffiliateOffers(
 ): AffiliateOffer[] {
   if (!context.monetizationAllowed) return [];
   if (context.pageType === 'grant' && !context.audiences.some((audience) => BUSINESS_AUDIENCES.has(audience))) return [];
+  if (context.pageType === 'grant' && context.status === 'closed') return [];
   if (context.purposes.some((purpose) => SENSITIVE_PURPOSES.has(purpose))) return [];
   if (context.audiences.some((audience) => SENSITIVE_AUDIENCES.has(audience))) return [];
 

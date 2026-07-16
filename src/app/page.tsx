@@ -93,8 +93,17 @@ export default function HomePage() {
             </div>
             <p className="home-hero-description">国・自治体・民間団体の公式情報をもとに、対象、支援内容、申請期限、確認先を整理しています。個人・家族向け、事業者・団体向けを分けて検索できます。</p>
           </div>
-          {heroAffiliate && <div className="mx-auto mb-5 max-w-4xl"><AffiliateRecommendation offer={heroAffiliate} pageType="home" placement="home-hero" position={1} audience="business" purpose="businessGrowth" compact /></div>}
-          <HomeGrantSearch totalCount={stats.total} officialLinkedCount={stats.officialLinked} />
+          <div className={`home-search-with-rail${heroAffiliate ? '' : ' home-search-with-rail--single'}`}>
+            <div className="home-search-main">
+              <HomeGrantSearch totalCount={stats.total} officialLinkedCount={stats.officialLinked} />
+            </div>
+            {heroAffiliate && (
+              <div className="home-affiliate-rail official-affiliate-rail">
+                <p className="home-affiliate-rail-label">事業者向けサービス</p>
+                <AffiliateRecommendation offer={heroAffiliate} pageType="home" placement="home-hero" position={1} audience="business" purpose="businessGrowth" compact />
+              </div>
+            )}
+          </div>
           <section className="home-seo-link-panel" aria-labelledby="popular-search-title">
             <div>
               <p className="home-search-eyebrow">よく探される条件</p>

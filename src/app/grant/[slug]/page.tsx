@@ -90,6 +90,7 @@ export default async function GrantDetailPage({ params }: Props) {
     purposes: grant.purposes ?? [],
     intents: grant.affiliateIntents ?? [],
     monetizationAllowed: grant.monetizationAllowed ?? false,
+    status,
     limit: 1,
   });
   const primaryOfficialUrl = getValidOfficialSourceUrls(grant)[0];
@@ -106,10 +107,11 @@ export default async function GrantDetailPage({ params }: Props) {
         { name: grant.title, url: toSiteUrl(`/grant/${slug}/`) },
       ]} />
 
-      <div className="grant-detail-page">
+      <div className={`grant-detail-page${affiliateOffers.length > 0 ? ' has-affiliate' : ''}`}>
         <nav className="grant-breadcrumb" aria-label="パンくずリスト"><Link href="/">ホーム</Link><span aria-hidden="true">/</span><Link href={`/category/${grant.category}/`}>{CATEGORY_LABELS[grant.category]}</Link><span aria-hidden="true">/</span><span aria-current="page">{grant.title}</span></nav>
 
-        <article className="grant-detail-article">
+        <div className="grant-detail-layout">
+          <article className="grant-detail-article">
           <GrantDecisionSummary grant={grant} expired={expired} sourceLabel={sourceStatus.label} />
 
           <OfficialSourcePanel
@@ -172,11 +174,17 @@ export default async function GrantDetailPage({ params }: Props) {
 
           <section className="mt-8 rounded-xl border border-line bg-white p-5" aria-labelledby="correction-title"><h2 id="correction-title" className="text-lg font-black text-navy">掲載情報の訂正・修正依頼</h2><p className="mt-2 text-sm leading-7 text-muted">制度の更新や誤りにお気づきの場合は、制度名と公式情報のURLを添えてお知らせください。</p><Link href={`/correction/?grant=${encodeURIComponent(grant.slug)}`} className="mt-3 inline-flex min-h-11 items-center font-bold text-navy underline underline-offset-4" data-analytics-event="correction_request" data-page-type="grant" data-grant-id={grant.slug}>この制度について訂正を依頼する</Link></section>
 
-          {affiliateOffers.map((offer, index) => <AffiliateRecommendation key={offer.id} offer={offer} pageType="grant" grantId={grant.slug} audience={grant.primaryAudience} purpose={grant.primaryPurpose} placement="grant-after-correction" position={index + 1} />)}
+            {grant.tags.length > 0 && <div className="grant-tag-list" aria-label="関連タグ">{grant.tags.map((tag) => <Link key={tag} href={`/tag/${encodeURIComponent(tag.toLowerCase().replace(/\s+/g, '-'))}/`}>#{tag}</Link>)}</div>}
+            {classifiedCount === 0 && <p className="mt-6 text-xs leading-6 text-muted">詳細項目は公式ページでご確認ください。</p>}
+          </article>
 
-          {grant.tags.length > 0 && <div className="grant-tag-list" aria-label="関連タグ">{grant.tags.map((tag) => <Link key={tag} href={`/tag/${encodeURIComponent(tag.toLowerCase().replace(/\s+/g, '-'))}/`}>#{tag}</Link>)}</div>}
-          {classifiedCount === 0 && <p className="mt-6 text-xs leading-6 text-muted">詳細項目は公式ページでご確認ください。</p>}
-        </article>
+          {affiliateOffers.length > 0 && (
+            <div className="grant-affiliate-rail official-affiliate-rail">
+              <p className="grant-affiliate-rail-label">申請準備に関連するサービス</p>
+              {affiliateOffers.map((offer, index) => <AffiliateRecommendation key={offer.id} offer={offer} pageType="grant" grantId={grant.slug} audience={grant.primaryAudience} purpose={grant.primaryPurpose} placement="grant-side-rail" position={index + 1} compact />)}
+            </div>
+          )}
+        </div>
       </div>
 
       {primaryOfficialUrl && <div className="grant-mobile-cta"><a href={primaryOfficialUrl} target="_blank" rel="noopener noreferrer" data-analytics-event="official_source_click" data-page-type="grant" data-grant-id={grant.slug} data-audience={grant.primaryAudience} data-purpose={grant.primaryPurpose} data-placement="mobile-sticky">{getOfficialCtaLabel(status)}<span className="sr-only">（新しいタブで開きます）</span><span aria-hidden="true">↗</span></a></div>}

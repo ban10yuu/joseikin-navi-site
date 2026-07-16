@@ -79,7 +79,11 @@ export default function AffiliateRecommendation({ offer, pageType, placement, po
             width={offer.creativeWidth ?? undefined}
             height={offer.creativeHeight ?? undefined}
             className="affiliate-creative-image"
-            style={{ width: `${offer.creativeWidth}px`, height: `${offer.creativeHeight}px` }}
+            style={{
+              width: `${offer.creativeWidth}px`,
+              height: 'auto',
+              aspectRatio: `${offer.creativeWidth} / ${offer.creativeHeight}`,
+            }}
             loading="lazy"
           />
           {offer.impressionPixelUrl ? (
