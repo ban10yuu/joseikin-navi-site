@@ -1,0 +1,37 @@
+{
+  "batchId": "osaka-official-coverage-005",
+  "prefecture": "大阪府",
+  "createdAt": "2026-07-16T10:33:00+09:00",
+  "municipalities": [
+    {
+      "code": "27219",
+      "name": "和泉市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.osaka-izumi.lg.jp/"
+    },
+    {
+      "code": "27220",
+      "name": "箕面市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.minoh.lg.jp/"
+    },
+    {
+      "code": "27221",
+      "name": "柏原市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.kashiwara.lg.jp/"
+    },
+    {
+      "code": "27222",
+      "name": "羽曳野市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.habikino.lg.jp/"
+    },
+    {
+      "code": "27223",
+      "name": "門真市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.kadoma.osaka.jp/"
+    }
+  ]
+}

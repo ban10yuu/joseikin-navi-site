@@ -10434,3 +10434,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17227、officialLinkedActive 17107、manuallyVerifiedActive 17107、大阪府 localOfficial 380）
 - 到達点: 大阪府は27100大阪市から27218大東市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 大阪府公式棚卸し005として、27219和泉市から再開
+
+
+### 大阪府公式棚卸し005（27219和泉市・27220箕面市・27221柏原市・27222羽曳野市・27223門真市）
+- 実施日: 2026-07-16
+- 候補: 483件（公式カテゴリリンクリード88件、公式リスト88件、採用URL88本）
+- 採用: 88件（和泉市29件、箕面市12件、柏原市16件、羽曳野市12件、門真市19件）
+- 公式URL: 採用URL到達確認は tasks/discovery/osaka-official-coverage-005-url-status.txt に記録（88本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、通常行政案内、申請書PDF単体、外部制度のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。柏原市は旧ドメインが接続不能のため公式リダイレクト先の city.kashiwara.lg.jp で補完
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17315、officialLinkedActive 17195、manuallyVerifiedActive 17195、大阪府 localOfficial 468）
+- 到達点: 大阪府は27100大阪市から27223門真市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 大阪府公式棚卸し006として、27224摂津市から再開

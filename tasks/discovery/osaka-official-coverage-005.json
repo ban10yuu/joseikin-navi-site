@@ -1,0 +1,41 @@
+{
+  "batchId": "osaka-official-coverage-005",
+  "prefecture": "大阪府",
+  "completedAt": "2026-07-16T10:44:17+09:00",
+  "municipalities": [
+    {
+      "code": "27219",
+      "name": "和泉市",
+      "adopted": 29
+    },
+    {
+      "code": "27220",
+      "name": "箕面市",
+      "adopted": 12
+    },
+    {
+      "code": "27221",
+      "name": "柏原市",
+      "adopted": 16
+    },
+    {
+      "code": "27222",
+      "name": "羽曳野市",
+      "adopted": 12
+    },
+    {
+      "code": "27223",
+      "name": "門真市",
+      "adopted": 19
+    }
+  ],
+  "candidateCount": 483,
+  "linkLeadCount": 88,
+  "adopted": 88,
+  "sourceUrlsChecked": 88,
+  "heldPolicy": "トップ、カテゴリ導線、共通ナビ、通常行政案内、申請書PDF単体、外部制度のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。柏原市は旧ドメインが接続不能のため公式リダイレクト先のcity.kashiwara.lg.jpで補完。",
+  "next": {
+    "batchId": "osaka-official-coverage-006",
+    "start": "27224摂津市"
+  }
+}
