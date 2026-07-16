@@ -1,0 +1,36 @@
+{
+  "batchId": "wakayama-official-coverage-004",
+  "prefecture": "和歌山県",
+  "municipalities": [
+    {
+      "code": "30366",
+      "name": "有田川町",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.town.aridagawa.lg.jp/"
+    },
+    {
+      "code": "30381",
+      "name": "美浜町",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "http://www.town.mihama.wakayama.jp/"
+    },
+    {
+      "code": "30382",
+      "name": "日高町",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "http://www.town.wakayama-hidaka.lg.jp/"
+    },
+    {
+      "code": "30383",
+      "name": "由良町",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "http://www.town.yura.wakayama.jp/"
+    },
+    {
+      "code": "30390",
+      "name": "印南町",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.town.wakayama-inami.lg.jp/"
+    }
+  ]
+}

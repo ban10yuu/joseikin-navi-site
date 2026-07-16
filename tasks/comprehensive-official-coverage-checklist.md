@@ -10676,3 +10676,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19026、officialLinkedActive 18905、manuallyVerifiedActive 18905、和歌山県 localOfficial 264）
 - 到達点: 和歌山県は30201和歌山市から30362広川町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 和歌山県公式棚卸し004として、30366有田川町から再開
+
+### 和歌山県公式棚卸し004（30366有田川町・30381美浜町・30382日高町・30383由良町・30390印南町）
+- 実施日: 2026-07-16
+- 候補: 1750件（公式サイト内リンクリード137465件、本文再スコア採択候補342件、採用URL89本）
+- 採用: 89件（有田川町19件、美浜町17件、日高町17件、由良町19件、印南町17件）
+- 公式URL: 採用URL到達確認は tasks/discovery/wakayama-official-coverage-004-url-status.txt に記録（89本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクとsitemapを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、申請書・PDF単体、町が交付を受けた報告、職員募集、観光・寄附、本文根拠が薄い候補は第2巡候補として保持。美浜町・日高町・由良町はHTTPSがローカルfetchでタイムアウトするため、HTTP 200の公式URLに正規化して採用
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19114、officialLinkedActive 18993、manuallyVerifiedActive 18993、和歌山県 localOfficial 353）
+- 到達点: 和歌山県は30201和歌山市から30390印南町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 和歌山県公式棚卸し005として、30391みなべ町から再開
