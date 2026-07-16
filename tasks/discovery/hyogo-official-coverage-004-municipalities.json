@@ -1,0 +1,37 @@
+{
+  "batchId": "hyogo-official-coverage-004",
+  "prefecture": "兵庫県",
+  "createdAt": "2026-07-16T21:35:00+09:00",
+  "municipalities": [
+    {
+      "code": "28216",
+      "name": "高砂市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.takasago.lg.jp/"
+    },
+    {
+      "code": "28217",
+      "name": "川西市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.kawanishi.hyogo.jp/"
+    },
+    {
+      "code": "28218",
+      "name": "小野市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.ono.hyogo.jp/"
+    },
+    {
+      "code": "28219",
+      "name": "三田市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.sanda.lg.jp/"
+    },
+    {
+      "code": "28220",
+      "name": "加西市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.kasai.hyogo.jp/"
+    }
+  ]
+}

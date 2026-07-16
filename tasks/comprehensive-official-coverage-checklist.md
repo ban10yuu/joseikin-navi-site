@@ -10515,3 +10515,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17863、officialLinkedActive 17743、manuallyVerifiedActive 17743、兵庫県 localOfficial 351）
 - 到達点: 兵庫県は28100神戸市から28215三木市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 兵庫県公式棚卸し004として、28216高砂市から再開
+
+### 兵庫県公式棚卸し004（28216高砂市・28217川西市・28218小野市・28219三田市・28220加西市）
+- 実施日: 2026-07-16
+- 候補: 707件（公式カテゴリリンクリード453件、公式リスト62件、採用URL62本）
+- 採用: 62件（高砂市11件、川西市18件、小野市2件、三田市12件、加西市19件）
+- 公式URL: 採用URL到達確認は tasks/discovery/hyogo-official-coverage-004-url-status.txt に記録（62本すべてHTTP 200）
+- 保留: shortlistが150件超のため、公式候補ページ本文と同一ドメイン内リンクを抽出し、制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、相談・協定・担当課のみ、空き家バンク導線、外部制度紹介のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。小野市は公式補助金・助成金一覧とサイトマップを補完したが、個別制度ページが少ないため公式本文を確認できた2件に絞った
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17925、officialLinkedActive 17805、manuallyVerifiedActive 17805、兵庫県 localOfficial 413）
+- 到達点: 兵庫県は28100神戸市から28220加西市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 兵庫県公式棚卸し005として、28221丹波篠山市から再開
