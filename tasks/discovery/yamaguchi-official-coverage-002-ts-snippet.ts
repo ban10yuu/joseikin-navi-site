@@ -1,0 +1,1186 @@
+const yamaguchiOfficial002Grants: Array<{
+  slug: string;
+  title: string;
+  organization: string;
+  maxAmount: string;
+  maxAmountNum: number;
+  category: Grant['category'];
+  relatedCategories?: Grant['relatedCategories'];
+  eligibility: string;
+  applicationPeriod: string;
+  officialUrl: string;
+  sourceName: string;
+}> = [
+  {
+    "slug": "yamaguchi-official-002-001-2026",
+    "title": "下松市 下松市自治会助成金",
+    "organization": "下松市",
+    "maxAmount": "5,500円を交付",
+    "maxAmountNum": 5500,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "下松市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月8日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/chiiki/kyoudou/jitikai/jitikaijoseikin.html",
+    "sourceName": "下松市自治会助成金"
+  },
+  {
+    "slug": "yamaguchi-official-002-002-2026",
+    "title": "下松市 後期高齢者医療の給付",
+    "organization": "下松市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "下松市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年9月30日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/hoken/kurashi/koukikoureishairyou/iryounokyuufu.html",
+    "sourceName": "後期高齢者医療の給付"
+  },
+  {
+    "slug": "yamaguchi-official-002-003-2026",
+    "title": "下松市 年金生活者支援給付金制度",
+    "organization": "下松市",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "下松市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月3日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/hoken/seikatsu/jyumin/nenkin/nenkinseikatsusyasienkyuuhukin.html",
+    "sourceName": "年金生活者支援給付金制度"
+  },
+  {
+    "slug": "yamaguchi-official-002-004-2026",
+    "title": "下松市 不育症治療費助成事業",
+    "organization": "下松市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "下松市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/kenkou/fukushi/hoken/huikusinsei.html",
+    "sourceName": "不育症治療費助成事業"
+  },
+  {
+    "slug": "yamaguchi-official-002-005-2026",
+    "title": "下松市 一般不妊治療費助成事業",
+    "organization": "下松市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "下松市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/kenkou/fukushi/hoken/ippannhuninn.html",
+    "sourceName": "一般不妊治療費助成事業"
+  },
+  {
+    "slug": "yamaguchi-official-002-006-2026",
+    "title": "下松市 人工授精費助成事業",
+    "organization": "下松市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "下松市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年3月9日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/kenkou/fukushi/hoken/jinkou.html",
+    "sourceName": "人工授精費助成事業"
+  },
+  {
+    "slug": "yamaguchi-official-002-007-2026",
+    "title": "下松市 不妊治療費助成事業の所得制限",
+    "organization": "下松市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "下松市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年3月16日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/kenkou/syotoku.html",
+    "sourceName": "不妊治療費助成事業の所得制限"
+  },
+  {
+    "slug": "yamaguchi-official-002-008-2026",
+    "title": "下松市 母子家庭自立支援給付金及び父子家庭自立支援給付金",
+    "organization": "下松市",
+    "maxAmount": "上限100,000円",
+    "maxAmountNum": 100000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "下松市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年2月6日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/kodomokatei/koutoushokugyoukunnrenn-jiritsushienkyouikukunnrenn.html",
+    "sourceName": "母子家庭自立支援給付金及び父子家庭自立支援給付金"
+  },
+  {
+    "slug": "yamaguchi-official-002-009-2026",
+    "title": "下松市 児童扶養手当",
+    "organization": "下松市",
+    "maxAmount": "限度額表扶養親族の数本人孤児等の養育者、配偶者、扶養義務者の限度額全部支給の限度額一部支給停止の限度額0人69万円",
+    "maxAmountNum": 690000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "下松市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月3日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/kosodateshien/fukushi/jidou/jidoufuyouteate.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "yamaguchi-official-002-010-2026",
+    "title": "下松市 児童手当",
+    "organization": "下松市",
+    "maxAmount": "支給額が3万円",
+    "maxAmountNum": 30000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "下松市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2024年8月16日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/kosodateshien/fukushi/jidou/jidouteate.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "yamaguchi-official-002-011-2026",
+    "title": "下松市 中小企業勤労者小口資金貸付制度",
+    "organization": "下松市",
+    "maxAmount": "限度額、期間、利率（令和7年4月1日現在）資金使途貸付限度額貸付期間貸付利率大学教育資金300万円",
+    "maxAmountNum": 3000000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "下松市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 請求書発行事業者登録番号：T2000020352071 個人情報の保護 このサイトについて 免責事項 サイトマップ Copyright (C) Kudamatsu City All rights reserved.",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/sangyou/koguchi.html",
+    "sourceName": "中小企業勤労者小口資金貸付制度"
+  },
+  {
+    "slug": "yamaguchi-official-002-012-2026",
+    "title": "下松市 中小企業脱炭素経営推進補助金",
+    "organization": "下松市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "下松市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年5月14日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/sangyou/sangyou/datsutansokeiei_setsumeikai2026.html",
+    "sourceName": "中小企業脱炭素経営推進補助金"
+  },
+  {
+    "slug": "yamaguchi-official-002-013-2026",
+    "title": "下松市 本社機能移転促進補助金",
+    "organization": "下松市",
+    "maxAmount": "1人につき50万円",
+    "maxAmountNum": 500000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "下松市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月18日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/sangyou/sangyou/kigyouyuuchi/honsyaiten.html",
+    "sourceName": "本社機能移転促進補助金"
+  },
+  {
+    "slug": "yamaguchi-official-002-014-2026",
+    "title": "下松市 奨学金返還支援補助金",
+    "organization": "下松市",
+    "maxAmount": "上限額：10万円",
+    "maxAmountNum": 100000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "下松市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月16日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/sangyou/sangyou/syougakukin_henkanshien.html",
+    "sourceName": "奨学金返還支援補助金"
+  },
+  {
+    "slug": "yamaguchi-official-002-015-2026",
+    "title": "下松市 後付け安全運転支援装置整備費補助金",
+    "organization": "下松市",
+    "maxAmount": "上限額：50,000円",
+    "maxAmountNum": 50000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "下松市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月24日 交付事業 JavaScriptが無効なため一部の機能が動作しません",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/seikatsu/anzen/bouhan/koutsuuanzen/atozukesien.html",
+    "sourceName": "後付け安全運転支援装置整備費補助金"
+  },
+  {
+    "slug": "yamaguchi-official-002-016-2026",
+    "title": "下松市 子育て世帯生活支援特別給付金",
+    "organization": "下松市",
+    "maxAmount": "1人当たり一律50,000円",
+    "maxAmountNum": 50000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "下松市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2023年8月22日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/kodomokatei/kosodatekyuufukinn.html",
+    "sourceName": "子育て世帯生活支援特別給付金"
+  },
+  {
+    "slug": "yamaguchi-official-002-017-2026",
+    "title": "下松市 福祉医療費助成",
+    "organization": "下松市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "下松市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年6月23日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/fukushien/fukushiiryouhijyosei.html",
+    "sourceName": "福祉医療費助成"
+  },
+  {
+    "slug": "yamaguchi-official-002-018-2026",
+    "title": "下松市 不妊・不育症治療費助成事業",
+    "organization": "下松市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "下松市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年3月9日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/kodomokatei/funintiryou.html",
+    "sourceName": "不妊・不育症治療費助成事業"
+  },
+  {
+    "slug": "yamaguchi-official-002-019-2026",
+    "title": "下松市 防犯灯助成事業",
+    "organization": "下松市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "下松市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2024年2月1日 申請書ダウンロード 電子通知システム ここから本文です",
+    "officialUrl": "https://www.city.kudamatsu.lg.jp/seikatsu/seikatsu/seikatsu/bouhantou/h24bouhantoujyosei.html",
+    "sourceName": "防犯灯助成事業"
+  },
+  {
+    "slug": "yamaguchi-official-002-020-2026",
+    "title": "岩国市 危険ブロック塀等撤去費用助成",
+    "organization": "岩国市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "岩国市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 交付申請の前に、必ず事前相談を行っていただき、補助対象となる道路等の沿道に該当するかを確認してください",
+    "officialUrl": "https://www.city.iwakuni.lg.jp/soshiki/50/36068.html",
+    "sourceName": "危険ブロック塀等撤去費用助成"
+  },
+  {
+    "slug": "yamaguchi-official-002-021-2026",
+    "title": "岩国市 こども医療費助成制度",
+    "organization": "岩国市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "岩国市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年4月12日 交付金事業） - 岩国市 ページの先頭です",
+    "officialUrl": "https://www.city.iwakuni.lg.jp/soshiki/30/2272.html",
+    "sourceName": "こども医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-002-022-2026",
+    "title": "岩国市 高齢者活き行きサポート事業",
+    "organization": "岩国市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "岩国市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 交付事業のご案内 公共交通利用にかかる費用を助成します 渡船料助成事業のご案内 高齢者活き行きサポート事業のご案内 高齢者等のごみ出し支援事業 認知症への取り組み 認知症ケアパス 認知症相談会 認知症カフェ 岩国市認知症の人",
+    "officialUrl": "https://www.city.iwakuni.lg.jp/site/koureihoken/47267.html",
+    "sourceName": "高齢者活き行きサポート事業"
+  },
+  {
+    "slug": "yamaguchi-official-002-023-2026",
+    "title": "岩国市 1日人間ドック",
+    "organization": "岩国市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "岩国市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年1月26日 受付は本庁守衛室、各総合支所で行います",
+    "officialUrl": "https://www.city.iwakuni.lg.jp/soshiki/32/3098.html",
+    "sourceName": "1日人間ドック"
+  },
+  {
+    "slug": "yamaguchi-official-002-024-2026",
+    "title": "岩国市 省エネリフォーム促進補助金",
+    "organization": "岩国市",
+    "maxAmount": "補助額（※）みらいエコ住宅2026事業＜外部リンク＞​（注文住宅の新築・新築分譲住宅の購入については、市の補助事業の対象外です）【上限額】100万円",
+    "maxAmountNum": 1000000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "岩国市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年7月10日 交付金を活用し、省エネルギー性能の高い住宅へのリフォームを支援します",
+    "officialUrl": "https://www.city.iwakuni.lg.jp/soshiki/22/114549.html",
+    "sourceName": "省エネリフォーム促進補助金"
+  },
+  {
+    "slug": "yamaguchi-official-002-025-2026",
+    "title": "岩国市 奨学金返還支援制度等",
+    "organization": "岩国市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "岩国市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2023年12月28日 受付は本庁守衛室、各総合支所で行います",
+    "officialUrl": "https://www.city.iwakuni.lg.jp/soshiki/38/91837.html",
+    "sourceName": "奨学金返還支援制度等"
+  },
+  {
+    "slug": "yamaguchi-official-002-026-2026",
+    "title": "岩国市 創業支援補助金",
+    "organization": "岩国市",
+    "maxAmount": "上限60万円",
+    "maxAmountNum": 600000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "岩国市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請 相談 よろず支援拠点による出張相談会（毎週開催） 事業承継の出張相談会（毎月開催） 事業承継個別相談会(令和8年7月) 資金調達・情報提供・販路開拓について （中小企業庁のご案内） 奨励金・補助金 1 企業誘致に関する",
+    "officialUrl": "https://www.city.iwakuni.lg.jp/site/kigyouseisaku/20558.html",
+    "sourceName": "創業支援補助金"
+  },
+  {
+    "slug": "yamaguchi-official-002-027-2026",
+    "title": "岩国市 住宅環境改善支援事業補助金",
+    "organization": "岩国市",
+    "maxAmount": "補助金上限額30万円",
+    "maxAmountNum": 300000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "岩国市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年6月18日 募集のご案内 - 岩国市 ページの先頭です",
+    "officialUrl": "https://www.city.iwakuni.lg.jp/soshiki/16/97824.html",
+    "sourceName": "住宅環境改善支援事業補助金"
+  },
+  {
+    "slug": "yamaguchi-official-002-028-2026",
+    "title": "岩国市 店舗改装費助成",
+    "organization": "岩国市",
+    "maxAmount": "限度額50万円",
+    "maxAmountNum": 500000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "岩国市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請 相談 よろず支援拠点による出張相談会（毎週開催） 事業承継の出張相談会（毎月開催） 事業承継個別相談会(令和8年7月) 資金調達・情報提供・販路開拓について （中小企業庁のご案内） 奨励金・補助金 1 企業誘致に関する",
+    "officialUrl": "https://www.city.iwakuni.lg.jp/site/kigyouseisaku/45241.html",
+    "sourceName": "店舗改装費助成"
+  },
+  {
+    "slug": "yamaguchi-official-002-029-2026",
+    "title": "岩国市 制度融資",
+    "organization": "岩国市",
+    "maxAmount": "限度額融資利率（年利）保証料率融資期間償還方法保証人担保責任共有制度対象外対象運転1,500万円",
+    "maxAmountNum": 15000000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "岩国市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請 相談 よろず支援拠点による出張相談会（毎週開催） 事業承継の出張相談会（毎月開催） 事業承継個別相談会(令和8年7月) 資金調達・情報提供・販路開拓について （中小企業庁のご案内） 奨励金・補助金 1 企業誘致に関する",
+    "officialUrl": "https://www.city.iwakuni.lg.jp/site/kigyouseisaku/4593.html",
+    "sourceName": "制度融資"
+  },
+  {
+    "slug": "yamaguchi-official-002-030-2026",
+    "title": "岩国市 企業誘致奨励金",
+    "organization": "岩国市",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [
+      "employment"
+    ],
+    "eligibility": "岩国市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2023年4月1日 申請 相談 よろず支援拠点による出張相談会（毎週開催） 事業承継の出張相談会（毎月開催） 事業承継個別相談会(令和8年7月) 資金調達・情報提供・販路開拓について （中小企業庁のご案内） 奨励金・補助金 1 企業誘致に関する",
+    "officialUrl": "https://www.city.iwakuni.lg.jp/site/kigyouseisaku/15185.html",
+    "sourceName": "企業誘致奨励金"
+  },
+  {
+    "slug": "yamaguchi-official-002-031-2026",
+    "title": "岩国市 企業誘致奨励金の種類と内容",
+    "organization": "岩国市",
+    "maxAmount": "1人につき50万円",
+    "maxAmountNum": 500000,
+    "category": "living",
+    "relatedCategories": [
+      "employment"
+    ],
+    "eligibility": "岩国市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2023年4月1日 申請 相談 よろず支援拠点による出張相談会（毎週開催） 事業承継の出張相談会（毎月開催） 事業承継個別相談会(令和8年7月) 資金調達・情報提供・販路開拓について （中小企業庁のご案内） 奨励金・補助金 1 企業誘致に関する",
+    "officialUrl": "https://www.city.iwakuni.lg.jp/site/kigyouseisaku/2623.html",
+    "sourceName": "企業誘致奨励金の種類と内容"
+  },
+  {
+    "slug": "yamaguchi-official-002-032-2026",
+    "title": "光市 木造住宅耐震診断及び耐震改修補助制度",
+    "organization": "光市",
+    "maxAmount": "限度額115万円",
+    "maxAmountNum": 1150000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "光市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2020年03月02日 募集戸数 耐震診断事業7戸 耐震改修事業4戸 ※耐震改修は募集件数に達したため、キャンセル待ちのみ受け付けをしています",
+    "officialUrl": "https://www.city.hikari.lg.jp/kurashi_tetsuzuki/jutaku/4660.html",
+    "sourceName": "木造住宅耐震診断及び耐震改修補助制度"
+  },
+  {
+    "slug": "yamaguchi-official-002-033-2026",
+    "title": "光市 市有地活用型定住支援事業",
+    "organization": "光市",
+    "maxAmount": "1人につき10万円",
+    "maxAmountNum": 100000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "光市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年01月05日 交付します",
+    "officialUrl": "https://www.city.hikari.lg.jp/kurashi_tetsuzuki/jutaku/6613.html",
+    "sourceName": "市有地活用型定住支援事業"
+  },
+  {
+    "slug": "yamaguchi-official-002-034-2026",
+    "title": "光市 児童手当",
+    "organization": "光市",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "光市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2020年03月02日 請求書発行事業者登録番号 T6000020352101 〒743-8501 山口県光市中央六丁目1番1号 各課の連絡先 開庁時間：午前8時30分から午後5時15分まで 開庁日：月曜日から金曜日[祝日・休日および年末年始を除く",
+    "officialUrl": "https://www.city.hikari.lg.jp/kosodate_kyoiku/kosodate/shien/index.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "yamaguchi-official-002-035-2026",
+    "title": "光市 物価高対応子育て応援手当",
+    "organization": "光市",
+    "maxAmount": "1人当たり2万円",
+    "maxAmountNum": 20000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "光市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年03月19日 支給することが決定されました",
+    "officialUrl": "https://www.city.hikari.lg.jp/kosodate_kyoiku/kosodate/16364.html",
+    "sourceName": "物価高対応子育て応援手当"
+  },
+  {
+    "slug": "yamaguchi-official-002-036-2026",
+    "title": "光市 予防接種",
+    "organization": "光市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "光市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年03月09日 請求書発行事業者登録番号 T6000020352101 〒743-8501 山口県光市中央六丁目1番1号 各課の連絡先 開庁時間：午前8時30分から午後5時15分まで 開庁日：月曜日から金曜日[祝日・休日および年末年始を除く",
+    "officialUrl": "https://www.city.hikari.lg.jp/kosodate_kyoiku/12696.html",
+    "sourceName": "予防接種"
+  },
+  {
+    "slug": "yamaguchi-official-002-037-2026",
+    "title": "光市 介護保険",
+    "organization": "光市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "光市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2022年02月10日 募集について 居宅介護支援・介護予防支援 【介護保険】制度改正 介護職員等処遇改善加算等に係る届出について 特定事業所集中減算 介護保険料について 令和8年度介護保険料の特例措置について 介護サービスの利用について 介護保険",
+    "officialUrl": "https://www.city.hikari.lg.jp/kenko_fukushi/kaigohoken/12524.html",
+    "sourceName": "介護保険"
+  },
+  {
+    "slug": "yamaguchi-official-002-038-2026",
+    "title": "光市 中小企業制度融資",
+    "organization": "光市",
+    "maxAmount": "限度額1,000万円",
+    "maxAmountNum": 10000000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "光市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年04月01日 提出後に変更がある場合 許可を必要とする業種の場合 営業許可書(写しで可) 設備資金での申込みの場合 設備の見積書 その他必要に応じて関係書類を提出していただくことがあります",
+    "officialUrl": "https://www.city.hikari.lg.jp/jigyosha/yushi/6497.html",
+    "sourceName": "中小企業制度融資"
+  },
+  {
+    "slug": "yamaguchi-official-002-039-2026",
+    "title": "光市 中小企業退職金共済掛金補助",
+    "organization": "光市",
+    "maxAmount": "1人当たり月額500円",
+    "maxAmountNum": 500,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "光市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2020年03月02日 請求書発行事業者登録番号 T6000020352101 〒743-8501 山口県光市中央六丁目1番1号 各課の連絡先 開庁時間：午前8時30分から午後5時15分まで 開庁日：月曜日から金曜日[祝日・休日および年末年始を除く",
+    "officialUrl": "https://www.city.hikari.lg.jp/jigyosha/yushi/6452.html",
+    "sourceName": "中小企業退職金共済掛金補助"
+  },
+  {
+    "slug": "yamaguchi-official-002-040-2026",
+    "title": "光市 事業所設置奨励金",
+    "organization": "光市",
+    "maxAmount": "上限額】各年度につき1億円新設に伴い市内に居住する従業員数が10人（中小企業者3人、小規模企業者1人）以上増加するときは、1億5,000万円",
+    "maxAmountNum": 50000000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "光市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年06月12日 交付します",
+    "officialUrl": "https://www.city.hikari.lg.jp/jigyosha/yushi/6466.html",
+    "sourceName": "事業所設置奨励金"
+  },
+  {
+    "slug": "yamaguchi-official-002-041-2026",
+    "title": "長門市 不妊治療費助成事業",
+    "organization": "長門市",
+    "maxAmount": "助成額1年度あたり10万円",
+    "maxAmountNum": 100000,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "長門市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年6月5日 申請をされる方は、以下をご確認ください",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/39170.html",
+    "sourceName": "不妊治療費助成事業"
+  },
+  {
+    "slug": "yamaguchi-official-002-042-2026",
+    "title": "長門市 乳幼児医療費助成制度",
+    "organization": "長門市",
+    "maxAmount": "1人につき課税額から7,200円",
+    "maxAmountNum": 7200,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長門市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年1月14日 申請に必要なもの 福祉医療受給者証交付申請書（乳幼児用） [PDFファイル／165KB] 対象児童及び関係者のマイナンバー確認書類（個人番号カード） 健康保険加入が確認できるもの（対象の子どものもの）（資格確認書、資格情報の",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/43321.html",
+    "sourceName": "乳幼児医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-002-043-2026",
+    "title": "長門市 妊婦のための支援給付",
+    "organization": "長門市",
+    "maxAmount": "支給額〇妊娠1回につき5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "長門市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年5月28日 支給）を一体的に実施します",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/44651.html",
+    "sourceName": "妊婦のための支援給付"
+  },
+  {
+    "slug": "yamaguchi-official-002-044-2026",
+    "title": "長門市 障害児のための手当",
+    "organization": "長門市",
+    "maxAmount": "年額３０,０００円",
+    "maxAmountNum": 30000,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長門市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2022年6月30日 支給されます",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/44655.html",
+    "sourceName": "障害児のための手当"
+  },
+  {
+    "slug": "yamaguchi-official-002-045-2026",
+    "title": "長門市 入学エール給付金",
+    "organization": "長門市",
+    "maxAmount": "支給額小学校入学児童1人につき5万円",
+    "maxAmountNum": 50000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長門市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 支給します - ながと子育てナビ - 長門市ホームページ ページの先頭です",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/46639.html",
+    "sourceName": "入学エール給付金"
+  },
+  {
+    "slug": "yamaguchi-official-002-046-2026",
+    "title": "長門市 子ども医療費助成制度",
+    "organization": "長門市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "長門市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年12月4日 申請に必要なもの ● 福祉医療受給者証交付申請書（子ども医療用） [PDFファイル／165KB] ●健康保険加入が確認できるもの（対象の子どものもの）（資格確認書、資格情報のお知らせ等） ※令和6年12月から、本制度において",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/43319.html",
+    "sourceName": "子ども医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-002-047-2026",
+    "title": "長門市 3歳未満児の保育料完全無償化",
+    "organization": "長門市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "長門市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年3月21日 3歳未満児の保育料完全無償化について - ながと子育てナビ - 長門市ホームページ ページの先頭です。 メニューを飛ばして本文へ 閲覧補助 メニュー JavaScriptが無効のため、文字の大きさ・背景色を変更する機能を使用できません。 F",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/56742.html",
+    "sourceName": "3歳未満児の保育料完全無償化"
+  },
+  {
+    "slug": "yamaguchi-official-002-048-2026",
+    "title": "長門市 特別児童扶養手当",
+    "organization": "長門市",
+    "maxAmount": "月額（令和7年度）※R7年4月分より1級（重度障害児）＝56,800円",
+    "maxAmountNum": 56800,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長門市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 支給され、児童の福祉の増進を図るための制度です",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/43287.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "yamaguchi-official-002-049-2026",
+    "title": "長門市 児童手当",
+    "organization": "長門市",
+    "maxAmount": "支給額●３歳未満第１子・第２子：15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長門市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年1月14日 支給することにより、家庭等における生活の安定に寄与するとともに、次代の社会を担う児童の健やかな成長に役立てることを目的としています",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/43288.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "yamaguchi-official-002-050-2026",
+    "title": "長門市 おたふくかぜ予防接種費用助成",
+    "organization": "長門市",
+    "maxAmount": "助成額2,700円",
+    "maxAmountNum": 2700,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長門市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月23日 交付申請書兼委任状」に必要事項を記入して予防接種を受ける （「予診票」・「予防接種費用助成金交付申請書兼委任状」は医療機関にあります",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/53406.html",
+    "sourceName": "おたふくかぜ予防接種費用助成"
+  },
+  {
+    "slug": "yamaguchi-official-002-051-2026",
+    "title": "長門市 新生児聴覚検査費用助成",
+    "organization": "長門市",
+    "maxAmount": "1人当たり5,000円",
+    "maxAmountNum": 5000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "長門市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年4月1日 新生児聴覚検査費用の助成を開始します - ながと子育てナビ - 長門市ホームページ ページの先頭です。 メニューを飛ばして本文へ 閲覧補助 メニュー JavaScriptが無効のため、文字の大きさ・背景色を変更する機能を使用できません。 F",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/52925.html",
+    "sourceName": "新生児聴覚検査費用助成"
+  },
+  {
+    "slug": "yamaguchi-official-002-052-2026",
+    "title": "長門市 ひとり親家庭医療費助成制度",
+    "organization": "長門市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "長門市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年12月4日 交付申請書（ひとり親家庭用） [PDFファイル／182KB] 健康保険加入が確認できるもの（資格確認書、資格情報のお知らせ等） ひとり親家庭であることを証明するもの（※児童扶養手当証書、遺族年金証書など） 対象者及び関係者の",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/43318.html",
+    "sourceName": "ひとり親家庭医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-002-053-2026",
+    "title": "長門市 高等職業訓練促進給付金",
+    "organization": "長門市",
+    "maxAmount": "支給額高等職業訓練促進給付金市民税非課税世帯月額100,000円",
+    "maxAmountNum": 100000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長門市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2023年2月27日 支給します",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/44461.html",
+    "sourceName": "高等職業訓練促進給付金"
+  },
+  {
+    "slug": "yamaguchi-official-002-054-2026",
+    "title": "長門市 保育料無償化と副食費免除",
+    "organization": "長門市",
+    "maxAmount": "最大月額11,300円",
+    "maxAmountNum": 11300,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "長門市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年9月2日 申請をすることで、税法上の寡婦（夫）控除があるものとみなして保育料の算定を行います",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/52770.html",
+    "sourceName": "保育料無償化と副食費免除"
+  },
+  {
+    "slug": "yamaguchi-official-002-055-2026",
+    "title": "長門市 高等学校生徒通学支援",
+    "organization": "長門市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "長門市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請方法 子育て支援課に備え付けの申請書に必要事項を記入のうえ、関係書類を添付して、 購入した定期券の通用期間中 に子育て支援課へ提出してください",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/43324.html",
+    "sourceName": "高等学校生徒通学支援"
+  },
+  {
+    "slug": "yamaguchi-official-002-056-2026",
+    "title": "長門市 すくすく赤ちゃんデジタル応援券",
+    "organization": "長門市",
+    "maxAmount": "1人につき、48,000円",
+    "maxAmountNum": 48000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "長門市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月1日 支給します！ - ながと子育てナビ - 長門市ホームページ ページの先頭です",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/49498.html",
+    "sourceName": "すくすく赤ちゃんデジタル応援券"
+  },
+  {
+    "slug": "yamaguchi-official-002-057-2026",
+    "title": "長門市 つながりの場づくり支援事業",
+    "organization": "長門市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長門市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 募集について 山口県の取り組み（開設・運営に関する相談窓口など） こども・子育て応援局子ども家庭課 ＜外部リンク＞ （開設・運営に関する相談窓口・子ども食堂マップ・子ども食堂登録制度など） 山口県こども食堂支援センター ＜外",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/49901.html",
+    "sourceName": "つながりの場づくり支援事業"
+  },
+  {
+    "slug": "yamaguchi-official-002-058-2026",
+    "title": "長門市 産後ケア事業",
+    "organization": "長門市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長門市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年3月25日 産後ケア事業 - ながと子育てナビ - 長門市ホームページ ページの先頭です。 メニューを飛ばして本文へ 閲覧補助 メニュー JavaScriptが無効のため、文字の大きさ・背景色を変更する機能を使用できません。 Foreign langu",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/58846.html",
+    "sourceName": "産後ケア事業"
+  },
+  {
+    "slug": "yamaguchi-official-002-059-2026",
+    "title": "長門市 未熟児養育医療",
+    "organization": "長門市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "長門市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年12月2日 支給 医学的処置、手術及びその他の治療（食事療養費を含む） 病院または診療所への入院 移送 ※保険が適用されない治療費等（例：おむつ代、差額ベッド代、文書料等）については対象外です",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/39160.html",
+    "sourceName": "未熟児養育医療"
+  },
+  {
+    "slug": "yamaguchi-official-002-060-2026",
+    "title": "長門市 障害児のための医療",
+    "organization": "長門市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "長門市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2022年6月30日 支給認定申請書 自立支援医療費（育成医療）意見書 マイナンバーカード又は加入医療保険のわかるもの このページに関するお問い合わせ先 地域福祉課 障害者支援班 〒759-4192 長門市東深川1339番地2 Tel：0837-",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/44658.html",
+    "sourceName": "障害児のための医療"
+  },
+  {
+    "slug": "yamaguchi-official-002-061-2026",
+    "title": "長門市 はじめましてBOX",
+    "organization": "長門市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "長門市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年3月7日 受付から2か月以内となります",
+    "officialUrl": "https://www.city.nagato.yamaguchi.jp/site/nagato-kosodatenavi/51933.html",
+    "sourceName": "はじめましてBOX"
+  },
+  {
+    "slug": "yamaguchi-official-002-062-2026",
+    "title": "柳井市 空き家に関する補助金",
+    "organization": "柳井市",
+    "maxAmount": "補助額：購入費の1/2、上限50万円",
+    "maxAmountNum": 500000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "柳井市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年3月18日 空き家に関する補助金 - 柳井市ホームページ ページの先頭です。 メニューを飛ばして本文へ メニュー 柳井市を知る おためし移住 空き家バンク 補助金・支援制度 よくある質問 移住の相談窓口 お問い合わせ やない暮らしSITE &gt; 空",
+    "officialUrl": "https://www.city-yanai.jp/site/yanai-gurashi/akiyabank-hojokin.html",
+    "sourceName": "空き家に関する補助金"
+  },
+  {
+    "slug": "yamaguchi-official-002-063-2026",
+    "title": "柳井市 テレワークに役立つ補助金",
+    "organization": "柳井市",
+    "maxAmount": "補助額：単身世帯60万円",
+    "maxAmountNum": 600000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "柳井市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月18日 テレワークに役立つ補助金 - 柳井市ホームページ ページの先頭です。 メニューを飛ばして本文へ メニュー 柳井市を知る おためし移住 空き家バンク 補助金・支援制度 よくある質問 移住の相談窓口 お問い合わせ やない暮らしSITE &gt;",
+    "officialUrl": "https://www.city-yanai.jp/site/yanai-gurashi/telework.html",
+    "sourceName": "テレワークに役立つ補助金"
+  },
+  {
+    "slug": "yamaguchi-official-002-064-2026",
+    "title": "柳井市 暮らしに役立つ補助金",
+    "organization": "柳井市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "柳井市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月18日 申請方法や対象要件など、詳しくは各Webページをご覧ください",
+    "officialUrl": "https://www.city-yanai.jp/site/yanai-gurashi/kurashi-hojokin.html",
+    "sourceName": "暮らしに役立つ補助金"
+  },
+  {
+    "slug": "yamaguchi-official-002-065-2026",
+    "title": "柳井市 おたふくかぜワクチン予防接種費用助成",
+    "organization": "柳井市",
+    "maxAmount": "助成額接種費用の１/２（上限４,０００円",
+    "maxAmountNum": 4000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "柳井市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 受付 （ふるさと納税等） 柳井 金魚ちょうちん やまぐち フラワーランド ＜外部リンク＞ ホーム くらしの情報 企業・事業者 観光情報 市政情報 検索 キーワード検索 Googleカスタム検索 検索対象 すべて ページ PD",
+    "officialUrl": "https://www.city-yanai.jp/soshiki/73/otahukukaze.html",
+    "sourceName": "おたふくかぜワクチン予防接種費用助成"
+  },
+  {
+    "slug": "yamaguchi-official-002-066-2026",
+    "title": "柳井市 児童扶養手当",
+    "organization": "柳井市",
+    "maxAmount": "限度額】（令和6年11月1日以降）扶養親族の数本人全部支給本人一部支給扶養義務者・配偶者・養育者0人690,000円",
+    "maxAmountNum": 690000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "柳井市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月2日 受付 （ふるさと納税等） 柳井 金魚ちょうちん やまぐち フラワーランド ＜外部リンク＞ ホーム くらしの情報 企業・事業者 観光情報 市政情報 検索 キーワード検索 Googleカスタム検索 検索対象 すべて ページ PD",
+    "officialUrl": "https://www.city-yanai.jp/soshiki/73/jido-fuyoteate.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "yamaguchi-official-002-067-2026",
+    "title": "柳井市 特別児童扶養手当等の支給",
+    "organization": "柳井市",
+    "maxAmount": "月額30,450円",
+    "maxAmountNum": 30450,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "柳井市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月2日 支給 - 柳井市ホームページ ページの先頭です",
+    "officialUrl": "https://www.city-yanai.jp/soshiki/73/teate-shikyu.html",
+    "sourceName": "特別児童扶養手当等の支給"
+  },
+  {
+    "slug": "yamaguchi-official-002-068-2026",
+    "title": "柳井市 ひとり親家庭医療費助成制度",
+    "organization": "柳井市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "柳井市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年12月2日 受付 （ふるさと納税等） 柳井 金魚ちょうちん やまぐち フラワーランド ＜外部リンク＞ ホーム くらしの情報 企業・事業者 観光情報 市政情報 検索 キーワード検索 Googleカスタム検索 検索対象 すべて ページ PD",
+    "officialUrl": "https://www.city-yanai.jp/soshiki/73/iryouhizyosei-hitorioya.html",
+    "sourceName": "ひとり親家庭医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-002-069-2026",
+    "title": "柳井市 子ども医療費助成制度",
+    "organization": "柳井市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "柳井市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年12月2日 受付 （ふるさと納税等） 柳井 金魚ちょうちん やまぐち フラワーランド ＜外部リンク＞ ホーム くらしの情報 企業・事業者 観光情報 市政情報 検索 キーワード検索 Googleカスタム検索 検索対象 すべて ページ PD",
+    "officialUrl": "https://www.city-yanai.jp/soshiki/73/iryohijoseiseido-kodomo.html",
+    "sourceName": "子ども医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-002-070-2026",
+    "title": "柳井市 乳幼児医療費助成制度",
+    "organization": "柳井市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "柳井市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年12月2日 受付 （ふるさと納税等） 柳井 金魚ちょうちん やまぐち フラワーランド ＜外部リンク＞ ホーム くらしの情報 企業・事業者 観光情報 市政情報 検索 キーワード検索 Googleカスタム検索 検索対象 すべて ページ PD",
+    "officialUrl": "https://www.city-yanai.jp/soshiki/73/iryohijoseiseido-nyuyoji.html",
+    "sourceName": "乳幼児医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-002-071-2026",
+    "title": "柳井市 妊婦歯科健康診査",
+    "organization": "柳井市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "柳井市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 受付 （ふるさと納税等） 柳井 金魚ちょうちん やまぐち フラワーランド ＜外部リンク＞ ホーム くらしの情報 企業・事業者 観光情報 市政情報 検索 キーワード検索 Googleカスタム検索 検索対象 すべて ページ PD",
+    "officialUrl": "https://www.city-yanai.jp/soshiki/73/ninpushikakenshin.html",
+    "sourceName": "妊婦歯科健康診査"
+  },
+  {
+    "slug": "yamaguchi-official-002-072-2026",
+    "title": "柳井市 妊婦健康診査",
+    "organization": "柳井市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "柳井市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 受付 （ふるさと納税等） 柳井 金魚ちょうちん やまぐち フラワーランド ＜外部リンク＞ ホーム くらしの情報 企業・事業者 観光情報 市政情報 検索 キーワード検索 Googleカスタム検索 検索対象 すべて ページ PD",
+    "officialUrl": "https://www.city-yanai.jp/soshiki/73/bkensin.html",
+    "sourceName": "妊婦健康診査"
+  },
+  {
+    "slug": "yamaguchi-official-002-073-2026",
+    "title": "柳井市 児童手当",
+    "organization": "柳井市",
+    "maxAmount": "月額児童手当支給月額（児童1人当たり）児童の年齢【児童手当】3歳未満第1子・第2子15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "柳井市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 受付 （ふるさと納税等） 柳井 金魚ちょうちん やまぐち フラワーランド ＜外部リンク＞ ホーム くらしの情報 企業・事業者 観光情報 市政情報 検索 キーワード検索 Googleカスタム検索 検索対象 すべて ページ PD",
+    "officialUrl": "https://www.city-yanai.jp/soshiki/73/jidouteate02.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "yamaguchi-official-002-074-2026",
+    "title": "柳井市 母子家庭等自立支援給付金",
+    "organization": "柳井市",
+    "maxAmount": "上限48月）支給額（1）高等職業訓練促進給付金・市民税課税世帯月額70,500円",
+    "maxAmountNum": 70500,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "柳井市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2022年4月1日 受付 （ふるさと納税等） 柳井 金魚ちょうちん やまぐち フラワーランド ＜外部リンク＞ ホーム くらしの情報 企業・事業者 観光情報 市政情報 検索 キーワード検索 Googleカスタム検索 検索対象 すべて ページ PD",
+    "officialUrl": "https://www.city-yanai.jp/soshiki/73/bosikateitoujiritusien.html",
+    "sourceName": "母子家庭等自立支援給付金"
+  },
+  {
+    "slug": "yamaguchi-official-002-075-2026",
+    "title": "柳井市 障がい者医療費助成",
+    "organization": "柳井市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "柳井市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年2月1日 受付 （ふるさと納税等） 柳井 金魚ちょうちん やまぐち フラワーランド ＜外部リンク＞ ホーム くらしの情報 企業・事業者 観光情報 市政情報 検索 キーワード検索 Googleカスタム検索 検索対象 すべて ページ PD",
+    "officialUrl": "https://www.city-yanai.jp/soshiki/20/ishogai-ryohijosei.html",
+    "sourceName": "障がい者医療費助成"
+  },
+  {
+    "slug": "yamaguchi-official-002-076-2026",
+    "title": "柳井市 不妊治療費・不育症検査費助成事業",
+    "organization": "柳井市",
+    "maxAmount": "助成額1年度あたり3万円",
+    "maxAmountNum": 30000,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "柳井市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 受付 （ふるさと納税等） 柳井 金魚ちょうちん やまぐち フラワーランド ＜外部リンク＞ ホーム くらしの情報 企業・事業者 観光情報 市政情報 検索 キーワード検索 Googleカスタム検索 検索対象 すべて ページ PD",
+    "officialUrl": "https://www.city-yanai.jp/soshiki/73/funin.html",
+    "sourceName": "不妊治療費・不育症検査費助成事業"
+  },
+  {
+    "slug": "yamaguchi-official-002-077-2026",
+    "title": "柳井市 ふるさと学生応援奨学金",
+    "organization": "柳井市",
+    "maxAmount": "月額30,000円",
+    "maxAmountNum": 30000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "柳井市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月6日 募集は終了しました - 柳井市ホームページ ページの先頭です",
+    "officialUrl": "https://www.city-yanai.jp/soshiki/68/shogakukin.html",
+    "sourceName": "ふるさと学生応援奨学金"
+  },
+  {
+    "slug": "yamaguchi-official-002-078-2026",
+    "title": "柳井市 退職金共済掛金助成制度",
+    "organization": "柳井市",
+    "maxAmount": "月額500円",
+    "maxAmountNum": 500,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "柳井市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年1月8日 受付 （ふるさと納税等） 柳井 金魚ちょうちん やまぐち フラワーランド ＜外部リンク＞ ホーム くらしの情報 企業・事業者 観光情報 市政情報 検索 キーワード検索 Googleカスタム検索 検索対象 すべて ページ PD",
+    "officialUrl": "https://www.city-yanai.jp/soshiki/15/chutaikyo.html",
+    "sourceName": "退職金共済掛金助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-002-079-2026",
+    "title": "柳井市 新築補助金",
+    "organization": "柳井市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "柳井市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月18日 申請時に、15歳以下の子は、名義人と同居し養育され、かつ本市の住基台帳に続柄が子と記録されていること",
+    "officialUrl": "https://www.city-yanai.jp/site/yanai-gurashi/kosodate-shinchiku-hojokin.html",
+    "sourceName": "新築補助金"
+  }
+];

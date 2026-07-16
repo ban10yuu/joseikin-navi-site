@@ -10909,3 +10909,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 21002、officialLinkedActive 20881、manuallyVerifiedActive 20881、山口県 localOfficial 176）
 - 到達点: 山口県は35201下関市から35206防府市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 山口県公式棚卸し002として、35207下松市から再開
+
+### 山口県公式棚卸し002（35207下松市・35208岩国市・35210光市・35211長門市・35212柳井市）
+- 実施日: 2026-07-17
+- 候補: 標準discoverは0件。公式カテゴリページ、公式sitemap本文再スコア、公式サイト内リンク、既存公式確認URL、本文スニペット再スコアから、公式HTML個別制度ページ・公式制度掲載ページ79本を採用
+- 採用: 79件（下松市19件、岩国市12件、光市9件、長門市21件、柳井市18件）
+- 公式URL: 採用URL到達確認は tasks/discovery/yamaguchi-official-coverage-002-url-status.txt に記録（79本すべてHTTP 200）
+- 保留: 標準discoverが0件のため、公式カテゴリと公式サイト内リンクを補完。shortlistが160件のため tasks/discovery/yamaguchi-official-coverage-002-rescored-candidates.json に本文スニペット付き候補を保存。下松市は自治会・医療・不妊・子育て・産業・防犯カテゴリ、岩国市は既存公式確認URLと創業・企業支援カテゴリ、光市は住宅・子育て・介護・融資助成カテゴリ、長門市はながと子育てナビ、柳井市は移住定住・手当助成・医療費助成・融資補助カテゴリを起点に確認。トップ、カテゴリ導線、共通ナビ、FAQ、申請書・PDF単体、広報・報告・相談・採用・外部制度のみ、本文根拠が薄い候補、同一制度の重複ページは第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 21081、officialLinkedActive 20960、manuallyVerifiedActive 20960、山口県 localOfficial 255）
+- 到達点: 山口県は35201下関市から35212柳井市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 山口県公式棚卸し003として、35213美祢市から再開
