@@ -1,0 +1,31 @@
+{
+  "prefecture": "徳島県",
+  "batch": "tokushima-official-coverage-002",
+  "municipalities": [
+    {
+      "code": "36206",
+      "name": "阿波市",
+      "url": "https://www.city.awa.lg.jp/"
+    },
+    {
+      "code": "36207",
+      "name": "美馬市",
+      "url": "https://www.city.mima.lg.jp/"
+    },
+    {
+      "code": "36208",
+      "name": "三好市",
+      "url": "https://www.miyoshi.i-tokushima.jp/"
+    },
+    {
+      "code": "36301",
+      "name": "勝浦町",
+      "url": "https://www.town.katsuura.lg.jp/"
+    },
+    {
+      "code": "36302",
+      "name": "上勝町",
+      "url": "https://www.kamikatsu.jp/"
+    }
+  ]
+}

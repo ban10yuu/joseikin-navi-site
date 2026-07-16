@@ -10949,3 +10949,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 21270、officialLinkedActive 21149、manuallyVerifiedActive 21149、徳島県 localOfficial 122）
 - 到達点: 徳島県は36201徳島市から36205吉野川市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 徳島県公式棚卸し002として、36206阿波市から再開
+
+### 徳島県公式棚卸し002（36206阿波市・36207美馬市・36208三好市・36301勝浦町・36302上勝町）
+- 実施日: 2026-07-17
+- 候補: 標準discoverは0件。公式トップ到達、Joruri sitemap、Shirasagi系公式検索、公式カテゴリリンク、本文スニペット再スコアから2600件を抽出し、公式HTML個別制度ページ80本を採用
+- 採用: 80件（阿波市20件、美馬市20件、三好市10件、勝浦町18件、上勝町12件）
+- 公式URL: 採用URL到達確認は tasks/discovery/tokushima-official-coverage-002-url-status.txt に記録（80本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、RSS、申請書・PDF単体、古い臨時給付、制度改正の重複ページ、報告・計画・実績、相談・イベント・外部団体制度のみの候補は第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、audit:coverage すべてpass（failures 0、activePublished 21350、officialLinkedActive 21229、manuallyVerifiedActive 21229、徳島県 localOfficial 202）
+- 15自治体単位メトリクス: 徳島県001-002の10自治体時点で155制度、監査2回、commit予定2回、shortlist採用率は80/2600（標準discover 0件のため公式本文再スコア母数比）。15自治体到達時に自治体/時・制度/時を確定記録する
+- 到達点: 徳島県は36201徳島市から36302上勝町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 徳島県公式棚卸し003として、36321佐那河内村から再開
