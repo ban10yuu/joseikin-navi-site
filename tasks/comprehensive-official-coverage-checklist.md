@@ -10829,3 +10829,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 20326、officialLinkedActive 20205、manuallyVerifiedActive 20205、岡山県 localOfficial 451）
 - 到達点: 岡山県は33100岡山市から33586新庄村まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 岡山県公式棚卸し005として、33606鏡野町から再開
+
+### 岡山県公式棚卸し005（33606鏡野町・33622勝央町・33623奈義町・33643西粟倉村・33663久米南町）
+- 実施日: 2026-07-17
+- 候補: 標準discoverは0件。公式sitemap、公式カテゴリ、公式制度一覧ページ、公式子育て支援サイト、公式移住定住ページ、公式WordPress記事、本文スニペット再スコアから、公式HTML個別制度ページ・公式制度掲載ページ98本を採用
+- 採用: 98件（鏡野町22件、勝央町15件、奈義町19件、西粟倉村18件、久米南町24件）
+- 公式URL: 採用URL到達確認は tasks/discovery/okayama-official-coverage-005-url-status.txt に記録（98本すべてHTTP 200）
+- 保留: 標準discoverが0件のため、公式カテゴリ、公式制度一覧、公式子育て支援サイト、公式移住支援サイト、公式WordPressカテゴリを補完。shortlistが150件超のため tasks/discovery/okayama-official-coverage-005-category-links.json に本文スニペット付きリードを保存し、トップ、カテゴリ導線、共通ナビ、申請書・様式単体、PDF単体、計画・相談・採用・外部制度のみ、本文根拠が薄い候補、同一制度の重複ページは第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 20424、officialLinkedActive 20303、manuallyVerifiedActive 20303、岡山県 localOfficial 549）
+- 到達点: 岡山県は33100岡山市から33663久米南町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 岡山県公式棚卸し006として、33666美咲町から再開
