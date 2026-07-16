@@ -10666,3 +10666,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18932、officialLinkedActive 18811、manuallyVerifiedActive 18811、和歌山県 localOfficial 170）
 - 到達点: 和歌山県は30201和歌山市から30304紀美野町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 和歌山県公式棚卸し003として、30341かつらぎ町から再開
+
+### 和歌山県公式棚卸し003（30341かつらぎ町・30343九度山町・30344高野町・30361湯浅町・30362広川町）
+- 実施日: 2026-07-16
+- 候補: 1436件（九度山町公式URLを https://www.town.kudoyama.lg.jp/ に正規化後、公式サイト内リンクリードを展開し、個別公式HTMLページ中心に94本を採用）
+- 採用: 94件（かつらぎ町15件、九度山町25件、高野町14件、湯浅町15件、広川町25件）
+- 公式URL: 採用URL到達確認は tasks/discovery/wakayama-official-coverage-003-url-status.txt に記録（94本すべてHTTP 200）
+- 保留: 通常候補に加え公式サイト内リンクを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、広報、申請書・様式・請求書・CSV・Word/Excel添付単体、寄附・観光、職員募集、プロポーザル、本文根拠が薄い候補は第2巡候補として保持。かつらぎ町・高野町は通常候補がカテゴリや添付ファイルへ寄ったため、カテゴリ内公式個別制度リンクを補完して採用
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19026、officialLinkedActive 18905、manuallyVerifiedActive 18905、和歌山県 localOfficial 264）
+- 到達点: 和歌山県は30201和歌山市から30362広川町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 和歌山県公式棚卸し004として、30366有田川町から再開

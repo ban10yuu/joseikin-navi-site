@@ -1,0 +1,36 @@
+{
+  "batchId": "wakayama-official-coverage-003",
+  "prefecture": "和歌山県",
+  "municipalities": [
+    {
+      "code": "30341",
+      "name": "かつらぎ町",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.town.katsuragi.wakayama.jp/"
+    },
+    {
+      "code": "30343",
+      "name": "九度山町",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.town.kudoyama.lg.jp/"
+    },
+    {
+      "code": "30344",
+      "name": "高野町",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.town.koya.wakayama.jp/"
+    },
+    {
+      "code": "30361",
+      "name": "湯浅町",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.town.yuasa.wakayama.jp/"
+    },
+    {
+      "code": "30362",
+      "name": "広川町",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.town.hirogawa.wakayama.jp/"
+    }
+  ]
+}
