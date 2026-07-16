@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-16T22:45:00+09:00",
+  "updatedAt": "2026-07-17T00:15:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "hyogo-official-coverage-004",
-    "municipality": "高砂市・川西市・小野市・三田市・加西市",
-    "adopted": 62,
+    "code": "hyogo-official-coverage-005",
+    "municipality": "丹波篠山市・養父市・丹波市・南あわじ市・朝来市",
+    "adopted": 69,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 62,
+    "sourceUrlsChecked": 69,
     "validation": {
-      "previousMunicipality": "兵庫県公式棚卸し004として28216高砂市・28217川西市・28218小野市・28219三田市・28220加西市を確認し62件を採用。全国公式棚卸しは未完了。",
+      "previousMunicipality": "兵庫県公式棚卸し005として28221丹波篠山市・28222養父市・28223丹波市・28224南あわじ市・28225朝来市を確認し69件を採用。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for hyogo-official-coverage-004 JSON files",
-      "addedSlugUniqueness": "pass: 62 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 62 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for hyogo-official-coverage-005 JSON files",
+      "addedSlugUniqueness": "pass: 69 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 69 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 17925, officialLinkedActive 17805, manuallyVerifiedActive 17805, 兵庫県 localOfficial 413)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 17994, officialLinkedActive 17874, manuallyVerifiedActive 17874, 兵庫県 localOfficial 482)"
     }
   },
   "next": {
-    "code": "hyogo-official-coverage-005",
-    "municipality": "丹波篠山市",
-    "shortlist": "兵庫県004は高砂市11件、川西市18件、小野市2件、三田市12件、加西市19件を採用した。小野市は公式補助金・助成金一覧とサイトマップを補完したが、個別制度ページが少ないため公式本文を確認できた2件に絞った。カテゴリ見出し、空き家バンク導線、相談・協定・担当課のみのページは除外した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、兵庫県公式棚卸し005として28221丹波篠山市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "hyogo-official-coverage-006",
+    "municipality": "淡路市",
+    "shortlist": "兵庫県005は丹波篠山市15件、養父市15件、丹波市15件、南あわじ市20件、朝来市4件を採用した。丹波篠山市・養父市・丹波市は通常クロールで個別制度ページの拾い漏れがあったため公式サイトマップを補完し、南あわじ市・朝来市は公式候補本文から個別制度ページを抽出した。カテゴリ、トップ、計画・会議、プロポーザル、相談・担当課のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、兵庫県公式棚卸し006として28226淡路市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "兵庫県",
     "status": "in-progress-first-pass",
-    "lastBatch": "hyogo-official-coverage-004",
-    "notes": "兵庫県公式棚卸し004で高砂市・川西市・小野市・三田市・加西市を確認し、62件を新規採用した。兵庫県は28100神戸市から28220加西市まで第1巡到達。次は28221丹波篠山市から再開する。"
+    "lastBatch": "hyogo-official-coverage-005",
+    "notes": "兵庫県公式棚卸し005で丹波篠山市・養父市・丹波市・南あわじ市・朝来市を確認し、69件を新規採用した。兵庫県は28100神戸市から28225朝来市まで第1巡到達。次は28226淡路市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

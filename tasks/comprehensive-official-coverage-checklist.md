@@ -10525,3 +10525,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17925、officialLinkedActive 17805、manuallyVerifiedActive 17805、兵庫県 localOfficial 413）
 - 到達点: 兵庫県は28100神戸市から28220加西市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 兵庫県公式棚卸し005として、28221丹波篠山市から再開
+
+### 兵庫県公式棚卸し005（28221丹波篠山市・28222養父市・28223丹波市・28224南あわじ市・28225朝来市）
+- 実施日: 2026-07-17
+- 候補: 844件（公式サイトマップ補完リンクリード4717件、本文再スコア対象3689件、採用URL69本）
+- 採用: 69件（丹波篠山市15件、養父市15件、丹波市15件、南あわじ市20件、朝来市4件）
+- 公式URL: 採用URL到達確認は tasks/discovery/hyogo-official-coverage-005-url-status.txt に記録（69本すべてHTTP 200）
+- 保留: shortlistが150件超のため、公式候補ページ本文と同一ドメイン内リンクに加え、丹波篠山市・養父市・丹波市は公式サイトマップを補完して再スコアリング。トップ、カテゴリ導線、共通ナビ、計画・会議、プロポーザル、相談・担当課のみ、外部制度紹介のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。朝来市は通常候補の個別制度ページが少なかったため、公式本文で対象・金額・申請表現を確認できた4件に絞った
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17994、officialLinkedActive 17874、manuallyVerifiedActive 17874、兵庫県 localOfficial 482）
+- 到達点: 兵庫県は28100神戸市から28225朝来市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 兵庫県公式棚卸し006として、28226淡路市から再開

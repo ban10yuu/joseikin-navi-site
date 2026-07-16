@@ -1,0 +1,37 @@
+{
+  "batchId": "hyogo-official-coverage-005",
+  "prefecture": "兵庫県",
+  "createdAt": "2026-07-16T23:45:00+09:00",
+  "municipalities": [
+    {
+      "code": "28221",
+      "name": "丹波篠山市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.tambasasayama.lg.jp/"
+    },
+    {
+      "code": "28222",
+      "name": "養父市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.yabu.hyogo.jp/"
+    },
+    {
+      "code": "28223",
+      "name": "丹波市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.tamba.lg.jp/"
+    },
+    {
+      "code": "28224",
+      "name": "南あわじ市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.minamiawaji.hyogo.jp/"
+    },
+    {
+      "code": "28225",
+      "name": "朝来市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.asago.hyogo.jp/"
+    }
+  ]
+}
