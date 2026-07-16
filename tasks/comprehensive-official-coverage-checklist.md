@@ -10777,3 +10777,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19892、officialLinkedActive 19771、manuallyVerifiedActive 19771、島根県 localOfficial 332）
 - 到達点: 島根県は32201松江市から32505吉賀町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 島根県公式棚卸し004として、32525海士町から再開
+
+### 島根県公式棚卸し004（32525海士町・32526西ノ島町・32527知夫村・32528隠岐の島町）
+- 実施日: 2026-07-17
+- 候補: 通常discoverは0件。公式sitemap、公式助成一覧、公式カテゴリページ、公式検索結果から制度語リンクを補完し、公式HTML個別制度ページ・公式PDF・公式条例・公式制度掲載ページ60本を採用
+- 採用: 60件（海士町14件、西ノ島町11件、知夫村8件、隠岐の島町27件）
+- 公式URL: 採用URL到達確認は tasks/discovery/shimane-official-coverage-004-url-status.txt に記録（52本HTTP 200、知夫村8本は公式ドメインのローカルTLS SNIエラーによりfetch failed。検索インデックス上の公式本文で制度名・対象・支援内容を確認し、継続確認対象として記録）
+- 保留: トップ、カテゴリ導線、共通ナビ、申請書単体、外部まとめ、本文根拠が薄い候補、過年度終了のみの候補は第2巡候補として保持。知夫村は公式HTML個別ページがローカルfetch不可のため、公式URLと検索インデックス本文を採用根拠にし、次巡で再到達確認する
+- 検証: node --check、JSON.parse、slug重複、eslint、git diff --check、audit:coverage はpass。URL到達は52本HTTP 200・知夫村8本fetch failedの例外あり（failures 0、activePublished 19952、officialLinkedActive 19831、manuallyVerifiedActive 19831、島根県 localOfficial 392）
+- 到達点: 島根県は32201松江市から32528隠岐の島町まで第1巡完了。全国公式棚卸しは未完了
+- 次回: 岡山県公式棚卸し001として、33100岡山市から再開

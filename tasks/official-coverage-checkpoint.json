@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-17T02:50:00+09:00",
+  "updatedAt": "2026-07-17T03:12:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "shimane-official-coverage-003",
-    "municipality": "川本町・美郷町・邑南町・津和野町・吉賀町",
-    "adopted": 81,
+    "code": "shimane-official-coverage-004",
+    "municipality": "海士町・西ノ島町・知夫村・隠岐の島町",
+    "adopted": 60,
     "held": 0,
-    "excluded": 358,
-    "sourceUrlsChecked": 81,
+    "excluded": 0,
+    "sourceUrlsChecked": 60,
     "validation": {
-      "previousMunicipality": "島根県公式棚卸し003として32441川本町・32448美郷町・32449邑南町・32501津和野町・32505吉賀町を確認し81件を採用。全国公式棚卸しは未完了。",
+      "previousMunicipality": "島根県公式棚卸し004として32525海士町・32526西ノ島町・32527知夫村・32528隠岐の島町を確認し60件を採用。島根県第1巡は完了。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for shimane-official-coverage-003 JSON files",
-      "addedSlugUniqueness": "pass: 81 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 81 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for shimane-official-coverage-004 JSON files",
+      "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "partial: 52 adopted official URLs returned HTTP 200 by check-grant-source-urls; 知夫村8件は公式ドメインのローカルTLS SNIエラーでfetch failed、検索インデックス上の公式本文で制度名・対象・支援内容を確認し継続確認対象として記録",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 19892、officialLinkedActive 19771、manuallyVerifiedActive 19771、島根県 localOfficial 332)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 19952、officialLinkedActive 19831、manuallyVerifiedActive 19831、島根県 localOfficial 392)"
     }
   },
   "next": {
-    "code": "shimane-official-coverage-004",
-    "municipality": "海士町",
-    "shortlist": "島根県003は通常候補439件、公式サイト内リンクリード2033件、ユニークリード486件を展開し、本文スニペットと制度強語、金額・対象・申請表現で再スコアリング。カテゴリ導線・共通ナビ・PDF単体・申請書単体・過年度臨時給付金・重複・本文根拠が薄い候補を除き、公式HTML個別制度ページ・公式条例・公式制度掲載ページ81本へ絞った。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、島根県公式棚卸し004として32525海士町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "okayama-official-coverage-001",
+    "municipality": "岡山市",
+    "shortlist": "島根県004は通常discoverが0件だったため、公式sitemap、公式助成一覧、公式カテゴリページ、公式検索結果で制度語リンクを補完し、公式HTML個別制度ページ・公式PDF・公式条例・公式制度掲載ページ60本へ絞った。知夫村公式ドメインはローカルTLS SNIエラーのため検索インデックス上の公式本文を根拠として継続確認対象にした。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、岡山県公式棚卸し001として33100岡山市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "島根県",
-    "status": "in-progress-first-pass",
-    "lastBatch": "shimane-official-coverage-003",
-    "notes": "島根県公式棚卸し003で32441川本町・32448美郷町・32449邑南町・32501津和野町・32505吉賀町を確認し、81件を新規採用。次は32525海士町から再開する。"
+    "status": "first-pass-complete",
+    "lastBatch": "shimane-official-coverage-004",
+    "notes": "島根県公式棚卸し004で32525海士町・32526西ノ島町・32527知夫村・32528隠岐の島町を確認し、60件を新規採用。島根県第1巡は完了。次は岡山県33100岡山市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
