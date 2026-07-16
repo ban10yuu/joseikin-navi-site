@@ -235,21 +235,6 @@ export default function HomePage() {
                   url: toSiteUrl(`/support-type/${supportType}/`),
                 }))),
               },
-              {
-                '@type': 'FAQPage',
-                mainEntity: [
-                  {
-                    '@type': 'Question',
-                    name: '助成金ナビだけで対象可否は確定しますか？',
-                    acceptedAnswer: { '@type': 'Answer', text: '確定しません。掲載情報は候補を探すための整理情報です。申請前に必ず公式募集要項と担当窓口で最新条件を確認してください。' },
-                  },
-                  {
-                    '@type': 'Question',
-                    name: '補助金・助成金・給付金を地域で検索できますか？',
-                    acceptedAnswer: { '@type': 'Answer', text: '都道府県、市区町村、対象者、目的、制度種別などの条件で検索できます。全国対象の制度もあわせて確認できます。' },
-                  },
-                ],
-              },
             ],
           }),
         }}

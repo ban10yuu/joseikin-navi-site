@@ -18,6 +18,7 @@ reports/lighthouse-*.json
 /.cache/
 /tasks/discovery/*-candidates.json
 /tasks/discovery/*-url-validation.json
+/artifacts/
 
 # next.js
 /.next/

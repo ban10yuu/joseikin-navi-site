@@ -7,7 +7,7 @@ export function GrantJsonLd({ grant }: { grant: Grant }) {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: `${grant.title} ${grant.maxAmount}`,
+    headline: grant.title,
     description: grant.description,
     ...(siteConfig.operatorName ? {
       author: { '@type': 'Organization', name: siteConfig.operatorName },
