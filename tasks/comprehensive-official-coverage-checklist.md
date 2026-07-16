@@ -10555,3 +10555,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18174、officialLinkedActive 18053、manuallyVerifiedActive 18053、兵庫県 localOfficial 661）
 - 到達点: 兵庫県は28100神戸市から28443福崎町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 兵庫県公式棚卸し008として、28446神河町から再開
+
+### 兵庫県公式棚卸し008（28446神河町・28464太子町・28481上郡町・28501佐用町・28585香美町）
+- 実施日: 2026-07-16
+- 候補: 418件（公式サイトマップ補完リンクリード739件、本文再スコア採択候補753件、採用URL60本）
+- 採用: 60件（神河町18件、太子町7件、上郡町1件、佐用町4件、香美町30件）
+- 公式URL: 採用URL到達確認は tasks/discovery/hyogo-official-coverage-008-url-status.txt に記録（60本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイトマップを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、広報、計画・会議、物件・体験談、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。香美町は公式個別手続きページで制度名・申請書・受付導線を確認できるものを採用
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18234、officialLinkedActive 18113、manuallyVerifiedActive 18113、兵庫県 localOfficial 721）
+- 到達点: 兵庫県は28100神戸市から28585香美町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 兵庫県公式棚卸し009として、28586新温泉町から再開
