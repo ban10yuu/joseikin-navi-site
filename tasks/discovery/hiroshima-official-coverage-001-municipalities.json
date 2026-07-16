@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-07-17T05:45:00+09:00",
+  "batch": "hiroshima-official-coverage-001",
+  "prefecture": "広島県",
+  "municipalities": [
+    {
+      "code": "34100",
+      "name": "広島市",
+      "officialUrl": "https://www.city.hiroshima.lg.jp/"
+    },
+    {
+      "code": "34202",
+      "name": "呉市",
+      "officialUrl": "https://www.city.kure.lg.jp/"
+    },
+    {
+      "code": "34203",
+      "name": "竹原市",
+      "officialUrl": "https://www.city.takehara.lg.jp/"
+    },
+    {
+      "code": "34204",
+      "name": "三原市",
+      "officialUrl": "https://www.city.mihara.hiroshima.jp/"
+    },
+    {
+      "code": "34205",
+      "name": "尾道市",
+      "officialUrl": "https://www.city.onomichi.hiroshima.jp/"
+    }
+  ]
+}
