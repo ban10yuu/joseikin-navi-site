@@ -1,0 +1,1252 @@
+{
+  "batchId": "tottori-official-coverage-003-31389",
+  "prefecture": "鳥取県",
+  "generatedAt": "2026-07-16T16:23:27.246Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 40,
+  "results": [
+    {
+      "code": "31389",
+      "name": "南部町",
+      "prefecture": "鳥取県",
+      "officialBaseUrl": "https://www.town.nanbu.tottori.jp/",
+      "discoveredUrlCount": 80,
+      "candidateCount": 40,
+      "strongCandidateCount": 10,
+      "lowPriorityCandidateCount": 30,
+      "candidates": [
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/pdf/",
+          "status": 200,
+          "title": "各種申請用紙のダウンロード",
+          "h1": "各種申請用紙のダウンロード",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金",
+            "住宅",
+            "事業者"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/benri_menu/bus1/",
+          "status": 200,
+          "title": "南部町営ふれあいバス",
+          "h1": "南部町営ふれあいバス",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "通学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/4/",
+          "status": 200,
+          "title": "くらしの情報",
+          "h1": "くらしの情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金",
+            "医療費助成",
+            "移住",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/3/1/",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/3/2/",
+          "status": 200,
+          "title": "家族",
+          "h1": "家族",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/3/3/",
+          "status": 200,
+          "title": "引越し",
+          "h1": "引越し",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/4/1/",
+          "status": 200,
+          "title": "医療／健康／福祉",
+          "h1": "医療／健康／福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/4/3/",
+          "status": 200,
+          "title": "税金／保険／年金",
+          "h1": "税金／保険／年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/4/8/",
+          "status": 200,
+          "title": "移住／定住／雇用",
+          "h1": "移住／定住／雇用",
+          "updatedAt": "",
+          "keywordHits": [
+            "奨励金",
+            "貸付",
+            "移住",
+            "住宅"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/benri_menu/denwa/",
+          "status": 200,
+          "title": "南部町役場電話帳",
+          "h1": "南部町役場電話帳",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/8/1/",
+          "status": 200,
+          "title": "各課一覧表",
+          "h1": "各課一覧表",
+          "updatedAt": "令和7年4月1日",
+          "keywordHits": [
+            "減免",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学",
+            "耐震",
+            "予防接種",
+            "不妊",
+            "妊婦",
+            "通学"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/soumuka/23/",
+          "status": 200,
+          "title": "南部町がんばれふるさと寄付",
+          "h1": "南部町がんばれふるさと寄付",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/kosodateshienka/category/facilities/x106/p343/",
+          "status": 200,
+          "title": "かきっこ保育園の工事進捗状況",
+          "h1": "かきっこ保育園の工事進捗状況",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/new/",
+          "status": 200,
+          "title": "新着情報",
+          "h1": "新着情報",
+          "updatedAt": "令和6年10月29日",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "住宅",
+            "空き家",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/cgi-bin/event.cgi?url=/schedule/calendar/year/1/",
+          "status": 200,
+          "title": "南部町カレンダー",
+          "h1": "南部町カレンダー",
+          "updatedAt": "",
+          "keywordHits": [
+            "起業",
+            "福祉",
+            "妊婦"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/kosodateshienka/",
+          "status": 200,
+          "title": "鳥取県南部町 子育て支援サイト",
+          "h1": "鳥取県南部町 子育て支援サイト",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "給付金",
+            "農業",
+            "子育て",
+            "奨学金",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/digital/tenohira/",
+          "status": 200,
+          "title": "テノヒラ役場～スマホの中の役場窓口～",
+          "h1": "テノヒラ役場～スマホの中の役場窓口～",
+          "updatedAt": "令和7年4月1日",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/digital/a154/",
+          "status": 200,
+          "title": "地図でわかる、暮らしに役立つ「とっとりジオマップ」公開！",
+          "h1": "地図でわかる、暮らしに役立つ「とっとりジオマップ」公開！",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/4/2/bousai/jishin/",
+          "status": 200,
+          "title": "地震に備えて",
+          "h1": "地震に備えて",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/satoyama/iju/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "奨励金",
+            "移住",
+            "住宅",
+            "林業",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/benri_menu/01/",
+          "status": 200,
+          "title": "土・日・祝日、時間外の体制",
+          "h1": "土・日・祝日、時間外の体制",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/admin/sitemap/",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "貸付",
+            "減免",
+            "医療費助成",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "起業",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種",
+            "通学"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/system/site/upload/live/499/atc_1192121113.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/21/f2/21f24f69-fefe-4ff5-98c0-4436995ccdcf/01shui-dao-shi-yong-zhong-zhi-bian-geng-jie-chu-shu.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/79/c7/79c77e7d-e687-44e6-b212-1687f0c9fd9b/shinsei.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/4b/a0/4ba08ef6-0d00-44d3-ab11-b74917109c0b/seikyu.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/e1/a4/e1a440d2-5bd4-4c91-9c87-ce477463285d/jidou_club_shinsei.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/da/c0/dac0cd44-7aff-45b5-8f07-cb37fc4d7374/shuurou_shoumei.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/bb/a4/bba4948d-e48e-498d-82b6-dae91035b56c/r6syuroujyoukyou_moushitate.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/7a/36/7a367d50-90ed-49dd-a88e-6502a79303ef/you-song-shen-qing-hu-ji-r4hpyong.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/b0/6a/b06a371e-e999-406e-bd5f-51f929506f5c/zhu-min-piao-you-song-jiao-fu-shen-qing-shu.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/57/fa/57fa1f5b-bb1e-476a-8bd1-c73c5bc2e724/zhuan-chu-zheng-ming-shu-noyou-song-qing-qiu-r3.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/de/aa/deaa9ed1-5d0b-4f60-89a6-6d901d37cf4d/ininjo2023.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/4d/12/4d120e28-8237-4750-9bdc-3bf8ed26d739/zhai-quan-zhe-deng-lu-shen-qing-shu-ge-ren-yong.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/4e/f7/4ef7e3a5-a11a-4a26-9060-e78618458f76/zhai-quan-zhe-deng-lu-shen-qing-shu-shi-ye-zhe-yong.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/14/bc/14bc1997-7787-42af-8213-f4682dcf16cf/zhai-quan-zhe-deng-lu-bian-geng-shen-qing-shu.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/18/88/18880486-153a-471f-af62-0938fc88bf8d/zhai-quan-zhe-deng-lu-shen-qing-shu-wei-ren-zhuang.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/74/c9/74c9e6c4-0cc5-4263-aa34-04096ee8ec89/zei_madoguchi.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31389",
+          "municipalityName": "南部町",
+          "sourceUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/7a/72/7a72c0a9-c993-4623-96e5-56238506385a/zei_madoguchi.xls",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 5,
+          "candidatePriority": "strong",
+          "contentType": "application/vnd.ms-excel",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.nanbu.tottori.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/pdf/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/pdf/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/benri_menu/bus1/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/benri_menu/bus1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/chosei/contract/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/chosei/contract/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/book/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/book/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/4/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/4/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/3/1/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/3/1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/3/2/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/3/2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/3/3/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/3/3/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/3/4/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/3/4/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/4/1/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/4/1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/4/2/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/4/2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/4/3/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/4/3/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/4/4/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/4/4/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/4/5/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/4/5/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/4/6/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/4/6/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/4/8/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/4/8/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/benri_menu/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/benri_menu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/benri_menu/denwa/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/benri_menu/denwa/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/chosei/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/chosei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/chosei/about/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/chosei/about/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/chosei/guidance/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/chosei/guidance/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/chosei/w120/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/chosei/w120/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/8/1/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/8/1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/soumuka/23/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/soumuka/23/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/soumuka/koho/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/soumuka/koho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/gikai/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/gikai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/mirai/q152/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/mirai/q152/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/sanngyouka/e642/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/sanngyouka/e642/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/kosodateshienka/category/facilities/x106/p343/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/kosodateshienka/category/facilities/x106/p343/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/mirai/z845/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/mirai/z845/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/mirai/a250/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/mirai/a250/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/sanngyouka/q955/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/sanngyouka/q955/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/new/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/new/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/schedule/event/1744/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/cgi-bin/event.cgi?url=/schedule/event/1744/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/schedule/event/1803/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/cgi-bin/event.cgi?url=/schedule/event/1803/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/schedule/event/1804/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/cgi-bin/event.cgi?url=/schedule/event/1804/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/schedule/event/1805/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/cgi-bin/event.cgi?url=/schedule/event/1805/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/schedule/event/1726/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/cgi-bin/event.cgi?url=/schedule/event/1726/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/schedule/calendar/year/1/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/cgi-bin/event.cgi?url=/schedule/calendar/year/1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/benri_menu/event/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/benri_menu/event/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/kosodateshienka/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/kosodateshienka/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/kenkou/kenkou/service/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/kenkou/kenkou/service/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/digital/tenohira/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/digital/tenohira/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/digital/a154/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/digital/a154/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/4/2/bousai/jishin/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/4/2/bousai/jishin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/4/2/bousai/jishin/mochidashibukuro/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/4/2/bousai/jishin/mochidashibukuro/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/chouminseikatsuka/gomi1/g141/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/chouminseikatsuka/gomi1/g141/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/satoyama/iju/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/satoyama/iju/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/mirai/11/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/mirai/11/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/kenkou/e105/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/kenkou/e105/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/soumuka/r105/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/soumuka/r105/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/ikimono/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/ikimono/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/akaiiwa/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/akaiiwa/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/8/w634/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/8/w634/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/benri_menu/01/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/benri_menu/01/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/reiki/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/reiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/site/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/site/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/pp/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/pp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/admin/sitemap/",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/admin/sitemap/",
+          "ok": true
+        },
+        {
+          "url": "http://www.town.nanbu.tottori.jp/system/site/upload/live/499/atc_1192121113.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/system/site/upload/live/499/atc_1192121113.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/21/f2/21f24f69-fefe-4ff5-98c0-4436995ccdcf/01shui-dao-shi-yong-zhong-zhi-bian-geng-jie-chu-shu.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/21/f2/21f24f69-fefe-4ff5-98c0-4436995ccdcf/01shui-dao-shi-yong-zhong-zhi-bian-geng-jie-chu-shu.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/79/c7/79c77e7d-e687-44e6-b212-1687f0c9fd9b/shinsei.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/79/c7/79c77e7d-e687-44e6-b212-1687f0c9fd9b/shinsei.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/4b/a0/4ba08ef6-0d00-44d3-ab11-b74917109c0b/seikyu.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/4b/a0/4ba08ef6-0d00-44d3-ab11-b74917109c0b/seikyu.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/e1/a4/e1a440d2-5bd4-4c91-9c87-ce477463285d/jidou_club_shinsei.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/e1/a4/e1a440d2-5bd4-4c91-9c87-ce477463285d/jidou_club_shinsei.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/da/c0/dac0cd44-7aff-45b5-8f07-cb37fc4d7374/shuurou_shoumei.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/da/c0/dac0cd44-7aff-45b5-8f07-cb37fc4d7374/shuurou_shoumei.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/bb/a4/bba4948d-e48e-498d-82b6-dae91035b56c/r6syuroujyoukyou_moushitate.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/bb/a4/bba4948d-e48e-498d-82b6-dae91035b56c/r6syuroujyoukyou_moushitate.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/7a/36/7a367d50-90ed-49dd-a88e-6502a79303ef/you-song-shen-qing-hu-ji-r4hpyong.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/7a/36/7a367d50-90ed-49dd-a88e-6502a79303ef/you-song-shen-qing-hu-ji-r4hpyong.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/b0/6a/b06a371e-e999-406e-bd5f-51f929506f5c/zhu-min-piao-you-song-jiao-fu-shen-qing-shu.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/b0/6a/b06a371e-e999-406e-bd5f-51f929506f5c/zhu-min-piao-you-song-jiao-fu-shen-qing-shu.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/57/fa/57fa1f5b-bb1e-476a-8bd1-c73c5bc2e724/zhuan-chu-zheng-ming-shu-noyou-song-qing-qiu-r3.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/57/fa/57fa1f5b-bb1e-476a-8bd1-c73c5bc2e724/zhuan-chu-zheng-ming-shu-noyou-song-qing-qiu-r3.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/de/aa/deaa9ed1-5d0b-4f60-89a6-6d901d37cf4d/ininjo2023.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/de/aa/deaa9ed1-5d0b-4f60-89a6-6d901d37cf4d/ininjo2023.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/4d/12/4d120e28-8237-4750-9bdc-3bf8ed26d739/zhai-quan-zhe-deng-lu-shen-qing-shu-ge-ren-yong.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/4d/12/4d120e28-8237-4750-9bdc-3bf8ed26d739/zhai-quan-zhe-deng-lu-shen-qing-shu-ge-ren-yong.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/4e/f7/4ef7e3a5-a11a-4a26-9060-e78618458f76/zhai-quan-zhe-deng-lu-shen-qing-shu-shi-ye-zhe-yong.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/4e/f7/4ef7e3a5-a11a-4a26-9060-e78618458f76/zhai-quan-zhe-deng-lu-shen-qing-shu-shi-ye-zhe-yong.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/14/bc/14bc1997-7787-42af-8213-f4682dcf16cf/zhai-quan-zhe-deng-lu-bian-geng-shen-qing-shu.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/14/bc/14bc1997-7787-42af-8213-f4682dcf16cf/zhai-quan-zhe-deng-lu-bian-geng-shen-qing-shu.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/18/88/18880486-153a-471f-af62-0938fc88bf8d/zhai-quan-zhe-deng-lu-shen-qing-shu-wei-ren-zhuang.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/18/88/18880486-153a-471f-af62-0938fc88bf8d/zhai-quan-zhe-deng-lu-shen-qing-shu-wei-ren-zhuang.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/74/c9/74c9e6c4-0cc5-4263-aa34-04096ee8ec89/zei_madoguchi.pdf",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/74/c9/74c9e6c4-0cc5-4263-aa34-04096ee8ec89/zei_madoguchi.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.nanbu.tottori.jp/user/filer_public/7a/72/7a72c0a9-c993-4623-96e5-56238506385a/zei_madoguchi.xls",
+          "status": 200,
+          "finalUrl": "https://www.town.nanbu.tottori.jp/user/filer_public/7a/72/7a72c0a9-c993-4623-96e5-56238506385a/zei_madoguchi.xls",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

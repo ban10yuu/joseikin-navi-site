@@ -10726,3 +10726,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19481、officialLinkedActive 19360、manuallyVerifiedActive 19360、鳥取県 localOfficial 273）
 - 到達点: 鳥取県は31201鳥取市から31370湯梨浜町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 鳥取県公式棚卸し003として、31371琴浦町から再開
+
+### 鳥取県公式棚卸し003（31371琴浦町・31372北栄町・31384日吉津村・31386大山町・31389南部町）
+- 実施日: 2026-07-17
+- 候補: 472件（公式サイト内リンクリード1159件、本文再スコア候補1002件、個別公式ページ100本を採用）
+- 採用: 100件（琴浦町20件、北栄町20件、日吉津村20件、大山町20件、南部町20件）
+- 公式URL: 採用URL到達確認は tasks/discovery/tottori-official-coverage-003-url-status.txt に記録（100本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、PDF単体、申請書単体、受付終了のみ、職員手当規則、町が交付を受けた報告、同内容の重複ページ、本文根拠が薄い候補は第2巡候補として保持。南部町は同内容の高校生通学費助成ページを代表URLに整理し、次点の個別制度ページを補完して採用
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19581、officialLinkedActive 19460、manuallyVerifiedActive 19460、鳥取県 localOfficial 373）
+- 到達点: 鳥取県は31201鳥取市から31389南部町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 鳥取県公式棚卸し004として、31390伯耆町から再開
