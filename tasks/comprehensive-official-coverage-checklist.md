@@ -10565,3 +10565,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18234、officialLinkedActive 18113、manuallyVerifiedActive 18113、兵庫県 localOfficial 721）
 - 到達点: 兵庫県は28100神戸市から28585香美町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 兵庫県公式棚卸し009として、28586新温泉町から再開
+
+### 兵庫県・奈良県公式棚卸し009（28586新温泉町・29201奈良市・29202大和高田市・29203大和郡山市・29204天理市）
+- 実施日: 2026-07-16
+- 候補: 886件（公式サイト内リンクリード8437件、本文再スコア採択候補1423件、採用URL60本）
+- 採用: 60件（新温泉町25件、奈良市20件、大和高田市10件、大和郡山市3件、天理市2件）
+- 公式URL: 採用URL到達確認は tasks/discovery/hyogo-nara-official-coverage-009-url-status.txt に記録（60本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、オンライン申請のみ、担当課のみ、寄附募集、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。奈良県側は既存の天理市子育てデータとの重複を避け、新規個別制度ページを優先
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18294、officialLinkedActive 18173、manuallyVerifiedActive 18173、兵庫県 localOfficial 746、奈良県 localOfficial 70）
+- 到達点: 兵庫県は28100神戸市から28586新温泉町まで第1巡完了。奈良県は29201奈良市から29204天理市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 奈良県公式棚卸し002として、29205橿原市から再開

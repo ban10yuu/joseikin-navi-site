@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-16T19:16:27+09:00",
+  "updatedAt": "2026-07-16T20:00:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "hyogo-official-coverage-008",
-    "municipality": "神河町・太子町・上郡町・佐用町・香美町",
+    "code": "hyogo-nara-official-coverage-009",
+    "municipality": "新温泉町・奈良市・大和高田市・大和郡山市・天理市",
     "adopted": 60,
     "held": 0,
     "excluded": 0,
     "sourceUrlsChecked": 60,
     "validation": {
-      "previousMunicipality": "兵庫県公式棚卸し008として28446神河町・28464太子町・28481上郡町・28501佐用町・28585香美町を確認し60件を採用。全国公式棚卸しは未完了。",
+      "previousMunicipality": "兵庫県・奈良県公式棚卸し009として28586新温泉町・29201奈良市・29202大和高田市・29203大和郡山市・29204天理市を確認し60件を採用。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for hyogo-official-coverage-008 JSON files",
+      "json": "pass: JSON.parse for hyogo-nara-official-coverage-009 JSON files",
       "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
       "urlReachability": "pass: 60 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 18234, officialLinkedActive 18113, manuallyVerifiedActive 18113, 兵庫県 localOfficial 721)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 18294, officialLinkedActive 18173, manuallyVerifiedActive 18173, 兵庫県 localOfficial 746, 奈良県 localOfficial 70)"
     }
   },
   "next": {
-    "code": "hyogo-official-coverage-009",
-    "municipality": "新温泉町",
-    "shortlist": "兵庫県008は神河町18件、太子町7件、上郡町1件、佐用町4件、香美町30件を採用した。通常クロール418候補に加え公式サイトマップ補完リンクリード739件を本文再スコアし、採用60件へ絞った。カテゴリ、トップ、広報、計画・会議、申請書単体で本文根拠が薄い候補、受付終了のみ、物件・体験談は第2巡候補として保持した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、兵庫県公式棚卸し009として28586新温泉町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "nara-official-coverage-002",
+    "municipality": "橿原市",
+    "shortlist": "兵庫県・奈良県009は新温泉町25件、奈良市20件、大和高田市10件、大和郡山市3件、天理市2件を採用した。通常クロール886候補に加え公式サイト内リンクリード8437件を抽出し、再スコア結果1423件から個別制度ページを優先して60件へ絞った。トップ、カテゴリ導線、共通ナビ、オンライン申請のみ、担当課のみ、寄附募集、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、奈良県公式棚卸し002として29205橿原市を開始地点に自治体コード順で再開する。兵庫県は第1巡完了、奈良県は29204天理市まで到達。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "兵庫県",
+    "prefecture": "奈良県",
     "status": "in-progress-first-pass",
-    "lastBatch": "hyogo-official-coverage-008",
-    "notes": "兵庫県公式棚卸し008で神河町・太子町・上郡町・佐用町・香美町を確認し、60件を新規採用した。兵庫県は28100神戸市から28585香美町まで第1巡到達。次は28586新温泉町から再開する。"
+    "lastBatch": "hyogo-nara-official-coverage-009",
+    "notes": "兵庫県・奈良県公式棚卸し009で28586新温泉町を確認して兵庫県第1巡を完了し、29201奈良市・29202大和高田市・29203大和郡山市・29204天理市まで奈良県第1巡に到達。次は29205橿原市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

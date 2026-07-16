@@ -1,0 +1,35 @@
+{
+  "batchId": "hyogo-nara-official-coverage-009",
+  "municipalities": [
+    {
+      "code": "28586",
+      "name": "新温泉町",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.town.shinonsen.hyogo.jp/"
+    },
+    {
+      "code": "29201",
+      "name": "奈良市",
+      "prefecture": "奈良県",
+      "officialBaseUrl": "https://www.city.nara.lg.jp/"
+    },
+    {
+      "code": "29202",
+      "name": "大和高田市",
+      "prefecture": "奈良県",
+      "officialBaseUrl": "https://www.city.yamatotakada.nara.jp/"
+    },
+    {
+      "code": "29203",
+      "name": "大和郡山市",
+      "prefecture": "奈良県",
+      "officialBaseUrl": "https://www.city.yamatokoriyama.lg.jp/"
+    },
+    {
+      "code": "29204",
+      "name": "天理市",
+      "prefecture": "奈良県",
+      "officialBaseUrl": "https://www.city.tenri.nara.jp/"
+    }
+  ]
+}
