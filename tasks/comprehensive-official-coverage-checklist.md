@@ -10535,3 +10535,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17994、officialLinkedActive 17874、manuallyVerifiedActive 17874、兵庫県 localOfficial 482）
 - 到達点: 兵庫県は28100神戸市から28225朝来市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 兵庫県公式棚卸し006として、28226淡路市から再開
+
+### 兵庫県公式棚卸し006（28226淡路市・28227宍粟市・28228加東市・28229たつの市・28301猪名川町）
+- 実施日: 2026-07-17
+- 候補: 384件（公式サイトマップ補完リンクリード21624件、本文再スコア採択候補2673件、採用URL90本）
+- 採用: 90件（淡路市18件、宍粟市18件、加東市18件、たつの市18件、猪名川町18件）
+- 公式URL: 採用URL到達確認は tasks/discovery/hyogo-official-coverage-006-url-status.txt に記録（90本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイトマップを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。カテゴリ、トップ、広報、計画・会議、申請書単体、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18084、officialLinkedActive 17964、manuallyVerifiedActive 17964、兵庫県 localOfficial 572）
+- 到達点: 兵庫県は28100神戸市から28301猪名川町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 兵庫県公式棚卸し007として、28365多可町から再開

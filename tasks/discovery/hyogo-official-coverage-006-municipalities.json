@@ -1,0 +1,37 @@
+{
+  "batchId": "hyogo-official-coverage-006",
+  "prefecture": "兵庫県",
+  "createdAt": "2026-07-17T18:05:00+09:00",
+  "municipalities": [
+    {
+      "code": "28226",
+      "name": "淡路市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.awaji.lg.jp/"
+    },
+    {
+      "code": "28227",
+      "name": "宍粟市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.shiso.lg.jp/"
+    },
+    {
+      "code": "28228",
+      "name": "加東市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.kato.lg.jp/"
+    },
+    {
+      "code": "28229",
+      "name": "たつの市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.tatsuno.lg.jp/"
+    },
+    {
+      "code": "28301",
+      "name": "猪名川町",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.town.inagawa.lg.jp/"
+    }
+  ]
+}
