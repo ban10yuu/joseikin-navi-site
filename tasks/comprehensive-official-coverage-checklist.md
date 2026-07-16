@@ -10545,3 +10545,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18084、officialLinkedActive 17964、manuallyVerifiedActive 17964、兵庫県 localOfficial 572）
 - 到達点: 兵庫県は28100神戸市から28301猪名川町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 兵庫県公式棚卸し007として、28365多可町から再開
+
+### 兵庫県公式棚卸し007（28365多可町・28381稲美町・28382播磨町・28442市川町・28443福崎町）
+- 実施日: 2026-07-16
+- 候補: 1211件（公式サイトマップ補完リンクリード10977件、本文再スコア採択候補909件、採用URL90本）
+- 採用: 90件（多可町18件、稲美町18件、播磨町18件、市川町18件、福崎町18件）
+- 公式URL: 採用URL到達確認は tasks/discovery/hyogo-official-coverage-007-url-status.txt に記録（90本すべてHTTP 200。多可町公式サイトはNodeのTLSチェーン検証で失敗するため、到達確認時のみNODE_TLS_REJECT_UNAUTHORIZED=0を使用）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイトマップを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。カテゴリ、トップ、広報、計画・会議、申請書単体、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18174、officialLinkedActive 18053、manuallyVerifiedActive 18053、兵庫県 localOfficial 661）
+- 到達点: 兵庫県は28100神戸市から28443福崎町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 兵庫県公式棚卸し008として、28446神河町から再開

@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-17T18:35:00+09:00",
+  "updatedAt": "2026-07-16T19:10:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "hyogo-official-coverage-006",
-    "municipality": "淡路市・宍粟市・加東市・たつの市・猪名川町",
+    "code": "hyogo-official-coverage-007",
+    "municipality": "多可町・稲美町・播磨町・市川町・福崎町",
     "adopted": 90,
     "held": 0,
     "excluded": 0,
     "sourceUrlsChecked": 90,
     "validation": {
-      "previousMunicipality": "兵庫県公式棚卸し006として28226淡路市・28227宍粟市・28228加東市・28229たつの市・28301猪名川町を確認し90件を採用。全国公式棚卸しは未完了。",
+      "previousMunicipality": "兵庫県公式棚卸し007として28365多可町・28381稲美町・28382播磨町・28442市川町・28443福崎町を確認し90件を採用。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for hyogo-official-coverage-006 JSON files",
+      "json": "pass: JSON.parse for hyogo-official-coverage-007 JSON files",
       "addedSlugUniqueness": "pass: 90 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 90 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "urlReachability": "pass: 90 adopted official URLs returned HTTP 200 by check-grant-source-urls (多可町はNode TLSチェーン検証回避のためNODE_TLS_REJECT_UNAUTHORIZED=0で確認)",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 18084, officialLinkedActive 17964, manuallyVerifiedActive 17964, 兵庫県 localOfficial 572)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 18174, officialLinkedActive 18053, manuallyVerifiedActive 18053, 兵庫県 localOfficial 661)"
     }
   },
   "next": {
-    "code": "hyogo-official-coverage-007",
-    "municipality": "多可町",
-    "shortlist": "兵庫県006は淡路市18件、宍粟市18件、加東市18件、たつの市18件、猪名川町18件を採用した。通常クロール384候補に加え公式サイトマップ21624ページを本文再スコアし、採用90件へ絞った。カテゴリ、広報、計画・会議、申請書単体、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、兵庫県公式棚卸し007として28365多可町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "hyogo-official-coverage-008",
+    "municipality": "神河町",
+    "shortlist": "兵庫県007は多可町18件、稲美町18件、播磨町18件、市川町18件、福崎町18件を採用した。通常クロール1211候補に加え公式サイトマップ補完リンクリード10977件を本文再スコアし、採用90件へ絞った。カテゴリ、広報、計画・会議、申請書単体、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、兵庫県公式棚卸し008として28446神河町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "兵庫県",
     "status": "in-progress-first-pass",
-    "lastBatch": "hyogo-official-coverage-006",
-    "notes": "兵庫県公式棚卸し006で淡路市・宍粟市・加東市・たつの市・猪名川町を確認し、90件を新規採用した。兵庫県は28100神戸市から28301猪名川町まで第1巡到達。次は28365多可町から再開する。"
+    "lastBatch": "hyogo-official-coverage-007",
+    "notes": "兵庫県公式棚卸し007で多可町・稲美町・播磨町・市川町・福崎町を確認し、90件を新規採用した。兵庫県は28100神戸市から28443福崎町まで第1巡到達。次は28446神河町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
