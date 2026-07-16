@@ -10626,3 +10626,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18629、officialLinkedActive 18508、manuallyVerifiedActive 18508、奈良県 localOfficial 405）
 - 到達点: 奈良県は29201奈良市から29441吉野町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 奈良県公式棚卸し007として、29442大淀町から再開
+
+### 奈良県公式棚卸し007（29442大淀町・29443下市町・29444黒滝村・29446天川村・29447野迫川村）
+- 実施日: 2026-07-16
+- 候補: 1292件（公式サイト内リンクリード5758件、本文再スコア採択候補1759件、採用URL78本）
+- 採用: 78件（大淀町18件、下市町18件、黒滝村15件、天川村15件、野迫川村12件）
+- 公式URL: 採用URL到達確認は tasks/discovery/nara-official-coverage-007-url-status.txt に記録（78本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクとsitemapを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、例規、広報、職員募集、プロポーザル、観光・寄附、受付終了のみ、結果公表のみ、本文根拠が薄い候補は第2巡候補として保持。天川村は公式ページタイトルが共通テンプレートに寄るため、title/h2/本文スニペットを併用して個別制度ページを確認
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18707、officialLinkedActive 18586、manuallyVerifiedActive 18586、奈良県 localOfficial 483）
+- 到達点: 奈良県は29201奈良市から29447野迫川村まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 奈良県公式棚卸し008として、29449十津川村から再開

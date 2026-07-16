@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-16T20:56:20+09:00",
+  "updatedAt": "2026-07-16T21:34:41+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nara-official-coverage-006",
-    "municipality": "上牧町・王寺町・広陵町・河合町・吉野町",
-    "adopted": 75,
+    "code": "nara-official-coverage-007",
+    "municipality": "大淀町・下市町・黒滝村・天川村・野迫川村",
+    "adopted": 78,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 75,
+    "sourceUrlsChecked": 78,
     "validation": {
-      "previousMunicipality": "奈良県公式棚卸し006として29424上牧町・29425王寺町・29426広陵町・29427河合町・29441吉野町を確認し75件を採用。全国公式棚卸しは未完了。",
+      "previousMunicipality": "奈良県公式棚卸し007として29442大淀町・29443下市町・29444黒滝村・29446天川村・29447野迫川村を確認し78件を採用。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for nara-official-coverage-006 JSON files",
-      "addedSlugUniqueness": "pass: 75 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 75 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for nara-official-coverage-007 JSON files",
+      "addedSlugUniqueness": "pass: 78 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 78 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 18629、officialLinkedActive 18508、manuallyVerifiedActive 18508、奈良県 localOfficial 405)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 18707、officialLinkedActive 18586、manuallyVerifiedActive 18586、奈良県 localOfficial 483)"
     }
   },
   "next": {
-    "code": "nara-official-coverage-007",
-    "municipality": "大淀町",
-    "shortlist": "奈良県006は上牧町8件、王寺町18件、広陵町18件、河合町11件、吉野町20件を採用した。通常候補401件に加え公式サイト内リンクリード406件を本文再スコアし、トップ、カテゴリ導線、広報、職員募集、プロポーザル、受付終了のみ、結果公表のみを除き75件へ絞った。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、奈良県公式棚卸し007として29442大淀町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "nara-official-coverage-008",
+    "municipality": "十津川村",
+    "shortlist": "奈良県007は大淀町18件、下市町18件、黒滝村15件、天川村15件、野迫川村12件を採用した。通常候補1292件に加え公式サイト内リンクリード5758件を本文再スコアし、トップ、カテゴリ導線、広報、例規、職員募集、プロポーザル、観光・寄附、受付終了のみ、結果公表のみ、本文根拠が薄い候補を除いて78件へ絞った。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、奈良県公式棚卸し008として29449十津川村を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "奈良県",
     "status": "in-progress-first-pass",
-    "lastBatch": "nara-official-coverage-006",
-    "notes": "奈良県公式棚卸し006で29424上牧町・29425王寺町・29426広陵町・29427河合町・29441吉野町を確認し、75件を新規採用した。奈良県は29201奈良市から29441吉野町まで第1巡到達。次は29442大淀町から再開する。"
+    "lastBatch": "nara-official-coverage-007",
+    "notes": "奈良県公式棚卸し007で29442大淀町・29443下市町・29444黒滝村・29446天川村・29447野迫川村を確認し、78件を新規採用した。奈良県は29201奈良市から29447野迫川村まで第1巡到達。次は29449十津川村から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
