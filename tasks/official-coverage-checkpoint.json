@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T04:22:46+09:00",
+  "updatedAt": "2026-07-17T04:38:27+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "okayama-official-coverage-003",
-    "municipality": "瀬戸内市・赤磐市・真庭市・美作市・浅口市",
-    "adopted": 94,
+    "code": "okayama-official-coverage-004",
+    "municipality": "和気町・早島町・里庄町・矢掛町・新庄村",
+    "adopted": 91,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 94,
+    "sourceUrlsChecked": 91,
     "validation": {
-      "previousMunicipality": "岡山県公式棚卸し003として33212瀬戸内市・33213赤磐市・33214真庭市・33215美作市・33216浅口市を確認し94件を採用。岡山県は33216浅口市まで第1巡到達。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/okayama-official-coverage-003-build.mjs",
-      "json": "pass: JSON.parse for okayama-official-coverage-003 JSON files",
-      "addedSlugUniqueness": "pass: 94 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 94 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "previousMunicipality": "岡山県公式棚卸し004として33346和気町・33423早島町・33445里庄町・33461矢掛町・33586新庄村を確認し91件を採用。岡山県は33586新庄村まで第1巡到達。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/okayama-official-coverage-004-build.mjs",
+      "json": "pass: JSON.parse for okayama-official-coverage-004 JSON files",
+      "addedSlugUniqueness": "pass: 91 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 91 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 20235、officialLinkedActive 20114、manuallyVerifiedActive 20114、岡山県 localOfficial 360)",
-      "notes": "標準discoverは0件。公式sitemap、公式カテゴリ、公式制度一覧ページ、公式目的別ページ、本文抽出から制度語リンクを補完。浅口市の生活困窮者支援ページは旧URL 404 のため現行公式URL /page/8734.html へ更新した。"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 20326、officialLinkedActive 20205、manuallyVerifiedActive 20205、岡山県 localOfficial 451)",
+      "notes": "標準discoverは0件。公式sitemap、公式カテゴリ、公式制度一覧ページ、公式子育て・定住・例規ページ、本文抽出から制度語リンクを補完。矢掛町はHTTPS証明書不一致のため公式HTTP、新庄村はHTTPS不通のため公式HTTPで到達確認した。"
     }
   },
   "next": {
-    "code": "okayama-official-coverage-004",
-    "municipality": "和気町",
-    "shortlist": "岡山県003は標準discoverが0件だったため、公式sitemap、公式カテゴリ、公式制度一覧ページ、公式目的別ページ、本文抽出から公式HTML個別制度ページ・公式制度掲載ページ94本へ絞った。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、岡山県公式棚卸し004として33346和気町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "okayama-official-coverage-005",
+    "municipality": "鏡野町",
+    "shortlist": "岡山県004は標準discoverが0件だったため、公式sitemap、公式カテゴリ、公式制度一覧ページ、公式子育て支援サイト、公式移住支援サイト、公式例規ページから公式HTML個別制度ページ・公式条例・公式制度掲載ページ91本へ絞った。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、岡山県公式棚卸し005として33606鏡野町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "岡山県",
     "status": "in-progress-first-pass",
-    "lastBatch": "okayama-official-coverage-003",
-    "notes": "岡山県公式棚卸し003で33212瀬戸内市・33213赤磐市・33214真庭市・33215美作市・33216浅口市を確認し、94件を新規採用。次は33346和気町から再開する。"
+    "lastBatch": "okayama-official-coverage-004",
+    "notes": "岡山県公式棚卸し004で33346和気町・33423早島町・33445里庄町・33461矢掛町・33586新庄村を確認し、91件を新規採用。次は33606鏡野町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
