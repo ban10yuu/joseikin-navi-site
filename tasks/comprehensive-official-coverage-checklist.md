@@ -10445,3 +10445,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17315、officialLinkedActive 17195、manuallyVerifiedActive 17195、大阪府 localOfficial 468）
 - 到達点: 大阪府は27100大阪市から27223門真市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 大阪府公式棚卸し006として、27224摂津市から再開
+
+### 大阪府公式棚卸し006（27224摂津市・27225高石市・27226藤井寺市・27227東大阪市・27228泉南市）
+- 実施日: 2026-07-16
+- 候補: 274件（公式カテゴリリンクリード95件、公式リスト95件、採用URL95本）
+- 採用: 95件（摂津市23件、高石市24件、藤井寺市13件、東大阪市19件、泉南市16件）
+- 公式URL: 採用URL到達確認は tasks/discovery/osaka-official-coverage-006-url-status.txt に記録（95本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、通常行政案内、申請書PDF単体、外部制度のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。摂津市・泉南市は通常クロールで下位制度が薄かったため公式カテゴリ導線で補完
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17410、officialLinkedActive 17290、manuallyVerifiedActive 17290、大阪府 localOfficial 563）
+- 到達点: 大阪府は27100大阪市から27228泉南市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 大阪府公式棚卸し007として、27229四條畷市から再開

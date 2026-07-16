@@ -1,0 +1,41 @@
+{
+  "batchId": "osaka-official-coverage-006",
+  "prefecture": "大阪府",
+  "completedAt": "2026-07-16T11:16:00+09:00",
+  "municipalities": [
+    {
+      "code": "27224",
+      "name": "摂津市",
+      "adopted": 23
+    },
+    {
+      "code": "27225",
+      "name": "高石市",
+      "adopted": 24
+    },
+    {
+      "code": "27226",
+      "name": "藤井寺市",
+      "adopted": 13
+    },
+    {
+      "code": "27227",
+      "name": "東大阪市",
+      "adopted": 19
+    },
+    {
+      "code": "27228",
+      "name": "泉南市",
+      "adopted": 16
+    }
+  ],
+  "candidateCount": 274,
+  "linkLeadCount": 95,
+  "adopted": 95,
+  "sourceUrlsChecked": 95,
+  "heldPolicy": "トップ、カテゴリ導線、共通ナビ、通常行政案内、申請書PDF単体、外部制度のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。摂津市・泉南市は通常クロールで下位制度が薄かったため公式カテゴリ導線で補完。",
+  "next": {
+    "batchId": "osaka-official-coverage-007",
+    "start": "27229四條畷市"
+  }
+}

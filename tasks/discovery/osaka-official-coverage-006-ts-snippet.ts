@@ -1,0 +1,1439 @@
+const osakaOfficial006Grants: Array<{
+  slug: string;
+  title: string;
+  organization: string;
+  maxAmount: string;
+  maxAmountNum: number;
+  category: Grant['category'];
+  relatedCategories?: Grant['relatedCategories'];
+  eligibility: string;
+  applicationPeriod: string;
+  deadlineDate?: string;
+  officialUrl: string;
+  sourceName: string;
+  sourceUrls?: Grant['sourceUrls'];
+}> = [
+  {
+    "slug": "osaka-official-006-001-2026",
+    "title": "摂津市 不妊・不育についての相談・治療費助成",
+    "organization": "摂津市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/iryou/6207.html",
+    "sourceName": "摂津市 不妊・不育についての相談・治療費助成"
+  },
+  {
+    "slug": "osaka-official-006-002-2026",
+    "title": "摂津市 妊婦健康診査公費助成について",
+    "organization": "摂津市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/kosodate/5693.html",
+    "sourceName": "摂津市 妊婦健康診査公費助成について"
+  },
+  {
+    "slug": "osaka-official-006-003-2026",
+    "title": "摂津市 令和8年度私立高等学校等学習支援金のご案内",
+    "organization": "摂津市",
+    "maxAmount": "支援制度を実施",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市に住所を有する児童・子育て世帯・ひとり親家庭等で、令和8年度私立高等学校等学習支援金のご案内の公式要件を満たす方",
+    "applicationPeriod": "公式ページ記載の受付期間・申請手続に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/kosodate/6071.html",
+    "sourceName": "摂津市 令和8年度私立高等学校等学習支援金のご案内"
+  },
+  {
+    "slug": "osaka-official-006-004-2026",
+    "title": "摂津市 子どもの医療費助成制度",
+    "organization": "摂津市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/kosodate/15734.html",
+    "sourceName": "摂津市 子どもの医療費助成制度"
+  },
+  {
+    "slug": "osaka-official-006-005-2026",
+    "title": "摂津市 未熟児養育医療費給付制度",
+    "organization": "摂津市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/kosodate/15741.html",
+    "sourceName": "摂津市 未熟児養育医療費給付制度"
+  },
+  {
+    "slug": "osaka-official-006-006-2026",
+    "title": "摂津市 通所支援利用助成金について",
+    "organization": "摂津市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市に住所を有する児童・子育て世帯・ひとり親家庭等で、通所支援利用助成金についての公式要件を満たす方",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/kosodate/15744.html",
+    "sourceName": "摂津市 通所支援利用助成金について"
+  },
+  {
+    "slug": "osaka-official-006-007-2026",
+    "title": "摂津市 摂津市中小企業育成事業補助金",
+    "organization": "摂津市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/shoukougyou/23251.html",
+    "sourceName": "摂津市 摂津市中小企業育成事業補助金"
+  },
+  {
+    "slug": "osaka-official-006-008-2026",
+    "title": "摂津市 摂津市商工業活性化補助金",
+    "organization": "摂津市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/shoukougyou/23253.html",
+    "sourceName": "摂津市 摂津市商工業活性化補助金"
+  },
+  {
+    "slug": "osaka-official-006-009-2026",
+    "title": "摂津市 摂津市起業者融資補助金",
+    "organization": "摂津市",
+    "maxAmount": "貸付・融資または利子等を支援",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/shoukougyou/23255.html",
+    "sourceName": "摂津市 摂津市起業者融資補助金"
+  },
+  {
+    "slug": "osaka-official-006-010-2026",
+    "title": "摂津市 摂津市創業促進テナント賃借料補助金",
+    "organization": "摂津市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/shoukougyou/23258.html",
+    "sourceName": "摂津市 摂津市創業促進テナント賃借料補助金"
+  },
+  {
+    "slug": "osaka-official-006-011-2026",
+    "title": "摂津市 福祉タクシー料金助成",
+    "organization": "摂津市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/shougaisha/14367.html",
+    "sourceName": "摂津市 福祉タクシー料金助成"
+  },
+  {
+    "slug": "osaka-official-006-012-2026",
+    "title": "摂津市 重度身体障害者等住宅改造助成事業",
+    "organization": "摂津市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市内の住宅・建築物・居住等について公式要件を満たす所有者・居住者等",
+    "applicationPeriod": "着手前または利用前に公式ページ記載の申請手続に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/shougaisha/14368.html",
+    "sourceName": "摂津市 重度身体障害者等住宅改造助成事業"
+  },
+  {
+    "slug": "osaka-official-006-013-2026",
+    "title": "摂津市 特別児童扶養手当",
+    "organization": "摂津市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市に住所を有する児童・子育て世帯・ひとり親家庭等で、特別児童扶養手当の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/shougaisha/14369.html",
+    "sourceName": "摂津市 特別児童扶養手当"
+  },
+  {
+    "slug": "osaka-official-006-014-2026",
+    "title": "摂津市 障害児福祉手当",
+    "organization": "摂津市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/shougaisha/14370.html",
+    "sourceName": "摂津市 障害児福祉手当"
+  },
+  {
+    "slug": "osaka-official-006-015-2026",
+    "title": "摂津市 特別障害者手当",
+    "organization": "摂津市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/shougaisha/14371.html",
+    "sourceName": "摂津市 特別障害者手当"
+  },
+  {
+    "slug": "osaka-official-006-016-2026",
+    "title": "摂津市 耐震改修補助制度",
+    "organization": "摂津市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市内の住宅・建築物・居住等について公式要件を満たす所有者・居住者等",
+    "applicationPeriod": "着手前または利用前に公式ページ記載の申請手続に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/taishin/5894.html",
+    "sourceName": "摂津市 耐震改修補助制度"
+  },
+  {
+    "slug": "osaka-official-006-017-2026",
+    "title": "摂津市 水洗便所改造貸付金・助成金制度",
+    "organization": "摂津市",
+    "maxAmount": "貸付・融資または利子等を支援",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市内の住宅・建築物・居住等について公式要件を満たす所有者・居住者等",
+    "applicationPeriod": "着手前または利用前に公式ページ記載の申請手続に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/5612.html",
+    "sourceName": "摂津市 水洗便所改造貸付金・助成金制度"
+  },
+  {
+    "slug": "osaka-official-006-018-2026",
+    "title": "摂津市 【令和8年4月1日から受付開始】宅配ボックスの設置に係る補助金の交付",
+    "organization": "摂津市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市内の住宅・建築物・居住等について公式要件を満たす所有者・居住者等",
+    "applicationPeriod": "公式ページ記載の受付期間・申請手続に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/teate/joseihojokin/5991.html",
+    "sourceName": "摂津市 【令和8年4月1日から受付開始】宅配ボックスの設置に係る補助金の交付"
+  },
+  {
+    "slug": "osaka-official-006-019-2026",
+    "title": "摂津市 ひとり親家庭医療費の助成",
+    "organization": "摂津市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/ninshin/kosodateshien/teatejosei/hitorioyakatei/5639.html",
+    "sourceName": "摂津市 ひとり親家庭医療費の助成"
+  },
+  {
+    "slug": "osaka-official-006-020-2026",
+    "title": "摂津市 母子・父子・寡婦福祉資金",
+    "organization": "摂津市",
+    "maxAmount": "支援制度を実施",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市に住所を有する児童・子育て世帯・ひとり親家庭等で、母子・父子・寡婦福祉資金の公式要件を満たす方",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/ninshin/kosodateshien/teatejosei/hitorioyakatei/5640.html",
+    "sourceName": "摂津市 母子・父子・寡婦福祉資金"
+  },
+  {
+    "slug": "osaka-official-006-021-2026",
+    "title": "摂津市 児童扶養手当",
+    "organization": "摂津市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市に住所を有する児童・子育て世帯・ひとり親家庭等で、児童扶養手当の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/ninshin/kosodateshien/teatejosei/hitorioyakatei/5646.html",
+    "sourceName": "摂津市 児童扶養手当"
+  },
+  {
+    "slug": "osaka-official-006-022-2026",
+    "title": "摂津市 ひとり親家庭自立支援制度",
+    "organization": "摂津市",
+    "maxAmount": "支援制度を実施",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市に住所を有する児童・子育て世帯・ひとり親家庭等で、ひとり親家庭自立支援制度の公式要件を満たす方",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/ninshin/kosodateshien/teatejosei/hitorioyakatei/5647.html",
+    "sourceName": "摂津市 ひとり親家庭自立支援制度"
+  },
+  {
+    "slug": "osaka-official-006-023-2026",
+    "title": "摂津市 養育費確保支援補助金",
+    "organization": "摂津市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "摂津市に住所を有する児童・子育て世帯・ひとり親家庭等で、養育費確保支援補助金の公式要件を満たす方",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.settsu.osaka.jp/bamen/ninshin/kosodateshien/teatejosei/hitorioyakatei/30164.html",
+    "sourceName": "摂津市 養育費確保支援補助金"
+  },
+  {
+    "slug": "osaka-official-006-024-2026",
+    "title": "高石市 ひとり親家庭医療費助成",
+    "organization": "高石市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/dekigoto/kosodate/iryoujyosei/1458786710383.html",
+    "sourceName": "高石市 ひとり親家庭医療費助成"
+  },
+  {
+    "slug": "osaka-official-006-025-2026",
+    "title": "高石市 未熟児養育医療給付制度",
+    "organization": "高石市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/dekigoto/kosodate/iryoujyosei/1458786823567.html",
+    "sourceName": "高石市 未熟児養育医療給付制度"
+  },
+  {
+    "slug": "osaka-official-006-026-2026",
+    "title": "高石市 こども医療費助成制度",
+    "organization": "高石市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/dekigoto/kosodate/iryoujyosei/1495603873289.html",
+    "sourceName": "高石市 こども医療費助成制度"
+  },
+  {
+    "slug": "osaka-official-006-027-2026",
+    "title": "高石市 子育て世代の定住促進事業",
+    "organization": "高石市",
+    "maxAmount": "支援制度を実施",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市内の住宅・建築物・居住等について公式要件を満たす所有者・居住者等",
+    "applicationPeriod": "着手前または利用前に公式ページ記載の申請手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/dekigoto/kosodate/1458786872423.html",
+    "sourceName": "高石市 子育て世代の定住促進事業"
+  },
+  {
+    "slug": "osaka-official-006-028-2026",
+    "title": "高石市 児童手当",
+    "organization": "高石市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有する児童・子育て世帯・ひとり親家庭等で、児童手当の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/dekigoto/kosodate/teate/4707.html",
+    "sourceName": "高石市 児童手当"
+  },
+  {
+    "slug": "osaka-official-006-029-2026",
+    "title": "高石市 児童扶養手当",
+    "organization": "高石市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有する児童・子育て世帯・ひとり親家庭等で、児童扶養手当の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/dekigoto/kosodate/teate/4708.html",
+    "sourceName": "高石市 児童扶養手当"
+  },
+  {
+    "slug": "osaka-official-006-030-2026",
+    "title": "高石市 妊婦健康診査",
+    "organization": "高石市",
+    "maxAmount": "支援制度を実施",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/dekigoto/ninshin/ninshin/1458786748670.html",
+    "sourceName": "高石市 妊婦健康診査"
+  },
+  {
+    "slug": "osaka-official-006-031-2026",
+    "title": "高石市 風しん予防接種の公費助成を行っています",
+    "organization": "高石市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/dekigoto/ninshin/ninshin/1458786825273.html",
+    "sourceName": "高石市 風しん予防接種の公費助成を行っています"
+  },
+  {
+    "slug": "osaka-official-006-032-2026",
+    "title": "高石市 妊婦のための支援給付（令和7年4月1日開始）",
+    "organization": "高石市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/dekigoto/ninshin/4281.html",
+    "sourceName": "高石市 妊婦のための支援給付（令和7年4月1日開始）"
+  },
+  {
+    "slug": "osaka-official-006-033-2026",
+    "title": "高石市 災害見舞金",
+    "organization": "高石市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "高石市内で災害見舞金の公式要件を満たす方または団体等",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/kurashi/fukushi/syakai/1537489525731.html",
+    "sourceName": "高石市 災害見舞金"
+  },
+  {
+    "slug": "osaka-official-006-034-2026",
+    "title": "高石市 家賃が払えない方へ～住居確保給付金のご案内～(令和5年4月28日更新)",
+    "organization": "高石市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市内の住宅・建築物・居住等について公式要件を満たす所有者・居住者等",
+    "applicationPeriod": "着手前または利用前に公式ページ記載の申請手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/kurashi/fukushi/syakai/1587084860909.html",
+    "sourceName": "高石市 家賃が払えない方へ～住居確保給付金のご案内～(令和5年4月28日更新)"
+  },
+  {
+    "slug": "osaka-official-006-035-2026",
+    "title": "高石市 高齢者に対する住宅改造助成",
+    "organization": "高石市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市内の住宅・建築物・居住等について公式要件を満たす所有者・居住者等",
+    "applicationPeriod": "着手前または利用前に公式ページ記載の申請手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/kurashi/fukushi/koureisya/1458786701614.html",
+    "sourceName": "高石市 高齢者に対する住宅改造助成"
+  },
+  {
+    "slug": "osaka-official-006-036-2026",
+    "title": "高石市 日常生活用具の給付(貸与)",
+    "organization": "高石市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/kurashi/fukushi/koureisya/1458786702444.html",
+    "sourceName": "高石市 日常生活用具の給付(貸与)"
+  },
+  {
+    "slug": "osaka-official-006-037-2026",
+    "title": "高石市 在日外国人高齢者福祉金を支給",
+    "organization": "高石市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/kurashi/fukushi/koureisya/1458786702765.html",
+    "sourceName": "高石市 在日外国人高齢者福祉金を支給"
+  },
+  {
+    "slug": "osaka-official-006-038-2026",
+    "title": "高石市 紙おむつの給付",
+    "organization": "高石市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/kurashi/fukushi/koureisya/1458786703266.html",
+    "sourceName": "高石市 紙おむつの給付"
+  },
+  {
+    "slug": "osaka-official-006-039-2026",
+    "title": "高石市 見守り機器の給付",
+    "organization": "高石市",
+    "maxAmount": "支援制度を実施",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "高石市内で見守り機器の給付の公式要件を満たす方または団体等",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/kurashi/fukushi/koureisya/1625703264734.html",
+    "sourceName": "高石市 見守り機器の給付"
+  },
+  {
+    "slug": "osaka-official-006-040-2026",
+    "title": "高石市 障害児福祉手当・特別障害者手当",
+    "organization": "高石市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/kurashi/fukushi/syougaisya/1458786713650.html",
+    "sourceName": "高石市 障害児福祉手当・特別障害者手当"
+  },
+  {
+    "slug": "osaka-official-006-041-2026",
+    "title": "高石市 施設通所費の助成",
+    "organization": "高石市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有する児童・子育て世帯・ひとり親家庭等で、施設通所費の助成の公式要件を満たす方",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/kurashi/fukushi/syougaisya/1458786713821.html",
+    "sourceName": "高石市 施設通所費の助成"
+  },
+  {
+    "slug": "osaka-official-006-042-2026",
+    "title": "高石市 大阪府重度障がい者在宅介護支援給付金",
+    "organization": "高石市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/kurashi/fukushi/syougaisya/1458786713975.html",
+    "sourceName": "高石市 大阪府重度障がい者在宅介護支援給付金"
+  },
+  {
+    "slug": "osaka-official-006-043-2026",
+    "title": "高石市 外国人重度障がい者特別給付金",
+    "organization": "高石市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/kurashi/fukushi/syougaisya/1458786714311.html",
+    "sourceName": "高石市 外国人重度障がい者特別給付金"
+  },
+  {
+    "slug": "osaka-official-006-044-2026",
+    "title": "高石市 日常生活用具の給付",
+    "organization": "高石市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/kurashi/fukushi/syougaisya/1458786714472.html",
+    "sourceName": "高石市 日常生活用具の給付"
+  },
+  {
+    "slug": "osaka-official-006-045-2026",
+    "title": "高石市 重度障がい者等に対する住宅改造助成",
+    "organization": "高石市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市内の住宅・建築物・居住等について公式要件を満たす所有者・居住者等",
+    "applicationPeriod": "着手前または利用前に公式ページ記載の申請手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/kurashi/fukushi/syougaisya/1458786715324.html",
+    "sourceName": "高石市 重度障がい者等に対する住宅改造助成"
+  },
+  {
+    "slug": "osaka-official-006-046-2026",
+    "title": "高石市 重度障がい者等タクシー利用料金の助成",
+    "organization": "高石市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/kurashi/fukushi/syougaisya/1458786715505.html",
+    "sourceName": "高石市 重度障がい者等タクシー利用料金の助成"
+  },
+  {
+    "slug": "osaka-official-006-047-2026",
+    "title": "高石市 自動車運転免許の取得費・自動車改造費用を助成",
+    "organization": "高石市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "高石市内の住宅・建築物・居住等について公式要件を満たす所有者・居住者等",
+    "applicationPeriod": "着手前または利用前に公式ページ記載の申請手続に従う",
+    "officialUrl": "https://www.city.takaishi.lg.jp/kurashi/fukushi/syougaisya/1458786715992.html",
+    "sourceName": "高石市 自動車運転免許の取得費・自動車改造費用を助成"
+  },
+  {
+    "slug": "osaka-official-006-048-2026",
+    "title": "藤井寺市 障害者の医療費助成",
+    "organization": "藤井寺市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "藤井寺市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.fujiidera.lg.jp/kurashi/iryohijosei/1481769192522.html",
+    "sourceName": "藤井寺市 障害者の医療費助成"
+  },
+  {
+    "slug": "osaka-official-006-049-2026",
+    "title": "藤井寺市 ひとり親家庭等の医療費助成",
+    "organization": "藤井寺市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "藤井寺市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.fujiidera.lg.jp/kurashi/iryohijosei/1481769244388.html",
+    "sourceName": "藤井寺市 ひとり親家庭等の医療費助成"
+  },
+  {
+    "slug": "osaka-official-006-050-2026",
+    "title": "藤井寺市 子どもの医療費助成",
+    "organization": "藤井寺市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "藤井寺市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.fujiidera.lg.jp/kurashi/iryohijosei/1481769285876.html",
+    "sourceName": "藤井寺市 子どもの医療費助成"
+  },
+  {
+    "slug": "osaka-official-006-051-2026",
+    "title": "藤井寺市 未熟児養育医療給付制度",
+    "organization": "藤井寺市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "藤井寺市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.fujiidera.lg.jp/kurashi/iryohijosei/12911.html",
+    "sourceName": "藤井寺市 未熟児養育医療給付制度"
+  },
+  {
+    "slug": "osaka-official-006-052-2026",
+    "title": "藤井寺市 民間保育施設への運営費補助について",
+    "organization": "藤井寺市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "藤井寺市に住所を有する児童・子育て世帯・ひとり親家庭等で、民間保育施設への運営費補助についての公式要件を満たす方",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.fujiidera.lg.jp/jigyosha/Kosodate/21157.html",
+    "sourceName": "藤井寺市 民間保育施設への運営費補助について"
+  },
+  {
+    "slug": "osaka-official-006-053-2026",
+    "title": "藤井寺市 住宅などの耐震診断・耐震改修・除却補助制度について",
+    "organization": "藤井寺市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "藤井寺市内の住宅・建築物・居住等について公式要件を満たす所有者・居住者等",
+    "applicationPeriod": "着手前または利用前に公式ページ記載の申請手続に従う",
+    "officialUrl": "https://www.city.fujiidera.lg.jp/jigyosha/kentiku_kaihatu/taishin/1390265754511.html",
+    "sourceName": "藤井寺市 住宅などの耐震診断・耐震改修・除却補助制度について"
+  },
+  {
+    "slug": "osaka-official-006-054-2026",
+    "title": "藤井寺市 補装具、日常生活用具",
+    "organization": "藤井寺市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "藤井寺市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.fujiidera.lg.jp/kurashi/fukushikaigo/shogaishafukushi/1390283511945.html",
+    "sourceName": "藤井寺市 補装具、日常生活用具"
+  },
+  {
+    "slug": "osaka-official-006-055-2026",
+    "title": "藤井寺市 手当・年金・給付金",
+    "organization": "藤井寺市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "藤井寺市内で手当・年金・給付金の公式要件を満たす方または団体等",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.fujiidera.lg.jp/kurashi/fukushikaigo/shogaishafukushi/1390280640213.html",
+    "sourceName": "藤井寺市 手当・年金・給付金"
+  },
+  {
+    "slug": "osaka-official-006-056-2026",
+    "title": "藤井寺市 重度障害者住宅改造助成事業",
+    "organization": "藤井寺市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "藤井寺市内の住宅・建築物・居住等について公式要件を満たす所有者・居住者等",
+    "applicationPeriod": "着手前または利用前に公式ページ記載の申請手続に従う",
+    "officialUrl": "https://www.city.fujiidera.lg.jp/kurashi/fukushikaigo/shogaishafukushi/1390286038568.html",
+    "sourceName": "藤井寺市 重度障害者住宅改造助成事業"
+  },
+  {
+    "slug": "osaka-official-006-057-2026",
+    "title": "藤井寺市 日常生活用具の給付・貸与",
+    "organization": "藤井寺市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "藤井寺市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.fujiidera.lg.jp/kurashi/fukushikaigo/koureishafukushi/1387767636170.html",
+    "sourceName": "藤井寺市 日常生活用具の給付・貸与"
+  },
+  {
+    "slug": "osaka-official-006-058-2026",
+    "title": "藤井寺市 家族介護慰労金の給付",
+    "organization": "藤井寺市",
+    "maxAmount": "支援制度を実施",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "藤井寺市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.fujiidera.lg.jp/kurashi/fukushikaigo/koureishafukushi/1387768714192.html",
+    "sourceName": "藤井寺市 家族介護慰労金の給付"
+  },
+  {
+    "slug": "osaka-official-006-059-2026",
+    "title": "藤井寺市 紙おむつ等の給付",
+    "organization": "藤井寺市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "藤井寺市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.fujiidera.lg.jp/kurashi/fukushikaigo/koureishafukushi/1387769104340.html",
+    "sourceName": "藤井寺市 紙おむつ等の給付"
+  },
+  {
+    "slug": "osaka-official-006-060-2026",
+    "title": "藤井寺市 在日外国人高齢者福祉金の支給",
+    "organization": "藤井寺市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "藤井寺市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.fujiidera.lg.jp/kurashi/fukushikaigo/koureishafukushi/1387769840119.html",
+    "sourceName": "藤井寺市 在日外国人高齢者福祉金の支給"
+  },
+  {
+    "slug": "osaka-official-006-061-2026",
+    "title": "東大阪市 【申請受付中】令和8年度東大阪市省エネ設備更新事業補助金のお知らせ",
+    "organization": "東大阪市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "公式ページ記載の受付期間・申請手続に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/0000035654.html",
+    "sourceName": "東大阪市 【申請受付中】令和8年度東大阪市省エネ設備更新事業補助金のお知らせ"
+  },
+  {
+    "slug": "osaka-official-006-062-2026",
+    "title": "東大阪市 アピアランスケア支援事業",
+    "organization": "東大阪市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/0000044176.html",
+    "sourceName": "東大阪市 アピアランスケア支援事業"
+  },
+  {
+    "slug": "osaka-official-006-063-2026",
+    "title": "東大阪市 東大阪市障害者雇用奨励金",
+    "organization": "東大阪市",
+    "maxAmount": "支援制度を実施",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living",
+      "employment"
+    ],
+    "eligibility": "東大阪市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/0000011649.html",
+    "sourceName": "東大阪市 東大阪市障害者雇用奨励金"
+  },
+  {
+    "slug": "osaka-official-006-064-2026",
+    "title": "東大阪市 東大阪市トライアル雇用支援金",
+    "organization": "東大阪市",
+    "maxAmount": "支援制度を実施",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living",
+      "employment"
+    ],
+    "eligibility": "東大阪市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/0000011643.html",
+    "sourceName": "東大阪市 東大阪市トライアル雇用支援金"
+  },
+  {
+    "slug": "osaka-official-006-065-2026",
+    "title": "東大阪市 労働・雇用分野の助成金をご活用ください",
+    "organization": "東大阪市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living",
+      "employment"
+    ],
+    "eligibility": "東大阪市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/0000038659.html",
+    "sourceName": "東大阪市 労働・雇用分野の助成金をご活用ください"
+  },
+  {
+    "slug": "osaka-official-006-066-2026",
+    "title": "東大阪市 【令和8年度】【家庭用】太陽光発電・エネファーム・蓄電池の費用を一部補助します",
+    "organization": "東大阪市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "公式ページ記載の受付期間・申請手続に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/0000015249.html",
+    "sourceName": "東大阪市 【令和8年度】【家庭用】太陽光発電・エネファーム・蓄電池の費用を一部補助します"
+  },
+  {
+    "slug": "osaka-official-006-067-2026",
+    "title": "東大阪市 【令和8年度】【事業者用】太陽光発電設備の設置費用の一部を補助します",
+    "organization": "東大阪市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "公式ページ記載の受付期間・申請手続に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/0000035939.html",
+    "sourceName": "東大阪市 【令和8年度】【事業者用】太陽光発電設備の設置費用の一部を補助します"
+  },
+  {
+    "slug": "osaka-official-006-068-2026",
+    "title": "東大阪市 子ども医療費助成制度",
+    "organization": "東大阪市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/0000010781.html",
+    "sourceName": "東大阪市 子ども医療費助成制度"
+  },
+  {
+    "slug": "osaka-official-006-069-2026",
+    "title": "東大阪市 ひとり親家庭医療費助成制度",
+    "organization": "東大阪市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/kosodate/0000010937.html",
+    "sourceName": "東大阪市 ひとり親家庭医療費助成制度"
+  },
+  {
+    "slug": "osaka-official-006-070-2026",
+    "title": "東大阪市 児童扶養手当",
+    "organization": "東大阪市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市に住所を有する児童・子育て世帯・ひとり親家庭等で、児童扶養手当の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/kosodate/0000003336.html",
+    "sourceName": "東大阪市 児童扶養手当"
+  },
+  {
+    "slug": "osaka-official-006-071-2026",
+    "title": "東大阪市 児童手当制度",
+    "organization": "東大阪市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市に住所を有する児童・子育て世帯・ひとり親家庭等で、児童手当制度の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/kosodate/0000010174.html",
+    "sourceName": "東大阪市 児童手当制度"
+  },
+  {
+    "slug": "osaka-official-006-072-2026",
+    "title": "東大阪市 自立支援医療費(育成医療)支給認定について",
+    "organization": "東大阪市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/0000014498.html",
+    "sourceName": "東大阪市 自立支援医療費(育成医療)支給認定について"
+  },
+  {
+    "slug": "osaka-official-006-073-2026",
+    "title": "東大阪市 小児慢性特定疾病医療費助成制度",
+    "organization": "東大阪市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/0000014381.html",
+    "sourceName": "東大阪市 小児慢性特定疾病医療費助成制度"
+  },
+  {
+    "slug": "osaka-official-006-074-2026",
+    "title": "東大阪市 未熟児養育医療給付制度",
+    "organization": "東大阪市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/0000004235.html",
+    "sourceName": "東大阪市 未熟児養育医療給付制度"
+  },
+  {
+    "slug": "osaka-official-006-075-2026",
+    "title": "東大阪市 自立支援教育訓練給付金事業",
+    "organization": "東大阪市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/kosodate/0000000178.html",
+    "sourceName": "東大阪市 自立支援教育訓練給付金事業"
+  },
+  {
+    "slug": "osaka-official-006-076-2026",
+    "title": "東大阪市 高等職業訓練促進給付金等事業",
+    "organization": "東大阪市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/kosodate/0000002117.html",
+    "sourceName": "東大阪市 高等職業訓練促進給付金等事業"
+  },
+  {
+    "slug": "osaka-official-006-077-2026",
+    "title": "東大阪市 ひとり親家庭高等学校卒業程度認定試験合格支援事業",
+    "organization": "東大阪市",
+    "maxAmount": "支援制度を実施",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市に住所を有する児童・子育て世帯・ひとり親家庭等で、ひとり親家庭高等学校卒業程度認定試験合格支援事業の公式要件を満たす方",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/kosodate/0000018185.html",
+    "sourceName": "東大阪市 ひとり親家庭高等学校卒業程度認定試験合格支援事業"
+  },
+  {
+    "slug": "osaka-official-006-078-2026",
+    "title": "東大阪市 お家に耐震診断員を派遣します",
+    "organization": "東大阪市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市内の住宅・建築物・居住等について公式要件を満たす所有者・居住者等",
+    "applicationPeriod": "着手前または利用前に公式ページ記載の申請手続に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/0000005734.html",
+    "sourceName": "東大阪市 お家に耐震診断員を派遣します"
+  },
+  {
+    "slug": "osaka-official-006-079-2026",
+    "title": "東大阪市 耐震改修の補助金",
+    "organization": "東大阪市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "東大阪市内の住宅・建築物・居住等について公式要件を満たす所有者・居住者等",
+    "applicationPeriod": "着手前または利用前に公式ページ記載の申請手続に従う",
+    "officialUrl": "https://www.city.higashiosaka.lg.jp/0000005748.html",
+    "sourceName": "東大阪市 耐震改修の補助金"
+  },
+  {
+    "slug": "osaka-official-006-080-2026",
+    "title": "泉南市 潜在保育士復職支援プログラム",
+    "organization": "泉南市",
+    "maxAmount": "支援制度を実施",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living",
+      "employment"
+    ],
+    "eligibility": "泉南市に住所を有する児童・子育て世帯・ひとり親家庭等で、潜在保育士復職支援プログラムの公式要件を満たす方",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/bosyu/1622102297698.html",
+    "sourceName": "泉南市 潜在保育士復職支援プログラム"
+  },
+  {
+    "slug": "osaka-official-006-081-2026",
+    "title": "泉南市 妊産婦・多胎児家庭へのタクシー利用支援事業",
+    "organization": "泉南市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "泉南市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/kurashi/kosodate/1662684507069.html",
+    "sourceName": "泉南市 妊産婦・多胎児家庭へのタクシー利用支援事業"
+  },
+  {
+    "slug": "osaka-official-006-082-2026",
+    "title": "泉南市 児童手当",
+    "organization": "泉南市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "泉南市に住所を有する児童・子育て世帯・ひとり親家庭等で、児童手当の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/kurashi/kosodate/teate/1458795183265.html",
+    "sourceName": "泉南市 児童手当"
+  },
+  {
+    "slug": "osaka-official-006-083-2026",
+    "title": "泉南市 児童扶養手当",
+    "organization": "泉南市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "泉南市に住所を有する児童・子育て世帯・ひとり親家庭等で、児童扶養手当の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/kurashi/kosodate/teate/1467875318218.html",
+    "sourceName": "泉南市 児童扶養手当"
+  },
+  {
+    "slug": "osaka-official-006-084-2026",
+    "title": "泉南市 自立支援給付金利用事業",
+    "organization": "泉南市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "泉南市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/kurashi/kosodate/teate/1458795183323.html",
+    "sourceName": "泉南市 自立支援給付金利用事業"
+  },
+  {
+    "slug": "osaka-official-006-085-2026",
+    "title": "泉南市 ひとり親家庭医療費助成制度",
+    "organization": "泉南市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "泉南市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/kurashi/kosodate/teate/1458795182766.html",
+    "sourceName": "泉南市 ひとり親家庭医療費助成制度"
+  },
+  {
+    "slug": "osaka-official-006-086-2026",
+    "title": "泉南市 未熟児養育医療給付制度",
+    "organization": "泉南市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "泉南市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/kurashi/kosodate/teate/1458795182797.html",
+    "sourceName": "泉南市 未熟児養育医療給付制度"
+  },
+  {
+    "slug": "osaka-official-006-087-2026",
+    "title": "泉南市 子どもの医療費助成制度",
+    "organization": "泉南市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "泉南市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/kurashi/kosodate/teate/1465885375057.html",
+    "sourceName": "泉南市 子どもの医療費助成制度"
+  },
+  {
+    "slug": "osaka-official-006-088-2026",
+    "title": "泉南市 各種医療制度",
+    "organization": "泉南市",
+    "maxAmount": "医療費・検査費等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "泉南市に住所を有し、医療費・健診・治療等について公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/kurashi/shougai/1650359023825.html",
+    "sourceName": "泉南市 各種医療制度"
+  },
+  {
+    "slug": "osaka-official-006-089-2026",
+    "title": "泉南市 日常生活用具の給付",
+    "organization": "泉南市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "泉南市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/kurashi/shougai/1650949862867.html",
+    "sourceName": "泉南市 日常生活用具の給付"
+  },
+  {
+    "slug": "osaka-official-006-090-2026",
+    "title": "泉南市 補装具の給付・修理・借受け",
+    "organization": "泉南市",
+    "maxAmount": "支援制度を実施",
+    "maxAmountNum": 0,
+    "category": "welfare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "泉南市に住所を有する高齢者・障がい者等で、福祉サービスまたは給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/kurashi/shougai/1650950322129.html",
+    "sourceName": "泉南市 補装具の給付・修理・借受け"
+  },
+  {
+    "slug": "osaka-official-006-091-2026",
+    "title": "泉南市 小児慢性特定疾病児童日常生活用具の給付",
+    "organization": "泉南市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "泉南市に住所を有する児童・子育て世帯・ひとり親家庭等で、小児慢性特定疾病児童日常生活用具の給付の公式要件を満たす方",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/kurashi/shougai/1650951061864.html",
+    "sourceName": "泉南市 小児慢性特定疾病児童日常生活用具の給付"
+  },
+  {
+    "slug": "osaka-official-006-092-2026",
+    "title": "泉南市 自動車改造費助成事業",
+    "organization": "泉南市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "泉南市内の住宅・建築物・居住等について公式要件を満たす所有者・居住者等",
+    "applicationPeriod": "着手前または利用前に公式ページ記載の申請手続に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/kurashi/shougai/1650958154025.html",
+    "sourceName": "泉南市 自動車改造費助成事業"
+  },
+  {
+    "slug": "osaka-official-006-093-2026",
+    "title": "泉南市 各種手当て等",
+    "organization": "泉南市",
+    "maxAmount": "給付金・手当等を支給",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "泉南市内で各種手当て等の公式要件を満たす方または団体等",
+    "applicationPeriod": "認定・申請・更新等の公式手続に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/kurashi/shougai/1655429971908.html",
+    "sourceName": "泉南市 各種手当て等"
+  },
+  {
+    "slug": "osaka-official-006-094-2026",
+    "title": "泉南市 利子補給に関する情報",
+    "organization": "泉南市",
+    "maxAmount": "支援制度を実施",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "泉南市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/business/shien/1458795196353.html",
+    "sourceName": "泉南市 利子補給に関する情報"
+  },
+  {
+    "slug": "osaka-official-006-095-2026",
+    "title": "泉南市 泉南市中小企業退職金共済掛金補助に関する情報",
+    "organization": "泉南市",
+    "maxAmount": "対象経費を補助・助成",
+    "maxAmountNum": 0,
+    "category": "business",
+    "relatedCategories": [
+      "living",
+      "employment"
+    ],
+    "eligibility": "泉南市内で対象事業・雇用・設備導入・創業等に取り組み、公式要件を満たす事業者等",
+    "applicationPeriod": "公式ページ記載の申請手続・受付状況に従う",
+    "officialUrl": "https://www.city.sennan.lg.jp/business/shien/1458795196299.html",
+    "sourceName": "泉南市 泉南市中小企業退職金共済掛金補助に関する情報"
+  }
+];
+

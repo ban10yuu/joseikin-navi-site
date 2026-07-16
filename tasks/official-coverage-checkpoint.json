@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-16T10:44:17+09:00",
+  "updatedAt": "2026-07-16T11:16:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "osaka-official-coverage-005",
-    "municipality": "和泉市・箕面市・柏原市・羽曳野市・門真市",
-    "adopted": 88,
+    "code": "osaka-official-coverage-006",
+    "municipality": "摂津市・高石市・藤井寺市・東大阪市・泉南市",
+    "adopted": 95,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 88,
+    "sourceUrlsChecked": 95,
     "validation": {
-      "previousMunicipality": "大阪府公式棚卸し005として27219和泉市・27220箕面市・27221柏原市・27222羽曳野市・27223門真市を確認し88件を採用。柏原市は旧ドメインが接続不能のため公式リダイレクト先のcity.kashiwara.lg.jpで補完した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "大阪府公式棚卸し006として27224摂津市・27225高石市・27226藤井寺市・27227東大阪市・27228泉南市を確認し95件を採用。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for osaka-official-coverage-005 JSON files",
-      "addedSlugUniqueness": "pass: 88 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 88 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for osaka-official-coverage-006 JSON files",
+      "addedSlugUniqueness": "pass: 95 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 95 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 17315, officialLinkedActive 17195, manuallyVerifiedActive 17195, 大阪府 localOfficial 468)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 17410, officialLinkedActive 17290, manuallyVerifiedActive 17290, 大阪府 localOfficial 563)"
     }
   },
   "next": {
-    "code": "osaka-official-coverage-006",
-    "municipality": "摂津市",
-    "shortlist": "大阪府005は和泉市29件、箕面市12件、柏原市16件、羽曳野市12件、門真市19件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、大阪府公式棚卸し006として27224摂津市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "osaka-official-coverage-007",
+    "municipality": "四條畷市",
+    "shortlist": "大阪府006は摂津市23件、高石市24件、藤井寺市13件、東大阪市19件、泉南市16件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、大阪府公式棚卸し007として27229四條畷市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "大阪府",
     "status": "in-progress-first-pass",
-    "lastBatch": "osaka-official-coverage-005",
-    "notes": "大阪府公式棚卸し005で和泉市・箕面市・柏原市・羽曳野市・門真市を確認し、88件を新規採用した。大阪府は27100大阪市から27223門真市まで第1巡到達。次は27224摂津市から再開する。"
+    "lastBatch": "osaka-official-coverage-006",
+    "notes": "大阪府公式棚卸し006で摂津市・高石市・藤井寺市・東大阪市・泉南市を確認し、95件を新規採用した。大阪府は27100大阪市から27228泉南市まで第1巡到達。次は27229四條畷市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

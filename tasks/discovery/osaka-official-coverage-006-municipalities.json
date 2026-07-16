@@ -1,0 +1,37 @@
+{
+  "batchId": "osaka-official-coverage-006",
+  "prefecture": "大阪府",
+  "createdAt": "2026-07-16T10:48:00+09:00",
+  "municipalities": [
+    {
+      "code": "27224",
+      "name": "摂津市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.settsu.osaka.jp/"
+    },
+    {
+      "code": "27225",
+      "name": "高石市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.takaishi.lg.jp/"
+    },
+    {
+      "code": "27226",
+      "name": "藤井寺市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.fujiidera.lg.jp/"
+    },
+    {
+      "code": "27227",
+      "name": "東大阪市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.higashiosaka.lg.jp/"
+    },
+    {
+      "code": "27228",
+      "name": "泉南市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.sennan.lg.jp/"
+    }
+  ]
+}
