@@ -1,0 +1,41 @@
+{
+  "batchId": "osaka-official-coverage-004",
+  "prefecture": "大阪府",
+  "completedAt": "2026-07-16T10:29:52+09:00",
+  "municipalities": [
+    {
+      "code": "27214",
+      "name": "富田林市",
+      "adopted": 12
+    },
+    {
+      "code": "27215",
+      "name": "寝屋川市",
+      "adopted": 12
+    },
+    {
+      "code": "27216",
+      "name": "河内長野市",
+      "adopted": 14
+    },
+    {
+      "code": "27217",
+      "name": "松原市",
+      "adopted": 15
+    },
+    {
+      "code": "27218",
+      "name": "大東市",
+      "adopted": 15
+    }
+  ],
+  "candidateCount": 1481,
+  "linkLeadCount": 68,
+  "adopted": 68,
+  "sourceUrlsChecked": 68,
+  "heldPolicy": "shortlistが150件超のためローカルスニペット再スコアを実施。トップ、カテゴリ導線、共通ナビ、通常行政案内、申請書PDF単体、外部制度のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。",
+  "next": {
+    "batchId": "osaka-official-coverage-005",
+    "start": "27219和泉市"
+  }
+}

@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-16T10:14:51+09:00",
+  "updatedAt": "2026-07-16T10:29:52+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "osaka-official-coverage-003",
-    "municipality": "守口市・枚方市・茨木市・八尾市・泉佐野市",
+    "code": "osaka-official-coverage-004",
+    "municipality": "富田林市・寝屋川市・河内長野市・松原市・大東市",
     "adopted": 68,
     "held": 0,
     "excluded": 0,
     "sourceUrlsChecked": 68,
     "validation": {
-      "previousMunicipality": "大阪府公式棚卸し003として27209守口市・27210枚方市・27211茨木市・27212八尾市・27213泉佐野市を確認し68件を採用。守口市・泉佐野市は公式カテゴリと公式サイトマップ・公式検索で補完した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "大阪府公式棚卸し004として27214富田林市・27215寝屋川市・27216河内長野市・27217松原市・27218大東市を確認し68件を採用。shortlistが150件超のためローカルスニペット再スコアを実施した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for osaka-official-coverage-003 JSON files",
+      "json": "pass: JSON.parse for osaka-official-coverage-004 JSON files",
       "addedSlugUniqueness": "pass: 68 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
       "urlReachability": "pass: 68 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 17159, officialLinkedActive 17039, manuallyVerifiedActive 17039, 大阪府 localOfficial 312)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 17227, officialLinkedActive 17107, manuallyVerifiedActive 17107, 大阪府 localOfficial 380)"
     }
   },
   "next": {
-    "code": "osaka-official-coverage-004",
-    "municipality": "富田林市",
-    "shortlist": "大阪府003は守口市10件、枚方市16件、茨木市12件、八尾市17件、泉佐野市13件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、大阪府公式棚卸し004として27214富田林市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "osaka-official-coverage-005",
+    "municipality": "和泉市",
+    "shortlist": "大阪府004は富田林市12件、寝屋川市12件、河内長野市14件、松原市15件、大東市15件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、大阪府公式棚卸し005として27219和泉市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "大阪府",
     "status": "in-progress-first-pass",
-    "lastBatch": "osaka-official-coverage-003",
-    "notes": "大阪府公式棚卸し003で守口市・枚方市・茨木市・八尾市・泉佐野市を確認し、68件を新規採用した。大阪府は27100大阪市から27213泉佐野市まで第1巡到達。次は27214富田林市から再開する。"
+    "lastBatch": "osaka-official-coverage-004",
+    "notes": "大阪府公式棚卸し004で富田林市・寝屋川市・河内長野市・松原市・大東市を確認し、68件を新規採用した。大阪府は27100大阪市から27218大東市まで第1巡到達。次は27219和泉市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

@@ -1,0 +1,37 @@
+{
+  "batchId": "osaka-official-coverage-004",
+  "prefecture": "大阪府",
+  "createdAt": "2026-07-16T10:18:00+09:00",
+  "municipalities": [
+    {
+      "code": "27214",
+      "name": "富田林市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.tondabayashi.lg.jp/"
+    },
+    {
+      "code": "27215",
+      "name": "寝屋川市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.neyagawa.osaka.jp/"
+    },
+    {
+      "code": "27216",
+      "name": "河内長野市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.kawachinagano.lg.jp/"
+    },
+    {
+      "code": "27217",
+      "name": "松原市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.matsubara.lg.jp/"
+    },
+    {
+      "code": "27218",
+      "name": "大東市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.daito.lg.jp/"
+    }
+  ]
+}
