@@ -10797,3 +10797,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 20052、officialLinkedActive 19931、manuallyVerifiedActive 19931、岡山県 localOfficial 177）
 - 到達点: 岡山県は33100岡山市から33205笠岡市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 岡山県公式棚卸し002として、33207井原市から再開
+
+### 岡山県公式棚卸し002（33207井原市・33208総社市・33209高梁市・33210新見市・33211備前市）
+- 実施日: 2026-07-17
+- 候補: 標準discoverは0件。公式sitemap、公式組織ページ、公式カテゴリ、公式制度一覧ページ、本文抽出から、公式HTML個別制度ページ・公式制度掲載ページ89本を採用
+- 採用: 89件（井原市18件、総社市18件、高梁市12件、新見市16件、備前市25件）
+- 公式URL: 採用URL到達確認は tasks/discovery/okayama-official-coverage-002-url-status.txt に記録（89本すべてHTTP 200）
+- 保留: 標準discoverが0件のため、公式カテゴリと公式制度一覧ページを補完。トップ、カテゴリ導線、共通ナビ、PDF単体、申請書単体、外部制度のみ、報告・広報・会議・採用情報、本文根拠が薄い候補、同一制度の重複ページは第2巡候補として保持。新見市は独自CMSのため、公式カテゴリトップと business_detail / kurashi_detail の個別制度URLを優先して採用
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 20141、officialLinkedActive 20020、manuallyVerifiedActive 20020、岡山県 localOfficial 266）
+- 到達点: 岡山県は33100岡山市から33211備前市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 岡山県公式棚卸し003として、33212瀬戸内市から再開

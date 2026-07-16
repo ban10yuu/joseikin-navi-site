@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T03:45:24+09:00",
+  "updatedAt": "2026-07-17T04:06:46+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "okayama-official-coverage-001",
-    "municipality": "岡山市・倉敷市・津山市・玉野市・笠岡市",
-    "adopted": 100,
+    "code": "okayama-official-coverage-002",
+    "municipality": "井原市・総社市・高梁市・新見市・備前市",
+    "adopted": 89,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 100,
+    "sourceUrlsChecked": 89,
     "validation": {
-      "previousMunicipality": "岡山県公式棚卸し001として33100岡山市・33202倉敷市・33203津山市・33204玉野市・33205笠岡市を確認し100件を採用。岡山県は33205笠岡市まで第1巡到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "岡山県公式棚卸し002として33207井原市・33208総社市・33209高梁市・33210新見市・33211備前市を確認し89件を採用。岡山県は33211備前市まで第1巡到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for okayama-official-coverage-001 JSON files",
-      "addedSlugUniqueness": "pass: 100 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 100 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for okayama-official-coverage-002 JSON files",
+      "addedSlugUniqueness": "pass: 89 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 89 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 20052、officialLinkedActive 19931、manuallyVerifiedActive 19931、岡山県 localOfficial 177)",
-      "notes": "津山市公式記事はSPA構成のため、ローカルfetch本文は公式アプリシェルのみ。公式URL到達と公式検索インデックス上の制度本文スニペットを根拠として採用し、次巡で再到達確認する。"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 20141、officialLinkedActive 20020、manuallyVerifiedActive 20020、岡山県 localOfficial 266)",
+      "notes": "標準discoverは0件。公式sitemap、公式組織ページ、公式カテゴリ、公式制度一覧ページから制度語リンクを補完。新見市は独自CMSのため、公式カテゴリトップと business_detail / kurashi_detail の個別制度URLを優先した。"
     }
   },
   "next": {
-    "code": "okayama-official-coverage-002",
-    "municipality": "井原市",
-    "shortlist": "岡山県001は標準discoverが0件だったため、公式カテゴリ、公式サイト内検索インデックス、公式sitemap、公式組織ページ、本文スニペット再スコアで制度語リンクを補完し、公式HTML個別制度ページ・公式制度掲載ページ100本へ絞った。津山市はSPA構成のため公式検索インデックス本文も根拠にした。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、岡山県公式棚卸し002として33207井原市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "okayama-official-coverage-003",
+    "municipality": "瀬戸内市",
+    "shortlist": "岡山県002は標準discoverが0件だったため、公式カテゴリ、公式制度一覧、公式組織ページ、公式sitemapから制度語リンクを補完し、公式HTML個別制度ページ・公式制度掲載ページ89本へ絞った。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、岡山県公式棚卸し003として33212瀬戸内市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "岡山県",
     "status": "in-progress-first-pass",
-    "lastBatch": "okayama-official-coverage-001",
-    "notes": "岡山県公式棚卸し001で33100岡山市・33202倉敷市・33203津山市・33204玉野市・33205笠岡市を確認し、100件を新規採用。次は33207井原市から再開する。"
+    "lastBatch": "okayama-official-coverage-002",
+    "notes": "岡山県公式棚卸し002で33207井原市・33208総社市・33209高梁市・33210新見市・33211備前市を確認し、89件を新規採用。次は33212瀬戸内市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
