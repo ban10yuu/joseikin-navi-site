@@ -38,7 +38,7 @@ export const AFFILIATE_OFFERS: AffiliateOffer[] = [
     blockedPurposes: SENSITIVE_PURPOSES, allowedPageTypes: ['home', 'grant', 'businessGuide'],
     validFrom: '2026-07-15', validUntil: null, verifiedAt: '2026-07-15',
     disclosureText: '以下にはアフィリエイトリンクが含まれます。申込みが発生した場合、当サイトが紹介料を受け取ることがあります。',
-    buttonText: 'サービスの詳細を見る（PR）', trackingId: '038',
+    buttonText: 'サービスを見る', trackingId: '038',
     externalProgramId: 's00000017718057', partnershipStatus: 'partnered', priority: 30,
   },
   {
@@ -49,7 +49,7 @@ export const AFFILIATE_OFFERS: AffiliateOffer[] = [
     blockedPurposes: SENSITIVE_PURPOSES, allowedPageTypes: ['home', 'grant', 'businessGuide'],
     validFrom: null, validUntil: null, verifiedAt: '2026-07-15',
     disclosureText: '以下にはアフィリエイトリンクが含まれます。申込みが発生した場合、当サイトが紹介料を受け取ることがあります。',
-    buttonText: 'サービスの詳細を見る（PR）', trackingId: null,
+    buttonText: 'サービスを見る', trackingId: null,
     externalProgramId: 's00000023202005', partnershipStatus: 'applied', priority: 20,
   },
   {
@@ -60,7 +60,7 @@ export const AFFILIATE_OFFERS: AffiliateOffer[] = [
     blockedPurposes: SENSITIVE_PURPOSES, allowedPageTypes: ['home', 'grant', 'businessGuide'],
     validFrom: '2026-07-15', validUntil: null, verifiedAt: '2026-07-15',
     disclosureText: '以下にはアフィリエイトリンクが含まれます。申込みが発生した場合、当サイトが紹介料を受け取ることがあります。',
-    buttonText: 'サービスの詳細を見る（PR）', trackingId: '002',
+    buttonText: 'サービスを見る', trackingId: '002',
     externalProgramId: 's00000017718069', partnershipStatus: 'partnered', priority: 10,
   },
 ];
