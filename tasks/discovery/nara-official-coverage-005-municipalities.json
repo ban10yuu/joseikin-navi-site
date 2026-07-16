@@ -1,0 +1,35 @@
+{
+  "batchId": "nara-official-coverage-005",
+  "municipalities": [
+    {
+      "code": "29363",
+      "name": "田原本町",
+      "prefecture": "奈良県",
+      "officialBaseUrl": "https://www.town.tawaramoto.nara.jp/"
+    },
+    {
+      "code": "29385",
+      "name": "曽爾村",
+      "prefecture": "奈良県",
+      "officialBaseUrl": "https://www.vill.soni.nara.jp/"
+    },
+    {
+      "code": "29386",
+      "name": "御杖村",
+      "prefecture": "奈良県",
+      "officialBaseUrl": "https://www.vill.mitsue.nara.jp/"
+    },
+    {
+      "code": "29401",
+      "name": "高取町",
+      "prefecture": "奈良県",
+      "officialBaseUrl": "https://www.town.takatori.nara.jp/"
+    },
+    {
+      "code": "29402",
+      "name": "明日香村",
+      "prefecture": "奈良県",
+      "officialBaseUrl": "https://www.asukamura.jp/"
+    }
+  ]
+}

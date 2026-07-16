@@ -10606,3 +10606,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18489、officialLinkedActive 18368、manuallyVerifiedActive 18368、奈良県 localOfficial 265）
 - 到達点: 奈良県は29201奈良市から29362三宅町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 奈良県公式棚卸し005として、29363田原本町から再開
+
+### 奈良県公式棚卸し005（29363田原本町・29385曽爾村・29386御杖村・29401高取町・29402明日香村）
+- 実施日: 2026-07-16
+- 候補: 506件（公式サイト内リンクリード数は nara-official-coverage-005-link-leads.json に記録、本文再スコア後に個別公式ページ65本を採用）
+- 採用: 65件（田原本町15件、曽爾村12件、御杖村18件、高取町12件、明日香村8件）
+- 公式URL: 採用URL到達確認は tasks/discovery/nara-official-coverage-005-url-status.txt に記録（65本すべてHTTP 200）
+- 保留: 通常候補506件に加え公式サイト内リンクを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。RSS、カテゴリ導線、広報、申請書添付単体、受付終了のみ、寄附・観光、職員募集、プロポーザル、本文根拠が薄い候補は第2巡候補として保持。高取町はカテゴリページから公式HTML個別制度ページを確認して採用対象を補完
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18554、officialLinkedActive 18433、manuallyVerifiedActive 18433、奈良県 localOfficial 330）
+- 到達点: 奈良県は29201奈良市から29402明日香村まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 奈良県公式棚卸し006として、29424上牧町から再開

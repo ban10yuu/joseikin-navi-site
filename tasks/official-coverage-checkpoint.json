@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-16T21:55:00+09:00",
+  "updatedAt": "2026-07-16T20:24:37+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nara-official-coverage-004",
-    "municipality": "三郷町・斑鳩町・安堵町・川西町・三宅町",
-    "adopted": 75,
+    "code": "nara-official-coverage-005",
+    "municipality": "田原本町・曽爾村・御杖村・高取町・明日香村",
+    "adopted": 65,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 75,
+    "sourceUrlsChecked": 65,
     "validation": {
-      "previousMunicipality": "奈良県公式棚卸し004として29343三郷町・29344斑鳩町・29345安堵町・29361川西町・29362三宅町を確認し75件を採用。全国公式棚卸しは未完了。",
+      "previousMunicipality": "奈良県公式棚卸し005として29363田原本町・29385曽爾村・29386御杖村・29401高取町・29402明日香村を確認し65件を採用。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for nara-official-coverage-004 JSON files",
-      "addedSlugUniqueness": "pass: 75 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 75 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for nara-official-coverage-005 JSON files",
+      "addedSlugUniqueness": "pass: 65 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 65 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 18489, officialLinkedActive 18368, manuallyVerifiedActive 18368, 奈良県 localOfficial 265)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 18554、officialLinkedActive 18433、manuallyVerifiedActive 18433、奈良県 localOfficial 330)"
     }
   },
   "next": {
-    "code": "nara-official-coverage-005",
-    "municipality": "田原本町",
-    "shortlist": "奈良県004は三郷町15件、斑鳩町18件、安堵町15件、川西町15件、三宅町12件を採用した。通常クロール1762候補に加え公式サイト内リンクリード19517件を抽出し、RSS、カテゴリ導線、添付ファイル単体、終了ページ、寄附・観光、プロポーザルを除き個別制度ページ75件へ絞った。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、奈良県公式棚卸し005として29363田原本町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "nara-official-coverage-006",
+    "municipality": "上牧町",
+    "shortlist": "奈良県005は田原本町15件、曽爾村12件、御杖村18件、高取町12件、明日香村8件を採用した。通常候補506件に加え公式サイト内リンクを展開し、RSS、カテゴリ導線、広報、申請書添付単体、受付終了のみ、寄附・観光、職員募集、プロポーザル、本文根拠が薄い候補を除き個別制度ページ65件へ絞った。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、奈良県公式棚卸し006として29424上牧町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "奈良県",
     "status": "in-progress-first-pass",
-    "lastBatch": "nara-official-coverage-004",
-    "notes": "奈良県公式棚卸し004で29343三郷町・29344斑鳩町・29345安堵町・29361川西町・29362三宅町を確認し、75件を新規採用した。奈良県は29201奈良市から29362三宅町まで第1巡到達。次は29363田原本町から再開する。"
+    "lastBatch": "nara-official-coverage-005",
+    "notes": "奈良県公式棚卸し005で29363田原本町・29385曽爾村・29386御杖村・29401高取町・29402明日香村を確認し、65件を新規採用した。奈良県は29201奈良市から29402明日香村まで第1巡到達。次は29424上牧町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
