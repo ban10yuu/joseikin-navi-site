@@ -10919,3 +10919,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 21081、officialLinkedActive 20960、manuallyVerifiedActive 20960、山口県 localOfficial 255）
 - 到達点: 山口県は35201下関市から35212柳井市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 山口県公式棚卸し003として、35213美祢市から再開
+
+### 山口県公式棚卸し003（35213美祢市・35215周南市・35216山陽小野田市・35305周防大島町・35321和木町）
+- 実施日: 2026-07-17
+- 候補: 標準discoverは0件。公式sitemap本文スキャン、公式カテゴリページ、既存公式確認URL、公式検索結果、公式制度一覧ページを補完し、公式HTML個別制度ページ・公式制度掲載ページ61本を採用
+- 採用: 61件（美祢市12件、周南市19件、山陽小野田市12件、周防大島町6件、和木町12件）
+- 公式URL: 採用URL到達確認は tasks/discovery/yamaguchi-official-coverage-003-url-status.txt に記録（61本すべてHTTP 200）
+- 保留: 標準discoverが0件で、美祢市・山陽小野田市・和木町はsitemap本文スコアが低かったため、公式検索結果と公式制度カテゴリを補完。美祢市は補助金一覧・住宅・商工・奨学金・福祉給付、周南市は子育て支援・医療・住宅・移住・就学援助、山陽小野田市は住宅・移住創業・不妊不育・防災・融資、周防大島町は生活応援給付・結婚新生活・移住・空家・創業・子育て一覧、和木町は教育助成・奨学金・創業・住宅・防災防犯カテゴリを起点に確認。トップ、カテゴリ導線、共通ナビ、FAQ、申請書・PDF単体、広報・報告・相談・採用・外部制度のみ、本文根拠が薄い候補、同一制度の重複ページは第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 21142、officialLinkedActive 21021、manuallyVerifiedActive 21021、山口県 localOfficial 316）
+- 到達点: 山口県は35201下関市から35321和木町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 山口県公式棚卸し004として、35341上関町から再開

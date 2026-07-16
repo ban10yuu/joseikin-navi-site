@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T06:40:00+09:00",
+  "updatedAt": "2026-07-17T07:45:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "yamaguchi-official-coverage-002",
-    "municipality": "下松市・岩国市・光市・長門市・柳井市",
-    "adopted": 79,
+    "code": "yamaguchi-official-coverage-003",
+    "municipality": "美祢市・周南市・山陽小野田市・周防大島町・和木町",
+    "adopted": 61,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 79,
+    "sourceUrlsChecked": 61,
     "validation": {
-      "previousMunicipality": "山口県公式棚卸し002として35207下松市・35208岩国市・35210光市・35211長門市・35212柳井市を確認し79件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/yamaguchi-official-coverage-002 build/gather scripts",
-      "json": "pass: JSON.parse for yamaguchi-official-coverage-002 JSON files",
-      "addedSlugUniqueness": "pass: 79 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 79 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "previousMunicipality": "山口県公式棚卸し003として35213美祢市・35215周南市・35216山陽小野田市・35305周防大島町・35321和木町を確認し61件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/yamaguchi-official-coverage-003 build/gather scripts",
+      "json": "pass: JSON.parse for yamaguchi-official-coverage-003 JSON files",
+      "addedSlugUniqueness": "pass: 61 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 61 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 21081、officialLinkedActive 20960、manuallyVerifiedActive 20960、山口県 localOfficial 255)",
-      "notes": "標準discoverは0件。公式カテゴリページ、公式sitemap本文再スコア、公式サイト内リンク、既存公式確認URL、本文スニペット再スコアを補完。shortlistが160件のため本文スニペット付き候補を第2巡台帳に保持し、トップ、カテゴリ導線、共通ナビ、FAQ、申請書・PDF単体、広報・報告・相談・採用・外部制度のみは第2巡候補に保持した。"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 21142、officialLinkedActive 21021、manuallyVerifiedActive 21021、山口県 localOfficial 316)",
+      "notes": "標準discoverは0件。公式sitemap本文スキャン、公式カテゴリページ、既存公式確認URL、公式検索結果、公式制度一覧ページを補完。トップ、カテゴリ導線、共通ナビ、FAQ、申請書・PDF単体、広報・報告・相談・採用・外部制度のみは第2巡候補に保持した。"
     }
   },
   "next": {
-    "code": "yamaguchi-official-coverage-003",
-    "municipality": "美祢市",
-    "shortlist": "山口県002で下松市・岩国市・光市・長門市・柳井市を確認。次は山口県の自治体コード順で35213美祢市から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、山口県公式棚卸し003として35213美祢市を開始地点に自治体コード順で再開する。想定対象は35213美祢市・35215周南市・35216山陽小野田市・35305周防大島町・35321和木町。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "yamaguchi-official-coverage-004",
+    "municipality": "上関町",
+    "shortlist": "山口県003で美祢市・周南市・山陽小野田市・周防大島町・和木町を確認。次は山口県の自治体コード順で35341上関町から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、山口県公式棚卸し004として35341上関町を開始地点に自治体コード順で再開する。想定対象は35341上関町・35343田布施町・35344平生町・35502阿武町。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "山口県",
     "status": "in-progress-first-pass",
-    "lastBatch": "yamaguchi-official-coverage-002",
-    "notes": "山口県公式棚卸し002で35207下松市・35208岩国市・35210光市・35211長門市・35212柳井市を確認し、79件を新規採用。次は35213美祢市から再開する。"
+    "lastBatch": "yamaguchi-official-coverage-003",
+    "notes": "山口県公式棚卸し003で35213美祢市・35215周南市・35216山陽小野田市・35305周防大島町・35321和木町を確認し、61件を新規採用。次は35341上関町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

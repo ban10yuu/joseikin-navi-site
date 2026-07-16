@@ -1,0 +1,914 @@
+const yamaguchiOfficial003Grants: Array<{
+  slug: string;
+  title: string;
+  organization: string;
+  maxAmount: string;
+  maxAmountNum: number;
+  category: Grant['category'];
+  relatedCategories?: Grant['relatedCategories'];
+  eligibility: string;
+  applicationPeriod: string;
+  officialUrl: string;
+  sourceName: string;
+}> = [
+  {
+    "slug": "yamaguchi-official-003-001-2026",
+    "title": "美祢市 補助金・助成金一覧 - 暮らし",
+    "organization": "美祢市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "美祢市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年03月05日 受付終了】住宅リフォームに助成します 環境 その他 犬・猫避妊手術等補助金制度 サイト内検索 補助金一覧-個別ページ 美祢市役所 〒759-2292 山口県美祢市大嶺町東分326-1 電話番号:0837-52-1110 ファ",
+    "officialUrl": "https://www2.city.mine.lg.jp/soshiki/sogoseisakubu/suishinshitsu/koho_kocho/grant_individual/10713.html",
+    "sourceName": "補助金・助成金一覧 - 暮らし"
+  },
+  {
+    "slug": "yamaguchi-official-003-002-2026",
+    "title": "美祢市 美祢市危険家屋除却推進事業補助金",
+    "organization": "美祢市",
+    "maxAmount": "限度額100万円",
+    "maxAmountNum": 1000000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美祢市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年04月01日 申請者の条件 次のいずれにも該当する方又は法人 補助対象となる危険家屋等を所有している方（相続人を含みます",
+    "officialUrl": "https://www2.city.mine.lg.jp/soshiki/norinbu/kensetsuka/sangyo/1952.html",
+    "sourceName": "美祢市危険家屋除却推進事業補助金"
+  },
+  {
+    "slug": "yamaguchi-official-003-003-2026",
+    "title": "美祢市 住宅リフォームに助成します",
+    "organization": "美祢市",
+    "maxAmount": "上限10万円",
+    "maxAmountNum": 100000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美祢市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年07月08日 受付終了】住宅リフォームに助成します／美祢市ホームページ 本文へ 文字サイズ 背景色変更 Foreign language 閲覧支援 くらし・手続き 健康・福祉・感染症 子育て・教育 観光・文化財 ・ジオパーク しごと・産業",
+    "officialUrl": "https://www2.city.mine.lg.jp/soshiki/kankoshokobu/shokorodoka/sumai/5977.html",
+    "sourceName": "住宅リフォームに助成します"
+  },
+  {
+    "slug": "yamaguchi-official-003-004-2026",
+    "title": "美祢市 美祢あきない活性化応援事業補助金",
+    "organization": "美祢市",
+    "maxAmount": "補助金額1補助対象者につき、上限額100万円",
+    "maxAmountNum": 1000000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美祢市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年05月01日 申請額が予算上限額に達したため、受付を終了いたしました",
+    "officialUrl": "https://www2.city.mine.lg.jp/soshiki/kankoshokobu/shokorodoka/sangyo/shokogyo/sougyoushoukeishien/9300.html",
+    "sourceName": "美祢あきない活性化応援事業補助金"
+  },
+  {
+    "slug": "yamaguchi-official-003-005-2026",
+    "title": "美祢市 民泊事業を含む観光事業者支援事業",
+    "organization": "美祢市",
+    "maxAmount": "補助金額施設改修にかかった請負費の2分の1（最大200万円",
+    "maxAmountNum": 2000000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美祢市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年05月01日 申請期限 令和8年6月30日（火曜日） 申請先 美祢市観光政策課 申請期間終了後、事業内容等を審査し、補助対象者を決定します",
+    "officialUrl": "https://www2.city.mine.lg.jp/soshiki/kankoshokobu/shinkoka/9364.html",
+    "sourceName": "民泊事業を含む観光事業者支援事業"
+  },
+  {
+    "slug": "yamaguchi-official-003-006-2026",
+    "title": "美祢市 美祢市多様な人材確保応援事業補助金",
+    "organization": "美祢市",
+    "maxAmount": "補助金額対象経費の1/2以内（上限額は次のとおり）人材確保事業20万円",
+    "maxAmountNum": 200000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美祢市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年04月01日 交付の申請時において、市内に事業所を有し、かつ、市内で事業活動を営む者であって、引き続き市内において事業を継続する意思があること",
+    "officialUrl": "https://www2.city.mine.lg.jp/soshiki/kankoshokobu/shokorodoka/rodo_koyo/11877.html",
+    "sourceName": "美祢市多様な人材確保応援事業補助金"
+  },
+  {
+    "slug": "yamaguchi-official-003-007-2026",
+    "title": "美祢市 美祢市奨学金返還支援補助金",
+    "organization": "美祢市",
+    "maxAmount": "補助金額奨学金の実返済額（年間上限20万円",
+    "maxAmountNum": 200000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美祢市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2025年11月10日 交付申請候補者の認定を受けた人 ※在学中に申請を行い、交付申請候補者の認定を受ける必要があります",
+    "officialUrl": "https://www2.city.mine.lg.jp/soshiki/kankoshokobu/shokorodoka/rodo_koyo/11258.html",
+    "sourceName": "美祢市奨学金返還支援補助金"
+  },
+  {
+    "slug": "yamaguchi-official-003-008-2026",
+    "title": "美祢市 美祢市奨学金制度",
+    "organization": "美祢市",
+    "maxAmount": "月額私立高等学校在学生20,000円",
+    "maxAmountNum": 20000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美祢市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2025年04月25日 申請について 高等学校、大学及び高等専門学校に在学又は入学予定で、学資の支出が困難な生徒に対して、奨学金の貸付を行います",
+    "officialUrl": "https://www2.city.mine.lg.jp/soshiki/kyoiku/gakko/koutougakkou/5360.html",
+    "sourceName": "美祢市奨学金制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-009-2026",
+    "title": "美祢市 美祢市看護師・准看護師奨学金貸付制度",
+    "organization": "美祢市",
+    "maxAmount": "月額5万円",
+    "maxAmountNum": 50000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美祢市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年05月11日 募集）／美祢市ホームページ 本文へ 文字サイズ 背景色変更 Foreign language 閲覧支援 くらし・手続き 健康・福祉・感染症 子育て・教育 観光・文化財 ・ジオパーク しごと・産業 ・まちづくり 行政情報 メニ",
+    "officialUrl": "https://www2.city.mine.lg.jp/soshiki/shiminfukushibu/kenkozoshinka/shogakukin/5898.html",
+    "sourceName": "美祢市看護師・准看護師奨学金貸付制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-010-2026",
+    "title": "美祢市 就学援助制度",
+    "organization": "美祢市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美祢市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年01月28日 支給（全部支給の場合のみ） 生活福祉基金による貸付 当該年度、保護者が失業対策事業適用者手帳を有する日雇労働者又は職業安定所登録日雇労働者 児童・生徒が属する世帯の前年中収入が生活保護基準の1.3倍以内 認定の目安 世帯人数",
+    "officialUrl": "https://www2.city.mine.lg.jp/soshiki/kyoiku/gakko/shouchuu/tetsuduki/5894.html",
+    "sourceName": "就学援助制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-011-2026",
+    "title": "美祢市 国民健康保険その他の給付",
+    "organization": "美祢市",
+    "maxAmount": "支給額は一児につき50万円",
+    "maxAmountNum": 500000,
+    "category": "living",
+    "relatedCategories": [
+      "medical"
+    ],
+    "eligibility": "美祢市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年09月01日 申請すれば、給付を受けることができます",
+    "officialUrl": "https://www2.city.mine.lg.jp/soshiki/shiminfukushibu/shiminka/hoken_nenkin/hoken/kyufu/6298.html",
+    "sourceName": "国民健康保険その他の給付"
+  },
+  {
+    "slug": "yamaguchi-official-003-012-2026",
+    "title": "美祢市 市民生活支援商品券配布事業",
+    "organization": "美祢市",
+    "maxAmount": "1人につき8千円（1,000円",
+    "maxAmountNum": 1000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美祢市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年06月15日 交付金を活用し、市民全員にカルストさくらギフト券を配布します",
+    "officialUrl": "https://www2.city.mine.lg.jp/soshiki/shiminfukushibu/fukushi/chiikifukushihan/fukushi/12882.html",
+    "sourceName": "市民生活支援商品券配布事業"
+  },
+  {
+    "slug": "yamaguchi-official-003-013-2026",
+    "title": "周南市 周南市高校生通学定期券購入補助制度",
+    "organization": "周南市",
+    "maxAmount": "補助金額路線バスまたは離島航路の通学定期券購入額から一月あたり9,000円",
+    "maxAmountNum": 9000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "周南市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年2月17日 申請書類は保護者が提出する必要があります",
+    "officialUrl": "https://www.city.shunan.lg.jp/site/kodomosien/111625.html",
+    "sourceName": "周南市高校生通学定期券購入補助制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-014-2026",
+    "title": "周南市 妊婦のための支援給付",
+    "organization": "周南市",
+    "maxAmount": "1人あたり5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "周南市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月27日 支給します",
+    "officialUrl": "https://www.city.shunan.lg.jp/site/kodomosien/129290.html",
+    "sourceName": "妊婦のための支援給付"
+  },
+  {
+    "slug": "yamaguchi-official-003-015-2026",
+    "title": "周南市 不妊治療費助成制度",
+    "organization": "周南市",
+    "maxAmount": "上限は1万円",
+    "maxAmountNum": 10000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "周南市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請をされる場合は、以下を参考にされてください",
+    "officialUrl": "https://www.city.shunan.lg.jp/site/kodomosien/2003.html",
+    "sourceName": "不妊治療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-016-2026",
+    "title": "周南市 母子父子寡婦福祉資金貸付制度",
+    "organization": "周南市",
+    "maxAmount": "公式ページ記載の貸付額・貸付条件に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "周南市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年1月30日 申請手続き等 申請は、子育て給付課でご相談の上、受け付けています",
+    "officialUrl": "https://www.city.shunan.lg.jp/site/kodomosien/2719.html",
+    "sourceName": "母子父子寡婦福祉資金貸付制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-017-2026",
+    "title": "周南市 児童扶養手当",
+    "organization": "周南市",
+    "maxAmount": "1人のとき全部支給月額48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "周南市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 支給される手当です",
+    "officialUrl": "https://www.city.shunan.lg.jp/site/kodomosien/2724.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "yamaguchi-official-003-018-2026",
+    "title": "周南市 不育症治療費助成制度",
+    "organization": "周南市",
+    "maxAmount": "助成額1年度20万円",
+    "maxAmountNum": 200000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "周南市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 交付を受けている場合は、20万円から該当交付額を差し引いた額を上限とします",
+    "officialUrl": "https://www.city.shunan.lg.jp/site/kodomosien/34277.html",
+    "sourceName": "不育症治療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-019-2026",
+    "title": "周南市 遺児福祉手当制度",
+    "organization": "周南市",
+    "maxAmount": "1人につき年額30,000円",
+    "maxAmountNum": 30000,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "周南市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年1月30日 支給します",
+    "officialUrl": "https://www.city.shunan.lg.jp/site/kodomosien/66684.html",
+    "sourceName": "遺児福祉手当制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-020-2026",
+    "title": "周南市 こども医療費助成制度",
+    "organization": "周南市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "周南市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請日の属する月の初日です",
+    "officialUrl": "https://www.city.shunan.lg.jp/site/kodomosien/2725.html",
+    "sourceName": "こども医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-021-2026",
+    "title": "周南市 第2子以降の保育料無償化",
+    "organization": "周南市",
+    "maxAmount": "月額助成）上限額助成対象施設クラス年齢助成上限額認可外保育施設０～２歳児４２，０００円",
+    "maxAmountNum": 42000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "周南市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年11月4日 申請により市が保護者へ支払うことをいいます",
+    "officialUrl": "https://www.city.shunan.lg.jp/soshiki/30/120543.html",
+    "sourceName": "第2子以降の保育料無償化"
+  },
+  {
+    "slug": "yamaguchi-official-003-022-2026",
+    "title": "周南市 重度心身障害者医療",
+    "organization": "周南市",
+    "maxAmount": "上限月額2,500円",
+    "maxAmountNum": 2500,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "周南市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年12月2日 申請に必要なもの 医師意見書 ※意見書の有効期限は3ヶ月です",
+    "officialUrl": "https://www.city.shunan.lg.jp/soshiki/27/2937.html",
+    "sourceName": "重度心身障害者医療"
+  },
+  {
+    "slug": "yamaguchi-official-003-023-2026",
+    "title": "周南市 高齢者バス・タクシー運賃助成券",
+    "organization": "周南市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "周南市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月30日 交付について - 山口県周南市 ページの先頭です",
+    "officialUrl": "https://www.city.shunan.lg.jp/soshiki/25/116171.html",
+    "sourceName": "高齢者バス・タクシー運賃助成券"
+  },
+  {
+    "slug": "yamaguchi-official-003-024-2026",
+    "title": "周南市 戸建住宅ZEH普及促進補助金",
+    "organization": "周南市",
+    "maxAmount": "10万円を限度",
+    "maxAmountNum": 100000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "周南市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請受付期間：令和8年4月1日（水曜日）～令和9年3 月31日（水曜日） ※受付期間内であっても、先着順のため、予算に達した時点で受付を終了する場合があります",
+    "officialUrl": "https://www.city.shunan.lg.jp/soshiki/18/84136.html",
+    "sourceName": "戸建住宅ZEH普及促進補助金"
+  },
+  {
+    "slug": "yamaguchi-official-003-025-2026",
+    "title": "周南市 人間ドックの受診助成",
+    "organization": "周南市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "周南市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月7日 交付(再交付) 保険年金課（0834-22-8309）へご連絡ください",
+    "officialUrl": "https://www.city.shunan.lg.jp/soshiki/23/4128.html",
+    "sourceName": "人間ドックの受診助成"
+  },
+  {
+    "slug": "yamaguchi-official-003-026-2026",
+    "title": "周南市 空き家リフォーム事業補助金",
+    "organization": "周南市",
+    "maxAmount": "補助金額補助対象事業費補助率交付限度額補助対象事業に要する経費（消費税等相当額を除く）補助対象事業費の2分の1以内の額基礎額・・・500,000円",
+    "maxAmountNum": 500000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "周南市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年5月1日 受付期間 令和8年5月8日（金曜日）から10月30日（金曜日）まで 募集件数 8件程度（先着順） ※予算額に達した時点で募集を締め切ります",
+    "officialUrl": "https://www.city.shunan.lg.jp/soshiki/36/84066.html",
+    "sourceName": "空き家リフォーム事業補助金"
+  },
+  {
+    "slug": "yamaguchi-official-003-027-2026",
+    "title": "周南市 介護保険住宅改修費",
+    "organization": "周南市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "周南市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年1月1日 支給は、利用者本人がいったん費用の全額（10割）を事業者へ支払い、その後に市に申請をして保険給付分（7割～9割）の支給を受ける「償還払い」を原則としています",
+    "officialUrl": "https://www.city.shunan.lg.jp/soshiki/25/137287.html",
+    "sourceName": "介護保険住宅改修費"
+  },
+  {
+    "slug": "yamaguchi-official-003-028-2026",
+    "title": "周南市 未来人材奨学金返還支援事業 ミライト",
+    "organization": "周南市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "周南市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月16日 申請について 1年間の実績に基づいて補助金を交付するため、毎年申請を行ってください",
+    "officialUrl": "https://www.city.shunan.lg.jp/soshiki/106/99196.html",
+    "sourceName": "未来人材奨学金返還支援事業 ミライト"
+  },
+  {
+    "slug": "yamaguchi-official-003-029-2026",
+    "title": "周南市 就学援助制度",
+    "organization": "周南市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "周南市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年2月10日 申請方法など） - 山口県周南市 ページの先頭です",
+    "officialUrl": "https://www.city.shunan.lg.jp/site/kodomosien/80981.html",
+    "sourceName": "就学援助制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-030-2026",
+    "title": "周南市 創生テレワーク移住支援金",
+    "organization": "周南市",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "周南市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 交付します 制度の概要 東京圏（※1）、愛知県、京都府、大阪府、兵庫県、岡山県、広島県または福岡県からの移住促進を図ることを目的に、これらの地域から周南市にテレワーク移住された方の経済的負担を軽減するため、要件を満たした方を",
+    "officialUrl": "https://www.city.shunan.lg.jp/soshiki/101/112850.html",
+    "sourceName": "創生テレワーク移住支援金"
+  },
+  {
+    "slug": "yamaguchi-official-003-031-2026",
+    "title": "周南市 給水施設等補助制度",
+    "organization": "周南市",
+    "maxAmount": "30万円を限度",
+    "maxAmountNum": 300000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "周南市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2017年5月10日 申請前に環境政策課までお問合せください",
+    "officialUrl": "https://www.city.shunan.lg.jp/soshiki/18/1338.html",
+    "sourceName": "給水施設等補助制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-032-2026",
+    "title": "山陽小野田市 住宅リフォーム資金助成事業",
+    "organization": "山陽小野田市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "山陽小野田市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請 駐輪場・駐車場 上下水道 水道 下水道 移住・地域おこし協力隊 制度・体験 地域おこし協力隊 子育て・健康・福祉 子育て支援 妊娠・出産 保育園・幼稚園 児童クラブ 児童館 乳幼児健診 子どもの予防接種 ひとり親支援 ",
+    "officialUrl": "https://www.city.sanyo-onoda.lg.jp/soshiki/28/zyuutaku-reform1.html",
+    "sourceName": "住宅リフォーム資金助成事業"
+  },
+  {
+    "slug": "yamaguchi-official-003-033-2026",
+    "title": "山陽小野田市 移住就業創業支援事業",
+    "organization": "山陽小野田市",
+    "maxAmount": "最大１００万円",
+    "maxAmountNum": 1000000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "山陽小野田市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年6月30日 申請 駐輪場・駐車場 上下水道 水道 下水道 移住・地域おこし協力隊 制度・体験 地域おこし協力隊 子育て・健康・福祉 子育て支援 妊娠・出産 保育園・幼稚園 児童クラブ 児童館 乳幼児健診 子どもの予防接種 ひとり親支援 ",
+    "officialUrl": "https://www.city.sanyo-onoda.lg.jp/soshiki/81/ijuusougyou.html",
+    "sourceName": "移住就業創業支援事業"
+  },
+  {
+    "slug": "yamaguchi-official-003-034-2026",
+    "title": "山陽小野田市 妊婦のための支援給付",
+    "organization": "山陽小野田市",
+    "maxAmount": "1人あたり5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "山陽小野田市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請 駐輪場・駐車場 上下水道 水道 下水道 移住・地域おこし協力隊 制度・体験 地域おこし協力隊 子育て・健康・福祉 子育て支援 妊娠・出産 保育園・幼稚園 児童クラブ 児童館 乳幼児健診 子どもの予防接種 ひとり親支援 ",
+    "officialUrl": "https://www.city.sanyo-onoda.lg.jp/site/kosodateiine/ninpukyuuhu.html",
+    "sourceName": "妊婦のための支援給付"
+  },
+  {
+    "slug": "yamaguchi-official-003-035-2026",
+    "title": "山陽小野田市 一般不妊治療費助成制度",
+    "organization": "山陽小野田市",
+    "maxAmount": "助成額1年度あたり3万円",
+    "maxAmountNum": 30000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "山陽小野田市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請 駐輪場・駐車場 上下水道 水道 下水道 移住・地域おこし協力隊 制度・体験 地域おこし協力隊 子育て・健康・福祉 子育て支援 妊娠・出産 保育園・幼稚園 児童クラブ 児童館 乳幼児健診 子どもの予防接種 ひとり親支援 ",
+    "officialUrl": "https://www.city.sanyo-onoda.lg.jp/site/kosodateiine/ippannfuninn.html",
+    "sourceName": "一般不妊治療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-036-2026",
+    "title": "山陽小野田市 人工授精費助成制度",
+    "organization": "山陽小野田市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "山陽小野田市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請 駐輪場・駐車場 上下水道 水道 下水道 移住・地域おこし協力隊 制度・体験 地域おこし協力隊 子育て・健康・福祉 子育て支援 妊娠・出産 保育園・幼稚園 児童クラブ 児童館 乳幼児健診 子どもの予防接種 ひとり親支援 ",
+    "officialUrl": "https://www.city.sanyo-onoda.lg.jp/site/kosodateiine/zinnkouzyuseifuninntiryouzyosei.html",
+    "sourceName": "人工授精費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-037-2026",
+    "title": "山陽小野田市 不妊・不育症の治療費等助成",
+    "organization": "山陽小野田市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "山陽小野田市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請 駐輪場・駐車場 上下水道 水道 下水道 移住・地域おこし協力隊 制度・体験 地域おこし協力隊 子育て・健康・福祉 子育て支援 妊娠・出産 保育園・幼稚園 児童クラブ 児童館 乳幼児健診 子どもの予防接種 ひとり親支援 ",
+    "officialUrl": "https://www.city.sanyo-onoda.lg.jp/site/kosodateiine/funinciryou.html",
+    "sourceName": "不妊・不育症の治療費等助成"
+  },
+  {
+    "slug": "yamaguchi-official-003-038-2026",
+    "title": "山陽小野田市 妊婦歯科健康診査",
+    "organization": "山陽小野田市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "山陽小野田市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 申請 駐輪場・駐車場 上下水道 水道 下水道 移住・地域おこし協力隊 制度・体験 地域おこし協力隊 子育て・健康・福祉 子育て支援 妊娠・出産 保育園・幼稚園 児童クラブ 児童館 乳幼児健診 子どもの予防接種 ひとり親支援 ",
+    "officialUrl": "https://www.city.sanyo-onoda.lg.jp/site/kosodateiine/ninnpusika.html",
+    "sourceName": "妊婦歯科健康診査"
+  },
+  {
+    "slug": "yamaguchi-official-003-039-2026",
+    "title": "山陽小野田市 成人用肺炎球菌ワクチン公費助成",
+    "organization": "山陽小野田市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "山陽小野田市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月19日 申請 駐輪場・駐車場 上下水道 水道 下水道 移住・地域おこし協力隊 制度・体験 地域おこし協力隊 子育て・健康・福祉 子育て支援 妊娠・出産 保育園・幼稚園 児童クラブ 児童館 乳幼児健診 子どもの予防接種 ひとり親支援 ",
+    "officialUrl": "https://www.city.sanyo-onoda.lg.jp/site/smile-ageing/haiennkyuukinn.html",
+    "sourceName": "成人用肺炎球菌ワクチン公費助成"
+  },
+  {
+    "slug": "yamaguchi-official-003-040-2026",
+    "title": "山陽小野田市 自主防災組織への補助金",
+    "organization": "山陽小野田市",
+    "maxAmount": "補助金額（上限額）※100円",
+    "maxAmountNum": 100,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "山陽小野田市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2023年7月3日 申請 駐輪場・駐車場 上下水道 水道 下水道 移住・地域おこし協力隊 制度・体験 地域おこし協力隊 子育て・健康・福祉 子育て支援 妊娠・出産 保育園・幼稚園 児童クラブ 児童館 乳幼児健診 子どもの予防接種 ひとり親支援 ",
+    "officialUrl": "https://www.city.sanyo-onoda.lg.jp/site/bosai/jisyubousaihojyokin.html",
+    "sourceName": "自主防災組織への補助金"
+  },
+  {
+    "slug": "yamaguchi-official-003-041-2026",
+    "title": "山陽小野田市 スポーツ大会出場旅費の助成",
+    "organization": "山陽小野田市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "山陽小野田市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2023年4月3日 申請 駐輪場・駐車場 上下水道 水道 下水道 移住・地域おこし協力隊 制度・体験 地域おこし協力隊 子育て・健康・福祉 子育て支援 妊娠・出産 保育園・幼稚園 児童クラブ 児童館 乳幼児健診 子どもの予防接種 ひとり親支援 ",
+    "officialUrl": "https://www.city.sanyo-onoda.lg.jp/site/sports/taikaijyosei2.html",
+    "sourceName": "スポーツ大会出場旅費の助成"
+  },
+  {
+    "slug": "yamaguchi-official-003-042-2026",
+    "title": "山陽小野田市 山陽小野田市工場設置資金融資",
+    "organization": "山陽小野田市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "山陽小野田市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2017年2月16日 申請 駐輪場・駐車場 上下水道 水道 下水道 移住・地域おこし協力隊 制度・体験 地域おこし協力隊 子育て・健康・福祉 子育て支援 妊娠・出産 保育園・幼稚園 児童クラブ 児童館 乳幼児健診 子どもの予防接種 ひとり親支援 ",
+    "officialUrl": "https://www.city.sanyo-onoda.lg.jp/site/kigyoritti/shikinyuushi.html",
+    "sourceName": "山陽小野田市工場設置資金融資"
+  },
+  {
+    "slug": "yamaguchi-official-003-043-2026",
+    "title": "山陽小野田市 漏水があった場合の水道料金減免",
+    "organization": "山陽小野田市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "山陽小野田市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月18日 申請 駐輪場・駐車場 上下水道 水道 下水道 移住・地域おこし協力隊 制度・体験 地域おこし協力隊 子育て・健康・福祉 子育て支援 妊娠・出産 保育園・幼稚園 児童クラブ 児童館 乳幼児健診 子どもの予防接種 ひとり親支援 ",
+    "officialUrl": "https://www.city.sanyo-onoda.lg.jp/site/suidou/rousuinotoki.html",
+    "sourceName": "漏水があった場合の水道料金減免"
+  },
+  {
+    "slug": "yamaguchi-official-003-044-2026",
+    "title": "周防大島町 物価高騰対応重点支援生活応援給付金",
+    "organization": "周防大島町",
+    "maxAmount": "1人につき6,000円",
+    "maxAmountNum": 6000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "周防大島町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年1月28日 申請について 2月中旬ごろ各世帯に申請書をお送りさせていただきます 申請方法 次のいずれかの方法により申請してください",
+    "officialUrl": "https://www.town.suo-oshima.lg.jp/soshiki/2/14247.html",
+    "sourceName": "物価高騰対応重点支援生活応援給付金"
+  },
+  {
+    "slug": "yamaguchi-official-003-045-2026",
+    "title": "周防大島町 結婚新生活支援事業補助金",
+    "organization": "周防大島町",
+    "maxAmount": "1世帯あたり最大30万円",
+    "maxAmountNum": 300000,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "周防大島町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月22日 提出し、受理された夫婦",
+    "officialUrl": "https://www.town.suo-oshima.lg.jp/soshiki/19/15054.html",
+    "sourceName": "結婚新生活支援事業補助金"
+  },
+  {
+    "slug": "yamaguchi-official-003-046-2026",
+    "title": "周防大島町 東京圏等移住支援事業支援金",
+    "organization": "周防大島町",
+    "maxAmount": "1人につき100万円",
+    "maxAmountNum": 1000000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "周防大島町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2025年5月15日 支給します",
+    "officialUrl": "https://www.town.suo-oshima.lg.jp/soshiki/19/9905.html",
+    "sourceName": "東京圏等移住支援事業支援金"
+  },
+  {
+    "slug": "yamaguchi-official-003-047-2026",
+    "title": "周防大島町 空家リフォーム事業助成金",
+    "organization": "周防大島町",
+    "maxAmount": "上限額20万円",
+    "maxAmountNum": 200000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "周防大島町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2023年11月20日 交付申請（申請者&rarr;町） 事業計画及び収支内訳書 承諾・誓約書（利用者の場合） 見積書、見取図、施工前写真など 交付決定（町&rarr;申請者） 改修等の実施 実績報告（申請者&rarr;町） 実績書 収支精算書 領",
+    "officialUrl": "https://www.town.suo-oshima.lg.jp/soshiki/19/1953.html",
+    "sourceName": "空家リフォーム事業助成金"
+  },
+  {
+    "slug": "yamaguchi-official-003-048-2026",
+    "title": "周防大島町 創業支援事業計画",
+    "organization": "周防大島町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "周防大島町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年2月13日 申請手続きについて 「創業相談」を4回以上、1か月以上継続して受けた方、または「創業塾」を1か月以上、全体の7割以上の出席をした方で、経営・財務・人材育成・販路開拓についての知識を習得した方を「特定創業支援事業」を受けた者と",
+    "officialUrl": "https://www.town.suo-oshima.lg.jp/soshiki/7/1703.html",
+    "sourceName": "創業支援事業計画"
+  },
+  {
+    "slug": "yamaguchi-official-003-049-2026",
+    "title": "周防大島町 子どもの医療費・子育て支援制度",
+    "organization": "周防大島町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "周防大島町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年6月25日 すおうおおしま子育て応援サイト - 周防大島町公式ホームページ ページの先頭です。 メニューを飛ばして本文へ 補助 検索 メニュー トップ 検索する メニュー JavaScriptが無効のため、文字の大きさ・背景色を変更する機能を使用できま",
+    "officialUrl": "https://www.town.suo-oshima.lg.jp/site/kosodate/index-2.html",
+    "sourceName": "子どもの医療費・子育て支援制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-050-2026",
+    "title": "和木町 学校給食における食物アレルギー文書料補助金",
+    "organization": "和木町",
+    "maxAmount": "1人につき1回限り上限3,000円",
+    "maxAmountNum": 3000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "和木町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年12月1日 交付申請のお知らせ - 和木町ホームページ ページの先頭です",
+    "officialUrl": "https://www.town.waki.lg.jp/site/kyoiku/362.html",
+    "sourceName": "学校給食における食物アレルギー文書料補助金"
+  },
+  {
+    "slug": "yamaguchi-official-003-051-2026",
+    "title": "和木町 各種検定料全額助成",
+    "organization": "和木町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "和木町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2021年5月1日 申請をお待ちしております",
+    "officialUrl": "https://www.town.waki.lg.jp/site/wakigakuen/346.html",
+    "sourceName": "各種検定料全額助成"
+  },
+  {
+    "slug": "yamaguchi-official-003-052-2026",
+    "title": "和木町 和木町奨学金制度",
+    "organization": "和木町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "和木町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2021年2月1日 申請を考えている方へ - 和木町ホームページ ページの先頭です",
+    "officialUrl": "https://www.town.waki.lg.jp/site/waki-shougakukin/3202.html",
+    "sourceName": "和木町奨学金制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-053-2026",
+    "title": "和木町 和木町創業支援事業補助金制度",
+    "organization": "和木町",
+    "maxAmount": "上限額事業所の新築及び改修に要する経費、広告宣伝費、設備または備品購入費左記経費の1／2以内上限50万円",
+    "maxAmountNum": 500000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "和木町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2021年1月18日 交付します",
+    "officialUrl": "https://www.town.waki.lg.jp/soshiki/1/121.html",
+    "sourceName": "和木町創業支援事業補助金制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-054-2026",
+    "title": "和木町 山口県・市町村離職者緊急対策資金貸付制度",
+    "organization": "和木町",
+    "maxAmount": "公式ページ記載の貸付額・貸付条件に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "和木町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2020年11月16日 山口県・市町村離職者緊急対策資金貸付制度のご案内 - 和木町ホームページ ページの先頭です。 メニューを飛ばして本文へ メニュー JavaScriptが無効のため、文字の大きさ・背景色を変更する機能を使用できません。 本文へ はじめての方へ",
+    "officialUrl": "https://www.town.waki.lg.jp/soshiki/1/155.html",
+    "sourceName": "山口県・市町村離職者緊急対策資金貸付制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-055-2026",
+    "title": "和木町 家具転倒防止器具の購入助成",
+    "organization": "和木町",
+    "maxAmount": "補助金額補助対象経費の2分の1に相当する額(※100円",
+    "maxAmountNum": 100,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "和木町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月9日 申請可能です",
+    "officialUrl": "https://www.town.waki.lg.jp/soshiki/1/8350.html",
+    "sourceName": "家具転倒防止器具の購入助成"
+  },
+  {
+    "slug": "yamaguchi-official-003-056-2026",
+    "title": "和木町 家庭用防犯カメラ設置費補助金",
+    "organization": "和木町",
+    "maxAmount": "5万円を限度",
+    "maxAmountNum": 50000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "和木町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2020年11月16日 交付します",
+    "officialUrl": "https://www.town.waki.lg.jp/soshiki/1/142.html",
+    "sourceName": "家庭用防犯カメラ設置費補助金"
+  },
+  {
+    "slug": "yamaguchi-official-003-057-2026",
+    "title": "和木町 和木町移住支援事業補助金",
+    "organization": "和木町",
+    "maxAmount": "1人につき50万円",
+    "maxAmountNum": 500000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "和木町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年6月19日 交付金（デジタル実装タイプ（地方創生テレワーク型））またはその前歴事業を活用した取組の中で、所属先企業等から資金提供を受けていないこと 3.その他の要件 ○補助金の申請時において、和木町に転入後、1年以内であること ○申請時",
+    "officialUrl": "https://www.town.waki.lg.jp/soshiki/1/9598.html",
+    "sourceName": "和木町移住支援事業補助金"
+  },
+  {
+    "slug": "yamaguchi-official-003-058-2026",
+    "title": "和木町 和木町住宅建設奨励金制度",
+    "organization": "和木町",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "和木町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2020年11月16日 交付しています",
+    "officialUrl": "https://www.town.waki.lg.jp/soshiki/2/2381.html",
+    "sourceName": "和木町住宅建設奨励金制度"
+  },
+  {
+    "slug": "yamaguchi-official-003-059-2026",
+    "title": "和木町 やまぐち若者定住応援事業補助金",
+    "organization": "和木町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "和木町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年3月31日 申請について 「やまぐち電子申請システム」によるオンライン申請または書面申請 ※書面申請の場合は都市建設課窓口に提出してください",
+    "officialUrl": "https://www.town.waki.lg.jp/soshiki/3/8480.html",
+    "sourceName": "やまぐち若者定住応援事業補助金"
+  },
+  {
+    "slug": "yamaguchi-official-003-060-2026",
+    "title": "和木町 住宅環境改善支援事業補助金",
+    "organization": "和木町",
+    "maxAmount": "上限は、エアコンとサッシの補助を合わせて30万円",
+    "maxAmountNum": 300000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "和木町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年3月31日 募集のご案内 - 和木町ホームページ ページの先頭です",
+    "officialUrl": "https://www.town.waki.lg.jp/soshiki/3/185.html",
+    "sourceName": "住宅環境改善支援事業補助金"
+  },
+  {
+    "slug": "yamaguchi-official-003-061-2026",
+    "title": "和木町 木造住宅の耐震診断・耐震改修補助制度",
+    "organization": "和木町",
+    "maxAmount": "補助金額：耐震改修工事費（税抜）の80％（千円未満切り捨て）※上限115万円",
+    "maxAmountNum": 1150000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "和木町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年6月1日 募集） - 和木町ホームページ ページの先頭です",
+    "officialUrl": "https://www.town.waki.lg.jp/soshiki/3/6256.html",
+    "sourceName": "木造住宅の耐震診断・耐震改修補助制度"
+  }
+];
