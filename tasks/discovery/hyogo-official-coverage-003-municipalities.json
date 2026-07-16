@@ -1,0 +1,37 @@
+{
+  "batchId": "hyogo-official-coverage-003",
+  "prefecture": "兵庫県",
+  "createdAt": "2026-07-16T20:05:00+09:00",
+  "municipalities": [
+    {
+      "code": "28210",
+      "name": "加古川市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.kakogawa.lg.jp/"
+    },
+    {
+      "code": "28212",
+      "name": "赤穂市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.ako.lg.jp/"
+    },
+    {
+      "code": "28213",
+      "name": "西脇市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.nishiwaki.lg.jp/"
+    },
+    {
+      "code": "28214",
+      "name": "宝塚市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.takarazuka.hyogo.jp/"
+    },
+    {
+      "code": "28215",
+      "name": "三木市",
+      "prefecture": "兵庫県",
+      "officialBaseUrl": "https://www.city.miki.lg.jp/"
+    }
+  ]
+}

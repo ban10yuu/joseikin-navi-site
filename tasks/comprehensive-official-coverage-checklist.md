@@ -10505,3 +10505,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17797、officialLinkedActive 17677、manuallyVerifiedActive 17677、兵庫県 localOfficial 285）
 - 到達点: 兵庫県は28100神戸市から28209豊岡市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 兵庫県公式棚卸し003として、28210加古川市から再開
+
+### 兵庫県公式棚卸し003（28210加古川市・28212赤穂市・28213西脇市・28214宝塚市・28215三木市）
+- 実施日: 2026-07-16
+- 候補: 1188件（加古川市公式補完リード192件、公式リスト66件、採用URL66本）
+- 採用: 66件（加古川市20件、赤穂市14件、西脇市13件、宝塚市7件、三木市12件）
+- 公式URL: 採用URL到達確認は tasks/discovery/hyogo-official-coverage-003-url-status.txt に記録（66本すべてHTTP 200）
+- 保留: shortlistが150件超のため、公式候補ページ本文と同一ドメイン内リンクを抽出し、制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、相談・研修・紹介のみ、外部制度紹介のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。加古川市は通常クロールで候補が薄かったため、公式補助金検索ナビ・子育てサイト・福祉医療・事業者カテゴリを公式サイト内で補完
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17863、officialLinkedActive 17743、manuallyVerifiedActive 17743、兵庫県 localOfficial 351）
+- 到達点: 兵庫県は28100神戸市から28215三木市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 兵庫県公式棚卸し004として、28216高砂市から再開
