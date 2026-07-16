@@ -10757,3 +10757,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19711、officialLinkedActive 19590、manuallyVerifiedActive 19590、島根県 localOfficial 151）
 - 到達点: 島根県は32201松江市から32205大田市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 島根県公式棚卸し002として、32206安来市から再開
+
+### 島根県公式棚卸し002（32206安来市・32207江津市・32209雲南市・32343奥出雲町・32386飯南町）
+- 実施日: 2026-07-17
+- 候補: 1051件（公式サイト内リンクリード1421件、ユニークリード587件、本文スニペット再スコア後に個別公式ページ100本を採用）
+- 採用: 100件（安来市10件、江津市24件、雲南市19件、奥出雲町24件、飯南町23件）
+- 公式URL: 採用URL到達確認は tasks/discovery/shimane-official-coverage-002-url-status.txt に記録（100本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクを展開し、title/h1/main/article/URLの制度強語、金額・対象条件・申請/受付表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、PDF・申請書単体、同内容の重複ページ、報告・注意喚起・職員募集、本文根拠が薄い候補は第2巡候補として保持。雲南市の制度改正ページ1本は404のため現行の児童手当ページへ整理して採用
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19811、officialLinkedActive 19690、manuallyVerifiedActive 19690、島根県 localOfficial 251）
+- 到達点: 島根県は32201松江市から32386飯南町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 島根県公式棚卸し003として、32441川本町から再開

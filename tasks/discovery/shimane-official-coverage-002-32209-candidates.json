@@ -1,0 +1,4523 @@
+{
+  "batchId": "shimane-official-coverage-002",
+  "prefecture": "島根県",
+  "generatedAt": "2026-07-16T17:33:24.945Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 119,
+  "results": [
+    {
+      "code": "32209",
+      "name": "雲南市",
+      "prefecture": "島根県",
+      "officialBaseUrl": "https://www.city.unnan.shimane.jp/unnan/",
+      "discoveredUrlCount": 300,
+      "candidateCount": 119,
+      "strongCandidateCount": 1,
+      "lowPriorityCandidateCount": 118,
+      "candidates": [
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/information/map.html",
+          "status": 200,
+          "title": "庁舎の位置庁舎位置を地図でご確認いただけます。",
+          "h1": "庁舎の位置庁舎位置を地図でご確認いただけます。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/",
+          "status": 200,
+          "title": "暮らし・手続きみなさまの暮らしや生活情報についてお知らせします。",
+          "h1": "暮らし・手続きみなさまの暮らしや生活情報についてお知らせします。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/todokede/",
+          "status": 200,
+          "title": "届出・証明届出・証明に関するページです。",
+          "h1": "届出・証明届出・証明に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/zeikin/",
+          "status": 200,
+          "title": "税金税金に関するページです。",
+          "h1": "税金税金に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "減免",
+            "住宅",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/sumai/",
+          "status": 200,
+          "title": "住まい・土地住まい・定住支援・土地に関するページです。",
+          "h1": "住まい・土地住まい・定住支援・土地に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/kankyou/",
+          "status": 200,
+          "title": "環境・ごみ・脱炭素環境・ごみ・脱炭素に関するページです。",
+          "h1": "環境・ごみ・脱炭素環境・ごみ・脱炭素に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/",
+          "status": 200,
+          "title": "消防・防災消防・防災に関するページです。",
+          "h1": "消防・防災消防・防災に関するページです。",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/seikatsu/",
+          "status": 200,
+          "title": "生活情報生活情報に関する一覧のページです",
+          "h1": "生活情報生活情報に関する一覧のページです",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/",
+          "status": 200,
+          "title": "まちづくり・地域自主組織まちづくり・地域自主組織に関するページです。",
+          "h1": "まちづくり・地域自主組織まちづくり・地域自主組織に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/",
+          "status": 200,
+          "title": "申請書様式各種申請や届け出に必要な様式ダウンロードページのリンク集です。",
+          "h1": "申請書様式各種申請や届け出に必要な様式ダウンロードページのリンク集です。",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学",
+            "省エネ"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/",
+          "status": 200,
+          "title": "健康・福祉健康・福祉に関する情報を掲載しています。",
+          "h1": "健康・福祉健康・福祉に関する情報を掲載しています。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/",
+          "status": 200,
+          "title": "健康づくり・保健健康づくり・保健に関するリンクの一覧です。",
+          "h1": "健康づくり・保健健康づくり・保健に関するリンクの一覧です。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/nenkinhoken/",
+          "status": 200,
+          "title": "保険・年金保険・年金関連の情報を掲載しています",
+          "h1": "保険・年金保険・年金関連の情報を掲載しています",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/koureisya/",
+          "status": 200,
+          "title": "高齢者支援雲南市では様々な高齢者支援を行っています。",
+          "h1": "高齢者支援雲南市では様々な高齢者支援を行っています。",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/syougai/",
+          "status": 200,
+          "title": "障がい者支援障がいのあるなしにかかわらず、全ての人がお互いの人格や個性を尊重し合いながら共生する社会を実現するため、障がいや障がい者（児）に対する正しい理解を深めましょう。",
+          "h1": "障がい者支援障がいのあるなしにかかわらず、全ての人がお互いの人格や個性を尊重し合いながら共生する社会を実現するため、障がいや障がい者（児）に対する正しい理解を深めましょう。",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "医療費助成",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/chiiki/",
+          "status": 200,
+          "title": "地域福祉地域福祉に関するページです。",
+          "h1": "地域福祉地域福祉に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/",
+          "status": 200,
+          "title": "子育て・教育子育て・教育に関する一覧ページです。",
+          "h1": "子育て・教育子育て・教育に関する一覧ページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/ninshinsyussan/",
+          "status": 200,
+          "title": "妊娠・出産妊娠・出産に関するページです。",
+          "h1": "妊娠・出産妊娠・出産に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/iryou/",
+          "status": 200,
+          "title": "子どもの医療子どもの医療に関するページです。",
+          "h1": "子どもの医療子どもの医療に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/",
+          "status": 200,
+          "title": "手当・助成手当・助成に関するページです。",
+          "h1": "手当・助成手当・助成に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "医療費助成",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種",
+            "不妊"
+          ],
+          "candidateScore": 26,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/azukeru/",
+          "status": 200,
+          "title": "子どもを預ける子どもを預ける場合に関するページです。",
+          "h1": "子どもを預ける子どもを預ける場合に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/syuugaku/",
+          "status": 200,
+          "title": "教育・就学教育・就学に関するページです。",
+          "h1": "教育・就学教育・就学に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/soudan/",
+          "status": 200,
+          "title": "支援・相談支援・相談に関するページです。",
+          "h1": "支援・相談支援・相談に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/seishounen/",
+          "status": 200,
+          "title": "青少年健全育成青少年健全育成に関するページです",
+          "h1": "青少年健全育成青少年健全育成に関するページです",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/",
+          "status": 200,
+          "title": "観光・文化観光・文化に関する一覧ページです。",
+          "h1": "観光・文化観光・文化に関する一覧ページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/spot/",
+          "status": 200,
+          "title": "観光雲南市の観光情報です。",
+          "h1": "観光雲南市の観光情報です。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/",
+          "status": 200,
+          "title": "文化・スポーツ雲南市の文化・スポーツ事業のこと",
+          "h1": "文化・スポーツ雲南市の文化・スポーツ事業のこと",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/",
+          "status": 200,
+          "title": "イベント情報イベント情報に関するページです。",
+          "h1": "イベント情報イベント情報に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/shisetsu/",
+          "status": 200,
+          "title": "公共施設公共施設に関するページです。",
+          "h1": "公共施設公共施設に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/",
+          "status": 200,
+          "title": "産業・ビジネス産業・ビジネスに関する一覧ページです。",
+          "h1": "産業・ビジネス産業・ビジネスに関する一覧ページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/syoukou/",
+          "status": 200,
+          "title": "商工振興商工振興に関する情報一覧ページです。",
+          "h1": "商工振興商工振興に関する情報一覧ページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/nougyou/",
+          "status": 200,
+          "title": "農業振興農業振興に関する情報一覧ページです。",
+          "h1": "農業振興農業振興に関する情報一覧ページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/ringyou/",
+          "status": 200,
+          "title": "林業振興林業振興に関する情報一覧ページです。",
+          "h1": "林業振興林業振興に関する情報一覧ページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/nyusatsu/",
+          "status": 200,
+          "title": "入札・契約入札・契約に関する情報一覧ページです。",
+          "h1": "入札・契約入札・契約に関する情報一覧ページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/jigyousyamuke/",
+          "status": 200,
+          "title": "事業者向け情報事業者向け情報に関するページです。",
+          "h1": "事業者向け情報事業者向け情報に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/",
+          "status": 200,
+          "title": "市政情報市政情報に関する一覧ページです。",
+          "h1": "市政情報市政情報に関する一覧ページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/gaiyou/",
+          "status": 200,
+          "title": "市の概要市の概要に関するページです。",
+          "h1": "市の概要市の概要に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/shisei/",
+          "status": 200,
+          "title": "市政について市政に関するページです。",
+          "h1": "市政について市政に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/shichouroom/",
+          "status": 200,
+          "title": "Web市長室Web市長室に関するページです。",
+          "h1": "Web市長室Web市長室に関するページです。",
+          "updatedAt": "令和3年2月1日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/shigikai/",
+          "status": 200,
+          "title": "雲南市議会のページ雲南市議会のページへようこそ",
+          "h1": "雲南市議会のページ雲南市議会のページへようこそ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/",
+          "status": 200,
+          "title": "広報・広聴広報・広聴に関するページです。",
+          "h1": "広報・広聴広報・広聴に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/",
+          "status": 200,
+          "title": "情報公開情報公開に関するページです。",
+          "h1": "情報公開情報公開に関するページです。",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/site/",
+          "status": 200,
+          "title": "各種サイトリンク集雲南市関連サイトや各種機関へのリンク集です。",
+          "h1": "各種サイトリンク集雲南市関連サイトや各種機関へのリンク集です。",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "移住",
+            "空き家",
+            "事業者",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/opendata/index.html",
+          "status": 200,
+          "title": "雲南市オープンデータオープンデータに関するページです。",
+          "h1": "雲南市オープンデータオープンデータに関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/furusato/",
+          "status": 200,
+          "title": "ふるさと納税ふるさと納税に関するページです。",
+          "h1": "ふるさと納税ふるさと納税に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/bousaijouhou/",
+          "status": 200,
+          "title": "防災情報防災情報に関するページです。",
+          "h1": "防災情報防災情報に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/iryoukikan/hospital.html",
+          "status": 200,
+          "title": "市内医療機関雲南市内の医療機関を紹介しています",
+          "h1": "市内医療機関雲南市内の医療機関を紹介しています",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/kansensyou/coronavirus_infection.html",
+          "status": 200,
+          "title": "新型コロナウイルス感染症に関する情報令和6年8月1日更新",
+          "h1": "新型コロナウイルス感染症に関する情報令和6年8月1日更新",
+          "updatedAt": "令和6年8月1日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/siawasewohakobukounotori/index.html",
+          "status": 200,
+          "title": "”幸せを運ぶコウノトリ”と共生するまちづくり&rdquo;幸せを運ぶコウノトリ&rdquo;と共生するまちづくりに関するページです。",
+          "h1": "”幸せを運ぶコウノトリ”と共生するまちづくり&rdquo;幸せを運ぶコウノトリ&rdquo;と共生するまちづくりに関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/sougoukeikaku/index.html",
+          "status": 200,
+          "title": "総合計画総合計画に関するページです。",
+          "h1": "総合計画総合計画に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/bunka/2026-0216-1656-78.html",
+          "status": 200,
+          "title": "吉田町生涯学習交流館が国の登録有形文化財に登録されました",
+          "h1": "吉田町生涯学習交流館が国の登録有形文化財に登録されました",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/riyousya/",
+          "status": 200,
+          "title": "利用者別メニュー利用者別（市民・市外・事業者）の3つの分類から選べます。",
+          "h1": "利用者別メニュー利用者別（市民・市外・事業者）の3つの分類から選べます。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashinodekigoto/",
+          "status": 200,
+          "title": "暮らしのできごとから探す暮らしのできごと別に情報を探せます。",
+          "h1": "暮らしのできごとから探す暮らしのできごと別に情報を探せます。",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/madoguchi/",
+          "status": 200,
+          "title": "窓口案内窓口案内の一覧ページ",
+          "h1": "窓口案内窓口案内の一覧ページ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "起業",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/seikatsu/koutsuu/bus-timetable.html",
+          "status": 200,
+          "title": "雲南市民バス時刻表雲南市民バスの時刻表を掲載しています",
+          "h1": "雲南市民バス時刻表雲南市民バスの時刻表を掲載しています",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/iryoukikan/",
+          "status": 200,
+          "title": "医療機関医療機関に関するページです。",
+          "h1": "医療機関医療機関に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/kankyou/recycle/",
+          "status": 200,
+          "title": "ごみ・リサイクルごみ・リサイクルに関するページです。",
+          "h1": "ごみ・リサイクルごみ・リサイクルに関するページです。",
+          "updatedAt": "令和6年4月1日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/bousaijouhou/prevent01.html",
+          "status": 200,
+          "title": "雲南市防災ハザードマップ雲南市防災ハザードマップについてお知らせするページです。",
+          "h1": "雲南市防災ハザードマップ雲南市防災ハザードマップについてお知らせするページです。",
+          "updatedAt": "令和5年12月1日",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/information/newslist.html",
+          "status": 200,
+          "title": "新着情報一覧雲南市からの新着情報一覧になります。",
+          "h1": "新着情報一覧雲南市からの新着情報一覧になります。",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "貸付",
+            "住宅",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/2026-0714-1314-112.html",
+          "status": 200,
+          "title": "三刀屋地区たのしい夏まつり2026",
+          "h1": "三刀屋地区たのしい夏まつり2026",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/bousaijouhou/2026-0715-0946-32.html",
+          "status": 200,
+          "title": "令和８年度 雲南市防災会議令和８年６月８日に開催した、雲南市防災会議の会議資料と議事録を掲載しております。",
+          "h1": "令和８年度 雲南市防災会議令和８年６月８日に開催した、雲南市防災会議の会議資料と議事録を掲載しております。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/kisukinatumaturi.html",
+          "status": 200,
+          "title": "きすき夏祭り7月20日（月）は木次町へ！",
+          "h1": "きすき夏祭り7月20日（月）は木次町へ！",
+          "updatedAt": "令和8年7月20日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/kamoiwakura-dotakushutudo-30shunen.html",
+          "status": 200,
+          "title": "加茂岩倉遺跡銅鐸出土30周年記念イベントについて各イベントについてのご案内",
+          "h1": "加茂岩倉遺跡銅鐸出土30周年記念イベントについて各イベントについてのご案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/2026-0708-1333-27.html",
+          "status": 200,
+          "title": "ヒツジグサを見に行こう！田んぼビオトープの食物や生き物を観察します。",
+          "h1": "ヒツジグサを見に行こう！田んぼビオトープの食物や生き物を観察します。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/information/topicslist.html",
+          "status": 200,
+          "title": "トピックス一覧雲南市からのトピックス一覧になります。",
+          "h1": "トピックス一覧雲南市からのトピックス一覧になります。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/2026-0806-tanabata.html",
+          "status": 200,
+          "title": "大東七夕祭450年余りの歴史をもつ夏の風物詩",
+          "h1": "大東七夕祭450年余りの歴史をもつ夏の風物詩",
+          "updatedAt": "令和8年8月6日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/chiiki/katsudo_shisetsu/R8_senbotsusya-tsuitoushiki.html",
+          "status": 200,
+          "title": "令和８年度の雲南市戦没者追悼式の様子について令和８年度雲南市戦没者追悼式に関するお知らせです。",
+          "h1": "令和８年度の雲南市戦没者追悼式の様子について令和８年度雲南市戦没者追悼式に関するお知らせです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/jinken/2026-0630-1525-38.html",
+          "status": 200,
+          "title": "両親（父親）セミナー島根県と共催で両親セミナーを開催します",
+          "h1": "両親（父親）セミナー島根県と共催で両親セミナーを開催します",
+          "updatedAt": "令和8年9月26日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/syoukou/syuugyou/2025-0805-1938-28.html",
+          "status": 200,
+          "title": "「2026うんなんキャリアcafe」をはじめます2026年度 若者向けおしごと・くらしの相談所",
+          "h1": "「2026うんなんキャリアcafe」をはじめます2026年度 若者向けおしごと・くらしの相談所",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/2026-0519-1555-27.html",
+          "status": 200,
+          "title": "【参加団体募集中】さくらおろち湖環境美化活動令和８年７月17日(金)",
+          "h1": "【参加団体募集中】さくらおろち湖環境美化活動令和８年７月17日(金)",
+          "updatedAt": "令和8年7月17日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/syuugaku/heiwasyou/2026-nagaitakashi-heiwasyou_boshu.html",
+          "status": 200,
+          "title": "第36回 永井隆平和賞の作品を募集します愛と平和をテーマに作文を募集します",
+          "h1": "第36回 永井隆平和賞の作品を募集します愛と平和をテーマに作文を募集します",
+          "updatedAt": "令和8年6月1日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/shihou/shihouunnan_2026_07.html",
+          "status": 200,
+          "title": "「市報うんなん」2026年7月号「市報うんなん」7月号を発刊しました。",
+          "h1": "「市報うんなん」2026年7月号「市報うんなん」7月号を発刊しました。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/23yasai_2026.html",
+          "status": 200,
+          "title": "二十三夜祭7月23日（木）は加茂町へ！",
+          "h1": "二十三夜祭7月23日（木）は加茂町へ！",
+          "updatedAt": "令和8年7月23日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/sumai/2026-0514-0934-28.html",
+          "status": 200,
+          "title": "住まいの終活連続講座 はじめての住まいの終活住まいの未来を考える",
+          "h1": "住まいの終活連続講座 はじめての住まいの終活住まいの未来を考える",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/spot/mizukaze24.html",
+          "status": 200,
+          "title": "瑞風バス運行日程のお知らせ瑞風バス運行日程についてのページです。",
+          "h1": "瑞風バス運行日程のお知らせ瑞風バス運行日程についてのページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/ametuchiunnkoukaishi2024.html",
+          "status": 200,
+          "title": "観光列車「あめつち」に手を振ろう！～木次線へようこそ～",
+          "h1": "観光列車「あめつち」に手を振ろう！～木次線へようこそ～",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/sumai/teijuu/unnan_tsunagaru_taikenprogram.html",
+          "status": 200,
+          "title": "雲南つながる体験プログラムうんなんを体験してみませんか？",
+          "h1": "雲南つながる体験プログラムうんなんを体験してみませんか？",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "空き家",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/publiccomment/index.html",
+          "status": 200,
+          "title": "パブリック・コメント各年度のパブリック・コメントを掲載しています。",
+          "h1": "パブリック・コメント各年度のパブリック・コメントを掲載しています。",
+          "updatedAt": "平成16年11月1日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/siseihenoteiannbako.html",
+          "status": 200,
+          "title": "市政への提案箱「市政への提案箱」を設置しますので、雲南市政に関するご提案をお寄せください。",
+          "h1": "市政への提案箱「市政への提案箱」を設置しますので、雲南市政に関するご提案をお寄せください。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/madoguchi/contact.html",
+          "status": 200,
+          "title": "ご質問・お問い合わせご質問・お問い合わせは、下記のフォームよりお願い致します。",
+          "h1": "ご質問・お問い合わせご質問・お問い合わせは、下記のフォームよりお願い致します。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/line.html",
+          "status": 200,
+          "title": "LINEで雲南市の情報を配信中！雲南市公式LINEアカウントを開設しています。",
+          "h1": "LINEで雲南市の情報を配信中！雲南市公式LINEアカウントを開設しています。",
+          "updatedAt": "令和3年6月1日",
+          "keywordHits": [
+            "移住",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/instagram.html",
+          "status": 200,
+          "title": "雲南市公式Instagramアカウント、はじめました！雲南市公式Instagramアカウントを開設しています。",
+          "h1": "雲南市公式Instagramアカウント、はじめました！雲南市公式Instagramアカウントを開設しています。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/application.html",
+          "status": 200,
+          "title": "雲南市公式アプリ誕生！雲南市公式アプリ誕生しました。",
+          "h1": "雲南市公式アプリ誕生！雲南市公式アプリ誕生しました。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/soudan/20210928boshimo.html",
+          "status": 200,
+          "title": "「雲南子育てアプリ だっこ」母子手帳アプリ「雲南子育てアプリ だっこ」のお知らせです",
+          "h1": "「雲南子育てアプリ だっこ」母子手帳アプリ「雲南子育てアプリ だっこ」のお知らせです",
+          "updatedAt": "令和3年9月13日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/safetymail.html",
+          "status": 200,
+          "title": "雲南市安全安心メール防災情報や防犯情報をメール配信しています。",
+          "h1": "雲南市安全安心メール防災情報や防犯情報をメール配信しています。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/press_release.html",
+          "status": 200,
+          "title": "報道提供資料雲南市から提供した報道資料を掲載しています。",
+          "h1": "報道提供資料雲南市から提供した報道資料を掲載しています。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/banner02.html",
+          "status": 200,
+          "title": "バナー広告掲載についてバナー広告掲載について説明しています。",
+          "h1": "バナー広告掲載についてバナー広告掲載について説明しています。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/information/sitepolicy.html",
+          "status": 200,
+          "title": "当サイトについて雲南市ホームページのサイトポリシー",
+          "h1": "当サイトについて雲南市ホームページのサイトポリシー",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/information/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ雲南市ホームページのサイトマップです",
+          "h1": "サイトマップ雲南市ホームページのサイトマップです",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/information/accessibility.html",
+          "status": 200,
+          "title": "アクセシビリティポリシーウェブアクセシビリティについて",
+          "h1": "アクセシビリティポリシーウェブアクセシビリティについて",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/information/privacy.html",
+          "status": 200,
+          "title": "プライバシーポリシープライバシーポリシーについて",
+          "h1": "プライバシーポリシープライバシーポリシーについて",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/madoguchi/index.html",
+          "status": 200,
+          "title": "窓口案内窓口案内の一覧ページ",
+          "h1": "窓口案内窓口案内の一覧ページ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "起業",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/kurashijouge/",
+          "status": 200,
+          "title": "暮らしと上­下水道暮らしと上下水道についてのページです。",
+          "h1": "暮らしと上­下水道暮らしと上下水道についてのページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/ryoukin/",
+          "status": 200,
+          "title": "料金のご案内料金のご案内ついてのページです。",
+          "h1": "料金のご案内料金のご案内ついてのページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/syoukai/",
+          "status": 200,
+          "title": "上下水道局の紹介上下水道局の事業や会計、各種計画などを公表しています",
+          "h1": "上下水道局の紹介上下水道局の事業や会計、各種計画などを公表しています",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/suishitu/",
+          "status": 200,
+          "title": "水道の水質について水質の検査計画と結果および水安全計画を公表しています",
+          "h1": "水道の水質について水質の検査計画と結果および水安全計画を公表しています",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/shingikai/",
+          "status": 200,
+          "title": "審議会について審議会についてのページです。",
+          "h1": "審議会について審議会についてのページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/kouji/",
+          "status": 200,
+          "title": "工事について水道に関する工事についてのページです。",
+          "h1": "工事について水道に関する工事についてのページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/kouji/",
+          "status": 200,
+          "title": "工事について水道に関する工事についてのページです。",
+          "h1": "工事について水道に関する工事についてのページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/syuugaku/manabi/study05.html",
+          "status": 200,
+          "title": "出前講座-ふるさとづくり講座のご案内-ふるさとづくり講座のご案内です",
+          "h1": "出前講座-ふるさとづくり講座のご案内-ふるさとづくり講座のご案内です",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/dam/index.html",
+          "status": 200,
+          "title": "尾原ダム・さくらおろち湖尾原ダム・さくらおろち湖に関するページです。",
+          "h1": "尾原ダム・さくらおろち湖尾原ダム・さくらおろち湖に関するページです。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/files/saikensyatouroku.pdf",
+          "status": 404,
+          "title": "ページが見つかりませんでした",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+          "status": 200,
+          "title": "スポーツ施設に関する様式社会体育関係に関する申請様式をダウンロードできます",
+          "h1": "スポーツ施設に関する様式社会体育関係に関する申請様式をダウンロードできます",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/bunka/riyou03.html",
+          "status": 200,
+          "title": "文化財に関する様式文化財関係に関する申請様式をダウンロードできます",
+          "h1": "文化財に関する様式文化財関係に関する申請様式をダウンロードできます",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/syuugaku/gakkou/shinsei.html",
+          "status": 200,
+          "title": "学校施設の使用について学校施設の使用に関する申請様式をダウンロードできます",
+          "h1": "学校施設の使用について学校施設の使用に関する申請様式をダウンロードできます",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/kokusai/intl02.html",
+          "status": 200,
+          "title": "雲南市国際交流員の紹介・派遣申請書様式雲南市国際交流員を紹介します",
+          "h1": "雲南市国際交流員の紹介・派遣申請書様式雲南市国際交流員を紹介します",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/nyusatsu/youshiki/agree14.html",
+          "status": 200,
+          "title": "公共工事関連様式公共工事関連様式の概要と一覧です",
+          "h1": "公共工事関連様式公共工事関連様式の概要と一覧です",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/nyusatsu/youshiki/agree07.html",
+          "status": 200,
+          "title": "測量・建設コンサルタント等業務関連様式測量・建設コンサルタント等業務関連様式を定めています。",
+          "h1": "測量・建設コンサルタント等業務関連様式測量・建設コンサルタント等業務関連様式を定めています。",
+          "updatedAt": "平成20年6月25日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/josetsuboranithia.html",
+          "status": 200,
+          "title": "除雪ボランティアの募集について除雪ボランティアを募集します",
+          "h1": "除雪ボランティアの募集について除雪ボランティアを募集します",
+          "updatedAt": "令和8年5月29日",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/douroaigosagyou.html",
+          "status": 200,
+          "title": "道路・河川愛護作業の実施について道路・河川愛護作業の各種様式を掲載します。",
+          "h1": "道路・河川愛護作業の実施について道路・河川愛護作業の各種様式を掲載します。",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/jigyousyamuke/douro/douro01.html",
+          "status": 200,
+          "title": "市道の通行規制の申請について市道の通行規制申請に関するページです",
+          "h1": "市道の通行規制の申請について市道の通行規制申請に関するページです",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/jigyousyamuke/douro/douro02.html",
+          "status": 200,
+          "title": "道路工事承認について道路工事承認についてのページです",
+          "h1": "道路工事承認について道路工事承認についてのページです",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/jigyousyamuke/douro/douro03.html",
+          "status": 200,
+          "title": "法定外公共物占用許可等について法定外公共物占用許可についてのページです",
+          "h1": "法定外公共物占用許可等について法定外公共物占用許可についてのページです",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/jigyousyamuke/douro/douro04.html",
+          "status": 200,
+          "title": "道路占用許可について道路占用許可についてのページです",
+          "h1": "道路占用許可について道路占用許可についてのページです",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32209",
+          "municipalityName": "雲南市",
+          "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/2024-0424-1719-200.html",
+          "status": 200,
+          "title": "雲南市版エンディングノート「未来へつなぐノート」雲南市版エンディングノート「未来へつなぐノート」を作成しました",
+          "h1": "雲南市版エンディングノート「未来へつなぐノート」雲南市版エンディングノート「未来へつなぐノート」を作成しました",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/robots.txt",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/robots.txt",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/information/map.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/information/map.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/todokede/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/todokede/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/zeikin/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/zeikin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/sumai/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/sumai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/kankyou/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/kankyou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/seikatsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/seikatsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenkou/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenkou/nenkinhoken/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/nenkinhoken/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenkou/koureisya/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/koureisya/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenkou/syougai/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/syougai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenkou/chiiki/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/chiiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kosodate/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kosodate/ninshinsyussan/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/ninshinsyussan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kosodate/iryou/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/iryou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kosodate/azukeru/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/azukeru/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kosodate/syuugaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/syuugaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kosodate/soudan/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/soudan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kosodate/seishounen/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/seishounen/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankou/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankou/spot/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/spot/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankou/event/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankou/shisetsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/shisetsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/sangyou/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/sangyou/syoukou/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/syoukou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/sangyou/nougyou/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/nougyou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/sangyou/ringyou/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/ringyou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/sangyou/nyusatsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/nyusatsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/sangyou/jigyousyamuke/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/jigyousyamuke/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/gaiyou/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/gaiyou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/shisei/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/shisei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/shichouroom/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/shichouroom/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/shigikai/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/shigikai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/site/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/site/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/opendata/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/opendata/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/furusato/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/furusato/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/bousaijouhou/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/bousaijouhou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/iryoukikan/hospital.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/iryoukikan/hospital.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/yobousessyu/coronavirus_vaccinetion.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/yobousessyu/coronavirus_vaccinetion.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/kansensyou/coronavirus_infection.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/kansensyou/coronavirus_infection.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/siawasewohakobukounotori/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/siawasewohakobukounotori/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/sougoukeikaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/sougoukeikaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/bunka/2026-0216-1656-78.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/bunka/2026-0216-1656-78.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/2024_noto_jishin.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/2024_noto_jishin.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/riyousya/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/riyousya/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashinodekigoto/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashinodekigoto/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/madoguchi/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/madoguchi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/seikatsu/koutsuu/bus-timetable.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/seikatsu/koutsuu/bus-timetable.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/iryoukikan/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/iryoukikan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/kankyou/recycle/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/kankyou/recycle/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/bousaijouhou/prevent01.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/bousaijouhou/prevent01.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/information/newslist.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/information/newslist.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankou/event/2026-0714-1314-112.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/2026-0714-1314-112.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/bousaijouhou/2026-0715-0946-32.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/bousaijouhou/2026-0715-0946-32.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankou/event/kisukinatumaturi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/kisukinatumaturi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/kamoiwakura-dotakushutudo-30shunen.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/kamoiwakura-dotakushutudo-30shunen.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankou/event/2026-0708-1333-27.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/2026-0708-1333-27.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/information/topicslist.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/information/topicslist.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankou/event/2026-0806-tanabata.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/2026-0806-tanabata.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenkou/chiiki/katsudo_shisetsu/R8_senbotsusya-tsuitoushiki.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/chiiki/katsudo_shisetsu/R8_senbotsusya-tsuitoushiki.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/jinken/2026-0630-1525-38.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/jinken/2026-0630-1525-38.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/sangyou/syoukou/syuugyou/2025-0805-1938-28.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/syoukou/syuugyou/2025-0805-1938-28.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankou/event/2026-0519-1555-27.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/2026-0519-1555-27.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kosodate/syuugaku/heiwasyou/2026-nagaitakashi-heiwasyou_boshu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/syuugaku/heiwasyou/2026-nagaitakashi-heiwasyou_boshu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/shihou/shihouunnan_2026_07.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/shihou/shihouunnan_2026_07.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankou/event/23yasai_2026.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/23yasai_2026.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/sumai/2026-0514-0934-28.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/sumai/2026-0514-0934-28.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankou/spot/mizukaze24.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/spot/mizukaze24.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankou/event/ametuchiunnkoukaishi2024.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/ametuchiunnkoukaishi2024.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/sumai/teijuu/unnan_tsunagaru_taikenprogram.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/sumai/teijuu/unnan_tsunagaru_taikenprogram.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/publiccomment/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/publiccomment/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/siseihenoteiannbako.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/siseihenoteiannbako.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/madoguchi/contact.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/madoguchi/contact.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/line.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/line.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/instagram.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/instagram.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/application.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/application.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kosodate/soudan/20210928boshimo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/soudan/20210928boshimo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/safetymail.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/safetymail.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/press_release.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/press_release.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/banner02.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/banner02.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/information/sitepolicy.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/information/sitepolicy.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/information/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/information/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/information/accessibility.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/information/accessibility.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/information/privacy.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/information/privacy.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321145607.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321145607.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321152745.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321152745.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/madoguchi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/madoguchi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20250328154611.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20250328154611.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap201703211534021.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap201703211534021.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321153913.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321153913.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321154248.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321154248.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321154604.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321154604.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321155147.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321155147.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321155437.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321155437.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321155848.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321155848.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321160135.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/_wcv/wcvmap/wcvmapShowMap.html?wcvmap20170321160135.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/todokede/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/todokede/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/zeikin/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/zeikin/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/sumai/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sumai/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/suidou/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/suidou/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kankyou/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankyou/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/bousai/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/bousai/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/seikatsu/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/seikatsu/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/machidukuri/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/machidukuri/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/youshiki/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/youshiki/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/konbinikoufu.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/konbinikoufu.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/online_shinsei_matome.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/online_shinsei_matome.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2025-0903-1118-40.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2025-0903-1118-40.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2025-0826-0922-40.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2025-0826-0922-40.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/juuminnhyouhurigana.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/juuminnhyouhurigana.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/other.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/other.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/identity.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/identity.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/honninntuutiseido.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/honninntuutiseido.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/touroku/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/touroku/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/koseki/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/koseki/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/syoumei/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/syoumei/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/tesuuryou/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/tesuuryou/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2026-0616-1631-95.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2026-0616-1631-95.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2025-0729-1305-42.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2025-0729-1305-42.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2025-0722-1614-42.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2025-0722-1614-42.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/juutakujokyaku.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/juutakujokyaku.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2024-0716-1101-42.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2024-0716-1101-42.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/juuminzei/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/juuminzei/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/houjin/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/houjin/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/koteishisanzei/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/koteishisanzei/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kei/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kei/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/bathtax.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/bathtax.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2020-0516-1017-42.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2020-0516-1017-42.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/noufu/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/noufu/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2026-0527-0957-41.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2026-0527-0957-41.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2026-0514-0934-28.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2026-0514-0934-28.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kokudohou_todokede.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kokudohou_todokede.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2025-1205-0939-28.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2025-1205-0939-28.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/tochijyouhou.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/tochijyouhou.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/juutaku/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/juutaku/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/teijuu/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/teijuu/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/akiya/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/akiya/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenchiku/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenchiku/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shinsei/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shinsei/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/kurashijouge/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/kurashijouge/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/ryoukin/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/ryoukin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/syoukai/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/syoukai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/suishitu/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/suishitu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/shingikai/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/shingikai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/kouji/",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/kouji/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/update/",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/update/",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashijouge/getebiki.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashijouge/getebiki.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/ryoukin/250306_shiharai_houhou.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/ryoukin/250306_shiharai_houhou.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/suishitu/kekka.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/suishitu/kekka.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/syoukai/jougesuidou_yosan_08.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/syoukai/jougesuidou_yosan_08.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/update/2026-0121-1526-70.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/update/2026-0121-1526-70.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashijouge/touketu-bousi.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashijouge/touketu-bousi.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashijouge/2025-1212-1528-70.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashijouge/2025-1212-1528-70.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashijouge/tetsuduki.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashijouge/tetsuduki.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/syoukai/jougesuidou_kessan_06.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/syoukai/jougesuidou_kessan_06.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/ryoukin/jousui.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/ryoukin/jousui.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/syoukai/keikaku/senryaku.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/syoukai/keikaku/senryaku.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/update/2025-0115-1645-70.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/update/2025-0115-1645-70.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/update/2024-1129-1311-70.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/update/2024-1129-1311-70.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/syoukai/keiei_senryaku.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/syoukai/keiei_senryaku.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/update/suidou_ryoukinkaitei.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/update/suidou_ryoukinkaitei.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/rousui/",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/rousui/",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/kouji",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/kouji/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2026-0624-1342-41.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2026-0624-1342-41.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2026-0612-1151-41.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2026-0612-1151-41.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2026-0204-0845-41.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2026-0204-0845-41.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2026-0105-1703-41.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2026-0105-1703-41.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2025-1008-0919-41.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2025-1008-0919-41.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/format.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/format.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/hozen/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/hozen/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/recycle/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/recycle/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shingomishorishisetuseibi/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shingomishorishisetuseibi/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/datsutanso/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/datsutanso/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/New_Disaster_Prevention_Weather_Information.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/New_Disaster_Prevention_Weather_Information.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/safetymail.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/safetymail.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/announce01.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/announce01.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/announce05.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/announce05.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/ninsanpubousai.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/ninsanpubousai.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/bousaijouhou/shelter_covid-19_01.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/bousaijouhou/shelter_covid-19_01.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/bousaijouhou/prevent01.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/bousaijouhou/prevent01.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/announce02.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/announce02.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/bousaijouhou/hinan-meihen.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/bousaijouhou/hinan-meihen.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/announce04.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/announce04.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/bousaijouhou/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/bousaijouhou/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/syoubou/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/syoubou/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/genshiryoku/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/genshiryoku/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2025-0618-1926-28.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2025-0618-1926-28.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2025-1204-1025-28.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2025-1204-1025-28.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2025-1202-1315-42.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2025-1202-1315-42.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2025-0804-1122-42.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2025-0804-1122-42.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/notojishinseikatushien.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/notojishinseikatushien.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/about_mynumber.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/about_mynumber.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/unnan_esucoken/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/unnan_esucoken/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/syouhi/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/syouhi/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/koutsuu/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/koutsuu/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/bouhan/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/bouhan/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/senkyo/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/senkyo/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/pet/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/pet/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/bochi/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/bochi/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/media/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/media/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kyoudoudekanaeru.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kyoudoudekanaeru.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2022-0310-1431-27.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2022-0310-1431-27.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/htakouryuu.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/htakouryuu.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2021-1207-1422-27.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2021-1207-1422-27.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2021-0922-1454-27.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2021-0922-1454-27.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/request.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/request.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/project_regist.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/project_regist.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/project_list.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/project_list.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/kosodate/syuugaku/manabi/study05.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/syuugaku/manabi/study05.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/jisyusosiki/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/jisyusosiki/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kikakushien/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kikakushien/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/npo/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/npo/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/furusato/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/furusato/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/furusatokai/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/furusatokai/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/jinken/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/jinken/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/toshikeikaku/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/toshikeikaku/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/dam/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/dam/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/siawasewohakobukounotori/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/siawasewohakobukounotori/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/fufukumoushitate.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/fufukumoushitate.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/todokede/koseki/cart02.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/todokede/koseki/cart02.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/files/saikensyatouroku.pdf",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/files/saikensyatouroku.pdf",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/2021-0824-1720-135.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2021-0824-1720-135.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/saigaihoukokusho.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/saigaihoukokusho.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/risaisyoumei_risaitodokede.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/risaisyoumei_risaitodokede.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/zeikin/noufu/city_tax.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/zeikin/noufu/city_tax.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/zeikin/noufu/format.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/zeikin/noufu/format.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/zeikin/juuminzei/indivi02.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/zeikin/juuminzei/indivi02.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/zeikin/noufu/corp_format.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/zeikin/noufu/corp_format.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/zeikin/noufu/kotei_format.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/zeikin/noufu/kotei_format.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/zeikin/noufu/post.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/zeikin/noufu/post.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/chisekichousa_shinsei.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/chisekichousa_shinsei.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/toshokan_youshiki.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/toshokan_youshiki.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/kankou/bunkasports/sports/riyou02.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/kankou/bunkasports/bunka/riyou03.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/bunka/riyou03.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/kosodate/syuugaku/gakkou/shinsei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/syuugaku/gakkou/shinsei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/kankou/bunkasports/kokusai/intl02.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/kokusai/intl02.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/kankyou/format.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kankyou/format.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/sangyou/nougyou/nougyoukinou.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/nougyou/nougyoukinou.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/suidou/kurashijouge/yousiki.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/suidou/kurashijouge/yousiki.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kentikukouzi.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kentikukouzi.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/sumai/shinsei/format_long.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sumai/shinsei/format_long.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/sumai/shinsei/format_carbon.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sumai/shinsei/format_carbon.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/sumai/shinsei/format_rule.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sumai/shinsei/format_rule.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/sumai/shinsei/format_recycle.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sumai/shinsei/format_recycle.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/sumai/shinsei/confirm02.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sumai/shinsei/confirm02.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/daichoushoumei.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/daichoushoumei.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/sangyou/nyusatsu/youshiki/agree14.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/nyusatsu/youshiki/agree14.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/sangyou/nyusatsu/youshiki/agree07.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/nyusatsu/youshiki/agree07.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/ijiyoubou.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/ijiyoubou.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2017-1129-1809-142.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2017-1129-1809-142.html",
+          "ok": false
+        },
+        {
+          "url": "http://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/josetsuboranithia.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/josetsuboranithia.html",
+          "ok": true
+        },
+        {
+          "url": "http://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/douroaigosagyou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/douroaigosagyou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/sangyou/jigyousyamuke/douro/douro01.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/jigyousyamuke/douro/douro01.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/sangyou/jigyousyamuke/douro/douro02.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/jigyousyamuke/douro/douro02.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/sangyou/jigyousyamuke/douro/douro03.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/jigyousyamuke/douro/douro03.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/sangyou/jigyousyamuke/douro/douro04.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/jigyousyamuke/douro/douro04.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/shurakukanjyosou.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/shurakukanjyosou.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/mihosoudourogenzairyoushikyu.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/mihosoudourogenzairyoushikyu.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/hannmanaifumoakasidasi.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/hannmanaifumoakasidasi.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/chiiki/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/chiiki/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/koureisya/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/koureisya/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/syougai/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/syougai/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/nenkinhoken/2026-0619-1652-200_iryou.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/nenkinhoken/2026-0619-1652-200_iryou.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/iryou/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/iryou/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/nenkinhoken/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/nenkinhoken/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2026-0619-1508-200_iwami_suisen.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2026-0619-1508-200_iwami_suisen.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2026-0526-1625-200pabukome.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2026-0526-1625-200pabukome.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/2024-0424-1719-200.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/2024-0424-1719-200.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenkyuusyo_2025award.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenkyuusyo_2025award.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenkouzousinjissikeikaku05.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenkouzousinjissikeikaku05.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/health_city.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/health_city.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenkou05.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou05.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/basic_plan.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/basic_plan.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/zaitakuiryou_kaigorenkeisiensenta.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/zaitakuiryou_kaigorenkeisiensenta.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/jisisougoutaisakukeikaku.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/jisisougoutaisakukeikaku.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/aid03.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/aid03.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/mamenakane_senryu.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/mamenakane_senryu.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/2024-0424-1719-200.html",
+          "status": 200,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/2024-0424-1719-200.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenshin/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenshin/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenshin/gan-kenshin.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenshin/gan-kenshin.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kenshin/SeijinKenshin_DenshiShinsei_01.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kenshin/SeijinKenshin_DenshiShinsei_01.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/yobousessyu/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/yobousessyu/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/kansensyou/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/kansensyou/index.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.unnan.shimane.jp/unnan/syokuikueisei/index.html",
+          "status": 404,
+          "finalUrl": "https://www.city.unnan.shimane.jp/unnan/syokuikueisei/index.html",
+          "ok": false
+        }
+      ]
+    }
+  ]
+}

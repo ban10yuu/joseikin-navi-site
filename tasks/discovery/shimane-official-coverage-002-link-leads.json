@@ -1,0 +1,4704 @@
+{
+  "seedCount": 400,
+  "fetched": 400,
+  "leadCount": 1421,
+  "uniqueLeadCount": 587,
+  "leads": [
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "子ども医療費助成申請書(PDF:82KB)",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.data/josei.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.html",
+      "score": 73
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "子ども医療費助成申請書【記入例】 (PDF:95KB)",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.data/joseirei.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.html",
+      "score": 73
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "子ども医療費助成制度の対象年齢拡大についてのページ",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/kodmoiryou_kakudai_.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.html",
+      "score": 68
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市奨学金の奨学生を募集します",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/28/3635.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/3/",
+      "score": 68
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "「児童扶養手当」の支給月額が変わります",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/serv02.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/",
+      "score": 68
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "児童手当（令和6年度制度改正）",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/seidokaiseijidouteate.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/",
+      "score": 68
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "【令和9年度対象】母子父子寡婦福祉資金の予約貸付について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/soudan/yoyakukasitukeR8.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/soudan/",
+      "score": 68
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "【期間限定：最大５万円】奥出雲町空き家バンク登録促進補助金について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/1771229615481.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/index.html",
+      "score": 68
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "【期間限定：最大５万円】奥出雲町空き家バンク登録促進補助金について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/information/entry_13.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 68
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和8年度奥出雲町住宅整備支援事業補助金について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/hikkoshi-sumai/sumai/1743385609148.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/hikkoshi-sumai/sumai/index.html",
+      "score": 68
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "児童手当・子ども等医療費助成の申請について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/kosodateshien_tetsuduki-shinsei/1001000000420.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/kosodateshien_tetsuduki-shinsei/index.html",
+      "score": 68
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和8年度障害児福祉手当",
+      "sourceUrl": "https://www.iinan.jp/soshiki/13/10794.html",
+      "from": "https://www.iinan.jp/soshiki/13/",
+      "score": 68
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和8年度特別児童扶養手当",
+      "sourceUrl": "https://www.iinan.jp/soshiki/13/10792.html",
+      "from": "https://www.iinan.jp/soshiki/13/",
+      "score": 68
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和8年度児童扶養手当",
+      "sourceUrl": "https://www.iinan.jp/soshiki/13/10624.html",
+      "from": "https://www.iinan.jp/soshiki/13/",
+      "score": 68
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "自主防災組織育成事業（防災資機材整備事業および防災訓練等事業）補助金申請の手引き（PDF：135KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jishubousai.data/tebikibousai.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jishubousai.html",
+      "score": 65
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "自主防災組織育成事業（指導者育成事業）補助金申請の手引き（PDF：100KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jishubousai.data/bousaisiteniki.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jishubousai.html",
+      "score": 65
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "施設使用料減免申請書(通知書) (58KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/syuugaku/gakkou/files/gennmenn.pdf",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/syuugaku/gakkou/shinsei.html",
+      "score": 65
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "障がいのある人が対象となる手当制度や共済制度のご案内",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/9/27265.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/5/29/",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "障がいのある人などを対象にしたＮＨＫ放送受信料の免除基準",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/48/1538.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/5/29/",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "環境関係補助金申請様式",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/kankyou/format.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "斐伊運動場使用料減免（還付）申請書（請求書） (32KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/hii_genmen.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "三刀屋文化体育館使用料減免申請書 (32KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/mitoya_genmen.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "木次体育館使用料減免（還付）申請書（請求書） (34KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/kisuki_genmen.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "雲南市大東ふれあい運動場使用料減免申請書(通知書) (14KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/daitouhureai_gennmenn.docx",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "艇庫施設および備品使用料減免申請書 (30KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/teiko_genmen.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "雲南市協働で叶える市民活動促進事業補助金の活用団体募集について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/kyoudoudekanaeru.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "令和８年度 農作物鳥獣被害防止対策事業補助金",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/nougyou/2026-0324-1641-139.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/sangyou/nougyou/",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和８年度奥出雲町未来のたねまきプロジェクト補助金について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/tanemaki.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/index.html",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和８年度おくいずも子育て応援事業所サポート事業補助金の募集について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/page_19.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和8年度おくいずも子育て応援事業所サポート事業補助金の募集について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/page_19.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/index.html",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和8年度奥出雲町電気自動車普及促進事業奨励金について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/kankyo/dattanso/1743497184720.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/kankyo/dattanso/index.html",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和8年度奥出雲町ごみ縮減機器等普及促進事業奨励金について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/kankyo/dattanso/1743497184720_1.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/kankyo/dattanso/index.html",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和8年度 飯南町地域商業等支援事業補助金 募集開始",
+      "sourceUrl": "https://www.iinan.jp/soshiki/7/11024.html",
+      "from": "https://www.iinan.jp/soshiki/7/",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "低所得世帯緊急支援給付金（1世帯あたり3万円）の手続き",
+      "sourceUrl": "https://www.iinan.jp/soshiki/13/10616.html",
+      "from": "https://www.iinan.jp/soshiki/13/",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和8年度特別障害者手当",
+      "sourceUrl": "https://www.iinan.jp/soshiki/13/10795.html",
+      "from": "https://www.iinan.jp/soshiki/13/",
+      "score": 60
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "よくあるご質問【子ども医療費助成制度】（PDF:444KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.data/shitumon.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.html",
+      "score": 53
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "安来市子ども医療費助成制度パンフレット（PDF:414KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.data/panf.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.html",
+      "score": 53
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "児童手当支払希望金融機関変更届（PDF：93KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/jido-teate.data/kouzahenko.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/jido-teate.html",
+      "score": 53
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "飯南町スマート農業導入支援事業費補助金交付要綱 [PDFファイル／3.77MB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/8082.pdf",
+      "from": "https://www.iinan.jp/soshiki/7/10895.html",
+      "score": 53
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "福祉医療費助成制度（重度心身障がい者・ひとり親家庭の方）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/01.html",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "福祉医療費助成制度各種様式",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/06.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "空き家改修事業補助金制度",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/akiya-kaishu-hojokin.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "児童手当",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/jido-teate.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/le-kosodate/index.html",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "児童扶養手当",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/jido-fuyo.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/le-kosodate/index.html",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "福祉医療費助成制度",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/04.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/le-kekkon/index.html",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "福祉医療費助成制度",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/le-kekkon/index.html",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "Ｕ・Ｉターンのための空き家改修費補助金",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/3/1545.html",
+      "from": "https://www.city.gotsu.lg.jp/site/akiya/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "空き家バンク登録支援補助金",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/3/36296.html",
+      "from": "https://www.city.gotsu.lg.jp/site/akiya/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "児童扶養手当を受給中の皆さんにお知らせします",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/11/2267.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/2/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "障害年金を受給しているひとり親家庭が児童扶養手当を受給できるよう見直します",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/11/16546.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/2/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "児童扶養手当",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/11/2268.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/2/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市生殖補助医療費助成制度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/11/25808.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/2/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "妊婦のための支援給付金を支給します",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/11/36215.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/2/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "児童手当",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/11/28779.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/2/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "ポリテクカレッジ島根の奨学金制度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/16/1720.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/3/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "わくわく島根生活実現支援事業における江津市地方創生移住支援金",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/3/28765.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/5/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "Ｕ・Ｉターンのための空き家改修費補助金",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/akiya/1545.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/5/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市空き家バンク登録支援補助金",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/3/36296.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/6/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "障害児福祉手当",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/9/27262.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/5/29/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "特別児童扶養手当",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/9/27263.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/5/29/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "住宅の除却に係る住宅用地の固定資産税減免について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/zeikin/juutakujokyaku.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/zeikin/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "児童扶養手当",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/serv01.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kenkou/syougai/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "子ども医療費助成制度",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/iryou/kodomonobyouki.html##kodomoiryou",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/iryou/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "子ども医療費助成にかかる適正受診のお願い",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/iryou/2024-1025-1357-40.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/iryou/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "小児慢性特定疾病医療費助成制度",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/iryou/kodomonobyouki.html##shoujimannsei",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/iryou/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "未熟児養育医療費助成制度",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/iryou/kodomonobyouki.html##mijyukujiyouiku",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/iryou/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "ひとり親家庭等に対する助成制度「児童扶養手当」",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/serv01.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "児童手当",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/jidouteate20220601.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "児童手当の制度について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/jidouteate20220601.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "生殖補助医療費助成制度について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/2022-0707-0913-49.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "福祉医療費助成制度",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/josei/fukushiiryou.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "母子・父子家庭等に対する助成制度「児童扶養手当」",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/serv01.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "母子父子寡婦福祉資金の貸付について（令和5年4月変更）",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/soudan/consult05.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "母子父子寡婦福祉資金の予約貸付について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/soudan/yoyakukasitukeR6.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashinodekigoto/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "母子父子寡婦福祉資金の貸付について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/soudan/consult05.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashinodekigoto/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "児童手当の制度について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/1723102202984.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/index.html",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町老朽危険空き家除却支援事業補助金について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/hikkoshi-sumai/sumai/1716874611843.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/hikkoshi-sumai/sumai/index.html",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町子ども等医療費助成について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/1734075233870.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/index.html",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町起業・創業等中小企業制度融資信用保証料補助金",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/kigyoshien/1707459738390.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/kigyoshien/index.html",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "児童扶養手当",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/hitorioyafukushi/1611562052718.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/hitorioyafukushi/index.html",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "特別児童扶養手当",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/shogaishafukushi/1594619420035.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/shogaishafukushi/index.html",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "障害児福祉手当",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/shogaishafukushi/1594684129704.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/shogaishafukushi/index.html",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "定住のための助成金制度",
+      "sourceUrl": "https://www.iinan.jp/site/ijyuu/1360.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "住宅整備助成金（利子補給）",
+      "sourceUrl": "https://www.iinan.jp/site/hojyokin/6552.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "空き家購入支援事業費補助金",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/3627.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "住宅増改築支援事業費補助金",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/3626.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "住宅新築支援事業費補助金",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/3567.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "町産材住宅活用促進事業費補助金",
+      "sourceUrl": "https://www.iinan.jp/soshiki/7/3679.html",
+      "from": "https://www.iinan.jp/soshiki/7/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和6年10月から児童手当が変わります",
+      "sourceUrl": "https://www.iinan.jp/soshiki/9/8659.html",
+      "from": "https://www.iinan.jp/soshiki/9/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "児童手当制度が変わります",
+      "sourceUrl": "https://www.iinan.jp/soshiki/9/4855.html",
+      "from": "https://www.iinan.jp/soshiki/9/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "不妊治療費補助金",
+      "sourceUrl": "https://www.iinan.jp/soshiki/12/1297.html",
+      "from": "https://www.iinan.jp/soshiki/12/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "子ども等医療費助成事業",
+      "sourceUrl": "https://www.iinan.jp/soshiki/12/4392.html",
+      "from": "https://www.iinan.jp/soshiki/12/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "母子父子寡婦福祉資金貸付制度",
+      "sourceUrl": "https://www.iinan.jp/soshiki/13/1268.html",
+      "from": "https://www.iinan.jp/soshiki/13/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "福祉医療費助成制度",
+      "sourceUrl": "https://www.iinan.jp/soshiki/13/1265.html",
+      "from": "https://www.iinan.jp/soshiki/13/",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "定住のための助成金",
+      "sourceUrl": "https://www.iinan.jp/site/ijyuu/1360.html",
+      "from": "https://www.iinan.jp/site/ijyuu/3984.html",
+      "score": 48
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "飯南町新エネルギー設備導入促進事業補助金（概要） [PDFファイル／1.3MB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/7920.pdf",
+      "from": "https://www.iinan.jp/site/hojyokin/9488.html",
+      "score": 45
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "住民税非課税世帯等に対する臨時特別給付金",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/sumai/juuminzeihikazeikyuuhukin/",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/sumai/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "特別定額給付金",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/sumai/tokubetu-kyuhu/",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/sumai/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "市民支援制度（補助金・助成金等）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/shiminkatsudo/chiikizukuri/shimin-shien-h29.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/sumai/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "自主防災組織育成事業補助金",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jishubousai.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "手当",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshi-fushi-shienin.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "利用料及び減免制度について",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/jidouclub/clubriyouryou.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/jido-club.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "産前産後期間の国民年金保険料免除について",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/sanzensango.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "国民年金保険料の育児免除制度について",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/ikuji_menjo.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "年金生活者支援給付金制度について",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/nenkinsienkyufu.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "国民年金保険料を免除する制度",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/menjo.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "母子家庭等自立支援給付金",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshikatei.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/le-kosodate/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "補助金の紹介",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/akiya/28374.html",
+      "from": "https://www.city.gotsu.lg.jp/site/akiya/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "母子家庭自立支援給付金および父子家庭自立支援給付金事業",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/11/12323.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/2/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市立中学校英語検定料補助金のお知らせ",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/28/37690.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/3/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "合併処理浄化槽の設置に関する補助金のお知らせ",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/22/2149.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/5/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "低所得世帯緊急支援給付金のお知らせ",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/9/40793.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/index-2.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "防犯灯設置費補助金のご案内",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/4/3143.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/3/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "特別障害者手当",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/9/27260.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/5/29/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "保育士就労奨励金",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/11/3113.html",
+      "from": "https://www.city.gotsu.lg.jp/life/6/9/44/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "新卒者等就労促進家賃補助金",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/16/37613.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/index-2.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "法人市民税（均等割）の減免について",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/8/36963.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/index-2.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市中小企業者等物価高騰対策信用保証料補助金",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/16/29911.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/14/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "まち・ひと結び事業費補助金",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/comunity/28851.html",
+      "from": "https://www.city.gotsu.lg.jp/life/4/23/97/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "女性のプチ起業支援補助金",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/3/28776.html",
+      "from": "https://www.city.gotsu.lg.jp/life/4/23/97/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "【災害関連】再交付手数料の免除のお知らせ",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/12/9173.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/2/17/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "定額減税しきれないと見込まれる人への給付金【調整給付】について",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/8/33411.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/10/49/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "地域未来投資法に基づく地域経済牽引事業に係る固定資産税の課税免除",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/8/33843.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/15/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "地域再生法による固定資産税の課税免除・不均一課税",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/8/33543.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/15/69/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "過疎地域における固定資産税の課税免除",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/8/22227.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/15/69/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "手当・助成",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "定額減税補足給付金（不足額給付）の支給について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/zeikin/2025-0729-1305-42.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/zeikin/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "定額減税補足給付金（調整給付）の支給について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/zeikin/2024-0716-1101-42.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/zeikin/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "環境関係補助金",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/kankyou/format.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/kankyou/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "雲南市結婚活動支援団体支援事業補助金",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/seikatsu/2025-0618-1926-28.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/seikatsu/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "雲南市地域の担い手育成事業補助金について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/2022-0310-1431-27.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "重度障がい者等介護手当",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/syougai/2026-0316-1144-46.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kenkou/syougai/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "出産・子育て応援給付金について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/ninshinsyussan/shussankosodate.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/ninshinsyussan/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "雲南市森林バイオマス推進事業補助金",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/ringyou/2021-0427-1051-139.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/sangyou/ringyou/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "雲南市事業継続緊急支援事業補助金について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/syoukou/kigyou/zigyoukeizoku.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/information/newslist.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "運転免許取得支援事業補助金について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/syoukou/kigyou/untenmenkyo.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/information/newslist.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町地域商業等支援事業費補助金",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/1707457795337.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町地域商業重点支援事業費補助金",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/1707460117885.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "小型除雪機購入費補助金交付事業について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/information/entry_22.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "強くしなやかな食品産業づくり事業補助金『しまね中核的食品製造企業育成事業』（補助金）の公募について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/1718756718402.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町小規模事業者事業継続支援補助金",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/kigyoshien/1707456255065.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/kigyoshien/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町「先端設備等導入計画」による固定資産等の減免について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/kigyoshien/1737419014756.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/kigyoshien/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "商工事業者向け補助金について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/kigyoshien/1624348257755.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/kigyoshien/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "ひとり親家庭 自立支援給付金事業",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/hitorioyafukushi/1671669647039.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/hitorioyafukushi/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町結婚新生活支援事業補助金について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/kekkon/page_36.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/kekkon/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町つながりづくり協議会縁結び事業補助金について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/kekkon/1560819334180.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/kekkon/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "町産材利用促進事業費補助金の拡充について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/kankyo/dattanso/1748578260103.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/kankyo/dattanso/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "町産材利用促進事業費補助金について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/kankyo/dattanso/1728528255576.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/kankyo/dattanso/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "過疎地域における固定資産税の課税免除について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/zei/zei_oshirase/1638766360771.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/zei/zei_oshirase/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "「奥出雲町ふるさと留学奨励金」について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/kyoiku/kyoikuiinkai/1001000000744.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/kyoiku/kyoikuiinkai/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "給付金関連の不審メールに注意！",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/bosaijoho/bohan-info/1587616161040.html",
+      "from": "https://www.town.okuizumo.shimane.jp/bosaijoho/bohan-info/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "特別障害者手当",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/shogaishafukushi/1594625639918.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/shogaishafukushi/index.html",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "飯南町新エネルギー設備導入促進事業補助金",
+      "sourceUrl": "https://www.iinan.jp/site/hojyokin/9488.html",
+      "from": "https://www.iinan.jp/life/sub/1/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "林業就業者確保対策補助金",
+      "sourceUrl": "https://www.iinan.jp/soshiki/7/6400.html",
+      "from": "https://www.iinan.jp/life/sub/1/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "助成金",
+      "sourceUrl": "https://www.iinan.jp/site/ijyuu/1360.html",
+      "from": "https://www.iinan.jp/site/ijyuu/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "有害鳥獣対策後継者確保対策補助金",
+      "sourceUrl": "https://www.iinan.jp/soshiki/7/10934.html",
+      "from": "https://www.iinan.jp/soshiki/7/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "低所得世帯物価高騰緊急支援給付金（均等割課税支給分及びこども加算分）",
+      "sourceUrl": "https://www.iinan.jp/soshiki/9/7920.html",
+      "from": "https://www.iinan.jp/soshiki/8/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "子育て世帯生活支援特別給付金（ひとり親世帯以外分）",
+      "sourceUrl": "https://www.iinan.jp/soshiki/9/4865.html",
+      "from": "https://www.iinan.jp/soshiki/9/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "「国民スポーツ大会」成功に向けたソフトボール競技補助金を新設しました",
+      "sourceUrl": "https://www.iinan.jp/soshiki/11/3712.html",
+      "from": "https://www.iinan.jp/soshiki/11/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "スポーツ振興くじ（toto）助成金を活用した施設整備",
+      "sourceUrl": "https://www.iinan.jp/soshiki/11/1344.html",
+      "from": "https://www.iinan.jp/soshiki/11/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "国民健康保険料の減免（新型コロナウイルス関連）",
+      "sourceUrl": "https://www.iinan.jp/site/ncov/1288.html",
+      "from": "https://www.iinan.jp/soshiki/12/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "手当・給付の一覧",
+      "sourceUrl": "https://www.iinan.jp/life/sub/5/",
+      "from": "https://www.iinan.jp/soshiki/12/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "母子家庭自立支援給付金・父子家庭自立支援給付金",
+      "sourceUrl": "https://www.iinan.jp/soshiki/13/1269.html",
+      "from": "https://www.iinan.jp/soshiki/13/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "NHK放送受信料の減免",
+      "sourceUrl": "https://www.iinan.jp/soshiki/13/5291.html",
+      "from": "https://www.iinan.jp/soshiki/13/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "飯南町中小企業等人材確保対策事業補助金",
+      "sourceUrl": "https://www.iinan.jp/soshiki/7/4047.html",
+      "from": "https://www.iinan.jp/life/1/11/38/",
+      "score": 40
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "就学援助認定申請書・記入例（PDF：211KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shugakuenjo.data/ninteisinsei08.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shugakuenjo.html",
+      "score": 33
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "就学援助認定申請書（PDF：211KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shugakuenjo.data/ninteisinsei08.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shugakuenjo.html",
+      "score": 33
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "子ども医療費受給資格証交付・再交付申請書 (PDF:78KB)",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.data/kouhu.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.html",
+      "score": 33
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "子ども医療費受給資格証交付・再交付申請書【記入例】 (PDF:142KB)",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.data/kouhurei.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.html",
+      "score": 33
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "様式2交付申請書［妊婦のいる家庭用］（PDF：36KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/coccolo.data/yousiki2.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/coccolo.html",
+      "score": 33
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度就学援助制度についてのご案内 [PDFファイル：274KB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/20365.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/28/7249.html",
+      "score": 33
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度 就学援助費受給の申請に必要な添付書類一覧 [PDFファイル：267KB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/20366.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/28/7249.html",
+      "score": 33
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "(様式第1号)令和8年度 就学援助費受給申請書兼委任状 [PDFファイル：187KB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/20367.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/28/7249.html",
+      "score": 33
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "(様式第1号)令和8年度 就学援助費受給申請書兼委任状 記入例 [PDFファイル：233KB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/20368.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/28/7249.html",
+      "score": 33
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "高校生年代までの医療費無償化",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/teiju-info.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "令和8年度公設放課後児童クラブ入所申請について",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/jidouclub/clubisseinyushoR8.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/jido-club.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "待機児童登録申請について",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/jidouclub/clubtaikijidotoroku.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/jido-club.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "予防接種ができる医療機関一覧表（令和8年度）",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/11/27997.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/2/",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "第2期江津市子ども・子育て支援事業計画（素案）に対するパブリックコメントの募集結果",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/11/13847.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/2/",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度就学援助制度のご案内",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/28/7249.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/3/",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市障がい者保健福祉計画（案）に対するパブリックコメントの募集結果",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/48/18767.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/5/29/",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度農業委員会総会開催日程及び申請期限について",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/25/40835.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/index-2.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "確認申請に伴う住宅用防災機器の設置届について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/sumai/shinsei/confirm02.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "令和８年度 雲南市省力化・生産性向上農業機械等物価高騰対策支援事業",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/nougyou/bukakoutounougyoukikai.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/sangyou/nougyou/",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "市営住宅入居者募集（7月）",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/sumai/juutaku/2022-1227-1350-63.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/information/newslist.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和８年度飼料用米等を組み合わせた水田農業経営安定対策事業 の要望調査について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/information/entry_45.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和8年度農業省力化投資支援対策事業の２次募集について（お知らせ）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/kurashi_tetsuduki-shinsei/1745400892609_1.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "〈随時募集〉下横田住宅団地の分譲について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/information/latest-information/entry_23.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "農業委員および農地利用最適化委員の募集結果（最終公表）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/1770967155468.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "〈随時募集〉稲田住宅団地の分譲について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/hikkoshi-sumai/sumai/page_41.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/hikkoshi-sumai/sumai/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "〈随時募集〉下横田住宅団地の分譲について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/hikkoshi-sumai/sumai/page_16.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/hikkoshi-sumai/sumai/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "農業委員会総会の開催日と申請書類の提出期限の変更について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/1773894299235.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "しまね農業女子の募集について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/1678415146447.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "10/7 世界農業遺産認定申請書を国連食糧農業機関へ提出しました",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/1633584399814.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "世界農業遺産（ＧＩＡＨＳ）認定に向けて申請しました",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/1597903682126.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和８年度仁多地域放課後児童クラブ保護者説明会の開催について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/1758854721691.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "「１８才で目指す子ども像」に関わる児童・生徒アンケートの結果について（令和４年度）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/kyoiku/kyoikuiinkai/1673410397932.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/kyoiku/kyoikuiinkai/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "2026年07月15日 令和８年度飼料用米等を組み合わせた水田農業経営安定対策事業 の要望調査について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/information/entry_45.html",
+      "from": "https://www.town.okuizumo.shimane.jp/index_test.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和８年度放課後児童クラブの加入申し込みについて",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/1758853450536.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和７年度よこた児童クラブの加入申込について （鳥上・横田・八川・馬木地区にお住まいの方）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/1731023091529.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和７年度仁多地域放課後児童クラブの加入申し込みについて",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/1732671761837.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "「世界農業遺産」への認定申請に向け国内承認されました",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/sekainogyoisannintei/1613715003832.html",
+      "from": "https://www.town.okuizumo.shimane.jp/sekainogyoisannintei/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "世界農業遺産認定申請にかかる現地調査が行われました",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/sekainogyoisannintei/1607125393217.html",
+      "from": "https://www.town.okuizumo.shimane.jp/sekainogyoisannintei/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和２年度世界農業遺産認定申請 一次審査を通過しました",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/sekainogyoisannintei/1600939104149.html",
+      "from": "https://www.town.okuizumo.shimane.jp/sekainogyoisannintei/index.html",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "農業省力化投資支援事業（2次募集）",
+      "sourceUrl": "https://www.iinan.jp/soshiki/7/10895.html",
+      "from": "https://www.iinan.jp/soshiki/7/",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和7年度飯南町農業委員会議事録の公表",
+      "sourceUrl": "https://www.iinan.jp/soshiki/7/9628.html",
+      "from": "https://www.iinan.jp/soshiki/7/",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和6年度飯南町農業委員会議事録の公表",
+      "sourceUrl": "https://www.iinan.jp/soshiki/7/8677.html",
+      "from": "https://www.iinan.jp/soshiki/7/",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和5年度飯南町農業委員会議事録の公表",
+      "sourceUrl": "https://www.iinan.jp/soshiki/7/7376.html",
+      "from": "https://www.iinan.jp/soshiki/7/",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "「第4期飯南町障がい者福祉計画等」（案）に対する意見募集の結果",
+      "sourceUrl": "https://www.iinan.jp/soshiki/13/7973.html",
+      "from": "https://www.iinan.jp/soshiki/13/",
+      "score": 28
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "オンライン申請の注意事項（PDF：213KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shugakuenjo.data/syuugaku_online.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shugakuenjo.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "オンライン申請マニュアル（PDF：1.1MB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shugakuenjo.data/onlinemanual0601_compressed.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shugakuenjo.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "【安来市】しまねふるさとフェア2027 出展者募集要項",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/event/kankou/shimanehurusatofea2026.data/yasugisi.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/event/kankou/shimanehurusatofea2026.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "様式1交付申請書［子育て家庭用］（PDF：44KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/coccolo.data/yousiki1.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/coccolo.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "様式5再交付申請書（PDF：40KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/coccolo.data/yousiki5.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/coccolo.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "様式6切替申請書（PDF：28KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/coccolo.data/yousiki6.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/coccolo.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "令和8年度母子保健事業予定表【ホームページ版】（PDF：930KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/kenshin-kyoshitsu.data/r8bosihokennzigyouyoteihyou.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/kenshin-kyoshitsu.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "令和8年度離乳食教室のお知らせ（PDF:582KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/kenshin-kyoshitsu.data/r8rinyuusyokukyousitu.pdf",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/kenshin-kyoshitsu.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度江津市人権・同和教育講演会ちらし [PDFファイル：972KB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/21460.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/14/41504.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度シルバー人材センター発注見通し一覧表 [PDFファイル：66KB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/20939.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/47/40336.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度測量等業務発注見通し一覧表 [PDFファイル：148KB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/21247.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/47/40335.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和7年度（下半期）財政状況書 [PDFファイル：1.38MB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/21511.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/5/41613.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和7年度（上半期）財政状況書 [PDFファイル：726KB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/20339.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/5/41613.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和6年度（下半期）財政状況書 [PDFファイル：843KB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/20338.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/5/41613.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和6年度（上半期）財政状況書 [PDFファイル：590KB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/19333.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/5/41613.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和5年度（下半期）財政状況書 [PDFファイル：1.39MB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/18250.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/5/41613.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和5年度（上半期）財政状況書 [PDFファイル：887KB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/16100.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/5/41613.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度 出前講座メニュー表 [PDFファイル：1.13MB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/21516.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/29/33362.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "【チラシ】Go-Con2026プラン募集 [PDFファイル：1.2MB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/21261.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/3/40974.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "【募集要項】Go-Con2026 [PDFファイル：438KB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/21279.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/3/40974.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "【募集要項】Go-Con2026 [PDFファイル：438KB]",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/uploaded/attachment/21281.pdf",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/3/40974.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "令和８年度 雲南市防災会議 議事録 (119KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/bousaijouhou/files/R8_12_gijiroku3.pdf",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/bousaijouhou/2026-0715-0946-32.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "手当・助成",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/index.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "追加申請（工事） (pdf：4.3MB)",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/assets/01_%E5%B3%B6%E6%A0%B9%E7%9C%8C%E9%9B%BB%E5%AD%90%E8%AA%BF%E9%81%94%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_%E8%B3%87%E6%A0%BC%E7%94%B3%E8%AB%8B%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%93%8D%E4%BD%9C%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%88%E8%BF%BD%E5%8A%A0%E7%94%B3%E8%AB%8B_%E5%B7%A5%E4%BA%8B%EF%BC%89.pdf",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/7-8-8-7-31-8-8-10.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "追加申請（業務） (pdf：5.3MB)",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/assets/02_%E5%B3%B6%E6%A0%B9%E7%9C%8C%E9%9B%BB%E5%AD%90%E8%AA%BF%E9%81%94%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_%E8%B3%87%E6%A0%BC%E7%94%B3%E8%AB%8B%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%93%8D%E4%BD%9C%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%88%E8%BF%BD%E5%8A%A0%E7%94%B3%E8%AB%8B_%E6%A5%AD%E5%8B%99%EF%BC%89.pdf",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/7-8-8-7-31-8-8-10.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "変更申請（工事） (pdf：1.6MB)",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/assets/03_%E5%B3%B6%E6%A0%B9%E7%9C%8C%E9%9B%BB%E5%AD%90%E8%AA%BF%E9%81%94%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_%E8%B3%87%E6%A0%BC%E7%94%B3%E8%AB%8B%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%93%8D%E4%BD%9C%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%88%E5%A4%89%E6%9B%B4%E7%94%B3%E8%AB%8B_%E5%B7%A5%E4%BA%8B%EF%BC%89.pdf",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/7-8-8-7-31-8-8-10.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "変更申請（業務） (pdf：2.0MB)",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/assets/04_%E5%B3%B6%E6%A0%B9%E7%9C%8C%E9%9B%BB%E5%AD%90%E8%AA%BF%E9%81%94%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_%E8%B3%87%E6%A0%BC%E7%94%B3%E8%AB%8B%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%93%8D%E4%BD%9C%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%88%E5%A4%89%E6%9B%B4%E7%94%B3%E8%AB%8B_%E6%A5%AD%E5%8B%99%EF%BC%89.pdf",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/7-8-8-7-31-8-8-10.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "新規申請（工事） (pdf：2.9MB)",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/assets/05_%E5%B3%B6%E6%A0%B9%E7%9C%8C%E9%9B%BB%E5%AD%90%E8%AA%BF%E9%81%94%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_%E8%B3%87%E6%A0%BC%E7%94%B3%E8%AB%8B%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%93%8D%E4%BD%9C%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%88%E5%AE%9A%E6%9C%9F%E7%94%B3%E8%AB%8B_%E5%B7%A5%E4%BA%8B%EF%BC%89.pdf",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/7-8-8-7-31-8-8-10.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "新規申請（業務） (pdf：3.6MB)",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/assets/06_%E5%B3%B6%E6%A0%B9%E7%9C%8C%E9%9B%BB%E5%AD%90%E8%AA%BF%E9%81%94%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0_%E8%B3%87%E6%A0%BC%E7%94%B3%E8%AB%8B%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%93%8D%E4%BD%9C%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%EF%BC%88%E5%AE%9A%E6%9C%9F%E7%94%B3%E8%AB%8B_%E6%A5%AD%E5%8B%99%EF%BC%89.pdf",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/7-8-8-7-31-8-8-10.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "社会保険料納入証明申請書（記載例付き） (pdf：471.4KB)",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/assets/08_%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%99%BA%E6%96%99%E7%B4%8D%E5%85%A5%E8%A8%BC%E6%98%8E%E7%94%B3%E8%AB%8B%E6%9B%B8%EF%BC%88%E5%8E%9F%E6%9C%AC%E3%80%81%E8%A8%98%E8%BC%89%E4%BE%8B%E3%80%81%E8%A6%8B%E6%9C%AC%EF%BC%89.pdf",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/7-8-8-7-31-8-8-10.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "交付申請書（記載例付き） (pdf：261.6KB)",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/assets/09_%E4%BD%8F%E6%B0%91%E7%A5%A8%E3%80%81%E7%A8%8E%E5%8B%99%E9%96%A2%E4%BF%82%E8%A8%BC%E6%98%8E%E6%9B%B8%E7%AD%89%E4%BA%A4%E4%BB%98%E8%AB%8B%E6%B1%82%E6%9B%B8%EF%BC%88%E8%A8%98%E8%BC%89%E4%BE%8B%EF%BC%89.pdf",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/7-8-8-7-31-8-8-10.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "手当",
+      "sourceUrl": "https://www.iinan.jp/life/2/12/42/",
+      "from": "https://www.iinan.jp/life/2/12/",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "手当の一覧",
+      "sourceUrl": "https://www.iinan.jp/life/2/12/42/",
+      "from": "https://www.iinan.jp/life/2/12/",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和７年度第１回 飯南町教育委員会会議 [PDFファイル／2.91MB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/6697.pdf",
+      "from": "https://www.iinan.jp/soshiki/11/9670.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和７年度第３回 飯南町教育委員会会議 [PDFファイル／202KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/8152.pdf",
+      "from": "https://www.iinan.jp/soshiki/11/9670.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和７年度第４回 飯南町教育委員会会議 [PDFファイル／229KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/8153.pdf",
+      "from": "https://www.iinan.jp/soshiki/11/9670.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和７年度第５回 飯南町教育委員会会議 [PDFファイル／241KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/8154.pdf",
+      "from": "https://www.iinan.jp/soshiki/11/9670.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和７年度第６回 飯南町教育委員会会議 [PDFファイル／202KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/8155.pdf",
+      "from": "https://www.iinan.jp/soshiki/11/9670.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和７年度第７回 飯南町教育委員会会議 [PDFファイル／180KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/8156.pdf",
+      "from": "https://www.iinan.jp/soshiki/11/9670.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和７年度第８回 飯南町教育委員会会議 [PDFファイル／176KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/8157.pdf",
+      "from": "https://www.iinan.jp/soshiki/11/9670.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和７年度第９回 飯南町教育委員会会議 [PDFファイル／155KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/8158.pdf",
+      "from": "https://www.iinan.jp/soshiki/11/9670.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和７年度第１０回 飯南町教育委員会会議 [PDFファイル／178KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/8159.pdf",
+      "from": "https://www.iinan.jp/soshiki/11/9670.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和７年度第１１回 飯南町教育委員会会議 [PDFファイル／206KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/8160.pdf",
+      "from": "https://www.iinan.jp/soshiki/11/9670.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和７年度第１２回 飯南町教育委員会会議 [PDFファイル／135KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/8161.pdf",
+      "from": "https://www.iinan.jp/soshiki/11/9670.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和７年度第１３回 飯南町教育委員会会議 [PDFファイル／103KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/8162.pdf",
+      "from": "https://www.iinan.jp/soshiki/11/9670.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和７年度第１４回 飯南町教育委員会会議 [PDFファイル／175KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/8163.pdf",
+      "from": "https://www.iinan.jp/soshiki/11/9670.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "「ワンストップ特例申請事項変更届出書（全国共通様式）」 [PDFファイル／111KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/3186.pdf",
+      "from": "https://www.iinan.jp/soshiki/6/4555.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "「ワンストップ特例申請書（全国共通様式）」 [PDFファイル／123KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/3185.pdf",
+      "from": "https://www.iinan.jp/soshiki/6/4555.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和6年度に寄附いただいた皆さま [PDFファイル／276KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/6679.pdf",
+      "from": "https://www.iinan.jp/site/furusatonouzei/9638.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和5年度に寄附いただいた皆さま [PDFファイル／234KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/5481.pdf",
+      "from": "https://www.iinan.jp/site/furusatonouzei/8456.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和4年度に寄附いただいた皆さま [PDFファイル／252KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/4939.pdf",
+      "from": "https://www.iinan.jp/site/furusatonouzei/7531.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和3年度に寄附いただいた皆さま [PDFファイル／542KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/3753.pdf",
+      "from": "https://www.iinan.jp/site/furusatonouzei/5728.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "「令和2年度に寄付いただいた皆さま」をダウンロードする（PDF：3.3MB）",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/1002.pdf",
+      "from": "https://www.iinan.jp/soshiki/6/1030.html",
+      "score": 25
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "農林振興課申請書様式集",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/shigoto/noringyo/shinseisyo/",
+      "from": "https://www.city.yasugi.shimane.jp/shigoto/noringyo/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "申請・届出・証明",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "申請書式ダウンロード",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/download/",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "受給資格要件",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/01.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "オンライン申請",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/online/onlinetaishou.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/jido-teate.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "退所申請について",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/jidouclub/clubtaisho.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/jido-club.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "認定申請書（Word：16KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jishubousai.data/01nintei.docx",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jishubousai.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "交付申請書（Word：16KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jishubousai.data/03sinsei_sikizaikunren.docx",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jishubousai.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "交付申請書（Word：16KB）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jishubousai.data/04sinsei_bousaisi.docx",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jishubousai.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "介護職員初任者研修の受講生を募集します。",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/shigoto/fukushi/others/kaigojinzaikakuho/syoninsyakensyuu.html",
+      "from": "https://www.city.yasugi.shimane.jp/news/kaigo/shoninnshakennshuu.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "申請書コンビニプリントサービス",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/download/convenience-print.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/download/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "介護職員初任者研修の受講生を募集します（2026年6月23日）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/news/kaigo/shoninnshakennshuu.html",
+      "from": "https://www.city.yasugi.shimane.jp/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "安来市炊飯等業務の受託者を募集します（2026年6月19日）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/news/kyushoku/suihan_jutaku.html",
+      "from": "https://www.city.yasugi.shimane.jp/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "安来市給食センター調理業務の受託者を募集します（2026年6月19日）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/news/kyushoku/tyouri_jutaku.html",
+      "from": "https://www.city.yasugi.shimane.jp/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "【政策企画課】青少年海外研修事業の参加者募集を開始しました（2026年5月27日）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/news/seisaku/kaigaikenshuu_boshuukaishi.html",
+      "from": "https://www.city.yasugi.shimane.jp/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "しまねふるさとフェア2027の出展者を募集します（2026年7月1日）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/event/kankou/shimanehurusatofea2026.html",
+      "from": "https://www.city.yasugi.shimane.jp/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "一部の窓口受付時間が変わります",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/shisei/soshiki/070106uketukejikannhennkou.html",
+      "from": "https://www.city.yasugi.shimane.jp/shisei/soshiki/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "幼児教育・保育の無償化（令和元年7月31日）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/youjikyouiku_musyouka.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "施設等利用給付認定申請のご案内（令和3年10月1日）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/shisetsutoriyoukyuhu.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "令和6年度における施設型給付費等の額に係る法定代理受領の通知について",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/shisetsugatakyuhuhi.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "令和8年度保育所（園）・認定こども園（2号、３号認定）の入所募集について（令和7年１１月7日）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/r8nyuusyo.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "令和8年度保育所（園）・認定こども園関係手続き書類",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/r8syorui.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32206",
+      "municipalityName": "安来市",
+      "sourceName": "令和8年度幼稚園・認定こども園（１号認定）の入園募集について（令和7年１１月7日）",
+      "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/r8ichigou.html",
+      "from": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和7年度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/2/37807.html",
+      "from": "https://www.city.gotsu.lg.jp/site/furusatonouzei-kigyo/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和6年度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/2/35062.html",
+      "from": "https://www.city.gotsu.lg.jp/site/furusatonouzei-kigyo/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和5年度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/2/28958.html",
+      "from": "https://www.city.gotsu.lg.jp/site/furusatonouzei-kigyo/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和4年度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/2/35061.html",
+      "from": "https://www.city.gotsu.lg.jp/site/furusatonouzei-kigyo/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市が令和6年度 企業版ふるさと納税に係る大臣表彰を受賞しました！",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/2/35263.html",
+      "from": "https://www.city.gotsu.lg.jp/site/furusatonouzei-kigyo/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "幼児教育・保育の無償化",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/11/12138.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/2/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "申請・届出の一覧を見る",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/life/sub/7/1/2/",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/2/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "申請・届出の一覧を見る",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/life/sub/7/1/1/",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/1/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度 江津市人権・同和教育講演会を開催します",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/14/41504.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/3/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和7年度から使用する教科用図書が決まりました",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/28/34002.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/3/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和6年度から使用する教科用図書が決まりました",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/28/29556.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/3/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和3年度から使用する教科用図書が決まりました",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/28/16888.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/3/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和2年度から学校給食費を改定します",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/28/7366.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/3/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "水銀使用製品の無料回収",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/12/12801.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度 エコクリーンセンター（可燃物処理場）",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/12/39330.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度家庭ごみの収集日",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/12/39048.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度 島の星クリーンセンター（不燃物処理場）",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/12/39328.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "【令和6年度改訂】江津市地球温暖化対策実行計画（区域施策編）",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/12/36284.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和7年度 江津市一般廃棄物処理実施計画",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/12/15658.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "家庭ごみの分け方・出し方（令和6年度～）",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/12/8529.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市地球温暖化対策実行計画[区域施策編]（素案）に対するパブリックコメントの募集結果",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/12/14134.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "第30回ピクニックラン桜江の申し込み受付を終了しました！",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/picnicrun/",
+      "from": "https://www.city.gotsu.lg.jp/life/1/index-2.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "窓口より100円お得！マイナンバーカードを利用したコンビニ交付サービス",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/12/27803.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/index-2.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度水質検査結果",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/21/40927.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/index-2.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和８年度の国民健康保険料の料率について",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/13/41318.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/index-2.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度 市民税・県民税に関する主な税制改正",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/8/41333.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/index-2.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和８年度 知って安心！国保のポイント",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/13/41319.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/index-2.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "ごうつ恋活応援団の募集",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/3/6932.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/1/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市消防団員募集",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/4/26136.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/3/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "自動車臨時運行許可申請",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/12/13585.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/3/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "汚泥発酵肥料「さくらえゆうき」を無料配布しています",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/22/1016.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/4/24/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度水質検査計画",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/21/40407.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/4/24/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和7年度水質検査結果",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/21/36699.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/4/24/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和6年度水質検査結果",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/21/36694.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/4/24/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和7年度水質検査計画",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/21/36184.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/4/24/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和5年度水質検査結果",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/21/32480.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/4/24/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和6年度水質検査計画",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/21/31833.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/4/24/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和4年度水質検査結果",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/21/28149.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/4/24/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和5年度水質検査計画",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/21/27414.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/4/24/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "第3次江津市環境基本計画（案）に対する意見を募集します（パブリックコメント）",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/12/26531.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/4/24/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和3年度水質検査結果",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/21/23385.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/4/24/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和4年度水質検査計画",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/21/23279.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/4/24/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和3年度水質検査計画",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/21/18972.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/4/24/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和2年度水質検査計画を変更しました",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/21/17847.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/4/24/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和2年度水質検査計画",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/21/14255.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/4/24/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "パレットごうつ市民団体活動室の登録団体募集",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/3/1682.html",
+      "from": "https://www.city.gotsu.lg.jp/life/6/8/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市教育委員会への共催・後援の申請",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/28/1887.html",
+      "from": "https://www.city.gotsu.lg.jp/life/6/8/38/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市健康づくり予定表（令和8年度 育児編）",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/11/28948.html",
+      "from": "https://www.city.gotsu.lg.jp/life/6/9/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度のシルバー人材センターへの発注見通しを公表します",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/47/40336.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/index-2.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度の測量・建設コンサルタント等業務の発注見通しを公表します",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/47/40335.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/index-2.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度の公共工事発注見通しを公表します",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/47/36149.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/index-2.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度分事業用償却資産の申告",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/8/25932.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/index-2.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和6年度指定管理者のモニタリング結果",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/2/37653.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/index-2.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市有害鳥獣捕獲班員募集について",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/15/37563.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/index-2.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和7年度の測量・建設コンサルタント等業務の発注見通しの変更情報",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/47/36363.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/index-2.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和5年度指定管理者のモニタリング結果",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/2/33222.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/14/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和4年度指定管理者のモニタリング結果",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/2/30039.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/14/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市地域コミュニティ交流センター使用申請書",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/3/2100.html",
+      "from": "https://www.city.gotsu.lg.jp/life/4/23/97/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "マイナンバーカードを申請しませんか",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/12/6802.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/2/17/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "マイナンバーカード申請 申請時来庁方式",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/12/13887.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/2/17/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "マイナンバーカード申請 交付時来庁方式",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/12/13886.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/2/17/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "マイナンバー制度の質問は無料コールセンターへ",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/2/1031.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/2/17/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和6年度個人市民税・県民税の定額減税について",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/8/32520.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/10/49/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和5年度から市税の納付方法が拡充されます",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/8/27179.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/10/49/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和4年度 個人市民税・県民税の改正",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/8/22188.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/10/49/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和3年度 個人市民税・県民税の改正",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/8/17960.html",
+      "from": "https://www.city.gotsu.lg.jp/life/1/10/49/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "新型コロナウイルス感染症による法人市民税の申告・納付期限の延長",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/covid19/15743.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/15/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "太陽光発電設備は課税対象となる場合があります",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/8/2535.html",
+      "from": "https://www.city.gotsu.lg.jp/life/2/15/69/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和6年度事業・第2期江津市版総合戦略に関する評価",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/2/41550.html",
+      "from": "https://www.city.gotsu.lg.jp/life/4/19/86/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市版総合戦略の令和6年度評価",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/2/36016.html",
+      "from": "https://www.city.gotsu.lg.jp/life/4/19/86/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市版総合戦略の令和5年度評価",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/2/31232.html",
+      "from": "https://www.city.gotsu.lg.jp/life/4/19/86/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市版総合戦略の令和4年度評価",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/2/27577.html",
+      "from": "https://www.city.gotsu.lg.jp/life/4/19/86/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市版総合戦略の令和3年度評価",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/2/22046.html",
+      "from": "https://www.city.gotsu.lg.jp/life/4/19/86/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市版総合戦略の令和2年度評価",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/2/19047.html",
+      "from": "https://www.city.gotsu.lg.jp/life/4/19/86/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "ごうだ交流センターだより（令和7年度）",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/comunity/33404.html",
+      "from": "https://www.city.gotsu.lg.jp/life/4/22/108/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "ごうだ交流センターだより（令和5年度）",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/comunity/27150.html",
+      "from": "https://www.city.gotsu.lg.jp/life/4/22/108/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "ごうだ交流センターだより（令和4年度）",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/comunity/25045.html",
+      "from": "https://www.city.gotsu.lg.jp/life/4/22/108/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "江津市への共催・後援の申請",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/soshiki/4/18739.html",
+      "from": "https://www.city.gotsu.lg.jp/life/4/22/108/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "わたづ便り(令和2年度渡津地域コミュニティ広報誌)",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/comunity/14807.html",
+      "from": "https://www.city.gotsu.lg.jp/life/4/22/108/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "イベント・募集の一覧を見る",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/life/sub/2/22/108/",
+      "from": "https://www.city.gotsu.lg.jp/life/4/22/108/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/mayor/list22-821.html",
+      "from": "https://www.city.gotsu.lg.jp/site/mayor/40895.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和7年度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/mayor/list22-762.html",
+      "from": "https://www.city.gotsu.lg.jp/site/mayor/40895.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和6年度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/mayor/list22-719.html",
+      "from": "https://www.city.gotsu.lg.jp/site/mayor/40895.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和5年度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/mayor/list22-611.html",
+      "from": "https://www.city.gotsu.lg.jp/site/mayor/40895.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和4年度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/mayor/list22-540.html",
+      "from": "https://www.city.gotsu.lg.jp/site/mayor/40895.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和8年度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/mayor/list173-822.html",
+      "from": "https://www.city.gotsu.lg.jp/site/mayor/40895.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和7年度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/mayor/list173-760.html",
+      "from": "https://www.city.gotsu.lg.jp/site/mayor/40895.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和6年度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/mayor/list173-718.html",
+      "from": "https://www.city.gotsu.lg.jp/site/mayor/40895.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和5年度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/mayor/list173-627.html",
+      "from": "https://www.city.gotsu.lg.jp/site/mayor/40895.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和4年度",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/mayor/list173-579.html",
+      "from": "https://www.city.gotsu.lg.jp/site/mayor/40895.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "申請・届出",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/life/sub/7/",
+      "from": "https://www.city.gotsu.lg.jp/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "第30回ピクニックラン桜江募集要項",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/picnicrun/5029.html",
+      "from": "https://www.city.gotsu.lg.jp/soshiki/32/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和7年度の議会報告会",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/gikai/list30-748.html",
+      "from": "https://www.city.gotsu.lg.jp/site/gikai/1876.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和6年度の議会報告会",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/gikai/list30-687.html",
+      "from": "https://www.city.gotsu.lg.jp/site/gikai/1876.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和5年度の議会報告会",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/gikai/list30-65.html",
+      "from": "https://www.city.gotsu.lg.jp/site/gikai/1876.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和4年度の議会報告会",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/gikai/list30-655.html",
+      "from": "https://www.city.gotsu.lg.jp/site/gikai/1876.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和3年度までの議会報告会",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/gikai/list30-654.html",
+      "from": "https://www.city.gotsu.lg.jp/site/gikai/1876.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和5年度「島根県江津市活性化」プロジェクト",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/city-promotion/31468.html",
+      "from": "https://www.city.gotsu.lg.jp/site/city-promotion/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32207",
+      "municipalityName": "江津市",
+      "sourceName": "令和4年度「江津市の知名度向上計画」プロジェクト",
+      "sourceUrl": "https://www.city.gotsu.lg.jp/site/city-promotion/31460.html",
+      "from": "https://www.city.gotsu.lg.jp/site/city-promotion/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "申請書様式",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "郵便による税務関係証明書の交付申請書について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/zeikin/noufu/post.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "雲南市国際交流員の紹介・派遣申請書様式",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/kokusai/intl02.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "建築確認申請・工事届等に関する様式",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/kentikukouzi.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "維持要望受付簿について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/ijiyoubou.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "除雪ボランティアの募集について",
+      "sourceUrl": "http://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/josetsuboranithia.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "加茂Ｂ＆Ｇ海洋センター使用許可申請書 (39KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/kamobg_shiyo.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "加茂Ｂ＆Ｇ海洋センター利用許可変更申請書 (28KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/kamobg_henko.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "斐伊運動場利用承認申請書 (34KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/hii_riyo.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "斐伊運動場利用変更承認申請書 (29KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/hii_henko.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "斐伊運動場利用承認申請取下願 (27KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/hii_torisage.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "三刀屋文化体育館使用許可申請書 (68KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/mitoya_shiyo.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "三刀屋文化体育館利用時間延長許可申請書 (33KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/mitoya_encho.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "吉田勤労者体育センター使用申請書 (36KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/yoshida_shiyo.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "木次体育館利用承認申請書 (50KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/kisuki_riyo.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "艇庫施設および備品利用承認申請書 (34KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/teiko_riyo.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "艇庫施設および備品利用承認変更申請書 (28KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/teiko_henko.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "艇庫施設および備品利用承認申請取下願 (27KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/teiko_torisage.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "艇庫施設および備品使用料還付申請書 (31KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/teiko_kanpu.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "艇庫掲示物許可申請書 (31KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/teiko_keijibutsu.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "艇庫特別設備等許可申請書 (29KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/teiko_tokubetsusetsubi.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "掛合野球場利用申請書 (32KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/kakeya_yakyujo_riyo.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "公園利用許可申請書 (30KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/files/koen_riyo.doc",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/sports/riyou02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "【参加者募集】1月24日(土)結婚支援セミナー開催について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/seikatsu/2025-1204-1025-28.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/seikatsu/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "会計年度任用職員（税務課）の募集",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/seikatsu/2025-1202-1315-42.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/seikatsu/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "会計年度任用職員（税務課）の募集",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/seikatsu/2025-0804-1122-42.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/seikatsu/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "地域生活支援事業 事業者の募集",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/syougai/2026-0224-2126-46.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kenkou/syougai/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "令和9年度ワイヤーメッシュ設置事業の設置団体の募集について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/ringyou/2026-0624-1310-192.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/sangyou/ringyou/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "森林バイオマスエネルギー事業 市民登録者募集",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/ringyou/2023-0511-1619-192.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/sangyou/ringyou/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "「火入れ」を行う場合には、事前の許可申請が必要です",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/ringyou/hiire.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/sangyou/ringyou/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "手続き・申請関連",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashinodekigoto/todokede.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashinodekigoto/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "手続き・申請",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashinodekigoto/koureitetsuzuki.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashinodekigoto/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "令和8年度市政懇談会",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/pr/kondankai/civic_meeting08.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/information/newslist.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "令和８年度の雲南市戦没者追悼式の様子について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/chiiki/katsudo_shisetsu/R8_senbotsusya-tsuitoushiki.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/information/newslist.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "しまねふるさとフェア2027出展者募集",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/spot/furusatofair.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/information/newslist.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "歴史資料借用申請書 (14KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/bunka/files/shakuyoushinsei.docx",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/bunka/riyou03.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "出版物等掲載許可申請書 (14KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/bunka/files/keisaikyokasinsei.docx",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/bunka/riyou03.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "雲南市国際交流員派遣申請書（学校訪問・講師派遣） (21KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/kokusai/files/CIRhakenA.docx",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/kokusai/intl02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "雲南市国際交流員派遣申請書（通訳・随行派遣） (20KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/kokusai/files/CIRhakenB.docx",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/kokusai/intl02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "雲南市国際交流員翻訳依頼申請書 (20KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/kokusai/files/CIRhonyakuC.docx",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/bunkasports/kokusai/intl02.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "道路除雪ボランティア登録申請書 (14KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/files/jyosetuvolunteer_touroku.docx",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/josetsuboranithia.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "除雪作業従事者登録申請書 (15KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/files/jyosetujyujisha_touroku.docx",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/josetsuboranithia.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "道路除雪ボランティア作業交付金申請書 (14KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/files/jyosetuvolunteer_sagyokoufukin.docx",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/youshiki/josetsuboranithia.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "1.市道通行規制申請書 (19KB)",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/jigyousyamuke/douro/files/tsuukoukisei.docx",
+      "from": "https://www.city.unnan.shimane.jp/unnan/sangyou/jigyousyamuke/douro/douro01.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "令和８年度 雲南市防災会議",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/bousaijouhou/2026-0715-0946-32.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "【参加団体募集中】さくらおろち湖環境美化活動",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/event/2026-0519-1555-27.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "第36回 永井隆平和賞の作品を募集します",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/syuugaku/heiwasyou/2026-nagaitakashi-heiwasyou_boshu.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "証明書等のオンライン申請（電子申請）",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/todokede/online_shinsei_matome.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/todokede/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "【令和８年度】公共浄化槽等整備推進事業の実施予定について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/update/2026-0121-1526-70.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "【令和7年度】公共浄化槽(市設置型)設置の受付終了について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/kurashijouge/2025-1212-1528-70.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "【令和７年度】公共浄化槽等整備推進事業の実施予定について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/update/2025-0115-1645-70.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/suidou/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "成人健診（検診）のご案内（電子申請受付）",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/kenshin/SeijinKenshin_DenshiShinsei_01.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "高齢者見守りSOSネットワーク会員募集",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/koureisya/kaigo/dementia01.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kenkou/koureisya/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "日本一短い「感謝」の手紙作品募集",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/seishounen/20241216oubo.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/seishounen/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "令和7年度 雲南市二十歳の集いについて",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/seishounen/20220814_20th_age_ceremony.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kosodate/seishounen/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "「桜守」後継者を募集！",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kankou/spot/sakuramori2026.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kankou/spot/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "市役所1階ショーケースへの展示希望者を募集します！",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/syoukou/syoukou_01.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/sangyou/syoukou/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "11月25日開催「初めての海外販路セミナー」参加者募集",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/jigyousyamuke/kaigaihanroseminor.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/sangyou/jigyousyamuke/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "令和8年度雲南広域連合消防吏員採用試験",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/shoubou_recruitment.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/shiseijouhou/jouhoukoukai/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "「企業版ふるさと納税」を募集しています！",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/furusato/furusato02.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/furusato/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "戸別受信機の無償貸与について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/bousaijouhou/2020-1225-1258-32.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/bousai/bousaijouhou/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "これまでの新着情報（令和5年度分）",
+      "sourceUrl": "http://www.city.unnan.shimane.jp/unnan/kenkou/iryou/kansensyou/2024-0329-1133-49.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/kansensyou/coronavirus_infection.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "これまでの新着情報（令和4年度分）",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/kansensyou/coronavirus_news4.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/kansensyou/coronavirus_infection.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "これまでの新着情報（令和3年度分）",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/kansensyou/coronavirus_news3.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/kansensyou/coronavirus_infection.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "これまでの新着情報（令和２年度分）",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/kansensyou/coronavirus_news.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/kansensyou/coronavirus_infection.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32209",
+      "municipalityName": "雲南市",
+      "sourceName": "令和8年度雲南市一般廃棄物処理実施計画について",
+      "sourceUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/kankyou/recycle/2024-0419-1944-41.html",
+      "from": "https://www.city.unnan.shimane.jp/unnan/kurashi/kankyou/recycle/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "マイナンバーカードの申請補助サービスを実施します！",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/1644486562808.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "公園施設使用許可申請書",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/1687828913672.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和8年度奥出雲町企業版関係人口創出プロジェクト事業の公募について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/8_1.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和８年度第２回奥出雲町職員募集のお知らせ",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/recruit/1689212489282.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "【工事】【測量等】新規（追加）申請手続きの方法～令和7・8年度入札参加資格（令和8年7月31日～令和8年8月10日申請）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/7-8-8-7-31-8-8-10.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "【40歳以下対象】複業はじめの一歩講座開催決定！",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/sangyoshinko/fukugyou-hajimetenoippo.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和８年度７月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/page_15_1_1.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "あなたの「好き」を発信！「おくいずもの魅力発信講座」参加者募集！",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/manabu-tanoshimu/manabu-tanoshimu_event/page_42.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "「試行事業 奥出雲子育てまるごとサービス」の夏休み期間中モニターを募集します！",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/information/latest-information/entry_38.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "【作品大募集】第12回さくらおろち湖写真コンテスト作品募集のお知らせ",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/information/latest-information/12.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和8年度 熱中症対策施設開放について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/hokenjigyo/heatstroke.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和８年度６月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/information/latest-information/entry_20_1.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "マイナンバーカードの休日交付と申請サポートのご案内",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/information/latest-information/entry_33.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "雲南広域連合消防職員募集",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/information/latest-information/entry_34.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和８年度おくいずも子育て応援事業所の募集について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/page_18.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和８年度５月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/information/entry_20.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "【募集】奥出雲町地域滞在プログラム『奥留学』",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/iju-teiju/okuryugaku.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和８年度 こころの健康相談日について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/information/latest-information/entry_8.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和８年度 歯と口の健康相談室/健康・栄養相談日について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/hokenjigyo/kenko-sodan/1743468062142_1.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町鳥獣被害防止計画（令和8年度～令和10年度）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/1681127386885.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "「奥出雲町過疎地域持続的発展計画（令和8年度～令和12年度）」を策定しました",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/1773706235042.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和8年度 古紙回収日程",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/gomi-recycle/1773391288583.html",
+      "from": "https://www.town.okuizumo.shimane.jp/latest-information/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和４年度改正建築基準法・改正建築物省エネ法",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/hikkoshi-sumai/sumai/1746585331374.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/hikkoshi-sumai/sumai/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和８年度病児保育 登録申込みについて",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/kosodateshien_tetsuduki-shinsei/1764635567919.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/kosodateshien_tetsuduki-shinsei/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和8年度農作業労務賃金等標準額が決定しました",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/1772780038452.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "農地法第3条申請について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/1697684240872.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "農村漁村女性活躍表彰の募集について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/1690959490372.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/nogyo/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町は保育料完全無償化！",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/1672212058200.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "３歳児以上の副食費無料について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/1642047725180.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和7年度国民健康保険税の税率について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/zei/zei_oshirase/1747984233128.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/zei/zei_oshirase/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和６年度国民健康保険税の税率について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/zei/zei_oshirase/1719532013723.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/zei/zei_oshirase/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "新型コロナウィルス感染症による法人町民税の申告・納付期限の延長について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/zei/zei_oshirase/1588904857776.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/zei/zei_oshirase/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "個人事業主等の記帳・帳簿等の保存制度の対象者の拡大について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/zei/zei_oshirase/1001000000435.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kurashi/zei/zei_oshirase/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "2026年07月13日 令和８年度第２回奥出雲町職員募集のお知らせ",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/recruit/1689212489282.html",
+      "from": "https://www.town.okuizumo.shimane.jp/index_test.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "亀嵩公民館(基幹集落ｾﾝﾀｰ)使用申請書 (docx：17.6KB)",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/assets/IT%E4%BA%88%E7%B4%84%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%80%8A%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AB%8B%E6%9B%B8%E3%83%BB%E8%A8%B1%E5%8F%AF%E6%9B%B8%E3%80%8B.docx",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/kyoiku/shisetsu-yoyaku/s-reserve.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "亀嵩公民館備品使用申請書 (doc：32.0KB)",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/assets/%E5%82%99%E5%93%81%E4%BD%BF%E7%94%A8%E7%94%B3%E8%AB%8B%E6%9B%B8%28%E4%BA%80%E5%85%AC%EF%BC%89.doc",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/kyoiku/shisetsu-yoyaku/s-reserve.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "公園施設使用許可申請書・報告書 (xlsx：46.7KB)",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/assets/1-1%E6%96%BD%E8%A8%AD%E4%BD%BF%E7%94%A8%E8%A8%B1%E5%8F%AF%E7%94%B3%E8%AB%8B%E6%9B%B8%EF%BC%88%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E7%94%A8%EF%BC%89.xlsx",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/kyoiku/shisetsu-yoyaku/s-reserve.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和７年度奥出雲町人権標語・イラスト入賞作品を紹介します",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/1767752089529.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "「令和７年度奥出雲町中学校職場体験学習ハンドブック」を作成しました。",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/1755562517850.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町デジタル田園都市構想総合戦略（令和６年度） 施策評価／評価委員会の結果について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/1765958324175.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町デジタル田園都市構想総合戦略（令和５年度） 施策評価／評価委員会の結果について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/1733100237708.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町デジタル田園都市構想総合戦略（令和4年度） 施策評価／評価委員会の結果について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/1702857912133.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和６年度コミュニティ助成事業（地域防災組織育成助成事業）の募集について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/1694044756404.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "企業版ふるさと納税（地方創生応援税制）の募集について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/teiju-kanko-furusatonozei/kigyo-furusatonozei/1713767515934.html",
+      "from": "https://www.town.okuizumo.shimane.jp/teiju-kanko-furusatonozei/kigyo-furusatonozei/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町ふるさと応援寄附を募集します！",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/teiju-kanko-furusatonozei/furusatonozei/1001000000528.html",
+      "from": "https://www.town.okuizumo.shimane.jp/teiju-kanko-furusatonozei/furusatonozei/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町ふるさと応援寄附協賛事業者の募集について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/teiju-kanko-furusatonozei/furusatonozei/1634621852610.html",
+      "from": "https://www.town.okuizumo.shimane.jp/teiju-kanko-furusatonozei/furusatonozei/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和４年度島根県自主防災組織リーダー研修会受講希望者の募集について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/bosaijoho/1662694836710.html",
+      "from": "https://www.town.okuizumo.shimane.jp/bosaijoho/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "≪島根県行政書士会からのお知らせ≫新型コロナウイルス感染症対策のための無料電話相談窓口開設について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/coronavirus-info/1589505957909.html",
+      "from": "https://www.town.okuizumo.shimane.jp/coronavirus-info/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "町税等各種料金の支払期限延長を希望される方へ【新型コロナウィルス感染症対策】",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/coronavirus-info/1587606907652.html",
+      "from": "https://www.town.okuizumo.shimane.jp/coronavirus-info/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和8年度奥出雲町企業版関係人口創出プロジェクト事業の公募について（プレスリリース）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/pressrelease/8_1_1.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/pressrelease/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和８年度奥出雲町職員募集のお知らせ（通年募集）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/recruit/1746150149400.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/recruit/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和８年度第１回奥出雲町職員募集のお知らせ【申込終了】",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/recruit/1682656252642_1.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/recruit/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "「奥出雲町立地適正化計画（案）」に関するご意見の募集の結果について",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/choseijoho/publiccomment/1725846902097.html",
+      "from": "https://www.town.okuizumo.shimane.jp/choseijoho/publiccomment/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和8年度 奥出雲町ごみ収集カレンダー",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kurashi/gomi-recycle/1773388784444.html",
+      "from": "https://www.town.okuizumo.shimane.jp/activity/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "令和８年度 保育施設等入園申込みについて",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/kyoiku/yojien/1761100019748.html",
+      "from": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/kyoiku/yojien/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和８年度６月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/page_15_1.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和８年度５月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/page_15.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和7年度2月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1773712039102.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和7年度3月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1773710347682.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和7年度12月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1764815524980.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和7年度11月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1763605513500.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和7年度9月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1761185083858.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和7年度10月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1761184700124.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和7年度7月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1752460496232.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和7年度6月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1749705247973.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和7年度8月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1747721610559.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和7年度5月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1746669042355.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和7年度4月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1744253353546.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和5年度5月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1685529495087.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和5年度4月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1683026247775.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和4年度2月～3月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1678935290798.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和4年度1月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1676617664126.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和4年度11月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1670565325917.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和4年度10月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1669006910209.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和4年度9月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1664957843760.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和4年度8月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1662714741805.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和4年度7月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1659699528283.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和4年度6月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1657092088725.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和4年度5月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1654842016630.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "奥出雲町入札結果の公表について（令和4年度4月）",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/1652838749549.html",
+      "from": "https://www.town.okuizumo.shimane.jp/jigyosha/nyusatsu-keiyaku/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32343",
+      "municipalityName": "奥出雲町",
+      "sourceName": "【随時募集！】令和８年度地域おこし協力隊募集中！",
+      "sourceUrl": "https://www.town.okuizumo.shimane.jp/iju-teiju/teijushien-site/1763431930716.html",
+      "from": "https://www.town.okuizumo.shimane.jp/iju-teiju/teijushien-site/index.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "各種申請",
+      "sourceUrl": "https://www.iinan.jp/life/sub/1/",
+      "from": "https://www.iinan.jp/site/ijyuu/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和8年度 町政座談会開催",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/11108.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和7年度 飯南町総合振興計画等評価委員会の報告",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/10150.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和5年度 飯南町総合振興計画等評価委員会の報告",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/7425.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和4年度 飯南町総合振興計画等評価委員会の報告",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/5501.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和3年度 飯南町総合振興計画等評価委員会の報告",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/1057.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和2年度 飯南町総合振興計画等評価委員会の報告",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/1058.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和8年度寄附者のご紹介（企業版ふるさと納税）",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/11056.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和7年度寄附者のご紹介（企業版ふるさと納税）",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/9558.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "【募集】地域団体などへ公共交通運賃を助成",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/7992.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和7年度町政座談会（質問・意見／回答）",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/10263.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和7年度町政座談会",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/10061.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "笑顔あふれるまちづくり懇話会 受付開始",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/8341.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和6年度寄附者のご紹介（企業版ふるさと納税）※R8.4更新",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/8893.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和6年度町政座談会（質問・意見／回答）",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/8340.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和5年度寄附者のご紹介（一般寄附・企業版ふるさと納税）令和6年3月更新",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/6631.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "企業版ふるさと納税 受付中",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/5156.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "飯南町自治集会所建設事業助成 申請受付中",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/9550.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "ブランドメッセージ総選挙投票受付終了",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/5169.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "ふるさと納税ワンストップ特例申請制度",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/4555.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和3年度ヒトカラ（ローカルジャーナリスト養成講座）",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/1013.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和2年度ヒトカラ",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/1075.html",
+      "from": "https://www.iinan.jp/soshiki/6/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "営農証明申請書",
+      "sourceUrl": "https://www.iinan.jp/soshiki/7/10866.html",
+      "from": "https://www.iinan.jp/soshiki/7/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "ポイントの有効期限が迫っています",
+      "sourceUrl": "https://www.iinan.jp/soshiki/7/11259.html",
+      "from": "https://www.iinan.jp/soshiki/7/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "申請・手続きの一覧",
+      "sourceUrl": "https://www.iinan.jp/life/sub/1/",
+      "from": "https://www.iinan.jp/soshiki/7/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和8年度飯南町農作業標準賃金・作業標準料金が決定しました",
+      "sourceUrl": "https://www.iinan.jp/soshiki/7/10693.html",
+      "from": "https://www.iinan.jp/soshiki/7/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和7年度飯南町農作業標準賃金・作業標準料金が決定しました",
+      "sourceUrl": "https://www.iinan.jp/soshiki/7/9217.html",
+      "from": "https://www.iinan.jp/soshiki/7/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和6年度飯南町農作業標準賃金・作業標準料金が決定しました",
+      "sourceUrl": "https://www.iinan.jp/soshiki/7/7892.html",
+      "from": "https://www.iinan.jp/soshiki/7/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和5年度飯南町農作業標準賃金・作業標準料金が決定しました",
+      "sourceUrl": "https://www.iinan.jp/soshiki/7/2272.html",
+      "from": "https://www.iinan.jp/soshiki/7/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和7年度 飯南町一般廃棄物（ごみ）処理実施計画",
+      "sourceUrl": "https://www.iinan.jp/soshiki/8/10544.html",
+      "from": "https://www.iinan.jp/soshiki/8/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和6年度 飯南町一般廃棄物（ごみ）処理実施計画",
+      "sourceUrl": "https://www.iinan.jp/soshiki/8/8045.html",
+      "from": "https://www.iinan.jp/soshiki/8/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和5年度 飯南町一般廃棄物（ごみ）処理実施計画",
+      "sourceUrl": "https://www.iinan.jp/soshiki/8/7781.html",
+      "from": "https://www.iinan.jp/soshiki/8/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和4年度策定版 「一般廃棄物（ごみ）処理基本計画書」",
+      "sourceUrl": "https://www.iinan.jp/soshiki/8/6893.html",
+      "from": "https://www.iinan.jp/soshiki/8/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和6年度個人住民税の定額減税",
+      "sourceUrl": "https://www.iinan.jp/soshiki/8/8254.html",
+      "from": "https://www.iinan.jp/soshiki/8/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "ご縁サポーター（ボランティア仲人）募集",
+      "sourceUrl": "https://www.iinan.jp/soshiki/9/3769.html",
+      "from": "https://www.iinan.jp/soshiki/9/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和7年度 飯南町教育委員会会議",
+      "sourceUrl": "https://www.iinan.jp/soshiki/11/9670.html",
+      "from": "https://www.iinan.jp/soshiki/11/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和8年度飯南町の教育",
+      "sourceUrl": "https://www.iinan.jp/soshiki/11/10805.html",
+      "from": "https://www.iinan.jp/soshiki/11/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和4年度分 給食費のお知らせ",
+      "sourceUrl": "https://www.iinan.jp/soshiki/11/1325.html",
+      "from": "https://www.iinan.jp/soshiki/11/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和8年度食生活改善推進員育成教室の受講生を募集します",
+      "sourceUrl": "https://www.iinan.jp/soshiki/12/10921.html",
+      "from": "https://www.iinan.jp/soshiki/12/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和5年度新型コロナウイルスワクチン（秋冬接種）",
+      "sourceUrl": "https://www.iinan.jp/soshiki/12/7293.html",
+      "from": "https://www.iinan.jp/soshiki/12/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "無料職業紹介所",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/1365.html",
+      "from": "https://www.iinan.jp/site/ijyuu/3984.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "借用申請書 [Wordファイル／11KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/7768.docx",
+      "from": "https://www.iinan.jp/site/ijyuu/1369.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "各種申請書",
+      "sourceUrl": "https://www.iinan.jp/life/sub/1/",
+      "from": "https://www.iinan.jp/life/1/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和8年度雲南広域連合消防吏員採用試験",
+      "sourceUrl": "https://www.iinan.jp/soshiki/5/8348.html",
+      "from": "https://www.iinan.jp/soshiki/list1-1.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "町有遊休施設等の「民間活用提案」を募集します",
+      "sourceUrl": "https://www.iinan.jp/soshiki/4/10933.html",
+      "from": "https://www.iinan.jp/soshiki/list1-1.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "申請・手続きの一覧",
+      "sourceUrl": "https://www.iinan.jp/life/sub/1/12/39/",
+      "from": "https://www.iinan.jp/life/2/12/39/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "令和7年度 河川における水質調査結果",
+      "sourceUrl": "https://www.iinan.jp/soshiki/8/10636.html",
+      "from": "https://www.iinan.jp/life/1/4/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "申請・手続きの一覧",
+      "sourceUrl": "https://www.iinan.jp/life/sub/1/1/1/",
+      "from": "https://www.iinan.jp/life/1/1/1/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "申請・手続きの一覧",
+      "sourceUrl": "https://www.iinan.jp/life/sub/1/11/38/",
+      "from": "https://www.iinan.jp/life/1/11/38/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "無料職業紹介所のご案内",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/1365.html",
+      "from": "https://www.iinan.jp/life/3/19/71/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "申請書 [Wordファイル／21KＢ］",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/3078.docx",
+      "from": "https://www.iinan.jp/soshiki/6/1048.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "民間提案制度募集要綱 [Wordファイル／13KB]",
+      "sourceUrl": "https://www.iinan.jp/uploaded/attachment/7959.docx",
+      "from": "https://www.iinan.jp/soshiki/4/10933.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "ワンストップ特例申請",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/4555.html",
+      "from": "https://www.iinan.jp/site/furusatonouzei/9638.html",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "広告バナー募集中",
+      "sourceUrl": "https://www.iinan.jp/soshiki/6/1048.html",
+      "from": "https://www.iinan.jp/life/3/20/76/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "CATV文字放送の広告募集",
+      "sourceUrl": "https://www.iinan.jp/soshiki/4/1226.html",
+      "from": "https://www.iinan.jp/life/3/20/76/",
+      "score": 20
+    },
+    {
+      "municipalityCode": "32386",
+      "municipalityName": "飯南町",
+      "sourceName": "申請・手続き",
+      "sourceUrl": "https://www.iinan.jp/life/sub/1/",
+      "from": "https://www.iinan.jp/",
+      "score": 20
+    }
+  ]
+}

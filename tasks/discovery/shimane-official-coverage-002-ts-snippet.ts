@@ -1,0 +1,1516 @@
+const shimaneOfficial002Grants: Array<{
+  slug: string;
+  title: string;
+  organization: string;
+  maxAmount: string;
+  maxAmountNum: number;
+  category: Grant['category'];
+  relatedCategories?: Grant['relatedCategories'];
+  eligibility: string;
+  applicationPeriod: string;
+  officialUrl: string;
+  sourceName: string;
+}> = [
+  {
+    "slug": "shimane-official-002-001-2026",
+    "title": "安来市 母子家庭等自立支援給付金",
+    "organization": "安来市",
+    "maxAmount": "上限20万円",
+    "maxAmountNum": 200000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "安来市内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "申請が必要ですので、お気軽にお問合せください",
+    "officialUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshikatei.html",
+    "sourceName": "母子家庭等自立支援給付金"
+  },
+  {
+    "slug": "shimane-official-002-002-2026",
+    "title": "安来市 子ども医療費助成制度",
+    "organization": "安来市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "安来市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和7年3月31日 申請を行ってください",
+    "officialUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.html",
+    "sourceName": "子ども医療費助成制度"
+  },
+  {
+    "slug": "shimane-official-002-003-2026",
+    "title": "安来市 児童扶養手当",
+    "organization": "安来市",
+    "maxAmount": "1人の場合：全部支給48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "安来市内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "申請者である母または父および児童が、別れた児童の親から、児童の養育のために受け取る金品等をいいます",
+    "officialUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/jido-fuyo.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "shimane-official-002-004-2026",
+    "title": "安来市 児童手当",
+    "organization": "安来市",
+    "maxAmount": "一人あたり3歳未満：月額15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "安来市内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "申請について 児童手当の手続きには、ぴったりサービスを利用してスマホ・パソコンから申請が可能なものがあります",
+    "officialUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/jido-teate.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "shimane-official-002-005-2026",
+    "title": "安来市 母子父子寡婦福祉資金貸付制度",
+    "organization": "安来市",
+    "maxAmount": "公式ページ記載の奨学金・貸付額",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "medical",
+      "nursing"
+    ],
+    "eligibility": "安来市内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "申請書［注釈参照］ 戸籍謄本 世帯全員の住民票 島根県税の納税証明書 児童扶養手当証書の写し又は前年度収入額が確認できるもの 修学修業先・技能習得先調書［注釈参照］ 口座振替申出書［注",
+    "officialUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshi-fushi-kafu.html",
+    "sourceName": "母子父子寡婦福祉資金貸付制度"
+  },
+  {
+    "slug": "shimane-official-002-006-2026",
+    "title": "安来市 自主防災組織育成事業補助金",
+    "organization": "安来市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [
+      "employment"
+    ],
+    "eligibility": "安来市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "申請の手引きをご覧ください",
+    "officialUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jishubousai.html",
+    "sourceName": "自主防災組織育成事業補助金"
+  },
+  {
+    "slug": "shimane-official-002-007-2026",
+    "title": "安来市 福祉医療費助成制度",
+    "organization": "安来市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "安来市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "福祉医療費助成制度（重度心身障がい者・ひとり親家庭の方） 本文へ Foreign language 読み上げ ふりがな JavaScriptが無効のため、文字の大きさ・背景色を変更する機能を使用できません。 背景色 白 ",
+    "officialUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/",
+    "sourceName": "福祉医療費助成制度"
+  },
+  {
+    "slug": "shimane-official-002-008-2026",
+    "title": "安来市 空き家改修事業補助金制度",
+    "organization": "安来市",
+    "maxAmount": "限度額：賃貸中の空き家を所有者がリフォームする場合50万円",
+    "maxAmountNum": 500000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "安来市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "申請方法等は次のとおりです",
+    "officialUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/akiya-kaishu-hojokin.html",
+    "sourceName": "空き家改修事業補助金制度"
+  },
+  {
+    "slug": "shimane-official-002-009-2026",
+    "title": "安来市 市民支援制度（補助金・助成金等）",
+    "organization": "安来市",
+    "maxAmount": "上限は組織の構成世帯数に応じて４〜１６万円",
+    "maxAmountNum": 160000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "安来市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "令和8年1月6日 募集・決定の時期：随時 問合せ先：防災課（電話：0854-23-3074） 【詳細】 自主防災組織育成事業補助金 災害見舞金 概要：住家（母屋）が災害や火災で被害を受けた場合の災害見舞",
+    "officialUrl": "https://www.city.yasugi.shimane.jp/kurashi/shiminkatsudo/chiikizukuri/shimin-shien-h29.html",
+    "sourceName": "市民支援制度（補助金・助成金等）"
+  },
+  {
+    "slug": "shimane-official-002-010-2026",
+    "title": "安来市 就学援助制度",
+    "organization": "安来市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [],
+    "eligibility": "安来市内の児童生徒・学生・保護者等で公式要件を満たす方",
+    "applicationPeriod": "就学援助制度について（PDF：360KB） このページに関するお問い合わせ 安来市（安来庁舎） 郵便番号：692-8686 住所：島根県安来市安来町878-2（安来庁舎） 電話：0854-23-3000（代表） 総務部総",
+    "officialUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shugakuenjo.html",
+    "sourceName": "就学援助制度"
+  },
+  {
+    "slug": "shimane-official-002-011-2026",
+    "title": "江津市 就学援助制度",
+    "organization": "江津市",
+    "maxAmount": "年額）援助の費目援助額小学校の場合中学校の場合学用品費定額11,630円",
+    "maxAmountNum": 11630,
+    "category": "education",
+    "relatedCategories": [],
+    "eligibility": "江津市内の児童生徒・学生・保護者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月10日 申請方法 小学校または中学校の新1年生になるお子さんがいる家庭（新入学用品費の入学前支給の対象） 教育委員会から案内文書と申請書を送付（1月中旬） 申請書と添付書類を学校へ提出 教育委",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/28/7249.html",
+    "sourceName": "令和8年度就学援助制度"
+  },
+  {
+    "slug": "shimane-official-002-012-2026",
+    "title": "江津市 江津市奨学金",
+    "organization": "江津市",
+    "maxAmount": "月額18,000円",
+    "maxAmountNum": 18000,
+    "category": "education",
+    "relatedCategories": [],
+    "eligibility": "江津市内の児童生徒・学生・保護者等で公式要件を満たす方",
+    "applicationPeriod": "2022年2月1日 募集します - 江津市ホームページ ページの先頭です",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/28/3635.html",
+    "sourceName": "江津市奨学金"
+  },
+  {
+    "slug": "shimane-official-002-013-2026",
+    "title": "江津市 障がいのある人が対象となる手当制度や共済制度",
+    "organization": "江津市",
+    "maxAmount": "所得・対象区分に応じて手当を支給",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "江津市内の障がい者・児童・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2023年3月10日 障がいのある人が対象となる手当制度や共済制度のご案内 - 江津市ホームページ ページの先頭です。 メニューを飛ばして本文へ 閲覧補助・検索 メニュー JavaScriptが無効のため、文字の大きさ・背景色を変更する機能を",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/9/27265.html",
+    "sourceName": "障がいのある人が対象となる手当制度や共済制度"
+  },
+  {
+    "slug": "shimane-official-002-014-2026",
+    "title": "江津市 U・Iターンのための空き家改修費補助金",
+    "organization": "江津市",
+    "maxAmount": "上限50万円",
+    "maxAmountNum": 500000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "江津市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2017年1月13日 申請をご検討される場合は、必ず事前にご相談ください",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/3/1545.html",
+    "sourceName": "U・Iターンのための空き家改修費補助金"
+  },
+  {
+    "slug": "shimane-official-002-015-2026",
+    "title": "江津市 空き家バンク登録支援補助金",
+    "organization": "江津市",
+    "maxAmount": "上限10万円",
+    "maxAmountNum": 100000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "江津市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2025年4月4日 申請をご検討される場合は、必ず事前にご相談ください",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/3/36296.html",
+    "sourceName": "空き家バンク登録支援補助金"
+  },
+  {
+    "slug": "shimane-official-002-016-2026",
+    "title": "江津市 児童扶養手当",
+    "organization": "江津市",
+    "maxAmount": "1人の場合全部支給48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "江津市内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請が必要です",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/11/2268.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "shimane-official-002-017-2026",
+    "title": "江津市 生殖補助医療費助成制度",
+    "organization": "江津市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "江津市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請する治療費について他の市町村で類似する助成金などの交付を受けていない人 助成の内容 保険診療のみ 上限15万円/一治療期間 男性不妊治療を行った場合 上限5万円/一治療期間 保険診",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/11/25808.html",
+    "sourceName": "生殖補助医療費助成制度"
+  },
+  {
+    "slug": "shimane-official-002-018-2026",
+    "title": "江津市 妊婦のための支援給付金",
+    "organization": "江津市",
+    "maxAmount": "一人あたり5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "江津市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 申請をします",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/11/36215.html",
+    "sourceName": "妊婦のための支援給付金"
+  },
+  {
+    "slug": "shimane-official-002-019-2026",
+    "title": "江津市 児童手当",
+    "organization": "江津市",
+    "maxAmount": "月額1人あたり）【児童手当】年齢区分児童手当の額（1人当たり月額）3歳未満15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "江津市内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "2024年10月15日 申請）が必要です（公務員の場合は勤務先に） ",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/11/28779.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "shimane-official-002-020-2026",
+    "title": "江津市 ポリテクカレッジ島根の奨学金制度",
+    "organization": "江津市",
+    "maxAmount": "公式ページ記載の奨学金・貸付額",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [],
+    "eligibility": "江津市内の児童生徒・学生・保護者等で公式要件を満たす方",
+    "applicationPeriod": "2017年1月13日 申請書 在学証明書 本人と連帯保証人の住民票の写し 技術者育成経費（入校料、授業料）を支払ったことを証する書類 ポリテクカレッジ島根の校長が発行する推薦書 その他市長が必要と認める書類",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/16/1720.html",
+    "sourceName": "ポリテクカレッジ島根の奨学金制度"
+  },
+  {
+    "slug": "shimane-official-002-021-2026",
+    "title": "江津市 江津市地方創生移住支援金",
+    "organization": "江津市",
+    "maxAmount": "公式ページ記載の給付額・支援額",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "江津市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2025年6月2日 申請をご検討される場合は、必ず事前にご相談ください",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/3/28765.html",
+    "sourceName": "江津市地方創生移住支援金"
+  },
+  {
+    "slug": "shimane-official-002-022-2026",
+    "title": "江津市 障害児福祉手当",
+    "organization": "江津市",
+    "maxAmount": "月額）と支給月手当月額令和7年度まで16,100円",
+    "maxAmountNum": 16100,
+    "category": "nursing",
+    "relatedCategories": [
+      "medical",
+      "living"
+    ],
+    "eligibility": "江津市内の障がい者・児童・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請は前々年）の所得が制限額を超えると支給されません",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/9/27262.html",
+    "sourceName": "障害児福祉手当"
+  },
+  {
+    "slug": "shimane-official-002-023-2026",
+    "title": "江津市 特別児童扶養手当",
+    "organization": "江津市",
+    "maxAmount": "月額）と支給月手当月額令和7年度まで1級障がい56,800円",
+    "maxAmountNum": 56800,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "江津市内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請は前々年）の所得が制限額を超えると支給されません",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/9/27263.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "shimane-official-002-024-2026",
+    "title": "江津市 母子家庭自立支援給付金および父子家庭自立支援給付金事業",
+    "organization": "江津市",
+    "maxAmount": "上限は修学年数&times;40万円",
+    "maxAmountNum": 400000,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "江津市内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "2024年1月22日 受付時間 月～金曜日 9時～17時（祝日・年末年始を除く） 高等職業訓練促進給付金等事業 ひとり親が看護師や介護福祉士などの資格取得のため、6か月以上養成機関で修業する場合に、修業期間",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/11/12323.html",
+    "sourceName": "母子家庭自立支援給付金および父子家庭自立支援給付金事業"
+  },
+  {
+    "slug": "shimane-official-002-025-2026",
+    "title": "江津市 江津市立中学校英語検定料補助金",
+    "organization": "江津市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "江津市内の児童生徒・学生・保護者等で公式要件を満たす方",
+    "applicationPeriod": "2025年10月4日 申請方法 江津市教育委員会が設置する準会場で、試験を受けた後、補助金申請することができます",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/28/37690.html",
+    "sourceName": "江津市立中学校英語検定料補助金"
+  },
+  {
+    "slug": "shimane-official-002-026-2026",
+    "title": "江津市 合併処理浄化槽設置補助金",
+    "organization": "江津市",
+    "maxAmount": "限度額5人槽の場合補助限度額117,000円",
+    "maxAmountNum": 117000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "江津市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年11月26日 申請書の受け付けを停止する場合があります",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/22/2149.html",
+    "sourceName": "合併処理浄化槽設置補助金"
+  },
+  {
+    "slug": "shimane-official-002-027-2026",
+    "title": "江津市 低所得世帯緊急支援給付金",
+    "organization": "江津市",
+    "maxAmount": "1世帯あたり3万円",
+    "maxAmountNum": 30000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "江津市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月12日 申請は不要 です",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/9/40793.html",
+    "sourceName": "低所得世帯緊急支援給付金"
+  },
+  {
+    "slug": "shimane-official-002-028-2026",
+    "title": "江津市 防犯灯設置費補助金",
+    "organization": "江津市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "江津市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年12月17日 申請手続きをお願いします",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/4/3143.html",
+    "sourceName": "防犯灯設置費補助金"
+  },
+  {
+    "slug": "shimane-official-002-029-2026",
+    "title": "江津市 特別障害者手当",
+    "organization": "江津市",
+    "maxAmount": "月額）と支給月手当月額令和7年度まで29,590円",
+    "maxAmountNum": 29590,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "江津市内の障がい者・児童・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請は前々年）の所得が制限額を超えると支給されません",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/9/27260.html",
+    "sourceName": "特別障害者手当"
+  },
+  {
+    "slug": "shimane-official-002-030-2026",
+    "title": "江津市 保育士就労奨励金",
+    "organization": "江津市",
+    "maxAmount": "1人あたり10万円",
+    "maxAmountNum": 100000,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment"
+    ],
+    "eligibility": "江津市内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "2018年10月25日 申請してください",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/11/3113.html",
+    "sourceName": "保育士就労奨励金"
+  },
+  {
+    "slug": "shimane-official-002-031-2026",
+    "title": "江津市 新卒者等就労促進家賃補助金",
+    "organization": "江津市",
+    "maxAmount": "月額）賃貸住宅の賃貸借契約等に定められた家賃の2分の1以内（上限30,000円",
+    "maxAmountNum": 30000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "江津市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請を行う前年度の3月31日時点で35歳未満であること 市税を滞納していないこと 補助金額（月額） 賃貸住宅の賃貸借契約等に定められた家賃の2分の1以内（上限30,000円、千円未満切",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/16/37613.html",
+    "sourceName": "新卒者等就労促進家賃補助金"
+  },
+  {
+    "slug": "shimane-official-002-032-2026",
+    "title": "江津市 中小企業者等物価高騰対策信用保証料補助金",
+    "organization": "江津市",
+    "maxAmount": "上限は、20万円",
+    "maxAmountNum": 200000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "江津市内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年6月4日 申請は、同一保証番号の融資において1回限りとする",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/16/29911.html",
+    "sourceName": "中小企業者等物価高騰対策信用保証料補助金"
+  },
+  {
+    "slug": "shimane-official-002-033-2026",
+    "title": "江津市 まち・ひと結び事業費補助金",
+    "organization": "江津市",
+    "maxAmount": "上限額：30万円",
+    "maxAmountNum": 300000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "江津市内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2023年6月28日 募集 各地域の地域コミュニティ 波積地区 黒松地区 都治地区 浅利地区 松平地区 嘉久志地区 和木地区 都野津地区 二宮地区 跡市地区 敬川地区 波子地区 有福温泉地区 長谷地区 市山",
+    "officialUrl": "https://www.city.gotsu.lg.jp/site/comunity/28851.html",
+    "sourceName": "まち・ひと結び事業費補助金"
+  },
+  {
+    "slug": "shimane-official-002-034-2026",
+    "title": "江津市 女性のプチ起業支援補助金",
+    "organization": "江津市",
+    "maxAmount": "限度額20万円",
+    "maxAmountNum": 200000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "江津市内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2023年4月1日 申請をご検討される場合は、必ず事前にご相談ください",
+    "officialUrl": "https://www.city.gotsu.lg.jp/soshiki/3/28776.html",
+    "sourceName": "女性のプチ起業支援補助金"
+  },
+  {
+    "slug": "shimane-official-002-035-2026",
+    "title": "雲南市 母子父子寡婦福祉資金の予約貸付",
+    "organization": "雲南市",
+    "maxAmount": "公式ページ記載の奨学金・貸付額",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "medical",
+      "nursing"
+    ],
+    "eligibility": "雲南市内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "令和9年2月26日 申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/soudan/yoyakukasitukeR8.html",
+    "sourceName": "母子父子寡婦福祉資金の予約貸付"
+  },
+  {
+    "slug": "shimane-official-002-036-2026",
+    "title": "雲南市 協働で叶える市民活動促進事業補助金",
+    "organization": "雲南市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "雲南市内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "令和８年９月10日 募集について | 雲南市ホームページ 本文へスキップ 雲南市 メニュー アクセス 文字サイズの選択 標準 大 特大 色反転の選択 Language Language 暮らし・手続き 届",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/kyoudoudekanaeru.html",
+    "sourceName": "協働で叶える市民活動促進事業補助金"
+  },
+  {
+    "slug": "shimane-official-002-037-2026",
+    "title": "雲南市 農作物鳥獣被害防止対策事業補助金",
+    "organization": "雲南市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "雲南市内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "令和８年4月１日 申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/nougyou/2026-0324-1641-139.html",
+    "sourceName": "農作物鳥獣被害防止対策事業補助金"
+  },
+  {
+    "slug": "shimane-official-002-038-2026",
+    "title": "雲南市 住宅除却に係る住宅用地固定資産税減免",
+    "organization": "雲南市",
+    "maxAmount": "公式ページ記載の税額軽減・減免",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "雲南市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "令和７年４月１日 申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/zeikin/juutakujokyaku.html",
+    "sourceName": "住宅除却に係る住宅用地固定資産税減免"
+  },
+  {
+    "slug": "shimane-official-002-039-2026",
+    "title": "雲南市 児童扶養手当",
+    "organization": "雲南市",
+    "maxAmount": "1人児童2人目以降加算額（ひとりにつき）全部支給48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "雲南市内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "令和8年5月11日 申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/serv01.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "shimane-official-002-040-2026",
+    "title": "雲南市 子ども医療費助成制度",
+    "organization": "雲南市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "雲南市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和７年４月１日 子ども医療費助成制度 雲南市では、高校生年代（18歳到達年度末）までの間、養育者の負担を軽減するため、島根県の制度に雲南市独自で上乗せ助成をし、&rdquo;医療費の無料化&rdquo;を実施しています。 また、令和７年",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/iryou/kodomonobyouki.html",
+    "sourceName": "子ども医療費助成制度"
+  },
+  {
+    "slug": "shimane-official-002-041-2026",
+    "title": "雲南市 児童手当",
+    "organization": "雲南市",
+    "maxAmount": "1人あたり月額区分第１・２子第３子以降３歳未満15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "雲南市内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/jidouteate20220601.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "shimane-official-002-042-2026",
+    "title": "雲南市 生殖補助医療費助成制度",
+    "organization": "雲南市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "雲南市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/teate/2022-0707-0913-49.html",
+    "sourceName": "生殖補助医療費助成制度"
+  },
+  {
+    "slug": "shimane-official-002-043-2026",
+    "title": "雲南市 福祉医療費助成制度",
+    "organization": "雲南市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "雲南市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/iryou/josei/fukushiiryou.html",
+    "sourceName": "福祉医療費助成制度"
+  },
+  {
+    "slug": "shimane-official-002-044-2026",
+    "title": "雲南市 母子父子寡婦福祉資金の貸付",
+    "organization": "雲南市",
+    "maxAmount": "公式ページ記載の奨学金・貸付額",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "medical",
+      "nursing"
+    ],
+    "eligibility": "雲南市内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/soudan/consult05.html",
+    "sourceName": "母子父子寡婦福祉資金の貸付"
+  },
+  {
+    "slug": "shimane-official-002-045-2026",
+    "title": "雲南市 定額減税補足給付金（不足額給付）",
+    "organization": "雲南市",
+    "maxAmount": "公式ページ記載の給付額・支援額",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "雲南市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "令和7年1月1日 申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/zeikin/2025-0729-1305-42.html",
+    "sourceName": "定額減税補足給付金（不足額給付）"
+  },
+  {
+    "slug": "shimane-official-002-046-2026",
+    "title": "雲南市 結婚活動支援団体支援事業補助金",
+    "organization": "雲南市",
+    "maxAmount": "最大10万円",
+    "maxAmountNum": 100000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "雲南市内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "令和8年7月31日 申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/seikatsu/2025-0618-1926-28.html",
+    "sourceName": "結婚活動支援団体支援事業補助金"
+  },
+  {
+    "slug": "shimane-official-002-047-2026",
+    "title": "雲南市 地域の担い手育成事業補助金",
+    "organization": "雲南市",
+    "maxAmount": "限度額１組織・１事業当たり20万円",
+    "maxAmountNum": 200000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "雲南市内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/kurashi/machidukuri/2022-0310-1431-27.html",
+    "sourceName": "地域の担い手育成事業補助金"
+  },
+  {
+    "slug": "shimane-official-002-048-2026",
+    "title": "雲南市 重度障がい者等介護手当",
+    "organization": "雲南市",
+    "maxAmount": "月額６，000円",
+    "maxAmountNum": 6000,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "雲南市内の障がい者・児童・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/kenkou/syougai/2026-0316-1144-46.html",
+    "sourceName": "重度障がい者等介護手当"
+  },
+  {
+    "slug": "shimane-official-002-049-2026",
+    "title": "雲南市 出産・子育て応援給付金",
+    "organization": "雲南市",
+    "maxAmount": "1人あたり5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "雲南市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和７年４月１日 申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/kosodate/ninshinsyussan/shussankosodate.html",
+    "sourceName": "出産・子育て応援給付金"
+  },
+  {
+    "slug": "shimane-official-002-050-2026",
+    "title": "雲南市 森林バイオマス推進事業補助金",
+    "organization": "雲南市",
+    "maxAmount": "上限10万円",
+    "maxAmountNum": 100000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "雲南市内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/ringyou/2021-0427-1051-139.html",
+    "sourceName": "森林バイオマス推進事業補助金"
+  },
+  {
+    "slug": "shimane-official-002-051-2026",
+    "title": "雲南市 事業継続緊急支援事業補助金",
+    "organization": "雲南市",
+    "maxAmount": "上限200万円",
+    "maxAmountNum": 2000000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "雲南市内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "令和8年1月6日 申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/syoukou/kigyou/zigyoukeizoku.html",
+    "sourceName": "事業継続緊急支援事業補助金"
+  },
+  {
+    "slug": "shimane-official-002-052-2026",
+    "title": "雲南市 運転免許取得支援事業補助金",
+    "organization": "雲南市",
+    "maxAmount": "上限1人当たり10万円",
+    "maxAmountNum": 100000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "雲南市内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/syoukou/kigyou/untenmenkyo.html",
+    "sourceName": "運転免許取得支援事業補助金"
+  },
+  {
+    "slug": "shimane-official-002-053-2026",
+    "title": "雲南市 省力化・生産性向上農業機械等物価高騰対策支援事業",
+    "organization": "雲南市",
+    "maxAmount": "上限額を50万円",
+    "maxAmountNum": 500000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "雲南市内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "令和８年12月25日 申請書様式 健康・福祉 保健・医療 保険・年金 高齢者支援 障がい者支援 地域福祉 子育て・教育 妊娠・出産 子どもの医療 手当・助成 子どもを預ける 教育・就学 支援・相談 青少年健",
+    "officialUrl": "https://www.city.unnan.shimane.jp/unnan/sangyou/nougyou/bukakoutounougyoukikai.html",
+    "sourceName": "省力化・生産性向上農業機械等物価高騰対策支援事業"
+  },
+  {
+    "slug": "shimane-official-002-054-2026",
+    "title": "奥出雲町 空き家バンク登録促進補助金",
+    "organization": "奥出雲町",
+    "maxAmount": "最大５万円",
+    "maxAmountNum": 50000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "奥出雲町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年04月16日 申請受付 令和11年3月1日まで 要綱 奥出雲町空き家バンク登録促進補助金交付要綱（令和8年1月1日施行）（PDF／125KB） 申請の流れ 空き家バンク制度に申込み &darr; 査",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kurashi/1771229615481.html",
+    "sourceName": "空き家バンク登録促進補助金"
+  },
+  {
+    "slug": "shimane-official-002-055-2026",
+    "title": "奥出雲町 住宅整備支援事業補助金",
+    "organization": "奥出雲町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "奥出雲町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年06月10日 申請に添付する書類 注：申請書提出順に受付けます",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kurashi/hikkoshi-sumai/sumai/1743385609148.html",
+    "sourceName": "住宅整備支援事業補助金"
+  },
+  {
+    "slug": "shimane-official-002-056-2026",
+    "title": "奥出雲町 児童手当・子ども等医療費助成",
+    "organization": "奥出雲町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "奥出雲町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年04月14日 申請について | 奥出雲町 メニューにジャンプ コンテンツにジャンプ 神話とロマンの里 奥出雲町 暮らし 暮らしトップ 子育て・教育 子育て・教育トップ 健康・福祉 健康・福祉トップ ",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/kosodateshien_tetsuduki-shinsei/1001000000420.html",
+    "sourceName": "児童手当・子ども等医療費助成"
+  },
+  {
+    "slug": "shimane-official-002-057-2026",
+    "title": "奥出雲町 未来のたねまきプロジェクト補助金",
+    "organization": "奥出雲町",
+    "maxAmount": "上限20万円",
+    "maxAmountNum": 200000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "奥出雲町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年07月01日 募集を開始します",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kurashi/tanemaki.html",
+    "sourceName": "未来のたねまきプロジェクト補助金"
+  },
+  {
+    "slug": "shimane-official-002-058-2026",
+    "title": "奥出雲町 子育て応援事業所サポート事業補助金",
+    "organization": "奥出雲町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "奥出雲町内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "2026年06月03日 募集について | 奥出雲町 メニューにジャンプ コンテンツにジャンプ 神話とロマンの里 奥出雲町 暮らし 暮らしトップ 子育て・教育 子育て・教育トップ 健康・福祉 健康・福祉トップ ",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/kosodateshien/page_19.html",
+    "sourceName": "子育て応援事業所サポート事業補助金"
+  },
+  {
+    "slug": "shimane-official-002-059-2026",
+    "title": "奥出雲町 電気自動車普及促進事業奨励金",
+    "organization": "奥出雲町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [
+      "employment"
+    ],
+    "eligibility": "奥出雲町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年05月26日 申請者が自ら使用する車両に限ります",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kurashi/kankyo/dattanso/1743497184720.html",
+    "sourceName": "電気自動車普及促進事業奨励金"
+  },
+  {
+    "slug": "shimane-official-002-060-2026",
+    "title": "奥出雲町 ごみ縮減機器等普及促進事業奨励金",
+    "organization": "奥出雲町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [
+      "employment"
+    ],
+    "eligibility": "奥出雲町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年05月26日 申請者が自ら使用する機器に限ります",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kurashi/kankyo/dattanso/1743497184720_1.html",
+    "sourceName": "ごみ縮減機器等普及促進事業奨励金"
+  },
+  {
+    "slug": "shimane-official-002-061-2026",
+    "title": "奥出雲町 児童手当制度",
+    "organization": "奥出雲町",
+    "maxAmount": "月額（一人当たり）第1子・第2子第3子以降0歳～3歳未満15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "奥出雲町内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "2026年06月01日 児童手当の制度について | 奥出雲町 メニューにジャンプ コンテンツにジャンプ 神話とロマンの里 奥出雲町 暮らし 暮らしトップ 子育て・教育 子育て・教育トップ 健康・福祉 健康・福祉トップ 定住・観光・ ふるさと納税",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kurashi/1723102202984.html",
+    "sourceName": "児童手当制度"
+  },
+  {
+    "slug": "shimane-official-002-062-2026",
+    "title": "奥出雲町 老朽危険空き家除却支援事業補助金",
+    "organization": "奥出雲町",
+    "maxAmount": "限度額120万円",
+    "maxAmountNum": 1200000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "奥出雲町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年06月23日 受付を締め切ります",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kurashi/hikkoshi-sumai/sumai/1716874611843.html",
+    "sourceName": "老朽危険空き家除却支援事業補助金"
+  },
+  {
+    "slug": "shimane-official-002-063-2026",
+    "title": "奥出雲町 子ども等医療費助成",
+    "organization": "奥出雲町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "奥出雲町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年04月08日 申請が必要です",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kosodate-kyoiku/shussan-kosodate/1734075233870.html",
+    "sourceName": "子ども等医療費助成"
+  },
+  {
+    "slug": "shimane-official-002-064-2026",
+    "title": "奥出雲町 起業・創業等中小企業制度融資信用保証料補助金",
+    "organization": "奥出雲町",
+    "maxAmount": "上限島根県中小企業制度融資創業者支援資金：20万円",
+    "maxAmountNum": 200000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "奥出雲町内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年03月26日 申請については、商工会経由となります",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/kigyoshien/1707459738390.html",
+    "sourceName": "起業・創業等中小企業制度融資信用保証料補助金"
+  },
+  {
+    "slug": "shimane-official-002-065-2026",
+    "title": "奥出雲町 児童扶養手当",
+    "organization": "奥出雲町",
+    "maxAmount": "月額児童1人児童2人(第2子支給額)児童3人(第3子支給額)全部支給48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "奥出雲町内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "2026年05月20日 申請者の状況によっては記載内容の関係で複数通必要となることがあります",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/hitorioyafukushi/1611562052718.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "shimane-official-002-066-2026",
+    "title": "奥出雲町 特別児童扶養手当",
+    "organization": "奥出雲町",
+    "maxAmount": "月額1級58,450円",
+    "maxAmountNum": 58450,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "奥出雲町内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "2026年07月02日 申請をしてください",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/shogaishafukushi/1594619420035.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "shimane-official-002-067-2026",
+    "title": "奥出雲町 障害児福祉手当",
+    "organization": "奥出雲町",
+    "maxAmount": "月額16,560円",
+    "maxAmountNum": 16560,
+    "category": "nursing",
+    "relatedCategories": [
+      "medical",
+      "living"
+    ],
+    "eligibility": "奥出雲町内の障がい者・児童・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年07月02日 申請してください",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/shogaishafukushi/1594684129704.html",
+    "sourceName": "障害児福祉手当"
+  },
+  {
+    "slug": "shimane-official-002-068-2026",
+    "title": "奥出雲町 地域商業等支援事業費補助金",
+    "organization": "奥出雲町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "奥出雲町内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年03月26日 申請については、商工会経由となります",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/1707457795337.html",
+    "sourceName": "地域商業等支援事業費補助金"
+  },
+  {
+    "slug": "shimane-official-002-069-2026",
+    "title": "奥出雲町 地域商業重点支援事業費補助金",
+    "organization": "奥出雲町",
+    "maxAmount": "上限下限額【販路拡大支援事業】上限20万円",
+    "maxAmountNum": 200000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "奥出雲町内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年03月26日 申請については奥出雲町商工会経由で申請となります",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/1707460117885.html",
+    "sourceName": "地域商業重点支援事業費補助金"
+  },
+  {
+    "slug": "shimane-official-002-070-2026",
+    "title": "奥出雲町 小型除雪機購入費補助金交付事業",
+    "organization": "奥出雲町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [
+      "employment"
+    ],
+    "eligibility": "奥出雲町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年06月23日 申請方法（申請から補助金の交付まで） 小型除雪機を購入される前に、下記の書類を窓口まで提出してください",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/information/entry_22.html",
+    "sourceName": "小型除雪機購入費補助金交付事業"
+  },
+  {
+    "slug": "shimane-official-002-071-2026",
+    "title": "奥出雲町 小規模事業者事業継続支援補助金",
+    "organization": "奥出雲町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "奥出雲町内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年03月26日 申請書（様式第1号） 02計画変更（中止）承認申請書（様式第3号） 03実績報告書（様式第5号） 04精算払請求書（様式第7号） 詳細・その他 詳しくはこちらの 奥出雲町小規模事業者事",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/kigyoshien/1707456255065.html",
+    "sourceName": "小規模事業者事業継続支援補助金"
+  },
+  {
+    "slug": "shimane-official-002-072-2026",
+    "title": "奥出雲町 先端設備等導入計画に係る固定資産税特例",
+    "organization": "奥出雲町",
+    "maxAmount": "公式ページ記載の税額軽減・減免",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "奥出雲町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "令和9年3月31日 申請書の作成について 業種分類 資本金の額又は 出資の総額 常時使用する 従業員の数 計画認定の対象者「中小企業者」 製造業その他 3億円以下 300人以下 卸売業 1億円以下 100",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/kigyoshien/1737419014756.html",
+    "sourceName": "先端設備等導入計画に係る固定資産税特例"
+  },
+  {
+    "slug": "shimane-official-002-073-2026",
+    "title": "奥出雲町 商工事業者向け補助金",
+    "organization": "奥出雲町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "奥出雲町内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年03月26日 商工事業者向け補助金について | 奥出雲町 メニューにジャンプ コンテンツにジャンプ 神話とロマンの里 奥出雲町 暮らし 暮らしトップ 子育て・教育 子育て・教育トップ 健康・福祉 健康・福祉トップ 定住・観光・ ふるさ",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/jigyosha/kigyoshien/1624348257755.html",
+    "sourceName": "商工事業者向け補助金"
+  },
+  {
+    "slug": "shimane-official-002-074-2026",
+    "title": "奥出雲町 ひとり親家庭自立支援給付金事業",
+    "organization": "奥出雲町",
+    "maxAmount": "上限は200,000円",
+    "maxAmountNum": 200000,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "奥出雲町内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "2026年03月26日 申請はできませんので、必ず事前にご相談ください",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/hitorioyafukushi/1671669647039.html",
+    "sourceName": "ひとり親家庭自立支援給付金事業"
+  },
+  {
+    "slug": "shimane-official-002-075-2026",
+    "title": "奥出雲町 結婚新生活支援事業補助金",
+    "organization": "奥出雲町",
+    "maxAmount": "上限夫婦ともに29歳以下60万円",
+    "maxAmountNum": 600000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "奥出雲町内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年06月17日 結婚新生活支援事業補助金について | 奥出雲町 メニューにジャンプ コンテンツにジャンプ 神話とロマンの里 奥出雲町 暮らし 暮らしトップ 子育て・教育 子育て・教育トップ 健康・福祉 健康・福祉トップ 定住・観光・ ふ",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kurashi/kekkon/page_36.html",
+    "sourceName": "結婚新生活支援事業補助金"
+  },
+  {
+    "slug": "shimane-official-002-076-2026",
+    "title": "奥出雲町 町産材利用促進事業費補助金",
+    "organization": "奥出雲町",
+    "maxAmount": "上限200万円",
+    "maxAmountNum": 2000000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "奥出雲町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年03月26日 申請様式（Word／27KB） 町産材利用促進事業費補助金の概要（Word／18KB） 申請先・お問い合わせ先 奥出雲町役場 環境政策課 林業係 住所：〒699-1592 島根県仁多郡",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kurashi/kankyo/dattanso/1748578260103.html",
+    "sourceName": "町産材利用促進事業費補助金"
+  },
+  {
+    "slug": "shimane-official-002-077-2026",
+    "title": "奥出雲町 特別障害者手当",
+    "organization": "奥出雲町",
+    "maxAmount": "月額30,450円",
+    "maxAmountNum": 30450,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "奥出雲町内の障がい者・児童・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年07月02日 申請してください",
+    "officialUrl": "https://www.town.okuizumo.shimane.jp/kenko-fukushi/shogaishafukushi/1594625639918.html",
+    "sourceName": "特別障害者手当"
+  },
+  {
+    "slug": "shimane-official-002-078-2026",
+    "title": "飯南町 障害児福祉手当",
+    "organization": "飯南町",
+    "maxAmount": "月額16,560円",
+    "maxAmountNum": 16560,
+    "category": "nursing",
+    "relatedCategories": [
+      "medical",
+      "living"
+    ],
+    "eligibility": "飯南町内の障がい者・児童・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請するときは前々年の収入金額）を明らかにすることができる書類 本人の戸籍謄本、または抄本及び世帯全員の住民票（省略できる場合があります） 印鑑 通帳（郵便局を除く） その他必要書類 ",
+    "officialUrl": "https://www.iinan.jp/soshiki/13/10794.html",
+    "sourceName": "障害児福祉手当"
+  },
+  {
+    "slug": "shimane-official-002-079-2026",
+    "title": "飯南町 特別児童扶養手当",
+    "organization": "飯南町",
+    "maxAmount": "月額1級58,450円",
+    "maxAmountNum": 58450,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "飯南町内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 特別児童扶養手当 - 飯南町公式ホームページ ページの先頭です。 メニューを飛ばして本文へ メニュー 検索 JavaScriptが無効のため、文字の大きさ・背景色を変更する機能を使用できません。 本文へ Foreign ",
+    "officialUrl": "https://www.iinan.jp/soshiki/13/10792.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "shimane-official-002-080-2026",
+    "title": "飯南町 児童扶養手当",
+    "organization": "飯南町",
+    "maxAmount": "1人のとき48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "飯南町内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請方法・申請に必要なもの 各窓口で受け付けています",
+    "officialUrl": "https://www.iinan.jp/soshiki/13/10624.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "shimane-official-002-081-2026",
+    "title": "飯南町 地域商業等支援事業補助金",
+    "organization": "飯南町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "飯南町内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 募集開始 - 飯南町公式ホームページ ページの先頭です",
+    "officialUrl": "https://www.iinan.jp/soshiki/7/11024.html",
+    "sourceName": "地域商業等支援事業補助金"
+  },
+  {
+    "slug": "shimane-official-002-082-2026",
+    "title": "飯南町 低所得世帯緊急支援給付金",
+    "organization": "飯南町",
+    "maxAmount": "1世帯あたり3万円",
+    "maxAmountNum": 30000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "飯南町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月11日 申請書」を発送します",
+    "officialUrl": "https://www.iinan.jp/soshiki/13/10616.html",
+    "sourceName": "低所得世帯緊急支援給付金"
+  },
+  {
+    "slug": "shimane-official-002-083-2026",
+    "title": "飯南町 特別障害者手当",
+    "organization": "飯南町",
+    "maxAmount": "月額30,450円",
+    "maxAmountNum": 30450,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "飯南町内の障がい者・児童・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請するときは前々年の収入金額）を明らかにすることができる書類 3",
+    "officialUrl": "https://www.iinan.jp/soshiki/13/10795.html",
+    "sourceName": "特別障害者手当"
+  },
+  {
+    "slug": "shimane-official-002-084-2026",
+    "title": "飯南町 定住のための助成金制度",
+    "organization": "飯南町",
+    "maxAmount": "月額4万円",
+    "maxAmountNum": 40000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "飯南町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 申請者：空き家所有者または空き家所有者の承諾得て改修を行った方 空き家片付け助成金（まちづくり推進課） 空き家所有者がUIターン者等を居住させるために残存家具を片付ける際に、処理費用の",
+    "officialUrl": "https://www.iinan.jp/site/ijyuu/1360.html",
+    "sourceName": "定住のための助成金制度"
+  },
+  {
+    "slug": "shimane-official-002-085-2026",
+    "title": "飯南町 住宅整備助成金（利子補給）",
+    "organization": "飯南町",
+    "maxAmount": "上限額借入金利子額10分の1050万円",
+    "maxAmountNum": 500000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "飯南町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2022年4月15日 申請方法 借入後の手続き（交付申請） 借入後に次の書類を飯南町に提出してください",
+    "officialUrl": "https://www.iinan.jp/site/hojyokin/6552.html",
+    "sourceName": "住宅整備助成金（利子補給）"
+  },
+  {
+    "slug": "shimane-official-002-086-2026",
+    "title": "飯南町 空き家購入支援事業費補助金",
+    "organization": "飯南町",
+    "maxAmount": "上限額空き家の購入に係る経費2分の150万円",
+    "maxAmountNum": 500000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "飯南町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2022年4月15日 申請方法 1",
+    "officialUrl": "https://www.iinan.jp/soshiki/6/3627.html",
+    "sourceName": "空き家購入支援事業費補助金"
+  },
+  {
+    "slug": "shimane-official-002-087-2026",
+    "title": "飯南町 住宅増改築支援事業費補助金",
+    "organization": "飯南町",
+    "maxAmount": "上限額住宅の増改築に係る経費2分の150万円",
+    "maxAmountNum": 500000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "飯南町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2022年4月15日 申請方法 1",
+    "officialUrl": "https://www.iinan.jp/soshiki/6/3626.html",
+    "sourceName": "住宅増改築支援事業費補助金"
+  },
+  {
+    "slug": "shimane-official-002-088-2026",
+    "title": "飯南町 住宅新築支援事業費補助金",
+    "organization": "飯南町",
+    "maxAmount": "上限額住宅の新築に係る経費10分の1100万円",
+    "maxAmountNum": 1000000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "飯南町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2022年4月15日 申請方法 1",
+    "officialUrl": "https://www.iinan.jp/soshiki/6/3567.html",
+    "sourceName": "住宅新築支援事業費補助金"
+  },
+  {
+    "slug": "shimane-official-002-089-2026",
+    "title": "飯南町 町産材住宅活用促進事業費補助金",
+    "organization": "飯南町",
+    "maxAmount": "上限額住宅の建築に係る経費10立方メートルに対し100万円",
+    "maxAmountNum": 1000000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "飯南町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2022年4月11日 申請方法 1",
+    "officialUrl": "https://www.iinan.jp/soshiki/7/3679.html",
+    "sourceName": "町産材住宅活用促進事業費補助金"
+  },
+  {
+    "slug": "shimane-official-002-090-2026",
+    "title": "飯南町 不妊治療費補助金",
+    "organization": "飯南町",
+    "maxAmount": "上限30万円",
+    "maxAmountNum": 300000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "飯南町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年3月13日 期限なしになりました",
+    "officialUrl": "https://www.iinan.jp/soshiki/12/1297.html",
+    "sourceName": "不妊治療費補助金"
+  },
+  {
+    "slug": "shimane-official-002-091-2026",
+    "title": "飯南町 子ども等医療費助成事業",
+    "organization": "飯南町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "employment",
+      "living"
+    ],
+    "eligibility": "飯南町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2022年5月17日 申請書類を役場窓口に提出してください",
+    "officialUrl": "https://www.iinan.jp/soshiki/12/4392.html",
+    "sourceName": "子ども等医療費助成事業"
+  },
+  {
+    "slug": "shimane-official-002-092-2026",
+    "title": "飯南町 母子父子寡婦福祉資金貸付制度",
+    "organization": "飯南町",
+    "maxAmount": "公式ページ記載の奨学金・貸付額",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "medical",
+      "nursing"
+    ],
+    "eligibility": "飯南町内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "2022年1月4日 申請される前に一度ご相談ください",
+    "officialUrl": "https://www.iinan.jp/soshiki/13/1268.html",
+    "sourceName": "母子父子寡婦福祉資金貸付制度"
+  },
+  {
+    "slug": "shimane-official-002-093-2026",
+    "title": "飯南町 福祉医療費助成制度",
+    "organization": "飯南町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "飯南町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2022年1月4日 申請方法・手続きに必要なもの 医療費を助成するには手続きが必要です",
+    "officialUrl": "https://www.iinan.jp/soshiki/13/1265.html",
+    "sourceName": "福祉医療費助成制度"
+  },
+  {
+    "slug": "shimane-official-002-094-2026",
+    "title": "飯南町 新エネルギー設備導入促進事業補助金",
+    "organization": "飯南町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [
+      "employment"
+    ],
+    "eligibility": "飯南町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月20日 申請締切 令和8年12月25日（金曜日） 補助概要 飯南町新エネルギー設備導入促進事業補助金（概要） [PDFファイル／1.3MB] 注意事項 ※1 申請にあたっては、本制度や各種手続",
+    "officialUrl": "https://www.iinan.jp/site/hojyokin/9488.html",
+    "sourceName": "新エネルギー設備導入促進事業補助金"
+  },
+  {
+    "slug": "shimane-official-002-095-2026",
+    "title": "飯南町 林業就業者確保対策補助金",
+    "organization": "飯南町",
+    "maxAmount": "上限30万円",
+    "maxAmountNum": 300000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "飯南町内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2023年4月3日 申請後から継続して5年以上を原則とします",
+    "officialUrl": "https://www.iinan.jp/soshiki/7/6400.html",
+    "sourceName": "林業就業者確保対策補助金"
+  },
+  {
+    "slug": "shimane-official-002-096-2026",
+    "title": "飯南町 有害鳥獣対策後継者確保対策補助金",
+    "organization": "飯南町",
+    "maxAmount": "上限：200，000円",
+    "maxAmountNum": 200000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "飯南町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月16日 申請書_様式第1号（第4条関係） [Wordファイル／11KB] 確約書_様式第2号（第4条関係） [Wordファイル／10KB] 請求書_様式第4号（第6条関係） [Wordファイル",
+    "officialUrl": "https://www.iinan.jp/soshiki/7/10934.html",
+    "sourceName": "有害鳥獣対策後継者確保対策補助金"
+  },
+  {
+    "slug": "shimane-official-002-097-2026",
+    "title": "飯南町 国民スポーツ大会ソフトボール競技補助金",
+    "organization": "飯南町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "飯南町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2022年4月15日 「国民スポーツ大会」成功に向けたソフトボール競技補助金を新設しました - 飯南町公式ホームページ ページの先頭です。 メニューを飛ばして本文へ メニュー 検索 JavaScriptが無効のため、文字の大きさ・背景色を変更",
+    "officialUrl": "https://www.iinan.jp/soshiki/11/3712.html",
+    "sourceName": "国民スポーツ大会ソフトボール競技補助金"
+  },
+  {
+    "slug": "shimane-official-002-098-2026",
+    "title": "飯南町 母子家庭自立支援給付金・父子家庭自立支援給付金",
+    "organization": "飯南町",
+    "maxAmount": "上限は20万円",
+    "maxAmountNum": 200000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "飯南町内の児童・子育て世帯・ひとり親家庭等で公式要件を満たす方",
+    "applicationPeriod": "2022年1月4日 申請される前に一度ご相談ください",
+    "officialUrl": "https://www.iinan.jp/soshiki/13/1269.html",
+    "sourceName": "母子家庭自立支援給付金・父子家庭自立支援給付金"
+  },
+  {
+    "slug": "shimane-official-002-099-2026",
+    "title": "飯南町 中小企業等人材確保対策事業補助金",
+    "organization": "飯南町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "飯南町内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2022年1月4日 申請する 申請様式はこちら [Wordファイル／23KB] 2、事業が完了し、実績報告をする 実績報告書 [Wordファイル／19KB] 実績報告書 記入例 [Wordファイル／39K",
+    "officialUrl": "https://www.iinan.jp/soshiki/7/4047.html",
+    "sourceName": "中小企業等人材確保対策事業補助金"
+  },
+  {
+    "slug": "shimane-official-002-100-2026",
+    "title": "飯南町 農業省力化投資支援事業",
+    "organization": "飯南町",
+    "maxAmount": "上限額150万円",
+    "maxAmountNum": 1500000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "飯南町内の事業者・就労者・農林業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年6月8日 募集） - 飯南町公式ホームページ ページの先頭です",
+    "officialUrl": "https://www.iinan.jp/soshiki/7/10895.html",
+    "sourceName": "農業省力化投資支援事業"
+  }
+];

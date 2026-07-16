@@ -1,0 +1,37 @@
+{
+  "batchId": "shimane-official-coverage-002",
+  "prefecture": "島根県",
+  "generatedAt": "2026-07-17T02:40:00+09:00",
+  "municipalities": [
+    {
+      "code": "32206",
+      "name": "安来市",
+      "prefecture": "島根県",
+      "officialBaseUrl": "https://www.city.yasugi.shimane.jp/"
+    },
+    {
+      "code": "32207",
+      "name": "江津市",
+      "prefecture": "島根県",
+      "officialBaseUrl": "https://www.city.gotsu.lg.jp/"
+    },
+    {
+      "code": "32209",
+      "name": "雲南市",
+      "prefecture": "島根県",
+      "officialBaseUrl": "https://www.city.unnan.shimane.jp/unnan/"
+    },
+    {
+      "code": "32343",
+      "name": "奥出雲町",
+      "prefecture": "島根県",
+      "officialBaseUrl": "https://www.town.okuizumo.shimane.jp/"
+    },
+    {
+      "code": "32386",
+      "name": "飯南町",
+      "prefecture": "島根県",
+      "officialBaseUrl": "https://www.iinan.jp/"
+    }
+  ]
+}

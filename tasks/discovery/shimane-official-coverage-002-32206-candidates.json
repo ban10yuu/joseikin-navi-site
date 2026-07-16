@@ -1,0 +1,4093 @@
+{
+  "batchId": "shimane-official-coverage-002",
+  "prefecture": "島根県",
+  "generatedAt": "2026-07-16T17:32:58.577Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 124,
+  "results": [
+    {
+      "code": "32206",
+      "name": "安来市",
+      "prefecture": "島根県",
+      "officialBaseUrl": "https://www.city.yasugi.shimane.jp/",
+      "discoveredUrlCount": 300,
+      "candidateCount": 124,
+      "strongCandidateCount": 7,
+      "lowPriorityCandidateCount": 117,
+      "candidates": [
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/index.html",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "住宅",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shigoto/index.html",
+          "status": 200,
+          "title": "しごと",
+          "h1": "しごと",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業",
+            "水産",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/saikakunin.html",
+          "status": 200,
+          "title": "出水期を前に確認しておきましょう",
+          "h1": "出水期を前に確認しておきましょう",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/zeikin/nozei/web_kouhuri.html",
+          "status": 200,
+          "title": "市税等の「Web口座振替受付サービス」をご利用ください",
+          "h1": "市税等の「Web口座振替受付サービス」をご利用ください",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shisei/soshiki/070106uketukejikannhennkou.html",
+          "status": 200,
+          "title": "窓口受付時間変更（本格実施）のお知らせ",
+          "h1": "窓口受付時間変更（本格実施）のお知らせ",
+          "updatedAt": "令和7年7月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/newbousaijouhou.html",
+          "status": 200,
+          "title": "防災情報",
+          "h1": "防災情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/iryokikan/kyujitsushinryo.html",
+          "status": 200,
+          "title": "休日診療（在宅当番医制）",
+          "h1": "休日診療（在宅当番医制）",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/le-ninshin/index.html",
+          "status": 200,
+          "title": "くらしの場面から探す：妊娠・出産",
+          "h1": "くらしの場面から探す：妊娠・出産",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/le-kosodate/index.html",
+          "status": 200,
+          "title": "くらしの場面から探す：子育て",
+          "h1": "くらしの場面から探す：子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/le-nyugaku/index.html",
+          "status": 200,
+          "title": "くらしの場面から探す：入学・教育",
+          "h1": "くらしの場面から探す：入学・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "就学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/le-kekkon/index.html",
+          "status": 200,
+          "title": "くらしの場面から探す：結婚・離婚",
+          "h1": "くらしの場面から探す：結婚・離婚",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/le-hikkoshi/index.html",
+          "status": 200,
+          "title": "くらしの場面から探す：引越し",
+          "h1": "くらしの場面から探す：引越し",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "就学"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/le-korei/index.html",
+          "status": 200,
+          "title": "くらしの場面から探す：高齢・介護",
+          "h1": "くらしの場面から探す：高齢・介護",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shisei/tokei/tokeidata/about.html",
+          "status": 200,
+          "title": "安来市の概要",
+          "h1": "安来市の概要",
+          "updatedAt": "平成26年10月4日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/teiju-info.html",
+          "status": 200,
+          "title": "定住情報",
+          "h1": "定住情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "農業",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/furusatokifu/index.html",
+          "status": 200,
+          "title": "ふるさと納税",
+          "h1": "ふるさと納税",
+          "updatedAt": "令和7年12月27日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/news/kaigo/shoninnshakennshuu.html",
+          "status": 200,
+          "title": "介護職員初任者研修の受講生を募集します",
+          "h1": "介護職員初任者研修の受講生を募集します",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/news/fukushi/shinsakekka.html",
+          "status": 200,
+          "title": "夢ランドしらさぎ公募型プロポーザル事業の審査結果について",
+          "h1": "夢ランドしらさぎ公募型プロポーザル事業の審査結果について",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/news/index.html",
+          "status": 200,
+          "title": "新着情報一覧",
+          "h1": "新着情報一覧",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "住宅",
+            "空家",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/event/bunka/kanetouke.html",
+          "status": 200,
+          "title": "安来市指定文化財金藤家住宅見学会の開催について",
+          "h1": "安来市指定文化財金藤家住宅見学会の開催について",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/event/kankou/shimanehurusatofea2026.html",
+          "status": 200,
+          "title": "しまねふるさとフェア2027の出展者を募集します",
+          "h1": "しまねふるさとフェア2027の出展者を募集します",
+          "updatedAt": "令和8年8月21日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/event/index.html",
+          "status": 200,
+          "title": "イベント情報一覧",
+          "h1": "イベント情報一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/sumai/others/akiya.html",
+          "status": 200,
+          "title": "空き家対策",
+          "h1": "空き家対策",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "空家",
+            "事業者"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shisei/densikeiji/",
+          "status": 200,
+          "title": "電子掲示場",
+          "h1": "電子掲示場",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "農業"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shisei/koho/publiccom/",
+          "status": 200,
+          "title": "パブリックコメント（意見公募手続）",
+          "h1": "パブリックコメント（意見公募手続）",
+          "updatedAt": "",
+          "keywordHits": [
+            "通学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shisei/johokokai/shingikai/",
+          "status": 200,
+          "title": "審議会情報",
+          "h1": "審議会情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空家"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/download/",
+          "status": 200,
+          "title": "申請書式ダウンロード",
+          "h1": "申請書式ダウンロード",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "福祉"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/link.html",
+          "status": 200,
+          "title": "リンク集",
+          "h1": "リンク集",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "就学",
+            "奨学金"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shisei/soshiki/annai/index.html",
+          "status": 200,
+          "title": "庁舎案内",
+          "h1": "庁舎案内",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shisei/soshiki/tel/index.html",
+          "status": 200,
+          "title": "電話番号一覧",
+          "h1": "電話番号一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業",
+            "福祉"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/news/suidou-kanri/taishinnkakeikaku.html",
+          "status": 200,
+          "title": "安来市上下水道耐震化計画を策定しました",
+          "h1": "安来市上下水道耐震化計画を策定しました",
+          "updatedAt": "",
+          "keywordHits": [
+            "耐震"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/bunka/sports/2025zenkokusoutai/2025ih_fencing_yasugi.html",
+          "status": 200,
+          "title": "中国総体2025安来市実行委員会",
+          "h1": "中国総体2025安来市実行委員会",
+          "updatedAt": "令和7年8月5日",
+          "keywordHits": [
+            "水産"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/index.html",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/sumai/",
+          "status": 200,
+          "title": "住まい・生活",
+          "h1": "住まい・生活",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "給付金",
+            "住宅"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/",
+          "status": 200,
+          "title": "健康・医療・福祉・介護",
+          "h1": "健康・医療・福祉・介護",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "福祉",
+            "予防接種"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/",
+          "status": 200,
+          "title": "就職・結婚・定住",
+          "h1": "就職・結婚・定住",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "農業"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/",
+          "status": 200,
+          "title": "教育・子育て",
+          "h1": "教育・子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/",
+          "status": 200,
+          "title": "安全・安心",
+          "h1": "安全・安心",
+          "updatedAt": "",
+          "keywordHits": [
+            "耐震"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shigoto/noringyo/",
+          "status": 200,
+          "title": "農業・林業・水産業",
+          "h1": "農業・林業・水産業",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "農業",
+            "林業",
+            "水産"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shigoto/fukushi/",
+          "status": 200,
+          "title": "福祉・介護",
+          "h1": "福祉・介護",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shigoto/kokoku/",
+          "status": 200,
+          "title": "広告事業",
+          "h1": "広告事業",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/foreignlang/English/pregnant.html",
+          "status": 200,
+          "title": "When you get pregnant.",
+          "h1": "When you get pregnant.",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/foreignlang/English/kokuho-english.html",
+          "status": 200,
+          "title": "National health insurance scheme",
+          "h1": "National health insurance scheme",
+          "updatedAt": "",
+          "keywordHits": [
+            "一時金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/pregnant-chinese.html",
+          "status": 200,
+          "title": "怀孕时",
+          "h1": "怀孕时",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/kokuho-chinese.html",
+          "status": 200,
+          "title": "国民健康保险制度",
+          "h1": "国民健康保险制度",
+          "updatedAt": "",
+          "keywordHits": [
+            "一時金"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shisei/keikaku/",
+          "status": 200,
+          "title": "各種計画",
+          "h1": "各種計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shisei/zaisei/",
+          "status": 200,
+          "title": "財政",
+          "h1": "財政",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shisei/gyokaku/",
+          "status": 200,
+          "title": "行政改革・公共施設計画",
+          "h1": "行政改革・公共施設計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shisei/soshiki/",
+          "status": 200,
+          "title": "市の組織",
+          "h1": "市の組織",
+          "updatedAt": "",
+          "keywordHits": [
+            "農業",
+            "林業",
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/shomei/juminhyo-cvs.html",
+          "status": 200,
+          "title": "住民票などの証明書をコンビニで取得できます",
+          "h1": "住民票などの証明書をコンビニで取得できます",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/",
+          "status": 200,
+          "title": "くらし",
+          "h1": "くらし",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "住宅",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/",
+          "status": 200,
+          "title": "防災",
+          "h1": "防災",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/hazaadomap.html",
+          "status": 200,
+          "title": "ハザードマップ",
+          "h1": "ハザードマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "林業",
+            "耐震"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/hinanjo.html",
+          "status": 200,
+          "title": "避難所",
+          "h1": "避難所",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jishubousai.html",
+          "status": 200,
+          "title": "自主防災組織育成事業補助金",
+          "h1": "自主防災組織育成事業補助金",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/hisaisien.html",
+          "status": 200,
+          "title": "被災されたときは",
+          "h1": "被災されたときは",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "支援金",
+            "貸付",
+            "減免",
+            "免除",
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/engosha-shien.html",
+          "status": 200,
+          "title": "避難行動要支援者の支援",
+          "h1": "避難行動要支援者の支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "妊婦"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/ichigoukidai5kai_moussiire.html",
+          "status": 200,
+          "title": "島根原子力発電所1号機第6回定期事業者検査に伴う申し入れについて",
+          "h1": "島根原子力発電所1号機第6回定期事業者検査に伴う申し入れについて",
+          "updatedAt": "令和7年5月16日",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/kouikihinankeikakupamphlet.html",
+          "status": 200,
+          "title": "原子力災害時の広域避難計画パンフレット",
+          "h1": "原子力災害時の広域避難計画パンフレット",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/newbousaijouhou.data/R6chiikibousai.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/newbousaijouhou.data/R6suibou.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/newbousaijouhou.data/r6hinankeikaku.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/newbousaijouhou.data/kokuminhogo.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/tosyo/index.data/tosyokan.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/ninshin/todoke.html",
+          "status": 200,
+          "title": "妊娠届（母子健康手帳交付）",
+          "h1": "妊娠届（母子健康手帳交付）",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/coccolo.html",
+          "status": 200,
+          "title": "しまね子育て応援パスポート「Coccolo（こっころ）」",
+          "h1": "しまね子育て応援パスポート「Coccolo（こっころ）」",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/boshimo.html",
+          "status": 200,
+          "title": "母子健康情報アプリ「母子モ（安来市版）」について",
+          "h1": "母子健康情報アプリ「母子モ（安来市版）」について",
+          "updatedAt": "令和5年6月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/iryokikan/",
+          "status": 200,
+          "title": "市内の医療機関",
+          "h1": "市内の医療機関",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/gikai/kaigijoho/gian-giketsukekka/No103/no103-03.html",
+          "status": 200,
+          "title": "3月定例会議（令和7年3月）",
+          "h1": "3月定例会議（令和7年3月）",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/gikai/gikainitsuite/yasugimiraitalk.html",
+          "status": 200,
+          "title": "やすぎ未来トーク",
+          "h1": "やすぎ未来トーク",
+          "updatedAt": "令和2年7月20日",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/gikai/index.data/kodomoyou_gikaittenaani.pdf",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "application/pdf",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/gikai/kaigijoho/haisinn.html",
+          "status": 200,
+          "title": "議会インターネット配信",
+          "h1": "議会インターネット配信",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/hospital/patient/",
+          "status": 200,
+          "title": "患者さまへ",
+          "h1": "患者さまへ",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/hospital/outpatient/",
+          "status": 200,
+          "title": "外来の方へ",
+          "h1": "外来の方へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/hospital/checkup/",
+          "status": 200,
+          "title": "健診・予防接種の方へ",
+          "h1": "健診・予防接種の方へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/hospital/news/",
+          "status": 200,
+          "title": "新着情報",
+          "h1": "新着情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "予防接種"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/hospital/patient/counseling.html",
+          "status": 200,
+          "title": "患者相談窓口",
+          "h1": "患者相談窓口",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/gakkou/tetsuzuki.html",
+          "status": 200,
+          "title": "入学や転出入、転居などの諸手続き、就学時健康診断",
+          "h1": "入学や転出入、転居などの諸手続き、就学時健康診断",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/gakkou/henko.html",
+          "status": 200,
+          "title": "指定した学校の変更",
+          "h1": "指定した学校の変更",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shugakuenjo.html",
+          "status": 200,
+          "title": "就学援助",
+          "h1": "就学援助",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shakaikyoiku/kyoiku-katsudo-sokushin.html",
+          "status": 200,
+          "title": "安来市共育協働活動推進事業",
+          "h1": "安来市共育協働活動推進事業",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/04.html",
+          "status": 200,
+          "title": "4．届出が必要なとき",
+          "h1": "4．届出が必要なとき",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshikatei-shugyo.html",
+          "status": 200,
+          "title": "島根県母子家庭等就業・自立支援センター",
+          "h1": "島根県母子家庭等就業・自立支援センター",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshi-fushi-shienin.html",
+          "status": 200,
+          "title": "母子・父子自立支援員",
+          "h1": "母子・父子自立支援員",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/",
+          "status": 200,
+          "title": "福祉医療費助成制度（重度心身障がい者・ひとり親家庭の方）",
+          "h1": "福祉医療費助成制度（重度心身障がい者・ひとり親家庭の方）",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/shien.html",
+          "status": 200,
+          "title": "子育て支援センター",
+          "h1": "子育て支援センター",
+          "updatedAt": "平成17年4月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/book.html",
+          "status": 200,
+          "title": "安来市子育て応援ガイドブック「ピッコリーニ」",
+          "h1": "安来市子育て応援ガイドブック「ピッコリーニ」",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.html",
+          "status": 200,
+          "title": "子ども医療費助成制度",
+          "h1": "子ども医療費助成制度",
+          "updatedAt": "令和7年3月31日",
+          "keywordHits": [
+            "給付金",
+            "医療費助成",
+            "福祉",
+            "子育て",
+            "就学",
+            "予防接種"
+          ],
+          "candidateScore": 23,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/jido-teate.html",
+          "status": 200,
+          "title": "児童手当",
+          "h1": "児童手当",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/jido-fuyo.html",
+          "status": 200,
+          "title": "児童扶養手当",
+          "h1": "児童扶養手当",
+          "updatedAt": "平成15年4月1日",
+          "keywordHits": [
+            "免除",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/01.html",
+          "status": 200,
+          "title": "1．受給資格要件",
+          "h1": "1．受給資格要件",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉"
+          ],
+          "candidateScore": 10,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshikatei.html",
+          "status": 200,
+          "title": "母子家庭等自立支援給付金",
+          "h1": "母子家庭等自立支援給付金",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "一時金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 26,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshi-fushi-kafu.html",
+          "status": 200,
+          "title": "母子父子寡婦福祉資金貸付制度",
+          "h1": "母子父子寡婦福祉資金貸付制度",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "住宅",
+            "福祉",
+            "子育て",
+            "就学",
+            "奨学金"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/kosodate-sodan.html",
+          "status": 200,
+          "title": "地域子育て支援センター",
+          "h1": "地域子育て支援センター",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/kenshin-kyoshitsu.html",
+          "status": 200,
+          "title": "乳幼児健診・教室",
+          "h1": "乳幼児健診・教室",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "妊婦"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/yobo/",
+          "status": 200,
+          "title": "予防接種",
+          "h1": "予防接種",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 1,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/azukeru.html",
+          "status": 200,
+          "title": "子どもを預けたい",
+          "h1": "子どもを預けたい",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/katei-sodan.html",
+          "status": 200,
+          "title": "児童虐待に関する通告又は相談",
+          "h1": "児童虐待に関する通告又は相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/",
+          "status": 200,
+          "title": "保育所・幼稚園・認定こども園",
+          "h1": "保育所・幼稚園・認定こども園",
+          "updatedAt": "令和元年7月31日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/family-support.html",
+          "status": 200,
+          "title": "やすぎファミリー・サポート・センター",
+          "h1": "やすぎファミリー・サポート・センター",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/tsudoi.html",
+          "status": 200,
+          "title": "安来市親子交流センター",
+          "h1": "安来市親子交流センター",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/faq-ho-nin23.html",
+          "status": 200,
+          "title": "よくあるご質問【保育所・認定こども園（2号、3号認定）入所関係】",
+          "h1": "よくあるご質問【保育所・認定こども園（2号、3号認定）入所関係】",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/",
+          "status": 200,
+          "title": "国民年金",
+          "h1": "国民年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "免除"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/job-info.html",
+          "status": 200,
+          "title": "仕事に関する情報",
+          "h1": "仕事に関する情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/shushoku/shushokusodankai.html",
+          "status": 200,
+          "title": "就業相談会（移動ナースバンク）",
+          "h1": "就業相談会（移動ナースバンク）",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/ui-turn.html",
+          "status": 200,
+          "title": "移住相談会出展情報",
+          "h1": "移住相談会出展情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/todokede/tenkyo.html",
+          "status": 200,
+          "title": "転入、転出、転居のときは",
+          "h1": "転入、転出、転居のときは",
+          "updatedAt": "令和5年2月6日",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/shomei/tenshutsu-yuso.html",
+          "status": 200,
+          "title": "転出証明書の郵送請求",
+          "h1": "転出証明書の郵送請求",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/machizukuri/jogesuido/josuido/faq.html",
+          "status": 200,
+          "title": "上水道に関するQ＆A",
+          "h1": "上水道に関するQ＆A",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "住宅",
+            "事業者",
+            "農業"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/koreisha/",
+          "status": 200,
+          "title": "高齢者福祉",
+          "h1": "高齢者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/kaigohoken/",
+          "status": 200,
+          "title": "介護保険",
+          "h1": "介護保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/kaigohoken/kazokushien.html",
+          "status": 200,
+          "title": "介護をしている家族の方への支援",
+          "h1": "介護をしている家族の方への支援",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/kaigohoken/jigyosho.html",
+          "status": 200,
+          "title": "介護保険サービス事業所",
+          "h1": "介護保険サービス事業所",
+          "updatedAt": "令和7年4月3日",
+          "keywordHits": [
+            "住宅",
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/chiiki/korei-bora-point.html",
+          "status": 200,
+          "title": "高齢者生活支援ボランティアポイント事業",
+          "h1": "高齢者生活支援ボランティアポイント事業",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/koreisha/koreisha-sodan.html",
+          "status": 200,
+          "title": "高齢者に関する相談",
+          "h1": "高齢者に関する相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/koreisha/ninchisho/carepass.html",
+          "status": 200,
+          "title": "安来市認知症ケアパス",
+          "h1": "安来市認知症ケアパス",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/",
+          "status": 200,
+          "title": "安来で暮らしたい（定住支援）",
+          "h1": "安来で暮らしたい（定住支援）",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "福祉"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/akiyabank.html",
+          "status": 200,
+          "title": "空き家バンク",
+          "h1": "空き家バンク",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/sumai/shiei/",
+          "status": 200,
+          "title": "市営住宅",
+          "h1": "市営住宅",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/inaka.html",
+          "status": 200,
+          "title": "田舎ツーリズム（田舎暮らし体験）",
+          "h1": "田舎ツーリズム（田舎暮らし体験）",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/jido-club.html",
+          "status": 200,
+          "title": "放課後児童クラブ",
+          "h1": "放課後児童クラブ",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/shisei/tokei/cityconditions/meiyoshimin.html",
+          "status": 200,
+          "title": "安来市名誉市民",
+          "h1": "安来市名誉市民",
+          "updatedAt": "平成26年10月4日",
+          "keywordHits": [
+            "免除",
+            "福祉"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32206",
+          "municipalityName": "安来市",
+          "sourceUrl": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/uke.html",
+          "status": 200,
+          "title": "受けられる年金",
+          "h1": "受けられる年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.yasugi.shimane.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/sitemap.xml",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/sitemap.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/foreignlang/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/foreignlang/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/index.m3u",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/index.m3u",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shigoto/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shigoto/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/saikakunin.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/saikakunin.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/zeikin/nozei/web_kouhuri.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/zeikin/nozei/web_kouhuri.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/soshiki/070106uketukejikannhennkou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/soshiki/070106uketukejikannhennkou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/tosyo/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/tosyo/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/newbousaijouhou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/newbousaijouhou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kenko/iryokikan/kyujitsushinryo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/iryokikan/kyujitsushinryo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/le-ninshin/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/le-ninshin/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/le-kosodate/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/le-kosodate/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/le-nyugaku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/le-nyugaku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/le-shushoku/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/le-shushoku/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/le-kekkon/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/le-kekkon/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/le-hikkoshi/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/le-hikkoshi/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/le-korei/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/le-korei/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/le-okuyami/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/le-okuyami/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/tokei/tokeidata/about.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/tokei/tokeidata/about.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/teiju-info.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/teiju-info.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/furusatokifu/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/furusatokifu/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/mayors/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/mayors/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/index.rdf",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/index.rdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/jinji/saiyo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/jinji/saiyo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/kankyou/saienejyourei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/kankyou/saienejyourei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/kaigo/shoninnshakennshuu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/kaigo/shoninnshakennshuu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/hisho/kohoteiseir807.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/hisho/kohoteiseir807.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/kyushoku/suihan_jutaku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/kyushoku/suihan_jutaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/kyushoku/tyouri_jutaku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/kyushoku/tyouri_jutaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/hisho/koho_r08-7.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/hisho/koho_r08-7.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/fukushi/shinsakekka.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/fukushi/shinsakekka.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/seisaku/kaigaikenshuu_boshuukaishi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/seisaku/kaigaikenshuu_boshuukaishi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/hisho/teireikaiken.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/hisho/teireikaiken.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/index.rdf",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/index.rdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/bunka/kanetouke.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/bunka/kanetouke.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/chiikishinkou/hosizorakaisai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/chiikishinkou/hosizorakaisai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/kankou/shimanehurusatofea2026.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/kankou/shimanehurusatofea2026.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/jinken/mottowatashiwotanoshimuseminar1.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/jinken/mottowatashiwotanoshimuseminar1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/bunka/takarakuji.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/bunka/takarakuji.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/kankyou/hube_kengakukai_kaisai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/kankyou/hube_kengakukai_kaisai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/sumai/guruttoyasugigou/20231220.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/sumai/guruttoyasugigou/20231220.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/sumai/others/akiya.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/sumai/others/akiya.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/machizukuri/bb-infra/notice-broadcast/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/machizukuri/bb-infra/notice-broadcast/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/tokei/koukaigatagis/yasugikoukaigis.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/tokei/koukaigatagis/yasugikoukaigis.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/densikeiji/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/densikeiji/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/online/koukyousisetutouyoyaku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/online/koukyousisetutouyoyaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/koho/kouhou/dogenakane/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/koho/kouhou/dogenakane/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/koho/houdou/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/koho/houdou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/koho/publiccom/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/koho/publiccom/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/koho/goiken/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/koho/goiken/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/johokokai/shingikai/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/johokokai/shingikai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/download/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/download/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/link.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/link.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/concept.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/concept.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/cl.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/cl.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/privacy.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/privacy.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/accessibility/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/accessibility/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/soshiki/annai/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/soshiki/annai/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/soshiki/tel/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/soshiki/tel/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/jinken/kaigohokenryoukanpukinsagi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/jinken/kaigohokenryoukanpukinsagi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/gesui/tyuuikanki.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/gesui/tyuuikanki.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/bousai/jalertshiken.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/bousai/jalertshiken.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/zaisei/siteikanri.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/zaisei/siteikanri.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/hisho/koho_r07-5.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/hisho/koho_r07-5.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/chiikishinkou/hatachinotsudoi.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/chiikishinkou/hatachinotsudoi.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/kankou/tsukinowa_festival2025.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/kankou/tsukinowa_festival2025.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/suidou-kanri/taishinnkakeikaku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/suidou-kanri/taishinnkakeikaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/news/dobokukensetsu/SICnew.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/news/dobokukensetsu/SICnew.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/kankyou/ibentclearnup.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/kankyou/ibentclearnup.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/bunka/rekisibunkakouza.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/bunka/rekisibunkakouza.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/bousai/r7bousaisiyousei.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/bousai/r7bousaisiyousei.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/syoubou-y/event_jishintaikensya.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/syoubou-y/event_jishintaikensya.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/chiikishinkou/esports_undokai.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/chiikishinkou/esports_undokai.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/kenkou/shokutohanofestival_5kai.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/kenkou/shokutohanofestival_5kai.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/shinkou/2024_nourinngyousai_kaisai.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/shinkou/2024_nourinngyousai_kaisai.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/kankyou/dojousukuirobokon.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/kankyou/dojousukuirobokon.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/jinken/minnanobousai.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/jinken/minnanobousai.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/event/bunka/jieitaiconcert.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/event/bunka/jieitaiconcert.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/bunka/sports/2025zenkokusoutai/2025ih_fencing_yasugi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/bunka/sports/2025zenkokusoutai/2025ih_fencing_yasugi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/gomi/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/gomi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/sumai/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/sumai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kenko/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/bunka/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/bunka/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shiminkatsudo/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shiminkatsudo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/machizukuri/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/machizukuri/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shigoto/nyusatsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shigoto/nyusatsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shigoto/noringyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shigoto/noringyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shigoto/shokokanko/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shigoto/shokokanko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shigoto/fukushi/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shigoto/fukushi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shigoto/kankyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shigoto/kankyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shigoto/zeikin/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shigoto/zeikin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shigoto/doro/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shigoto/doro/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shigoto/jogesuidou/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shigoto/jogesuidou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shigoto/shiteikanri/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shigoto/shiteikanri/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shigoto/kokoku/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shigoto/kokoku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/foreignlang/English/address.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/foreignlang/English/address.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/foreignlang/English/pregnant.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/foreignlang/English/pregnant.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/foreignlang/English/kokuho-english.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/foreignlang/English/kokuho-english.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/foreignlang/English/garbage-english.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/foreignlang/English/garbage-english.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/foreignlang/English/disaster-information.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/foreignlang/English/disaster-information.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/foreignlang/English/emergency-call.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/foreignlang/English/emergency-call.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/foreignlang/English/coronavirus.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/foreignlang/English/coronavirus.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/address-chinese.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/address-chinese.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/pregnant-chinese.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/pregnant-chinese.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/kokuho-chinese.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/kokuho-chinese.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/garbage-chinese.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/garbage-chinese.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/disaster-information.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/disaster-information.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/emergency-call.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/emergency-call.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/coronavirus-chinese.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/foreignlang/Chinese/coronavirus-chinese.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/keikaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/keikaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/zaisei/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/zaisei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/gyokaku/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/gyokaku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/koikirenkei/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/koikirenkei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/soshiki/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/soshiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/koho/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/koho/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/tokei/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/tokei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/kansa/",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/kansa/",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/senkyo/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/senkyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/jinji/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/jinji/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/johokokai/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/johokokai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/mayors/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/mayors/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/shomei/juminhyo-cvs.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/shomei/juminhyo-cvs.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/bousaishi_kenshu.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/bousaishi_kenshu.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jalertkunnrennjissi.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jalertkunnrennjissi.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/hinanjouhou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/hinanjouhou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/kishoujouhou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/kishoujouhou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/raifurain.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/raifurain.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/dourokoutuu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/dourokoutuu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/bousaijouhoushutoku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/bousaijouhoushutoku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/kasensuiikanshicamera.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/kasensuiikanshicamera.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/ooyukisonae.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/ooyukisonae.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/taifuusonae.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/taifuusonae.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/hazaadomap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/hazaadomap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/hinanjo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/hinanjo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jishubousai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/jishubousai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/higorosonae.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/higorosonae.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/hisaisien.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/hisaisien.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/engosha-shien.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/engosha-shien.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/ichigoukidai5kai_moussiire.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/ichigoukidai5kai_moussiire.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/gen-anzen-kyotei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/gen-anzen-kyotei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/kouikihinankeikakupamphlet.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/kouikihinankeikakupamphlet.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/shimane-hinan-routemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/shimane-hinan-routemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/newbousaijouhou.data/R6chiikibousai.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/newbousaijouhou.data/R6chiikibousai.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/newbousaijouhou.data/R6suibou.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/newbousaijouhou.data/R6suibou.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/newbousaijouhou.data/r6hinankeikaku.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/newbousaijouhou.data/r6hinankeikaku.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/keikaku/bousai/kokudokyoujinka.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/keikaku/bousai/kokudokyoujinka.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/newbousaijouhou.data/kokuminhogo.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/anzen/bousai/newbousaijouhou.data/kokuminhogo.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/tosyo/index.data/tosyokan.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/tosyo/index.data/tosyokan.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/tosyo/riyouannai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/tosyo/riyouannai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/tosyo/netriyou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/tosyo/netriyou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/tosyo/yasugi/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/tosyo/yasugi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/tosyo/hakuta/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/tosyo/hakuta/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/tosyo/hirose/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/tosyo/hirose/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/ninshin/todoke.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/ninshin/todoke.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/todokede/konin-shussei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/todokede/konin-shussei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/coccolo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/coccolo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/boshimo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/boshimo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kenko/iryokikan/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/iryokikan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/johokokai/topix/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/johokokai/topix/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/dayori/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/dayori/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/johokokai/gityoukousaihi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/johokokai/gityoukousaihi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/kaigijoho/gian-giketsukekka/No103/no103-03.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/kaigijoho/gian-giketsukekka/No103/no103-03.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/kaigijoho/nittei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/kaigijoho/nittei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/johokokai/katsudohi/R05.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/johokokai/katsudohi/R05.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/johokokai/katsudohi/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/johokokai/katsudohi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/gikainitsuite/yakuwari.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/gikainitsuite/yakuwari.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/gikainitsuite/giin/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/gikainitsuite/giin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/gikainitsuite/iinkai/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/gikainitsuite/iinkai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/gikainitsuite/shisatsu/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/gikainitsuite/shisatsu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/gikainitsuite/gyouseisisatumousikomi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/gikainitsuite/gyouseisisatumousikomi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/gikainitsuite/yasugimiraitalk.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/gikainitsuite/yasugimiraitalk.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/index.data/kodomoyou_gikaittenaani.pdf",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/index.data/kodomoyou_gikaittenaani.pdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/kaigijoho/gian/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/kaigijoho/gian/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/kaigijoho/gian-giketsukekka/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/kaigijoho/gian-giketsukekka/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/kaigijoho/chukei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/kaigijoho/chukei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/kaigijoho/haisinn.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/kaigijoho/haisinn.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/seigan/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/seigan/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/seigan/shinsakekka/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/seigan/shinsakekka/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/seigan/boutyou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/seigan/boutyou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/johokokai/hokokukai/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/johokokai/hokokukai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/jimukyoku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/jimukyoku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gikai/link.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gikai/link.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/about/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/about/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/patient/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/patient/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/department/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/department/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/medical/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/medical/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/access/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/access/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/emergency-visit/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/emergency-visit/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/outpatient/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/outpatient/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/inpatient/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/inpatient/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/checkup/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/checkup/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/visit/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/visit/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/news/demakouzauketukechu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/news/demakouzauketukechu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/news/kuusyoujyoukyou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/news/kuusyoujyoukyou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/news/savenightchildren.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/news/savenightchildren.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/news/zaitakuryouyounikakarujikohutankingaku.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/news/zaitakuryouyounikakarujikohutankingaku.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/news/jimuinkaikeinenndoninnyoushokuinn.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/news/jimuinkaikeinenndoninnyoushokuinn.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/news/manmogurafi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/news/manmogurafi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/news/yakansyukutyokuinkaikeinenndoninnyoushokuinn.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/news/yakansyukutyokuinkaikeinenndoninnyoushokuinn.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/news/kanngosizuiji.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/news/kanngosizuiji.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/news/rinsyoukensagishizuiji.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/news/rinsyoukensagishizuiji.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/news/menkaiseigennokaijo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/news/menkaiseigennokaijo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/news/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/news/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/news/index.rdf",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/news/index.rdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/about/recruit/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/about/recruit/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/about/newsletter/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/about/newsletter/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/about/lecture/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/about/lecture/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/patient/counseling.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/patient/counseling.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/about/bid/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/about/bid/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/hospital/contact.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/hospital/contact.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/gakkou/tetsuzuki.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/gakkou/tetsuzuki.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/gakkou/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/gakkou/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/gakkou/henko.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/gakkou/henko.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shugakuenjo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shugakuenjo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shakaikyoiku/kyoiku-katsudo-sokushin.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shakaikyoiku/kyoiku-katsudo-sokushin.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/todokede/rikon.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/todokede/rikon.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/un60.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/un60.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/kokuho/todoke.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/kokuho/todoke.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/04.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/04.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshikatei-shugyo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshikatei-shugyo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshi-fushi-shienin.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshi-fushi-shienin.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/shien.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/shien.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/book.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/book.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/nyu-yo-iryo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/jido-teate.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/jido-teate.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/jido-fuyo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/jido-fuyo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/01.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/shogaisha/fukushiiryo/01.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshikatei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshikatei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshi-fushi-kafu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshi-fushi-kafu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/kosodate-sodan.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/kosodate-sodan.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/kenshin-kyoshitsu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/kenshin-kyoshitsu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/yobo/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/yobo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/azukeru.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/azukeru.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/katei-sodan.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/katei-sodan.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/family-support.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/family-support.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/tsudoi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/tsudoi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/anzen.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/anzen.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshikai.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/teate/boshikai.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/faq-ho-nin23.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/hoiku/faq-ho-nin23.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/job-info.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/job-info.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/shushoku/shushokusodankai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/shushoku/shushokusodankai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/ui-turn.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/ui-turn.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/todokede/tenkyo.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/todokede/tenkyo.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/shomei/tenshutsu-yuso.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/shomei/tenshutsu-yuso.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/kokikoreisha/iryoseido.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/kokikoreisha/iryoseido.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/machizukuri/jogesuido/josuido/faq.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/machizukuri/jogesuido/josuido/faq.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/kurashi-guide.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/kurashi-guide.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/gomi/gomi-recycle/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/gomi/gomi-recycle/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kenko/koreisha/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/koreisha/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kenko/kaigohoken/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/kaigohoken/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kenko/kaigohoken/kazokushien.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/kaigohoken/kazokushien.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kenko/kaigohoken/jigyosho.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/kaigohoken/jigyosho.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kenko/chiiki/korei-bora-point.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/chiiki/korei-bora-point.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kenko/koreisha/koreisha-sodan.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/koreisha/koreisha-sodan.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kenko/koreisha/ninchisho/carepass.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kenko/koreisha/ninchisho/carepass.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/mayors/m-topics/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/mayors/m-topics/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/mayors/schedule.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/mayors/schedule.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/mayors/hyomei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/mayors/hyomei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/mayors/zadankai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/mayors/zadankai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/mayors/kousaihi_shikkoujoukyou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/mayors/kousaihi_shikkoujoukyou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/mayors/kishakaiken.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/mayors/kishakaiken.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/yachin-josei-hojokin.html",
+          "status": 404,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/yachin-josei-hojokin.html",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/akiyabank.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/akiyabank.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/sumai/shiei/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/sumai/shiei/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/inaka.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shushoku/teiju/inaka.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/jido-club.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/kyoiku/shien/jido-club.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/tokei/tokeidata/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/tokei/tokeidata/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/keikaku/sankaku/yasugisogokeikaku2ji.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/keikaku/sankaku/yasugisogokeikaku2ji.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/tokei/cityconditions/utakansei.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/tokei/cityconditions/utakansei.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/tokei/cityconditions/meiyoshimin.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/tokei/cityconditions/meiyoshimin.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/tokei/cityconditions/heiwatoshi.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/tokei/cityconditions/heiwatoshi.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/shisei/koho/character/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/shisei/koho/character/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/todokede/shibou.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/shinsei/todokede/shibou.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/sumai/saijo/",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/sumai/saijo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/kokuho/sosai.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/kokuho/sosai.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/uke.html",
+          "status": 200,
+          "finalUrl": "https://www.city.yasugi.shimane.jp/kurashi/zeikin/nenkin/uke.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}
