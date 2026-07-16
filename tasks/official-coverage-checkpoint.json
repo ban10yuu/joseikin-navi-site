@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-16T23:39:00+09:00",
+  "updatedAt": "2026-07-17T00:05:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "wakayama-official-coverage-004",
-    "municipality": "有田川町・美浜町・日高町・由良町・印南町",
-    "adopted": 89,
+    "code": "wakayama-official-coverage-005",
+    "municipality": "みなべ町・日高川町・白浜町・上富田町・すさみ町",
+    "adopted": 87,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 89,
+    "sourceUrlsChecked": 87,
     "validation": {
-      "previousMunicipality": "和歌山県公式棚卸し004として30366有田川町・30381美浜町・30382日高町・30383由良町・30390印南町を確認し89件を採用。全国公式棚卸しは未完了。",
+      "previousMunicipality": "和歌山県公式棚卸し005として30391みなべ町・30392日高川町・30401白浜町・30404上富田町・30406すさみ町を確認し87件を採用。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for wakayama-official-coverage-004 JSON files",
-      "addedSlugUniqueness": "pass: 89 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 89 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for wakayama-official-coverage-005 JSON files",
+      "addedSlugUniqueness": "pass: 87 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 87 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 19114、officialLinkedActive 18993、manuallyVerifiedActive 18993、和歌山県 localOfficial 353)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 19201、officialLinkedActive 19080、manuallyVerifiedActive 19080、和歌山県 localOfficial 440)"
     }
   },
   "next": {
-    "code": "wakayama-official-coverage-005",
-    "municipality": "みなべ町",
-    "shortlist": "和歌山県004は有田川町19件、美浜町17件、日高町17件、由良町19件、印南町17件を採用した。通常候補1750件に加え公式サイト内リンクリード137465件を展開し、本文再スコア候補342件から個別公式ページ中心に89本へ絞った。美浜町・日高町・由良町はHTTPSがローカルfetchでタイムアウトするため、公式検索結果とHTTP 200を確認した上で到達可能な公式HTTP URLへ正規化した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、和歌山県公式棚卸し005として30391みなべ町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "wakayama-official-coverage-006",
+    "municipality": "那智勝浦町",
+    "shortlist": "和歌山県005はみなべ町15件、日高川町15件、白浜町14件、上富田町22件、すさみ町21件を採用した。通常候補349件に加え公式サイト内リンクリード142425件を展開し、本文再スコア候補403件から個別公式ページ中心に87本へ絞った。白浜町は通常BFS候補が広告・コンビニ交付に偏ったため、公式リンクラベルから制度ページを補完した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、和歌山県公式棚卸し006として30421那智勝浦町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "和歌山県",
     "status": "in-progress-first-pass",
-    "lastBatch": "wakayama-official-coverage-004",
-    "notes": "和歌山県公式棚卸し001で30201和歌山市から30205御坊市、002で30206田辺市・30207新宮市・30208紀の川市・30209岩出市・30304紀美野町、003で30341かつらぎ町・30343九度山町・30344高野町・30361湯浅町・30362広川町、004で30366有田川町・30381美浜町・30382日高町・30383由良町・30390印南町を確認し、累計324件を新規採用した。次は30391みなべ町から再開する。"
+    "lastBatch": "wakayama-official-coverage-005",
+    "notes": "和歌山県公式棚卸し001で30201和歌山市から30205御坊市、002で30206田辺市・30207新宮市・30208紀の川市・30209岩出市・30304紀美野町、003で30341かつらぎ町・30343九度山町・30344高野町・30361湯浅町・30362広川町、004で30366有田川町・30381美浜町・30382日高町・30383由良町・30390印南町、005で30391みなべ町・30392日高川町・30401白浜町・30404上富田町・30406すさみ町を確認し、累計411件を新規採用した。次は30421那智勝浦町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

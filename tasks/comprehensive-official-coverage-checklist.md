@@ -10686,3 +10686,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19114、officialLinkedActive 18993、manuallyVerifiedActive 18993、和歌山県 localOfficial 353）
 - 到達点: 和歌山県は30201和歌山市から30390印南町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 和歌山県公式棚卸し005として、30391みなべ町から再開
+
+### 和歌山県公式棚卸し005（30391みなべ町・30392日高川町・30401白浜町・30404上富田町・30406すさみ町）
+- 実施日: 2026-07-17
+- 候補: 349件（公式サイト内リンクリード142425件、本文再スコア採択候補403件、採用URL87本）
+- 採用: 87件（みなべ町15件、日高川町15件、白浜町14件、上富田町22件、すさみ町21件）
+- 公式URL: 採用URL到達確認は tasks/discovery/wakayama-official-coverage-005-url-status.txt に記録（87本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクとsitemapを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、申請書・PDF単体、施設・住宅募集のみ、職員募集、観光・寄附、本文根拠が薄い候補は第2巡候補として保持。白浜町は通常BFS候補が広告・コンビニ交付に偏ったため、公式リンクラベルから制度ページを補完
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19201、officialLinkedActive 19080、manuallyVerifiedActive 19080、和歌山県 localOfficial 440）
+- 到達点: 和歌山県は30201和歌山市から30406すさみ町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 和歌山県公式棚卸し006として、30421那智勝浦町から再開
