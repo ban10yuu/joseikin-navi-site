@@ -10736,3 +10736,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19581、officialLinkedActive 19460、manuallyVerifiedActive 19460、鳥取県 localOfficial 373）
 - 到達点: 鳥取県は31201鳥取市から31389南部町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 鳥取県公式棚卸し004として、31390伯耆町から再開
+
+### 鳥取県公式棚卸し004（31390伯耆町・31401日南町・31402日野町・31403江府町）
+- 実施日: 2026-07-17
+- 候補: 445件（公式サイト内リンクリード622件、本文再スコア候補375件、公式HTML個別制度ページまたは公式制度掲載ページ60本を採用）
+- 採用: 60件（伯耆町25件、日南町6件、日野町15件、江府町14件）
+- 公式URL: 採用URL到達確認は tasks/discovery/tottori-official-coverage-004-url-status.txt に記録（60本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、PDF単体、申請書単体、受付終了のみ、職員募集、観光・寄附、同内容の重複ページ、本文根拠が薄い候補は第2巡候補として保持。日南町は個別制度候補が少ないため、重複を避けて公式の制度掲載ページを最小限採用
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19641、officialLinkedActive 19520、manuallyVerifiedActive 19520、鳥取県 localOfficial 433）
+- 到達点: 鳥取県は31201鳥取市から31403江府町まで第1巡完了。全国公式棚卸しは未完了
+- 次回: 島根県公式棚卸し001として、32201松江市から再開

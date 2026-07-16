@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-17T01:45:00+09:00",
+  "updatedAt": "2026-07-17T01:58:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "tottori-official-coverage-003",
-    "municipality": "琴浦町・北栄町・日吉津村・大山町・南部町",
-    "adopted": 100,
+    "code": "tottori-official-coverage-004",
+    "municipality": "伯耆町・日南町・日野町・江府町",
+    "adopted": 60,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 100,
+    "sourceUrlsChecked": 60,
     "validation": {
-      "previousMunicipality": "鳥取県公式棚卸し003として31371琴浦町・31372北栄町・31384日吉津村・31386大山町・31389南部町を確認し100件を採用。鳥取県は31201鳥取市から31389南部町まで第1巡到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "鳥取県公式棚卸し004として31390伯耆町・31401日南町・31402日野町・31403江府町を確認し60件を採用。鳥取県は31201鳥取市から31403江府町まで第1巡完了。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for tottori-official-coverage-003 JSON files",
-      "addedSlugUniqueness": "pass: 100 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 100 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for tottori-official-coverage-004 JSON files",
+      "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 60 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 19581、officialLinkedActive 19460、manuallyVerifiedActive 19460、鳥取県 localOfficial 373)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 19641、officialLinkedActive 19520、manuallyVerifiedActive 19520、鳥取県 localOfficial 433)"
     }
   },
   "next": {
-    "code": "tottori-official-coverage-004",
-    "municipality": "伯耆町",
-    "shortlist": "鳥取県003は琴浦町20件、北栄町20件、日吉津村20件、大山町20件、南部町20件を採用した。通常候補472件に加え公式サイト内リンクリード1159件を展開し、本文再スコア候補1002件からカテゴリ導線・共通ナビ・PDF単体・受付終了のみ・重複同内容ページを除いて公式HTML個別制度ページ中心に100本へ絞った。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、鳥取県公式棚卸し004として31390伯耆町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "shimane-official-coverage-001",
+    "municipality": "松江市",
+    "shortlist": "鳥取県004は伯耆町25件、日南町6件、日野町15件、江府町14件を採用した。通常候補445件に加え公式サイト内リンクリード622件を展開し、本文再スコア候補375件からカテゴリ導線・共通ナビ・PDF単体・受付終了のみ・重複同内容ページを除いて公式HTML個別制度ページまたは公式制度掲載ページ60本へ絞った。日南町は個別制度候補が少ないため公式制度掲載ページを最小限採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、島根県公式棚卸し001として32201松江市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "鳥取県",
-    "status": "in-progress-first-pass",
-    "lastBatch": "tottori-official-coverage-003",
-    "notes": "鳥取県公式棚卸し001で31201鳥取市から31302岩美町、002で31325若桜町・31328智頭町・31329八頭町・31364三朝町・31370湯梨浜町、003で31371琴浦町・31372北栄町・31384日吉津村・31386大山町・31389南部町を確認し、累計295件を新規採用。次は31390伯耆町から再開する。"
+    "status": "completed-first-pass",
+    "lastBatch": "tottori-official-coverage-004",
+    "notes": "鳥取県公式棚卸し001で31201鳥取市から31302岩美町、002で31325若桜町・31328智頭町・31329八頭町・31364三朝町・31370湯梨浜町、003で31371琴浦町・31372北栄町・31384日吉津村・31386大山町・31389南部町、004で31390伯耆町・31401日南町・31402日野町・31403江府町を確認し、累計355件を新規採用。次は島根県32201松江市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

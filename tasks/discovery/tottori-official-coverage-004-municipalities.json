@@ -1,0 +1,30 @@
+{
+  "batchId": "tottori-official-coverage-004",
+  "prefecture": "鳥取県",
+  "municipalities": [
+    {
+      "code": "31390",
+      "name": "伯耆町",
+      "prefecture": "鳥取県",
+      "officialBaseUrl": "https://www.houki-town.jp/"
+    },
+    {
+      "code": "31401",
+      "name": "日南町",
+      "prefecture": "鳥取県",
+      "officialBaseUrl": "https://www.town.nichinan.lg.jp/"
+    },
+    {
+      "code": "31402",
+      "name": "日野町",
+      "prefecture": "鳥取県",
+      "officialBaseUrl": "https://www.town.hino.tottori.jp/"
+    },
+    {
+      "code": "31403",
+      "name": "江府町",
+      "prefecture": "鳥取県",
+      "officialBaseUrl": "https://www.town-kofu.jp/"
+    }
+  ]
+}
