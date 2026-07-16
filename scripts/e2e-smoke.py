@@ -28,7 +28,7 @@ def open_page(browser, path, width=1280, height=900):
     page = browser.new_page(viewport={'width': width, 'height': height})
     console_errors = []
     page.on('console', lambda message: console_errors.append(message.text) if message.type == 'error' else None)
-    response = page.goto(f'{BASE_URL}{path}', wait_until='networkidle')
+    response = page.goto(f'{BASE_URL}{path}', wait_until='domcontentloaded')
     check(response is not None and response.status < 400, f'{path}: HTTPエラー')
     results.append({'path': path, 'width': width, 'status': response.status if response else None})
     return page, console_errors
@@ -157,7 +157,7 @@ with sync_playwright() as playwright:
     ended, ended_errors = open_page(browser, '/grant/sumitomo-zaidan-kankyou-josei/', 390, 844)
     check(ended.get_by_text('次回募集・後継制度を公式サイトで確認').count() >= 1, '終了制度のCTAが次回募集確認になっていません')
     check(ended.get_by_text('締切間近（受付中）').count() == 0, '終了制度に締切間近表示が残っています')
-    check(ended.locator('[data-analytics-event="affiliate_impression"]').count() == 0, '無効な候補案件のPR枠が表示されています')
+    check(ended.locator('[data-analytics-event="affiliate_impression"]').count() == 1, '終了制度の詳細ページにPR枠が1件表示されません')
     official = ended.locator('.grant-official-primary')
     check(official.get_attribute('target') == '_blank' and 'noopener' in (official.get_attribute('rel') or ''), '公式CTAの外部リンク属性が不足しています')
     check(len(ended_errors) == 0, f'制度詳細: console error {ended_errors}')
@@ -165,9 +165,17 @@ with sync_playwright() as playwright:
 
     ended_business, ended_business_errors = open_page(browser, '/grant/adachi-startup-support/', 390, 844)
     check(ended_business.get_by_text('次回募集・後継制度を公式サイトで確認').count() >= 1, '終了済み創業制度のCTAが次回募集確認になっていません')
-    check(ended_business.locator('[data-analytics-event="affiliate_impression"]').count() == 0, '終了済み創業制度にPR枠が表示されています')
+    check(ended_business.locator('[data-analytics-event="affiliate_impression"]').count() == 1, '終了済み創業制度の詳細ページにPR枠が1件表示されません')
     check(len(ended_business_errors) == 0, f'終了済み創業制度: console error {ended_business_errors}')
     ended_business.close()
+
+    sensitive, sensitive_errors = open_page(browser, '/grant/ora-fertility-treatment-subsidy-2026/', 390, 844)
+    sensitive_impression = sensitive.locator('[data-analytics-event="affiliate_impression"]')
+    check(sensitive_impression.count() == 1, '個人向け・医療系の制度詳細にPR枠が1件表示されません')
+    check(sensitive_impression.get_attribute('data-audience') in ('individual', 'family'), '個人向け制度の代表ページを検証できていません')
+    check(sensitive_impression.get_attribute('data-purpose') == 'medical', '医療系制度の代表ページを検証できていません')
+    check(len(sensitive_errors) == 0, f'個人向け・医療系制度: console error {sensitive_errors}')
+    sensitive.close()
 
     affiliate_desktop, affiliate_desktop_errors = open_page(browser, '/grant/hachioji-startup-support/', 1440, 1000)
     affiliate_desktop_article = affiliate_desktop.locator('.grant-detail-article')
@@ -203,6 +211,9 @@ with sync_playwright() as playwright:
     check(affiliate.locator('.grant-official-primary').count() >= 1, 'PR表示ページに公式CTAがありません')
     check(affiliate.locator('.grant-official-primary').evaluate('(el) => Boolean(el.compareDocumentPosition(document.querySelector(\'[data-analytics-event="affiliate_impression"]\')) & Node.DOCUMENT_POSITION_FOLLOWING)'), 'PR枠が公式CTAより上に表示されています')
     check(affiliate.locator('.grant-detail-article').evaluate('(el) => Boolean(el.compareDocumentPosition(document.querySelector(\'.grant-affiliate-rail\')) & Node.DOCUMENT_POSITION_FOLLOWING)'), '制度詳細モバイル: PR枠のDOM順が本文より前です')
+    affiliate_mobile_article_box = affiliate.locator('.grant-detail-article').bounding_box()
+    affiliate_mobile_rail_box = affiliate.locator('.grant-affiliate-rail').bounding_box()
+    check(affiliate_mobile_rail_box['y'] >= affiliate_mobile_article_box['y'] + affiliate_mobile_article_box['height'] - 1, '制度詳細モバイル: PR枠が本文の下に配置されていません')
     check(len(affiliate_errors) == 0, f'PR表示制度詳細: console error {affiliate_errors}')
     affiliate.close()
 

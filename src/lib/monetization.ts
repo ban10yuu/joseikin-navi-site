@@ -15,6 +15,7 @@ export interface MonetizationContext {
   intents: AffiliateIntent[];
   monetizationAllowed: boolean;
   status?: GrantStatus;
+  placementMode?: 'relevant' | 'allGrantDetails';
   limit?: number;
 }
 
@@ -63,11 +64,14 @@ export function getEligibleAffiliateOffers(
   context: MonetizationContext,
   now = new Date(),
 ): AffiliateOffer[] {
-  if (!context.monetizationAllowed) return [];
-  if (context.pageType === 'grant' && !context.audiences.some((audience) => BUSINESS_AUDIENCES.has(audience))) return [];
-  if (context.pageType === 'grant' && context.status === 'closed') return [];
-  if (context.purposes.some((purpose) => SENSITIVE_PURPOSES.has(purpose))) return [];
-  if (context.audiences.some((audience) => SENSITIVE_AUDIENCES.has(audience))) return [];
+  const allGrantDetails = context.pageType === 'grant' && context.placementMode === 'allGrantDetails';
+  if (!allGrantDetails) {
+    if (!context.monetizationAllowed) return [];
+    if (context.pageType === 'grant' && !context.audiences.some((audience) => BUSINESS_AUDIENCES.has(audience))) return [];
+    if (context.pageType === 'grant' && context.status === 'closed') return [];
+    if (context.purposes.some((purpose) => SENSITIVE_PURPOSES.has(purpose))) return [];
+    if (context.audiences.some((audience) => SENSITIVE_AUDIENCES.has(audience))) return [];
+  }
 
   const defaultLimit = context.pageType === 'grant' ? 1 : Number.POSITIVE_INFINITY;
   const limit = Math.max(0, context.limit ?? defaultLimit);
@@ -75,10 +79,10 @@ export function getEligibleAffiliateOffers(
   return offers
     .filter((offer) => isAffiliateOfferPublishable(offer, now))
     .filter((offer) => offer.allowedPageTypes.includes(context.pageType))
-    .filter((offer) => offer.audiences.length === 0 || intersects(offer.audiences, context.audiences))
-    .filter((offer) => offer.intents.length > 0 && intersects(offer.intents, context.intents))
-    .filter((offer) => offer.allowedPurposes.length === 0 || intersects(offer.allowedPurposes, context.purposes))
-    .filter((offer) => !intersects(offer.blockedPurposes, context.purposes))
+    .filter((offer) => allGrantDetails || offer.audiences.length === 0 || intersects(offer.audiences, context.audiences))
+    .filter((offer) => allGrantDetails || (offer.intents.length > 0 && intersects(offer.intents, context.intents)))
+    .filter((offer) => allGrantDetails || offer.allowedPurposes.length === 0 || intersects(offer.allowedPurposes, context.purposes))
+    .filter((offer) => allGrantDetails || !intersects(offer.blockedPurposes, context.purposes))
     .sort((left, right) => right.priority - left.priority || (right.verifiedAt ?? '').localeCompare(left.verifiedAt ?? ''))
     .slice(0, limit);
 }

@@ -77,6 +77,20 @@ describe('affiliate offers', () => {
     assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, status: 'open' }, new Date('2026-07-13')).map((item) => item.id), [offer.id]);
   });
 
+  it('全詳細ページ配置モードでは制度側の条件にかかわらず公開可能案件を1件返す', () => {
+    const result = getEligibleAffiliateOffers([offer], {
+      ...context,
+      audiences: ['family'],
+      purposes: ['medical'],
+      intents: [],
+      monetizationAllowed: false,
+      status: 'closed',
+      placementMode: 'allGrantDetails',
+      limit: 1,
+    }, new Date('2026-07-13'));
+    assert.deepEqual(result.map((item) => item.id), [offer.id]);
+  });
+
   it('制度のintentと一致しない案件やintent未設定案件を表示しない', () => {
     assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, intents: ['payroll'] }, new Date('2026-07-13')), []);
     assert.deepEqual(getEligibleAffiliateOffers([{ ...offer, intents: [] }], context, new Date('2026-07-13')), []);

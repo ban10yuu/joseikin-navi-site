@@ -91,6 +91,7 @@ export default async function GrantDetailPage({ params }: Props) {
     intents: grant.affiliateIntents ?? [],
     monetizationAllowed: grant.monetizationAllowed ?? false,
     status,
+    placementMode: 'allGrantDetails',
     limit: 1,
   });
   const primaryOfficialUrl = getValidOfficialSourceUrls(grant)[0];
@@ -180,7 +181,7 @@ export default async function GrantDetailPage({ params }: Props) {
 
           {affiliateOffers.length > 0 && (
             <div className="grant-affiliate-rail official-affiliate-rail">
-              <p className="grant-affiliate-rail-label">申請準備に関連するサービス</p>
+              <p className="grant-affiliate-rail-label">事業者向けサービス</p>
               {affiliateOffers.map((offer, index) => <AffiliateRecommendation key={offer.id} offer={offer} pageType="grant" grantId={grant.slug} audience={grant.primaryAudience} purpose={grant.primaryPurpose} placement="grant-side-rail" position={index + 1} compact />)}
             </div>
           )}
