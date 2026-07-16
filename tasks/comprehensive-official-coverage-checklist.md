@@ -10575,3 +10575,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18294、officialLinkedActive 18173、manuallyVerifiedActive 18173、兵庫県 localOfficial 746、奈良県 localOfficial 70）
 - 到達点: 兵庫県は28100神戸市から28586新温泉町まで第1巡完了。奈良県は29201奈良市から29204天理市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 奈良県公式棚卸し002として、29205橿原市から再開
+
+### 奈良県公式棚卸し002（29205橿原市・29206桜井市・29207五條市・29208御所市・29209生駒市）
+- 実施日: 2026-07-16
+- 候補: 678件（公式サイト内リンクリード6629件、本文再スコア採択候補2009件、採用URL60本）
+- 採用: 60件（橿原市5件、桜井市8件、五條市11件、御所市25件、生駒市11件）
+- 公式URL: 採用URL到達確認は tasks/discovery/nara-official-coverage-002-url-status.txt に記録（60本すべてHTTP 200）
+- 保留: 通常候補がカテゴリ導線に偏ったため、公式サイト内リンクとsitemapを補完し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、職員募集、プロポーザル、寄附・観光、外部バナー、受付終了のみ、申請書単体、本文根拠が薄い候補は第2巡候補として保持。五條市の既存URL重複1件は採用から除外
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18354、officialLinkedActive 18233、manuallyVerifiedActive 18233、奈良県 localOfficial 130）
+- 到達点: 奈良県は29201奈良市から29209生駒市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 奈良県公式棚卸し003として、29210香芝市から再開

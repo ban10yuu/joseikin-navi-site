@@ -1,0 +1,35 @@
+{
+  "batchId": "nara-official-coverage-002",
+  "municipalities": [
+    {
+      "code": "29205",
+      "name": "橿原市",
+      "prefecture": "奈良県",
+      "officialBaseUrl": "https://www.city.kashihara.nara.jp/"
+    },
+    {
+      "code": "29206",
+      "name": "桜井市",
+      "prefecture": "奈良県",
+      "officialBaseUrl": "https://www.city.sakurai.lg.jp/"
+    },
+    {
+      "code": "29207",
+      "name": "五條市",
+      "prefecture": "奈良県",
+      "officialBaseUrl": "https://www.city.gojo.lg.jp/"
+    },
+    {
+      "code": "29208",
+      "name": "御所市",
+      "prefecture": "奈良県",
+      "officialBaseUrl": "https://www.city.gose.nara.jp/"
+    },
+    {
+      "code": "29209",
+      "name": "生駒市",
+      "prefecture": "奈良県",
+      "officialBaseUrl": "https://www.city.ikoma.lg.jp/"
+    }
+  ]
+}
