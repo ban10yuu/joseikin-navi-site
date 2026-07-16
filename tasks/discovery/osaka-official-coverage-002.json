@@ -1,0 +1,41 @@
+{
+  "batchId": "osaka-official-coverage-002",
+  "prefecture": "大阪府",
+  "completedAt": "2026-07-16T09:57:26+09:00",
+  "municipalities": [
+    {
+      "code": "27204",
+      "name": "池田市",
+      "adopted": 14
+    },
+    {
+      "code": "27205",
+      "name": "吹田市",
+      "adopted": 12
+    },
+    {
+      "code": "27206",
+      "name": "泉大津市",
+      "adopted": 19
+    },
+    {
+      "code": "27207",
+      "name": "高槻市",
+      "adopted": 15
+    },
+    {
+      "code": "27208",
+      "name": "貝塚市",
+      "adopted": 8
+    }
+  ],
+  "candidateCount": 657,
+  "linkLeadCount": 68,
+  "adopted": 68,
+  "sourceUrlsChecked": 68,
+  "heldPolicy": "トップ、カテゴリ導線、共通ナビ、通常行政案内、FAQ、募集職員、外部リンクのみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。池田市・泉大津市・貝塚市は公式補助金一覧・公式サイトマップ導線で補完。",
+  "next": {
+    "batchId": "osaka-official-coverage-003",
+    "start": "27209守口市"
+  }
+}

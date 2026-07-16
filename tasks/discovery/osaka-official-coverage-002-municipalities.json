@@ -1,0 +1,37 @@
+{
+  "batchId": "osaka-official-coverage-002",
+  "prefecture": "大阪府",
+  "createdAt": "2026-07-16T09:50:00+09:00",
+  "municipalities": [
+    {
+      "code": "27204",
+      "name": "池田市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.ikeda.osaka.jp/"
+    },
+    {
+      "code": "27205",
+      "name": "吹田市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.suita.osaka.jp/"
+    },
+    {
+      "code": "27206",
+      "name": "泉大津市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.izumiotsu.lg.jp/"
+    },
+    {
+      "code": "27207",
+      "name": "高槻市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.takatsuki.osaka.jp/"
+    },
+    {
+      "code": "27208",
+      "name": "貝塚市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.kaizuka.lg.jp/"
+    }
+  ]
+}

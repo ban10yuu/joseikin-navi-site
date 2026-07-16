@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-15T23:55:00+09:00",
+  "updatedAt": "2026-07-16T09:57:26+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kyoto-official-coverage-006-and-osaka-official-coverage-001",
-    "municipality": "与謝野町・大阪市・堺市・岸和田市・豊中市",
-    "adopted": 50,
+    "code": "osaka-official-coverage-002",
+    "municipality": "池田市・吹田市・泉大津市・高槻市・貝塚市",
+    "adopted": 68,
     "held": 0,
-    "excluded": 1,
-    "sourceUrlsChecked": 50,
+    "excluded": 0,
+    "sourceUrlsChecked": 68,
     "validation": {
-      "previousMunicipality": "京都府公式棚卸し006として26465与謝野町を確認し8件を採用。続けて大阪府公式棚卸し001として27100大阪市・27140堺市・27202岸和田市・27203豊中市を確認し42件を採用した。京都府は第1巡完了。与謝野町の高齢者向け商品券は公式カテゴリに導線が残るが詳細URLが404のため第2巡候補へ回した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "大阪府公式棚卸し002として27204池田市・27205吹田市・27206泉大津市・27207高槻市・27208貝塚市を確認し68件を採用。池田市・泉大津市・貝塚市は公式補助金一覧・公式サイトマップ導線で補完した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for kyoto-official-coverage-006 and osaka-official-coverage-001 JSON files",
-      "addedSlugUniqueness": "pass: 50 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 50 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for osaka-official-coverage-002 JSON files",
+      "addedSlugUniqueness": "pass: 68 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 68 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 17023, officialLinkedActive 16903, manuallyVerifiedActive 16903, 京都府 localOfficial 420, 大阪府 localOfficial 176)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 17091, officialLinkedActive 16971, manuallyVerifiedActive 16971, 大阪府 localOfficial 244)"
     }
   },
   "next": {
-    "code": "osaka-official-coverage-002",
-    "municipality": "池田市",
-    "shortlist": "京都府006は与謝野町8件、大阪府001は大阪市16件、堺市8件、岸和田市6件、豊中市12件を採用した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、大阪府公式棚卸し002として27204池田市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "osaka-official-coverage-003",
+    "municipality": "守口市",
+    "shortlist": "大阪府002は池田市14件、吹田市12件、泉大津市19件、高槻市15件、貝塚市8件を採用した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、大阪府公式棚卸し003として27209守口市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "大阪府",
     "status": "in-progress-first-pass",
-    "lastBatch": "osaka-official-coverage-001",
-    "notes": "京都府は26100京都市から26465与謝野町まで第1巡完了。大阪府公式棚卸し001で大阪市・堺市・岸和田市・豊中市を確認し、42件を新規採用した。次は27204池田市から再開する。"
+    "lastBatch": "osaka-official-coverage-002",
+    "notes": "大阪府公式棚卸し002で池田市・吹田市・泉大津市・高槻市・貝塚市を確認し、68件を新規採用した。大阪府は27100大阪市から27208貝塚市まで第1巡到達。次は27209守口市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

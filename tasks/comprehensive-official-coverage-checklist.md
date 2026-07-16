@@ -10401,3 +10401,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17023、officialLinkedActive 16903、manuallyVerifiedActive 16903、大阪府 localOfficial 176）
 - 到達点: 大阪府は27100大阪市から27203豊中市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 大阪府公式棚卸し002として、27204池田市から再開
+
+
+### 大阪府公式棚卸し002（27204池田市・27205吹田市・27206泉大津市・27207高槻市・27208貝塚市）
+- 実施日: 2026-07-16
+- 候補: 657件（公式カテゴリリンクリード68件、公式リスト68件、採用URL68本）
+- 採用: 68件（池田市14件、吹田市12件、泉大津市19件、高槻市15件、貝塚市8件）
+- 公式URL: 採用URL到達確認は tasks/discovery/osaka-official-coverage-002-url-status.txt に記録（68本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、通常行政案内、FAQ、募集職員、外部リンクのみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。池田市・泉大津市・貝塚市は公式補助金一覧・公式サイトマップ導線で補完
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17091、officialLinkedActive 16971、manuallyVerifiedActive 16971、大阪府 localOfficial 244）
+- 到達点: 大阪府は27100大阪市から27208貝塚市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 大阪府公式棚卸し003として、27209守口市から再開
