@@ -10807,3 +10807,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 20141、officialLinkedActive 20020、manuallyVerifiedActive 20020、岡山県 localOfficial 266）
 - 到達点: 岡山県は33100岡山市から33211備前市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 岡山県公式棚卸し003として、33212瀬戸内市から再開
+
+
+### 岡山県公式棚卸し003（33212瀬戸内市・33213赤磐市・33214真庭市・33215美作市・33216浅口市）
+- 実施日: 2026-07-17
+- 候補: 標準discoverは0件。公式sitemap、公式カテゴリ、公式制度一覧ページ、公式目的別ページ、本文抽出から、公式HTML個別制度ページ・公式制度掲載ページ94本を採用
+- 採用: 94件（瀬戸内市18件、赤磐市20件、真庭市20件、美作市20件、浅口市16件）
+- 公式URL: 採用URL到達確認は tasks/discovery/okayama-official-coverage-003-url-status.txt に記録（94本すべてHTTP 200）
+- 保留: 標準discoverが0件のため、公式カテゴリと公式制度一覧ページを補完。トップ、カテゴリ導線、共通ナビ、PDF単体、申請書単体、外部制度のみ、報告・広報・会議・採用情報、本文根拠が薄い候補、同一制度の重複ページは第2巡候補として保持。浅口市の生活困窮者支援ページは旧URLから現行公式URLへ整理
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 20235、officialLinkedActive 20114、manuallyVerifiedActive 20114、岡山県 localOfficial 360）
+- 到達点: 岡山県は33100岡山市から33216浅口市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 岡山県公式棚卸し004として、33346和気町から再開

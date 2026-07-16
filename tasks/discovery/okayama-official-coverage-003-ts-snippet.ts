@@ -1,0 +1,1416 @@
+const okayamaOfficial003Grants: Array<{
+  slug: string;
+  title: string;
+  organization: string;
+  maxAmount: string;
+  maxAmountNum: number;
+  category: Grant['category'];
+  relatedCategories?: Grant['relatedCategories'];
+  eligibility: string;
+  applicationPeriod: string;
+  officialUrl: string;
+  sourceName: string;
+}> = [
+  {
+    "slug": "okayama-official-003-001-2026",
+    "title": "瀬戸内市 妊婦のための支援給付",
+    "organization": "瀬戸内市",
+    "maxAmount": "1人につき5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "瀬戸内市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 交付金事業」が令和7年度から法律に基づく「妊婦のための支援給付」制度に移行しました",
+    "officialUrl": "https://www.city.setouchi.lg.jp/soshiki/19/151721.html",
+    "sourceName": "妊婦のための支援給付"
+  },
+  {
+    "slug": "okayama-official-003-002-2026",
+    "title": "瀬戸内市 妊産婦タクシー助成事業",
+    "organization": "瀬戸内市",
+    "maxAmount": "助成額は500円",
+    "maxAmountNum": 500,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "瀬戸内市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 交付します",
+    "officialUrl": "https://www.city.setouchi.lg.jp/soshiki/19/149292.html",
+    "sourceName": "妊産婦タクシー助成事業"
+  },
+  {
+    "slug": "okayama-official-003-003-2026",
+    "title": "瀬戸内市 不妊治療費助成金",
+    "organization": "瀬戸内市",
+    "maxAmount": "助成額助成対象となる経費とし、上限10万円",
+    "maxAmountNum": 100000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "瀬戸内市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年12月23日 申請日に至るまで、引き続き瀬戸内市内に住所を有すること 夫婦いずれも市税を滞納していないこと 同一の不妊治療に係る医療費に関して、他の自治体から同様の助成を受けておらず、または受ける予定でないこと 保険医療機関で保険が適用さ",
+    "officialUrl": "https://www.city.setouchi.lg.jp/soshiki/19/152132.html",
+    "sourceName": "不妊治療費助成金"
+  },
+  {
+    "slug": "okayama-official-003-004-2026",
+    "title": "瀬戸内市 不育治療費助成金",
+    "organization": "瀬戸内市",
+    "maxAmount": "助成額医療保険適用外医療費で、1年度あたり上限30万円",
+    "maxAmountNum": 300000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "瀬戸内市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年12月23日 交付申請日現在瀬戸内市に1年以上住民登録していること",
+    "officialUrl": "https://www.city.setouchi.lg.jp/soshiki/19/1619.html",
+    "sourceName": "不育治療費助成金"
+  },
+  {
+    "slug": "okayama-official-003-005-2026",
+    "title": "瀬戸内市 助産施設入所による出産費用の助成",
+    "organization": "瀬戸内市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "瀬戸内市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2024年11月8日 申請を行い、市から助産施設入所措置の決定を受けている必要があります",
+    "officialUrl": "https://www.city.setouchi.lg.jp/soshiki/19/2012.html",
+    "sourceName": "助産施設入所による出産費用の助成"
+  },
+  {
+    "slug": "okayama-official-003-006-2026",
+    "title": "瀬戸内市 児童手当",
+    "organization": "瀬戸内市",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "瀬戸内市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年12月2日 支給対象者 瀬戸内市に住民票があり、高校生年代（18歳を迎えた最初の３月31日）までの児童を養育している方が当市からの 支給対象者 となります",
+    "officialUrl": "https://www.city.setouchi.lg.jp/soshiki/19/1890.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "okayama-official-003-007-2026",
+    "title": "瀬戸内市 こども医療費助成",
+    "organization": "瀬戸内市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "瀬戸内市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 交付申請書 対象の子どもの加入している健康保険を確認できるもの 「マイナ保険証・資格確認書・資格情報のお知らせ」のいずれか 申請場所 瀬戸内市役所国保年金医療給付課、牛窓支所、長船支所、裳掛出張所 注意2：郵送でも手続きがで",
+    "officialUrl": "https://www.city.setouchi.lg.jp/soshiki/80/2300.html",
+    "sourceName": "こども医療費助成"
+  },
+  {
+    "slug": "okayama-official-003-008-2026",
+    "title": "瀬戸内市 就学援助",
+    "organization": "瀬戸内市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "瀬戸内市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 支給されますが、学用品や給食代、修学旅行などの費用は、保護者の負担となります",
+    "officialUrl": "https://www.city.setouchi.lg.jp/site/kyouikuiinnkai/2317.html",
+    "sourceName": "就学援助"
+  },
+  {
+    "slug": "okayama-official-003-009-2026",
+    "title": "瀬戸内市 奨学金",
+    "organization": "瀬戸内市",
+    "maxAmount": "月額）高等学校16,000円",
+    "maxAmountNum": 16000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "瀬戸内市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月27日 期限 毎年6月末 申込書類 申込書類は、瀬戸内市教育委員会総務学務課、瀬戸内市中央公民館、長船町公民館にて設置しております",
+    "officialUrl": "https://www.city.setouchi.lg.jp/site/kyouikuiinnkai/2186.html",
+    "sourceName": "奨学金"
+  },
+  {
+    "slug": "okayama-official-003-010-2026",
+    "title": "瀬戸内市 児童扶養手当",
+    "organization": "瀬戸内市",
+    "maxAmount": "月額）児童扶養手当支給額一覧表（月額）（令和８年４月現在）支給対象児童手当の全額を受給できる人（全部支給）手当の一部を受給できる人（一部支給）1人目の児童48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "瀬戸内市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 支給されるものです",
+    "officialUrl": "https://www.city.setouchi.lg.jp/soshiki/19/1905.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "okayama-official-003-011-2026",
+    "title": "瀬戸内市 母子父子寡婦福祉資金貸付制度",
+    "organization": "瀬戸内市",
+    "maxAmount": "公式ページ記載の貸付額・貸付条件に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "瀬戸内市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年2月10日 申請を受けてから資金を交付するまでは通常1カ月以上かかりますので、お早めにまずはご相談ください",
+    "officialUrl": "https://www.city.setouchi.lg.jp/soshiki/19/3116.html",
+    "sourceName": "母子父子寡婦福祉資金貸付制度"
+  },
+  {
+    "slug": "okayama-official-003-012-2026",
+    "title": "瀬戸内市 自立支援教育訓練給付金・高等職業訓練促進給付金",
+    "organization": "瀬戸内市",
+    "maxAmount": "支給額受講に要した費用の60％雇用保険制度の専門実践教育訓練を受講する場合の上限は1年あたり40万円",
+    "maxAmountNum": 400000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "瀬戸内市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2025年1月29日 申請を行っていること 講座を受講することが適職に就くために必要であると認められること 過去にこの制度を利用したことがないこと 対象講座 雇用保険法等の各種教育訓練給付の指定教育訓練講座など 【参考】雇用保険制度の教育訓練給付",
+    "officialUrl": "https://www.city.setouchi.lg.jp/soshiki/19/3665.html",
+    "sourceName": "自立支援教育訓練給付金・高等職業訓練促進給付金"
+  },
+  {
+    "slug": "okayama-official-003-013-2026",
+    "title": "瀬戸内市 放課後児童クラブ利用料減免支援補助金対象資格認定証",
+    "organization": "瀬戸内市",
+    "maxAmount": "月額利用料等が3,000円",
+    "maxAmountNum": 3000,
+    "category": "childcare",
+    "relatedCategories": [
+      "education",
+      "living"
+    ],
+    "eligibility": "瀬戸内市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月31日 申請ができるようになりました",
+    "officialUrl": "https://www.city.setouchi.lg.jp/soshiki/19/112336.html",
+    "sourceName": "放課後児童クラブ利用料減免支援補助金対象資格認定証"
+  },
+  {
+    "slug": "okayama-official-003-014-2026",
+    "title": "瀬戸内市 ひとり親家庭等医療費助成制度",
+    "organization": "瀬戸内市",
+    "maxAmount": "限度額表」所得区分外来のみ外来＋入院一定以上44,400円",
+    "maxAmountNum": 44400,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "瀬戸内市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 申請者と同じ健康保険に加入している人全員のもの） 「マイナ保険証・資格確認書・資格情報のお知らせ」のいずれか 所得・課税証明書（前年分",
+    "officialUrl": "https://www.city.setouchi.lg.jp/soshiki/80/1413.html",
+    "sourceName": "ひとり親家庭等医療費助成制度"
+  },
+  {
+    "slug": "okayama-official-003-015-2026",
+    "title": "瀬戸内市 特別障害者手当・障害児福祉手当",
+    "organization": "瀬戸内市",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "瀬戸内市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2023年5月3日 支給することにより、特別障害者の福祉の向上を図ることを目的にしています",
+    "officialUrl": "https://www.city.setouchi.lg.jp/soshiki/15/3422.html",
+    "sourceName": "特別障害者手当・障害児福祉手当"
+  },
+  {
+    "slug": "okayama-official-003-016-2026",
+    "title": "瀬戸内市 特別児童扶養手当",
+    "organization": "瀬戸内市",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "瀬戸内市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2023年5月3日 支給することにより、これらの児童の福祉の増進を図ることを目的にしています",
+    "officialUrl": "https://www.city.setouchi.lg.jp/soshiki/15/3416.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "okayama-official-003-017-2026",
+    "title": "瀬戸内市 伝統的工芸美術品製作技術習得活動補助金",
+    "organization": "瀬戸内市",
+    "maxAmount": "補助金額補助金の限度額：200万円",
+    "maxAmountNum": 2000000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "瀬戸内市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月21日 申請・届出様式 &gt; 各種申請・届出様式 &gt; 文化財 &gt; 令和8年度瀬戸内市伝統的工芸美術品製作技術習得活動補助金について 本文 令和8年度瀬戸内市伝統的工芸美術品製作技術習得活動補助金について 更新日：20",
+    "officialUrl": "https://www.city.setouchi.lg.jp/site/bunkazai/155174.html",
+    "sourceName": "伝統的工芸美術品製作技術習得活動補助金"
+  },
+  {
+    "slug": "okayama-official-003-018-2026",
+    "title": "瀬戸内市 文化活動団体等事業費補助金",
+    "organization": "瀬戸内市",
+    "maxAmount": "補助金額補助対象経費の2分の1以内とし、補助金の上限額は、1団体に対し年300万円",
+    "maxAmountNum": 3000000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "瀬戸内市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 募集 ​ 市民に音楽や芸能等の優れた文化活動の鑑賞や実践の機会を提供し、本市における文化活動の振興を図ることを目的として、本市の文化振興関係団体が実施する文化活動事業に要する経費を対象に補助金を交付します",
+    "officialUrl": "https://www.city.setouchi.lg.jp/soshiki/23/141087.html",
+    "sourceName": "文化活動団体等事業費補助金"
+  },
+  {
+    "slug": "okayama-official-003-019-2026",
+    "title": "赤磐市 児童手当",
+    "organization": "赤磐市",
+    "maxAmount": "支給額児童手当支給額児童の年齢児童手当の額（1人当たりの月額）3歳未満15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "赤磐市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "提出は原則不要になりました",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/lifescene/mokuteki12/3441.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "okayama-official-003-020-2026",
+    "title": "赤磐市 子ども医療費の助成",
+    "organization": "赤磐市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "赤磐市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和7年4月1日 支給される高額医療費や付加給付金 ・他公費が優先される部分の医療費 ・交通事故等（第三者行為）で他の責に帰すべきもの ・保育所、認定こども園、幼稚園、学校管理下において生じたケガなど、日本スポーツ振興センター災害給付制度の対",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/lifescene/mokuteki12/3715.html",
+    "sourceName": "子ども医療費の助成"
+  },
+  {
+    "slug": "okayama-official-003-021-2026",
+    "title": "赤磐市 児童扶養手当",
+    "organization": "赤磐市",
+    "maxAmount": "月額）児童1人の場合全部支給：46,690円",
+    "maxAmountNum": 46690,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "赤磐市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "令和3年3月1日 支給される手当です",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/lifescene/mokuteki12/3445.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "okayama-official-003-022-2026",
+    "title": "赤磐市 ひとり親家庭等医療費助成制度",
+    "organization": "赤磐市",
+    "maxAmount": "限度額（月額上限額）所得区分外来だけの場合外来と入院がある場合一定以上所得者44,400円",
+    "maxAmountNum": 44400,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "赤磐市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "申請する場合は前々年)の所得税(税額控除前)が非課税である方 ※所得税課税であっても19歳未満の税法上の扶養者数による調整を行うことで、所得税非課税相当として資格認定となる場合があります",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/lifescene/mokuteki12/3446.html",
+    "sourceName": "ひとり親家庭等医療費助成制度"
+  },
+  {
+    "slug": "okayama-official-003-023-2026",
+    "title": "赤磐市 母子家庭等高等職業訓練促進給付金・修了支援給付金",
+    "organization": "赤磐市",
+    "maxAmount": "支給額市民税非課税世帯：100,000円",
+    "maxAmountNum": 100000,
+    "category": "childcare",
+    "relatedCategories": [
+      "education",
+      "living"
+    ],
+    "eligibility": "赤磐市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "支給要件を満たせば受給することができます",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/lifescene/mokuteki12/3447.html",
+    "sourceName": "母子家庭等高等職業訓練促進給付金・修了支援給付金"
+  },
+  {
+    "slug": "okayama-official-003-024-2026",
+    "title": "赤磐市 高齢者および重度身体障害者住宅改造助成事業",
+    "organization": "赤磐市",
+    "maxAmount": "助成額対象経費の3分の2（ただし、同一住宅につき333,000円",
+    "maxAmountNum": 333000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "nursing",
+      "living"
+    ],
+    "eligibility": "赤磐市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "申請してください",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/lifescene/mokuteki12/3573.html",
+    "sourceName": "高齢者および重度身体障害者住宅改造助成事業"
+  },
+  {
+    "slug": "okayama-official-003-025-2026",
+    "title": "赤磐市 自立支援医療費（更生医療費）",
+    "organization": "赤磐市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "赤磐市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "自立支援医療費（更生医療費）／赤磐市 本文へ 文字サイズ 背景色変更 Foreign Language くらし・手続き 健康・福祉 子育て・教育 事業者向け情報 市政情報 PC版を表示 メニュー 閉じる トップページへ くらし・手続き 健康",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/lifescene/mokuteki12/3592.html",
+    "sourceName": "自立支援医療費（更生医療費）"
+  },
+  {
+    "slug": "okayama-official-003-026-2026",
+    "title": "赤磐市 自立支援医療費（育成医療費）",
+    "organization": "赤磐市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "赤磐市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "自立支援医療費（育成医療費）／赤磐市 本文へ 文字サイズ 背景色変更 Foreign Language くらし・手続き 健康・福祉 子育て・教育 事業者向け情報 市政情報 PC版を表示 メニュー 閉じる トップページへ くらし・手続き 健康",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/lifescene/mokuteki12/3594.html",
+    "sourceName": "自立支援医療費（育成医療費）"
+  },
+  {
+    "slug": "okayama-official-003-027-2026",
+    "title": "赤磐市 自立支援医療費（精神通院医療費）",
+    "organization": "赤磐市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "赤磐市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "申請により通院医療費が一部公費負担されます",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/lifescene/mokuteki12/3596.html",
+    "sourceName": "自立支援医療費（精神通院医療費）"
+  },
+  {
+    "slug": "okayama-official-003-028-2026",
+    "title": "赤磐市 障害者医療費",
+    "organization": "赤磐市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "赤磐市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "障害者医療費／赤磐市 本文へ 文字サイズ 背景色変更 Foreign Language くらし・手続き 健康・福祉 子育て・教育 事業者向け情報 市政情報 PC版を表示 メニュー 閉じる トップページへ くらし・手続き 健康・福祉 子育て・",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/lifescene/mokuteki12/3598.html",
+    "sourceName": "障害者医療費"
+  },
+  {
+    "slug": "okayama-official-003-029-2026",
+    "title": "赤磐市 特別障害者手当",
+    "organization": "赤磐市",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "赤磐市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "支給されます",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/lifescene/mokuteki12/3600.html",
+    "sourceName": "特別障害者手当"
+  },
+  {
+    "slug": "okayama-official-003-030-2026",
+    "title": "赤磐市 障害児福祉手当",
+    "organization": "赤磐市",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "赤磐市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "支給されます",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/lifescene/mokuteki12/3602.html",
+    "sourceName": "障害児福祉手当"
+  },
+  {
+    "slug": "okayama-official-003-031-2026",
+    "title": "赤磐市 特別児童扶養手当",
+    "organization": "赤磐市",
+    "maxAmount": "支給額（月額）（令和8年4月1日現在）障害児1人につき1級（重度）58,450円",
+    "maxAmountNum": 58450,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "赤磐市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "令和8年4月1日 支給額（月額）（令和8年4月1日現在） 障害児1人につき 1級（重度） 58,450円 2級（中度） 38,930円 支給時期 4月、8月、11月にそれぞれの前4か月分が支給されます",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/lifescene/mokuteki12/3606.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "okayama-official-003-032-2026",
+    "title": "赤磐市 住宅改修費・自動車改造費等各種助成",
+    "organization": "赤磐市",
+    "maxAmount": "助成額：改造に直接要した経費(ただし、上限限度額は10万円",
+    "maxAmountNum": 100000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "赤磐市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "申請してください",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/lifescene/mokuteki12/3609.html",
+    "sourceName": "住宅改修費・自動車改造費等各種助成"
+  },
+  {
+    "slug": "okayama-official-003-033-2026",
+    "title": "赤磐市 生ごみ処理容器購入費補助金",
+    "organization": "赤磐市",
+    "maxAmount": "補助金額等コンポスト容器等：3千円を上限に購入費の1/2に相当する額（1世帯2基まで）電気式生ごみ処理機：3万円",
+    "maxAmountNum": 30000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "赤磐市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "申請） 生ごみ処理容器を使用して生ごみを減らすことで、燃えるごみを減らすことができます",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/lifescene/mokuteki12/3714.html",
+    "sourceName": "生ごみ処理容器購入費補助金"
+  },
+  {
+    "slug": "okayama-official-003-034-2026",
+    "title": "赤磐市 妊婦のための支援給付金",
+    "organization": "赤磐市",
+    "maxAmount": "支給額妊婦1人につき5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "赤磐市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和7年4月1日 支給額 妊婦1人につき5万円 胎児1人につき5万円 対象者 1～3のすべてに当てはまる人 1. 産科医療機関等を受診して胎児心拍が確認された人 2. 申請時点で赤磐市に住民票がある人 3. 他の自治体で妊婦のための支援給付＜",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/kosodate/ninshinshussan/12000.html",
+    "sourceName": "妊婦のための支援給付金"
+  },
+  {
+    "slug": "okayama-official-003-035-2026",
+    "title": "赤磐市 風しん予防接種助成",
+    "organization": "赤磐市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "赤磐市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "申請する日に赤磐市に住所を有している人で、以下のすべての要件を満たす人",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/kosodate/ninshinshussan/13008.html",
+    "sourceName": "風しん予防接種助成"
+  },
+  {
+    "slug": "okayama-official-003-036-2026",
+    "title": "赤磐市 第3子以降給食費等補助金",
+    "organization": "赤磐市",
+    "maxAmount": "補助額・保育園部利用者：令和7年度の補助対象月数×4,500円",
+    "maxAmountNum": 4500,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "赤磐市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "令和4年4月1日 交付します",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/kosodate/hoiku/11485.html",
+    "sourceName": "第3子以降給食費等補助金"
+  },
+  {
+    "slug": "okayama-official-003-037-2026",
+    "title": "赤磐市 高等学校等通学費補助金",
+    "organization": "赤磐市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "赤磐市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "申請（入力方法、記入例）について 【令和8年度：新様式】申請書等について（様式、添付書類、記入例など）） 【お知らせ】令和8年度 高等学校等通学費補助金制度について この記事に関するお問い合わせ先 教育委員会 教育総務課 〒",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/kosodate/kyouiku/5085.html",
+    "sourceName": "高等学校等通学費補助金"
+  },
+  {
+    "slug": "okayama-official-003-038-2026",
+    "title": "赤磐市 就学援助制度",
+    "organization": "赤磐市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "赤磐市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "就学援助制度／赤磐市 本文へ 文字サイズ 背景色変更 Foreign Language くらし・手続き 健康・福祉 子育て・教育 事業者向け情報 市政情報 PC版を表示 メニュー 閉じる トップページへ くらし・手続き 健康・福祉 子育て・",
+    "officialUrl": "https://www.city.akaiwa.lg.jp/kosodate/kyouiku/5088.html",
+    "sourceName": "就学援助制度"
+  },
+  {
+    "slug": "okayama-official-003-039-2026",
+    "title": "真庭市 真庭くらし応援給付事業",
+    "organization": "真庭市",
+    "maxAmount": "1人につき5,000円",
+    "maxAmountNum": 5000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "真庭市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年7月7日 支給を含む）の対象者およびその保護者 でない人 令和8年 4月1日になった時点 で真庭市に住民登録があり、令和8年 7月1日まで継続して 真庭市に住民登録がある人 【給付額・給付方法】 給 付 額：対象者1人につき5,000",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/12/118352.html",
+    "sourceName": "真庭くらし応援給付事業"
+  },
+  {
+    "slug": "okayama-official-003-040-2026",
+    "title": "真庭市 不妊治療費の助成",
+    "organization": "真庭市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "真庭市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月14日 申請書類を変更していますので、4月以降に申請される場合はお手元の書類が最新のものかご確認ください",
+    "officialUrl": "https://kodomo.city.maniwa.okayama.jp/2001.html",
+    "sourceName": "不妊治療費の助成"
+  },
+  {
+    "slug": "okayama-official-003-041-2026",
+    "title": "真庭市 障がい者医療費の給付",
+    "organization": "真庭市",
+    "maxAmount": "限度額所得区分要件外来入院（合算）一定以上所得者市民税の課税所得が145万円",
+    "maxAmountNum": 1450000,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "真庭市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年3月21日 申請に必要なもの 保険の資格が確認できるもの（保険証、資格確認証、マイナンバーカード） 印鑑 身体障害者手帳または療育手帳または精神障害者保健福祉手帳と自立支援医療受給者証 （他市町村からの転入の場合）世帯全員の所得がわかる",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/11/1672.html",
+    "sourceName": "障がい者医療費の給付"
+  },
+  {
+    "slug": "okayama-official-003-042-2026",
+    "title": "真庭市 がん患者へのウィッグ等購入費助成",
+    "organization": "真庭市",
+    "maxAmount": "上限3万円",
+    "maxAmountNum": 30000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "真庭市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年6月20日 交付のご案内 [PDFファイル／301KB] 対象者 申請日において、次の1から4のすべての条件を満たす方が対象となります",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/37/86129.html",
+    "sourceName": "がん患者へのウィッグ等購入費助成"
+  },
+  {
+    "slug": "okayama-official-003-043-2026",
+    "title": "真庭市 こども医療費給付制度",
+    "organization": "真庭市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "真庭市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2023年6月1日 申請・給付・助成 &gt; こども医療費給付制度について 本文 こども医療費給付制度について 印刷ページ表示 大きい文字で印刷 記事番号：0001674 更新日：2023年6月1日更新 真庭市では、18歳（満18歳到達後最初",
+    "officialUrl": "https://kodomo.city.maniwa.okayama.jp/1674.html",
+    "sourceName": "こども医療費給付制度"
+  },
+  {
+    "slug": "okayama-official-003-044-2026",
+    "title": "真庭市 難病で定期受診されている方への交通費助成",
+    "organization": "真庭市",
+    "maxAmount": "月額)1km未満1,000円",
+    "maxAmountNum": 1000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "真庭市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2022年2月1日 支給 特定疾患等で通院されている方を対象に、通院にかかる交通費の一部を支給することによって、家庭生活の安定と福祉の向上を目的とした補助制度です",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/15/53841.html",
+    "sourceName": "難病で定期受診されている方への交通費助成"
+  },
+  {
+    "slug": "okayama-official-003-045-2026",
+    "title": "真庭市 骨髄バンクドナー支援事業",
+    "organization": "真庭市",
+    "maxAmount": "105,000円を限度",
+    "maxAmountNum": 105000,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "真庭市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2021年8月11日 交付を受けた方(ドナー)",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/37/1995.html",
+    "sourceName": "骨髄バンクドナー支援事業"
+  },
+  {
+    "slug": "okayama-official-003-046-2026",
+    "title": "真庭市 ひとり親家庭等医療費給付制度",
+    "organization": "真庭市",
+    "maxAmount": "限度額所得区分要件外来入院（合算）一定以上所得者市民税の課税所得が145万円",
+    "maxAmountNum": 1450000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "真庭市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2019年12月12日 申請により、期間を延長できます（高校専攻科、高専4年生以上は該当になりません）",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/11/1667.html",
+    "sourceName": "ひとり親家庭等医療費給付制度"
+  },
+  {
+    "slug": "okayama-official-003-047-2026",
+    "title": "真庭市 農業生産維持・発展事業補助金",
+    "organization": "真庭市",
+    "maxAmount": "限度額認定農業者認定新規就農者集落営農組織農事組合法人農業機械の導入経費1／6以内の額（補助限度額80万円",
+    "maxAmountNum": 800000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "真庭市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年7月14日 募集】農業生産維持・発展事業補助金 - 真庭市公式ホームページ ページの先頭です",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/42/119738.html",
+    "sourceName": "農業生産維持・発展事業補助金"
+  },
+  {
+    "slug": "okayama-official-003-048-2026",
+    "title": "真庭市 地域公共交通求人情報発信支援補助金",
+    "organization": "真庭市",
+    "maxAmount": "補助額補助対象経費の2分の1（上限30万円",
+    "maxAmountNum": 300000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "真庭市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月13日 募集広告にかかる費用の一部を補助します",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/12/117106.html",
+    "sourceName": "地域公共交通求人情報発信支援補助金"
+  },
+  {
+    "slug": "okayama-official-003-049-2026",
+    "title": "真庭市 文化財活用支援補助金",
+    "organization": "真庭市",
+    "maxAmount": "補助金額等補助額：上限30万円",
+    "maxAmountNum": 300000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "真庭市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月1日 交付します",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/53/60534.html",
+    "sourceName": "文化財活用支援補助金"
+  },
+  {
+    "slug": "okayama-official-003-050-2026",
+    "title": "真庭市 地域公共交通運転手緊急確保就職支援補助金",
+    "organization": "真庭市",
+    "maxAmount": "最大50万円",
+    "maxAmountNum": 500000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "真庭市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月30日 交付金を財源として活用し、本補助金を実施します",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/12/116503.html",
+    "sourceName": "地域公共交通運転手緊急確保就職支援補助金"
+  },
+  {
+    "slug": "okayama-official-003-051-2026",
+    "title": "真庭市 高校生チャレンジ支援事業",
+    "organization": "真庭市",
+    "maxAmount": "最大10万円",
+    "maxAmountNum": 100000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "真庭市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月20日 申請方法については、産業政策課までお問い合わせください",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/40/115867.html",
+    "sourceName": "高校生チャレンジ支援事業"
+  },
+  {
+    "slug": "okayama-official-003-052-2026",
+    "title": "真庭市 防犯カメラ設置費補助金",
+    "organization": "真庭市",
+    "maxAmount": "上限20万円",
+    "maxAmountNum": 200000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "真庭市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 交付申請書に見積書及び設置場所等の関係書類を添えて、真庭市くらし安全課へご提出ください",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/12/115698.html",
+    "sourceName": "防犯カメラ設置費補助金"
+  },
+  {
+    "slug": "okayama-official-003-053-2026",
+    "title": "真庭市 ふるさとまにわ新ライフステージ支援事業",
+    "organization": "真庭市",
+    "maxAmount": "補助額加算額賃貸補助金(1)月額15,001円",
+    "maxAmountNum": 15001,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "真庭市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 交付します",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/4/91853.html",
+    "sourceName": "ふるさとまにわ新ライフステージ支援事業"
+  },
+  {
+    "slug": "okayama-official-003-054-2026",
+    "title": "真庭市 真庭市みらいにつなぐ元気事業応援補助金",
+    "organization": "真庭市",
+    "maxAmount": "15万円限度",
+    "maxAmountNum": 150000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "真庭市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 交付要綱(令和6年4月1日制定",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/4/88994.html",
+    "sourceName": "真庭市みらいにつなぐ元気事業応援補助金"
+  },
+  {
+    "slug": "okayama-official-003-055-2026",
+    "title": "真庭市 NPO活動資金支援補助金",
+    "organization": "真庭市",
+    "maxAmount": "上限額（１）スタートアップ事業（初期活動経費補助事業）法第13条に規定する設立の認証を受けた日から３年以内の団体が、活動の基盤強化のために行う事業補助上限３０万円",
+    "maxAmountNum": 300000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "真庭市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 交付は連続３年間可能） ※継続して補助金の交付を希望する場合も、毎年度申請が必要となります",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/4/83544.html",
+    "sourceName": "NPO活動資金支援補助金"
+  },
+  {
+    "slug": "okayama-official-003-056-2026",
+    "title": "真庭市 児童扶養手当",
+    "organization": "真庭市",
+    "maxAmount": "支給額第1子全部支給月額48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "真庭市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請・給付・助成 &gt; 児童扶養手当 本文 児童扶養手当 印刷ページ表示 大きい文字で印刷 記事番号：0041170 更新日：2026年4月1日更新 児童が心身ともに健やかに育成されるために 児童扶養手当とは、父母の離婚",
+    "officialUrl": "https://kodomo.city.maniwa.okayama.jp/41170.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "okayama-official-003-057-2026",
+    "title": "真庭市 新婚さんバックアップ事業補助金",
+    "organization": "真庭市",
+    "maxAmount": "上限額・合計額での上限額・住宅取得の場合100万円",
+    "maxAmountNum": 1000000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "真庭市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 受付募集中 【支援拡大】真庭市での新婚生活を応援します！ 対象となる新婚世帯 次の要件をすべて満たす世帯です ・新築、購入または改修の場合、令和4年4月1日から令和9年3月31日までに婚姻届が受理された新婚世帯 ・賃借の場合",
+    "officialUrl": "https://kodomo.city.maniwa.okayama.jp/24021.html",
+    "sourceName": "新婚さんバックアップ事業補助金"
+  },
+  {
+    "slug": "okayama-official-003-058-2026",
+    "title": "真庭市 木材利活用促進支援事業補助金",
+    "organization": "真庭市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "真庭市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年3月30日 受付を開始します",
+    "officialUrl": "https://www.city.maniwa.lg.jp/soshiki/41/99679.html",
+    "sourceName": "木材利活用促進支援事業補助金"
+  },
+  {
+    "slug": "okayama-official-003-059-2026",
+    "title": "美作市 若年者医療費給付制度",
+    "organization": "美作市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美作市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和3年7月1日 交付申請に必要なもの 対象児の健康保険資格のわかるもの 対象児のマイナンバーがわかるもの（個人番号通知書等） 若年者医療費受給資格者証交付申請書 (Wordファイル: 40.0KB) 医療費給付の範囲 助成の対象となるのは、",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/kosodatemanabi/shien/josei/1448690332971.html",
+    "sourceName": "若年者医療費給付制度"
+  },
+  {
+    "slug": "okayama-official-003-060-2026",
+    "title": "美作市 児童扶養手当",
+    "organization": "美作市",
+    "maxAmount": "1人全部支給:46,690円",
+    "maxAmountNum": 46690,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美作市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "支給に当たっては、所得による支給制限があります",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/kosodatemanabi/shien/josei/1473835040786.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "okayama-official-003-061-2026",
+    "title": "美作市 特別児童扶養手当",
+    "organization": "美作市",
+    "maxAmount": "月額1級：56,800円",
+    "maxAmountNum": 56800,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美作市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "支給されます",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/kosodatemanabi/shien/josei/1448691684342.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "okayama-official-003-062-2026",
+    "title": "美作市 障害児福祉手当",
+    "organization": "美作市",
+    "maxAmount": "月額16,100円",
+    "maxAmountNum": 16100,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美作市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "支給される手当です",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/kosodatemanabi/shien/josei/1448692213732.html",
+    "sourceName": "障害児福祉手当"
+  },
+  {
+    "slug": "okayama-official-003-063-2026",
+    "title": "美作市 不妊治療支援事業",
+    "organization": "美作市",
+    "maxAmount": "年額5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "美作市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "申請について 美作市では、年度内の申請ではなく支払いが終了した日から180日以内に申請となります",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/kosodatemanabi/shien/josei/1448693506988.html",
+    "sourceName": "不妊治療支援事業"
+  },
+  {
+    "slug": "okayama-official-003-064-2026",
+    "title": "美作市 ひとり親家庭等医療費助成制度",
+    "organization": "美作市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "美作市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "申請者が以下の場合は対象となりません（申請者の児童も含む） 児童扶養手当の支給申請で認定却下となる方（全額停止の方は除きます） 生活保護を受けられている方 申請に必要なもの ひとり親家庭等であることが証明できる戸籍謄本等（児",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/kosodatemanabi/shien/josei/1449299532514.html",
+    "sourceName": "ひとり親家庭等医療費助成制度"
+  },
+  {
+    "slug": "okayama-official-003-065-2026",
+    "title": "美作市 母子・父子・寡婦福祉資金貸付制度",
+    "organization": "美作市",
+    "maxAmount": "公式ページ記載の貸付額・貸付条件に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "美作市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "母子・父子・寡婦福祉資金貸付制度／美作市ホームページ スマートフォン版を表示 本文へ 文字 サイズ 背景色 変更 Foreign Language アイスランド語 アイマラ語 アイルランド語 アゼルバイジャン語 アッサム語 アフリカーンス語",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/kosodatemanabi/shien/josei/1449300668037.html",
+    "sourceName": "母子・父子・寡婦福祉資金貸付制度"
+  },
+  {
+    "slug": "okayama-official-003-066-2026",
+    "title": "美作市 母子家庭等自立支援給付金",
+    "organization": "美作市",
+    "maxAmount": "月額10万円",
+    "maxAmountNum": 100000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美作市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "支給します",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/kosodatemanabi/shien/josei/1473834950530.html",
+    "sourceName": "母子家庭等自立支援給付金"
+  },
+  {
+    "slug": "okayama-official-003-067-2026",
+    "title": "美作市 自立支援医療（育成医療）費の給付",
+    "organization": "美作市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美作市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "申請に必要なもの 育成医療については福祉政策課が窓口になります",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/kosodatemanabi/shien/josei/1473834527734.html",
+    "sourceName": "自立支援医療（育成医療）費の給付"
+  },
+  {
+    "slug": "okayama-official-003-068-2026",
+    "title": "美作市 初回産科受診料支援助成金事業",
+    "organization": "美作市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "美作市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和6年4月1日 申請日まで引き続き美作市内に住民票を有し、妊娠届出書の発行を受けた方 医療機関と美作市が支援に必要な情報を共有することに同意できる方 助成内容 医療機関において実施する妊娠判定を受けてから、分娩予定日確定に至るまでの診療に係",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/kosodatemanabi/shien/josei/6318.html",
+    "sourceName": "初回産科受診料支援助成金事業"
+  },
+  {
+    "slug": "okayama-official-003-069-2026",
+    "title": "美作市 ひとり親家庭等子育て応援給付金事業",
+    "organization": "美作市",
+    "maxAmount": "月額1万円",
+    "maxAmountNum": 10000,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "美作市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "支給停止となっているひとり親の方に対し、月額1万円を支給することとしました",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/kosodatemanabi/shien/josei/6325.html",
+    "sourceName": "ひとり親家庭等子育て応援給付金事業"
+  },
+  {
+    "slug": "okayama-official-003-070-2026",
+    "title": "美作市 美作市高校生年代応援給付金",
+    "organization": "美作市",
+    "maxAmount": "支給額高校生年代1人当たり一律3万円",
+    "maxAmountNum": 30000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "美作市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "令和7年10月1日 支給を実施します！ 支給対象者 以下のいずれにも該当する方 令和7年10月1日（以下「基準日」とする）時点で高校生年代を現に監護している方 監護している高校生年代を対象とした児童手当を受給している方 基準日時点で美作市に住民",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/kosodatemanabi/shien/josei/8256.html",
+    "sourceName": "美作市高校生年代応援給付金"
+  },
+  {
+    "slug": "okayama-official-003-071-2026",
+    "title": "美作市 妊婦のための支援給付金",
+    "organization": "美作市",
+    "maxAmount": "1人につき5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "美作市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和7年4月1日 申請をし、認定を受けた妊婦の方 申請時点で美作市に住民票がある方 当該妊娠について「妊婦支援給付」（出産・子育て応援給付金（ギフト）を含む）の支給を受けていない方 令和7年3月3 1日までに妊娠届出をした方で、出産・子育て応",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/mokutekibetsu/teatejosei/KosodateKyouiku/4468.html",
+    "sourceName": "妊婦のための支援給付金"
+  },
+  {
+    "slug": "okayama-official-003-072-2026",
+    "title": "美作市 就学援助",
+    "organization": "美作市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美作市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "支給を受けている",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/mokutekibetsu/teatejosei/KosodateKyouiku/4485.html",
+    "sourceName": "就学援助"
+  },
+  {
+    "slug": "okayama-official-003-073-2026",
+    "title": "美作市 遠距離通学への補助",
+    "organization": "美作市",
+    "maxAmount": "年額15,000円",
+    "maxAmountNum": 15000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "美作市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "支給します",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/mokutekibetsu/teatejosei/KosodateKyouiku/4481.html",
+    "sourceName": "遠距離通学への補助"
+  },
+  {
+    "slug": "okayama-official-003-074-2026",
+    "title": "美作市 ヘルメット購入補助",
+    "organization": "美作市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "美作市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "ヘルメットの購入補助／美作市ホームページ スマートフォン版を表示 本文へ 文字 サイズ 背景色 変更 Foreign Language アイスランド語 アイマラ語 アイルランド語 アゼルバイジャン語 アッサム語 アフリカーンス語 アムハラ語",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/mokutekibetsu/teatejosei/KosodateKyouiku/4483.html",
+    "sourceName": "ヘルメット購入補助"
+  },
+  {
+    "slug": "okayama-official-003-075-2026",
+    "title": "美作市 ひとり親世帯移住定住促進補助金",
+    "organization": "美作市",
+    "maxAmount": "補助金額賃貸住宅の賃貸借契約に定められた賃借料（共益費、駐車場料金、光熱水費を除く）の月額から、住宅手当等の補助を差し引いた額に2分の1を乗じた額（1,000円",
+    "maxAmountNum": 1000,
+    "category": "childcare",
+    "relatedCategories": [
+      "housing",
+      "living"
+    ],
+    "eligibility": "美作市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "令和3年1月1日 交付します",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/mokutekibetsu/teatejosei/KosodateKyouiku/4874.html",
+    "sourceName": "ひとり親世帯移住定住促進補助金"
+  },
+  {
+    "slug": "okayama-official-003-076-2026",
+    "title": "美作市 若者移住定住促進給付金",
+    "organization": "美作市",
+    "maxAmount": "支給額1月当たり5,000円",
+    "maxAmountNum": 5000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美作市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "令和2年4月1日 支給します",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/mokutekibetsu/teatejosei/KosodateKyouiku/5573.html",
+    "sourceName": "若者移住定住促進給付金"
+  },
+  {
+    "slug": "okayama-official-003-077-2026",
+    "title": "美作市 奨学金返還支援補助金",
+    "organization": "美作市",
+    "maxAmount": "最大240万円",
+    "maxAmountNum": 2400000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美作市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "募集（在学中にまずは登録申請を行ってください）／美作市ホームページ スマートフォン版を表示 本文へ 文字 サイズ 背景色 変更 Foreign Language アイスランド語 アイマラ語 アイルランド語 アゼルバイジャン語",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/soshiki/seisaku/sogoseisaku/ijyu_teijyu/7173.html",
+    "sourceName": "奨学金返還支援補助金"
+  },
+  {
+    "slug": "okayama-official-003-078-2026",
+    "title": "美作市 新婚さんバックアップ事業補助金",
+    "organization": "美作市",
+    "maxAmount": "補助金額夫婦共に30歳未満の新婚世帯上限60万円",
+    "maxAmountNum": 600000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "美作市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "令和8年4月1日 交付年度内に受講等している",
+    "officialUrl": "https://www.city.mimasaka.lg.jp/soshiki/shimin/shimin/marriage/7604.html",
+    "sourceName": "新婚さんバックアップ事業補助金"
+  },
+  {
+    "slug": "okayama-official-003-079-2026",
+    "title": "浅口市 妊婦のための支援給付・ママパパ応援給付金",
+    "organization": "浅口市",
+    "maxAmount": "支給額（現金）（1回目）1回の妊娠につき5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "浅口市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年6月22日 申請書ダウンロード ＜外部リンク＞ Webから申込み ＜外部リンク＞ 浅口市立図書館蔵書検索 ＜外部リンク＞ 浅口市例規集 ＜外部リンク＞ さがし方別 分類でさがす 組織でさがす 地図でさがす カレンダーでさがす よくある質",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/14229.html",
+    "sourceName": "妊婦のための支援給付・ママパパ応援給付金"
+  },
+  {
+    "slug": "okayama-official-003-080-2026",
+    "title": "浅口市 日用品や行事の代金の補助",
+    "organization": "浅口市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "浅口市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月19日 申請書ダウンロード ＜外部リンク＞ Webから申込み ＜外部リンク＞ 浅口市立図書館蔵書検索 ＜外部リンク＞ 浅口市例規集 ＜外部リンク＞ さがし方別 分類でさがす 組織でさがす 地図でさがす カレンダーでさがす よくある質",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/1783.html",
+    "sourceName": "日用品や行事の代金の補助"
+  },
+  {
+    "slug": "okayama-official-003-081-2026",
+    "title": "浅口市 認可外保育所等利用補助制度",
+    "organization": "浅口市",
+    "maxAmount": "補助金額について補助上限額は、対象児童1人あたり42,000円",
+    "maxAmountNum": 42000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "浅口市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請書ダウンロード ＜外部リンク＞ Webから申込み ＜外部リンク＞ 浅口市立図書館蔵書検索 ＜外部リンク＞ 浅口市例規集 ＜外部リンク＞ さがし方別 分類でさがす 組織でさがす 地図でさがす カレンダーでさがす よくある質",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/8158.html",
+    "sourceName": "認可外保育所等利用補助制度"
+  },
+  {
+    "slug": "okayama-official-003-082-2026",
+    "title": "浅口市 児童扶養手当",
+    "organization": "浅口市",
+    "maxAmount": "限度額一部支給の所得制限限度額所得制限限度額所得制限限度額0人690,000円",
+    "maxAmountNum": 690000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "浅口市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請書ダウンロード ＜外部リンク＞ Webから申込み ＜外部リンク＞ 浅口市立図書館蔵書検索 ＜外部リンク＞ 浅口市例規集 ＜外部リンク＞ さがし方別 分類でさがす 組織でさがす 地図でさがす カレンダーでさがす よくある質",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/2132.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "okayama-official-003-083-2026",
+    "title": "浅口市 助産施設入所による費用の助成",
+    "organization": "浅口市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "浅口市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請書ダウンロード ＜外部リンク＞ Webから申込み ＜外部リンク＞ 浅口市立図書館蔵書検索 ＜外部リンク＞ 浅口市例規集 ＜外部リンク＞ さがし方別 分類でさがす 組織でさがす 地図でさがす カレンダーでさがす よくある質",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/2133.html",
+    "sourceName": "助産施設入所による費用の助成"
+  },
+  {
+    "slug": "okayama-official-003-084-2026",
+    "title": "浅口市 物価高対応子育て応援手当",
+    "organization": "浅口市",
+    "maxAmount": "支給額対象児童1人につき20,000円",
+    "maxAmountNum": 20000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "浅口市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月10日 申請書ダウンロード ＜外部リンク＞ Webから申込み ＜外部リンク＞ 浅口市立図書館蔵書検索 ＜外部リンク＞ 浅口市例規集 ＜外部リンク＞ さがし方別 分類でさがす 組織でさがす 地図でさがす カレンダーでさがす よくある質",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/18277.html",
+    "sourceName": "物価高対応子育て応援手当"
+  },
+  {
+    "slug": "okayama-official-003-085-2026",
+    "title": "浅口市 ひとり親家庭等医療費の助成",
+    "organization": "浅口市",
+    "maxAmount": "上限月額表1所得区分当該月における療養が外来療養のみの場合当該月における療養が入院療養を含む場合一定以上所得者44,400円",
+    "maxAmountNum": 44400,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "浅口市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年7月8日 申請書ダウンロード ＜外部リンク＞ Webから申込み ＜外部リンク＞ 浅口市立図書館蔵書検索 ＜外部リンク＞ 浅口市例規集 ＜外部リンク＞ さがし方別 分類でさがす 組織でさがす 地図でさがす カレンダーでさがす よくある質",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/2128.html",
+    "sourceName": "ひとり親家庭等医療費の助成"
+  },
+  {
+    "slug": "okayama-official-003-086-2026",
+    "title": "浅口市 ヘルメット購入助成",
+    "organization": "浅口市",
+    "maxAmount": "補助額は1,000円",
+    "maxAmountNum": 1000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "浅口市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年2月18日 申請書ダウンロード ＜外部リンク＞ Webから申込み ＜外部リンク＞ 浅口市立図書館蔵書検索 ＜外部リンク＞ 浅口市例規集 ＜外部リンク＞ さがし方別 分類でさがす 組織でさがす 地図でさがす カレンダーでさがす よくある質",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/13978.html",
+    "sourceName": "ヘルメット購入助成"
+  },
+  {
+    "slug": "okayama-official-003-087-2026",
+    "title": "浅口市 子ども医療費の助成",
+    "organization": "浅口市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "浅口市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年3月26日 申請書ダウンロード ＜外部リンク＞ Webから申込み ＜外部リンク＞ 浅口市立図書館蔵書検索 ＜外部リンク＞ 浅口市例規集 ＜外部リンク＞ さがし方別 分類でさがす 組織でさがす 地図でさがす カレンダーでさがす よくある質",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/2146.html",
+    "sourceName": "子ども医療費の助成"
+  },
+  {
+    "slug": "okayama-official-003-088-2026",
+    "title": "浅口市 児童手当",
+    "organization": "浅口市",
+    "maxAmount": "月額0歳～3歳未満の第一子・第二子：月15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "浅口市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2024年3月26日 申請書ダウンロード ＜外部リンク＞ Webから申込み ＜外部リンク＞ 浅口市立図書館蔵書検索 ＜外部リンク＞ 浅口市例規集 ＜外部リンク＞ さがし方別 分類でさがす 組織でさがす 地図でさがす カレンダーでさがす よくある質",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/2147.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "okayama-official-003-089-2026",
+    "title": "浅口市 高等職業訓練促進給付金等支給制度",
+    "organization": "浅口市",
+    "maxAmount": "上限4年）市町村民税非課税世帯：月額10万円",
+    "maxAmountNum": 100000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "浅口市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2024年3月19日 支給制度 - 浅口市公式ホームページ（健康こども福祉課） ページの先頭です",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/2130.html",
+    "sourceName": "高等職業訓練促進給付金等支給制度"
+  },
+  {
+    "slug": "okayama-official-003-090-2026",
+    "title": "浅口市 母子及び父子並びに寡婦福祉資金貸付",
+    "organization": "浅口市",
+    "maxAmount": "公式ページ記載の貸付額・貸付条件に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "浅口市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年6月5日 申請書ダウンロード ＜外部リンク＞ Webから申込み ＜外部リンク＞ 浅口市立図書館蔵書検索 ＜外部リンク＞ 浅口市例規集 ＜外部リンク＞ さがし方別 分類でさがす 組織でさがす 地図でさがす カレンダーでさがす よくある質",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/2129.html",
+    "sourceName": "母子及び父子並びに寡婦福祉資金貸付"
+  },
+  {
+    "slug": "okayama-official-003-091-2026",
+    "title": "浅口市 生活困窮者のための支援",
+    "organization": "浅口市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "浅口市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請書ダウンロード ＜外部リンク＞ Webから申込み ＜外部リンク＞ 浅口市立図書館蔵書検索 ＜外部リンク＞ 浅口市例規集 ＜外部リンク＞ さがし方別 分類でさがす 組織でさがす 地図でさがす カレンダーでさがす よくある質",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/8734.html",
+    "sourceName": "生活困窮者のための支援"
+  },
+  {
+    "slug": "okayama-official-003-092-2026",
+    "title": "浅口市 空家等除却支援事業補助金",
+    "organization": "浅口市",
+    "maxAmount": "補助額補助事業経費の2分の1（最大50万円",
+    "maxAmountNum": 500000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "浅口市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年5月1日 申請書ダウンロード ＜外部リンク＞ Webから申込み ＜外部リンク＞ 浅口市立図書館蔵書検索 ＜外部リンク＞ 浅口市例規集 ＜外部リンク＞ さがし方別 分類でさがす 組織でさがす 地図でさがす カレンダーでさがす よくある質",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/1035.html",
+    "sourceName": "空家等除却支援事業補助金"
+  },
+  {
+    "slug": "okayama-official-003-093-2026",
+    "title": "浅口市 空き家家財等処分支援事業補助金",
+    "organization": "浅口市",
+    "maxAmount": "補助額補助事業経費の2分の1（最大15万円",
+    "maxAmountNum": 150000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "浅口市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年5月1日 申請書ダウンロード ＜外部リンク＞ Webから申込み ＜外部リンク＞ 浅口市立図書館蔵書検索 ＜外部リンク＞ 浅口市例規集 ＜外部リンク＞ さがし方別 分類でさがす 組織でさがす 地図でさがす カレンダーでさがす よくある質",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/19896.html",
+    "sourceName": "空き家家財等処分支援事業補助金"
+  },
+  {
+    "slug": "okayama-official-003-094-2026",
+    "title": "浅口市 空き家利活用事業補助金",
+    "organization": "浅口市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "浅口市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年5月1日 申請書ダウンロード ＜外部リンク＞ Webから申込み ＜外部リンク＞ 浅口市立図書館蔵書検索 ＜外部リンク＞ 浅口市例規集 ＜外部リンク＞ さがし方別 分類でさがす 組織でさがす 地図でさがす カレンダーでさがす よくある質",
+    "officialUrl": "https://www.city.asakuchi.lg.jp/page/1034.html",
+    "sourceName": "空き家利活用事業補助金"
+  }
+];
