@@ -10656,3 +10656,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18853、officialLinkedActive 18732、manuallyVerifiedActive 18732、和歌山県 localOfficial 91）
 - 到達点: 和歌山県は30201和歌山市から30205御坊市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 和歌山県公式棚卸し002として、30206田辺市から再開
+
+### 和歌山県公式棚卸し002（30206田辺市・30207新宮市・30208紀の川市・30209岩出市・30304紀美野町）
+- 実施日: 2026-07-16
+- 候補: 945件（公式サイト内リンクリード6770件、本文再スコア後に個別公式ページ79本を採用）
+- 採用: 79件（田辺市10件、新宮市15件、紀の川市18件、岩出市18件、紀美野町18件）
+- 公式URL: 採用URL到達確認は tasks/discovery/wakayama-official-coverage-002-url-status.txt に記録（79本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、RSS、問い合わせ、申請書単体、受付終了のみ、職員募集、プロポーザル、施設利用料減免のみ、本文根拠が薄い候補は第2巡候補として保持。田辺市は通常候補がカテゴリに偏ったため、カテゴリ内の公式個別制度リンクを補完して採用
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18932、officialLinkedActive 18811、manuallyVerifiedActive 18811、和歌山県 localOfficial 170）
+- 到達点: 和歌山県は30201和歌山市から30304紀美野町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 和歌山県公式棚卸し003として、30341かつらぎ町から再開

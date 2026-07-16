@@ -1,0 +1,36 @@
+{
+  "batchId": "wakayama-official-coverage-002",
+  "prefecture": "和歌山県",
+  "municipalities": [
+    {
+      "code": "30206",
+      "name": "田辺市",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.city.tanabe.lg.jp/"
+    },
+    {
+      "code": "30207",
+      "name": "新宮市",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.city.shingu.lg.jp/"
+    },
+    {
+      "code": "30208",
+      "name": "紀の川市",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.city.kinokawa.lg.jp/"
+    },
+    {
+      "code": "30209",
+      "name": "岩出市",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.city.iwade.lg.jp/"
+    },
+    {
+      "code": "30304",
+      "name": "紀美野町",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.town.kimino.wakayama.jp/"
+    }
+  ]
+}
