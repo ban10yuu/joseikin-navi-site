@@ -10767,3 +10767,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19811、officialLinkedActive 19690、manuallyVerifiedActive 19690、島根県 localOfficial 251）
 - 到達点: 島根県は32201松江市から32386飯南町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 島根県公式棚卸し003として、32441川本町から再開
+
+### 島根県公式棚卸し003（32441川本町・32448美郷町・32449邑南町・32501津和野町・32505吉賀町）
+- 実施日: 2026-07-17
+- 候補: 439件（公式サイト内リンクリード2033件、ユニークリード486件、公式HTML個別制度ページ・公式条例・公式制度掲載ページ81本を採用）
+- 採用: 81件（川本町18件、美郷町13件、邑南町19件、津和野町23件、吉賀町8件）
+- 公式URL: 採用URL到達確認は tasks/discovery/shimane-official-coverage-003-url-status.txt に記録（81本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクと公式例規リンクを展開し、title/h1/main/article/URLの制度強語、金額・対象条件・申請/受付表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、PDF・申請書単体、外部リンク、同内容の重複ページ、過年度臨時給付金、本文根拠が薄い候補は第2巡候補として保持。川本町・美郷町は個別制度ページが少ないため公式条例・実施要綱ページを補完して採用。津和野町の旧空港助成URLは404のため令和8年度ページへ正規化
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19892、officialLinkedActive 19771、manuallyVerifiedActive 19771、島根県 localOfficial 332）
+- 到達点: 島根県は32201松江市から32505吉賀町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 島根県公式棚卸し004として、32525海士町から再開

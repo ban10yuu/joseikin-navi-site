@@ -1,0 +1,31 @@
+{
+  "batchId": "shimane-official-coverage-003",
+  "prefecture": "島根県",
+  "municipalities": [
+    {
+      "code": "32441",
+      "name": "川本町",
+      "officialBaseUrl": "https://www.town.shimane-kawamoto.lg.jp/"
+    },
+    {
+      "code": "32448",
+      "name": "美郷町",
+      "officialBaseUrl": "https://www.town.shimane-misato.lg.jp/"
+    },
+    {
+      "code": "32449",
+      "name": "邑南町",
+      "officialBaseUrl": "https://www.town.ohnan.lg.jp/"
+    },
+    {
+      "code": "32501",
+      "name": "津和野町",
+      "officialBaseUrl": "https://www.town.tsuwano.lg.jp/www/index.html"
+    },
+    {
+      "code": "32505",
+      "name": "吉賀町",
+      "officialBaseUrl": "https://www.town.yoshika.lg.jp/"
+    }
+  ]
+}
