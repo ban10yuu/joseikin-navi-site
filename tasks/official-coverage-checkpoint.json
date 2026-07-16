@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T04:58:00+09:00",
+  "updatedAt": "2026-07-17T05:22:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "okayama-official-coverage-005",
-    "municipality": "鏡野町・勝央町・奈義町・西粟倉村・久米南町",
-    "adopted": 98,
+    "code": "okayama-official-coverage-006",
+    "municipality": "美咲町・吉備中央町",
+    "adopted": 79,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 98,
+    "sourceUrlsChecked": 79,
     "validation": {
-      "previousMunicipality": "岡山県公式棚卸し005として33606鏡野町・33622勝央町・33623奈義町・33643西粟倉村・33663久米南町を確認し98件を採用。岡山県は33663久米南町まで第1巡到達。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/okayama-official-coverage-005-build.mjs",
-      "json": "pass: JSON.parse for okayama-official-coverage-005 JSON files",
-      "addedSlugUniqueness": "pass: 98 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 98 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "previousMunicipality": "岡山県公式棚卸し006として33666美咲町・33681吉備中央町を確認し79件を採用。岡山県は33681吉備中央町まで第1巡完了。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/okayama-official-coverage-006-build.mjs",
+      "json": "pass: JSON.parse for okayama-official-coverage-006 JSON files",
+      "addedSlugUniqueness": "pass: 79 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 79 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 20424、officialLinkedActive 20303、manuallyVerifiedActive 20303、岡山県 localOfficial 549)",
-      "notes": "標準discoverは0件。公式sitemap、公式カテゴリ、公式制度一覧ページ、公式子育て支援サイト、公式移住定住ページ、公式WordPress記事、本文抽出から制度語リンクを補完。shortlistが150件超のため category-links JSONへ本文スニペット付きリードを保存して再スコアリングした。"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 20503、officialLinkedActive 20382、manuallyVerifiedActive 20382、岡山県 localOfficial 628)",
+      "notes": "標準discoverは0件。公式sitemap、公式カテゴリ、公式制度一覧、公式子育て支援サイト、公式移住定住サイト、公式デジタル田園都市サイト、本文抽出から制度語リンクを補完。吉備中央町はshortlistが150件超のため link-leads JSONへ本文スニペット付きリードを保存して再スコアリングした。"
     }
   },
   "next": {
-    "code": "okayama-official-coverage-006",
-    "municipality": "美咲町",
-    "shortlist": "岡山県005は標準discoverが0件だったため、公式カテゴリ・公式制度一覧・WordPress記事・公式子育て/移住定住ページから公式HTML個別制度ページ・公式制度掲載ページ98本へ絞った。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、岡山県公式棚卸し006として33666美咲町を開始地点に自治体コード順で再開する。次候補は33681吉備中央町。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "hiroshima-official-coverage-001",
+    "municipality": "広島市",
+    "shortlist": "岡山県006で美咲町・吉備中央町を確認し、岡山県第1巡を完了。次は広島県の自治体コード順で34100広島市から開始する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、広島県公式棚卸し001として34100広島市を開始地点に自治体コード順で再開する。想定対象は34100広島市・34202呉市・34203竹原市・34204三原市・34205尾道市。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "岡山県",
-    "status": "in-progress-first-pass",
-    "lastBatch": "okayama-official-coverage-005",
-    "notes": "岡山県公式棚卸し005で33606鏡野町・33622勝央町・33623奈義町・33643西粟倉村・33663久米南町を確認し、98件を新規採用。次は33666美咲町から再開する。"
+    "status": "completed-first-pass",
+    "lastBatch": "okayama-official-coverage-006",
+    "notes": "岡山県公式棚卸し006で33666美咲町・33681吉備中央町を確認し、79件を新規採用。岡山県は33100岡山市から33681吉備中央町まで第1巡完了。次は広島県34100広島市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

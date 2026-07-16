@@ -10839,3 +10839,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 20424、officialLinkedActive 20303、manuallyVerifiedActive 20303、岡山県 localOfficial 549）
 - 到達点: 岡山県は33100岡山市から33663久米南町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 岡山県公式棚卸し006として、33666美咲町から再開
+
+### 岡山県公式棚卸し006（33666美咲町・33681吉備中央町）
+- 実施日: 2026-07-17
+- 候補: 標準discoverは0件。美咲町公式sitemap・カテゴリindex、吉備中央町公式sitemap・公式子育て/定住/デジタル田園都市/各課ページ、本文スニペット再スコアから、公式HTML個別制度ページ・公式制度掲載ページ79本を採用
+- 採用: 79件（美咲町27件、吉備中央町52件）
+- 公式URL: 採用URL到達確認は tasks/discovery/okayama-official-coverage-006-url-status.txt に記録（79本すべてHTTP 200）
+- 保留: 標準discoverが0件のため、公式sitemap、公式カテゴリ、公式制度一覧、公式子育て支援サイト、公式移住定住サイト、公式デジタル田園都市サイトを補完。吉備中央町はshortlistが150件超のため tasks/discovery/okayama-official-coverage-006-link-leads.json に本文スニペット付きリードを保存し、美咲町は tasks/discovery/okayama-official-coverage-006-misaki-links.json にカテゴリリンクを保存。トップ、カテゴリ導線、共通ナビ、申請書・PDF単体、計画・相談・採用・外部制度のみ、本文根拠が薄い候補、同一制度の重複ページは第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 20503、officialLinkedActive 20382、manuallyVerifiedActive 20382、岡山県 localOfficial 628）
+- 到達点: 岡山県は33100岡山市から33681吉備中央町まで第1巡完了。全国公式棚卸しは未完了
+- 次回: 広島県公式棚卸し001として、34100広島市から再開
