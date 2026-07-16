@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T08:05:00+09:00",
+  "updatedAt": "2026-07-17T08:55:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "hiroshima-official-coverage-003",
-    "municipality": "東広島市・廿日市市・安芸高田市・江田島市・府中町",
-    "adopted": 97,
+    "code": "hiroshima-official-coverage-004",
+    "municipality": "海田町・熊野町・坂町・安芸太田町・北広島町",
+    "adopted": 78,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 97,
+    "sourceUrlsChecked": 78,
     "validation": {
-      "previousMunicipality": "広島県公式棚卸し003として34212東広島市・34213廿日市市・34214安芸高田市・34215江田島市・34302府中町を確認し97件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/hiroshima-official-coverage-003-build.mjs",
-      "json": "pass: JSON.parse for hiroshima-official-coverage-003 JSON files",
-      "addedSlugUniqueness": "pass: 97 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 97 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "previousMunicipality": "広島県公式棚卸し004として34304海田町・34307熊野町・34309坂町・34368安芸太田町・34369北広島町を確認し78件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/hiroshima-official-coverage-004-build.mjs",
+      "json": "pass: JSON.parse for hiroshima-official-coverage-004 JSON files",
+      "addedSlugUniqueness": "pass: 78 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 78 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 20772、officialLinkedActive 20651、manuallyVerifiedActive 20651、広島県 localOfficial 368)",
-      "notes": "標準discoverは0件。公式カテゴリページ、公式サイト内リンク、公式sitemap、本文スニペット再スコアから補完。東広島市・廿日市市・府中町はshortlistが150件超のため link-leads JSONへ本文スニペット付きリードを保存して再スコアリングした。"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 20850、officialLinkedActive 20729、manuallyVerifiedActive 20729、広島県 localOfficial 446)",
+      "notes": "標準discoverは0件。公式カテゴリページ、公式サイト内リンク、公式sitemap、本文スニペット再スコア、公式検索で現行ページを補完。北広島町の地域施工支援事業補助金は個別URLが404のため、制度詳細を掲載する公式補助金カテゴリページを根拠URLとして採用した。"
     }
   },
   "next": {
-    "code": "hiroshima-official-coverage-004",
-    "municipality": "海田町",
-    "shortlist": "広島県003で東広島市・廿日市市・安芸高田市・江田島市・府中町を確認。次は広島県の自治体コード順で34304海田町から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、広島県公式棚卸し004として34304海田町を開始地点に自治体コード順で再開する。想定対象は34304海田町・34307熊野町・34309坂町・34368安芸太田町・34369北広島町。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "hiroshima-official-coverage-005",
+    "municipality": "大崎上島町",
+    "shortlist": "広島県004で海田町・熊野町・坂町・安芸太田町・北広島町を確認。次は広島県の自治体コード順で34431大崎上島町から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、広島県公式棚卸し005として34431大崎上島町を開始地点に自治体コード順で再開する。想定対象は34431大崎上島町・34462世羅町・34545神石高原町。広島県第1巡完了候補として扱い、全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "広島県",
     "status": "in-progress-first-pass",
-    "lastBatch": "hiroshima-official-coverage-003",
-    "notes": "広島県公式棚卸し003で34212東広島市・34213廿日市市・34214安芸高田市・34215江田島市・34302府中町を確認し、97件を新規採用。次は34304海田町から再開する。"
+    "lastBatch": "hiroshima-official-coverage-004",
+    "notes": "広島県公式棚卸し004で34304海田町・34307熊野町・34309坂町・34368安芸太田町・34369北広島町を確認し、78件を新規採用。次は34431大崎上島町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
