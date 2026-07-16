@@ -10616,3 +10616,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18554、officialLinkedActive 18433、manuallyVerifiedActive 18433、奈良県 localOfficial 330）
 - 到達点: 奈良県は29201奈良市から29402明日香村まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 奈良県公式棚卸し006として、29424上牧町から再開
+
+### 奈良県公式棚卸し006（29424上牧町・29425王寺町・29426広陵町・29427河合町・29441吉野町）
+- 実施日: 2026-07-16
+- 候補: 401件（公式サイト内リンクリード406件、本文再スコア詳細406件、採用URL75本）
+- 採用: 75件（上牧町8件、王寺町18件、広陵町18件、河合町11件、吉野町20件）
+- 公式URL: 採用URL到達確認は tasks/discovery/nara-official-coverage-006-url-status.txt に記録（75本すべてHTTP 200）
+- 保留: 通常候補に加え公式サイト内リンク・サイトマップ導線を展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、広報、職員募集、プロポーザル、受付終了のみ、結果公表のみ、本文根拠が薄い候補は第2巡候補として保持。上牧町・王寺町・河合町は通常候補がカテゴリに偏ったため公式内リンクから個別制度ページを補完
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18629、officialLinkedActive 18508、manuallyVerifiedActive 18508、奈良県 localOfficial 405）
+- 到達点: 奈良県は29201奈良市から29441吉野町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 奈良県公式棚卸し007として、29442大淀町から再開
