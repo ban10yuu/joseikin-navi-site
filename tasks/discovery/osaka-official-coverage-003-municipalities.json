@@ -1,0 +1,37 @@
+{
+  "batchId": "osaka-official-coverage-003",
+  "prefecture": "大阪府",
+  "createdAt": "2026-07-16T10:05:00+09:00",
+  "municipalities": [
+    {
+      "code": "27209",
+      "name": "守口市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.moriguchi.osaka.jp/"
+    },
+    {
+      "code": "27210",
+      "name": "枚方市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.hirakata.osaka.jp/"
+    },
+    {
+      "code": "27211",
+      "name": "茨木市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.ibaraki.osaka.jp/"
+    },
+    {
+      "code": "27212",
+      "name": "八尾市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.yao.osaka.jp/"
+    },
+    {
+      "code": "27213",
+      "name": "泉佐野市",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.city.izumisano.lg.jp/"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "batchId": "osaka-official-coverage-003",
+  "prefecture": "大阪府",
+  "completedAt": "2026-07-16T10:14:51+09:00",
+  "municipalities": [
+    {
+      "code": "27209",
+      "name": "守口市",
+      "adopted": 10
+    },
+    {
+      "code": "27210",
+      "name": "枚方市",
+      "adopted": 16
+    },
+    {
+      "code": "27211",
+      "name": "茨木市",
+      "adopted": 12
+    },
+    {
+      "code": "27212",
+      "name": "八尾市",
+      "adopted": 17
+    },
+    {
+      "code": "27213",
+      "name": "泉佐野市",
+      "adopted": 13
+    }
+  ],
+  "candidateCount": 381,
+  "linkLeadCount": 68,
+  "adopted": 68,
+  "sourceUrlsChecked": 68,
+  "heldPolicy": "トップ、カテゴリ導線、共通ナビ、通常行政案内、FAQ、外部制度のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。守口市・泉佐野市は公式カテゴリと公式サイトマップ・公式検索で補完。",
+  "next": {
+    "batchId": "osaka-official-coverage-004",
+    "start": "27214富田林市"
+  }
+}

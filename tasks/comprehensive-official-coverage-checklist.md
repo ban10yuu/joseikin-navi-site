@@ -10412,3 +10412,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17091、officialLinkedActive 16971、manuallyVerifiedActive 16971、大阪府 localOfficial 244）
 - 到達点: 大阪府は27100大阪市から27208貝塚市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 大阪府公式棚卸し003として、27209守口市から再開
+
+
+### 大阪府公式棚卸し003（27209守口市・27210枚方市・27211茨木市・27212八尾市・27213泉佐野市）
+- 実施日: 2026-07-16
+- 候補: 381件（公式カテゴリリンクリード68件、公式リスト68件、採用URL68本）
+- 採用: 68件（守口市10件、枚方市16件、茨木市12件、八尾市17件、泉佐野市13件）
+- 公式URL: 採用URL到達確認は tasks/discovery/osaka-official-coverage-003-url-status.txt に記録（68本すべてHTTP 200）
+- 保留: トップ、カテゴリ導線、共通ナビ、通常行政案内、FAQ、外部制度のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。守口市・泉佐野市は公式カテゴリと公式サイトマップ・公式検索で補完
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17159、officialLinkedActive 17039、manuallyVerifiedActive 17039、大阪府 localOfficial 312）
+- 到達点: 大阪府は27100大阪市から27213泉佐野市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 大阪府公式棚卸し004として、27214富田林市から再開
