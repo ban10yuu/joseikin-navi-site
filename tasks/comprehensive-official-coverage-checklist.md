@@ -10929,3 +10929,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 21142、officialLinkedActive 21021、manuallyVerifiedActive 21021、山口県 localOfficial 316）
 - 到達点: 山口県は35201下関市から35321和木町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 山口県公式棚卸し004として、35341上関町から再開
+
+### 山口県公式棚卸し004（35341上関町・35343田布施町・35344平生町・35502阿武町）
+- 実施日: 2026-07-17
+- 候補: 標準discoverは0件。公式カテゴリページ、公式制度一覧ページ、公式検索結果、公式サイト内リンク、公式sitemap到達確認を補完し、公式HTML個別制度ページ・公式制度掲載ページ53本を採用
+- 採用: 53件（上関町18件、田布施町11件、平生町7件、阿武町17件）
+- 公式URL: 採用URL到達確認は tasks/discovery/yamaguchi-official-coverage-004-url-status.txt に記録（53本すべてHTTP 200）
+- 保留: 標準discoverが0件で、上関町は補助・助成・手当カテゴリ、田布施町は助成・給付金と子育て助成カテゴリ、平生町は給付・助成・貸付等カテゴリ、阿武町は暮らしの総合案内と定住奨励金ページを起点に確認。PDF単体、古い広報・報告、相談・案内のみ、外部制度のみ、本文根拠が薄い候補、同一制度の重複ページは第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 21195、officialLinkedActive 21074、manuallyVerifiedActive 21074、山口県 localOfficial 369）
+- 到達点: 山口県は35201下関市から35502阿武町まで第1巡完了。全国公式棚卸しは未完了
+- 次回: 徳島県公式棚卸し001として、36201徳島市から再開

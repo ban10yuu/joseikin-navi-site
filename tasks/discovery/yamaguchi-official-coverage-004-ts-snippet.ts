@@ -1,0 +1,822 @@
+const yamaguchiOfficial004Grants: Array<{
+  slug: string;
+  title: string;
+  organization: string;
+  maxAmount: string;
+  maxAmountNum: number;
+  category: Grant['category'];
+  relatedCategories?: Grant['relatedCategories'];
+  eligibility: string;
+  applicationPeriod: string;
+  officialUrl: string;
+  sourceName: string;
+}> = [
+  {
+    "slug": "yamaguchi-official-004-001-2026",
+    "title": "上関町 定住促進支援制度",
+    "organization": "上関町",
+    "maxAmount": "上限50万円",
+    "maxAmountNum": 500000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上関町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2023年10月1日 募集から研修及び就業までの一貫した支援体制を整備し、漁業就業者の確保とともに漁村地域の活性化を図ります",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%E5%AE%9A%E4%BD%8F%E4%BF%83%E9%80%B2%E6%94%AF%E6%8F%B4%E5%88%B6%E5%BA%A6.html",
+    "sourceName": "定住促進支援制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-002-2026",
+    "title": "上関町 上関町結婚新生活支援事業補助金",
+    "organization": "上関町",
+    "maxAmount": "1人につき50万円",
+    "maxAmountNum": 500000,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "上関町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年7月1日 提出した夫婦に対し、10万円の祝金を贈呈します",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/mig-set_support.html",
+    "sourceName": "上関町結婚新生活支援事業補助金"
+  },
+  {
+    "slug": "yamaguchi-official-004-003-2026",
+    "title": "上関町 空き家バンク制度",
+    "organization": "上関町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上関町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2025年1月30日 上関町空き家バンクトップページ | 上関町役場 --> コンテンツへ移動 ➡サイトマップ --> ➡サイトマップ 文字 の大きさ 小 中 大 背景 の色 標準 青 黒 検索: メニュー コンテンツへ移動 --> ホーム 暮らし・安心 人権 ",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%E4%B8%8A%E9%96%A2%E7%94%BA%E7%A9%BA%E3%81%8D%E5%AE%B6%E3%83%90%E3%83%B3%E3%82%AF%E3%83%88%E3%83%83%E3%83%97%E3%83%9A%E3%83%BC%E3%82%B8.html",
+    "sourceName": "空き家バンク制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-004-2026",
+    "title": "上関町 上関町移住応援事業",
+    "organization": "上関町",
+    "maxAmount": "1世帯最大150万円",
+    "maxAmountNum": 1500000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "上関町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2025年4月10日 支給する制度です",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/ijuouen.html",
+    "sourceName": "上関町移住応援事業"
+  },
+  {
+    "slug": "yamaguchi-official-004-005-2026",
+    "title": "上関町 妊婦のための支援給付金",
+    "organization": "上関町",
+    "maxAmount": "支給額:妊婦１人につき５万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "上関町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和７年４月１日 支給を合わせて一体的に実施します",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%e5%a6%8a%e5%a9%a6%e3%81%ae%e3%81%9f%e3%82%81%e3%81%ae%e6%94%af%e6%8f%b4%e7%b5%a6%e4%bb%98%e9%87%91%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6.html",
+    "sourceName": "妊婦のための支援給付金"
+  },
+  {
+    "slug": "yamaguchi-official-004-006-2026",
+    "title": "上関町 上関町英語検定料助成金交付事業",
+    "organization": "上関町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "上関町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2024年7月12日 交付事業 | 上関町役場 --> コンテンツへ移動 ➡サイトマップ --> ➡サイトマップ 文字 の大きさ 小 中 大 背景 の色 標準 青 黒 検索: メニュー コンテンツへ移動 --> ホーム 暮らし・安心 人権 手続き",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%e4%b8%8a%e9%96%a2%e7%94%ba%e8%8b%b1%e8%aa%9e%e6%a4%9c%e5%ae%9a%e6%96%99%e5%8a%a9%e6%88%90%e9%87%91%e4%ba%a4%e4%bb%98%e4%ba%8b%e6%a5%ad.html",
+    "sourceName": "上関町英語検定料助成金交付事業"
+  },
+  {
+    "slug": "yamaguchi-official-004-007-2026",
+    "title": "上関町 上関町入学祝金給付事業",
+    "organization": "上関町",
+    "maxAmount": "1人につき3万円",
+    "maxAmountNum": 30000,
+    "category": "education",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "上関町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月27日 支給しております",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%e4%b8%8a%e9%96%a2%e7%94%ba%e5%85%a5%e5%ad%a6%e7%a5%9d%e9%87%91%e7%b5%a6%e4%bb%98%e4%ba%8b%e6%a5%ad.html",
+    "sourceName": "上関町入学祝金給付事業"
+  },
+  {
+    "slug": "yamaguchi-official-004-008-2026",
+    "title": "上関町 不妊治療費助成制度",
+    "organization": "上関町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上関町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2022年3月22日 申請期限 治療を受けた日の属する年度内に申請 申請方法 ※申請方法については、下記の窓口で申請してください",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%e4%b8%8d%e5%a6%8a%e6%b2%bb%e7%99%82%e8%b2%bb%e5%8a%a9%e6%88%90%e5%88%b6%e5%ba%a6.html",
+    "sourceName": "不妊治療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-009-2026",
+    "title": "上関町 未熟児養育医療",
+    "organization": "上関町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "上関町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2022年3月22日 申請に必要な書類 養育医療給付申請書（様式第1号） 養育医療意見書（様式第2号） 世帯調書（様式第3号） 健康保険証 請求者および配偶者のマイナンバー（個人番号）が確認できる書類（個人番号カード、通知カードなど） 窓口に来ら",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%e6%9c%aa%e7%86%9f%e5%85%90%e9%a4%8a%e8%82%b2%e5%8c%bb%e7%99%82.html",
+    "sourceName": "未熟児養育医療"
+  },
+  {
+    "slug": "yamaguchi-official-004-010-2026",
+    "title": "上関町 乳幼児医療費助成制度",
+    "organization": "上関町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上関町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2022年3月22日 申請に必要なもの 印鑑 健康保険証（対象のこどもが記載されているもの） こどもの父母の所得課税証明書（転入された方） 更新手続 受給者証の有効期間は8月1日から7月31日までとなっていますので、毎年7月に更新の手続が必要です",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%e4%b9%b3%e5%b9%bc%e5%85%90%e5%8c%bb%e7%99%82%e8%b2%bb%e5%8a%a9%e6%88%90%e5%88%b6%e5%ba%a6.html",
+    "sourceName": "乳幼児医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-011-2026",
+    "title": "上関町 こどもの医療費助成制度",
+    "organization": "上関町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上関町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和5年8月1日 申請に必要なもの 健康保険証（対象のこどもが記載されているもの） こどもの父母の所得課税証明書（転入された方） 更新手続 受給者証の有効期間は8月1日から7月31日までとなっていますので、毎年7月に更新の手続が必要です",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%e3%81%93%e3%81%a9%e3%82%82%e3%81%ae%e5%8c%bb%e7%99%82%e8%b2%bb%e5%8a%a9%e6%88%90%e5%88%b6%e5%ba%a6.html",
+    "sourceName": "こどもの医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-012-2026",
+    "title": "上関町 児童手当制度",
+    "organization": "上関町",
+    "maxAmount": "月額変更後児童の年齢児童手当の額（一人あたり月額3歳未満第1子・第2子：15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上関町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "令和6年10月31日 支給対象 「中学生まで」から「高校生世代まで」に延長されます",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%e5%85%90%e7%ab%a5%e6%89%8b%e5%bd%93%e5%88%b6%e5%ba%a6.html",
+    "sourceName": "児童手当制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-013-2026",
+    "title": "上関町 ひとり親家庭医療費助成制度",
+    "organization": "上関町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "上関町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2022年3月22日 申請に必要な添付書類 印鑑 健康保険証 所得課税証明書（転入された方） 更新手続 受給者証の有効期間は8月1日から7月31日までとなっていますので、毎年7月に更新の手続が必要です",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%e3%81%b2%e3%81%a8%e3%82%8a%e8%a6%aa%e5%ae%b6%e5%ba%ad%e5%8c%bb%e7%99%82%e8%b2%bb%e5%8a%a9%e6%88%90%e5%88%b6%e5%ba%a6.html",
+    "sourceName": "ひとり親家庭医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-014-2026",
+    "title": "上関町 児童扶養手当制度",
+    "organization": "上関町",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上関町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2022年3月22日 支給される手当です",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%e5%85%90%e7%ab%a5%e6%89%b6%e9%a4%8a%e6%89%8b%e5%bd%93%e5%88%b6%e5%ba%a6.html",
+    "sourceName": "児童扶養手当制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-015-2026",
+    "title": "上関町 特別児童扶養手当制度",
+    "organization": "上関町",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上関町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2022年3月22日 支給される手当です",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%e7%89%b9%e5%88%a5%e5%85%90%e7%ab%a5%e6%89%b6%e9%a4%8a%e6%89%8b%e5%bd%93%e5%88%b6%e5%ba%a6.html",
+    "sourceName": "特別児童扶養手当制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-016-2026",
+    "title": "上関町 人材育成助成",
+    "organization": "上関町",
+    "maxAmount": "50万円を限度",
+    "maxAmountNum": 500000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "上関町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年6月27日 申請については、3年を限度とする",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%e4%ba%ba%e6%9d%90%e8%82%b2%e6%88%90%e5%8a%a9%e6%88%90.html",
+    "sourceName": "人材育成助成"
+  },
+  {
+    "slug": "yamaguchi-official-004-017-2026",
+    "title": "上関町 就学援助費",
+    "organization": "上関町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上関町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2021年5月6日 就学援助費 | 上関町役場 --> コンテンツへ移動 ➡サイトマップ --> ➡サイトマップ 文字 の大きさ 小 中 大 背景 の色 標準 青 黒 検索: メニュー コンテンツへ移動 --> ホーム 暮らし・安心 人権 手続き 税について ",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%e5%b0%b1%e5%ad%a6%e6%8f%b4%e5%8a%a9%e8%b2%bb.html",
+    "sourceName": "就学援助費"
+  },
+  {
+    "slug": "yamaguchi-official-004-018-2026",
+    "title": "上関町 高等学校生徒補助金制度",
+    "organization": "上関町",
+    "maxAmount": "1人あたり30,000円",
+    "maxAmountNum": 30000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "上関町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月28日 申請に必要な書類 ・上関町高等学校通学定期購入費助成金申請書 （docx/40KB） ・在学証明書（年度内の継続申請の場合は必要ありません） ・定期券の購入額が分かるレシート、決済画面の写し等（補助申請をする定期券がバス定期",
+    "officialUrl": "https://www.town.kaminoseki.lg.jp/%e9%ab%98%e7%ad%89%e5%ad%a6%e6%a0%a1%e7%94%9f%e5%be%92%e8%a3%9c%e5%8a%a9%e9%87%91%e5%88%b6%e5%ba%a6.html",
+    "sourceName": "高等学校生徒補助金制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-019-2026",
+    "title": "田布施町 子育て世代住宅取得支援事業",
+    "organization": "田布施町",
+    "maxAmount": "上限額（1万円",
+    "maxAmountNum": 10000,
+    "category": "childcare",
+    "relatedCategories": [
+      "housing",
+      "employment",
+      "living"
+    ],
+    "eligibility": "田布施町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年7月1日 申請・届け出でさがす カレンダーでさがす 地図でさがす 組織でさがす ライフイベント 妊娠・出産・子育て 教育 就職・退職 結婚・離婚 住まい・引越し 高齢者福祉 健康づくり おくやみ サービス・手続き ゴミ出し 相談窓口 ",
+    "officialUrl": "https://www.town.tabuse.lg.jp/site/iju/1234.html",
+    "sourceName": "子育て世代住宅取得支援事業"
+  },
+  {
+    "slug": "yamaguchi-official-004-020-2026",
+    "title": "田布施町 田布施町結婚新生活応援補助金交付事業",
+    "organization": "田布施町",
+    "maxAmount": "補助金額の上限が「30万円",
+    "maxAmountNum": 300000,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "田布施町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年2月19日 交付事業 - 田布施町役場（企画財政課） ページの先頭です",
+    "officialUrl": "https://www.town.tabuse.lg.jp/soshiki/3/1448.html",
+    "sourceName": "田布施町結婚新生活応援補助金交付事業"
+  },
+  {
+    "slug": "yamaguchi-official-004-021-2026",
+    "title": "田布施町 妊婦支援給付金",
+    "organization": "田布施町",
+    "maxAmount": "5万円を支給",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "田布施町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年3月26日 申請・届け出でさがす カレンダーでさがす 地図でさがす 組織でさがす ライフイベント 妊娠・出産・子育て 教育 就職・退職 結婚・離婚 住まい・引越し 高齢者福祉 健康づくり おくやみ サービス・手続き ゴミ出し 相談窓口 ",
+    "officialUrl": "https://www.town.tabuse.lg.jp/site/kosodate/5310.html",
+    "sourceName": "妊婦支援給付金"
+  },
+  {
+    "slug": "yamaguchi-official-004-022-2026",
+    "title": "田布施町 養育医療",
+    "organization": "田布施町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "田布施町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年3月26日 申請・届け出でさがす カレンダーでさがす 地図でさがす 組織でさがす ライフイベント 妊娠・出産・子育て 教育 就職・退職 結婚・離婚 住まい・引越し 高齢者福祉 健康づくり おくやみ サービス・手続き ゴミ出し 相談窓口 ",
+    "officialUrl": "https://www.town.tabuse.lg.jp/site/kosodate/1262.html",
+    "sourceName": "養育医療"
+  },
+  {
+    "slug": "yamaguchi-official-004-023-2026",
+    "title": "田布施町 不妊治療費助成制度",
+    "organization": "田布施町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "田布施町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年3月26日 申請・届け出でさがす カレンダーでさがす 地図でさがす 組織でさがす ライフイベント 妊娠・出産・子育て 教育 就職・退職 結婚・離婚 住まい・引越し 高齢者福祉 健康づくり おくやみ サービス・手続き ゴミ出し 相談窓口 ",
+    "officialUrl": "https://www.town.tabuse.lg.jp/site/kosodate/1263.html",
+    "sourceName": "不妊治療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-024-2026",
+    "title": "田布施町 児童手当",
+    "organization": "田布施町",
+    "maxAmount": "支給額を15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "田布施町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 申請・届け出でさがす カレンダーでさがす 地図でさがす 組織でさがす ライフイベント 妊娠・出産・子育て 教育 就職・退職 結婚・離婚 住まい・引越し 高齢者福祉 健康づくり おくやみ サービス・手続き ゴミ出し 相談窓口 ",
+    "officialUrl": "https://www.town.tabuse.lg.jp/site/kosodate/7169.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "yamaguchi-official-004-025-2026",
+    "title": "田布施町 母子父子寡婦福祉資金貸付金",
+    "organization": "田布施町",
+    "maxAmount": "公式ページ記載の貸付額・貸付条件に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "田布施町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年2月19日 申請・届け出でさがす カレンダーでさがす 地図でさがす 組織でさがす ライフイベント 妊娠・出産・子育て 教育 就職・退職 結婚・離婚 住まい・引越し 高齢者福祉 健康づくり おくやみ サービス・手続き ゴミ出し 相談窓口 ",
+    "officialUrl": "https://www.town.tabuse.lg.jp/site/kosodate/1988.html",
+    "sourceName": "母子父子寡婦福祉資金貸付金"
+  },
+  {
+    "slug": "yamaguchi-official-004-026-2026",
+    "title": "田布施町 児童扶養手当",
+    "organization": "田布施町",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "田布施町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年2月19日 申請・届け出でさがす カレンダーでさがす 地図でさがす 組織でさがす ライフイベント 妊娠・出産・子育て 教育 就職・退職 結婚・離婚 住まい・引越し 高齢者福祉 健康づくり おくやみ サービス・手続き ゴミ出し 相談窓口 ",
+    "officialUrl": "https://www.town.tabuse.lg.jp/site/kosodate/1980.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "yamaguchi-official-004-027-2026",
+    "title": "田布施町 特別児童扶養手当",
+    "organization": "田布施町",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "田布施町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年2月19日 申請・届け出でさがす カレンダーでさがす 地図でさがす 組織でさがす ライフイベント 妊娠・出産・子育て 教育 就職・退職 結婚・離婚 住まい・引越し 高齢者福祉 健康づくり おくやみ サービス・手続き ゴミ出し 相談窓口 ",
+    "officialUrl": "https://www.town.tabuse.lg.jp/site/kosodate/1979.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "yamaguchi-official-004-028-2026",
+    "title": "田布施町 ひとり親家庭医療費助成制度",
+    "organization": "田布施町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "田布施町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年2月19日 申請・届け出でさがす カレンダーでさがす 地図でさがす 組織でさがす ライフイベント 妊娠・出産・子育て 教育 就職・退職 結婚・離婚 住まい・引越し 高齢者福祉 健康づくり おくやみ サービス・手続き ゴミ出し 相談窓口 ",
+    "officialUrl": "https://www.town.tabuse.lg.jp/site/kosodate/1784.html",
+    "sourceName": "ひとり親家庭医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-029-2026",
+    "title": "田布施町 乳幼児及び子ども医療費助成制度",
+    "organization": "田布施町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "田布施町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年2月19日 申請・届け出でさがす カレンダーでさがす 地図でさがす 組織でさがす ライフイベント 妊娠・出産・子育て 教育 就職・退職 結婚・離婚 住まい・引越し 高齢者福祉 健康づくり おくやみ サービス・手続き ゴミ出し 相談窓口 ",
+    "officialUrl": "https://www.town.tabuse.lg.jp/site/kosodate/1132.html",
+    "sourceName": "乳幼児及び子ども医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-030-2026",
+    "title": "平生町 ひとり親家庭の医療費助成",
+    "organization": "平生町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "平生町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年03月29日 申請方法 町民福祉課窓口で申請してください",
+    "officialUrl": "https://www.town.hirao.lg.jp/soshiki/chomin/kodomo/assist/1454053466341.html",
+    "sourceName": "ひとり親家庭の医療費助成"
+  },
+  {
+    "slug": "yamaguchi-official-004-031-2026",
+    "title": "平生町 乳幼児の医療費助成",
+    "organization": "平生町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "平生町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年11月14日 申請手続きをしてください",
+    "officialUrl": "https://www.town.hirao.lg.jp/soshiki/chomin/kodomo/assist/1454054308062.html",
+    "sourceName": "乳幼児の医療費助成"
+  },
+  {
+    "slug": "yamaguchi-official-004-032-2026",
+    "title": "平生町 こどもの医療費助成",
+    "organization": "平生町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "平生町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年03月29日 申請手続きが必要になります",
+    "officialUrl": "https://www.town.hirao.lg.jp/soshiki/chomin/kodomo/assist/1498191976996.html",
+    "sourceName": "こどもの医療費助成"
+  },
+  {
+    "slug": "yamaguchi-official-004-033-2026",
+    "title": "平生町 母子寡婦福祉資金貸付金",
+    "organization": "平生町",
+    "maxAmount": "公式ページ記載の貸付額・貸付条件に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "平生町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2024年04月02日 申請、相談窓口は、柳井健康福祉センター（柳井市南町3丁目9‐3 電話:0820‐22‐3777）です",
+    "officialUrl": "https://www.town.hirao.lg.jp/soshiki/chomin/kodomo/assist/1454053466081.html",
+    "sourceName": "母子寡婦福祉資金貸付金"
+  },
+  {
+    "slug": "yamaguchi-official-004-034-2026",
+    "title": "平生町 幼児教育・保育の無償化",
+    "organization": "平生町",
+    "maxAmount": "月額25,700円",
+    "maxAmountNum": 25700,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "平生町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2024年03月29日 交付された施設となります",
+    "officialUrl": "https://www.town.hirao.lg.jp/soshiki/chomin/kodomo/hoiku/1566455204779.html",
+    "sourceName": "幼児教育・保育の無償化"
+  },
+  {
+    "slug": "yamaguchi-official-004-035-2026",
+    "title": "平生町 児童手当等",
+    "organization": "平生町",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "平生町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "児童手当等／平生町ホームページ スマートフォン版を表示 本文へ 文字サイズ 背景色変更 Foreign Languages English 繁體中文 &#31616;体中文 &#54620;&#44397;&#50612; Go くらし・手",
+    "officialUrl": "https://www.town.hirao.lg.jp/kosodate/kosodate/3230.html",
+    "sourceName": "児童手当等"
+  },
+  {
+    "slug": "yamaguchi-official-004-036-2026",
+    "title": "平生町 児童扶養手当・特別児童扶養手当",
+    "organization": "平生町",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "平生町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2024年04月19日 支給される手当です",
+    "officialUrl": "https://www.town.hirao.lg.jp/soshiki/chomin/kodomo/teate/1454053466639.html",
+    "sourceName": "児童扶養手当・特別児童扶養手当"
+  },
+  {
+    "slug": "yamaguchi-official-004-037-2026",
+    "title": "阿武町 児童手当",
+    "organization": "阿武町",
+    "maxAmount": "支給額】児童の年齢児童手当の額（１人当たり月額）３歳未満１５，０００円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "阿武町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "支給することにより、家庭における生活の安定と、次代の社会をになう児童の健全な育成および資質の向上をはかるための制度です",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/zidouteate/",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "yamaguchi-official-004-038-2026",
+    "title": "阿武町 児童扶養手当の支給",
+    "organization": "阿武町",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "阿武町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "支給｜山口県阿武町役場 お使いのブラウザはバージョンが古いため、サイトを快適にご利用いただけないかもしれません",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/zidouhuyouteatenosikyuu/",
+    "sourceName": "児童扶養手当の支給"
+  },
+  {
+    "slug": "yamaguchi-official-004-039-2026",
+    "title": "阿武町 特別児童扶養手当の支給",
+    "organization": "阿武町",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "阿武町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "支給について｜山口県阿武町役場 お使いのブラウザはバージョンが古いため、サイトを快適にご利用いただけないかもしれません",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/zidouhuyouteatenosikyuunituite/",
+    "sourceName": "特別児童扶養手当の支給"
+  },
+  {
+    "slug": "yamaguchi-official-004-040-2026",
+    "title": "阿武町 子育て短期支援事業",
+    "organization": "阿武町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "阿武町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "受付しています",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/%E5%AD%90%E8%82%B2%E3%81%A6%E7%9F%AD%E6%9C%9F%E6%94%AF%E6%8F%B4%E4%BA%8B%E6%A5%AD%EF%BC%88%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%82%B9%E3%83%86%E3%82%A4%EF%BC%89/",
+    "sourceName": "子育て短期支援事業"
+  },
+  {
+    "slug": "yamaguchi-official-004-041-2026",
+    "title": "阿武町 乳幼児医療費助成制度",
+    "organization": "阿武町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "阿武町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "申請】 小学校就学前（満６歳に到達した年度末まで）の児童の医療に要する経費のうち、医療保険自己負担額を助成する制度です",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/nyuyouziiryouhizyoseiseido/",
+    "sourceName": "乳幼児医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-042-2026",
+    "title": "阿武町 阿武町こども医療費助成制度",
+    "organization": "阿武町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "阿武町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "申請】 町内に居住する０歳から高校３年生まで（１８歳到達後の最初の３月３１日まで）のこどもの医療に要する経費のうち、医療保険自己負担額を助成する制度です",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/abutyoukodomoiryouhizyoseiseido/",
+    "sourceName": "阿武町こども医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-043-2026",
+    "title": "阿武町 ひとり親家庭医療費助成制度",
+    "organization": "阿武町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "阿武町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "申請】 １８歳に到達した年度末までの児童を養育するひとり親家庭の母又は父、養育者及び当該児童の医療に要する経費のうち、医療保険自己負担額を助成する制度です",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/hitorioyakateiiryouzyoseiseido/",
+    "sourceName": "ひとり親家庭医療費助成制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-044-2026",
+    "title": "阿武町 不妊治療費助成",
+    "organization": "阿武町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "阿武町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "申請書(PDF①) &lt;PDF&gt; URL： 不妊治療（人工授精）助成 申請手続き &#8211; 山口県ホームページ (yamaguchi.lg.jp) URL： しあわせ運ぶ妊活応援事業を開始します &#8211",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/%E4%B8%8D%E5%A6%8A%E6%B2%BB%E7%99%82%E8%B2%BB%E5%8A%A9%E6%88%90/",
+    "sourceName": "不妊治療費助成"
+  },
+  {
+    "slug": "yamaguchi-official-004-045-2026",
+    "title": "阿武町 就学援助制度",
+    "organization": "阿武町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "阿武町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "申請等、お問合せ先】 就学されている町立小中学校 阿武小学校 電話 08388-2-2031 福賀小学校 電話 08388-5-0014 阿武中学校 電話 08388-2-2032 まちで暮らす 町内のみなさまへ --> 出",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/shugakuenzyoseido/",
+    "sourceName": "就学援助制度"
+  },
+  {
+    "slug": "yamaguchi-official-004-046-2026",
+    "title": "阿武町 未来を担う人材育成習い事補助金",
+    "organization": "阿武町",
+    "maxAmount": "月額1,000円",
+    "maxAmountNum": 1000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "阿武町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "申請方法 下記の必要書類を役場まちづくり推進課まで提出してください",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/naraigotohojokin/",
+    "sourceName": "未来を担う人材育成習い事補助金"
+  },
+  {
+    "slug": "yamaguchi-official-004-047-2026",
+    "title": "阿武町 各種定住奨励金",
+    "organization": "阿武町",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "阿武町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "令和５年４月１日 交付制度を実施していますのでご利用ください",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/teizyushoureikin/",
+    "sourceName": "各種定住奨励金"
+  },
+  {
+    "slug": "yamaguchi-official-004-048-2026",
+    "title": "阿武町 民間住宅リフォーム資金助成事業",
+    "organization": "阿武町",
+    "maxAmount": "補助金額補助対象工事に要する経費（消費税を除く）の10分の1に相当する金額・1,000円",
+    "maxAmountNum": 1000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "阿武町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "申請者が阿武町の住民で、現に居住し、所有している住宅のリフォーム ・老朽化や模様替え、災害等による修繕、補修のための工事 ・阿武町内に主たる営業所を有し、町税の滞納がない施工業者が施工するもの ・10万円以上（消費税を除く）",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/jyutakureform/",
+    "sourceName": "民間住宅リフォーム資金助成事業"
+  },
+  {
+    "slug": "yamaguchi-official-004-049-2026",
+    "title": "阿武町 老朽危険空き家除却促進事業補助金",
+    "organization": "阿武町",
+    "maxAmount": "上限額を乗じた額のいずれか少ない額に１０分の８を乗じた額補助金の額・不良度１００点以上上限額１００万円",
+    "maxAmountNum": 1000000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "阿武町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請前に除却工事に着手していないもの ・実績報告書の提出期限（当該年度の２月末日）までに除却が完了するもの ・他の補助金等の交付を受けていない、または予定がないこと ・公共事業等による移転、建替え等の補助の対象となっていない",
+    "officialUrl": "https://www.town.abu.lg.jp/17082/",
+    "sourceName": "老朽危険空き家除却促進事業補助金"
+  },
+  {
+    "slug": "yamaguchi-official-004-050-2026",
+    "title": "阿武町 チャイルドシート購入費補助金",
+    "organization": "阿武町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "阿武町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "交付申請書に必要事項を記入し、領収書または領収書にかわる販売証明書を添付して、役場総務課または各支所に提出する",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/chaildseat/",
+    "sourceName": "チャイルドシート購入費補助金"
+  },
+  {
+    "slug": "yamaguchi-official-004-051-2026",
+    "title": "阿武町 福祉バス・タクシー助成事業",
+    "organization": "阿武町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "阿武町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "受付しています",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/fukusitakusi-jyoseijigyou/",
+    "sourceName": "福祉バス・タクシー助成事業"
+  },
+  {
+    "slug": "yamaguchi-official-004-052-2026",
+    "title": "阿武町 重度障害者医療費の助成",
+    "organization": "阿武町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "阿武町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "申請】 身体障害者手帳１～３級、療育手帳Ａ又は精神障害者保健福祉手帳１級をお持ちの方もしくは障害年金１級を受給されている方の医療に要する経費のうち、医療保険自己負担額を助成する制度です",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/jyuudosyougaisyairyouhinojyosei/",
+    "sourceName": "重度障害者医療費の助成"
+  },
+  {
+    "slug": "yamaguchi-official-004-053-2026",
+    "title": "阿武町 起業化支援補助金",
+    "organization": "阿武町",
+    "maxAmount": "最大６０万円",
+    "maxAmountNum": 600000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "阿武町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "交付事業｜山口県阿武町役場 お使いのブラウザはバージョンが古いため、サイトを快適にご利用いただけないかもしれません",
+    "officialUrl": "https://www.town.abu.lg.jp/guide/%E9%98%BF%E6%AD%A6%E7%94%BA%E8%B5%B7%E6%A5%AD%E5%8C%96%E6%94%AF%E6%8F%B4%E8%A3%9C%E5%8A%A9%E9%87%91%E4%BA%A4%E4%BB%98%E4%BA%8B%E6%A5%AD/",
+    "sourceName": "起業化支援補助金"
+  }
+];
