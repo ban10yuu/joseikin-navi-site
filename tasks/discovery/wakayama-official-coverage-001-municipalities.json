@@ -1,0 +1,36 @@
+{
+  "batchId": "wakayama-official-coverage-001",
+  "prefecture": "和歌山県",
+  "municipalities": [
+    {
+      "code": "30201",
+      "name": "和歌山市",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.city.wakayama.wakayama.jp/"
+    },
+    {
+      "code": "30202",
+      "name": "海南市",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.city.kainan.lg.jp/"
+    },
+    {
+      "code": "30203",
+      "name": "橋本市",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.city.hashimoto.lg.jp/"
+    },
+    {
+      "code": "30204",
+      "name": "有田市",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.city.arida.lg.jp/"
+    },
+    {
+      "code": "30205",
+      "name": "御坊市",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.city.gobo.lg.jp/"
+    }
+  ]
+}

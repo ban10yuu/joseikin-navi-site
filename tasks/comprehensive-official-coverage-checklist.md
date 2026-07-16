@@ -10646,3 +10646,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18791、officialLinkedActive 18670、manuallyVerifiedActive 18670、奈良県 localOfficial 567）
 - 到達点: 奈良県は29201奈良市から29453東吉野村まで第1巡完了。全国公式棚卸しは未完了
 - 次回: 和歌山県公式棚卸し001として、30201和歌山市から再開
+
+### 和歌山県公式棚卸し001（30201和歌山市・30202海南市・30203橋本市・30204有田市・30205御坊市）
+- 実施日: 2026-07-16
+- 候補: 566件（公式サイト内リンクリード5071件、本文再スコア採択候補399件、採用URL62本）
+- 採用: 62件（和歌山市22件、海南市3件、橋本市3件、有田市24件、御坊市10件）
+- 公式URL: 採用URL到達確認は tasks/discovery/wakayama-official-coverage-001-url-status.txt に記録（62本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、採用情報、Q&A、取扱店向け、活用事例、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。海南市・橋本市は個別制度ページとして確認できるものを採用し、カテゴリ一覧は採用から除外
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18853、officialLinkedActive 18732、manuallyVerifiedActive 18732、和歌山県 localOfficial 91）
+- 到達点: 和歌山県は30201和歌山市から30205御坊市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 和歌山県公式棚卸し002として、30206田辺市から再開

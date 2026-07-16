@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-16T22:00:00+09:00",
+  "updatedAt": "2026-07-16T22:22:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nara-official-coverage-008",
-    "municipality": "十津川村・下北山村・上北山村・川上村・東吉野村",
-    "adopted": 84,
+    "code": "wakayama-official-coverage-001",
+    "municipality": "和歌山市・海南市・橋本市・有田市・御坊市",
+    "adopted": 62,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 84,
+    "sourceUrlsChecked": 62,
     "validation": {
-      "previousMunicipality": "奈良県公式棚卸し008として29449十津川村・29450下北山村・29451上北山村・29452川上村・29453東吉野村を確認し84件を採用。奈良県は第1巡完了。全国公式棚卸しは未完了。",
+      "previousMunicipality": "和歌山県公式棚卸し001として30201和歌山市・30202海南市・30203橋本市・30204有田市・30205御坊市を確認し62件を採用。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for nara-official-coverage-008 JSON files",
-      "addedSlugUniqueness": "pass: 84 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 84 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for wakayama-official-coverage-001 JSON files",
+      "addedSlugUniqueness": "pass: 62 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 62 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 18791、officialLinkedActive 18670、manuallyVerifiedActive 18670、奈良県 localOfficial 567)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 18853、officialLinkedActive 18732、manuallyVerifiedActive 18732、和歌山県 localOfficial 91)"
     }
   },
   "next": {
-    "code": "wakayama-official-coverage-001",
-    "municipality": "和歌山市",
-    "shortlist": "奈良県008は十津川村15件、下北山村18件、上北山村15件、川上村18件、東吉野村18件を採用した。通常候補1542件に加え公式サイト内リンクリード3786件を本文再スコアし、トップ、カテゴリ導線、共通ナビ、広報、職員募集、観光・寄附、受付終了のみ、本文根拠が薄い候補を除いて84件へ絞った。東吉野村は公式URLを no-www の https://vill.higashiyoshino.nara.jp/ として確認した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、和歌山県公式棚卸し001として30201和歌山市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "wakayama-official-coverage-002",
+    "municipality": "田辺市",
+    "shortlist": "和歌山県001は和歌山市22件、海南市3件、橋本市3件、有田市24件、御坊市10件を採用した。通常候補566件に加え公式サイト内リンクリード5071件を本文再スコアし、個別制度ページを優先して62件へ絞った。海南市・橋本市はカテゴリ導線や採用情報、Q&A、受付終了のみの候補を採用せず第2巡候補として保持。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、和歌山県公式棚卸し002として30206田辺市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "奈良県",
-    "status": "first-pass-complete",
-    "lastBatch": "nara-official-coverage-008",
-    "notes": "奈良県公式棚卸し008で29449十津川村・29450下北山村・29451上北山村・29452川上村・29453東吉野村を確認し、84件を新規採用した。奈良県は29201奈良市から29453東吉野村まで第1巡完了。次は和歌山県30201和歌山市から再開する。"
+    "prefecture": "和歌山県",
+    "status": "in-progress-first-pass",
+    "lastBatch": "wakayama-official-coverage-001",
+    "notes": "和歌山県公式棚卸し001で30201和歌山市・30202海南市・30203橋本市・30204有田市・30205御坊市を確認し、62件を新規採用した。和歌山県は30201和歌山市から30205御坊市まで第1巡到達。次は30206田辺市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
