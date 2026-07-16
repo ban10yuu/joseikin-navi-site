@@ -10716,3 +10716,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19382、officialLinkedActive 19261、manuallyVerifiedActive 19261、鳥取県 localOfficial 174）
 - 到達点: 鳥取県は31201鳥取市から31302岩美町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 鳥取県公式棚卸し002として、31325若桜町から再開
+
+### 鳥取県公式棚卸し002（31325若桜町・31328智頭町・31329八頭町・31364三朝町・31370湯梨浜町）
+- 実施日: 2026-07-17
+- 候補: 513件（公式サイト内リンクリード485件、本文再スコア後に個別公式ページ99本を採用）
+- 採用: 99件（若桜町2件、智頭町7件、八頭町26件、三朝町34件、湯梨浜町30件）
+- 公式URL: 採用URL到達確認は tasks/discovery/tottori-official-coverage-002-url-status.txt に記録（99本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、PDF単体、申請書単体、受付終了のみ、職員募集、観光・寄附、本文根拠が薄い候補は第2巡候補として保持。若桜町・智頭町は個別制度ページが少ないため、公式の制度掲載ページ単位も確認して採用
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19481、officialLinkedActive 19360、manuallyVerifiedActive 19360、鳥取県 localOfficial 273）
+- 到達点: 鳥取県は31201鳥取市から31370湯梨浜町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 鳥取県公式棚卸し003として、31371琴浦町から再開

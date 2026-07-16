@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-17T00:57:00+09:00",
+  "updatedAt": "2026-07-17T01:23:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "tottori-official-coverage-001",
-    "municipality": "鳥取市・米子市・倉吉市・境港市・岩美町",
-    "adopted": 96,
+    "code": "tottori-official-coverage-002",
+    "municipality": "若桜町・智頭町・八頭町・三朝町・湯梨浜町",
+    "adopted": 99,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 96,
+    "sourceUrlsChecked": 99,
     "validation": {
-      "previousMunicipality": "鳥取県公式棚卸し001として31201鳥取市・31202米子市・31203倉吉市・31204境港市・31302岩美町を確認し96件を採用。鳥取県は31201鳥取市から31302岩美町まで第1巡到達。全国公式棚卸しは未完了。",
+      "previousMunicipality": "鳥取県公式棚卸し002として31325若桜町・31328智頭町・31329八頭町・31364三朝町・31370湯梨浜町を確認し99件を採用。鳥取県は31201鳥取市から31370湯梨浜町まで第1巡到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for tottori-official-coverage-001 JSON files",
-      "addedSlugUniqueness": "pass: 96 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 96 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for tottori-official-coverage-002 JSON files",
+      "addedSlugUniqueness": "pass: 99 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 99 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 19382、officialLinkedActive 19261、manuallyVerifiedActive 19261、鳥取県 localOfficial 174)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 19481、officialLinkedActive 19360、manuallyVerifiedActive 19360、鳥取県 localOfficial 273)"
     }
   },
   "next": {
-    "code": "tottori-official-coverage-002",
-    "municipality": "若桜町",
-    "shortlist": "鳥取県001は鳥取市20件、米子市18件、倉吉市20件、境港市20件、岩美町18件を採用した。通常候補2163件に加え公式サイト内リンクリード18081件を展開し、本文再スコア候補175件からPDF単体・カテゴリ導線・共通ナビ・重複クエリURLを除いて公式HTML個別制度ページ中心に96本へ絞った。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、鳥取県公式棚卸し002として31325若桜町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "tottori-official-coverage-003",
+    "municipality": "琴浦町",
+    "shortlist": "鳥取県002は若桜町2件、智頭町7件、八頭町26件、三朝町34件、湯梨浜町30件を採用した。通常候補513件に加え公式サイト内リンクリード485件を展開し、本文再スコア候補344件からカテゴリ導線・共通ナビ・PDF単体・受付終了のみを除いて公式HTML個別制度ページ中心に99本へ絞った。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、鳥取県公式棚卸し003として31371琴浦町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "鳥取県",
     "status": "in-progress-first-pass",
-    "lastBatch": "tottori-official-coverage-001",
-    "notes": "鳥取県公式棚卸し001で31201鳥取市・31202米子市・31203倉吉市・31204境港市・31302岩美町を確認し、96件を新規採用。次は31325若桜町から再開する。"
+    "lastBatch": "tottori-official-coverage-002",
+    "notes": "鳥取県公式棚卸し001で31201鳥取市から31302岩美町、002で31325若桜町・31328智頭町・31329八頭町・31364三朝町・31370湯梨浜町を確認し、累計195件を新規採用。次は31371琴浦町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

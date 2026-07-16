@@ -1,0 +1,4279 @@
+{
+  "batchId": "tottori-official-coverage-002-31329",
+  "prefecture": "鳥取県",
+  "generatedAt": "2026-07-16T16:08:08.848Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 156,
+  "results": [
+    {
+      "code": "31329",
+      "name": "八頭町",
+      "prefecture": "鳥取県",
+      "officialBaseUrl": "https://www.town.yazu.tottori.jp/",
+      "discoveredUrlCount": 180,
+      "candidateCount": 156,
+      "strongCandidateCount": 3,
+      "lowPriorityCandidateCount": 153,
+      "candidates": [
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/robots.txt",
+          "status": 404,
+          "title": "お探しのページを見つけることができませんでした。",
+          "h1": "お探しのページを見つけることができませんでした。",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/guide/2470.html",
+          "status": 200,
+          "title": "Translation service （翻訳サービス）",
+          "h1": "Translation service （翻訳サービス）",
+          "updatedAt": "2023年3月13日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/1/1/",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "子育て",
+            "耐震",
+            "不妊"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/2/2/",
+          "status": 200,
+          "title": "健康・福祉",
+          "h1": "健康・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/3/3/",
+          "status": 200,
+          "title": "子育て・まなび",
+          "h1": "子育て・まなび",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/4/4/",
+          "status": 200,
+          "title": "しごと・産業",
+          "h1": "しごと・産業",
+          "updatedAt": "",
+          "keywordHits": [
+            "貸付",
+            "住宅",
+            "空き家",
+            "事業者",
+            "林業",
+            "福祉",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/6/6/",
+          "status": 200,
+          "title": "町政情報",
+          "h1": "町政情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/7/7/",
+          "status": 200,
+          "title": "移住",
+          "h1": "移住",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://yazupoppo.com/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/voice/",
+          "status": 200,
+          "title": "町政へのご意見を募集しています",
+          "h1": "町政へのご意見を募集しています",
+          "updatedAt": "2023年12月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/",
+          "status": 200,
+          "title": "組織でさがす",
+          "h1": "組織でさがす",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/calendar/",
+          "status": 200,
+          "title": "カレンダーでさがす",
+          "h1": "カレンダーでさがす",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/map/",
+          "status": 200,
+          "title": "地図でさがす",
+          "h1": "地図でさがす",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/sub/1/",
+          "status": 200,
+          "title": "よくある質問",
+          "h1": "よくある質問",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/4/4/26/",
+          "status": 200,
+          "title": "就職・退職",
+          "h1": "就職・退職",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "子育て",
+            "奨学金"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/lifestage/list25-110.html",
+          "status": 200,
+          "title": "結婚・離婚",
+          "h1": "結婚・離婚",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "移住",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/lifestage/list25-111.html",
+          "status": 200,
+          "title": "引越・住宅",
+          "h1": "引越・住宅",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "移住",
+            "住宅",
+            "空き家",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/2/2/13/",
+          "status": 200,
+          "title": "健康・医療",
+          "h1": "健康・医療",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/lifestage/list25-113.html",
+          "status": 200,
+          "title": "高齢者",
+          "h1": "高齢者",
+          "updatedAt": "令和5年3月31日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/lifestage/list25-114.html",
+          "status": 200,
+          "title": "おくやみ",
+          "h1": "おくやみ",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/",
+          "status": 200,
+          "title": "申請書ダウンロードページの概要",
+          "h1": "申請書ダウンロードページの概要",
+          "updatedAt": "2023年1月24日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/gomi/1047.html",
+          "status": 200,
+          "title": "令和8年度家庭ごみ収集カレンダー",
+          "h1": "令和8年度家庭ごみ収集カレンダー",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/1/1500.html",
+          "status": 200,
+          "title": "ケーブルテレビのご案内",
+          "h1": "ケーブルテレビのご案内",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/18/6597.html",
+          "status": 200,
+          "title": "「おいでやず周遊シールラリー」を開催します",
+          "h1": "「おいでやず周遊シールラリー」を開催します",
+          "updatedAt": "2026年7月16日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/18/6289.html",
+          "status": 200,
+          "title": "実践型経営塾「隼アカデミー」の受講生を募集します",
+          "h1": "実践型経営塾「隼アカデミー」の受講生を募集します",
+          "updatedAt": "2026年7月15日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "起業",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/11/17468.html",
+          "status": 200,
+          "title": "一次産業従事者向け出会いイベント参加者を募集します",
+          "h1": "一次産業従事者向け出会いイベント参加者を募集します",
+          "updatedAt": "2026年6月30日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "林業",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/list6-1.html",
+          "status": 200,
+          "title": "トピックス",
+          "h1": "トピックス",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/28/9825.html",
+          "status": 200,
+          "title": "第18回森下広一杯八頭町マラソン大会の参加者を募集します",
+          "h1": "第18回森下広一杯八頭町マラソン大会の参加者を募集します",
+          "updatedAt": "2026年7月16日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/25/17257.html",
+          "status": 200,
+          "title": "人権問題講座（テーマ：災害と人権）を開催します",
+          "h1": "人権問題講座（テーマ：災害と人権）を開催します",
+          "updatedAt": "2026年7月15日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/lifestage/7444.html",
+          "status": 200,
+          "title": "【新着物件】空き家バンクの情報を更新しました",
+          "h1": "【新着物件】空き家バンクの情報を更新しました",
+          "updatedAt": "2026年7月15日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/list1-1.html",
+          "status": 200,
+          "title": "新着更新情報",
+          "h1": "新着更新情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/list5-1.html",
+          "status": 200,
+          "title": "イベント・募集",
+          "h1": "イベント・募集",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/18/5745.html",
+          "status": 200,
+          "title": "八東ふる里の森まつりを開催します",
+          "h1": "八東ふる里の森まつりを開催します",
+          "updatedAt": "2026年6月24日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/1/2375.html",
+          "status": 200,
+          "title": "「Yazu Time 町民時計」に掲載する写真を募集しています",
+          "h1": "「Yazu Time 町民時計」に掲載する写真を募集しています",
+          "updatedAt": "2024年1月4日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/11/1278.html",
+          "status": 200,
+          "title": "ふるさと納税とは",
+          "h1": "ふるさと納税とは",
+          "updatedAt": "2024年11月28日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/mayor/",
+          "status": 200,
+          "title": "ようこそ！町長室へ",
+          "h1": "ようこそ！町長室へ",
+          "updatedAt": "2026年5月18日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/gikai/",
+          "status": 200,
+          "title": "八頭町議会",
+          "h1": "八頭町議会",
+          "updatedAt": "2023年3月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/koho-yazu/",
+          "status": 200,
+          "title": "広報誌「広報やず」を発行しています",
+          "h1": "広報誌「広報やず」を発行しています",
+          "updatedAt": "2023年2月27日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/map/",
+          "status": 200,
+          "title": "地図でさがす",
+          "h1": "地図でさがす",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/sub/2/",
+          "status": 200,
+          "title": "相談",
+          "h1": "相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/",
+          "status": 200,
+          "title": "組織でさがす",
+          "h1": "組織でさがす",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/public-comment/",
+          "status": 200,
+          "title": "町民意見公募手続とは",
+          "h1": "町民意見公募手続とは",
+          "updatedAt": "2023年1月24日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/3/1004.html",
+          "status": 200,
+          "title": "まちの概要",
+          "h1": "まちの概要",
+          "updatedAt": "2026年5月2日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/",
+          "status": 200,
+          "title": "申請書ダウンロードページの概要",
+          "h1": "申請書ダウンロードページの概要",
+          "updatedAt": "2023年1月24日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/voice/",
+          "status": 200,
+          "title": "町政へのご意見を募集しています",
+          "h1": "町政へのご意見を募集しています",
+          "updatedAt": "2023年12月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/10/1405.html",
+          "status": 200,
+          "title": "八東川水辺プラザ河川公園",
+          "h1": "八東川水辺プラザ河川公園",
+          "updatedAt": "2026年6月12日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/kigyo-furusato/",
+          "status": 200,
+          "title": "企業版ふるさと納税を募集しています",
+          "h1": "企業版ふるさと納税を募集しています",
+          "updatedAt": "2023年4月25日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/1252.html",
+          "status": 200,
+          "title": "ホームページバナー広告を募集しています",
+          "h1": "ホームページバナー広告を募集しています",
+          "updatedAt": "2025年6月18日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/1252.html",
+          "status": 200,
+          "title": "ホームページバナー広告を募集しています",
+          "h1": "ホームページバナー広告を募集しています",
+          "updatedAt": "2025年6月18日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/1252.html",
+          "status": 200,
+          "title": "ホームページバナー広告を募集しています",
+          "h1": "ホームページバナー広告を募集しています",
+          "updatedAt": "2025年6月18日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/1252.html",
+          "status": 200,
+          "title": "ホームページバナー広告を募集しています",
+          "h1": "ホームページバナー広告を募集しています",
+          "updatedAt": "2025年6月18日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/guide/",
+          "status": 200,
+          "title": "トップページのご紹介",
+          "h1": "トップページのご紹介",
+          "updatedAt": "2023年3月14日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "農業",
+            "林業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/guide/2467.html",
+          "status": 200,
+          "title": "アクセシビリティ",
+          "h1": "アクセシビリティ",
+          "updatedAt": "2023年3月14日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/guide/2469.html",
+          "status": 200,
+          "title": "個人情報の取り扱いについて",
+          "h1": "個人情報の取り扱いについて",
+          "updatedAt": "2023年3月13日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/guide/2472.html",
+          "status": 200,
+          "title": "リンク・著作権・免責事項",
+          "h1": "リンク・著作権・免責事項",
+          "updatedAt": "2023年3月13日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/guide/6067.html",
+          "status": 200,
+          "title": "ホームページの情報の探し方・検索の使い方",
+          "h1": "ホームページの情報の探し方・検索の使い方",
+          "updatedAt": "2023年7月19日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "林業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/guide/6634.html",
+          "status": 200,
+          "title": "過去のホームページの閲覧方法",
+          "h1": "過去のホームページの閲覧方法",
+          "updatedAt": "2023年9月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/",
+          "status": 200,
+          "title": "分類でさがす",
+          "h1": "分類でさがす",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "林業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/1/4477.html",
+          "status": 200,
+          "title": "八頭町ケーブルテレビ「やずチャンネル」のお知らせ（7月11日～7月17日）",
+          "h1": "八頭町ケーブルテレビ「やずチャンネル」のお知らせ（7月11日～7月17日）",
+          "updatedAt": "2026年7月11日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/4/4627.html",
+          "status": 200,
+          "title": "弁護士によるなんでも相談を開催します",
+          "h1": "弁護士によるなんでも相談を開催します",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/12/13155.html",
+          "status": 200,
+          "title": "若桜鉄道隼駅の駅名板が期間限定デザインに変わります",
+          "h1": "若桜鉄道隼駅の駅名板が期間限定デザインに変わります",
+          "updatedAt": "2026年6月24日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/7/12634.html",
+          "status": 200,
+          "title": "窓口業務時間の延長は終了しました",
+          "h1": "窓口業務時間の延長は終了しました",
+          "updatedAt": "2026年6月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/1/1/index-2.html",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "子育て",
+            "耐震",
+            "不妊",
+            "通学"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/1/1/1/",
+          "status": 200,
+          "title": "住民票・戸籍・証明",
+          "h1": "住民票・戸籍・証明",
+          "updatedAt": "令和6年3月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/lifestage/16264.html",
+          "status": 200,
+          "title": "離婚届書の様式改正について（令和8年4月1日施行）",
+          "h1": "離婚届書の様式改正について（令和8年4月1日施行）",
+          "updatedAt": "2026年3月31日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/7/1426.html",
+          "status": 200,
+          "title": "地籍調査に基づく土地情報データ交付",
+          "h1": "地籍調査に基づく土地情報データ交付",
+          "updatedAt": "2025年11月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/8/12806.html",
+          "status": 200,
+          "title": "戸籍に氏名のフリガナ（振り仮名）が記載されます",
+          "h1": "戸籍に氏名のフリガナ（振り仮名）が記載されます",
+          "updatedAt": "2025年5月29日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/8/1425.html",
+          "status": 200,
+          "title": "窓口で各種証明書を請求される場合の取り扱いについて",
+          "h1": "窓口で各種証明書を請求される場合の取り扱いについて",
+          "updatedAt": "2024年6月26日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/1/1/2/",
+          "status": 200,
+          "title": "税金",
+          "h1": "税金",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "免除",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/7/1440.html",
+          "status": 200,
+          "title": "税金について",
+          "h1": "税金について",
+          "updatedAt": "2025年12月13日",
+          "keywordHits": [
+            "減免",
+            "免除",
+            "住宅",
+            "空き家",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/7/1443.html",
+          "status": 200,
+          "title": "国民健康保険税・介護保険料・後期高齢者保険料",
+          "h1": "国民健康保険税・介護保険料・後期高齢者保険料",
+          "updatedAt": "2021年4月13日",
+          "keywordHits": [
+            "減免",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/akiya/17004.html",
+          "status": 200,
+          "title": "固定資産税納税通知書に空き家啓発チラシを同封しています",
+          "h1": "固定資産税納税通知書に空き家啓発チラシを同封しています",
+          "updatedAt": "2026年5月15日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/7/17420.html",
+          "status": 200,
+          "title": "令和8年度介護保険料の特例措置について",
+          "h1": "令和8年度介護保険料の特例措置について",
+          "updatedAt": "2026年5月1日",
+          "keywordHits": [
+            "減免",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/1/1/3/",
+          "status": 200,
+          "title": "保険・年金",
+          "h1": "保険・年金",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/7/1159.html",
+          "status": 200,
+          "title": "税金等の徴収・収納業務を委託しています",
+          "h1": "税金等の徴収・収納業務を委託しています",
+          "updatedAt": "2025年11月20日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/dx/9186.html",
+          "status": 200,
+          "title": "国・地方共通相談チャットボット「Govbot(ガボット)」をご活用ください",
+          "h1": "国・地方共通相談チャットボット「Govbot(ガボット)」をご活用ください",
+          "updatedAt": "2024年5月15日",
+          "keywordHits": [
+            "給付金",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/7/6901.html",
+          "status": 200,
+          "title": "町税等の「Web口座振替受付サービス」について",
+          "h1": "町税等の「Web口座振替受付サービス」について",
+          "updatedAt": "2023年11月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/3012.html",
+          "status": 200,
+          "title": "八頭町国保資格取得・喪失届のオンライン化を開始しました",
+          "h1": "八頭町国保資格取得・喪失届のオンライン化を開始しました",
+          "updatedAt": "2023年3月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/1/1/4/",
+          "status": 200,
+          "title": "ごみ・環境・ペット",
+          "h1": "ごみ・環境・ペット",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "農業",
+            "子育て",
+            "不妊"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/gomi/",
+          "status": 200,
+          "title": "ごみとリサイクルのお知らせ",
+          "h1": "ごみとリサイクルのお知らせ",
+          "updatedAt": "2023年5月24日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/gomi/6156.html",
+          "status": 200,
+          "title": "ごみ分別アプリを配信しています",
+          "h1": "ごみ分別アプリを配信しています",
+          "updatedAt": "2026年6月24日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/gomi/17198.html",
+          "status": 200,
+          "title": "ごみ収集車の火災が発生しました！～ごみ分別の徹底をお願いします～",
+          "h1": "ごみ収集車の火災が発生しました！～ごみ分別の徹底をお願いします～",
+          "updatedAt": "2026年5月25日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/gomi/6598.html",
+          "status": 200,
+          "title": "小型充電式電池等の適正な処理のお願い",
+          "h1": "小型充電式電池等の適正な処理のお願い",
+          "updatedAt": "2026年5月25日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/8/1169.html",
+          "status": 200,
+          "title": "飼い主のいない猫不妊去勢手術費補助金",
+          "h1": "飼い主のいない猫不妊去勢手術費補助金",
+          "updatedAt": "2026年4月22日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "子育て",
+            "不妊"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/1/1/5/",
+          "status": 200,
+          "title": "上下水道",
+          "h1": "上下水道",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/lifestage/1079.html",
+          "status": 200,
+          "title": "上水道（手続き・料金）",
+          "h1": "上水道（手続き・料金）",
+          "updatedAt": "2025年7月23日",
+          "keywordHits": [
+            "減免",
+            "住宅",
+            "空き家",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/lifestage/1080.html",
+          "status": 200,
+          "title": "下水道（手続き・料金）",
+          "h1": "下水道（手続き・料金）",
+          "updatedAt": "2023年1月24日",
+          "keywordHits": [
+            "減免",
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/19/1325.html",
+          "status": 200,
+          "title": "水質検査計画・結果を公表します",
+          "h1": "水質検査計画・結果を公表します",
+          "updatedAt": "2026年4月14日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/19/1323.html",
+          "status": 200,
+          "title": "給排水設備指定工事店名簿を更新しました",
+          "h1": "給排水設備指定工事店名簿を更新しました",
+          "updatedAt": "2026年3月30日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/19/1324.html",
+          "status": 200,
+          "title": "簡易水道、公共下水道等の経営比較分析表を公表します",
+          "h1": "簡易水道、公共下水道等の経営比較分析表を公表します",
+          "updatedAt": "2026年3月25日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/1/1/6/",
+          "status": 200,
+          "title": "住まい・土地・公園",
+          "h1": "住まい・土地・公園",
+          "updatedAt": "令和8年4月1日",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "空き家",
+            "空家",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/lifestage/1274.html",
+          "status": 200,
+          "title": "空き家バンクとは",
+          "h1": "空き家バンクとは",
+          "updatedAt": "2024年5月20日",
+          "keywordHits": [
+            "移住",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/1/1245.html",
+          "status": 200,
+          "title": "光サービス（ケーブルテレビ・インターネット）のご利用について",
+          "h1": "光サービス（ケーブルテレビ・インターネット）のご利用について",
+          "updatedAt": "2023年1月24日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/lifestage/1144.html",
+          "status": 200,
+          "title": "耐震の促進",
+          "h1": "耐震の促進",
+          "updatedAt": "2021年3月23日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/1223.html",
+          "status": 200,
+          "title": "公衆用道路や水路の占用には許可が必要です",
+          "h1": "公衆用道路や水路の占用には許可が必要です",
+          "updatedAt": "2019年10月23日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/1/1/7/",
+          "status": 200,
+          "title": "まちづくり・コミュニティ・協働",
+          "h1": "まちづくり・コミュニティ・協働",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/3/1118.html",
+          "status": 200,
+          "title": "自治基本条例",
+          "h1": "自治基本条例",
+          "updatedAt": "2017年3月13日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/18/12723.html",
+          "status": 200,
+          "title": "「第20回八頭町きらめき祭」場内バザー出店団体を募集します",
+          "h1": "「第20回八頭町きらめき祭」場内バザー出店団体を募集します",
+          "updatedAt": "2026年5月26日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/18/12722.html",
+          "status": 200,
+          "title": "「第20回八頭町きらめき祭」芸能披露ステージ出演団体を募集します",
+          "h1": "「第20回八頭町きらめき祭」芸能披露ステージ出演団体を募集します",
+          "updatedAt": "2026年5月26日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/31/12622.html",
+          "status": 200,
+          "title": "生涯学習活動の講師謝金を助成します（人材活用事業）",
+          "h1": "生涯学習活動の講師謝金を助成します（人材活用事業）",
+          "updatedAt": "2026年4月22日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/12/4231.html",
+          "status": 200,
+          "title": "令和8年度若桜鉄道沿線周辺景観形成事業の募集について",
+          "h1": "令和8年度若桜鉄道沿線周辺景観形成事業の募集について",
+          "updatedAt": "2026年4月13日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/1/1/8/",
+          "status": 200,
+          "title": "道路・交通",
+          "h1": "道路・交通",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/2366.html",
+          "status": 200,
+          "title": "道路の占用には許可が必要です",
+          "h1": "道路の占用には許可が必要です",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/1/1250.html",
+          "status": 200,
+          "title": "八頭町営「やずバス」の概要",
+          "h1": "八頭町営「やずバス」の概要",
+          "updatedAt": "2026年5月8日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/1/16956.html",
+          "status": 200,
+          "title": "やずバスの車両が変わります",
+          "h1": "やずバスの車両が変わります",
+          "updatedAt": "2026年4月27日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/1/1/9/",
+          "status": 200,
+          "title": "防災・安全",
+          "h1": "防災・安全",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/6/1141.html",
+          "status": 200,
+          "title": "避難行動判定フロー",
+          "h1": "避難行動判定フロー",
+          "updatedAt": "2023年1月24日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/6/1142.html",
+          "status": 200,
+          "title": "避難情報（警戒レベル）",
+          "h1": "避難情報（警戒レベル）",
+          "updatedAt": "2021年5月21日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/6/17318.html",
+          "status": 200,
+          "title": "新たな防災気象情報の運用について",
+          "h1": "新たな防災気象情報の運用について",
+          "updatedAt": "2026年5月29日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/1/1/10/",
+          "status": 200,
+          "title": "情報通信",
+          "h1": "情報通信",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/dx/7959.html",
+          "status": 200,
+          "title": "公共施設で公衆無線LANが利用できます",
+          "h1": "公共施設で公衆無線LANが利用できます",
+          "updatedAt": "2024年2月22日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/1/1254.html",
+          "status": 200,
+          "title": "国土地理院 指定緊急避難所データ公開ページについて（オープンデータ）",
+          "h1": "国土地理院 指定緊急避難所データ公開ページについて（オープンデータ）",
+          "updatedAt": "2023年1月24日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/1/1/11/",
+          "status": 200,
+          "title": "消費生活",
+          "h1": "消費生活",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/gomi/13346.html",
+          "status": 200,
+          "title": "電動式生ごみ処理機に関する新聞折込チラシについて",
+          "h1": "電動式生ごみ処理機に関する新聞折込チラシについて",
+          "updatedAt": "2025年7月11日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/14/17248.html",
+          "status": 200,
+          "title": "令和8年度八頭町国民健康保険人間ドック受診希望者を再募集します",
+          "h1": "令和8年度八頭町国民健康保険人間ドック受診希望者を再募集します",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/14/5421.html",
+          "status": 200,
+          "title": "令和8年度八頭町健康ポイントラリーを実施します",
+          "h1": "令和8年度八頭町健康ポイントラリーを実施します",
+          "updatedAt": "2026年6月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/14/12710.html",
+          "status": 200,
+          "title": "毎年6月は食育月間、毎月19日は食育の日です",
+          "h1": "毎年6月は食育月間、毎月19日は食育の日です",
+          "updatedAt": "2026年6月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/14/5161.html",
+          "status": 200,
+          "title": "「世界禁煙デー」および「八頭町禁煙デー」について",
+          "h1": "「世界禁煙デー」および「八頭町禁煙デー」について",
+          "updatedAt": "2026年5月28日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/14/1301.html",
+          "status": 200,
+          "title": "令和8年度集団検診・巡回検診・医療機関検診のご案内",
+          "h1": "令和8年度集団検診・巡回検診・医療機関検診のご案内",
+          "updatedAt": "2026年5月25日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/2/2/index-2.html",
+          "status": 200,
+          "title": "健康・福祉",
+          "h1": "健康・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/4/1456.html",
+          "status": 200,
+          "title": "八東保健センター（温水プール）の利用案内",
+          "h1": "八東保健センター（温水プール）の利用案内",
+          "updatedAt": "2026年7月15日",
+          "keywordHits": [
+            "減免",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/2/2/14/",
+          "status": 200,
+          "title": "障がい者福祉",
+          "h1": "障がい者福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/16/3204.html",
+          "status": 200,
+          "title": "障がい者福祉サービスガイドを作成しました",
+          "h1": "障がい者福祉サービスガイドを作成しました",
+          "updatedAt": "2024年6月17日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/16/3209.html",
+          "status": 200,
+          "title": "障がい者福祉（助成）",
+          "h1": "障がい者福祉（助成）",
+          "updatedAt": "2025年10月28日",
+          "keywordHits": [
+            "助成金",
+            "医療費助成",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 21,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/16/11957.html",
+          "status": 200,
+          "title": "令和7年度障がい者就労施設等からの物品等の調達の推進を図るための方針を策定しました",
+          "h1": "令和7年度障がい者就労施設等からの物品等の調達の推進を図るための方針を策定しました",
+          "updatedAt": "2025年8月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/16/11958.html",
+          "status": 200,
+          "title": "令和6年度障がい者就労施設等からの物品等の調達実績を報告します",
+          "h1": "令和6年度障がい者就労施設等からの物品等の調達実績を報告します",
+          "updatedAt": "2025年8月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/16/3207.html",
+          "status": 200,
+          "title": "障がい者福祉（手当）",
+          "h1": "障がい者福祉（手当）",
+          "updatedAt": "2025年7月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/2/2/15/",
+          "status": 200,
+          "title": "母子・児童福祉",
+          "h1": "母子・児童福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/1444.html",
+          "status": 200,
+          "title": "乳児家庭保育支援",
+          "h1": "乳児家庭保育支援",
+          "updatedAt": "2026年6月30日",
+          "keywordHits": [
+            "給付金",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/1439.html",
+          "status": 200,
+          "title": "母子保健事業のご案内",
+          "h1": "母子保健事業のご案内",
+          "updatedAt": "2026年5月12日",
+          "keywordHits": [
+            "助成金",
+            "減免",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/1432.html",
+          "status": 200,
+          "title": "保育所のご案内",
+          "h1": "保育所のご案内",
+          "updatedAt": "2026年4月10日",
+          "keywordHits": [
+            "減免",
+            "起業",
+            "子育て",
+            "就学"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/1314.html",
+          "status": 200,
+          "title": "児童扶養手当",
+          "h1": "児童扶養手当",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/16/1434.html",
+          "status": 200,
+          "title": "ひとり親家庭支援",
+          "h1": "ひとり親家庭支援",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "医療費助成",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 18,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/2/2/16/",
+          "status": 200,
+          "title": "生活保護",
+          "h1": "生活保護",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/16/3203.html",
+          "status": 200,
+          "title": "生活困窮者自立支援",
+          "h1": "生活困窮者自立支援",
+          "updatedAt": "2023年1月24日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/16/1442.html",
+          "status": 200,
+          "title": "生活保護",
+          "h1": "生活保護",
+          "updatedAt": "2023年1月24日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/2/2/17/",
+          "status": 200,
+          "title": "高齢者福祉",
+          "h1": "高齢者福祉",
+          "updatedAt": "令和5年3月31日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/8/12668.html",
+          "status": 200,
+          "title": "高齢者はり・きゅう・マッサージ施術費助成事業",
+          "h1": "高齢者はり・きゅう・マッサージ施術費助成事業",
+          "updatedAt": "2026年4月20日",
+          "keywordHits": [
+            "助成金",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/15/16461.html",
+          "status": 200,
+          "title": "令和8年度「認知症の人と家族のつどい」を開催します",
+          "h1": "令和8年度「認知症の人と家族のつどい」を開催します",
+          "updatedAt": "2026年4月8日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/15/1312.html",
+          "status": 200,
+          "title": "認知症の相談窓口",
+          "h1": "認知症の相談窓口",
+          "updatedAt": "2025年9月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/lifestage/12281.html",
+          "status": 200,
+          "title": "戦没者等の遺族の皆さまへ 第12回特別弔慰金が支給されます",
+          "h1": "戦没者等の遺族の皆さまへ 第12回特別弔慰金が支給されます",
+          "updatedAt": "2025年4月25日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/lifestage/1251.html",
+          "status": 200,
+          "title": "タクシー利用費を助成します",
+          "h1": "タクシー利用費を助成します",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/2/2/18/",
+          "status": 200,
+          "title": "地域福祉",
+          "h1": "地域福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/16/1458.html",
+          "status": 200,
+          "title": "まちづくり委員会",
+          "h1": "まちづくり委員会",
+          "updatedAt": "2026年5月25日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/16/16223.html",
+          "status": 200,
+          "title": "八頭町ひこもり支援ステーション「めにゆだ」を開設しました",
+          "h1": "八頭町ひこもり支援ステーション「めにゆだ」を開設しました",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/8/8586.html",
+          "status": 200,
+          "title": "八頭町再犯防止推進計画を策定しました",
+          "h1": "八頭町再犯防止推進計画を策定しました",
+          "updatedAt": "2024年4月5日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/16/9241.html",
+          "status": 200,
+          "title": "第2期八頭町地域福祉推進計画を策定しました",
+          "h1": "第2期八頭町地域福祉推進計画を策定しました",
+          "updatedAt": "2024年4月1日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/site/dx/7103.html",
+          "status": 200,
+          "title": "買い物環境の確保に向けてITと配送を融合した実証実験に取り組んでいます",
+          "h1": "買い物環境の確保に向けてITと配送を融合した実証実験に取り組んでいます",
+          "updatedAt": "2023年11月7日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/life/2/2/19/",
+          "status": 200,
+          "title": "介護保険",
+          "h1": "介護保険",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/14/1435.html",
+          "status": 200,
+          "title": "介護保険のご案内",
+          "h1": "介護保険のご案内",
+          "updatedAt": "2026年6月1日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "31329",
+          "municipalityName": "八頭町",
+          "sourceUrl": "https://www.town.yazu.tottori.jp/soshiki/14/1032.html",
+          "status": 200,
+          "title": "介護サービス事業者の皆さまへ",
+          "h1": "介護サービス事業者の皆さまへ",
+          "updatedAt": "2026年4月22日",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.town.yazu.tottori.jp/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.town.yazu.tottori.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/sitemap_index.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/sitemap_index.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.town.yazu.tottori.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/guide/2470.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/guide/2470.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/1/1/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/1/1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/2/2/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/2/2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/3/3/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/3/3/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/4/4/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/4/4/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/6/6/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/6/6/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/7/7/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/7/7/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=64",
+          "status": 200,
+          "finalUrl": "https://yazukanko.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=65",
+          "status": 200,
+          "finalUrl": "https://yazupoppo.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=70",
+          "status": 200,
+          "finalUrl": "https://wakatetsu.co.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=78",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=79",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/library/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=80",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/yazupyon/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/voice/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/voice/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/calendar/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/calendar/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/map/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/map/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/sub/1/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/sub/1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/4/4/26/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/4/4/26/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/lifestage/list25-110.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/lifestage/list25-110.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/lifestage/list25-111.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/lifestage/list25-111.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/2/2/13/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/2/2/13/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/lifestage/list25-113.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/lifestage/list25-113.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/lifestage/list25-114.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/lifestage/list25-114.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/shinseisyo/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/gomi/1047.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/gomi/1047.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/1/1500.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/1/1500.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=86",
+          "status": 200,
+          "finalUrl": "https://www.hayabusa-yazu.jp/festival/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/18/6597.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/18/6597.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/18/6289.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/18/6289.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/11/17468.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/11/17468.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/list6-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/list6-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/rss/10/list6.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/rss/10/list6.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/28/9825.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/28/9825.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/artful-yazu/17840.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/artful-yazu/17840.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/25/17257.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/25/17257.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/lifestage/7444.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/lifestage/7444.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/list1-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/list1-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/rss/10/list1.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/rss/10/list1.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/list5-1.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/list5-1.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/rss/10/list5.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/rss/10/list5.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/18/5745.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/18/5745.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/1/2375.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/1/2375.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/11/1278.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/11/1278.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/yazupyon/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/yazupyon/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=6",
+          "status": 200,
+          "finalUrl": "https://yazukanko.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=7",
+          "status": 200,
+          "finalUrl": "https://hayabusa-lab.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=101",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/mayor/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=9",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/gikai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=10",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/koho-yazu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=19",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/map/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=20",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/sub/2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=21",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=22",
+          "status": 200,
+          "finalUrl": "https://apply.e-tumo.jp/town-yazu-tottori-u/offer/offerList_initDisplay",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=23",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/public-comment/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=24",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/3/1004.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=25",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=26",
+          "status": 200,
+          "finalUrl": "https://public.joureikun.jp/yazu_town/reiki/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=27",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/voice/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=11",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/bousai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=12",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/library/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=13",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/10/1405.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=14",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=82",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/kigyo-furusato/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=100",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/artful-yazu/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=96",
+          "status": 200,
+          "finalUrl": "https://www.fire-method.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=29",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/1252.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=68",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/1252.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/adv/ba.php?id=31",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/1252.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/shinseisyo/1252.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/1252.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/guide/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/guide/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/guide/2467.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/guide/2467.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/guide/2469.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/guide/2469.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/sitemap01.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/sitemap01.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/guide/2472.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/guide/2472.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/guide/6067.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/guide/6067.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/guide/6634.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/guide/6634.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/1/4477.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/1/4477.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/4/4627.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/4/4627.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/12/13155.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/12/13155.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/7/12634.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/7/12634.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/1/1/index-2.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/1/1/index-2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/rss/10/life1-1.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/rss/10/life1-1.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/1/1/1/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/1/1/1/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/lifestage/16264.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/lifestage/16264.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/7/1426.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/7/1426.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/8/12806.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/8/12806.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/8/1425.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/8/1425.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/1/1/2/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/1/1/2/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/7/1440.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/7/1440.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/7/1443.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/7/1443.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/akiya/17004.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/akiya/17004.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/7/17420.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/7/17420.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/1/1/3/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/1/1/3/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/7/1159.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/7/1159.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/dx/9186.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/dx/9186.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/7/6901.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/7/6901.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/shinseisyo/3012.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/3012.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/1/1/4/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/1/1/4/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/gomi/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/gomi/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/gomi/6156.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/gomi/6156.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/gomi/17198.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/gomi/17198.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/gomi/6598.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/gomi/6598.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/8/1169.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/8/1169.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/1/1/5/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/1/1/5/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/lifestage/1079.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/lifestage/1079.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/lifestage/1080.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/lifestage/1080.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/19/1325.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/19/1325.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/19/1323.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/19/1323.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/19/1324.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/19/1324.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/1/1/6/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/1/1/6/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/lifestage/1274.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/lifestage/1274.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/1/1245.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/1/1245.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/lifestage/1144.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/lifestage/1144.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/shinseisyo/1223.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/1223.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/1/1/7/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/1/1/7/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/3/1118.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/3/1118.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/18/12723.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/18/12723.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/18/12722.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/18/12722.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/31/12622.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/31/12622.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/12/4231.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/12/4231.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/1/1/8/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/1/1/8/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/shinseisyo/2366.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/shinseisyo/2366.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/1/1250.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/1/1250.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/1/16956.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/1/16956.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/1/1/9/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/1/1/9/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/bousai/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/bousai/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/6/1141.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/6/1141.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/6/1142.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/6/1142.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/6/17318.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/6/17318.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/1/1/10/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/1/1/10/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/dx/7959.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/dx/7959.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/1/1254.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/1/1254.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/1/1/11/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/1/1/11/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/gomi/13346.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/gomi/13346.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/14/17248.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/14/17248.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/14/5421.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/14/5421.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/14/12710.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/14/12710.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/14/5161.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/14/5161.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/14/1301.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/14/1301.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/2/2/index-2.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/2/2/index-2.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/rss/10/life2-2.xml",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/rss/10/life2-2.xml",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/4/1456.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/4/1456.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/2/2/14/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/2/2/14/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/16/3204.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/16/3204.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/16/3209.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/16/3209.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/16/11957.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/16/11957.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/16/11958.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/16/11958.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/16/3207.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/16/3207.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/2/2/15/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/2/2/15/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/1444.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/1444.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/1439.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/1439.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/1432.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/1432.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/1314.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/sukusuku-yazukko/1314.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/16/1434.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/16/1434.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/2/2/16/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/2/2/16/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/16/3203.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/16/3203.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/16/1442.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/16/1442.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/2/2/17/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/2/2/17/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/8/12668.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/8/12668.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/15/16461.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/15/16461.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/15/1312.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/15/1312.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/lifestage/12281.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/lifestage/12281.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/lifestage/1251.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/lifestage/1251.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/2/2/18/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/2/2/18/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/16/1458.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/16/1458.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/16/16223.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/16/16223.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/8/8586.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/8/8586.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/16/9241.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/16/9241.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/site/dx/7103.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/site/dx/7103.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/life/2/2/19/",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/life/2/2/19/",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/14/1435.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/14/1435.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.town.yazu.tottori.jp/soshiki/14/1032.html",
+          "status": 200,
+          "finalUrl": "https://www.town.yazu.tottori.jp/soshiki/14/1032.html",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}
