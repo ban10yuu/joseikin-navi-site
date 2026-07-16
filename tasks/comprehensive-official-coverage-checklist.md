@@ -10636,3 +10636,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18707、officialLinkedActive 18586、manuallyVerifiedActive 18586、奈良県 localOfficial 483）
 - 到達点: 奈良県は29201奈良市から29447野迫川村まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 奈良県公式棚卸し008として、29449十津川村から再開
+
+### 奈良県公式棚卸し008（29449十津川村・29450下北山村・29451上北山村・29452川上村・29453東吉野村）
+- 実施日: 2026-07-16
+- 候補: 1542件（公式サイト内リンクリード3786件、本文再スコア採択候補709件、採用URL84本）
+- 採用: 84件（十津川村15件、下北山村18件、上北山村15件、川上村18件、東吉野村18件）
+- 公式URL: 採用URL到達確認は tasks/discovery/nara-official-coverage-008-url-status.txt に記録（84本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、広報、職員募集、観光・寄附、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。東吉野村は公式サイトのwww付きURLが証明書不一致となるため、no-wwwの公式URLへ正規化して到達確認
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18791、officialLinkedActive 18670、manuallyVerifiedActive 18670、奈良県 localOfficial 567）
+- 到達点: 奈良県は29201奈良市から29453東吉野村まで第1巡完了。全国公式棚卸しは未完了
+- 次回: 和歌山県公式棚卸し001として、30201和歌山市から再開
