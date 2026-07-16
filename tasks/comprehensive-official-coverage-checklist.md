@@ -10859,3 +10859,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 20588、officialLinkedActive 20467、manuallyVerifiedActive 20467、広島県 localOfficial 184）
 - 到達点: 広島県は34100広島市から34205尾道市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 広島県公式棚卸し002として、34207福山市から再開
+
+### 広島県公式棚卸し002（34207福山市・34208府中市・34209三次市・34210庄原市・34211大竹市）
+- 実施日: 2026-07-17
+- 候補: 標準discoverは0件。公式カテゴリページ、公式サイト内リンク、公式sitemap、本文スニペット再スコアから、公式HTML個別制度ページ・公式制度掲載ページ87本を採用
+- 採用: 87件（福山市23件、府中市11件、三次市24件、庄原市22件、大竹市7件）
+- 公式URL: 採用URL到達確認は tasks/discovery/hiroshima-official-coverage-002-url-status.txt に記録（87本すべてHTTP 200）
+- 保留: 標準discoverが0件のため、公式カテゴリと公式サイト内リンクを補完。福山市・府中市・三次市・庄原市はshortlistが150件超のため tasks/discovery/hiroshima-official-coverage-002-link-leads.json に本文スニペット付きリードを保存し、トップ、カテゴリ導線、共通ナビ、FAQ、申請書・PDF単体、広報・報告・相談・採用・外部制度のみ、本文根拠が薄い候補、同一制度の重複ページは第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 20675、officialLinkedActive 20554、manuallyVerifiedActive 20554、広島県 localOfficial 271）
+- 到達点: 広島県は34100広島市から34211大竹市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 広島県公式棚卸し003として、34212東広島市から再開

@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T06:35:00+09:00",
+  "updatedAt": "2026-07-17T07:20:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "hiroshima-official-coverage-001",
-    "municipality": "広島市・呉市・竹原市・三原市・尾道市",
-    "adopted": 85,
+    "code": "hiroshima-official-coverage-002",
+    "municipality": "福山市・府中市・三次市・庄原市・大竹市",
+    "adopted": 87,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 85,
+    "sourceUrlsChecked": 87,
     "validation": {
-      "previousMunicipality": "広島県公式棚卸し001として34100広島市・34202呉市・34203竹原市・34204三原市・34205尾道市を確認し85件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/hiroshima-official-coverage-001-build.mjs",
-      "json": "pass: JSON.parse for hiroshima-official-coverage-001 JSON files",
-      "addedSlugUniqueness": "pass: 85 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 85 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "previousMunicipality": "広島県公式棚卸し002として34207福山市・34208府中市・34209三次市・34210庄原市・34211大竹市を確認し87件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/hiroshima-official-coverage-002-build.mjs",
+      "json": "pass: JSON.parse for hiroshima-official-coverage-002 JSON files",
+      "addedSlugUniqueness": "pass: 87 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 87 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 20588、officialLinkedActive 20467、manuallyVerifiedActive 20467、広島県 localOfficial 184)",
-      "notes": "標準discoverは0件。公式カテゴリページ、公式サイト内リンク、公式sitemap、本文スニペット再スコアから補完。呉市・三原市・尾道市はshortlistが150件超のため link-leads JSONへ本文スニペット付きリードを保存して再スコアリングした。"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 20675、officialLinkedActive 20554、manuallyVerifiedActive 20554、広島県 localOfficial 271)",
+      "notes": "標準discoverは0件。公式カテゴリページ、公式サイト内リンク、公式sitemap、本文スニペット再スコアから補完。福山市・府中市・三次市・庄原市はshortlistが150件超のため link-leads JSONへ本文スニペット付きリードを保存して再スコアリングした。"
     }
   },
   "next": {
-    "code": "hiroshima-official-coverage-002",
-    "municipality": "福山市",
-    "shortlist": "広島県001で広島市・呉市・竹原市・三原市・尾道市を確認。次は広島県の自治体コード順で34207福山市から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、広島県公式棚卸し002として34207福山市を開始地点に自治体コード順で再開する。想定対象は34207福山市・34208府中市・34209三次市・34210庄原市・34211大竹市。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "hiroshima-official-coverage-003",
+    "municipality": "東広島市",
+    "shortlist": "広島県002で福山市・府中市・三次市・庄原市・大竹市を確認。次は広島県の自治体コード順で34212東広島市から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、広島県公式棚卸し003として34212東広島市を開始地点に自治体コード順で再開する。想定対象は34212東広島市・34213廿日市市・34214安芸高田市・34215江田島市・34302府中町。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "広島県",
     "status": "in-progress-first-pass",
-    "lastBatch": "hiroshima-official-coverage-001",
-    "notes": "広島県公式棚卸し001で34100広島市・34202呉市・34203竹原市・34204三原市・34205尾道市を確認し、85件を新規採用。次は34207福山市から再開する。"
+    "lastBatch": "hiroshima-official-coverage-002",
+    "notes": "広島県公式棚卸し002で34207福山市・34208府中市・34209三次市・34210庄原市・34211大竹市を確認し、87件を新規採用。次は34212東広島市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
