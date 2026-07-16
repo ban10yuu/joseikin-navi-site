@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-07-16T17:26:59.331Z",
+  "batch": "shimane-official-coverage-001",
+  "municipalities": [
+    "32201 松江市",
+    "32202 浜田市",
+    "32203 出雲市",
+    "32204 益田市",
+    "32205 大田市"
+  ],
+  "candidateCount": 459,
+  "linkLeadCount": 1071,
+  "uniqueLeadCount": 684,
+  "selectedCount": 230,
+  "adopted": 70,
+  "adoptedByMunicipality": {
+    "松江市": 10,
+    "浜田市": 20,
+    "出雲市": 20,
+    "益田市": 8,
+    "大田市": 12
+  },
+  "heldPolicy": "カテゴリ導線、共通ナビ、PDF/申請書単体、報告ページ、注意喚起、重複同内容、本文根拠が薄い候補は第2巡候補として保持"
+}

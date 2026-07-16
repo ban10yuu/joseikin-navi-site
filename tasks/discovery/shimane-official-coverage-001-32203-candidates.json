@@ -1,0 +1,4218 @@
+{
+  "batchId": "shimane-official-coverage-001",
+  "prefecture": "島根県",
+  "generatedAt": "2026-07-16T17:08:03.966Z",
+  "keywords": [
+    "補助金",
+    "助成金",
+    "給付金",
+    "一時金",
+    "支援金",
+    "奨励金",
+    "貸付",
+    "減免",
+    "免除",
+    "医療費助成",
+    "移住",
+    "住宅",
+    "空き家",
+    "空家",
+    "創業",
+    "起業",
+    "事業者",
+    "農業",
+    "林業",
+    "水産",
+    "福祉",
+    "子育て",
+    "就学",
+    "奨学金",
+    "耐震",
+    "省エネ",
+    "予防接種",
+    "不妊",
+    "妊婦",
+    "通学"
+  ],
+  "municipalityCount": 1,
+  "candidateCount": 168,
+  "results": [
+    {
+      "code": "32203",
+      "name": "出雲市",
+      "prefecture": "島根県",
+      "officialBaseUrl": "https://www.city.izumo.shimane.jp/",
+      "discoveredUrlCount": 180,
+      "candidateCount": 168,
+      "strongCandidateCount": 5,
+      "lowPriorityCandidateCount": 163,
+      "candidates": [
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/index.html",
+          "status": 200,
+          "title": "トップページ | 出雲市",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/index.html",
+          "status": 200,
+          "title": "トップページ | 出雲市",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179794616184/index.html",
+          "status": 200,
+          "title": "いざという時に",
+          "h1": "いざという時に",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "事業者",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/menu.html",
+          "status": 200,
+          "title": "市民の方（くらし・行政・議会）",
+          "h1": "市民の方（くらし・行政・議会）",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "空き家",
+            "創業",
+            "福祉",
+            "子育て",
+            "不妊"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796073335/index.html",
+          "status": 200,
+          "title": "事業者の方",
+          "h1": "事業者の方",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "創業",
+            "事業者",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1293689908451/index.html",
+          "status": 200,
+          "title": "観光される方",
+          "h1": "観光される方",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "移住",
+            "住宅",
+            "事業者",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1001000000019/index.html",
+          "status": 200,
+          "title": "移住・定住をお考えの方",
+          "h1": "移住・定住をお考えの方",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "支援金",
+            "移住",
+            "住宅",
+            "空き家",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1684216527313/index.html",
+          "status": 200,
+          "title": "外国人の方へ 生活情報 【政策企画課文化国際室】&nbsp;",
+          "h1": "外国人の方へ 生活情報 【政策企画課文化国際室】&nbsp;",
+          "updatedAt": "2023年6月13日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/news.html",
+          "status": 200,
+          "title": "新着情報一覧",
+          "h1": "新着情報一覧",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "創業",
+            "事業者",
+            "農業",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1000000000067/index.html",
+          "status": 200,
+          "title": "妊娠・出産",
+          "h1": "妊娠・出産",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796762906/index.html",
+          "status": 200,
+          "title": "子育て",
+          "h1": "子育て",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "貸付",
+            "医療費助成",
+            "住宅",
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種",
+            "妊婦"
+          ],
+          "candidateScore": 24,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796787692/index.html",
+          "status": 200,
+          "title": "入園・入学・修学",
+          "h1": "入園・入学・修学",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "就学",
+            "通学"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1001000000025/index.html",
+          "status": 200,
+          "title": "結婚・離婚",
+          "h1": "結婚・離婚",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179822256365/index.html",
+          "status": 200,
+          "title": "引っ越し",
+          "h1": "引っ越し",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179821648646/index.html",
+          "status": 200,
+          "title": "就職・転職・退職",
+          "h1": "就職・転職・退職",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "林業",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179823209509/index.html",
+          "status": 200,
+          "title": "高齢者・介護",
+          "h1": "高齢者・介護",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796819391/index.html",
+          "status": 200,
+          "title": "病気・ケガ",
+          "h1": "病気・ケガ",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "減免",
+            "医療費助成",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796872300/index.html",
+          "status": 200,
+          "title": "おくやみ",
+          "h1": "おくやみ",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 15,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1293686478019/index.html",
+          "status": 200,
+          "title": "届出・手続・申請",
+          "h1": "届出・手続・申請",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1000000000109/index.html",
+          "status": 200,
+          "title": "税金",
+          "h1": "税金",
+          "updatedAt": "",
+          "keywordHits": [
+            "給付金",
+            "減免",
+            "免除",
+            "住宅",
+            "子育て",
+            "耐震",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179814088744/index.html",
+          "status": 200,
+          "title": "ごみ・リサイクル",
+          "h1": "ごみ・リサイクル",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "住宅",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179795986515/index.html",
+          "status": 200,
+          "title": "各種相談",
+          "h1": "各種相談",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家",
+            "創業",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/window/index.html",
+          "status": 200,
+          "title": "各課へのお問い合わせ",
+          "h1": "各課へのお問い合わせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "一時金",
+            "住宅",
+            "空き家",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て",
+            "就学",
+            "省エネ",
+            "予防接種"
+          ],
+          "candidateScore": 9,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1001000000040/index.html",
+          "status": 200,
+          "title": "ライフライン",
+          "h1": "ライフライン",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "減免",
+            "免除",
+            "空き家",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1001000000026/index.html",
+          "status": 200,
+          "title": "道路・交通",
+          "h1": "道路・交通",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "子育て",
+            "通学"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796958796/index.html",
+          "status": 200,
+          "title": "公共施設",
+          "h1": "公共施設",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796034096/index.html",
+          "status": 200,
+          "title": "くらしの便利情報",
+          "h1": "くらしの便利情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1294638006688/index.html",
+          "status": 200,
+          "title": "子育てガイドブック",
+          "h1": "子育てガイドブック",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1487054520111/index.html",
+          "status": 200,
+          "title": "ごみ出しおたすけアプリ「さんあ～る（出雲市版）」を配信しています！",
+          "h1": "ごみ出しおたすけアプリ「さんあ～る（出雲市版）」を配信しています！",
+          "updatedAt": "2025年7月4日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1000000000070/index.html",
+          "status": 200,
+          "title": "各種申請書・様式ダウンロード",
+          "h1": "各種申請書・様式ダウンロード",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "農業",
+            "水産",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1663064503294/index.html",
+          "status": 200,
+          "title": "出雲市総合振興計画「出雲新話2030」を策定しました。",
+          "h1": "出雲市総合振興計画「出雲新話2030」を策定しました。",
+          "updatedAt": "2025年3月18日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1117692391874/index.html",
+          "status": 200,
+          "title": "出雲市役所へのアクセス",
+          "h1": "出雲市役所へのアクセス",
+          "updatedAt": "2023年2月24日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/sitemap.html",
+          "status": 200,
+          "title": "サイトマップ",
+          "h1": "サイトマップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "減免",
+            "移住",
+            "住宅",
+            "空き家",
+            "事業者",
+            "農業",
+            "林業",
+            "水産",
+            "福祉",
+            "子育て",
+            "省エネ",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/topics.html",
+          "status": 200,
+          "title": "重要なお知らせ",
+          "h1": "重要なお知らせ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1782349074032/index.html",
+          "status": 200,
+          "title": "令和８年６月出雲市今市町大規模火災で被災された皆さまへ",
+          "h1": "令和８年６月出雲市今市町大規模火災で被災された皆さまへ",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "住宅",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1782812752287/index.html",
+          "status": 200,
+          "title": "令和８年６月出雲市今市町大規模火災への義援金・寄附金を受け付けています",
+          "h1": "令和８年６月出雲市今市町大規模火災への義援金・寄附金を受け付けています",
+          "updatedAt": "",
+          "keywordHits": [
+            "免除",
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1782280029025/index.html",
+          "status": 200,
+          "title": "令和８年６月出雲市今市町大規模火災のふるさと納税災害支援寄附を受け付けています",
+          "h1": "令和８年６月出雲市今市町大規模火災のふるさと納税災害支援寄附を受け付けています",
+          "updatedAt": "令和8年6月23日",
+          "keywordHits": [
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1776320254998/index.html",
+          "status": 200,
+          "title": "令和８年度「出雲市省エネ家電買替支援事業補助金」について【ゼロカーボン推進室】&nbsp;",
+          "h1": "令和８年度「出雲市省エネ家電買替支援事業補助金」について【ゼロカーボン推進室】&nbsp;",
+          "updatedAt": "2026年6月15日",
+          "keywordHits": [
+            "補助金",
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1756254284562/index.html",
+          "status": 200,
+          "title": "くらしの手続きガイド",
+          "h1": "くらしの手続きガイド",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1492145240386/index.html",
+          "status": 200,
+          "title": "「地方創生応援税制（企業版ふるさと納税）」を活用した寄附を募集します",
+          "h1": "「地方創生応援税制（企業版ふるさと納税）」を活用した寄附を募集します",
+          "updatedAt": "2026年6月1日",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 14,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179794565042/index.html",
+          "status": 200,
+          "title": "災害・緊急情報",
+          "h1": "災害・緊急情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1683603741449/index.html",
+          "status": 200,
+          "title": "「出雲市防災情報サイト」をご活用ください！",
+          "h1": "「出雲市防災情報サイト」をご活用ください！",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1435295602061/index.html",
+          "status": 200,
+          "title": "いずも防災メール",
+          "h1": "いずも防災メール",
+          "updatedAt": "2025年3月17日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1001000000009/index.html",
+          "status": 200,
+          "title": "くらし・手続き",
+          "h1": "くらし・手続き",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "住宅",
+            "空き家",
+            "福祉",
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796468764/index.html",
+          "status": 200,
+          "title": "子育て・教育",
+          "h1": "子育て・教育",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796401974/index.html",
+          "status": 200,
+          "title": "健康・福祉",
+          "h1": "健康・福祉",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "福祉",
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796505859/index.html",
+          "status": 200,
+          "title": "文化・スポーツ・生涯学習",
+          "h1": "文化・スポーツ・生涯学習",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796537675/index.html",
+          "status": 200,
+          "title": "まちづくり",
+          "h1": "まちづくり",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "住宅",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179795183061/index.html",
+          "status": 200,
+          "title": "市政情報",
+          "h1": "市政情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "林業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1170224085438/index.html",
+          "status": 200,
+          "title": "気象情報等",
+          "h1": "気象情報等",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1310088466534/index.html",
+          "status": 200,
+          "title": "「沿岸域情報提供システム（MICS）」（海の安全に関する情報）の利用について",
+          "h1": "「沿岸域情報提供システム（MICS）」（海の安全に関する情報）の利用について",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1435287679465/index.html",
+          "status": 200,
+          "title": "防災情報の取得",
+          "h1": "防災情報の取得",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1585809509886/index.html",
+          "status": 200,
+          "title": "防災行政無線 戸別受信機を無償で貸し出します 【防災安全課】",
+          "h1": "防災行政無線 戸別受信機を無償で貸し出します 【防災安全課】",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1435315029502/index.html",
+          "status": 200,
+          "title": "いずも防災メールの登録・変更・解除の方法",
+          "h1": "いずも防災メールの登録・変更・解除の方法",
+          "updatedAt": "2025年3月17日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1654833335404/index.html",
+          "status": 200,
+          "title": "「Yahoo!防災速報」を活用して防災情報を配信します",
+          "h1": "「Yahoo!防災速報」を活用して防災情報を配信します",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1318472298145/index.html",
+          "status": 200,
+          "title": "エリアメール・緊急速報メールについて",
+          "h1": "エリアメール・緊急速報メールについて",
+          "updatedAt": "2017年2月8日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1397528842102/index.html",
+          "status": 200,
+          "title": "エフエムいずも緊急情報放送",
+          "h1": "エフエムいずも緊急情報放送",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1210039860594/index.html",
+          "status": 200,
+          "title": "しまね防災メール",
+          "h1": "しまね防災メール",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1731896715881/index.html",
+          "status": 200,
+          "title": "緊急情報の自動読み上げで地名等が誤って読み上げられることがあります",
+          "h1": "緊急情報の自動読み上げで地名等が誤って読み上げられることがあります",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1733897000511/index.html",
+          "status": 200,
+          "title": "いずも防災メール（多言語）",
+          "h1": "いずも防災メール（多言語）",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1708409390126/index.html",
+          "status": 200,
+          "title": "手話の動画で紹介します～防災情報の確認方法、緊急時の連絡方法について",
+          "h1": "手話の動画で紹介します～防災情報の確認方法、緊急時の連絡方法について",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1170224216678/index.html",
+          "status": 200,
+          "title": "避難所",
+          "h1": "避難所",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1215158303157/index.html",
+          "status": 200,
+          "title": "緊急避難場所・避難所",
+          "h1": "緊急避難場所・避難所",
+          "updatedAt": "2026年5月1日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1592220124625/index.html",
+          "status": 200,
+          "title": "臨時避難所について【防災安全課】",
+          "h1": "臨時避難所について【防災安全課】",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1574731398196/index.html",
+          "status": 200,
+          "title": "ペットの『同行避難』…日ごろからの備えが大切です",
+          "h1": "ペットの『同行避難』…日ごろからの備えが大切です",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1591747162995/index.html",
+          "status": 200,
+          "title": "災害避難における新型コロナウイルス感染症への対応方針について【防災安全課】",
+          "h1": "災害避難における新型コロナウイルス感染症への対応方針について【防災安全課】",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1473404235416/index.html",
+          "status": 200,
+          "title": "避難場所及び避難所の施設管理者の方へ（非常時連絡先変更について）",
+          "h1": "避難場所及び避難所の施設管理者の方へ（非常時連絡先変更について）",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179798573051/index.html",
+          "status": 200,
+          "title": "防災マップ",
+          "h1": "防災マップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "農業",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1366858934184/index.html",
+          "status": 200,
+          "title": "出雲市防災ハザードマップ",
+          "h1": "出雲市防災ハザードマップ",
+          "updatedAt": "2026年7月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1533014640724/index.html",
+          "status": 200,
+          "title": "出雲市地震防災マップ",
+          "h1": "出雲市地震防災マップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "子育て",
+            "耐震"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1570767489787/index.html",
+          "status": 200,
+          "title": "山地災害危険地区について",
+          "h1": "山地災害危険地区について",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1593398389550/index.html",
+          "status": 200,
+          "title": "斐伊川水系洪水浸水想定区域図等の修正について【防災安全課】",
+          "h1": "斐伊川水系洪水浸水想定区域図等の修正について【防災安全課】",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1593416733277/index.html",
+          "status": 200,
+          "title": "神戸川洪水浸水想定区域図等の公表について【防災安全課】",
+          "h1": "神戸川洪水浸水想定区域図等の公表について【防災安全課】",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1547776248126/index.html",
+          "status": 200,
+          "title": "土砂災害特別警戒区域（レッドゾーン）の指定について",
+          "h1": "土砂災害特別警戒区域（レッドゾーン）の指定について",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1310701102352/index.html",
+          "status": 200,
+          "title": "道路冠水の恐れがある箇所について",
+          "h1": "道路冠水の恐れがある箇所について",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1746706917425/index.html",
+          "status": 200,
+          "title": "太陽光発電設備を設置・操業される事業者の皆様へのお願い",
+          "h1": "太陽光発電設備を設置・操業される事業者の皆様へのお願い",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "事業者",
+            "農業",
+            "水産",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1639440876750/index.html",
+          "status": 200,
+          "title": "日頃からの備え",
+          "h1": "日頃からの備え",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1775009793125/index.html",
+          "status": 200,
+          "title": "出雲市止水板設置補助金制度について",
+          "h1": "出雲市止水板設置補助金制度について",
+          "updatedAt": "2026年6月12日",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 20,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1765936352691/index.html",
+          "status": 200,
+          "title": "令和８年の大雨時期から防災気象情報が生まれ変わります",
+          "h1": "令和８年の大雨時期から防災気象情報が生まれ変わります",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1747038341678/index.html",
+          "status": 200,
+          "title": "『水のう』による浸水対策",
+          "h1": "『水のう』による浸水対策",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1723178560561/index.html",
+          "status": 200,
+          "title": "「南海トラフ地震臨時情報」について",
+          "h1": "「南海トラフ地震臨時情報」について",
+          "updatedAt": "2025年1月14日",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1726633580255/index.html",
+          "status": 200,
+          "title": "浸水被害（内水氾濫）に注意しましょう！",
+          "h1": "浸水被害（内水氾濫）に注意しましょう！",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "予防接種"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1589452578561/index.html",
+          "status": 200,
+          "title": "災害時の熱中症予防について",
+          "h1": "災害時の熱中症予防について",
+          "updatedAt": "2024年7月11日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1625735271073/index.html",
+          "status": 200,
+          "title": "災害時の衛生対策と消毒方法について",
+          "h1": "災害時の衛生対策と消毒方法について",
+          "updatedAt": "2024年7月11日",
+          "keywordHits": [
+            "住宅",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1609820464366/index.html",
+          "status": 200,
+          "title": "大雪・凍結対策について",
+          "h1": "大雪・凍結対策について",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1676515194288/index.html",
+          "status": 200,
+          "title": "避難行動要支援者の災害時の避難について",
+          "h1": "避難行動要支援者の災害時の避難について",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1623803023091/index.html",
+          "status": 200,
+          "title": "マイ・タイムラインを作りましょう",
+          "h1": "マイ・タイムラインを作りましょう",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1621419448005/index.html",
+          "status": 200,
+          "title": "「警戒レベル４ 避難指示」で必ず避難！～避難勧告は廃止です～【防災安全課】",
+          "h1": "「警戒レベル４ 避難指示」で必ず避難！～避難勧告は廃止です～【防災安全課】",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1606370010155/index.html",
+          "status": 200,
+          "title": "気象庁 eラーニングで学ぶ『大雨のときにどう逃げる？』",
+          "h1": "気象庁 eラーニングで学ぶ『大雨のときにどう逃げる？』",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1589504568342/index.html",
+          "status": 200,
+          "title": "災害時にはためらわず避難しましょう！〈避難の５つのポイント〉【防災安全課】",
+          "h1": "災害時にはためらわず避難しましょう！〈避難の５つのポイント〉【防災安全課】",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1328856078152/index.html",
+          "status": 200,
+          "title": "HUG（避難所運営体験ゲーム）を貸し出します",
+          "h1": "HUG（避難所運営体験ゲーム）を貸し出します",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1358734986123/index.html",
+          "status": 200,
+          "title": "津波警報の変更について",
+          "h1": "津波警報の変更について",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1325028998568/index.html",
+          "status": 200,
+          "title": "原子力防災",
+          "h1": "原子力防災",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1639440900838/index.html",
+          "status": 200,
+          "title": "被災時に活用できる制度",
+          "h1": "被災時に活用できる制度",
+          "updatedAt": "",
+          "keywordHits": [
+            "助成金",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1625980847569/index.html",
+          "status": 200,
+          "title": "浸水により、し尿くみ取りを実施された方への補助について",
+          "h1": "浸水により、し尿くみ取りを実施された方への補助について",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "補助金",
+            "子育て"
+          ],
+          "candidateScore": 7,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1673929103309/index.html",
+          "status": 200,
+          "title": "崩落土砂等撤去費等助成金について",
+          "h1": "崩落土砂等撤去費等助成金について",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "助成金",
+            "子育て"
+          ],
+          "candidateScore": 19,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1654659914380/index.html",
+          "status": 200,
+          "title": "自然災害による被災者支援制度について【防災安全課】",
+          "h1": "自然災害による被災者支援制度について【防災安全課】",
+          "updatedAt": "2025年4月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1627384823089/index.html",
+          "status": 200,
+          "title": "被災届出証明書",
+          "h1": "被災届出証明書",
+          "updatedAt": "2024年8月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1153637421263/index.html",
+          "status": 200,
+          "title": "り災証明書・被災届出証明書の交付について",
+          "h1": "り災証明書・被災届出証明書の交付について",
+          "updatedAt": "2024年8月1日",
+          "keywordHits": [
+            "貸付",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1626240304051/index.html",
+          "status": 200,
+          "title": "住まいが被害を受けたときは、被害状況を写真に残すようお願いします",
+          "h1": "住まいが被害を受けたときは、被害状況を写真に残すようお願いします",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1540192753804/index.html",
+          "status": 200,
+          "title": "休日・夜間診療案内",
+          "h1": "休日・夜間診療案内",
+          "updatedAt": "2026年5月13日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179798600867/index.html",
+          "status": 200,
+          "title": "計画・条例等",
+          "h1": "計画・条例等",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1378211600607/index.html",
+          "status": 200,
+          "title": "出雲市津波避難計画",
+          "h1": "出雲市津波避難計画",
+          "updatedAt": "2026年4月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1275887380589/index.html",
+          "status": 200,
+          "title": "出雲市危機管理指針",
+          "h1": "出雲市危機管理指針",
+          "updatedAt": "2026年3月23日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1636603341121/index.html",
+          "status": 200,
+          "title": "出雲市緊急事態等対処計画",
+          "h1": "出雲市緊急事態等対処計画",
+          "updatedAt": "2026年3月23日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1636604788139/index.html",
+          "status": 200,
+          "title": "新型インフルエンザ等対策行動計画",
+          "h1": "新型インフルエンザ等対策行動計画",
+          "updatedAt": "2026年3月23日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1152584332134/index.html",
+          "status": 200,
+          "title": "出雲市地域防災計画",
+          "h1": "出雲市地域防災計画",
+          "updatedAt": "2026年3月23日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1275884781529/index.html",
+          "status": 200,
+          "title": "出雲市水防計画",
+          "h1": "出雲市水防計画",
+          "updatedAt": "2026年3月23日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1173749873321/index.html",
+          "status": 200,
+          "title": "出雲市国民保護計画",
+          "h1": "出雲市国民保護計画",
+          "updatedAt": "2026年3月23日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1363160821670/index.html",
+          "status": 200,
+          "title": "出雲市地域防災計画（原子力災害対策編）",
+          "h1": "出雲市地域防災計画（原子力災害対策編）",
+          "updatedAt": "2026年3月23日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1339487505608/index.html",
+          "status": 200,
+          "title": "原子力災害に備えた出雲市広域避難計画",
+          "h1": "原子力災害に備えた出雲市広域避難計画",
+          "updatedAt": "2025年10月21日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1278411740964/index.html",
+          "status": 200,
+          "title": "「出雲市安全で安心なまちづくり条例」",
+          "h1": "「出雲市安全で安心なまちづくり条例」",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1297051534592/index.html",
+          "status": 200,
+          "title": "災害協定",
+          "h1": "災害協定",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1297123817087/index.html",
+          "status": 200,
+          "title": "災害協定",
+          "h1": "災害協定",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1268375779874/index.html",
+          "status": 200,
+          "title": "災害キューナンホテル",
+          "h1": "災害キューナンホテル",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1639440918171/index.html",
+          "status": 200,
+          "title": "外国人の方へ",
+          "h1": "外国人の方へ",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1377478119909/index.html",
+          "status": 200,
+          "title": "防災（ぼうさい）や津波災害（つなみさいがい）についての情報（じょうほう）です【文化国際室】",
+          "h1": "防災（ぼうさい）や津波災害（つなみさいがい）についての情報（じょうほう）です【文化国際室】",
+          "updatedAt": "2025年1月8日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1536035641185/index.html",
+          "status": 200,
+          "title": "避難所一覧表（ひなんじょ いちらんひょう）英語版（えいご ばん）、ポルトガル語（ぽるとがるご ばん）について",
+          "h1": "避難所一覧表（ひなんじょ いちらんひょう）英語版（えいご ばん）、ポルトガル語（ぽるとがるご ばん）について",
+          "updatedAt": "2023年6月26日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1414106666083/index.html",
+          "status": 200,
+          "title": "原子力防災（げんしりょくぼうさい）のしおり（やさしい日本語（にほんご））【文化国際室】",
+          "h1": "原子力防災（げんしりょくぼうさい）のしおり（やさしい日本語（にほんご））【文化国際室】",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1394506046314/index.html",
+          "status": 200,
+          "title": "災害時に備えた「多言語表示シート」について【文化国際室】",
+          "h1": "災害時に備えた「多言語表示シート」について【文化国際室】",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1639440943463/index.html",
+          "status": 200,
+          "title": "要配慮者施設の避難確保計画",
+          "h1": "要配慮者施設の避難確保計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1548834927844/index.html",
+          "status": 200,
+          "title": "要配慮者利用施設の避難確保計画の作成・提出及び避難訓練の実施・報告について【防災安全課】",
+          "h1": "要配慮者利用施設の避難確保計画の作成・提出及び避難訓練の実施・報告について【防災安全課】",
+          "updatedAt": "2026年3月3日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1001000000010/index.html",
+          "status": 200,
+          "title": "安全・安心",
+          "h1": "安全・安心",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1294124270056/index.html",
+          "status": 200,
+          "title": "サイトの使い方",
+          "h1": "サイトの使い方",
+          "updatedAt": "2023年1月16日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1294124400951/index.html",
+          "status": 200,
+          "title": "個人情報の取り扱い",
+          "h1": "個人情報の取り扱い",
+          "updatedAt": "2023年4月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1294125067220/index.html",
+          "status": 200,
+          "title": "著作権・免責",
+          "h1": "著作権・免責",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1456994755857/index.html",
+          "status": 200,
+          "title": "ウェブアクセシビリティ方針",
+          "h1": "ウェブアクセシビリティ方針",
+          "updatedAt": "2023年2月28日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1756254284562/index.html",
+          "status": 200,
+          "title": "くらしの手続きガイド",
+          "h1": "くらしの手続きガイド",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1498011681114/index.html",
+          "status": 200,
+          "title": "『２０２４出雲市子育てガイドブック』について",
+          "h1": "『２０２４出雲市子育てガイドブック』について",
+          "updatedAt": "2024年7月5日",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1682915731578/index.html",
+          "status": 200,
+          "title": "出雲市がトキの放鳥候補地に選定！放鳥に向けたPR動画を公開",
+          "h1": "出雲市がトキの放鳥候補地に選定！放鳥に向けたPR動画を公開",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1731900627123/index.html",
+          "status": 200,
+          "title": "出雲市生涯学習講座のご案内",
+          "h1": "出雲市生涯学習講座のご案内",
+          "updatedAt": "2026年7月6日",
+          "keywordHits": [
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1762394945891/index.html",
+          "status": 200,
+          "title": "市公式ホームページから新たな出雲市空き家対策ウェブサイトへの移行について",
+          "h1": "市公式ホームページから新たな出雲市空き家対策ウェブサイトへの移行について",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1293688352210/index.html",
+          "status": 200,
+          "title": "手当・助成",
+          "h1": "手当・助成",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て",
+            "不妊",
+            "妊婦"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1683878061074/index.html",
+          "status": 200,
+          "title": "いずも学生登録ＬＩＮＥ「ジョブ・ナビIZUMO＋」の運用について",
+          "h1": "いずも学生登録ＬＩＮＥ「ジョブ・ナビIZUMO＋」の運用について",
+          "updatedAt": "2026年5月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 11,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1689819456947/index.html",
+          "status": 200,
+          "title": "出雲市同和教育講演会を開催します【人権同和政策課】&nbsp;",
+          "h1": "出雲市同和教育講演会を開催します【人権同和政策課】&nbsp;",
+          "updatedAt": "2026年7月17日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1782969867050/index.html",
+          "status": 200,
+          "title": "令和８年７月配布物&nbsp;",
+          "h1": "令和８年７月配布物&nbsp;",
+          "updatedAt": "2026年7月17日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1782967622777/index.html",
+          "status": 200,
+          "title": "広報いずも第329号（2026年8月号）",
+          "h1": "広報いずも第329号（2026年8月号）",
+          "updatedAt": "",
+          "keywordHits": [
+            "支援金",
+            "子育て",
+            "不妊"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1717562590013/index.html",
+          "status": 200,
+          "title": "介護人材確保・定着推進事業費補助金について【高齢者福祉課】",
+          "h1": "介護人材確保・定着推進事業費補助金について【高齢者福祉課】",
+          "updatedAt": "2026年7月16日",
+          "keywordHits": [
+            "補助金",
+            "奨励金",
+            "貸付",
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 26,
+          "candidatePriority": "strong",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1589784912977/index.html",
+          "status": 200,
+          "title": "「創業塾（基礎編）」参加者募集中！",
+          "h1": "「創業塾（基礎編）」参加者募集中！",
+          "updatedAt": "",
+          "keywordHits": [
+            "減免",
+            "創業",
+            "子育て"
+          ],
+          "candidateScore": 12,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1620368734043/index.html",
+          "status": 200,
+          "title": "あなたも児童クラブで働きませんか？",
+          "h1": "あなたも児童クラブで働きませんか？",
+          "updatedAt": "2026年7月16日",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1781831324757/index.html",
+          "status": 200,
+          "title": "タラソテラピー（海洋療法）施設「マリンタラソ出雲」の譲渡先を募集します",
+          "h1": "タラソテラピー（海洋療法）施設「マリンタラソ出雲」の譲渡先を募集します",
+          "updatedAt": "",
+          "keywordHits": [
+            "事業者",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1712717571719/index.html",
+          "status": 200,
+          "title": "市長とふれあいミーティング&nbsp;&nbsp;",
+          "h1": "市長とふれあいミーティング&nbsp;&nbsp;",
+          "updatedAt": "2026年7月15日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1341793994451/index.html",
+          "status": 200,
+          "title": "第３４回しまね景観賞の募集について【建築住宅課】",
+          "h1": "第３４回しまね景観賞の募集について【建築住宅課】",
+          "updatedAt": "2026年7月14日",
+          "keywordHits": [
+            "住宅",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179807224767/index.html",
+          "status": 200,
+          "title": "募集情報",
+          "h1": "募集情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "助成金",
+            "支援金",
+            "貸付",
+            "移住",
+            "住宅",
+            "創業",
+            "事業者",
+            "農業",
+            "水産",
+            "子育て",
+            "省エネ"
+          ],
+          "candidateScore": 17,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1000000000040/index.html",
+          "status": 200,
+          "title": "イベント情報",
+          "h1": "イベント情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "空き家",
+            "水産",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1716185093900/index.html",
+          "status": 200,
+          "title": "デジタル回覧板（自治会配布物）",
+          "h1": "デジタル回覧板（自治会配布物）",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1111651542010/index.html",
+          "status": 200,
+          "title": "コミュニティセンター",
+          "h1": "コミュニティセンター",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179799407115/index.html",
+          "status": 200,
+          "title": "市長の部屋",
+          "h1": "市長の部屋",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1322197911171/index.html",
+          "status": 200,
+          "title": "出雲市の概要",
+          "h1": "出雲市の概要",
+          "updatedAt": "2026年6月26日",
+          "keywordHits": [
+            "農業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179795216362/index.html",
+          "status": 200,
+          "title": "市役所・窓口案内",
+          "h1": "市役所・窓口案内",
+          "updatedAt": "平成31年4月1日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1000000000034/index.html",
+          "status": 200,
+          "title": "出雲市の計画",
+          "h1": "出雲市の計画",
+          "updatedAt": "",
+          "keywordHits": [
+            "空家",
+            "農業",
+            "福祉",
+            "子育て",
+            "耐震",
+            "通学"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1373507077251/index.html",
+          "status": 200,
+          "title": "出雲市職員採用情報",
+          "h1": "出雲市職員採用情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1373505271963/index.html",
+          "status": 200,
+          "title": "統計情報",
+          "h1": "統計情報",
+          "updatedAt": "",
+          "keywordHits": [
+            "林業",
+            "子育て"
+          ],
+          "candidateScore": 4,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1677032259996/index.html",
+          "status": 200,
+          "title": "広域連携",
+          "h1": "広域連携",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1348811067705/index.html",
+          "status": 200,
+          "title": "出雲市ソーシャルメディア利用公式アカウント一覧",
+          "h1": "出雲市ソーシャルメディア利用公式アカウント一覧",
+          "updatedAt": "2026年3月10日",
+          "keywordHits": [
+            "移住",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1233043919601/index.html",
+          "status": 200,
+          "title": "出雲市のパブリック・コメント",
+          "h1": "出雲市のパブリック・コメント",
+          "updatedAt": "2026年5月8日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/genre/1179795918458/index.html",
+          "status": 200,
+          "title": "市民の声",
+          "h1": "市民の声",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/link.html",
+          "status": 200,
+          "title": "関連リンク集",
+          "h1": "関連リンク集",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.izumo-enmusubi-promotion.jp/",
+          "status": 200,
+          "title": "出雲縁結びプロモーション いつも、いずも、いいね",
+          "h1": "出雲縁結びプロモーション いつも、いずも、いいね",
+          "updatedAt": "",
+          "keywordHits": [
+            "移住"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1540192753804/index.html",
+          "status": 200,
+          "title": "休日・夜間診療案内",
+          "h1": "休日・夜間診療案内",
+          "updatedAt": "2026年5月13日",
+          "keywordHits": [
+            "事業者",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 5,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://izumo-econavi.com/",
+          "status": 200,
+          "title": "出雲エコなび〜出雲市公式環境総合ウェブサイト",
+          "h1": "出雲エコなび〜出雲市公式環境総合ウェブサイト",
+          "updatedAt": "",
+          "keywordHits": [
+            "補助金",
+            "省エネ"
+          ],
+          "candidateScore": 8,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1683699286352/index.html",
+          "status": 200,
+          "title": "社会参加活動に取り組みませんか【高齢者向け】",
+          "h1": "社会参加活動に取り組みませんか【高齢者向け】",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://izumo-akiyataisaku.jp/",
+          "status": 200,
+          "title": "総合トップ",
+          "h1": "総合トップ",
+          "updatedAt": "",
+          "keywordHits": [
+            "住宅",
+            "空き家"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://izumo-kosodate.net/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "医療費助成",
+            "子育て"
+          ],
+          "candidateScore": 6,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1476410865642/index.html",
+          "status": 200,
+          "title": "出雲市周辺のお仕事探しにご利用ください",
+          "h1": "出雲市周辺のお仕事探しにご利用ください",
+          "updatedAt": "2026年5月1日",
+          "keywordHits": [
+            "農業",
+            "林業",
+            "福祉",
+            "子育て"
+          ],
+          "candidateScore": 3,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.city.izumo.shimane.jp/www/contents/1580886522849/index.html",
+          "status": 200,
+          "title": "リンク・著作権・免責事項について",
+          "h1": "リンク・著作権・免責事項について",
+          "updatedAt": "2023年4月26日",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.icmn.ac.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "福祉"
+          ],
+          "candidateScore": 0,
+          "candidatePriority": "low",
+          "contentType": "text/html; charset=UTF-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        },
+        {
+          "municipalityCode": "32203",
+          "municipalityName": "出雲市",
+          "sourceUrl": "https://www.coop-shimane.jp/",
+          "status": 200,
+          "title": "",
+          "h1": "",
+          "updatedAt": "",
+          "keywordHits": [
+            "子育て"
+          ],
+          "candidateScore": 2,
+          "candidatePriority": "low",
+          "contentType": "text/html;charset=utf-8",
+          "stage": "discovery",
+          "verificationStatus": "unverified"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.izumo.shimane.jp/",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/sitemap.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.izumo.shimane.jp/sitemap.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/sitemap_index.xml",
+          "status": 404,
+          "finalUrl": "https://www.city.izumo.shimane.jp/sitemap_index.xml",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/robots.txt",
+          "status": 404,
+          "finalUrl": "https://www.city.izumo.shimane.jp/robots.txt",
+          "ok": false
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179794616184/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179794616184/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/menu.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/menu.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179796073335/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796073335/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1293689908451/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1293689908451/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1001000000019/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1001000000019/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1684216527313/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1684216527313/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/news.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/news.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1000000000067/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1000000000067/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179796762906/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796762906/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179796787692/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796787692/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1001000000025/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1001000000025/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179822256365/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179822256365/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179821648646/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179821648646/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179823209509/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179823209509/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179796819391/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796819391/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179796872300/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796872300/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1293686478019/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1293686478019/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1000000000109/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1000000000109/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179814088744/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179814088744/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179795986515/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179795986515/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/window/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/window/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1001000000040/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1001000000040/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1001000000026/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1001000000026/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179796958796/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796958796/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179796034096/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796034096/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1294638006688/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1294638006688/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1487054520111/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1487054520111/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1000000000070/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1000000000070/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1663064503294/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1663064503294/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1117692391874/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1117692391874/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/sitemap.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/sitemap.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/topics.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/topics.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/rss/topics.rdf",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/rss/topics.rdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1782349074032/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1782349074032/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1782812752287/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1782812752287/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1782280029025/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1782280029025/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1776320254998/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1776320254998/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1756254284562/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1756254284562/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1492145240386/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1492145240386/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179794565042/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179794565042/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1683603741449/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1683603741449/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1435295602061/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1435295602061/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1001000000009/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1001000000009/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179796468764/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796468764/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179796401974/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796401974/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179796505859/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796505859/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179796537675/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179796537675/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179795183061/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179795183061/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1170224085438/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1170224085438/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1310088466534/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1310088466534/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1435287679465/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1435287679465/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1585809509886/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1585809509886/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1435315029502/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1435315029502/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1654833335404/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1654833335404/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1318472298145/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1318472298145/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1397528842102/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1397528842102/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1210039860594/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1210039860594/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1731896715881/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1731896715881/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1733897000511/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1733897000511/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1708409390126/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1708409390126/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1170224216678/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1170224216678/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1215158303157/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1215158303157/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1592220124625/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1592220124625/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1574731398196/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1574731398196/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1591747162995/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1591747162995/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1473404235416/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1473404235416/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179798573051/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179798573051/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1366858934184/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1366858934184/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1533014640724/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1533014640724/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1570767489787/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1570767489787/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1593398389550/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1593398389550/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1593416733277/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1593416733277/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1547776248126/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1547776248126/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1310701102352/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1310701102352/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1746706917425/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1746706917425/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1639440876750/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1639440876750/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1775009793125/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1775009793125/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1765936352691/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1765936352691/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1747038341678/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1747038341678/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1723178560561/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1723178560561/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1726633580255/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1726633580255/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1589452578561/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1589452578561/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1625735271073/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1625735271073/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1609820464366/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1609820464366/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1676515194288/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1676515194288/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1623803023091/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1623803023091/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1621419448005/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1621419448005/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1606370010155/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1606370010155/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1589504568342/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1589504568342/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1328856078152/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1328856078152/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1358734986123/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1358734986123/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1325028998568/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1325028998568/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1639440900838/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1639440900838/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1625980847569/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1625980847569/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1673929103309/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1673929103309/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1654659914380/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1654659914380/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1627384823089/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1627384823089/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1153637421263/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1153637421263/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1626240304051/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1626240304051/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1540192753804/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1540192753804/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179798600867/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179798600867/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1378211600607/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1378211600607/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1275887380589/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1275887380589/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1636603341121/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1636603341121/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1636604788139/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1636604788139/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1152584332134/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1152584332134/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1275884781529/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1275884781529/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1173749873321/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1173749873321/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1363160821670/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1363160821670/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1339487505608/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1339487505608/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1278411740964/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1278411740964/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1297051534592/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1297051534592/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1297123817087/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1297123817087/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1268375779874/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1268375779874/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1639440918171/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1639440918171/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1377478119909/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1377478119909/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1536035641185/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1536035641185/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1414106666083/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1414106666083/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1394506046314/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1394506046314/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1639440943463/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1639440943463/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1548834927844/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1548834927844/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1001000000010/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1001000000010/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1294124270056/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1294124270056/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1294124400951/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1294124400951/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1294125067220/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1294125067220/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1456994755857/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1456994755857/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://www.city.izumo.shimane.jp/www/contents/1756254284562/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1756254284562/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://www.city.izumo.shimane.jp/www/contents/1498011681114/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1498011681114/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://www.city.izumo.shimane.jp/www/contents/1682915731578/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1682915731578/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://www.city.izumo.shimane.jp/www/contents/1731900627123/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1731900627123/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://www.city.izumo.shimane.jp/www/contents/1762394945891/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1762394945891/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://www.city.izumo.shimane.jp/www/genre/1293688352210/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1293688352210/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://lin.ee/8K8UZic",
+          "status": 200,
+          "finalUrl": "https://page.line.me/813tlxyx?oat_content=url&openQrModal=true",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://www.city.izumo.shimane.jp/www/contents/1683878061074/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1683878061074/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1689819456947/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1689819456947/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1782969867050/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1782969867050/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1782967622777/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1782967622777/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1717562590013/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1717562590013/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1589784912977/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1589784912977/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/rss/news.rdf",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/rss/news.rdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1620368734043/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1620368734043/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1781831324757/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1781831324757/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1712717571719/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1712717571719/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1341793994451/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1341793994451/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179807224767/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179807224767/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/rss/bosyu.rdf",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/rss/bosyu.rdf",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1000000000040/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1000000000040/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1716185093900/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1716185093900/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1111651542010/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1111651542010/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179799407115/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179799407115/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1322197911171/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1322197911171/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179795216362/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179795216362/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1000000000034/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1000000000034/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1373507077251/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1373507077251/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1373505271963/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1373505271963/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1677032259996/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1677032259996/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1136507260132/index.html",
+          "status": 200,
+          "finalUrl": "https://www.izumocity-hp.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1348811067705/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1348811067705/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/contents/1233043919601/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1233043919601/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/www/genre/1179795918458/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/genre/1179795918458/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://www.city.izumo.shimane.jp/www/link.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/link.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://www.izumo-enmusubi-promotion.jp/",
+          "status": 200,
+          "finalUrl": "https://www.izumo-enmusubi-promotion.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://www.city.izumo.shimane.jp/www/contents/1540192753804/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1540192753804/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://shinkoukai.shimane-ssjk.jp/pick-up/3",
+          "status": 200,
+          "finalUrl": "https://takarakuji-shimane.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://izumo.mypl.net/",
+          "status": 200,
+          "finalUrl": "https://izumo.mypl.net/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://izumo-econavi.com/",
+          "status": 200,
+          "finalUrl": "https://izumo-econavi.com/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://www.city.izumo.shimane.jp/www/contents/1683699286352/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1683699286352/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://izumo-akiyataisaku.jp/",
+          "status": 200,
+          "finalUrl": "https://izumo-akiyataisaku.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://izumo-kosodate.net/",
+          "status": 200,
+          "finalUrl": "https://izumo-kosodate.net/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?http://www.city.izumo.shimane.jp/www/contents/1476410865642/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1476410865642/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?http://www.city.izumo.shimane.jp/www/contents/1580886522849/index.html",
+          "status": 200,
+          "finalUrl": "https://www.city.izumo.shimane.jp/www/contents/1580886522849/index.html",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://www.icmn.ac.jp/",
+          "status": 200,
+          "finalUrl": "https://www.icmn.ac.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://sanin-lc.jp/",
+          "status": 200,
+          "finalUrl": "https://sanin-lc.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://www.coop-shimane.jp/",
+          "status": 200,
+          "finalUrl": "https://www.coop-shimane.jp/",
+          "ok": true
+        },
+        {
+          "url": "https://www.city.izumo.shimane.jp/cgi-bin/jump.cgi?https://gochisomall.com/?utm_source=izumo&amp;utm_medium=banner",
+          "status": 200,
+          "finalUrl": "https://gochisomall.com/?utm_source=izumo&amp;utm_medium=banner",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

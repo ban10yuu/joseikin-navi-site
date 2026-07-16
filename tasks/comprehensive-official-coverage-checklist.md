@@ -10746,3 +10746,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19641、officialLinkedActive 19520、manuallyVerifiedActive 19520、鳥取県 localOfficial 433）
 - 到達点: 鳥取県は31201鳥取市から31403江府町まで第1巡完了。全国公式棚卸しは未完了
 - 次回: 島根県公式棚卸し001として、32201松江市から再開
+
+
+### 島根県公式棚卸し001（32201松江市・32202浜田市・32203出雲市・32204益田市・32205大田市）
+- 実施日: 2026-07-17
+- 候補: 459件（公式サイト内リンクリード1071件、ユニークリード684件、本文再スコア後に個別公式ページ70本を採用）
+- 採用: 70件（松江市10件、浜田市20件、出雲市20件、益田市8件、大田市12件）
+- 公式URL: 採用URL到達確認は tasks/discovery/shimane-official-coverage-001-url-status.txt に記録（70本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、PDF/申請書単体、報告ページ、注意喚起、同内容の重複ページ、本文根拠が薄い候補は第2巡候補として保持。益田市は通常候補がカテゴリに偏ったため、カテゴリ内公式個別制度リンクを補完して採用
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19711、officialLinkedActive 19590、manuallyVerifiedActive 19590、島根県 localOfficial 151）
+- 到達点: 島根県は32201松江市から32205大田市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 島根県公式棚卸し002として、32206安来市から再開
