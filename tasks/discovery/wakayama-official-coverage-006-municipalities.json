@@ -1,0 +1,36 @@
+{
+  "batchId": "wakayama-official-coverage-006",
+  "prefecture": "和歌山県",
+  "municipalities": [
+    {
+      "code": "30421",
+      "name": "那智勝浦町",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.town.nachikatsuura.wakayama.jp/"
+    },
+    {
+      "code": "30422",
+      "name": "太地町",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.town.taiji.wakayama.jp/"
+    },
+    {
+      "code": "30424",
+      "name": "古座川町",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.town.kozagawa.lg.jp/"
+    },
+    {
+      "code": "30427",
+      "name": "北山村",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.vill.kitayama.wakayama.jp/"
+    },
+    {
+      "code": "30428",
+      "name": "串本町",
+      "prefecture": "和歌山県",
+      "officialBaseUrl": "https://www.town.kushimoto.wakayama.jp/"
+    }
+  ]
+}

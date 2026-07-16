@@ -10696,3 +10696,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19201、officialLinkedActive 19080、manuallyVerifiedActive 19080、和歌山県 localOfficial 440）
 - 到達点: 和歌山県は30201和歌山市から30406すさみ町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 和歌山県公式棚卸し006として、30421那智勝浦町から再開
+
+### 和歌山県公式棚卸し006（30421那智勝浦町・30422太地町・30424古座川町・30427北山村・30428串本町）
+- 実施日: 2026-07-17
+- 候補: 1103件（公式サイト内リンクリード4979件、本文再スコア採択候補128件、採用URL85本）
+- 採用: 85件（那智勝浦町19件、太地町21件、古座川町7件、北山村17件、串本町21件）
+- 公式URL: 採用URL到達確認は tasks/discovery/wakayama-official-coverage-006-url-status.txt に記録（85本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、申請書PDF単体、採択結果、注意喚起、取扱店募集のみ、職員募集、観光・寄附、本文根拠が薄い候補は第2巡候補として保持。古座川町は個別制度ページが少ないため、公式の制度掲載ページ単位で採用
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 19286、officialLinkedActive 19165、manuallyVerifiedActive 19165、和歌山県 localOfficial 525）
+- 到達点: 和歌山県は30201和歌山市から30428串本町まで第1巡完了。全国公式棚卸しは未完了
+- 次回: 鳥取県公式棚卸し001として、31201鳥取市から再開
