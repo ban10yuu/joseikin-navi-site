@@ -44,7 +44,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const sourceStatus = getGrantSourceStatus(grant);
   const expired = isGrantExpired(grant);
   const title = expired ? `${grant.title}｜受付状況・次回募集の確認先` : `${grant.title}｜対象・金額・申請期限`;
-  const deadline = grant.applicationPeriod || '申請期限は公式情報で確認';
+  const eligibility = (grant.eligibility || '公式情報で確認').replace(/[。．]+$/u, '');
+  const deadline = (grant.applicationPeriod || '申請期限は公式情報で確認').replace(/[。．]+$/u, '');
   const checked = !hasOfficialSource(grant)
     ? '公式情報の確認先は未登録'
     : grant.verifiedAt
@@ -52,7 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       : '公式情報の確認先を掲載';
   const description = (!hasOfficialSource(grant)
     ? `${grant.title}（${grant.organization}）。公式情報の確認先は未登録です。掲載内容だけで制度の存在や対象可否を判断せず、実施機関へご確認ください。`
-    : `${grant.title}（${grant.organization}）の主な対象は${grant.eligibility || '公式情報で確認'}。支援内容は${grant.maxAmount}、${deadline}。${checked}。`
+    : `${grant.title}（${grant.organization}）の主な対象は${eligibility}。支援内容は${grant.maxAmount}、${deadline}。${checked}。`
   ).slice(0, 140);
   return {
     title,

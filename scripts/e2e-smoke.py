@@ -174,6 +174,7 @@ with sync_playwright() as playwright:
     check(sensitive_impression.count() == 1, '個人向け・医療系の制度詳細にPR枠が1件表示されません')
     check(sensitive_impression.get_attribute('data-audience') in ('individual', 'family'), '個人向け制度の代表ページを検証できていません')
     check(sensitive_impression.get_attribute('data-purpose') == 'medical', '医療系制度の代表ページを検証できていません')
+    check(sensitive.locator('.grant-summary-eligibility-list li').count() >= 2, '要約カードの主な対象者が箇条書きになっていません')
     check(len(sensitive_errors) == 0, f'個人向け・医療系制度: console error {sensitive_errors}')
     sensitive.close()
 

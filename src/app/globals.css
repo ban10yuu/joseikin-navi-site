@@ -1706,6 +1706,17 @@ body {
   line-height: 1.65;
 }
 
+.grant-summary-eligibility-list {
+  display: grid;
+  gap: 0.35rem;
+  padding-inline-start: 1.15rem;
+  list-style: disc;
+}
+
+.grant-summary-eligibility-list li {
+  padding-inline-start: 0.15rem;
+}
+
 .grant-summary-facts .is-amount dd {
   color: #1e478a;
   font-size: 1.25rem;

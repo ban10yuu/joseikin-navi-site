@@ -1,5 +1,5 @@
 import { CATEGORY_LABELS, Grant, SUPPORT_TYPE_LABELS, TYPE_LABELS } from '@/lib/types';
-import { formatVerifiedDate } from '@/lib/grant-presentation';
+import { formatVerifiedDate, splitEligibilityText } from '@/lib/grant-presentation';
 import {
   getEffectiveGrantStatus,
   GRANT_STATUS_LABELS,
@@ -21,6 +21,7 @@ export default function GrantDecisionSummary({
   const status = getEffectiveGrantStatus(grant);
   const isClosed = expired || status === 'closed';
   const isLoan = isRepayableSupport(grant.supportType);
+  const eligibilityItems = splitEligibilityText(grant.eligibility);
 
   return (
     <header className="grant-decision-summary">
@@ -53,7 +54,13 @@ export default function GrantDecisionSummary({
         </div>
         <div>
           <dt>主な対象者</dt>
-          <dd>{grant.eligibility || '公式募集要項で確認'}</dd>
+          <dd>
+            {eligibilityItems.length > 0 ? (
+              <ul className="grant-summary-eligibility-list">
+                {eligibilityItems.map((item) => <li key={item}>{item}</li>)}
+              </ul>
+            ) : '公式募集要項で確認'}
+          </dd>
         </div>
         <div>
           <dt>対象地域</dt>
