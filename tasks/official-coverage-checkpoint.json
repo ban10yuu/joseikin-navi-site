@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-16T20:51:00+09:00",
+  "updatedAt": "2026-07-16T21:55:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nara-official-coverage-003",
-    "municipality": "香芝市・葛城市・宇陀市・山添村・平群町",
-    "adopted": 60,
+    "code": "nara-official-coverage-004",
+    "municipality": "三郷町・斑鳩町・安堵町・川西町・三宅町",
+    "adopted": 75,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 60,
+    "sourceUrlsChecked": 75,
     "validation": {
-      "previousMunicipality": "奈良県公式棚卸し003として29210香芝市・29211葛城市・29212宇陀市・29322山添村・29342平群町を確認し60件を採用。全国公式棚卸しは未完了。",
+      "previousMunicipality": "奈良県公式棚卸し004として29343三郷町・29344斑鳩町・29345安堵町・29361川西町・29362三宅町を確認し75件を採用。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for nara-official-coverage-003 JSON files",
-      "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 60 adopted official URLs returned HTTP 200 by check-grant-source-urls (宇陀市公式サイトはTLS証明書検証で失敗するため到達確認時のみNODE_TLS_REJECT_UNAUTHORIZED=0)",
+      "json": "pass: JSON.parse for nara-official-coverage-004 JSON files",
+      "addedSlugUniqueness": "pass: 75 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 75 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 18414, officialLinkedActive 18293, manuallyVerifiedActive 18293, 奈良県 localOfficial 190)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 18489, officialLinkedActive 18368, manuallyVerifiedActive 18368, 奈良県 localOfficial 265)"
     }
   },
   "next": {
-    "code": "nara-official-coverage-004",
-    "municipality": "三郷町",
-    "shortlist": "奈良県003は香芝市15件、葛城市15件、宇陀市7件、山添村5件、平群町18件を採用した。通常クロール1555候補に加え公式サイト内リンクリード6892件を抽出し、再スコア結果2347件からカテゴリ導線、申請書単体、終了ページ、寄附・観光、プロポーザルを除き個別制度ページ60件へ絞った。宇陀市公式サイトはNodeのTLS証明書検証で失敗するため、到達確認時のみTLS検証を無効化した。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、奈良県公式棚卸し004として29343三郷町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "nara-official-coverage-005",
+    "municipality": "田原本町",
+    "shortlist": "奈良県004は三郷町15件、斑鳩町18件、安堵町15件、川西町15件、三宅町12件を採用した。通常クロール1762候補に加え公式サイト内リンクリード19517件を抽出し、RSS、カテゴリ導線、添付ファイル単体、終了ページ、寄附・観光、プロポーザルを除き個別制度ページ75件へ絞った。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、奈良県公式棚卸し005として29363田原本町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "奈良県",
     "status": "in-progress-first-pass",
-    "lastBatch": "nara-official-coverage-003",
-    "notes": "奈良県公式棚卸し003で29210香芝市・29211葛城市・29212宇陀市・29322山添村・29342平群町を確認し、60件を新規採用した。奈良県は29201奈良市から29342平群町まで第1巡到達。次は29343三郷町から再開する。"
+    "lastBatch": "nara-official-coverage-004",
+    "notes": "奈良県公式棚卸し004で29343三郷町・29344斑鳩町・29345安堵町・29361川西町・29362三宅町を確認し、75件を新規採用した。奈良県は29201奈良市から29362三宅町まで第1巡到達。次は29363田原本町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

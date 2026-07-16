@@ -10595,3 +10595,14 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18414、officialLinkedActive 18293、manuallyVerifiedActive 18293、奈良県 localOfficial 190）
 - 到達点: 奈良県は29201奈良市から29342平群町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 奈良県公式棚卸し004として、29343三郷町から再開
+
+
+### 奈良県公式棚卸し004（29343三郷町・29344斑鳩町・29345安堵町・29361川西町・29362三宅町）
+- 実施日: 2026-07-16
+- 候補: 1762件（公式サイト内リンクリード19517件、本文再スコア後に個別公式ページ75本を採用）
+- 採用: 75件（三郷町15件、斑鳩町18件、安堵町15件、川西町15件、三宅町12件）
+- 公式URL: 採用URL到達確認は tasks/discovery/nara-official-coverage-004-url-status.txt に記録（75本すべてHTTP 200）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。RSS、カテゴリ導線、申請書添付単体、受付終了のみ、寄附・観光、職員募集、プロポーザル、本文根拠が薄い候補は第2巡候補として保持。斑鳩町・安堵町・三宅町は自動本文判定が添付ファイルへ寄ったため、公式HTML個別ページの候補上位から採用対象を補完
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18489、officialLinkedActive 18368、manuallyVerifiedActive 18368、奈良県 localOfficial 265）
+- 到達点: 奈良県は29201奈良市から29362三宅町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 奈良県公式棚卸し005として、29363田原本町から再開
