@@ -10939,3 +10939,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 21195、officialLinkedActive 21074、manuallyVerifiedActive 21074、山口県 localOfficial 369）
 - 到達点: 山口県は35201下関市から35502阿武町まで第1巡完了。全国公式棚卸しは未完了
 - 次回: 徳島県公式棚卸し001として、36201徳島市から再開
+
+### 徳島県公式棚卸し001（36201徳島市・36202鳴門市・36203小松島市・36204阿南市・36205吉野川市）
+- 実施日: 2026-07-17
+- 候補: 標準discoverは0件。公式カテゴリページ、公式sitemap本文スキャン、公式制度一覧ページ、公式検索結果、既存公式確認URL周辺、本文スニペット再スコアから、公式HTML個別制度ページ・公式制度掲載ページ75本を採用
+- 採用: 75件（徳島市20件、鳴門市14件、小松島市15件、阿南市9件、吉野川市17件）
+- 公式URL: 採用URL到達確認は tasks/discovery/tokushima-official-coverage-001-url-status.txt に記録（75本すべてHTTP 200）
+- 保留: 標準discoverが0件で、徳島市は手当・補助金、妊娠出産、医療費助成、産業支援カテゴリ、鳴門市は子ども家庭支援・妊娠出産支援・障がい者支援カテゴリ、小松島市は子育て応援サイトと経営支援カテゴリ、阿南市はエコノミックガーデニング・下水道助成・暮らし制度ページ、吉野川市は公式sitemap本文スコアを起点に確認。トップ、カテゴリ導線、共通ナビ、FAQ、申請書・PDF単体、広報・報告・相談・外部制度のみ、同一制度の重複ページは第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 21270、officialLinkedActive 21149、manuallyVerifiedActive 21149、徳島県 localOfficial 122）
+- 到達点: 徳島県は36201徳島市から36205吉野川市まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 徳島県公式棚卸し002として、36206阿波市から再開

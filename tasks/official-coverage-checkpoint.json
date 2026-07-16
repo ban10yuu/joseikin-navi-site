@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T07:55:00+09:00",
+  "updatedAt": "2026-07-17T08:35:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "yamaguchi-official-coverage-004",
-    "municipality": "上関町・田布施町・平生町・阿武町",
-    "adopted": 53,
+    "code": "tokushima-official-coverage-001",
+    "municipality": "徳島市・鳴門市・小松島市・阿南市・吉野川市",
+    "adopted": 75,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 53,
+    "sourceUrlsChecked": 75,
     "validation": {
-      "previousMunicipality": "山口県公式棚卸し004として35341上関町・35343田布施町・35344平生町・35502阿武町を確認し53件を採用。山口県第1巡は完了。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/yamaguchi-official-coverage-004 build/gather scripts",
-      "json": "pass: JSON.parse for yamaguchi-official-coverage-004 JSON files",
-      "addedSlugUniqueness": "pass: 53 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 53 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "previousMunicipality": "徳島県公式棚卸し001として36201徳島市・36202鳴門市・36203小松島市・36204阿南市・36205吉野川市を確認し75件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/tokushima-official-coverage-001 build script",
+      "json": "pass: JSON.parse for tokushima-official-coverage-001 JSON files",
+      "addedSlugUniqueness": "pass: 75 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 75 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 21195、officialLinkedActive 21074、manuallyVerifiedActive 21074、山口県 localOfficial 369)",
-      "notes": "標準discoverは0件。公式カテゴリページ、公式制度一覧ページ、公式検索結果、公式サイト内リンク、公式sitemap到達確認を補完。トップ、カテゴリ導線、共通ナビ、FAQ、申請書・PDF単体、広報・報告・相談・外部制度のみ、同一制度の重複ページは第2巡候補に保持した。"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 21270、officialLinkedActive 21149、manuallyVerifiedActive 21149、徳島県 localOfficial 122)",
+      "notes": "標準discoverは0件。公式カテゴリページ、公式sitemap本文スキャン、公式制度一覧ページ、公式検索結果、既存公式確認URL周辺、本文スニペット再スコアを補完。トップ、カテゴリ導線、共通ナビ、FAQ、申請書・PDF単体、広報・報告・相談・外部制度のみ、同一制度の重複ページは第2巡候補に保持した。"
     }
   },
   "next": {
-    "code": "tokushima-official-coverage-001",
-    "municipality": "徳島市",
-    "shortlist": "山口県004で上関町・田布施町・平生町・阿武町を確認し、山口県第1巡を完了。次は徳島県の自治体コード順で36201徳島市から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、徳島県公式棚卸し001として36201徳島市を開始地点に自治体コード順で再開する。想定対象は36201徳島市・36202鳴門市・36203小松島市・36204阿南市・36205吉野川市。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "tokushima-official-coverage-002",
+    "municipality": "阿波市",
+    "shortlist": "徳島県001で徳島市・鳴門市・小松島市・阿南市・吉野川市を確認。次は徳島県の自治体コード順で36206阿波市から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、徳島県公式棚卸し002として36206阿波市を開始地点に自治体コード順で再開する。想定対象は36206阿波市・36207美馬市・36208三好市・36301勝浦町・36302上勝町。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "山口県",
-    "status": "completed-first-pass",
-    "lastBatch": "yamaguchi-official-coverage-004",
-    "notes": "山口県公式棚卸し004で35341上関町・35343田布施町・35344平生町・35502阿武町を確認し、53件を新規採用。山口県第1巡は完了。次は徳島県36201徳島市から再開する。"
+    "prefecture": "徳島県",
+    "status": "in-progress-first-pass",
+    "lastBatch": "tokushima-official-coverage-001",
+    "notes": "徳島県公式棚卸し001で36201徳島市・36202鳴門市・36203小松島市・36204阿南市・36205吉野川市を確認し、75件を新規採用。次は36206阿波市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

@@ -1,0 +1,1146 @@
+const tokushimaOfficial001Grants: Array<{
+  slug: string;
+  title: string;
+  organization: string;
+  maxAmount: string;
+  maxAmountNum: number;
+  category: Grant['category'];
+  relatedCategories?: Grant['relatedCategories'];
+  eligibility: string;
+  applicationPeriod: string;
+  officialUrl: string;
+  sourceName: string;
+}> = [
+  {
+    "slug": "tokushima-official-001-001-2026",
+    "title": "徳島市 徳島市物価高騰対応定額給付金",
+    "organization": "徳島市",
+    "maxAmount": "1人あたり5,000円",
+    "maxAmountNum": 5000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "徳島市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月10日 交付金（令和7年11月21日閣議決定、令和7年12月16日補正予算成立）を活用 した給付金の支給を行います",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kurashi/kyufu/tokushimashibukka.html",
+    "sourceName": "徳島市物価高騰対応定額給付金"
+  },
+  {
+    "slug": "tokushima-official-001-002-2026",
+    "title": "徳島市 妊婦のための支援給付金事業",
+    "organization": "徳島市",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "employment",
+      "living"
+    ],
+    "eligibility": "徳島市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年5月29日 提出物等 申請締切 （1） 1回目支援給付金 原則妊娠届出日から5か月以内 （2） 2回目支援給付金 原則出生児が5か月に達する日の前日まで 申請者の本人確認について 窓口で申請の際には本人確認書類を提示してください",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kosodate/ninshin/ninshin_wa/kyuufukinn.html",
+    "sourceName": "妊婦のための支援給付金事業"
+  },
+  {
+    "slug": "tokushima-official-001-003-2026",
+    "title": "徳島市 児童手当",
+    "organization": "徳島市",
+    "maxAmount": "月額児童1人あたりの支給月額児童の年齢児童手当の額（一人あたりの月額）3歳未満15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "徳島市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年2月5日 支給）の児童手当から変更となります",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kosodate/ikuji/jidoteate/jite_seido.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "tokushima-official-001-004-2026",
+    "title": "徳島市 児童扶養手当",
+    "organization": "徳島市",
+    "maxAmount": "月額（令和8年4月分から）対象児童数全部支給一部支給1人目（本体額）48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "徳島市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 支給し、児童の福祉の増進を図ることを目的とした制度です",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kosodate/ikuji/hitorioya_shien/jidofuyou_teate.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "tokushima-official-001-005-2026",
+    "title": "徳島市 特別児童扶養手当",
+    "organization": "徳島市",
+    "maxAmount": "限度額に10万円",
+    "maxAmountNum": 100000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "徳島市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 請求月の翌月分から支給し、障害児の生活の向上に寄与するものです",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kosodate/ikuji/keizai_shien/tokubetsu_fuyo.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "tokushima-official-001-006-2026",
+    "title": "徳島市 障害児福祉手当",
+    "organization": "徳島市",
+    "maxAmount": "月額16,560円",
+    "maxAmountNum": 16560,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "徳島市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 支給認定にあたっては、上記の障害程度の認定のほか、在宅重度障害児本人およびその障害児と同一住所に居住する最多収入者（扶養義務者）の所得制限があります",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kenko_fukushi/shogai_fukushi/kyuufu/fukushi_teate.html",
+    "sourceName": "障害児福祉手当"
+  },
+  {
+    "slug": "tokushima-official-001-007-2026",
+    "title": "徳島市 未熟児養育医療",
+    "organization": "徳島市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "徳島市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2021年4月1日 申請方法について 申請に必要な書類は子ども健康課窓口にありますので、事前に子ども健康課までお問い合わせください",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kosodate/ikuji/keizai_shien/mijuku_kyufu.html",
+    "sourceName": "未熟児養育医療"
+  },
+  {
+    "slug": "tokushima-official-001-008-2026",
+    "title": "徳島市 徳島市ひまわり家族応援事業",
+    "organization": "徳島市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "徳島市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 申請用紙や受診証明書等、書類の変更もありますので、 今回申請される不妊治療の治療開始日 （公的医療保険適用の生殖補助医療を行うための治療計画の作成を受けた日） を確認のうえ 、書類を準備してください",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kosodate/ninshin/ninshin_josei/funinchiryou.html",
+    "sourceName": "徳島市ひまわり家族応援事業"
+  },
+  {
+    "slug": "tokushima-official-001-009-2026",
+    "title": "徳島市 令和7年4月1日以降に開始した不妊治療に対する助成",
+    "organization": "徳島市",
+    "maxAmount": "上限金額生殖補助医療（体外受精・顕微授精等の治療）の保険適用分の自己負担分（高額療養費及び付加給付の額を控除した額）1回の治療につき上限10万円",
+    "maxAmountNum": 100000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "徳島市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和7年4月1日 申請は 治療終了日から9か月以内 となっています",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kosodate/ninshin/ninshin_josei/infertilitytreatmen2.html",
+    "sourceName": "令和7年4月1日以降に開始した不妊治療に対する助成"
+  },
+  {
+    "slug": "tokushima-official-001-010-2026",
+    "title": "徳島市 徳島市不育症治療費助成事業",
+    "organization": "徳島市",
+    "maxAmount": "上限額検査および治療に要した費用の自己負担額全額（上限5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "徳島市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請は 治療等終了日から9か月以内 となっていますのでご注意ください",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kosodate/ninshin/ninshin_josei/huikushoutiryoujosei.html",
+    "sourceName": "徳島市不育症治療費助成事業"
+  },
+  {
+    "slug": "tokushima-official-001-011-2026",
+    "title": "徳島市 子ども医療費助成制度",
+    "organization": "徳島市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "徳島市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年12月26日 交付を受ける必要があります",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kosodate/ikuji/kodomoiryohi_josei/shosai.html",
+    "sourceName": "子ども医療費助成制度"
+  },
+  {
+    "slug": "tokushima-official-001-012-2026",
+    "title": "徳島市 ひとり親家庭等医療費の助成",
+    "organization": "徳島市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "徳島市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年5月21日 支給されている方等の理由で児童扶養手当を受け取っていない方でも対象となる場合があります",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kosodate/ikuji/hitorioya_shien/iryohi_josei.html",
+    "sourceName": "ひとり親家庭等医療費の助成"
+  },
+  {
+    "slug": "tokushima-official-001-013-2026",
+    "title": "徳島市 自立支援医療費（育成医療）の給付",
+    "organization": "徳島市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "徳島市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年12月6日 申請に必要なもの 自立支援医療費（育成医療）支給認定申請書 マイナンバー確認書類 健康保険の資格情報がわかる書類（資格確認書、資格情報のお知らせまたは健康保険証（有効期間内のものに限る",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kenko_fukushi/josei_kyufu/ikusei_iryo.html",
+    "sourceName": "自立支援医療費（育成医療）の給付"
+  },
+  {
+    "slug": "tokushima-official-001-014-2026",
+    "title": "徳島市 重度心身障害者等医療費の助成",
+    "organization": "徳島市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "徳島市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年2月1日 申請に必要なもの 重度心身障害者医療費助成認定申請書 健康保険の資格情報がわかる書類（資格確認書、資格情報のお知らせまたは健康保険証（有効期限内のものに限る",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kenko_fukushi/josei_kyufu/judo_josei.html",
+    "sourceName": "重度心身障害者等医療費の助成"
+  },
+  {
+    "slug": "tokushima-official-001-015-2026",
+    "title": "徳島市 令和8年度合併処理浄化槽への転換補助",
+    "organization": "徳島市",
+    "maxAmount": "最大20万円",
+    "maxAmountNum": 200000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "徳島市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月26日 申請の 受付は終了 しました",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kurashi/kankyou_eisei/jokasou/R8zyokasouhozyo.html",
+    "sourceName": "令和8年度合併処理浄化槽への転換補助"
+  },
+  {
+    "slug": "tokushima-official-001-016-2026",
+    "title": "徳島市 徳島市住宅リフォーム支援事業",
+    "organization": "徳島市",
+    "maxAmount": "補助額は12万円",
+    "maxAmountNum": 120000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "徳島市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年7月13日 募集について 下記の期間で、追加募集を行います",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kurashi/house/house_keikaku/jyutaku_reform.html",
+    "sourceName": "徳島市住宅リフォーム支援事業"
+  },
+  {
+    "slug": "tokushima-official-001-017-2026",
+    "title": "徳島市 徳島市創業促進事業補助金",
+    "organization": "徳島市",
+    "maxAmount": "補助金額と補助率上限額と補助率経費項目上限額補助率・創業に必要な官公庁への申請書類作成等に係る費用・広報活動費・店舗等借入費・設備費30万円",
+    "maxAmountNum": 300000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "徳島市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月22日 募集：徳島市公式ウェブサイト 徳島市ホームページではJavaScriptを使用しています",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/shisei/keizai/jigyosha/sogyokigyo_shien/sougyouhojokinn.html",
+    "sourceName": "徳島市創業促進事業補助金"
+  },
+  {
+    "slug": "tokushima-official-001-018-2026",
+    "title": "徳島市 徳島市中小企業等人材確保・育成支援事業補助金",
+    "organization": "徳島市",
+    "maxAmount": "上限額と補助率項目上限額補助率委託料・会場使用料・受講料・機械器具使用料・講師謝礼・交通費・広報費・宿泊費上限10万円",
+    "maxAmountNum": 100000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "徳島市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月14日 募集：徳島市公式ウェブサイト 徳島市ホームページではJavaScriptを使用しています",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/shisei/keizai/jigyosha/tyusyokigyo/jinzai_shien/chushou_ikusei.html",
+    "sourceName": "徳島市中小企業等人材確保・育成支援事業補助金"
+  },
+  {
+    "slug": "tokushima-official-001-019-2026",
+    "title": "徳島市 徳島市中小企業販路拡大支援事業補助金",
+    "organization": "徳島市",
+    "maxAmount": "限度額）50万円",
+    "maxAmountNum": 500000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "徳島市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年6月3日 募集：徳島市公式ウェブサイト 徳島市ホームページではJavaScriptを使用しています",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/shisei/keizai/jigyosha/tyusyokigyo/hanrokakudai/hanro_shien.html",
+    "sourceName": "徳島市中小企業販路拡大支援事業補助金"
+  },
+  {
+    "slug": "tokushima-official-001-020-2026",
+    "title": "徳島市 徳島市奨学金",
+    "organization": "徳島市",
+    "maxAmount": "月額）県内大学20人以内20,000円",
+    "maxAmountNum": 20000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "徳島市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月20日 申請できます",
+    "officialUrl": "https://www.city.tokushima.tokushima.jp/kosodate/ikuji/keizai_shien/daigaku_shogaku.html",
+    "sourceName": "徳島市奨学金"
+  },
+  {
+    "slug": "tokushima-official-001-021-2026",
+    "title": "鳴門市 児童手当",
+    "organization": "鳴門市",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "鳴門市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年12月15日 提出について 市政の情報 鳴門市の紹介 市役所・施設案内 広報 職員募集 鳴門の未来を考えよう 市が考える鳴門 市の財政 情報公開・個人情報保護 監査 人権・男女共同参画 選挙 企業局 安全・安心 いざというときに 防災・災",
+    "officialUrl": "https://www.city.naruto.lg.jp/docs/2025121500022/",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "tokushima-official-001-022-2026",
+    "title": "鳴門市 養育医療給付制度",
+    "organization": "鳴門市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "鳴門市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年06月26日 提出について 市政の情報 鳴門市の紹介 市役所・施設案内 広報 職員募集 鳴門の未来を考えよう 市が考える鳴門 市の財政 情報公開・個人情報保護 監査 人権・男女共同参画 選挙 企業局 安全・安心 いざというときに 防災・災",
+    "officialUrl": "https://www.city.naruto.lg.jp/docs/2025062600027/",
+    "sourceName": "養育医療給付制度"
+  },
+  {
+    "slug": "tokushima-official-001-023-2026",
+    "title": "鳴門市 子どもはぐくみ医療費助成制度",
+    "organization": "鳴門市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "鳴門市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年12月19日 提出について 市政の情報 鳴門市の紹介 市役所・施設案内 広報 職員募集 鳴門の未来を考えよう 市が考える鳴門 市の財政 情報公開・個人情報保護 監査 人権・男女共同参画 選挙 企業局 安全・安心 いざというときに 防災・災",
+    "officialUrl": "https://www.city.naruto.lg.jp/docs/2024121900016/",
+    "sourceName": "子どもはぐくみ医療費助成制度"
+  },
+  {
+    "slug": "tokushima-official-001-024-2026",
+    "title": "鳴門市 小児医療給付制度",
+    "organization": "鳴門市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "鳴門市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年04月25日 提出について 市政の情報 鳴門市の紹介 市役所・施設案内 広報 職員募集 鳴門の未来を考えよう 市が考える鳴門 市の財政 情報公開・個人情報保護 監査 人権・男女共同参画 選挙 企業局 安全・安心 いざというときに 防災・災",
+    "officialUrl": "https://www.city.naruto.lg.jp/docs/2024042501491/",
+    "sourceName": "小児医療給付制度"
+  },
+  {
+    "slug": "tokushima-official-001-025-2026",
+    "title": "鳴門市 ひとり親家庭等生活支援給付金事業",
+    "organization": "鳴門市",
+    "maxAmount": "支給額児童１人につき２万円",
+    "maxAmountNum": 20000,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "鳴門市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年03月17日 提出について 市政の情報 鳴門市の紹介 市役所・施設案内 広報 職員募集 鳴門の未来を考えよう 市が考える鳴門 市の財政 情報公開・個人情報保護 監査 人権・男女共同参画 選挙 企業局 安全・安心 いざというときに 防災・災",
+    "officialUrl": "https://www.city.naruto.lg.jp/docs/2026031000121/",
+    "sourceName": "ひとり親家庭等生活支援給付金事業"
+  },
+  {
+    "slug": "tokushima-official-001-026-2026",
+    "title": "鳴門市 ひとり親家庭支援",
+    "organization": "鳴門市",
+    "maxAmount": "支給額受講開始時給付金受講のために支払った費用の40％に相当する額（上限10万円",
+    "maxAmountNum": 100000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "鳴門市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年10月01日 提出について 市政の情報 鳴門市の紹介 市役所・施設案内 広報 職員募集 鳴門の未来を考えよう 市が考える鳴門 市の財政 情報公開・個人情報保護 監査 人権・男女共同参画 選挙 企業局 安全・安心 いざというときに 防災・災",
+    "officialUrl": "https://www.city.naruto.lg.jp/docs/2025100100038/",
+    "sourceName": "ひとり親家庭支援"
+  },
+  {
+    "slug": "tokushima-official-001-027-2026",
+    "title": "鳴門市 児童扶養手当",
+    "organization": "鳴門市",
+    "maxAmount": "月額全部支給のかた一部支給のかた1人のとき48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "鳴門市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年05月14日 提出について 市政の情報 鳴門市の紹介 市役所・施設案内 広報 職員募集 鳴門の未来を考えよう 市が考える鳴門 市の財政 情報公開・個人情報保護 監査 人権・男女共同参画 選挙 企業局 安全・安心 いざというときに 防災・災",
+    "officialUrl": "https://www.city.naruto.lg.jp/docs/2025051400027/",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "tokushima-official-001-028-2026",
+    "title": "鳴門市 自立支援給付金事業",
+    "organization": "鳴門市",
+    "maxAmount": "支給額（1）職業訓練給付金修業する期間の全期間、市町村民税が課税されていない世帯のかたには月額10万円",
+    "maxAmountNum": 100000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "鳴門市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年01月08日 提出について 市政の情報 鳴門市の紹介 市役所・施設案内 広報 職員募集 鳴門の未来を考えよう 市が考える鳴門 市の財政 情報公開・個人情報保護 監査 人権・男女共同参画 選挙 企業局 安全・安心 いざというときに 防災・災",
+    "officialUrl": "https://www.city.naruto.lg.jp/docs/2025010800011/",
+    "sourceName": "自立支援給付金事業"
+  },
+  {
+    "slug": "tokushima-official-001-029-2026",
+    "title": "鳴門市 おむつ・粉ミルク等無償宅配事業",
+    "organization": "鳴門市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "鳴門市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年05月14日 提出について 市政の情報 鳴門市の紹介 市役所・施設案内 広報 職員募集 鳴門の未来を考えよう 市が考える鳴門 市の財政 情報公開・個人情報保護 監査 人権・男女共同参画 選挙 企業局 安全・安心 いざというときに 防災・災",
+    "officialUrl": "https://www.city.naruto.lg.jp/docs/2025111400035/",
+    "sourceName": "おむつ・粉ミルク等無償宅配事業"
+  },
+  {
+    "slug": "tokushima-official-001-030-2026",
+    "title": "鳴門市 妊婦のための支援給付金",
+    "organization": "鳴門市",
+    "maxAmount": "5万円を支給",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "鳴門市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年05月16日 提出について 市政の情報 鳴門市の紹介 市役所・施設案内 広報 職員募集 鳴門の未来を考えよう 市が考える鳴門 市の財政 情報公開・個人情報保護 監査 人権・男女共同参画 選挙 企業局 安全・安心 いざというときに 防災・災",
+    "officialUrl": "https://www.city.naruto.lg.jp/docs/2025051600021/",
+    "sourceName": "妊婦のための支援給付金"
+  },
+  {
+    "slug": "tokushima-official-001-031-2026",
+    "title": "鳴門市 自立支援医療",
+    "organization": "鳴門市",
+    "maxAmount": "上限月額2,500円",
+    "maxAmountNum": 2500,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "鳴門市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年04月25日 提出について 市政の情報 鳴門市の紹介 市役所・施設案内 広報 職員募集 鳴門の未来を考えよう 市が考える鳴門 市の財政 情報公開・個人情報保護 監査 人権・男女共同参画 選挙 企業局 安全・安心 いざというときに 防災・災",
+    "officialUrl": "https://www.city.naruto.lg.jp/docs/2024042502054/",
+    "sourceName": "自立支援医療"
+  },
+  {
+    "slug": "tokushima-official-001-032-2026",
+    "title": "鳴門市 日常生活用具給付等事業",
+    "organization": "鳴門市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "鳴門市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年04月17日 提出について 市政の情報 鳴門市の紹介 市役所・施設案内 広報 職員募集 鳴門の未来を考えよう 市が考える鳴門 市の財政 情報公開・個人情報保護 監査 人権・男女共同参画 選挙 企業局 安全・安心 いざというときに 防災・災",
+    "officialUrl": "https://www.city.naruto.lg.jp/docs/2025041700038/",
+    "sourceName": "日常生活用具給付等事業"
+  },
+  {
+    "slug": "tokushima-official-001-033-2026",
+    "title": "鳴門市 住宅安心リフォーム支援事業",
+    "organization": "鳴門市",
+    "maxAmount": "最大１５万円",
+    "maxAmountNum": 150000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "鳴門市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2025年12月24日 提出について 市政の情報 鳴門市の紹介 市役所・施設案内 広報 職員募集 鳴門の未来を考えよう 市が考える鳴門 市の財政 情報公開・個人情報保護 監査 人権・男女共同参画 選挙 企業局 安全・安心 いざというときに 防災・災",
+    "officialUrl": "https://www.city.naruto.lg.jp/docs/2025122400031/",
+    "sourceName": "住宅安心リフォーム支援事業"
+  },
+  {
+    "slug": "tokushima-official-001-034-2026",
+    "title": "鳴門市 創業促進事業",
+    "organization": "鳴門市",
+    "maxAmount": "限度額５００，０００円",
+    "maxAmountNum": 500000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "鳴門市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年11月26日 提出について 市政の情報 鳴門市の紹介 市役所・施設案内 広報 職員募集 鳴門の未来を考えよう 市が考える鳴門 市の財政 情報公開・個人情報保護 監査 人権・男女共同参画 選挙 企業局 安全・安心 いざというときに 防災・災",
+    "officialUrl": "https://www.city.naruto.lg.jp/docs/2025112600021/",
+    "sourceName": "創業促進事業"
+  },
+  {
+    "slug": "tokushima-official-001-035-2026",
+    "title": "小松島市 子どもはぐくみ医療費助成制度",
+    "organization": "小松島市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "小松島市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年7月7日 支給される場合は、その額を差し引いて支給します",
+    "officialUrl": "https://www.city.komatsushima.lg.jp/kokogurashi/docs/3965046.html",
+    "sourceName": "子どもはぐくみ医療費助成制度"
+  },
+  {
+    "slug": "tokushima-official-001-036-2026",
+    "title": "小松島市 おひさまこうのとりNEXTサポート事業",
+    "organization": "小松島市",
+    "maxAmount": "上限額助成回数・・・・同一年度内に2回まで助成上限額・・・1回の申請につき上限１０万円",
+    "maxAmountNum": 100000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "小松島市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年7月7日 申請に係る生殖補助医療の治療開始日まで継続して1年以上小松島市の住民基本台帳に記載があり、かつ申請日においても小松島市に住所があること 治療日における妻の年齢が受診日において43歳未満である夫婦であること 申請に係る生殖補助",
+    "officialUrl": "https://www.city.komatsushima.lg.jp/kokogurashi/docs/3185874.html",
+    "sourceName": "おひさまこうのとりNEXTサポート事業"
+  },
+  {
+    "slug": "tokushima-official-001-037-2026",
+    "title": "小松島市 不育症治療費等助成事業",
+    "organization": "小松島市",
+    "maxAmount": "上限額および助成回数助成上限額・・・1回の申請にあたり上限5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "小松島市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年7月7日 申請日においても小松島市に住所を有すること 助成申請に係る対象となる検査等を受ける妻の年齢が受診日において43歳未満であること 申請に係る治療等について、他の自治体等が実施する治療等の助成を受けていないこと 夫婦ともに申請日",
+    "officialUrl": "https://www.city.komatsushima.lg.jp/kokogurashi/docs/15019.html",
+    "sourceName": "不育症治療費等助成事業"
+  },
+  {
+    "slug": "tokushima-official-001-038-2026",
+    "title": "小松島市 小学校給食費等の支援",
+    "organization": "小松島市",
+    "maxAmount": "月額5,200円",
+    "maxAmountNum": 5200,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "小松島市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月7日 支給（ただし、夏休み期間である8月は除く） 申請の手続き等 対象者には、原則として個別に申請書を送付しますので、小松島市教育委員会学校課へ提出してください",
+    "officialUrl": "https://www.city.komatsushima.lg.jp/kokogurashi/docs/5787435.html",
+    "sourceName": "小学校給食費等の支援"
+  },
+  {
+    "slug": "tokushima-official-001-039-2026",
+    "title": "小松島市 小松島市奨学金",
+    "organization": "小松島市",
+    "maxAmount": "月額5,000円",
+    "maxAmountNum": 5000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "小松島市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月30日 支給申請の受付について - 小松島市 本文へ ご利用案内 ふりがなをつける ふりがなをはずす 読み上げる 背景色 白 青 黒 文字サイズ 小さく 標準 大きく スマホ・携帯サイト お問い合わせ くらし・手続き 戸籍・印鑑登録",
+    "officialUrl": "https://www.city.komatsushima.lg.jp/docs/5646294.html",
+    "sourceName": "小松島市奨学金"
+  },
+  {
+    "slug": "tokushima-official-001-040-2026",
+    "title": "小松島市 就学援助制度",
+    "organization": "小松島市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "小松島市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月7日 申請書(令和8年度) (PDF 1.05MB) カテゴリー 手続き 教育 お金のこと 手続き 助成・支援 お金のこと 手続き 相談する 教育委員会 子育て支援 小学校・中学校 相談窓口 子育て・教育 お問い合わせ 教育委員会",
+    "officialUrl": "https://www.city.komatsushima.lg.jp/kokogurashi/docs/1018275.html",
+    "sourceName": "就学援助制度"
+  },
+  {
+    "slug": "tokushima-official-001-041-2026",
+    "title": "小松島市 養育医療",
+    "organization": "小松島市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "小松島市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年7月7日 申請に必要な下記の1から6の書類をそろえて、小松島市役所保険年金課（1階4番窓口）に提出し、医療券の交付を受けて指定医療機関で医療の給付を受けてください",
+    "officialUrl": "https://www.city.komatsushima.lg.jp/kokogurashi/docs/698905.html",
+    "sourceName": "養育医療"
+  },
+  {
+    "slug": "tokushima-official-001-042-2026",
+    "title": "小松島市 特別児童扶養手当",
+    "organization": "小松島市",
+    "maxAmount": "限度額表扶養親族等の数受給資格者配偶者及び扶養義務者0人4,596,000円",
+    "maxAmountNum": 4596000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "小松島市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月7日 支給される手当で、年3回受給者名義の口座に振り込まれます",
+    "officialUrl": "https://www.city.komatsushima.lg.jp/kokogurashi/docs/2028.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "tokushima-official-001-043-2026",
+    "title": "小松島市 自立支援医療（育成医療）",
+    "organization": "小松島市",
+    "maxAmount": "上限額重度かつ継続に該当しない重度かつ継続に該当する生活保護世帯0割0円",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "小松島市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年7月7日 申請に必要なもの 自立支援医療支給認定申請書 医師の意見書 加入している医療保険の被保険者証 印鑑 人工透析を受けられる方は特定疾病受療証 カテゴリー 病院・健康 手続き 病院・健康 手続き 病院・健康 手続き 病院・健康 ",
+    "officialUrl": "https://www.city.komatsushima.lg.jp/kokogurashi/docs/2047.html",
+    "sourceName": "自立支援医療（育成医療）"
+  },
+  {
+    "slug": "tokushima-official-001-044-2026",
+    "title": "小松島市 障害児福祉手当",
+    "organization": "小松島市",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "小松島市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月7日 支給します",
+    "officialUrl": "https://www.city.komatsushima.lg.jp/kokogurashi/docs/2043.html",
+    "sourceName": "障害児福祉手当"
+  },
+  {
+    "slug": "tokushima-official-001-045-2026",
+    "title": "小松島市 児童手当",
+    "organization": "小松島市",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "小松島市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月7日 支給対象者 ③手当の支給額と算定対象児童 ④手当の支給時期・支給方法 ⑤こんなとき、こんな手続きを ⑥現況届 ⑦公務員の方について ①制度の目的 児童手当制度は、児童を養育している方に手当を支給することにより、家庭等における",
+    "officialUrl": "https://www.city.komatsushima.lg.jp/kokogurashi/docs/2030.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "tokushima-official-001-046-2026",
+    "title": "小松島市 ひとり親家庭等医療費助成制度",
+    "organization": "小松島市",
+    "maxAmount": "1，000円を限度",
+    "maxAmountNum": 1000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "小松島市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年7月7日 交付いたしません",
+    "officialUrl": "https://www.city.komatsushima.lg.jp/kokogurashi/docs/330714.html",
+    "sourceName": "ひとり親家庭等医療費助成制度"
+  },
+  {
+    "slug": "tokushima-official-001-047-2026",
+    "title": "小松島市 児童扶養手当",
+    "organization": "小松島市",
+    "maxAmount": "限度額表】扶養親族等の人数全部支給となる所得限度額一部支給となる所得限度額収入額所得額収入額所得額0人1,420,000円",
+    "maxAmountNum": 1420000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "小松島市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月7日 支給される手当です",
+    "officialUrl": "https://www.city.komatsushima.lg.jp/kokogurashi/docs/jidoufuyouteate.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "tokushima-official-001-048-2026",
+    "title": "小松島市 小松島市新規交流拠点施設等整備事業補助金",
+    "organization": "小松島市",
+    "maxAmount": "最大200万円",
+    "maxAmountNum": 2000000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "小松島市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2022年2月1日 募集します！ - 小松島市 本文へ ご利用案内 ふりがなをつける ふりがなをはずす 読み上げる 背景色 白 青 黒 文字サイズ 小さく 標準 大きく スマホ・携帯サイト お問い合わせ くらし・手続き 戸籍・印鑑登録・住民登録",
+    "officialUrl": "https://www.city.komatsushima.lg.jp/docs/2557638.html",
+    "sourceName": "小松島市新規交流拠点施設等整備事業補助金"
+  },
+  {
+    "slug": "tokushima-official-001-049-2026",
+    "title": "小松島市 小松島市危険ブロック塀等除却支援事業",
+    "organization": "小松島市",
+    "maxAmount": "補助金額補助対象経費の3分の2以内（上限133,000円",
+    "maxAmountNum": 133000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "小松島市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年5月5日 募集 小松島市企業ガイドブック 市政情報 市の概要 組織案内 庁舎案内 市長の部屋 施策・計画 都市整備 地籍調査 --> 選挙 財政・行政改革 人事・職員募集 統計・人口 パブリックコメント 広報こまつしま メニュー 閉じ",
+    "officialUrl": "https://www.city.komatsushima.lg.jp/docs/5687082.html",
+    "sourceName": "小松島市危険ブロック塀等除却支援事業"
+  },
+  {
+    "slug": "tokushima-official-001-050-2026",
+    "title": "阿南市 阿南市中小企業等振興支援補助金",
+    "organization": "阿南市",
+    "maxAmount": "限度額１０万円",
+    "maxAmountNum": 100000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "阿南市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年05月26日 交付します",
+    "officialUrl": "https://www.city.anan.tokushima.jp/company/docs/2026042400026/",
+    "sourceName": "阿南市中小企業等振興支援補助金"
+  },
+  {
+    "slug": "tokushima-official-001-051-2026",
+    "title": "阿南市 資金繰りの支援",
+    "organization": "阿南市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "阿南市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年07月06日 資金繰りの支援 | 阿南市 本文へ移動 ｜文字サイズ｜ 小 中 大 ｜背景色｜ 黒 青 白 ｜ ふりがなをつける ｜ よみあげる ご利用案内 ｜ 阿南市 阿南市役所 〒774-8501 徳島県阿南市富岡町トノ町12番地3 電話：0884-2",
+    "officialUrl": "https://www.city.anan.tokushima.jp/company/docs/2025080600023/",
+    "sourceName": "資金繰りの支援"
+  },
+  {
+    "slug": "tokushima-official-001-052-2026",
+    "title": "阿南市 創業に関する支援",
+    "organization": "阿南市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "阿南市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年07月02日 締切：8月6日(木) 受講者発表：8月14日(金) 参加費：1万円 とくしま産業振興機構 事業名 概要 URL 備考 創業促進・あったかビジネス支援事業 特産品や文化等の「徳島県特有の資源」や個人のユニークな「能力・経験等」",
+    "officialUrl": "https://www.city.anan.tokushima.jp/company/docs/2025021300067/",
+    "sourceName": "創業に関する支援"
+  },
+  {
+    "slug": "tokushima-official-001-053-2026",
+    "title": "阿南市 奨学金の返還支援",
+    "organization": "阿南市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "阿南市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年02月25日 募集は終了しました お問合せ 阿南市教育委員会 教育総務課 TEL ：0884-22-3299 FAX ：0884-22-4785 MAIL：kyousou@city.anan.tokushima.jp 関連ワード 奨学金の",
+    "officialUrl": "https://www.city.anan.tokushima.jp/company/docs/2025100600026/",
+    "sourceName": "奨学金の返還支援"
+  },
+  {
+    "slug": "tokushima-official-001-054-2026",
+    "title": "阿南市 助成金について",
+    "organization": "阿南市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "阿南市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "交付します",
+    "officialUrl": "https://www.city.anan.tokushima.jp/gesuidou/josei/index.html",
+    "sourceName": "助成金について"
+  },
+  {
+    "slug": "tokushima-official-001-055-2026",
+    "title": "阿南市 あなんぐらし支援事業補助金",
+    "organization": "阿南市",
+    "maxAmount": "上限１５万円",
+    "maxAmountNum": 150000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "阿南市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年03月27日 受付は終了しました） | 阿南市 本文へ移動 ｜文字サイズ｜ 小 中 大 ｜背景色｜ 黒 青 白 ｜ ふりがなをつける ｜ よみあげる ご利用案内 ｜ 阿南市 阿南市役所 〒774-8501 徳島県阿南市富岡町トノ町12番地",
+    "officialUrl": "https://www.city.anan.tokushima.jp/docs/2026030500059/",
+    "sourceName": "あなんぐらし支援事業補助金"
+  },
+  {
+    "slug": "tokushima-official-001-056-2026",
+    "title": "阿南市 こどもの医療費助成制度",
+    "organization": "阿南市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "阿南市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2022年11月30日 申請 TOP 組織 保健福祉部 保険年金課 こどもの医療費助成制度 公開日 2022年11月30日 マイナポータルからこども医療の受給者証を確認することができます！ こどもの医療費受給者証に関する各種お手続きがオンラインで申",
+    "officialUrl": "https://www.city.anan.tokushima.jp/docs/2018032200013/",
+    "sourceName": "こどもの医療費助成制度"
+  },
+  {
+    "slug": "tokushima-official-001-057-2026",
+    "title": "阿南市 高齢者いきいきタクシー券",
+    "organization": "阿南市",
+    "maxAmount": "助成額）＝７５０円",
+    "maxAmountNum": 750,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "阿南市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年04月01日 交付します | 阿南市 本文へ移動 ｜文字サイズ｜ 小 中 大 ｜背景色｜ 黒 青 白 ｜ ふりがなをつける ｜ よみあげる ご利用案内 ｜ 阿南市 阿南市役所 〒774-8501 徳島県阿南市富岡町トノ町12番地3 電話：",
+    "officialUrl": "https://www.city.anan.tokushima.jp/docs/2024010500013/",
+    "sourceName": "高齢者いきいきタクシー券"
+  },
+  {
+    "slug": "tokushima-official-001-058-2026",
+    "title": "阿南市 危険ブロック塀等の撤去支援",
+    "organization": "阿南市",
+    "maxAmount": "補助金額補助対象経費の３分の２かつ上限６４，０００円",
+    "maxAmountNum": 64000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "阿南市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年03月27日 受付は終了しました） | 阿南市 本文へ移動 ｜文字サイズ｜ 小 中 大 ｜背景色｜ 黒 青 白 ｜ ふりがなをつける ｜ よみあげる ご利用案内 ｜ 阿南市 阿南市役所 〒774-8501 徳島県阿南市富岡町トノ町12番地",
+    "officialUrl": "https://www.city.anan.tokushima.jp/docs/2026030500035/",
+    "sourceName": "危険ブロック塀等の撤去支援"
+  },
+  {
+    "slug": "tokushima-official-001-059-2026",
+    "title": "吉野川市 高齢者等外出支援タクシー料金助成事業",
+    "organization": "吉野川市",
+    "maxAmount": "助成額（申請して対象となった方にお渡しする助成券の額）１２，０００円",
+    "maxAmountNum": 12000,
+    "category": "nursing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "吉野川市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年04月27日 申請されている方は、令和８年度中の運転免許の失効又は自主返納が条件となります",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2026060400015/",
+    "sourceName": "高齢者等外出支援タクシー料金助成事業"
+  },
+  {
+    "slug": "tokushima-official-001-060-2026",
+    "title": "吉野川市 6次産業化加工施設整備補助事業",
+    "organization": "吉野川市",
+    "maxAmount": "補助額補助対象に係る経費の1/2以内（補助上限50万円",
+    "maxAmountNum": 500000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉野川市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2024年04月10日 申請時提出書類 （1）補助金等申請書 補助金等申請書[RTF：25.6KB] （2）事業計画書 事業計画書[RTF：26.2KB] （3）補助対象経費の内訳を明らかにする書類 収支予算書[RTF：154KB] （4）機械、設",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2024022800064/",
+    "sourceName": "6次産業化加工施設整備補助事業"
+  },
+  {
+    "slug": "tokushima-official-001-061-2026",
+    "title": "吉野川市 ひとり親家庭等の医療費助成",
+    "organization": "吉野川市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "吉野川市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年10月01日 申請・届出 トップページ カテゴリ ライフイベント 子育て・教育 トップページ 組織 健康福祉部 こども未来局 こども家庭センター ひとり親家庭等の医療費助成について ページの内容を印刷 公開日 2025年10月01日 ひと",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2010112900028/",
+    "sourceName": "ひとり親家庭等の医療費助成"
+  },
+  {
+    "slug": "tokushima-official-001-062-2026",
+    "title": "吉野川市 わくわく移住支援事業",
+    "organization": "吉野川市",
+    "maxAmount": "1人につき100万円",
+    "maxAmountNum": 1000000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "吉野川市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2025年04月01日 支給する事業です",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2019050700035/",
+    "sourceName": "わくわく移住支援事業"
+  },
+  {
+    "slug": "tokushima-official-001-063-2026",
+    "title": "吉野川市 創業者無担保資金保証制度",
+    "organization": "吉野川市",
+    "maxAmount": "限度額１企業者３，５００万円",
+    "maxAmountNum": 35000000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉野川市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年04月01日 提出 創業者無担保資金保証制度リーフレット[PDF：384KB] お問い合わせ 産業経済部 商工観光課 TEL ：0883-22-2226 FAX ：0883-22-2237 E-Mail ： shoukoukankou@y",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2017051100021/",
+    "sourceName": "創業者無担保資金保証制度"
+  },
+  {
+    "slug": "tokushima-official-001-064-2026",
+    "title": "吉野川市 不育治療費助成事業",
+    "organization": "吉野川市",
+    "maxAmount": "助成額助成回数申請期限不育治療１回の治療※１につき上限１０万円",
+    "maxAmountNum": 100000,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "吉野川市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年04月01日 申請・届出 トップページ カテゴリ 目的 相談・窓口 トップページ カテゴリ ライフイベント 妊娠・出産 トップページ 組織 健康福祉部 健康推進課 吉野川市不育治療費助成事業 ページの内容を印刷 公開日 2025年04月0",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2025022800023/",
+    "sourceName": "不育治療費助成事業"
+  },
+  {
+    "slug": "tokushima-official-001-065-2026",
+    "title": "吉野川市 不妊治療費助成事業",
+    "organization": "吉野川市",
+    "maxAmount": "助成額助成回数一般不妊治療タイミング法、人工授精１回の治療につき上限５万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "吉野川市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年04月01日 申請・届出 トップページ カテゴリ 目的 相談・窓口 トップページ カテゴリ ライフイベント 妊娠・出産 トップページ 組織 健康福祉部 健康推進課 吉野川市不妊治療費助成事業 ページの内容を印刷 公開日 2025年04月0",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2025040700206/",
+    "sourceName": "不妊治療費助成事業"
+  },
+  {
+    "slug": "tokushima-official-001-066-2026",
+    "title": "吉野川市 有害鳥獣侵入防止柵設置補助金",
+    "organization": "吉野川市",
+    "maxAmount": "最大5万円",
+    "maxAmountNum": 50000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "吉野川市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年05月08日 申請・届出 トップページ 組織 産業経済部 農林業振興課 吉野川市有害鳥獣侵入防止柵設置補助金について ページの内容を印刷 公開日 2024年05月08日 吉野川市では、増加するシカ・イノシシ等による農作物被害防止のため、吉",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2024041700024/",
+    "sourceName": "有害鳥獣侵入防止柵設置補助金"
+  },
+  {
+    "slug": "tokushima-official-001-067-2026",
+    "title": "吉野川市 飼い主のいない猫の不妊・去勢手術費の助成",
+    "organization": "吉野川市",
+    "maxAmount": "上限１０，０００円",
+    "maxAmountNum": 10000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉野川市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年06月10日 申請・届出 トップページ 組織 市民部 環境企画課 飼い主のいない猫の不妊・去勢手術費の助成について ページの内容を印刷 公開日 2026年06月10日 飼い主のいない猫の繁殖を抑制し、良好な生活環境の促進を図るため、予算の",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2026060800020/",
+    "sourceName": "飼い主のいない猫の不妊・去勢手術費の助成"
+  },
+  {
+    "slug": "tokushima-official-001-068-2026",
+    "title": "吉野川市 児童手当",
+    "organization": "吉野川市",
+    "maxAmount": "支給額児童の年齢児童手当の額（１人あたりの月額）３歳未満１５，０００円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉野川市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年03月14日 申請・届出 トップページ カテゴリ ライフイベント 子育て・教育 トップページ 組織 健康福祉部 こども未来局 こども家庭センター 児童手当 ページの内容を印刷 公開日 2025年03月14日 1.制度の目的 児童手当は、家",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2025012800026/",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "tokushima-official-001-069-2026",
+    "title": "吉野川市 低所得の妊婦に対する初回産科受診料支援事業",
+    "organization": "吉野川市",
+    "maxAmount": "上限1万円",
+    "maxAmountNum": 10000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "employment",
+      "living"
+    ],
+    "eligibility": "吉野川市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年08月14日 申請してください",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2024080700023/",
+    "sourceName": "低所得の妊婦に対する初回産科受診料支援事業"
+  },
+  {
+    "slug": "tokushima-official-001-070-2026",
+    "title": "吉野川市 定額減税補足給付金（不足額給付）",
+    "organization": "吉野川市",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "吉野川市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年08月12日 申請・届出 トップページ 組織 総務部 税務課 定額減税補足給付金（不足額給付）について​ ページの内容を印刷 公開日 2025年08月12日 事業の概要 国の「デフレ完全脱却のための総合経済対策」に基づき、令和６年度に実施",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2025071600124/",
+    "sourceName": "定額減税補足給付金（不足額給付）"
+  },
+  {
+    "slug": "tokushima-official-001-071-2026",
+    "title": "吉野川市 特別障害者手当",
+    "organization": "吉野川市",
+    "maxAmount": "支給額月額２９，５９０円",
+    "maxAmountNum": 29590,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉野川市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2025年03月03日 申請・届出 トップページ カテゴリ ライフイベント 福祉・介護 トップページ 組織 健康福祉部 社会福祉課 特別障害者手当について ページの内容を印刷 公開日 2025年03月03日 特別障害者手当について ２０歳以上で著し",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2025022100017/",
+    "sourceName": "特別障害者手当"
+  },
+  {
+    "slug": "tokushima-official-001-072-2026",
+    "title": "吉野川市 放課後児童クラブ利用料軽減事業",
+    "organization": "吉野川市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "吉野川市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年01月09日 申請書をご記入して所属予定の放課後児童クラブ、またはこども未来課までご提出ください",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2025010800011/",
+    "sourceName": "放課後児童クラブ利用料軽減事業"
+  },
+  {
+    "slug": "tokushima-official-001-073-2026",
+    "title": "吉野川市 浄化槽設置整備事業補助金制度",
+    "organization": "吉野川市",
+    "maxAmount": "上限額)設置費分宅内配管工事費分5人槽332,000円",
+    "maxAmountNum": 332000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉野川市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年03月27日 申請・届出 トップページ 組織 市民部 環境企画課 令和８年度浄化槽設置整備事業補助金制度について ページの内容を印刷 公開日 2026年03月27日 補助金制度の目的 単独処理浄化槽やくみ取り槽は台所や洗面所、風呂などから",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2026032600061/",
+    "sourceName": "浄化槽設置整備事業補助金制度"
+  },
+  {
+    "slug": "tokushima-official-001-074-2026",
+    "title": "吉野川市 こども食堂への助成",
+    "organization": "吉野川市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "吉野川市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年03月05日 募集要項」をご確認いただき、必要に応じてご活用ください",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2026030500059/",
+    "sourceName": "こども食堂への助成"
+  },
+  {
+    "slug": "tokushima-official-001-075-2026",
+    "title": "吉野川市 まちづくりプロジェクト応援事業補助金",
+    "organization": "吉野川市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉野川市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年04月01日 募集について | 吉野川市 本文へ ふりがなをつける ひらがな Romaji よみあげる 背景色 標準 黄 青 黒 文字サイズ 拡大 標準 縮小 ズーム 120% 100% 80% Foreign Language サイト内",
+    "officialUrl": "https://www.city.yoshinogawa.lg.jp/docs/2025122200013/",
+    "sourceName": "まちづくりプロジェクト応援事業補助金"
+  }
+];
