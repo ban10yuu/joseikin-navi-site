@@ -1,35 +1,36 @@
 {
-  "updatedAt": "2026-07-17T03:12:00+09:00",
+  "updatedAt": "2026-07-17T03:45:24+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "shimane-official-coverage-004",
-    "municipality": "海士町・西ノ島町・知夫村・隠岐の島町",
-    "adopted": 60,
+    "code": "okayama-official-coverage-001",
+    "municipality": "岡山市・倉敷市・津山市・玉野市・笠岡市",
+    "adopted": 100,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 60,
+    "sourceUrlsChecked": 100,
     "validation": {
-      "previousMunicipality": "島根県公式棚卸し004として32525海士町・32526西ノ島町・32527知夫村・32528隠岐の島町を確認し60件を採用。島根県第1巡は完了。全国公式棚卸しは未完了。",
+      "previousMunicipality": "岡山県公式棚卸し001として33100岡山市・33202倉敷市・33203津山市・33204玉野市・33205笠岡市を確認し100件を採用。岡山県は33205笠岡市まで第1巡到達。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for shimane-official-coverage-004 JSON files",
-      "addedSlugUniqueness": "pass: 60 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "partial: 52 adopted official URLs returned HTTP 200 by check-grant-source-urls; 知夫村8件は公式ドメインのローカルTLS SNIエラーでfetch failed、検索インデックス上の公式本文で制度名・対象・支援内容を確認し継続確認対象として記録",
+      "json": "pass: JSON.parse for okayama-official-coverage-001 JSON files",
+      "addedSlugUniqueness": "pass: 100 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 100 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 19952、officialLinkedActive 19831、manuallyVerifiedActive 19831、島根県 localOfficial 392)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 20052、officialLinkedActive 19931、manuallyVerifiedActive 19931、岡山県 localOfficial 177)",
+      "notes": "津山市公式記事はSPA構成のため、ローカルfetch本文は公式アプリシェルのみ。公式URL到達と公式検索インデックス上の制度本文スニペットを根拠として採用し、次巡で再到達確認する。"
     }
   },
   "next": {
-    "code": "okayama-official-coverage-001",
-    "municipality": "岡山市",
-    "shortlist": "島根県004は通常discoverが0件だったため、公式sitemap、公式助成一覧、公式カテゴリページ、公式検索結果で制度語リンクを補完し、公式HTML個別制度ページ・公式PDF・公式条例・公式制度掲載ページ60本へ絞った。知夫村公式ドメインはローカルTLS SNIエラーのため検索インデックス上の公式本文を根拠として継続確認対象にした。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、岡山県公式棚卸し001として33100岡山市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "okayama-official-coverage-002",
+    "municipality": "井原市",
+    "shortlist": "岡山県001は標準discoverが0件だったため、公式カテゴリ、公式サイト内検索インデックス、公式sitemap、公式組織ページ、本文スニペット再スコアで制度語リンクを補完し、公式HTML個別制度ページ・公式制度掲載ページ100本へ絞った。津山市はSPA構成のため公式検索インデックス本文も根拠にした。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、岡山県公式棚卸し002として33207井原市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "島根県",
-    "status": "first-pass-complete",
-    "lastBatch": "shimane-official-coverage-004",
-    "notes": "島根県公式棚卸し004で32525海士町・32526西ノ島町・32527知夫村・32528隠岐の島町を確認し、60件を新規採用。島根県第1巡は完了。次は岡山県33100岡山市から再開する。"
+    "prefecture": "岡山県",
+    "status": "in-progress-first-pass",
+    "lastBatch": "okayama-official-coverage-001",
+    "notes": "岡山県公式棚卸し001で33100岡山市・33202倉敷市・33203津山市・33204玉野市・33205笠岡市を確認し、100件を新規採用。次は33207井原市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

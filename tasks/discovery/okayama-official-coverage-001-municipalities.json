@@ -1,0 +1,31 @@
+{
+  "batchId": "okayama-official-coverage-001",
+  "prefecture": "岡山県",
+  "municipalities": [
+    {
+      "code": "33100",
+      "name": "岡山市",
+      "officialUrl": "https://www.city.okayama.jp/"
+    },
+    {
+      "code": "33202",
+      "name": "倉敷市",
+      "officialUrl": "https://www.city.kurashiki.okayama.jp/"
+    },
+    {
+      "code": "33203",
+      "name": "津山市",
+      "officialUrl": "https://www.city.tsuyama.lg.jp/"
+    },
+    {
+      "code": "33204",
+      "name": "玉野市",
+      "officialUrl": "https://www.city.tamano.lg.jp/"
+    },
+    {
+      "code": "33205",
+      "name": "笠岡市",
+      "officialUrl": "https://www.city.kasaoka.okayama.jp/"
+    }
+  ]
+}
