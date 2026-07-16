@@ -1,0 +1,31 @@
+{
+  "batchId": "osaka-official-coverage-009",
+  "prefecture": "大阪府",
+  "createdAt": "2026-07-16T16:40:00+09:00",
+  "municipalities": [
+    {
+      "code": "27366",
+      "name": "岬町",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.town.misaki.osaka.jp/"
+    },
+    {
+      "code": "27381",
+      "name": "太子町",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.town.taishi.osaka.jp/"
+    },
+    {
+      "code": "27382",
+      "name": "河南町",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.town.kanan.osaka.jp/"
+    },
+    {
+      "code": "27383",
+      "name": "千早赤阪村",
+      "prefecture": "大阪府",
+      "officialBaseUrl": "https://www.vill.chihayaakasaka.osaka.jp/"
+    }
+  ]
+}

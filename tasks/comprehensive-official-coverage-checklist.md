@@ -10475,3 +10475,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17577、officialLinkedActive 17457、manuallyVerifiedActive 17457、大阪府 localOfficial 730）
 - 到達点: 大阪府は27100大阪市から27362田尻町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 大阪府公式棚卸し009として、27366岬町から再開
+
+### 大阪府公式棚卸し009（27366岬町・27381太子町・27382河南町・27383千早赤阪村）
+- 実施日: 2026-07-16
+- 候補: 118件（公式カテゴリリンクリード540件、公式リスト80件、採用URL80本）
+- 採用: 80件（岬町27件、太子町15件、河南町30件、千早赤阪村8件）
+- 公式URL: 採用URL到達確認は tasks/discovery/osaka-official-coverage-009-url-status.txt に記録（80本すべてHTTP 200）
+- 保留: 公式カテゴリリンクとサイトマップを展開し、制度強語と対象・金額・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、計画・会議録、募集・相談、外部制度紹介のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。太子町は公式手当・助成・補助制度カテゴリのhttpリンクをhttps正規化して補完
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 17657、officialLinkedActive 17537、manuallyVerifiedActive 17537、大阪府 localOfficial 810）
+- 到達点: 大阪府は27100大阪市から27383千早赤阪村まで第1巡到達し、府内全市区町村の第1巡完了。全国公式棚卸しは未完了
+- 次回: 兵庫県公式棚卸し001として、28100神戸市から再開

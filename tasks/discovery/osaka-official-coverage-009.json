@@ -1,0 +1,36 @@
+{
+  "batchId": "osaka-official-coverage-009",
+  "prefecture": "大阪府",
+  "completedAt": "2026-07-16T17:20:00+09:00",
+  "municipalities": [
+    {
+      "code": "27366",
+      "name": "岬町",
+      "adopted": 27
+    },
+    {
+      "code": "27381",
+      "name": "太子町",
+      "adopted": 15
+    },
+    {
+      "code": "27382",
+      "name": "河南町",
+      "adopted": 30
+    },
+    {
+      "code": "27383",
+      "name": "千早赤阪村",
+      "adopted": 8
+    }
+  ],
+  "candidateCount": 118,
+  "linkLeadCount": 540,
+  "adopted": 80,
+  "sourceUrlsChecked": 80,
+  "heldPolicy": "公式カテゴリリンクとサイトマップを展開し、制度強語と対象・金額・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、計画・会議録、募集・相談、外部制度紹介のみ、受付終了のみ、本文根拠が薄い候補は第2巡候補として保持。太子町は公式手当・助成・補助制度カテゴリのhttpリンクをhttps正規化して補完。",
+  "next": {
+    "batchId": "hyogo-official-coverage-001",
+    "start": "28100神戸市"
+  }
+}

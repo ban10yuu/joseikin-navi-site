@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-07-16T12:08:00+09:00",
+  "updatedAt": "2026-07-16T17:35:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "osaka-official-coverage-008",
-    "municipality": "豊能町・能勢町・忠岡町・熊取町・田尻町",
-    "adopted": 82,
+    "code": "osaka-official-coverage-009",
+    "municipality": "岬町・太子町・河南町・千早赤阪村",
+    "adopted": 80,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 82,
+    "sourceUrlsChecked": 80,
     "validation": {
-      "previousMunicipality": "大阪府公式棚卸し008として27321豊能町・27322能勢町・27341忠岡町・27361熊取町・27362田尻町を確認し82件を採用。全国公式棚卸しは未完了。",
+      "previousMunicipality": "大阪府公式棚卸し009として27366岬町・27381太子町・27382河南町・27383千早赤阪村を確認し80件を採用。大阪府は府内全市区町村の第1巡を完了。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: JSON.parse for osaka-official-coverage-008 JSON files",
-      "addedSlugUniqueness": "pass: 82 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
-      "urlReachability": "pass: 82 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "json": "pass: JSON.parse for osaka-official-coverage-009 JSON files",
+      "addedSlugUniqueness": "pass: 80 added slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "urlReachability": "pass: 80 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 17577, officialLinkedActive 17457, manuallyVerifiedActive 17457, 大阪府 localOfficial 730)"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0, activePublished 17657, officialLinkedActive 17537, manuallyVerifiedActive 17537, 大阪府 localOfficial 810)"
     }
   },
   "next": {
-    "code": "osaka-official-coverage-009",
-    "municipality": "岬町",
-    "shortlist": "大阪府008は豊能町20件、能勢町1件、忠岡町10件、熊取町35件、田尻町16件を採用した。能勢町は公式カテゴリ・サイトマップでも制度ページが薄く、1件採用で第1巡到達扱い。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、大阪府公式棚卸し009として27366岬町を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "hyogo-official-coverage-001",
+    "municipality": "神戸市",
+    "shortlist": "大阪府009は岬町27件、太子町15件、河南町30件、千早赤阪村8件を採用し、大阪府内全市区町村の第1巡を完了した。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、兵庫県公式棚卸し001として28100神戸市を開始地点に自治体コード順で再開する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "大阪府",
-    "status": "in-progress-first-pass",
-    "lastBatch": "osaka-official-coverage-008",
-    "notes": "大阪府公式棚卸し008で豊能町・能勢町・忠岡町・熊取町・田尻町を確認し、82件を新規採用した。大阪府は27100大阪市から27362田尻町まで第1巡到達。次は27366岬町から再開する。"
+    "status": "complete-first-pass",
+    "lastBatch": "osaka-official-coverage-009",
+    "notes": "大阪府公式棚卸し009で岬町・太子町・河南町・千早赤阪村を確認し、80件を新規採用した。大阪府は27100大阪市から27383千早赤阪村まで府内全市区町村の第1巡を完了。次は兵庫県28100神戸市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
