@@ -10585,3 +10585,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18354、officialLinkedActive 18233、manuallyVerifiedActive 18233、奈良県 localOfficial 130）
 - 到達点: 奈良県は29201奈良市から29209生駒市まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 奈良県公式棚卸し003として、29210香芝市から再開
+
+### 奈良県公式棚卸し003（29210香芝市・29211葛城市・29212宇陀市・29322山添村・29342平群町）
+- 実施日: 2026-07-16
+- 候補: 1555件（公式サイト内リンクリード6892件、本文再スコア採択候補2347件、採用URL60本）
+- 採用: 60件（香芝市15件、葛城市15件、宇陀市7件、山添村5件、平群町18件）
+- 公式URL: 採用URL到達確認は tasks/discovery/nara-official-coverage-003-url-status.txt に記録（60本すべてHTTP 200。宇陀市公式サイトはNodeのTLS証明書検証で失敗するため、到達確認時のみNODE_TLS_REJECT_UNAUTHORIZED=0を使用）
+- 保留: shortlistが150件超のため、通常候補に加え公式サイト内リンクとsitemapを展開し、本文の制度強語、金額・対象・申請表現で再スコアリング。トップ、カテゴリ導線、共通ナビ、申請書単体、受付終了のみ、寄附・観光、職員募集、プロポーザル、本文根拠が薄い候補は第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 18414、officialLinkedActive 18293、manuallyVerifiedActive 18293、奈良県 localOfficial 190）
+- 到達点: 奈良県は29201奈良市から29342平群町まで第1巡到達。全国公式棚卸しは未完了
+- 次回: 奈良県公式棚卸し004として、29343三郷町から再開

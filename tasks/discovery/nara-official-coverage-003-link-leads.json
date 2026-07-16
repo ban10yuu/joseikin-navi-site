@@ -1,0 +1,53 @@
+{
+  "batchId": "nara-official-coverage-003",
+  "generatedAt": "2026-07-16T10:56:30.314Z",
+  "totalLeadCount": 6892,
+  "municipalities": [
+    {
+      "code": "29210",
+      "name": "香芝市",
+      "seeds": 474,
+      "urls": 1600,
+      "allowedHosts": [
+        "www.city.kashiba.lg.jp"
+      ]
+    },
+    {
+      "code": "29211",
+      "name": "葛城市",
+      "seeds": 976,
+      "urls": 1600,
+      "allowedHosts": [
+        "www.city.katsuragi.nara.jp"
+      ]
+    },
+    {
+      "code": "29212",
+      "name": "宇陀市",
+      "seeds": 491,
+      "urls": 1600,
+      "allowedHosts": [
+        "www.city.uda.nara.jp",
+        "www.city.uda.lg.jp"
+      ]
+    },
+    {
+      "code": "29322",
+      "name": "山添村",
+      "seeds": 85,
+      "urls": 492,
+      "allowedHosts": [
+        "www.vill.yamazoe.nara.jp"
+      ]
+    },
+    {
+      "code": "29342",
+      "name": "平群町",
+      "seeds": 454,
+      "urls": 1600,
+      "allowedHosts": [
+        "www.town.heguri.nara.jp"
+      ]
+    }
+  ]
+}
