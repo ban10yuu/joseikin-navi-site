@@ -1,0 +1,31 @@
+{
+  "prefecture": "徳島県",
+  "batch": "tokushima-official-coverage-003",
+  "municipalities": [
+    {
+      "code": "36321",
+      "name": "佐那河内村",
+      "url": "https://www.vill.sanagochi.lg.jp/"
+    },
+    {
+      "code": "36341",
+      "name": "石井町",
+      "url": "https://www.town.ishii.lg.jp/"
+    },
+    {
+      "code": "36342",
+      "name": "神山町",
+      "url": "https://www.town.kamiyama.lg.jp/"
+    },
+    {
+      "code": "36368",
+      "name": "那賀町",
+      "url": "https://www.town.tokushima-naka.lg.jp/"
+    },
+    {
+      "code": "36383",
+      "name": "牟岐町",
+      "url": "https://www.town.tokushima-mugi.lg.jp/"
+    }
+  ]
+}
