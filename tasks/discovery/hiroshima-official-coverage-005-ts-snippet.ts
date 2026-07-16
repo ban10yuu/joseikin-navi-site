@@ -1,0 +1,1192 @@
+const hiroshimaOfficial005Grants: Array<{
+  slug: string;
+  title: string;
+  organization: string;
+  maxAmount: string;
+  maxAmountNum: number;
+  category: Grant['category'];
+  relatedCategories?: Grant['relatedCategories'];
+  eligibility: string;
+  applicationPeriod: string;
+  officialUrl: string;
+  sourceName: string;
+}> = [
+  {
+    "slug": "hiroshima-official-005-001-2026",
+    "title": "大崎上島町 こども医療費助成",
+    "organization": "大崎上島町",
+    "maxAmount": "最大500円",
+    "maxAmountNum": 500,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大崎上島町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2023年10月01日 申請手続き お子さんが出生した場合や他市町から転入した場合は、申請手続きが必要です",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/soshiki/fukushi/hojo/7897.html",
+    "sourceName": "こども医療費助成"
+  },
+  {
+    "slug": "hiroshima-official-005-002-2026",
+    "title": "大崎上島町 重度心身障害者医療費助成",
+    "organization": "大崎上島町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "大崎上島町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2022年09月05日 交付する「重度心身障害者医療費受給者証」と健康保険証を、県内の医療機関等の窓口に提示すれば、一部負担金のみで診療が受けられます",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/soshiki/fukushi/hojo/6201.html",
+    "sourceName": "重度心身障害者医療費助成"
+  },
+  {
+    "slug": "hiroshima-official-005-003-2026",
+    "title": "大崎上島町 医療及び福祉従事者就職支援金等支援事業",
+    "organization": "大崎上島町",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "nursing",
+      "living"
+    ],
+    "eligibility": "大崎上島町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年11月25日 支給します",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/soshiki/fukushi/hojo/7157.html",
+    "sourceName": "医療及び福祉従事者就職支援金等支援事業"
+  },
+  {
+    "slug": "hiroshima-official-005-004-2026",
+    "title": "大崎上島町 医療及び福祉従事者奨学金返還支援事業",
+    "organization": "大崎上島町",
+    "maxAmount": "上限とし、最大90万円",
+    "maxAmountNum": 900000,
+    "category": "medical",
+    "relatedCategories": [
+      "education",
+      "employment",
+      "nursing"
+    ],
+    "eligibility": "大崎上島町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年04月08日 支給事業の対象者と同一です",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/soshiki/fukushi/hojo/6165.html",
+    "sourceName": "医療及び福祉従事者奨学金返還支援事業"
+  },
+  {
+    "slug": "hiroshima-official-005-005-2026",
+    "title": "大崎上島町 介護資格取得等支援補助金事業",
+    "organization": "大崎上島町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "employment",
+      "nursing",
+      "living"
+    ],
+    "eligibility": "大崎上島町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2024年05月09日 交付します",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/soshiki/fukushi/hojo/7220.html",
+    "sourceName": "介護資格取得等支援補助金事業"
+  },
+  {
+    "slug": "hiroshima-official-005-006-2026",
+    "title": "大崎上島町 救急搬送患者等宿泊費助成金交付事業",
+    "organization": "大崎上島町",
+    "maxAmount": "1人当たり5,000円",
+    "maxAmountNum": 5000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大崎上島町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年11月25日 交付事業／大崎上島町 本文へ くらし・手続き 子育て・教育 保険・福祉 観光・文化 産業・労働 まちづくり ホーム くらし・手続き 子育て・教育 保険・福祉 観光・文化 産業・労働 まちづくり キーワード検索 現在の位置 ホ",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/soshiki/fukushi/hojo/7325.html",
+    "sourceName": "救急搬送患者等宿泊費助成金交付事業"
+  },
+  {
+    "slug": "hiroshima-official-005-007-2026",
+    "title": "大崎上島町 母子保健に関する助成",
+    "organization": "大崎上島町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大崎上島町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年08月25日 支給 未熟児養育医療費助成 自立支援医療（育成医療）医療費助成 不妊治療にかかわる助成 令和4年4月1日から、不妊治療の保険診療が始まり、以下のチラシのとおり、制度を開始しています",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/soshiki/fukushi/hojo/7892.html",
+    "sourceName": "母子保健に関する助成"
+  },
+  {
+    "slug": "hiroshima-official-005-008-2026",
+    "title": "大崎上島町 障がい者通院助成事業",
+    "organization": "大崎上島町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "大崎上島町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2025年10月23日 支給対象者は、町内に住所を有し、次のいずれかに該当する方及びその介護者です",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/soshiki/fukushi/hojo/7893.html",
+    "sourceName": "障がい者通院助成事業"
+  },
+  {
+    "slug": "hiroshima-official-005-009-2026",
+    "title": "大崎上島町 じん臓障がい者通院助成事業",
+    "organization": "大崎上島町",
+    "maxAmount": "上限額公共交通機関を利用する場合経済的な通常の経路及び方法による交通費対象経費の4分の3以内なし自動車を利用する場合フェリーボートに要する交通費1日につき2,376円",
+    "maxAmountNum": 2376,
+    "category": "nursing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "大崎上島町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2025年10月23日 支給対象者は、町内に住所を有し、じん臓機能障がいのため人工透析治療を受けている方です",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/soshiki/fukushi/hojo/7894.html",
+    "sourceName": "じん臓障がい者通院助成事業"
+  },
+  {
+    "slug": "hiroshima-official-005-010-2026",
+    "title": "大崎上島町 障がい者通所、通勤等交通費助成事業",
+    "organization": "大崎上島町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "大崎上島町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2025年10月23日 支給対象者は、町内に居住し住民基本台帳に記載されており、町外に通所、通勤等されている方若しくは障がい者と同程度の支援が必要と認めた方又はその扶養義務者です",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/soshiki/fukushi/hojo/7895.html",
+    "sourceName": "障がい者通所、通勤等交通費助成事業"
+  },
+  {
+    "slug": "hiroshima-official-005-011-2026",
+    "title": "大崎上島町 ひとり親家庭等医療費助成",
+    "organization": "大崎上島町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "大崎上島町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年08月25日 申請手続き 申請に必要な書類 申請者と対象児童の健康保険証 ひとり親家庭であることを証するもの（戸籍謄本、児童扶養手当証書など） 個人番号が確認できるもの(マイナンバーカード、通知カード) 本人確認ができるもの（マイナンバー",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/soshiki/fukushi/hojo/7899.html",
+    "sourceName": "ひとり親家庭等医療費助成"
+  },
+  {
+    "slug": "hiroshima-official-005-012-2026",
+    "title": "大崎上島町 こども通院助成金",
+    "organization": "大崎上島町",
+    "maxAmount": "上限：1回5,000円",
+    "maxAmountNum": 5000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "大崎上島町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年04月01日 申請に必要なもの 1",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/soshiki/fukushi/hojo/8161.html",
+    "sourceName": "こども通院助成金"
+  },
+  {
+    "slug": "hiroshima-official-005-013-2026",
+    "title": "大崎上島町 空き家改修補助",
+    "organization": "大崎上島町",
+    "maxAmount": "最大100万円",
+    "maxAmountNum": 1000000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大崎上島町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2023年12月06日 交付します",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/kurashi/sumai/4/2210.html",
+    "sourceName": "空き家改修補助"
+  },
+  {
+    "slug": "hiroshima-official-005-014-2026",
+    "title": "大崎上島町 危険建物除却補助金",
+    "organization": "大崎上島町",
+    "maxAmount": "補助額は補助対象工事の30％、かつ、30万円",
+    "maxAmountNum": 300000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "大崎上島町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年11月19日 交付を行います／大崎上島町 本文へ くらし・手続き 子育て・教育 保険・福祉 観光・文化 産業・労働 まちづくり ホーム くらし・手続き 子育て・教育 保険・福祉 観光・文化 産業・労働 まちづくり キーワード検索 現在の位",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/kurashi/sumai/4/2212.html",
+    "sourceName": "危険建物除却補助金"
+  },
+  {
+    "slug": "hiroshima-official-005-015-2026",
+    "title": "大崎上島町 住宅新築・改築補助",
+    "organization": "大崎上島町",
+    "maxAmount": "最大30万円",
+    "maxAmountNum": 300000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大崎上島町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2024年06月26日 交付します",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/kurashi/sumai/4/2213.html",
+    "sourceName": "住宅新築・改築補助"
+  },
+  {
+    "slug": "hiroshima-official-005-016-2026",
+    "title": "大崎上島町 浄化槽補助金",
+    "organization": "大崎上島町",
+    "maxAmount": "限度額に、100,000円",
+    "maxAmountNum": 100000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "大崎上島町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2020年04月01日 交付しています",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/kurashi/sumai/4/2639.html",
+    "sourceName": "浄化槽補助金"
+  },
+  {
+    "slug": "hiroshima-official-005-017-2026",
+    "title": "大崎上島町 木造住宅耐震診断等補助制度",
+    "organization": "大崎上島町",
+    "maxAmount": "補助金額耐震診断に要する経費の3分の2以内（上限3万円",
+    "maxAmountNum": 30000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大崎上島町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2020年04月01日 交付を受けていない住宅 補助金額 耐震診断に要する経費の3分の2以内（上限3万円） 申請に必要な書類 大崎上島町木造住宅耐震診断費補助金交付申請書（様式第8号）に、次に掲げる書類を添付して申請してください",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/kurashi/sumai/4/2858.html",
+    "sourceName": "木造住宅耐震診断等補助制度"
+  },
+  {
+    "slug": "hiroshima-official-005-018-2026",
+    "title": "大崎上島町 大崎上島町補助金等ガイド",
+    "organization": "大崎上島町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "大崎上島町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年05月20日 申請ください",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/soshiki/somu/6020.html",
+    "sourceName": "大崎上島町補助金等ガイド"
+  },
+  {
+    "slug": "hiroshima-official-005-019-2026",
+    "title": "大崎上島町 母子保健に関する助成",
+    "organization": "大崎上島町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大崎上島町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2023年01月26日 支給 未熟児養育医療費助成 自立支援医療（育成医療）医療費助成 不妊治療にかかわる助成 令和4年4月1日から、不妊治療の保険診療が始まり、以下のチラシのとおり、制度を開始しています",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/mokuteki/1/6487.html",
+    "sourceName": "母子保健に関する助成"
+  },
+  {
+    "slug": "hiroshima-official-005-020-2026",
+    "title": "大崎上島町 中小企業人材確保支援助成金",
+    "organization": "大崎上島町",
+    "maxAmount": "助成額≫雇用者1人につき1月当たり2,000円",
+    "maxAmountNum": 2000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大崎上島町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2023年08月01日 支給している（支給する）場合、その一部を助成します",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/soshiki/chiiki_keiei/3/6474.html",
+    "sourceName": "中小企業人材確保支援助成金"
+  },
+  {
+    "slug": "hiroshima-official-005-021-2026",
+    "title": "大崎上島町 空き家改修補助（空き家定住）",
+    "organization": "大崎上島町",
+    "maxAmount": "最大100万円",
+    "maxAmountNum": 1000000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大崎上島町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2023年12月06日 交付します",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/kurashi/sumai/1/2860.html",
+    "sourceName": "空き家改修補助（空き家定住）"
+  },
+  {
+    "slug": "hiroshima-official-005-022-2026",
+    "title": "大崎上島町 年金生活者支援給付金制度",
+    "organization": "大崎上島町",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "大崎上島町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年08月01日 支給されます",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/hoken/1/2258.html",
+    "sourceName": "年金生活者支援給付金制度"
+  },
+  {
+    "slug": "hiroshima-official-005-023-2026",
+    "title": "大崎上島町 幼児教育・保育の無償化",
+    "organization": "大崎上島町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大崎上島町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年07月14日 幼児教育・保育の無償化について／大崎上島町 本文へ くらし・手続き 子育て・教育 保険・福祉 観光・文化 産業・労働 まちづくり ホーム くらし・手続き 子育て・教育 保険・福祉 観光・文化 産業・労働 まちづくり キーワード検索 現在の位",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/kosodate/kyoiku/2197.html",
+    "sourceName": "幼児教育・保育の無償化"
+  },
+  {
+    "slug": "hiroshima-official-005-024-2026",
+    "title": "大崎上島町 令和8年度奨学金申込受付",
+    "organization": "大崎上島町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大崎上島町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年02月02日 受付について／大崎上島町 本文へ くらし・手続き 子育て・教育 保険・福祉 観光・文化 産業・労働 まちづくり ホーム くらし・手続き 子育て・教育 保険・福祉 観光・文化 産業・労働 まちづくり キーワード検索 現在の位置",
+    "officialUrl": "https://www.town.osakikamijima.hiroshima.jp/kosodate/kyoiku/2196.html",
+    "sourceName": "令和8年度奨学金申込受付"
+  },
+  {
+    "slug": "hiroshima-official-005-025-2026",
+    "title": "世羅町 子育て家庭転入助成金事業",
+    "organization": "世羅町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "世羅町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 支給します",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/11/14561.html",
+    "sourceName": "子育て家庭転入助成金事業"
+  },
+  {
+    "slug": "hiroshima-official-005-026-2026",
+    "title": "世羅町 妊婦健康診査通院支援事業",
+    "organization": "世羅町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "employment",
+      "living"
+    ],
+    "eligibility": "世羅町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 支給します",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/11/14557.html",
+    "sourceName": "妊婦健康診査通院支援事業"
+  },
+  {
+    "slug": "hiroshima-official-005-027-2026",
+    "title": "世羅町 世羅町くらしサポート事業（生理用品の無償配付）",
+    "organization": "世羅町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "世羅町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2021年12月6日 受付カウンターに設置しているチラシを指さしていただくか、「せらミモザカード」をお持ちのうえご提示ください",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/site/hukushi-kaigo/6107.html",
+    "sourceName": "世羅町くらしサポート事業（生理用品の無償配付）"
+  },
+  {
+    "slug": "hiroshima-official-005-028-2026",
+    "title": "世羅町 はぴはぴ祝金（出産祝金）",
+    "organization": "世羅町",
+    "maxAmount": "支給額出生児1人につき50,000円",
+    "maxAmountNum": 50000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "世羅町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2021年4月1日 支給します",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/11/3253.html",
+    "sourceName": "はぴはぴ祝金（出産祝金）"
+  },
+  {
+    "slug": "hiroshima-official-005-029-2026",
+    "title": "世羅町 不妊検査・一般不妊治療費助成事業",
+    "organization": "世羅町",
+    "maxAmount": "上限5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "世羅町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2021年1月18日 申請日時点で、法律上の婚姻をしている方（事実婚を含む） 広島県の不妊治療支援事業において、不妊治療費助成の承認決定をされた方 検査・治療開始時の妻の年齢が35歳未満である夫婦 夫婦ともに不妊検査を受けていること 町税（料）等",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/11/352.html",
+    "sourceName": "不妊検査・一般不妊治療費助成事業"
+  },
+  {
+    "slug": "hiroshima-official-005-030-2026",
+    "title": "世羅町 未熟児養育医療制度",
+    "organization": "世羅町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "世羅町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2021年1月18日 支給内容 診療 薬剤又は治療材料の支給 医学的処置、手術及びその他の治療 病院または診療所への入院及びその治療に伴う世話その他の監護 移送 自己負担額等 健康保険対象外の治療費等（差額ベット代、オムツ代など） &rarr;直",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/11/346.html",
+    "sourceName": "未熟児養育医療制度"
+  },
+  {
+    "slug": "hiroshima-official-005-031-2026",
+    "title": "世羅町 自立支援医療（育成医療）制度",
+    "organization": "世羅町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "世羅町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2021年1月18日 支給内容 診療 薬剤又は治療材料の支給 医学的処置、手術及びその他の治療及び施術 居宅における療養上の管理及びその治療に伴う世話その他の監護 病院または診療所への入院及びその治療に伴う世話その他の監護 移送（医療保険により給",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/11/345.html",
+    "sourceName": "自立支援医療（育成医療）制度"
+  },
+  {
+    "slug": "hiroshima-official-005-032-2026",
+    "title": "世羅町 子育て家庭家賃補助金",
+    "organization": "世羅町",
+    "maxAmount": "月額10,000円",
+    "maxAmountNum": 10000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "世羅町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2021年1月18日 支給します",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/11/344.html",
+    "sourceName": "子育て家庭家賃補助金"
+  },
+  {
+    "slug": "hiroshima-official-005-033-2026",
+    "title": "世羅町 児童扶養手当",
+    "organization": "世羅町",
+    "maxAmount": "月額区分1人目2人目以降（1人につき）全部支給48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "世羅町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 支給されます",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/11/13165.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "hiroshima-official-005-034-2026",
+    "title": "世羅町 児童手当",
+    "organization": "世羅町",
+    "maxAmount": "支給額0歳～3歳未満（第1子・第2子）15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "世羅町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月1日 支給されます",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/11/16873.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "hiroshima-official-005-035-2026",
+    "title": "世羅町 物価高対応子育て応援手当",
+    "organization": "世羅町",
+    "maxAmount": "支給額対象児童1人につき2万円",
+    "maxAmountNum": 20000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "世羅町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年2月10日 支給します",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/11/16050.html",
+    "sourceName": "物価高対応子育て応援手当"
+  },
+  {
+    "slug": "hiroshima-official-005-036-2026",
+    "title": "世羅町 高等職業訓練促進給付金",
+    "organization": "世羅町",
+    "maxAmount": "支給額項目住民税非課税世帯住民税課税世帯高等職業訓練促進給付金100,000円",
+    "maxAmountNum": 100000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "世羅町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2023年7月31日 支給について - 世羅町ホームページ ページの先頭です",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/11/10672.html",
+    "sourceName": "高等職業訓練促進給付金"
+  },
+  {
+    "slug": "hiroshima-official-005-037-2026",
+    "title": "世羅町 妊婦のための支援給付",
+    "organization": "世羅町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "世羅町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年4月1日 交付） 出産予定日前８週間頃：保健師による面談（出生届出の説明や出産後に利用可能なサービスの情報提供等） 出生後：こんにちは赤ちゃん訪問による面談 （2）給付金の内容 〇妊娠期：胎児心拍が確認された妊婦に対し、50,000円",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/11/9704.html",
+    "sourceName": "妊婦のための支援給付"
+  },
+  {
+    "slug": "hiroshima-official-005-038-2026",
+    "title": "世羅町 特定不妊治療助成事業",
+    "organization": "世羅町",
+    "maxAmount": "助成額特定不妊治療に併せて行われた先進医療又は審議中の技術に要する自己負担額の合計から広島県特定不妊治療支援事業の助成を引いた額（上限5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "世羅町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2023年8月28日 申請に必要な書類等 1",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/11/11019.html",
+    "sourceName": "特定不妊治療助成事業"
+  },
+  {
+    "slug": "hiroshima-official-005-039-2026",
+    "title": "世羅町 産後ケア事業",
+    "organization": "世羅町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "世羅町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2021年4月1日 申請書を提出されるか、電話・メールでお申込みください",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/11/3377.html",
+    "sourceName": "産後ケア事業"
+  },
+  {
+    "slug": "hiroshima-official-005-040-2026",
+    "title": "世羅町 世羅町住宅リフォーム補助事業",
+    "organization": "世羅町",
+    "maxAmount": "補助額・リフォーム工事に要する費用の10分の1に相当する額（その額に1,000円",
+    "maxAmountNum": 1000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "世羅町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年6月1日 申請受付期間 4月20日（月曜日）～10月30日（金曜日） ※申請金額が予算上限に達し次第、申請受付を終了します",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/14/15857.html",
+    "sourceName": "世羅町住宅リフォーム補助事業"
+  },
+  {
+    "slug": "hiroshima-official-005-041-2026",
+    "title": "世羅町 木造住宅耐震診断・耐震改修工事費補助事業",
+    "organization": "世羅町",
+    "maxAmount": "補助額耐震診断耐震診断に要する費用に3分の2を乗じて得た額以内の額（その額に1,000円",
+    "maxAmountNum": 1000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "世羅町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年5月15日 交付を受けていない者 補助額 耐震診断 耐震診断に要する費用に3分の2を乗じて得た額以内の額（その額に1,000円未満の端数が あるときは、その端数を切捨てた額）とする",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/14/12415.html",
+    "sourceName": "木造住宅耐震診断・耐震改修工事費補助事業"
+  },
+  {
+    "slug": "hiroshima-official-005-042-2026",
+    "title": "世羅町 老朽住宅除却補助",
+    "organization": "世羅町",
+    "maxAmount": "上限は100万円",
+    "maxAmountNum": 1000000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "世羅町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2021年1月18日 交付要綱に定める「住宅の不良度の測定基準」による各評定項目の評点の合計が100点を超える住宅であること",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/14/513.html",
+    "sourceName": "老朽住宅除却補助"
+  },
+  {
+    "slug": "hiroshima-official-005-043-2026",
+    "title": "世羅町 ひとり親家庭等医療費助成",
+    "organization": "世羅町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "世羅町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年1月1日 申請が必要となります",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/15/375.html",
+    "sourceName": "ひとり親家庭等医療費助成"
+  },
+  {
+    "slug": "hiroshima-official-005-044-2026",
+    "title": "世羅町 アピアランスケア（ウィッグ購入費助成）",
+    "organization": "世羅町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "世羅町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2022年5月23日 申請時に広島県内に住所を有する方 （２）がんの治療を受けた方又は現在受けている方 （３）がんの治療により脱毛が生じた（又は生じるおそれがある",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/15/7723.html",
+    "sourceName": "アピアランスケア（ウィッグ購入費助成）"
+  },
+  {
+    "slug": "hiroshima-official-005-045-2026",
+    "title": "世羅町 若年者遠距離通勤助成事業",
+    "organization": "世羅町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "世羅町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2022年4月8日 申請年度の4月1日時点で満35歳未満の方（学生は除く）",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/17/7212.html",
+    "sourceName": "若年者遠距離通勤助成事業"
+  },
+  {
+    "slug": "hiroshima-official-005-046-2026",
+    "title": "世羅町 移住者等住宅支援事業",
+    "organization": "世羅町",
+    "maxAmount": "補助額補助対象経費の10分の1（上限額60万円",
+    "maxAmountNum": 600000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "世羅町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2024年4月17日 交付を受けようとするときは、新築事業は工事着手前、空き家・空き地バンク購入事業においては、住宅及び土地の売買契約前に手続きが必要です",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/17/75.html",
+    "sourceName": "移住者等住宅支援事業"
+  },
+  {
+    "slug": "hiroshima-official-005-047-2026",
+    "title": "世羅町 再生可能エネルギー設備設置費補助金",
+    "organization": "世羅町",
+    "maxAmount": "補助金額詳細設備の種類補助額木質バイオマス燃焼機器上限10万円",
+    "maxAmountNum": 100000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "世羅町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請受付期間 4月20日（月曜日）～令和9年2月26日（金曜日） ※新規設置される方は、工事着工の10日前までに、建売住宅を購入される方は、売買契約後、購入代金を支払う前までに、「再生可能エネルギー設備設置費補助金交付申請書",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/4/10059.html",
+    "sourceName": "再生可能エネルギー設備設置費補助金"
+  },
+  {
+    "slug": "hiroshima-official-005-048-2026",
+    "title": "世羅町 家庭用生ごみ処理機等購入費補助金",
+    "organization": "世羅町",
+    "maxAmount": "上限2万円",
+    "maxAmountNum": 20000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "世羅町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請受付期間 4月20日（月曜日）～令和9年2月26日（金曜日） ※補助金（予算）には限りがあり、予算額に達した時点で受付を終了します",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/4/12088.html",
+    "sourceName": "家庭用生ごみ処理機等購入費補助金"
+  },
+  {
+    "slug": "hiroshima-official-005-049-2026",
+    "title": "世羅町 家庭用LED照明器具等買替補助金",
+    "organization": "世羅町",
+    "maxAmount": "補助金額補助対象経費の額に2分の1を乗じて得た額（100円",
+    "maxAmountNum": 100,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "世羅町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 交付金を活用して、事業を実施します",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/4/12115.html",
+    "sourceName": "家庭用LED照明器具等買替補助金"
+  },
+  {
+    "slug": "hiroshima-official-005-050-2026",
+    "title": "世羅町 シャワーヘッド買替補助金",
+    "organization": "世羅町",
+    "maxAmount": "補助金額補助対象経費の額に2分の1を乗じて得た額（100円",
+    "maxAmountNum": 100,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "世羅町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 受付期間 4月20日（月曜日）～令和9年2月26日（金曜日） ※「世羅町シャワーヘッド買替補助金交付申請書兼振込依頼書」に必要な書類を添えて提出してください",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/4/14391.html",
+    "sourceName": "シャワーヘッド買替補助金"
+  },
+  {
+    "slug": "hiroshima-official-005-051-2026",
+    "title": "世羅町 宅配ボックス購入補助金",
+    "organization": "世羅町",
+    "maxAmount": "補助金額補助対象経費の額に2分の1を乗じて得た額（100円",
+    "maxAmountNum": 100,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "世羅町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 受付期間 4月20日（月曜日）～令和9年2月26日（金曜日） ※「世羅町宅配ボックス購入補助金交付申請書兼振込依頼書」に必要な書類を添えて提出してください",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/4/14392.html",
+    "sourceName": "宅配ボックス購入補助金"
+  },
+  {
+    "slug": "hiroshima-official-005-052-2026",
+    "title": "世羅町 飼い主のいない猫の不妊去勢手術費補助金",
+    "organization": "世羅町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "世羅町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請受付期間 4月20日（月曜日）～令和9年2月26日（金曜日） ※補助金（予算）には限りがあり、予算額に達した時点で補助を終了します",
+    "officialUrl": "https://www.town.sera.hiroshima.jp/soshiki/4/13805.html",
+    "sourceName": "飼い主のいない猫の不妊去勢手術費補助金"
+  },
+  {
+    "slug": "hiroshima-official-005-053-2026",
+    "title": "神石高原町 児童手当",
+    "organization": "神石高原町",
+    "maxAmount": "月額）０～３歳未満（第１子・第２子）15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "神石高原町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "支給することにより、家庭等における生活の安定に寄与するとともに、次代の社会を担う児童の健やかな成長に資することを目的とする制度です",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/kosodate/teatejosei/z105/",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "hiroshima-official-005-054-2026",
+    "title": "神石高原町 妊婦のための支援給付金",
+    "organization": "神石高原町",
+    "maxAmount": "支給額・申請期限申請時期支給額申請期限1回目妊娠の届を行ったとき（医療機関において妊娠が確認されたのち母子健康手帳の交付を受け、面談を行ったとき）5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "神石高原町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和7年4月1日 申請時点で神石高原町に住民票がある妊娠している方 申請時期・支給額・申請期限 申請時期 支給額 申請期限 1回目 妊娠の届を行ったとき （医療機関において妊娠が確認されたのち 母子健康手帳の交付を受け、面談を行ったとき） 5",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/kosodate/teatejosei/w125/",
+    "sourceName": "妊婦のための支援給付金"
+  },
+  {
+    "slug": "hiroshima-official-005-055-2026",
+    "title": "神石高原町 各種予防接種費の助成",
+    "organization": "神石高原町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "神石高原町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年06月05日 受付：月曜日～金曜日 午前8時30分から午後5時15分（土曜、日曜、祝日、年末年始は除く） 子育て応援課 役場案内 電話 0847-89-3368 FAX 0847-85-3394 神石高原町役場 〒720-1522 広島県",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/kosodate/teatejosei/z577/",
+    "sourceName": "各種予防接種費の助成"
+  },
+  {
+    "slug": "hiroshima-official-005-056-2026",
+    "title": "神石高原町 児童扶養手当",
+    "organization": "神石高原町",
+    "maxAmount": "月額）全部支給一部支給全部停止児童１人の場合48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "神石高原町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "支給する手当です",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/kosodate/teatejosei/s275/",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "hiroshima-official-005-057-2026",
+    "title": "神石高原町 ひとり親家庭の支援",
+    "organization": "神石高原町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "神石高原町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "受付 子育て応援課 電話：0847-89-3368 電話受付：月曜日～金曜日 午前8時30分から午後5時15分 （土曜、日曜、祝日、年末年始は除く",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/kosodate/teatejosei/v722/",
+    "sourceName": "ひとり親家庭の支援"
+  },
+  {
+    "slug": "hiroshima-official-005-058-2026",
+    "title": "神石高原町 特別児童扶養手当",
+    "organization": "神石高原町",
+    "maxAmount": "支給額１級：58,450円",
+    "maxAmountNum": 58450,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "神石高原町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "支給することにより、障害児の福祉の増進を図ることを目的としています",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/kosodate/teatejosei/q128/",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "hiroshima-official-005-059-2026",
+    "title": "神石高原町 不妊・不育にお悩みの方へ",
+    "organization": "神石高原町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "神石高原町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2022年11月14日 受付：月曜日～金曜日 午前8時30分から午後5時15分（土曜、日曜、祝日、年末年始は除く） 子育て応援課 役場案内 電話 0847-89-3368 FAX 0847-85-3394 神石高原町役場 〒720-1522 広島県",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/kosodate/03/funin/",
+    "sourceName": "不妊・不育にお悩みの方へ"
+  },
+  {
+    "slug": "hiroshima-official-005-060-2026",
+    "title": "神石高原町 こどもの医療について",
+    "organization": "神石高原町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "神石高原町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "支給制度について その他 所得制限はありません",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/hoken/07/iryou_fukushi/",
+    "sourceName": "こどもの医療について"
+  },
+  {
+    "slug": "hiroshima-official-005-061-2026",
+    "title": "神石高原町 神石高原町医療従事者育成奨学金",
+    "organization": "神石高原町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "education",
+      "living"
+    ],
+    "eligibility": "神石高原町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年06月03日 募集しています！ お問い合わせ先 電話受付：月曜日～金曜日 午前8時30分から午後5時15分（土曜、日曜、祝日、年末年始は除く） 健康衛生課 役場案内 電話 0847-89-3366 FAX 0847-85-3541 神石高",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/kankyoueisei/oshirase/p967/",
+    "sourceName": "神石高原町医療従事者育成奨学金"
+  },
+  {
+    "slug": "hiroshima-official-005-062-2026",
+    "title": "神石高原町 高齢者福祉事業",
+    "organization": "神石高原町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "神石高原町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2025年04月01日 支給事業 在宅介護者激励手当支給事業 お問い合わせ先 電話受付：月曜日～金曜日 午前8時30分から午後5時15分（土曜、日曜、祝日、年末年始は除く） 福祉課 高齢者福祉係 役場案内 電話 0847-89-3377 FAX 0",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/hoken/01/roujin/kou/",
+    "sourceName": "高齢者福祉事業"
+  },
+  {
+    "slug": "hiroshima-official-005-063-2026",
+    "title": "神石高原町 障害児福祉手当",
+    "organization": "神石高原町",
+    "maxAmount": "月額16,560円",
+    "maxAmountNum": 16560,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "神石高原町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "支給されます",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/hoken/02/r112/",
+    "sourceName": "障害児福祉手当"
+  },
+  {
+    "slug": "hiroshima-official-005-064-2026",
+    "title": "神石高原町 特別障害者手当",
+    "organization": "神石高原町",
+    "maxAmount": "月額30,450円",
+    "maxAmountNum": 30450,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "神石高原町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "支給されます",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/hoken/02/s140/",
+    "sourceName": "特別障害者手当"
+  },
+  {
+    "slug": "hiroshima-official-005-065-2026",
+    "title": "神石高原町 日常生活用具の給付申請",
+    "organization": "神石高原町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "神石高原町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "申請について | 広島県・神石郡 神石高原町(じんせきこうげんちょう)行政サイト ※当サイトはJavaScriptが有効になっていないと正常に表示されません",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/hoken/02/g642/",
+    "sourceName": "日常生活用具の給付申請"
+  },
+  {
+    "slug": "hiroshima-official-005-066-2026",
+    "title": "神石高原町 障害者就労継続支援施設等通所奨励金",
+    "organization": "神石高原町",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "神石高原町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "支給申請について | 広島県・神石郡 神石高原町(じんせきこうげんちょう)行政サイト ※当サイトはJavaScriptが有効になっていないと正常に表示されません",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/hoken/02/n171/",
+    "sourceName": "障害者就労継続支援施設等通所奨励金"
+  },
+  {
+    "slug": "hiroshima-official-005-067-2026",
+    "title": "神石高原町 在宅心身障害者就労継続支援施設等通所費補助金",
+    "organization": "神石高原町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "神石高原町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "支給申請について | 広島県・神石郡 神石高原町(じんせきこうげんちょう)行政サイト ※当サイトはJavaScriptが有効になっていないと正常に表示されません",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/hoken/02/p134/",
+    "sourceName": "在宅心身障害者就労継続支援施設等通所費補助金"
+  },
+  {
+    "slug": "hiroshima-official-005-068-2026",
+    "title": "神石高原町 有機JAS認証取得支援事業補助金",
+    "organization": "神石高原町",
+    "maxAmount": "限度額同一年度内1回限り50,000円",
+    "maxAmountNum": 50000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "神石高原町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年03月31日 申請書式集代、登録認証機関年会費、認定機関に属する者の交通費、宿泊費、認証シール発行に係る費用、消費税及び地方消費税を除く",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/sangyou1/4/c699/",
+    "sourceName": "有機JAS認証取得支援事業補助金"
+  },
+  {
+    "slug": "hiroshima-official-005-069-2026",
+    "title": "神石高原町 環境保全型農業直接支払交付金事業",
+    "organization": "神石高原町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "神石高原町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "交付金事業について | 広島県・神石郡 神石高原町(じんせきこうげんちょう)行政サイト ※当サイトはJavaScriptが有効になっていないと正常に表示されません",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/sangyou1/4/kankyou/",
+    "sourceName": "環境保全型農業直接支払交付金事業"
+  },
+  {
+    "slug": "hiroshima-official-005-070-2026",
+    "title": "神石高原町 事業承継支援事業補助金",
+    "organization": "神石高原町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "神石高原町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年02月19日 交付する制度です",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/sangyou1/02/syokei/",
+    "sourceName": "事業承継支援事業補助金"
+  },
+  {
+    "slug": "hiroshima-official-005-071-2026",
+    "title": "神石高原町 工場等設置奨励金制度",
+    "organization": "神石高原町",
+    "maxAmount": "最大5,000万円",
+    "maxAmountNum": 50000000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "神石高原町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "交付する制度です",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/sangyou1/02/koujou/",
+    "sourceName": "工場等設置奨励金制度"
+  },
+  {
+    "slug": "hiroshima-official-005-072-2026",
+    "title": "神石高原町 移住支援金",
+    "organization": "神石高原町",
+    "maxAmount": "支給額単身者の場合６０万円",
+    "maxAmountNum": 600000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "神石高原町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2023年04月14日 交付します",
+    "officialUrl": "https://www.jinsekigun.jp/town/5/4/5/teijyu/x147/",
+    "sourceName": "移住支援金"
+  },
+  {
+    "slug": "hiroshima-official-005-073-2026",
+    "title": "神石高原町 子育て応援住宅等取得支援事業",
+    "organization": "神石高原町",
+    "maxAmount": "１５０万円を限度",
+    "maxAmountNum": 1500000,
+    "category": "childcare",
+    "relatedCategories": [
+      "housing",
+      "employment",
+      "living"
+    ],
+    "eligibility": "神石高原町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "令和７年４月１日 交付決定後１０年以上定住する方（全ての申請者の要件） 町税等の滞納がない世帯の方（全ての申請者の要件） 以前に当該補助金を受けていない方（全ての申請者の要件） 対象住宅 新築の場合、年度内に完成が見込める住宅 自ら居住するた",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/mirai/01/jyutakushien/kenchiku/",
+    "sourceName": "子育て応援住宅等取得支援事業"
+  },
+  {
+    "slug": "hiroshima-official-005-074-2026",
+    "title": "神石高原町 住宅取得促進奨励金交付事業",
+    "organization": "神石高原町",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "神石高原町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "令和９年３月３１日 交付事業 | 広島県・神石郡 神石高原町(じんせきこうげんちょう)行政サイト ※当サイトはJavaScriptが有効になっていないと正常に表示されません",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/mirai/01/jyutakushien/syutoku/",
+    "sourceName": "住宅取得促進奨励金交付事業"
+  },
+  {
+    "slug": "hiroshima-official-005-075-2026",
+    "title": "神石高原町 空き家及び住宅改修補助金交付事業",
+    "organization": "神石高原町",
+    "maxAmount": "上限50万円",
+    "maxAmountNum": 500000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "神石高原町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "令和９年３月３１日 交付事業 | 広島県・神石郡 神石高原町(じんせきこうげんちょう)行政サイト ※当サイトはJavaScriptが有効になっていないと正常に表示されません",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/mirai/01/jyutakushien/kaisyu/",
+    "sourceName": "空き家及び住宅改修補助金交付事業"
+  },
+  {
+    "slug": "hiroshima-official-005-076-2026",
+    "title": "神石高原町 新婚定住祝い金支給事業",
+    "organization": "神石高原町",
+    "maxAmount": "５万円を支給",
+    "maxAmountNum": 50000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "神石高原町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "令和９年３月３１日 支給事業 | 広島県・神石郡 神石高原町(じんせきこうげんちょう)行政サイト ※当サイトはJavaScriptが有効になっていないと正常に表示されません",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/mirai/01/kekkon/teijyu/",
+    "sourceName": "新婚定住祝い金支給事業"
+  },
+  {
+    "slug": "hiroshima-official-005-077-2026",
+    "title": "神石高原町 誕生祝い金支給事業",
+    "organization": "神石高原町",
+    "maxAmount": "10万円を支給",
+    "maxAmountNum": 100000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "神石高原町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "支給事業 | 広島県・神石郡 神石高原町(じんせきこうげんちょう)行政サイト ※当サイトはJavaScriptが有効になっていないと正常に表示されません",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/kosodate/teatejosei/kosodate/tanjo_iwaikin/",
+    "sourceName": "誕生祝い金支給事業"
+  },
+  {
+    "slug": "hiroshima-official-005-078-2026",
+    "title": "神石高原町 子育て支援小中学校入学祝い金支給事業",
+    "organization": "神石高原町",
+    "maxAmount": "5万円を支給",
+    "maxAmountNum": 50000,
+    "category": "childcare",
+    "relatedCategories": [
+      "education",
+      "employment",
+      "living"
+    ],
+    "eligibility": "神石高原町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "支給事業 子育て支援小中学校入学祝い金支援事業 小学校及び中学校1年生として入学した児童を養育する方を対象に、5万円を支給します",
+    "officialUrl": "https://www.jinsekigun.jp/town/formation/kosodate/teatejosei/kosodate/nyugaku/",
+    "sourceName": "子育て支援小中学校入学祝い金支給事業"
+  }
+];

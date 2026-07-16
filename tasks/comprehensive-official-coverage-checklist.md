@@ -10889,3 +10889,13 @@
 - 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 20850、officialLinkedActive 20729、manuallyVerifiedActive 20729、広島県 localOfficial 446）
 - 到達点: 広島県は34100広島市から34369北広島町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 広島県公式棚卸し005として、34431大崎上島町から再開
+
+### 広島県公式棚卸し005（34431大崎上島町・34462世羅町・34545神石高原町）
+- 実施日: 2026-07-17
+- 候補: 標準discoverは0件。公式カテゴリページ、公式サイト内リンク、公式sitemap、本文スニペット再スコアから、公式HTML個別制度ページ・公式制度掲載ページ78本を採用
+- 採用: 78件（大崎上島町24件、世羅町28件、神石高原町26件）
+- 公式URL: 採用URL到達確認は tasks/discovery/hiroshima-official-coverage-005-url-status.txt に記録（78本すべてHTTP 200）
+- 保留: 標準discoverが0件のため、公式カテゴリと公式サイト内リンクを補完。大崎上島町は福祉・補助・住まいカテゴリ、世羅町は子育て・住まい・環境・移住定住ページ、神石高原町は子育て・保健福祉・産業・定住住宅ページを起点に確認。トップ、カテゴリ導線、共通ナビ、FAQ、申請書・PDF単体、広報・報告・相談・採用・外部制度のみ、本文根拠が薄い候補、同一制度の重複ページは第2巡候補として保持
+- 検証: node --check、JSON.parse、slug重複、URL到達、eslint、git diff --check、audit:coverage すべてpass（failures 0、activePublished 20928、officialLinkedActive 20807、manuallyVerifiedActive 20807、広島県 localOfficial 524）
+- 到達点: 広島県は34100広島市から34545神石高原町まで第1巡完了。全国公式棚卸しは未完了
+- 次回: 山口県公式棚卸し001として、35201下関市から再開
