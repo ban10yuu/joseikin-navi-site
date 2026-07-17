@@ -272,24 +272,7 @@ body {
 }
 
 .responsive-affiliate-heading {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
-  gap: 0.65rem;
-  align-items: start;
   margin-bottom: 0.75rem;
-}
-
-.responsive-affiliate-heading > span {
-  display: inline-flex;
-  min-height: 26px;
-  align-items: center;
-  border-radius: 999px;
-  background: #78350f;
-  padding: 0.15rem 0.6rem;
-  color: #ffffff;
-  font-size: 0.6875rem;
-  font-weight: 900;
-  letter-spacing: 0.08em;
 }
 
 .responsive-affiliate-heading h2 {

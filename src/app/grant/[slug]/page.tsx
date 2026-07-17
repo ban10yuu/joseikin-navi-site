@@ -98,8 +98,10 @@ export default async function GrantDetailPage({ params }: Props) {
     status,
     indexable: sourceStatus.level !== 'unverified' && !expired && grant.indexStatus !== 'noindex' && grant.contentStatus === 'published',
     hasOfficialSource: Boolean(primaryOfficialUrl),
-    limit: 2,
+    limit: 6,
   });
+  const primaryAffiliateOffers = affiliateOffers.slice(0, 2);
+  const secondaryAffiliateOffers = affiliateOffers.slice(2);
 
   const orderedGroups: GrantSectionGroup[] = ['overview', 'eligibility', 'amount', 'period', 'costs', 'method', 'documents', 'contact'];
   const classifiedCount = orderedGroups.reduce((count, group) => count + sectionGroups[group].length, 0);
@@ -136,9 +138,9 @@ export default async function GrantDetailPage({ params }: Props) {
               />
             </div>
 
-            {affiliateOffers.length > 0 ? (
+            {primaryAffiliateOffers.length > 0 ? (
               <ResponsiveAffiliatePlacement
-                offers={affiliateOffers}
+                offers={primaryAffiliateOffers}
                 pageType="grant"
                 grantId={grant.slug}
                 audience={grant.primaryAudience}
@@ -197,9 +199,9 @@ export default async function GrantDetailPage({ params }: Props) {
 
           <nav aria-label="この制度に関連する検索" className="mt-8 rounded-xl border border-line bg-wash p-5"><h2 className="text-lg font-black text-navy">条件が近い制度を探す</h2><div className="mt-3 flex flex-wrap gap-3"><Link href={`/grants/?pref=${encodeURIComponent(grant.prefecture)}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">{grant.prefecture}の制度</Link>{purpose && <Link href={`/grants/?purpose=${purpose}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">同じ目的の制度</Link>}<Link href={`/grants/?audience=${businessAudience ? 'business' : 'individual'}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">同じ対象区分の制度</Link>{grant.supportType && <Link href={`/grants/?supportType=${grant.supportType}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">同じ制度種別</Link>}<Link href="/guide/" className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">申請前ガイド</Link></div></nav>
 
-          {affiliateOffers.length > 0 ? (
+          {secondaryAffiliateOffers.length > 0 ? (
             <ResponsiveAffiliatePlacement
-              offers={affiliateOffers}
+              offers={secondaryAffiliateOffers}
               pageType="grant"
               grantId={grant.slug}
               audience={grant.primaryAudience}

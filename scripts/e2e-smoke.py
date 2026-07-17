@@ -56,7 +56,8 @@ with sync_playwright() as playwright:
             guide_number = first_guide.locator('.home-search-guide-number').bounding_box()
             check(not rectangles_overlap(guide_number, audience_visual.bounding_box()), f'トップ ({visual_width}px): 手順番号が対象アイコンへ重なっています')
         initial_affiliate_image = visual_home.locator('.home-business-affiliate .affiliate-creative-image')
-        check(initial_affiliate_image.count() == 1, f'トップ ({visual_width}px): 初期状態で事業者向けPR画像が表示されません')
+        expected_count = 3 if visual_width >= 1024 else 1
+        check(initial_affiliate_image.count() == expected_count, f'トップ ({visual_width}px): 初期状態のPR画像数が設計と一致しません')
         visual_home.wait_for_timeout(750)
         visual_home.get_by_role('button', name='事業者・団体向け').click()
         affiliate_image = visual_home.locator('.home-business-affiliate .affiliate-creative-image')
@@ -64,7 +65,6 @@ with sync_playwright() as playwright:
             affiliate_image.first.wait_for(state='attached', timeout=5000)
         except Exception:
             pass
-        expected_count = 1
         check(affiliate_image.count() == expected_count, f'トップ ({visual_width}px): 表示されるPR画像数が設計と一致しません')
         for image_index in range(affiliate_image.count()):
             affiliate_image_box = affiliate_image.nth(image_index).bounding_box()
@@ -79,8 +79,8 @@ with sync_playwright() as playwright:
     desktop_search = desktop_home.locator('.home-search-panel')
     desktop_rail = desktop_home.locator('.home-business-affiliate')
     desktop_pr = desktop_home.locator('.home-business-affiliate [data-analytics-impression-event="affiliate_impression"]')
-    check(desktop_pr.count() == 1, 'トップPC: 公開可能なPR枠が1件ではありません')
-    if desktop_pr.count() == 1:
+    check(desktop_pr.count() == 3, 'トップPC: 公開可能なPR枠が3件ではありません')
+    if desktop_pr.count() >= 1:
         desktop_search_box = desktop_home.locator('.home-search-step').first.bounding_box()
         desktop_heading_box = desktop_home.locator('.home-search-heading').bounding_box()
         desktop_rail_box = desktop_rail.bounding_box()
@@ -226,12 +226,13 @@ with sync_playwright() as playwright:
     sensitive.close()
 
     affiliate_desktop, affiliate_desktop_errors = open_page(browser, '/grant/hachioji-startup-support/', 1440, 1000)
+    affiliate_desktop.wait_for_timeout(200)
     affiliate_desktop_article = affiliate_desktop.locator('.grant-detail-article')
     affiliate_desktop_rail = affiliate_desktop.locator('.grant-affiliate-placement')
     affiliate_desktop_pr = affiliate_desktop_rail.locator('[data-analytics-impression-event="affiliate_impression"]')
-    check(affiliate_desktop_pr.count() == 1, '制度詳細PC: 適合する右レールPRが1件ではありません')
-    check(affiliate_desktop.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 2, '制度詳細PC: 右レールと本文内にPRが2枠ありません')
-    if affiliate_desktop_pr.count() == 1:
+    check(affiliate_desktop_pr.count() == 2, '制度詳細PC: 右レールPRが2件ではありません')
+    check(affiliate_desktop.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 6, '制度詳細PC: 上部2件・本文後半4件のPRがありません')
+    if affiliate_desktop_pr.count() >= 1:
         affiliate_desktop_article_box = affiliate_desktop.locator('.grant-detail-main-start').bounding_box()
         affiliate_desktop_rail_box = affiliate_desktop_rail.bounding_box()
         check(affiliate_desktop_rail_box['x'] >= affiliate_desktop_article_box['x'] + affiliate_desktop_article_box['width'], '制度詳細PC: PR枠が本文の右側にありません')
@@ -282,12 +283,14 @@ with sync_playwright() as playwright:
     business_guide.close()
 
     desktop_guide, desktop_guide_errors = open_page(browser, '/guide/#business-guide', 1024, 900)
+    desktop_guide.wait_for_timeout(200)
     desktop_guide_pr = desktop_guide.locator('[data-analytics-impression-event="affiliate_impression"][data-page-type="businessGuide"]')
-    check(desktop_guide_pr.count() == 1, '事業者向け申請ガイドPC: 公開可能なPRが1件ではありません')
-    if desktop_guide_pr.count() == 1:
+    check(desktop_guide_pr.count() == 2, '事業者向け申請ガイドPC: 公開可能なPRが2件ではありません')
+    if desktop_guide_pr.count() == 2:
         guide_slides_box = desktop_guide.locator('.guide-affiliate-placement .responsive-affiliate-slides').bounding_box()
-        guide_pr_box = desktop_guide_pr.bounding_box()
-        check(guide_pr_box['width'] >= guide_slides_box['width'] * 0.9, '事業者向け申請ガイドPC: 1件だけのPRが半幅になり空欄が生じています')
+        for guide_index in range(desktop_guide_pr.count()):
+            guide_pr_box = desktop_guide_pr.nth(guide_index).bounding_box()
+            check(guide_pr_box['width'] >= guide_slides_box['width'] * 0.45, '事業者向け申請ガイドPC: 2件のPR幅が不自然です')
     check(len(desktop_guide_errors) == 0, f'事業者向け申請ガイドPC: console error {desktop_guide_errors}')
     desktop_guide.close()
 
@@ -313,7 +316,7 @@ with sync_playwright() as playwright:
     narrow_home.close()
 
     # PRの展開境界でも公開可能な案件だけを表示
-    for boundary_width, expected_pr_count in [(1023, 1), (1024, 1)]:
+    for boundary_width, expected_pr_count in [(1023, 1), (1024, 3)]:
         boundary_home, _ = open_page(browser, '/', boundary_width, 900)
         boundary_home.get_by_role('button', name='事業者・団体向け').click()
         boundary_home.wait_for_timeout(150)

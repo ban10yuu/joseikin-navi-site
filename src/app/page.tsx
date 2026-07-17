@@ -58,7 +58,8 @@ export default function HomePage() {
   const newsletterEnabled = isNewsletterEnabled(siteConfig.newsletter.endpoint);
   const heroAffiliates = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
     pageType: 'home', audiences: ['soleProprietor', 'business'], purposes: ['startup', 'businessGrowth', 'digitalTransformation'],
-    intents: ['accounting', 'electronicContract'], monetizationAllowed: true, limit: 2,
+    intents: ['accounting', 'expenseManagement', 'payroll', 'attendance', 'humanResources', 'electronicContract', 'cloudStorage', 'businessPlanning', 'ecommerce', 'reservationSystem', 'pos', 'employeeTraining', 'professionalConsultation'],
+    monetizationAllowed: true, limit: 6,
   });
 
   return (

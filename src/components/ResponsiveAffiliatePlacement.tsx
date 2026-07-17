@@ -50,7 +50,6 @@ export default function ResponsiveAffiliatePlacement({
   return (
     <section className={`responsive-affiliate-placement ${className}`.trim()} aria-label={`${heading}（広告）`}>
       <div className="responsive-affiliate-heading">
-        <span>PR</span>
         <div>
           <h2>{heading}</h2>
           <p>{description}</p>

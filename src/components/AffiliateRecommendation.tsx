@@ -21,6 +21,31 @@ const OFFER_COPY: Record<string, { eyebrow: string; headline: string; subhead: s
     headline: 'クラウド会計で、経費管理をまとめて効率化',
     subhead: '個人事業主・小規模事業者向け',
   },
+  'a8-yayoi-accounting-next': {
+    eyebrow: '法人の経理・決算準備に',
+    headline: '法人向けクラウド会計で、日々の経理を効率化',
+    subhead: '法人・事業者向け',
+  },
+  'a8-makeshop-ecommerce': {
+    eyebrow: '販路開拓・EC事業の準備に',
+    headline: 'ネットショップの構築と運営をまとめて準備',
+    subhead: '事業者・店舗向け',
+  },
+  'a8-easy-myshop-ecommerce': {
+    eyebrow: '小規模ECの立ち上げに',
+    headline: 'ネットショップ開設に必要な機能をまとめて確認',
+    subhead: '個人事業主・事業者向け',
+  },
+  'a8-onamae-rental-server': {
+    eyebrow: '事業用Webサイトの開設に',
+    headline: 'サーバーと独自ドメインをまとめて準備',
+    subhead: '個人事業主・事業者向け',
+  },
+  'a8-shin-rental-server': {
+    eyebrow: '事業用Webサイトの運用に',
+    headline: '事業サイト向けレンタルサーバーを確認',
+    subhead: '個人事業主・事業者向け',
+  },
   'a8-kanbei-sign': {
     eyebrow: '契約・見積・発注まわりの整備に',
     headline: '電子契約で、申請準備の書類管理を軽くする',
@@ -105,7 +130,7 @@ export default function AffiliateRecommendation({ offer, pageType, placement, po
             // eslint-disable-next-line @next/next/no-img-element
             <img src={offer.impressionPixelUrl} alt="" width="1" height="1" className="affiliate-tracking-pixel" loading="lazy" decoding="async" referrerPolicy="strict-origin-when-cross-origin" />
           ) : null}
-          <p className="affiliate-advertiser-note">広告主：{offer.advertiserName}。広告主は、この掲載制度の実施機関ではありません。サービスの利用は申請・採択の条件ではなく、利用料が現在見ている制度の補助対象経費になることを示すものでもありません。対象経費は公式募集要項でご確認ください。</p>
+          <p className="affiliate-advertiser-note">広告主：{offer.advertiserName}。制度の実施機関ではなく、利用は申請・採択の条件ではありません。補助対象かは公式募集要項でご確認ください。</p>
         </>
       ) : (
         <>

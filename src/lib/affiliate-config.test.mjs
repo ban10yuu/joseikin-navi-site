@@ -9,7 +9,14 @@ describe('affiliate production config', () => {
   it('根拠を確認できた公式バナー案件だけを公開する', () => {
     const publishable = AFFILIATE_OFFERS.filter((offer) => isAffiliateOfferPublishable(offer, NOW));
 
-    assert.deepEqual(publishable.map((offer) => offer.id), ['a8-freee-accounting-wiz']);
+    assert.deepEqual(publishable.map((offer) => offer.id), [
+      'a8-freee-accounting-wiz',
+      'a8-yayoi-accounting-next',
+      'a8-makeshop-ecommerce',
+      'a8-easy-myshop-ecommerce',
+      'a8-onamae-rental-server',
+      'a8-shin-rental-server',
+    ]);
     for (const offer of publishable) {
       assert.match(offer.creativeImageUrl ?? '', /^https:\/\/www\d+\.a8\.net\/svt\/bgt\?/);
       assert.match(offer.impressionPixelUrl ?? '', /^https:\/\/www\d+\.a8\.net\/0\.gif\?/);
@@ -39,8 +46,8 @@ describe('affiliate production config', () => {
       limit: 2,
     }, NOW);
 
-    assert.deepEqual(homeOffers.map((offer) => offer.id), ['a8-freee-accounting-wiz']);
-    assert.deepEqual(detailOffers.map((offer) => offer.id), ['a8-freee-accounting-wiz']);
+    assert.deepEqual(homeOffers.map((offer) => offer.id), ['a8-freee-accounting-wiz', 'a8-yayoi-accounting-next']);
+    assert.deepEqual(detailOffers.map((offer) => offer.id), ['a8-freee-accounting-wiz', 'a8-yayoi-accounting-next']);
     const suspendedCreative = AFFILIATE_OFFERS.find((offer) => offer.id === 'a8-kanbei-sign');
     assert.equal(suspendedCreative?.enabled, false);
     assert.equal(suspendedCreative?.claimReviewStatus, 'pending');
@@ -53,7 +60,7 @@ describe('affiliate production config', () => {
       hasOfficialSource: false, placementMode: 'allGrantDetails', limit: 2,
     }, NOW);
 
-    assert.deepEqual(result.map((offer) => offer.id), ['a8-freee-accounting-wiz']);
+    assert.deepEqual(result.map((offer) => offer.id), ['a8-freee-accounting-wiz', 'a8-yayoi-accounting-next']);
   });
 
   it('もしもの申請中4案件は公開条件を満たすまで非表示にする', () => {
