@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T20:05:32+09:00",
+  "updatedAt": "2026-07-17T20:34:16+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nagasaki-official-coverage-001",
-    "municipality": "長崎市・佐世保市・島原市・諫早市・大村市",
-    "adopted": 83,
+    "code": "nagasaki-official-coverage-002",
+    "municipality": "平戸市・松浦市・対馬市・壱岐市・五島市",
+    "adopted": 97,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 83,
+    "sourceUrlsChecked": 97,
     "validation": {
-      "previousMunicipality": "長崎県公式棚卸し001として42201長崎市・42202佐世保市・42203島原市・42204諫早市・42205大村市を確認し、83件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/nagasaki-official-coverage-001 build/rescore/focused-scan scripts",
-      "json": "pass: JSON.parse for nagasaki-official-coverage-001 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 83 added nagasaki-official-001 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: 83 adopted official URLs returned HTTP 200 by nagasaki-official-coverage-001-url-status.txt and build non200 empty",
+      "previousMunicipality": "長崎県公式棚卸し002として42207平戸市・42208松浦市・42209対馬市・42210壱岐市・42211五島市を確認し、97件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/nagasaki-official-coverage-002 build/rescore/focused-scan scripts",
+      "json": "pass: JSON.parse for nagasaki-official-coverage-002 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 97 added nagasaki-official-002 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: 97 adopted official URLs returned HTTP 200 by nagasaki-official-coverage-002-url-status.txt and build non200 empty; 対馬市・壱岐市を含むAkamai系CDNページはChrome channel browserで公式本文を確認",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for nagasaki-official-coverage-001 target files",
-      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The nagasaki-official-001 target files passed syntax, JSON, URL, duplicate, eslint, and diff checks.",
-      "notes": "42201長崎市・42202佐世保市・42203島原市・42204諫早市・42205大村市を確認。公式トップ5自治体200到達。標準discoverは0件。公式カテゴリ導線のfocused scan 1344件を抽出し、shortlist 533件へ圧縮。長崎市・島原市・諫早市はカテゴリ配下の個別制度ページを追加補完。個別制度ページ83件を採用。トップ、カテゴリのみ、検索、共通ナビ、FAQ、計画、実績、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
+      "diffCheck": "pass: git diff --check for nagasaki-official-coverage-002 target files",
+      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The nagasaki-official-002 target files passed syntax, JSON, URL, duplicate, eslint, and diff checks.",
+      "notes": "42207平戸市・42208松浦市・42209対馬市・42210壱岐市・42211五島市を確認。公式トップ5自治体到達。標準discoverは0件。focused scan 548件とChrome channel browser公式リンク再取得188件から候補を抽出し、個別制度ページ97件を採用。CDNがcurl/fetchを拒否したページはChrome channel browserの公式本文とHTTP 200で確認。トップ、カテゴリのみ、相談窓口、計画、実績、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "nagasaki-official-coverage-002",
-    "municipality": "平戸市",
-    "shortlist": "長崎県001で42201長崎市・42202佐世保市・42203島原市・42204諫早市・42205大村市を確認し、83件を採用。次は自治体コード順で42207平戸市から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、長崎県公式棚卸し002として42207平戸市を開始地点に自治体コード順で再開する。想定対象は42207平戸市・42208松浦市・42209対馬市・42210壱岐市・42211五島市。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "nagasaki-official-coverage-003",
+    "municipality": "西海市",
+    "shortlist": "長崎県002で42207平戸市・42208松浦市・42209対馬市・42210壱岐市・42211五島市を確認し、97件を採用。次は自治体コード順で42212西海市から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、長崎県公式棚卸し003として42212西海市を開始地点に自治体コード順で再開する。想定対象は42212西海市・42213雲仙市・42214南島原市・42307長与町・42308時津町。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "長崎県",
     "status": "in-progress-first-pass",
-    "lastBatch": "nagasaki-official-coverage-001",
-    "notes": "長崎県公式棚卸し001で42201長崎市から42205大村市まで5自治体に到達し、83制度を採用。次は42207平戸市から長崎県公式棚卸し002を開始する。"
+    "lastBatch": "nagasaki-official-coverage-002",
+    "notes": "長崎県公式棚卸し002で42207平戸市から42211五島市まで5自治体に到達し、97制度を採用。長崎県001-002累計は10自治体180制度。次は42212西海市から長崎県公式棚卸し003を開始する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

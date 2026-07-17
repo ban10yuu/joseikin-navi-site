@@ -1,0 +1,11 @@
+{
+  "prefecture": "長崎県",
+  "batch": "nagasaki-official-coverage-002",
+  "municipalities": [
+    { "code": "42207", "name": "平戸市", "url": "https://www.city.hirado.nagasaki.jp/" },
+    { "code": "42208", "name": "松浦市", "url": "https://www.city-matsuura.jp/" },
+    { "code": "42209", "name": "対馬市", "url": "https://www.city.tsushima.nagasaki.jp/" },
+    { "code": "42210", "name": "壱岐市", "url": "https://www.city.iki.nagasaki.jp/" },
+    { "code": "42211", "name": "五島市", "url": "https://www.city.goto.nagasaki.jp/" }
+  ]
+}
