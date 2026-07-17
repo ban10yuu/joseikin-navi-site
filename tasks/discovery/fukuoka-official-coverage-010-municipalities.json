@@ -1,0 +1,11 @@
+{
+  "prefecture": "福岡県",
+  "batch": "fukuoka-official-coverage-010",
+  "municipalities": [
+    { "code": "40503", "name": "大刀洗町", "url": "https://www.town.tachiarai.fukuoka.jp/" },
+    { "code": "40522", "name": "大木町", "url": "https://www.town.ooki.lg.jp/" },
+    { "code": "40544", "name": "広川町", "url": "https://www.town.hirokawa.fukuoka.jp/" },
+    { "code": "40601", "name": "香春町", "url": "https://www.town.kawara.fukuoka.jp/" },
+    { "code": "40602", "name": "添田町", "url": "https://www.town.soeda.fukuoka.jp/" }
+  ]
+}

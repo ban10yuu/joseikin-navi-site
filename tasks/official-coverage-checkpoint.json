@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T17:29:00+09:00",
+  "updatedAt": "2026-07-17T18:10:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "fukuoka-official-coverage-009",
-    "municipality": "小竹町・鞍手町・桂川町・筑前町・東峰村",
-    "adopted": 92,
+    "code": "fukuoka-official-coverage-010",
+    "municipality": "大刀洗町・大木町・広川町・香春町・添田町",
+    "adopted": 88,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 92,
+    "sourceUrlsChecked": 88,
     "validation": {
-      "previousMunicipality": "福岡県公式棚卸し009として40401小竹町・40402鞍手町・40421桂川町・40447筑前町・40448東峰村を確認し、92件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/fukuoka-official-coverage-009 build/rescore scripts",
-      "json": "pass: JSON.parse for fukuoka-official-coverage-009 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 92 added fukuoka-official-009 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: 92 adopted official URLs returned HTTP 200 by fukuoka-official-coverage-009-url-status.txt and build non200 empty",
+      "previousMunicipality": "福岡県公式棚卸し010として40503大刀洗町・40522大木町・40544広川町・40601香春町・40602添田町を確認し、88件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/fukuoka-official-coverage-010 build/rescore scripts",
+      "json": "pass: JSON.parse for fukuoka-official-coverage-010 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 88 added fukuoka-official-010 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: 88 adopted official URLs returned HTTP 200 by fukuoka-official-coverage-010-url-status.txt and build non200 empty",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for fukuoka-official-coverage-009 target files",
-      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The fukuoka-official-009 target files passed syntax, JSON, URL, duplicate, and eslint checks.",
-      "notes": "40401小竹町・40402鞍手町・40421桂川町・40447筑前町・40448東峰村を確認。公式トップ5自治体200到達。標準discoverは0件。通常再スコアは小竹町100/280時点で長時間化したため停止し、focused link scan 341件（鞍手町146件、桂川町153件、小竹町26件、筑前町13件、東峰村3件）と筑前町・東峰村の公式カテゴリ追加確認から個別HTML制度ページ中心に92件を採用。トップ、カテゴリのみ、部署、共通ナビ、計画・実績公表、受付終了のみの旧給付金、外部制度のみ、物件個票、本文根拠が薄い候補は第2巡候補として保持。"
+      "diffCheck": "pass: git diff --check for fukuoka-official-coverage-010 target files",
+      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The fukuoka-official-010 target files passed syntax, JSON, URL, duplicate, eslint, and diff checks.",
+      "notes": "40503大刀洗町・40522大木町・40544広川町・40601香春町・40602添田町を確認。公式トップ5自治体200到達。標準discoverは0件。focused link scan 853件（広川町106件、香春町8件、大刀洗町314件、大木町65件、添田町360件）を抽出し、大刀洗町・大木町・香春町は公式カテゴリ導線から個別制度ページを補完。トップ、カテゴリのみ、問い合わせ、イベント告知、受付終了のみの旧給付金、本文根拠が薄い候補は第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "fukuoka-official-coverage-010",
-    "municipality": "大刀洗町",
-    "shortlist": "福岡県009で40401小竹町・40402鞍手町・40421桂川町・40447筑前町・40448東峰村を確認し、92件を採用。次は自治体コード順で40503大刀洗町から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、福岡県公式棚卸し010として40503大刀洗町を開始地点に自治体コード順で再開する。想定対象は40503大刀洗町・40522大木町・40544広川町・40601香春町・40602添田町。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "fukuoka-official-coverage-011",
+    "municipality": "糸田町",
+    "shortlist": "福岡県010で40503大刀洗町・40522大木町・40544広川町・40601香春町・40602添田町を確認し、88件を採用。次は自治体コード順で40604糸田町から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、福岡県公式棚卸し011として40604糸田町を開始地点に自治体コード順で再開する。想定対象は40604糸田町・40605川崎町・40608大任町・40609赤村・40610福智町。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "福岡県",
     "status": "in-progress",
-    "lastBatch": "fukuoka-official-coverage-009",
-    "notes": "福岡県公式棚卸し001-009で40100北九州市から40448東峰村まで45自治体を確認し、累計733制度を採用。次は40503大刀洗町から再開する。"
+    "lastBatch": "fukuoka-official-coverage-010",
+    "notes": "福岡県公式棚卸し001-010で40100北九州市から40602添田町まで50自治体を確認し、累計821制度を採用。次は40604糸田町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
