@@ -1,0 +1,11 @@
+{
+  "prefecture": "愛媛県",
+  "batch": "ehime-official-coverage-001",
+  "municipalities": [
+    {"code": "38201", "name": "松山市", "url": "https://www.city.matsuyama.ehime.jp/"},
+    {"code": "38202", "name": "今治市", "url": "https://www.city.imabari.ehime.jp/"},
+    {"code": "38203", "name": "宇和島市", "url": "https://www.city.uwajima.ehime.jp/"},
+    {"code": "38204", "name": "八幡浜市", "url": "https://www.city.yawatahama.ehime.jp/"},
+    {"code": "38205", "name": "新居浜市", "url": "https://www.city.niihama.lg.jp/"}
+  ]
+}
