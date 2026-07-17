@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T10:17:00+09:00",
+  "updatedAt": "2026-07-17T11:05:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kagawa-official-coverage-001",
-    "municipality": "高松市・丸亀市・坂出市・善通寺市・観音寺市",
+    "code": "kagawa-official-coverage-002",
+    "municipality": "さぬき市・東かがわ市・三豊市・土庄町・小豆島町",
     "adopted": 80,
     "held": 0,
     "excluded": 0,
     "sourceUrlsChecked": 80,
     "validation": {
-      "previousMunicipality": "香川県公式棚卸し001として37201高松市・37202丸亀市・37203坂出市・37204善通寺市・37205観音寺市を確認し80件を採用。香川県は37201高松市から37205観音寺市まで第1巡到達。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kagawa-official-coverage-001 build/rescore scripts",
-      "json": "pass: JSON.parse for kagawa-official-coverage-001 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 80 added kagawa-official-001 slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "previousMunicipality": "香川県公式棚卸し002として37206さぬき市・37207東かがわ市・37208三豊市・37322土庄町・37324小豆島町を確認し80件を採用。香川県は37201高松市から37324小豆島町まで第1巡到達。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kagawa-official-coverage-002 build/rescore scripts",
+      "json": "pass: JSON.parse for kagawa-official-coverage-002 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 80 added kagawa-official-002 slugs, duplicateCount 0 across verified-local-misc-2026.ts",
       "urlReachability": "pass: 80 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 21670、officialLinkedActive 21549、manuallyVerifiedActive 21549、香川県 localOfficial 130)",
-      "notes": "標準discoverは0件。公式トップ到達、高松市公式sitemap、丸亀市・坂出市・善通寺市・観音寺市の公式分類/組織ページ、本文スニペット再スコアを補完。再スコア候補1400件から、公式HTML個別制度ページ・公式制度掲載ページ80件を採用。高松市公式sitemapの古い404 URLは採用前に除外し、公式200到達ページへ差し替えた。トップ、カテゴリ導線、共通ナビ、議会、計画・報告・実績、相談、イベント、外部制度のみ、同一制度の重複ページ、古い臨時給付は第2巡候補に保持した。"
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 21750、officialLinkedActive 21629、manuallyVerifiedActive 21629、香川県 localOfficial 210)",
+      "notes": "標準discoverは0件。公式トップ到達、東かがわ市・三豊市・土庄町・小豆島町の公式sitemap再帰展開、本文スニペット再スコアを補完。再スコア候補1021件から、公式HTML個別制度ページ80件を採用。さぬき市は公式トップのHEAD 200を確認したが、本文GETは403/503およびIncapsula応答で公式本文確認・URL到達監査ができないため本巡採用0件。トップ、カテゴリ導線、共通ナビ、議会、計画・報告・実績、相談、イベント、外部制度のみ、同一制度の重複ページ、古い臨時給付は第2巡候補に保持した。"
     }
   },
   "next": {
-    "code": "kagawa-official-coverage-002",
-    "municipality": "さぬき市",
-    "shortlist": "香川県001で高松市・丸亀市・坂出市・善通寺市・観音寺市を確認。次は香川県の自治体コード順で37206さぬき市から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、香川県公式棚卸し002として37206さぬき市を開始地点に自治体コード順で再開する。想定対象は37206さぬき市・37207東かがわ市・37208三豊市・37322土庄町・37324小豆島町。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kagawa-official-coverage-003",
+    "municipality": "三木町",
+    "shortlist": "香川県002でさぬき市・東かがわ市・三豊市・土庄町・小豆島町を確認。次は香川県の自治体コード順で37341三木町から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、香川県公式棚卸し003として37341三木町を開始地点に自治体コード順で再開する。想定対象は37341三木町・37364直島町・37386宇多津町・37387綾川町・37403琴平町。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "香川県",
     "status": "in-progress-first-pass",
-    "lastBatch": "kagawa-official-coverage-001",
-    "notes": "香川県公式棚卸し001で37201高松市・37202丸亀市・37203坂出市・37204善通寺市・37205観音寺市を確認し、80件を新規採用。次は37206さぬき市から再開する。"
+    "lastBatch": "kagawa-official-coverage-002",
+    "notes": "香川県公式棚卸し002で37206さぬき市・37207東かがわ市・37208三豊市・37322土庄町・37324小豆島町を確認し、80件を新規採用。次は37341三木町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
