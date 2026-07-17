@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T13:42:00+09:00",
+  "updatedAt": "2026-07-17T14:18:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kochi-official-coverage-006",
-    "municipality": "佐川町・越知町・檮原町・日高村・津野町",
-    "adopted": 83,
+    "code": "kochi-official-coverage-007",
+    "municipality": "四万十町・大月町・三原村・黒潮町",
+    "adopted": 71,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 83,
+    "sourceUrlsChecked": 71,
     "validation": {
-      "previousMunicipality": "高知県公式棚卸し006として39402佐川町・39403越知町・39405檮原町・39410日高村・39411津野町を確認し、83件を採用。高知県001-006累計は30自治体386制度。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kochi-official-coverage-006 build/rescore scripts",
-      "json": "pass: JSON.parse for kochi-official-coverage-006 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 83 added kochi-official-006 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: 83 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "previousMunicipality": "高知県公式棚卸し007として39412四万十町・39424大月町・39427三原村・39428黒潮町を確認し、71件を採用。高知県001-007累計は34自治体457制度となり、高知県全市町村の第1巡に到達。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kochi-official-coverage-007 build/rescore scripts",
+      "json": "pass: JSON.parse for kochi-official-coverage-007 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 71 added kochi-official-007 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: 71 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for kochi-official-coverage-006 target files",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 22596、officialLinkedActive 22475、manuallyVerifiedActive 22475、高知県 localOfficial 427)",
-      "notes": "39402佐川町・39403越知町・39405檮原町・39410日高村・39411津野町を確認。公式トップ5自治体200到達。標準discoverは0件。公式サイト内リンクBFSを上限240件で再スコアし、候補160件（佐川町38・越知町41・檮原町38・日高村33・津野町10）から公式HTML個別制度ページ、公式PDF、制度本文を含む公式掲載ページ83件を採用。PDFは表示品質のため申請期間文を公式PDF記載に従う形へ正規化。トップ、カテゴリのみ、検索、部署、共通ナビ、計画・実績公表、募集職員、入札、単なる手続・告知、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
+      "diffCheck": "pass: git diff --check for kochi-official-coverage-007 target files",
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 22667、officialLinkedActive 22546、manuallyVerifiedActive 22546、高知県 localOfficial 498)",
+      "notes": "39412四万十町・39424大月町・39427三原村・39428黒潮町を確認。公式トップ4自治体200到達。標準discoverは0件。公式サイト内リンクBFSを上限240件で再スコアし、候補275件（三原村49・四万十町108・大月町118）を抽出。黒潮町は再スコア0件だったため公式カテゴリ導線から直接抽出し、候補12件を確認。shortlistが150件超のためローカルJSON/本文スニペットで再選別し、公式HTML個別制度ページ、公式一覧、制度本文を含む公式掲載ページ71件を採用。トップ、カテゴリのみ、検索、部署、共通ナビ、計画・実績公表、募集職員、入札、単なる手続・告知、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "kochi-official-coverage-007",
-    "municipality": "四万十町",
-    "shortlist": "高知県006で39402佐川町・39403越知町・39405檮原町・39410日高村・39411津野町を確認し、83件を採用。次は自治体コード順で39412四万十町から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、高知県公式棚卸し007として39412四万十町を開始地点に自治体コード順で再開する。想定対象は39412四万十町・39424大月町・39427三原村・39428黒潮町。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "fukuoka-official-coverage-001",
+    "municipality": "北九州市",
+    "shortlist": "高知県007で39412四万十町・39424大月町・39427三原村・39428黒潮町を確認し、71件を採用。高知県全34市町村の第1巡に到達。次は自治体コード順で40100北九州市から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、福岡県公式棚卸し001として40100北九州市を開始地点に自治体コード順で再開する。想定対象は40100北九州市・40130福岡市・40202大牟田市・40203久留米市・40204直方市。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "高知県",
-    "status": "first-pass-in-progress",
-    "lastBatch": "kochi-official-coverage-005",
-    "notes": "高知県公式棚卸し005で39363土佐町・39364大川村・39386いの町・39387仁淀川町・39401中土佐町を確認し、60件を新規採用。高知県001-005累計は25自治体303制度。次は39402佐川町から再開する。"
+    "status": "first-pass-complete",
+    "lastBatch": "kochi-official-coverage-007",
+    "notes": "高知県公式棚卸し001-007で39201高知市から39428黒潮町まで全34市町村を確認し、累計457制度を採用。次は福岡県公式棚卸し001として40100北九州市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
