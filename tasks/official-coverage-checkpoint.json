@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-18T00:58:00+09:00",
+  "updatedAt": "2026-07-18T01:56:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kumamoto-official-coverage-006",
-    "municipality": "西原村・南阿蘇村・御船町・嘉島町・益城町",
-    "adopted": 55,
-    "held": 0,
+    "code": "kumamoto-official-coverage-007",
+    "municipality": "甲佐町・山都町・氷川町・芦北町・津奈木町",
+    "adopted": 47,
+    "held": 1,
     "excluded": 0,
-    "sourceUrlsChecked": 55,
+    "sourceUrlsChecked": 47,
     "validation": {
-      "previousMunicipality": "熊本県公式棚卸し006として43432西原村・43433南阿蘇村・43441御船町・43442嘉島町・43443益城町を確認し、55件を採用。公式トップ5自治体を確認し、全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check for verified-local-misc-2026.ts and kumamoto-official-coverage-006 discovery/build scripts",
-      "json": "pass: JSON.parse for kumamoto-official-coverage-006 municipalities/candidates/selections/adopted JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 55 added kumamoto-official-006 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: build non200 empty; 55 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/kumamoto-official-coverage-006-url-status.txt",
+      "previousMunicipality": "熊本県公式棚卸し007として43444甲佐町・43447山都町・43468氷川町・43482芦北町・43484津奈木町を確認し、47件を採用。津奈木町は個別制度ページ到達不足のため第2巡候補として保持。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check for verified-local-misc-2026.ts and kumamoto-official-coverage-007 discovery/build scripts",
+      "json": "pass: JSON.parse for kumamoto-official-coverage-007 municipalities/candidates/selections/adopted JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 47 added kumamoto-official-007 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: build non200 empty; 47 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/kumamoto-official-coverage-007-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for kumamoto-official-coverage-006 target files",
+      "diffCheck": "pass: git diff --check for kumamoto-official-coverage-007 target files",
       "auditCoverage": "blocked: npm run audit:coverage fails in existing unrelated src/lib/grant-copy.ts / src/lib/grants.ts path with sanitizeGrantCopy tags.map TypeError",
-      "notes": "公式sitemap/検索/カテゴリBFSで549候補（益城112、嘉島73、御船299、西原5、南阿蘇60）を抽出。shortlistが150件超のためローカルJSON/TSVへ本文スニペットを保存し、制度強語・金額/対象/受付表現・個別URLを再スコア。採用JSON/TSVの短い根拠から共通ナビ混入を除去。広報、入札、プロポーザル、採用、イベント、カテゴリ一覧、申請書一覧、一般案内、重複または現行制度要件不明ページは第2巡候補として保持。"
+      "notes": "公式sitemap/検索/カテゴリBFSで458候補（甲佐92、山都45、氷川109、芦北2、津奈木210）を抽出。shortlistが150件超のためローカルTSVへ再スコア。芦北町は公式sitemap 1,266URLを追加再スコアし160候補を補完。採用は甲佐12、山都1、氷川10、芦北24。津奈木町は公式トップ・カテゴリ一覧までは到達したが、制度名・対象・金額/上限・条件・受付状況が揃う個別制度ページに到達できなかったため第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "kumamoto-official-coverage-007",
-    "municipality": "甲佐町",
-    "shortlist": "熊本県公式棚卸し006で西原村・南阿蘇村・御船町・嘉島町・益城町を確認し、55件を採用。次は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から43444甲佐町へ進む。",
-    "instructions": "次回は熊本県公式棚卸し007として、43444甲佐町から自治体コード順に再開する。想定対象は43444甲佐町・43447山都町・43468氷川町・43482芦北町・43484津奈木町。既存rawの熊本県gap 0や過去生成データだけで完了扱いにせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kumamoto-official-coverage-008",
+    "municipality": "錦町",
+    "shortlist": "熊本県公式棚卸し007で甲佐町・山都町・氷川町・芦北町・津奈木町を確認し、47件を採用。次は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から43486錦町へ進む。",
+    "instructions": "次回は熊本県公式棚卸し008として、43486錦町から自治体コード順に再開する。想定対象は43486錦町・43501多良木町・43505湯前町・43506水上村・43507相良村。既存rawの熊本県gap 0や過去生成データだけで完了扱いにせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "熊本県",
     "status": "first-pass-in-progress",
-    "lastBatch": "kumamoto-official-coverage-006",
-    "notes": "熊本県公式棚卸し006で43432西原村から43443益城町まで到達し55制度を採用。熊本県001-006累計は30自治体381制度。熊本県004-006の15自治体単位では195制度（004=80、005=60、006=55）。次は43444甲佐町から継続。"
+    "lastBatch": "kumamoto-official-coverage-007",
+    "notes": "熊本県公式棚卸し007で43444甲佐町から43484津奈木町まで到達し47制度を採用。熊本県001-007累計は35自治体428制度。次は43486錦町から継続。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

@@ -1,0 +1,11 @@
+{
+  "prefecture": "熊本県",
+  "batch": "kumamoto-official-coverage-007",
+  "municipalities": [
+    { "code": "43444", "name": "甲佐町", "url": "https://www.town.kosa.lg.jp/" },
+    { "code": "43447", "name": "山都町", "url": "https://www.town.kumamoto-yamato.lg.jp/" },
+    { "code": "43468", "name": "氷川町", "url": "https://www.town.hikawa.kumamoto.jp/" },
+    { "code": "43482", "name": "芦北町", "url": "https://www.town.ashikita.lg.jp/" },
+    { "code": "43484", "name": "津奈木町", "url": "https://www.town.tsunagi.lg.jp/" }
+  ]
+}
