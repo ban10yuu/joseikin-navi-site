@@ -44,4 +44,17 @@ describe('affiliate production config', () => {
     assert.deepEqual(homeOffers.map((offer) => offer.id), ['a8-kanbei-sign', 'a8-freee-accounting-wiz']);
     assert.deepEqual(detailOffers.map((offer) => offer.id), ['a8-kanbei-sign', 'a8-freee-accounting-wiz']);
   });
+
+  it('もしもの申請中4案件は公開条件を満たすまで非表示にする', () => {
+    const candidates = AFFILIATE_OFFERS.filter((offer) => offer.network === 'もしもアフィリエイト');
+
+    assert.deepEqual(candidates.map((offer) => offer.externalProgramId), ['7644', '7602', '7520', '3836']);
+    for (const offer of candidates) {
+      assert.equal(offer.enabled, false);
+      assert.equal(offer.partnershipStatus, 'applied');
+      assert.equal(offer.destinationUrl, null);
+      assert.equal(offer.creativeImageUrl, null);
+      assert.equal(isAffiliateOfferPublishable(offer, NOW), false);
+    }
+  });
 });
