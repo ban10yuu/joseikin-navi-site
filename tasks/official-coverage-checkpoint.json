@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T17:05:00+09:00",
+  "updatedAt": "2026-07-17T16:32:29+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "fukuoka-official-coverage-006",
-    "municipality": "朝倉市・みやま市・糸島市・那珂川市・宇美町",
-    "adopted": 98,
+    "code": "fukuoka-official-coverage-007",
+    "municipality": "篠栗町・志免町・須恵町・新宮町・久山町",
+    "adopted": 96,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 98,
+    "sourceUrlsChecked": 96,
     "validation": {
-      "previousMunicipality": "福岡県公式棚卸し006として40228朝倉市・40229みやま市・40230糸島市・40231那珂川市・40341宇美町を確認し、98件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/fukuoka-official-coverage-006 build/rescore scripts",
-      "json": "pass: JSON.parse for fukuoka-official-coverage-006 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 98 added fukuoka-official-006 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: 98 adopted official URLs returned HTTP 200 by fukuoka-official-coverage-006-url-status.txt",
+      "previousMunicipality": "福岡県公式棚卸し007として40342篠栗町・40343志免町・40344須恵町・40345新宮町・40348久山町を確認し、96件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/fukuoka-official-coverage-007 build/rescore scripts",
+      "json": "pass: JSON.parse for fukuoka-official-coverage-007 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 96 added fukuoka-official-007 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: 96 adopted official URLs returned HTTP 200 by fukuoka-official-coverage-007-url-status.txt and build non200 empty",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for fukuoka-official-coverage-006 target files",
-      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The fukuoka-official-006 target files passed syntax, JSON, URL, duplicate, eslint, and diff checks.",
-      "notes": "40228朝倉市・40229みやま市・40230糸島市・40231那珂川市・40341宇美町を確認。公式トップ5自治体200到達。標準discoverは0件。公式カテゴリ/サイト内リンクBFSで候補535件を抽出し、詳細スニペット535件を生成。shortlist過多のためローカル再スコア後、みやま市・宇美町のカテゴリ配下focused link scan 1184件と朝倉市追加focused scan 25件を補完。公式HTML個別制度ページ98件を採用。トップ、カテゴリのみ、部署、共通ナビ、計画・実績公表、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
+      "diffCheck": "pass: git diff --check for fukuoka-official-coverage-007 target files",
+      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The fukuoka-official-007 target files passed syntax, JSON, URL, duplicate, eslint, and diff checks.",
+      "notes": "40342篠栗町・40343志免町・40344須恵町・40345新宮町・40348久山町を確認。公式トップ5自治体200到達。標準discoverは0件。公式カテゴリ/サイト内リンクBFSで候補230件を抽出し、詳細スニペット230件・shortlist221件を生成。志免町・新宮町・須恵町の個別ページ不足を補うためfocused link scan 495件を追加し、公式HTML個別制度ページ中心に96件を採用。トップ、カテゴリのみ、部署、共通ナビ、計画・実績公表、受付終了のみの旧給付金、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "fukuoka-official-coverage-007",
-    "municipality": "篠栗町",
-    "shortlist": "福岡県006で40228朝倉市・40229みやま市・40230糸島市・40231那珂川市・40341宇美町を確認し、98件を採用。次は自治体コード順で40342篠栗町から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、福岡県公式棚卸し007として40342篠栗町を開始地点に自治体コード順で再開する。想定対象は40342篠栗町・40343志免町・40344須恵町・40345新宮町・40348久山町。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "fukuoka-official-coverage-008",
+    "municipality": "粕屋町",
+    "shortlist": "福岡県007で40342篠栗町・40343志免町・40344須恵町・40345新宮町・40348久山町を確認し、96件を採用。次は自治体コード順で40349粕屋町から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、福岡県公式棚卸し008として40349粕屋町を開始地点に自治体コード順で再開する。想定対象は40349粕屋町・40381芦屋町・40382水巻町・40383岡垣町・40384遠賀町。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "福岡県",
     "status": "in-progress",
-    "lastBatch": "fukuoka-official-coverage-006",
-    "notes": "福岡県公式棚卸し001-006で40100北九州市から40341宇美町まで30自治体を確認し、累計450制度を採用。次は40342篠栗町から再開する。"
+    "lastBatch": "fukuoka-official-coverage-007",
+    "notes": "福岡県公式棚卸し001-007で40100北九州市から40348久山町まで35自治体を確認し、累計546制度を採用。次は40349粕屋町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

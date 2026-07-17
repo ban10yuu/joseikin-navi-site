@@ -1,0 +1,11 @@
+{
+  "prefecture": "福岡県",
+  "batch": "fukuoka-official-coverage-007",
+  "municipalities": [
+    { "code": "40342", "name": "篠栗町", "url": "https://www.town.sasaguri.fukuoka.jp/" },
+    { "code": "40343", "name": "志免町", "url": "https://www.town.shime.lg.jp/" },
+    { "code": "40344", "name": "須恵町", "url": "https://www.town.sue.fukuoka.jp/" },
+    { "code": "40345", "name": "新宮町", "url": "https://www.town.shingu.fukuoka.jp/" },
+    { "code": "40348", "name": "久山町", "url": "https://www.town.hisayama.fukuoka.jp/" }
+  ]
+}
