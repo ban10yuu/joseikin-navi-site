@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T12:55:00+09:00",
+  "updatedAt": "2026-07-17T13:35:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kochi-official-coverage-001",
-    "municipality": "高知市・室戸市・安芸市・南国市・土佐市",
-    "adopted": 60,
+    "code": "kochi-official-coverage-002",
+    "municipality": "須崎市・宿毛市・土佐清水市・四万十市・香南市",
+    "adopted": 61,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 60,
+    "sourceUrlsChecked": 61,
     "validation": {
-      "previousMunicipality": "高知県公式棚卸し001として39201高知市・39202室戸市・39203安芸市・39204南国市・39205土佐市を確認し、高知市・安芸市・南国市から60件を採用。室戸市・土佐市は今回seedで制度候補0件のため第2巡候補として継続。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kochi-official-coverage-001 build/rescore scripts",
-      "json": "pass: JSON.parse for kochi-official-coverage-001 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 60 added kochi-official-001 slugs, duplicateCount 0 in adopted output",
-      "urlReachability": "pass: 60 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "previousMunicipality": "高知県公式棚卸し002として39206須崎市・39208宿毛市・39209土佐清水市・39210四万十市・39211香南市を確認し、61件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kochi-official-coverage-002 build/rescore scripts",
+      "json": "pass: JSON.parse for kochi-official-coverage-002 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 61 added kochi-official-002 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: 61 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for kochi-official-coverage-001 target files",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 22270、officialLinkedActive 22149、manuallyVerifiedActive 22149、高知県 localOfficial 101)",
-      "notes": "標準discoverは0件。公式トップ5自治体すべてHTTP 200。高知市・安芸市・南国市の公式カテゴリ/サイト内リンクBFS、本文スニペット再スコアを補完。再スコア候補834件から公式HTML個別制度ページ60件を採用。室戸市・土佐市は今回seedで個別制度候補0件のため、第2巡でsitemap/公式検索/カテゴリ深掘りを継続。トップ、カテゴリ、検索、部署、共通ナビ、計画・報告・実績、単なる手続・告知、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
+      "diffCheck": "pass: git diff --check for kochi-official-coverage-002 target files",
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 22331、officialLinkedActive 22210、manuallyVerifiedActive 22210、高知県 localOfficial 162)",
+      "notes": "標準discoverは0件。公式トップ5自治体すべてHTTP 200。須崎市・宿毛市・土佐清水市・四万十市・香南市の公式カテゴリ/サイト内リンクBFS、宿毛市公式移住支援ページ補完、本文スニペット再スコアを補完。再スコア候補824件から公式HTML個別制度ページ・公式制度掲載ページ61件を採用。宿毛市はBFSで空き家バンク物件個票が多かったため、公式支援制度掲載ページと移住応援事業補助金HTMLを採用し、物件個票・PDF要綱単体は第2巡候補/根拠補助へ。カテゴリ、検索、部署、共通ナビ、計画・報告・実績、単なる手続・告知、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "kochi-official-coverage-002",
-    "municipality": "須崎市",
-    "shortlist": "高知県001で高知市・室戸市・安芸市・南国市・土佐市を確認し、高知市・安芸市・南国市から60件を採用。次は自治体コード順で39206須崎市から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、高知県公式棚卸し002として39206須崎市を開始地点に自治体コード順で再開する。想定対象は39206須崎市・39208宿毛市・39209土佐清水市・39210四万十市・39211香南市。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kochi-official-coverage-003",
+    "municipality": "香美市",
+    "shortlist": "高知県002で39206須崎市・39208宿毛市・39209土佐清水市・39210四万十市・39211香南市を確認し、61件を採用。次は自治体コード順で39212香美市から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、高知県公式棚卸し003として39212香美市を開始地点に自治体コード順で再開する。想定対象は39212香美市・39301東洋町・39302奈半利町・39303田野町・39304安田町。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "高知県",
     "status": "first-pass-in-progress",
-    "lastBatch": "kochi-official-coverage-001",
-    "notes": "高知県公式棚卸し001で39201高知市・39202室戸市・39203安芸市・39204南国市・39205土佐市を確認し、60件を新規採用。室戸市・土佐市は今回seedで採用0件のため第2巡候補。次は39206須崎市から再開する。"
+    "lastBatch": "kochi-official-coverage-002",
+    "notes": "高知県公式棚卸し002で39206須崎市・39208宿毛市・39209土佐清水市・39210四万十市・39211香南市を確認し、61件を新規採用。次は39212香美市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
