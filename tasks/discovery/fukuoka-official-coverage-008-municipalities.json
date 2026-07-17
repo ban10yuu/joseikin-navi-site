@@ -1,0 +1,31 @@
+{
+  "prefecture": "福岡県",
+  "batch": "fukuoka-official-coverage-008",
+  "municipalities": [
+    {
+      "code": "40349",
+      "name": "粕屋町",
+      "url": "https://www.town.kasuya.fukuoka.jp/"
+    },
+    {
+      "code": "40381",
+      "name": "芦屋町",
+      "url": "https://www.town.ashiya.lg.jp/"
+    },
+    {
+      "code": "40382",
+      "name": "水巻町",
+      "url": "https://www.town.mizumaki.lg.jp/"
+    },
+    {
+      "code": "40383",
+      "name": "岡垣町",
+      "url": "https://www.town.okagaki.lg.jp/"
+    },
+    {
+      "code": "40384",
+      "name": "遠賀町",
+      "url": "https://www.town.onga.lg.jp/"
+    }
+  ]
+}
