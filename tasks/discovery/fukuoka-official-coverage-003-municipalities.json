@@ -1,0 +1,11 @@
+{
+  "prefecture": "福岡県",
+  "batch": "fukuoka-official-coverage-003",
+  "municipalities": [
+    { "code": "40212", "name": "大川市", "url": "https://www.city.okawa.lg.jp/" },
+    { "code": "40213", "name": "行橋市", "url": "https://www.city.yukuhashi.fukuoka.jp/" },
+    { "code": "40214", "name": "豊前市", "url": "https://www.city.buzen.lg.jp/" },
+    { "code": "40215", "name": "中間市", "url": "https://www.city.nakama.lg.jp/" },
+    { "code": "40216", "name": "小郡市", "url": "https://www.city.ogori.fukuoka.jp/" }
+  ]
+}
