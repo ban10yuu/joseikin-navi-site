@@ -1,0 +1,11 @@
+{
+  "prefecture": "熊本県",
+  "batch": "kumamoto-official-coverage-003",
+  "municipalities": [
+    { "code": "43213", "name": "宇城市", "url": "https://www.city.uki.kumamoto.jp/" },
+    { "code": "43214", "name": "阿蘇市", "url": "https://www.city.aso.kumamoto.jp/" },
+    { "code": "43215", "name": "天草市", "url": "https://www.city.amakusa.kumamoto.jp/" },
+    { "code": "43216", "name": "合志市", "url": "https://www.city.koshi.lg.jp/" },
+    { "code": "43348", "name": "美里町", "url": "https://www.town.kumamoto-misato.lg.jp/" }
+  ]
+}
