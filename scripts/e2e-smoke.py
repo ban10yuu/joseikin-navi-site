@@ -56,6 +56,7 @@ with sync_playwright() as playwright:
             guide_number = first_guide.locator('.home-search-guide-number').bounding_box()
             check(not rectangles_overlap(guide_number, audience_visual.bounding_box()), f'トップ ({visual_width}px): 手順番号が対象アイコンへ重なっています')
         check(visual_home.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 0, f'トップ ({visual_width}px): 初期状態でPRが表示されています')
+        visual_home.wait_for_timeout(750)
         visual_home.get_by_role('button', name='事業者・団体向け').click()
         affiliate_image = visual_home.locator('.home-business-affiliate .affiliate-creative-image')
         try:
