@@ -15,9 +15,9 @@ const contentSecurityPolicy = [
   "form-action 'self'",
   "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://pagead2.googlesyndication.com https://*.adtrafficquality.google",
   "style-src 'self' 'unsafe-inline'",
-  `img-src 'self' data: blob: ${affiliateImageSources.join(' ')} https://www.google-analytics.com https://pagead2.googlesyndication.com`,
+  `img-src 'self' data: blob: ${affiliateImageSources.join(' ')} https://www.google-analytics.com https://pagead2.googlesyndication.com https://*.adtrafficquality.google`,
   "font-src 'self' data:",
-  "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://vitals.vercel-insights.com https://*.adtrafficquality.google",
+  "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://vitals.vercel-insights.com https://pagead2.googlesyndication.com https://*.adtrafficquality.google",
   "frame-src https://googleads.g.doubleclick.net https://tpc.googlesyndication.com https://*.adtrafficquality.google https://www.google.com",
   "upgrade-insecure-requests",
 ].join('; ');
