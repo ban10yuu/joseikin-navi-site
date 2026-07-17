@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T18:58:00+09:00",
+  "updatedAt": "2026-07-17T19:45:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "fukuoka-official-coverage-011",
-    "municipality": "糸田町・川崎町・大任町・赤村・福智町",
-    "adopted": 97,
+    "code": "fukuoka-official-coverage-012",
+    "municipality": "苅田町・みやこ町・吉富町・上毛町・築上町",
+    "adopted": 100,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 97,
+    "sourceUrlsChecked": 100,
     "validation": {
-      "previousMunicipality": "福岡県公式棚卸し011として40604糸田町・40605川崎町・40608大任町・40609赤村・40610福智町を確認し、97件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/fukuoka-official-coverage-011 build/rescore scripts",
-      "json": "pass: JSON.parse for fukuoka-official-coverage-011 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 97 added fukuoka-official-011 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: 97 adopted official URLs returned HTTP 200 by fukuoka-official-coverage-011-url-status.txt and build non200 empty",
+      "previousMunicipality": "福岡県公式棚卸し012として40621苅田町・40625みやこ町・40642吉富町・40646上毛町・40647築上町を確認し、100件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/fukuoka-official-coverage-012 build/rescore scripts",
+      "json": "pass: JSON.parse for fukuoka-official-coverage-012 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 100 added fukuoka-official-012 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: 100 adopted official URLs returned HTTP 200 by fukuoka-official-coverage-012-url-status.txt and build non200 empty",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for fukuoka-official-coverage-011 target files",
-      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The fukuoka-official-011 target files passed syntax, JSON, URL, duplicate, eslint, and diff checks.",
-      "notes": "40604糸田町・40605川崎町・40608大任町・40609赤村・40610福智町を確認。公式トップ5自治体200到達（糸田町は公式UA付きで200）。標準discoverは0件。targeted/focused scan 209件（糸田町90件、赤村14件、大任町52件、福智町53件）を抽出し、川崎町は公式カテゴリ・検索導線から個別制度ページを補完。トップ、カテゴリのみ、検索、部署、共通ナビ、申請様式のみ、計画、実績公表、職員募集、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
+      "diffCheck": "pass: git diff --check for fukuoka-official-coverage-012 target files",
+      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The fukuoka-official-012 target files passed syntax, JSON, URL, duplicate, eslint, and diff checks.",
+      "notes": "40621苅田町・40625みやこ町・40642吉富町・40646上毛町・40647築上町を確認。公式トップ5自治体200到達。標準discoverは0件。公式カテゴリ導線のtargeted/focused scan 833件（みやこ町244件、苅田町151件、吉富町147件、上毛町151件、築上町140件）を抽出し、ローカル本文スニペット再スコアでshortlist 498件へ圧縮。個別制度ページ100件を採用。トップ、カテゴリのみ、検索、共通ナビ、コラム、物件個票、申請書のみ、計画・実績公表、プロポーザル、古い接種予約告知、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "fukuoka-official-coverage-012",
-    "municipality": "苅田町",
-    "shortlist": "福岡県011で40604糸田町・40605川崎町・40608大任町・40609赤村・40610福智町を確認し、97件を採用。次は自治体コード順で40621苅田町から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、福岡県公式棚卸し012として40621苅田町を開始地点に自治体コード順で再開する。想定対象は40621苅田町・40625みやこ町・40642吉富町・40646上毛町・40647築上町。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "saga-official-coverage-001",
+    "municipality": "佐賀市",
+    "shortlist": "福岡県012で40621苅田町・40625みやこ町・40642吉富町・40646上毛町・40647築上町を確認し、100件を採用。福岡県は60自治体・累計1018制度で第1巡到達。次は自治体コード順で41201佐賀市から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、佐賀県公式棚卸し001として41201佐賀市を開始地点に自治体コード順で再開する。想定対象は41201佐賀市・41202唐津市・41203鳥栖市・41204多久市・41205伊万里市。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "福岡県",
-    "status": "in-progress",
-    "lastBatch": "fukuoka-official-coverage-011",
-    "notes": "福岡県公式棚卸し001-011で40100北九州市から40610福智町まで55自治体を確認し、累計918制度を採用。次は40621苅田町から再開する。"
+    "status": "first-pass-complete",
+    "lastBatch": "fukuoka-official-coverage-012",
+    "notes": "福岡県公式棚卸し001-012で40100北九州市から40647築上町まで全60自治体の第1巡に到達し、累計1018制度を採用。次は佐賀県41201佐賀市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

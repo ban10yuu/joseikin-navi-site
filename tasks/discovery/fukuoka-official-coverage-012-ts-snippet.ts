@@ -1,0 +1,1528 @@
+const fukuokaOfficial012Grants: Array<{
+  slug: string;
+  title: string;
+  organization: string;
+  maxAmount: string;
+  maxAmountNum: number;
+  category: Grant['category'];
+  relatedCategories?: Grant['relatedCategories'];
+  eligibility: string;
+  applicationPeriod: string;
+  officialUrl: string;
+  sourceName: string;
+}> = [
+  {
+    "slug": "fukuoka-official-012-001-2026",
+    "title": "苅田町 造血細胞移植後の定期予防接種ワクチン再接種費用補助について",
+    "organization": "苅田町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "苅田町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; パンジープラザ &gt; 造血細胞移植後の定期予防接種ワクチン再接種費用補助",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/10164.html",
+    "sourceName": "造血細胞移植後の定期予防接種ワクチン再接種費用補助について"
+  },
+  {
+    "slug": "fukuoka-official-012-002-2026",
+    "title": "苅田町 RSウイルス感染症に対する母子免疫ワクチンの定期接種について",
+    "organization": "苅田町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "苅田町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月24日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; パンジープラザ &gt; RSウイルス感染症に対する母子免疫ワクチンの定期接",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/8151.html",
+    "sourceName": "RSウイルス感染症に対する母子免疫ワクチンの定期接種について"
+  },
+  {
+    "slug": "fukuoka-official-012-003-2026",
+    "title": "苅田町 ひとり親家庭等医療費の助成",
+    "organization": "苅田町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "苅田町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2023年12月19日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; こども課 &gt; ひとり親家庭等医療費の助成 本文 ひとり親家庭等医療費の",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/1283.html",
+    "sourceName": "ひとり親家庭等医療費の助成"
+  },
+  {
+    "slug": "fukuoka-official-012-004-2026",
+    "title": "苅田町 ブロック塀等撤去費補助金について",
+    "organization": "苅田町",
+    "maxAmount": "12万円を限度",
+    "maxAmountNum": 120000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "苅田町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; 都市計画課 &gt; ブロック塀等撤去費補助金について 本文 ブロック塀等撤",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/1048.html",
+    "sourceName": "ブロック塀等撤去費補助金について"
+  },
+  {
+    "slug": "fukuoka-official-012-005-2026",
+    "title": "苅田町 苅田町アピアランスケア推進事業",
+    "organization": "苅田町",
+    "maxAmount": "助成額医療用ウィッグ等購入金額の合計の2分の1(千円未満切り捨て）※上限2万円",
+    "maxAmountNum": 20000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "苅田町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年4月24日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; 保険健康課 &gt; 苅田町アピアランスケア推進事業 本文 苅田町アピアラン",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/1307.html",
+    "sourceName": "苅田町アピアランスケア推進事業"
+  },
+  {
+    "slug": "fukuoka-official-012-006-2026",
+    "title": "苅田町 子ども医療費の助成",
+    "organization": "苅田町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "苅田町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2023年12月19日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; こども課 &gt; 子ども医療費の助成 本文 子ども医療費の助成 ページID",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/1282.html",
+    "sourceName": "子ども医療費の助成"
+  },
+  {
+    "slug": "fukuoka-official-012-007-2026",
+    "title": "苅田町 資源回収助成金",
+    "organization": "苅田町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "苅田町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2023年12月19日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; 環境課 &gt; 資源回収助成金 本文 資源回収助成金 ページID：0001",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/1951.html",
+    "sourceName": "資源回収助成金"
+  },
+  {
+    "slug": "fukuoka-official-012-008-2026",
+    "title": "苅田町 児童手当",
+    "organization": "苅田町",
+    "maxAmount": "支給額を月1万5千円から月3万円",
+    "maxAmountNum": 30000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "苅田町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年3月3日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; こども課 &gt; 児童手当 本文 児童手当 ページID：0001337 更",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/1337.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "fukuoka-official-012-009-2026",
+    "title": "苅田町 児童扶養手当",
+    "organization": "苅田町",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "苅田町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2023年12月19日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; こども課 &gt; 児童扶養手当 本文 児童扶養手当 ページID：00013",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/1338.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "fukuoka-official-012-010-2026",
+    "title": "苅田町 自動車産業支援次世代自動車購入費補助金について",
+    "organization": "苅田町",
+    "maxAmount": "補助額対象車両補助率・上限額電気自動車本体価格の5％（上限20万円",
+    "maxAmountNum": 200000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "苅田町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年10月1日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; 交通商工課 &gt; 自動車産業支援次世代自動車購入費補助金について 本文 ",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/14807.html",
+    "sourceName": "自動車産業支援次世代自動車購入費補助金について"
+  },
+  {
+    "slug": "fukuoka-official-012-011-2026",
+    "title": "苅田町 住宅改修費給付",
+    "organization": "苅田町",
+    "maxAmount": "限度額20万円",
+    "maxAmountNum": 200000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "苅田町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2023年12月19日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; 福祉課 &gt; 住宅改修費給付 本文 住宅改修費給付 ページID：0001",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/1246.html",
+    "sourceName": "住宅改修費給付"
+  },
+  {
+    "slug": "fukuoka-official-012-012-2026",
+    "title": "苅田町 重度障がい者の医療費の助成",
+    "organization": "苅田町",
+    "maxAmount": "限度額表高校生以上表1扶養親族等の数本人所得額配偶者および扶養義務者の所得額0人3,604,000円",
+    "maxAmountNum": 3604000,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "苅田町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2023年12月19日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; 福祉課 &gt; 重度障がい者の医療費の助成 本文 重度障がい者の医療費の助",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/1215.html",
+    "sourceName": "重度障がい者の医療費の助成"
+  },
+  {
+    "slug": "fukuoka-official-012-013-2026",
+    "title": "苅田町 生ごみ処理機器設置補助金",
+    "organization": "苅田町",
+    "maxAmount": "限度額は2万円",
+    "maxAmountNum": 20000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "苅田町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; 環境課 &gt; 生ごみ処理機器設置補助金 本文 生ごみ処理機器設置補助金 ",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/1952.html",
+    "sourceName": "生ごみ処理機器設置補助金"
+  },
+  {
+    "slug": "fukuoka-official-012-014-2026",
+    "title": "苅田町 特別児童扶養手当",
+    "organization": "苅田町",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "苅田町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2023年12月19日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; 福祉課 &gt; 特別児童扶養手当 本文 特別児童扶養手当 ページID：00",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/1273.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "fukuoka-official-012-015-2026",
+    "title": "苅田町 妊婦のための支援給付事業",
+    "organization": "苅田町",
+    "maxAmount": "1人につき5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "employment",
+      "living"
+    ],
+    "eligibility": "苅田町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; パンジープラザ &gt; 妊婦のための支援給付事業 本文 妊婦のための支援給",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/12842.html",
+    "sourceName": "妊婦のための支援給付事業"
+  },
+  {
+    "slug": "fukuoka-official-012-016-2026",
+    "title": "苅田町 福祉タクシー料金助成",
+    "organization": "苅田町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "苅田町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2023年12月19日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; 福祉課 &gt; 福祉タクシー料金助成 本文 福祉タクシー料金助成 ページI",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/1244.html",
+    "sourceName": "福祉タクシー料金助成"
+  },
+  {
+    "slug": "fukuoka-official-012-017-2026",
+    "title": "苅田町 保育士・幼稚園教諭等就職支援金について",
+    "organization": "苅田町",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "苅田町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; こども課 &gt; 保育士・幼稚園教諭等就職支援金について 本文 保育士・幼",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/1334.html",
+    "sourceName": "保育士・幼稚園教諭等就職支援金について"
+  },
+  {
+    "slug": "fukuoka-official-012-018-2026",
+    "title": "苅田町 木造戸建て住宅性能向上改修補助金制度",
+    "organization": "苅田町",
+    "maxAmount": "補助額補助額の内容工事区分補助対象経費補助率上限額性能向上改修工事耐震改修工事にかかる経費対象経費の50％80万円",
+    "maxAmountNum": 800000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "苅田町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; 都市計画課 &gt; 木造戸建て住宅性能向上改修補助金制度 本文 木造戸建て",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/2403.html",
+    "sourceName": "木造戸建て住宅性能向上改修補助金制度"
+  },
+  {
+    "slug": "fukuoka-official-012-019-2026",
+    "title": "苅田町 幼児教育・保育無償化",
+    "organization": "苅田町",
+    "maxAmount": "上限11,300円",
+    "maxAmountNum": 11300,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "苅田町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2024年4月1日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; こども課 &gt; 幼児教育・保育無償化 本文 幼児教育・保育無償化 ページ",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/1328.html",
+    "sourceName": "幼児教育・保育無償化"
+  },
+  {
+    "slug": "fukuoka-official-012-020-2026",
+    "title": "苅田町 令和8年度帯状疱疹ワクチン定期予防接種",
+    "organization": "苅田町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "苅田町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; 保険健康課 &gt; 令和8年度 帯状疱疹ワクチン 定期予防接種 本文 令和",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/13360.html",
+    "sourceName": "令和8年度帯状疱疹ワクチン定期予防接種"
+  },
+  {
+    "slug": "fukuoka-official-012-021-2026",
+    "title": "苅田町 老朽危険空き家等除却促進事業",
+    "organization": "苅田町",
+    "maxAmount": "補助金額老朽危険空き家撤去に要した工事費（消費税及び地方消費税を除く）の50％（上限50万円",
+    "maxAmountNum": 500000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "苅田町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 申請・手続き 入札・契約 ごみ・リサイ クル 各種相談 イベント 公共交通 現在地 トップページ &gt; 組織でさがす &gt; 本庁 &gt; 都市計画課 &gt; 老朽危険空き家等除却促進事業 本文 老朽危険空き家等除",
+    "officialUrl": "https://www.town.kanda.lg.jp/page/9159.html",
+    "sourceName": "老朽危険空き家等除却促進事業"
+  },
+  {
+    "slug": "fukuoka-official-012-022-2026",
+    "title": "みやこ町 高齢者補聴器購入助成のご案内",
+    "organization": "みやこ町",
+    "maxAmount": "支給額購入金額の2分の1（上限50,000円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "みやこ町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年06月03日 交付を受けていない人 ・専門医（耳鼻咽喉科等）を受診して医師から補聴器を勧められた人 ・世帯の中に町税及び使用料の滞納がない人 ・管理医療機器認定の補聴器を購入予定の人 助成金の支給額 購入金額の2分の1 （上限50,000",
+    "officialUrl": "https://www.town.miyako.lg.jp/hokennfukushika3/koureisyasienn/documents/koureishahochoukikounyuuhijosei.html",
+    "sourceName": "高齢者補聴器購入助成のご案内"
+  },
+  {
+    "slug": "fukuoka-official-012-023-2026",
+    "title": "みやこ町 造血細胞移植後定期予防接種ワクチン再接種費用補助事業について",
+    "organization": "みやこ町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "みやこ町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年08月27日 申請書 【様式第1号(第4条関係)】 (160.1KB) と以下の添付書類を提出してください",
+    "officialUrl": "https://www.town.miyako.lg.jp/kosodatekennkoushiennka3/kenkou/zouketsusaibou.html",
+    "sourceName": "造血細胞移植後定期予防接種ワクチン再接種費用補助事業について"
+  },
+  {
+    "slug": "fukuoka-official-012-024-2026",
+    "title": "みやこ町 妊婦・子どものインフルエンザ予防接種費用の一部助成",
+    "organization": "みやこ町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "みやこ町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年10月01日 受付時に診療依頼書を提示することで無料になります",
+    "officialUrl": "https://www.town.miyako.lg.jp/kosodatekennkoushiennka3/kenkou/influenza_ninpu.html",
+    "sourceName": "妊婦・子どものインフルエンザ予防接種費用の一部助成"
+  },
+  {
+    "slug": "fukuoka-official-012-025-2026",
+    "title": "みやこ町 アピアランスケア推進事業のご案内",
+    "organization": "みやこ町",
+    "maxAmount": "上限額医療用ウィッグ等医療用ウィッグ、装着用ネット、毛付き帽子2万円",
+    "maxAmountNum": 20000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやこ町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2024年05月09日 申請は、対象者1人につき補整具の区分ごとに1回限りです",
+    "officialUrl": "https://www.town.miyako.lg.jp/kosodatekennkoushiennka3/apiaransukea.html",
+    "sourceName": "アピアランスケア推進事業のご案内"
+  },
+  {
+    "slug": "fukuoka-official-012-026-2026",
+    "title": "みやこ町 チャイルドシート購入補助金",
+    "organization": "みやこ町",
+    "maxAmount": "補助金額チャイルドシート1台につき、購入額の2分の1以内の額（100円",
+    "maxAmountNum": 100,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "みやこ町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2017年04月01日 交付の対象者 みやこ町内に住所を有し、6歳未満の乳幼児を対象にチャイルドシートを購入する者",
+    "officialUrl": "https://www.town.miyako.lg.jp/soumu3/kiki/anzen/childseat.html",
+    "sourceName": "チャイルドシート購入補助金"
+  },
+  {
+    "slug": "fukuoka-official-012-027-2026",
+    "title": "みやこ町 ひとり親家庭等医療費の助成について",
+    "organization": "みやこ町",
+    "maxAmount": "限度額は、1医療機関あたり3,500円",
+    "maxAmountNum": 3500,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "みやこ町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年11月21日 申請をしてください",
+    "officialUrl": "https://www.town.miyako.lg.jp/hokennfukushika3/iryou/bosikateiiryo.html",
+    "sourceName": "ひとり親家庭等医療費の助成について"
+  },
+  {
+    "slug": "fukuoka-official-012-028-2026",
+    "title": "みやこ町 みやこ町産後ケア事業の利用料減免",
+    "organization": "みやこ町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやこ町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年04月01日 産後ケア事業 - みやこ町役場 本文へジャンプ 文字サイズ・ふりがな 文字の大きさ 標準 拡大（1.2倍） 拡大（2.0倍） ふりがな ひらがな ルビ ( るび ) 音声読み上げ Foreign Language 閲覧補助 ふりがな ひらが",
+    "officialUrl": "https://www.town.miyako.lg.jp/kosodatekennkoushiennka3/kenkou/sangokeagenmen.html",
+    "sourceName": "みやこ町産後ケア事業の利用料減免"
+  },
+  {
+    "slug": "fukuoka-official-012-029-2026",
+    "title": "みやこ町 みやこ町一般家庭飲用水水質検査等実施補助金",
+    "organization": "みやこ町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "みやこ町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2023年09月11日 交付しています",
+    "officialUrl": "https://www.town.miyako.lg.jp/jyuumin/seikatu/images/1188.html",
+    "sourceName": "みやこ町一般家庭飲用水水質検査等実施補助金"
+  },
+  {
+    "slug": "fukuoka-official-012-030-2026",
+    "title": "みやこ町 高齢者用肺炎球菌予防接種について",
+    "organization": "みやこ町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "みやこ町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年04月01日 高齢者用肺炎球菌予防接種について - みやこ町役場 本文へジャンプ 文字サイズ・ふりがな 文字の大きさ 標準 拡大（1.2倍） 拡大（2.0倍） ふりがな ひらがな ルビ ( るび ) 音声読み上げ Foreign Language 閲覧補",
+    "officialUrl": "https://www.town.miyako.lg.jp/kosodatekennkoushiennka3/kenkou/haienkyukin.html",
+    "sourceName": "高齢者用肺炎球菌予防接種について"
+  },
+  {
+    "slug": "fukuoka-official-012-031-2026",
+    "title": "みやこ町 骨髄等移植ドナー助成事業のご案内",
+    "organization": "みやこ町",
+    "maxAmount": "上限20万円",
+    "maxAmountNum": 200000,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "みやこ町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2023年10月30日 交付します",
+    "officialUrl": "https://www.town.miyako.lg.jp/kosodatekennkoushiennka3/kotsuzuidona.html",
+    "sourceName": "骨髄等移植ドナー助成事業のご案内"
+  },
+  {
+    "slug": "fukuoka-official-012-032-2026",
+    "title": "みやこ町 子ども医療費の助成について",
+    "organization": "みやこ町",
+    "maxAmount": "限度額は、1医療機関あたり3,500円",
+    "maxAmountNum": 3500,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "みやこ町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年11月21日 申請をしてください",
+    "officialUrl": "https://www.town.miyako.lg.jp/hokennfukushika3/iryou/nyuyouji_iryou.html",
+    "sourceName": "子ども医療費の助成について"
+  },
+  {
+    "slug": "fukuoka-official-012-033-2026",
+    "title": "みやこ町 児童手当",
+    "organization": "みやこ町",
+    "maxAmount": "月額児童の年齢児童手当の額（1人当たりの月額）3歳未満15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやこ町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年04月01日 支給する制度です",
+    "officialUrl": "https://www.town.miyako.lg.jp/kosodatekennkoushiennka3/kodomo/jidouteate/jidouteate.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "fukuoka-official-012-034-2026",
+    "title": "みやこ町 児童扶養手当",
+    "organization": "みやこ町",
+    "maxAmount": "月額令和8年4月～区分児童1人第2子以降加算額（1人につき）全部支給48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやこ町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年04月01日 支給する制度です",
+    "officialUrl": "https://www.town.miyako.lg.jp/kosodatekennkoushiennka3/kodomo/jidouhuyou/jidohuyo01_tsuite_2.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "fukuoka-official-012-035-2026",
+    "title": "みやこ町 就学援助制度（小学校入学準備金）",
+    "organization": "みやこ町",
+    "maxAmount": "支給額・支給時期支給予定額57,060円",
+    "maxAmountNum": 57060,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやこ町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2025年12月26日 支給します",
+    "officialUrl": "https://www.town.miyako.lg.jp/kyouiku3/syugakuenjyo_4.html",
+    "sourceName": "就学援助制度（小学校入学準備金）"
+  },
+  {
+    "slug": "fukuoka-official-012-036-2026",
+    "title": "みやこ町 就学援助制度（小中学校）",
+    "organization": "みやこ町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやこ町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2025年05月09日 支給を受けていない4月認定の1年生） 入学準備金（6年生のみ） ※町内在住で町内の中学校または県立中学校に入学予定の場合のみ 校外活動費 修学旅行費 卒業アルバム代 医療費(学校から治療の指示を受けた医療費) オンライン学習",
+    "officialUrl": "https://www.town.miyako.lg.jp/kyouiku3/syugakuenjyo.html",
+    "sourceName": "就学援助制度（小中学校）"
+  },
+  {
+    "slug": "fukuoka-official-012-037-2026",
+    "title": "みやこ町 重度障がい者医療費の助成について",
+    "organization": "みやこ町",
+    "maxAmount": "限度額は、1医療機関あたり10,000円",
+    "maxAmountNum": 10000,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "みやこ町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年11月21日 申請をしてください",
+    "officialUrl": "https://www.town.miyako.lg.jp/hokennfukushika/iryou/syogaiiryo.html",
+    "sourceName": "重度障がい者医療費の助成について"
+  },
+  {
+    "slug": "fukuoka-official-012-038-2026",
+    "title": "みやこ町 青少年医療費の助成について",
+    "organization": "みやこ町",
+    "maxAmount": "限度額は、1医療機関あたり3,500円",
+    "maxAmountNum": 3500,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやこ町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年11月21日 申請をしてください",
+    "officialUrl": "https://www.town.miyako.lg.jp/hokennfukushika3/iryou/jidouiryou.html",
+    "sourceName": "青少年医療費の助成について"
+  },
+  {
+    "slug": "fukuoka-official-012-039-2026",
+    "title": "みやこ町 帯状疱疹ワクチン予防接種について",
+    "organization": "みやこ町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやこ町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年04月01日 交付申請書 」を子育て・健康支援課まで提出してください",
+    "officialUrl": "https://www.town.miyako.lg.jp/kosodatekennkoushiennka3/kenkou/taijouhoushin.html",
+    "sourceName": "帯状疱疹ワクチン予防接種について"
+  },
+  {
+    "slug": "fukuoka-official-012-040-2026",
+    "title": "みやこ町 特別児童扶養手当",
+    "organization": "みやこ町",
+    "maxAmount": "月額令和8年4月～重度障がい児（1級）1人につき月額58,450円",
+    "maxAmountNum": 58450,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやこ町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年04月01日 支給する制度です",
+    "officialUrl": "https://www.town.miyako.lg.jp/kosodatekennkoushiennka3/kodomo/tokuji/tokuji01_tokubetsu_2.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "fukuoka-official-012-041-2026",
+    "title": "みやこ町 妊婦のための支援給付金",
+    "organization": "みやこ町",
+    "maxAmount": "支給額妊婦支援給付金（1回目）：妊婦1人につき5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "みやこ町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年04月28日 交付時と妊娠8か月のころに行う面談後の2回に分けて支給します",
+    "officialUrl": "https://www.town.miyako.lg.jp/kosodatekennkoushiennka3/kenkou/ninpusienkin.html",
+    "sourceName": "妊婦のための支援給付金"
+  },
+  {
+    "slug": "fukuoka-official-012-042-2026",
+    "title": "みやこ町 妊婦へのRSウイルス感染症予防接種について",
+    "organization": "みやこ町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "みやこ町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年03月23日 交付申請書 」を子育て・健康支援課まで提出してください",
+    "officialUrl": "https://www.town.miyako.lg.jp/kosodatekennkoushiennka3/kenkou/rsuirusu.html",
+    "sourceName": "妊婦へのRSウイルス感染症予防接種について"
+  },
+  {
+    "slug": "fukuoka-official-012-043-2026",
+    "title": "みやこ町 妊婦健康診査",
+    "organization": "みやこ町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "みやこ町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年04月28日 交付金を活用しています",
+    "officialUrl": "https://www.town.miyako.lg.jp/kosodatekennkoushiennka3/ninpukensin.html",
+    "sourceName": "妊婦健康診査"
+  },
+  {
+    "slug": "fukuoka-official-012-044-2026",
+    "title": "みやこ町 保育料の無償化および副食費の補助",
+    "organization": "みやこ町",
+    "maxAmount": "月額4,700円",
+    "maxAmountNum": 4700,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "みやこ町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年04月01日 申請が必要な人 （1）保育料 申請は不要です",
+    "officialUrl": "https://www.town.miyako.lg.jp/kosodatekennkoushiennka3/musyoukahojo.html",
+    "sourceName": "保育料の無償化および副食費の補助"
+  },
+  {
+    "slug": "fukuoka-official-012-045-2026",
+    "title": "吉富町 よしとみ応援給付金・吉富町出産育児応援特別給付金",
+    "organization": "吉富町",
+    "maxAmount": "1人あたり2万円",
+    "maxAmountNum": 20000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉富町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2020年11月06日 支給いたします | 福岡県築上郡 吉富町行政サイト ※当サイトはJavaScriptが有効になっていないと正常に表示されません",
+    "officialUrl": "https://www.town.yoshitomi.lg.jp/gyosei/chosei/v995/y209/mirai/n108/",
+    "sourceName": "よしとみ応援給付金・吉富町出産育児応援特別給付金"
+  },
+  {
+    "slug": "fukuoka-official-012-046-2026",
+    "title": "吉富町 ひとり親家庭等医療費支給制度",
+    "organization": "吉富町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "吉富町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年12月15日 支給制度 | 福岡県築上郡 吉富町行政サイト ※当サイトはJavaScriptが有効になっていないと正常に表示されません",
+    "officialUrl": "https://www.town.yoshitomi.lg.jp/gyosei/chosei/v995/y209/kosodate/7/",
+    "sourceName": "ひとり親家庭等医療費支給制度"
+  },
+  {
+    "slug": "fukuoka-official-012-047-2026",
+    "title": "吉富町 子ども医療費支給制度",
+    "organization": "吉富町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "吉富町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年12月15日 支給制度 | 福岡県築上郡 吉富町行政サイト ※当サイトはJavaScriptが有効になっていないと正常に表示されません",
+    "officialUrl": "https://www.town.yoshitomi.lg.jp/gyosei/chosei/v995/y209/kosodate/4/",
+    "sourceName": "子ども医療費支給制度"
+  },
+  {
+    "slug": "fukuoka-official-012-048-2026",
+    "title": "吉富町 令和8年度奨学金返還支援助成金申請受付開始",
+    "organization": "吉富町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉富町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年06月01日 申請受付開始！ | 福岡県築上郡 吉富町行政サイト ※当サイトはJavaScriptが有効になっていないと正常に表示されません",
+    "officialUrl": "https://www.town.yoshitomi.lg.jp/gyosei/chosei/v995/y209/kyouiku_iinkai/g146/z109/e475/",
+    "sourceName": "令和8年度奨学金返還支援助成金申請受付開始"
+  },
+  {
+    "slug": "fukuoka-official-012-049-2026",
+    "title": "吉富町 すくすく乗ってGO 妊産婦さんの交通費を助成します",
+    "organization": "吉富町",
+    "maxAmount": "最大3,000円",
+    "maxAmountNum": 3000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "吉富町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "令和8年4月1日 申請 事業者 の方へ 事業者の方へTOP 入札・契約 産業支援 建設・都市計画 広告募集 起業・創業支援 税金 上下水道 ごみ 町政情報 町政情報TOP 町の概要 組織・庁舎案内 まちづくり・計画・施策 行財政 人事・採用 ",
+    "officialUrl": "https://www.town.yoshitomi.lg.jp/gyosei/chosei/v995/y209/kosodate/e303/c625/",
+    "sourceName": "すくすく乗ってGO 妊産婦さんの交通費を助成します"
+  },
+  {
+    "slug": "fukuoka-official-012-050-2026",
+    "title": "吉富町 吉富町の定住化促進制度について",
+    "organization": "吉富町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉富町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2024年03月21日 申請 事業者 の方へ 事業者の方へTOP 入札・契約 産業支援 建設・都市計画 広告募集 起業・創業支援 税金 上下水道 ごみ 町政情報 町政情報TOP 町の概要 組織・庁舎案内 まちづくり・計画・施策 行財政 人事・採用 ",
+    "officialUrl": "https://www.town.yoshitomi.lg.jp/gyosei/chosei/v995/y209/chiiki/n135/3/",
+    "sourceName": "吉富町の定住化促進制度について"
+  },
+  {
+    "slug": "fukuoka-official-012-051-2026",
+    "title": "吉富町 吉富町奨学金貸付制度について",
+    "organization": "吉富町",
+    "maxAmount": "月額大学・大学院・短大・高専（４年生以上）専修学校専門課程60,000円",
+    "maxAmountNum": 60000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉富町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年06月30日 申請 事業者 の方へ 事業者の方へTOP 入札・契約 産業支援 建設・都市計画 広告募集 起業・創業支援 税金 上下水道 ごみ 町政情報 町政情報TOP 町の概要 組織・庁舎案内 まちづくり・計画・施策 行財政 人事・採用 ",
+    "officialUrl": "https://www.town.yoshitomi.lg.jp/gyosei/chosei/v995/y209/kyouiku_iinkai/g146/5/",
+    "sourceName": "吉富町奨学金貸付制度について"
+  },
+  {
+    "slug": "fukuoka-official-012-052-2026",
+    "title": "吉富町 吉富町未来を担う若者の移住・定住促進奨学金返還支援助成金について",
+    "organization": "吉富町",
+    "maxAmount": "上限10万円",
+    "maxAmountNum": 100000,
+    "category": "housing",
+    "relatedCategories": [
+      "education",
+      "living"
+    ],
+    "eligibility": "吉富町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年06月02日 申請 事業者 の方へ 事業者の方へTOP 入札・契約 産業支援 建設・都市計画 広告募集 起業・創業支援 税金 上下水道 ごみ 町政情報 町政情報TOP 町の概要 組織・庁舎案内 まちづくり・計画・施策 行財政 人事・採用 ",
+    "officialUrl": "https://www.town.yoshitomi.lg.jp/gyosei/chosei/v995/y209/kyouiku_iinkai/g146/z109/",
+    "sourceName": "吉富町未来を担う若者の移住・定住促進奨学金返還支援助成金について"
+  },
+  {
+    "slug": "fukuoka-official-012-053-2026",
+    "title": "吉富町 児童手当の制度が改正されました",
+    "organization": "吉富町",
+    "maxAmount": "月額0歳～2歳1万5000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉富町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2024年12月09日 申請 事業者 の方へ 事業者の方へTOP 入札・契約 産業支援 建設・都市計画 広告募集 起業・創業支援 税金 上下水道 ごみ 町政情報 町政情報TOP 町の概要 組織・庁舎案内 まちづくり・計画・施策 行財政 人事・採用 ",
+    "officialUrl": "https://www.town.yoshitomi.lg.jp/gyosei/chosei/v995/y209/kosodate/v163/",
+    "sourceName": "児童手当の制度が改正されました"
+  },
+  {
+    "slug": "fukuoka-official-012-054-2026",
+    "title": "吉富町 妊婦の方のRSウイルスワクチンが定期接種になります",
+    "organization": "吉富町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "吉富町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年03月05日 申請 事業者 の方へ 事業者の方へTOP 入札・契約 産業支援 建設・都市計画 広告募集 起業・創業支援 税金 上下水道 ごみ 町政情報 町政情報TOP 町の概要 組織・庁舎案内 まちづくり・計画・施策 行財政 人事・採用 ",
+    "officialUrl": "https://www.town.yoshitomi.lg.jp/gyosei/chosei/v995/y209/kosodate/c889/",
+    "sourceName": "妊婦の方のRSウイルスワクチンが定期接種になります"
+  },
+  {
+    "slug": "fukuoka-official-012-055-2026",
+    "title": "吉富町 保育園副食費無償化",
+    "organization": "吉富町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "吉富町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年04月03日 申請 事業者 の方へ 事業者の方へTOP 入札・契約 産業支援 建設・都市計画 広告募集 起業・創業支援 税金 上下水道 ごみ 町政情報 町政情報TOP 町の概要 組織・庁舎案内 まちづくり・計画・施策 行財政 人事・採用 ",
+    "officialUrl": "https://www.town.yoshitomi.lg.jp/gyosei/chosei/v995/y209/kosodate/n667/",
+    "sourceName": "保育園副食費無償化"
+  },
+  {
+    "slug": "fukuoka-official-012-056-2026",
+    "title": "上毛町 令和8年度上毛町住宅用エネルギーシステム設置費補助金",
+    "organization": "上毛町",
+    "maxAmount": "最大出力（kW）（上限20万円",
+    "maxAmountNum": 200000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上毛町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年04月07日 申請受付のお知らせ／上毛町 本文へ 文字サイズ 背景色変更 Foreign Language 組織から探す 検索画面を閉じる ホーム くらし・手続き 健康・医療・福祉 観光 町政・まちづくり しごと・産業 子育て 移住定住 ",
+    "officialUrl": "https://www.town.koge.lg.jp/kurashi_tetsuzuki/kankyo_eisei_gomi/3298.html",
+    "sourceName": "令和8年度上毛町住宅用エネルギーシステム設置費補助金"
+  },
+  {
+    "slug": "fukuoka-official-012-057-2026",
+    "title": "上毛町 介護手当の支給について",
+    "organization": "上毛町",
+    "maxAmount": "月額2万円",
+    "maxAmountNum": 20000,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上毛町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2021年11月25日 支給について／上毛町 本文へ 文字サイズ 背景色変更 Foreign Language 組織から探す 検索画面を閉じる ホーム くらし・手続き 健康・医療・福祉 観光 町政・まちづくり しごと・産業 子育て 移住定住 学び・",
+    "officialUrl": "https://www.town.koge.lg.jp/kenko_iryo_fukushi/2/3591.html",
+    "sourceName": "介護手当の支給について"
+  },
+  {
+    "slug": "fukuoka-official-012-058-2026",
+    "title": "上毛町 子ども医療費助成制度について",
+    "organization": "上毛町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "上毛町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年07月09日 申請・届出 子ども医療費助成制度について 子ども医療費助成制度について 更新日：2024年07月09日 令和6年10月から上毛町子ども医療費助成制度が変わります 令和6年10月診療分から、対象年齢を現行の「15歳に達する日以",
+    "officialUrl": "https://www.town.koge.lg.jp/kosodate/3/1705.html",
+    "sourceName": "子ども医療費助成制度について"
+  },
+  {
+    "slug": "fukuoka-official-012-059-2026",
+    "title": "上毛町 資源物の集団回収を実施する団体に奨励金を交付します",
+    "organization": "上毛町",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "上毛町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年04月01日 交付します／上毛町 本文へ 文字サイズ 背景色変更 Foreign Language 組織から探す 検索画面を閉じる ホーム くらし・手続き 健康・医療・福祉 観光 町政・まちづくり しごと・産業 子育て 移住定住 学び・文",
+    "officialUrl": "https://www.town.koge.lg.jp/kurashi_tetsuzuki/kankyo_eisei_gomi/3309.html",
+    "sourceName": "資源物の集団回収を実施する団体に奨励金を交付します"
+  },
+  {
+    "slug": "fukuoka-official-012-060-2026",
+    "title": "上毛町 児童手当",
+    "organization": "上毛町",
+    "maxAmount": "月額手当の月額詳細区分児童手当の額（1人当たり月額）3歳未満15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上毛町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2023年01月18日 支給するものです",
+    "officialUrl": "https://www.town.koge.lg.jp/kosodate/4/1664.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "fukuoka-official-012-061-2026",
+    "title": "上毛町 児童扶養手当",
+    "organization": "上毛町",
+    "maxAmount": "月額（令和8年4月～）手当の月額の詳細区分児童1人の場合児童2人目以降の加算額全部支給48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上毛町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年04月01日 申請・届出 児童扶養手当 児童扶養手当 更新日：2026年04月01日 児童扶養手当とは 父母の離婚・父（母）の死亡などによって、父（母）と生計を同じくしていない児童について、手当てを支給する制度です",
+    "officialUrl": "https://www.town.koge.lg.jp/kosodate/3/2007.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "fukuoka-official-012-062-2026",
+    "title": "上毛町 上毛町新婚世帯・子育て世帯新生活応援補助金のお知らせ",
+    "organization": "上毛町",
+    "maxAmount": "月額から住宅手当を控除した額月11,220円",
+    "maxAmountNum": 11220,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上毛町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年06月04日 交付金」を活用し実施しています",
+    "officialUrl": "https://www.town.koge.lg.jp/ijyu_teiju/2139.html",
+    "sourceName": "上毛町新婚世帯・子育て世帯新生活応援補助金のお知らせ"
+  },
+  {
+    "slug": "fukuoka-official-012-063-2026",
+    "title": "上毛町 特別児童扶養手当",
+    "organization": "上毛町",
+    "maxAmount": "月額（令和8年4月～）手当の月額詳細区分手当の月額重度障害児（1級）1人につき58,450円",
+    "maxAmountNum": 58450,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上毛町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年04月01日 申請・届出 特別児童扶養手当 特別児童扶養手当 更新日：2026年04月01日 特別児童扶養手当とは 精神または身体が障害の状態（制令で定める程度以上）にある20歳未満の児童について、児童の福祉の増進を図ることを目的として、",
+    "officialUrl": "https://www.town.koge.lg.jp/kosodate/3/2009.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "fukuoka-official-012-064-2026",
+    "title": "上毛町 母子健康手帳・妊婦健康診査補助券交付",
+    "organization": "上毛町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "上毛町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年04月02日 交付／上毛町 本文へ 文字サイズ 背景色変更 Foreign Language 組織から探す 検索画面を閉じる ホーム くらし・手続き 健康・医療・福祉 観光 町政・まちづくり しごと・産業 子育て 移住定住 学び・文化・ス",
+    "officialUrl": "https://www.town.koge.lg.jp/life/1/1875.html",
+    "sourceName": "母子健康手帳・妊婦健康診査補助券交付"
+  },
+  {
+    "slug": "fukuoka-official-012-065-2026",
+    "title": "上毛町 アピアランスケア推進事業について",
+    "organization": "上毛町",
+    "maxAmount": "上限2万円",
+    "maxAmountNum": 20000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上毛町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2024年04月17日 申請期限 助成対象となる用具を購入後、1年以内（購入年度末までに申請してください",
+    "officialUrl": "https://www.town.koge.lg.jp/kenko_iryo_fukushi/4884.html",
+    "sourceName": "アピアランスケア推進事業について"
+  },
+  {
+    "slug": "fukuoka-official-012-066-2026",
+    "title": "上毛町 高齢者等の住宅改修費の助成について",
+    "organization": "上毛町",
+    "maxAmount": "補助金額工事費（上限20万円",
+    "maxAmountNum": 200000,
+    "category": "housing",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "上毛町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2021年11月25日 申請手続 事前調査 長寿福祉課に相談してください",
+    "officialUrl": "https://www.town.koge.lg.jp/kenko_iryo_fukushi/2/3590.html",
+    "sourceName": "高齢者等の住宅改修費の助成について"
+  },
+  {
+    "slug": "fukuoka-official-012-067-2026",
+    "title": "上毛町 骨髄等移植ドナー助成事業について",
+    "organization": "上毛町",
+    "maxAmount": "2万円を助成",
+    "maxAmountNum": 20000,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "上毛町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年04月10日 交付します",
+    "officialUrl": "https://www.town.koge.lg.jp/kenko_iryo_fukushi/4885.html",
+    "sourceName": "骨髄等移植ドナー助成事業について"
+  },
+  {
+    "slug": "fukuoka-official-012-068-2026",
+    "title": "上毛町 重度障がい者医療費助成制度について",
+    "organization": "上毛町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "上毛町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年07月09日 申請方法 長寿福祉課で手続きしてください",
+    "officialUrl": "https://www.town.koge.lg.jp/kenko_iryo_fukushi/1/1494.html",
+    "sourceName": "重度障がい者医療費助成制度について"
+  },
+  {
+    "slug": "fukuoka-official-012-069-2026",
+    "title": "上毛町 上毛町移住支援金のお知らせ",
+    "organization": "上毛町",
+    "maxAmount": "支給額（1）単身の申請60万円",
+    "maxAmountNum": 600000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上毛町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2025年10月01日 支給要件を満たす場合に移住支援金を交付します",
+    "officialUrl": "https://www.town.koge.lg.jp/ijyu_teiju/3928.html",
+    "sourceName": "上毛町移住支援金のお知らせ"
+  },
+  {
+    "slug": "fukuoka-official-012-070-2026",
+    "title": "上毛町 上毛町空き家解消事業補助金のお知らせ",
+    "organization": "上毛町",
+    "maxAmount": "補助金額解体工事費が50万円",
+    "maxAmountNum": 500000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "上毛町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2025年04月01日 申請日の属する年度の3月31日までにその跡地に戸建住宅または集合住宅建築工事の工事請負契約を締結する意思がある者（自ら住宅建築工事が可能な者である場合は、3月31日までに建築確認を申請する意思がある者等）",
+    "officialUrl": "https://www.town.koge.lg.jp/ijyu_teiju/2792.html",
+    "sourceName": "上毛町空き家解消事業補助金のお知らせ"
+  },
+  {
+    "slug": "fukuoka-official-012-071-2026",
+    "title": "上毛町 上毛町定住促進結婚祝金のお知らせ",
+    "organization": "上毛町",
+    "maxAmount": "112,200円を交付",
+    "maxAmountNum": 112200,
+    "category": "childcare",
+    "relatedCategories": [
+      "housing",
+      "living"
+    ],
+    "eligibility": "上毛町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2024年04月01日 交付します",
+    "officialUrl": "https://www.town.koge.lg.jp/ijyu_teiju/2140.html",
+    "sourceName": "上毛町定住促進結婚祝金のお知らせ"
+  },
+  {
+    "slug": "fukuoka-official-012-072-2026",
+    "title": "上毛町 上毛町定住促進奨励金のお知らせ",
+    "organization": "上毛町",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上毛町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2025年04月01日 交付します",
+    "officialUrl": "https://www.town.koge.lg.jp/ijyu_teiju/2141.html",
+    "sourceName": "上毛町定住促進奨励金のお知らせ"
+  },
+  {
+    "slug": "fukuoka-official-012-073-2026",
+    "title": "上毛町 上毛町妊婦のための支援給付について",
+    "organization": "上毛町",
+    "maxAmount": "支給額5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "上毛町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和7年4月1日 支給します",
+    "officialUrl": "https://www.town.koge.lg.jp/life/1/5243.html",
+    "sourceName": "上毛町妊婦のための支援給付について"
+  },
+  {
+    "slug": "fukuoka-official-012-074-2026",
+    "title": "上毛町 上毛町本社機能移転促進助成金のお知らせ",
+    "organization": "上毛町",
+    "maxAmount": "限度額200万円",
+    "maxAmountNum": 2000000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "上毛町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2022年05月01日 受付を開始しています",
+    "officialUrl": "https://www.town.koge.lg.jp/business/2350.html",
+    "sourceName": "上毛町本社機能移転促進助成金のお知らせ"
+  },
+  {
+    "slug": "fukuoka-official-012-075-2026",
+    "title": "上毛町 上毛町民間賃貸住宅建設促進事業補助金のお知らせ",
+    "organization": "上毛町",
+    "maxAmount": "補助金額補助金の額は、1戸当たり100万円",
+    "maxAmountNum": 1000000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "上毛町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2024年04月12日 交付要綱(PDFファイル:174.4KB) 対象者 上毛町に賃貸を目的とした住宅を新築する個人または法人でその所有者となる方が対象です",
+    "officialUrl": "https://www.town.koge.lg.jp/ijyu_teiju/4876.html",
+    "sourceName": "上毛町民間賃貸住宅建設促進事業補助金のお知らせ"
+  },
+  {
+    "slug": "fukuoka-official-012-076-2026",
+    "title": "上毛町 創業促進支援事業助成金のご案内",
+    "organization": "上毛町",
+    "maxAmount": "限度額200万円",
+    "maxAmountNum": 2000000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上毛町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2022年04月01日 交付を受けていない方 創業とは 事業を営んでいない個人が開業の届出により新たに事業を開始する場合 事業を営んでいない個人が新たに法人を設立し事業を開始する場合 中小企業者（個人・法人）が新たな分野で主たる事業を開始する場合 ",
+    "officialUrl": "https://www.town.koge.lg.jp/business/3856.html",
+    "sourceName": "創業促進支援事業助成金のご案内"
+  },
+  {
+    "slug": "fukuoka-official-012-077-2026",
+    "title": "上毛町 町の奨学金",
+    "organization": "上毛町",
+    "maxAmount": "月額及び給付期間大学、短期大学、高等専門学校（4・5年）、専修学校（専門課程）自宅通学35,000円",
+    "maxAmountNum": 35000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上毛町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2020年04月01日 申請者又は保護者が本町に3年以上在住し、他の奨学金を受給していない学生",
+    "officialUrl": "https://www.town.koge.lg.jp/kosodate/gakko_kyoiku/1607.html",
+    "sourceName": "町の奨学金"
+  },
+  {
+    "slug": "fukuoka-official-012-078-2026",
+    "title": "上毛町 介護用品給付券の交付について",
+    "organization": "上毛町",
+    "maxAmount": "月額6,000円",
+    "maxAmountNum": 6000,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上毛町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2021年11月25日 交付について／上毛町 本文へ 文字サイズ 背景色変更 Foreign Language 組織から探す 検索画面を閉じる ホーム くらし・手続き 健康・医療・福祉 観光 町政・まちづくり しごと・産業 子育て 移住定住 学び・",
+    "officialUrl": "https://www.town.koge.lg.jp/kenko_iryo_fukushi/2/3592.html",
+    "sourceName": "介護用品給付券の交付について"
+  },
+  {
+    "slug": "fukuoka-official-012-079-2026",
+    "title": "築上町 ひとり親家庭等医療費支給制度",
+    "organization": "築上町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "築上町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年8月1日 支給制度｜福岡県築上町 コンテンツにジャンプ 文字サイズ変更・コントラスト変更機能を利用する場合は、javascriptをオンにしてください",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s012/020/010/020/020/hitorioyairyohijosei.html",
+    "sourceName": "ひとり親家庭等医療費支給制度"
+  },
+  {
+    "slug": "fukuoka-official-012-080-2026",
+    "title": "築上町 子ども医療費支給制度",
+    "organization": "築上町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "築上町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年8月1日 支給制度｜福岡県築上町 コンテンツにジャンプ 文字サイズ変更・コントラスト変更機能を利用する場合は、javascriptをオンにしてください",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s012/020/010/020/010/kodomoiryohijosei.html",
+    "sourceName": "子ども医療費支給制度"
+  },
+  {
+    "slug": "fukuoka-official-012-081-2026",
+    "title": "築上町 重度障がい者医療費支給制度",
+    "organization": "築上町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "築上町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年8月1日 支給制度｜福岡県築上町 コンテンツにジャンプ 文字サイズ変更・コントラスト変更機能を利用する場合は、javascriptをオンにしてください",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s012/020/010/020/030/judoiryohijosei.html",
+    "sourceName": "重度障がい者医療費支給制度"
+  },
+  {
+    "slug": "fukuoka-official-012-082-2026",
+    "title": "築上町 出産育児一時金",
+    "organization": "築上町",
+    "maxAmount": "支給額「産科医療保障制度に加入の医療機関での出産」対象の有無令和5年4月1日以降に出産した場合対象の場合50万円対象外の場合48万8,000円",
+    "maxAmountNum": 488000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "築上町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2023年4月1日 支給されます",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s012/020/010/010/010/shussanikuji.html",
+    "sourceName": "出産育児一時金"
+  },
+  {
+    "slug": "fukuoka-official-012-083-2026",
+    "title": "築上町 築上町ブロック塀等撤去費補助金",
+    "organization": "築上町",
+    "maxAmount": "補助額補助対象建築物の除去工事費（注）のうち、以下のいずれか低い額除去工事に要する経費の3分の2の額上限額（16万円",
+    "maxAmountNum": 160000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "築上町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年2月10日 交付申請および交付決定前に撤去工事に着手した場合は、補助対象外となります",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s008/040/020/010/burokkuhei.html",
+    "sourceName": "築上町ブロック塀等撤去費補助金"
+  },
+  {
+    "slug": "fukuoka-official-012-084-2026",
+    "title": "築上町 築上町奨学金貸付事業申請受付",
+    "organization": "築上町",
+    "maxAmount": "1人あたり月額45,000円",
+    "maxAmountNum": 45000,
+    "category": "education",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "築上町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月29日 申請受付｜福岡県築上町 コンテンツにジャンプ 文字サイズ変更・コントラスト変更機能を利用する場合は、javascriptをオンにしてください",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s044/010/020/020/110/shogakukin.html",
+    "sourceName": "築上町奨学金貸付事業申請受付"
+  },
+  {
+    "slug": "fukuoka-official-012-085-2026",
+    "title": "築上町 低所得の妊婦に対する初回産科受診料助成事業",
+    "organization": "築上町",
+    "maxAmount": "助成額妊娠の判定を受けるための初回産科受診1回あたり10,000円",
+    "maxAmountNum": 10000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "employment",
+      "living"
+    ],
+    "eligibility": "築上町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年10月14日 申請方法 申請窓口に次のものをお持ちください",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s013/010/050/050/060/20230803141657.html",
+    "sourceName": "低所得の妊婦に対する初回産科受診料助成事業"
+  },
+  {
+    "slug": "fukuoka-official-012-086-2026",
+    "title": "築上町 妊娠を希望する女性等への風しん抗体検査・予防接種費用助成事業",
+    "organization": "築上町",
+    "maxAmount": "上限額ワクチン名助成上限額麻しん風しん混合ワクチン9,600円",
+    "maxAmountNum": 9600,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "築上町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2022年4月1日 妊娠を希望する女性等への風しん抗体検査・予防接種費用助成事業｜福岡県築上町 コンテンツにジャンプ 文字サイズ変更・コントラスト変更機能を利用する場合は、javascriptをオンにしてください。 Foreign Language サイト内検",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s013/010/050/020/060/20190918170319.html",
+    "sourceName": "妊娠を希望する女性等への風しん抗体検査・予防接種費用助成事業"
+  },
+  {
+    "slug": "fukuoka-official-012-087-2026",
+    "title": "築上町 築上町空き家・空き地バンク事業補助金等の制度について",
+    "organization": "築上町",
+    "maxAmount": "上限額補助率：補助対象事業費の2分の1限度額：80万円",
+    "maxAmountNum": 800000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "築上町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 交付いたします",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s007/010/050/030/120/20170424115322.html",
+    "sourceName": "築上町空き家・空き地バンク事業補助金等の制度について"
+  },
+  {
+    "slug": "fukuoka-official-012-088-2026",
+    "title": "築上町 子どものインフルエンザ予防接種",
+    "organization": "築上町",
+    "maxAmount": "助成額区分助成上限額助成回数生後6か月から小学6年生4,000円",
+    "maxAmountNum": 4000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "築上町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年10月25日 交付申請書兼請求書」に必要事項を記入し、支払い時に1回4,000円を差し引いた額を支払ってください",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s013/010/030/030/020/030/kosomo-yobousesshu.html",
+    "sourceName": "子どものインフルエンザ予防接種"
+  },
+  {
+    "slug": "fukuoka-official-012-089-2026",
+    "title": "築上町 子どもの定期予防接種",
+    "organization": "築上町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "築上町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 提出する必要があります",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s013/010/050/020/030/020/kosomo-yobousesshu.html",
+    "sourceName": "子どもの定期予防接種"
+  },
+  {
+    "slug": "fukuoka-official-012-090-2026",
+    "title": "築上町 子宮頸がん予防ワクチンの接種について",
+    "organization": "築上町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [
+      "medical"
+    ],
+    "eligibility": "築上町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月9日 交付申請手続きが必要ですので、事前にご相談ください",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s013/010/050/020/110/sikyuukeigann.html",
+    "sourceName": "子宮頸がん予防ワクチンの接種について"
+  },
+  {
+    "slug": "fukuoka-official-012-091-2026",
+    "title": "築上町 障害児福祉手当",
+    "organization": "築上町",
+    "maxAmount": "支給額月額16,100円",
+    "maxAmountNum": 16100,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "築上町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 支給されます",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s018/010/020/030/020/shougaifukushi.html",
+    "sourceName": "障害児福祉手当"
+  },
+  {
+    "slug": "fukuoka-official-012-092-2026",
+    "title": "築上町 築上町スポーツ奨励金・報奨金",
+    "organization": "築上町",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "築上町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2019年9月12日 交付しています",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s046/030/010/010/100/sportm.html",
+    "sourceName": "築上町スポーツ奨励金・報奨金"
+  },
+  {
+    "slug": "fukuoka-official-012-093-2026",
+    "title": "築上町 築上町児童生徒の就学援助制度",
+    "organization": "築上町",
+    "maxAmount": "支給額（お子さん1人につき）令和8年4月1日現在種別支給額（見込み）小学校中学校学用品費11,630円",
+    "maxAmountNum": 11630,
+    "category": "childcare",
+    "relatedCategories": [
+      "education",
+      "living"
+    ],
+    "eligibility": "築上町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月10日 申請が必要です",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s044/010/020/020/010/Syugakuenjo.html",
+    "sourceName": "築上町児童生徒の就学援助制度"
+  },
+  {
+    "slug": "fukuoka-official-012-094-2026",
+    "title": "築上町 築上町生ごみ処理機購入補助事業",
+    "organization": "築上町",
+    "maxAmount": "限度額生ごみ処理機（1世帯1台まで）30,000円",
+    "maxAmountNum": 30000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "築上町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月16日 申請受付を終了しました",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s038/010/080/010/210/050/20140602110538.html",
+    "sourceName": "築上町生ごみ処理機購入補助事業"
+  },
+  {
+    "slug": "fukuoka-official-012-095-2026",
+    "title": "築上町 築上町妊婦さんのサポート給付事業",
+    "organization": "築上町",
+    "maxAmount": "1人あたり5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "employment",
+      "living"
+    ],
+    "eligibility": "築上町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 交付金事業』を行ってきました",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s013/010/030/060/020/020/kenkozukuri.html",
+    "sourceName": "築上町妊婦さんのサポート給付事業"
+  },
+  {
+    "slug": "fukuoka-official-012-096-2026",
+    "title": "築上町 築上町猫の避妊・去勢手術補助金",
+    "organization": "築上町",
+    "maxAmount": "補助金額避妊手術メス1頭につき12,000円",
+    "maxAmountNum": 12000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "築上町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月15日 交付します",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s038/010/080/020/030/nekohozyokin.html",
+    "sourceName": "築上町猫の避妊・去勢手術補助金"
+  },
+  {
+    "slug": "fukuoka-official-012-097-2026",
+    "title": "築上町 築上町老朽危険空き家除却費補助金制度について",
+    "organization": "築上町",
+    "maxAmount": "上限50万円",
+    "maxAmountNum": 500000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "築上町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2018年6月28日 申請前に着工した場合は補助が受けられません",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s038/010/080/030/070/akiya_hojo.html",
+    "sourceName": "築上町老朽危険空き家除却費補助金制度について"
+  },
+  {
+    "slug": "fukuoka-official-012-098-2026",
+    "title": "築上町 特別児童扶養手当",
+    "organization": "築上町",
+    "maxAmount": "月額（令和8年4月から）重度障がい児（1級）1人につき58,450円",
+    "maxAmountNum": 58450,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "築上町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 支給する制度です",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s019/010/020/030/200/030/030/20141125150425.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "fukuoka-official-012-099-2026",
+    "title": "築上町 妊婦健康診査費助成",
+    "organization": "築上町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "築上町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2021年1月13日 交付する「妊婦健康診査補助券」を使って受診してください",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s013/010/030/030/010/020/ninsanpushinsa.html",
+    "sourceName": "妊婦健康診査費助成"
+  },
+  {
+    "slug": "fukuoka-official-012-100-2026",
+    "title": "築上町 造血細胞移植後の再接種費用の助成について",
+    "organization": "築上町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "築上町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年4月1日 交付要綱」に定める金額を上限とし、予防接種に要した費用として医療機関に支払った金額 助成金支給の流れ 事前申請 事前に 子育て・健康支援課健康づくり係にご相談ください",
+    "officialUrl": "https://www.town.chikujo.fukuoka.jp/s013/010/050/020/120/zouketusaibou.html",
+    "sourceName": "造血細胞移植後の再接種費用の助成について"
+  }
+];
