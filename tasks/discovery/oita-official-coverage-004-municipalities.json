@@ -1,0 +1,28 @@
+{
+  "batch": "oita-official-coverage-004",
+  "prefecture": "大分県",
+  "generatedAt": "2026-07-18T02:35:00+09:00",
+  "municipalities": [
+    {
+      "code": "44213",
+      "name": "由布市",
+      "officialUrl": "https://www.city.yufu.oita.jp/"
+    },
+    {
+      "code": "44341",
+      "name": "日出町",
+      "officialUrl": "https://www.town.hiji.lg.jp/"
+    },
+    {
+      "code": "44461",
+      "name": "九重町",
+      "officialUrl": "https://www.town.kokonoe.oita.jp/"
+    },
+    {
+      "code": "44462",
+      "name": "玖珠町",
+      "officialUrl": "https://www.town.kusu.oita.jp/"
+    }
+  ],
+  "notes": "大分県公式棚卸し004。由布市は003で候補0件・補完クロール応答遅延のため第2巡補完として再確認。日出町・九重町・玖珠町は公式トップHTTP 200確認済み。"
+}

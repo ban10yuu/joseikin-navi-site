@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-18T02:24:00+09:00",
+  "updatedAt": "2026-07-18T02:58:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "oita-official-coverage-003",
-    "municipality": "宇佐市・豊後大野市・国東市・姫島村（由布市は第2巡補完へ保留）",
-    "adopted": 68,
+    "code": "oita-official-coverage-004",
+    "municipality": "日出町・九重町・玖珠町（由布市は公式カテゴリ軽量確認0件で保留継続）",
+    "adopted": 60,
     "held": 1,
-    "excluded": 18,
-    "sourceUrlsChecked": 68,
+    "excluded": 305,
+    "sourceUrlsChecked": 60,
     "validation": {
-      "previousMunicipality": "大分県公式棚卸し003として44211宇佐市・44212豊後大野市・44214国東市・44322姫島村を確認し、68件を採用。44213由布市は公式トップ/カテゴリ到達後の候補0件かつ補完クロール応答遅延のため第2巡補完へ保留。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check for verified-local-misc-2026.ts and oita-official-coverage-003 discovery/build scripts",
-      "json": "pass: JSON.parse for oita-official-coverage-003 municipalities/candidates/selections/adopted JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 68 added oita-official-003 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: build non200 empty; 68 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/oita-official-coverage-003-url-status.txt",
+      "previousMunicipality": "大分県公式棚卸し004として44341日出町・44461九重町・44462玖珠町を確認し、60件を採用。44213由布市は公式カテゴリ軽量確認11ページでも制度強語候補0件のため保留継続。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check for verified-local-misc-2026.ts and oita-official-coverage-004 discovery/build scripts",
+      "json": "pass: checkpoint, municipalities, candidates, selections, adopted JSON parsed",
+      "addedSlugUniqueness": "pass: 60 added slugs, no added duplicates, whole dataset duplicate count 0",
+      "urlReachability": "pass: build non200 empty; 60 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/oita-official-coverage-004-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for oita-official-coverage-003 target files",
-      "auditCoverage": "blocked: npm run audit:coverage fails in existing unrelated src/lib/grant-copy.ts / src/lib/grants.ts path with sanitizeGrantCopy tags.map TypeError",
-      "notes": "公式sitemap/検索/カテゴリBFSで855候補（宇佐市116、豊後大野市20、国東市564、姫島村155、由布市0）を抽出。shortlistが150件超のため本文スニペット付きTSVへ保存して再スコア。制度強語・金額/対象/受付表現が揃う個別ページを優先し、宇佐市16、豊後大野市3、国東市33、姫島村16を採用。カテゴリ、広報記事、イベント、観光、一般案内、単なる制度一覧、重複旧募集ページは採用せず候補台帳に残置。"
+      "diffCheck": "pass: git diff --check for 004 target files",
+      "auditCoverage": "blocked: npm run audit:coverage reaches known unrelated src/lib/grant-copy.ts sanitizeGrantCopy tags.map TypeError after 004 syntax fix",
+      "notes": "公式sitemap/検索/カテゴリBFSで365候補（日出町88、九重町117、玖珠町160）を抽出。由布市は公式カテゴリ11ページを軽量確認し制度強語候補0件。RSS、カテゴリ、検索結果、申請書単体、終了済み、外部制度、一般案内、同一制度の重複ページを除外し、日出町21、九重町19、玖珠町20を採用。"
     }
   },
   "next": {
-    "code": "oita-official-coverage-004",
-    "municipality": "由布市（第2巡補完）",
-    "shortlist": "大分県公式棚卸し003で宇佐市・豊後大野市・国東市・姫島村を確認し68件を採用。由布市は自動候補0件・補完クロール応答遅延で未完了保留。次は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から由布市補完を先頭に再開し、その後44341日出町へ進む。",
-    "instructions": "次回は大分県公式棚卸し004として、まず44213由布市の第2巡補完（公式検索、カテゴリ、PDF/記事単位の手動確認）を行い、その後44341日出町・44461九重町・44462玖珠町へ進む。既存rawのgap 0や過去生成データだけで完了扱いにせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "oita-official-coverage-005",
+    "municipality": "由布市（最終補完）",
+    "shortlist": "大分県公式棚卸し004で日出町・九重町・玖珠町を確認し60件を採用。由布市は003/004で公式候補0件だが未完了保留のため、次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・由布市公式カテゴリ軽量確認結果から最終補完する。",
+    "instructions": "次回は大分県公式棚卸し005として、44213由布市の公式サイト内検索、公式カテゴリ、PDF/記事単位を手動に近い軽量方式で最終補完する。公式本文で制度名・対象・金額/上限・条件・期限/受付状況が確認できる個別ページがあれば採用し、見つからない場合も「候補未判定なし」とするには公式探索範囲・根拠をチェックリストへ明記する。その後、都道府県順の次ブロックへ進む。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "大分県",
-    "status": "first-pass-in-progress-with-yufu-held",
-    "lastBatch": "oita-official-coverage-003",
-    "notes": "大分県公式棚卸し001-003で44201大分市から44322姫島村まで15自治体相当250制度を採用。ただし44213由布市は第2巡補完へ保留。次は由布市補完後、日出町・九重町・玖珠町へ継続。"
+    "status": "first-pass-complete-except-yufu-final-check",
+    "lastBatch": "oita-official-coverage-004",
+    "notes": "大分県公式棚卸し001-004で県内18自治体相当310制度を採用。ただし44213由布市は003/004で候補0件のため最終補完待ち。次は由布市の未判定解消後に大分県を完了扱いへ近づける。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
