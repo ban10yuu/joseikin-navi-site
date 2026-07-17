@@ -1,0 +1,11 @@
+{
+  "prefecture": "佐賀県",
+  "batch": "saga-official-coverage-001",
+  "municipalities": [
+    { "code": "41201", "name": "佐賀市", "url": "https://www.city.saga.lg.jp/" },
+    { "code": "41202", "name": "唐津市", "url": "https://www.city.karatsu.lg.jp/" },
+    { "code": "41203", "name": "鳥栖市", "url": "https://www.city.tosu.lg.jp/" },
+    { "code": "41204", "name": "多久市", "url": "https://www.city.taku.lg.jp/" },
+    { "code": "41205", "name": "伊万里市", "url": "https://www.city.imari.lg.jp/" }
+  ]
+}
