@@ -3,13 +3,13 @@
   "mode": "municipality-official-coverage",
   "lastCompleted": {
     "code": "oita-official-coverage-004",
-    "municipality": "日出町・九重町・玖珠町（由布市は公式カテゴリ軽量確認0件で保留継続）",
+    "municipality": "日出町・九重町・玖珠町（由布市は公式カテゴリ軽量確認が応答遅延で保留継続）",
     "adopted": 60,
     "held": 1,
     "excluded": 305,
     "sourceUrlsChecked": 60,
     "validation": {
-      "previousMunicipality": "大分県公式棚卸し004として44341日出町・44461九重町・44462玖珠町を確認し、60件を採用。44213由布市は公式カテゴリ軽量確認11ページでも制度強語候補0件のため保留継続。全国公式棚卸しは未完了。",
+      "previousMunicipality": "大分県公式棚卸し004として44341日出町・44461九重町・44462玖珠町を確認し、60件を採用。44213由布市は公式カテゴリ軽量確認11ページが応答遅延で完走せず、保留継続。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check for verified-local-misc-2026.ts and oita-official-coverage-004 discovery/build scripts",
       "json": "pass: checkpoint, municipalities, candidates, selections, adopted JSON parsed",
       "addedSlugUniqueness": "pass: 60 added slugs, no added duplicates, whole dataset duplicate count 0",
@@ -17,20 +17,20 @@
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: git diff --check for 004 target files",
       "auditCoverage": "blocked: npm run audit:coverage reaches known unrelated src/lib/grant-copy.ts sanitizeGrantCopy tags.map TypeError after 004 syntax fix",
-      "notes": "公式sitemap/検索/カテゴリBFSで365候補（日出町88、九重町117、玖珠町160）を抽出。由布市は公式カテゴリ11ページを軽量確認し制度強語候補0件。RSS、カテゴリ、検索結果、申請書単体、終了済み、外部制度、一般案内、同一制度の重複ページを除外し、日出町21、九重町19、玖珠町20を採用。"
+      "notes": "公式sitemap/検索/カテゴリBFSで365候補（日出町88、九重町117、玖珠町160）を抽出。由布市は公式トップHTTP 200、sitemap/search系404またはトップ同等、公式カテゴリ11ページは応答遅延で完走せず、候補未判定として保留継続。RSS、カテゴリ、検索結果、申請書単体、終了済み、外部制度、一般案内、同一制度の重複ページを除外し、日出町21、九重町19、玖珠町20を採用。"
     }
   },
   "next": {
     "code": "oita-official-coverage-005",
     "municipality": "由布市（最終補完）",
-    "shortlist": "大分県公式棚卸し004で日出町・九重町・玖珠町を確認し60件を採用。由布市は003/004で公式候補0件だが未完了保留のため、次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・由布市公式カテゴリ軽量確認結果から最終補完する。",
+    "shortlist": "大分県公式棚卸し004で日出町・九重町・玖珠町を確認し60件を採用。由布市は003/004で公式カテゴリ確認が応答遅延により未完了のため、次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・由布市公式トップ/検索確認結果から最終補完する。",
     "instructions": "次回は大分県公式棚卸し005として、44213由布市の公式サイト内検索、公式カテゴリ、PDF/記事単位を手動に近い軽量方式で最終補完する。公式本文で制度名・対象・金額/上限・条件・期限/受付状況が確認できる個別ページがあれば採用し、見つからない場合も「候補未判定なし」とするには公式探索範囲・根拠をチェックリストへ明記する。その後、都道府県順の次ブロックへ進む。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "大分県",
     "status": "first-pass-complete-except-yufu-final-check",
     "lastBatch": "oita-official-coverage-004",
-    "notes": "大分県公式棚卸し001-004で県内18自治体相当310制度を採用。ただし44213由布市は003/004で候補0件のため最終補完待ち。次は由布市の未判定解消後に大分県を完了扱いへ近づける。"
+    "notes": "大分県公式棚卸し001-004で県内18自治体相当310制度を採用。ただし44213由布市は003/004で公式カテゴリ確認が応答遅延により未完走のため最終補完待ち。次は由布市の未判定解消後に大分県を完了扱いへ近づける。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
