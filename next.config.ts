@@ -17,7 +17,7 @@ const contentSecurityPolicy = [
   "style-src 'self' 'unsafe-inline'",
   `img-src 'self' data: blob: ${affiliateImageSources.join(' ')} https://www.google-analytics.com https://pagead2.googlesyndication.com`,
   "font-src 'self' data:",
-  "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://vitals.vercel-insights.com",
+  "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://vitals.vercel-insights.com https://ep1.adtrafficquality.google",
   "frame-src https://googleads.g.doubleclick.net https://tpc.googlesyndication.com",
   "upgrade-insecure-requests",
 ].join('; ');

@@ -57,8 +57,11 @@ with sync_playwright() as playwright:
             check(not rectangles_overlap(guide_number, audience_visual.bounding_box()), f'トップ ({visual_width}px): 手順番号が対象アイコンへ重なっています')
         check(visual_home.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 0, f'トップ ({visual_width}px): 初期状態でPRが表示されています')
         visual_home.get_by_role('button', name='事業者・団体向け').click()
-        visual_home.wait_for_timeout(200)
         affiliate_image = visual_home.locator('.home-business-affiliate .affiliate-creative-image')
+        try:
+            affiliate_image.first.wait_for(state='attached', timeout=5000)
+        except Exception:
+            pass
         expected_count = 1
         check(affiliate_image.count() == expected_count, f'トップ ({visual_width}px): 表示されるPR画像数が設計と一致しません')
         for image_index in range(affiliate_image.count()):
