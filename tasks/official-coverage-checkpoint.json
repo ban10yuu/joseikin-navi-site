@@ -1,30 +1,30 @@
 {
-  "updatedAt": "2026-07-17T13:40:00+09:00",
+  "updatedAt": "2026-07-17T13:42:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kochi-official-coverage-005",
-    "municipality": "土佐町・大川村・いの町・仁淀川町・中土佐町",
-    "adopted": 60,
+    "code": "kochi-official-coverage-006",
+    "municipality": "佐川町・越知町・檮原町・日高村・津野町",
+    "adopted": 83,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 60,
+    "sourceUrlsChecked": 83,
     "validation": {
-      "previousMunicipality": "高知県公式棚卸し005として39363土佐町・39364大川村・39386いの町・39387仁淀川町・39401中土佐町を確認し、60件を採用。高知県001-005累計は25自治体303制度。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kochi-official-coverage-005 build/rescore scripts",
-      "json": "pass: JSON.parse for kochi-official-coverage-005 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 60 added kochi-official-005 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: 60 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "previousMunicipality": "高知県公式棚卸し006として39402佐川町・39403越知町・39405檮原町・39410日高村・39411津野町を確認し、83件を採用。高知県001-006累計は30自治体386制度。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kochi-official-coverage-006 build/rescore scripts",
+      "json": "pass: JSON.parse for kochi-official-coverage-006 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 83 added kochi-official-006 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: 83 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for kochi-official-coverage-005 target files",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 22513、officialLinkedActive 22392、manuallyVerifiedActive 22392、高知県 localOfficial 344)",
-      "notes": "39363土佐町・39364大川村・39386いの町・39387仁淀川町・39401中土佐町を確認。標準discoverは0件。公式トップ5自治体200到達。公式カテゴリ/サイト内リンクBFSを上限240件で再スコアし、候補481件（土佐町76・大川村29・いの町240・仁淀川町71・中土佐町65）から公式HTML個別制度ページおよび制度本文を含む公式掲載ページ60件を採用。トップ、カテゴリのみ、検索、部署、共通ナビ、計画・実績公表、募集職員、入札、単なる手続・告知、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
+      "diffCheck": "pass: git diff --check for kochi-official-coverage-006 target files",
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 22596、officialLinkedActive 22475、manuallyVerifiedActive 22475、高知県 localOfficial 427)",
+      "notes": "39402佐川町・39403越知町・39405檮原町・39410日高村・39411津野町を確認。公式トップ5自治体200到達。標準discoverは0件。公式サイト内リンクBFSを上限240件で再スコアし、候補160件（佐川町38・越知町41・檮原町38・日高村33・津野町10）から公式HTML個別制度ページ、公式PDF、制度本文を含む公式掲載ページ83件を採用。PDFは表示品質のため申請期間文を公式PDF記載に従う形へ正規化。トップ、カテゴリのみ、検索、部署、共通ナビ、計画・実績公表、募集職員、入札、単なる手続・告知、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "kochi-official-coverage-006",
-    "municipality": "佐川町",
-    "shortlist": "高知県005で39363土佐町・39364大川村・39386いの町・39387仁淀川町・39401中土佐町を確認し、60件を採用。次は自治体コード順で39402佐川町から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、高知県公式棚卸し006として39402佐川町を開始地点に自治体コード順で再開する。想定対象は39402佐川町・39403越知町・39405檮原町・39410日高村・39411津野町。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kochi-official-coverage-007",
+    "municipality": "四万十町",
+    "shortlist": "高知県006で39402佐川町・39403越知町・39405檮原町・39410日高村・39411津野町を確認し、83件を採用。次は自治体コード順で39412四万十町から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、高知県公式棚卸し007として39412四万十町を開始地点に自治体コード順で再開する。想定対象は39412四万十町・39424大月町・39427三原村・39428黒潮町。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "高知県",
