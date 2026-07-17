@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T13:35:00+09:00",
+  "updatedAt": "2026-07-17T12:58:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kochi-official-coverage-002",
-    "municipality": "須崎市・宿毛市・土佐清水市・四万十市・香南市",
+    "code": "kochi-official-coverage-003",
+    "municipality": "香美市・東洋町・奈半利町・田野町・安田町",
     "adopted": 61,
     "held": 0,
     "excluded": 0,
     "sourceUrlsChecked": 61,
     "validation": {
-      "previousMunicipality": "高知県公式棚卸し002として39206須崎市・39208宿毛市・39209土佐清水市・39210四万十市・39211香南市を確認し、61件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kochi-official-coverage-002 build/rescore scripts",
-      "json": "pass: JSON.parse for kochi-official-coverage-002 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 61 added kochi-official-002 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "previousMunicipality": "高知県公式棚卸し003として39212香美市・39301東洋町・39302奈半利町・39303田野町・39304安田町を確認し、61件を採用。高知県001-003累計は15自治体182制度。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kochi-official-coverage-003 build/rescore scripts",
+      "json": "pass: JSON.parse for kochi-official-coverage-003 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 61 added kochi-official-003 slugs, duplicateCount 0 in adopted output and whole dataset",
       "urlReachability": "pass: 61 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for kochi-official-coverage-002 target files",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 22331、officialLinkedActive 22210、manuallyVerifiedActive 22210、高知県 localOfficial 162)",
-      "notes": "標準discoverは0件。公式トップ5自治体すべてHTTP 200。須崎市・宿毛市・土佐清水市・四万十市・香南市の公式カテゴリ/サイト内リンクBFS、宿毛市公式移住支援ページ補完、本文スニペット再スコアを補完。再スコア候補824件から公式HTML個別制度ページ・公式制度掲載ページ61件を採用。宿毛市はBFSで空き家バンク物件個票が多かったため、公式支援制度掲載ページと移住応援事業補助金HTMLを採用し、物件個票・PDF要綱単体は第2巡候補/根拠補助へ。カテゴリ、検索、部署、共通ナビ、計画・報告・実績、単なる手続・告知、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
+      "diffCheck": "pass: git diff --check for kochi-official-coverage-003 target files",
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 22392、officialLinkedActive 22271、manuallyVerifiedActive 22271、高知県 localOfficial 223)",
+      "notes": "標準discoverは0件。公式トップは香美市・奈半利町・田野町・安田町が200、東洋町は公式HTTPSが到達不可のためHTTP公式トップ200へ補正。5市町の公式カテゴリ/サイト内リンクBFS、本文スニペット再スコアを補完。再スコア候補1370件から公式HTML個別制度ページ61件を採用。空き家物件個票、カテゴリ/一覧、検索、部署、共通ナビ、計画・報告・実績、単なる手続・告知、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "kochi-official-coverage-003",
-    "municipality": "香美市",
-    "shortlist": "高知県002で39206須崎市・39208宿毛市・39209土佐清水市・39210四万十市・39211香南市を確認し、61件を採用。次は自治体コード順で39212香美市から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、高知県公式棚卸し003として39212香美市を開始地点に自治体コード順で再開する。想定対象は39212香美市・39301東洋町・39302奈半利町・39303田野町・39304安田町。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kochi-official-coverage-004",
+    "municipality": "北川村",
+    "shortlist": "高知県003で39212香美市・39301東洋町・39302奈半利町・39303田野町・39304安田町を確認し、61件を採用。次は自治体コード順で39305北川村から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、高知県公式棚卸し004として39305北川村を開始地点に自治体コード順で再開する。想定対象は39305北川村・39306馬路村・39307芸西村・39341本山町・39344大豊町。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "高知県",
     "status": "first-pass-in-progress",
-    "lastBatch": "kochi-official-coverage-002",
-    "notes": "高知県公式棚卸し002で39206須崎市・39208宿毛市・39209土佐清水市・39210四万十市・39211香南市を確認し、61件を新規採用。次は39212香美市から再開する。"
+    "lastBatch": "kochi-official-coverage-003",
+    "notes": "高知県公式棚卸し003で39212香美市・39301東洋町・39302奈半利町・39303田野町・39304安田町を確認し、61件を新規採用。高知県001-003累計は15自治体182制度。次は39305北川村から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

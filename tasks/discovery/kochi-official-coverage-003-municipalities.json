@@ -1,0 +1,31 @@
+{
+  "prefecture": "高知県",
+  "batch": "kochi-official-coverage-003",
+  "municipalities": [
+    {
+      "code": "39212",
+      "name": "香美市",
+      "url": "https://www.city.kami.lg.jp/"
+    },
+    {
+      "code": "39301",
+      "name": "東洋町",
+      "url": "http://www.town.toyo.kochi.jp/"
+    },
+    {
+      "code": "39302",
+      "name": "奈半利町",
+      "url": "https://www.town.nahari.kochi.jp/"
+    },
+    {
+      "code": "39303",
+      "name": "田野町",
+      "url": "https://tanocho.jp/"
+    },
+    {
+      "code": "39304",
+      "name": "安田町",
+      "url": "https://www.town.yasuda.kochi.jp/"
+    }
+  ]
+}
