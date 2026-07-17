@@ -1,0 +1,31 @@
+{
+  "batch": "kumamoto-official-coverage-009",
+  "prefecture": "熊本県",
+  "municipalities": [
+    {
+      "code": "43510",
+      "name": "五木村",
+      "officialUrl": "https://www.vill.itsuki.lg.jp/"
+    },
+    {
+      "code": "43511",
+      "name": "山江村",
+      "officialUrl": "https://www.vill.yamae.lg.jp/"
+    },
+    {
+      "code": "43512",
+      "name": "球磨村",
+      "officialUrl": "https://www.kumamura.com/"
+    },
+    {
+      "code": "43513",
+      "name": "あさぎり町",
+      "officialUrl": "https://www.town.asagiri.lg.jp/"
+    },
+    {
+      "code": "43531",
+      "name": "苓北町",
+      "officialUrl": "https://reihoku-kumamoto.jp/"
+    }
+  ]
+}

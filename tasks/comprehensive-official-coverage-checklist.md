@@ -11501,3 +11501,14 @@
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（008 discover/build）、JSON parse、追加slug重複0・全体slug重複0、公式URL 80/80 HTTP 200（`tasks/discovery/kumamoto-official-coverage-008-url-status.txt`）、`npx eslint src/data/grants/verified-local-misc-2026.ts`、`git diff --check` は通過。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` / `src/lib/grants.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorで停止。
 - メトリクス: 5自治体相当、80制度採用、初期候補506件+多良木sitemap再スコア1,118件、採用率は初期候補比15.8%。監査は集約1回、commitは008単位で1回予定。
 - 次回: 熊本県公式棚卸し009として、43510五木村から再開（想定対象は43510五木村・43511山江村・43512球磨村・43513あさぎり町・43531苓北町）
+
+### 熊本県公式棚卸し009（43510五木村・43511山江村・43512球磨村・43513あさぎり町・43531苓北町）
+
+- 対象公式トップ: 五木村 `https://www.vill.itsuki.lg.jp/`、山江村 `https://www.vill.yamae.lg.jp/`、球磨村 `https://www.kumamura.com/`、あさぎり町 `https://www.town.asagiri.lg.jp/`、苓北町 `https://reihoku-kumamoto.jp/` をHTTP 200で確認。
+- 公式sitemap/検索/カテゴリBFS候補: 1,673件（五木村374、山江村305、球磨村286、あさぎり町350、苓北町358）。title強一致は103件。shortlistが150件超のため `tasks/discovery/kumamoto-official-coverage-009-rescored-shortlist.tsv` へ本文スニペットを保存し、998件を再スコア。
+- 採用: 92制度（五木村9、山江村24、球磨村14、あさぎり町21、苓北町24）。`kumamoto-official-009-001-2026` から `kumamoto-official-009-092-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付/更新状況を公式本文で確認。
+- 低優先/第2巡: トップ、カテゴリ一覧、サイトマップ、広報、採用、入札、実績報告、一般案内、重複旧ページは採用せず、候補JSON/TSVに残置。既存raw gap 0やHTTP 200だけでは完了扱いにしていない。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（009 discover/build）、JSON parse、追加slug重複0・全体slug重複0、公式URL 92/92 HTTP 200（`tasks/discovery/kumamoto-official-coverage-009-url-status.txt`）、`npx eslint src/data/grants/verified-local-misc-2026.ts`、`git diff --check` は通過。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` / `src/lib/grants.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorで停止。
+- メトリクス: 5自治体、92制度採用、一次候補1,673件、再スコア998件、採用率は一次候補比5.5%。熊本県001-009累計は45自治体600制度。監査は集約1回、commitは009単位で1回予定。
+- 到達点: 熊本県市町村第1巡は43100熊本市から43531苓北町まで到達。全国公式棚卸しは未完了。
+- 次回: 大分県公式棚卸し001として、44201大分市から再開（想定対象は44201大分市・44202別府市・44203中津市・44204日田市・44205佐伯市）

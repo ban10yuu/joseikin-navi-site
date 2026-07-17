@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-18T03:04:00+09:00",
+  "updatedAt": "2026-07-18T04:45:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kumamoto-official-coverage-008",
-    "municipality": "錦町・多良木町・湯前町・水上村・相良村",
-    "adopted": 80,
-    "held": 1,
+    "code": "kumamoto-official-coverage-009",
+    "municipality": "五木村・山江村・球磨村・あさぎり町・苓北町",
+    "adopted": 92,
+    "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 80,
+    "sourceUrlsChecked": 92,
     "validation": {
-      "previousMunicipality": "熊本県公式棚卸し008として43486錦町・43501多良木町・43505湯前町・43506水上村・43507相良村を確認し、80件を採用。相良村は個別制度ページ到達不足のため第2巡候補として保持。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check for verified-local-misc-2026.ts and kumamoto-official-coverage-008 discovery/build scripts",
-      "json": "pass: JSON.parse for kumamoto-official-coverage-008 municipalities/candidates/selections/adopted JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 80 added kumamoto-official-008 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: build non200 empty; 80 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/kumamoto-official-coverage-008-url-status.txt",
+      "previousMunicipality": "熊本県公式棚卸し009として43510五木村・43511山江村・43512球磨村・43513あさぎり町・43531苓北町を確認し、92件を採用。熊本県市町村第1巡は43100熊本市から43531苓北町まで到達。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check for verified-local-misc-2026.ts and kumamoto-official-coverage-009 discovery/build scripts",
+      "json": "pass: JSON.parse for kumamoto-official-coverage-009 municipalities/candidates/selections/adopted JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 92 added kumamoto-official-009 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: build non200 empty; 92 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/kumamoto-official-coverage-009-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for kumamoto-official-coverage-008 target files",
+      "diffCheck": "pass: git diff --check for kumamoto-official-coverage-009 target files",
       "auditCoverage": "blocked: npm run audit:coverage fails in existing unrelated src/lib/grant-copy.ts / src/lib/grants.ts path with sanitizeGrantCopy tags.map TypeError",
-      "notes": "公式検索/カテゴリBFSで506候補（錦98、多良木4、湯前320、水上84）を抽出。shortlistが150件超のためローカルTSVへ再スコア。多良木町は公式sitemap 1,125URLを追加再スコアし、HTTP表記リンクを正規化して補完。採用は錦23、多良木25、湯前11、水上21。相良村は公式トップ・カテゴリ一覧までは到達したが、制度名・対象・金額/上限・条件・受付状況が揃う個別制度ページに到達できなかったため第2巡候補として保持。"
+      "notes": "公式sitemap/検索/カテゴリBFSで1,673候補（五木374、山江305、球磨286、あさぎり350、苓北358）を抽出。shortlistが150件超のためローカルTSVへ本文スニペットを保存し、998件を再スコア。制度強語・金額/対象/受付表現が揃う個別ページを優先し、五木9、山江24、球磨14、あさぎり21、苓北24を採用。トップ、カテゴリ、サイトマップ、実績報告、一般案内は採用せず候補台帳に残置。"
     }
   },
   "next": {
-    "code": "kumamoto-official-coverage-009",
-    "municipality": "五木村",
-    "shortlist": "熊本県公式棚卸し008で錦町・多良木町・湯前町・水上村・相良村を確認し、80件を採用。次は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から43510五木村へ進む。",
-    "instructions": "次回は熊本県公式棚卸し009として、43510五木村から自治体コード順に再開する。想定対象は43510五木村・43511山江村・43512球磨村・43513あさぎり町・43531苓北町。既存rawの熊本県gap 0や過去生成データだけで完了扱いにせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "oita-official-coverage-001",
+    "municipality": "大分市",
+    "shortlist": "熊本県公式棚卸し009で五木村・山江村・球磨村・あさぎり町・苓北町を確認し、92件を採用。熊本県市町村第1巡は43531苓北町まで到達。次は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から大分県44201大分市へ進む。",
+    "instructions": "次回は大分県公式棚卸し001として、44201大分市から自治体コード順に再開する。想定対象は44201大分市・44202別府市・44203中津市・44204日田市・44205佐伯市。既存rawのgap 0や過去生成データだけで完了扱いにせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "熊本県",
-    "status": "first-pass-in-progress",
-    "lastBatch": "kumamoto-official-coverage-008",
-    "notes": "熊本県公式棚卸し008で43486錦町から43507相良村まで到達し80制度を採用。熊本県001-008累計は40自治体508制度。次は43510五木村から継続。"
+    "status": "first-pass-complete",
+    "lastBatch": "kumamoto-official-coverage-009",
+    "notes": "熊本県公式棚卸し001-009で43100熊本市から43531苓北町まで45自治体600制度を採用。津奈木町・相良村など個別制度ページ到達不足分は第2巡候補として保持し、トップ/カテゴリ到達のみで完了扱いにしていない。次は大分県44201大分市から継続。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
