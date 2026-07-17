@@ -1,0 +1,33 @@
+{
+  "batch": "oita-official-coverage-002",
+  "prefecture": "大分県",
+  "generatedAt": "2026-07-18T00:00:00+09:00",
+  "municipalities": [
+    {
+      "code": "44206",
+      "name": "臼杵市",
+      "officialUrl": "https://www.city.usuki.oita.jp/"
+    },
+    {
+      "code": "44207",
+      "name": "津久見市",
+      "officialUrl": "https://www.city.tsukumi.oita.jp/"
+    },
+    {
+      "code": "44208",
+      "name": "竹田市",
+      "officialUrl": "https://www.city.taketa.oita.jp/"
+    },
+    {
+      "code": "44209",
+      "name": "豊後高田市",
+      "officialUrl": "https://www.city.bungotakada.oita.jp/"
+    },
+    {
+      "code": "44210",
+      "name": "杵築市",
+      "officialUrl": "https://www.city.kitsuki.lg.jp/"
+    }
+  ],
+  "notes": "大分県公式棚卸し002。公式トップHTTP 200確認済み。臼杵市・竹田市・杵築市はsitemap.xml、津久見市・豊後高田市はsitemap.htmlとCMSカテゴリを入口に、個別制度ページを抽出する。"
+}

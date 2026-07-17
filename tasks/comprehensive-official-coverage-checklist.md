@@ -11524,3 +11524,15 @@
 - メトリクス: 5自治体、92制度採用、一次候補2,030件、再スコア828件、採用率は一次候補比4.5%。大分県001から次の15自治体単位を開始し、1/3ブロックで5自治体92制度。監査は集約1回、commitは001単位で1回予定。
 - 到達点: 大分県は44201大分市から44205佐伯市まで第1巡到達。全国公式棚卸しは未完了。
 - 次回: 大分県公式棚卸し002として、44206臼杵市から再開（想定対象は44206臼杵市・44207津久見市・44208竹田市・44209豊後高田市・44210杵築市）
+
+
+### 大分県公式棚卸し002（44206臼杵市・44207津久見市・44208竹田市・44209豊後高田市・44210杵築市）
+
+- 対象公式トップ: 臼杵市 `https://www.city.usuki.oita.jp/`、津久見市 `https://www.city.tsukumi.oita.jp/`、竹田市 `https://www.city.taketa.oita.jp/`、豊後高田市 `https://www.city.bungotakada.oita.jp/`、杵築市 `https://www.city.kitsuki.lg.jp/` をHTTP 200で確認。
+- 公式sitemap/検索/カテゴリBFS候補: 742件（臼杵市93、津久見市149、竹田市98、豊後高田市239、杵築市163）。title強一致149件。shortlistが150件超のため `tasks/discovery/oita-official-coverage-002-rescored-shortlist.tsv` へ本文スニペットを保存し、742件を再スコア。
+- 採用: 90制度（臼杵市18、津久見市16、竹田市18、豊後高田市19、杵築市19）。`oita-official-002-001-2026` から `oita-official-002-090-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付/更新状況を公式本文で確認。
+- 低優先/第2巡: カテゴリ、サイトマップ、検索結果、申請書記入例、採択/実績/公募結果、一般案内、国/県単独周知、過年度コロナ系は採用せず、候補JSON/TSVに残置。既存raw gap 0やHTTP 200だけでは完了扱いにしていない。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（002 discover/build）、JSON parse、追加slug重複0・全体slug重複0、公式URL 90/90 HTTP 200（`tasks/discovery/oita-official-coverage-002-url-status.txt`）、`npx eslint src/data/grants/verified-local-misc-2026.ts`、`git diff --check` は通過。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` / `src/lib/grants.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorで停止。
+- メトリクス: 5自治体、90制度採用、一次候補742件、再スコア742件、採用率は一次候補比12.1%。大分県001-002累計は10自治体182制度。監査は集約1回、commitは002単位で1回予定。
+- 到達点: 大分県は44201大分市から44210杵築市まで第1巡到達。全国公式棚卸しは未完了。
+- 次回: 大分県公式棚卸し003として、44211宇佐市から再開（想定対象は44211宇佐市・44212豊後大野市・44213由布市・44214国東市・44322姫島村）
