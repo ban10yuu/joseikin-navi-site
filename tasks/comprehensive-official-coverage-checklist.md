@@ -11596,3 +11596,14 @@
 - メトリクス: 5自治体、92制度採用、一次候補1,345件、採用率6.8%。宮崎県001-002累計は10自治体・団体、157制度、監査2回試行、commit予定2回。
 - 到達点: 宮崎県は45205小林市から45209えびの市まで第1巡到達。全国公式棚卸しは未完了。
 - 次回: 宮崎県公式棚卸し003として、三股町・高原町・国富町・綾町・高鍋町から再開する。
+
+### 宮崎県公式棚卸し003（45341三股町・45361高原町・45382国富町・45383綾町・45401高鍋町）
+
+- 対象公式トップ: 三股町 `https://www.town.mimata.lg.jp/`、高原町 `https://www.town.takaharu.lg.jp/`、国富町 `https://www.town.kunitomi.miyazaki.jp/`、綾町 `https://www.town.aya.miyazaki.jp/`、高鍋町 `https://www.town.takanabe.lg.jp/` をHTTP 200で確認。sitemap.xmlは三股町・高鍋町が200、高原町・国富町・綾町が404のためカテゴリBFSを併用。
+- 公式sitemap/カテゴリBFS候補: 931件（三股町215、高原町111、国富町43、綾町104、高鍋町458）。title強一致80件。候補母数が大きく高鍋町に偏ったため、`tasks/discovery/miyazaki-official-coverage-003-rescored-shortlist.tsv` へ本文スニペット付き再スコアを保存。
+- 採用: 79制度（三股町19、高原町25、国富町5、綾町13、高鍋町17）。`miyazaki-official-003-001-2026` から `miyazaki-official-003-079-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、効果検証、審査結果、事業者請求様式、過年度終了可能性が高いページ、同一制度の重複導線は採用せず、候補JSON/TSVに残置。国富町は個別制度ページが少なく、カテゴリ内未分解候補は第2巡台帳扱い。
+- 検証: 公式URL 79/79 HTTP 200（`tasks/discovery/miyazaki-official-coverage-003-url-status.txt`）。`node --check`、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体、79制度採用、一次候補931件、採用率8.5%。宮崎県001-003累計は15自治体・団体、236制度、次の15自治体単位メトリクスの第1集計点。
+- 到達点: 宮崎県は45341三股町から45401高鍋町まで第1巡到達。全国公式棚卸しは未完了。
+- 次回: 宮崎県公式棚卸し004として、新富町・西米良村・木城町・川南町・都農町から再開する。
