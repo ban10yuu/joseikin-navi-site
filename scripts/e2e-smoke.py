@@ -55,7 +55,8 @@ with sync_playwright() as playwright:
         if audience_visual.count() == 1:
             guide_number = first_guide.locator('.home-search-guide-number').bounding_box()
             check(not rectangles_overlap(guide_number, audience_visual.bounding_box()), f'トップ ({visual_width}px): 手順番号が対象アイコンへ重なっています')
-        check(visual_home.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 0, f'トップ ({visual_width}px): 初期状態でPRが表示されています')
+        initial_affiliate_image = visual_home.locator('.home-business-affiliate .affiliate-creative-image')
+        check(initial_affiliate_image.count() == 1, f'トップ ({visual_width}px): 初期状態で事業者向けPR画像が表示されません')
         visual_home.wait_for_timeout(750)
         visual_home.get_by_role('button', name='事業者・団体向け').click()
         affiliate_image = visual_home.locator('.home-business-affiliate .affiliate-creative-image')
@@ -95,7 +96,7 @@ with sync_playwright() as playwright:
     # 主要URLとフォーム、メニュー、URLクエリの動作
     home, home_errors = open_page(browser, '/', 390, 844)
     home.screenshot(path=str(REPORT_DIR / 'home-390.png'), full_page=True)
-    check(home.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 0, 'トップ初期状態にPRが表示されています')
+    check(home.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 1, 'トップ初期状態に事業者向けPRが表示されません')
     home.get_by_role('button', name='事業者・団体向け').click()
     home.wait_for_timeout(200)
     hero_pr = home.locator('[data-analytics-impression-event="affiliate_impression"][data-placement="home-business-selection"]')

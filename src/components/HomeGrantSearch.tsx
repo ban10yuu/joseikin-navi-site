@@ -86,9 +86,7 @@ export default function HomeGrantSearch({
   };
 
   const selectedPurposeOption = PURPOSES.business.find((item) => item.label === selectedPurpose);
-  const selectedAffiliateOffers = audience !== 'business'
-    ? []
-    : selectedPurposeOption
+  const selectedAffiliateOffers = audience === 'business' && selectedPurposeOption
       ? businessAffiliateOffers.filter((offer) => Boolean(selectedPurposeOption.purpose)
         && offer.allowedPurposes.includes(selectedPurposeOption.purpose as Purpose)
         && (selectedPurposeOption.intents?.some((intent) => offer.intents.includes(intent)) ?? false))
