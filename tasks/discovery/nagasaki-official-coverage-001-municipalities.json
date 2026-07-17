@@ -1,0 +1,11 @@
+{
+  "prefecture": "長崎県",
+  "batch": "nagasaki-official-coverage-001",
+  "municipalities": [
+    { "code": "42201", "name": "長崎市", "url": "https://www.city.nagasaki.lg.jp/" },
+    { "code": "42202", "name": "佐世保市", "url": "https://www.city.sasebo.lg.jp/" },
+    { "code": "42203", "name": "島原市", "url": "https://www.city.shimabara.lg.jp/" },
+    { "code": "42204", "name": "諫早市", "url": "https://www.city.isahaya.nagasaki.jp/" },
+    { "code": "42205", "name": "大村市", "url": "https://www.city.omura.nagasaki.jp/" }
+  ]
+}

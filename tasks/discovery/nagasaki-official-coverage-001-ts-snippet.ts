@@ -1,0 +1,1235 @@
+const nagasakiOfficial001Grants: Array<{
+  slug: string;
+  title: string;
+  organization: string;
+  maxAmount: string;
+  maxAmountNum: number;
+  category: Grant['category'];
+  relatedCategories?: Grant['relatedCategories'];
+  eligibility: string;
+  applicationPeriod: string;
+  officialUrl: string;
+  sourceName: string;
+}> = [
+  {
+    "slug": "nagasaki-official-001-001-2026",
+    "title": "長崎市 職場環境改善事業費補助金（令和8年物価高騰対策関連）",
+    "organization": "長崎市",
+    "maxAmount": "限度額【補助率】2分の1（1,000円",
+    "maxAmountNum": 1000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長崎市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年7月15日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/76421.html",
+    "sourceName": "職場環境改善事業費補助金（令和8年物価高騰対策関連）"
+  },
+  {
+    "slug": "nagasaki-official-001-002-2026",
+    "title": "長崎市 長崎市快適住まいづくり支援費補助金",
+    "organization": "長崎市",
+    "maxAmount": "上限金額は10万円",
+    "maxAmountNum": 100000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "長崎市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月9日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/1816.html",
+    "sourceName": "長崎市快適住まいづくり支援費補助金"
+  },
+  {
+    "slug": "nagasaki-official-001-003-2026",
+    "title": "長崎市 長崎市子育て住まいづくり支援費補助金",
+    "organization": "長崎市",
+    "maxAmount": "補助金額補助限度額多子世帯補助対象経費の5分の1以内（税抜き、千円未満切り捨て）50万円",
+    "maxAmountNum": 500000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長崎市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月9日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/5259.html",
+    "sourceName": "長崎市子育て住まいづくり支援費補助金"
+  },
+  {
+    "slug": "nagasaki-official-001-004-2026",
+    "title": "長崎市 出産育児一時金の支給",
+    "organization": "長崎市",
+    "maxAmount": "1人につき50万円",
+    "maxAmountNum": 500000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長崎市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月23日 支給 - 長崎市ウェブサイト（国民健康保険課） ページの先頭です",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/4743.html",
+    "sourceName": "出産育児一時金の支給"
+  },
+  {
+    "slug": "nagasaki-official-001-005-2026",
+    "title": "長崎市 医療費の一部負担金（窓口負担）の免除等",
+    "organization": "長崎市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長崎市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年3月7日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/4751.html",
+    "sourceName": "医療費の一部負担金（窓口負担）の免除等"
+  },
+  {
+    "slug": "nagasaki-official-001-006-2026",
+    "title": "長崎市 福祉タクシー、交通費助成事業",
+    "organization": "長崎市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "長崎市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/2564.html",
+    "sourceName": "福祉タクシー、交通費助成事業"
+  },
+  {
+    "slug": "nagasaki-official-001-007-2026",
+    "title": "長崎市 NHK放送受信料の免除",
+    "organization": "長崎市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "長崎市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年11月11日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/2567.html",
+    "sourceName": "NHK放送受信料の免除"
+  },
+  {
+    "slug": "nagasaki-official-001-008-2026",
+    "title": "長崎市 障害児福祉手当",
+    "organization": "長崎市",
+    "maxAmount": "月額16,560円",
+    "maxAmountNum": 16560,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長崎市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/2560.html",
+    "sourceName": "障害児福祉手当"
+  },
+  {
+    "slug": "nagasaki-official-001-009-2026",
+    "title": "長崎市 特別障害者手当",
+    "organization": "長崎市",
+    "maxAmount": "月額30,450円",
+    "maxAmountNum": 30450,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長崎市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/3919.html",
+    "sourceName": "特別障害者手当"
+  },
+  {
+    "slug": "nagasaki-official-001-010-2026",
+    "title": "長崎市 心身障害者福祉医療費",
+    "organization": "長崎市",
+    "maxAmount": "支給額は、医療機関ごと、月ごとに福祉医療費の自己負担額（1日につき800円",
+    "maxAmountNum": 800,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "長崎市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年3月12日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/3828.html",
+    "sourceName": "心身障害者福祉医療費"
+  },
+  {
+    "slug": "nagasaki-official-001-011-2026",
+    "title": "長崎市 日常生活用具の給付",
+    "organization": "長崎市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "長崎市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年4月3日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/2571.html",
+    "sourceName": "日常生活用具の給付"
+  },
+  {
+    "slug": "nagasaki-official-001-012-2026",
+    "title": "長崎市 自立支援医療費（精神通院医療）",
+    "organization": "長崎市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長崎市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年11月11日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/2562.html",
+    "sourceName": "自立支援医療費（精神通院医療）"
+  },
+  {
+    "slug": "nagasaki-official-001-013-2026",
+    "title": "長崎市 令和8年度長崎市ゼロカーボンシティ推進事業費補助金 ～わたしからできるゼロカーボン～",
+    "organization": "長崎市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長崎市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/52110.html",
+    "sourceName": "令和8年度長崎市ゼロカーボンシティ推進事業費補助金 ～わたしからできるゼロカーボン～"
+  },
+  {
+    "slug": "nagasaki-official-001-014-2026",
+    "title": "長崎市 【第4弾】省エネ家電製品等購入費補助金",
+    "organization": "長崎市",
+    "maxAmount": "上限額条件1.エアコン6分の11世帯3万円",
+    "maxAmountNum": 30000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "長崎市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年1月14日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/44649.html",
+    "sourceName": "【第4弾】省エネ家電製品等購入費補助金"
+  },
+  {
+    "slug": "nagasaki-official-001-015-2026",
+    "title": "長崎市 長崎市脱炭素先行地域づくり事業費補助金（事業者向け）",
+    "organization": "長崎市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "長崎市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年5月12日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/20081.html",
+    "sourceName": "長崎市脱炭素先行地域づくり事業費補助金（事業者向け）"
+  },
+  {
+    "slug": "nagasaki-official-001-016-2026",
+    "title": "長崎市 水洗便所改築資金貸付制度",
+    "organization": "長崎市",
+    "maxAmount": "限度額くみとり便所を水洗便所に改築する工事は、1件につき60万以内浄化槽の切替工事は、1件につき40万円",
+    "maxAmountNum": 400000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "長崎市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年5月9日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/2322.html",
+    "sourceName": "水洗便所改築資金貸付制度"
+  },
+  {
+    "slug": "nagasaki-official-001-017-2026",
+    "title": "長崎市 水洗化補助金交付制度",
+    "organization": "長崎市",
+    "maxAmount": "限度額26万円",
+    "maxAmountNum": 260000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "長崎市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年11月11日 交付制度 - 長崎市ウェブサイト（料金サービス課） ページの先頭です",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/page/4870.html",
+    "sourceName": "水洗化補助金交付制度"
+  },
+  {
+    "slug": "nagasaki-official-001-018-2026",
+    "title": "長崎市 下水道普及促進助成",
+    "organization": "長崎市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "長崎市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年11月11日 申請 ＜外部リンク＞ マイナンバー 防災 防災行政無線 子育て応援 (イーカオ) こども ホームページ ごみ・ リサイクル 高齢者支援 契約 おでかけ公園ナビ ＜外部リンク＞ おでかけ 観光 ＜外部リンク＞ 食 平和・原爆 ",
+    "officialUrl": "https://www.city.nagasaki.lg.jp/life/1/7/34/",
+    "sourceName": "下水道普及促進助成"
+  },
+  {
+    "slug": "nagasaki-official-001-019-2026",
+    "title": "佐世保市 離島地域安心出産支援事業（令和8年度拡充）",
+    "organization": "佐世保市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "佐世保市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月4日 申請に必要な書類 申請は、佐世保市離島地域安心出産支援事業助成金交付申請書（様式第1号）に、以下の書類を添付し申請してください",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/sukosen/documents/ritouannzenn.html",
+    "sourceName": "離島地域安心出産支援事業（令和8年度拡充）"
+  },
+  {
+    "slug": "nagasaki-official-001-020-2026",
+    "title": "佐世保市 令和7年10月診療分から福祉医療費(高校生等)の助成方法が変わります。",
+    "organization": "佐世保市",
+    "maxAmount": "上限800円",
+    "maxAmountNum": 800,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "佐世保市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年10月1日 申請した方に対し後日払戻す方法 現物給付方式とは：医療機関等の窓口で福祉医療費の自己負担額の上限額のみ支払う方法 ただし、下記の医療費については現物給付の 対象 外 です",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/kodoshie/reiwa7nenn10gatu_hukushiiryouhijoseihouhouhennkou.html",
+    "sourceName": "令和7年10月診療分から福祉医療費(高校生等)の助成方法が変わります。"
+  },
+  {
+    "slug": "nagasaki-official-001-021-2026",
+    "title": "佐世保市 同時在園における第2子以降（1・2歳児）の保育料無償化開始（令和6年4月から開始）",
+    "organization": "佐世保市",
+    "maxAmount": "上限額】月額42,000円",
+    "maxAmountNum": 42000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "佐世保市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年12月16日 申請書による、保育の必要性の審査が必要となります",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/kodosei/m-magazine/dai2shihoikuryoumusyou.html",
+    "sourceName": "同時在園における第2子以降（1・2歳児）の保育料無償化開始（令和6年4月から開始）"
+  },
+  {
+    "slug": "nagasaki-official-001-022-2026",
+    "title": "佐世保市 ひとり親世帯等（児童扶養手当支給世帯）生活支援給付金（加算）",
+    "organization": "佐世保市",
+    "maxAmount": "支給額（1回限り）児童1人当たり一律2万円",
+    "maxAmountNum": 20000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "佐世保市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月10日 支給世帯）生活支援給付金（加算）｜佐世保市 このサイトではJavaScriptを使用したコンテンツ・機能を提供しています",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/kodoshie/hitorioyasetaitou-zidouhuyouteatesikyuusetai-seikatsusienkyuuhukinn.html",
+    "sourceName": "ひとり親世帯等（児童扶養手当支給世帯）生活支援給付金（加算）"
+  },
+  {
+    "slug": "nagasaki-official-001-023-2026",
+    "title": "佐世保市 物価高対応子育て応援手当",
+    "organization": "佐世保市",
+    "maxAmount": "支給額（1回限り）児童1人当たり一律2万円",
+    "maxAmountNum": 20000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "佐世保市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月10日 支給対象者 支給額 支給手続き 【注意】 佐世保市の「物価高対応子育て応援手当」は、令和8年6月22日（月曜日）の支給をもって、すべて終了しました",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/kodoshie/bukkadakataiououenteate.html",
+    "sourceName": "物価高対応子育て応援手当"
+  },
+  {
+    "slug": "nagasaki-official-001-024-2026",
+    "title": "佐世保市 乳幼児福祉医療費制度",
+    "organization": "佐世保市",
+    "maxAmount": "上限800円",
+    "maxAmountNum": 800,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "佐世保市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年10月1日 申請について 福祉医療費の助成を受けるには認定申請が必要です",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/kodoshie/nyuyojifukushi.html",
+    "sourceName": "乳幼児福祉医療費制度"
+  },
+  {
+    "slug": "nagasaki-official-001-025-2026",
+    "title": "佐世保市 小児慢性特定疾病対策総合支援事業",
+    "organization": "佐世保市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "佐世保市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年11月7日 支給認定申請書（様式第1号）（エクセル：25KB） 2.小児慢性特定疾病医療意見書（指定医療機関で発行してもらえます",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/sukosen/shounimansei.html",
+    "sourceName": "小児慢性特定疾病対策総合支援事業"
+  },
+  {
+    "slug": "nagasaki-official-001-026-2026",
+    "title": "佐世保市 新生児聴覚検査の公費助成について",
+    "organization": "佐世保市",
+    "maxAmount": "助成額】1検査につき3,000円",
+    "maxAmountNum": 3000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "佐世保市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年4月1日 申請書に記載の口座へ振り込みます",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/sukosen/shinseiji_chokaku.html",
+    "sourceName": "新生児聴覚検査の公費助成について"
+  },
+  {
+    "slug": "nagasaki-official-001-027-2026",
+    "title": "佐世保市 小中学生福祉医療費制度",
+    "organization": "佐世保市",
+    "maxAmount": "上限800円",
+    "maxAmountNum": 800,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "佐世保市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年10月1日 申請について 福祉医療費の助成を受けるには認定申請が必要です",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/kodoshie/syoutyuugakuseifukusiiryou.html",
+    "sourceName": "小中学生福祉医療費制度"
+  },
+  {
+    "slug": "nagasaki-official-001-028-2026",
+    "title": "佐世保市 高校生等福祉医療費制度",
+    "organization": "佐世保市",
+    "maxAmount": "上限800円",
+    "maxAmountNum": 800,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "佐世保市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年1月19日 申請について 福祉医療費の助成を受けるには認定申請が必要です",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/kodoshie/koukouseitoufukusiiryou.html",
+    "sourceName": "高校生等福祉医療費制度"
+  },
+  {
+    "slug": "nagasaki-official-001-029-2026",
+    "title": "佐世保市 母子・父子家庭福祉医療費制度",
+    "organization": "佐世保市",
+    "maxAmount": "上限800円",
+    "maxAmountNum": 800,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "nursing",
+      "living"
+    ],
+    "eligibility": "佐世保市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年10月1日 申請について はじめての方は、新規申請の手続きが必要です",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/kodoshie/boshikate.html",
+    "sourceName": "母子・父子家庭福祉医療費制度"
+  },
+  {
+    "slug": "nagasaki-official-001-030-2026",
+    "title": "佐世保市 母子父子寡婦福祉資金貸付金",
+    "organization": "佐世保市",
+    "maxAmount": "公式ページ記載の貸付額・貸付条件に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "佐世保市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月22日 申請に必要な書類 児童扶養手当証書（写し） 申請者及び申請者と生計をともにしている者の給与証明書（源泉徴収票の写しでも可） 申請者の家計の支出状況がわかるもの（水道光熱費・電話料金・家賃等） 債務やローンの状況がわかるもの（",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/kodoshie/kashitsukekin.html",
+    "sourceName": "母子父子寡婦福祉資金貸付金"
+  },
+  {
+    "slug": "nagasaki-official-001-031-2026",
+    "title": "佐世保市 交通遺児支援事業",
+    "organization": "佐世保市",
+    "maxAmount": "1人につき50,000円",
+    "maxAmountNum": 50000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "佐世保市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2021年4月1日 支給する事業を行っています",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/kodoshie/iwaikin.html",
+    "sourceName": "交通遺児支援事業"
+  },
+  {
+    "slug": "nagasaki-official-001-032-2026",
+    "title": "佐世保市 幼児教育・保育の無償化",
+    "organization": "佐世保市",
+    "maxAmount": "月額11,300円",
+    "maxAmountNum": 11300,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "佐世保市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2024年4月8日 提出する必要があります",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/mushoka.html",
+    "sourceName": "幼児教育・保育の無償化"
+  },
+  {
+    "slug": "nagasaki-official-001-033-2026",
+    "title": "佐世保市 私立幼稚園の副食費の補助",
+    "organization": "佐世保市",
+    "maxAmount": "月額上限4,900円",
+    "maxAmountNum": 4900,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "佐世保市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年8月1日 請求（幼稚園を通じて市へ請求） 実費徴収に係る補足給付事業補助金交付申請書兼請求書（様式第1号）を提出してください",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/hukushokuhihojo.html",
+    "sourceName": "私立幼稚園の副食費の補助"
+  },
+  {
+    "slug": "nagasaki-official-001-034-2026",
+    "title": "佐世保市 こども誰でも通園制度（乳児等通園支援事業）の実施",
+    "organization": "佐世保市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "佐世保市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月9日 申請 利用にあたっては、事前に佐世保市への給付認定申請が必要です(無料)",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/hoyou/kodomodaredemo.html",
+    "sourceName": "こども誰でも通園制度（乳児等通園支援事業）の実施"
+  },
+  {
+    "slug": "nagasaki-official-001-035-2026",
+    "title": "佐世保市 妊婦一般健康診査",
+    "organization": "佐世保市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "佐世保市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月15日 交付時に配付します",
+    "officialUrl": "https://www.city.sasebo.lg.jp/kodomomirai/sukosen/ninpu.html",
+    "sourceName": "妊婦一般健康診査"
+  },
+  {
+    "slug": "nagasaki-official-001-036-2026",
+    "title": "佐世保市 令和8年度Tsunagas補助金（若者活躍プロジェクト活動費補助金）募集開始します！！",
+    "organization": "佐世保市",
+    "maxAmount": "補助金額】個人：上限3万円",
+    "maxAmountNum": 30000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "佐世保市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月17日 募集開始します！！｜佐世保市 このサイトではJavaScriptを使用したコンテンツ・機能を提供しています",
+    "officialUrl": "https://www.city.sasebo.lg.jp/tiikimirai/wakamono/wakamonohojokinn.html",
+    "sourceName": "令和8年度Tsunagas補助金（若者活躍プロジェクト活動費補助金）募集開始します！！"
+  },
+  {
+    "slug": "nagasaki-official-001-037-2026",
+    "title": "島原市 島原市臨時特別給付金について",
+    "organization": "島原市",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "島原市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月11日 交付金」を活用し、基準日時点で島原市に住民登録がある市民全員に7千円の給付金を支給します",
+    "officialUrl": "https://www.city.shimabara.lg.jp/page20779.html?type=new&pg=1&nw_id=1",
+    "sourceName": "島原市臨時特別給付金について"
+  },
+  {
+    "slug": "nagasaki-official-001-038-2026",
+    "title": "島原市 島原市自主防災組織活動補助金について",
+    "organization": "島原市",
+    "maxAmount": "補助金額1自主防災会当たり最大50,000円",
+    "maxAmountNum": 50000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "島原市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月3日 申請書検索 ＞ 全ての申請書 ＞ 島原市自主防災組織活動補助金について ホーム ＞ 申請書検索 ＞ 申請書タイトル５０音検索 ＞ 島原市自主防災組織活動補助金について もっと見る（全4件） 島原市自主防災組織活動補助金につい",
+    "officialUrl": "https://www.city.shimabara.lg.jp/page18618.html?type=new&pg=1&nw_id=1",
+    "sourceName": "島原市自主防災組織活動補助金について"
+  },
+  {
+    "slug": "nagasaki-official-001-039-2026",
+    "title": "島原市 【募集中】お見合いシステムの登録料を補助します！",
+    "organization": "島原市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "島原市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 募集中】お見合いシステムの登録料を補助します！ / まち・ひとTOP / 島原市 本文へジャンプ 島原市トップページへ 子育てに優しいまち 高齢者が輝くまち 田舎暮らし・UIターン 婚活 創業サポート 市内保育所（幼稚園・保",
+    "officialUrl": "https://www.city.shimabara.lg.jp/machi/page20972.html",
+    "sourceName": "【募集中】お見合いシステムの登録料を補助します！"
+  },
+  {
+    "slug": "nagasaki-official-001-040-2026",
+    "title": "島原市 【申請受付を終了しました】島原市小規模省エネルギー設備導入補助金について",
+    "organization": "島原市",
+    "maxAmount": "補助額：50万円",
+    "maxAmountNum": 500000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "島原市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月13日 申請受付を終了しました】島原市小規模省エネルギー設備導入補助金について / 島原市 本文へジャンプ 島原市トップページへ 文字サイズ 小 中 大 ホーム ＞ 分類から探す ＞ くらしの情報 ＞ 産業・労働 ＞ 【申請受付を終",
+    "officialUrl": "https://www.city.shimabara.lg.jp/page21024.html?type=top",
+    "sourceName": "【申請受付を終了しました】島原市小規模省エネルギー設備導入補助金について"
+  },
+  {
+    "slug": "nagasaki-official-001-041-2026",
+    "title": "島原市 こどもの予防接種",
+    "organization": "島原市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "島原市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月23日 交付しますので、市保健センターへ母子健康手帳をご持参の上、来所ください",
+    "officialUrl": "https://www.city.shimabara.lg.jp/page5904.html",
+    "sourceName": "こどもの予防接種"
+  },
+  {
+    "slug": "nagasaki-official-001-042-2026",
+    "title": "島原市 【受付開始】3世代ファミリー応援事業補助金（新増改築）",
+    "organization": "島原市",
+    "maxAmount": "補助額◆3年度間、以下のとおり支援します（ただし、毎年度、交付申請の手続きが必要です）(1)初年度：上限30万円",
+    "maxAmountNum": 300000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "島原市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月16日 受付開始】3世代ファミリー応援事業補助金（新増改築） / まち・ひとTOP / 島原市 本文へジャンプ 島原市トップページへ 子育てに優しいまち 高齢者が輝くまち 田舎暮らし・UIターン 婚活 創業サポート 市内保育所（幼稚",
+    "officialUrl": "https://www.city.shimabara.lg.jp/machi/page17531.html",
+    "sourceName": "【受付開始】3世代ファミリー応援事業補助金（新増改築）"
+  },
+  {
+    "slug": "nagasaki-official-001-043-2026",
+    "title": "島原市 島原市移住支援金制度について",
+    "organization": "島原市",
+    "maxAmount": "1世帯につき100万円",
+    "maxAmountNum": 1000000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "島原市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請を受け付けておりますのでお知らせいたします",
+    "officialUrl": "https://shimabalove.jp/kiji0036795/index.html",
+    "sourceName": "島原市移住支援金制度について"
+  },
+  {
+    "slug": "nagasaki-official-001-044-2026",
+    "title": "島原市 保育料",
+    "organization": "島原市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "島原市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月27日 保育料 / まち・ひとTOP / 島原市 本文へジャンプ 島原市トップページへ 子育てに優しいまち 高齢者が輝くまち 田舎暮らし・UIターン 婚活 創業サポート 市内保育所（幼稚園・保育所・認定こども園） 保育料 子育て支援 育児相談窓口 ",
+    "officialUrl": "https://www.city.shimabara.lg.jp/machi/hpkiji/pub/List.aspx?c_id=3&class_set_id=10&class_id=544",
+    "sourceName": "保育料"
+  },
+  {
+    "slug": "nagasaki-official-001-045-2026",
+    "title": "諫早市 移住支援制度",
+    "organization": "諫早市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "諫早市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2023年2月1日 移住支援制度 - いさはや暮らし - 諫早市 ページの先頭です。 メニューを飛ばして本文へ メニュー 検索 JavaScriptが無効のため、文字の大きさ・背景色を変更する機能を使用できません。 カラフル諫早 諫早市 本文へ 音声読み上げ ",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/site/i-iju/9591.html",
+    "sourceName": "移住支援制度"
+  },
+  {
+    "slug": "nagasaki-official-001-046-2026",
+    "title": "諫早市 住民税非課税世帯等臨時給付金（物価高騰対応） ※受付終了",
+    "organization": "諫早市",
+    "maxAmount": "1世帯あたり1万円",
+    "maxAmountNum": 10000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "諫早市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月8日 受付終了 - 諫早市 ページの先頭です",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/114/42078.html",
+    "sourceName": "住民税非課税世帯等臨時給付金（物価高騰対応） ※受付終了"
+  },
+  {
+    "slug": "nagasaki-official-001-047-2026",
+    "title": "諫早市 諫早市文化関係大会激励金・奨励金（様式集）",
+    "organization": "諫早市",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "諫早市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月15日 申請書ダウンロード オンライン申請 閉じる 子育て ・教育 子育て 教育 閉じる 健康 ・福祉 健康・医療・保健 福祉 年金・保険・介護 閉じる 文化 ・スポーツ ・生涯学習 文化 スポーツ 生涯学習 観光 閉じる 事業者 ",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/51/46652.html",
+    "sourceName": "諫早市文化関係大会激励金・奨励金（様式集）"
+  },
+  {
+    "slug": "nagasaki-official-001-048-2026",
+    "title": "諫早市 自立支援医療費",
+    "organization": "諫早市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "諫早市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年11月28日 申請書ダウンロード - 諫早市 ページの先頭です",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/site/sinseisho/29995.html",
+    "sourceName": "自立支援医療費"
+  },
+  {
+    "slug": "nagasaki-official-001-049-2026",
+    "title": "諫早市 福祉医療費（障害）（様式集）",
+    "organization": "諫早市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "諫早市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年11月28日 申請書ダウンロード - 諫早市 ページの先頭です",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/site/sinseisho/8391.html",
+    "sourceName": "福祉医療費（障害）（様式集）"
+  },
+  {
+    "slug": "nagasaki-official-001-050-2026",
+    "title": "諫早市 諫早市緊急支援奨学生募集（様式集）",
+    "organization": "諫早市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "諫早市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2023年2月1日 募集（様式集） - 申請書ダウンロード - 諫早市 ページの先頭です",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/site/sinseisho/8604.html",
+    "sourceName": "諫早市緊急支援奨学生募集（様式集）"
+  },
+  {
+    "slug": "nagasaki-official-001-051-2026",
+    "title": "諫早市 出産・子育て応援事業及び伴走型支援事業",
+    "organization": "諫早市",
+    "maxAmount": "1人あたり5万円",
+    "maxAmountNum": 50000,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "諫早市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年2月6日 申請書ダウンロード オンライン申請 閉じる 子育て ・教育 子育て 教育 閉じる 健康 ・福祉 健康・医療・保健 福祉 年金・保険・介護 閉じる 文化 ・スポーツ ・生涯学習 文化 スポーツ 生涯学習 観光 閉じる 事業者 ",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/22/11350.html",
+    "sourceName": "出産・子育て応援事業及び伴走型支援事業"
+  },
+  {
+    "slug": "nagasaki-official-001-052-2026",
+    "title": "諫早市 産前産後期間の国民年金保険料が免除となります",
+    "organization": "諫早市",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "諫早市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2023年2月1日 申請書ダウンロード オンライン申請 閉じる 子育て ・教育 子育て 教育 閉じる 健康 ・福祉 健康・医療・保健 福祉 年金・保険・介護 閉じる 文化 ・スポーツ ・生涯学習 文化 スポーツ 生涯学習 観光 閉じる 事業者 ",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/27/1813.html",
+    "sourceName": "産前産後期間の国民年金保険料が免除となります"
+  },
+  {
+    "slug": "nagasaki-official-001-053-2026",
+    "title": "諫早市 不妊治療費および不育症検査費の一部助成",
+    "organization": "諫早市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "諫早市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年6月17日 申請書ダウンロード オンライン申請 閉じる 子育て ・教育 子育て 教育 閉じる 健康 ・福祉 健康・医療・保健 福祉 年金・保険・介護 閉じる 文化 ・スポーツ ・生涯学習 文化 スポーツ 生涯学習 観光 閉じる 事業者 ",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/22/46792.html",
+    "sourceName": "不妊治療費および不育症検査費の一部助成"
+  },
+  {
+    "slug": "nagasaki-official-001-054-2026",
+    "title": "諫早市 妊婦歯科健康診査",
+    "organization": "諫早市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "諫早市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請書ダウンロード オンライン申請 閉じる 子育て ・教育 子育て 教育 閉じる 健康 ・福祉 健康・医療・保健 福祉 年金・保険・介護 閉じる 文化 ・スポーツ ・生涯学習 文化 スポーツ 生涯学習 観光 閉じる 事業者 ",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/22/1024.html",
+    "sourceName": "妊婦歯科健康診査"
+  },
+  {
+    "slug": "nagasaki-official-001-055-2026",
+    "title": "諫早市 妊婦健康診査",
+    "organization": "諫早市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "諫早市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年12月25日 申請書ダウンロード オンライン申請 閉じる 子育て ・教育 子育て 教育 閉じる 健康 ・福祉 健康・医療・保健 福祉 年金・保険・介護 閉じる 文化 ・スポーツ ・生涯学習 文化 スポーツ 生涯学習 観光 閉じる 事業者 ",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/22/1031.html",
+    "sourceName": "妊婦健康診査"
+  },
+  {
+    "slug": "nagasaki-official-001-056-2026",
+    "title": "諫早市 低所得世帯妊婦さんの初回産科受診料を助成",
+    "organization": "諫早市",
+    "maxAmount": "補助金額上限10,000円",
+    "maxAmountNum": 10000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "諫早市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年8月1日 申請書ダウンロード オンライン申請 閉じる 子育て ・教育 子育て 教育 閉じる 健康 ・福祉 健康・医療・保健 福祉 年金・保険・介護 閉じる 文化 ・スポーツ ・生涯学習 文化 スポーツ 生涯学習 観光 閉じる 事業者 ",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/22/37668.html",
+    "sourceName": "低所得世帯妊婦さんの初回産科受診料を助成"
+  },
+  {
+    "slug": "nagasaki-official-001-057-2026",
+    "title": "諫早市 多胎妊婦健康診査助成",
+    "organization": "諫早市",
+    "maxAmount": "助成額1回の妊婦健康診査あたり5,000円",
+    "maxAmountNum": 5000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "諫早市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2023年2月1日 申請書ダウンロード オンライン申請 閉じる 子育て ・教育 子育て 教育 閉じる 健康 ・福祉 健康・医療・保健 福祉 年金・保険・介護 閉じる 文化 ・スポーツ ・生涯学習 文化 スポーツ 生涯学習 観光 閉じる 事業者 ",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/22/1029.html",
+    "sourceName": "多胎妊婦健康診査助成"
+  },
+  {
+    "slug": "nagasaki-official-001-058-2026",
+    "title": "諫早市 諫早市新生活支援補助金",
+    "organization": "諫早市",
+    "maxAmount": "上限額世帯の別補助上限額(1)夫婦世帯100万円",
+    "maxAmountNum": 1000000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "諫早市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請書ダウンロード オンライン申請 閉じる 子育て ・教育 子育て 教育 閉じる 健康 ・福祉 健康・医療・保健 福祉 年金・保険・介護 閉じる 文化 ・スポーツ ・生涯学習 文化 スポーツ 生涯学習 観光 閉じる 事業者 ",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/37/1061.html",
+    "sourceName": "諫早市新生活支援補助金"
+  },
+  {
+    "slug": "nagasaki-official-001-059-2026",
+    "title": "諫早市 諫早市小長井地域新生活支援補助金",
+    "organization": "諫早市",
+    "maxAmount": "上限額世帯の別補助上限額(1)夫婦世帯150万円",
+    "maxAmountNum": 1500000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "諫早市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請書ダウンロード オンライン申請 閉じる 子育て ・教育 子育て 教育 閉じる 健康 ・福祉 健康・医療・保健 福祉 年金・保険・介護 閉じる 文化 ・スポーツ ・生涯学習 文化 スポーツ 生涯学習 観光 閉じる 事業者 ",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/37/1062.html",
+    "sourceName": "諫早市小長井地域新生活支援補助金"
+  },
+  {
+    "slug": "nagasaki-official-001-060-2026",
+    "title": "諫早市 令和8年度諫早市安全・安心住まいづくり支援事業",
+    "organization": "諫早市",
+    "maxAmount": "補助額耐震診断耐震診断に要する費用136,000円",
+    "maxAmountNum": 136000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "諫早市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月7日 申請書ダウンロード オンライン申請 閉じる 子育て ・教育 子育て 教育 閉じる 健康 ・福祉 健康・医療・保健 福祉 年金・保険・介護 閉じる 文化 ・スポーツ ・生涯学習 文化 スポーツ 生涯学習 観光 閉じる 事業者 ",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/64/43448.html",
+    "sourceName": "令和8年度諫早市安全・安心住まいづくり支援事業"
+  },
+  {
+    "slug": "nagasaki-official-001-061-2026",
+    "title": "諫早市 令和8年度諫早市奨学生募集",
+    "organization": "諫早市",
+    "maxAmount": "月額区分貸付額（月額）高等学校高等専門学校専修学校（高等課程）10,000円",
+    "maxAmountNum": 10000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "諫早市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年2月9日 募集 - 諫早市 ページの先頭です",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/84/1424.html",
+    "sourceName": "令和8年度諫早市奨学生募集"
+  },
+  {
+    "slug": "nagasaki-official-001-062-2026",
+    "title": "諫早市 諫早市奨学金",
+    "organization": "諫早市",
+    "maxAmount": "月額区分貸付額（月額）高等学校高等専門学校専修学校（高等課程）10,000円",
+    "maxAmountNum": 10000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "諫早市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年2月9日 申請書ダウンロード オンライン申請 閉じる 子育て ・教育 子育て 教育 閉じる 健康 ・福祉 健康・医療・保健 福祉 年金・保険・介護 閉じる 文化 ・スポーツ ・生涯学習 文化 スポーツ 生涯学習 観光 閉じる 事業者 ",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/84/1428.html",
+    "sourceName": "諫早市奨学金"
+  },
+  {
+    "slug": "nagasaki-official-001-063-2026",
+    "title": "諫早市 諫早市緊急支援奨学生募集のご案内",
+    "organization": "諫早市",
+    "maxAmount": "月額）貸付期間備考高等学校高等専門学校専修学校（高等課程）10,000円",
+    "maxAmountNum": 10000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "諫早市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2023年2月1日 募集のご案内 - 諫早市 ページの先頭です",
+    "officialUrl": "https://www.city.isahaya.nagasaki.jp/soshiki/84/1420.html",
+    "sourceName": "諫早市緊急支援奨学生募集のご案内"
+  },
+  {
+    "slug": "nagasaki-official-001-064-2026",
+    "title": "大村市 国民年金の免除・納付猶予",
+    "organization": "大村市",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "大村市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月1日 申請ができません",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/nenkin/kenko/nenkin/nenkin/menjosedo/hotemenjo.html",
+    "sourceName": "国民年金の免除・納付猶予"
+  },
+  {
+    "slug": "nagasaki-official-001-065-2026",
+    "title": "大村市 児童手当",
+    "organization": "大村市",
+    "maxAmount": "上限を撤廃第3子以降の手当額を月1万5千円から月3万円",
+    "maxAmountNum": 30000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大村市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2024年10月15日 支給することにより、家庭などにおける生活の安定に寄与するとともに、次世代の社会を担う児童の健やかな成長に資することを目的としています",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/kodomosomu/kenko/kosodate/teate/jidouteate.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "nagasaki-official-001-066-2026",
+    "title": "大村市 児童扶養手当",
+    "organization": "大村市",
+    "maxAmount": "月額（令和8年4月改定）令和8年4月分以降児童1人のとき全部支給：48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大村市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 支給される手当です",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/kodomosomu/kenko/kosodate/hitorioya/jidofuyo.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "nagasaki-official-001-067-2026",
+    "title": "大村市 自立支援医療（育成医療）の給付",
+    "organization": "大村市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大村市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年3月3日 申請が必要です",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/shien/kenko/fukushi/shogaisha/teate/ikusei-iryo.html",
+    "sourceName": "自立支援医療（育成医療）の給付"
+  },
+  {
+    "slug": "nagasaki-official-001-068-2026",
+    "title": "大村市 障害児福祉手当",
+    "organization": "大村市",
+    "maxAmount": "支給額（月額）：16,560円",
+    "maxAmountNum": 16560,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大村市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月28日 支給される手当です",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/seikatsu/kenko/fukushi/shogaisha/teate/shogaiji.html",
+    "sourceName": "障害児福祉手当"
+  },
+  {
+    "slug": "nagasaki-official-001-069-2026",
+    "title": "大村市 大村市不妊症・不育症治療費助成制度",
+    "organization": "大村市",
+    "maxAmount": "助成額：1年度につき上限5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大村市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年7月16日 交付決定を受ける必要があります",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/oyako/kenko/ninshin/jose/fuikusyou.html",
+    "sourceName": "大村市不妊症・不育症治療費助成制度"
+  },
+  {
+    "slug": "nagasaki-official-001-070-2026",
+    "title": "大村市 特別児童扶養手当",
+    "organization": "大村市",
+    "maxAmount": "支給額（令和8年4月1日現在）重度障害（1級）の児童：月額58,450円",
+    "maxAmountNum": 58450,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大村市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 支給される手当です",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/kodomosomu/kenko/fukushi/shogaisha/teate/tokubetsujido.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "nagasaki-official-001-071-2026",
+    "title": "大村市 特別障害者手当",
+    "organization": "大村市",
+    "maxAmount": "支給額（月額）：30,450円",
+    "maxAmountNum": 30450,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大村市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月28日 支給される手当です",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/seikatsu/kenko/fukushi/shogaisha/teate/tokubetsushogai.html",
+    "sourceName": "特別障害者手当"
+  },
+  {
+    "slug": "nagasaki-official-001-072-2026",
+    "title": "大村市 移動支援事業",
+    "organization": "大村市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大村市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請書を提出 審査後、利用決定通知書が届いたら、利用するサービス事業所へ直接申し込む サービス事業所に「利用決定通知書」と「支給量管理表」を提示して利用 住所や氏名など決定内容に変更がある場合は、速やかに障がい福祉課へ届け出",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/seikatsu/kenko/fukushi/shogaisha/fukushijigyo/idoshien.html",
+    "sourceName": "移動支援事業"
+  },
+  {
+    "slug": "nagasaki-official-001-073-2026",
+    "title": "大村市 日中一時支援事業",
+    "organization": "大村市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大村市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請書を提出 審査後、利用決定通知書が届いたら、利用するサービス事業所へ直接申し込む サービス事業所に「利用決定通知書」と「支給量管理表」を提示して利用 住所や氏名など決定内容に変更がある場合は、速やかに障がい福祉課へ届け出",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/seikatsu/kenko/fukushi/shogaisha/fukushijigyo/nitchusien.html",
+    "sourceName": "日中一時支援事業"
+  },
+  {
+    "slug": "nagasaki-official-001-074-2026",
+    "title": "大村市 母子父子寡婦福祉資金の貸付",
+    "organization": "大村市",
+    "maxAmount": "公式ページ記載の貸付額・貸付条件に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "大村市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年12月11日 申請は、大村市内にお住まいの人は大村市福祉事務所（大村市こどもセンター内）で受け付けを行い、審査・決定は長崎県こども家庭課が行います",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/kateishien/kenko/kosodate/hitorioya/kafufukushi.html",
+    "sourceName": "母子父子寡婦福祉資金の貸付"
+  },
+  {
+    "slug": "nagasaki-official-001-075-2026",
+    "title": "大村市 出産育児一時金",
+    "organization": "大村市",
+    "maxAmount": "支給額令和5年4月1日以降の出産50万円",
+    "maxAmountNum": 500000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大村市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年10月27日 支給します",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/kokuho/kenko/nenkin/kenkohoken/ichijikin.html",
+    "sourceName": "出産育児一時金"
+  },
+  {
+    "slug": "nagasaki-official-001-076-2026",
+    "title": "大村市 省エネ家電製品の買い換え費用の一部を補助します",
+    "organization": "大村市",
+    "maxAmount": "補助金額エアコン・冷蔵庫・テレビ1台の購入金額（税抜き）の5分の1（上限額：20,000円",
+    "maxAmountNum": 20000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "大村市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月16日 受付期間 令和8年7月22日（水曜日）～令和9年2月26日（金曜日） （注記）予算がなくなり次第、受け付けを終了します",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/kankyouseisaku/kurashi/kankyo/ondanka/syouenekaikae.html",
+    "sourceName": "省エネ家電製品の買い換え費用の一部を補助します"
+  },
+  {
+    "slug": "nagasaki-official-001-077-2026",
+    "title": "大村市 妊婦健康診査",
+    "organization": "大村市",
+    "maxAmount": "助成額（全14回）第1回（妊娠8週前後）目的：健康状態の把握、妊娠週数の確認検査項目：基本健診（問診および診察、血圧・体重測定、尿化学検査）、超音波検査助成額：6,300円",
+    "maxAmountNum": 6300,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "大村市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月8日 交付時にお渡ししています",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/oyako/kenko/ninshin/ninshin/kenkoshinsa.html",
+    "sourceName": "妊婦健康診査"
+  },
+  {
+    "slug": "nagasaki-official-001-078-2026",
+    "title": "大村市 令和8 年度スポーツ振興くじ助成金事業の活用",
+    "organization": "大村市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大村市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年7月14日 交付を受け、次の事業の実施を計画しています",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/bunka/kyoiku/bunka/shisetsu/sportskujijyoseikinkatsuyou.html",
+    "sourceName": "令和8 年度スポーツ振興くじ助成金事業の活用"
+  },
+  {
+    "slug": "nagasaki-official-001-079-2026",
+    "title": "大村市 妊婦さんの家庭訪問",
+    "organization": "大村市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "大村市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年6月4日 交付 妊婦さんの家庭訪問 妊婦健康診査 マタニティーマーク 里帰り中の妊婦健診 不妊治療と仕事の両立について 働きながらお母さんになるあなたへ あなたにあった出産施設を探せるサイト「出産なび」 伴走型相談支援事業・妊婦支援給",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/oyako/kenko/ninshin/ninshin/homon.html",
+    "sourceName": "妊婦さんの家庭訪問"
+  },
+  {
+    "slug": "nagasaki-official-001-080-2026",
+    "title": "大村市 相談支援事業",
+    "organization": "大村市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大村市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年3月31日 支給 日常生活用具の給付 電話お願い手帳 手話奉仕員・要約筆記者の派遣事業 自動車運転免許取得費助成 自動車改造費用の助成 移動支援事業 日中一時支援事業 訪問入浴 小児慢性特定疾患児日常生活用具の給付 ページの先頭へ戻る ",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/seikatsu/kenko/fukushi/shogaisha/fukushijigyo/soudanshien.html",
+    "sourceName": "相談支援事業"
+  },
+  {
+    "slug": "nagasaki-official-001-081-2026",
+    "title": "大村市 予防接種（高齢者の肺炎球菌ワクチン）",
+    "organization": "大村市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "大村市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請が必要です",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/kenshin/kenko/kenko/yobosessyu/seijinyou.html",
+    "sourceName": "予防接種（高齢者の肺炎球菌ワクチン）"
+  },
+  {
+    "slug": "nagasaki-official-001-082-2026",
+    "title": "大村市 里帰り中の妊婦健診",
+    "organization": "大村市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "大村市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年7月8日 提出（電話でも可）が必要です",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/oyako/kenko/ninshin/ninshin/satogaeri.html",
+    "sourceName": "里帰り中の妊婦健診"
+  },
+  {
+    "slug": "nagasaki-official-001-083-2026",
+    "title": "大村市 県外などで予防接種を受ける人へ",
+    "organization": "大村市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大村市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月28日 申請が必要です 定期予防接種を県外など指定医療機関以外の医療機関で受ける場合、予防接種費用の一部または全部の払戻しができる場合があります（償還払い）",
+    "officialUrl": "https://www.city.omura.nagasaki.jp/kodomoshomu/kenko/kenko/yobosesshu/syoukannbarai.html",
+    "sourceName": "県外などで予防接種を受ける人へ"
+  }
+];
