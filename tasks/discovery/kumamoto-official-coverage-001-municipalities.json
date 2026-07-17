@@ -1,0 +1,11 @@
+{
+  "prefecture": "熊本県",
+  "batch": "kumamoto-official-coverage-001",
+  "municipalities": [
+    { "code": "43100", "name": "熊本市", "url": "https://www.city.kumamoto.jp/" },
+    { "code": "43202", "name": "八代市", "url": "https://www.city.yatsushiro.lg.jp/" },
+    { "code": "43203", "name": "人吉市", "url": "https://www.city.hitoyoshi.lg.jp/" },
+    { "code": "43204", "name": "荒尾市", "url": "https://www.city.arao.lg.jp/" },
+    { "code": "43205", "name": "水俣市", "url": "https://www.city.minamata.lg.jp/" }
+  ]
+}

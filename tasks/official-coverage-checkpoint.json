@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T21:35:45+09:00",
+  "updatedAt": "2026-07-17T22:42:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nagasaki-official-coverage-005",
-    "municipality": "新上五島町",
-    "adopted": 39,
+    "code": "kumamoto-official-coverage-001",
+    "municipality": "熊本市・八代市・人吉市・荒尾市・水俣市",
+    "adopted": 65,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 39,
+    "sourceUrlsChecked": 65,
     "validation": {
-      "previousMunicipality": "長崎県公式棚卸し005として42411新上五島町を確認し、39件を採用。公式トップ https://official.shinkamigoto.net/ をHTTP 200で確認し、長崎県の市町村第1巡は42201長崎市から42411新上五島町まで到達。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/nagasaki-official-coverage-005 build/rescore/focused-scan/fast-scan scripts",
-      "json": "pass: JSON.parse for nagasaki-official-coverage-005 municipalities/selections/adopted JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 39 added nagasaki-official-005 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: build non200 empty; 39 adopted official URLs returned HTTP 200 by build fetch",
+      "previousMunicipality": "熊本県公式棚卸し001として43100熊本市・43202八代市・43203人吉市・43204荒尾市・43205水俣市を確認し、65件を採用。公式トップ5自治体を確認し、全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kumamoto-official-coverage-001 build/rescore/search-scan scripts",
+      "json": "pass: JSON.parse for kumamoto-official-coverage-001 municipalities/candidates/search-candidates/selections/adopted JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 65 added kumamoto-official-001 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: build non200 empty; 65 adopted official URLs returned HTTP 200 by build fetch; status saved to tasks/discovery/kumamoto-official-coverage-001-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for nagasaki-official-coverage-005 target files",
-      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The nagasaki-official-005 target files passed syntax, JSON, URL, duplicate, eslint, and diff checks.",
-      "notes": "42411新上五島町を確認。標準discoverは0件。汎用focused scanはCMS応答待ちで停滞したため中断し、公式カテゴリ一覧からgoto_*_full.php個別ページを抽出。制度強語・金額/対象/受付表現が揃う個別ページ39件を採用。長崎県001-005累計は21自治体346制度。"
+      "diffCheck": "pass: git diff --check for kumamoto-official-coverage-001 target files",
+      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The kumamoto-official-001 target files passed syntax, JSON, URL, duplicate, eslint, and diff checks.",
+      "notes": "標準discoverは0件。search-scan 88候補から人吉市・荒尾市の個別制度ページを採用し、熊本市・八代市・水俣市は既存公式確認済みURL32件を補完。熊本市のアクセス/窓口時間/ホームページ案内、荒尾市の入札/最低賃金/イベント/カテゴリ、人吉市のカテゴリ/相談会等は第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "kumamoto-official-coverage-001",
-    "municipality": "熊本県（自治体コード順の次県）",
-    "shortlist": "長崎県公式棚卸し005で42411新上五島町を確認し、39件を採用。長崎県市町村第1巡は完了。次は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から熊本県公式棚卸し001を開始する。",
-    "instructions": "次回は熊本県公式棚卸し001として、熊本県内の自治体コード順の先頭から再開する。既存rawの熊本県gap 0や過去生成データだけで完了扱いにせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kumamoto-official-coverage-002",
+    "municipality": "玉名市",
+    "shortlist": "熊本県公式棚卸し001で熊本市・八代市・人吉市・荒尾市・水俣市を確認し、65件を採用。次は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から43206玉名市へ進む。",
+    "instructions": "次回は熊本県公式棚卸し002として、43206玉名市から自治体コード順に再開する。想定対象は43206玉名市・43208山鹿市・43210菊池市・43211宇土市・43212上天草市。既存rawの熊本県gap 0や過去生成データだけで完了扱いにせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "長崎県",
-    "status": "first-pass-complete",
-    "lastBatch": "nagasaki-official-coverage-005",
-    "notes": "長崎県公式棚卸し005で42411新上五島町に到達し39制度を採用。長崎県001-005累計は21自治体346制度。南島原市、波佐見町、佐々町は個別制度ページ未到達のため第2巡候補として保持。次は熊本県公式棚卸し001へ進む。"
+    "prefecture": "熊本県",
+    "status": "first-pass-in-progress",
+    "lastBatch": "kumamoto-official-coverage-001",
+    "notes": "熊本県公式棚卸し001で43100熊本市から43205水俣市まで到達し65制度を採用。次は43206玉名市から継続。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
