@@ -1,0 +1,11 @@
+{
+  "prefecture": "熊本県",
+  "batch": "kumamoto-official-coverage-004",
+  "municipalities": [
+    { "code": "43364", "name": "玉東町", "url": "https://www.town.gyokuto.kumamoto.jp/" },
+    { "code": "43367", "name": "南関町", "url": "https://www.town.nankan.lg.jp/" },
+    { "code": "43368", "name": "長洲町", "url": "https://www.town.nagasu.lg.jp/" },
+    { "code": "43369", "name": "和水町", "url": "https://www.town.nagomi.lg.jp/" },
+    { "code": "43403", "name": "大津町", "url": "https://www.town.ozu.kumamoto.jp/" }
+  ]
+}

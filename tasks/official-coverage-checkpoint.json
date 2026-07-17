@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T23:07:00+09:00",
+  "updatedAt": "2026-07-17T23:28:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kumamoto-official-coverage-003",
-    "municipality": "宇城市・阿蘇市・天草市・合志市・美里町",
-    "adopted": 72,
+    "code": "kumamoto-official-coverage-004",
+    "municipality": "玉東町・南関町・長洲町・和水町・大津町",
+    "adopted": 80,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 72,
+    "sourceUrlsChecked": 80,
     "validation": {
-      "previousMunicipality": "熊本県公式棚卸し003として43213宇城市・43214阿蘇市・43215天草市・43216合志市・43348美里町を確認し、72件を採用。公式トップ5自治体を確認し、全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check for verified-local-misc-2026.ts and kumamoto-official-coverage-003 discovery/build scripts",
-      "json": "pass: JSON.parse for kumamoto-official-coverage-003 municipalities/candidates/selections/adopted JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 72 added kumamoto-official-003 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: build non200 empty; 72 adopted official URLs returned 2xx by final reachability check saved to tasks/discovery/kumamoto-official-coverage-003-url-status.txt",
+      "previousMunicipality": "熊本県公式棚卸し004として43364玉東町・43367南関町・43368長洲町・43369和水町・43403大津町を確認し、80件を採用。公式トップ5自治体を確認し、全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check for verified-local-misc-2026.ts and kumamoto-official-coverage-004 discovery/build scripts",
+      "json": "pass: JSON.parse for kumamoto-official-coverage-004 municipalities/candidates/selections/adopted JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 80 added kumamoto-official-004 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: build non200 empty; 80 adopted official URLs returned 2xx by final reachability check saved to tasks/discovery/kumamoto-official-coverage-004-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for kumamoto-official-coverage-003 target files",
+      "diffCheck": "pass: git diff --check for kumamoto-official-coverage-004 target files",
       "auditCoverage": "blocked: npm run audit:coverage stops in existing unrelated dirty-worktree code at src/lib/grant-copy.ts sanitizeGrantCopy tags.map via src/lib/grants.ts",
-      "notes": "公式sitemap/検索/カテゴリBFSで314候補（宇城市84、阿蘇市37、天草市124、合志市7、美里町62）を抽出。shortlistが150件超のためローカルJSON/TSVへ本文スニペットを保存し、制度強語・金額/対象/受付表現・個別URLを再スコア。天草市・合志市は公式補助金/医療費助成/手当カテゴリから個別kijiページを追加確認。カテゴリ/検索結果/広報/採用/イベント/一般案内は第2巡候補として保持。"
+      "notes": "5町とも公式トップHTTP 200、sitemap.xmlは404のため公式カテゴリ/検索BFSで592候補（玉東町52、南関町283、長洲町50、和水町102、大津町105）を抽出。shortlistが150件超のためローカルJSON/TSVへ本文スニペットを保存し、制度強語・金額/対象/受付表現・個別URLを再スコア。RSS、一覧/カテゴリ、広報、採用、公募、イベント、一般案内、本文に現行情報がない旧制度ページは第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "kumamoto-official-coverage-004",
-    "municipality": "玉東町",
-    "shortlist": "熊本県公式棚卸し003で宇城市・阿蘇市・天草市・合志市・美里町を確認し、72件を採用。次は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から43364玉東町へ進む。",
-    "instructions": "次回は熊本県公式棚卸し004として、43364玉東町から自治体コード順に再開する。想定対象は43364玉東町・43367南関町・43368長洲町・43369和水町・43403大津町。既存rawの熊本県gap 0や過去生成データだけで完了扱いにせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kumamoto-official-coverage-005",
+    "municipality": "菊陽町",
+    "shortlist": "熊本県公式棚卸し004で玉東町・南関町・長洲町・和水町・大津町を確認し、80件を採用。次は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から43404菊陽町へ進む。",
+    "instructions": "次回は熊本県公式棚卸し005として、43404菊陽町から自治体コード順に再開する。想定対象は43404菊陽町・43423南小国町・43424小国町・43425産山村・43428高森町。既存rawの熊本県gap 0や過去生成データだけで完了扱いにせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "熊本県",
     "status": "first-pass-in-progress",
-    "lastBatch": "kumamoto-official-coverage-003",
-    "notes": "熊本県公式棚卸し003で43213宇城市から43348美里町まで到達し72制度を採用。熊本県001-003累計は15自治体186制度。次は43364玉東町から継続。"
+    "lastBatch": "kumamoto-official-coverage-004",
+    "notes": "熊本県公式棚卸し004で43364玉東町から43403大津町まで到達し80制度を採用。熊本県001-004累計は20自治体266制度。次は43404菊陽町から継続。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
