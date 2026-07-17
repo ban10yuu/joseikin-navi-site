@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-18T03:18:00+09:00",
+  "updatedAt": "2026-07-18T04:31:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "miyazaki-official-coverage-001",
-    "municipality": "宮崎県・宮崎市・都城市・延岡市・日南市",
-    "adopted": 65,
+    "code": "miyazaki-official-coverage-002",
+    "municipality": "小林市・日向市・串間市・西都市・えびの市",
+    "adopted": 92,
     "held": 0,
-    "excluded": 834,
-    "sourceUrlsChecked": 65,
+    "excluded": 1253,
+    "sourceUrlsChecked": 92,
     "validation": {
-      "previousMunicipality": "宮崎県公式棚卸し001として45000宮崎県、45201宮崎市、45202都城市、45203延岡市、45204日南市を確認し、65件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and miyazaki-official-coverage-001 discover/build scripts",
+      "previousMunicipality": "宮崎県公式棚卸し002として45205小林市、45206日向市、45207串間市、45208西都市、45209えびの市を確認し、92件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and miyazaki-official-coverage-002 discover/build scripts",
       "json": "pass: checkpoint, candidates, selections, adopted JSON parsed",
-      "addedSlugUniqueness": "pass: 65 added slugs unique and whole dataset duplicate count 0",
-      "urlReachability": "pass: build non200 empty; 65 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/miyazaki-official-coverage-001-url-status.txt",
+      "addedSlugUniqueness": "pass: 92 added slugs unique and whole dataset duplicate count 0",
+      "urlReachability": "pass: build non200 empty; 92 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/miyazaki-official-coverage-002-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: target file git diff --check completed",
       "auditCoverage": "blocked: npm run audit:coverage stops at existing unrelated src/lib/grant-copy.ts sanitizeGrantCopy tags.map TypeError before coverage aggregation",
-      "notes": "公式トップ/sitemap/検索/カテゴリBFSで899候補（宮崎県207、宮崎市96、都城市332、延岡市176、日南市88）を抽出。shortlistが150件超のため再スコアTSVを作成し、カテゴリ/FAQ/手続変更告知/申請書単体/国制度周知/過年度公募/重複導線を除外。宮崎県9、宮崎市16、都城市13、延岡市10、日南市17を採用。"
+      "notes": "公式トップは小林市・日向市・串間市・西都市・えびの市すべてHTTP 200で確認。日向市はhyugacity.jpへ正規化。sitemap.xmlは小林市・西都市・えびの市が200、日向市・串間市は404。公式sitemap/カテゴリBFSで1345候補（小林市157、日向市221、串間市91、西都市715、えびの市161）を抽出し、本文スニペット付き再スコアTSVからカテゴリ/県制度周知/過年度終了/重複導線を除外。小林市22、日向市15、串間市15、西都市20、えびの市20を採用。"
     }
   },
   "next": {
-    "code": "miyazaki-official-coverage-002",
-    "municipality": "小林市・日向市・串間市・西都市・えびの市",
-    "shortlist": "宮崎県公式棚卸し001で県・宮崎市・都城市・延岡市・日南市を確認し65件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で45205小林市から再開する。",
-    "instructions": "次回は宮崎県公式棚卸し002として、45205小林市、45206日向市、45207串間市、45208西都市、45209えびの市の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの宮崎県完了行やHTTP 200だけでは完了扱いにしない。"
+    "code": "miyazaki-official-coverage-003",
+    "municipality": "三股町・高原町・国富町・綾町・高鍋町",
+    "shortlist": "宮崎県公式棚卸し002で小林市・日向市・串間市・西都市・えびの市を確認し92件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で45341三股町から再開する。",
+    "instructions": "次回は宮崎県公式棚卸し003として、45341三股町、45361高原町、45382国富町、45383綾町、45401高鍋町の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの宮崎県完了行やHTTP 200だけでは完了扱いにしない。"
   },
   "prefectureMilestone": {
     "prefecture": "宮崎県",
     "status": "in-progress",
-    "lastBatch": "miyazaki-official-coverage-001",
-    "notes": "宮崎県公式棚卸し001で県・宮崎市・都城市・延岡市・日南市に到達し65制度を採用。全国公式棚卸しは未完了で、次は小林市・日向市・串間市・西都市・えびの市。"
+    "lastBatch": "miyazaki-official-coverage-002",
+    "notes": "宮崎県公式棚卸し002で45205小林市から45209えびの市まで到達し92制度を採用。全国公式棚卸しは未完了で、次は三股町・高原町・国富町・綾町・高鍋町。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

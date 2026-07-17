@@ -11585,3 +11585,14 @@
 - メトリクス: 5自治体・団体、65制度採用、一次候補899件、採用率7.2%。宮崎県001として次の15自治体単位を開始。
 - 到達点: 宮崎県は45000宮崎県から45204日南市まで第1巡到達。全国公式棚卸しは未完了。
 - 次回: 宮崎県公式棚卸し002として、小林市・日向市・串間市・西都市・えびの市から再開する。
+
+### 宮崎県公式棚卸し002（45205小林市・45206日向市・45207串間市・45208西都市・45209えびの市）
+
+- 対象公式トップ: 小林市 `https://www.city.kobayashi.lg.jp/`、日向市 `https://www.hyugacity.jp/`、串間市 `https://www.city.kushima.lg.jp/`、西都市 `https://www.city.saito.lg.jp/`、えびの市 `https://www.city.ebino.lg.jp/` をHTTP 200で確認。日向市は `https://www.city.hyuga.miyazaki.jp/` から `https://www.hyugacity.jp/` へ正規化。sitemap.xmlは小林市・西都市・えびの市が200、日向市・串間市が404のためカテゴリBFSを併用。
+- 公式sitemap/カテゴリBFS候補: 1,345件（小林市157、日向市221、串間市91、西都市715、えびの市161）。title強一致126件。候補母数が大きく西都市に偏ったため、`tasks/discovery/miyazaki-official-coverage-002-rescored-shortlist.tsv` へ本文スニペット付き再スコアを保存。
+- 採用: 92制度（小林市22、日向市15、串間市15、西都市20、えびの市20）。`miyazaki-official-002-001-2026` から `miyazaki-official-002-092-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、FAQ、手続変更告知、県制度周知、過年度終了済みコロナ施策、申請書単体、採択/実績/評価、重複導線は採用せず、候補JSON/TSVに残置。既存rawの宮崎県完了行やHTTP 200だけでは完了扱いにしていない。
+- 検証: 公式URL 92/92 HTTP 200（`tasks/discovery/miyazaki-official-coverage-002-url-status.txt`）。`node --check`、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体、92制度採用、一次候補1,345件、採用率6.8%。宮崎県001-002累計は10自治体・団体、157制度、監査2回試行、commit予定2回。
+- 到達点: 宮崎県は45205小林市から45209えびの市まで第1巡到達。全国公式棚卸しは未完了。
+- 次回: 宮崎県公式棚卸し003として、三股町・高原町・国富町・綾町・高鍋町から再開する。
