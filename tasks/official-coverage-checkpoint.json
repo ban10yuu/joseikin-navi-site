@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T11:25:00+09:00",
+  "updatedAt": "2026-07-17T11:55:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "ehime-official-coverage-003",
-    "municipality": "伊予市・四国中央市・西予市・東温市・上島町",
+    "code": "ehime-official-coverage-004",
+    "municipality": "久万高原町・松前町・砥部町・内子町・伊方町",
     "adopted": 60,
     "held": 0,
     "excluded": 0,
     "sourceUrlsChecked": 60,
     "validation": {
-      "previousMunicipality": "愛媛県公式棚卸し003として38210伊予市・38213四国中央市・38214西予市・38215東温市・38356上島町を確認し60件を採用。愛媛県は38201松山市から38356上島町まで第1巡到達。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/ehime-official-coverage-003 build/rescore scripts",
-      "json": "pass: JSON.parse for ehime-official-coverage-003 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 60 added ehime-official-003 slugs, duplicateCount 0 across verified-local-misc-2026.ts",
+      "previousMunicipality": "愛媛県公式棚卸し004として38386久万高原町・38401松前町・38402砥部町・38422内子町・38442伊方町を確認し60件を採用。愛媛県は38201松山市から38442伊方町まで第1巡到達。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/ehime-official-coverage-004 build/rescore scripts",
+      "json": "pass: JSON.parse for ehime-official-coverage-004 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 60 added ehime-official-004 slugs, duplicateCount 0 across verified-local-misc-2026.ts",
       "urlReachability": "pass: 60 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for ehime-official-coverage-003 target files",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 22090、officialLinkedActive 21969、manuallyVerifiedActive 21969、愛媛県 localOfficial 260)",
-      "notes": "標準discoverは0件。公式トップ到達、伊予市・四国中央市・西予市・東温市・上島町の公式カテゴリ/サイト内リンクBFS、既存公式確認URLの現行到達補完、本文スニペット再スコアを補完。再スコア候補1203件から公式HTML個別制度ページ・公式制度掲載ページ60件を採用。トップ、カテゴリ、一覧、共通ナビ、議会、計画・報告・実績、相談、イベント、外部制度のみ、同一制度の重複ページ、本文根拠が薄い候補は第2巡候補として保持。"
+      "diffCheck": "pass: git diff --check for ehime-official-coverage-004 target files",
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 22150、officialLinkedActive 22029、manuallyVerifiedActive 22029、愛媛県 localOfficial 320)",
+      "notes": "標準discoverは0件。公式トップ到達、久万高原町・松前町・砥部町・内子町・伊方町の公式カテゴリ/サイト内リンクBFS、本文スニペット再スコアを補完。再スコア候補924件から公式HTML個別制度ページ・公式制度掲載ページ60件を採用。既存の同名松前町（北海道）公式URLは自治体違いとして除外。トップ、カテゴリ、一覧、共通ナビ、議会、計画・報告・実績、相談、イベント、外部制度のみ、同一制度の重複ページ、本文根拠が薄い候補は第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "ehime-official-coverage-004",
-    "municipality": "久万高原町",
-    "shortlist": "愛媛県003で伊予市・四国中央市・西予市・東温市・上島町を確認。次は自治体コード順で38386久万高原町から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、愛媛県公式棚卸し004として38386久万高原町を開始地点に自治体コード順で再開する。想定対象は38386久万高原町・38401松前町・38402砥部町・38422内子町・38442伊方町。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "ehime-official-coverage-005",
+    "municipality": "松野町",
+    "shortlist": "愛媛県004で久万高原町・松前町・砥部町・内子町・伊方町を確認。次は自治体コード順で38484松野町から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、愛媛県公式棚卸し005として38484松野町を開始地点に自治体コード順で再開する。想定対象は38484松野町・38488鬼北町・38506愛南町。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "愛媛県",
     "status": "in-progress-first-pass",
-    "lastBatch": "ehime-official-coverage-003",
-    "notes": "愛媛県公式棚卸し003で38210伊予市・38213四国中央市・38214西予市・38215東温市・38356上島町を確認し、60件を新規採用。次は38386久万高原町から再開する。"
+    "lastBatch": "ehime-official-coverage-004",
+    "notes": "愛媛県公式棚卸し004で38386久万高原町・38401松前町・38402砥部町・38422内子町・38442伊方町を確認し、60件を新規採用。次は38484松野町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
