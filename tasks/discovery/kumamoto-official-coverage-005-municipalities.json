@@ -1,0 +1,11 @@
+{
+  "prefecture": "熊本県",
+  "batch": "kumamoto-official-coverage-005",
+  "municipalities": [
+    { "code": "43404", "name": "菊陽町", "url": "https://www.town.kikuyo.lg.jp/" },
+    { "code": "43423", "name": "南小国町", "url": "https://www.town.minamioguni.lg.jp/top.html" },
+    { "code": "43424", "name": "小国町", "url": "https://www.town.kumamoto-oguni.lg.jp/" },
+    { "code": "43425", "name": "産山村", "url": "https://www.ubuyama-v.jp/" },
+    { "code": "43428", "name": "高森町", "url": "https://www.town.kumamoto-takamori.lg.jp/" }
+  ]
+}
