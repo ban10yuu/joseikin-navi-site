@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-18T04:31:00+09:00",
+  "updatedAt": "2026-07-18T04:55:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "miyazaki-official-coverage-003",
-    "municipality": "三股町・高原町・国富町・綾町・高鍋町",
-    "adopted": 79,
+    "code": "miyazaki-official-coverage-004",
+    "municipality": "新富町・西米良村・木城町・川南町・都農町",
+    "adopted": 60,
     "held": 0,
-    "excluded": 852,
-    "sourceUrlsChecked": 79,
+    "excluded": 154,
+    "sourceUrlsChecked": 60,
     "validation": {
-      "previousMunicipality": "宮崎県公式棚卸し003として45341三股町、45361高原町、45382国富町、45383綾町、45401高鍋町を確認し、79件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and miyazaki-official-coverage-003 discover/build scripts",
+      "previousMunicipality": "宮崎県公式棚卸し004として45402新富町、45403西米良村、45404木城町、45405川南町、45406都農町を確認し、60件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and miyazaki-official-coverage-004 discover/build scripts",
       "json": "pass: checkpoint, candidates, selections, adopted JSON parsed",
-      "addedSlugUniqueness": "pass: 79 added slugs unique and whole dataset duplicate count 0",
-      "urlReachability": "pass: build non200 empty; 79 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/miyazaki-official-coverage-003-url-status.txt",
+      "addedSlugUniqueness": "pass: 60 added slugs unique and whole dataset duplicate count 0",
+      "urlReachability": "pass: build non200 empty; 60 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/miyazaki-official-coverage-004-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: target file git diff --check completed",
+      "diffCheck": "pass: target files git diff --check completed",
       "auditCoverage": "blocked: npm run audit:coverage stops at existing unrelated src/lib/grant-copy.ts sanitizeGrantCopy tags.map TypeError before coverage aggregation",
-      "notes": "公式トップは三股町・高原町・国富町・綾町・高鍋町すべてHTTP 200で確認。sitemap.xmlは三股町・高鍋町が200、高原町・国富町・綾町は404。公式sitemap/カテゴリBFSで931候補（三股町215、高原町111、国富町43、綾町104、高鍋町458）を抽出し、本文スニペット付き再スコアTSVからカテゴリ、効果検証、審査結果、事業者請求様式、重複導線、過年度終了可能性が高い候補を除外。三股町19、高原町25、国富町5、綾町13、高鍋町17を採用。国富町は個別制度ページが少なく、カテゴリ内未分解候補は第2巡台帳扱い。"
+      "notes": "公式トップは新富町・西米良村・木城町・川南町・都農町すべてHTTP 200で確認。sitemap.xmlは新富町・西米良村・木城町・都農町が200、川南町は404。都農町はSPAでHTMLリンク候補が0件だったため、公式RSS/サイト限定検索で記事IDを補完し、町公式 /prd/tno/portal/openapi/v1/article/detail/retrieve から本文を取得して候補化。公式sitemap/カテゴリBFSと補完で214候補を抽出し、本文スニペット付き再スコアからカテゴリ、申請書単体、入札/結果、基金使途・事業概要のみの候補、過年度終了可能性の高い候補を除外。新富町10、西米良村6、木城町3、川南町26、都農町15を採用。"
     }
   },
   "next": {
-    "code": "miyazaki-official-coverage-004",
-    "municipality": "新富町・西米良村・木城町・川南町・都農町",
-    "shortlist": "宮崎県公式棚卸し003で三股町・高原町・国富町・綾町・高鍋町を確認し79件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で45402新富町から再開する。",
-    "instructions": "次回は宮崎県公式棚卸し004として、45402新富町、45403西米良村、45404木城町、45405川南町、45406都農町の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの宮崎県完了行やHTTP 200だけでは完了扱いにしない。"
+    "code": "miyazaki-official-coverage-005",
+    "municipality": "門川町・諸塚村・椎葉村・美郷町・高千穂町",
+    "shortlist": "宮崎県公式棚卸し004で新富町・西米良村・木城町・川南町・都農町を確認し60件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で45421門川町から再開する。",
+    "instructions": "次回は宮崎県公式棚卸し005として、45421門川町、45429諸塚村、45430椎葉村、45431美郷町、45441高千穂町の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの宮崎県完了行やHTTP 200だけでは完了扱いにしない。"
   },
   "prefectureMilestone": {
     "status": "in-progress",
     "prefecture": "miyazaki",
-    "lastBatch": "miyazaki-official-coverage-003",
-    "notes": "宮崎県公式棚卸し003で45341三股町から45401高鍋町まで到達し79制度を採用。全国公式棚卸しは未完了で、次は新富町・西米良村・木城町・川南町・都農町。"
+    "lastBatch": "miyazaki-official-coverage-004",
+    "notes": "宮崎県公式棚卸し004で45402新富町から45406都農町まで到達し60制度を採用。宮崎県001-004累計は20自治体・団体、296制度。全国公式棚卸しは未完了で、次は門川町・諸塚村・椎葉村・美郷町・高千穂町。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

@@ -11607,3 +11607,14 @@
 - メトリクス: 5自治体、79制度採用、一次候補931件、採用率8.5%。宮崎県001-003累計は15自治体・団体、236制度、次の15自治体単位メトリクスの第1集計点。
 - 到達点: 宮崎県は45341三股町から45401高鍋町まで第1巡到達。全国公式棚卸しは未完了。
 - 次回: 宮崎県公式棚卸し004として、新富町・西米良村・木城町・川南町・都農町から再開する。
+
+### 宮崎県公式棚卸し004（45402新富町・45403西米良村・45404木城町・45405川南町・45406都農町）
+
+- 対象公式トップ: 新富町 `https://www.town.shintomi.lg.jp/`、西米良村 `https://www.vill.nishimera.lg.jp/`、木城町 `https://www.town.kijo.lg.jp/`、川南町 `https://www.town.kawaminami.miyazaki.jp/`、都農町 `https://www.town.tsuno.lg.jp/` をHTTP 200で確認。sitemap.xmlは新富町・西米良村・木城町・都農町が200、川南町が404。都農町はSPAで通常HTMLリンク候補が0件だったため、公式RSS/サイト限定検索で記事IDを補完し、町公式 `/prd/tno/portal/openapi/v1/article/detail/retrieve` から本文を取得して候補化。
+- 公式sitemap/カテゴリBFS候補: 214件（新富町70、西米良村12、木城町10、川南町103、都農町19）。title強一致33件。shortlistが150件超のため `tasks/discovery/miyazaki-official-coverage-004-rescored-shortlist.tsv` へ本文スニペット付き再スコアを保存。
+- 採用: 60制度（新富町10、西米良村6、木城町3、川南町26、都農町15）。`miyazaki-official-004-001-2026` から `miyazaki-official-004-060-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、申請書単体、入札/プロポーザル、採択/結果、基金使途・事業概要のみのページ、過年度終了可能性が高いページ、一般案内、重複導線は採用せず、候補JSON/TSVに残置。既存rawの宮崎県完了行やHTTP 200だけでは完了扱いにしていない。
+- 検証: 公式URL 60/60 HTTP 200（`tasks/discovery/miyazaki-official-coverage-004-url-status.txt`）。`node --check`、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体、60制度採用、一次候補214件、採用率28.0%。宮崎県001-004累計は20自治体・団体、296制度、次の15自治体単位メトリクスでは宮崎003-004合算で10自治体139制度。監査は004単位で1回集約予定、commitも004単位で1回予定。
+- 到達点: 宮崎県は45402新富町から45406都農町まで第1巡到達。全国公式棚卸しは未完了。
+- 次回: 宮崎県公式棚卸し005として、門川町・諸塚村・椎葉村・美郷町・高千穂町から再開する。
