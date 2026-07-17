@@ -1,0 +1,11 @@
+{
+  "prefecture": "長崎県",
+  "batch": "nagasaki-official-coverage-003",
+  "municipalities": [
+    { "code": "42212", "name": "西海市", "url": "https://www.city.saikai.nagasaki.jp/" },
+    { "code": "42213", "name": "雲仙市", "url": "https://www.city.unzen.nagasaki.jp/" },
+    { "code": "42214", "name": "南島原市", "url": "https://www.city.minamishimabara.lg.jp/" },
+    { "code": "42307", "name": "長与町", "url": "https://webtown.nagayo.jp/" },
+    { "code": "42308", "name": "時津町", "url": "https://www.town.togitsu.nagasaki.jp/" }
+  ]
+}
