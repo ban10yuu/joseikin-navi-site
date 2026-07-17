@@ -1,0 +1,1127 @@
+const fukuokaOfficial004Grants: Array<{
+  slug: string;
+  title: string;
+  organization: string;
+  maxAmount: string;
+  maxAmountNum: number;
+  category: Grant['category'];
+  relatedCategories?: Grant['relatedCategories'];
+  eligibility: string;
+  applicationPeriod: string;
+  officialUrl: string;
+  sourceName: string;
+}> = [
+  {
+    "slug": "fukuoka-official-004-001-2026",
+    "title": "筑紫野市 ブロック塀等撤去費補助金",
+    "organization": "筑紫野市",
+    "maxAmount": "上限16万円",
+    "maxAmountNum": 160000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "筑紫野市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年1月5日 申請書ダウンロード 公共施設予約システム バスの路線図や時刻表 各種相談窓口 市役所の情報 市役所案内 施設案内 計画・施策 契約・入札情報 職員採用情報 例規集 ＜外部リンク＞ 筑紫野市の情報 市のプロフィール 住居表示 ",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/24/16678.html",
+    "sourceName": "ブロック塀等撤去費補助金"
+  },
+  {
+    "slug": "fukuoka-official-004-002-2026",
+    "title": "筑紫野市 令和8年度子ども会活動補助金および安全共済申請手続きのご案内",
+    "organization": "筑紫野市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "筑紫野市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月8日 申請手続きのご案内 - 筑紫野市ホームページ ページの先頭です",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/36/3630.html",
+    "sourceName": "令和8年度子ども会活動補助金および安全共済申請手続きのご案内"
+  },
+  {
+    "slug": "fukuoka-official-004-003-2026",
+    "title": "筑紫野市 児童扶養手当とは",
+    "organization": "筑紫野市",
+    "maxAmount": "月額​令和8年4月分から令和9年3月分までの手当の月額区分児童1人児童2人目以降全部支給48,050円",
+    "maxAmountNum": 48050,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "筑紫野市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請書ダウンロード 公共施設予約システム バスの路線図や時刻表 各種相談窓口 市役所の情報 市役所案内 施設案内 計画・施策 契約・入札情報 職員採用情報 例規集 ＜外部リンク＞ 筑紫野市の情報 市のプロフィール 住居表示 ",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/49/3302.html",
+    "sourceName": "児童扶養手当とは"
+  },
+  {
+    "slug": "fukuoka-official-004-004-2026",
+    "title": "筑紫野市 児童手当",
+    "organization": "筑紫野市",
+    "maxAmount": "支給額を月1万5千円から3万円",
+    "maxAmountNum": 30000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "筑紫野市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年2月3日 申請書ダウンロード 公共施設予約システム バスの路線図や時刻表 各種相談窓口 市役所の情報 市役所案内 施設案内 計画・施策 契約・入札情報 職員採用情報 例規集 ＜外部リンク＞ 筑紫野市の情報 市のプロフィール 住居表示 ",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/49/2217.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "fukuoka-official-004-005-2026",
+    "title": "筑紫野市 ひとり親家庭等日常生活支援事業",
+    "organization": "筑紫野市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "筑紫野市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年6月1日 申請書ダウンロード 公共施設予約システム バスの路線図や時刻表 各種相談窓口 市役所の情報 市役所案内 施設案内 計画・施策 契約・入札情報 職員採用情報 例規集 ＜外部リンク＞ 筑紫野市の情報 市のプロフィール 住居表示 ",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/49/43271.html",
+    "sourceName": "ひとり親家庭等日常生活支援事業"
+  },
+  {
+    "slug": "fukuoka-official-004-006-2026",
+    "title": "筑紫野市 産後ケア事業",
+    "organization": "筑紫野市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "筑紫野市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月13日 申請書ダウンロード 公共施設予約システム バスの路線図や時刻表 各種相談窓口 市役所の情報 市役所案内 施設案内 計画・施策 契約・入札情報 職員採用情報 例規集 ＜外部リンク＞ 筑紫野市の情報 市のプロフィール 住居表示 ",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/16/26265.html",
+    "sourceName": "産後ケア事業"
+  },
+  {
+    "slug": "fukuoka-official-004-007-2026",
+    "title": "筑紫野市 筑紫野市保育士家賃助成事業",
+    "organization": "筑紫野市",
+    "maxAmount": "補助金額月額最高1万円",
+    "maxAmountNum": 10000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "筑紫野市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年6月26日 申請書ダウンロード 公共施設予約システム バスの路線図や時刻表 各種相談窓口 市役所の情報 市役所案内 施設案内 計画・施策 契約・入札情報 職員採用情報 例規集 ＜外部リンク＞ 筑紫野市の情報 市のプロフィール 住居表示 ",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/49/47870.html",
+    "sourceName": "筑紫野市保育士家賃助成事業"
+  },
+  {
+    "slug": "fukuoka-official-004-008-2026",
+    "title": "筑紫野市 筑紫野市保育士奨学金返済支援事業",
+    "organization": "筑紫野市",
+    "maxAmount": "上限とする（1か月以上休業等により勤務していない場合はその期間を除く）補助金額1カ月当たり1万円",
+    "maxAmountNum": 10000,
+    "category": "education",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "筑紫野市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月26日 申請書ダウンロード 公共施設予約システム バスの路線図や時刻表 各種相談窓口 市役所の情報 市役所案内 施設案内 計画・施策 契約・入札情報 職員採用情報 例規集 ＜外部リンク＞ 筑紫野市の情報 市のプロフィール 住居表示 ",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/49/52077.html",
+    "sourceName": "筑紫野市保育士奨学金返済支援事業"
+  },
+  {
+    "slug": "fukuoka-official-004-009-2026",
+    "title": "筑紫野市 筑紫野市保育士就労支援金支給事業",
+    "organization": "筑紫野市",
+    "maxAmount": "補助金額就労支援金：5万円",
+    "maxAmountNum": 50000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "筑紫野市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年6月26日 支給事業を実施しています - 筑紫野市ホームページ ページの先頭です",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/49/52049.html",
+    "sourceName": "筑紫野市保育士就労支援金支給事業"
+  },
+  {
+    "slug": "fukuoka-official-004-010-2026",
+    "title": "筑紫野市 就学援助（令和8年6月以降）",
+    "organization": "筑紫野市",
+    "maxAmount": "1人増えるごとに、調整額21,300円",
+    "maxAmountNum": 21300,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "筑紫野市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月1日 申請書ダウンロード 公共施設予約システム バスの路線図や時刻表 各種相談窓口 市役所の情報 市役所案内 施設案内 計画・施策 契約・入札情報 職員採用情報 例規集 ＜外部リンク＞ 筑紫野市の情報 市のプロフィール 住居表示 ",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/34/20547.html",
+    "sourceName": "就学援助（令和8年6月以降）"
+  },
+  {
+    "slug": "fukuoka-official-004-011-2026",
+    "title": "筑紫野市 特別支援教育就学奨励制度",
+    "organization": "筑紫野市",
+    "maxAmount": "支給額対象学年支給額学用品費・通学用品購入費全学年5,820円",
+    "maxAmountNum": 5820,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "筑紫野市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月15日 申請書ダウンロード 公共施設予約システム バスの路線図や時刻表 各種相談窓口 市役所の情報 市役所案内 施設案内 計画・施策 契約・入札情報 職員採用情報 例規集 ＜外部リンク＞ 筑紫野市の情報 市のプロフィール 住居表示 ",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/34/3662.html",
+    "sourceName": "特別支援教育就学奨励制度"
+  },
+  {
+    "slug": "fukuoka-official-004-012-2026",
+    "title": "筑紫野市 筑紫野市奨学資金貸与制度",
+    "organization": "筑紫野市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "筑紫野市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年2月1日 申請書ダウンロード 公共施設予約システム バスの路線図や時刻表 各種相談窓口 市役所の情報 市役所案内 施設案内 計画・施策 契約・入札情報 職員採用情報 例規集 ＜外部リンク＞ 筑紫野市の情報 市のプロフィール 住居表示 ",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/34/18242.html",
+    "sourceName": "筑紫野市奨学資金貸与制度"
+  },
+  {
+    "slug": "fukuoka-official-004-013-2026",
+    "title": "筑紫野市 アピアランスケア用品購入費助成",
+    "organization": "筑紫野市",
+    "maxAmount": "年額の合計が235,000円",
+    "maxAmountNum": 235000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "筑紫野市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月28日 申請書ダウンロード 公共施設予約システム バスの路線図や時刻表 各種相談窓口 市役所の情報 市役所案内 施設案内 計画・施策 契約・入札情報 職員採用情報 例規集 ＜外部リンク＞ 筑紫野市の情報 市のプロフィール 住居表示 ",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/15/28572.html",
+    "sourceName": "アピアランスケア用品購入費助成"
+  },
+  {
+    "slug": "fukuoka-official-004-014-2026",
+    "title": "筑紫野市 令和8年度地域公共交通従事者確保支援事業助成金",
+    "organization": "筑紫野市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "筑紫野市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月14日 申請書ダウンロード 公共施設予約システム バスの路線図や時刻表 各種相談窓口 市役所の情報 市役所案内 施設案内 計画・施策 契約・入札情報 職員採用情報 例規集 ＜外部リンク＞ 筑紫野市の情報 市のプロフィール 住居表示 ",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/3/34389.html",
+    "sourceName": "令和8年度地域公共交通従事者確保支援事業助成金"
+  },
+  {
+    "slug": "fukuoka-official-004-015-2026",
+    "title": "筑紫野市 令和8年度経済対策事業住宅改修工事補助金",
+    "organization": "筑紫野市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "筑紫野市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年7月1日 申請を受け付けています",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/31/34651.html",
+    "sourceName": "令和8年度経済対策事業住宅改修工事補助金"
+  },
+  {
+    "slug": "fukuoka-official-004-016-2026",
+    "title": "筑紫野市 住宅性能向上（耐震＋省エネ）改修工事等補助",
+    "organization": "筑紫野市",
+    "maxAmount": "上限額耐震改修工事要する費用の60％相当額で、60万円",
+    "maxAmountNum": 600000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "筑紫野市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年6月22日 申請書ダウンロード 公共施設予約システム バスの路線図や時刻表 各種相談窓口 市役所の情報 市役所案内 施設案内 計画・施策 契約・入札情報 職員採用情報 例規集 ＜外部リンク＞ 筑紫野市の情報 市のプロフィール 住居表示 ",
+    "officialUrl": "https://www.city.chikushino.fukuoka.jp/soshiki/25/28895.html",
+    "sourceName": "住宅性能向上（耐震＋省エネ）改修工事等補助"
+  },
+  {
+    "slug": "fukuoka-official-004-017-2026",
+    "title": "春日市 こども誰でも通園制度（乳児等通園支援事業）",
+    "organization": "春日市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "春日市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "令和8年6月2日 申請から利用までの流れ （1）オンライン申請 利用マニュアルに沿って、こども家庭庁が提供する「こども誰でも通園制度総合支援システム」（通称 つうえんポータル）上で申請します",
+    "officialUrl": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/1016806.html",
+    "sourceName": "こども誰でも通園制度（乳児等通園支援事業）"
+  },
+  {
+    "slug": "fukuoka-official-004-018-2026",
+    "title": "春日市 幼児教育・保育の無償化",
+    "organization": "春日市",
+    "maxAmount": "月額25,700円",
+    "maxAmountNum": 25700,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "春日市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "令和8年7月2日 申請書類を提出してください",
+    "officialUrl": "https://www.city.kasuga.fukuoka.jp/kosodate/kosodate/1006232.html",
+    "sourceName": "幼児教育・保育の無償化"
+  },
+  {
+    "slug": "fukuoka-official-004-019-2026",
+    "title": "春日市 産後ケア事業",
+    "organization": "春日市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "春日市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "令和8年4月14日 提出してください",
+    "officialUrl": "https://www.city.kasuga.fukuoka.jp/kosodate/ninshin/1008415.html",
+    "sourceName": "産後ケア事業"
+  },
+  {
+    "slug": "fukuoka-official-004-020-2026",
+    "title": "春日市 産後ケア事業助成金制度",
+    "organization": "春日市",
+    "maxAmount": "上限額対象世帯宿泊型日帰り型居宅訪問型生活保護・住民税非課税世帯29,555円",
+    "maxAmountNum": 29555,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "春日市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "令和6年4月1日 申請から助成までの流れ 1",
+    "officialUrl": "https://www.city.kasuga.fukuoka.jp/kosodate/ninshin/1014298.html",
+    "sourceName": "産後ケア事業助成金制度"
+  },
+  {
+    "slug": "fukuoka-official-004-021-2026",
+    "title": "春日市 妊婦のための支援給付事業",
+    "organization": "春日市",
+    "maxAmount": "1人につき5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "employment",
+      "living"
+    ],
+    "eligibility": "春日市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和8年7月1日 支給します",
+    "officialUrl": "https://www.city.kasuga.fukuoka.jp/kosodate/ninshin/1015626.html",
+    "sourceName": "妊婦のための支援給付事業"
+  },
+  {
+    "slug": "fukuoka-official-004-022-2026",
+    "title": "春日市 産婦健康診査助成金",
+    "organization": "春日市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [
+      "medical"
+    ],
+    "eligibility": "春日市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "令和6年3月28日 申請に基づき、限度額の範囲内で市が産婦健診の費用を助成する制度です",
+    "officialUrl": "https://www.city.kasuga.fukuoka.jp/kosodate/ninshin/1009458.html",
+    "sourceName": "産婦健康診査助成金"
+  },
+  {
+    "slug": "fukuoka-official-004-023-2026",
+    "title": "春日市 新生児聴覚検査助成金交付制度",
+    "organization": "春日市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "春日市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "令和6年3月28日 交付制度｜春日市 当ウェブサイトではjavascriptを使用しています",
+    "officialUrl": "https://www.city.kasuga.fukuoka.jp/kosodate/ninshin/1009987.html",
+    "sourceName": "新生児聴覚検査助成金交付制度"
+  },
+  {
+    "slug": "fukuoka-official-004-024-2026",
+    "title": "春日市 春日市立学校大会等参加補助金",
+    "organization": "春日市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "春日市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "令和8年7月10日 申請手続きについては次のとおりです",
+    "officialUrl": "https://www.city.kasuga.fukuoka.jp/kosodate/eschool/1017359.html",
+    "sourceName": "春日市立学校大会等参加補助金"
+  },
+  {
+    "slug": "fukuoka-official-004-025-2026",
+    "title": "春日市 公金受取口座を利用できる給付金など",
+    "organization": "春日市",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "春日市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "令和7年10月28日 申請において、申請書への口座情報の記載や通帳の写しなどの添付、行政機関における口座情報の確認作業などが不要になります",
+    "officialUrl": "https://www.city.kasuga.fukuoka.jp/kurashi/mynumber/1010942.html",
+    "sourceName": "公金受取口座を利用できる給付金など"
+  },
+  {
+    "slug": "fukuoka-official-004-026-2026",
+    "title": "春日市 医療費の一部助成",
+    "organization": "春日市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "春日市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和8年6月30日 医療費の一部助成｜春日市 当ウェブサイトではjavascriptを使用しています。 javascriptの使用を有効にしなければ、一部の機能が正確に動作しない恐れがあります。お手数ですがjavascriptの使用を有効にしてください。 本文",
+    "officialUrl": "https://www.city.kasuga.fukuoka.jp/kurashi/hoken/iryouhi/index.html",
+    "sourceName": "医療費の一部助成"
+  },
+  {
+    "slug": "fukuoka-official-004-027-2026",
+    "title": "春日市 年金・手当・給付金",
+    "organization": "春日市",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "春日市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "令和8年6月30日 年金・手当・給付金｜春日市 当ウェブサイトではjavascriptを使用しています。 javascriptの使用を有効にしなければ、一部の機能が正確に動作しない恐れがあります。お手数ですがjavascriptの使用を有効にしてください。 本",
+    "officialUrl": "https://www.city.kasuga.fukuoka.jp/kosodate/shougai/nenkin/index.html",
+    "sourceName": "年金・手当・給付金"
+  },
+  {
+    "slug": "fukuoka-official-004-028-2026",
+    "title": "春日市 就学援助・貸付",
+    "organization": "春日市",
+    "maxAmount": "公式ページ記載の貸付額・貸付条件に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "春日市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "令和8年6月30日 募集 春日市学校人材登録フォーム 部活動指導員人材バンク 福岡県公立小中学校における講師登録 教育委員会 春日市教育委員会 春日市総合教育会議 春日市制服循環プロジェクト（制服のリサイクル活動） 印刷 大きな文字で印刷 表示",
+    "officialUrl": "https://www.city.kasuga.fukuoka.jp/kosodate/eschool/shuugaku/index.html",
+    "sourceName": "就学援助・貸付"
+  },
+  {
+    "slug": "fukuoka-official-004-029-2026",
+    "title": "大野城市 妊婦健康診査の助成金申請",
+    "organization": "大野城市",
+    "maxAmount": "上限金額基本健診・妊娠初期血液検査・超音波検査1回21,080円",
+    "maxAmountNum": 21080,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "大野城市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月20日 申請 / 子育て支援サイト / 大野城市役所公式ホームページ ヘッダーをスキップ 本文へジャンプ 行政TOP 背景色変更 文字サイズ変更 やさしい日本語 非表示 音声読み上げ Language さがす Languages L",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037599/index.html",
+    "sourceName": "妊婦健康診査の助成金申請"
+  },
+  {
+    "slug": "fukuoka-official-004-030-2026",
+    "title": "大野城市 妊娠判定受診費用助成事業",
+    "organization": "大野城市",
+    "maxAmount": "上限額は10,000円",
+    "maxAmountNum": 10000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大野城市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年1月24日 申請から助成までの流れ 産科医療機関を受診し、妊娠の判定を受ける",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037596/index.html",
+    "sourceName": "妊娠判定受診費用助成事業"
+  },
+  {
+    "slug": "fukuoka-official-004-031-2026",
+    "title": "大野城市 多胎妊娠の妊婦健康診査費用助成",
+    "organization": "大野城市",
+    "maxAmount": "上限額は、5,100円",
+    "maxAmountNum": 5100,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "大野城市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年12月11日 支給上限額は、5,100円です",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037605/index.html",
+    "sourceName": "多胎妊娠の妊婦健康診査費用助成"
+  },
+  {
+    "slug": "fukuoka-official-004-032-2026",
+    "title": "大野城市 こども誰でも通園制度",
+    "organization": "大野城市",
+    "maxAmount": "1人当たり月10時間まで利用料金1時間当たり300円",
+    "maxAmountNum": 300,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "大野城市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年1月26日 こども誰でも通園制度 / 子育て支援サイト / 大野城市役所公式ホームページ ヘッダーをスキップ 本文へジャンプ 行政TOP 背景色変更 文字サイズ変更 やさしい日本語 非表示 音声読み上げ Language さがす Languages L",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037631/index.html",
+    "sourceName": "こども誰でも通園制度"
+  },
+  {
+    "slug": "fukuoka-official-004-033-2026",
+    "title": "大野城市 就学援助について（令和8年度）",
+    "organization": "大野城市",
+    "maxAmount": "年額11,630円",
+    "maxAmountNum": 11630,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大野城市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月1日 申請をオンラインでも受け付けます",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0036424/index.html",
+    "sourceName": "就学援助について（令和8年度）"
+  },
+  {
+    "slug": "fukuoka-official-004-034-2026",
+    "title": "大野城市 大野城市の学校給食無償化",
+    "organization": "大野城市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "大野城市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月18日 提出してください",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0036434/index.html",
+    "sourceName": "大野城市の学校給食無償化"
+  },
+  {
+    "slug": "fukuoka-official-004-035-2026",
+    "title": "大野城市 未熟児養育医療給付制度",
+    "organization": "大野城市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "大野城市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年10月1日 申請者 対象児の家族 申請の期限 医療の給付が必要になった日から30日以内 申請に必要なもの 養育医療給付申請書（PDF：120.3キロバイト） 注： 【記入例】養育医療給付申請書（PDF：145.1キロバイト） を参照して",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037598/index.html",
+    "sourceName": "未熟児養育医療給付制度"
+  },
+  {
+    "slug": "fukuoka-official-004-036-2026",
+    "title": "大野城市 市奨学資金制度",
+    "organization": "大野城市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大野城市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月1日 受付を開始します】市奨学資金制度 / 子育て支援サイト / 大野城市役所公式ホームページ ヘッダーをスキップ 本文へジャンプ 行政TOP 背景色変更 文字サイズ変更 やさしい日本語 非表示 音声読み上げ Language さ",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0036425/index.html",
+    "sourceName": "市奨学資金制度"
+  },
+  {
+    "slug": "fukuoka-official-004-037-2026",
+    "title": "大野城市 ひとり親家庭等日常生活支援事業",
+    "organization": "大野城市",
+    "maxAmount": "1人・1時間当たり）子育て支援（利用者宅以外の場所で実施）生活援助（利用者宅で実施）生活保護世帯市町村民税非課税世帯なし0円",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "大野城市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年2月24日 申請手順 その他、留意事項 お問い合わせ先 ひとり親家庭等の保護者が、冠婚葬祭や病気などで子を看られない時に、支援員が子の簡単なお世話を行う見守り支援です",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037614/index.html",
+    "sourceName": "ひとり親家庭等日常生活支援事業"
+  },
+  {
+    "slug": "fukuoka-official-004-038-2026",
+    "title": "大野城市 第3子以降の保育料無償化",
+    "organization": "大野城市",
+    "maxAmount": "月額）届出保育施設0～2歳児42,000円",
+    "maxAmountNum": 42000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "大野城市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月23日 申請は必要ありません",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0038104/index.html",
+    "sourceName": "第3子以降の保育料無償化"
+  },
+  {
+    "slug": "fukuoka-official-004-039-2026",
+    "title": "大野城市 県外定期予防接種の助成金申請",
+    "organization": "大野城市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大野城市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請 / 子育て支援サイト / 大野城市役所公式ホームページ ヘッダーをスキップ 本文へジャンプ 行政TOP 背景色変更 文字サイズ変更 やさしい日本語 非表示 音声読み上げ Language さがす Languages L",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037583/index.html",
+    "sourceName": "県外定期予防接種の助成金申請"
+  },
+  {
+    "slug": "fukuoka-official-004-040-2026",
+    "title": "大野城市 ひとり親家庭等医療費支給制度",
+    "organization": "大野城市",
+    "maxAmount": "上限）入院(小・中学生)無料(高校生以上)500円",
+    "maxAmountNum": 500,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "大野城市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年12月2日 支給制度 / 子育て支援サイト / 大野城市役所公式ホームページ ヘッダーをスキップ 本文へジャンプ 行政TOP 背景色変更 文字サイズ変更 やさしい日本語 非表示 音声読み上げ Language さがす Languages",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0038027/index.html",
+    "sourceName": "ひとり親家庭等医療費支給制度"
+  },
+  {
+    "slug": "fukuoka-official-004-041-2026",
+    "title": "大野城市 特別児童扶養手当",
+    "organization": "大野城市",
+    "maxAmount": "月額（令和7年4月分から）児童一人当たり1級：56,800円",
+    "maxAmountNum": 56800,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大野城市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年2月24日 申請すれば申請の翌月分から手当を受けることができます",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037622/index.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "fukuoka-official-004-042-2026",
+    "title": "大野城市 高等職業訓練促進給付金",
+    "organization": "大野城市",
+    "maxAmount": "支給額市町村民税課税世帯：月額70,500円",
+    "maxAmountNum": 70500,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大野城市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 支給します",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037627/index.html",
+    "sourceName": "高等職業訓練促進給付金"
+  },
+  {
+    "slug": "fukuoka-official-004-043-2026",
+    "title": "大野城市 子ども医療助成",
+    "organization": "大野城市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "大野城市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年5月22日 申請により助成額を支給します",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0036990/index.html",
+    "sourceName": "子ども医療助成"
+  },
+  {
+    "slug": "fukuoka-official-004-044-2026",
+    "title": "大野城市 不育症・不妊治療費の助成制度",
+    "organization": "大野城市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大野城市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年3月24日 不育症・不妊治療費の助成制度について / 子育て支援サイト / 大野城市役所公式ホームページ ヘッダーをスキップ 本文へジャンプ 行政TOP 背景色変更 文字サイズ変更 やさしい日本語 非表示 音声読み上げ Language さがす Lan",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0037587/index.html",
+    "sourceName": "不育症・不妊治療費の助成制度"
+  },
+  {
+    "slug": "fukuoka-official-004-045-2026",
+    "title": "大野城市 大野城市保育士就職支援給付金制度",
+    "organization": "大野城市",
+    "maxAmount": "20万円を支給",
+    "maxAmountNum": 200000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "大野城市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月26日 支給します",
+    "officialUrl": "https://www.city.onojo.fukuoka.jp/kosodate/kiji0038802/index.html",
+    "sourceName": "大野城市保育士就職支援給付金制度"
+  },
+  {
+    "slug": "fukuoka-official-004-046-2026",
+    "title": "宗像市 児童手当",
+    "organization": "宗像市",
+    "maxAmount": "支給額3歳未満：月額15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "宗像市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月9日 申請書様式 税金 税に関するお知らせ 税の証明 軽自動車税 個人の住民税、法人市民税 固定資産税・都市計画税 市税の納付 公売 公示送達 ごみ・環境・脱炭素 ごみ・リサイクルに関するお知らせ ごみ出しナビ 家庭系ごみ 事業系",
+    "officialUrl": "https://www.city.munakata.lg.jp/kiji0032875/index.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "fukuoka-official-004-047-2026",
+    "title": "宗像市 就学援助（小・中・義務教育学校）",
+    "organization": "宗像市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "宗像市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "令和8年6月8日 申請受付開始】 / 福岡県宗像市公式サイト ヘッダーをスキップ 本文へジャンプ Languages 閲覧補助 さがす MENU くらし・手続き 子育て・教育 健康・医療・福祉 観光・文化・スポーツ しごと・産業 市政 届出・",
+    "officialUrl": "https://www.city.munakata.lg.jp/kiji0034018/index.html",
+    "sourceName": "就学援助（小・中・義務教育学校）"
+  },
+  {
+    "slug": "fukuoka-official-004-048-2026",
+    "title": "宗像市 就学援助 入学前支給",
+    "organization": "宗像市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "宗像市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2024年9月27日 支給」 申請受付【令和8年1月受付開始】 / 福岡県宗像市公式サイト ヘッダーをスキップ 本文へジャンプ Languages 閲覧補助 さがす MENU くらし・手続き 子育て・教育 健康・医療・福祉 観光・文化・スポーツ ",
+    "officialUrl": "https://www.city.munakata.lg.jp/kiji0034019/index.html",
+    "sourceName": "就学援助 入学前支給"
+  },
+  {
+    "slug": "fukuoka-official-004-049-2026",
+    "title": "宗像市 高等学校等奨学金",
+    "organization": "宗像市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "宗像市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "令和8年6月8日 申請受付開始】 / 福岡県宗像市公式サイト ヘッダーをスキップ 本文へジャンプ Languages 閲覧補助 さがす MENU くらし・手続き 子育て・教育 健康・医療・福祉 観光・文化・スポーツ しごと・産業 市政 届出・",
+    "officialUrl": "https://www.city.munakata.lg.jp/kiji0034017/index.html",
+    "sourceName": "高等学校等奨学金"
+  },
+  {
+    "slug": "fukuoka-official-004-050-2026",
+    "title": "宗像市 がん患者への医療用ウィッグ等購入費用助成",
+    "organization": "宗像市",
+    "maxAmount": "上限額：2万円",
+    "maxAmountNum": 20000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "宗像市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年3月27日 申請書様式 税金 税に関するお知らせ 税の証明 軽自動車税 個人の住民税、法人市民税 固定資産税・都市計画税 市税の納付 公売 公示送達 ごみ・環境・脱炭素 ごみ・リサイクルに関するお知らせ ごみ出しナビ 家庭系ごみ 事業系",
+    "officialUrl": "https://www.city.munakata.lg.jp/kiji0031718/index.html",
+    "sourceName": "がん患者への医療用ウィッグ等購入費用助成"
+  },
+  {
+    "slug": "fukuoka-official-004-051-2026",
+    "title": "宗像市 小児・AYA世代がん患者在宅療養生活支援事業",
+    "organization": "宗像市",
+    "maxAmount": "助成額1か月あたりのサービス利用料に対し、上限6万円",
+    "maxAmountNum": 60000,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "宗像市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年4月1日 申請書様式 税金 税に関するお知らせ 税の証明 軽自動車税 個人の住民税、法人市民税 固定資産税・都市計画税 市税の納付 公売 公示送達 ごみ・環境・脱炭素 ごみ・リサイクルに関するお知らせ ごみ出しナビ 家庭系ごみ 事業系",
+    "officialUrl": "https://www.city.munakata.lg.jp/kiji0031717/index.html",
+    "sourceName": "小児・AYA世代がん患者在宅療養生活支援事業"
+  },
+  {
+    "slug": "fukuoka-official-004-052-2026",
+    "title": "宗像市 宗像市骨髄等移植ドナー助成金",
+    "organization": "宗像市",
+    "maxAmount": "20万円を限度",
+    "maxAmountNum": 200000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "宗像市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2022年4月1日 申請書様式 税金 税に関するお知らせ 税の証明 軽自動車税 個人の住民税、法人市民税 固定資産税・都市計画税 市税の納付 公売 公示送達 ごみ・環境・脱炭素 ごみ・リサイクルに関するお知らせ ごみ出しナビ 家庭系ごみ 事業系",
+    "officialUrl": "https://www.city.munakata.lg.jp/kiji0031724/index.html",
+    "sourceName": "宗像市骨髄等移植ドナー助成金"
+  },
+  {
+    "slug": "fukuoka-official-004-053-2026",
+    "title": "宗像市 特別障害者手当・障害児福祉手当・経過的福祉手当",
+    "organization": "宗像市",
+    "maxAmount": "月額区分改定前（令和7年4月～）改定後（令和8年4月～）特別障害者手当29,590円",
+    "maxAmountNum": 29590,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "宗像市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月9日 申請書様式 税金 税に関するお知らせ 税の証明 軽自動車税 個人の住民税、法人市民税 固定資産税・都市計画税 市税の納付 公売 公示送達 ごみ・環境・脱炭素 ごみ・リサイクルに関するお知らせ ごみ出しナビ 家庭系ごみ 事業系",
+    "officialUrl": "https://www.city.munakata.lg.jp/kiji0031762/index.html",
+    "sourceName": "特別障害者手当・障害児福祉手当・経過的福祉手当"
+  },
+  {
+    "slug": "fukuoka-official-004-054-2026",
+    "title": "宗像市 県腎臓疾患患者福祉給付金申請",
+    "organization": "宗像市",
+    "maxAmount": "月額2,000円",
+    "maxAmountNum": 2000,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "宗像市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年2月2日 申請 / 福岡県宗像市公式サイト ヘッダーをスキップ 本文へジャンプ Languages 閲覧補助 さがす MENU くらし・手続き 子育て・教育 健康・医療・福祉 観光・文化・スポーツ しごと・産業 市政 届出・各種証明 ",
+    "officialUrl": "https://www.city.munakata.lg.jp/kiji0031764/index.html",
+    "sourceName": "県腎臓疾患患者福祉給付金申請"
+  },
+  {
+    "slug": "fukuoka-official-004-055-2026",
+    "title": "宗像市 令和8年度宗像市ふるさと寄付活用事業者応援補助金",
+    "organization": "宗像市",
+    "maxAmount": "上限20万円",
+    "maxAmountNum": 200000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "宗像市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年6月1日 申請書様式 税金 税に関するお知らせ 税の証明 軽自動車税 個人の住民税、法人市民税 固定資産税・都市計画税 市税の納付 公売 公示送達 ごみ・環境・脱炭素 ごみ・リサイクルに関するお知らせ ごみ出しナビ 家庭系ごみ 事業系",
+    "officialUrl": "https://www.city.munakata.lg.jp/kiji0034109/index.html",
+    "sourceName": "令和8年度宗像市ふるさと寄付活用事業者応援補助金"
+  },
+  {
+    "slug": "fukuoka-official-004-056-2026",
+    "title": "宗像市 食のまち宗像推進補助金",
+    "organization": "宗像市",
+    "maxAmount": "上限額補助率補助上限額補助対象経費の2分の120万円",
+    "maxAmountNum": 200000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "宗像市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月1日 申請書様式 税金 税に関するお知らせ 税の証明 軽自動車税 個人の住民税、法人市民税 固定資産税・都市計画税 市税の納付 公売 公示送達 ごみ・環境・脱炭素 ごみ・リサイクルに関するお知らせ ごみ出しナビ 家庭系ごみ 事業系",
+    "officialUrl": "https://www.city.munakata.lg.jp/kiji0034118/index.html",
+    "sourceName": "食のまち宗像推進補助金"
+  },
+  {
+    "slug": "fukuoka-official-004-057-2026",
+    "title": "宗像市 宗像市がんばる中小企業者応援補助金",
+    "organization": "宗像市",
+    "maxAmount": "限度額に追加で10万円",
+    "maxAmountNum": 100000,
+    "category": "employment",
+    "relatedCategories": [
+      "medical",
+      "living"
+    ],
+    "eligibility": "宗像市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年6月1日 申請書様式 税金 税に関するお知らせ 税の証明 軽自動車税 個人の住民税、法人市民税 固定資産税・都市計画税 市税の納付 公売 公示送達 ごみ・環境・脱炭素 ごみ・リサイクルに関するお知らせ ごみ出しナビ 家庭系ごみ 事業系",
+    "officialUrl": "https://www.city.munakata.lg.jp/kiji0034119/index.html",
+    "sourceName": "宗像市がんばる中小企業者応援補助金"
+  },
+  {
+    "slug": "fukuoka-official-004-058-2026",
+    "title": "宗像市 竹の粉砕処分の経費補助",
+    "organization": "宗像市",
+    "maxAmount": "補助金額運搬運転操作の委任に要した費用の9割を補助利用料金補助金額実質負担額1日あたり84,700円",
+    "maxAmountNum": 84700,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "宗像市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年4月11日 申請書様式 税金 税に関するお知らせ 税の証明 軽自動車税 個人の住民税、法人市民税 固定資産税・都市計画税 市税の納付 公売 公示送達 ごみ・環境・脱炭素 ごみ・リサイクルに関するお知らせ ごみ出しナビ 家庭系ごみ 事業系",
+    "officialUrl": "https://www.city.munakata.lg.jp/kiji0034136/index.html",
+    "sourceName": "竹の粉砕処分の経費補助"
+  },
+  {
+    "slug": "fukuoka-official-004-059-2026",
+    "title": "宗像市 多面的機能支払交付金",
+    "organization": "宗像市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "宗像市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年3月22日 交付金について / 福岡県宗像市公式サイト ヘッダーをスキップ 本文へジャンプ Languages 閲覧補助 さがす MENU くらし・手続き 子育て・教育 健康・医療・福祉 観光・文化・スポーツ しごと・産業 市政 届出・",
+    "officialUrl": "https://www.city.munakata.lg.jp/kiji0034145/index.html",
+    "sourceName": "多面的機能支払交付金"
+  },
+  {
+    "slug": "fukuoka-official-004-060-2026",
+    "title": "宗像市 令和8年度文化芸術活動事業補助金",
+    "organization": "宗像市",
+    "maxAmount": "補助金額最大70万円",
+    "maxAmountNum": 700000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "宗像市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月3日 申請書様式 税金 税に関するお知らせ 税の証明 軽自動車税 個人の住民税、法人市民税 固定資産税・都市計画税 市税の納付 公売 公示送達 ごみ・環境・脱炭素 ごみ・リサイクルに関するお知らせ ごみ出しナビ 家庭系ごみ 事業系",
+    "officialUrl": "https://www.city.munakata.lg.jp/kiji0031463/index.html",
+    "sourceName": "令和8年度文化芸術活動事業補助金"
+  },
+  {
+    "slug": "fukuoka-official-004-061-2026",
+    "title": "太宰府市 生ごみ処理機購入費補助金",
+    "organization": "太宰府市",
+    "maxAmount": "補助額購入額の2分の1(消費税額を含む)（注意）ただし、20,000円",
+    "maxAmountNum": 20000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "太宰府市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月15日 交付しています",
+    "officialUrl": "https://www.city.dazaifu.lg.jp/soshiki/10/3634.html",
+    "sourceName": "生ごみ処理機購入費補助金"
+  },
+  {
+    "slug": "fukuoka-official-004-062-2026",
+    "title": "太宰府市 福祉タクシー券交付",
+    "organization": "太宰府市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "太宰府市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月1日 交付しています - 福岡県太宰府市公式ホームページ ページの先頭です",
+    "officialUrl": "https://www.city.dazaifu.lg.jp/soshiki/13/3040.html",
+    "sourceName": "福祉タクシー券交付"
+  },
+  {
+    "slug": "fukuoka-official-004-063-2026",
+    "title": "太宰府市 第3子以降の保育料無償化",
+    "organization": "太宰府市",
+    "maxAmount": "上限額施設の種類補助上限額届出（認可外）保育施設月額42,000円",
+    "maxAmountNum": 42000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "太宰府市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年5月13日 申請・請求手続きは必要ありません",
+    "officialUrl": "https://www.city.dazaifu.lg.jp/soshiki/16/43934.html",
+    "sourceName": "第3子以降の保育料無償化"
+  },
+  {
+    "slug": "fukuoka-official-004-064-2026",
+    "title": "太宰府市 児童手当",
+    "organization": "太宰府市",
+    "maxAmount": "支給額対象児童1人あたりの支給額年齢月額第1子・2子3歳未満（3歳の誕生日の月まで）15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "太宰府市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年6月10日 支給することで、家庭等での生活の安定に貢献するとともに、次代の社会を担う児童の健やかな成長に役立てることを目的としています",
+    "officialUrl": "https://www.city.dazaifu.lg.jp/site/navi/1700.html",
+    "sourceName": "児童手当"
+  },
+  {
+    "slug": "fukuoka-official-004-065-2026",
+    "title": "太宰府市 妊婦支援給付金事業",
+    "organization": "太宰府市",
+    "maxAmount": "支給額【1回目】：5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "employment",
+      "living"
+    ],
+    "eligibility": "太宰府市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 支給回数・支給額 【1回目】：5万円（妊娠1回につき） ※母子健康手帳交付前に流産となった場合でも、給付の対象となります",
+    "officialUrl": "https://www.city.dazaifu.lg.jp/soshiki/18/26891.html",
+    "sourceName": "妊婦支援給付金事業"
+  },
+  {
+    "slug": "fukuoka-official-004-066-2026",
+    "title": "太宰府市 児童扶養手当",
+    "organization": "太宰府市",
+    "maxAmount": "限度額表（令和６年１１月分以降）扶養親族等の数請求者本人全部支給(円)請求者本人一部支給(円)孤児等養育者配偶者扶養義務者(円)0人690,000円",
+    "maxAmountNum": 690000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "太宰府市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月21日 支給する制度です",
+    "officialUrl": "https://www.city.dazaifu.lg.jp/site/navi/1702.html",
+    "sourceName": "児童扶養手当"
+  },
+  {
+    "slug": "fukuoka-official-004-067-2026",
+    "title": "太宰府市 ひとり親家庭等日常生活支援事業",
+    "organization": "太宰府市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "太宰府市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 申請書 [PDFファイル／99KB] (2)派遣申請書 [PDFファイル／120KB] 皆さまのご意見をお聞かせください お求めの情報が充分掲載されてましたでしょうか？ 十分だった 普通 情報が足りない ページの構成や内容、",
+    "officialUrl": "https://www.city.dazaifu.lg.jp/site/navi/1199.html",
+    "sourceName": "ひとり親家庭等日常生活支援事業"
+  },
+  {
+    "slug": "fukuoka-official-004-068-2026",
+    "title": "太宰府市 養育費の確保支援",
+    "organization": "太宰府市",
+    "maxAmount": "補助額対象経費の全額（上限3万円",
+    "maxAmountNum": 30000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "太宰府市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2023年4月1日 交付します",
+    "officialUrl": "https://www.city.dazaifu.lg.jp/soshiki/16/27179.html",
+    "sourceName": "養育費の確保支援"
+  },
+  {
+    "slug": "fukuoka-official-004-069-2026",
+    "title": "太宰府市 高等職業訓練促進給付金",
+    "organization": "太宰府市",
+    "maxAmount": "月額70,500円",
+    "maxAmountNum": 70500,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "太宰府市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2021年8月31日 支給します - 福岡県太宰府市公式ホームページ ページの先頭です",
+    "officialUrl": "https://www.city.dazaifu.lg.jp/site/navi/3406.html",
+    "sourceName": "高等職業訓練促進給付金"
+  },
+  {
+    "slug": "fukuoka-official-004-070-2026",
+    "title": "太宰府市 自立支援教育訓練給付金",
+    "organization": "太宰府市",
+    "maxAmount": "支給額受講料の6割（上限200,000円",
+    "maxAmountNum": 200000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "太宰府市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2021年8月31日 支給を受けたことがないこと 対象講座 雇用保険法の規定により厚生労働大臣が指定する教育訓練給付金の対象講座 支給額 受講料の6割（上限200,000円） 受講料の6割相当額が12,000円以下の場合は対象となりません",
+    "officialUrl": "https://www.city.dazaifu.lg.jp/soshiki/16/3163.html",
+    "sourceName": "自立支援教育訓練給付金"
+  },
+  {
+    "slug": "fukuoka-official-004-071-2026",
+    "title": "太宰府市 子ども医療制度",
+    "organization": "太宰府市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "太宰府市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年10月1日 申請手続き 出生や転入の際に、新規申請する時は以下の書類が必要です",
+    "officialUrl": "https://www.city.dazaifu.lg.jp/site/navi/2293.html",
+    "sourceName": "子ども医療制度"
+  },
+  {
+    "slug": "fukuoka-official-004-072-2026",
+    "title": "太宰府市 ひとり親家庭等医療制度",
+    "organization": "太宰府市",
+    "maxAmount": "上限）入院1日当たり500円",
+    "maxAmountNum": 500,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "太宰府市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年10月1日 申請手続き 申請には、次の書類が必要です",
+    "officialUrl": "https://www.city.dazaifu.lg.jp/site/navi/1198.html",
+    "sourceName": "ひとり親家庭等医療制度"
+  },
+  {
+    "slug": "fukuoka-official-004-073-2026",
+    "title": "太宰府市 紙おむつ給付サービス事業",
+    "organization": "太宰府市",
+    "maxAmount": "月額）4から5段階の人：3,000円",
+    "maxAmountNum": 3000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "太宰府市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請時に配達業者と商品を希望することができます",
+    "officialUrl": "https://www.city.dazaifu.lg.jp/site/navi/3120.html",
+    "sourceName": "紙おむつ給付サービス事業"
+  },
+  {
+    "slug": "fukuoka-official-004-074-2026",
+    "title": "太宰府市 令和8年度ブロック塀等撤去促進事業補助金",
+    "organization": "太宰府市",
+    "maxAmount": "補助金額ブロック塀等撤去費用の3分の2（上限16万円",
+    "maxAmountNum": 160000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "太宰府市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月20日 申請を受付します - 福岡県太宰府市公式ホームページ ページの先頭です",
+    "officialUrl": "https://www.city.dazaifu.lg.jp/soshiki/20/3502.html",
+    "sourceName": "令和8年度ブロック塀等撤去促進事業補助金"
+  },
+  {
+    "slug": "fukuoka-official-004-075-2026",
+    "title": "太宰府市 令和8年度木造戸建て住宅性能向上改修等補助金",
+    "organization": "太宰府市",
+    "maxAmount": "補助金額A.性能向上改修工事耐震改修工事と省エネ改修工事を合わせて上限75万円",
+    "maxAmountNum": 750000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "太宰府市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年4月20日 申請を受付します - 福岡県太宰府市公式ホームページ ページの先頭です",
+    "officialUrl": "https://www.city.dazaifu.lg.jp/soshiki/20/3512.html",
+    "sourceName": "令和8年度木造戸建て住宅性能向上改修等補助金"
+  }
+];

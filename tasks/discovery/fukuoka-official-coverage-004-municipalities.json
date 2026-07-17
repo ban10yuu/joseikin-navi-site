@@ -1,0 +1,11 @@
+{
+  "prefecture": "福岡県",
+  "batch": "fukuoka-official-coverage-004",
+  "municipalities": [
+    { "code": "40217", "name": "筑紫野市", "url": "https://www.city.chikushino.fukuoka.jp/" },
+    { "code": "40218", "name": "春日市", "url": "https://www.city.kasuga.fukuoka.jp/" },
+    { "code": "40219", "name": "大野城市", "url": "https://www.city.onojo.fukuoka.jp/" },
+    { "code": "40220", "name": "宗像市", "url": "https://www.city.munakata.lg.jp/" },
+    { "code": "40221", "name": "太宰府市", "url": "https://www.city.dazaifu.lg.jp/" }
+  ]
+}
