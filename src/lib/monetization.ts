@@ -20,6 +20,7 @@ export interface MonetizationContext {
   indexable?: boolean;
   hasOfficialSource?: boolean;
   sensitive?: boolean;
+  placementMode?: 'contextual' | 'allGrantDetails';
   limit?: number;
 }
 
@@ -97,9 +98,10 @@ export function getEligibleAffiliateOffers(
   context: MonetizationContext,
   now = new Date(),
 ): AffiliateOffer[] {
-  if (!context.monetizationAllowed) return [];
-  if (context.sensitive || isSensitiveAffiliateContext(context)) return [];
-  if (context.pageType === 'grant') {
+  const isAllGrantDetails = context.pageType === 'grant' && context.placementMode === 'allGrantDetails';
+  if (!isAllGrantDetails && !context.monetizationAllowed) return [];
+  if (!isAllGrantDetails && (context.sensitive || isSensitiveAffiliateContext(context))) return [];
+  if (context.pageType === 'grant' && !isAllGrantDetails) {
     if (!context.audiences.some((audience) => BUSINESS_AUDIENCES.has(audience))) return [];
     if (!context.indexable || !context.hasOfficialSource) return [];
     if (!context.status || !['open', 'scheduled', 'closingSoon'].includes(context.status)) return [];
@@ -111,10 +113,10 @@ export function getEligibleAffiliateOffers(
   const scored = offers
     .filter((offer) => isAffiliateOfferPublishable(offer, now))
     .filter((offer) => offer.allowedPageTypes.includes(context.pageType))
-    .filter((offer) => offer.audiences.length === 0 || intersects(offer.audiences, context.audiences))
-    .filter((offer) => offer.intents.length > 0 && intersects(offer.intents, context.intents))
-    .filter((offer) => offer.allowedPurposes.length === 0 || intersects(offer.allowedPurposes, context.purposes))
-    .filter((offer) => !intersects(offer.blockedPurposes, context.purposes))
+    .filter((offer) => isAllGrantDetails || offer.audiences.length === 0 || intersects(offer.audiences, context.audiences))
+    .filter((offer) => isAllGrantDetails || (offer.intents.length > 0 && intersects(offer.intents, context.intents)))
+    .filter((offer) => isAllGrantDetails || offer.allowedPurposes.length === 0 || intersects(offer.allowedPurposes, context.purposes))
+    .filter((offer) => isAllGrantDetails || !intersects(offer.blockedPurposes, context.purposes))
     .map((offer) => ({
       offer,
       audienceScore: offer.audiences.filter((item) => context.audiences.includes(item)).length,

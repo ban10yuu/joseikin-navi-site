@@ -85,12 +85,12 @@ describe('affiliate offers', () => {
     assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, status: 'open' }, new Date('2026-07-13')).map((item) => item.id), [offer.id]);
   });
 
-  it('旧全詳細バイパスを指定しても個人・センシティブ・終了制度を通さない', () => {
+  it('全詳細配置では個人・センシティブ・終了・確認待ちでも公開可能な広告を返す', () => {
     const result = getEligibleAffiliateOffers([offer], {
       ...context, audiences: ['family'], purposes: ['medical'], intents: [], monetizationAllowed: false,
       status: 'closed', indexable: false, hasOfficialSource: false, placementMode: 'allGrantDetails', limit: 2,
     }, new Date('2026-07-13'));
-    assert.deepEqual(result, []);
+    assert.deepEqual(result.map((item) => item.id), [offer.id]);
   });
 
   it('副目的にセンシティブ目的を1つでも含む制度を拒否する', () => {

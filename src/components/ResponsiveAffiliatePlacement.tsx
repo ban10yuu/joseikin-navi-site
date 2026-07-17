@@ -14,6 +14,8 @@ interface ResponsiveAffiliatePlacementProps {
   purpose?: Purpose;
   className?: string;
   expandAt?: 1024 | 1200;
+  heading?: string;
+  description?: string;
 }
 
 export default function ResponsiveAffiliatePlacement({
@@ -25,6 +27,8 @@ export default function ResponsiveAffiliatePlacement({
   purpose,
   className = '',
   expandAt = 1200,
+  heading = '申請準備に関連するサービス',
+  description = '民間サービスの広告です。制度の申請や採択に必須ではありません。',
 }: ResponsiveAffiliatePlacementProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isExpanded, setIsExpanded] = useState(false);
@@ -44,12 +48,12 @@ export default function ResponsiveAffiliatePlacement({
   const visibleOffers = isExpanded ? offers : [offers[boundedIndex]];
 
   return (
-    <section className={`responsive-affiliate-placement ${className}`.trim()} aria-label="関連する事業者向けサービス（広告）">
+    <section className={`responsive-affiliate-placement ${className}`.trim()} aria-label={`${heading}（広告）`}>
       <div className="responsive-affiliate-heading">
         <span>PR</span>
         <div>
-          <h2>申請準備に関連するサービス</h2>
-          <p>民間サービスの広告です。制度の申請や採択に必須ではありません。</p>
+          <h2>{heading}</h2>
+          <p>{description}</p>
         </div>
       </div>
 

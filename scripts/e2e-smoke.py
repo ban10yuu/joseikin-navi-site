@@ -165,11 +165,13 @@ with sync_playwright() as playwright:
     check('公式情報の確認先は未登録' not in (unverified.locator('meta[name="description"]').get_attribute('content') or ''), '補助出典URLがある制度を確認先未登録と表示しています')
     check(unverified.locator('.grant-source-links a').count() > 0, '補助出典URLがある制度に公式確認リンクが表示されません')
     check(bool(unverified.locator('.grant-mobile-cta a').get_attribute('href')), '補助出典URLだけの制度で固定CTAが空リンクになっています')
+    check(unverified.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 2, '公式確認待ちの制度詳細にPRが2枠表示されません')
     unverified.close()
 
     unavailable, _ = open_page(browser, '/grant/ogaki-tradition-craft/', 390, 844)
     check('noindex' in (unavailable.locator('meta[name="robots"]').get_attribute('content') or ''), '存在未確認制度がnoindexではありません')
     check(unavailable.locator('.grant-source-links a, .grant-mobile-cta a').count() == 0, '存在未確認制度に調査用URLのCTAが表示されています')
+    check(unavailable.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 2, '存在未確認の制度詳細にPRが2枠表示されません')
     unavailable.close()
 
     redirect, _ = open_page(browser, '/grant/kushiro-elderly-taxi/', 1280, 900)
@@ -182,7 +184,7 @@ with sync_playwright() as playwright:
     ended, ended_errors = open_page(browser, '/grant/sumitomo-zaidan-kankyou-josei/', 390, 844)
     check(ended.get_by_text('次回募集・後継制度を公式サイトで確認').count() >= 1, '終了制度のCTAが次回募集確認になっていません')
     check(ended.get_by_text('締切間近（受付中）').count() == 0, '終了制度に締切間近表示が残っています')
-    check(ended.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 0, '終了制度にPR枠が表示されています')
+    check(ended.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 2, '終了制度の詳細にPRが2枠表示されません')
     official = ended.locator('.grant-official-primary')
     check(official.get_attribute('target') == '_blank' and 'noopener' in (official.get_attribute('rel') or ''), '公式CTAの外部リンク属性が不足しています')
     check(len(ended_errors) == 0, f'制度詳細: console error {ended_errors}')
@@ -211,13 +213,14 @@ with sync_playwright() as playwright:
 
     ended_business, ended_business_errors = open_page(browser, '/grant/adachi-startup-support/', 390, 844)
     check(ended_business.get_by_text('次回募集・後継制度を公式サイトで確認').count() >= 1, '終了済み創業制度のCTAが次回募集確認になっていません')
-    check(ended_business.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 0, '終了済み創業制度にPR枠が表示されています')
+    check(ended_business.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 2, '終了済み創業制度の詳細にPRが2枠表示されません')
     check(len(ended_business_errors) == 0, f'終了済み創業制度: console error {ended_business_errors}')
     ended_business.close()
 
     sensitive, sensitive_errors = open_page(browser, '/grant/ora-fertility-treatment-subsidy-2026/', 390, 844)
     sensitive_impression = sensitive.locator('[data-analytics-impression-event="affiliate_impression"]')
-    check(sensitive_impression.count() == 0, '個人向け・医療系の制度詳細にPR枠が表示されています')
+    check(sensitive_impression.count() == 2, '個人向け・医療系の制度詳細にPRが2枠表示されません')
+    check(sensitive.get_by_role('heading', name='事業者向けサービス').count() == 2, '個人向け詳細で広告の対象区分が各枠に明示されていません')
     check(sensitive.locator('.grant-summary-eligibility-list li').count() >= 2, '要約カードの主な対象者が箇条書きになっていません')
     check(len(sensitive_errors) == 0, f'個人向け・医療系制度: console error {sensitive_errors}')
     sensitive.close()
@@ -227,13 +230,13 @@ with sync_playwright() as playwright:
     affiliate_desktop_rail = affiliate_desktop.locator('.grant-affiliate-placement')
     affiliate_desktop_pr = affiliate_desktop_rail.locator('[data-analytics-impression-event="affiliate_impression"]')
     check(affiliate_desktop_pr.count() == 1, '制度詳細PC: 適合する右レールPRが1件ではありません')
+    check(affiliate_desktop.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 2, '制度詳細PC: 右レールと本文内にPRが2枠ありません')
     if affiliate_desktop_pr.count() == 1:
-        affiliate_desktop_article_box = affiliate_desktop.locator('.grant-detail-main-rest').bounding_box()
-        affiliate_desktop_source_box = affiliate_desktop.locator('.grant-source-panel').bounding_box()
+        affiliate_desktop_article_box = affiliate_desktop.locator('.grant-detail-main-start').bounding_box()
         affiliate_desktop_rail_box = affiliate_desktop_rail.bounding_box()
         check(affiliate_desktop_rail_box['x'] >= affiliate_desktop_article_box['x'] + affiliate_desktop_article_box['width'], '制度詳細PC: PR枠が本文の右側にありません')
-        check(affiliate_desktop_rail_box['y'] >= affiliate_desktop_source_box['y'] + affiliate_desktop_source_box['height'], '制度詳細PC: PR枠が公式情報パネルより先に見えます')
-        check(abs(affiliate_desktop_rail_box['y'] - affiliate_desktop_article_box['y']) <= 8, '制度詳細PC: PRカラムと制度本文の上端が揃っていません')
+        check(abs(affiliate_desktop_rail_box['y'] - affiliate_desktop_article_box['y']) <= 8, '制度詳細PC: 初画面のPRと制度要約の上端が揃っていません')
+        check(affiliate_desktop_rail_box['y'] < 1000, '制度詳細PC: PRが初画面に表示されません')
         for pr_index in range(affiliate_desktop_pr.count()):
             affiliate_desktop_image_box = affiliate_desktop_pr.nth(pr_index).locator('.affiliate-creative-image').bounding_box()
             check(abs((affiliate_desktop_image_box['width'] / affiliate_desktop_image_box['height']) - (300 / 250)) <= 0.02, '制度詳細PC: 公式PR画像の300:250比率が崩れています')
@@ -245,8 +248,8 @@ with sync_playwright() as playwright:
     affiliate, affiliate_errors = open_page(browser, '/grant/hachioji-startup-support/', 390, 844)
     affiliate_impression = affiliate.locator('[data-analytics-impression-event="affiliate_impression"]')
     affiliate_link = affiliate.locator('[data-analytics-event="affiliate_click"]')
-    check(affiliate_impression.count() == 1, '関連する事業者向け制度に適合PRが1件表示されません')
-    check(affiliate_link.count() == 1, 'PR枠のリンクが1件ではありません')
+    check(affiliate_impression.count() == 2, '制度詳細モバイルにPRが2枠表示されません')
+    check(affiliate_link.count() == 2, '制度詳細モバイルのPRリンクが2件ではありません')
     for link_index in range(affiliate_link.count()):
         current_link = affiliate_link.nth(link_index)
         affiliate_rel = current_link.get_attribute('rel') or ''
@@ -262,7 +265,7 @@ with sync_playwright() as playwright:
         affiliate_mobile_image_box = current_image.bounding_box()
         check(abs((affiliate_mobile_image_box['width'] / affiliate_mobile_image_box['height']) - (300 / 250)) <= 0.02, '制度詳細モバイル: 公式PR画像の300:250比率が崩れています')
     check(affiliate.locator('.grant-official-primary').count() >= 1, 'PR表示ページに公式CTAがありません')
-    if affiliate_impression.count() == 1:
+    if affiliate_impression.count() >= 1:
         check(affiliate.locator('.grant-source-panel').evaluate('(el) => Boolean(el.compareDocumentPosition(document.querySelector(\'[data-analytics-impression-event="affiliate_impression"]\')) & Node.DOCUMENT_POSITION_FOLLOWING)'), 'PR枠が公式情報より上に表示されています')
         affiliate_cta = affiliate.locator('.affiliate-creative-link').first
         affiliate_cta.focus()

@@ -1786,6 +1786,10 @@ body {
   text-align: center;
 }
 
+.grant-affiliate-inline-placement {
+  margin-top: 2rem;
+}
+
 @media (min-width: 1200px) {
   .grant-detail-page.has-affiliate {
     max-width: 1346px;
@@ -1813,7 +1817,7 @@ body {
     position: sticky;
     top: 6.5rem;
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 1 / span 2;
     width: 318px;
     margin-top: 0;
   }
