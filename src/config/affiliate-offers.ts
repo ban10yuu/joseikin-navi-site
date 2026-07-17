@@ -36,16 +36,21 @@ const SENSITIVE_PURPOSES: Purpose[] = ['medical', 'welfare', 'disaster', 'living
 // A8.netで存在と条件を確認した候補。提携完了・広告リンク取得までは公開しない。
 export const AFFILIATE_OFFERS: AffiliateOffer[] = [
   {
-    id: 'a8-freee-accounting-wiz', enabled: false, network: 'A8.net', advertiserName: '株式会社Ｗｉｚ',
-    offerName: 'クラウド会計ソフト【freee会計】', destinationUrl: 'https://px.a8.net/svt/ejp?a8mat=4B8111+7NNQMY+3SPO+9FL80Y',
+    id: 'a8-freee-accounting-wiz', enabled: true, network: 'A8.net', advertiserName: '株式会社Ｗｉｚ',
+    offerName: 'クラウド会計ソフト【freee会計】', destinationUrl: 'https://px.a8.net/svt/ejp?a8mat=4B8111+7NNQMY+3SPO+9FMXR5',
     audiences: ['soleProprietor', 'business', 'nonprofit', 'localOrganization'],
     intents: ['accounting', 'businessPlanning'], allowedPurposes: ['startup', 'businessGrowth', 'digitalTransformation'],
     blockedPurposes: SENSITIVE_PURPOSES, allowedPageTypes: ['home', 'grant', 'businessGuide'],
-    validFrom: '2026-07-15', validUntil: null, verifiedAt: '2026-07-15',
+    validFrom: '2026-07-15', validUntil: null, verifiedAt: '2026-07-17',
     disclosureText: '以下にはアフィリエイトリンクが含まれます。申込みが発生した場合、当サイトが紹介料を受け取ることがあります。',
-    buttonText: 'サービスを見る', trackingId: '038',
-    externalProgramId: 's00000017718057', creativeImageUrl: null, creativeAlt: null, creativeWidth: null, creativeHeight: null,
-    impressionPixelUrl: null, partnershipStatus: 'partnered', priority: 30,
+    buttonText: 'サービスを見る', trackingId: '046',
+    externalProgramId: 's00000017718057',
+    creativeImageUrl: 'https://www29.a8.net/svt/bgt?aid=260715061463&wid=002&eno=01&mid=s00000017718057046000&mc=1',
+    creativeAlt: 'クラウド会計ソフト freee会計',
+    creativeWidth: 300,
+    creativeHeight: 250,
+    impressionPixelUrl: 'https://www17.a8.net/0.gif?a8mat=4B8111+7NNQMY+3SPO+9FMXR5',
+    partnershipStatus: 'partnered', priority: 30,
   },
   {
     id: 'a8-smaregi-timecard', enabled: false, network: 'A8.net', advertiserName: '株式会社スマレジ',

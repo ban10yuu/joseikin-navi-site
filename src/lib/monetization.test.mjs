@@ -77,8 +77,9 @@ describe('affiliate offers', () => {
     assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, status: 'open' }, new Date('2026-07-13')).map((item) => item.id), [offer.id]);
   });
 
-  it('全詳細ページ配置モードでは制度側の条件にかかわらず公開可能案件を1件返す', () => {
-    const result = getEligibleAffiliateOffers([offer], {
+  it('全詳細ページ配置モードでは制度側の条件にかかわらず公開可能案件を2件まで返す', () => {
+    const secondOffer = { ...offer, id: 'electronic-contract-1', priority: 2 };
+    const result = getEligibleAffiliateOffers([offer, secondOffer], {
       ...context,
       audiences: ['family'],
       purposes: ['medical'],
@@ -86,9 +87,9 @@ describe('affiliate offers', () => {
       monetizationAllowed: false,
       status: 'closed',
       placementMode: 'allGrantDetails',
-      limit: 1,
+      limit: 2,
     }, new Date('2026-07-13'));
-    assert.deepEqual(result.map((item) => item.id), [offer.id]);
+    assert.deepEqual(result.map((item) => item.id), [secondOffer.id, offer.id]);
   });
 
   it('制度のintentと一致しない案件やintent未設定案件を表示しない', () => {

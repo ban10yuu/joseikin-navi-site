@@ -43,11 +43,11 @@ function GuideSteps({ steps }: { steps: readonly { title: string; text: string }
 }
 
 export default function GuidePage() {
-  const businessAffiliate = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+  const businessAffiliates = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
     pageType: 'businessGuide', audiences: ['soleProprietor', 'business', 'nonprofit'],
     purposes: ['startup', 'businessGrowth', 'digitalTransformation'], intents: ['accounting', 'electronicContract'],
-    monetizationAllowed: true, limit: 1,
-  })[0];
+    monetizationAllowed: true, limit: 2,
+  });
 
   return (
     <>
@@ -76,7 +76,13 @@ export default function GuidePage() {
           <p className="text-sm font-black text-accent-deep">事業者・団体向け</p>
           <h2 id="business-guide-title" className="mt-1 text-2xl font-black leading-relaxed text-navy">公募要領から実績報告まで</h2>
           <p className="mb-5 mt-2 text-base leading-8 text-muted">対象経費や着手時期を誤らないよう、申請前だけでなく交付決定後の義務まで確認します。</p>
-          {businessAffiliate && <div className="mb-5"><AffiliateRecommendation offer={businessAffiliate} pageType="businessGuide" placement="business-guide-intro" position={1} audience="business" purpose="businessGrowth" compact headingLevel="h3" /></div>}
+          {businessAffiliates.length > 0 && (
+            <div className="mb-5 grid gap-4 sm:grid-cols-2">
+              {businessAffiliates.map((offer, index) => (
+                <AffiliateRecommendation key={offer.id} offer={offer} pageType="businessGuide" placement="business-guide-intro" position={index + 1} audience="business" purpose="businessGrowth" compact headingLevel="h3" />
+              ))}
+            </div>
+          )}
           <GuideSteps steps={businessSteps} />
         </section>
 

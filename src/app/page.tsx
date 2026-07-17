@@ -57,10 +57,10 @@ export default function HomePage() {
     .sort((left, right) => (left.deadlineDate ?? '').localeCompare(right.deadlineDate ?? ''))
     .slice(0, 4);
   const newsletterEnabled = isNewsletterEnabled(siteConfig.newsletter.endpoint);
-  const heroAffiliate = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+  const heroAffiliates = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
     pageType: 'home', audiences: ['soleProprietor', 'business'], purposes: ['startup', 'businessGrowth', 'digitalTransformation'],
-    intents: ['accounting', 'electronicContract'], monetizationAllowed: true, limit: 1,
-  })[0];
+    intents: ['accounting', 'electronicContract'], monetizationAllowed: true, limit: 2,
+  });
 
   return (
     <>
@@ -93,14 +93,16 @@ export default function HomePage() {
             </div>
             <p className="home-hero-description">国・自治体・民間団体の公式情報をもとに、対象、支援内容、申請期限、確認先を整理しています。個人・家族向け、事業者・団体向けを分けて検索できます。</p>
           </div>
-          <div className={`home-search-with-rail${heroAffiliate ? '' : ' home-search-with-rail--single'}`}>
+          <div className={`home-search-with-rail${heroAffiliates.length > 0 ? '' : ' home-search-with-rail--single'}`}>
             <div className="home-search-main">
               <HomeGrantSearch totalCount={stats.total} officialLinkedCount={stats.officialLinked} />
             </div>
-            {heroAffiliate && (
+            {heroAffiliates.length > 0 && (
               <div className="home-affiliate-rail official-affiliate-rail">
                 <p className="home-affiliate-rail-label">事業者向けサービス</p>
-                <AffiliateRecommendation offer={heroAffiliate} pageType="home" placement="home-hero" position={1} audience="business" purpose="businessGrowth" compact />
+                {heroAffiliates.map((offer, index) => (
+                  <AffiliateRecommendation key={offer.id} offer={offer} pageType="home" placement="home-hero" position={index + 1} audience="business" purpose="businessGrowth" compact />
+                ))}
               </div>
             )}
           </div>

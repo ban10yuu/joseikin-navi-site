@@ -93,7 +93,7 @@ export default async function GrantDetailPage({ params }: Props) {
     monetizationAllowed: grant.monetizationAllowed ?? false,
     status,
     placementMode: 'allGrantDetails',
-    limit: 1,
+    limit: 2,
   });
   const primaryOfficialUrl = getValidOfficialSourceUrls(grant)[0];
 
