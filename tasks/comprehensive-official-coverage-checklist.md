@@ -11491,3 +11491,13 @@
 - 15自治体単位メトリクス: 熊本県007単体は5自治体47制度。熊本県007から次の15自治体単位を開始し、1/3ブロックで5自治体47制度。採用率は47/458（一次候補比、芦北町sitemap補完を除く）、47/47（選定比）。監査1回、commit1回
 - 到達点: 熊本県は43100熊本市から43484津奈木町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 熊本県公式棚卸し008として、43486錦町から再開（想定対象は43486錦町・43501多良木町・43505湯前町・43506水上村・43507相良村）
+
+### 熊本県公式棚卸し008（43486錦町・43501多良木町・43505湯前町・43506水上村・43507相良村）
+
+- 対象公式トップ: 錦町 `https://www.town.kumamoto-nishiki.lg.jp/`、多良木町 `https://www.town.taragi.lg.jp/`、湯前町 `https://www.town.yunomae.lg.jp/`、水上村 `https://www.vill.mizukami.lg.jp/`、相良村 `https://www.vill.sagara.lg.jp/`
+- 公式検索/カテゴリBFS候補: 506件（錦町98、多良木町4、湯前町320、水上村84、相良村0）。shortlistが150件超のため `tasks/discovery/kumamoto-official-coverage-008-rescored-shortlist.tsv` と title強一致TSVへ再スコア。多良木町は公式sitemap 1,125URLを追加再スコアし、HTTP表記リンクをHTTPS正規化して補完。
+- 採用: 80制度（錦町23、多良木町25、湯前町11、水上村21）。制度名・対象・金額/上限または支援内容・条件・申請/受付/更新状況を公式本文で確認。相良村は公式トップ・カテゴリまでは到達したが、この巡回で必須項目が揃う個別制度ページを確定できず第2巡候補として保持。
+- 低優先/第2巡: トップ、カテゴリ一覧、効果検証、注意喚起、計画、受託事業者選定結果、採択・実施状況だけのページは採用せず、候補TSVに残置。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（008 discover/build）、JSON parse、追加slug重複0・全体slug重複0、公式URL 80/80 HTTP 200（`tasks/discovery/kumamoto-official-coverage-008-url-status.txt`）、`npx eslint src/data/grants/verified-local-misc-2026.ts`、`git diff --check` は通過。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` / `src/lib/grants.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorで停止。
+- メトリクス: 5自治体相当、80制度採用、初期候補506件+多良木sitemap再スコア1,118件、採用率は初期候補比15.8%。監査は集約1回、commitは008単位で1回予定。
+- 次回: 熊本県公式棚卸し009として、43510五木村から再開（想定対象は43510五木村・43511山江村・43512球磨村・43513あさぎり町・43531苓北町）

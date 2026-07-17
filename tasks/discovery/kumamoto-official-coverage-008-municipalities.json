@@ -1,0 +1,31 @@
+{
+  "batch": "kumamoto-official-coverage-008",
+  "prefecture": "熊本県",
+  "municipalities": [
+    {
+      "code": "43486",
+      "name": "錦町",
+      "officialUrl": "https://www.town.kumamoto-nishiki.lg.jp/"
+    },
+    {
+      "code": "43501",
+      "name": "多良木町",
+      "officialUrl": "https://www.town.taragi.lg.jp/"
+    },
+    {
+      "code": "43505",
+      "name": "湯前町",
+      "officialUrl": "https://www.town.yunomae.lg.jp/"
+    },
+    {
+      "code": "43506",
+      "name": "水上村",
+      "officialUrl": "https://www.vill.mizukami.lg.jp/"
+    },
+    {
+      "code": "43507",
+      "name": "相良村",
+      "officialUrl": "https://www.vill.sagara.lg.jp/"
+    }
+  ]
+}
