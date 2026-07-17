@@ -1,0 +1,1251 @@
+const sagaOfficial003Grants: Array<{
+  slug: string;
+  title: string;
+  organization: string;
+  maxAmount: string;
+  maxAmountNum: number;
+  category: Grant['category'];
+  relatedCategories?: Grant['relatedCategories'];
+  eligibility: string;
+  applicationPeriod: string;
+  officialUrl: string;
+  sourceName: string;
+}> = [
+  {
+    "slug": "saga-official-003-001-2026",
+    "title": "吉野ヶ里町 ひとり親家庭等医療費受給資格の更新について",
+    "organization": "吉野ヶ里町",
+    "maxAmount": "助成額受給資格者が医療機関などで受診し、医療費の自己負担分から、入院・外来を問わず1人1月500円",
+    "maxAmountNum": 500,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "education",
+      "living"
+    ],
+    "eligibility": "吉野ヶ里町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年06月23日 期限は、8月31日（日曜）までです",
+    "officialUrl": "https://www.town.yoshinogari.lg.jp/lifeinfo/kosodate_kyoiku/kosodate/4788.html",
+    "sourceName": "ひとり親家庭等医療費受給資格の更新について"
+  },
+  {
+    "slug": "saga-official-003-002-2026",
+    "title": "吉野ヶ里町 児童手当に関すること",
+    "organization": "吉野ヶ里町",
+    "maxAmount": "限度額を超えると月額5,000円",
+    "maxAmountNum": 5000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉野ヶ里町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2024年08月23日 請求（新たに受給資格を得た人） ・ 児童手当の額の改定請求（すでに手当を受給しており、対象児童に増減がある人） ・ 受給事由消滅の届出（転出する人、児童の生計を維持しなくなった人など） ・ 氏名変更/住所変更等の届出（氏名が",
+    "officialUrl": "https://www.town.yoshinogari.lg.jp/lifeinfo/soshiki/kodomo_hoken/2/2/5/1693.html",
+    "sourceName": "児童手当に関すること"
+  },
+  {
+    "slug": "saga-official-003-003-2026",
+    "title": "吉野ヶ里町 児童扶養手当・医療費助成・出生祝金",
+    "organization": "吉野ヶ里町",
+    "maxAmount": "上限1,000円",
+    "maxAmountNum": 1000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "吉野ヶ里町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2024年10月31日 支給される手当です",
+    "officialUrl": "https://www.town.yoshinogari.lg.jp/lifeinfo/soshiki/kodomo_hoken/2/2/5/1530.html",
+    "sourceName": "児童扶養手当・医療費助成・出生祝金"
+  },
+  {
+    "slug": "saga-official-003-004-2026",
+    "title": "吉野ヶ里町 子どもの医療費助成の注意点！",
+    "organization": "吉野ヶ里町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "吉野ヶ里町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年04月24日 申請をすれば払い戻し（償還払い）が受けられます",
+    "officialUrl": "https://www.town.yoshinogari.lg.jp/lifeinfo/soshiki/kodomo_hoken/2/2/5/5159.html",
+    "sourceName": "子どもの医療費助成の注意点！"
+  },
+  {
+    "slug": "saga-official-003-005-2026",
+    "title": "吉野ヶ里町 町立小中学校の学校給食費について",
+    "organization": "吉野ヶ里町",
+    "maxAmount": "年額改定後の年額小学校1年生48,200円",
+    "maxAmountNum": 48200,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "吉野ヶ里町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年03月26日 町立小中学校の学校給食費について／吉野ヶ里町 本文へ 文字サイズ 背景色変更 Foreign Language くらし・手続き テキストテキスト 子育て・教育 健康・福祉 産業・観光 町のお知らせ ホーム くらし・手続き 子育て・教育 健康",
+    "officialUrl": "https://www.town.yoshinogari.lg.jp/lifeinfo/lifescene/1/5422.html",
+    "sourceName": "町立小中学校の学校給食費について"
+  },
+  {
+    "slug": "saga-official-003-006-2026",
+    "title": "吉野ヶ里町 予防接種",
+    "organization": "吉野ヶ里町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉野ヶ里町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年03月26日 申請後費用の払い戻し）ができる場合があります",
+    "officialUrl": "https://www.town.yoshinogari.lg.jp/lifeinfo/kosodate_kyoiku/kosodate/2535.html",
+    "sourceName": "予防接種"
+  },
+  {
+    "slug": "saga-official-003-007-2026",
+    "title": "吉野ヶ里町 こどもの健康",
+    "organization": "吉野ヶ里町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [
+      "medical"
+    ],
+    "eligibility": "吉野ヶ里町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年07月09日 交付時にあわせて、各健診の受診票をお渡ししています",
+    "officialUrl": "https://www.town.yoshinogari.lg.jp/lifeinfo/kosodate_kyoiku/kosodate/2416.html",
+    "sourceName": "こどもの健康"
+  },
+  {
+    "slug": "saga-official-003-008-2026",
+    "title": "吉野ヶ里町 よしのがり商品券",
+    "organization": "吉野ヶ里町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "吉野ヶ里町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年06月27日 よしのがり商品券／吉野ヶ里町 本文へ 文字サイズ 背景色変更 Foreign Language くらし・手続き テキストテキスト 子育て・教育 健康・福祉 産業・観光 町のお知らせ ホーム くらし・手続き 子育て・教育 健康・福祉 産業・観",
+    "officialUrl": "https://www.town.yoshinogari.lg.jp/lifeinfo/kurashi_tetsuzuki/2835.html",
+    "sourceName": "よしのがり商品券"
+  },
+  {
+    "slug": "saga-official-003-009-2026",
+    "title": "吉野ヶ里町 移住・定住支援",
+    "organization": "吉野ヶ里町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉野ヶ里町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2025年04月01日 交付します 令和8年度結婚新生活支援事業補助金について 住宅ローン【フラット35】地域連携型(一定期間借入金利引き下げ）利用申請のご案内 吉野ヶ里町移住・定住のススメが完成しました",
+    "officialUrl": "https://www.town.yoshinogari.lg.jp/lifeinfo/soshiki/kikaku_chosei/machidukuri/ijyu_teijyu/index.html",
+    "sourceName": "移住・定住支援"
+  },
+  {
+    "slug": "saga-official-003-010-2026",
+    "title": "吉野ヶ里町 空家バンク制度のご案内",
+    "organization": "吉野ヶ里町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "吉野ヶ里町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2020年04月01日 申請時若しくは申請後に佐賀県宅地建物取引業協会会員の不動産業者との専任媒介契約又は専属専任媒介契約が必要となります",
+    "officialUrl": "https://www.town.yoshinogari.lg.jp/lifeinfo/soshiki/kikaku_chosei/machidukuri/1/1/472.html",
+    "sourceName": "空家バンク制度のご案内"
+  },
+  {
+    "slug": "saga-official-003-011-2026",
+    "title": "吉野ヶ里町 低所得者支援",
+    "organization": "吉野ヶ里町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "吉野ヶ里町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年03月10日 受付終了※申請期限：R7.7.31） 健康・福祉 吉野ヶ里町 みんなこの町愛してる love my town 三田川庁舎 〒842-8501 佐賀県神埼郡吉野ヶ里町吉田321番地2 電話番号：0952-53-1111 ファッ",
+    "officialUrl": "https://www.town.yoshinogari.lg.jp/lifeinfo/kenko_fukushi/teishotoku/index.html",
+    "sourceName": "低所得者支援"
+  },
+  {
+    "slug": "saga-official-003-012-2026",
+    "title": "吉野ヶ里町 乗合型デマンドタクシー「よしくる」",
+    "organization": "吉野ヶ里町",
+    "maxAmount": "1人1乗車につき300円",
+    "maxAmountNum": 300,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "吉野ヶ里町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2023年09月29日 交付）については、 こちら をご覧ください",
+    "officialUrl": "https://www.town.yoshinogari.lg.jp/lifeinfo/kurashi_tetsuzuki/doro_kotsu/2821.html",
+    "sourceName": "乗合型デマンドタクシー「よしくる」"
+  },
+  {
+    "slug": "saga-official-003-013-2026",
+    "title": "吉野ヶ里町 国民健康保険",
+    "organization": "吉野ヶ里町",
+    "maxAmount": "50万円を支給",
+    "maxAmountNum": 500000,
+    "category": "living",
+    "relatedCategories": [
+      "medical"
+    ],
+    "eligibility": "吉野ヶ里町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年01月14日 提出してください",
+    "officialUrl": "https://www.town.yoshinogari.lg.jp/lifeinfo/lifescene/2/1233.html",
+    "sourceName": "国民健康保険"
+  },
+  {
+    "slug": "saga-official-003-014-2026",
+    "title": "基山町 妊婦健康診査の助成を拡充します",
+    "organization": "基山町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "基山町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年7月1日 交付していますが、出産予定日を過ぎて妊婦健康診査を受診した場合や多胎妊娠をしている方に対し、令和8年7月より妊婦健康診査の助成を拡充します",
+    "officialUrl": "https://www.town.kiyama.lg.jp/kosodate/kiji0036584/index.html",
+    "sourceName": "妊婦健康診査の助成を拡充します"
+  },
+  {
+    "slug": "saga-official-003-015-2026",
+    "title": "基山町 里帰り出産時の妊婦健康診査の費用を助成します",
+    "organization": "基山町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "基山町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年7月1日 申請に必要ですので、申請時まで保管しておいてください",
+    "officialUrl": "https://www.town.kiyama.lg.jp/kosodate/kiji003247/index.html",
+    "sourceName": "里帰り出産時の妊婦健康診査の費用を助成します"
+  },
+  {
+    "slug": "saga-official-003-016-2026",
+    "title": "基山町 基山町病後児保育室のご案内",
+    "organization": "基山町",
+    "maxAmount": "1人あたり：250円",
+    "maxAmountNum": 250,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "基山町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年1月7日 提出していただきます",
+    "officialUrl": "https://www.town.kiyama.lg.jp/kosodate/kiji0032695/index.html",
+    "sourceName": "基山町病後児保育室のご案内"
+  },
+  {
+    "slug": "saga-official-003-017-2026",
+    "title": "基山町 風しん抗体検査・予防接種費用助成について",
+    "organization": "基山町",
+    "maxAmount": "助成額1人一回に限り5,400円",
+    "maxAmountNum": 5400,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "基山町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年7月30日 申請受付は、基山町健康増進課（保健センター内）で行いますのでお越しください",
+    "officialUrl": "https://www.town.kiyama.lg.jp/kosodate/kiji003256/index.html",
+    "sourceName": "風しん抗体検査・予防接種費用助成について"
+  },
+  {
+    "slug": "saga-official-003-018-2026",
+    "title": "基山町 出産に必要とする費用の一時金の支給を受けたいときはどうすればいいですか？",
+    "organization": "基山町",
+    "maxAmount": "支給額については原則50万円",
+    "maxAmountNum": 500000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "基山町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2023年4月1日 支給を受けたいときはどうすればいいですか？ / 子育て支援サイトTOP / 基山町 ヘッダーをスキップ 本文へジャンプ 背景色 文字サイズ やさしいブラウザ 基山町トップページへ Foreign Language Engli",
+    "officialUrl": "https://www.town.kiyama.lg.jp/kosodate/kiji003312/index.html",
+    "sourceName": "出産に必要とする費用の一時金の支給を受けたいときはどうすればいいですか？"
+  },
+  {
+    "slug": "saga-official-003-019-2026",
+    "title": "基山町 ひとり親家庭等医療費助成",
+    "organization": "基山町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "基山町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年1月6日 申請方法は従来どおりで、申請書に領収証を添付して申請して下さい",
+    "officialUrl": "https://www.town.kiyama.lg.jp/kosodate/kiji003520/index.html",
+    "sourceName": "ひとり親家庭等医療費助成"
+  },
+  {
+    "slug": "saga-official-003-020-2026",
+    "title": "基山町 産後ケア事業",
+    "organization": "基山町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "基山町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月20日 申請 健康増進課（保健センター）にご相談ください",
+    "officialUrl": "https://www.town.kiyama.lg.jp/kosodate/kiji0034605/index.html",
+    "sourceName": "産後ケア事業"
+  },
+  {
+    "slug": "saga-official-003-021-2026",
+    "title": "基山町 高校生まで医療費を助成！子育てがしやすいまち。",
+    "organization": "基山町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "基山町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2018年3月8日 高校生まで医療費を助成！子育てがしやすいまち。 / 基山移住サイトTOP / 基山町 ヘッダーをスキップ 本文へジャンプ 背景色 文字サイズ やさしいブラウザ Foreign Language English 中文(简化字) 한국어 Tiế",
+    "officialUrl": "https://www.town.kiyama.lg.jp/ijyu/kiji0031413/index.html",
+    "sourceName": "高校生まで医療費を助成！子育てがしやすいまち。"
+  },
+  {
+    "slug": "saga-official-003-022-2026",
+    "title": "基山町 児童扶養手当～ひとり親家庭のみなさまのために～",
+    "organization": "基山町",
+    "maxAmount": "1人のとき月額46,690円",
+    "maxAmountNum": 46690,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "基山町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月30日 支給額が変わる制度で、児童扶養手当にも導入されています",
+    "officialUrl": "https://www.town.kiyama.lg.jp/kosodate/kiji003555/index.html",
+    "sourceName": "児童扶養手当～ひとり親家庭のみなさまのために～"
+  },
+  {
+    "slug": "saga-official-003-023-2026",
+    "title": "基山町 子育て世代応援します！",
+    "organization": "基山町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "基山町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2016年10月1日 子育て世代応援します！ / 子育て支援サイトTOP / 基山町 ヘッダーをスキップ 本文へジャンプ 背景色 文字サイズ やさしいブラウザ 基山町トップページへ Foreign Language English 中文(简化字) 한국어 Tiế",
+    "officialUrl": "https://www.town.kiyama.lg.jp/kosodate/kiji003211/index.html",
+    "sourceName": "子育て世代応援します！"
+  },
+  {
+    "slug": "saga-official-003-024-2026",
+    "title": "基山町 放課後児童クラブ（ひまわり教室・コスモス教室）",
+    "organization": "基山町",
+    "maxAmount": "月額）2,000円",
+    "maxAmountNum": 2000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "基山町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2024年11月21日 申請されると保護者負担金は免除となります",
+    "officialUrl": "https://www.town.kiyama.lg.jp/kosodate/kiji0034707/index.html",
+    "sourceName": "放課後児童クラブ（ひまわり教室・コスモス教室）"
+  },
+  {
+    "slug": "saga-official-003-025-2026",
+    "title": "基山町 令和8年度 保育所入所受付について",
+    "organization": "基山町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "基山町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 受付について / 子育て支援サイトTOP / 基山町 ヘッダーをスキップ 本文へジャンプ 背景色 文字サイズ やさしいブラウザ 基山町トップページへ Foreign Language English 中文(简化字) 한국어 ",
+    "officialUrl": "https://www.town.kiyama.lg.jp/kosodate/kiji0033795/index.html",
+    "sourceName": "令和8年度 保育所入所受付について"
+  },
+  {
+    "slug": "saga-official-003-026-2026",
+    "title": "基山町 基山への移住体験",
+    "organization": "基山町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "基山町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2017年3月31日 「基山のワンダー！」な投稿写真キャンペーンの審査結果を発表いたします！ / 基山移住サイトTOP / 基山町 ヘッダーをスキップ 本文へジャンプ 背景色 文字サイズ やさしいブラウザ Foreign Language English 中文(",
+    "officialUrl": "https://www.town.kiyama.lg.jp/ijyu/kiji0031411/index.html",
+    "sourceName": "基山への移住体験"
+  },
+  {
+    "slug": "saga-official-003-027-2026",
+    "title": "基山町 佐賀県地域移住サポーターのご紹介",
+    "organization": "基山町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "基山町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2018年11月7日 交付されました",
+    "officialUrl": "https://www.town.kiyama.lg.jp/ijyu/kiji0031950/index.html",
+    "sourceName": "佐賀県地域移住サポーターのご紹介"
+  },
+  {
+    "slug": "saga-official-003-028-2026",
+    "title": "上峰町 定額減税補足給付金（不足額給付）定額減税しきれなかった方への給付について",
+    "organization": "上峰町",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "上峰町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年11月7日 申請 医療費助成 手当・給付金 日常生活・自立支援 地域福祉・支援窓口 生活保護 福祉相談・支援窓口 入札・契約 入札参加資格審査申請 入札・契約情報 入札結果（年度） 入札様式 建設等に係る届出・許可 開発行為 農地の転用",
+    "officialUrl": "https://www.town.kamimine.lg.jp/kiji0031479/index.html",
+    "sourceName": "定額減税補足給付金（不足額給付）定額減税しきれなかった方への給付について"
+  },
+  {
+    "slug": "saga-official-003-029-2026",
+    "title": "上峰町 上峰町結婚新生活支援事業補助金について",
+    "organization": "上峰町",
+    "maxAmount": "補助金額（1）夫婦共に29歳以下の世帯・・・最大60万円",
+    "maxAmountNum": 600000,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "上峰町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月23日 申請 医療費助成 手当・給付金 日常生活・自立支援 地域福祉・支援窓口 生活保護 福祉相談・支援窓口 入札・契約 入札参加資格審査申請 入札・契約情報 入札結果（年度） 入札様式 建設等に係る届出・許可 開発行為 農地の転用",
+    "officialUrl": "https://www.town.kamimine.lg.jp/kiji003223/index.html",
+    "sourceName": "上峰町結婚新生活支援事業補助金について"
+  },
+  {
+    "slug": "saga-official-003-030-2026",
+    "title": "上峰町 軽自動車税の減免について",
+    "organization": "上峰町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "上峰町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月22日 申請 医療費助成 手当・給付金 日常生活・自立支援 地域福祉・支援窓口 生活保護 福祉相談・支援窓口 入札・契約 入札参加資格審査申請 入札・契約情報 入札結果（年度） 入札様式 建設等に係る届出・許可 開発行為 農地の転用",
+    "officialUrl": "https://www.town.kamimine.lg.jp/kiji0031244/index.html",
+    "sourceName": "軽自動車税の減免について"
+  },
+  {
+    "slug": "saga-official-003-031-2026",
+    "title": "上峰町 九州・全国大会出場費に対する補助金のご案内",
+    "organization": "上峰町",
+    "maxAmount": "上限額個人で出場の場合・九州大会10,000円",
+    "maxAmountNum": 10000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "上峰町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月15日 申請 医療費助成 手当・給付金 日常生活・自立支援 地域福祉・支援窓口 生活保護 福祉相談・支援窓口 入札・契約 入札参加資格審査申請 入札・契約情報 入札結果（年度） 入札様式 建設等に係る届出・許可 開発行為 農地の転用",
+    "officialUrl": "https://www.town.kamimine.lg.jp/kiji0031317/index.html",
+    "sourceName": "九州・全国大会出場費に対する補助金のご案内"
+  },
+  {
+    "slug": "saga-official-003-032-2026",
+    "title": "上峰町 「妊婦のための支援給付」について",
+    "organization": "上峰町",
+    "maxAmount": "1人につき50,000円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "上峰町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年6月17日 申請 医療費助成 手当・給付金 日常生活・自立支援 地域福祉・支援窓口 生活保護 福祉相談・支援窓口 入札・契約 入札参加資格審査申請 入札・契約情報 入札結果（年度） 入札様式 建設等に係る届出・許可 開発行為 農地の転用",
+    "officialUrl": "https://www.town.kamimine.lg.jp/kiji0031432/index.html",
+    "sourceName": "「妊婦のための支援給付」について"
+  },
+  {
+    "slug": "saga-official-003-033-2026",
+    "title": "上峰町 定額減税しきれないと見込まれる方への給付金（調整給付）について",
+    "organization": "上峰町",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "上峰町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年11月1日 申請 医療費助成 手当・給付金 日常生活・自立支援 地域福祉・支援窓口 生活保護 福祉相談・支援窓口 入札・契約 入札参加資格審査申請 入札・契約情報 入札結果（年度） 入札様式 建設等に係る届出・許可 開発行為 農地の転用",
+    "officialUrl": "https://www.town.kamimine.lg.jp/kiji0031282/index.html",
+    "sourceName": "定額減税しきれないと見込まれる方への給付金（調整給付）について"
+  },
+  {
+    "slug": "saga-official-003-034-2026",
+    "title": "上峰町 物価高対応子育て応援手当",
+    "organization": "上峰町",
+    "maxAmount": "1人あたり2万円",
+    "maxAmountNum": 20000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上峰町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年2月24日 申請 医療費助成 手当・給付金 日常生活・自立支援 地域福祉・支援窓口 生活保護 福祉相談・支援窓口 入札・契約 入札参加資格審査申請 入札・契約情報 入札結果（年度） 入札様式 建設等に係る届出・許可 開発行為 農地の転用",
+    "officialUrl": "https://www.town.kamimine.lg.jp/kiji0031543/index.html",
+    "sourceName": "物価高対応子育て応援手当"
+  },
+  {
+    "slug": "saga-official-003-035-2026",
+    "title": "上峰町 不妊治療費の一部助成について",
+    "organization": "上峰町",
+    "maxAmount": "上限額１回につき１０万円",
+    "maxAmountNum": 100000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上峰町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年5月13日 申請 医療費助成 手当・給付金 日常生活・自立支援 地域福祉・支援窓口 生活保護 福祉相談・支援窓口 入札・契約 入札参加資格審査申請 入札・契約情報 入札結果（年度） 入札様式 建設等に係る届出・許可 開発行為 農地の転用",
+    "officialUrl": "https://www.town.kamimine.lg.jp/kiji0031320/index.html",
+    "sourceName": "不妊治療費の一部助成について"
+  },
+  {
+    "slug": "saga-official-003-036-2026",
+    "title": "上峰町 がん患者アピアランスケア助成金",
+    "organization": "上峰町",
+    "maxAmount": "助成額助成対象経費の額2分の1（上限は2万円",
+    "maxAmountNum": 20000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上峰町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年7月29日 申請 医療費助成 手当・給付金 日常生活・自立支援 地域福祉・支援窓口 生活保護 福祉相談・支援窓口 入札・契約 入札参加資格審査申請 入札・契約情報 入札結果（年度） 入札様式 建設等に係る届出・許可 開発行為 農地の転用",
+    "officialUrl": "https://www.town.kamimine.lg.jp/kiji0031105/index.html",
+    "sourceName": "がん患者アピアランスケア助成金"
+  },
+  {
+    "slug": "saga-official-003-037-2026",
+    "title": "上峰町 帯状疱疹予防接種費の一部助成について",
+    "organization": "上峰町",
+    "maxAmount": "1人につき1回1人につき2回助成金上限額4,000円",
+    "maxAmountNum": 4000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上峰町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年5月31日 申請 医療費助成 手当・給付金 日常生活・自立支援 地域福祉・支援窓口 生活保護 福祉相談・支援窓口 入札・契約 入札参加資格審査申請 入札・契約情報 入札結果（年度） 入札様式 建設等に係る届出・許可 開発行為 農地の転用",
+    "officialUrl": "https://www.town.kamimine.lg.jp/kiji0031323/index.html",
+    "sourceName": "帯状疱疹予防接種費の一部助成について"
+  },
+  {
+    "slug": "saga-official-003-038-2026",
+    "title": "上峰町 骨髄等移植支援事業の助成について",
+    "organization": "上峰町",
+    "maxAmount": "助成額通院、入院等に要した日数に2万円",
+    "maxAmountNum": 20000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上峰町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2023年9月6日 申請 医療費助成 手当・給付金 日常生活・自立支援 地域福祉・支援窓口 生活保護 福祉相談・支援窓口 入札・契約 入札参加資格審査申請 入札・契約情報 入札結果（年度） 入札様式 建設等に係る届出・許可 開発行為 農地の転用",
+    "officialUrl": "https://www.town.kamimine.lg.jp/kiji0031100/index.html",
+    "sourceName": "骨髄等移植支援事業の助成について"
+  },
+  {
+    "slug": "saga-official-003-039-2026",
+    "title": "上峰町 重度心身障害者医療費助成",
+    "organization": "上峰町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "上峰町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2023年4月5日 申請 医療費助成 手当・給付金 日常生活・自立支援 地域福祉・支援窓口 生活保護 福祉相談・支援窓口 入札・契約 入札参加資格審査申請 入札・契約情報 入札結果（年度） 入札様式 建設等に係る届出・許可 開発行為 農地の転用",
+    "officialUrl": "https://www.town.kamimine.lg.jp/kiji0031004/index.html",
+    "sourceName": "重度心身障害者医療費助成"
+  },
+  {
+    "slug": "saga-official-003-040-2026",
+    "title": "上峰町 特別児童扶養手当",
+    "organization": "上峰町",
+    "maxAmount": "月額(支給月年3回4月、8月、11月）(令和5年4月～）1級該当児童1人につき月額53,700円",
+    "maxAmountNum": 53700,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "上峰町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2023年4月5日 申請 医療費助成 手当・給付金 日常生活・自立支援 地域福祉・支援窓口 生活保護 福祉相談・支援窓口 入札・契約 入札参加資格審査申請 入札・契約情報 入札結果（年度） 入札様式 建設等に係る届出・許可 開発行為 農地の転用",
+    "officialUrl": "https://www.town.kamimine.lg.jp/kiji003134/index.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "saga-official-003-041-2026",
+    "title": "上峰町 子どもの医療費助成制度",
+    "organization": "上峰町",
+    "maxAmount": "上限500円",
+    "maxAmountNum": 500,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "上峰町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年8月6日 申請 医療費助成 手当・給付金 日常生活・自立支援 地域福祉・支援窓口 生活保護 福祉相談・支援窓口 入札・契約 入札参加資格審査申請 入札・契約情報 入札結果（年度） 入札様式 建設等に係る届出・許可 開発行為 農地の転用",
+    "officialUrl": "https://www.town.kamimine.lg.jp/kiji00366/index.html",
+    "sourceName": "子どもの医療費助成制度"
+  },
+  {
+    "slug": "saga-official-003-042-2026",
+    "title": "みやき町 特別児童扶養手当",
+    "organization": "みやき町",
+    "maxAmount": "支給額（令和8年4月以降）1級（重度）ひと月あたり58,450円",
+    "maxAmountNum": 58450,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやき町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "交付・修理について 手当・共済制度について 障がい者虐待防止法について 特別児童扶養手当 難聴児に対する補聴器購入費の助成について 福祉タクシー利用助成券の交付について 障がいがある方のその他の割引制度 障害者差別解消法につ",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/shogaishafukushi/_1966.html",
+    "sourceName": "特別児童扶養手当"
+  },
+  {
+    "slug": "saga-official-003-043-2026",
+    "title": "みやき町 重度心身障害者医療費助成について",
+    "organization": "みやき町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "みやき町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "交付・修理について 手当・共済制度について 障がい者虐待防止法について 特別児童扶養手当 難聴児に対する補聴器購入費の助成について 福祉タクシー利用助成券の交付について 障がいがある方のその他の割引制度 障害者差別解消法につ",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/shogaishafukushi/_1178.html",
+    "sourceName": "重度心身障害者医療費助成について"
+  },
+  {
+    "slug": "saga-official-003-044-2026",
+    "title": "みやき町 手当・共済制度について",
+    "organization": "みやき町",
+    "maxAmount": "月額30,450円",
+    "maxAmountNum": 30450,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "みやき町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "交付・修理について 手当・共済制度について 障がい者虐待防止法について 特別児童扶養手当 難聴児に対する補聴器購入費の助成について 福祉タクシー利用助成券の交付について 障がいがある方のその他の割引制度 障害者差別解消法につ",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/shogaishafukushi/_1180.html",
+    "sourceName": "手当・共済制度について"
+  },
+  {
+    "slug": "saga-official-003-045-2026",
+    "title": "みやき町 子どもの医療費助成",
+    "organization": "みやき町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "みやき町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "申請できません",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kosodate/kenko/_1036.html",
+    "sourceName": "子どもの医療費助成"
+  },
+  {
+    "slug": "saga-official-003-046-2026",
+    "title": "みやき町 幼児教育・保育の無償化について",
+    "organization": "みやき町",
+    "maxAmount": "月額上限25,700円",
+    "maxAmountNum": 25700,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやき町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "支給認定日からとなります",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kosodate/hoikusho/_3568.html",
+    "sourceName": "幼児教育・保育の無償化について"
+  },
+  {
+    "slug": "saga-official-003-047-2026",
+    "title": "みやき町 難聴児に対する補聴器購入費の助成について",
+    "organization": "みやき町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやき町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和7年4月1日 交付・修理について 手当・共済制度について 障がい者虐待防止法について 特別児童扶養手当 難聴児に対する補聴器購入費の助成について 福祉タクシー利用助成券の交付について 障がいがある方のその他の割引制度 障害者差別解消法につ",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/shogaishafukushi/_2178.html",
+    "sourceName": "難聴児に対する補聴器購入費の助成について"
+  },
+  {
+    "slug": "saga-official-003-048-2026",
+    "title": "みやき町 みやき町物価高騰対応重点支援臨時給付金（令和6年度新たな住民税非課税世帯給付・こども加算）",
+    "organization": "みやき町",
+    "maxAmount": "1世帯あたり10万円",
+    "maxAmountNum": 100000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "みやき町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "令和6年9月30日 申請期限を終了しています",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/oshirase/_5811.html",
+    "sourceName": "みやき町物価高騰対応重点支援臨時給付金（令和6年度新たな住民税非課税世帯給付・こども加算）"
+  },
+  {
+    "slug": "saga-official-003-049-2026",
+    "title": "みやき町 みやき町物価高騰対応重点支援臨時給付金（令和6年度住民税非課税等世帯給付・こども加算）",
+    "organization": "みやき町",
+    "maxAmount": "1世帯あたり3万円",
+    "maxAmountNum": 30000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "みやき町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "令和7年7月15日 申請期限を終了しています",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/oshirase/_6170.html",
+    "sourceName": "みやき町物価高騰対応重点支援臨時給付金（令和6年度住民税非課税等世帯給付・こども加算）"
+  },
+  {
+    "slug": "saga-official-003-050-2026",
+    "title": "みやき町 子どものインフルエンザ予防接種について",
+    "organization": "みやき町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "みやき町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和7年10月1日 申請受付期間：令和7年10月1日（水）〜令和8年3月31日（火） 詳細はこちらをご覧ください",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/josei/_3270.html",
+    "sourceName": "子どものインフルエンザ予防接種について"
+  },
+  {
+    "slug": "saga-official-003-051-2026",
+    "title": "みやき町 みやき町骨髄等移植支援事業",
+    "organization": "みやき町",
+    "maxAmount": "助成額骨髄等提供のための通院又は入院等について、1日につき2万円",
+    "maxAmountNum": 20000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやき町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "令和4年4月1日 申請時において、みやき町に住所を有し、町税等の滞納がない方 （3）公益財団法人日本骨髄バンクが実施する骨髄バンク事業において、骨髄または末梢血幹細胞の 提供が完了し、これを証明する書類の交付を受けた方 助成内容・助成額 骨髄",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/josei/_4856.html",
+    "sourceName": "みやき町骨髄等移植支援事業"
+  },
+  {
+    "slug": "saga-official-003-052-2026",
+    "title": "みやき町 初回産科受診料支援事業",
+    "organization": "みやき町",
+    "maxAmount": "補助額1回につき10,000円",
+    "maxAmountNum": 10000,
+    "category": "medical",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "みやき町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和5年4月1日 申請に必要な書類 ※事前に北茂安センターにご連絡ください",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/josei/_5130.html",
+    "sourceName": "初回産科受診料支援事業"
+  },
+  {
+    "slug": "saga-official-003-053-2026",
+    "title": "みやき町 国保で受けられる給付",
+    "organization": "みやき町",
+    "maxAmount": "限度額適用・標準負担額認定申請書出産したとき（出産育児一時金の支給）令和5年4月より被保険者が出産したとき、50万円",
+    "maxAmountNum": 500000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "みやき町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "支給 入院したときの食事代は、診療にかかる費用とは別に、1食分として下記の標準負担額を自己負担します",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/kokuho/_1049.html",
+    "sourceName": "国保で受けられる給付"
+  },
+  {
+    "slug": "saga-official-003-054-2026",
+    "title": "みやき町 自立支援医療について",
+    "organization": "みやき町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやき町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "交付・修理について 手当・共済制度について 障がい者虐待防止法について 特別児童扶養手当 難聴児に対する補聴器購入費の助成について 福祉タクシー利用助成券の交付について 障がいがある方のその他の割引制度 障害者差別解消法につ",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/shogaishafukushi/_5809.html",
+    "sourceName": "自立支援医療について"
+  },
+  {
+    "slug": "saga-official-003-055-2026",
+    "title": "みやき町 不妊治療費の一部助成について",
+    "organization": "みやき町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやき町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和４年４月１日 交付についてはこちら 土曜日、日曜日、祝日、年末年始（12月29日～1月3日）は閉庁します",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/josei/_1068.html",
+    "sourceName": "不妊治療費の一部助成について"
+  },
+  {
+    "slug": "saga-official-003-056-2026",
+    "title": "みやき町 補装具の交付・修理について",
+    "organization": "みやき町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "みやき町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "交付・修理について このページではjavascriptを使用しています",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/shogaishafukushi/_1179.html",
+    "sourceName": "補装具の交付・修理について"
+  },
+  {
+    "slug": "saga-official-003-057-2026",
+    "title": "みやき町 福祉タクシー利用助成券の交付について",
+    "organization": "みやき町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやき町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "交付について このページではjavascriptを使用しています",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/shogaishafukushi/_6682.html",
+    "sourceName": "福祉タクシー利用助成券の交付について"
+  },
+  {
+    "slug": "saga-official-003-058-2026",
+    "title": "みやき町 ハンセン病元患者の御家族に対する補償金制度",
+    "organization": "みやき町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "みやき町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "支給等に関する法律」に基づき、ハンセン病元患者の御家族に対する補償金制度が創設され、厚生労働省の窓口で補償金の請求を受け付けています",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/oshirase/_6040.html",
+    "sourceName": "ハンセン病元患者の御家族に対する補償金制度"
+  },
+  {
+    "slug": "saga-official-003-059-2026",
+    "title": "みやき町 出生祝金",
+    "organization": "みやき町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "みやき町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "支給制度について 平成26年4月より次世代を担う赤ちゃんの出生を祝福し、保護者の子育てを支援することを目的とし出生祝金を支給しています",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kosodate/ninshin/_2063.html",
+    "sourceName": "出生祝金"
+  },
+  {
+    "slug": "saga-official-003-060-2026",
+    "title": "みやき町 出産・子育て応援事業",
+    "organization": "みやき町",
+    "maxAmount": "1人に対し5万円",
+    "maxAmountNum": 50000,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "みやき町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "令和7年4月1日 支給を一体的に行う出産・子育て応援事業を実施します",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kosodate/teate/_5024.html",
+    "sourceName": "出産・子育て応援事業"
+  },
+  {
+    "slug": "saga-official-003-061-2026",
+    "title": "みやき町 妊婦等包括相談支援事業・妊婦支援給付について",
+    "organization": "みやき町",
+    "maxAmount": "支給額現金5万円",
+    "maxAmountNum": 50000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "employment",
+      "living"
+    ],
+    "eligibility": "みやき町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "令和7年4月1日 支給していた「出産応援ギフト」「子育て応援ギフト」は「妊婦支援給付」に移行します",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kosodate/ninshin/_6199.html",
+    "sourceName": "妊婦等包括相談支援事業・妊婦支援給付について"
+  },
+  {
+    "slug": "saga-official-003-062-2026",
+    "title": "みやき町 医療用ウィッグ、乳房補正具の購入の補助",
+    "organization": "みやき町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやき町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "交付しています",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kenko/josei/_2357.html",
+    "sourceName": "医療用ウィッグ、乳房補正具の購入の補助"
+  },
+  {
+    "slug": "saga-official-003-063-2026",
+    "title": "みやき町 雨水貯留タンクを設置される方へ補助をします",
+    "organization": "みやき町",
+    "maxAmount": "限度額は4万円",
+    "maxAmountNum": 40000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "みやき町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "令和7年7月9日 受付を開始しました 車両・農機具等の避難場所について 水防 雨水貯留タンクを設置される方へ補助をします 要配慮者利用施設における避難確保計画作成について マイ・タイムラインを作ろう 高潮ハザードマップ 備蓄状況 土砂災害警戒",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kurashi/bohan/_6412/_5121.html",
+    "sourceName": "雨水貯留タンクを設置される方へ補助をします"
+  },
+  {
+    "slug": "saga-official-003-064-2026",
+    "title": "みやき町 佐賀バルーナーズ応援バスツアー補助のご案内",
+    "organization": "みやき町",
+    "maxAmount": "上限を超えた金額を割り勘するのはOK補助対象経費・団体で手配する貸切バス代金（高速代や有料道路代含む）の実費（最大3台分）※「乗車人数」×3,300円",
+    "maxAmountNum": 3300,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "みやき町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "募集について 佐賀バルーナーズ応援バスツアー補助のご案内 みんなで佐賀バルーナーズを応援しよう！！ 佐賀県プロバスケットボール振興協議会では、観戦に訪れることが困難な遠方の県民の方々にも、一度SAGAアリーナでの観戦を体験し",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kurashi/bunka/_5840.html",
+    "sourceName": "佐賀バルーナーズ応援バスツアー補助のご案内"
+  },
+  {
+    "slug": "saga-official-003-065-2026",
+    "title": "みやき町 乳幼児予防接種",
+    "organization": "みやき町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "みやき町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "交付についてはこちら 土曜日、日曜日、祝日、年末年始（12月29日～1月3日）は閉庁します",
+    "officialUrl": "https://www.town.miyaki.lg.jp/kosodate/kenko/_2917.html",
+    "sourceName": "乳幼児予防接種"
+  },
+  {
+    "slug": "saga-official-003-066-2026",
+    "title": "玄海町 玄海町みんなで応援券（商品券）を交付します！",
+    "organization": "玄海町",
+    "maxAmount": "1人当たり1冊1万円",
+    "maxAmountNum": 10000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "玄海町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年2月20日 交付します！ - 玄海町ホームページ ページの先頭です",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/19/90655.html",
+    "sourceName": "玄海町みんなで応援券（商品券）を交付します！"
+  },
+  {
+    "slug": "saga-official-003-067-2026",
+    "title": "玄海町 玄海町実用英語技能検定（英検）受験費補助金のお知らせ",
+    "organization": "玄海町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "玄海町内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2025年7月1日 申請が必要になりますので、事前にご確認ください",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/11/86555.html",
+    "sourceName": "玄海町実用英語技能検定（英検）受験費補助金のお知らせ"
+  },
+  {
+    "slug": "saga-official-003-068-2026",
+    "title": "玄海町 令和8年度玄海町まちづくり活性化促進事業補助金の募集をしています",
+    "organization": "玄海町",
+    "maxAmount": "限度額1事業あたり200万円",
+    "maxAmountNum": 2000000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "玄海町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年7月9日 募集をしています - 玄海町ホームページ ページの先頭です",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/19/93610.html",
+    "sourceName": "令和8年度玄海町まちづくり活性化促進事業補助金の募集をしています"
+  },
+  {
+    "slug": "saga-official-003-069-2026",
+    "title": "玄海町 公立保育所における施設型給付費等の額に係る法定代理受領について",
+    "organization": "玄海町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "玄海町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月14日 支給者と受領者はどちらも「玄海町」となります",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/24/94013.html",
+    "sourceName": "公立保育所における施設型給付費等の額に係る法定代理受領について"
+  },
+  {
+    "slug": "saga-official-003-070-2026",
+    "title": "玄海町 令和8年度特定健診・健康診査を受けましょう",
+    "organization": "玄海町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [
+      "medical"
+    ],
+    "eligibility": "玄海町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月10日 受付時間 会場 予約受付開始日 健康診査 6月30日（火曜日） 9時00分 ～11時00分 仮屋東公民館 6月19日 7月1日（水曜日） 外津漁民センター 健康診査・ 総合がん検診 7月2日（木曜日） 値賀分館 7月3日（金",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/24/84180.html",
+    "sourceName": "令和8年度特定健診・健康診査を受けましょう"
+  },
+  {
+    "slug": "saga-official-003-071-2026",
+    "title": "玄海町 障害児福祉手当について",
+    "organization": "玄海町",
+    "maxAmount": "支給額月額16,560円",
+    "maxAmountNum": 16560,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "玄海町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 支給されます",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/23/90505.html",
+    "sourceName": "障害児福祉手当について"
+  },
+  {
+    "slug": "saga-official-003-072-2026",
+    "title": "玄海町 特別障害者手当について",
+    "organization": "玄海町",
+    "maxAmount": "支給額月額30,450円",
+    "maxAmountNum": 30450,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "玄海町内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月1日 支給される手当です",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/23/90504.html",
+    "sourceName": "特別障害者手当について"
+  },
+  {
+    "slug": "saga-official-003-073-2026",
+    "title": "玄海町 児童扶養手当について",
+    "organization": "玄海町",
+    "maxAmount": "月額区分全部支給一部支給児童1人のとき月額46,690円",
+    "maxAmountNum": 46690,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "玄海町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月25日 支給します",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/24/1150.html",
+    "sourceName": "児童扶養手当について"
+  },
+  {
+    "slug": "saga-official-003-074-2026",
+    "title": "玄海町 未就園児子育て助成事業について",
+    "organization": "玄海町",
+    "maxAmount": "1人当たり月額10,000円",
+    "maxAmountNum": 10000,
+    "category": "childcare",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "玄海町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年11月27日 交付する事業を令和7年度から​開始します",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/24/85692.html",
+    "sourceName": "未就園児子育て助成事業について"
+  },
+  {
+    "slug": "saga-official-003-075-2026",
+    "title": "玄海町 高校生通学費等助成事業について",
+    "organization": "玄海町",
+    "maxAmount": "1人当たり月額10,000円",
+    "maxAmountNum": 10000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "玄海町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年11月27日 交付する事業を令和7年度から開始します",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/24/85688.html",
+    "sourceName": "高校生通学費等助成事業について"
+  },
+  {
+    "slug": "saga-official-003-076-2026",
+    "title": "玄海町 児童手当について",
+    "organization": "玄海町",
+    "maxAmount": "月額3歳未満15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "玄海町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 支給）から児童手当の制度改正が行われています",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/24/84862.html",
+    "sourceName": "児童手当について"
+  },
+  {
+    "slug": "saga-official-003-077-2026",
+    "title": "玄海町 副食費の無償化について",
+    "organization": "玄海町",
+    "maxAmount": "月額4,800円",
+    "maxAmountNum": 4800,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "玄海町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 請求しませんので、保護者の皆さまに新しく手続きが必要になることはありません",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/24/36834.html",
+    "sourceName": "副食費の無償化について"
+  },
+  {
+    "slug": "saga-official-003-078-2026",
+    "title": "玄海町 子どもの医療費助成について",
+    "organization": "玄海町",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "玄海町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 申請することで医療費の払戻しを受けることができる償還払いとなっていますが、令和7年1月診療分から聖マリア病院、久留米大学病院について、就学後も現物給付が利用できるようになります",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/24/1200.html",
+    "sourceName": "子どもの医療費助成について"
+  },
+  {
+    "slug": "saga-official-003-079-2026",
+    "title": "玄海町 玄海町合宿促進事業補助金",
+    "organization": "玄海町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "玄海町内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年3月31日 交付を受けていること",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/19/19950.html",
+    "sourceName": "玄海町合宿促進事業補助金"
+  },
+  {
+    "slug": "saga-official-003-080-2026",
+    "title": "玄海町 玄海町空き家バンクリフォーム等促進事業補助金",
+    "organization": "玄海町",
+    "maxAmount": "限度額1仲介手数料補助売買及び賃貸契約に要する宅地建物取扱業者の仲介手数料に係る経費10分の1050,000円",
+    "maxAmountNum": 50000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "玄海町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年2月5日 交付します",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/8/73094.html",
+    "sourceName": "玄海町空き家バンクリフォーム等促進事業補助金"
+  },
+  {
+    "slug": "saga-official-003-081-2026",
+    "title": "玄海町 定住促進奨励金を支給します",
+    "organization": "玄海町",
+    "maxAmount": "1人につき10万円",
+    "maxAmountNum": 100000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "玄海町内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年2月4日 支給します - 玄海町ホームページ ページの先頭です",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/8/1306.html",
+    "sourceName": "定住促進奨励金を支給します"
+  },
+  {
+    "slug": "saga-official-003-082-2026",
+    "title": "玄海町 日常生活用具の給付について",
+    "organization": "玄海町",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "玄海町内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2019年10月1日 申請してください",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/23/1163.html",
+    "sourceName": "日常生活用具の給付について"
+  },
+  {
+    "slug": "saga-official-003-083-2026",
+    "title": "玄海町 ひとり親家庭等医療費助成について",
+    "organization": "玄海町",
+    "maxAmount": "限度額表扶養親族の数受給資格者扶養義務者および配偶者等の養育費0人1,920,000円",
+    "maxAmountNum": 1920000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "玄海町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2019年10月1日 支給制限 前年の所得(収入から給与所得控除などの控除した額に、前年中に母または児童が児童の父から受け取った養育費の8割を合算した額)が限度額以上ある場合は、その年度(8月から翌年の7月まで)の資格は喪失となります",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/24/1136.html",
+    "sourceName": "ひとり親家庭等医療費助成について"
+  },
+  {
+    "slug": "saga-official-003-084-2026",
+    "title": "玄海町 帯状疱疹予防接種（任意接種）の費用を一部助成します！",
+    "organization": "玄海町",
+    "maxAmount": "助成額ワクチンの種類（商品名）生ワクチン（ビケン）不活化ワクチン（シングリックス）助成額接種費用の1/2（上限4,000円",
+    "maxAmountNum": 4000,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "玄海町内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月16日 申請日において玄海町に住民登録がある方で、 接種日において50歳以上64歳以下の方（定期接種対象者を除く）​ ※令和6年4月1日以降に帯状疱疹予防接種を接種された方が対象です",
+    "officialUrl": "https://www.town.genkai.lg.jp/soshiki/24/77794.html",
+    "sourceName": "帯状疱疹予防接種（任意接種）の費用を一部助成します！"
+  }
+];
