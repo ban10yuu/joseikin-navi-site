@@ -1,0 +1,33 @@
+{
+  "batch": "oita-official-coverage-003",
+  "prefecture": "大分県",
+  "generatedAt": "2026-07-18T00:00:00+09:00",
+  "municipalities": [
+    {
+      "code": "44211",
+      "name": "宇佐市",
+      "officialUrl": "https://www.city.usa.oita.jp/"
+    },
+    {
+      "code": "44212",
+      "name": "豊後大野市",
+      "officialUrl": "https://www.bungo-ohno.jp/"
+    },
+    {
+      "code": "44213",
+      "name": "由布市",
+      "officialUrl": "https://www.city.yufu.oita.jp/"
+    },
+    {
+      "code": "44214",
+      "name": "国東市",
+      "officialUrl": "https://www.city.kunisaki.oita.jp/"
+    },
+    {
+      "code": "44322",
+      "name": "姫島村",
+      "officialUrl": "https://www.himeshima.jp/"
+    }
+  ],
+  "notes": "大分県公式棚卸し003。公式トップHTTP 200確認済み。宇佐市はsitemap.xml、豊後大野市・国東市はsitemap.html、姫島村はsitemap.xmlとWordPress階層、由布市は公式カテゴリ階層を主入口に個別制度ページを抽出する。"
+}

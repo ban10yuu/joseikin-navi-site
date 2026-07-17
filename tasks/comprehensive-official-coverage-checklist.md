@@ -11536,3 +11536,15 @@
 - メトリクス: 5自治体、90制度採用、一次候補742件、再スコア742件、採用率は一次候補比12.1%。大分県001-002累計は10自治体182制度。監査は集約1回、commitは002単位で1回予定。
 - 到達点: 大分県は44201大分市から44210杵築市まで第1巡到達。全国公式棚卸しは未完了。
 - 次回: 大分県公式棚卸し003として、44211宇佐市から再開（想定対象は44211宇佐市・44212豊後大野市・44213由布市・44214国東市・44322姫島村）
+
+
+### 大分県公式棚卸し003（44211宇佐市・44212豊後大野市・44213由布市・44214国東市・44322姫島村）
+
+- 対象公式トップ: 宇佐市 `https://www.city.usa.oita.jp/`、豊後大野市 `https://www.bungo-ohno.jp/`、由布市 `https://www.city.yufu.oita.jp/`、国東市 `https://www.city.kunisaki.oita.jp/`、姫島村 `https://www.himeshima.jp/` をHTTP 200で確認。
+- 公式sitemap/検索/カテゴリBFS候補: 855件（宇佐市116、豊後大野市20、由布市0、国東市564、姫島村155）。shortlistが150件超のため `tasks/discovery/oita-official-coverage-003-rescored-shortlist.tsv` へ本文スニペットを保存し、855件を再スコア。
+- 採用: 68制度（宇佐市16、豊後大野市3、国東市33、姫島村16）。`oita-official-003-001-2026` から `oita-official-003-068-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付/更新状況を公式本文で確認。
+- 低優先/第2巡: カテゴリ、サイトマップ、検索結果、広報記事、イベント記事、観光ページ、単なる制度一覧、交通サービス案内、重複した旧募集ページは採用せず、候補JSON/TSVに残置。由布市は公式候補0件、補完クロール応答遅延のため第2巡補完の先頭対象として保持。既存raw gap 0やHTTP 200だけでは完了扱いにしていない。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（003 discover/build）、JSON parse、追加slug重複0・全体slug重複0、公式URL 68/68 HTTP 200（`tasks/discovery/oita-official-coverage-003-url-status.txt`）。`npx eslint src/data/grants/verified-local-misc-2026.ts`、`git diff --check` は通過。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` / `src/lib/grants.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorで停止。
+- メトリクス: 4自治体採用、1自治体保留、68制度採用、一次候補855件、再スコア855件、採用率は一次候補比8.0%。大分県001-003累計は15自治体相当250制度（由布市は未完了保留）。監査は集約1回、commitは003単位で1回予定。
+- 到達点: 大分県は44201大分市から44322姫島村まで処理済みだが、44213由布市は第2巡補完待ち。全国公式棚卸しは未完了。
+- 次回: 大分県公式棚卸し004として、まず44213由布市の第2巡補完から再開し、その後44341日出町・44461九重町・44462玖珠町へ進む。
