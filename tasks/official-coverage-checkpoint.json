@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T14:18:00+09:00",
+  "updatedAt": "2026-07-17T14:29:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kochi-official-coverage-007",
-    "municipality": "四万十町・大月町・三原村・黒潮町",
+    "code": "fukuoka-official-coverage-001",
+    "municipality": "北九州市・福岡市・大牟田市・久留米市・直方市",
     "adopted": 71,
     "held": 0,
     "excluded": 0,
     "sourceUrlsChecked": 71,
     "validation": {
-      "previousMunicipality": "高知県公式棚卸し007として39412四万十町・39424大月町・39427三原村・39428黒潮町を確認し、71件を採用。高知県001-007累計は34自治体457制度となり、高知県全市町村の第1巡に到達。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kochi-official-coverage-007 build/rescore scripts",
-      "json": "pass: JSON.parse for kochi-official-coverage-007 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 71 added kochi-official-007 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "previousMunicipality": "福岡県公式棚卸し001として40100北九州市・40130福岡市・40202大牟田市・40203久留米市・40204直方市を確認し、71件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/fukuoka-official-coverage-001 build/rescore scripts",
+      "json": "pass: JSON.parse for fukuoka-official-coverage-001 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 71 added fukuoka-official-001 slugs, duplicateCount 0 in adopted output and whole dataset",
       "urlReachability": "pass: 71 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for kochi-official-coverage-007 target files",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 22667、officialLinkedActive 22546、manuallyVerifiedActive 22546、高知県 localOfficial 498)",
-      "notes": "39412四万十町・39424大月町・39427三原村・39428黒潮町を確認。公式トップ4自治体200到達。標準discoverは0件。公式サイト内リンクBFSを上限240件で再スコアし、候補275件（三原村49・四万十町108・大月町118）を抽出。黒潮町は再スコア0件だったため公式カテゴリ導線から直接抽出し、候補12件を確認。shortlistが150件超のためローカルJSON/本文スニペットで再選別し、公式HTML個別制度ページ、公式一覧、制度本文を含む公式掲載ページ71件を採用。トップ、カテゴリのみ、検索、部署、共通ナビ、計画・実績公表、募集職員、入札、単なる手続・告知、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
+      "diffCheck": "pass: git diff --check for fukuoka-official-coverage-001 target files",
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 22738、officialLinkedActive 22616、manuallyVerifiedActive 22616、福岡県 localOfficial 215)",
+      "notes": "40100北九州市・40130福岡市・40202大牟田市・40203久留米市・40204直方市を確認。公式トップ5自治体200到達。標準discoverは0件。公式サイト内リンクBFSを上限260件で再スコアし、候補254件（久留米市47・直方市109・福岡市81・北九州市17）を抽出。大牟田市は標準/再スコアで候補化が弱いため公式カテゴリ導線から直接抽出し、詳細スニペット427件を確認。公式HTML個別制度ページ、制度本文を含む公式掲載ページ71件を採用。トップ、カテゴリのみ、検索、部署、共通ナビ、計画・実績公表、単なる手続・告知、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "fukuoka-official-coverage-001",
-    "municipality": "北九州市",
-    "shortlist": "高知県007で39412四万十町・39424大月町・39427三原村・39428黒潮町を確認し、71件を採用。高知県全34市町村の第1巡に到達。次は自治体コード順で40100北九州市から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、福岡県公式棚卸し001として40100北九州市を開始地点に自治体コード順で再開する。想定対象は40100北九州市・40130福岡市・40202大牟田市・40203久留米市・40204直方市。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "fukuoka-official-coverage-002",
+    "municipality": "飯塚市",
+    "shortlist": "福岡県001で40100北九州市・40130福岡市・40202大牟田市・40203久留米市・40204直方市を確認し、71件を採用。次は自治体コード順で40205飯塚市から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、福岡県公式棚卸し002として40205飯塚市を開始地点に自治体コード順で再開する。想定対象は40205飯塚市・40206田川市・40207柳川市・40210八女市・40211筑後市。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
-    "prefecture": "高知県",
-    "status": "first-pass-complete",
-    "lastBatch": "kochi-official-coverage-007",
-    "notes": "高知県公式棚卸し001-007で39201高知市から39428黒潮町まで全34市町村を確認し、累計457制度を採用。次は福岡県公式棚卸し001として40100北九州市から再開する。"
+    "prefecture": "福岡県",
+    "status": "in-progress",
+    "lastBatch": "fukuoka-official-coverage-001",
+    "notes": "福岡県公式棚卸し001で40100北九州市から40204直方市まで5自治体を確認し、71制度を採用。次は40205飯塚市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

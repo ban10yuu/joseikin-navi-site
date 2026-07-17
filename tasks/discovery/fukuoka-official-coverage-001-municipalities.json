@@ -1,0 +1,11 @@
+{
+  "prefecture": "福岡県",
+  "batch": "fukuoka-official-coverage-001",
+  "municipalities": [
+    { "code": "40100", "name": "北九州市", "url": "https://www.city.kitakyushu.lg.jp/" },
+    { "code": "40130", "name": "福岡市", "url": "https://www.city.fukuoka.lg.jp/" },
+    { "code": "40202", "name": "大牟田市", "url": "https://www.city.omuta.lg.jp/" },
+    { "code": "40203", "name": "久留米市", "url": "https://www.city.kurume.fukuoka.jp/" },
+    { "code": "40204", "name": "直方市", "url": "https://www.city.nogata.fukuoka.jp/" }
+  ]
+}

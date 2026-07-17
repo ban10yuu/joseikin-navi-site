@@ -1,0 +1,1058 @@
+const fukuokaOfficial001Grants: Array<{
+  slug: string;
+  title: string;
+  organization: string;
+  maxAmount: string;
+  maxAmountNum: number;
+  category: Grant['category'];
+  relatedCategories?: Grant['relatedCategories'];
+  eligibility: string;
+  applicationPeriod: string;
+  officialUrl: string;
+  sourceName: string;
+}> = [
+  {
+    "slug": "fukuoka-official-001-001-2026",
+    "title": "北九州市 地域中核企業等成長促進トライアル補助金",
+    "organization": "北九州市",
+    "maxAmount": "補助額等補助率2分の1補助額下限10万円",
+    "maxAmountNum": 100000,
+    "category": "living",
+    "relatedCategories": [
+      "employment"
+    ],
+    "eligibility": "北九州市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月17日 募集ご案内チラシ（成長促進トライアル補助金）（PDF形式：478KB） お知らせ 令和8年7月6日 募集を開始しました 【参考】令和7年度採択事業者一覧（PDF形式：126KB） 募集期間 令和8年7月6日（月曜日）から8月",
+    "officialUrl": "https://www.city.kitakyushu.lg.jp/contents/099_00002.html",
+    "sourceName": "地域中核企業等成長促進トライアル補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-002-2026",
+    "title": "北九州市 児童手当について",
+    "organization": "北九州市",
+    "maxAmount": "月額0歳から3歳未満（第1子・第2子）15,000円",
+    "maxAmountNum": 15000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "北九州市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月23日 支給する制度です",
+    "officialUrl": "https://www.city.kitakyushu.lg.jp/contents/924_10089.html",
+    "sourceName": "児童手当について"
+  },
+  {
+    "slug": "fukuoka-official-001-003-2026",
+    "title": "北九州市 児童扶養手当の支給",
+    "organization": "北九州市",
+    "maxAmount": "1人44,140円",
+    "maxAmountNum": 44140,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "北九州市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年3月3日 支給 - 北九州市 このページではJavaScriptを使用しています",
+    "officialUrl": "https://www.city.kitakyushu.lg.jp/contents/924_10105.html",
+    "sourceName": "児童扶養手当の支給"
+  },
+  {
+    "slug": "fukuoka-official-001-004-2026",
+    "title": "北九州市 商店街の空き店舗への出店支援（シャッターヒラクプロジェクト）",
+    "organization": "北九州市",
+    "maxAmount": "限度額通常枠が50万円",
+    "maxAmountNum": 500000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "北九州市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年7月15日 受付は終了しました",
+    "officialUrl": "https://www.city.kitakyushu.lg.jp/contents/924_10585.html",
+    "sourceName": "商店街の空き店舗への出店支援（シャッターヒラクプロジェクト）"
+  },
+  {
+    "slug": "fukuoka-official-001-005-2026",
+    "title": "北九州市 商店街賑わいづくり支援事業",
+    "organization": "北九州市",
+    "maxAmount": "上限額：50万円",
+    "maxAmountNum": 500000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "北九州市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月27日 募集期間 4月6日から4月16日まで（前期） 9月4日から9月14日まで（後期） 【留意点】 同一年度内の申請は1団体1申請のみ 補助対象とならない経費もあります",
+    "officialUrl": "https://www.city.kitakyushu.lg.jp/contents/924_10593.html",
+    "sourceName": "商店街賑わいづくり支援事業"
+  },
+  {
+    "slug": "fukuoka-official-001-006-2026",
+    "title": "北九州市 中小企業団体共同施設設置補助",
+    "organization": "北九州市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "北九州市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年6月12日 申請が予算枠に達した時点で締め切りとなります",
+    "officialUrl": "https://www.city.kitakyushu.lg.jp/contents/924_12036.html",
+    "sourceName": "中小企業団体共同施設設置補助"
+  },
+  {
+    "slug": "fukuoka-official-001-007-2026",
+    "title": "北九州市 北九州市簡易型自動消火装置設置費補助事業",
+    "organization": "北九州市",
+    "maxAmount": "補助額：上限55,000円",
+    "maxAmountNum": 55000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "北九州市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年8月20日 申請手続、交付決定通知受領 （3）簡易型自動消火装置の設置 （4）実績報告書の提出 （5）補助金の交付 （注）簡易型自動消火装置設置費補助金の対象は、指定された登録販売店が設置工事したものに限ります",
+    "officialUrl": "https://www.city.kitakyushu.lg.jp/contents/924_01996.html",
+    "sourceName": "北九州市簡易型自動消火装置設置費補助事業"
+  },
+  {
+    "slug": "fukuoka-official-001-008-2026",
+    "title": "北九州市 北九州市事業系ごみ減量チャレンジ補助金事業",
+    "organization": "北九州市",
+    "maxAmount": "上限補助金額10万円",
+    "maxAmountNum": 100000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "北九州市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年7月2日 募集について スケジュール 補助金活用事例（イメージ） 様式等 事業所から出る古紙の持ち込み先を拡大しています！ ごみ処理手数料改定について 事業所から排出されるごみの減量・リサイクル推進の一環として、令和8年9月1日から ",
+    "officialUrl": "https://www.city.kitakyushu.lg.jp/contents/011_00005.html",
+    "sourceName": "北九州市事業系ごみ減量チャレンジ補助金事業"
+  },
+  {
+    "slug": "fukuoka-official-001-009-2026",
+    "title": "北九州市 北九州市中小企業の3E-Action応援事業",
+    "organization": "北九州市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "北九州市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年5月8日 募集開始】北九州市中小企業の3E-Action（創エネ・省エネ・蓄エネ）応援事業 - 北九州市 このページではJavaScriptを使用しています",
+    "officialUrl": "https://www.city.kitakyushu.lg.jp/contents/29000025.html",
+    "sourceName": "北九州市中小企業の3E-Action応援事業"
+  },
+  {
+    "slug": "fukuoka-official-001-010-2026",
+    "title": "北九州市 医療費の助成",
+    "organization": "北九州市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "北九州市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "交付申請 子ども医療証のオンライン変更申請 子ども医療証のオンライン交付申請 交通事故等にあったら（福祉医療費助成制度を使用して治療を受けるとき） 小児慢性特定疾病児童等自立支援事業について 子ども医療証の申請がオンラインで",
+    "officialUrl": "https://www.city.kitakyushu.lg.jp/kurashi/menu01_0155.html",
+    "sourceName": "医療費の助成"
+  },
+  {
+    "slug": "fukuoka-official-001-011-2026",
+    "title": "北九州市 不妊・不育症相談や治療費の助成",
+    "organization": "北九州市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "北九州市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "交付ほか 妊娠・出産・育児に関する相談や教室 国民健康保険に関する届出ほか 医療費の助成 不妊・不育症相談や治療費の助成 北九州市役所（本庁） 法人番号： 8000020401005 住所： 〒803-8501 北九州市小倉",
+    "officialUrl": "https://www.city.kitakyushu.lg.jp/category/menu00_0007.html",
+    "sourceName": "不妊・不育症相談や治療費の助成"
+  },
+  {
+    "slug": "fukuoka-official-001-012-2026",
+    "title": "北九州市 商店街空き店舗活用補助",
+    "organization": "北九州市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "北九州市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "商店街空き店舗活用補助 - 北九州市 このページではJavaScriptを使用しています。 ページトップ Language 検索 メニュー ホーム 防災・安全安心 くらしの情報 観光・おでかけ ビジネス・産業 市政情報 市の広報 ホーム 本",
+    "officialUrl": "https://www.city.kitakyushu.lg.jp/business/menu03_0216.html",
+    "sourceName": "商店街空き店舗活用補助"
+  },
+  {
+    "slug": "fukuoka-official-001-013-2026",
+    "title": "北九州市 北九州市黒崎地区活性化イベント補助金制度",
+    "organization": "北九州市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "北九州市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月6日 交付する制度です",
+    "officialUrl": "https://www.city.kitakyushu.lg.jp/contents/272_00003.html",
+    "sourceName": "北九州市黒崎地区活性化イベント補助金制度"
+  },
+  {
+    "slug": "fukuoka-official-001-014-2026",
+    "title": "北九州市 北九州市紫川エリアイベント補助金制度",
+    "organization": "北九州市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "北九州市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月7日 交付する制度です",
+    "officialUrl": "https://www.city.kitakyushu.lg.jp/contents/272_00002.html",
+    "sourceName": "北九州市紫川エリアイベント補助金制度"
+  },
+  {
+    "slug": "fukuoka-official-001-015-2026",
+    "title": "北九州市 助産施設",
+    "organization": "北九州市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "北九州市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年10月24日 助産施設 - 北九州市 このページではJavaScriptを使用しています。 ページトップ Language 検索 メニュー ホーム 防災・安全安心 くらしの情報 観光・おでかけ ビジネス・産業 市政情報 市の広報 ホーム 本文へ 組織一覧",
+    "officialUrl": "https://www.city.kitakyushu.lg.jp/contents/924_10790.html",
+    "sourceName": "助産施設"
+  },
+  {
+    "slug": "fukuoka-official-001-016-2026",
+    "title": "福岡市 令和7年度福岡市研究開発型スタートアップ成長支援事業補助金",
+    "organization": "福岡市",
+    "maxAmount": "補助額等の一覧表AコースBコース補助額200万円",
+    "maxAmountNum": 2000000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "福岡市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年10月2日 交付申請締切】令和７年度「福岡市研究開発型スタートアップ成長支援事業補助金」の公募について 本文へジャンプ Language 言語選択 Choose your language option ① 外国語ポータル （Multi",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/keizai/r-support/business/kenkyukaihatsu_hojokin_2025.html",
+    "sourceName": "令和7年度福岡市研究開発型スタートアップ成長支援事業補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-017-2026",
+    "title": "福岡市 令和8年度福岡市新規創業促進補助金",
+    "organization": "福岡市",
+    "maxAmount": "補助額株式会社設立の場合：一律75,000円",
+    "maxAmountNum": 75000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "福岡市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 募集・市政への提案 行政手続・不服申立て 広報・報道 情報公開 統計情報 職員募集・職員人事 市の庁舎・施設案内 外国人支援 国際交流・国際貢献 広域連携 交通・道路・都市整備 都市景観・公園・緑化 水道・下水道・河川 港湾",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/keizai/r-support/business/tokutei-sougyou-sientoujigyou_08.html",
+    "sourceName": "令和8年度福岡市新規創業促進補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-018-2026",
+    "title": "福岡市 ひとり親家庭等医療費助成制度",
+    "organization": "福岡市",
+    "maxAmount": "限度額表扶養親族の数受給資格者本人限度額令和6年10月まで受給資格者本人限度額令和6年11月から扶養義務者および配偶者限度額（※変更なし）0人192万円",
+    "maxAmountNum": 1920000,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "福岡市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年12月2日 募集・市政への提案 行政手続・不服申立て 広報・報道 情報公開 統計情報 職員募集・職員人事 市の庁舎・施設案内 外国人支援 国際交流・国際貢献 広域連携 交通・道路・都市整備 都市景観・公園・緑化 水道・下水道・河川 港湾",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/hofuku/hokennenkin/life/03.html",
+    "sourceName": "ひとり親家庭等医療費助成制度"
+  },
+  {
+    "slug": "fukuoka-official-001-019-2026",
+    "title": "福岡市 ブロック塀等除却費補助事業",
+    "organization": "福岡市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "福岡市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年7月8日 募集・市政への提案 行政手続・不服申立て 広報・報道 情報公開 統計情報 職員募集・職員人事 市の庁舎・施設案内 外国人支援 国際交流・国際貢献 広域連携 交通・道路・都市整備 都市景観・公園・緑化 水道・下水道・河川 港湾",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/jutaku-toshi/bid_safe/life/3609.html",
+    "sourceName": "ブロック塀等除却費補助事業"
+  },
+  {
+    "slug": "fukuoka-official-001-020-2026",
+    "title": "福岡市 子ども医療費助成制度",
+    "organization": "福岡市",
+    "maxAmount": "医療費の自己負担分等を助成",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "childcare",
+      "living"
+    ],
+    "eligibility": "福岡市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年12月2日 募集・市政への提案 行政手続・不服申立て 広報・報道 情報公開 統計情報 職員募集・職員人事 市の庁舎・施設案内 外国人支援 国際交流・国際貢献 広域連携 交通・道路・都市整備 都市景観・公園・緑化 水道・下水道・河川 港湾",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/hofuku/hokennenkin/hp/01.html",
+    "sourceName": "子ども医療費助成制度"
+  },
+  {
+    "slug": "fukuoka-official-001-021-2026",
+    "title": "福岡市 重度障がい者医療費助成制度",
+    "organization": "福岡市",
+    "maxAmount": "1人404万1千円653万6千円2人442万1千円674万9千円3人480万1千円696万2千円以降1人につき38万円",
+    "maxAmountNum": 380000,
+    "category": "medical",
+    "relatedCategories": [
+      "nursing",
+      "living"
+    ],
+    "eligibility": "福岡市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2025年12月2日 募集・市政への提案 行政手続・不服申立て 広報・報道 情報公開 統計情報 職員募集・職員人事 市の庁舎・施設案内 外国人支援 国際交流・国際貢献 広域連携 交通・道路・都市整備 都市景観・公園・緑化 水道・下水道・河川 港湾",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/hofuku/hokennenkin/life/02.html",
+    "sourceName": "重度障がい者医療費助成制度"
+  },
+  {
+    "slug": "fukuoka-official-001-022-2026",
+    "title": "福岡市 合併処理浄化槽設置助成制度",
+    "organization": "福岡市",
+    "maxAmount": "限度額人槽区分別限度額の一覧表人槽区分限度額5人槽332,000円",
+    "maxAmountNum": 332000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "福岡市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2025年4月1日 交付する制度 です",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/doro-gesuido/gesuidoujigyou/life/gappeisyorijyoukasoujyoseiseido.html",
+    "sourceName": "合併処理浄化槽設置助成制度"
+  },
+  {
+    "slug": "fukuoka-official-001-023-2026",
+    "title": "福岡市 福岡市移動スーパー参入促進費補助金",
+    "organization": "福岡市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "福岡市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月1日 募集について 本文へジャンプ Language 言語選択 Choose your language option ① 外国語ポータル （Multilingual Portal） このページでは、外国人向けの情報を 次の言語で",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/fukushi/chiiki-fukushi/health/00/05/idou_supa.html",
+    "sourceName": "福岡市移動スーパー参入促進費補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-024-2026",
+    "title": "福岡市 福岡市介護保険サービス利用者負担金軽減制度事業補助金",
+    "organization": "福岡市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "福岡市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2025年6月17日 募集・市政への提案 行政手続・不服申立て 広報・報道 情報公開 統計情報 職員募集・職員人事 市の庁舎・施設案内 外国人支援 国際交流・国際貢献 広域連携 交通・道路・都市整備 都市景観・公園・緑化 水道・下水道・河川 港湾",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/fukushi/kaigohoken/health/00/05/5-010210_18.html",
+    "sourceName": "福岡市介護保険サービス利用者負担金軽減制度事業補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-025-2026",
+    "title": "福岡市 福岡市空き家活用補助金",
+    "organization": "福岡市",
+    "maxAmount": "上限額：100万円",
+    "maxAmountNum": 1000000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "福岡市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年6月30日 募集・市政への提案 行政手続・不服申立て 広報・報道 情報公開 統計情報 職員募集・職員人事 市の庁舎・施設案内 外国人支援 国際交流・国際貢献 広域連携 交通・道路・都市整備 都市景観・公園・緑化 水道・下水道・河川 港湾",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/jutaku-toshi/chiikikeikaku/life/akiyakatsuyou.html",
+    "sourceName": "福岡市空き家活用補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-026-2026",
+    "title": "福岡市 福岡市新規創業ブースターズ",
+    "organization": "福岡市",
+    "maxAmount": "月額基本料1年間20%OFF※法人のみ（通常ひと月11,000円",
+    "maxAmountNum": 11000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "福岡市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2022年3月4日 募集・市政への提案 行政手続・不服申立て 広報・報道 情報公開 統計情報 職員募集・職員人事 市の庁舎・施設案内 外国人支援 国際交流・国際貢献 広域連携 交通・道路・都市整備 都市景観・公園・緑化 水道・下水道・河川 港湾",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/keizai/r-support/business/tokutei-sougyou-sientoujigyou_3_2.html",
+    "sourceName": "福岡市新規創業ブースターズ"
+  },
+  {
+    "slug": "fukuoka-official-001-027-2026",
+    "title": "福岡市 建築物に関する支援制度",
+    "organization": "福岡市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "福岡市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2023年4月1日 募集・市政への提案 行政手続・不服申立て 広報・報道 情報公開 統計情報 職員募集・職員人事 市の庁舎・施設案内 外国人支援 国際交流・国際貢献 広域連携 交通・道路・都市整備 都市景観・公園・緑化 水道・下水道・河川 港湾",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/business/kenchiku/sienseido.html",
+    "sourceName": "建築物に関する支援制度"
+  },
+  {
+    "slug": "fukuoka-official-001-028-2026",
+    "title": "福岡市 金銭的支援（住まい）",
+    "organization": "福岡市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "福岡市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2016年9月27日 募集・市政への提案 行政手続・不服申立て 広報・報道 情報公開 統計情報 職員募集・職員人事 市の庁舎・施設案内 外国人支援 国際交流・国際貢献 広域連携 交通・道路・都市整備 都市景観・公園・緑化 水道・下水道・河川 港湾",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/lifeinformation/sumai/0015/150401.html",
+    "sourceName": "金銭的支援（住まい）"
+  },
+  {
+    "slug": "fukuoka-official-001-029-2026",
+    "title": "福岡市 福岡市民間建築物吹付けアスベスト除去等対策事業",
+    "organization": "福岡市",
+    "maxAmount": "上限25万円",
+    "maxAmountNum": 250000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "福岡市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年5月1日 募集・市政への提案 行政手続・不服申立て 広報・報道 情報公開 統計情報 職員募集・職員人事 市の庁舎・施設案内 外国人支援 国際交流・国際貢献 広域連携 交通・道路・都市整備 都市景観・公園・緑化 水道・下水道・河川 港湾",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/jutaku-toshi/machinami/asubesuto/1.html",
+    "sourceName": "福岡市民間建築物吹付けアスベスト除去等対策事業"
+  },
+  {
+    "slug": "fukuoka-official-001-030-2026",
+    "title": "福岡市 令和8年度福岡市ソーシャルスタートアップ成長支援事業",
+    "organization": "福岡市",
+    "maxAmount": "上限額７５０万円",
+    "maxAmountNum": 7500000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "福岡市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年3月31日 募集・市政への提案 行政手続・不服申立て 広報・報道 情報公開 統計情報 職員募集・職員人事 市の庁舎・施設案内 外国人支援 国際交流・国際貢献 広域連携 交通・道路・都市整備 都市景観・公園・緑化 水道・下水道・河川 港湾",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/keizai/r-support/business/socialhojyokinn-r8nd.html",
+    "sourceName": "令和8年度福岡市ソーシャルスタートアップ成長支援事業"
+  },
+  {
+    "slug": "fukuoka-official-001-031-2026",
+    "title": "福岡市 令和8年度就学援助",
+    "organization": "福岡市",
+    "maxAmount": "1人1,165,000円",
+    "maxAmountNum": 1165000,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "福岡市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年6月18日 募集・市政への提案 行政手続・不服申立て 広報・報道 情報公開 統計情報 職員募集・職員人事 市の庁舎・施設案内 外国人支援 国際交流・国際貢献 広域連携 交通・道路・都市整備 都市景観・公園・緑化 水道・下水道・河川 港湾",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/kyoiku-iinkai/gakkoshien/ed/syugakuenjo_r8.html",
+    "sourceName": "令和8年度就学援助"
+  },
+  {
+    "slug": "fukuoka-official-001-032-2026",
+    "title": "福岡市 福祉タクシー料金助成事業",
+    "organization": "福岡市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "nursing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "福岡市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月6日 募集・市政への提案 行政手続・不服申立て 広報・報道 情報公開 統計情報 職員募集・職員人事 市の庁舎・施設案内 外国人支援 国際交流・国際貢献 広域連携 交通・道路・都市整備 都市景観・公園・緑化 水道・下水道・河川 港湾",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/fukushi/syougaisyashien/health/taxi_8_1.html",
+    "sourceName": "福祉タクシー料金助成事業"
+  },
+  {
+    "slug": "fukuoka-official-001-033-2026",
+    "title": "福岡市 福祉乗車券・福祉乗車証",
+    "organization": "福岡市",
+    "maxAmount": "助成額から500円",
+    "maxAmountNum": 500,
+    "category": "nursing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "福岡市内の高齢者・障がい者・福祉サービス対象者等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月2日 交付について 本文へジャンプ Language 言語選択 Choose your language option ① 外国語ポータル （Multilingual Portal） このページでは、外国人向けの情報を 次の言語で",
+    "officialUrl": "https://www.city.fukuoka.lg.jp/fukushi/syougaisyashien/health/fukushijousyaken_2026_1.html",
+    "sourceName": "福祉乗車券・福祉乗車証"
+  },
+  {
+    "slug": "fukuoka-official-001-034-2026",
+    "title": "大牟田市 大牟田市省エネ設備導入促進補助金",
+    "organization": "大牟田市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "大牟田市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年7月10日 申請（住民票等交付申請書・住所変更届書の事前作成） 印鑑登録 外国人住民 コンビニ交付サービス おくやみ案内 市民課の窓口状況 住民基本台帳ネットワーク マイナンバーカード・公的個人認証 市税 個人市県民税 法人市民税 固定",
+    "officialUrl": "https://www.city.omuta.lg.jp/kiji00321382/index.html",
+    "sourceName": "大牟田市省エネ設備導入促進補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-035-2026",
+    "title": "大牟田市 スマート農業機械等導入支援事業",
+    "organization": "大牟田市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大牟田市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年7月14日 申請（住民票等交付申請書・住所変更届書の事前作成） 印鑑登録 外国人住民 コンビニ交付サービス おくやみ案内 市民課の窓口状況 住民基本台帳ネットワーク マイナンバーカード・公的個人認証 市税 個人市県民税 法人市民税 固定",
+    "officialUrl": "https://www.city.omuta.lg.jp/kiji00319121/index.html",
+    "sourceName": "スマート農業機械等導入支援事業"
+  },
+  {
+    "slug": "fukuoka-official-001-036-2026",
+    "title": "大牟田市 大牟田市にぎわう商店街づくり事業費補助",
+    "organization": "大牟田市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大牟田市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 申請（住民票等交付申請書・住所変更届書の事前作成） 印鑑登録 外国人住民 コンビニ交付サービス おくやみ案内 市民課の窓口状況 住民基本台帳ネットワーク マイナンバーカード・公的個人認証 市税 個人市県民税 法人市民税 固定",
+    "officialUrl": "https://www.city.omuta.lg.jp/list01150.html",
+    "sourceName": "大牟田市にぎわう商店街づくり事業費補助"
+  },
+  {
+    "slug": "fukuoka-official-001-037-2026",
+    "title": "大牟田市 大牟田市企業競争力強化促進補助金",
+    "organization": "大牟田市",
+    "maxAmount": "上限額対象経費の2分の1以内・上限100万円",
+    "maxAmountNum": 1000000,
+    "category": "living",
+    "relatedCategories": [
+      "employment"
+    ],
+    "eligibility": "大牟田市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月21日 申請（住民票等交付申請書・住所変更届書の事前作成） 印鑑登録 外国人住民 コンビニ交付サービス おくやみ案内 市民課の窓口状況 住民基本台帳ネットワーク マイナンバーカード・公的個人認証 市税 個人市県民税 法人市民税 固定",
+    "officialUrl": "https://www.city.omuta.lg.jp/kiji00320273/index.html",
+    "sourceName": "大牟田市企業競争力強化促進補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-038-2026",
+    "title": "大牟田市 新規創業支援",
+    "organization": "大牟田市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大牟田市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月30日 申請（住民票等交付申請書・住所変更届書の事前作成） 印鑑登録 外国人住民 コンビニ交付サービス おくやみ案内 市民課の窓口状況 住民基本台帳ネットワーク マイナンバーカード・公的個人認証 市税 個人市県民税 法人市民税 固定",
+    "officialUrl": "https://www.city.omuta.lg.jp/list00219.html",
+    "sourceName": "新規創業支援"
+  },
+  {
+    "slug": "fukuoka-official-001-039-2026",
+    "title": "大牟田市 起業家支援事業費補助金",
+    "organization": "大牟田市",
+    "maxAmount": "補助金額〔創業費〕創業のために事業所の改修等を行う事業補助率：2分の1上限：50万円",
+    "maxAmountNum": 500000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大牟田市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2025年4月1日 申請（住民票等交付申請書・住所変更届書の事前作成） 印鑑登録 外国人住民 コンビニ交付サービス おくやみ案内 市民課の窓口状況 住民基本台帳ネットワーク マイナンバーカード・公的個人認証 市税 個人市県民税 法人市民税 固定",
+    "officialUrl": "https://www.city.omuta.lg.jp/kiji003211/index.html",
+    "sourceName": "起業家支援事業費補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-040-2026",
+    "title": "大牟田市 大牟田市空き家活用リフォーム等支援事業",
+    "organization": "大牟田市",
+    "maxAmount": "補助金額【補助金額】補助対象経費（税抜）に2分の１を乗じた額（千円未満の端数は切り捨て）補助限度額：50万円",
+    "maxAmountNum": 500000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "大牟田市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年6月30日 申請（住民票等交付申請書・住所変更届書の事前作成） 印鑑登録 外国人住民 コンビニ交付サービス おくやみ案内 市民課の窓口状況 住民基本台帳ネットワーク マイナンバーカード・公的個人認証 市税 個人市県民税 法人市民税 固定",
+    "officialUrl": "https://www.city.omuta.lg.jp/kiji00321463/index.html",
+    "sourceName": "大牟田市空き家活用リフォーム等支援事業"
+  },
+  {
+    "slug": "fukuoka-official-001-041-2026",
+    "title": "大牟田市 予防接種",
+    "organization": "大牟田市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大牟田市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年6月9日 申請（住民票等交付申請書・住所変更届書の事前作成） 印鑑登録 外国人住民 コンビニ交付サービス おくやみ案内 市民課の窓口状況 住民基本台帳ネットワーク マイナンバーカード・公的個人認証 市税 個人市県民税 法人市民税 固定",
+    "officialUrl": "https://www.city.omuta.lg.jp/list00105.html",
+    "sourceName": "予防接種"
+  },
+  {
+    "slug": "fukuoka-official-001-042-2026",
+    "title": "大牟田市 手当",
+    "organization": "大牟田市",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "大牟田市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年4月2日 申請（住民票等交付申請書・住所変更届書の事前作成） 印鑑登録 外国人住民 コンビニ交付サービス おくやみ案内 市民課の窓口状況 住民基本台帳ネットワーク マイナンバーカード・公的個人認証 市税 個人市県民税 法人市民税 固定",
+    "officialUrl": "https://www.city.omuta.lg.jp/list00118.html",
+    "sourceName": "手当"
+  },
+  {
+    "slug": "fukuoka-official-001-043-2026",
+    "title": "大牟田市 手当・医療",
+    "organization": "大牟田市",
+    "maxAmount": "所得・対象区分に応じて手当等を支給",
+    "maxAmountNum": 0,
+    "category": "medical",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "大牟田市内で医療・健康支援の公式対象要件を満たす方",
+    "applicationPeriod": "2026年4月14日 申請（住民票等交付申請書・住所変更届書の事前作成） 印鑑登録 外国人住民 コンビニ交付サービス おくやみ案内 市民課の窓口状況 住民基本台帳ネットワーク マイナンバーカード・公的個人認証 市税 個人市県民税 法人市民税 固定",
+    "officialUrl": "https://www.city.omuta.lg.jp/list00126.html",
+    "sourceName": "手当・医療"
+  },
+  {
+    "slug": "fukuoka-official-001-044-2026",
+    "title": "久留米市 久留米で正社員就職応援事業",
+    "organization": "久留米市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "久留米市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年4月1日 支給します ",
+    "officialUrl": "https://www.city.kurume.fukuoka.jp/1090sangyou/2060koyouroudou/3020soudan/3010syuroumadoguchi/2026-0323-1436-80.html",
+    "sourceName": "久留米で正社員就職応援事業"
+  },
+  {
+    "slug": "fukuoka-official-001-045-2026",
+    "title": "久留米市 久留米市住宅脱炭素化促進事業補助金",
+    "organization": "久留米市",
+    "maxAmount": "補助金額等補助対象経費国補助金の補助対象となる設備の補助対象住宅への導入に係る経費（消費税及び地方消費税相当額を除く）補助金額10万円",
+    "maxAmountNum": 100000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "久留米市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "令和8年7月1日 申請の受付を7月1日（水曜）から開始いたします",
+    "officialUrl": "https://www.city.kurume.fukuoka.jp/1050kurashi/2030kankyougomi/3125ekopartner/2018-0606-1213-50.html",
+    "sourceName": "久留米市住宅脱炭素化促進事業補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-046-2026",
+    "title": "久留米市 空き家活用居住誘導事業補助金",
+    "organization": "久留米市",
+    "maxAmount": "上限額が100万円",
+    "maxAmountNum": 1000000,
+    "category": "housing",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "久留米市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "令和８年４月21日 交付します",
+    "officialUrl": "https://www.city.kurume.fukuoka.jp/1050kurashi/2080juutaku/3100akiya/2018-0416-1008-96.html",
+    "sourceName": "空き家活用居住誘導事業補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-047-2026",
+    "title": "久留米市 事業者向け省エネ診断",
+    "organization": "久留米市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "久留米市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "交付しています",
+    "officialUrl": "https://www.city.kurume.fukuoka.jp/1050kurashi/2030kankyougomi/3160hojyo/2023-0421-0922-199.html",
+    "sourceName": "事業者向け省エネ診断"
+  },
+  {
+    "slug": "fukuoka-official-001-048-2026",
+    "title": "久留米市 久留米市結婚新生活支援補助金",
+    "organization": "久留米市",
+    "maxAmount": "最大60万円",
+    "maxAmountNum": 600000,
+    "category": "childcare",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "久留米市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "令和８年1月1日 申請する方） 本文へ 検索方法 久留米市役所 〒830-8520 福岡県久留米市城南町15番地3 [アクセス] [電話番号]0942-30-9000(代表) [開庁日]月曜日から金曜日まで(祝日、年末年始を除く) [開庁時間",
+    "officialUrl": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3250ouenjigyou/2023kekkonsinseikatusienhojyokin.html",
+    "sourceName": "久留米市結婚新生活支援補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-049-2026",
+    "title": "久留米市 久留米市脱炭素経営推進事業補助金",
+    "organization": "久留米市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "久留米市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "令和9年3月10日 申請期限は 令和9年3月10日（水） です",
+    "officialUrl": "https://www.city.kurume.fukuoka.jp/1050kurashi/2030kankyougomi/3160hojyo/2023-0327-1101-199.html",
+    "sourceName": "久留米市脱炭素経営推進事業補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-050-2026",
+    "title": "久留米市 久留米市市民活動・絆づくり推進事業費補助金",
+    "organization": "久留米市",
+    "maxAmount": "補助金額1万円",
+    "maxAmountNum": 10000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "久留米市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "令和８年9月11日 募集要領等 市民公益活動団体向け 制度案内のチラシ (641キロバイト) 【こども枠】制度案内のチラシ (1033キロバイト) 申請の手引き (1436キロバイト) Q&A (853キロバイト) 地域コミュニティ組織向け 制",
+    "officialUrl": "https://www.city.kurume.fukuoka.jp/1050kurashi/2110volunteer/3040kirarikassei/2019-0201-1400-238.html",
+    "sourceName": "久留米市市民活動・絆づくり推進事業費補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-051-2026",
+    "title": "久留米市 エコアクション21認証・登録制度",
+    "organization": "久留米市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "久留米市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "申請書（建設工事用） 総合評価入札 福岡県の支援について 導入支援 導入を検討するための「導入セミナー」（説明会）及び認証・登録に向けた塾形式の「集合コンサルティング」（勉強会）を開催しています",
+    "officialUrl": "https://www.city.kurume.fukuoka.jp/1050kurashi/2030kankyougomi/3160hojyo/2013-0425-1040-433.html",
+    "sourceName": "エコアクション21認証・登録制度"
+  },
+  {
+    "slug": "fukuoka-official-001-052-2026",
+    "title": "久留米市 企業誘致",
+    "organization": "久留米市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [
+      "employment"
+    ],
+    "eligibility": "久留米市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2024年05月23日 申請書 ▲このページの先頭へ サイトマップ 組織から探す リンク集 利用ガイド RSS プライバシーポリシー サイトについて Copyright 2007-2019 Kurume City All Rights Reserv",
+    "officialUrl": "https://www.city.kurume.fukuoka.jp/1090sangyou/2050yuuchi/",
+    "sourceName": "企業誘致"
+  },
+  {
+    "slug": "fukuoka-official-001-053-2026",
+    "title": "久留米市 民間建築物ZEB化への支援",
+    "organization": "久留米市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "久留米市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "久留米市：民間建築物ZEB化への支援について 本文へ 検索方法 久留米市役所 〒830-8520 福岡県久留米市城南町15番地3 [アクセス] [電話番号]0942-30-9000(代表) [開庁日]月曜日から金曜日まで(祝日、年末年始を除",
+    "officialUrl": "https://www.city.kurume.fukuoka.jp/1050kurashi/2030kankyougomi/3160hojyo/2021-0804-1101-196.html",
+    "sourceName": "民間建築物ZEB化への支援"
+  },
+  {
+    "slug": "fukuoka-official-001-054-2026",
+    "title": "直方市 のおがた創業スクール",
+    "organization": "直方市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "直方市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年07月01日 募集 このページではjavascriptを使用しています",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/sangyo/_1229/_6704.html",
+    "sourceName": "のおがた創業スクール"
+  },
+  {
+    "slug": "fukuoka-official-001-055-2026",
+    "title": "直方市 こども食堂支援補助",
+    "organization": "直方市",
+    "maxAmount": "上限額は24万円",
+    "maxAmountNum": 240000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "直方市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年06月12日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; 健康・福祉・子育て &gt; 福祉 &gt; こども食堂の実施に必要な費用を補助します！ 健康・福祉・子育て この階層",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/kenko/_1208/houzinkensyu_copy.html",
+    "sourceName": "こども食堂支援補助"
+  },
+  {
+    "slug": "fukuoka-official-001-056-2026",
+    "title": "直方市 ひとり親家庭高等職業訓練促進給付金",
+    "organization": "直方市",
+    "maxAmount": "支給額高等職業訓練促進給付金・市県民税非課税世帯月額100,000円",
+    "maxAmountNum": 100000,
+    "category": "childcare",
+    "relatedCategories": [
+      "education",
+      "living"
+    ],
+    "eligibility": "直方市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年03月19日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; 健康・福祉・子育て &gt; 福祉 &gt; ひとり親家庭高等職業訓練促進給付金 健康・福祉・子育て この階層のメニュ",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/kenko/_1208/koutousyokugyokunren.html",
+    "sourceName": "ひとり親家庭高等職業訓練促進給付金"
+  },
+  {
+    "slug": "fukuoka-official-001-057-2026",
+    "title": "直方市 ひとり親家庭自立支援教育訓練給付金",
+    "organization": "直方市",
+    "maxAmount": "支給額本人が支払った受講費用（入学料や受講料等）の60％（一般・特定：上限20万円",
+    "maxAmountNum": 200000,
+    "category": "childcare",
+    "relatedCategories": [
+      "education",
+      "living"
+    ],
+    "eligibility": "直方市内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方",
+    "applicationPeriod": "2026年03月19日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; 健康・福祉・子育て &gt; 福祉 &gt; ひとり親家庭自立支援教育訓練給付金 健康・福祉・子育て この階層のメニュ",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/kenko/_1208/ziritsusienkyoikukunrenkyuhu.html",
+    "sourceName": "ひとり親家庭自立支援教育訓練給付金"
+  },
+  {
+    "slug": "fukuoka-official-001-058-2026",
+    "title": "直方市 就学援助",
+    "organization": "直方市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "education",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "直方市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年06月01日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; 教育・文化 &gt; 学校 &gt; 就学援助のお知らせ 教育・文化 この階層のメニュー 市立小学校 市立中学校 学校",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/kyoikubunka/_1214/_15346.html",
+    "sourceName": "就学援助"
+  },
+  {
+    "slug": "fukuoka-official-001-059-2026",
+    "title": "直方市 住宅リフォーム補助金",
+    "organization": "直方市",
+    "maxAmount": "上限額は、10万円",
+    "maxAmountNum": 100000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "直方市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年04月16日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; くらし &gt; 住宅(移住・定住) &gt; 住宅リフォーム補助金 くらし この階層のメニュー 頓野市営住宅常時募集",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/kurashi/_1203/_1363.html",
+    "sourceName": "住宅リフォーム補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-060-2026",
+    "title": "直方市 ブロック塀等撤去費補助金",
+    "organization": "直方市",
+    "maxAmount": "補助金額補助金の額は、160,000円",
+    "maxAmountNum": 160000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "直方市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年04月16日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; くらし &gt; 住宅(移住・定住) &gt; 直方市ブロック塀等撤去費補助金 くらし この階層のメニュー 頓野市営住",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/kurashi/_1203/_7181.html",
+    "sourceName": "ブロック塀等撤去費補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-061-2026",
+    "title": "直方市 直方市企業型奨学金返還支援事業補助金",
+    "organization": "直方市",
+    "maxAmount": "補助額補助率：補助対象経費の2分の1限度額：1事業者当たり年間上限15万円",
+    "maxAmountNum": 150000,
+    "category": "education",
+    "relatedCategories": [
+      "employment",
+      "living"
+    ],
+    "eligibility": "直方市内の児童生徒・学生・保護者・資格取得者等で公式要件を満たす方",
+    "applicationPeriod": "2026年07月09日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; 産業・事業 &gt; 商工振興 &gt; 直方市企業型奨学金返還支援事業補助金について 産業・事業 この階層のメニュー",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/sangyo/_1229/_16775.html",
+    "sourceName": "直方市企業型奨学金返還支援事業補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-062-2026",
+    "title": "直方市 直方市企業立地促進奨励金",
+    "organization": "直方市",
+    "maxAmount": "公式ページ記載の給付額・支援額に従う",
+    "maxAmountNum": 0,
+    "category": "living",
+    "relatedCategories": [
+      "employment"
+    ],
+    "eligibility": "直方市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年03月25日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; 産業・事業 &gt; 商工振興 &gt; 直方市企業立地促進奨励金のご案内 産業・事業 この階層のメニュー 第2次直方",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/sangyo/_1229/_6887.html",
+    "sourceName": "直方市企業立地促進奨励金"
+  },
+  {
+    "slug": "fukuoka-official-001-063-2026",
+    "title": "直方市 直方市空き家バンク活用促進補助金",
+    "organization": "直方市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "直方市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年04月16日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; くらし &gt; 住宅(移住・定住) &gt; 直方市空き家バンク活用促進補助金 くらし この階層のメニュー 頓野市営",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/kurashi/_1203/_15764.html",
+    "sourceName": "直方市空き家バンク活用促進補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-064-2026",
+    "title": "直方市 直方市空き家リフォーム工事費補助金",
+    "organization": "直方市",
+    "maxAmount": "上限額：15万円",
+    "maxAmountNum": 150000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "直方市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年04月16日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; くらし &gt; 住宅(移住・定住) &gt; 直方市空き家リフォーム工事費補助金 くらし この階層のメニュー 頓野市",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/kurashi/_1203/_12178.html",
+    "sourceName": "直方市空き家リフォーム工事費補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-065-2026",
+    "title": "直方市 直方市自主防災組織育成支援事業費補助金",
+    "organization": "直方市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "直方市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年03月05日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; くらし &gt; 防災・安全・安心 &gt; 直方市自主防災組織育成支援事業費補助金について くらし この階層のメニュ",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/kurashi/_1206/_13222.html",
+    "sourceName": "直方市自主防災組織育成支援事業費補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-066-2026",
+    "title": "直方市 直方市住宅取得費補助金",
+    "organization": "直方市",
+    "maxAmount": "公式ページ記載の補助率・上限額または支援内容に従う",
+    "maxAmountNum": 0,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "直方市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年07月17日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; くらし &gt; 住宅(移住・定住) &gt; 直方市住宅取得費補助金 くらし この階層のメニュー 頓野市営住宅常時募",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/kurashi/_1203/_12179.html",
+    "sourceName": "直方市住宅取得費補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-067-2026",
+    "title": "直方市 直方市専門家派遣補助金",
+    "organization": "直方市",
+    "maxAmount": "補助額補助率：補助対象経費の2分の1以内限度額：1事業者につき20万円",
+    "maxAmountNum": 200000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "直方市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年05月01日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; 産業・事業 &gt; 商工振興 &gt; 直方市専門家派遣補助金について 産業・事業 この階層のメニュー 第2次直方市",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/sangyo/_1229/_13331.html",
+    "sourceName": "直方市専門家派遣補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-068-2026",
+    "title": "直方市 直方市副業・兼業人材活用支援補助金",
+    "organization": "直方市",
+    "maxAmount": "補助額補助率：補助対象経費の2分の1以内限度額：1事業者につき20万円",
+    "maxAmountNum": 200000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "直方市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年05月01日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; 産業・事業 &gt; 商工振興 &gt; 直方市副業・兼業人材活用支援補助金について 産業・事業 この階層のメニュー ",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/sangyo/_1229/_13332.html",
+    "sourceName": "直方市副業・兼業人材活用支援補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-069-2026",
+    "title": "直方市 直方市木造戸建て住宅性能向上改修等補助金",
+    "organization": "直方市",
+    "maxAmount": "補助金額性能向上改修工事・補助対象工事の23%以内・補助の上限：60万円",
+    "maxAmountNum": 600000,
+    "category": "housing",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "直方市内で住宅整備、空き家活用、移住・定住等の公式要件を満たす方",
+    "applicationPeriod": "2026年06月29日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; くらし &gt; 住宅(移住・定住) &gt; 直方市木造戸建て住宅性能向上改修等補助金 くらし この階層のメニュー ",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/kurashi/_1203/_12033.html",
+    "sourceName": "直方市木造戸建て住宅性能向上改修等補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-070-2026",
+    "title": "直方市 直方市老朽危険家屋等解体撤去費補助金",
+    "organization": "直方市",
+    "maxAmount": "補助金額老朽危険家屋等の除却に要する額または国が定める基準額（1平方メートルあたり）のうち、いずれか低い額の1/2以内で、上限額500,000円",
+    "maxAmountNum": 500000,
+    "category": "living",
+    "relatedCategories": [],
+    "eligibility": "直方市内の対象者・世帯・団体等で公式要件を満たす方",
+    "applicationPeriod": "2026年04月16日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; くらし &gt; 住宅(移住・定住) &gt; 直方市老朽危険家屋等解体撤去費補助金 くらし この階層のメニュー 頓野",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/kurashi/_1203/_9953.html",
+    "sourceName": "直方市老朽危険家屋等解体撤去費補助金"
+  },
+  {
+    "slug": "fukuoka-official-001-071-2026",
+    "title": "直方市 防犯カメラ設置支援事業補助金",
+    "organization": "直方市",
+    "maxAmount": "補助額防犯カメラの購入、設置にかかる費用の1/2で、上限は5万円",
+    "maxAmountNum": 50000,
+    "category": "employment",
+    "relatedCategories": [
+      "living"
+    ],
+    "eligibility": "直方市内の事業者・就労者・創業者・団体等で公式の補助対象要件を満たす方",
+    "applicationPeriod": "2026年06月18日 申請・請求 ホーム くらし 観光 健康・福祉・子育て 教育・文化 産業・事業 市政情報 ホーム &gt; くらし &gt; 防災・安全・安心 &gt; 防犯カメラ設置支援事業補助金 くらし この階層のメニュー 福岡県警察防犯",
+    "officialUrl": "https://www.city.nogata.fukuoka.jp/kurashi/_1206/_15144.html",
+    "sourceName": "防犯カメラ設置支援事業補助金"
+  }
+];
