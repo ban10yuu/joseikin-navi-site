@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T13:15:38+09:00",
+  "updatedAt": "2026-07-17T13:40:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kochi-official-coverage-004",
-    "municipality": "北川村・馬路村・芸西村・本山町・大豊町",
-    "adopted": 61,
+    "code": "kochi-official-coverage-005",
+    "municipality": "土佐町・大川村・いの町・仁淀川町・中土佐町",
+    "adopted": 60,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 61,
+    "sourceUrlsChecked": 60,
     "validation": {
-      "previousMunicipality": "高知県公式棚卸し004として39305北川村・39306馬路村・39307芸西村・39341本山町・39344大豊町を確認し、61件を採用。高知県001-004累計は20自治体243制度。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kochi-official-coverage-004 build/rescore scripts",
-      "json": "pass: JSON.parse for kochi-official-coverage-004 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 61 added kochi-official-004 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: 61 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "previousMunicipality": "高知県公式棚卸し005として39363土佐町・39364大川村・39386いの町・39387仁淀川町・39401中土佐町を確認し、60件を採用。高知県001-005累計は25自治体303制度。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kochi-official-coverage-005 build/rescore scripts",
+      "json": "pass: JSON.parse for kochi-official-coverage-005 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 60 added kochi-official-005 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: 60 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for kochi-official-coverage-004 target files",
-      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 22453、officialLinkedActive 22332、manuallyVerifiedActive 22332、高知県 localOfficial 284)",
-      "notes": "39305北川村・39306馬路村・39307芸西村・39341本山町・39344大豊町を確認。標準discoverは0件。公式トップは北川村・芸西村・本山町・大豊町が200、馬路村はwww.vill.umaji.kochi.jpが到達不可のためhttps://umaji.gr.jp/を公式到達形として200確認。再スコア候補688件（芸西村1・大豊町67・北川村503・本山町117、馬路村0）と芸西村公式list2カテゴリ補完から公式HTML個別制度ページ61件を採用。馬路村は制度候補0件のため第2巡保留。空き家物件個票、カテゴリ/一覧、検索、部署、共通ナビ、計画・実績公表、単なる手続・告知、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
+      "diffCheck": "pass: git diff --check for kochi-official-coverage-005 target files",
+      "auditCoverage": "pass: npm run audit:coverage (failures 0、activePublished 22513、officialLinkedActive 22392、manuallyVerifiedActive 22392、高知県 localOfficial 344)",
+      "notes": "39363土佐町・39364大川村・39386いの町・39387仁淀川町・39401中土佐町を確認。標準discoverは0件。公式トップ5自治体200到達。公式カテゴリ/サイト内リンクBFSを上限240件で再スコアし、候補481件（土佐町76・大川村29・いの町240・仁淀川町71・中土佐町65）から公式HTML個別制度ページおよび制度本文を含む公式掲載ページ60件を採用。トップ、カテゴリのみ、検索、部署、共通ナビ、計画・実績公表、募集職員、入札、単なる手続・告知、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "kochi-official-coverage-005",
-    "municipality": "土佐町",
-    "shortlist": "高知県004で39305北川村・39306馬路村・39307芸西村・39341本山町・39344大豊町を確認し、61件を採用。次は自治体コード順で39363土佐町から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、高知県公式棚卸し005として39363土佐町を開始地点に自治体コード順で再開する。想定対象は39363土佐町・39364大川村・39386いの町・39387仁淀川町・39401中土佐町。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kochi-official-coverage-006",
+    "municipality": "佐川町",
+    "shortlist": "高知県005で39363土佐町・39364大川村・39386いの町・39387仁淀川町・39401中土佐町を確認し、60件を採用。次は自治体コード順で39402佐川町から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、高知県公式棚卸し006として39402佐川町を開始地点に自治体コード順で再開する。想定対象は39402佐川町・39403越知町・39405檮原町・39410日高村・39411津野町。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "高知県",
     "status": "first-pass-in-progress",
-    "lastBatch": "kochi-official-coverage-004",
-    "notes": "高知県公式棚卸し004で39305北川村・39306馬路村・39307芸西村・39341本山町・39344大豊町を確認し、61件を新規採用。高知県001-004累計は20自治体243制度。次は39363土佐町から再開する。"
+    "lastBatch": "kochi-official-coverage-005",
+    "notes": "高知県公式棚卸し005で39363土佐町・39364大川村・39386いの町・39387仁淀川町・39401中土佐町を確認し、60件を新規採用。高知県001-005累計は25自治体303制度。次は39402佐川町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
