@@ -11572,3 +11572,16 @@
 - メトリクス: 1自治体補完、26制度採用、一次候補55件、採用率47.3%。大分県001-005累計は県内全市町村到達、336制度採用。
 - 到達点: 大分県は候補未判定を解消し第1巡完了。全国公式棚卸しは未完了。
 - 次回: 宮崎県公式棚卸し001として、宮崎県・宮崎市・都城市・延岡市・日南市から開始する。
+
+
+
+### 宮崎県公式棚卸し001（45000宮崎県・45201宮崎市・45202都城市・45203延岡市・45204日南市）
+
+- 対象公式トップ: 宮崎県 `https://www.pref.miyazaki.lg.jp/`、宮崎市 `https://www.city.miyazaki.miyazaki.jp/`、都城市 `https://www.city.miyakonojo.miyazaki.jp/`、延岡市 `https://www.city.nobeoka.miyazaki.jp/`、日南市 `https://www.city.nichinan.lg.jp/` をHTTP 200で確認。sitemap.xmlは日南市のみ200、他は404のため検索/カテゴリBFSを併用。
+- 公式sitemap/検索/カテゴリBFS候補: 899件（宮崎県207、宮崎市96、都城市332、延岡市176、日南市88）。title強一致103件。shortlistが150件超のため `tasks/discovery/miyazaki-official-coverage-001-rescored-shortlist.tsv` へ本文スニペット付き再スコアを保存。
+- 採用: 65制度（宮崎県9、宮崎市16、都城市13、延岡市10、日南市17）。`miyazaki-official-001-001-2026` から `miyazaki-official-001-065-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、FAQ、手続変更告知、申請書単体、国制度周知、過年度公募、採択/実績/評価、重複導線は採用せず、候補JSON/TSVに残置。既存rawの宮崎県完了行やHTTP 200だけでは完了扱いにしていない。
+- 検証: 公式URL 65/65 HTTP 200（`tasks/discovery/miyazaki-official-coverage-001-url-status.txt`）。`node --check`、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体・団体、65制度採用、一次候補899件、採用率7.2%。宮崎県001として次の15自治体単位を開始。
+- 到達点: 宮崎県は45000宮崎県から45204日南市まで第1巡到達。全国公式棚卸しは未完了。
+- 次回: 宮崎県公式棚卸し002として、小林市・日向市・串間市・西都市・えびの市から再開する。
