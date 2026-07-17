@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T22:42:00+09:00",
+  "updatedAt": "2026-07-17T23:02:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kumamoto-official-coverage-001",
-    "municipality": "熊本市・八代市・人吉市・荒尾市・水俣市",
-    "adopted": 65,
+    "code": "kumamoto-official-coverage-002",
+    "municipality": "玉名市・山鹿市・菊池市・宇土市・上天草市",
+    "adopted": 49,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 65,
+    "sourceUrlsChecked": 49,
     "validation": {
-      "previousMunicipality": "熊本県公式棚卸し001として43100熊本市・43202八代市・43203人吉市・43204荒尾市・43205水俣市を確認し、65件を採用。公式トップ5自治体を確認し、全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kumamoto-official-coverage-001 build/rescore/search-scan scripts",
-      "json": "pass: JSON.parse for kumamoto-official-coverage-001 municipalities/candidates/search-candidates/selections/adopted JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 65 added kumamoto-official-001 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: build non200 empty; 65 adopted official URLs returned HTTP 200 by build fetch; status saved to tasks/discovery/kumamoto-official-coverage-001-url-status.txt",
+      "previousMunicipality": "熊本県公式棚卸し002として43206玉名市・43208山鹿市・43210菊池市・43211宇土市・43212上天草市を確認し、49件を採用。公式トップ5自治体を確認し、全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/kumamoto-official-coverage-002 build/search/focused scripts",
+      "json": "pass: JSON.parse for kumamoto-official-coverage-002 municipalities/search-candidates/focused-candidates/selections/adopted JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 49 added kumamoto-official-002 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: build non200 empty; 49 adopted official URLs returned HTTP 200 by direct fetch; status saved to tasks/discovery/kumamoto-official-coverage-002-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for kumamoto-official-coverage-001 target files",
-      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The kumamoto-official-001 target files passed syntax, JSON, URL, duplicate, eslint, and diff checks.",
-      "notes": "標準discoverは0件。search-scan 88候補から人吉市・荒尾市の個別制度ページを採用し、熊本市・八代市・水俣市は既存公式確認済みURL32件を補完。熊本市のアクセス/窓口時間/ホームページ案内、荒尾市の入札/最低賃金/イベント/カテゴリ、人吉市のカテゴリ/相談会等は第2巡候補として保持。"
+      "diffCheck": "pass: git diff --check for kumamoto-official-coverage-002 target files",
+      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The kumamoto-official-002 target files passed syntax, JSON, URL, duplicate, eslint, and diff checks.",
+      "notes": "標準discoverは0件。search-scan 56候補は山鹿市中心、focused scan 19候補に加え、宇土市公式キーワードページ、菊池市カテゴリ配下、上天草市補助・助成カテゴリを確認。玉名市・上天草市はEUC-JPを正しくデコード。玉名市の公役/スポーツ大会関連、宇土市の物価高騰交付金概要、各カテゴリ/一覧/一般案内は第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "kumamoto-official-coverage-002",
-    "municipality": "玉名市",
-    "shortlist": "熊本県公式棚卸し001で熊本市・八代市・人吉市・荒尾市・水俣市を確認し、65件を採用。次は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から43206玉名市へ進む。",
-    "instructions": "次回は熊本県公式棚卸し002として、43206玉名市から自治体コード順に再開する。想定対象は43206玉名市・43208山鹿市・43210菊池市・43211宇土市・43212上天草市。既存rawの熊本県gap 0や過去生成データだけで完了扱いにせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kumamoto-official-coverage-003",
+    "municipality": "宇城市",
+    "shortlist": "熊本県公式棚卸し002で玉名市・山鹿市・菊池市・宇土市・上天草市を確認し、49件を採用。次は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から43213宇城市へ進む。",
+    "instructions": "次回は熊本県公式棚卸し003として、43213宇城市から自治体コード順に再開する。想定対象は43213宇城市・43214阿蘇市・43215天草市・43216合志市・43348美里町。既存rawの熊本県gap 0や過去生成データだけで完了扱いにせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "熊本県",
     "status": "first-pass-in-progress",
-    "lastBatch": "kumamoto-official-coverage-001",
-    "notes": "熊本県公式棚卸し001で43100熊本市から43205水俣市まで到達し65制度を採用。次は43206玉名市から継続。"
+    "lastBatch": "kumamoto-official-coverage-002",
+    "notes": "熊本県公式棚卸し002で43206玉名市から43212上天草市まで到達し49制度を採用。熊本県001-002累計は10自治体114制度。次は43213宇城市から継続。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

@@ -1,0 +1,11 @@
+{
+  "prefecture": "熊本県",
+  "batch": "kumamoto-official-coverage-002",
+  "municipalities": [
+    { "code": "43206", "name": "玉名市", "url": "https://www.city.tamana.lg.jp/" },
+    { "code": "43208", "name": "山鹿市", "url": "https://www.city.yamaga.kumamoto.jp/" },
+    { "code": "43210", "name": "菊池市", "url": "https://www.city.kikuchi.lg.jp/" },
+    { "code": "43211", "name": "宇土市", "url": "https://www.city.uto.lg.jp/" },
+    { "code": "43212", "name": "上天草市", "url": "https://www.city.kamiamakusa.kumamoto.jp/" }
+  ]
+}
