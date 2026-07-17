@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T15:58:00+09:00",
+  "updatedAt": "2026-07-17T16:55:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "fukuoka-official-coverage-004",
-    "municipality": "筑紫野市・春日市・大野城市・宗像市・太宰府市",
-    "adopted": 75,
+    "code": "fukuoka-official-coverage-005",
+    "municipality": "古賀市・福津市・うきは市・宮若市・嘉麻市",
+    "adopted": 83,
     "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 75,
+    "sourceUrlsChecked": 83,
     "validation": {
-      "previousMunicipality": "福岡県公式棚卸し004として40217筑紫野市・40218春日市・40219大野城市・40220宗像市・40221太宰府市を確認し、75件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/fukuoka-official-coverage-004 build/rescore scripts",
-      "json": "pass: JSON.parse for fukuoka-official-coverage-004 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 75 added fukuoka-official-004 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: 75 adopted official URLs returned HTTP 200 by check-grant-source-urls",
+      "previousMunicipality": "福岡県公式棚卸し005として40223古賀市・40224福津市・40225うきは市・40226宮若市・40227嘉麻市を確認し、83件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/fukuoka-official-coverage-005 build/rescore scripts",
+      "json": "pass: JSON.parse for fukuoka-official-coverage-005 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 83 added fukuoka-official-005 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: 83 adopted official URLs returned HTTP 200 by check-grant-source-urls",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for fukuoka-official-coverage-004 target files",
-      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The fukuoka-official-004 target files passed syntax, URL, duplicate, eslint, and diff checks.",
-      "notes": "40217筑紫野市・40218春日市・40219大野城市・40220宗像市・40221太宰府市を確認。公式トップ5市200到達。標準discoverは0件。公式カテゴリ/サイト内リンクBFSで候補426件を抽出し、宗像市は公式sitemap.htmlおよびfocused link scanで補完、筑紫野市もfocused link scanで補完。詳細スニペット426件、focused link 477件、宗像sitemap scan 54件から公式HTML個別制度ページおよび制度本文を含む公式掲載ページ75件を採用。トップ、カテゴリのみ、検索、部署、共通ナビ、計画・実績、イベント、受付終了のみの旧給付金、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
+      "diffCheck": "pass: git diff --check for fukuoka-official-coverage-005 target files",
+      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The fukuoka-official-005 target files passed syntax, URL, duplicate, eslint, and diff checks.",
+      "notes": "40223古賀市・40224福津市・40225うきは市・40226宮若市・40227嘉麻市を確認。公式トップ5市200到達。標準discoverは0件。公式カテゴリ/サイト内リンクBFSで候補331件を抽出し、sitemap.html/sitemap/と制度カテゴリ導線のfocused link scanで822件を補完。詳細スニペット331件、focused link 822件から公式HTML個別制度ページおよび制度本文を含む公式掲載ページ83件を採用。トップ、カテゴリのみ、検索、部署、共通ナビ、実績公表、申請書様式のみ、物件個票、受付終了のみの旧給付金、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "fukuoka-official-coverage-005",
-    "municipality": "古賀市",
-    "shortlist": "福岡県004で40217筑紫野市・40218春日市・40219大野城市・40220宗像市・40221太宰府市を確認し、75件を採用。次は自治体コード順で40223古賀市から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、福岡県公式棚卸し005として40223古賀市を開始地点に自治体コード順で再開する。想定対象は40223古賀市・40224福津市・40225うきは市・40226宮若市・40227嘉麻市。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "fukuoka-official-coverage-006",
+    "municipality": "朝倉市",
+    "shortlist": "福岡県005で40223古賀市・40224福津市・40225うきは市・40226宮若市・40227嘉麻市を確認し、83件を採用。次は自治体コード順で40228朝倉市から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、福岡県公式棚卸し006として40228朝倉市を開始地点に自治体コード順で再開する。想定対象は40228朝倉市・40229みやま市・40230糸島市・40231那珂川市・40341宇美町。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "福岡県",
     "status": "in-progress",
-    "lastBatch": "fukuoka-official-coverage-004",
-    "notes": "福岡県公式棚卸し001-004で40100北九州市から40221太宰府市まで20自治体を確認し、累計269制度を採用。次は40223古賀市から再開する。"
+    "lastBatch": "fukuoka-official-coverage-005",
+    "notes": "福岡県公式棚卸し001-005で40100北九州市から40227嘉麻市まで25自治体を確認し、累計352制度を採用。次は40228朝倉市から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

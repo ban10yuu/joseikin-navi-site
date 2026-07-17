@@ -1,0 +1,11 @@
+{
+  "prefecture": "福岡県",
+  "batch": "fukuoka-official-coverage-005",
+  "municipalities": [
+    { "code": "40223", "name": "古賀市", "url": "https://www.city.koga.fukuoka.jp/" },
+    { "code": "40224", "name": "福津市", "url": "https://www.city.fukutsu.lg.jp/" },
+    { "code": "40225", "name": "うきは市", "url": "https://www.city.ukiha.fukuoka.jp/" },
+    { "code": "40226", "name": "宮若市", "url": "https://www.city.miyawaka.lg.jp/" },
+    { "code": "40227", "name": "嘉麻市", "url": "https://www.city.kama.lg.jp/" }
+  ]
+}
