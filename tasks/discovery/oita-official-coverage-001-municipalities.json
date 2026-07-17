@@ -1,0 +1,32 @@
+{
+  "batch": "oita-official-coverage-001",
+  "prefecture": "大分県",
+  "targets": [
+    {
+      "code": "44201",
+      "name": "大分市",
+      "officialUrl": "https://www.city.oita.oita.jp/"
+    },
+    {
+      "code": "44202",
+      "name": "別府市",
+      "officialUrl": "https://www.city.beppu.oita.jp/"
+    },
+    {
+      "code": "44203",
+      "name": "中津市",
+      "officialUrl": "https://www.city-nakatsu.jp/"
+    },
+    {
+      "code": "44204",
+      "name": "日田市",
+      "officialUrl": "https://www.city.hita.oita.jp/"
+    },
+    {
+      "code": "44205",
+      "name": "佐伯市",
+      "officialUrl": "https://www.city.saiki.oita.jp/"
+    }
+  ],
+  "notes": "大分県公式棚卸し001。公式トップHTTP 200確認済み。大分市・中津市はsitemap.xml、日田市・佐伯市はsitemap.html、別府市は公式カテゴリ階層を主入口に個別制度ページを抽出する。"
+}

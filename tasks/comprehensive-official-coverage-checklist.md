@@ -11512,3 +11512,15 @@
 - メトリクス: 5自治体、92制度採用、一次候補1,673件、再スコア998件、採用率は一次候補比5.5%。熊本県001-009累計は45自治体600制度。監査は集約1回、commitは009単位で1回予定。
 - 到達点: 熊本県市町村第1巡は43100熊本市から43531苓北町まで到達。全国公式棚卸しは未完了。
 - 次回: 大分県公式棚卸し001として、44201大分市から再開（想定対象は44201大分市・44202別府市・44203中津市・44204日田市・44205佐伯市）
+
+
+### 大分県公式棚卸し001（44201大分市・44202別府市・44203中津市・44204日田市・44205佐伯市）
+
+- 対象公式トップ: 大分市 `https://www.city.oita.oita.jp/`、別府市 `https://www.city.beppu.oita.jp/`、中津市 `https://www.city-nakatsu.jp/`、日田市 `https://www.city.hita.oita.jp/`、佐伯市 `https://www.city.saiki.oita.jp/` をHTTP 200で確認。
+- 公式sitemap/検索/カテゴリBFS候補: 2,030件（大分市59、別府市930、中津市216、日田市499、佐伯市326）。title強一致57件。shortlistが150件超のため `tasks/discovery/oita-official-coverage-001-rescored-shortlist.tsv` へ本文スニペットを保存し、828件を再スコア。
+- 採用: 92制度（大分市8、別府市27、中津市35、日田市17、佐伯市5）。`oita-official-001-001-2026` から `oita-official-001-092-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付/更新状況を公式本文で確認。
+- 低優先/第2巡: カテゴリ、サイトマップ、検索結果、申請書記入例、採択/実績/公募結果、一般案内、イベント、講座、入札、プロポーザルは採用せず、候補JSON/TSVに残置。既存raw gap 0やHTTP 200だけでは完了扱いにしていない。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（001 discover/build）、JSON parse、追加slug重複0・全体slug重複0、公式URL 92/92 HTTP 200（`tasks/discovery/oita-official-coverage-001-url-status.txt`）、`npx eslint src/data/grants/verified-local-misc-2026.ts`、`git diff --check` は通過。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` / `src/lib/grants.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorで停止。
+- メトリクス: 5自治体、92制度採用、一次候補2,030件、再スコア828件、採用率は一次候補比4.5%。大分県001から次の15自治体単位を開始し、1/3ブロックで5自治体92制度。監査は集約1回、commitは001単位で1回予定。
+- 到達点: 大分県は44201大分市から44205佐伯市まで第1巡到達。全国公式棚卸しは未完了。
+- 次回: 大分県公式棚卸し002として、44206臼杵市から再開（想定対象は44206臼杵市・44207津久見市・44208竹田市・44209豊後高田市・44210杵築市）
