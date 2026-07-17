@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T22:05:00+09:00",
+  "updatedAt": "2026-07-17T21:35:45+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nagasaki-official-coverage-004",
-    "municipality": "東彼杵町・川棚町・波佐見町・小値賀町・佐々町",
-    "adopted": 60,
-    "held": 2,
+    "code": "nagasaki-official-coverage-005",
+    "municipality": "新上五島町",
+    "adopted": 39,
+    "held": 0,
     "excluded": 0,
-    "sourceUrlsChecked": 60,
+    "sourceUrlsChecked": 39,
     "validation": {
-      "previousMunicipality": "長崎県公式棚卸し004として42321東彼杵町・42322川棚町・42323波佐見町・42383小値賀町・42391佐々町を確認し、60件を採用。波佐見町・佐々町は公式トップ/サイトマップまで確認したが個別制度ページ未到達のため第2巡候補として保持。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/nagasaki-official-coverage-004 build/rescore/focused-scan scripts",
-      "json": "pass: JSON.parse for 7 nagasaki-official-coverage-004 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 60 added nagasaki-official-004 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: build non200 empty; 60 adopted official URLs returned HTTP 200 by focused cache or build fetch",
+      "previousMunicipality": "長崎県公式棚卸し005として42411新上五島町を確認し、39件を採用。公式トップ https://official.shinkamigoto.net/ をHTTP 200で確認し、長崎県の市町村第1巡は42201長崎市から42411新上五島町まで到達。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/nagasaki-official-coverage-005 build/rescore/focused-scan/fast-scan scripts",
+      "json": "pass: JSON.parse for nagasaki-official-coverage-005 municipalities/selections/adopted JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 39 added nagasaki-official-005 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: build non200 empty; 39 adopted official URLs returned HTTP 200 by build fetch",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for nagasaki-official-coverage-004 target files",
-      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The nagasaki-official-004 target files passed syntax, JSON, URL, duplicate, eslint, and diff checks.",
-      "notes": "42321東彼杵町・42322川棚町・42323波佐見町・42383小値賀町・42391佐々町を確認。公式トップ5町到達。標準discoverは0件。focused scan 670件、shortlist 164件、rescored 119件から個別制度ページ60件を採用。波佐見町は公式トップ2件、佐々町は公式トップ/サイトマップ2件までで、制度名・対象・金額/上限・条件・期限/受付が揃う個別ページ未到達のため第2巡候補に保持。"
+      "diffCheck": "pass: git diff --check for nagasaki-official-coverage-005 target files",
+      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The nagasaki-official-005 target files passed syntax, JSON, URL, duplicate, eslint, and diff checks.",
+      "notes": "42411新上五島町を確認。標準discoverは0件。汎用focused scanはCMS応答待ちで停滞したため中断し、公式カテゴリ一覧からgoto_*_full.php個別ページを抽出。制度強語・金額/対象/受付表現が揃う個別ページ39件を採用。長崎県001-005累計は21自治体346制度。"
     }
   },
   "next": {
-    "code": "nagasaki-official-coverage-005",
-    "municipality": "新上五島町",
-    "shortlist": "長崎県004で42321東彼杵町・42322川棚町・42323波佐見町・42383小値賀町・42391佐々町を確認し、60件を採用。波佐見町・佐々町は第2巡候補保持。次は自治体コード順で42411新上五島町から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、長崎県公式棚卸し005として42411新上五島町を開始地点に再開する。長崎県の市町村第1巡は新上五島町で残り1自治体。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "kumamoto-official-coverage-001",
+    "municipality": "熊本県（自治体コード順の次県）",
+    "shortlist": "長崎県公式棚卸し005で42411新上五島町を確認し、39件を採用。長崎県市町村第1巡は完了。次は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から熊本県公式棚卸し001を開始する。",
+    "instructions": "次回は熊本県公式棚卸し001として、熊本県内の自治体コード順の先頭から再開する。既存rawの熊本県gap 0や過去生成データだけで完了扱いにせず、公式ページ単位で制度名・対象・金額/上限・条件・期限/受付状況・要約を確認する。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "長崎県",
-    "status": "in-progress-first-pass",
-    "lastBatch": "nagasaki-official-coverage-004",
-    "notes": "長崎県公式棚卸し004で42321東彼杵町から42391佐々町まで5町に到達し、60制度を採用。長崎県001-004累計は20自治体307制度。波佐見町・佐々町は個別制度ページ未到達のため第2巡候補として保持。次は42411新上五島町から長崎県公式棚卸し005を開始する。"
+    "status": "first-pass-complete",
+    "lastBatch": "nagasaki-official-coverage-005",
+    "notes": "長崎県公式棚卸し005で42411新上五島町に到達し39制度を採用。長崎県001-005累計は21自治体346制度。南島原市、波佐見町、佐々町は個別制度ページ未到達のため第2巡候補として保持。次は熊本県公式棚卸し001へ進む。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

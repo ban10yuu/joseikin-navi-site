@@ -11395,3 +11395,14 @@
 - 15自治体単位メトリクス: 長崎県004単体は5町60制度。長崎県001-004累計は20自治体307制度。長崎県004の採用率は60/164（shortlist比）、60/670（focused母数比）。監査1回予定、commit予定1回
 - 到達点: 長崎県は42201長崎市から42391佐々町まで第1巡到達。全国公式棚卸しは未完了
 - 次回: 長崎県公式棚卸し005として、42411新上五島町から再開
+
+### 長崎県公式棚卸し005（42411新上五島町）
+- 対象: 42411新上五島町
+- 公式トップ到達: `https://official.shinkamigoto.net/` をHTTP 200で確認。`www.town.shinkamigoto.lg.jp`、`town.shinkamigoto.lg.jp`、`shinkamigoto.nagasaki.jp`、`www.shinkamigoto.nagasaki.jp` は到達不可のため、公式トップ上のくらし/事業者/観光文化/町政カテゴリを入口に使用
+- 収集: 標準discoverは0件。汎用focused scanはCMS応答待ちで停滞したため中断し、公式カテゴリ一覧から `goto_*_full.php` 個別ページを抽出。制度強語・金額/対象/受付表現のある個別ページを優先して39件を採用
+- 採用: 39制度（新上五島町39）。`nagasaki-official-005-001-2026` から `nagasaki-official-005-039-2026` として追加
+- 公式URL: build non200空。採用39本は build fetch でHTTP 200確認
+- 検証: node --check、JSON parse、slug重複、eslint、diff check は通過予定。audit:coverage は既存の対象外 dirty 変更（src/lib/grant-copy.ts / src/lib/grants.ts）により sanitizeGrantCopy の tags.map で失敗する既知ブロックを継続確認する
+- 15自治体単位メトリクス: 長崎県005単体は1町39制度。長崎県001-005累計は21自治体346制度。長崎県005の採用率は39/39（選定比）。長崎県001-005のcommit予定5回。新上五島町は長崎県第1巡の最終自治体のため単独処理
+- 到達点: 長崎県は42201長崎市から42411新上五島町まで市町村第1巡到達。全国公式棚卸しは未完了
+- 次回: 熊本県公式棚卸し001として、自治体コード順の次県・熊本県から再開
