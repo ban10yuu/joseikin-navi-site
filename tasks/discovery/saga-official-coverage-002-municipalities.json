@@ -1,0 +1,11 @@
+{
+  "prefecture": "佐賀県",
+  "batch": "saga-official-coverage-002",
+  "municipalities": [
+    { "code": "41206", "name": "武雄市", "url": "https://www.city.takeo.lg.jp/" },
+    { "code": "41207", "name": "鹿島市", "url": "https://www.city.saga-kashima.lg.jp/" },
+    { "code": "41208", "name": "小城市", "url": "https://www.city.ogi.lg.jp/" },
+    { "code": "41209", "name": "嬉野市", "url": "https://www.city.ureshino.lg.jp/" },
+    { "code": "41210", "name": "神埼市", "url": "https://www.city.kanzaki.saga.jp/" }
+  ]
+}

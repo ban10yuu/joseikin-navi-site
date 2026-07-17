@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-17T18:48:30+09:00",
+  "updatedAt": "2026-07-17T19:06:01+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "saga-official-coverage-001",
-    "municipality": "佐賀市・唐津市・鳥栖市・多久市・伊万里市",
+    "code": "saga-official-coverage-002",
+    "municipality": "武雄市・鹿島市・小城市・嬉野市・神埼市",
     "adopted": 100,
     "held": 0,
     "excluded": 0,
     "sourceUrlsChecked": 100,
     "validation": {
-      "previousMunicipality": "佐賀県公式棚卸し001として41201佐賀市・41202唐津市・41203鳥栖市・41204多久市・41205伊万里市を確認し、100件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/saga-official-coverage-001 build/rescore scripts",
-      "json": "pass: JSON.parse for saga-official-coverage-001 JSON files and checkpoint",
-      "addedSlugUniqueness": "pass: 100 added saga-official-001 slugs, duplicateCount 0 in adopted output and whole dataset",
-      "urlReachability": "pass: 100 adopted official URLs returned HTTP 200 by saga-official-coverage-001-url-status.txt and build non200 empty",
+      "previousMunicipality": "佐賀県公式棚卸し002として41206武雄市・41207鹿島市・41208小城市・41209嬉野市・41210神埼市を確認し、100件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and tasks/discovery/saga-official-coverage-002 build/rescore/focused-scan scripts",
+      "json": "pass: JSON.parse for saga-official-coverage-002 JSON files and checkpoint",
+      "addedSlugUniqueness": "pass: 100 added saga-official-002 slugs, duplicateCount 0 in adopted output and whole dataset",
+      "urlReachability": "pass: 100 adopted official URLs returned HTTP 200 by saga-official-coverage-002-url-status.txt and build non200 empty",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check for saga-official-coverage-001 target files",
-      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The saga-official-001 target files passed syntax, JSON, URL, duplicate, eslint, and diff checks.",
-      "notes": "41201佐賀市・41202唐津市・41203鳥栖市・41204多久市・41205伊万里市を確認。公式トップ5自治体200到達。標準discoverは0件。公式カテゴリ導線のtargeted/focused scan 1003件（佐賀市240件、唐津市221件、鳥栖市196件、多久市138件、伊万里市208件）を抽出し、ローカル本文スニペット再スコアでshortlist 487件へ圧縮。個別制度ページ100件を採用。トップ、カテゴリのみ、検索、共通ナビ、FAQ、旧告知、受付終了のみ、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
+      "diffCheck": "pass: git diff --check for saga-official-coverage-002 target files",
+      "auditCoverage": "blocked: npm run audit:coverage failed before coverage summary because the dirty worktree contains unrelated src/lib/grant-copy.ts / src/lib/grants.ts changes; stack was TypeError in sanitizeGrantCopy reading undefined tags.map. The saga-official-002 target files passed syntax, JSON, URL, duplicate, eslint, and diff checks.",
+      "notes": "41206武雄市・41207鹿島市・41208小城市・41209嬉野市・41210神埼市を確認。公式トップ5自治体200到達。標準discoverは0件。公式カテゴリ導線のfocused scan 1300件（各自治体260件）を抽出し、shortlist 377件へ圧縮。鹿島市・神埼市は公式サイトマップ/組織カテゴリ導線から制度ページを補完。個別制度ページ100件を採用。トップ、カテゴリのみ、検索、共通ナビ、FAQ、計画、実績、旧告知、受付終了のみ、外部制度のみ、本文根拠が薄い候補は第2巡候補として保持。"
     }
   },
   "next": {
-    "code": "saga-official-coverage-002",
-    "municipality": "武雄市",
-    "shortlist": "佐賀県001で41201佐賀市・41202唐津市・41203鳥栖市・41204多久市・41205伊万里市を確認し、100件を採用。次は自治体コード順で41206武雄市から再開する。",
-    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、佐賀県公式棚卸し002として41206武雄市を開始地点に自治体コード順で再開する。想定対象は41206武雄市・41207鹿島市・41208小城市・41209嬉野市・41210神埼市。全国公式棚卸しは未完了扱いを維持する。"
+    "code": "saga-official-coverage-003",
+    "municipality": "吉野ヶ里町",
+    "shortlist": "佐賀県002で41206武雄市・41207鹿島市・41208小城市・41209嬉野市・41210神埼市を確認し、100件を採用。次は自治体コード順で41327吉野ヶ里町から再開する。",
+    "instructions": "次回は固定コミットや古い自治体名ではなく、HEAD・進捗JSON・自治体台帳から、佐賀県公式棚卸し003として41327吉野ヶ里町を開始地点に自治体コード順で再開する。想定対象は41327吉野ヶ里町・41341基山町・41345上峰町・41346みやき町・41387玄海町。全国公式棚卸しは未完了扱いを維持する。"
   },
   "prefectureMilestone": {
     "prefecture": "佐賀県",
     "status": "in-progress",
-    "lastBatch": "saga-official-coverage-001",
-    "notes": "佐賀県公式棚卸し001で41201佐賀市から41205伊万里市まで5自治体に到達し、100制度を採用。次は41206武雄市から再開する。"
+    "lastBatch": "saga-official-coverage-002",
+    "notes": "佐賀県公式棚卸し001-002で41201佐賀市から41210神埼市まで10自治体に到達し、200制度を採用。次は41327吉野ヶ里町から再開する。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
