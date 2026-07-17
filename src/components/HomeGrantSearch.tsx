@@ -2,8 +2,10 @@
 
 import Image from 'next/image';
 import { useState } from 'react';
-import { PREFECTURES } from '@/lib/types';
+import type { AffiliateOffer } from '@/config/affiliate-offers';
+import { PREFECTURES, type AffiliateIntent, type Purpose } from '@/lib/types';
 import { HOME_SEARCH_GUIDE_VISUALS } from '@/lib/visual-assets';
+import ResponsiveAffiliatePlacement from './ResponsiveAffiliatePlacement';
 
 type Audience = 'personal' | 'business';
 
@@ -11,6 +13,8 @@ interface PurposeOption {
   label: string;
   query: string;
   category?: string;
+  purpose?: Purpose;
+  intents?: AffiliateIntent[];
 }
 
 const PURPOSES: Record<Audience, PurposeOption[]> = {
@@ -23,12 +27,12 @@ const PURPOSES: Record<Audience, PurposeOption[]> = {
     { label: '生活支援', query: '生活', category: 'living' },
   ],
   business: [
-    { label: '創業', query: '創業' },
-    { label: '雇用', query: '雇用' },
-    { label: '設備投資', query: '設備' },
-    { label: '省エネ', query: '省エネ' },
-    { label: '販路開拓', query: '販路' },
-    { label: '地域活性化', query: '地域 活性' },
+    { label: '創業', query: '創業', purpose: 'startup', intents: ['businessPlanning', 'accounting', 'electronicContract'] },
+    { label: '雇用', query: '雇用', purpose: 'employment', intents: ['humanResources', 'attendance', 'payroll'] },
+    { label: '設備投資', query: '設備', purpose: 'businessGrowth', intents: [] },
+    { label: '省エネ', query: '省エネ', purpose: 'energySaving', intents: [] },
+    { label: '販路開拓', query: '販路', purpose: 'businessGrowth', intents: [] },
+    { label: '地域活性化', query: '地域 活性', purpose: 'regionalRevitalization', intents: [] },
   ],
 };
 
@@ -37,6 +41,7 @@ const prefectures = PREFECTURES.filter((prefecture) => prefecture !== '全国');
 interface HomeGrantSearchProps {
   totalCount: number;
   officialLinkedCount: number;
+  businessAffiliateOffers?: AffiliateOffer[];
 }
 
 function AudienceIcon({ type }: { type: Audience }) {
@@ -59,6 +64,7 @@ function AudienceIcon({ type }: { type: Audience }) {
 export default function HomeGrantSearch({
   totalCount,
   officialLinkedCount,
+  businessAffiliateOffers = [],
 }: HomeGrantSearchProps) {
   const [audience, setAudience] = useState<Audience>('personal');
   const [query, setQuery] = useState('');
@@ -79,8 +85,19 @@ export default function HomeGrantSearch({
     setCategory(isSelected ? '' : purpose.category || '');
   };
 
+  const selectedPurposeOption = PURPOSES.business.find((item) => item.label === selectedPurpose);
+  const selectedAffiliateOffers = audience !== 'business'
+    ? []
+    : selectedPurposeOption
+      ? businessAffiliateOffers.filter((offer) => Boolean(selectedPurposeOption.purpose)
+        && offer.allowedPurposes.includes(selectedPurposeOption.purpose as Purpose)
+        && (selectedPurposeOption.intents?.some((intent) => offer.intents.includes(intent)) ?? false))
+      : businessAffiliateOffers;
+  const showBusinessAffiliate = selectedAffiliateOffers.length > 0;
+  const affiliatePurpose = selectedPurposeOption?.purpose ?? 'businessGrowth';
+
   return (
-    <section aria-labelledby="home-search-title" className="home-search home-search-panel">
+      <section aria-labelledby="home-search-title" className={`home-search home-search-panel${showBusinessAffiliate ? ' has-business-affiliate' : ''}`}>
       <div className="home-search-heading">
         <div>
           <p className="home-search-eyebrow">補助金・助成金・給付金を検索</p>
@@ -213,11 +230,25 @@ export default function HomeGrantSearch({
           補助金・助成金を検索する
           <span aria-hidden="true">→</span>
         </button>
+
+        {showBusinessAffiliate ? (
+          <div className="home-business-affiliate">
+            <ResponsiveAffiliatePlacement
+              offers={selectedAffiliateOffers}
+              pageType="home"
+              placement="home-business-selection"
+              audience="business"
+              purpose={affiliatePurpose}
+              className="home-affiliate-placement"
+              expandAt={1024}
+            />
+          </div>
+        ) : null}
       </form>
 
       <p className="home-search-footnote">
         掲載総数{totalCount.toLocaleString('ja-JP')}件。候補を見つけるための検索です。対象条件と受付状況は、各制度の公式ページで最終確認してください。
       </p>
-    </section>
+      </section>
   );
 }

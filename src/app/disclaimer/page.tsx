@@ -2,7 +2,11 @@ import type { Metadata } from 'next';
 import PolicyPage from '@/components/PolicyPage';
 import { toSiteUrl } from '@/lib/site-url';
 
-export const metadata: Metadata = { title: '免責事項', alternates: { canonical: toSiteUrl('/disclaimer/') } };
+export const metadata: Metadata = {
+  title: '免責事項',
+  description: '助成金ナビの情報の位置づけ、制度の最新情報、外部リンク、申請前に公式募集要項を確認していただく理由を説明します。',
+  alternates: { canonical: toSiteUrl('/disclaimer/') },
+};
 
 export default function DisclaimerPage() {
   return (

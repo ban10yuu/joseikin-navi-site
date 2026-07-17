@@ -2,7 +2,11 @@ import type { Metadata } from 'next';
 import PolicyPage from '@/components/PolicyPage';
 import { toSiteUrl } from '@/lib/site-url';
 
-export const metadata: Metadata = { title: '広告・アフィリエイト掲載方針', alternates: { canonical: toSiteUrl('/advertising-policy/') } };
+export const metadata: Metadata = {
+  title: '広告・アフィリエイト掲載方針',
+  description: '助成金ナビにおけるPR表示、掲載対象、掲載順位、紹介料の考え方と、公式制度情報と広告を分ける基準を説明します。',
+  alternates: { canonical: toSiteUrl('/advertising-policy/') },
+};
 
 export default function AdvertisingPolicyPage() {
   return (

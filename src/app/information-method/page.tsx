@@ -2,7 +2,11 @@ import type { Metadata } from 'next';
 import PolicyPage from '@/components/PolicyPage';
 import { toSiteUrl } from '@/lib/site-url';
 
-export const metadata: Metadata = { title: '情報の収集・更新方法', alternates: { canonical: toSiteUrl('/information-method/') } };
+export const metadata: Metadata = {
+  title: '情報の収集・更新方法',
+  description: '助成金ナビが参照する公式情報、制度データの自動処理、人手確認の扱い、受付状況と更新方法について説明します。',
+  alternates: { canonical: toSiteUrl('/information-method/') },
+};
 
 export default function InformationMethodPage() {
   return (

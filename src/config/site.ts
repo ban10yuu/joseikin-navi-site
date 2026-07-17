@@ -29,7 +29,7 @@ export const siteConfig = {
     includesPromotions: process.env.NEXT_PUBLIC_NEWSLETTER_INCLUDES_PROMOTIONS === 'true',
   },
   privacy: {
-    policyUpdatedAt: optionalValue(process.env.NEXT_PUBLIC_PRIVACY_UPDATED_AT),
+    policyUpdatedAt: optionalValue(process.env.NEXT_PUBLIC_PRIVACY_UPDATED_AT) ?? '2026-07-17',
     cookieRetention: optionalValue(process.env.NEXT_PUBLIC_COOKIE_RETENTION),
   },
 } as const;

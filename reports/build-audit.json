@@ -1,23 +1,10 @@
 {
   "summary": {
-    "generatedAt": "2026-07-16T01:06:18.297Z",
+    "generatedAt": "2026-07-17T07:47:59.690Z",
     "htmlPages": 322,
     "indexablePages": 318,
     "critical": 0,
-    "warnings": 2
+    "warnings": 0
   },
-  "issues": [
-    {
-      "severity": "warning",
-      "code": "MISSING_DESCRIPTION",
-      "route": "/_global-error/",
-      "message": "descriptionがありません。"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_META_DESCRIPTION",
-      "route": "/advertising-policy/",
-      "message": "6ページで重複：国・自治体・民間団体の公式情報をもとに、対象、支援内容、申請期限、確認先を整理。地域、対象者、目的、制度種別から支援制度を探せます。"
-    }
-  ]
+  "issues": []
 }

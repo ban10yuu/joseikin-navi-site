@@ -3,7 +3,11 @@ import PolicyPage from '@/components/PolicyPage';
 import { siteConfig } from '@/config/site';
 import { toSiteUrl } from '@/lib/site-url';
 
-export const metadata: Metadata = { title: '訂正・削除依頼', alternates: { canonical: toSiteUrl('/correction/') } };
+export const metadata: Metadata = {
+  title: '訂正・削除依頼',
+  description: '助成金ナビの掲載情報について、誤り、公式URLの変更、終了制度、重複、削除が必要な情報を連絡する方法をご案内します。',
+  alternates: { canonical: toSiteUrl('/correction/') },
+};
 
 export default function CorrectionPage() {
   const mailto = siteConfig.contactEmail

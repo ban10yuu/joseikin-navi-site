@@ -1,5 +1,5 @@
 export const ANALYTICS_EVENTS = [
-  'affiliate_impression', 'affiliate_click', 'official_source_click', 'search_submit', 'filter_apply', 'grant_card_click', 'newsletter_signup', 'correction_request',
+  'affiliate_render', 'affiliate_impression', 'affiliate_click', 'official_source_click', 'search_submit', 'filter_apply', 'grant_card_click', 'newsletter_signup', 'correction_request',
 ] as const;
 
 export type AnalyticsEventName = typeof ANALYTICS_EVENTS[number];
@@ -12,6 +12,10 @@ export interface AnalyticsEventParameters {
   network?: string;
   placement?: string;
   position?: string;
+  creativeId?: string;
+  format?: string;
+  deviceClass?: string;
+  experimentVariant?: string;
 }
 
 declare global {

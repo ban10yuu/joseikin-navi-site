@@ -51,8 +51,9 @@ const dynamicPrefixes = ['/grants/', '/grant/', '/tag/'];
 const assetsPrefixes = ['/_next/', '/images/', '/favicon', '/api/'];
 
 for (const page of pages) {
-  if (!page.title) add('critical', 'MISSING_TITLE', page.route, 'titleがありません。');
-  if (!page.description) add('warning', 'MISSING_DESCRIPTION', page.route, 'descriptionがありません。');
+  const isFrameworkArtifact = page.route === '/_global-error/';
+  if (!isFrameworkArtifact && !page.title) add('critical', 'MISSING_TITLE', page.route, 'titleがありません。');
+  if (!isFrameworkArtifact && !page.description) add('warning', 'MISSING_DESCRIPTION', page.route, 'descriptionがありません。');
   if (/助成金診断クイズ|全国2,500件以上|必ず受給できる|条件を満たせばほぼ確実|生成データ|HTTP 200|Last-Modified|補正理由/.test(page.html)) add('critical', 'FORBIDDEN_PUBLIC_COPY', page.route, '生成HTMLに禁止表現があります。');
   for (const match of page.html.matchAll(/href="(\/[^"#?]*)(?:[?#][^"]*)?"/g)) {
     const href = match[1].replace(/\/+/g, '/');
@@ -64,14 +65,16 @@ for (const page of pages) {
     const nearby = page.html.slice(match.index, match.index + 800);
     if (!/adsbygoogle|affiliate_impression|sponsored|affiliate-creative-image/.test(nearby)) add('critical', 'EMPTY_AD_LABEL', page.route, `${match[1]}ラベルの後に広告本体がありません。`);
   }
-  const affiliateImpressions = [...page.html.matchAll(/data-analytics-event="affiliate_impression"/g)];
-  if (page.route.startsWith('/grant/') && affiliateImpressions.length !== 2) add('critical', 'INVALID_GRANT_AFFILIATE_COUNT', page.route, `制度詳細のPR案件は2件である必要があります（現在${affiliateImpressions.length}件）。`);
-  if (page.route === '/' && affiliateImpressions.length !== 2) add('critical', 'INVALID_HOME_AFFILIATE_COUNT', page.route, `トップページのPR案件は2件である必要があります（現在${affiliateImpressions.length}件）。`);
-  if (page.route === '/guide/' && affiliateImpressions.length !== 2) add('critical', 'INVALID_GUIDE_AFFILIATE_COUNT', page.route, `申請前ガイドのPR案件は2件である必要があります（現在${affiliateImpressions.length}件）。`);
+  const affiliateImpressions = [...page.html.matchAll(/data-analytics-impression-event="affiliate_impression"/g)];
+  if (affiliateImpressions.length > 2) add('critical', 'TOO_MANY_AFFILIATE_OFFERS', page.route, `同一ページのPR案件は最大2件です（現在${affiliateImpressions.length}件）。`);
+  const offerIds = [...page.html.matchAll(/<aside\b[^>]*data-offer-id="([^"]+)"[^>]*>/g)].map((match) => match[1]);
+  if (new Set(offerIds).size !== offerIds.length) add('critical', 'DUPLICATE_AFFILIATE_OFFER', page.route, '同じPR案件が同一ページに重複表示されています。');
+  if (page.route === '/' && affiliateImpressions.length !== 0) add('critical', 'UNEXPECTED_INITIAL_HOME_AFFILIATE', page.route, 'トップの初期状態ではPRを表示せず、事業者選択後に表示する必要があります。');
+  if (page.route === '/guide/' && affiliateImpressions.length !== 1) add('critical', 'INVALID_GUIDE_AFFILIATE_COUNT', page.route, `申請前ガイドの初期表示PRは1件である必要があります（現在${affiliateImpressions.length}件）。`);
   const officialClickIndex = page.html.indexOf('data-analytics-event="official_source_click"');
   const officialPanelIndex = page.html.indexOf('grant-source-panel');
   const officialIndex = officialClickIndex >= 0 ? officialClickIndex : officialPanelIndex;
-  const affiliateIndex = page.html.indexOf('data-analytics-event="affiliate_impression"');
+  const affiliateIndex = page.html.indexOf('data-analytics-impression-event="affiliate_impression"');
   if (page.route.startsWith('/grant/') && affiliateIndex >= 0 && (officialIndex < 0 || affiliateIndex < officialIndex)) add('critical', 'AFFILIATE_BEFORE_OFFICIAL', page.route, '制度詳細のPR枠が公式情報への導線より前にあります。');
   for (const anchor of page.html.matchAll(/<a\b[^>]*>/g)) {
     if (!anchor[0].includes('data-analytics-event="affiliate_click"')) continue;

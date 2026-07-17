@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
 import { isAdsenseEnabled, siteConfig } from '@/config/site';
 import { toSiteUrl } from '@/lib/site-url';
+import { isAffiliateOfferPublishable } from '@/lib/monetization';
+import { AFFILIATE_PRIVACY_SERVICES } from '@/config/affiliate-security';
 
 export const metadata: Metadata = {
   title: 'プライバシーポリシー',
@@ -11,7 +13,7 @@ export const metadata: Metadata = {
 
 const enabledAffiliateNetworks = [...new Set(
   AFFILIATE_OFFERS
-    .filter((offer) => offer.enabled && offer.partnershipStatus === 'partnered' && offer.destinationUrl && offer.verifiedAt)
+    .filter((offer) => isAffiliateOfferPublishable(offer))
     .map((offer) => offer.network),
 )];
 
@@ -55,14 +57,27 @@ export default function PrivacyPage() {
             <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">{advertisingSectionNumber}. 広告・アフィリエイト</h2>
             {isAdsenseEnabled && <p className="text-ink">Google AdSenseを利用しています。広告配信に伴うデータの取り扱いは、Googleのポリシーをご確認ください。</p>}
             {enabledAffiliateNetworks.length > 0 && (
-              <p className="text-ink">利用中のアフィリエイトサービス：{enabledAffiliateNetworks.join('、')}。PRリンク経由で申込みがあった場合、当サイトが紹介料を受け取ることがあります。</p>
+              <>
+                <p className="text-ink">利用中のアフィリエイトサービス：{enabledAffiliateNetworks.join('、')}。PRリンク経由で申込みがあった場合、当サイトが紹介料を受け取ることがあります。</p>
+                <ul className="list-disc pl-6 text-ink">
+                  {enabledAffiliateNetworks.map((network) => {
+                    const service = AFFILIATE_PRIVACY_SERVICES[network as keyof typeof AFFILIATE_PRIVACY_SERVICES];
+                    if (!service) return null;
+                    return (
+                      <li key={network}>
+                        <strong>{network}</strong>（{service.provider}）：{service.purpose}。送信のタイミングは{service.timing}です。広告素材・計測画像の配信先は{service.assetHosts.join('、')}、広告リンク選択後の計測経路は{service.clickHosts.join('、')}、確認済みの最終遷移先は{service.landingHosts.join('、')}です。{service.retention}。<a href={service.policyUrl} target="_blank" rel="noopener noreferrer" className="font-bold text-navy underline underline-offset-2">提供者のプライバシー情報<span className="sr-only">（新しいタブで開きます）</span></a>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </>
             )}
           </section>
         )}
 
         <section>
           <h2 className="text-lg font-bold text-navy mb-2 pb-1 border-b-2 border-line">{externalServicesSectionNumber}. 外部サービスへの送信</h2>
-          <p className="text-ink">上記サービスを有効にしている場合、閲覧したページ、端末・ブラウザに関する情報、Cookie等の識別子が各サービス提供者へ送信されることがあります。メールアドレス、氏名、世帯年収、職業をアクセス解析イベントへ送信しない設計とします。</p>
+          <p className="text-ink">上記サービスを有効にしている場合、広告画像や計測用画像の表示時点から、閲覧したページ、参照元、端末・ブラウザに関する情報、IPアドレス、Cookie等の識別子が各サービス提供者へ送信されることがあります。当サイトのアクセス解析イベントには、メールアドレス、氏名、世帯年収、職業を含めません。</p>
         </section>
 
         <section>

@@ -1,10 +1,10 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
-import { AFFILIATE_LINK_REL, getEligibleAffiliateOffers, isAffiliateOfferPublishable, shouldLoadAdsenseScript, shouldRenderDisplayAd } from './monetization.ts';
+import { AFFILIATE_LINK_REL, getEligibleAffiliateOffers, isAffiliateOfferPublishable, isSensitiveAffiliateContext, shouldLoadAdsenseScript, shouldRenderDisplayAd } from './monetization.ts';
 
 const offer = {
   id: 'accounting-1', enabled: true, network: 'verified-network', advertiserName: '事業者',
-  offerName: '会計サービス', destinationUrl: 'https://advertiser.example.jp/', audiences: ['business'],
+  offerName: '会計サービス', destinationUrl: 'https://px.a8.net/example', audiences: ['business'],
   intents: ['accounting'], allowedPurposes: ['businessGrowth'], blockedPurposes: [],
   allowedPageTypes: ['grant'], validFrom: '2026-01-01', validUntil: '2026-12-31',
   verifiedAt: '2026-07-01', disclosureText: 'PR', buttonText: 'サービスの詳細を見る（PR）',
@@ -14,6 +14,11 @@ const offer = {
   creativeWidth: 300,
   creativeHeight: 250,
   impressionPixelUrl: 'https://www11.a8.net/0.gif?a8mat=example',
+  creativeId: 'verified-accounting-300x250', creativeSourceUrl: 'https://www23.a8.net/svt/bgt?aid=example',
+  creativeVerifiedAt: '2026-07-01', destinationHost: 'px.a8.net', claimReviewStatus: 'reviewed',
+  verifiedLandingHost: 'f.012grp.co.jp', landingVerifiedAt: '2026-07-01',
+  creativeFingerprint: 'a99783555e35c5aa94452507aa8e8e75d00a6adeab36a3f6ab62d4b9b94b523f',
+  nextReviewAt: '2026-12-31', claimReviewSource: 'A8.net', reviewMethod: 'automated',
 };
 
 describe('display ads', () => {
@@ -31,7 +36,10 @@ describe('display ads', () => {
 });
 
 describe('affiliate offers', () => {
-  const context = { pageType: 'grant', audiences: ['business'], purposes: ['businessGrowth'], intents: ['accounting'], monetizationAllowed: true };
+  const context = {
+    pageType: 'grant', audiences: ['business'], purposes: ['businessGrowth'], intents: ['accounting'],
+    monetizationAllowed: true, status: 'open', indexable: true, hasOfficialSource: true,
+  };
 
   it('表示境界でも未提携・申請中・停止中の案件を拒否する', () => {
     for (const partnershipStatus of ['candidate', 'applied', 'suspended']) {
@@ -77,19 +85,33 @@ describe('affiliate offers', () => {
     assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, status: 'open' }, new Date('2026-07-13')).map((item) => item.id), [offer.id]);
   });
 
-  it('全詳細ページ配置モードでは制度側の条件にかかわらず公開可能案件を2件まで返す', () => {
-    const secondOffer = { ...offer, id: 'electronic-contract-1', priority: 2 };
-    const result = getEligibleAffiliateOffers([offer, secondOffer], {
-      ...context,
-      audiences: ['family'],
-      purposes: ['medical'],
-      intents: [],
-      monetizationAllowed: false,
-      status: 'closed',
-      placementMode: 'allGrantDetails',
-      limit: 2,
+  it('旧全詳細バイパスを指定しても個人・センシティブ・終了制度を通さない', () => {
+    const result = getEligibleAffiliateOffers([offer], {
+      ...context, audiences: ['family'], purposes: ['medical'], intents: [], monetizationAllowed: false,
+      status: 'closed', indexable: false, hasOfficialSource: false, placementMode: 'allGrantDetails', limit: 2,
     }, new Date('2026-07-13'));
-    assert.deepEqual(result.map((item) => item.id), [secondOffer.id, offer.id]);
+    assert.deepEqual(result, []);
+  });
+
+  it('副目的にセンシティブ目的を1つでも含む制度を拒否する', () => {
+    for (const sensitivePurpose of ['medical', 'welfare', 'disaster', 'livingSupport']) {
+      const result = getEligibleAffiliateOffers([offer], {
+        ...context,
+        purposes: ['businessGrowth', sensitivePurpose],
+      }, new Date('2026-07-13'));
+      assert.deepEqual(result, [], `${sensitivePurpose}を副目的に含む制度が広告対象になりました`);
+    }
+  });
+
+  it('目的分類だけでなく制度名やタグの緊急・脆弱性語も判定する', () => {
+    assert.equal(isSensitiveAffiliateContext({ purposes: ['businessGrowth'], audiences: ['business'], texts: ['災害復旧設備補助金'] }), true);
+    assert.equal(isSensitiveAffiliateContext({ purposes: ['businessGrowth'], audiences: ['business'], texts: ['DV被害者支援'] }), true);
+    assert.equal(isSensitiveAffiliateContext({ purposes: ['businessGrowth'], audiences: ['business'], texts: ['通常の設備投資補助金'] }), false);
+  });
+
+  it('index不可または公式確認先なしの制度を拒否する', () => {
+    assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, indexable: false }, new Date('2026-07-13')), []);
+    assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, hasOfficialSource: false }, new Date('2026-07-13')), []);
   });
 
   it('制度のintentと一致しない案件やintent未設定案件を表示しない', () => {

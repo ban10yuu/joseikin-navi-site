@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
 import { describe, it } from 'node:test';
-import { auditAffiliateOffers } from './affiliate-audit.ts';
+import { auditAffiliateOffers, auditPublishedAffiliateRemotes } from './affiliate-audit.ts';
 
 const validOffer = {
   id: 'a8-accounting-1', enabled: true, network: 'A8.net', advertiserName: '確認済み広告主',
@@ -15,6 +16,14 @@ const validOffer = {
   creativeWidth: 300,
   creativeHeight: 250,
   impressionPixelUrl: 'https://www11.a8.net/0.gif?a8mat=example',
+  creativeId: 'a8-accounting-300x250-01',
+  creativeSourceUrl: 'https://www23.a8.net/svt/bgt?aid=example',
+  creativeVerifiedAt: '2026-07-15',
+  destinationHost: 'px.a8.net',
+  claimReviewStatus: 'reviewed',
+  verifiedLandingHost: 'f.012grp.co.jp', landingVerifiedAt: '2026-07-15',
+  creativeFingerprint: 'a99783555e35c5aa94452507aa8e8e75d00a6adeab36a3f6ab62d4b9b94b523f',
+  nextReviewAt: '2026-12-31', claimReviewSource: 'A8.net', reviewMethod: 'automated',
 };
 
 describe('affiliate offer audit', () => {
@@ -70,6 +79,21 @@ describe('affiliate offer audit', () => {
     }
   });
 
+  it('広告主提供クリエイティブの確認情報と遷移先hostを検査する', () => {
+    const issues = auditAffiliateOffers([{
+      ...validOffer,
+      creativeId: '',
+      creativeSourceUrl: null,
+      creativeVerifiedAt: null,
+      destinationHost: 'example.invalid',
+      claimReviewStatus: 'pending',
+    }], new Date('2026-07-15'));
+    const codes = new Set(issues.map((issue) => issue.code));
+    for (const code of ['MISSING_CREATIVE_ID', 'MISSING_CREATIVE_SOURCE_URL', 'MISSING_CREATIVE_VERIFIED_AT', 'DESTINATION_HOST_MISMATCH', 'UNREVIEWED_CREATIVE_CLAIMS']) {
+      assert.equal(codes.has(code), true, `${code}を検出できませんでした`);
+    }
+  });
+
   it('不正な日付と未来の確認日を重大エラーにする', () => {
     const issues = auditAffiliateOffers([{
       ...validOffer,
@@ -82,5 +106,38 @@ describe('affiliate offer audit', () => {
 
     const future = auditAffiliateOffers([{ ...validOffer, verifiedAt: '2026-07-16' }], new Date('2026-07-15T12:00:00+09:00'));
     assert.equal(future.some((issue) => issue.code === 'FUTURE_VERIFIED_AT'), true);
+  });
+
+  it('公開案件のクリエイティブSHAと実リダイレクト経路をオンライン照合する', async () => {
+    const creative = Buffer.from('verified creative');
+    const offer = {
+      ...validOffer,
+      creativeFingerprint: createHash('sha256').update(creative).digest('hex'),
+    };
+    const mockFetch = async (input) => {
+      const url = String(input);
+      if (url.startsWith('https://www23.a8.net/')) return new Response(creative, { status: 200 });
+      if (url.startsWith('https://px.a8.net/')) return new Response(null, { status: 302, headers: { location: 'https://a8cv.f.012grp.co.jp/track' } });
+      if (url.startsWith('https://a8cv.f.012grp.co.jp/')) return new Response(null, { status: 302, headers: { location: 'https://f.012grp.co.jp/landing' } });
+      if (url.startsWith('https://f.012grp.co.jp/')) return new Response(null, { status: 200 });
+      throw new Error(`unexpected URL: ${url}`);
+    };
+
+    assert.deepEqual(await auditPublishedAffiliateRemotes([offer], mockFetch), []);
+  });
+
+  it('リモート素材差替えと未承認の最終遷移先を重大エラーにする', async () => {
+    const mockFetch = async (input) => {
+      const url = String(input);
+      if (url.startsWith('https://www23.a8.net/')) return new Response('changed creative', { status: 200 });
+      if (url.startsWith('https://px.a8.net/')) return new Response(null, { status: 302, headers: { location: 'https://example.invalid/landing' } });
+      if (url.startsWith('https://example.invalid/')) return new Response(null, { status: 200 });
+      throw new Error(`unexpected URL: ${url}`);
+    };
+    const codes = new Set((await auditPublishedAffiliateRemotes([validOffer], mockFetch)).map((issue) => issue.code));
+
+    assert.equal(codes.has('REMOTE_CREATIVE_FINGERPRINT_MISMATCH'), true);
+    assert.equal(codes.has('REMOTE_LANDING_HOST_MISMATCH'), true);
+    assert.equal(codes.has('REMOTE_REDIRECT_HOST_UNAPPROVED'), true);
   });
 });

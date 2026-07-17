@@ -1,9 +1,12 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import { AFFILIATE_OFFERS } from '../src/config/affiliate-offers.ts';
-import { auditAffiliateOffers } from '../src/lib/affiliate-audit.ts';
+import { auditAffiliateOffers, auditPublishedAffiliateRemotes } from '../src/lib/affiliate-audit.ts';
 
 const now = new Date();
-const issues = auditAffiliateOffers(AFFILIATE_OFFERS, now);
+const issues = [
+  ...auditAffiliateOffers(AFFILIATE_OFFERS, now),
+  ...(await auditPublishedAffiliateRemotes(AFFILIATE_OFFERS)),
+];
 const critical = issues.filter((issue) => issue.severity === 'critical');
 const enabledCount = AFFILIATE_OFFERS.filter((offer) => offer.enabled).length;
 const report = {

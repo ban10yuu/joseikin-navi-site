@@ -166,20 +166,21 @@ describe('normalizeGrant', () => {
     assert.equal(result.indexStatus, 'noindex');
   });
 
-  it('公式情報がある事業者向け制度に明確な語がある場合だけaffiliate intentを付与する', () => {
+  it('公式情報がある事業者向け制度でも明示されたaffiliate intentだけを採用する', () => {
     const result = normalizeGrant({
       ...baseGrant,
       title: '例示市 クラウド会計ソフト導入補助金',
       description: '中小企業の会計ソフト導入費を補助します。',
       audiences: ['business'],
       purposes: ['digitalTransformation'],
+      affiliateIntents: ['accounting'],
     });
 
     assert.deepEqual(result.affiliateIntents, ['accounting']);
     assert.equal(result.monetizationAllowed, true);
   });
 
-  it('事業準備と関連する目的の事業者向け制度にはbusinessPlanning intentを補完する', () => {
+  it('事業準備と関連する目的でもaffiliate intentを推測で補完しない', () => {
     const result = normalizeGrant({
       ...baseGrant,
       title: '例示市 創業支援補助金',
@@ -188,8 +189,8 @@ describe('normalizeGrant', () => {
       purposes: ['startup'],
     });
 
-    assert.deepEqual(result.affiliateIntents, ['businessPlanning']);
-    assert.equal(result.monetizationAllowed, true);
+    assert.deepEqual(result.affiliateIntents, []);
+    assert.equal(result.monetizationAllowed, false);
   });
 
   it('センシティブ目的と明示的な収益化不許可を最優先する', () => {
@@ -198,12 +199,14 @@ describe('normalizeGrant', () => {
       title: '医療法人向け クラウド会計ソフト導入補助金',
       audiences: ['business'],
       purposes: ['medical'],
+      affiliateIntents: ['accounting'],
     });
     const explicitlyBlocked = normalizeGrant({
       ...baseGrant,
       title: '例示市 クラウド会計ソフト導入補助金',
       audiences: ['business'],
       purposes: ['digitalTransformation'],
+      affiliateIntents: ['accounting'],
       monetizationAllowed: false,
     });
 
@@ -227,6 +230,7 @@ describe('normalizeGrant', () => {
         ...unsafe,
         title: '例示市 クラウド会計ソフト導入補助金',
         audiences: unsafe.audiences ?? ['business'],
+        affiliateIntents: unsafe.affiliateIntents ?? ['accounting'],
         monetizationAllowed: true,
       });
       assert.equal(result.monetizationAllowed, false);
@@ -239,6 +243,7 @@ describe('normalizeGrant', () => {
       title: '例示市 クラウド会計ソフト導入補助金',
       audiences: ['business'],
       purposes: ['digitalTransformation'],
+      affiliateIntents: ['accounting'],
       officialUrl: '',
     });
     const noIntent = normalizeGrant({

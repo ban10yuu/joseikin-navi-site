@@ -3,7 +3,11 @@ import Link from 'next/link';
 import PolicyPage from '@/components/PolicyPage';
 import { toSiteUrl } from '@/lib/site-url';
 
-export const metadata: Metadata = { title: 'AI利用方針', alternates: { canonical: toSiteUrl('/ai-policy/') } };
+export const metadata: Metadata = {
+  title: 'AI利用方針',
+  description: '助成金ナビがAIを利用する工程、AIに任せない判断、自動照合と人手確認の区別、誤りを修正する方法を説明します。',
+  alternates: { canonical: toSiteUrl('/ai-policy/') },
+};
 
 export default function AiPolicyPage() {
   return (

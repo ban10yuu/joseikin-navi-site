@@ -68,8 +68,7 @@ export default function GrantDecisionSummary({
         </div>
         <div className="is-amount">
           <dt>支援額</dt>
-          <dd>{grant.maxAmount}</dd>
-          {isLoan && <p className="grant-loan-notice">貸付制度・原則として返済が必要です</p>}
+          <dd>{grant.maxAmount}{isLoan && <p className="grant-loan-notice">貸付制度・原則として返済が必要です</p>}</dd>
         </div>
         <div>
           <dt>申請期間</dt>
@@ -77,8 +76,7 @@ export default function GrantDecisionSummary({
         </div>
         <div>
           <dt>受付状況</dt>
-          <dd>{GRANT_STATUS_LABELS[status]}</dd>
-          {grant.budgetMayCloseEarly && <p className="grant-budget-note">予算到達により早期終了する場合があります。</p>}
+          <dd>{GRANT_STATUS_LABELS[status]}{grant.budgetMayCloseEarly && <p className="grant-budget-note">予算到達により早期終了する場合があります。</p>}</dd>
         </div>
         <div>
           <dt>公式情報確認日</dt>

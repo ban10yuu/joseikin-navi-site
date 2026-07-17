@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import AffiliateRecommendation from '@/components/AffiliateRecommendation';
 import GrantCard from '@/components/GrantCard';
 import HomeGrantSearch from '@/components/HomeGrantSearch';
 import SubscribeForm from '@/components/SubscribeForm';
@@ -93,19 +92,11 @@ export default function HomePage() {
             </div>
             <p className="home-hero-description">国・自治体・民間団体の公式情報をもとに、対象、支援内容、申請期限、確認先を整理しています。個人・家族向け、事業者・団体向けを分けて検索できます。</p>
           </div>
-          <div className={`home-search-with-rail${heroAffiliates.length > 0 ? '' : ' home-search-with-rail--single'}`}>
-            <div className="home-search-main">
-              <HomeGrantSearch totalCount={stats.total} officialLinkedCount={stats.officialLinked} />
-            </div>
-            {heroAffiliates.length > 0 && (
-              <div className="home-affiliate-rail official-affiliate-rail">
-                <p className="home-affiliate-rail-label">事業者向けサービス</p>
-                {heroAffiliates.map((offer, index) => (
-                  <AffiliateRecommendation key={offer.id} offer={offer} pageType="home" placement="home-hero" position={index + 1} audience="business" purpose="businessGrowth" compact />
-                ))}
-              </div>
-            )}
-          </div>
+          <HomeGrantSearch
+            totalCount={stats.total}
+            officialLinkedCount={stats.officialLinked}
+            businessAffiliateOffers={heroAffiliates}
+          />
           <section className="home-seo-link-panel" aria-labelledby="popular-search-title">
             <div>
               <p className="home-search-eyebrow">よく探される条件</p>

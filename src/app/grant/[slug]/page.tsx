@@ -2,11 +2,12 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import GrantCard from '@/components/GrantCard';
-import AffiliateRecommendation from '@/components/AffiliateRecommendation';
 import GrantDecisionSummary from '@/components/GrantDecisionSummary';
 import { BreadcrumbJsonLd, GrantJsonLd } from '@/components/JsonLd';
 import OfficialCheckpoints from '@/components/OfficialCheckpoints';
 import OfficialSourcePanel from '@/components/OfficialSourcePanel';
+import ResponsiveAffiliatePlacement from '@/components/ResponsiveAffiliatePlacement';
+import MobileOfficialCta from '@/components/MobileOfficialCta';
 import {
   getGrantBySlug,
   getGrantSourceStatus,
@@ -21,7 +22,7 @@ import { getValidOfficialSourceUrls } from '@/lib/grant-source';
 import { groupGrantSections, type GrantSectionGroup } from '@/lib/grant-sections';
 import { getEffectiveGrantStatus, getOfficialCtaLabel, isRepayableSupport } from '@/lib/grant-status';
 import { toSiteUrl } from '@/lib/site-url';
-import { getEligibleAffiliateOffers } from '@/lib/monetization';
+import { getEligibleAffiliateOffers, isSensitiveAffiliateContext } from '@/lib/monetization';
 import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
 import { CATEGORY_LABELS, SUPPORT_TYPE_LABELS, type Section } from '@/lib/types';
 
@@ -85,17 +86,32 @@ export default async function GrantDetailPage({ params }: Props) {
   const eligibilityItems = splitEligibilityText(grant.eligibility);
   const purpose = grant.primaryPurpose;
   const businessAudience = ['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization'].includes(grant.primaryAudience ?? '');
+  const primaryOfficialUrl = getValidOfficialSourceUrls(grant)[0];
+  const affiliateIntents = grant.affiliateIntents ?? [];
   const affiliateOffers = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
     pageType: 'grant',
     audiences: grant.audiences ?? [],
     purposes: grant.purposes ?? [],
-    intents: grant.affiliateIntents ?? [],
+    intents: affiliateIntents,
     monetizationAllowed: grant.monetizationAllowed ?? false,
     status,
-    placementMode: 'allGrantDetails',
+    indexable: sourceStatus.level !== 'unverified' && !expired && grant.indexStatus !== 'noindex' && grant.contentStatus === 'published',
+    hasOfficialSource: Boolean(primaryOfficialUrl),
+    sensitive: isSensitiveAffiliateContext({
+      purposes: grant.purposes ?? [],
+      audiences: grant.audiences ?? [],
+      texts: [
+        grant.title,
+        grant.category,
+        grant.description,
+        grant.eligibility,
+        grant.supportType ?? '',
+        ...grant.tags,
+        ...grant.sections.flatMap((section) => [section.heading, section.content]),
+      ],
+    }),
     limit: 2,
   });
-  const primaryOfficialUrl = getValidOfficialSourceUrls(grant)[0];
 
   const orderedGroups: GrantSectionGroup[] = ['overview', 'eligibility', 'amount', 'period', 'costs', 'method', 'documents', 'contact'];
   const classifiedCount = orderedGroups.reduce((count, group) => count + sectionGroups[group].length, 0);
@@ -114,21 +130,38 @@ export default async function GrantDetailPage({ params }: Props) {
 
         <div className="grant-detail-layout">
           <article className="grant-detail-article">
-          <GrantDecisionSummary grant={grant} expired={expired} sourceLabel={sourceStatus.label} />
+            <div className="grant-detail-main-start">
+              <GrantDecisionSummary grant={grant} expired={expired} sourceLabel={sourceStatus.label} />
 
-          <OfficialSourcePanel
-            officialUrl={grant.officialUrl}
-            sourceUrls={grant.sourceUrls}
-            sourceName={grant.sourceName}
-            verifiedAt={grant.verifiedAt}
-            humanReviewedAt={grant.humanReviewedAt}
-            statusLabel={sourceStatus.label}
-            statusDescription={sourceStatus.description}
-            statusLevel={sourceStatus.level}
-            grantId={grant.slug}
-            audience={grant.primaryAudience}
-            purpose={grant.primaryPurpose}
-          />
+              <OfficialSourcePanel
+                officialUrl={grant.officialUrl}
+                sourceUrls={grant.sourceUrls}
+                sourceName={grant.sourceName}
+                verifiedAt={grant.verifiedAt}
+                humanReviewedAt={grant.humanReviewedAt}
+                statusLabel={sourceStatus.label}
+                statusDescription={sourceStatus.description}
+                statusLevel={sourceStatus.level}
+                grantId={grant.slug}
+                audience={grant.primaryAudience}
+                purpose={grant.primaryPurpose}
+              />
+            </div>
+
+            {affiliateOffers.length > 0 ? (
+              <ResponsiveAffiliatePlacement
+                offers={affiliateOffers}
+                pageType="grant"
+                grantId={grant.slug}
+                audience={grant.primaryAudience}
+                purpose={grant.primaryPurpose}
+                placement="grant-after-official-source"
+                className="grant-affiliate-placement"
+                expandAt={1200}
+              />
+            ) : null}
+
+            <div className="grant-detail-main-rest">
 
           <div className="article-content grant-article-content">
             <DetailSection id="overview" title="制度の概要" sections={sectionGroups.overview}>
@@ -178,18 +211,20 @@ export default async function GrantDetailPage({ params }: Props) {
 
             {grant.tags.length > 0 && <div className="grant-tag-list" aria-label="関連タグ">{grant.tags.map((tag) => <Link key={tag} href={`/tag/${encodeURIComponent(tag.toLowerCase().replace(/\s+/g, '-'))}/`}>#{tag}</Link>)}</div>}
             {classifiedCount === 0 && <p className="mt-6 text-xs leading-6 text-muted">詳細項目は公式ページでご確認ください。</p>}
-          </article>
-
-          {affiliateOffers.length > 0 && (
-            <div className="grant-affiliate-rail official-affiliate-rail">
-              <p className="grant-affiliate-rail-label">事業者向けサービス</p>
-              {affiliateOffers.map((offer, index) => <AffiliateRecommendation key={offer.id} offer={offer} pageType="grant" grantId={grant.slug} audience={grant.primaryAudience} purpose={grant.primaryPurpose} placement="grant-side-rail" position={index + 1} compact />)}
             </div>
-          )}
+          </article>
         </div>
       </div>
 
-      {primaryOfficialUrl && <div className="grant-mobile-cta"><a href={primaryOfficialUrl} target="_blank" rel="noopener noreferrer" data-analytics-event="official_source_click" data-page-type="grant" data-grant-id={grant.slug} data-audience={grant.primaryAudience} data-purpose={grant.primaryPurpose} data-placement="mobile-sticky">{getOfficialCtaLabel(status)}<span className="sr-only">（新しいタブで開きます）</span><span aria-hidden="true">↗</span></a></div>}
+      {primaryOfficialUrl ? (
+        <MobileOfficialCta
+          href={primaryOfficialUrl}
+          label={getOfficialCtaLabel(status)}
+          grantId={grant.slug}
+          audience={grant.primaryAudience}
+          purpose={grant.primaryPurpose}
+        />
+      ) : null}
     </>
   );
 }

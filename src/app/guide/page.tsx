@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import AffiliateRecommendation from '@/components/AffiliateRecommendation';
+import ResponsiveAffiliatePlacement from '@/components/ResponsiveAffiliatePlacement';
 import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
 import { getEligibleAffiliateOffers } from '@/lib/monetization';
 import { toSiteUrl } from '@/lib/site-url';
@@ -77,11 +77,7 @@ export default function GuidePage() {
           <h2 id="business-guide-title" className="mt-1 text-2xl font-black leading-relaxed text-navy">公募要領から実績報告まで</h2>
           <p className="mb-5 mt-2 text-base leading-8 text-muted">対象経費や着手時期を誤らないよう、申請前だけでなく交付決定後の義務まで確認します。</p>
           {businessAffiliates.length > 0 && (
-            <div className="mb-5 grid gap-4 sm:grid-cols-2">
-              {businessAffiliates.map((offer, index) => (
-                <AffiliateRecommendation key={offer.id} offer={offer} pageType="businessGuide" placement="business-guide-intro" position={index + 1} audience="business" purpose="businessGrowth" compact headingLevel="h3" />
-              ))}
-            </div>
+            <ResponsiveAffiliatePlacement offers={businessAffiliates} pageType="businessGuide" placement="business-guide-intro" audience="business" purpose="businessGrowth" className="guide-affiliate-placement mb-5" expandAt={1024} />
           )}
           <GuideSteps steps={businessSteps} />
         </section>

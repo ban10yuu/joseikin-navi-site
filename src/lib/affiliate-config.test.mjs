@@ -6,13 +6,10 @@ import { getEligibleAffiliateOffers, isAffiliateOfferPublishable } from './monet
 const NOW = new Date('2026-07-17T12:00:00+09:00');
 
 describe('affiliate production config', () => {
-  it('提携済みの公式バナー案件を2件公開する', () => {
+  it('根拠を確認できた公式バナー案件だけを公開する', () => {
     const publishable = AFFILIATE_OFFERS.filter((offer) => isAffiliateOfferPublishable(offer, NOW));
 
-    assert.deepEqual(publishable.map((offer) => offer.id), [
-      'a8-freee-accounting-wiz',
-      'a8-kanbei-sign',
-    ]);
+    assert.deepEqual(publishable.map((offer) => offer.id), ['a8-freee-accounting-wiz']);
     for (const offer of publishable) {
       assert.match(offer.creativeImageUrl ?? '', /^https:\/\/www\d+\.a8\.net\/svt\/bgt\?/);
       assert.match(offer.impressionPixelUrl ?? '', /^https:\/\/www\d+\.a8\.net\/0\.gif\?/);
@@ -21,7 +18,7 @@ describe('affiliate production config', () => {
     }
   });
 
-  it('トップと制度詳細で異なる2案件を選べる', () => {
+  it('トップと適合する事業者向け制度詳細で公開可能な案件だけを選ぶ', () => {
     const homeOffers = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
       pageType: 'home',
       audiences: ['soleProprietor', 'business'],
@@ -32,17 +29,31 @@ describe('affiliate production config', () => {
     }, NOW);
     const detailOffers = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
       pageType: 'grant',
-      audiences: ['individual'],
-      purposes: ['medical'],
-      intents: [],
-      monetizationAllowed: false,
-      status: 'closed',
-      placementMode: 'allGrantDetails',
+      audiences: ['business'],
+      purposes: ['businessGrowth', 'digitalTransformation'],
+      intents: ['accounting', 'electronicContract', 'businessPlanning'],
+      monetizationAllowed: true,
+      status: 'open',
+      indexable: true,
+      hasOfficialSource: true,
       limit: 2,
     }, NOW);
 
-    assert.deepEqual(homeOffers.map((offer) => offer.id), ['a8-kanbei-sign', 'a8-freee-accounting-wiz']);
-    assert.deepEqual(detailOffers.map((offer) => offer.id), ['a8-kanbei-sign', 'a8-freee-accounting-wiz']);
+    assert.deepEqual(homeOffers.map((offer) => offer.id), ['a8-freee-accounting-wiz']);
+    assert.deepEqual(detailOffers.map((offer) => offer.id), ['a8-freee-accounting-wiz']);
+    const suspendedCreative = AFFILIATE_OFFERS.find((offer) => offer.id === 'a8-kanbei-sign');
+    assert.equal(suspendedCreative?.enabled, false);
+    assert.equal(suspendedCreative?.claimReviewStatus, 'pending');
+  });
+
+  it('個人・センシティブ・終了制度では公開案件があっても広告を返さない', () => {
+    const result = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+      pageType: 'grant', audiences: ['individual'], purposes: ['businessGrowth', 'medical'],
+      intents: ['accounting'], monetizationAllowed: false, status: 'closed', indexable: false,
+      hasOfficialSource: false, placementMode: 'allGrantDetails', limit: 2,
+    }, NOW);
+
+    assert.deepEqual(result, []);
   });
 
   it('もしもの申請中4案件は公開条件を満たすまで非表示にする', () => {

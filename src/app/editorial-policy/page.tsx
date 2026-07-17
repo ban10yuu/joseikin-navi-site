@@ -3,7 +3,11 @@ import Link from 'next/link';
 import PolicyPage from '@/components/PolicyPage';
 import { toSiteUrl } from '@/lib/site-url';
 
-export const metadata: Metadata = { title: '編集方針', alternates: { canonical: toSiteUrl('/editorial-policy/') } };
+export const metadata: Metadata = {
+  title: '編集方針',
+  description: '助成金ナビの掲載基準、公式資料にない情報を補わない方針、自動照合と人手確認の表示、訂正対応について説明します。',
+  alternates: { canonical: toSiteUrl('/editorial-policy/') },
+};
 
 export default function EditorialPolicyPage() {
   return (
