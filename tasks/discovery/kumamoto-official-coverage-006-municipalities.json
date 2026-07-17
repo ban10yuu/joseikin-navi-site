@@ -1,0 +1,11 @@
+{
+  "prefecture": "熊本県",
+  "batch": "kumamoto-official-coverage-006",
+  "municipalities": [
+    { "code": "43432", "name": "西原村", "url": "https://www.vill.nishihara.kumamoto.jp/" },
+    { "code": "43433", "name": "南阿蘇村", "url": "https://www.vill.minamiaso.lg.jp/" },
+    { "code": "43441", "name": "御船町", "url": "https://www.town.mifune.kumamoto.jp/" },
+    { "code": "43442", "name": "嘉島町", "url": "https://www.town.kumamoto-kashima.lg.jp/" },
+    { "code": "43443", "name": "益城町", "url": "https://www.town.mashiki.lg.jp/" }
+  ]
+}
