@@ -1,0 +1,11 @@
+{
+  "prefecture": "福岡県",
+  "batch": "fukuoka-official-coverage-002",
+  "municipalities": [
+    { "code": "40205", "name": "飯塚市", "url": "https://www.city.iizuka.lg.jp/" },
+    { "code": "40206", "name": "田川市", "url": "https://www.joho.tagawa.fukuoka.jp/" },
+    { "code": "40207", "name": "柳川市", "url": "https://www.city.yanagawa.fukuoka.jp/" },
+    { "code": "40210", "name": "八女市", "url": "https://www.city.yame.fukuoka.jp/" },
+    { "code": "40211", "name": "筑後市", "url": "https://www.city.chikugo.lg.jp/" }
+  ]
+}
