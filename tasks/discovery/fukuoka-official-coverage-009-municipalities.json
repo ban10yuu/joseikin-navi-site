@@ -1,0 +1,11 @@
+{
+  "prefecture": "福岡県",
+  "batch": "fukuoka-official-coverage-009",
+  "municipalities": [
+    { "code": "40401", "name": "小竹町", "url": "https://town.kotake.lg.jp/" },
+    { "code": "40402", "name": "鞍手町", "url": "https://www.town.kurate.lg.jp/" },
+    { "code": "40421", "name": "桂川町", "url": "https://www.town.keisen.fukuoka.jp/" },
+    { "code": "40447", "name": "筑前町", "url": "https://www.town.chikuzen.fukuoka.jp/" },
+    { "code": "40448", "name": "東峰村", "url": "https://vill.toho-info.com/" }
+  ]
+}
