@@ -12118,3 +12118,14 @@
 - 検証: 追加1slugの存在数1件、公式URL 12/12 HTTP 200を確認。監査JSON parse、checkpoint JSON parse、`node --check src/data/grants/verified-local-misc-2026.ts`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は今回再実行せず、026時点の既知別件 `src/lib/grant-copy.ts` の `tags.map` TypeErrorを継続ブロッカーとして扱う。
 - 到達点: 北海道第2巡013は4町村確認済み、採用1、保留継続10。全国公式棚卸しは未完了。
 - 次回: 北海道第2巡014として、由仁町・長沼町・栗山町・月形町など前方保留候補を自治体コード順に継続確認する。
+
+### 全国公式棚卸し最終監査034（北海道第2巡014 由仁町・長沼町・栗山町・月形町）
+
+- 対象: `tasks/discovery/hokkaido-second-pass-014-snippets.json` の由仁町・長沼町・栗山町・月形町を確認。
+- 公式確認: 由仁町は物価高騰等支援給付金候補、定額減税不足額給付金候補、児童手当等の代表ページを確認。長沼町は住宅用太陽光発電補助、出産・子育て、子育て世帯定住促進家賃助成の代表ページを確認。栗山町は妊娠・出産、健康診断・予防接種、介護福祉/障害福祉候補を確認。月形町は特別児童扶養手当、国民健康保険、保育園留学候補を確認。
+- 解消方法: 追加採用0件。4町とも第1巡掲載済み制度、通常行政/国制度、過年度又は期限切れ、公式本文での金額/上限・現行受付状況不足の候補が中心で、新規に制度名・対象・金額/上限・条件・期限/受付状況が揃う未掲載制度は確認できなかった。
+- 保留継続: 由仁町の令和6年度物価高騰等支援給付金、定額減税不足額給付金、児童手当等、長沼町の住宅用太陽光発電補助、チャイルドシート購入費助成、町内就業者定住促進家賃助成、栗山町の妊産婦健診/妊婦歯科健診、令和7年度予防接種助成、障害福祉/町営住宅等、月形町の特別児童扶養手当、国保通常給付、地域おこし協力隊/保育園留学等を台帳に残す。
+- 成果物: `tasks/discovery/nationwide-final-audit-034-hokkaido-second-pass-014-resolution.json`、`tasks/discovery/nationwide-final-audit-034-hokkaido-second-pass-014-url-status.txt` を作成。代表確認URL 12/12 はHTTP 200。
+- 検証: 監査JSON parse、checkpoint JSON parse、対象ファイル `git diff --check` はpass。助成金データ本体の追加・編集はないため `node --check src/data/grants/verified-local-misc-2026.ts` と eslint は今回省略。`npm run audit:coverage` は今回の追加採用0件では再実行しない。
+- 到達点: 北海道第2巡014は4町確認済み、追加採用0、保留継続12。全国公式棚卸しは未完了。
+- 次回: 北海道第2巡015として、浦臼町・新十津川町・妹背牛町・秩父別町など前方保留候補を自治体コード順に継続確認する。
