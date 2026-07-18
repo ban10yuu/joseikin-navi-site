@@ -11669,3 +11669,13 @@
 - 検証: 公式URL 74/74 HTTP 200（`tasks/discovery/kagoshima-official-coverage-003-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（003 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - メトリクス: 5自治体、74制度採用、一次候補1,028件、採用率7.2%。鹿児島県001-003累計は15自治体・団体、214制度。次の15自治体単位では15自治体・214制度、監査3回、commit3回。全国公式棚卸しは未完了。
 - 次回: 鹿児島県公式棚卸し004として、志布志市・奄美市・南九州市・伊佐市・姶良市から再開する。
+
+### 鹿児島県公式棚卸し004（46221志布志市・46222奄美市・46223南九州市・46224伊佐市・46225姶良市）
+
+- 対象公式トップ: 志布志市 `https://www.city.shibushi.lg.jp/`、奄美市 `https://www.city.amami.lg.jp/`、南九州市 `https://www.city.minamikyushu.lg.jp/`、伊佐市 `https://www.city.isa.kagoshima.jp/`、姶良市 `https://www.city.aira.lg.jp/` をHTTP 200で確認。sitemap.xmlは南九州市・伊佐市・姶良市が200、志布志市・奄美市が404のため公式カテゴリBFSで補完。
+- 公式sitemap/カテゴリBFS候補: 692件（志布志市187、奄美市37、南九州市115、伊佐市50、姶良市303）。title強一致97件。shortlistが150件超のため `tasks/discovery/kagoshima-official-coverage-004-rescored-shortlist.tsv` と `tasks/discovery/kagoshima-official-coverage-004-auto-selection.tsv` へ本文スニペット付き再スコアを保存。伊佐市はWordPress型の `life/`、`residency/`、`health/`、`culture/`、`blog/info-*` 導線を補正して抽出。
+- 採用: 99制度（志布志市24、奄美市11、南九州市24、伊佐市9、姶良市31）。`kagoshima-official-004-001-2026` から `kagoshima-official-004-099-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、トップ、共通ナビ、申請書単体、県・国事業の単純紹介、受付終了、募集終了、実績/採択、制度改正だけの告知、同一制度の重複導線は採用せず、候補JSON/TSVに残置。姶良市は候補が多いため、個別補助・助成・手当・減免ページを優先採用。
+- 検証: 公式URL 99/99 HTTP 200（`tasks/discovery/kagoshima-official-coverage-004-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（004 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体、99制度採用、一次候補692件、採用率14.3%。鹿児島県001-004累計は20自治体・団体、313制度。直近15自治体単位（002-004）は15自治体・240制度。全国公式棚卸しは未完了。
+- 次回: 鹿児島県公式棚卸し005として、三島村・十島村・さつま町・長島町・湧水町から再開する。

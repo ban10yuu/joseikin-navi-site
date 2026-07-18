@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-18T13:31:00+09:00",
+  "updatedAt": "2026-07-18T15:51:36+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kagoshima-official-coverage-003",
-    "municipality": "日置市・曽於市・霧島市・いちき串木野市・南さつま市",
-    "adopted": 74,
+    "code": "kagoshima-official-coverage-004",
+    "municipality": "志布志市・奄美市・南九州市・伊佐市・姶良市",
+    "adopted": 99,
     "held": 0,
-    "excluded": 954,
-    "sourceUrlsChecked": 74,
+    "excluded": 593,
+    "sourceUrlsChecked": 99,
     "validation": {
-      "previousMunicipality": "鹿児島県公式棚卸し003として46216日置市、46217曽於市、46218霧島市、46219いちき串木野市、46220南さつま市を確認し、74件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and kagoshima-official-coverage-003 discover/build scripts",
+      "previousMunicipality": "鹿児島県公式棚卸し004として46221志布志市、46222奄美市、46223南九州市、46224伊佐市、46225姶良市を確認し、99件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and kagoshima-official-coverage-004 discover/build scripts",
       "json": "pass: checkpoint, candidates, selections, adopted JSON parsed",
-      "addedSlugUniqueness": "pass: 74 added slugs unique and whole dataset duplicate count 0",
-      "urlReachability": "pass: build non200 empty; 74 adopted official URLs returned HTTP 200 by build fetch and saved to tasks/discovery/kagoshima-official-coverage-003-url-status.txt",
+      "addedSlugUniqueness": "pass: 99 added slugs unique and whole dataset duplicate count 0",
+      "urlReachability": "pass: build non200 empty; 99 adopted official URLs returned HTTP 200 by build fetch and saved to tasks/discovery/kagoshima-official-coverage-004-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: target files git diff --check completed",
       "auditCoverage": "blocked: npm run audit:coverage stops at existing unrelated src/lib/grant-copy.ts sanitizeGrantCopy tags.map TypeError before coverage aggregation",
-      "notes": "公式トップは日置市・曽於市・霧島市・いちき串木野市・南さつま市すべてHTTP 200で確認。sitemap.xmlは曽於市・いちき串木野市・南さつま市が200、日置市・霧島市が404のため公式カテゴリBFSを併用。公式sitemap/カテゴリBFSで1,028候補（日置市143、曽於市223、霧島市213、いちき串木野市125、南さつま市324）を抽出し、title強一致82件。shortlistが150件超のため本文スニペット付き再スコアからカテゴリ、申請書単体、制度改正告知、募集終了、実績/効果検証、負担周知、重複導線を除外。日置市16、曽於市15、霧島市17、いちき串木野市15、南さつま市11を採用。"
+      "notes": "公式トップは志布志市・奄美市・南九州市・伊佐市・姶良市すべてHTTP 200で確認。sitemap.xmlは南九州市・伊佐市・姶良市が200、志布志市・奄美市が404のため公式カテゴリBFSを併用。伊佐市はWordPress型のlife/residency/health/culture/blog導線を補正して抽出。公式sitemap/カテゴリBFSで692候補（志布志市187、奄美市37、南九州市115、伊佐市50、姶良市303）を抽出し、title強一致97件。shortlistが150件超のため本文スニペット付き再スコアからカテゴリ、申請書単体、県・国事業の単純紹介、受付終了、募集終了、実績/採択、重複導線を除外。志布志市24、奄美市11、南九州市24、伊佐市9、姶良市31を採用。"
     }
   },
   "next": {
-    "code": "kagoshima-official-coverage-004",
-    "municipality": "志布志市・奄美市・南九州市・伊佐市・姶良市",
-    "shortlist": "鹿児島県公式棚卸し003で日置市・曽於市・霧島市・いちき串木野市・南さつま市を確認し74件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で46221志布志市から再開する。",
-    "instructions": "次回は鹿児島県公式棚卸し004として、46221志布志市、46222奄美市、46223南九州市、46224伊佐市、46225姶良市の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの鹿児島県完了行やHTTP 200だけでは完了扱いにしない。"
+    "code": "kagoshima-official-coverage-005",
+    "municipality": "三島村・十島村・さつま町・長島町・湧水町",
+    "shortlist": "鹿児島県公式棚卸し004で志布志市・奄美市・南九州市・伊佐市・姶良市を確認し99件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で46303三島村から再開する。",
+    "instructions": "次回は鹿児島県公式棚卸し005として、46303三島村、46304十島村、46392さつま町、46404長島町、46452湧水町の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの鹿児島県完了行やHTTP 200だけでは完了扱いにしない。"
   },
   "prefectureMilestone": {
     "status": "in-progress",
     "prefecture": "kagoshima",
-    "lastBatch": "kagoshima-official-coverage-003",
-    "notes": "鹿児島県公式棚卸し001-003で県・市15自治体・団体に第1巡到達し、214制度を採用。次の15自治体単位では15自治体・214制度、監査3回、commit3回。全国公式棚卸しは未完了で、次は志布志市・奄美市・南九州市・伊佐市・姶良市。"
+    "lastBatch": "kagoshima-official-coverage-004",
+    "notes": "鹿児島県公式棚卸し001-004で県・市20自治体・団体に第1巡到達し、313制度を採用。直近15自治体単位（002-004）は15自治体・240制度、監査3回予定、commit3回予定。全国公式棚卸しは未完了で、次は三島村・十島村・さつま町・長島町・湧水町。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
