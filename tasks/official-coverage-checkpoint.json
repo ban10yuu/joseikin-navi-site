@@ -1,43 +1,43 @@
 {
-  "updatedAt": "2026-07-18T22:45:00+09:00",
+  "updatedAt": "2026-07-18T23:00:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "okinawa-official-coverage-004",
-    "municipality": "今帰仁村・本部町・恩納村・宜野座村・金武町",
-    "adopted": 38,
+    "code": "okinawa-official-coverage-005",
+    "municipality": "伊江村・読谷村・嘉手納町・北谷町・北中城村",
+    "adopted": 52,
     "held": 0,
-    "excluded": 358,
-    "sourceUrlsChecked": 38,
+    "excluded": 276,
+    "sourceUrlsChecked": 52,
     "validation": {
-      "previousMunicipality": "沖縄県公式棚卸し004として47306今帰仁村、47308本部町、47311恩納村、47313宜野座村、47314金武町を確認し、38件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and node --check for okinawa-official-coverage-004 discover/build passed",
-      "json": "pass: checkpoint, candidates, selections, adopted JSON parsed; candidates 396, selections 38, adopted 38, non200 0",
-      "addedSlugUniqueness": "pass: okinawa-official-004-001-2026 through okinawa-official-004-038-2026 present; added duplicate 0; global slug duplicate 0",
-      "urlReachability": "pass: build non200 empty; 38 adopted official URLs retained in tasks/discovery/okinawa-official-coverage-004-url-status.txt",
+      "previousMunicipality": "沖縄県公式棚卸し005として47315伊江村、47324読谷村、47325嘉手納町、47326北谷町、47327北中城村を確認し、52件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and 005 discover/build scripts",
+      "json": "pass: candidates 328, selections 52, adopted 52 parsed; counts {\"嘉手納町\":8,\"北谷町\":3,\"読谷村\":16,\"北中城村\":15,\"伊江村\":10}",
+      "addedSlugUniqueness": "pass: added slugs 52 from okinawa-official-005-001-2026 through okinawa-official-005-052-2026; added duplicate 0; global duplicate 0",
+      "urlReachability": "pass: build non200 empty; 52 adopted official URLs retained in tasks/discovery/okinawa-official-coverage-005-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on 004 target files",
-      "auditCoverage": "blocked: npm run audit:coverage still stops in unrelated src/lib/grant-copy.ts:114 sanitizeGrantCopy tags.map TypeError before coverage aggregation",
-      "notes": "公式トップは今帰仁村・本部町・恩納村・宜野座村・金武町すべてHTTP 200で確認済み。sitemap.xmlは今帰仁村・本部町・宜野座村・金武町が200、恩納村は公式/sitemap/で補完。公式sitemap/カテゴリBFSで396候補（今帰仁村89、本部町91、恩納村33、宜野座村151、金武町32）を抽出し、title強一致105件。候補数が150件超のため本文スニペット付き再スコアを実施。本部町/doc配下はローカル再取得時にAccess Deniedとなる場合があるため候補抽出時点の公式本文スニペットで根拠を保持。宜野座村の高等職業訓練促進給付金は重複導線を整理。"
+      "diffCheck": "pass: git diff --check on 005 target files",
+      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at unrelated src/lib/grant-copy.ts:114 sanitizeGrantCopy tags.map TypeError",
+      "notes": "公式トップは伊江村・読谷村・嘉手納町・北谷町・北中城村すべてHTTP 200で確認済み。伊江村は公式/sitemap/、読谷村はsitemap.xmlとsitemap.html、嘉手納町はsitemap.html、北中城村はsitemap.xmlを確認。北谷町はトップ200だがsite_map.htmlや個別ページのローカル再取得がAccess Deniedとなるため、公式ページ/PDFの検索キャッシュおよび既存公式確認済みsourceNoteから3候補を補足。公式sitemap/カテゴリBFSで328候補（伊江村41、読谷村123、嘉手納町17、北谷町3、北中城村144）を抽出し、title強一致87件。候補数が150件超のため本文スニペット付き再スコアを実施。嘉手納町は/info/配下の公式制度URLを補足し、弱いカテゴリ・職員採用・COVID過年度・情報提供だけのページを除外。"
     }
   },
   "next": {
-    "code": "okinawa-official-coverage-005",
-    "municipality": "伊江村・読谷村・嘉手納町・北谷町・北中城村",
-    "shortlist": "沖縄県公式棚卸し004で今帰仁村・本部町・恩納村・宜野座村・金武町を確認し38件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で47315伊江村から再開する。",
-    "instructions": "次回は沖縄県公式棚卸し005として、47315伊江村、47324読谷村、47325嘉手納町、47326北谷町、47327北中城村の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの沖縄県完了行やHTTP 200だけでは完了扱いにしない。"
+    "code": "okinawa-official-coverage-006",
+    "municipality": "中城村・西原町・与那原町・南風原町・渡嘉敷村",
+    "shortlist": "沖縄県公式棚卸し005で伊江村・読谷村・嘉手納町・北谷町・北中城村を確認し52件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で47328中城村から再開する。",
+    "instructions": "次回は沖縄県公式棚卸し006として、47328中城村、47329西原町、47348与那原町、47350南風原町、47353渡嘉敷村の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの沖縄県完了行やHTTP 200だけでは完了扱いにしない。"
   },
   "prefectureMilestone": {
     "prefecture": "沖縄県",
-    "completedBatches": "001-004",
-    "completedMunicipalitiesAndEntities": 20,
-    "adopted": 239,
+    "completedBatches": "001-005",
+    "completedMunicipalitiesAndEntities": 25,
+    "adopted": 291,
     "recent15Municipalities": {
-      "batches": "沖縄002-004",
+      "batches": "沖縄003-005",
       "municipalities": 15,
-      "adopted": 163,
-      "metrics": "15自治体・団体/3バッチ、採用163制度、監査3回、commit3回予定。採用率は004で38/396=9.6%。"
+      "adopted": 155,
+      "metrics": "15自治体・団体/3バッチ、採用155制度、監査3回、commit3回予定。採用率は005で52/328=15.9%。"
     },
-    "status": "沖縄県は第1巡で47000沖縄県から47314金武町まで到達。全国公式棚卸しは未完了。次は沖縄県公式棚卸し005。"
+    "status": "沖縄県は第1巡で47000沖縄県から47327北中城村まで到達。全国公式棚卸しは未完了。次は沖縄県公式棚卸し006。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

@@ -11769,3 +11769,13 @@
 - 検証: 公式URL 38件を `tasks/discovery/okinawa-official-coverage-004-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（004 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - メトリクス: 5自治体、38制度採用、一次候補396件、採用率9.6%。沖縄県001-004累計は20自治体・団体、239制度。直近15自治体単位（002-004）は15自治体・163制度、監査3回、commit3回。全国公式棚卸しは未完了。
 - 次回: 沖縄県公式棚卸し005として、伊江村・読谷村・嘉手納町・北谷町・北中城村から再開する。
+
+### 沖縄県公式棚卸し005（47315伊江村・47324読谷村・47325嘉手納町・47326北谷町・47327北中城村）
+
+- 対象公式トップ: 伊江村 `https://www.iejima.org/`、読谷村 `https://www.vill.yomitan.okinawa.jp/`、嘉手納町 `https://www.town.kadena.okinawa.jp/`、北谷町 `https://www.chatan.jp/`、北中城村 `https://www.vill.kitanakagusuku.lg.jp/` をHTTP 200で確認。伊江村は公式 `/sitemap/`、読谷村は `sitemap.xml` と `sitemap.html`、嘉手納町は `sitemap.html`、北中城村は `sitemap.xml` を確認。北谷町はトップ200だが `site_map.html` や個別ページのローカル再取得がAccess Deniedとなるため、公式ページ/PDFの検索キャッシュおよび既存公式確認済みsourceNoteで補完。
+- 公式sitemap/カテゴリBFS候補: 328件（伊江村41、読谷村123、嘉手納町17、北谷町3、北中城村144）。title強一致87件。shortlistが150件超のため `tasks/discovery/okinawa-official-coverage-005-rescored-shortlist.tsv` と `tasks/discovery/okinawa-official-coverage-005-auto-selection.tsv` へ本文スニペット付き再スコアを保存。嘉手納町は `/info/` 配下の公式制度URLを補足。
+- 採用: 52制度（伊江村10、読谷村16、嘉手納町8、北谷町3、北中城村15）。`okinawa-official-005-001-2026` から `okinawa-official-005-052-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、トップ、共通ナビ、申請書単体、制度性の弱いページ、職員採用、プロポーザル、COVID過年度、情報提供のみ、制度改正だけの導線、同一制度の重複導線は採用せず、候補JSON/TSVに残置。北谷町は公式本文再取得制限のため3件をfallbackEvidence付きで採用し、制限内容をURL台帳に残した。
+- 検証: 公式URL 52件を `tasks/discovery/okinawa-official-coverage-005-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（005 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体、52制度採用、一次候補328件、採用率15.9%。沖縄県001-005累計は25自治体・団体、291制度。直近15自治体単位（003-005）は15自治体・155制度、監査3回、commit3回。全国公式棚卸しは未完了。
+- 次回: 沖縄県公式棚卸し006として、中城村・西原町・与那原町・南風原町・渡嘉敷村から再開する。
