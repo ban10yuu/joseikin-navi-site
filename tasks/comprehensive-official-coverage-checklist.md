@@ -11928,3 +11928,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-012-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-012-url-status.txt`、`tasks/discovery/nationwide-final-audit-012-raw-gaps-after.json` を作成。公式URL/PDF 4/4 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは29件から26件へ減少。神奈川県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-012-coverage.log` に保存。
 - 次回: raw gap残26件。上位は栃木県3、群馬県2、秋田県2、福岡県2、福島県2。栃木県のraw gap3件から、公式本文/PDF確認を継続する。
+
+### 全国公式棚卸し最終監査013（栃木県raw gap 3件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-012-raw-gaps-after.json` の栃木県3件、宇都宮市 `utsunomiya-newlywed-rent`、小山市 `oyama-newlywed-rent`、足利市 `ashikaga-newlywed-rent` を確認。
+- 公式確認: 宇都宮市は公式「令和8年度宇都宮市結婚新生活支援事業」で住宅取得費用、住宅賃借費用、引越費用、リフォーム費用、上限30万円・夫婦とも29歳以下上限60万円、提出期限2027年3月1日を確認。小山市は公式「結婚新生活支援事業補助金終了について」で令和2年度末終了を確認し、現行の新婚世帯家賃補助・結婚新生活支援募集ページは確認不可。足利市は公式「結婚新生活支援事業補助金」で住宅購入・リフォーム・賃貸・引越費用、29歳以下上限60万円・39歳以下上限30万円、受付2026年6月1日から2027年2月19日を確認。
+- 解消方法: 宇都宮市と足利市は既存正規slugまたは公式補正済み制度の公開重複を避ける期限切れ統合aliasとして追加。小山市は公式終了告知に基づく期限切れ抑止レコードとして追加。
+- 成果物: `tasks/discovery/nationwide-final-audit-013-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-013-url-status.txt`、`tasks/discovery/nationwide-final-audit-013-raw-gaps-after.json` を作成。公式URL/PDF 8/8 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは26件から23件へ減少。栃木県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-013-coverage.log` に保存。
+- 次回: raw gap残23件。上位は群馬県2、秋田県2、福岡県2、福島県2。群馬県のraw gap2件から、公式本文/PDF確認を継続する。

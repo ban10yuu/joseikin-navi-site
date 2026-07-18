@@ -1,0 +1,90 @@
+{
+  "auditCode": "nationwide-final-audit-013-raw-gap-resolution",
+  "checkedAt": "2026-07-19T04:20:00+09:00",
+  "prefecture": "栃木県",
+  "rawGapBefore": 26,
+  "rawGapAfter": 23,
+  "prefectureRawGapAfter": 0,
+  "resolutions": [
+    {
+      "rawSlug": "utsunomiya-newlywed-rent",
+      "organization": "宇都宮市",
+      "rawTitle": "宇都宮市 結婚新生活支援補助金",
+      "action": "既存正規公式確認レコードへの期限切れ統合aliasとして追加し、公開重複を抑止",
+      "resolvedTitle": "宇都宮市 結婚新生活支援事業",
+      "officialUrl": "https://www.city.utsunomiya.lg.jp/kurashi/machi/jutaku/1027597.html",
+      "basis": "公式ページで令和8年度宇都宮市結婚新生活支援事業を確認。住宅取得費用、住宅賃借費用、引越費用、リフォーム費用の一部を補助し、一世帯あたり最大30万円、夫婦とも29歳以下は最大60万円。提出期限は2027年3月1日。"
+    },
+    {
+      "rawSlug": "oyama-newlywed-rent",
+      "organization": "小山市",
+      "rawTitle": "小山市 新婚世帯家賃補助金",
+      "action": "公式終了告知に基づく期限切れ抑止レコードとして追加",
+      "resolvedTitle": "小山市 結婚新生活支援事業補助金（終了）",
+      "officialUrl": "https://www.city.oyama.tochigi.jp/kurashi/kekkon-rikon/page004051.html",
+      "basis": "小山市公式ページで、平成29年度から実施していた結婚新生活支援事業補助金が令和2年度末で終了していることを確認。現行の新婚世帯家賃補助・結婚新生活支援募集ページは確認できないため通常一覧から除外。"
+    },
+    {
+      "rawSlug": "ashikaga-newlywed-rent",
+      "organization": "足利市",
+      "rawTitle": "足利市 結婚新生活支援補助金",
+      "action": "既存正規公式確認レコードへの期限切れ統合aliasとして追加し、公開重複を抑止",
+      "resolvedTitle": "足利市 結婚新生活支援事業補助金",
+      "officialUrl": "https://www.city.ashikaga.tochigi.jp/health/000036/p005768.html",
+      "basis": "公式ページで令和8年度足利市結婚新生活支援事業補助金を確認。令和8年1月1日から令和9年2月19日までの婚姻、夫婦とも39歳以下、所得500万円未満等が対象。住宅購入・リフォーム・賃貸・引越費用を補助し、上限は29歳以下60万円、39歳以下30万円。受付は2026年6月1日から2027年2月19日まで。"
+    }
+  ],
+  "urlStatus": [
+    {
+      "status": 200,
+      "url": "https://www.city.utsunomiya.lg.jp/kurashi/machi/jutaku/1027597.html",
+      "contentType": "text/html"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.utsunomiya.lg.jp/_res/projects/default_project/_page_/001/026/674/tebiki2.pdf",
+      "contentType": "application/pdf"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.utsunomiya.lg.jp/_res/projects/default_project/_page_/001/026/674/youkoushinseikatsu.pdf",
+      "contentType": "application/pdf"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000036/p005768.html",
+      "contentType": "text/html"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.ashikaga.tochigi.jp/health/000036/p004570.html",
+      "contentType": "text/html"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.oyama.tochigi.jp/",
+      "contentType": "text/html"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.oyama.tochigi.jp/kurashi/sumai-hikkoshi/sumai/page006083.html",
+      "contentType": "text/html"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.oyama.tochigi.jp/kurashi/kekkon-rikon/page004051.html",
+      "contentType": "text/html"
+    }
+  ],
+  "next": {
+    "rawGaps": 23,
+    "topPrefectures": {
+      "群馬県": 2,
+      "秋田県": 2,
+      "福岡県": 2,
+      "福島県": 2
+    },
+    "nextCode": "nationwide-final-audit-014-raw-gap-resolution",
+    "nextMunicipality": "群馬県raw gap2件の公式ページ単位解消"
+  }
+}

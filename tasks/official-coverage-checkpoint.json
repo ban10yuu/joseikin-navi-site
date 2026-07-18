@@ -1,45 +1,45 @@
 {
-  "updatedAt": "2026-07-19T04:05:00+09:00",
+  "updatedAt": "2026-07-19T04:20:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nationwide-final-audit-012",
-    "municipality": "神奈川県raw gap3件解消（横須賀市・川崎市・相模原市）",
+    "code": "nationwide-final-audit-013",
+    "municipality": "栃木県raw gap3件解消（宇都宮市・小山市・足利市）",
     "adopted": 0,
-    "held": 26,
+    "held": 23,
     "excluded": 3,
-    "sourceUrlsChecked": 4,
+    "sourceUrlsChecked": 8,
     "validation": {
-      "previousMunicipality": "全国公式棚卸し最終監査011後、既存raw未検証29件のうち神奈川県3件を公式本文/PDFと既存公式確認レコードで確認。横須賀市は結婚新生活支援事業、川崎市は公式FAQの実施なし、相模原市は結婚新生活・移住定住支援事業へ補正し、旧raw slugを期限切れalias/抑止として追加。全国公式棚卸しは未完了。",
+      "previousMunicipality": "全国公式棚卸し最終監査012後、既存raw未検証26件のうち栃木県3件を公式本文/PDFと既存公式確認レコードで確認。宇都宮市は結婚新生活支援事業、小山市は結婚新生活支援事業補助金の終了告知、足利市は結婚新生活支援事業補助金へ補正し、旧raw slugを期限切れalias/抑止として追加。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: nationwide-final-audit-012-raw-gap-resolution.json and raw-gaps-after parsed; raw gaps 29 -> 26, 神奈川県raw gap 0",
+      "json": "pass: nationwide-final-audit-013-raw-gap-resolution.json and raw-gaps-after parsed; raw gaps 26 -> 23, 栃木県raw gap 0",
       "addedSlugUniqueness": "pass: audit-raw-verified-gaps recognized 3 added raw slugs; duplicateRawSlugs remains existing 32",
-      "urlReachability": "pass: official URL/PDF 4/4 HTTP 200 in tasks/discovery/nationwide-final-audit-012-url-status.txt",
+      "urlReachability": "pass: official URL/PDF 8/8 HTTP 200 in tasks/discovery/nationwide-final-audit-013-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on nationwide-final-audit-012 target files",
-      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at existing unrelated src/lib/grant-copy.ts:114 tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-012-coverage.log",
-      "notes": "raw gap解消対象は横須賀市、川崎市、相模原市の3件。神奈川県raw gapは残0。横須賀市は令和8年度結婚新生活支援事業、川崎市は公式FAQで結婚新生活支援事業実施なし、相模原市は結婚新生活・移住定住支援事業へ補正し、通常一覧の重複/誤掲載を抑止した。"
+      "diffCheck": "pass: git diff --check on nationwide-final-audit-013 target files",
+      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at existing unrelated src/lib/grant-copy.ts:114 tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-013-coverage.log",
+      "notes": "raw gap解消対象は宇都宮市、小山市、足利市の3件。栃木県raw gapは残0。宇都宮市は令和8年度結婚新生活支援事業、小山市は公式終了告知に基づく掲載抑止、足利市は令和8年度結婚新生活支援事業補助金へ補正し、通常一覧の重複/誤掲載を抑止した。"
     }
   },
   "next": {
-    "code": "nationwide-final-audit-013-raw-gap-resolution",
-    "municipality": "栃木県raw gap3件の公式ページ単位解消",
-    "shortlist": "最終監査012後の既存raw未検証は26件。上位は栃木県3、群馬県2、秋田県2、福岡県2、福島県2。次回は栃木県raw gap3件から、公式個別URL・対象・金額/上限・条件・期限/受付状況を確認し、採用/期限切れ/除外を制度単位で記録する。",
-    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-012-raw-gaps-after.json、nationwide-final-audit-012-raw-gap-resolution.json、チェックリスト、HEADだけで復旧する。1ターンで3〜5自治体または60〜100制度または45〜55分まで、既存raw gapを公式本文/PDF単位で解消する。国・公的機関と第2巡保留はraw gap解消後に正規化監査へ進む。"
+    "code": "nationwide-final-audit-014-raw-gap-resolution",
+    "municipality": "群馬県raw gap2件の公式ページ単位解消",
+    "shortlist": "最終監査013後の既存raw未検証は23件。上位は群馬県2、秋田県2、福岡県2、福島県2。次回は群馬県raw gap2件から、公式個別URL・対象・金額/上限・条件・期限/受付状況を確認し、採用/期限切れ/除外を制度単位で記録する。2件完了後に余力があれば秋田県2件へ続ける。",
+    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-013-raw-gaps-after.json、nationwide-final-audit-013-raw-gap-resolution.json、チェックリスト、HEADだけで復旧する。1ターンで3〜5自治体または60〜100制度または45〜55分まで、既存raw gapを公式本文/PDF単位で解消する。国・公的機関と第2巡保留はraw gap解消後に正規化監査へ進む。"
   },
   "prefectureMilestone": {
     "prefecture": "全国最終監査",
-    "completedBatches": "final-audit-012",
-    "completedMunicipalitiesAndEntities": 54,
+    "completedBatches": "final-audit-013",
+    "completedMunicipalitiesAndEntities": 57,
     "adopted": 0,
     "recent15": {
-      "batches": "全国最終監査010-012",
+      "batches": "全国最終監査011-013",
       "municipalities": 9,
       "adopted": 0,
       "compactions": 3,
-      "shortlistAdoptionRate": "9/9 raw gaps resolved since final-audit-010; Ibaraki/Kagoshima/Kanagawa all resolved to raw gap 0",
-      "auditRuns": 62,
-      "commits": 10,
-      "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは82から26へ減少し、千葉県・愛知県・埼玉県・長野県・北海道・大阪府・兵庫県・茨城県・鹿児島県・神奈川県は残0。ただし未判定/保留記録、国・公的機関の同粒度棚卸し未確認、coverage監査ブロッカーが残るため全国完了ではない。"
+      "shortlistAdoptionRate": "9/9 raw gaps resolved since final-audit-011; Kagoshima/Kanagawa/Tochigi all resolved to raw gap 0",
+      "auditRuns": 67,
+      "commits": 11,
+      "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは82から23へ減少し、千葉県・愛知県・埼玉県・長野県・北海道・大阪府・兵庫県・茨城県・鹿児島県・神奈川県・栃木県は残0。ただし未判定/保留記録、国・公的機関の同粒度棚卸し未確認、coverage監査ブロッカーが残るため全国完了ではない。"
     }
   },
   "batchRules": {
