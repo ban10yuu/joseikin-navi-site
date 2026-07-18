@@ -11629,3 +11629,13 @@
 - メトリクス: 5自治体、77制度採用、一次候補433件、採用率17.8%。宮崎県001-005累計は25自治体・団体、373制度。宮崎003-005の次15自治体単位では15自治体216制度、監査は005単位で1回集約予定、commitも005単位で1回予定。
 - 到達点: 宮崎県は45421門川町から45441高千穂町まで第1巡到達。全国公式棚卸しは未完了。
 - 次回: 宮崎県公式棚卸し006として、日之影町・五ヶ瀬町から再開する。
+
+### 宮崎県公式棚卸し006（45442日之影町・45443五ヶ瀬町）
+
+- 対象公式トップ: 日之影町 `https://www.town.hinokage.lg.jp/`、五ヶ瀬町 `https://www.town.gokase.miyazaki.jp/` をHTTP 200で確認。旧風ドメイン `www.town-hinokage.jp` と `www.town-gokase.jp` は到達不可のため採用せず、両町とも公式 `sitemap.xml` 200を起点に確認。
+- 公式sitemap/カテゴリBFS候補: 108件（日之影町58、五ヶ瀬町50）。title強一致22件。候補数は150件未満だが、金額・対象条件・期限/受付表現を確認するため `tasks/discovery/miyazaki-official-coverage-006-rescored-shortlist.tsv` と `tasks/discovery/miyazaki-official-coverage-006-auto-selection.tsv` へ本文スニペット付き再スコアを保存。
+- 採用: 28制度（日之影町20、五ヶ瀬町8）。`miyazaki-official-006-001-2026` から `miyazaki-official-006-028-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、制度一覧、税・保険料負担の周知、県主体のUIJ/マッチング事業、過年度コロナ施策、交付金活用実績、効果検証、同一制度の重複導線は採用せず、候補JSON/TSVに残置。
+- 検証: 公式URL 28/28 HTTP 200（`tasks/discovery/miyazaki-official-coverage-006-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（006 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 2自治体、28制度採用、一次候補108件、採用率25.9%。宮崎県001-006累計は県・全市町村27自治体・団体、401制度。宮崎県は第1巡到達。全国公式棚卸しは未完了。
+- 次回: 鹿児島県公式棚卸し001として、鹿児島県・鹿児島市・鹿屋市・枕崎市・阿久根市から再開する。

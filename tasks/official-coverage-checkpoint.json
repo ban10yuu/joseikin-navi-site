@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-18T12:42:00+09:00",
+  "updatedAt": "2026-07-18T12:58:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "miyazaki-official-coverage-005",
-    "municipality": "門川町・諸塚村・椎葉村・美郷町・高千穂町",
-    "adopted": 77,
+    "code": "miyazaki-official-coverage-006",
+    "municipality": "日之影町・五ヶ瀬町",
+    "adopted": 28,
     "held": 0,
-    "excluded": 356,
-    "sourceUrlsChecked": 77,
+    "excluded": 80,
+    "sourceUrlsChecked": 28,
     "validation": {
-      "previousMunicipality": "宮崎県公式棚卸し005として45421門川町、45429諸塚村、45430椎葉村、45431美郷町、45441高千穂町を確認し、77件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and miyazaki-official-coverage-005 discover/build scripts",
+      "previousMunicipality": "宮崎県公式棚卸し006として45442日之影町、45443五ヶ瀬町を確認し、28件を採用。宮崎県内の県・全市町村は第1巡到達。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and miyazaki-official-coverage-006 discover/build scripts",
       "json": "pass: checkpoint, candidates, selections, adopted JSON parsed",
-      "addedSlugUniqueness": "pass: 77 added slugs unique and whole dataset duplicate count 0",
-      "urlReachability": "pass: build non200 empty; 77 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/miyazaki-official-coverage-005-url-status.txt",
+      "addedSlugUniqueness": "pass: 28 added slugs unique and whole dataset duplicate count 0",
+      "urlReachability": "pass: build non200 empty; 28 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/miyazaki-official-coverage-006-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: target files git diff --check completed",
       "auditCoverage": "blocked: npm run audit:coverage stops at existing unrelated src/lib/grant-copy.ts sanitizeGrantCopy tags.map TypeError before coverage aggregation",
-      "notes": "公式トップは門川町・諸塚村・椎葉村・美郷町・高千穂町すべてHTTP 200で確認。sitemap.xmlは諸塚村・高千穂町が200、美郷町は404、門川町はsitemap.xmlが404本文のためカテゴリBFS、椎葉村は公式カテゴリとsitemap.php導線で補完。公式sitemap/カテゴリBFSで433候補を抽出し、shortlistが150件超のため本文スニペット付き再スコアからカテゴリ、負担金周知、過年度/実績/効果検証、外部制度、重複導線を除外。門川町20、諸塚村8、椎葉村10、美郷町20、高千穂町19を採用。"
+      "notes": "公式トップは日之影町 https://www.town.hinokage.lg.jp/、五ヶ瀬町 https://www.town.gokase.miyazaki.jp/ をHTTP 200で確認。sitemap.xmlも両町200で確認。公式sitemap/カテゴリBFSで108候補（日之影町58、五ヶ瀬町50）を抽出し、title強一致22件。本文スニペット付き再スコアからカテゴリ、負担金周知、県主体、過年度コロナ施策、実績/効果検証、重複導線を除外。日之影町20、五ヶ瀬町8を採用。"
     }
   },
   "next": {
-    "code": "miyazaki-official-coverage-006",
-    "municipality": "日之影町・五ヶ瀬町",
-    "shortlist": "宮崎県公式棚卸し005で門川町・諸塚村・椎葉村・美郷町・高千穂町を確認し77件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で45442日之影町から再開する。",
-    "instructions": "次回は宮崎県公式棚卸し006として、45442日之影町、45443五ヶ瀬町の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。宮崎県内の残り2町を確認後、候補未判定を解消して次県へ進む。既存rawの宮崎県完了行やHTTP 200だけでは完了扱いにしない。"
+    "code": "kagoshima-official-coverage-001",
+    "municipality": "鹿児島県・鹿児島市・鹿屋市・枕崎市・阿久根市",
+    "shortlist": "宮崎県公式棚卸し006で日之影町・五ヶ瀬町を確認し28件を採用。宮崎県001-006累計は県・全市町村27自治体・団体、401制度で第1巡到達。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で鹿児島県から再開する。",
+    "instructions": "次回は鹿児島県公式棚卸し001として、46000鹿児島県、46201鹿児島市、46203鹿屋市、46204枕崎市、46206阿久根市の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの鹿児島県完了行やHTTP 200だけでは完了扱いにしない。"
   },
   "prefectureMilestone": {
-    "status": "in-progress",
+    "status": "completed-first-pass",
     "prefecture": "miyazaki",
-    "lastBatch": "miyazaki-official-coverage-005",
-    "notes": "宮崎県公式棚卸し005で45421門川町から45441高千穂町まで到達し77制度を採用。宮崎県001-005累計は25自治体・団体、373制度。全国公式棚卸しは未完了で、次は日之影町・五ヶ瀬町。"
+    "lastBatch": "miyazaki-official-coverage-006",
+    "notes": "宮崎県公式棚卸し001-006で県・全市町村27自治体・団体に第1巡到達し、401制度を採用。全国公式棚卸しは未完了で、次は鹿児島県公式棚卸し001。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
