@@ -11838,3 +11838,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-002-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-002-url-status.txt`、`tasks/discovery/nationwide-final-audit-002-raw-gaps-after.json` を作成。公式/検索URL 5/5 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100` はpassし、既存raw未検証slugは82件から77件へ減少。重複raw slug 32件は既存値のまま。
 - 次回: raw gap残77件。上位は愛知県8、埼玉県7、長野県7、北海道7、大阪府5、千葉県4。千葉県残4件（印西市・袖ケ浦市・柏市・白井市）または愛知県の結婚新生活支援候補から、3〜5自治体単位で公式本文/PDF確認を継続する。
+
+### 全国公式棚卸し最終監査003（千葉県raw gap残4件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-002-raw-gaps-after.json` の千葉県残4件、印西市 `inzai-newlywed-rent`、袖ケ浦市 `sodegaura-newlywed-rent`、柏市 `kashiwa-newlywed-rent`、白井市 `shiroi-newlywed-rent` を確認。
+- 公式確認: 印西市は公式「助成・手当て・支援など」カテゴリで、現行申請可能な結婚新生活支援補助金/新婚家賃補助の個別ページがないことを確認。袖ケ浦市は公式「地域少子化対策重点推進事業」で令和8年度の「袖ケ浦市結婚支援事業」が婚活イベントであり、住宅費・家賃・引越費補助ではないことを確認。柏市は公式「結婚」手続き案内で、現行の結婚新生活支援補助金ページがないことを確認。白井市は公式「結婚新生活支援補助金制度について」で対象、最大60万円/30万円、住宅費用・引越費用・住宅リフォーム費用、申請期間、年齢・所得・居住・税等の条件を確認。
+- 解消方法: 白井市は既存の正規公式確認slugが公開用に存在するため、旧raw slugを期限切れ統合aliasとして追加し、公開一覧の重複を抑止。印西市・袖ケ浦市・柏市は公式確認不可の期限切れ抑止レコードとして追加。
+- 成果物: `tasks/discovery/nationwide-final-audit-003-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-003-url-status.txt`、`tasks/discovery/nationwide-final-audit-003-raw-gaps-after.json` を作成。公式/カテゴリURL 4/4 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100` はpassし、既存raw未検証slugは77件から73件へ減少。千葉県raw gapは0件。
+- 次回: raw gap残73件。上位は愛知県8、埼玉県7、長野県7、北海道7、大阪府5、兵庫県4。愛知県の結婚新生活支援候補から、3〜5自治体単位で公式本文/PDF確認を継続する。

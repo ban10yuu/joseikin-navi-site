@@ -1,0 +1,49 @@
+{
+  "audit": "nationwide-final-audit-003-raw-gap-resolution",
+  "createdAt": "2026-07-19T03:08:00+09:00",
+  "scope": "千葉県 raw gap 残4件（印西市・袖ケ浦市・柏市・白井市）",
+  "strategy": "千葉県残raw gapを公式ページ単位で再確認。白井市は現行制度が正規slugに存在するため期限切れ統合aliasで公開重複を防止。印西市・袖ケ浦市・柏市は現行の住宅費・家賃・引越費用補助として公式確認できないため期限切れ抑止として解消。",
+  "resolvedCount": 4,
+  "entries": [
+    {
+      "slug": "inzai-newlywed-rent",
+      "municipality": "印西市",
+      "prefecture": "千葉県",
+      "status": "resolved-as-expired-suppression",
+      "canonicalStatus": "current official application page not found",
+      "title": "印西市 結婚新生活支援補助金（公式確認不可）",
+      "officialUrl": "https://www.city.inzai.lg.jp/category/11-9-3-0-0.html",
+      "evidence": "2026-07-19 official category 助成・手当て・支援など confirmed no current application-ready marriage new life / newlywed rent subsidy page; category lists infertility and childbirth-related supports instead."
+    },
+    {
+      "slug": "sodegaura-newlywed-rent",
+      "municipality": "袖ケ浦市",
+      "prefecture": "千葉県",
+      "status": "resolved-as-expired-suppression",
+      "canonicalStatus": "current official housing-cost grant page not found",
+      "title": "袖ケ浦市 結婚新生活支援補助金（公式確認不可）",
+      "officialUrl": "https://www.city.sodegaura.lg.jp/soshiki/local-community/tiikisyoushikataisaku.html",
+      "evidence": "2026-07-19 official page confirmed FY2026 袖ケ浦市結婚支援事業 as matchmaking event under regional declining-birthrate grant, not housing/rent/move cost subsidy."
+    },
+    {
+      "slug": "kashiwa-newlywed-rent",
+      "municipality": "柏市",
+      "prefecture": "千葉県",
+      "status": "resolved-as-expired-suppression",
+      "canonicalStatus": "current official application page not found",
+      "title": "柏市 結婚新生活支援補助金（公式確認不可）",
+      "officialUrl": "https://www.city.kashiwa.lg.jp/toplink/marriage.html",
+      "evidence": "2026-07-19 official marriage page confirmed procedures for marriage notification, address/name changes and procedure navigation, with no current subsidy page for housing/rent/move costs."
+    },
+    {
+      "slug": "shiroi-newlywed-rent",
+      "municipality": "白井市",
+      "prefecture": "千葉県",
+      "status": "resolved-as-hidden-alias",
+      "canonicalStatus": "current official scheme exists under canonical verified slug",
+      "title": "白井市 結婚新生活支援補助金",
+      "officialUrl": "https://www.city.shiroi.chiba.jp/soshiki/seisaku/s03/kis004/kis019/20241029/15356.html",
+      "evidence": "2026-07-19 official page confirmed eligible newlywed households, max 60/30万円, housing/move/remodel costs, 2026-04-01 to 2027-03-31 application period, age/income/residence/tax/no-duplicate requirements."
+    }
+  ]
+}
