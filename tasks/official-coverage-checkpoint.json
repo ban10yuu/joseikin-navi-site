@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-18T13:42:00+09:00",
+  "updatedAt": "2026-07-18T13:17:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kagoshima-official-coverage-001",
-    "municipality": "鹿児島県・鹿児島市・鹿屋市・枕崎市・阿久根市",
-    "adopted": 73,
+    "code": "kagoshima-official-coverage-002",
+    "municipality": "出水市・指宿市・西之表市・垂水市・薩摩川内市",
+    "adopted": 67,
     "held": 0,
-    "excluded": 676,
-    "sourceUrlsChecked": 73,
+    "excluded": 1095,
+    "sourceUrlsChecked": 67,
     "validation": {
-      "previousMunicipality": "鹿児島県公式棚卸し001として46000鹿児島県、46201鹿児島市、46203鹿屋市、46204枕崎市、46206阿久根市を確認し、73件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and kagoshima-official-coverage-001 discover/build scripts",
+      "previousMunicipality": "鹿児島県公式棚卸し002として46208出水市、46210指宿市、46213西之表市、46214垂水市、46215薩摩川内市を確認し、67件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and kagoshima-official-coverage-002 discover/build scripts",
       "json": "pass: checkpoint, candidates, selections, adopted JSON parsed",
-      "addedSlugUniqueness": "pass: 73 added slugs unique and whole dataset duplicate count 0",
-      "urlReachability": "pass: build non200 empty; 73 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/kagoshima-official-coverage-001-url-status.txt",
+      "addedSlugUniqueness": "pass: 67 added slugs unique and whole dataset duplicate count 0",
+      "urlReachability": "pass: build non200 empty; 67 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/kagoshima-official-coverage-002-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: target files git diff --check completed",
       "auditCoverage": "blocked: npm run audit:coverage stops at existing unrelated src/lib/grant-copy.ts sanitizeGrantCopy tags.map TypeError before coverage aggregation",
-      "notes": "公式トップは鹿児島県・鹿児島市・鹿屋市・枕崎市・阿久根市すべてHTTP 200で確認。sitemap.xmlは枕崎市のみ404のため公式カテゴリBFSを併用し、他4団体はsitemap.xml 200を起点に確認。公式sitemap/カテゴリBFSで749候補（鹿児島県128、鹿児島市240、鹿屋市154、枕崎市147、阿久根市80）を抽出し、title強一致98件。shortlistが150件超のため本文スニペット付き再スコアからカテゴリ、リンク集、申請書単体、制度改正告知、募集結果、実績/効果検証、負担周知を除外。鹿児島県6、鹿児島市17、鹿屋市18、枕崎市12、阿久根市20を採用。"
+      "notes": "公式トップは出水市・指宿市・西之表市・垂水市・薩摩川内市すべてHTTP 200で確認。sitemap.xmlは指宿市のみ404のため公式カテゴリBFSを併用し、他4市はsitemap.xml 200を起点に確認。公式sitemap/カテゴリBFSで1,162候補（出水市11、指宿市618、西之表市194、垂水市251、薩摩川内市88）を抽出し、title強一致100件。shortlistが150件超のため本文スニペット付き再スコアからカテゴリ、県事業告知、申請書単体、制度改正告知、募集結果、実績/効果検証、負担周知、重複導線を除外。出水市2、指宿市12、西之表市12、垂水市20、薩摩川内市21を採用。"
     }
   },
   "next": {
-    "code": "kagoshima-official-coverage-002",
-    "municipality": "出水市・指宿市・西之表市・垂水市・薩摩川内市",
-    "shortlist": "鹿児島県公式棚卸し001で鹿児島県・鹿児島市・鹿屋市・枕崎市・阿久根市を確認し73件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で46208出水市から再開する。",
-    "instructions": "次回は鹿児島県公式棚卸し002として、46208出水市、46210指宿市、46213西之表市、46214垂水市、46215薩摩川内市の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの鹿児島県完了行やHTTP 200だけでは完了扱いにしない。"
+    "code": "kagoshima-official-coverage-003",
+    "municipality": "日置市・曽於市・霧島市・いちき串木野市・南さつま市",
+    "shortlist": "鹿児島県公式棚卸し002で出水市・指宿市・西之表市・垂水市・薩摩川内市を確認し67件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で46216日置市から再開する。",
+    "instructions": "次回は鹿児島県公式棚卸し003として、46216日置市、46217曽於市、46218霧島市、46219いちき串木野市、46220南さつま市の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの鹿児島県完了行やHTTP 200だけでは完了扱いにしない。"
   },
   "prefectureMilestone": {
     "status": "in-progress",
     "prefecture": "kagoshima",
-    "lastBatch": "kagoshima-official-coverage-001",
-    "notes": "鹿児島県公式棚卸し001で46000鹿児島県から46206阿久根市まで5自治体・団体に第1巡到達し、73制度を採用。全国公式棚卸しは未完了で、次は出水市・指宿市・西之表市・垂水市・薩摩川内市。"
+    "lastBatch": "kagoshima-official-coverage-002",
+    "notes": "鹿児島県公式棚卸し001-002で県・市10自治体・団体に第1巡到達し、140制度を採用。全国公式棚卸しは未完了で、次は日置市・曽於市・霧島市・いちき串木野市・南さつま市。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

@@ -11649,3 +11649,13 @@
 - 検証: 公式URL 73/73 HTTP 200（`tasks/discovery/kagoshima-official-coverage-001-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（001 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - メトリクス: 5自治体・団体、73制度採用、一次候補749件、採用率9.7%。鹿児島県001累計は5自治体・団体、73制度。全国公式棚卸しは未完了。
 - 次回: 鹿児島県公式棚卸し002として、出水市・指宿市・西之表市・垂水市・薩摩川内市から再開する。
+
+### 鹿児島県公式棚卸し002（46208出水市・46210指宿市・46213西之表市・46214垂水市・46215薩摩川内市）
+
+- 対象公式トップ: 出水市 `https://www.city.kagoshima-izumi.lg.jp/`、指宿市 `https://www.city.ibusuki.lg.jp/`、西之表市 `https://www.city.nishinoomote.lg.jp/`、垂水市 `https://www.city.tarumizu.lg.jp/`、薩摩川内市 `https://www.city.satsumasendai.lg.jp/` をHTTP 200で確認。sitemap.xmlは出水市・西之表市・垂水市・薩摩川内市が200、指宿市が404のため公式カテゴリBFSで補完。
+- 公式sitemap/カテゴリBFS候補: 1,162件（出水市11、指宿市618、西之表市194、垂水市251、薩摩川内市88）。title強一致100件。shortlistが150件超のため `tasks/discovery/kagoshima-official-coverage-002-rescored-shortlist.tsv` と `tasks/discovery/kagoshima-official-coverage-002-auto-selection.tsv` へ本文スニペット付き再スコアを保存。
+- 採用: 67制度（出水市2、指宿市12、西之表市12、垂水市20、薩摩川内市21）。`kagoshima-official-002-001-2026` から `kagoshima-official-002-067-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、トップ、共通ナビ、申請書単体、県事業告知、制度改正告知、募集終了・実績/効果検証、税・保険料負担の周知、同一制度の重複導線は採用せず、候補JSON/TSVに残置。指宿市はカテゴリ候補が多いため本文スニペット再スコア後に個別制度ページを優先採用。
+- 検証: 公式URL 67/67 HTTP 200（`tasks/discovery/kagoshima-official-coverage-002-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（002 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体、67制度採用、一次候補1,162件、採用率5.8%。鹿児島県001-002累計は10自治体・団体、140制度。全国公式棚卸しは未完了。
+- 次回: 鹿児島県公式棚卸し003として、日置市・曽於市・霧島市・いちき串木野市・南さつま市から再開する。
