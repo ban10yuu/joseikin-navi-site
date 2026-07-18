@@ -1,0 +1,1214 @@
+{
+  "rawFiles": 108,
+  "verifiedFiles": 20,
+  "rawUnique": 4375,
+  "verifiedUnique": 27813,
+  "gaps": 32,
+  "duplicateRawSlugs": 32,
+  "byPrefecture": {
+    "鹿児島県": 3,
+    "神奈川県": 3,
+    "栃木県": 3,
+    "群馬県": 2,
+    "秋田県": 2,
+    "福岡県": 2,
+    "福島県": 2,
+    "愛媛県": 1,
+    "岡山県": 1,
+    "岩手県": 1,
+    "岐阜県": 1,
+    "宮城県": 1,
+    "広島県": 1,
+    "佐賀県": 1,
+    "三重県": 1,
+    "山口県": 1,
+    "青森県": 1,
+    "大分県": 1,
+    "長崎県": 1,
+    "島根県": 1,
+    "徳島県": 1,
+    "福井県": 1
+  },
+  "byCategory": {
+    "housing": 32
+  },
+  "byFile": {
+    "src/data/grants/city-batch46.ts": 3,
+    "src/data/grants/city-batch47.ts": 3,
+    "src/data/grants/city-batch63.ts": 3,
+    "src/data/grants/city-batch52.ts": 2,
+    "src/data/grants/city-batch53.ts": 2,
+    "src/data/grants/city-batch55.ts": 2,
+    "src/data/grants/city-batch59.ts": 2,
+    "src/data/grants/city-batch64.ts": 2,
+    "src/data/grants/city-batch1.ts": 1,
+    "src/data/grants/city-batch16.ts": 1,
+    "src/data/grants/city-batch35.ts": 1,
+    "src/data/grants/city-batch36.ts": 1,
+    "src/data/grants/city-batch39.ts": 1,
+    "src/data/grants/city-batch44.ts": 1,
+    "src/data/grants/city-batch45.ts": 1,
+    "src/data/grants/city-batch48.ts": 1,
+    "src/data/grants/city-batch50.ts": 1,
+    "src/data/grants/city-batch54.ts": 1,
+    "src/data/grants/city-batch56.ts": 1,
+    "src/data/grants/city-batch60.ts": 1,
+    "src/data/grants/city-batch62.ts": 1
+  },
+  "sampleGaps": [
+    {
+      "slug": "matsuyama-newlywed-rent",
+      "title": "松山市 結婚新生活支援補助金",
+      "organization": "松山市",
+      "prefecture": "愛媛県",
+      "category": "housing",
+      "maxAmount": "最大60万円",
+      "officialUrl": "https://www.city.matsuyama.ehime.jp/",
+      "file": "src/data/grants/city-batch46.ts"
+    },
+    {
+      "slug": "kurashiki-newlywed-rent",
+      "title": "倉敷市 新婚生活支援補助金",
+      "organization": "倉敷市",
+      "prefecture": "岡山県",
+      "category": "housing",
+      "maxAmount": "最大30万円",
+      "officialUrl": "https://www.city.kurashiki.okayama.jp/",
+      "file": "src/data/grants/city-batch52.ts"
+    },
+    {
+      "slug": "ichinoseki-newlywed-rent",
+      "title": "一関市 結婚新生活支援補助金",
+      "organization": "一関市",
+      "prefecture": "岩手県",
+      "category": "housing",
+      "maxAmount": "最大60万円",
+      "officialUrl": "https://www.city.ichinoseki.iwate.jp/",
+      "file": "src/data/grants/city-batch54.ts"
+    },
+    {
+      "slug": "gifu-city-newlywed-rent",
+      "title": "岐阜市 新婚世帯家賃補助制度",
+      "organization": "岐阜市",
+      "prefecture": "岐阜県",
+      "category": "housing",
+      "maxAmount": "月額最大3万円（最長2年間）",
+      "officialUrl": "https://www.city.gifu.lg.jp/",
+      "file": "src/data/grants/city-batch59.ts"
+    },
+    {
+      "slug": "osaki-newlywed-rent",
+      "title": "大崎市 新婚世帯家賃補助事業",
+      "organization": "大崎市",
+      "prefecture": "宮城県",
+      "category": "housing",
+      "maxAmount": "月額最大2万円（最長24か月）",
+      "officialUrl": "https://www.city.osaki.miyagi.jp/",
+      "file": "src/data/grants/city-batch63.ts"
+    },
+    {
+      "slug": "isesaki-newlywed-rent",
+      "title": "伊勢崎市 新婚世帯家賃補助制度",
+      "organization": "伊勢崎市",
+      "prefecture": "群馬県",
+      "category": "housing",
+      "maxAmount": "最大月額2万円（最長2年間）",
+      "officialUrl": "https://www.city.isesaki.lg.jp/",
+      "file": "src/data/grants/city-batch56.ts"
+    },
+    {
+      "slug": "kiryu-newlywed-rent",
+      "title": "桐生市 結婚新生活支援補助金",
+      "organization": "桐生市",
+      "prefecture": "群馬県",
+      "category": "housing",
+      "maxAmount": "最大30万円",
+      "officialUrl": "https://www.city.kiryu.lg.jp/",
+      "file": "src/data/grants/city-batch64.ts"
+    },
+    {
+      "slug": "kure-newlywed-rent",
+      "title": "呉市 新婚世帯住居費補助金",
+      "organization": "呉市",
+      "prefecture": "広島県",
+      "category": "housing",
+      "maxAmount": "最大30万円",
+      "officialUrl": "https://www.city.kure.lg.jp/",
+      "file": "src/data/grants/city-batch52.ts"
+    },
+    {
+      "slug": "saga-city-newlywed-rent",
+      "title": "佐賀市 新婚世帯家賃補助金",
+      "organization": "佐賀市",
+      "prefecture": "佐賀県",
+      "category": "housing",
+      "maxAmount": "月額最大2万円（最長2年間・最大48万円）",
+      "officialUrl": "https://www.city.saga.lg.jp/",
+      "file": "src/data/grants/city-batch47.ts"
+    },
+    {
+      "slug": "yokkaichi-newlywed-rent",
+      "title": "四日市市 新婚世帯家賃補助制度",
+      "organization": "四日市市",
+      "prefecture": "三重県",
+      "category": "housing",
+      "maxAmount": "月額最大3万円（最長2年間）",
+      "officialUrl": "https://www.city.yokkaichi.mie.jp/",
+      "file": "src/data/grants/city-batch59.ts"
+    },
+    {
+      "slug": "shunan-newlywed-rent",
+      "title": "周南市 新婚世帯家賃補助",
+      "organization": "周南市",
+      "prefecture": "山口県",
+      "category": "housing",
+      "maxAmount": "最大月額3万円（最長3年間）",
+      "officialUrl": "https://www.city.shunan.lg.jp/",
+      "file": "src/data/grants/city-batch60.ts"
+    },
+    {
+      "slug": "satsumasendai-housing-newlife",
+      "title": "薩摩川内市 新婚世帯家賃補助金",
+      "organization": "薩摩川内市",
+      "prefecture": "鹿児島県",
+      "category": "housing",
+      "maxAmount": "最大30万円（年間）",
+      "officialUrl": "https://www.city.satsumasendai.lg.jp/",
+      "file": "src/data/grants/city-batch35.ts"
+    },
+    {
+      "slug": "kanoya-housing-new-build",
+      "title": "鹿屋市 住宅取得支援補助金",
+      "organization": "鹿屋市",
+      "prefecture": "鹿児島県",
+      "category": "housing",
+      "maxAmount": "最大50万円",
+      "officialUrl": "https://www.e-kanoya.net/",
+      "file": "src/data/grants/city-batch16.ts"
+    },
+    {
+      "slug": "kagoshima-city-newlywed-rent",
+      "title": "鹿児島市 新婚世帯新生活支援補助金",
+      "organization": "鹿児島市",
+      "prefecture": "鹿児島県",
+      "category": "housing",
+      "maxAmount": "最大30万円",
+      "officialUrl": "https://www.city.kagoshima.lg.jp/",
+      "file": "src/data/grants/city-batch47.ts"
+    },
+    {
+      "slug": "yokote-newlywed-rent",
+      "title": "横手市 新婚世帯家賃補助金",
+      "organization": "横手市",
+      "prefecture": "秋田県",
+      "category": "housing",
+      "maxAmount": "月額最大2万円（最長3年間）",
+      "officialUrl": "https://www.city.yokote.lg.jp/",
+      "file": "src/data/grants/city-batch55.ts"
+    },
+    {
+      "slug": "daisen-newlywed-rent",
+      "title": "大仙市 新婚世帯住居費補助事業",
+      "organization": "大仙市",
+      "prefecture": "秋田県",
+      "category": "housing",
+      "maxAmount": "最大30万円",
+      "officialUrl": "https://www.city.daisen.lg.jp/",
+      "file": "src/data/grants/city-batch63.ts"
+    },
+    {
+      "slug": "yokosuka-newlywed-rent",
+      "title": "横須賀市 結婚新生活支援事業",
+      "organization": "横須賀市",
+      "prefecture": "神奈川県",
+      "category": "housing",
+      "maxAmount": "最大60万円",
+      "officialUrl": "https://www.city.yokosuka.kanagawa.jp/",
+      "file": "src/data/grants/city-batch50.ts"
+    },
+    {
+      "slug": "kawasaki-newlywed-rent",
+      "title": "川崎市 結婚新生活支援事業補助金",
+      "organization": "川崎市",
+      "prefecture": "神奈川県",
+      "category": "housing",
+      "maxAmount": "最大60万円",
+      "officialUrl": "https://www.city.kawasaki.jp/",
+      "file": "src/data/grants/city-batch36.ts"
+    },
+    {
+      "slug": "sagamihara-newlywed-housing",
+      "title": "相模原市 結婚新生活支援事業",
+      "organization": "相模原市",
+      "prefecture": "神奈川県",
+      "category": "housing",
+      "maxAmount": "最大60万円",
+      "officialUrl": "https://www.city.sagamihara.kanagawa.jp/",
+      "file": "src/data/grants/city-batch1.ts"
+    },
+    {
+      "slug": "hirosaki-newlywed-rent",
+      "title": "弘前市 新婚世帯家賃補助制度",
+      "organization": "弘前市",
+      "prefecture": "青森県",
+      "category": "housing",
+      "maxAmount": "月額最大2万円（最長2年）",
+      "officialUrl": "https://www.city.hirosaki.aomori.jp/",
+      "file": "src/data/grants/city-batch62.ts"
+    },
+    {
+      "slug": "oita-city-newlywed-rent",
+      "title": "大分市 新婚世帯住居費補助金",
+      "organization": "大分市",
+      "prefecture": "大分県",
+      "category": "housing",
+      "maxAmount": "最大30万円",
+      "officialUrl": "https://www.city.oita.oita.jp/",
+      "file": "src/data/grants/city-batch47.ts"
+    },
+    {
+      "slug": "sasebo-newlywed-rent",
+      "title": "佐世保市 結婚新生活支援事業",
+      "organization": "佐世保市",
+      "prefecture": "長崎県",
+      "category": "housing",
+      "maxAmount": "最大60万円",
+      "officialUrl": "https://www.city.sasebo.lg.jp/",
+      "file": "src/data/grants/city-batch53.ts"
+    },
+    {
+      "slug": "matsue-newlywed-rent",
+      "title": "松江市 結婚新生活支援補助金",
+      "organization": "松江市",
+      "prefecture": "島根県",
+      "category": "housing",
+      "maxAmount": "最大60万円",
+      "officialUrl": "https://www.city.matsue.lg.jp/",
+      "file": "src/data/grants/city-batch46.ts"
+    },
+    {
+      "slug": "tokushima-city-newlywed-rent",
+      "title": "徳島市 結婚新生活支援補助金",
+      "organization": "徳島市",
+      "prefecture": "徳島県",
+      "category": "housing",
+      "maxAmount": "最大60万円",
+      "officialUrl": "https://www.city.tokushima.tokushima.jp/",
+      "file": "src/data/grants/city-batch46.ts"
+    },
+    {
+      "slug": "utsunomiya-newlywed-rent",
+      "title": "宇都宮市 結婚新生活支援補助金",
+      "organization": "宇都宮市",
+      "prefecture": "栃木県",
+      "category": "housing",
+      "maxAmount": "最大60万円",
+      "officialUrl": "https://www.city.utsunomiya.tochigi.jp/",
+      "file": "src/data/grants/city-batch44.ts"
+    },
+    {
+      "slug": "oyama-newlywed-rent",
+      "title": "小山市 新婚世帯家賃補助金",
+      "organization": "小山市",
+      "prefecture": "栃木県",
+      "category": "housing",
+      "maxAmount": "月額最大2万円（最長3年間）",
+      "officialUrl": "https://www.city.oyama.tochigi.jp/",
+      "file": "src/data/grants/city-batch55.ts"
+    },
+    {
+      "slug": "ashikaga-newlywed-rent",
+      "title": "足利市 結婚新生活支援補助金",
+      "organization": "足利市",
+      "prefecture": "栃木県",
+      "category": "housing",
+      "maxAmount": "最大30万円",
+      "officialUrl": "https://www.city.ashikaga.tochigi.jp/",
+      "file": "src/data/grants/city-batch64.ts"
+    },
+    {
+      "slug": "fukui-city-newlywed-rent",
+      "title": "福井市 新婚世帯家賃補助金",
+      "organization": "福井市",
+      "prefecture": "福井県",
+      "category": "housing",
+      "maxAmount": "最大30万円（年間）",
+      "officialUrl": "https://www.city.fukui.lg.jp/",
+      "file": "src/data/grants/city-batch45.ts"
+    },
+    {
+      "slug": "kurume-newlywed-rent",
+      "title": "久留米市 新婚世帯家賃補助事業",
+      "organization": "久留米市",
+      "prefecture": "福岡県",
+      "category": "housing",
+      "maxAmount": "月額最大2万円（最長2年間）",
+      "officialUrl": "https://www.city.kurume.fukuoka.jp/",
+      "file": "src/data/grants/city-batch53.ts"
+    },
+    {
+      "slug": "fukuoka-city-newlywed-rent",
+      "title": "福岡市 新婚世帯住居費支援事業",
+      "organization": "福岡市",
+      "prefecture": "福岡県",
+      "category": "housing",
+      "maxAmount": "最大30万円",
+      "officialUrl": "https://www.city.fukuoka.lg.jp/",
+      "file": "src/data/grants/city-batch39.ts"
+    },
+    {
+      "slug": "iwaki-newlywed-rent",
+      "title": "いわき市 結婚新生活支援事業",
+      "organization": "いわき市",
+      "prefecture": "福島県",
+      "category": "housing",
+      "maxAmount": "最大60万円",
+      "officialUrl": "https://www.city.iwaki.lg.jp/",
+      "file": "src/data/grants/city-batch48.ts"
+    },
+    {
+      "slug": "aizu-newlywed-rent",
+      "title": "会津若松市 新婚世帯家賃補助事業",
+      "organization": "会津若松市",
+      "prefecture": "福島県",
+      "category": "housing",
+      "maxAmount": "月額最大2万円（最長24か月）",
+      "officialUrl": "https://www.city.aizuwakamatsu.fukushima.jp/",
+      "file": "src/data/grants/city-batch63.ts"
+    }
+  ],
+  "sampleDuplicateRawSlugs": [
+    {
+      "slug": "ebina-scholarship",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "ebina-scholarship",
+          "title": "海老名市 奨学金制度",
+          "organization": "海老名市",
+          "prefecture": "神奈川県",
+          "category": "education",
+          "maxAmount": "月額最大3万円",
+          "officialUrl": "https://www.city.ebina.kanagawa.jp/",
+          "file": "src/data/grants/city-batch31.ts"
+        },
+        {
+          "slug": "ebina-scholarship",
+          "title": "海老名市 奨学金制度",
+          "organization": "海老名市",
+          "prefecture": "神奈川県",
+          "category": "education",
+          "maxAmount": "最大月額4万円",
+          "officialUrl": "https://www.city.ebina.kanagawa.jp/",
+          "file": "src/data/grants/city-batch71.ts"
+        }
+      ]
+    },
+    {
+      "slug": "hachioji-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "hachioji-startup-support",
+          "title": "八王子市 創業支援補助金",
+          "organization": "八王子市",
+          "prefecture": "東京都",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch100.ts"
+        },
+        {
+          "slug": "hachioji-startup-support",
+          "title": "八王子市 創業支援補助金",
+          "organization": "八王子市",
+          "prefecture": "東京都",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.hachioji.tokyo.jp/",
+          "file": "src/data/grants/city-batch13.ts"
+        }
+      ]
+    },
+    {
+      "slug": "hakodate-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "hakodate-startup-support",
+          "title": "函館市 創業支援補助金",
+          "organization": "函館市",
+          "prefecture": "北海道",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city.hakodate.hokkaido.jp/",
+          "file": "src/data/grants/city-batch12.ts"
+        },
+        {
+          "slug": "hakodate-startup-support",
+          "title": "函館市 創業支援補助金",
+          "organization": "函館市",
+          "prefecture": "北海道",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch95.ts"
+        }
+      ]
+    },
+    {
+      "slug": "hakusan-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "hakusan-startup-support",
+          "title": "白山市 創業支援補助金",
+          "organization": "白山市",
+          "prefecture": "石川県",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city.hakusan.lg.jp/",
+          "file": "src/data/grants/city-batch32.ts"
+        },
+        {
+          "slug": "hakusan-startup-support",
+          "title": "白山市 創業支援補助金",
+          "organization": "白山市",
+          "prefecture": "石川県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch98.ts"
+        }
+      ]
+    },
+    {
+      "slug": "hanamaki-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "hanamaki-startup-support",
+          "title": "花巻市 創業支援補助金",
+          "organization": "花巻市",
+          "prefecture": "岩手県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.hanamaki.iwate.jp/",
+          "file": "src/data/grants/city-batch26.ts"
+        },
+        {
+          "slug": "hanamaki-startup-support",
+          "title": "花巻市 創業支援補助金",
+          "organization": "花巻市",
+          "prefecture": "岩手県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch96.ts"
+        }
+      ]
+    },
+    {
+      "slug": "iizuka-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "iizuka-startup-support",
+          "title": "飯塚市 創業支援補助金",
+          "organization": "飯塚市",
+          "prefecture": "福岡県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.iizuka.lg.jp/",
+          "file": "src/data/grants/city-batch25.ts"
+        },
+        {
+          "slug": "iizuka-startup-support",
+          "title": "飯塚市 創業支援補助金",
+          "organization": "飯塚市",
+          "prefecture": "福岡県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch89.ts"
+        }
+      ]
+    },
+    {
+      "slug": "imabari-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "imabari-startup-support",
+          "title": "今治市 創業支援補助金",
+          "organization": "今治市",
+          "prefecture": "愛媛県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.imabari.ehime.jp/",
+          "file": "src/data/grants/city-batch24.ts"
+        },
+        {
+          "slug": "imabari-startup-support",
+          "title": "今治市 創業支援補助金",
+          "organization": "今治市",
+          "prefecture": "愛媛県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch88.ts"
+        }
+      ]
+    },
+    {
+      "slug": "izumo-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "izumo-startup-support",
+          "title": "出雲市 創業チャレンジ補助金",
+          "organization": "出雲市",
+          "prefecture": "島根県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.izumo.shimane.jp/",
+          "file": "src/data/grants/city-batch34.ts"
+        },
+        {
+          "slug": "izumo-startup-support",
+          "title": "出雲市 創業支援補助金",
+          "organization": "出雲市",
+          "prefecture": "島根県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch83.ts"
+        }
+      ]
+    },
+    {
+      "slug": "karatsu-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "karatsu-startup-support",
+          "title": "唐津市 創業支援補助金",
+          "organization": "唐津市",
+          "prefecture": "佐賀県",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city.karatsu.lg.jp/",
+          "file": "src/data/grants/city-batch35.ts"
+        },
+        {
+          "slug": "karatsu-startup-support",
+          "title": "唐津市 創業支援補助金",
+          "organization": "唐津市",
+          "prefecture": "佐賀県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch90.ts"
+        }
+      ]
+    },
+    {
+      "slug": "kirishima-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "kirishima-startup-support",
+          "title": "霧島市 創業支援補助金",
+          "organization": "霧島市",
+          "prefecture": "鹿児島県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city-kirishima.jp/",
+          "file": "src/data/grants/city-batch25.ts"
+        },
+        {
+          "slug": "kirishima-startup-support",
+          "title": "霧島市 創業支援補助金",
+          "organization": "霧島市",
+          "prefecture": "鹿児島県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch92.ts"
+        }
+      ]
+    },
+    {
+      "slug": "kitakyushu-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "kitakyushu-startup-support",
+          "title": "北九州市 スタートアップ創業支援補助金",
+          "organization": "北九州市",
+          "prefecture": "福岡県",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city.kitakyushu.lg.jp/",
+          "file": "src/data/grants/city-batch3.ts"
+        },
+        {
+          "slug": "kitakyushu-startup-support",
+          "title": "北九州市 創業支援補助金",
+          "organization": "北九州市",
+          "prefecture": "福岡県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch89.ts"
+        }
+      ]
+    },
+    {
+      "slug": "kofu-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "kofu-startup-support",
+          "title": "甲府市 創業支援補助金",
+          "organization": "甲府市",
+          "prefecture": "山梨県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch74.ts"
+        },
+        {
+          "slug": "kofu-startup-support",
+          "title": "甲府市 創業支援補助金",
+          "organization": "甲府市",
+          "prefecture": "山梨県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.kofu.yamanashi.jp/",
+          "file": "src/data/grants/city-batch8.ts"
+        }
+      ]
+    },
+    {
+      "slug": "kurashiki-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "kurashiki-startup-support",
+          "title": "倉敷市 創業支援補助金",
+          "organization": "倉敷市",
+          "prefecture": "岡山県",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city.kurashiki.okayama.jp/",
+          "file": "src/data/grants/city-batch15.ts"
+        },
+        {
+          "slug": "kurashiki-startup-support",
+          "title": "倉敷市 創業支援補助金",
+          "organization": "倉敷市",
+          "prefecture": "岡山県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch84.ts"
+        }
+      ]
+    },
+    {
+      "slug": "kure-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "kure-startup-support",
+          "title": "呉市 創業チャレンジ補助金",
+          "organization": "呉市",
+          "prefecture": "広島県",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city.kure.lg.jp/",
+          "file": "src/data/grants/city-batch15.ts"
+        },
+        {
+          "slug": "kure-startup-support",
+          "title": "呉市 創業支援補助金",
+          "organization": "呉市",
+          "prefecture": "広島県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch85.ts"
+        }
+      ]
+    },
+    {
+      "slug": "kurume-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "kurume-startup-support",
+          "title": "久留米市 創業支援補助金",
+          "organization": "久留米市",
+          "prefecture": "福岡県",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city.kurume.fukuoka.jp/",
+          "file": "src/data/grants/city-batch16.ts"
+        },
+        {
+          "slug": "kurume-startup-support",
+          "title": "久留米市 創業支援補助金",
+          "organization": "久留米市",
+          "prefecture": "福岡県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch89.ts"
+        }
+      ]
+    },
+    {
+      "slug": "matsue-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "matsue-startup-support",
+          "title": "松江市 創業支援補助金",
+          "organization": "松江市",
+          "prefecture": "島根県",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city.matsue.shimane.jp/",
+          "file": "src/data/grants/city-batch10.ts"
+        },
+        {
+          "slug": "matsue-startup-support",
+          "title": "松江市 創業支援補助金",
+          "organization": "松江市",
+          "prefecture": "島根県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch83.ts"
+        }
+      ]
+    },
+    {
+      "slug": "miyakonojo-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "miyakonojo-startup-support",
+          "title": "都城市 創業支援補助金",
+          "organization": "都城市",
+          "prefecture": "宮崎県",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city.miyakonojo.lg.jp/",
+          "file": "src/data/grants/city-batch25.ts"
+        },
+        {
+          "slug": "miyakonojo-startup-support",
+          "title": "都城市 創業支援補助金",
+          "organization": "都城市",
+          "prefecture": "宮崎県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch93.ts"
+        }
+      ]
+    },
+    {
+      "slug": "naha-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "naha-startup-support",
+          "title": "那覇市 創業支援補助金",
+          "organization": "那覇市",
+          "prefecture": "沖縄県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.naha.okinawa.jp/",
+          "file": "src/data/grants/city-batch11.ts"
+        },
+        {
+          "slug": "naha-startup-support",
+          "title": "那覇市 創業支援補助金",
+          "organization": "那覇市",
+          "prefecture": "沖縄県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch94.ts"
+        }
+      ]
+    },
+    {
+      "slug": "nakatsu-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "nakatsu-startup-support",
+          "title": "中津市 創業支援補助金",
+          "organization": "中津市",
+          "prefecture": "大分県",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city-nakatsu.jp/",
+          "file": "src/data/grants/city-batch35.ts"
+        },
+        {
+          "slug": "nakatsu-startup-support",
+          "title": "中津市 創業支援補助金",
+          "organization": "中津市",
+          "prefecture": "大分県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch91.ts"
+        }
+      ]
+    },
+    {
+      "slug": "niihama-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "niihama-startup-support",
+          "title": "新居浜市 創業支援補助金",
+          "organization": "新居浜市",
+          "prefecture": "愛媛県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.niihama.lg.jp/",
+          "file": "src/data/grants/city-batch35.ts"
+        },
+        {
+          "slug": "niihama-startup-support",
+          "title": "新居浜市 創業支援補助金",
+          "organization": "新居浜市",
+          "prefecture": "愛媛県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch88.ts"
+        }
+      ]
+    },
+    {
+      "slug": "nobeoka-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "nobeoka-startup-support",
+          "title": "延岡市 創業促進補助金",
+          "organization": "延岡市",
+          "prefecture": "宮崎県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.nobeoka.miyazaki.jp/",
+          "file": "src/data/grants/city-batch16.ts"
+        },
+        {
+          "slug": "nobeoka-startup-support",
+          "title": "延岡市 創業支援補助金",
+          "organization": "延岡市",
+          "prefecture": "宮崎県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch93.ts"
+        }
+      ]
+    },
+    {
+      "slug": "obihiro-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "obihiro-startup-support",
+          "title": "帯広市 創業支援補助金",
+          "organization": "帯広市",
+          "prefecture": "北海道",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city.obihiro.hokkaido.jp/",
+          "file": "src/data/grants/city-batch18.ts"
+        },
+        {
+          "slug": "obihiro-startup-support",
+          "title": "帯広市 創業支援補助金",
+          "organization": "帯広市",
+          "prefecture": "北海道",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch95.ts"
+        }
+      ]
+    },
+    {
+      "slug": "sakata-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "sakata-startup-support",
+          "title": "酒田市 創業支援補助金",
+          "organization": "酒田市",
+          "prefecture": "山形県",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city.sakata.lg.jp/",
+          "file": "src/data/grants/city-batch27.ts"
+        },
+        {
+          "slug": "sakata-startup-support",
+          "title": "酒田市 創業支援補助金",
+          "organization": "酒田市",
+          "prefecture": "山形県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch97.ts"
+        }
+      ]
+    },
+    {
+      "slug": "sasebo-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "sasebo-startup-support",
+          "title": "佐世保市 創業支援事業補助金",
+          "organization": "佐世保市",
+          "prefecture": "長崎県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.sasebo.lg.jp/",
+          "file": "src/data/grants/city-batch16.ts"
+        },
+        {
+          "slug": "sasebo-startup-support",
+          "title": "佐世保市 創業支援補助金",
+          "organization": "佐世保市",
+          "prefecture": "長崎県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch90.ts"
+        }
+      ]
+    },
+    {
+      "slug": "shimonoseki-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "shimonoseki-startup-support",
+          "title": "下関市 創業チャレンジ支援補助金",
+          "organization": "下関市",
+          "prefecture": "山口県",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city.shimonoseki.lg.jp/",
+          "file": "src/data/grants/city-batch16.ts"
+        },
+        {
+          "slug": "shimonoseki-startup-support",
+          "title": "下関市 創業支援補助金",
+          "organization": "下関市",
+          "prefecture": "山口県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch86.ts"
+        }
+      ]
+    },
+    {
+      "slug": "shunan-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "shunan-startup-support",
+          "title": "周南市 創業支援補助金",
+          "organization": "周南市",
+          "prefecture": "山口県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.shunan.lg.jp/",
+          "file": "src/data/grants/city-batch24.ts"
+        },
+        {
+          "slug": "shunan-startup-support",
+          "title": "周南市 創業支援補助金",
+          "organization": "周南市",
+          "prefecture": "山口県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch86.ts"
+        }
+      ]
+    },
+    {
+      "slug": "soka-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "soka-startup-support",
+          "title": "草加市 創業支援補助金",
+          "organization": "草加市",
+          "prefecture": "埼玉県",
+          "category": "employment",
+          "maxAmount": "最大30万円",
+          "officialUrl": "https://www.city.soka.saitama.jp/",
+          "file": "src/data/grants/city-batch20.ts"
+        },
+        {
+          "slug": "soka-startup-support",
+          "title": "草加市 創業支援補助金",
+          "organization": "草加市",
+          "prefecture": "埼玉県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch99.ts"
+        }
+      ]
+    },
+    {
+      "slug": "takamatsu-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "takamatsu-startup-support",
+          "title": "高松市 創業者応援補助金",
+          "organization": "高松市",
+          "prefecture": "香川県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.takamatsu.kagawa.jp/",
+          "file": "src/data/grants/city-batch10.ts"
+        },
+        {
+          "slug": "takamatsu-startup-support",
+          "title": "高松市 創業支援補助金",
+          "organization": "高松市",
+          "prefecture": "香川県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch87.ts"
+        }
+      ]
+    },
+    {
+      "slug": "tomakomai-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "tomakomai-startup-support",
+          "title": "苫小牧市 創業支援補助金",
+          "organization": "苫小牧市",
+          "prefecture": "北海道",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.tomakomai.hokkaido.jp/",
+          "file": "src/data/grants/city-batch18.ts"
+        },
+        {
+          "slug": "tomakomai-startup-support",
+          "title": "苫小牧市 創業支援補助金",
+          "organization": "苫小牧市",
+          "prefecture": "北海道",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch95.ts"
+        }
+      ]
+    },
+    {
+      "slug": "urasoe-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "urasoe-startup-support",
+          "title": "浦添市 創業支援補助金",
+          "organization": "浦添市",
+          "prefecture": "沖縄県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.urasoe.lg.jp/",
+          "file": "src/data/grants/city-batch35.ts"
+        },
+        {
+          "slug": "urasoe-startup-support",
+          "title": "浦添市 創業支援補助金",
+          "organization": "浦添市",
+          "prefecture": "沖縄県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch94.ts"
+        }
+      ]
+    },
+    {
+      "slug": "yokote-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "yokote-startup-support",
+          "title": "横手市 創業支援補助金",
+          "organization": "横手市",
+          "prefecture": "秋田県",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city.yokote.lg.jp/",
+          "file": "src/data/grants/city-batch19.ts"
+        },
+        {
+          "slug": "yokote-startup-support",
+          "title": "横手市 創業支援補助金",
+          "organization": "横手市",
+          "prefecture": "秋田県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch97.ts"
+        }
+      ]
+    },
+    {
+      "slug": "yonago-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "yonago-startup-support",
+          "title": "米子市 創業支援補助金",
+          "organization": "米子市",
+          "prefecture": "鳥取県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.yonago.lg.jp/",
+          "file": "src/data/grants/city-batch34.ts"
+        },
+        {
+          "slug": "yonago-startup-support",
+          "title": "米子市 創業支援補助金",
+          "organization": "米子市",
+          "prefecture": "鳥取県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch82.ts"
+        }
+      ]
+    }
+  ]
+}

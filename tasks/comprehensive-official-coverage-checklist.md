@@ -11901,3 +11901,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-009-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-009-url-status.txt`、`tasks/discovery/nationwide-final-audit-009-raw-gaps-after.json` を作成。公式URL 4/4 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは39件から35件へ減少。兵庫県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - 次回: raw gap残35件。上位は茨城県3、鹿児島県3、神奈川県3、栃木県3、群馬県2、秋田県2、福岡県2、福島県2。茨城県のraw gap3件から、公式本文/PDF確認を継続する。
+
+### 全国公式棚卸し最終監査010（茨城県raw gap 3件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-009-raw-gaps-after.json` の茨城県3件、土浦市 `tsuchiura-newlywed-rent` / `tsuchiura-newlywed-rent-v2`、日立市 `hitachi-newlywed-rent` を確認。
+- 公式確認: 土浦市は令和8年度結婚新生活支援事業補助金で、賃貸初期費用の敷金・礼金・仲介手数料、市内住宅への引越費用、29歳以下上限60万円、その他上限30万円、申請期限2027年3月31日、予算額到達時受付終了を確認。生成データの月額家賃補助は公式対象外。日立市は令和8年度結婚新生活支援事業補助金で、住居取得・リフォーム・賃借・引越費用、上限30万円を確認。
+- 解消方法: 土浦市 `tsuchiura-newlywed-rent` は月額家賃補助として掲載停止し、公式確認済み結婚新生活支援へ統合。土浦市 `v2` と日立市は既存正規slugまたは公式補正済み制度の公開重複を避ける期限切れ統合aliasとして追加。土浦市の既存誤URLは、公式検索で到達確認した `https://www.city.tsuchiura.lg.jp/kurashi-tetsuzuki/news/page012116.html` へ補正。
+- 成果物: `tasks/discovery/nationwide-final-audit-010-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-010-url-status.txt`、`tasks/discovery/nationwide-final-audit-010-raw-gaps-after.json` を作成。公式URL/PDF 4/4 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは35件から32件へ減少。茨城県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-010-coverage.log` に保存。
+- 次回: raw gap残32件。上位は鹿児島県3、神奈川県3、栃木県3、群馬県2、秋田県2、福岡県2、福島県2。鹿児島県のraw gap3件から、公式本文/PDF確認を継続する。

@@ -1,0 +1,67 @@
+{
+  "auditCode": "nationwide-final-audit-010-raw-gap-resolution",
+  "checkedAt": "2026-07-19T02:55:00+09:00",
+  "prefecture": "茨城県",
+  "rawGapBefore": 35,
+  "rawGapAfter": 32,
+  "prefectureRawGapAfter": 0,
+  "resolutions": [
+    {
+      "slug": "tsuchiura-newlywed-rent",
+      "municipality": "土浦市",
+      "action": "公式制度へ補正統合・重複抑止",
+      "officialUrl": "https://www.city.tsuchiura.lg.jp/kurashi-tetsuzuki/news/page012116.html",
+      "basis": "結婚新生活支援事業補助金は敷金・礼金・仲介手数料、引越費用が対象。家賃・共益費等は対象外のため、月額家賃補助としては掲載しない。"
+    },
+    {
+      "slug": "tsuchiura-newlywed-rent-v2",
+      "municipality": "土浦市",
+      "action": "公式制度へ統合・重複抑止",
+      "officialUrl": "https://www.city.tsuchiura.lg.jp/kurashi-tetsuzuki/news/page012116.html",
+      "basis": "令和8年度結婚新生活支援事業補助金で、29歳以下世帯上限60万円、その他世帯上限30万円、申請期限2027年3月31日、予算到達時受付終了を確認。"
+    },
+    {
+      "slug": "hitachi-newlywed-rent",
+      "municipality": "日立市",
+      "action": "公式制度へ補正統合・重複抑止",
+      "officialUrl": "https://www.city.hitachi.lg.jp/citypromotion/otameshi_iju/1002758/1002709/1002690.html",
+      "basis": "令和8年度結婚新生活支援事業補助金で、上限30万円、住居取得・リフォーム・賃借・引越費用対象を確認。月額家賃補助・最長3年は採用しない。"
+    }
+  ],
+  "urlStatus": [
+    {
+      "slug": "tsuchiura-newlywed-rent",
+      "status": 200,
+      "finalUrl": "https://www.city.tsuchiura.lg.jp/kurashi-tetsuzuki/news/page012116.html",
+      "elapsed": "319ms"
+    },
+    {
+      "slug": "tsuchiura-newlywed-rent-v2",
+      "status": 200,
+      "finalUrl": "https://www.city.tsuchiura.lg.jp/kurashi-tetsuzuki/news/page012116.html",
+      "elapsed": "327ms"
+    },
+    {
+      "slug": "tsuchiura-newlywed-rent-v2-pdf1",
+      "status": 200,
+      "finalUrl": "https://www.city.tsuchiura.lg.jp/data/doc/1779237201_doc_212_0.pdf",
+      "elapsed": "28ms"
+    },
+    {
+      "slug": "hitachi-newlywed-rent",
+      "status": 200,
+      "finalUrl": "https://www.city.hitachi.lg.jp/citypromotion/otameshi_iju/1002758/1002709/1002690.html",
+      "elapsed": "52ms"
+    }
+  ],
+  "next": {
+    "rawGaps": 32,
+    "topPrefectures": {
+      "鹿児島県": 3,
+      "神奈川県": 3,
+      "栃木県": 3,
+      "群馬県": 2,
+      "秋田県": 2
+    }
+  }
+}
