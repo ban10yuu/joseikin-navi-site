@@ -1,0 +1,127 @@
+{
+  "auditCode": "nationwide-final-audit-021-second-pass-ledger",
+  "checkedAt": "2026-07-19T04:20:00+09:00",
+  "sourceBatch": "hokkaido-batch-018",
+  "municipalities": [
+    {
+      "code": "01647",
+      "name": "足寄町",
+      "adopted": [
+        {
+          "slug": "ashoro-housing-store-renovation-subsidy-2026",
+          "title": "足寄町 住環境・店舗等整備補助金",
+          "officialUrl": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/hojo_jyukan.html",
+          "basis": "公式HTMLと令和8年度パンフレットPDFで、住宅・店舗等の対象工事、令和8年4月20日から12月28日までの受付、区分別上限、カラマツ材加算、耐震診断、外構舗装の補助内容を確認。"
+        },
+        {
+          "slug": "ashoro-dangerous-vacant-house-demolition-subsidy-2026",
+          "title": "足寄町 住環境・店舗等整備補助金（老朽危険空家等除却）",
+          "officialUrl": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/hojo_jtenpo.html",
+          "basis": "公式HTMLと令和8年度除却パンフレットPDFで、老朽危険空家等、除却工事費2分の1、上限50万円、令和8年12月28日まで予算内随時受付、所有者等の条件を確認。"
+        },
+        {
+          "slug": "ashoro-community-activity-support-subsidy-2026",
+          "title": "足寄町 まちづくり活動支援補助金",
+          "officialUrl": "https://www.town.ashoro.hokkaido.jp/kurashi/about-town/hojyokin/page_168.html",
+          "basis": "公式HTML、募集要領PDF、交付要綱PDFで、再募集期間、対象団体・活動、対象経費から収入を除いた額の10分の10以内、上限30万円、活動対象期間を確認。"
+        },
+        {
+          "slug": "ashoro-maternity-travel-lodging-subsidy-2026",
+          "title": "足寄町 妊産婦通院交通費等の助成",
+          "officialUrl": "https://www.town.ashoro.hokkaido.jp/kurashi/kosodate-kyoiku/ninshin-shussan/ninshinji-shussanji/folder_9/page_40.html",
+          "basis": "公式詳細ページで、町外医療機関への妊婦健診・出産・産後健診、交通費の距離区分、妊婦健診14回等、宿泊1泊5,000円・5泊上限、申請期限を確認。"
+        },
+        {
+          "slug": "ashoro-advanced-fertility-treatment-subsidy-2026",
+          "title": "足寄町 不妊治療費助成",
+          "officialUrl": "https://www.town.ashoro.hokkaido.jp/kurashi/kosodate-kyoiku/ninshin-shussan/page_310.html",
+          "basis": "公式詳細ページで、保険診療と併用した先進医療、妻43歳未満等の要件、自己負担額10分の7・上限3万5,000円、年齢別助成回数、片道25km超の交通費等を確認。"
+        }
+      ],
+      "held": [
+        {
+          "title": "足寄町 新規就農支援",
+          "officialUrl": "https://www.town.ashoro.hokkaido.jp/kurashi/business/nougyou/page_172.html",
+          "reason": "公式ページとパンフレット導線は確認したが、PDFが画像主体で金額・上限・条件を本文抽出できないため、OCR又は別公式資料確認へ保留。"
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "code": "01648",
+      "name": "陸別町",
+      "adopted": [
+        {
+          "slug": "rikubetsu-child-vaccination-public-expense-2026",
+          "title": "陸別町 子どもの予防接種費用公費負担",
+          "officialUrl": "https://www.rikubetsu.jp/kurashi/kosodate/ninshin_syussan/kodomo/",
+          "basis": "公式ページで、子どもの対象予防接種、予診票交付、料金は全額公費負担、診療所窓口での負担なしを確認。"
+        }
+      ],
+      "held": [
+        {
+          "title": "陸別町 産婦健康診査受診票",
+          "officialUrl": "https://www.rikubetsu.jp/kurashi/kosodate/ninshin_syussan/ninshin/",
+          "reason": "産婦健診費用助成と受診票交付は確認したが、助成額・上限が本文で固定できないため保留。"
+        },
+        {
+          "title": "陸別町 産後ケア事業",
+          "officialUrl": "https://www.rikubetsu.jp/kurashi/kosodate/ninshin_syussan/ninshin/",
+          "reason": "対象と事業類型は確認したが、利用者負担・助成額・上限が本文で固定できないため保留。"
+        },
+        {
+          "title": "陸別町 インフルエンザ予防接種費用助成",
+          "officialUrl": "https://www.rikubetsu.jp/kurashi/kenko_kaigo_fukushi/yobosessyu/influenza/",
+          "reason": "助成期間と対象者は確認したが、助成額又は自己負担額が本文に見当たらないため保留。"
+        },
+        {
+          "title": "陸別町 高齢者肺炎球菌・新型コロナ予防接種",
+          "officialUrl": "https://www.rikubetsu.jp/kurashi/kenko_kaigo_fukushi/yobosessyu/haienkyukin/",
+          "reason": "対象者・実施時期は確認したが、助成額又は自己負担額が本文で固定できないため保留。新型コロナも同理由で保留。"
+        },
+        {
+          "title": "陸別町 重度心身障害者医療費助成",
+          "officialUrl": "https://www.rikubetsu.jp/kurashi/kenko_kaigo_fukushi/fukushi/",
+          "reason": "福祉カテゴリページは到達するが、個別制度本文と助成内容を確認できないため保留。"
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "code": "01649",
+      "name": "浦幌町",
+      "adopted": [],
+      "held": [
+        {
+          "title": "浦幌町 こども医療費受給者証の交付",
+          "reason": "第1巡台帳の未判定を継続。個別本文で対象年齢・自己負担条件を再確認する。"
+        },
+        {
+          "title": "浦幌町 がん検診費用の一部助成",
+          "reason": "第1巡台帳の未判定を継続。PDF又は本文側で検診別金額を再確認する。"
+        },
+        {
+          "title": "浦幌町 妊産婦健康診査費用等の助成",
+          "reason": "第1巡台帳の未判定を継続。交通費助成とは別制度として健診票・助成額の公式本文を再確認する。"
+        },
+        {
+          "title": "浦幌町 児童手当制度",
+          "reason": "全国制度側との重複整理が必要なため保留。"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "浦幌町 UIJターン新規就業支援事業移住支援金",
+          "reason": "第1巡で公式本文に受付停止・以後取扱未定の記載を確認済みのため、現行掲載しない。"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "adopted": 6,
+    "held": 10,
+    "excluded": 1,
+    "sourceUrlsChecked": 16,
+    "notes": "北海道第18バッチの第2巡保留を、足寄町・陸別町・浦幌町の順で再確認。公式本文又はPDFで必須項目を固定できた6件を追加し、金額・上限を固定できない候補は保留継続とした。"
+  }
+}
