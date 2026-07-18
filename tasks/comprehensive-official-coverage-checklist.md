@@ -11910,3 +11910,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-010-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-010-url-status.txt`、`tasks/discovery/nationwide-final-audit-010-raw-gaps-after.json` を作成。公式URL/PDF 4/4 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは35件から32件へ減少。茨城県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-010-coverage.log` に保存。
 - 次回: raw gap残32件。上位は鹿児島県3、神奈川県3、栃木県3、群馬県2、秋田県2、福岡県2、福島県2。鹿児島県のraw gap3件から、公式本文/PDF確認を継続する。
+
+### 全国公式棚卸し最終監査011（鹿児島県raw gap 3件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-010-raw-gaps-after.json` の鹿児島県3件、薩摩川内市 `satsumasendai-housing-newlife`、鹿屋市 `kanoya-housing-new-build`、鹿児島市 `kagoshima-city-newlywed-rent` を確認。
+- 公式確認: 薩摩川内市は公式「結婚新生活支援補助金」で住宅取得費、賃借費、引越費用、リフォーム費用、29歳以下上限60万円・30歳から39歳上限30万円、申請期限2027年3月31日を確認。鹿屋市は公式「コンパクトシティ推進住宅取得支援事業」と手引きPDFで住宅取得基本30万円、転入者・新婚世帯・子育て世帯等の加算、合計上限100万円、受付2026年4月1日から2027年3月19日を確認。鹿児島市は旧raw名の新婚世帯住居費補助を公式確認できず、公式「子育て世帯住替支援事業」で既存住宅取得上限10万円または15万円、民間賃貸住宅への引越上限5万円、受付2026年5月8日から2027年2月5日を確認。
+- 解消方法: 薩摩川内市と鹿屋市は公式補正済み制度の公開重複を避ける期限切れ統合aliasとして追加。鹿児島市は旧rawの新婚世帯住居費補助を現行公式確認不可として、子育て世帯住替支援事業へ補正し通常一覧への誤掲載を抑止。
+- 成果物: `tasks/discovery/nationwide-final-audit-011-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-011-url-status.txt`、`tasks/discovery/nationwide-final-audit-011-raw-gaps-after.json` を作成。公式URL/PDF 8/8 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは32件から29件へ減少。鹿児島県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-011-coverage.log` に保存。
+- 次回: raw gap残29件。上位は神奈川県3、栃木県3、群馬県2、秋田県2、福岡県2、福島県2。神奈川県のraw gap3件から、公式本文/PDF確認を継続する。

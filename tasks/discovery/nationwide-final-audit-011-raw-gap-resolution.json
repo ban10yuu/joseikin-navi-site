@@ -1,0 +1,92 @@
+{
+  "auditCode": "nationwide-final-audit-011-raw-gap-resolution",
+  "checkedAt": "2026-07-19T03:40:00+09:00",
+  "prefecture": "鹿児島県",
+  "rawGapBefore": 32,
+  "rawGapAfter": 29,
+  "prefectureRawGapAfter": 0,
+  "resolutions": [
+    {
+      "rawSlug": "satsumasendai-housing-newlife",
+      "organization": "薩摩川内市",
+      "rawTitle": "薩摩川内市 新婚世帯家賃補助金",
+      "action": "期限切れ統合aliasとして追加し、公開重複を抑止",
+      "resolvedTitle": "薩摩川内市 結婚新生活支援補助金",
+      "officialUrl": "https://www.city.satsumasendai.lg.jp/soshiki/1221/1222/04001/1321.html",
+      "basis": "公式ページで令和8年度の結婚新生活支援補助金を確認。対象経費は住宅取得費、賃借費、引越費用、リフォーム費用。夫婦とも29歳以下は上限60万円、30歳から39歳は上限30万円。令和9年3月31日申請期限。"
+    },
+    {
+      "rawSlug": "kanoya-housing-new-build",
+      "organization": "鹿屋市",
+      "rawTitle": "鹿屋市 住宅取得支援補助金",
+      "action": "公式補正制度への期限切れ統合aliasとして追加し、公開重複を抑止",
+      "resolvedTitle": "鹿屋市 コンパクトシティ推進住宅取得支援事業",
+      "officialUrl": "https://www.city.kanoya.lg.jp/kenchikukakari/kurashi/tochi/kenchiku/connpakutocity.html",
+      "basis": "公式ページと手引きPDFで、居住誘導区域内等への住宅新築・購入に対する基本30万円、転入者・新婚世帯・子育て世帯等の加算、合計上限100万円、令和8年4月1日から令和9年3月19日までの受付を確認。"
+    },
+    {
+      "rawSlug": "kagoshima-city-newlywed-rent",
+      "organization": "鹿児島市",
+      "rawTitle": "鹿児島市 新婚世帯新生活支援補助金",
+      "action": "現行の新婚世帯住居費補助としては公式確認不可。公式の子育て世帯住替支援へ補正し、掲載抑止",
+      "resolvedTitle": "鹿児島市 子育て世帯住替支援事業",
+      "officialUrl": "https://www.city.kagoshima.lg.jp/kensetu/kenchiku/jutaku/kosodatesumikaeshien/kosodatesumikaehojyo.html",
+      "basis": "公式ページで令和8年度子育て世帯住替支援事業を確認。18歳未満のこどもまたは妊娠中の方がいる世帯を対象に、既存住宅取得費上限10万円または15万円、民間賃貸住宅への引越費用上限5万円。受付は令和8年5月8日から令和9年2月5日まで。地域少子化対策重点推進交付金活用事業ページは婚活支援等であり、旧raw名の住居費補助は確認不可。"
+    }
+  ],
+  "urlStatus": [
+    {
+      "status": 200,
+      "url": "https://www.city.satsumasendai.lg.jp/soshiki/1221/1222/04001/1321.html",
+      "contentType": "text/html"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.satsumasendai.lg.jp/kurashi_tetsuzuki/shoshikataisaku/7085.html",
+      "contentType": "text/html"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.kanoya.lg.jp/kenchikukakari/kurashi/tochi/kenchiku/connpakutocity.html",
+      "contentType": "text/html"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.kanoya.lg.jp/iju/shien/shienseido.html",
+      "contentType": "text/html"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.kanoya.lg.jp/documents/9459/konnpakutotebiki.pdf",
+      "contentType": "application/pdf"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.kagoshima.lg.jp/kensetu/kenchiku/jutaku/kosodatesumikaeshien/kosodatesumikaehojyo.html",
+      "contentType": "text/html"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.kagoshima.lg.jp/kosodate/kosodate/wedding/tikishoshikataisakujuutensuishinkouhukin.html",
+      "contentType": "text/html"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.kagoshima.lg.jp/kensetu/kenchiku/jutaku/kosodatesumikaeshien/sumaijyouhou.html",
+      "contentType": "text/html"
+    }
+  ],
+  "next": {
+    "rawGaps": 29,
+    "topPrefectures": {
+      "神奈川県": 3,
+      "栃木県": 3,
+      "群馬県": 2,
+      "秋田県": 2,
+      "福岡県": 2,
+      "福島県": 2
+    },
+    "nextCode": "nationwide-final-audit-012-raw-gap-resolution",
+    "nextMunicipality": "神奈川県raw gap3件の公式ページ単位解消"
+  }
+}
