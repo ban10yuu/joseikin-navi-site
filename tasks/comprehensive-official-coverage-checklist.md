@@ -11679,3 +11679,13 @@
 - 検証: 公式URL 99/99 HTTP 200（`tasks/discovery/kagoshima-official-coverage-004-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（004 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - メトリクス: 5自治体、99制度採用、一次候補692件、採用率14.3%。鹿児島県001-004累計は20自治体・団体、313制度。直近15自治体単位（002-004）は15自治体・240制度。全国公式棚卸しは未完了。
 - 次回: 鹿児島県公式棚卸し005として、三島村・十島村・さつま町・長島町・湧水町から再開する。
+
+### 鹿児島県公式棚卸し005（46303三島村・46304十島村・46392さつま町・46404長島町・46452湧水町）
+
+- 対象公式トップ: 三島村 `https://mishimamura.com/`、十島村 `https://www.tokara.jp/`、さつま町 `https://www.satsuma-net.jp/`、長島町 `https://www.town.nagashima.lg.jp/`、湧水町 `https://www.town.yusui.kagoshima.jp/` をHTTP 200で確認。sitemap.xmlは三島村・十島村・さつま町・長島町が200、湧水町が404のため公式カテゴリBFSで補完。長島町は `sitemap.xml` が `wp-sitemap.xml` に遷移。
+- 公式sitemap/カテゴリBFS候補: 395件（三島村45、十島村29、さつま町151、長島町32、湧水町138）。title強一致63件。候補数が150件超のため `tasks/discovery/kagoshima-official-coverage-005-rescored-shortlist.tsv` と `tasks/discovery/kagoshima-official-coverage-005-auto-selection.tsv` へ本文スニペット付き再スコアを保存。三島村・十島村・長島町はWordPress系、さつま町はLGWAN CMS系、湧水町は `sitemap.html` と `life/`・`site/`・`soshiki/` 導線で補完。
+- 採用: 92制度（三島村8、十島村8、さつま町30、長島町8、湧水町38）。`kagoshima-official-005-001-2026` から `kagoshima-official-005-092-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、トップ、共通ナビ、申請書単体、受付終了、募集終了、実績/採択、職員採用、同一制度の重複導線は採用せず、候補JSON/TSVに残置。十島村は個別制度ページが少ないため、公式カテゴリ本文に対象・給付/助成・申請情報がまとまるページを採用。
+- 検証: 公式URL 92/92 HTTP 200（`tasks/discovery/kagoshima-official-coverage-005-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（005 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体、92制度採用、一次候補395件、採用率23.3%。鹿児島県001-005累計は25自治体・団体、405制度。直近15自治体単位（003-005）は15自治体・265制度。全国公式棚卸しは未完了。
+- 次回: 鹿児島県公式棚卸し006として、大崎町・東串良町・錦江町・南大隅町・肝付町から再開する。
