@@ -1,0 +1,59 @@
+{
+  "audit": "nationwide-final-audit-002-raw-gap-resolution",
+  "createdAt": "2026-07-19T02:30:00+09:00",
+  "scope": "千葉県 raw gap 5件（鎌ケ谷市・四街道市・成田市・富里市・浦安市）",
+  "strategy": "旧raw slugと既存正規slugの不一致を解消するため、現行制度4件は期限切れの統合aliasとして追加し公開重複を防止。浦安市1件は現行公式ページ不在の期限切れ抑止として追加。",
+  "resolvedCount": 5,
+  "entries": [
+    {
+      "slug": "kamagaya-newlywed-rent",
+      "municipality": "鎌ケ谷市",
+      "prefecture": "千葉県",
+      "status": "resolved-as-hidden-alias",
+      "canonicalStatus": "current official scheme exists under canonical verified slug",
+      "title": "鎌ケ谷市 結婚新生活支援事業",
+      "officialUrl": "https://www.city.kamagaya.chiba.jp/kurashi-tetsuzuki/sumai/kekkonsinseikatu.html",
+      "evidence": "2026-07-19 official page confirmed max 60/30万円, eligible housing/move/remodel costs, 2026-04-01 to 2027-03-31 application period, age/income/residence/course requirements."
+    },
+    {
+      "slug": "yotsukaido-newlywed-rent",
+      "municipality": "四街道市",
+      "prefecture": "千葉県",
+      "status": "resolved-as-hidden-alias",
+      "canonicalStatus": "current official scheme exists under canonical verified slug",
+      "title": "四街道市 結婚新生活応援事業補助金",
+      "officialUrl": "https://www.city.yotsukaido.chiba.jp/kosodate/kekkon/kekkonshinseikatsu.html",
+      "evidence": "2026-07-19 official page confirmed max 60万円, housing purchase/rent/move/remodel costs, 2026-06-15 to 2027-03-12 application period, course requirement and prior consultation."
+    },
+    {
+      "slug": "narita-newlywed-rent",
+      "municipality": "成田市",
+      "prefecture": "千葉県",
+      "status": "resolved-as-hidden-alias",
+      "canonicalStatus": "current official scheme exists under canonical verified slug",
+      "title": "成田市 結婚新生活支援事業",
+      "officialUrl": "https://www.city.narita.chiba.jp/shisei/page0101_00052.html",
+      "evidence": "2026-07-19 official page confirmed max 60/30万円, 2026-04-01 to 2027-03-31 period, age/income/residence requirements."
+    },
+    {
+      "slug": "tomisato-newlywed-rent",
+      "municipality": "富里市",
+      "prefecture": "千葉県",
+      "status": "resolved-as-hidden-alias",
+      "canonicalStatus": "current official scheme exists under canonical verified slug",
+      "title": "富里市 結婚新生活支援補助金",
+      "officialUrl": "https://www.city.tomisato.lg.jp/0000016139.html",
+      "evidence": "2026-07-19 official page confirmed max 60/30万円, housing acquisition/new build/rent/remodel/move costs, 2026-04-01 to 2027-03-31 application period and prior consultation."
+    },
+    {
+      "slug": "urayasu-newlywed-rent",
+      "municipality": "浦安市",
+      "prefecture": "千葉県",
+      "status": "resolved-as-expired-suppression",
+      "canonicalStatus": "current official application page not found",
+      "title": "浦安市 新婚世帯家賃補助制度（公式確認不可）",
+      "officialUrl": "https://urayasu.ficsc.jp/urayasu/search.htm?key=%E6%96%B0%E5%A9%9A+%E5%AE%B6%E8%B3%83+%E8%A3%9C%E5%8A%A9",
+      "evidence": "2026-07-19 official site search for 新婚 家賃 補助 returned only city council PDF, with no current application-ready subsidy page."
+    }
+  ]
+}

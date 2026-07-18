@@ -11829,3 +11829,12 @@
 - 国・公的機関: `verified-national-*`、`national*.ts`、`verified-ngo-*` は存在するが、自治体棚卸しと同粒度の `tasks/discovery/` 成果物は第1パスでは確認できなかった。raw gap解消後に国・公的機関の公式ページ単位棚卸しを別途正規化する。
 - 検証: `node --check tasks/discovery/nationwide-final-audit-001.mjs`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 5`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-001-coverage.log` に保存。
 - 次回: `tasks/discovery/nationwide-final-audit-001-raw-gaps.json` の既存raw未検証82件を、千葉県・愛知県・埼玉県・長野県・北海道の上位から公式本文/PDF単位で3〜5自治体または60〜100制度ずつ解消する。採用、期限切れ、除外、公式URL不在を制度単位で記録し、その後に第2巡保留と国・公的機関の正規化監査へ進む。
+
+### 全国公式棚卸し最終監査002（千葉県raw gap 5件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-001-raw-gaps.json` の千葉県上位から、鎌ケ谷市 `kamagaya-newlywed-rent`、四街道市 `yotsukaido-newlywed-rent`、成田市 `narita-newlywed-rent`、富里市 `tomisato-newlywed-rent`、浦安市 `urayasu-newlywed-rent` を確認。
+- 公式確認: 鎌ケ谷市、四街道市、成田市、富里市は各自治体公式ページで結婚新生活支援制度の制度名、対象、上限60万円/30万円、対象経費、申請期間または受付状況、年齢・所得・居住等の条件を確認。浦安市は公式サイト内検索「新婚 家賃 補助」を確認し、現行申請可能な新婚世帯家賃補助/結婚新生活支援制度の公式個別ページがないことを確認。
+- 解消方法: 現行制度4件は既存の正規公式確認slugが公開用に存在するため、旧raw slugを期限切れ統合aliasとして追加し、公開一覧の重複を抑止。浦安市1件は公式確認不可の期限切れ抑止レコードとして追加。
+- 成果物: `tasks/discovery/nationwide-final-audit-002-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-002-url-status.txt`、`tasks/discovery/nationwide-final-audit-002-raw-gaps-after.json` を作成。公式/検索URL 5/5 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100` はpassし、既存raw未検証slugは82件から77件へ減少。重複raw slug 32件は既存値のまま。
+- 次回: raw gap残77件。上位は愛知県8、埼玉県7、長野県7、北海道7、大阪府5、千葉県4。千葉県残4件（印西市・袖ケ浦市・柏市・白井市）または愛知県の結婚新生活支援候補から、3〜5自治体単位で公式本文/PDF確認を継続する。
