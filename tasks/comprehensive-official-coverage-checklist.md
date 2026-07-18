@@ -12085,3 +12085,14 @@
 - 検証: 追加17slugの存在数1件ずつ、公式URL 7/7 HTTP 200を確認。監査JSON parse、checkpoint JSON parse、`node --check src/data/grants/verified-local-misc-2026.ts`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は今回再実行せず、026時点の既知別件 `src/lib/grant-copy.ts` の `tags.map` TypeErrorを継続ブロッカーとして扱う。
 - 到達点: 北海道第2巡010は4町確認済み、採用17、保留継続6。全国公式棚卸しは未完了。
 - 次回: 北海道第2巡011として、共和町・岩内町・泊村・神恵内村など前方保留候補を自治体コード順に継続確認する。
+
+### 全国公式棚卸し最終監査031（北海道第2巡011 共和町・岩内町・泊村・神恵内村）
+
+- 対象: `tasks/discovery/hokkaido-second-pass-011-snippets.json` の共和町・岩内町・泊村・神恵内村を確認。
+- 公式確認: 岩内町の国民健康保険一部負担金の減免等ページと要綱PDFを確認。共和町・泊村は既存掲載済み制度やカテゴリ/通常サービス案内を確認。神恵内村は未掲載候補の制度概要を確認したが、金額/上限不足の候補が中心。
+- 採用: 1件。`iwanai-national-health-insurance-copay-reduction-2026` は、岩内町国民健康保険の被保険者世帯、災害・事業休廃止・失業等の特別事由、一部負担金の免除・2分の1減額・徴収猶予、預貯金要件、申請月から3か月以内等を確認。HEAD時点のデータ本体に既に1件存在するため重複追加しない。
+- 保留継続: 共和町の申請書/補助カテゴリ、岩内町の不足額給付・フラット35外部制度、泊村の子育て相談/訪問支援・過年度給付、神恵内村のひとり親家庭等生徒通学費・緊急通報/電話サービス・在宅障がい者通所交通費は、金額/上限不足、外部制度、通常サービス、又は過年度制度として台帳に残す。
+- 成果物: `tasks/discovery/nationwide-final-audit-031-hokkaido-second-pass-011-resolution.json`、`tasks/discovery/nationwide-final-audit-031-hokkaido-second-pass-011-url-status.txt` を作成。公式URL 2/2 はHTTP 200。
+- 検証: 追加1slugの存在数1件、公式URL 2/2 HTTP 200を確認。監査JSON parse、checkpoint JSON parse、`node --check src/data/grants/verified-local-misc-2026.ts`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は今回再実行せず、026時点の既知別件 `src/lib/grant-copy.ts` の `tags.map` TypeErrorを継続ブロッカーとして扱う。
+- 到達点: 北海道第2巡011は4町村確認済み、採用1、保留継続8。全国公式棚卸しは未完了。
+- 次回: 北海道第2巡012として、積丹町・古平町・仁木町・余市町など前方保留候補を自治体コード順に継続確認する。
