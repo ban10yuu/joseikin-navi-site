@@ -11856,3 +11856,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-004-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-004-url-status.txt`、`tasks/discovery/nationwide-final-audit-004-raw-gaps-after.json` を作成。公式/カテゴリURL 8/8 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100` はpassし、既存raw未検証slugは73件から65件へ減少。愛知県raw gapは0件。
 - 次回: raw gap残65件。上位は埼玉県7、長野県7、北海道7、大阪府5、兵庫県4。埼玉県の結婚新生活支援候補から、3〜5自治体単位で公式本文/PDF確認を継続する。
+
+### 全国公式棚卸し最終監査005（埼玉県raw gap 7件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-004-raw-gaps-after.json` の埼玉県7件、越谷市 `koshigaya-newlywed-rent`、所沢市 `tokorozawa-newlywed-housing` / `tokorozawa-newlywed-rent`、川越市 `kawagoe-newlywed-rent`、草加市 `soka-newlywed-rent`、秩父市 `chichibu-newlywed-rent`、朝霞市 `asaka-newlywed-rent` を確認。
+- 公式確認: 越谷市は公式住まいカテゴリと旧候補URL状況から現行の結婚新生活支援・新婚家賃補助個別ページがないことを確認。所沢市は公式補助・給付・貸付一覧と結婚関連ページで該当制度なし。川越市は結婚相談終了、恋たま、県・UR外部案内は確認できるが市独自制度なし。草加市は結婚カテゴリが婚姻届中心で、住居確保給付金は生活困窮者向けのため対象違い。秩父市は公式「結婚新生活支援事業補助金」で対象、最大60万円/30万円、住宅費・リフォーム・引越費用、申請期限2027年3月31日を確認。朝霞市は公式検索と住居確保給付金を確認し、新婚世帯向け家賃補助・結婚新生活支援の現行募集ページなし。
+- 解消方法: 越谷市、所沢市2件、川越市、草加市、朝霞市の6件は期限切れ抑止。秩父市1件は既存正規slugの公開重複を避ける期限切れ統合aliasとして追加。
+- 成果物: `tasks/discovery/nationwide-final-audit-005-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-005-url-status.txt`、`tasks/discovery/nationwide-final-audit-005-raw-gaps-after.json` を作成。公式/カテゴリ/検索URL 7/7 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100` はpassし、既存raw未検証slugは65件から58件へ減少。埼玉県raw gapは0件。
+- 次回: raw gap残58件。上位は長野県7、北海道7、大阪府5、兵庫県4、茨城県3、鹿児島県3、神奈川県3、栃木県3。長野県のraw gap7件から、公式本文/PDF確認を継続する。
