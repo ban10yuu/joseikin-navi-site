@@ -11874,3 +11874,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-006-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-006-url-status.txt`、`tasks/discovery/nationwide-final-audit-006-raw-gaps-after.json` を作成。公式/PDF/例規URL 7/7 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは58件から51件へ減少。長野県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - 次回: raw gap残51件。上位は北海道7、大阪府5、兵庫県4、茨城県3、鹿児島県3、神奈川県3、栃木県3。北海道のraw gap7件から、公式本文/PDF確認を継続する。
+
+### 全国公式棚卸し最終監査007（北海道raw gap 7件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-006-raw-gaps-after.json` の北海道7件、旭川市 `asahikawa-newlywed-rent`、釧路市 `kushiro-newlywed-rent`、札幌市 `sapporo-newlywed-rent`、小樽市 `otaru-newlywed-rent`、苫小牧市 `tomakomai-newlywed-rent`、北海道 `hokkaido-agriculture-new`、北見市 `kitami-newlywed-rent` を確認。
+- 公式確認: 旭川市は結婚関連イベントや移住支援金は確認できるが、結婚新生活支援事業最大60万円の現行公式補助なし。釧路市はUIJターン新規就業支援事業が移住支援金であり、結婚新生活支援補助とは制度目的が異なる。札幌市はセーフティネット住宅入居支援事業補助制度で新婚世帯区分と家賃債務保証料等最大6万円を確認し、最大60万円の結婚新生活支援事業は現行公式確認不可。小樽市は住居確保給付金を確認したが、新婚世帯向け家賃補助制度は現行公式確認不可。苫小牧市は結婚支援事業を確認したが、新婚世帯の家賃・住宅費補助は確認不可。北海道は農業次世代人材投資資金で就農準備資金年間最大150万円、経営開始資金年間165万円を確認。北見市は市営住宅の新婚世帯所得制限緩和を確認したが、民間賃貸住宅の家賃補助制度は確認不可。
+- 解消方法: 旭川市・釧路市・苫小牧市・北見市の4件は期限切れ抑止。札幌市・小樽市・北海道の3件は既存正規slugまたは公式補正制度の公開重複を避ける期限切れ統合aliasとして追加。
+- 成果物: `tasks/discovery/nationwide-final-audit-007-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-007-url-status.txt`、`tasks/discovery/nationwide-final-audit-007-raw-gaps-after.json` を作成。公式URL 7/7 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは51件から44件へ減少。北海道raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- 次回: raw gap残44件。上位は大阪府5、兵庫県4、茨城県3、鹿児島県3、神奈川県3、栃木県3。大阪府のraw gap5件から、公式本文/PDF確認を継続する。
