@@ -1,45 +1,45 @@
 {
-  "updatedAt": "2026-07-19T03:18:00+09:00",
+  "updatedAt": "2026-07-19T03:49:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nationwide-final-audit-003",
-    "municipality": "千葉県raw gap残4件解消（印西市・袖ケ浦市・柏市・白井市）",
+    "code": "nationwide-final-audit-004",
+    "municipality": "愛知県raw gap8件解消（一宮市・岡崎市・春日井市・瀬戸市・半田市・豊橋市・豊田市）",
     "adopted": 0,
-    "held": 73,
-    "excluded": 4,
-    "sourceUrlsChecked": 4,
+    "held": 65,
+    "excluded": 8,
+    "sourceUrlsChecked": 8,
     "validation": {
-      "previousMunicipality": "全国公式棚卸し最終監査002後、既存raw未検証77件のうち千葉県残4件を公式本文または公式カテゴリで確認。白井市1件は既存正規slugへ統合済みのため期限切れalias、印西市・袖ケ浦市・柏市3件は現行の住宅費・家賃・引越費用補助として公式確認できないため期限切れ抑止。全国公式棚卸しは未完了。",
+      "previousMunicipality": "全国公式棚卸し最終監査003後、既存raw未検証73件のうち愛知県8件を公式本文または公式カテゴリで確認。現行公式確認不可・終了5件、現行制度/補正の正規slug統合3件を期限切れalias/抑止として追加。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: nationwide-final-audit-003-raw-gap-resolution.json and raw-gaps-after parsed; raw gaps 77 -> 73, verifiedUnique 27772",
-      "addedSlugUniqueness": "pass: audit-raw-verified-gaps recognized 4 added raw slugs; duplicateRawSlugs remains existing 32",
-      "urlReachability": "pass: 4/4 official/category URLs HTTP 200 in tasks/discovery/nationwide-final-audit-003-url-status.txt",
+      "json": "pass: nationwide-final-audit-004-raw-gap-resolution.json and raw-gaps-after parsed; raw gaps 73 -> 65, verifiedUnique 27780",
+      "addedSlugUniqueness": "pass: audit-raw-verified-gaps recognized 8 added raw slugs; duplicateRawSlugs remains existing 32",
+      "urlReachability": "pass: 8/8 official/category URLs HTTP 200 in tasks/discovery/nationwide-final-audit-004-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on nationwide-final-audit-003 target files",
-      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at unrelated src/lib/grant-copy.ts:114 sanitizeGrantCopy tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-003-coverage.log",
-      "notes": "raw gap解消対象は印西市・袖ケ浦市・柏市・白井市。千葉県raw gapは残0。公開重複・誤掲載を避けるため4件ともdeadlineDate 2026-07-18の期限切れ抑止/統合レコードとした。"
+      "diffCheck": "pass: git diff --check on nationwide-final-audit-004 target files",
+      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at unrelated src/lib/grant-copy.ts:114 sanitizeGrantCopy tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-004-coverage.log",
+      "notes": "raw gap解消対象は一宮市・岡崎市・春日井市・瀬戸市・半田市・豊橋市2件・豊田市。愛知県raw gapは残0。公開重複・誤掲載を避けるため8件とも期限切れ抑止/統合レコードとした。"
     }
   },
   "next": {
-    "code": "nationwide-final-audit-004-raw-gap-resolution",
-    "municipality": "既存raw未検証73件の公式ページ単位解消",
-    "shortlist": "最終監査003後の既存raw未検証は73件。上位は愛知県8、埼玉県7、長野県7、北海道7、大阪府5、兵庫県4。次回は愛知県の結婚新生活支援候補（一宮市・岡崎市・春日井市・瀬戸市・半田市・豊橋市・豊田市等）から、公式個別URL・対象・金額/上限・条件・期限/受付状況を確認し、採用/期限切れ/除外を制度単位で記録する。",
-    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-003-raw-gaps-after.json、nationwide-final-audit-003-raw-gap-resolution.json、チェックリスト、HEADだけで復旧する。1ターンで3〜5自治体または60〜100制度または45〜55分まで、既存raw gapを公式本文/PDF単位で解消する。国・公的機関と第2巡保留はraw gap解消後に正規化監査へ進む。"
+    "code": "nationwide-final-audit-005-raw-gap-resolution",
+    "municipality": "既存raw未検証65件の公式ページ単位解消",
+    "shortlist": "最終監査004後の既存raw未検証は65件。上位は埼玉県7、長野県7、北海道7、大阪府5、兵庫県4、茨城県3、鹿児島県3、神奈川県3。次回は埼玉県の結婚新生活支援候補（越谷市・所沢市・川越市・草加市・秩父市・朝霞市等）から、公式個別URL・対象・金額/上限・条件・期限/受付状況を確認し、採用/期限切れ/除外を制度単位で記録する。",
+    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-004-raw-gaps-after.json、nationwide-final-audit-004-raw-gap-resolution.json、チェックリスト、HEADだけで復旧する。1ターンで3〜5自治体または60〜100制度または45〜55分まで、既存raw gapを公式本文/PDF単位で解消する。国・公的機関と第2巡保留はraw gap解消後に正規化監査へ進む。"
   },
   "prefectureMilestone": {
     "prefecture": "全国最終監査",
-    "completedBatches": "final-audit-003",
-    "completedMunicipalitiesAndEntities": 9,
+    "completedBatches": "final-audit-004",
+    "completedMunicipalitiesAndEntities": 17,
     "adopted": 0,
     "recent15": {
-      "batches": "全国最終監査002-003",
-      "municipalities": 9,
+      "batches": "全国最終監査003-004",
+      "municipalities": 13,
       "adopted": 0,
       "compactions": 2,
-      "shortlistAdoptionRate": "9/9 raw gaps resolved; 5 official-unavailable suppressions and 4 canonical active aliases",
-      "auditRuns": 11,
-      "commits": 1,
-      "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは82から73へ減少し千葉県残は0。ただし未判定/保留記録、国・公的機関の同粒度棚卸し未確認、coverage監査ブロッカーが残るため全国完了ではない。"
+      "shortlistAdoptionRate": "12/12 raw gaps resolved since final-audit-003; Aichi 8/8 resolved, Chiba remained 0",
+      "auditRuns": 16,
+      "commits": 2,
+      "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは82から65へ減少し、千葉県・愛知県は残0。ただし未判定/保留記録、国・公的機関の同粒度棚卸し未確認、coverage監査ブロッカーが残るため全国完了ではない。"
     }
   },
   "batchRules": {

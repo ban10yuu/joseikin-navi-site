@@ -1,0 +1,81 @@
+{
+  "audit": "nationwide-final-audit-004-raw-gap-resolution",
+  "createdAt": "2026-07-19T03:40:00+09:00",
+  "scope": "愛知県 raw gap 8件（一宮市・岡崎市・春日井市・瀬戸市・半田市・豊橋市・豊田市）",
+  "strategy": "愛知県raw gap 8件を公式ページ単位で再確認。現行公式確認不可または終了のものは期限切れ抑止、豊橋市の空家利活用補正と豊田市現行制度は期限切れ統合aliasとして公開重複を防止。",
+  "resolvedCount": 8,
+  "entries": [
+    {
+      "slug": "ichinomiya-newlywed-housing",
+      "municipality": "一宮市",
+      "prefecture": "愛知県",
+      "status": "resolved-as-expired-suppression",
+      "title": "一宮市 結婚新生活支援補助金（現行公式確認不可）",
+      "officialUrl": "https://www.city.ichinomiya.aichi.jp/sougouseisaku/seisaku/1044355/1010163/1026513/1026519.html",
+      "evidence": "2026-07-19 現行募集ページなし."
+    },
+    {
+      "slug": "okazaki-newlywed-housing",
+      "municipality": "岡崎市",
+      "prefecture": "愛知県",
+      "status": "resolved-as-expired-suppression",
+      "title": "岡崎市 結婚新生活支援補助金（現行募集ページ確認不可）",
+      "officialUrl": "https://www.city.okazaki.lg.jp/kurashi/hikkoshi/1012273/1012274/1003064.html",
+      "evidence": "2026-07-19 現行募集ページなし."
+    },
+    {
+      "slug": "kasugai-newlywed-housing",
+      "municipality": "春日井市",
+      "prefecture": "愛知県",
+      "status": "resolved-as-expired-suppression",
+      "title": "春日井市 結婚新生活支援補助金（現行公式確認不可）",
+      "officialUrl": "https://www.city.kasugai.lg.jp/kurashi/1033189/1038894/1039004/index.html",
+      "evidence": "2026-07-19 現行募集ページなし."
+    },
+    {
+      "slug": "seto-newlywed-housing",
+      "municipality": "瀬戸市",
+      "prefecture": "愛知県",
+      "status": "resolved-as-expired-suppression",
+      "title": "瀬戸市 結婚新生活支援補助金（現行公式確認不可）",
+      "officialUrl": "https://www.city.seto.aichi.jp/docs/2025/07/29/00505309607/00505309607.html",
+      "evidence": "2026-07-19 現行募集ページなし."
+    },
+    {
+      "slug": "handa-newlywed-housing",
+      "municipality": "半田市",
+      "prefecture": "愛知県",
+      "status": "resolved-as-expired-suppression",
+      "title": "半田市 結婚新生活支援補助金（現行公式確認不可）",
+      "officialUrl": "https://www.city.handa.lg.jp/kosodate/1008364/index.html",
+      "evidence": "2026-07-19 現行募集ページなし."
+    },
+    {
+      "slug": "toyohashi-newlywed-housing",
+      "municipality": "豊橋市",
+      "prefecture": "愛知県",
+      "status": "resolved-as-hidden-alias",
+      "title": "豊橋市 新婚世帯住宅支援（空家利活用改修費補助金へ補正）",
+      "officialUrl": "https://www.city.toyohashi.lg.jp/18827.htm",
+      "evidence": "2026-07-19 空家利活用改修費補助金の新婚・子育て世帯上限66万円へ補正."
+    },
+    {
+      "slug": "toyohashi-newlywed-rent",
+      "municipality": "豊橋市",
+      "prefecture": "愛知県",
+      "status": "resolved-as-expired-suppression",
+      "title": "豊橋市 結婚新生活支援事業補助金（平成28年度末終了）",
+      "officialUrl": "https://www.city.toyohashi.lg.jp/23667.htm",
+      "evidence": "2026-07-19 結婚新生活支援事業補助金は平成28年度末終了."
+    },
+    {
+      "slug": "toyota-newlywed-rent",
+      "municipality": "豊田市",
+      "prefecture": "愛知県",
+      "status": "resolved-as-hidden-alias",
+      "title": "豊田市 結婚新生活支援補助金",
+      "officialUrl": "https://www.city.toyota.aichi.jp/sumaikankyo/sumaitochi/teiju/1073800/1059627.html",
+      "evidence": "2026-07-19 現行公式制度が正規slugに存在."
+    }
+  ]
+}

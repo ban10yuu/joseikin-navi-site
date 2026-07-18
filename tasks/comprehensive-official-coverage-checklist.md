@@ -11847,3 +11847,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-003-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-003-url-status.txt`、`tasks/discovery/nationwide-final-audit-003-raw-gaps-after.json` を作成。公式/カテゴリURL 4/4 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100` はpassし、既存raw未検証slugは77件から73件へ減少。千葉県raw gapは0件。
 - 次回: raw gap残73件。上位は愛知県8、埼玉県7、長野県7、北海道7、大阪府5、兵庫県4。愛知県の結婚新生活支援候補から、3〜5自治体単位で公式本文/PDF確認を継続する。
+
+### 全国公式棚卸し最終監査004（愛知県raw gap 8件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-003-raw-gaps-after.json` の愛知県8件、一宮市 `ichinomiya-newlywed-housing`、岡崎市 `okazaki-newlywed-housing`、春日井市 `kasugai-newlywed-housing`、瀬戸市 `seto-newlywed-housing`、半田市 `handa-newlywed-housing`、豊橋市 `toyohashi-newlywed-housing` / `toyohashi-newlywed-rent`、豊田市 `toyota-newlywed-rent` を確認。
+- 公式確認: 一宮市・岡崎市・春日井市・瀬戸市・半田市は、公式の定住/住まい/結婚支援/補助金導線で現行申請可能な結婚新生活支援補助金ページがないことを確認。豊橋市は公式空家バンクで新婚・子育て世帯向け空家利活用改修費補助金上限66万円を確認し、別公式ページで結婚新生活支援事業補助金が平成28年度末終了であることを確認。豊田市は公式「豊田市結婚新生活支援補助金」で対象費用、申請期間、最大60万円/30万円/10万円を確認。
+- 解消方法: 現行確認不可・終了の5件は期限切れ抑止。豊橋市空家利活用補正と豊田市現行制度は既存正規slugの公開重複を避ける期限切れ統合aliasとして追加。
+- 成果物: `tasks/discovery/nationwide-final-audit-004-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-004-url-status.txt`、`tasks/discovery/nationwide-final-audit-004-raw-gaps-after.json` を作成。公式/カテゴリURL 8/8 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100` はpassし、既存raw未検証slugは73件から65件へ減少。愛知県raw gapは0件。
+- 次回: raw gap残65件。上位は埼玉県7、長野県7、北海道7、大阪府5、兵庫県4。埼玉県の結婚新生活支援候補から、3〜5自治体単位で公式本文/PDF確認を継続する。
