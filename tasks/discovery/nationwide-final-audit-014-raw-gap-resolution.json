@@ -1,0 +1,274 @@
+{
+  "auditCode": "nationwide-final-audit-014-raw-gap-resolution",
+  "checkedAt": "2026-07-19T02:58:00+09:00",
+  "previousHead": "f720a9a",
+  "prefectures": [
+    "群馬県",
+    "秋田県"
+  ],
+  "rawGapBefore": 23,
+  "rawGapAfter": 19,
+  "prefectureRawGapAfter": {
+    "群馬県": 0,
+    "秋田県": 0
+  },
+  "urlStatus": [
+    {
+      "status": 200,
+      "contentType": "text/html",
+      "url": "https://www.city.isesaki.lg.jp/lifescenekarasagasu/kekkon_rikon/index.html"
+    },
+    {
+      "status": 200,
+      "contentType": "application/pdf",
+      "url": "https://www.city.isesaki.lg.jp/material/files/group/51/juuseikatu_honpen.pdf"
+    },
+    {
+      "status": 200,
+      "contentType": "text/html",
+      "url": "https://www.city.kiryu.lg.jp/shisei/machi/iinekiryu/1003449.html"
+    },
+    {
+      "status": 200,
+      "contentType": "application/pdf",
+      "url": "https://www.city.kiryu.lg.jp/_res/projects/default_project/_page_/001/003/449/teijushoreikinyoko.pdf"
+    },
+    {
+      "status": 200,
+      "contentType": "text/html",
+      "url": "https://www.city.kiryu.lg.jp/search.html?q=%E7%B5%90%E5%A9%9A%E6%96%B0%E7%94%9F"
+    },
+    {
+      "status": 200,
+      "contentType": "application/pdf",
+      "url": "https://www.city.kiryu.lg.jp/_res/projects/default_project/_page_/001/007/005/r8hojyokinitiran.pdf"
+    },
+    {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "url": "https://www.city.yokote.lg.jp/kurashi/1001145/1001293/1003943.html"
+    },
+    {
+      "status": 200,
+      "contentType": "application/pdf",
+      "url": "https://www.city.yokote.lg.jp/_res/projects/default_project/_page_/001/003/943/260401_flyer.pdf"
+    },
+    {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "url": "https://www.city.yokote.lg.jp/kurashi/1005575/1004970.html"
+    },
+    {
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "url": "https://www.city.daisen.lg.jp/archive/contents-11184"
+    },
+    {
+      "status": 200,
+      "contentType": "application/pdf",
+      "url": "https://www.city.daisen.lg.jp/uploads/contents/archive_0000000692_01/%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B4%E5%BA%A6%E5%A4%A7%E4%BB%99%E5%B8%82%E7%B5%90%E5%A9%9A%E6%96%B0%E7%94%9F%E6%B4%BB%E6%94%AF%E6%8F%B4%E4%BA%8B%E6%A5%AD%E3%83%81%E3%83%A9%E3%82%B7.pdf"
+    }
+  ],
+  "resolutions": [
+    {
+      "slug": "isesaki-newlywed-rent",
+      "organization": "伊勢崎市",
+      "prefecture": "群馬県",
+      "result": "official-unconfirmed-suppressed",
+      "officialUrl": "https://www.city.isesaki.lg.jp/lifescenekarasagasu/kekkon_rikon/index.html",
+      "sourceUrls": [
+        "https://www.city.isesaki.lg.jp/lifescenekarasagasu/kekkon_rikon/index.html",
+        "https://www.city.isesaki.lg.jp/material/files/group/51/juuseikatu_honpen.pdf"
+      ],
+      "evidence": "結婚・離婚ページは婚姻届等の手続き案内で、住生活基本計画PDFも政策方針。対象・金額・申請期限を備えた新婚世帯家賃補助の現行公式ページを確認できない。",
+      "action": "旧raw slugを掲載抑止レコードとして追加し、通常一覧の誤誘導を止めた。"
+    },
+    {
+      "slug": "kiryu-newlywed-rent",
+      "organization": "桐生市",
+      "prefecture": "群馬県",
+      "result": "corrected-to-official-related-support",
+      "officialUrl": "https://www.city.kiryu.lg.jp/shisei/machi/iinekiryu/1003449.html",
+      "sourceUrls": [
+        "https://www.city.kiryu.lg.jp/shisei/machi/iinekiryu/1003449.html",
+        "https://www.city.kiryu.lg.jp/_res/projects/default_project/_page_/001/003/449/teijushoreikinyoko.pdf",
+        "https://www.city.kiryu.lg.jp/search.html?q=%E7%B5%90%E5%A9%9A%E6%96%B0%E7%94%9F",
+        "https://www.city.kiryu.lg.jp/_res/projects/default_project/_page_/001/007/005/r8hojyokinitiran.pdf"
+      ],
+      "evidence": "黒保根地域定住促進奨励金の結婚祝金1組5万円と申請期間6か月以内を確認。住居費・引越費用最大30万円の結婚新生活支援補助金は公式検索・補助金一覧で確認できない。",
+      "action": "旧raw slugを黒保根地域定住促進奨励金へ補正統合し、住居費補助としての重複掲載を抑止した。"
+    },
+    {
+      "slug": "yokote-newlywed-rent",
+      "organization": "横手市",
+      "prefecture": "秋田県",
+      "result": "corrected-to-current-official-program",
+      "officialUrl": "https://www.city.yokote.lg.jp/kurashi/1001145/1001293/1003943.html",
+      "sourceUrls": [
+        "https://www.city.yokote.lg.jp/kurashi/1001145/1001293/1003943.html",
+        "https://www.city.yokote.lg.jp/_res/projects/default_project/_page_/001/003/943/260401_flyer.pdf",
+        "https://www.city.yokote.lg.jp/kurashi/1005575/1004970.html"
+      ],
+      "evidence": "令和8年度横手市結婚新生活支援事業補助金として、住宅賃借・引越・住宅取得・リフォーム、29歳以下60万円/39歳以下30万円、申請期限2027年3月12日を確認。",
+      "action": "旧raw slugの月額家賃補助候補を現行の結婚新生活支援事業補助金へ統合した。"
+    },
+    {
+      "slug": "daisen-newlywed-rent",
+      "organization": "大仙市",
+      "prefecture": "秋田県",
+      "result": "corrected-to-current-official-program",
+      "officialUrl": "https://www.city.daisen.lg.jp/archive/contents-11184",
+      "sourceUrls": [
+        "https://www.city.daisen.lg.jp/archive/contents-11184",
+        "https://www.city.daisen.lg.jp/uploads/contents/archive_0000000692_01/%E4%BB%A4%E5%92%8C%EF%BC%98%E5%B9%B4%E5%BA%A6%E5%A4%A7%E4%BB%99%E5%B8%82%E7%B5%90%E5%A9%9A%E6%96%B0%E7%94%9F%E6%B4%BB%E6%94%AF%E6%8F%B4%E4%BA%8B%E6%A5%AD%E3%83%81%E3%83%A9%E3%82%B7.pdf"
+      ],
+      "evidence": "令和8年度大仙市結婚新生活支援事業として、新居取得・家賃・リフォーム・引越費用、29歳以下60万円/39歳以下30万円、申請期間2026年6月1日から2027年3月31日を確認。",
+      "action": "旧raw slugを現行公式制度へ統合した。"
+    }
+  ],
+  "next": {
+    "rawGapAfter": 19,
+    "topPrefectures": {
+      "福岡県": 2,
+      "福島県": 2,
+      "愛媛県": 1,
+      "岡山県": 1,
+      "岩手県": 1,
+      "岐阜県": 1,
+      "宮城県": 1,
+      "広島県": 1,
+      "佐賀県": 1,
+      "三重県": 1,
+      "山口県": 1,
+      "青森県": 1,
+      "大分県": 1,
+      "長崎県": 1,
+      "島根県": 1,
+      "徳島県": 1,
+      "福井県": 1
+    },
+    "sampleGaps": [
+      {
+        "slug": "matsuyama-newlywed-rent",
+        "title": "松山市 結婚新生活支援補助金",
+        "organization": "松山市",
+        "prefecture": "愛媛県",
+        "category": "housing",
+        "maxAmount": "最大60万円",
+        "officialUrl": "https://www.city.matsuyama.ehime.jp/",
+        "file": "src/data/grants/city-batch46.ts"
+      },
+      {
+        "slug": "kurashiki-newlywed-rent",
+        "title": "倉敷市 新婚生活支援補助金",
+        "organization": "倉敷市",
+        "prefecture": "岡山県",
+        "category": "housing",
+        "maxAmount": "最大30万円",
+        "officialUrl": "https://www.city.kurashiki.okayama.jp/",
+        "file": "src/data/grants/city-batch52.ts"
+      },
+      {
+        "slug": "ichinoseki-newlywed-rent",
+        "title": "一関市 結婚新生活支援補助金",
+        "organization": "一関市",
+        "prefecture": "岩手県",
+        "category": "housing",
+        "maxAmount": "最大60万円",
+        "officialUrl": "https://www.city.ichinoseki.iwate.jp/",
+        "file": "src/data/grants/city-batch54.ts"
+      },
+      {
+        "slug": "gifu-city-newlywed-rent",
+        "title": "岐阜市 新婚世帯家賃補助制度",
+        "organization": "岐阜市",
+        "prefecture": "岐阜県",
+        "category": "housing",
+        "maxAmount": "月額最大3万円（最長2年間）",
+        "officialUrl": "https://www.city.gifu.lg.jp/",
+        "file": "src/data/grants/city-batch59.ts"
+      },
+      {
+        "slug": "osaki-newlywed-rent",
+        "title": "大崎市 新婚世帯家賃補助事業",
+        "organization": "大崎市",
+        "prefecture": "宮城県",
+        "category": "housing",
+        "maxAmount": "月額最大2万円（最長24か月）",
+        "officialUrl": "https://www.city.osaki.miyagi.jp/",
+        "file": "src/data/grants/city-batch63.ts"
+      },
+      {
+        "slug": "kure-newlywed-rent",
+        "title": "呉市 新婚世帯住居費補助金",
+        "organization": "呉市",
+        "prefecture": "広島県",
+        "category": "housing",
+        "maxAmount": "最大30万円",
+        "officialUrl": "https://www.city.kure.lg.jp/",
+        "file": "src/data/grants/city-batch52.ts"
+      },
+      {
+        "slug": "saga-city-newlywed-rent",
+        "title": "佐賀市 新婚世帯家賃補助金",
+        "organization": "佐賀市",
+        "prefecture": "佐賀県",
+        "category": "housing",
+        "maxAmount": "月額最大2万円（最長2年間・最大48万円）",
+        "officialUrl": "https://www.city.saga.lg.jp/",
+        "file": "src/data/grants/city-batch47.ts"
+      },
+      {
+        "slug": "yokkaichi-newlywed-rent",
+        "title": "四日市市 新婚世帯家賃補助制度",
+        "organization": "四日市市",
+        "prefecture": "三重県",
+        "category": "housing",
+        "maxAmount": "月額最大3万円（最長2年間）",
+        "officialUrl": "https://www.city.yokkaichi.mie.jp/",
+        "file": "src/data/grants/city-batch59.ts"
+      },
+      {
+        "slug": "shunan-newlywed-rent",
+        "title": "周南市 新婚世帯家賃補助",
+        "organization": "周南市",
+        "prefecture": "山口県",
+        "category": "housing",
+        "maxAmount": "最大月額3万円（最長3年間）",
+        "officialUrl": "https://www.city.shunan.lg.jp/",
+        "file": "src/data/grants/city-batch60.ts"
+      },
+      {
+        "slug": "hirosaki-newlywed-rent",
+        "title": "弘前市 新婚世帯家賃補助制度",
+        "organization": "弘前市",
+        "prefecture": "青森県",
+        "category": "housing",
+        "maxAmount": "月額最大2万円（最長2年）",
+        "officialUrl": "https://www.city.hirosaki.aomori.jp/",
+        "file": "src/data/grants/city-batch62.ts"
+      },
+      {
+        "slug": "oita-city-newlywed-rent",
+        "title": "大分市 新婚世帯住居費補助金",
+        "organization": "大分市",
+        "prefecture": "大分県",
+        "category": "housing",
+        "maxAmount": "最大30万円",
+        "officialUrl": "https://www.city.oita.oita.jp/",
+        "file": "src/data/grants/city-batch47.ts"
+      },
+      {
+        "slug": "sasebo-newlywed-rent",
+        "title": "佐世保市 結婚新生活支援事業",
+        "organization": "佐世保市",
+        "prefecture": "長崎県",
+        "category": "housing",
+        "maxAmount": "最大60万円",
+        "officialUrl": "https://www.city.sasebo.lg.jp/",
+        "file": "src/data/grants/city-batch53.ts"
+      }
+    ]
+  },
+  "notes": "既存raw gapは23件から19件へ減少。群馬県・秋田県はいずれもraw gap 0。全国公式棚卸しは未完了。"
+}

@@ -11937,3 +11937,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-013-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-013-url-status.txt`、`tasks/discovery/nationwide-final-audit-013-raw-gaps-after.json` を作成。公式URL/PDF 8/8 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは26件から23件へ減少。栃木県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-013-coverage.log` に保存。
 - 次回: raw gap残23件。上位は群馬県2、秋田県2、福岡県2、福島県2。群馬県のraw gap2件から、公式本文/PDF確認を継続する。
+
+### 全国公式棚卸し最終監査014（群馬県・秋田県raw gap 4件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-013-raw-gaps-after.json` の群馬県2件、伊勢崎市 `isesaki-newlywed-rent`、桐生市 `kiryu-newlywed-rent`、および秋田県2件、横手市 `yokote-newlywed-rent`、大仙市 `daisen-newlywed-rent` を確認。
+- 公式確認: 伊勢崎市は公式「結婚・離婚」ページと住生活基本計画PDFを確認したが、月額2万円・最長2年間の新婚世帯家賃補助の現行公式個別ページは確認不可。桐生市は公式「黒保根地域定住促進奨励金」と要綱PDFで結婚祝金1組5万円、婚姻届受理日から6か月以内を確認し、サイト内検索と令和8年度補助金一覧PDFでは住居費・引越費用最大30万円の結婚新生活支援補助金は確認不可。横手市は公式「横手市結婚新生活支援事業補助金」で住宅賃借・引越・住宅取得・リフォーム費用、29歳以下上限60万円・39歳以下上限30万円、申請期限2027年3月12日を確認。大仙市は公式「令和8年度大仙市結婚新生活支援事業」で新居取得・家賃・リフォーム・引越費用、29歳以下上限60万円・30歳以上39歳以下を含む世帯上限30万円、申請期間2026年6月1日から2027年3月31日を確認。
+- 解消方法: 伊勢崎市は現行公式確認不可として期限切れ抑止レコードを追加。桐生市は黒保根地域定住促進奨励金へ補正統合し、旧rawの住居費補助としての重複掲載を抑止。横手市と大仙市は令和8年度の公式結婚新生活支援事業へ統合し、旧raw slugを解消。
+- 成果物: `tasks/discovery/nationwide-final-audit-014-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-014-url-status.txt`、`tasks/discovery/nationwide-final-audit-014-raw-gaps-after.json` を作成。公式URL/PDF/検索URL 11/11 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは23件から19件へ減少。群馬県・秋田県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-014-coverage.log` に保存。
+- 次回: raw gap残19件。上位は福岡県2、福島県2、以降は愛媛県・岡山県・岩手県・岐阜県・宮城県・広島県・佐賀県・三重県・山口県・青森県・大分県・長崎県・島根県・徳島県・福井県が各1。福岡県のraw gap2件から、公式本文/PDF確認を継続する。全国公式棚卸しは未完了。
