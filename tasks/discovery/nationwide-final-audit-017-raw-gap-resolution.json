@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-07-19T04:20:00+09:00",
+  "scope": "宮城県・広島県・佐賀県・三重県raw gap各1件の公式ページ単位解消",
+  "beforeRawGaps": 11,
+  "resolvedRawGaps": 4,
+  "afterRawGapsExpected": 7,
+  "items": [
+    {
+      "prefecture": "宮城県",
+      "municipality": "大崎市",
+      "rawSlug": "osaki-newlywed-rent",
+      "resolution": "official-not-implemented-suppressed",
+      "officialProgramName": "大崎市 新婚世帯家賃補助事業（結婚新生活支援は未実施）",
+      "target": "大崎市公式資料で結婚新生活支援事業補助金は取り組んでいないと確認したため対象外",
+      "amount": "結婚新生活支援事業補助金としては公式実施なし",
+      "conditions": "令和8年度地域少子化対策重点推進交付金はパパサークル育児講座であり、住居費補助ではない。空家活用定住支援事業は新規受付終了かつ移住・空き家活用向け。",
+      "deadline": "結婚新生活支援事業補助金として公式実施なし。通常一覧から除外。",
+      "officialUrl": "https://www.city.osaki.miyagi.jp/material/files/group/62/20251125miyagiseisinntandaitonoikennkoukannkai.pdf",
+      "sourceUrls": [
+        "https://www.city.osaki.miyagi.jp/material/files/group/62/20251125miyagiseisinntandaitonoikennkoukannkai.pdf",
+        "https://www.city.osaki.miyagi.jp/material/files/group/14/R8chiikisyoshikataisakujutenkofukin.pdf",
+        "https://www.city.osaki.miyagi.jp/shisei/soshikikarasagasu/kensetsubu/kenchikujuutakuka/1/2/3142.html",
+        "https://www.city.osaki.miyagi.jp/shisei/soshikikarasagasu/kensetsubu/kenchikujuutakuka/2/1/1/3180.html"
+      ],
+      "summary": "結婚新生活支援事業補助金を大崎市では実施していないと公式PDFで確認し、旧raw slugを掲載抑止として解消する。"
+    },
+    {
+      "prefecture": "広島県",
+      "municipality": "呉市",
+      "rawSlug": "kure-newlywed-rent",
+      "resolution": "official-current-integrated",
+      "officialProgramName": "呉市新婚・子育て世帯定住支援事業",
+      "target": "婚姻日から3年以内または婚姻予定で夫婦とも40歳未満の新婚世帯、または中学生以下の子がいる子育て世帯が市内の対象中古住宅を購入し定住する場合",
+      "amount": "基本額30万円、加算を含め最大100万円",
+      "conditions": "呉市に5年以上定住、自治会加入、市税滞納なし、暴力団員等でないこと、対象住宅の購入前申請等。",
+      "deadline": "令和8年度予算の範囲内。購入前に交付申請手続きが必要。",
+      "officialUrl": "https://www.city.kure.lg.jp/soshiki/46/kosodatesetainoteizyuusiennzigyou.html",
+      "sourceUrls": [
+        "https://www.city.kure.lg.jp/soshiki/46/kosodatesetainoteizyuusiennzigyou.html",
+        "https://kureto.city.kure.lg.jp/support/plan/328/"
+      ],
+      "summary": "旧raw候補を現行公式の新婚・子育て世帯定住支援事業へ統合し、通常一覧での重複掲載を抑止する。"
+    },
+    {
+      "prefecture": "佐賀県",
+      "municipality": "佐賀市",
+      "rawSlug": "saga-city-newlywed-rent",
+      "resolution": "official-current-integrated",
+      "officialProgramName": "佐賀市結婚新生活応援事業",
+      "target": "令和8年1月1日から令和9年2月28日までに婚姻届を提出・受理され、年齢・住所・所得・講座受講・市税等滞納なし等の公式要件を満たす夫婦",
+      "amount": "29歳以下は上限60万円、39歳以下は上限30万円",
+      "conditions": "婚姻日時点39歳以下、佐賀市民で対象住宅に居住、所得合計500万円未満、ライフデザイン支援講座等受講、生活保護等なし等。",
+      "deadline": "令和8年8月1日から令和9年2月28日まで。窓口・郵送は令和9年2月26日17時終了。予算上限到達時は終了。",
+      "officialUrl": "https://www.city.saga.lg.jp/shisei/sagashioshiru/2/3/8288.html",
+      "sourceUrls": [
+        "https://www.city.saga.lg.jp/shisei/sagashioshiru/2/3/8288.html",
+        "https://www.city.saga.lg.jp/material/files/group/6/p1jkmhfbjheuu1oh6o91jd0s304.pdf"
+      ],
+      "summary": "旧rawの新婚世帯家賃補助候補を令和8年度の公式結婚新生活応援事業へ統合し、通常一覧での重複掲載を抑止する。"
+    },
+    {
+      "prefecture": "三重県",
+      "municipality": "四日市市",
+      "rawSlug": "yokkaichi-newlywed-rent",
+      "resolution": "official-current-integrated",
+      "officialProgramName": "四日市市結婚祝金給付制度",
+      "target": "婚姻届提出日時点で夫婦とも39歳以下、申請時点で夫婦が市内居住・住民登録、2年以上定住意思、市税完納等を満たす夫婦",
+      "amount": "1夫婦あたり10万円",
+      "conditions": "夫婦とも結婚祝金の交付を受けていないこと、交付決定日から2年以上四日市市に定住する意思があること、市税完納等。",
+      "deadline": "婚姻届出日から6カ月以内。",
+      "officialUrl": "https://www.city.yokkaichi.lg.jp/www/contents/1679449220057/index.html",
+      "sourceUrls": [
+        "https://www.city.yokkaichi.lg.jp/www/contents/1679449220057/index.html",
+        "https://www.city.yokkaichi.lg.jp/www/contents/1679449220057/simple/FAQ.pdf",
+        "https://www.city.yokkaichi.lg.jp/www/contents/1001000001794/index.html"
+      ],
+      "summary": "旧rawの月額家賃補助候補を現行公式の結婚祝金給付制度へ補正統合し、通常一覧での重複掲載を抑止する。"
+    }
+  ],
+  "urlReachability": "official URL/PDF 11/11 HTTP 200 in nationwide-final-audit-017-url-status.txt",
+  "next": "山口県・青森県・大分県・長崎県raw gap各1件の公式ページ単位解消"
+}

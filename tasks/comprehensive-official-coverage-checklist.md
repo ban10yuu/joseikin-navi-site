@@ -11964,3 +11964,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-016-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-016-url-status.txt`、`tasks/discovery/nationwide-final-audit-016-raw-gaps-after.json` を作成。公式URL/PDF 10/10 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは15件から11件へ減少。愛媛県・岡山県・岩手県・岐阜県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-016-coverage.log` に保存。
 - 次回: raw gap残11件。宮城県・広島県・佐賀県・三重県・山口県・青森県・大分県・長崎県・島根県・徳島県・福井県が各1。次は宮城県のraw gap1件から、公式本文/PDF確認を継続する。全国公式棚卸しは未完了。
+
+### 全国公式棚卸し最終監査017（宮城県・広島県・佐賀県・三重県raw gap 4件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-016-raw-gaps-after.json` の宮城県1件、大崎市 `osaki-newlywed-rent`、広島県1件、呉市 `kure-newlywed-rent`、佐賀県1件、佐賀市 `saga-city-newlywed-rent`、三重県1件、四日市市 `yokkaichi-newlywed-rent` を確認。
+- 公式確認: 大崎市は公式意見交換会報告書PDFで、結婚新生活支援事業補助金を「大崎市では取り組んでおりません」と確認。呉市は公式「新婚・子育て世帯定住支援事業」で中古住宅購入、基本額30万円、加算込み最大100万円、購入前申請、令和8年度予算内を確認。佐賀市は公式「結婚新生活応援事業」で住宅取得・改修・賃借・引越費用、29歳以下上限60万円・39歳以下上限30万円、受付2026年8月1日から2027年2月28日を確認。四日市市は公式「結婚祝金給付制度」で1夫婦10万円、夫婦とも39歳以下、市内居住・住民登録、2年以上定住意思、市税完納、婚姻届出日から6カ月以内申請を確認。
+- 解消方法: 大崎市は結婚新生活支援未実施の公式確認に基づき掲載抑止。呉市と佐賀市は現行公式の住居関連制度へ統合。四日市市は旧rawの月額家賃補助を現行公式の結婚祝金給付制度へ補正統合し、通常一覧への重複・誤掲載を抑止。
+- 成果物: `tasks/discovery/nationwide-final-audit-017-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-017-url-status.txt`、`tasks/discovery/nationwide-final-audit-017-raw-gaps-after.json` を作成。公式URL/PDF 11/11 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは11件から7件へ減少。宮城県・広島県・佐賀県・三重県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-017-coverage.log` に保存。
+- 次回: raw gap残7件。山口県・青森県・大分県・長崎県・島根県・徳島県・福井県が各1。次は山口県のraw gap1件から、公式本文/PDF確認を継続する。全国公式棚卸しは未完了。

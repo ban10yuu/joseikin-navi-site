@@ -1,45 +1,45 @@
 {
-  "updatedAt": "2026-07-19T03:50:00+09:00",
+  "updatedAt": "2026-07-19T04:20:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nationwide-final-audit-016",
-    "municipality": "愛媛県・岡山県・岩手県・岐阜県raw gap4件解消（松山市・倉敷市・一関市・岐阜市）",
+    "code": "nationwide-final-audit-017",
+    "municipality": "宮城県・広島県・佐賀県・三重県raw gap4件解消（大崎市・呉市・佐賀市・四日市市）",
     "adopted": 0,
-    "held": 11,
+    "held": 7,
     "excluded": 4,
-    "sourceUrlsChecked": 10,
+    "sourceUrlsChecked": 11,
     "validation": {
-      "previousMunicipality": "全国公式棚卸し最終監査015後、既存raw未検証15件のうち愛媛県・岡山県・岩手県・岐阜県各1件を公式本文/PDFで確認。松山市と岐阜市は令和8年度結婚新生活支援へ統合、倉敷市は同名新婚住居費支援の現行公式個別ページを確認できず掲載抑止、一関市は令和8年度未確定かつ令和7年度終了のため掲載抑止した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "全国公式棚卸し最終監査016後、既存raw未検証11件のうち宮城県・広島県・佐賀県・三重県各1件を公式本文/PDFで確認。大崎市は結婚新生活支援未実施として掲載抑止、呉市は新婚・子育て世帯定住支援へ統合、佐賀市は結婚新生活応援事業へ統合、四日市市は結婚祝金給付制度へ補正統合した。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: nationwide-final-audit-016-raw-gap-resolution.json, raw-gaps-after, checkpoint parsed; raw gaps 15 -> 11, 愛媛県・岡山県・岩手県・岐阜県raw gap 0",
+      "json": "pass: nationwide-final-audit-017-raw-gap-resolution.json, raw-gaps-after, checkpoint parsed; raw gaps 11 -> 7, 宮城県・広島県・佐賀県・三重県raw gap 0",
       "addedSlugUniqueness": "pass: audit-raw-verified-gaps recognized 4 added raw slugs; duplicateRawSlugs remains existing baseline only",
-      "urlReachability": "pass: official URL/PDF 10/10 HTTP 200 in tasks/discovery/nationwide-final-audit-016-url-status.txt",
+      "urlReachability": "pass: official URL/PDF 11/11 HTTP 200 in tasks/discovery/nationwide-final-audit-017-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on nationwide-final-audit-016 target files",
-      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at existing unrelated src/lib/grant-copy.ts:114 tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-016-coverage.log",
-      "notes": "raw gap解消対象は松山市、倉敷市、一関市、岐阜市の4件。愛媛県・岡山県・岩手県・岐阜県raw gapは残0。"
+      "diffCheck": "pass: git diff --check on nationwide-final-audit-017 target files",
+      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at existing unrelated src/lib/grant-copy.ts:114 tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-017-coverage.log",
+      "notes": "raw gap解消対象は大崎市、呉市、佐賀市、四日市市の4件。宮城県・広島県・佐賀県・三重県raw gapは残0。"
     }
   },
   "next": {
-    "code": "nationwide-final-audit-017-raw-gap-resolution",
-    "municipality": "宮城県・広島県・佐賀県・三重県raw gap各1件の公式ページ単位解消",
-    "shortlist": "最終監査016後の既存raw未検証は11件。宮城県・広島県・佐賀県・三重県・山口県・青森県・大分県・長崎県・島根県・徳島県・福井県が各1。次回は宮城県raw gap1件から自治体コード順・都道府県順で、公式個別URL・対象・金額/上限・条件・期限/受付状況を確認し、採用/期限切れ/除外を制度単位で記録する。",
-    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-016-raw-gaps-after.json、nationwide-final-audit-016-raw-gap-resolution.json、チェックリスト、HEADだけで復旧する。1ターンで3〜5自治体または60〜100制度または45〜55分まで、既存raw gapを公式本文/PDF単位で解消する。国・公的機関と第2巡保留はraw gap解消後に正規化監査へ進む。"
+    "code": "nationwide-final-audit-018-raw-gap-resolution",
+    "municipality": "山口県・青森県・大分県・長崎県raw gap各1件の公式ページ単位解消",
+    "shortlist": "最終監査017後の既存raw未検証は7件。山口県・青森県・大分県・長崎県・島根県・徳島県・福井県が各1。次回は山口県raw gap1件から自治体コード順・都道府県順で、公式個別URL・対象・金額/上限・条件・期限/受付状況を確認し、採用/期限切れ/除外を制度単位で記録する。",
+    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-017-raw-gaps-after.json、nationwide-final-audit-017-raw-gap-resolution.json、チェックリスト、HEADだけで復旧する。1ターンで3〜5自治体または60〜100制度または45〜55分まで、既存raw gapを公式本文/PDF単位で解消する。国・公的機関と第2巡保留はraw gap解消後に正規化監査へ進む。"
   },
   "prefectureMilestone": {
     "prefecture": "全国最終監査",
-    "completedBatches": "final-audit-016",
-    "completedMunicipalitiesAndEntities": 69,
+    "completedBatches": "final-audit-017",
+    "completedMunicipalitiesAndEntities": 73,
     "adopted": 0,
     "recent15": {
-      "batches": "全国最終監査014-016",
+      "batches": "全国最終監査015-017",
       "municipalities": 12,
       "adopted": 0,
       "compactions": 5,
-      "shortlistAdoptionRate": "12/12 raw gaps resolved since final-audit-014; Gunma/Akita/Fukuoka/Fukushima/Ehime/Okayama/Iwate/Gifu all targeted prefecture gaps resolved",
-      "auditRuns": 74,
-      "commits": 14,
-      "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは82から11へ減少。ただし未判定/保留記録、国・公的機関の同粒度棚卸し未確認、coverage監査ブロッカーが残るため全国完了ではない。"
+      "shortlistAdoptionRate": "12/12 raw gaps resolved since final-audit-015; Fukuoka/Fukushima/Ehime/Okayama/Iwate/Gifu/Miyagi/Hiroshima/Saga/Mie all targeted prefecture gaps resolved",
+      "auditRuns": 75,
+      "commits": 15,
+      "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは82から7へ減少。ただし未判定/保留記録、国・公的機関の同粒度棚卸し未確認、coverage監査ブロッカーが残るため全国完了ではない。"
     }
   },
   "batchRules": {
