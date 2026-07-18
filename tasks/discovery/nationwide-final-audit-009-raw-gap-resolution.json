@@ -1,0 +1,74 @@
+{
+  "auditCode": "nationwide-final-audit-009-raw-gap-resolution",
+  "checkedAt": "2026-07-19T02:43:00+09:00",
+  "prefecture": "兵庫県",
+  "rawGapBefore": 39,
+  "rawGapAfter": 35,
+  "prefectureRawGapAfter": 0,
+  "resolutions": [
+    {
+      "slug": "kakogawa-newlywed-rent",
+      "municipality": "加古川市",
+      "action": "公式制度へ統合・重複抑止",
+      "officialUrl": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/kodomoseisaku/kekkonshinseikatsu/31177.html",
+      "basis": "令和8年度結婚新生活支援補助金で、住居費・リフォーム費用・引越費用、最大60万円、申請期間2026年6月1日から2027年3月31日を確認。"
+    },
+    {
+      "slug": "kobe-newlywed-rent",
+      "municipality": "神戸市",
+      "action": "公式制度へ補正統合・重複抑止",
+      "officialUrl": "https://www.city.kobe.lg.jp/a01110/kurashi/sumai/jutaku/information/shinkonportal/",
+      "basis": "神戸市では結婚新生活支援事業を実施しておらず、若年夫婦・子育て世帯の住み替え支援として住みかえーるを実施。市外転入20万円、それ以外10万円。"
+    },
+    {
+      "slug": "amagasaki-newlywed-rent",
+      "municipality": "尼崎市",
+      "action": "公式制度へ補正統合・重複抑止",
+      "officialUrl": "https://www.city.amagasaki.hyogo.jp/kurashi/sumai/tintai/1038346.html",
+      "basis": "民間賃貸住宅住替え補助で、若年夫婦世帯・子育て世帯、市内民間賃貸住宅への住替え、住替え費用補助、住宅要件を確認。"
+    },
+    {
+      "slug": "himeji-newlywed-rent",
+      "municipality": "姫路市",
+      "action": "公式制度へ統合・重複抑止",
+      "officialUrl": "https://www.city.himeji.lg.jp/kurashi/0000016350.html",
+      "basis": "結婚新生活支援補助金で、新婚世帯、住宅購入費、リフォーム費、家賃、転居費用等の補助、対象世帯・対象経費・上限額・申請期間の案内を確認。"
+    }
+  ],
+  "urlStatus": [
+    {
+      "slug": "kakogawa-newlywed-rent",
+      "status": 200,
+      "finalUrl": "https://www.city.kakogawa.lg.jp/soshikikarasagasu/kodomo/kodomoseisaku/kekkonshinseikatsu/31177.html",
+      "elapsed": "283ms"
+    },
+    {
+      "slug": "kobe-newlywed-rent",
+      "status": 200,
+      "finalUrl": "https://www.city.kobe.lg.jp/a01110/kurashi/sumai/jutaku/information/shinkonportal/",
+      "elapsed": "201ms"
+    },
+    {
+      "slug": "amagasaki-newlywed-rent",
+      "status": 200,
+      "finalUrl": "https://www.city.amagasaki.hyogo.jp/kurashi/sumai/tintai/1038346.html",
+      "elapsed": "334ms"
+    },
+    {
+      "slug": "himeji-newlywed-rent",
+      "status": 200,
+      "finalUrl": "https://www.city.himeji.lg.jp/kurashi/0000016350.html",
+      "elapsed": "906ms"
+    }
+  ],
+  "next": {
+    "rawGaps": 35,
+    "topPrefectures": {
+      "茨城県": 3,
+      "鹿児島県": 3,
+      "神奈川県": 3,
+      "栃木県": 3,
+      "群馬県": 2
+    }
+  }
+}

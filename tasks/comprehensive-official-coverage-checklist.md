@@ -11892,3 +11892,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-008-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-008-url-status.txt`、`tasks/discovery/nationwide-final-audit-008-raw-gaps-after.json` を作成。公式制度URL 5/5 と大阪市PDFはHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは44件から39件へ減少。大阪府raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - 次回: raw gap残39件。上位は兵庫県4、茨城県3、鹿児島県3、神奈川県3、栃木県3。兵庫県のraw gap4件から、公式本文/PDF確認を継続する。
+
+### 全国公式棚卸し最終監査009（兵庫県raw gap 4件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-008-raw-gaps-after.json` の兵庫県4件、加古川市 `kakogawa-newlywed-rent`、神戸市 `kobe-newlywed-rent`、尼崎市 `amagasaki-newlywed-rent`、姫路市 `himeji-newlywed-rent` を確認。
+- 公式確認: 加古川市は令和8年度結婚新生活支援補助金で住居費・リフォーム費用・引越費用、最大60万円、申請期間2026年6月1日から2027年3月31日を確認。神戸市は結婚新生活支援事業未実施を確認し、若年夫婦・子育て世帯向けの住みかえーるへ補正。尼崎市は民間賃貸住宅住替え補助で若年夫婦世帯・子育て世帯、住替え費用補助、住宅要件を確認。姫路市は結婚新生活支援補助金で住宅購入費、リフォーム費、家賃、転居費用等の補助を確認。
+- 解消方法: 4件とも既存正規slugまたは公式補正済み制度の公開重複を避ける期限切れ統合aliasとして追加。旧rawの新婚世帯家賃補助名は現行公式の結婚新生活支援補助金または住み替え支援へ補正し、通常一覧への重複掲載を抑止。
+- 成果物: `tasks/discovery/nationwide-final-audit-009-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-009-url-status.txt`、`tasks/discovery/nationwide-final-audit-009-raw-gaps-after.json` を作成。公式URL 4/4 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは39件から35件へ減少。兵庫県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- 次回: raw gap残35件。上位は茨城県3、鹿児島県3、神奈川県3、栃木県3、群馬県2、秋田県2、福岡県2、福島県2。茨城県のraw gap3件から、公式本文/PDF確認を継続する。
