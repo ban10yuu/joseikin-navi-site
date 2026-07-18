@@ -1,0 +1,93 @@
+{
+  "auditCode": "nationwide-final-audit-008-raw-gap-resolution",
+  "checkedAt": "2026-07-19T02:24:00+09:00",
+  "prefecture": "大阪府",
+  "rawGapBefore": 44,
+  "rawGapAfter": 39,
+  "prefectureRawGapAfter": 0,
+  "resolutions": [
+    {
+      "slug": "kishiwada-newlywed-rent",
+      "municipality": "岸和田市",
+      "action": "公式制度へ補正統合・重複抑止",
+      "officialUrl": "https://www.city.kishiwada.lg.jp/page/122-akiya-reform.html",
+      "basis": "空家リフォーム事業補助金は最大50万円を確認。新婚世帯家賃補助は現行公式制度として確認できないため、住居・定住支援の公式制度へ統合。"
+    },
+    {
+      "slug": "suita-newlywed-rent",
+      "municipality": "吹田市",
+      "action": "公式制度へ補正統合・重複抑止",
+      "officialUrl": "https://www.city.suita.osaka.jp/kenko/1018735/1018736/1014741.html",
+      "basis": "住居確保給付金は離職・休業等による住居喪失リスクが対象で、家賃上限は単身3.9万円、2人4.7万円、3人以上5.1万円。新婚世帯限定の家賃補助は確認不可。"
+    },
+    {
+      "slug": "osaka-city-newlywed-rent",
+      "municipality": "大阪市",
+      "action": "公式制度へ補正統合・重複抑止",
+      "officialUrl": "https://www.city.osaka.lg.jp/fukushi/page/0000303608.html",
+      "basis": "住居確保給付金（家賃補助）は単身4万円、2人4.8万円、3から5人5.2万円などの上限を確認。旧rawの新婚世帯向け家賃補助は公式の家賃給付へ統合。"
+    },
+    {
+      "slug": "yao-newlywed-rent",
+      "municipality": "八尾市",
+      "action": "公式制度へ補正統合・重複抑止",
+      "officialUrl": "https://www.city.yao.osaka.jp/kurashi_tetsuzuki/soudan/1003616/1019981.html",
+      "basis": "住居確保給付金の家賃補助上限は単身39,000円、2人47,000円、3から5人51,000円、6人55,000円。旧rawの新婚家賃補助を公式給付へ統合。"
+    },
+    {
+      "slug": "toyonaka-newlywed-rent",
+      "municipality": "豊中市",
+      "action": "公式制度へ補正統合・重複抑止",
+      "officialUrl": "https://www.city.toyonaka.osaka.jp/kurashi/roudou/kurashi_topix/jyuukyo.html",
+      "basis": "住居確保給付金の家賃額上限は単身4.2万円、2人5万円、3から5人5.5万円など。新婚世帯限定の家賃補助は確認不可。"
+    }
+  ],
+  "urlStatus": [
+    {
+      "slug": "kishiwada-newlywed-rent",
+      "status": 200,
+      "finalUrl": "https://www.city.kishiwada.lg.jp/page/122-akiya-reform.html",
+      "elapsed": "457ms"
+    },
+    {
+      "slug": "suita-newlywed-rent",
+      "status": 200,
+      "finalUrl": "https://www.city.suita.osaka.jp/kenko/1018735/1018736/1014741.html",
+      "elapsed": "344ms"
+    },
+    {
+      "slug": "osaka-city-newlywed-rent",
+      "status": 200,
+      "finalUrl": "https://www.city.osaka.lg.jp/fukushi/page/0000303608.html",
+      "elapsed": "1932ms"
+    },
+    {
+      "slug": "osaka-city-newlywed-rent-pdf",
+      "status": 200,
+      "finalUrl": "https://www.city.osaka.lg.jp/fukushi/cmsfiles/contents/0000303/303608/panhu.pdf",
+      "elapsed": "165ms"
+    },
+    {
+      "slug": "yao-newlywed-rent",
+      "status": 200,
+      "finalUrl": "https://www.city.yao.osaka.jp/kurashi_tetsuzuki/soudan/1003616/1019981.html",
+      "elapsed": "435ms"
+    },
+    {
+      "slug": "toyonaka-newlywed-rent",
+      "status": 200,
+      "finalUrl": "https://www.city.toyonaka.osaka.jp/kurashi/roudou/kurashi_topix/jyuukyo.html",
+      "elapsed": "373ms"
+    }
+  ],
+  "next": {
+    "rawGaps": 39,
+    "topPrefectures": {
+      "兵庫県": 4,
+      "茨城県": 3,
+      "鹿児島県": 3,
+      "神奈川県": 3,
+      "栃木県": 3
+    }
+  }
+}

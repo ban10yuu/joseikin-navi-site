@@ -11883,3 +11883,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-007-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-007-url-status.txt`、`tasks/discovery/nationwide-final-audit-007-raw-gaps-after.json` を作成。公式URL 7/7 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは51件から44件へ減少。北海道raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - 次回: raw gap残44件。上位は大阪府5、兵庫県4、茨城県3、鹿児島県3、神奈川県3、栃木県3。大阪府のraw gap5件から、公式本文/PDF確認を継続する。
+
+### 全国公式棚卸し最終監査008（大阪府raw gap 5件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-007-raw-gaps-after.json` の大阪府5件、岸和田市 `kishiwada-newlywed-rent`、吹田市 `suita-newlywed-rent`、大阪市 `osaka-city-newlywed-rent`、八尾市 `yao-newlywed-rent`、豊中市 `toyonaka-newlywed-rent` を確認。
+- 公式確認: 岸和田市は空家リフォーム事業補助金最大50万円を確認し、新婚世帯家賃補助は現行公式確認不可。吹田市は住居確保給付金で家賃上限単身3.9万円、2人4.7万円、3人以上5.1万円を確認。大阪市は住居確保給付金（家賃補助）で単身4万円、2人4.8万円、3から5人5.2万円等と公式PDFを確認。八尾市は住居確保給付金で単身39,000円、2人47,000円、3から5人51,000円、6人55,000円を確認。豊中市は住居確保給付金で単身4.2万円、2人5万円、3から5人5.5万円等を確認。
+- 解消方法: 5件とも既存正規slugまたは公式補正済み制度の公開重複を避ける期限切れ統合aliasとして追加。旧rawの新婚世帯家賃補助名は現行公式の住居支援・住居確保給付金へ補正し、通常一覧への重複掲載を抑止。
+- 成果物: `tasks/discovery/nationwide-final-audit-008-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-008-url-status.txt`、`tasks/discovery/nationwide-final-audit-008-raw-gaps-after.json` を作成。公式制度URL 5/5 と大阪市PDFはHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは44件から39件へ減少。大阪府raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- 次回: raw gap残39件。上位は兵庫県4、茨城県3、鹿児島県3、神奈川県3、栃木県3。兵庫県のraw gap4件から、公式本文/PDF確認を継続する。
