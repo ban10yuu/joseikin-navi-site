@@ -15,14 +15,14 @@
 
 | 状態 | 自治体 | 制度候補 | 公式URL | メモ |
 |---|---|---|---|---|
-| 未反映 | 天理市 | 天理市移住支援金 | https://www.city.tenri.nara.jp/kakuka/kankyoukeizaibu/sangyoukyousouryokukyoukasitu/1568250403738.html | 奈良県との共同事業。移住支援金として収録候補。 |
-| 未反映 | 天理市 | 既存木造住宅耐震改修支援 | https://www.city.tenri.nara.jp/kakuka/kensetsubu/eizenka/sumai/support/1390445660957.html | 令和8年度。耐震改修工事費用の一部補助。 |
-| 未反映 | 天理市 | 既存木造住宅耐震診断支援 | https://www.city.tenri.nara.jp/kakuka/kensetsubu/eizenka/sumai/support/1390453934962.html | 令和8年度。耐震診断費用を助成。 |
-| 未反映 | 天理市 | 特殊詐欺等防止対策機器購入費補助金 | https://www.city.tenri.nara.jp/kakuka/kurasibunkabu/bousaianzenka/bouhan/8409.html | 令和8年度。防犯電話等の購入費補助。 |
-| 未反映 | 天理市 | 天理市国保脳ドック検診助成 | https://www.city.tenri.nara.jp/kakuka/kurasibunkabu/hokeniryouka/kenkouhoken/8347.html | 国保加入者向け検診費助成。 |
-| 未反映 | 天理市 | 企業立地支援制度 | https://www.city.tenri.nara.jp/kakuka/kankyoukeizaibu/sangyoukyousouryokukyoukasitu/1420431875185.html | 固定資産税相当額・地元雇用奨励金。 |
-| 要判定 | 天理市 | 物価高騰支援給付金 | https://www.city.tenri.nara.jp/kakuka/kenkoufukushibu/shakaifukushika/14147.html | 申請期限が過去の場合は期限切れ扱いまたは掲載停止。 |
-| 要判定 | 天理市 | 物価高対応子育て応援手当 | https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/kodomoshienka/kakushu_teate/15334.html | 受付終了表記あり。期限切れ扱いで収録するか判定。 |
+| 解消（既存統合） | 天理市 | 天理市移住支援金 | https://www.city.tenri.nara.jp/kakuka/kankyoukeizaibu/sangyoukyousouryokukyoukasitu/1568250403738.html | 2026-07-19確認。奈良県移住支援金レコード `nara-migration-support` の sourceUrls に天理市公式ページを保持済み。単身60万円・世帯100万円・18歳未満1人100万円加算を公式本文で確認。 |
+| 反映 | 天理市 | 既存木造住宅耐震改修支援 | https://www.city.tenri.nara.jp/kakuka/kensetsubu/eizenka/sumai/support/1390445660957.html | 2026-07-19確認。`tenri-wooden-house-seismic-retrofit-2026` として追加。耐震改修工事費用5分の4、上限115万円、令和8年5月18日から6月19日受付、工事完了期限令和9年1月31日。 |
+| 反映（募集終了） | 天理市 | 既存木造住宅耐震診断支援 | https://www.city.tenri.nara.jp/kakuka/kensetsubu/eizenka/sumai/support/1390453934962.html | 2026-07-19確認。`tenri-wooden-house-seismic-diagnosis-2026` として追加。診断費用全額助成、令和8年度募集終了表記を保持。 |
+| 解消（既存反映） | 天理市 | 特殊詐欺等防止対策機器購入費補助金 | https://www.city.tenri.nara.jp/kakuka/kurasibunkabu/bousaianzenka/bouhan/8409.html | 2026-07-19確認。既存 `hyogo-nara-official-009-060-2026` が新URL `https://www.city.tenri.nara.jp/info/14855.html` で反映済み。旧URLもHTTP 200で、対象・2分の1・上限1万円・6月10日受付を公式本文で確認。 |
+| 反映 | 天理市 | 天理市国保脳ドック検診助成 | https://www.city.tenri.nara.jp/kakuka/kurasibunkabu/hokeniryouka/kenkouhoken/8347.html | 2026-07-19確認。`tenri-national-health-brain-dock-subsidy-2026` として追加。検診料金7割、上限2万8千円、令和8年4月3日受付、定員110名。 |
+| 反映 | 天理市 | 企業立地支援制度 | https://www.city.tenri.nara.jp/kakuka/kankyoukeizaibu/sangyoukyousouryokukyoukasitu/1420431875185.html | 2026-07-19確認。`tenri-enterprise-location-incentive-2026` として追加。固定資産税相当額3年または5年、雇用促進奨励金1人20万円・上限2,000万円。 |
+| 反映（期限切れ） | 天理市 | 物価高騰支援給付金 | https://www.city.tenri.nara.jp/kakuka/kenkoufukushibu/shakaifukushika/14147.html | 2026-07-19確認。`tenri-price-inflation-support-benefit-2025` として期限付き追加。住民税非課税世帯1世帯3万円、申請期限令和7年5月30日。 |
+| 反映（受付終了） | 天理市 | 物価高対応子育て応援手当 | https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/kodomoshienka/kakushu_teate/15334.html | 2026-07-19確認。`tenri-price-childcare-support-handout-2026` として期限付き追加。対象児童1人2万円、令和8年3月31日または4月30日期限、受付終了表記を保持。 |
 
 ## 次の作業
 

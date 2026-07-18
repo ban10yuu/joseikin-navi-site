@@ -1,45 +1,45 @@
 {
-  "updatedAt": "2026-07-19T05:15:00+09:00",
+  "updatedAt": "2026-07-19T05:58:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nationwide-final-audit-019",
-    "municipality": "島根県・徳島県・福井県raw gap3件解消（松江市・徳島市・福井市）",
-    "adopted": 0,
+    "code": "nationwide-final-audit-020-second-pass-normalization",
+    "municipality": "奈良県天理市第2巡先頭未解消候補8件",
+    "adopted": 6,
     "held": 0,
-    "excluded": 3,
-    "sourceUrlsChecked": 10,
+    "excluded": 0,
+    "sourceUrlsChecked": 8,
     "validation": {
-      "previousMunicipality": "全国公式棚卸し最終監査018後、既存raw未検証3件の島根県・徳島県・福井県各1件を公式本文/PDFで確認。松江市・徳島市は現行公式個別募集ページを確認できず掲載抑止、福井市は旧新婚世帯家賃補助候補を現行公式の結婚生活スタートアップ応援事業へ補正統合した。raw gap 0到達。ただし全国公式棚卸しは未完了。",
+      "previousMunicipality": "最終監査019後、raw gap 0を全国完了扱いにせず、チェックリスト先頭の天理市追加候補8件を第2巡正規化として公式本文で再確認。耐震改修、耐震診断、国保脳ドック、企業立地、物価高騰支援給付金、物価高対応子育て応援手当の6件を新規反映。移住支援金は奈良県移住支援金レコードに統合済み、特殊詐欺等防止対策機器購入費補助金は既存天理市レコードに反映済みとして解消。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: nationwide-final-audit-019-raw-gap-resolution.json, raw-gaps-after, checkpoint parsed; raw gaps 3 -> 0, 島根県・徳島県・福井県raw gap 0",
-      "addedSlugUniqueness": "pass: audit-raw-verified-gaps recognized 3 added raw slugs; duplicateRawSlugs remains existing baseline only",
-      "urlReachability": "pass: official URL/PDF 10/10 HTTP 200 in tasks/discovery/nationwide-final-audit-019-url-status.txt",
+      "json": "pass: nationwide-final-audit-020-tenri-second-pass-resolution.json and checkpoint parsed",
+      "addedSlugUniqueness": "pass: new second-pass slugs 6件は各1件のみ",
+      "urlReachability": "pass: 天理市公式URL 8/8 HTTP 200 in tasks/discovery/nationwide-final-audit-020-tenri-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on nationwide-final-audit-019 target files",
-      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at existing unrelated src/lib/grant-copy.ts:114 tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-019-coverage.log",
-      "notes": "raw gap解消対象は松江市、徳島市、福井市の3件。島根県・徳島県・福井県raw gapは残0。"
+      "diffCheck": "pass: git diff --check on nationwide-final-audit-020 target files",
+      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at existing unrelated src/lib/grant-copy.ts:114 tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-020-coverage.log",
+      "notes": "天理市先頭候補8件は0保留で解消。ただしraw gap 0と天理市候補解消は全国完了条件ではなく、第2巡保留・未判定台帳、国・公的機関の同粒度棚卸し、coverageブロッカーが残る。"
     }
   },
   "next": {
-    "code": "nationwide-final-audit-020-second-pass-normalization",
-    "municipality": "raw gap 0到達後の第2巡保留・国公的機関正規化監査",
-    "shortlist": "最終監査019後の既存raw未検証は0件見込み。ただしraw gap 0は全国完了条件ではない。第2巡保留、国・都道府県・公的機関の同粒度棚卸し、候補未判定解消、coverage監査ブロッカーの扱いを確認する。",
-    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-019-raw-gaps-after.json、nationwide-final-audit-019-raw-gap-resolution.json、チェックリスト、HEADだけで復旧する。raw gap 0を全国完了扱いにせず、第2巡保留台帳と国・公的機関の公式ページ単位棚卸し状況を確認して次の未完了単位へ進む。"
+    "code": "nationwide-final-audit-021-second-pass-ledger",
+    "municipality": "第2巡保留・未判定台帳の次未完了単位",
+    "shortlist": "天理市先頭候補8件は解消済み。次はtasks/discovery/nationwide-final-audit-001.jsonのblockersとchecklistの未判定/保留行を、HEAD・checkpoint・対象ファイルだけで再集計し、次の未完了自治体または国・公的機関単位から続行する。",
+    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-020-tenri-second-pass-resolution.json、nationwide-final-audit-020-tenri-url-status.txt、チェックリスト、HEADだけで復旧する。raw gap 0を全国完了扱いにせず、第2巡保留台帳と国・公的機関の公式ページ単位棚卸し状況を確認して次の未完了単位へ進む。"
   },
   "prefectureMilestone": {
     "prefecture": "全国最終監査",
-    "completedBatches": "final-audit-019",
+    "completedBatches": "final-audit-020",
     "completedMunicipalitiesAndEntities": 80,
     "adopted": 0,
     "recent15": {
-      "batches": "全国最終監査017-019",
-      "municipalities": 11,
-      "adopted": 0,
+      "batches": "全国最終監査017-020",
+      "municipalities": 12,
+      "adopted": 6,
       "compactions": 5,
-      "shortlistAdoptionRate": "11/11 raw gaps resolved since final-audit-017; Miyagi/Hiroshima/Saga/Mie/Yamaguchi/Aomori/Oita/Nagasaki/Shimane/Tokushima/Fukui all targeted prefecture gaps resolved",
-      "auditRuns": 77,
+      "shortlistAdoptionRate": "11/11 raw gaps resolved since final-audit-017; final-audit-020 resolved 8/8 Tenri second-pass candidates with 6 newly adopted and 2 already integrated/reflected",
+      "auditRuns": 78,
       "commits": 17,
-      "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは82から0へ減少。ただしraw gap 0は全国完了条件ではなく、未判定/保留記録、国・公的機関の同粒度棚卸し未確認、coverage監査ブロッカーが残るため全国完了ではない。"
+      "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは82から0へ減少し、天理市先頭第2巡候補8件も解消。ただしraw gap 0と天理市候補解消は全国完了条件ではなく、未判定/保留記録、国・公的機関の同粒度棚卸し未確認、coverage監査ブロッカーが残るため全国完了ではない。"
     }
   },
   "batchRules": {
