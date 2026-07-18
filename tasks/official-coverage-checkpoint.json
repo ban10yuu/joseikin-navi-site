@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-18T20:44:25+09:00",
+  "updatedAt": "2026-07-18T20:59:01+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "kagoshima-official-coverage-006",
-    "municipality": "大崎町・東串良町・錦江町・南大隅町・肝付町",
-    "adopted": 100,
+    "code": "kagoshima-official-coverage-007",
+    "municipality": "中種子町・南種子町・屋久島町・大和村・宇検村",
+    "adopted": 90,
     "held": 0,
-    "excluded": 360,
-    "sourceUrlsChecked": 100,
+    "excluded": 293,
+    "sourceUrlsChecked": 90,
     "validation": {
-      "previousMunicipality": "鹿児島県公式棚卸し006として46468大崎町、46482東串良町、46490錦江町、46491南大隅町、46492肝付町を確認し、100件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and node --check for kagoshima-official-coverage-006 discover/build passed",
-      "json": "pass: checkpoint, candidates, selections, adopted JSON parsed; candidates 460, selections 100, adopted 100, non200 0",
-      "addedSlugUniqueness": "pass: kagoshima-official-006-001-2026 through kagoshima-official-006-100-2026 present; added duplicate 0; global slug duplicate 0",
-      "urlReachability": "pass: build non200 empty; 100 adopted official URLs returned HTTP 200 by build fetch and saved to tasks/discovery/kagoshima-official-coverage-006-url-status.txt",
+      "previousMunicipality": "鹿児島県公式棚卸し007として46501中種子町、46502南種子町、46505屋久島町、46523大和村、46524宇検村を確認し、90件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and node --check for kagoshima-official-coverage-007 discover/build passed",
+      "json": "pass: checkpoint, candidates, selections, adopted JSON parsed; candidates 383, selections 90, adopted 90, non200 0",
+      "addedSlugUniqueness": "pass: kagoshima-official-007-001-2026 through kagoshima-official-007-090-2026 present; added duplicate 0; global slug duplicate 0",
+      "urlReachability": "pass: build non200 empty; 90 adopted official URLs returned HTTP 200 by build fetch and saved to tasks/discovery/kagoshima-official-coverage-007-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on 006 target files",
+      "diffCheck": "pass: git diff --check on 007 target files",
       "auditCoverage": "blocked: npm run audit:coverage still stops in unrelated src/lib/grant-copy.ts:114 sanitizeGrantCopy tags.map TypeError before coverage aggregation",
-      "notes": "公式トップは大崎町・東串良町・錦江町・南大隅町・肝付町すべてHTTP 200で確認。sitemap.xmlは東串良町・肝付町が200、大崎町・錦江町・南大隅町が404のため公式カテゴリBFSで補完。大崎町・錦江町・南大隅町は自治体CMSの部署別導線、東串良町はJoruri docs sitemap、肝付町はsitemap.dir.xml系導線で抽出。公式sitemap/カテゴリBFSで460候補（大崎町134、東串良町75、錦江町86、南大隅町17、肝付町148）を抽出し、title強一致85件。本文スニペット付き再スコアからカテゴリ、申請書単体、受付終了、募集終了、実績/採択、職員採用、同一制度の重複導線を除外。大崎町25、東串良町25、錦江町25、南大隅町7、肝付町18を採用。"
+      "notes": "公式トップは中種子町・南種子町・屋久島町・大和村・宇検村すべてHTTP 200で確認。南種子町はHTTPSが到達不可のため公式HTTPトップを採用。sitemap.xmlは屋久島町・宇検村が200、中種子町が404、大和村はsitemap.xml 404かつsitemap.html 200、南種子町はindex/sitemap.htmlを確認し、カテゴリBFSで補完。公式sitemap/カテゴリBFSで383候補（中種子町31、南種子町129、屋久島町103、大和村86、宇検村34）を抽出し、title強一致34件。本文スニペット付き再スコアからカテゴリ、申請書単体、受付終了、募集終了、実績/採択、職員採用、同一制度の重複導線を除外。中種子町18、南種子町15、屋久島町25、大和村24、宇検村8を採用。"
     }
   },
   "next": {
-    "code": "kagoshima-official-coverage-007",
-    "municipality": "中種子町・南種子町・屋久島町・大和村・宇検村",
-    "shortlist": "鹿児島県公式棚卸し006で大崎町・東串良町・錦江町・南大隅町・肝付町を確認し100件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で46501中種子町から再開する。",
-    "instructions": "次回は鹿児島県公式棚卸し007として、46501中種子町、46502南種子町、46505屋久島町、46523大和村、46524宇検村の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの鹿児島県完了行やHTTP 200だけでは完了扱いにしない。"
+    "code": "kagoshima-official-coverage-008",
+    "municipality": "瀬戸内町・龍郷町・喜界町・徳之島町・天城町",
+    "shortlist": "鹿児島県公式棚卸し007で中種子町・南種子町・屋久島町・大和村・宇検村を確認し90件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で46525瀬戸内町から再開する。",
+    "instructions": "次回は鹿児島県公式棚卸し008として、46525瀬戸内町、46527龍郷町、46529喜界町、46530徳之島町、46531天城町の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの鹿児島県完了行やHTTP 200だけでは完了扱いにしない。"
   },
   "prefectureMilestone": {
     "status": "in-progress",
     "prefecture": "kagoshima",
-    "lastBatch": "kagoshima-official-coverage-006",
-    "notes": "鹿児島県公式棚卸し001-006で県・市町村30自治体・団体に第1巡到達し、505制度を採用。直近15自治体単位（004-006）は15自治体・291制度、監査3回予定、commit3回予定。全国公式棚卸しは未完了で、次は中種子町・南種子町・屋久島町・大和村・宇検村。"
+    "lastBatch": "kagoshima-official-coverage-007",
+    "notes": "鹿児島県公式棚卸し001-007で県・市町村35自治体・団体に第1巡到達し、595制度を採用。直近15自治体単位（005-007）は15自治体・282制度、監査3回予定、commit3回予定。全国公式棚卸しは未完了で、次は瀬戸内町・龍郷町・喜界町・徳之島町・天城町。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

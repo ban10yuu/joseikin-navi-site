@@ -11699,3 +11699,13 @@
 - 検証: 公式URL 100/100 HTTP 200（`tasks/discovery/kagoshima-official-coverage-006-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（006 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - メトリクス: 5自治体、100制度採用、一次候補460件、採用率21.7%。鹿児島県001-006累計は30自治体・団体、505制度。直近15自治体単位（004-006）は15自治体・291制度。全国公式棚卸しは未完了。
 - 次回: 鹿児島県公式棚卸し007として、中種子町・南種子町・屋久島町・大和村・宇検村から再開する。
+
+### 鹿児島県公式棚卸し007（46501中種子町・46502南種子町・46505屋久島町・46523大和村・46524宇検村）
+
+- 対象公式トップ: 中種子町 `https://town.nakatane.kagoshima.jp/`、南種子町 `http://www.town.minamitane.kagoshima.jp/`、屋久島町 `https://www.town.yakushima.kagoshima.jp/`、大和村 `https://www.vill.yamato.lg.jp/`、宇検村 `https://www.uken.net/` をHTTP 200で確認。南種子町はHTTPSが到達不可のため公式HTTPトップを採用。sitemap.xmlは屋久島町・宇検村が200、中種子町が404、大和村は `sitemap.xml` が404かつ `sitemap.html` が200、南種子町は `index/sitemap.html` で補完。
+- 公式sitemap/カテゴリBFS候補: 383件（中種子町31、南種子町129、屋久島町103、大和村86、宇検村34）。title強一致34件。候補数が150件超のため `tasks/discovery/kagoshima-official-coverage-007-rescored-shortlist.tsv` と `tasks/discovery/kagoshima-official-coverage-007-auto-selection.tsv` へ本文スニペット付き再スコアを保存。中種子町・大和村・宇検村は自治体CMS型、南種子町はHTTPカテゴリ導線、屋久島町は `sitemap.dir.xml` 系導線で補完。
+- 採用: 90制度（中種子町18、南種子町15、屋久島町25、大和村24、宇検村8）。`kagoshima-official-007-001-2026` から `kagoshima-official-007-090-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、トップ、共通ナビ、申請書単体、受付終了、募集終了、実績/採択、職員採用、同一制度の重複導線、国・県事業の単純紹介、効果検証・使途公表は採用せず、候補JSON/TSVに残置。宇検村は個別制度ページが少ないため、公式本文に対象・支援内容・申請情報がまとまる子育て・離島割引・定住・企業支援ページを採用。
+- 検証: 公式URL 90/90 HTTP 200（`tasks/discovery/kagoshima-official-coverage-007-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（007 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体、90制度採用、一次候補383件、採用率23.5%。鹿児島県001-007累計は35自治体・団体、595制度。直近15自治体単位（005-007）は15自治体・282制度。全国公式棚卸しは未完了。
+- 次回: 鹿児島県公式棚卸し008として、瀬戸内町・龍郷町・喜界町・徳之島町・天城町から再開する。
