@@ -1,0 +1,81 @@
+{
+  "checkedAt": "2026-07-19T03:50:00+09:00",
+  "scope": "愛媛県・岡山県・岩手県・岐阜県raw gap各1件の公式ページ単位解消",
+  "beforeRawGaps": 15,
+  "resolvedRawGaps": 4,
+  "afterRawGapsExpected": 11,
+  "items": [
+    {
+      "prefecture": "愛媛県",
+      "municipality": "松山市",
+      "rawSlug": "matsuyama-newlywed-rent",
+      "resolution": "official-current-integrated",
+      "officialProgramName": "松山市結婚新生活支援事業補助金",
+      "target": "令和8年1月1日から令和9年2月28日までに婚姻届を受理され、年齢・所得・住民登録・市税滞納なし・講座受講等の公式要件を満たす新婚世帯",
+      "amount": "1世帯あたり上限60万円",
+      "conditions": "夫婦とも29歳以下かつ令和7年中所得合計500万円未満、または夫婦とも39歳以下かつ令和8年度住民税均等割非課税。申請住宅への住民登録、他補助なし、1年以上定住意思等。",
+      "deadline": "令和8年6月10日から令和9年3月5日まで。郵送のみ、事務局必着。",
+      "officialUrl": "https://www.city.matsuyama.ehime.jp/kurashi/kurashi/hojokin/kekkonnshinnseikatsu.html",
+      "sourceUrls": [
+        "https://www.city.matsuyama.ehime.jp/kurashi/kurashi/hojokin/kekkonnshinnseikatsu.html",
+        "https://www.city.matsuyama.ehime.jp/hodo/202606/r8kekkon.html",
+        "https://www.city.matsuyama.ehime.jp/hodo/202606/r8kekkon.files/r8chirashi.pdf"
+      ],
+      "summary": "旧raw候補を令和8年度の公式結婚新生活支援事業補助金へ統合し、通常一覧での重複掲載を抑止する。"
+    },
+    {
+      "prefecture": "岡山県",
+      "municipality": "倉敷市",
+      "rawSlug": "kurashiki-newlywed-rent",
+      "resolution": "official-unconfirmed-suppressed",
+      "officialProgramName": "倉敷市 新婚生活支援補助金（公式確認不可）",
+      "target": "倉敷市公式サイトで現行申請可能な新婚世帯住居費・引越費用補助を確認できないため対象外",
+      "amount": "現行の新婚世帯住居費補助として公式確認不可",
+      "conditions": "婚活支援事業、同窓会開催支援補助金、住居確保給付金等は確認したが、旧raw候補名の住宅費補助とは制度目的・対象が異なる。",
+      "deadline": "現行制度として公式確認できないため通常一覧から除外。",
+      "officialUrl": "https://www.city.kurashiki.okayama.jp/cityinfo/plan/1002142/index.html",
+      "sourceUrls": [
+        "https://www.city.kurashiki.okayama.jp/cityinfo/plan/1002142/index.html",
+        "https://www.city.kurashiki.okayama.jp/cityinfo/plan/1002142/1018528.html",
+        "https://www.city.kurashiki.okayama.jp/fukushi/welfare/1013554/1015931.html",
+        "https://www.city.kurashiki.okayama.jp/1001865/1001870.html"
+      ],
+      "summary": "公式導線で現行募集ページを確認できないため、旧raw slugを期限切れ抑止レコードとして解消する。"
+    },
+    {
+      "prefecture": "岩手県",
+      "municipality": "一関市",
+      "rawSlug": "ichinoseki-newlywed-rent",
+      "resolution": "future-year-undecided-suppressed",
+      "officialProgramName": "一関市 結婚新生活支援補助金（令和8年度事業未確定）",
+      "target": "令和8年度事業は実施確定後に案内されるため、現時点では令和8年度の申請可能制度として通常掲載しない",
+      "amount": "令和7年度は29歳以下上限60万円と県独自上乗せ10万円、30歳以上39歳以下は上限30万円。令和8年度は未確定。",
+      "conditions": "公式本文で令和8年1月1日以降に結婚した方・結婚予定の方への案内は事業実施確定後とされ、以下は令和7年度事業の案内とされている。",
+      "deadline": "令和7年度申請は終了。令和8年度は事業実施が確定次第案内。",
+      "officialUrl": "https://www.city.ichinoseki.iwate.jp/archive/contents-124733",
+      "sourceUrls": [
+        "https://www.city.ichinoseki.iwate.jp/archive/contents-124733"
+      ],
+      "summary": "現行申請可能な令和8年度制度としては未確定のため、旧raw slugを期限切れ抑止レコードとして解消する。"
+    },
+    {
+      "prefecture": "岐阜県",
+      "municipality": "岐阜市",
+      "rawSlug": "gifu-city-newlywed-rent",
+      "resolution": "official-current-integrated",
+      "officialProgramName": "岐阜市結婚新生活支援事業補助金",
+      "target": "令和8年1月1日から令和9年2月26日までに婚姻し、所得・年齢・市内住居・住民票・税滞納なし・講座受講等の公式要件を満たす夫婦",
+      "amount": "夫婦双方29歳以下は上限60万円、上記以外は上限30万円",
+      "conditions": "夫婦所得合計500万円未満、婚姻日に夫婦双方39歳以下、対象住居が岐阜市内、他の公的住宅補助なし、2年以上居住意思、共家事・共育て講座受講等。",
+      "deadline": "令和8年6月1日から令和9年2月26日まで。申請フォームからオンライン申請。",
+      "officialUrl": "https://www.city.gifu.lg.jp/kosodate/kosodateshien/1003631/1004162.html",
+      "sourceUrls": [
+        "https://www.city.gifu.lg.jp/kosodate/kosodateshien/1003631/1004162.html",
+        "https://www.city.gifu.lg.jp/_res/projects/default_project/_page_/001/033/494/r080401_hojokinnichirann_ippanntaishou2.pdf"
+      ],
+      "summary": "旧rawの月額家賃補助候補を令和8年度の公式結婚新生活支援事業補助金へ統合し、通常一覧での重複掲載を抑止する。"
+    }
+  ],
+  "urlReachability": "official URL/PDF 10/10 HTTP 200 in nationwide-final-audit-016-url-status.txt",
+  "next": "宮城県・広島県・佐賀県・三重県raw gap各1件の公式ページ単位解消"
+}

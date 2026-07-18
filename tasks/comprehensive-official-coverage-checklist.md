@@ -11955,3 +11955,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-015-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-015-url-status.txt`、`tasks/discovery/nationwide-final-audit-015-raw-gaps-after.json` を作成。公式URL/PDF 11/11 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは19件から15件へ減少。福岡県・福島県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-015-coverage.log` に保存。
 - 次回: raw gap残15件。愛媛県・岡山県・岩手県・岐阜県・宮城県・広島県・佐賀県・三重県・山口県・青森県・大分県・長崎県・島根県・徳島県・福井県が各1。愛媛県のraw gap1件から、公式本文/PDF確認を継続する。全国公式棚卸しは未完了。
+
+### 全国公式棚卸し最終監査016（愛媛県・岡山県・岩手県・岐阜県raw gap 4件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-015-raw-gaps-after.json` の愛媛県1件、松山市 `matsuyama-newlywed-rent`、岡山県1件、倉敷市 `kurashiki-newlywed-rent`、岩手県1件、一関市 `ichinoseki-newlywed-rent`、岐阜県1件、岐阜市 `gifu-city-newlywed-rent` を確認。
+- 公式確認: 松山市は公式「松山市結婚新生活支援事業」で住宅取得・リフォーム・賃借・引越費用、1世帯上限60万円、申請期間2026年6月10日から2027年3月5日を確認。倉敷市は婚活支援事業、同窓会開催支援補助金、住居確保給付金、結婚・離婚手続き案内を確認したが、新婚世帯の住居費・引越費用を補助する現行公式個別ページは確認不可。一関市は結婚新生活支援補助金ページを確認したが、令和8年度事業は実施確定後に案内、令和7年度申請は終了済みと確認。岐阜市は公式「岐阜市結婚新生活支援事業補助金」で住宅取得・リフォーム・賃借費用、29歳以下上限60万円・その他30万円、申請期間2026年6月1日から2027年2月26日を確認。
+- 解消方法: 松山市と岐阜市は令和8年度の公式結婚新生活支援事業へ統合し、旧raw slugを解消。倉敷市は現行公式個別募集ページを確認できないため掲載抑止。一関市は令和8年度未確定かつ令和7年度終了のため期限切れ抑止として追加し通常一覧への誤掲載を抑止。
+- 成果物: `tasks/discovery/nationwide-final-audit-016-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-016-url-status.txt`、`tasks/discovery/nationwide-final-audit-016-raw-gaps-after.json` を作成。公式URL/PDF 10/10 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは15件から11件へ減少。愛媛県・岡山県・岩手県・岐阜県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-016-coverage.log` に保存。
+- 次回: raw gap残11件。宮城県・広島県・佐賀県・三重県・山口県・青森県・大分県・長崎県・島根県・徳島県・福井県が各1。次は宮城県のraw gap1件から、公式本文/PDF確認を継続する。全国公式棚卸しは未完了。
