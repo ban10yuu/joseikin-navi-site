@@ -1,0 +1,86 @@
+{
+  "auditId": "nationwide-final-audit-025-hokkaido-batch021-second-pass-resolution",
+  "updatedAt": "2026-07-19T05:10:03+09:00",
+  "scope": "北海道第21バッチ第2巡保留（中標津町・標津町・羅臼町）",
+  "status": "partial-resolution",
+  "adopted": [
+    {
+      "municipality": "標津町",
+      "slug": "shibetsu-living-support-coupon-2026",
+      "title": "標津町 生活支援商品券配布事業",
+      "officialUrl": "https://www.shibetsutown.jp/life/?content=741",
+      "sourceUrls": [
+        "https://www.shibetsutown.jp/life/?content=741",
+        "https://www.shibetsutown.jp/assets/images/content/content_20260226_133018.pdf"
+      ],
+      "reason": "公式ページとPDFで対象、1人1万円分、2026年3月から順次配布予定を確認したため採用。"
+    },
+    {
+      "municipality": "標津町",
+      "slug": "shibetsu-water-basic-fee-reduction-2026",
+      "title": "標津町 事業持続のための水道料減免事業",
+      "officialUrl": "https://www.shibetsutown.jp/life/?content=741",
+      "sourceUrls": [
+        "https://www.shibetsutown.jp/life/?content=741",
+        "https://www.shibetsutown.jp/assets/images/content/content_20260226_133018.pdf"
+      ],
+      "reason": "公式ページとPDFで町内水道利用の全世帯・事業所、水道基本料9カ月分、2026年4月から12月分を確認したため採用。"
+    },
+    {
+      "municipality": "羅臼町",
+      "slug": "rausu-furusato-regional-development-loan-2026",
+      "title": "羅臼町 地域総合整備資金貸付（ふるさと融資）",
+      "officialUrl": "https://www.rausu-town.jp/pages/view/634",
+      "sourceUrls": [
+        "https://www.rausu-town.jp/pages/view/634",
+        "https://www1.g-reiki.net/rausu-town/reiki_honbun/a215RG00000795.html"
+      ],
+      "reason": "公式ページと町例規で対象事業者、対象費用、新規雇用等の条件、100万円以上25億円以内、条件付き38億円、無利子、償還期間を確認したため採用。"
+    }
+  ],
+  "alreadyResolved": [
+    {
+      "municipality": "中標津町",
+      "slugs": [
+        "nakashibetsu-education-scholarship-loan-2026",
+        "nakashibetsu-settlement-promotion-scholarship-loan-2026"
+      ],
+      "reason": "2026年7月12日の後半サンプルで、公式HTMLとWord本文を根拠に育英資金貸付金・定住促進貸付金を既に反映済み。重複追加しない。"
+    },
+    {
+      "municipality": "羅臼町",
+      "slug": "rausu-sme-promotion-loan-2026",
+      "reason": "2026年7月12日の後半サンプルで、公式HTMLから中小企業振興資金融資制度を既に反映済み。重複追加しない。"
+    }
+  ],
+  "held": [
+    {
+      "municipality": "中標津町",
+      "title": "腎臓機能障害者通院交通費補助",
+      "officialUrl": "https://www.nakashibetsu.jp/kurashi/kosodate_fukushi/shougaisha/iryou_josei/jinzou/",
+      "reason": "公式HTMLで対象と人工透析通院交通費補助の制度概要は確認できるが、補助単価・上限が本文にないため保留継続。"
+    },
+    {
+      "municipality": "標津町",
+      "title": "子ども食堂運営事業者緊急支援事業",
+      "officialUrl": "https://www.shibetsutown.jp/life/?content=741",
+      "reason": "公式PDFで町内子ども食堂運営事業者と運営経費助成は確認できるが、補助率・上限・固定額を本文で確認できないため保留継続。"
+    },
+    {
+      "municipality": "標津町",
+      "title": "福祉施設サービス提供体制維持支援事業臨時給付金",
+      "officialUrl": "https://www.shibetsutown.jp/life/?content=741",
+      "reason": "公式PDFで町内介護・障がい福祉サービス事業者と臨時給付金を確認できるが、給付額は定員数や車両台数に応じて算定とされ、固定額・上限が本文で確認できないため保留継続。"
+    }
+  ],
+  "excluded": [
+    {
+      "municipality": "標津町",
+      "title": "令和7年度物価高騰対応重点支援地方創生臨時交付金について",
+      "officialUrl": "https://www.shibetsutown.jp/life/?content=741",
+      "reason": "交付金活用事業の一覧ページ自体は最終sourceにせず、個別事業単位で採用又は保留に分解した。"
+    }
+  ],
+  "sourceUrlsChecked": 7,
+  "next": "第22バッチ以降又は北海道第2巡保留台帳の次未完了単位を、HEADとcheckpointから確認して継続する。全国完了ではない。"
+}
