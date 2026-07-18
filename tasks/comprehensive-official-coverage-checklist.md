@@ -11799,3 +11799,13 @@
 - 検証: 公式URL 35件を `tasks/discovery/okinawa-official-coverage-007-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（007 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - メトリクス: 5自治体、35制度採用、一次候補366件、採用率9.6%。沖縄県001-007累計は35自治体・団体、369制度。直近15自治体単位（005-007）は15自治体・130制度、監査3回、commit3回。全国公式棚卸しは未完了。
 - 次回: 沖縄県公式棚卸し008として、伊平屋村・伊是名村・久米島町・八重瀬町・多良間村から再開する。
+
+### 沖縄県公式棚卸し008（47359伊平屋村・47360伊是名村・47361久米島町・47362八重瀬町・47375多良間村）
+
+- 対象公式トップ: 伊平屋村 `https://www.vill.iheya.okinawa.jp/`、伊是名村 `https://vill.izena.okinawa.jp/`、久米島町 `https://www.town.kumejima.okinawa.jp/`、八重瀬町 `https://www.town.yaese.lg.jp/`、多良間村 `https://www.vill.tarama.okinawa.jp/` をHTTP 200で確認。伊是名村・久米島町は `sitemap.xml` を確認。伊平屋村・八重瀬町・多良間村は公式トップ、カテゴリ、docs/RSS/新着導線を確認。
+- 公式sitemap/カテゴリBFS候補: 116件（伊平屋村54、伊是名村33、久米島町18、八重瀬町0、多良間村11）。title強一致16件。候補数は150件未満だが、八重瀬町は通常スコア0件だったため、公式docs既存確認URLと公式本文fallbackEvidenceで1候補を補足。採用候補は `tasks/discovery/okinawa-official-coverage-008-auto-selection.tsv` に保存。
+- 採用: 25制度（伊平屋村2、伊是名村12、久米島町6、八重瀬町1、多良間村4）。`okinawa-official-008-001-2026` から `okinawa-official-008-025-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文または候補抽出時点の公式本文スニペットで確認。
+- 低優先/除外: トップ、カテゴリ、共通ナビ、申請書単体、職員採用、入札・プロポーザル、過年度効果検証、広報・議会だより、情報提供のみ、国制度の単なる案内、同一制度の補足導線は採用せず、候補JSON/TSVに残置。伊平屋村・久米島町・八重瀬町・多良間村の一部ページは後続liveFetchがAccess Deniedとなるため、候補抽出時点の公式本文スニペットおよび公式確認済みfallbackEvidenceで根拠を保持。
+- 検証: 公式URL 25件を `tasks/discovery/okinawa-official-coverage-008-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（008 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体、25制度採用、一次候補116件、採用率21.6%。沖縄県001-008累計は40自治体・団体、394制度。直近15自治体単位（006-008）は15自治体・103制度、監査3回、commit3回。全国公式棚卸しは未完了。
+- 次回: 沖縄県公式棚卸し009として、竹富町・与那国町から再開する。
