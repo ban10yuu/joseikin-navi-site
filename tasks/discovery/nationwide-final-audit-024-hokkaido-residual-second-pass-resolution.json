@@ -1,0 +1,62 @@
+{
+  "auditId": "nationwide-final-audit-024-hokkaido-residual-second-pass-resolution",
+  "updatedAt": "2026-07-19T04:58:00+09:00",
+  "scope": "北海道第20バッチ標茶町画像PDF保留及び第19バッチ釧路町・厚岸町・浜中町残保留",
+  "status": "partial-resolution",
+  "adopted": [
+    {
+      "municipality": "浜中町",
+      "slug": "hamanaka-daily-life-equipment-benefit-2026",
+      "title": "浜中町 日常生活用具の給付",
+      "officialUrl": "https://www.townhamanaka.jp/kenkou_fukushi_iryou/fukushi/2017-0322-nichijouseikatuyougu.html",
+      "reason": "公式個別ページで制度概要、対象者、給付・貸与用具、原則1割負担、生活保護・低所得0円、一般月額上限3万7,200円を確認したため採用。"
+    }
+  ],
+  "held": [
+    {
+      "municipality": "釧路町",
+      "title": "釧路町スポーツ振興助成金",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/52302/00013/153016520609.html",
+      "reason": "公式HTMLと添付チェックリストで対象、申請書類、申請期日は確認できたが、助成額・上限・補助率を本文又は添付で固定できなかったため保留継続。"
+    },
+    {
+      "municipality": "釧路町",
+      "title": "障害者就労等通所支援助成・障害者等援護旅費助成",
+      "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/30702/00006/150811210320.html",
+      "reason": "公式HTMLで対象とバス・鉄道運賃又は帰省・施設訪問旅費等の一部助成を確認したが、補助率・上限・固定額が本文にないため保留継続。"
+    },
+    {
+      "municipality": "厚岸町",
+      "title": "こども医療・ひとり親医療・重度心身障害者医療等",
+      "officialUrl": null,
+      "reason": "既存候補URLは404相当又はカテゴリ導線で、対象・金額・条件を揃えた現行個別公式本文に到達できなかったため保留継続。"
+    },
+    {
+      "municipality": "浜中町",
+      "title": "T字型ステッキ給付",
+      "officialUrl": "https://www.townhamanaka.jp/kenkou_fukushi_iryou/fukushi/shougaifukushi/",
+      "reason": "障がい者福祉カテゴリ内の個別リンク群を確認したが、T字型ステッキ給付の個別ページと金額・上限本文を確認できなかったため保留継続。"
+    }
+  ],
+  "excluded": [
+    {
+      "municipality": "標茶町",
+      "title": "画像PDF候補5件",
+      "urls": [
+        "https://hokkaido.shibecha.jp/_files/ugd/eef088_c55e16169e6841ee89e68e1f2cfe948e.pdf",
+        "https://hokkaido.shibecha.jp/_files/ugd/eef088_8b4ca56c2cdd4e7cb7735d3c862848c1.pdf",
+        "https://hokkaido.shibecha.jp/_files/ugd/eef088_025988d9757a4d3cb40451dddb232eff.pdf",
+        "https://hokkaido.shibecha.jp/_files/ugd/eef088_5fce5055594c483796b202013b6a3e21.pdf",
+        "https://hokkaido.shibecha.jp/_files/ugd/eef088_a730c78abcb3423e8204bc529b4a7836.pdf"
+      ],
+      "reason": "pdftoppmとtesseract jpn+engで各7ページをOCRした結果、観光・キャンプ・宿泊案内のPDFであり、補助金・助成金・給付金・一時金の個別制度本文ではないため掲載対象外。"
+    }
+  ],
+  "ocrSummary": {
+    "tooling": "pdftoppm 200dpi PNG conversion and tesseract 5.5.2 jpn+eng OCR",
+    "shibechaPdfPages": "5 files x 7 pages",
+    "result": "制度語、金額、対象条件、受付期限が揃う公的支援本文は確認できず。pdf-1はキャンプ・温泉、pdf-2からpdf-5は観光パンフレット系本文。"
+  },
+  "sourceUrlsChecked": 15,
+  "next": "第19バッチ以前の残保留又は第21バッチ以降の第2巡保留台帳の次未完了単位へ進む。全国完了ではない。"
+}
