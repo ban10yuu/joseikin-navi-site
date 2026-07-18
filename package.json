@@ -4,12 +4,23 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test src/lib/*.test.mjs",
+    "test:e2e": "python3 scripts/run-e2e.py",
+    "check:copy": "node scripts/check-public-copy.mjs",
+    "audit:content": "node scripts/audit-content.mjs",
+    "audit:affiliates": "node scripts/audit-affiliates.mjs",
+    "audit:build": "node scripts/audit-build.mjs",
     "audit:coverage": "node scripts/audit-coverage.mjs",
-    "audit:deadlines": "node scripts/audit-deadlines.mjs",
-    "audit:links": "node scripts/audit-links.mjs"
+    "audit:deadlines": "node --test src/lib/deadline.test.mjs src/lib/grant-status.test.mjs",
+    "audit:links": "node scripts/audit-links.mjs",
+    "audit:migration": "node scripts/audit-domain-migration.mjs",
+    "seo:article": "node scripts/run-seo-article-pipeline.mjs",
+    "audit:seo-articles": "node scripts/run-seo-article-pipeline.mjs --audit",
+    "assets:illustrations": "node scripts/process-illustration-sheets.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.0",

@@ -1,7 +1,10 @@
-import { Grant, GrantCategory, GrantType } from '@/lib/types';
+import { Grant, GrantCategory, GrantType, LegacyGrant, NormalizedGrant, SupportType } from '@/lib/types';
+import { normalizeGrant } from '@/lib/grant-domain';
 import { getGrantSourceStatus, hasOfficialSource, isManuallyVerifiedGrant } from '@/lib/grant-source';
 import { isGrantExpired } from '@/lib/deadline';
 import { getSearchTokens, matchesSearchText } from '@/lib/search';
+import { calculateGrantStats } from '@/lib/grant-stats';
+import { rankRelatedGrants } from '@/lib/related-grants';
 import { verifiedBusinessGrants2026 } from '@/data/grants/verified-business-2026';
 import { verifiedHyogoChildcareGrants2026 } from '@/data/grants/verified-hyogo-childcare-2026';
 import { verifiedHyogoMunicipalChildcareGrants2026 } from '@/data/grants/verified-hyogo-municipal-childcare-2026';
@@ -131,11 +134,12 @@ import { cityGrantsBatch97 } from '@/data/grants/city-batch97';
 import { cityGrantsBatch98 } from '@/data/grants/city-batch98';
 import { cityGrantsBatch99 } from '@/data/grants/city-batch99';
 import { cityGrantsBatch100 } from '@/data/grants/city-batch100';
+import { REDIRECT_SOURCE_SLUGS } from '@/data/redirects';
 
 // ── All grants ──
 // 新規の手動検証データを先頭に置く。slug が重複した場合は先勝ちにして、
 // 古いLLM生成データより公式出典確認済みデータを優先する。
-const rawGrants: Grant[] = [
+const rawGrants: LegacyGrant[] = [
   ...verifiedTenriChildcareGrants2026,
   ...verifiedHyogoMunicipalChildcareGrants2026,
   ...verifiedHyogoChildcareGrants2026,
@@ -196,7 +200,9 @@ const rawGrants: Grant[] = [
   ...cityGrantsBatch100,
 ];
 
-function dedupeGrantsBySlug(grants: Grant[]): Grant[] {
+const canonicalRawGrants = rawGrants.filter((grant) => !REDIRECT_SOURCE_SLUGS.has(grant.slug));
+
+function dedupeGrantsBySlug(grants: LegacyGrant[]): LegacyGrant[] {
   const seen = new Set<string>();
   return grants.filter((grant) => {
     if (seen.has(grant.slug)) return false;
@@ -220,7 +226,7 @@ function stripHtml(value: string): string {
     .trim();
 }
 
-export function buildGrantSearchText(grant: Grant): string {
+export function buildGrantSearchText(grant: LegacyGrant): string {
   const sectionText = grant.sections
     .flatMap((section) => [section.heading, stripHtml(section.content)])
     .join(' ');
@@ -274,7 +280,7 @@ function isNonSpecificGovernmentHomepage(value: string | undefined): boolean {
   }
 }
 
-function sanitizeAuditedLinks(grant: Grant): Grant {
+function sanitizeAuditedLinks(grant: LegacyGrant): LegacyGrant {
   const suppressedOfficialUrl = Boolean(
     grant.officialUrl &&
     (suppressedOfficialUrls.has(grant.officialUrl) || isNonSpecificGovernmentHomepage(grant.officialUrl))
@@ -298,7 +304,7 @@ function sanitizeAuditedLinks(grant: Grant): Grant {
     .filter(Boolean)
     .join('・');
 
-  const sanitized: Grant = {
+  const sanitized: LegacyGrant = {
     ...grant,
     officialUrl: suppressedOfficialUrl ? '' : grant.officialUrl,
     sourceUrls: sourceUrls && sourceUrls.length > 0 ? sourceUrls : undefined,
@@ -314,7 +320,9 @@ function sanitizeAuditedLinks(grant: Grant): Grant {
   };
 }
 
-const allGrants: Grant[] = dedupeGrantsBySlug(rawGrants.map(sanitizeAuditedLinks));
+const allGrants: NormalizedGrant[] = dedupeGrantsBySlug(
+  canonicalRawGrants.map(sanitizeAuditedLinks)
+).map(normalizeGrant);
 
 export { getGrantSourceStatus, hasOfficialSource, isGrantExpired, isManuallyVerifiedGrant };
 
@@ -339,6 +347,7 @@ const expiredGrants = publishedGrants.filter((grant) => isGrantExpired(grant));
 const officialLinkedGrants = activePublishedGrants.filter(hasOfficialSource);
 const allOfficialLinkedGrants = publishedGrants.filter(hasOfficialSource);
 const manuallyVerifiedGrants = activePublishedGrants.filter(isManuallyVerifiedGrant);
+const sharedGrantStats = calculateGrantStats(activePublishedGrants);
 
 // ── All grants (unfiltered, for sitemap) ──
 export function getAllGrantsUnfiltered(): Grant[] {
@@ -371,20 +380,28 @@ export function getGrantQualityStats(): {
   duplicatedSlugsRemoved: number;
   active: number;
   expired: number;
+  categoryCounts: ReturnType<typeof calculateGrantStats>['categoryCounts'];
+  officialCategoryCounts: ReturnType<typeof calculateGrantStats>['officialCategoryCounts'];
+  categoryAssignmentTotal: number;
+  multiplePurposeCount: number;
 } {
   return {
-    total: activePublishedGrants.length,
+    total: sharedGrantStats.total,
     unfilteredTotal: allGrants.length,
     active: activePublishedGrants.length,
     expired: expiredGrants.length,
-    officialLinked: officialLinkedGrants.length,
+    officialLinked: sharedGrantStats.officialLinked,
     manuallyVerified: manuallyVerifiedGrants.length,
     unverified: activePublishedGrants.length - officialLinkedGrants.length,
-    duplicatedSlugsRemoved: rawGrants.length - allGrants.length,
+    duplicatedSlugsRemoved: canonicalRawGrants.length - allGrants.length,
+    categoryCounts: sharedGrantStats.categoryCounts,
+    officialCategoryCounts: sharedGrantStats.officialCategoryCounts,
+    categoryAssignmentTotal: sharedGrantStats.categoryAssignmentTotal,
+    multiplePurposeCount: sharedGrantStats.multiplePurposeCount,
   };
 }
 
-export function getGrantBySlug(slug: string): Grant | undefined {
+export function getGrantBySlug(slug: string): NormalizedGrant | undefined {
   return allGrants.find((g) => g.slug === slug);
 }
 
@@ -406,20 +423,19 @@ export function getGrantsByPrefecture(prefecture: string): Grant[] {
   );
 }
 
-export function getPopularGrants(limit = 10): Grant[] {
-  return officialLinkedGrants.slice(0, limit);
+export function getGrantsBySupportType(supportType: SupportType): Grant[] {
+  return officialLinkedGrants.filter((grant) => grant.supportType === supportType);
 }
 
-export function getRelatedGrants(grant: Grant, limit = 6): Grant[] {
+export function getRecentlyUpdatedGrants(limit = 10): Grant[] {
+  return [...officialLinkedGrants]
+    .sort((left, right) => right.contentUpdatedAt.localeCompare(left.contentUpdatedAt))
+    .slice(0, limit);
+}
+
+export function getRelatedGrants(grant: NormalizedGrant, limit = 6): Grant[] {
   const pool = hasOfficialSource(grant) ? officialLinkedGrants : publishedGrants;
-  // Same category first, then same prefecture, then others
-  const sameCategory = pool.filter(
-    (g) => grantMatchesCategory(g, grant.category) && g.slug !== grant.slug
-  );
-  const samePrefecture = pool.filter(
-    (g) => g.prefecture === grant.prefecture && g.category !== grant.category && g.slug !== grant.slug
-  );
-  return [...sameCategory, ...samePrefecture].slice(0, limit);
+  return rankRelatedGrants(grant, pool, limit);
 }
 
 export function searchGrants(query: string): Grant[] {

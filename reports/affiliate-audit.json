@@ -1,0 +1,69 @@
+{
+  "generatedAt": "2026-07-18T21:54:48.870Z",
+  "totalOffers": 17,
+  "enabledOffers": 11,
+  "criticalIssues": 0,
+  "warningIssues": 10,
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "INVALID_DESTINATION_URL",
+      "offerId": "a8-smaregi-timecard",
+      "message": "HTTPSの案件リンクが必要です。"
+    },
+    {
+      "severity": "warning",
+      "code": "NOT_PARTNERED",
+      "offerId": "a8-smaregi-timecard",
+      "message": "提携完了前の案件です。"
+    },
+    {
+      "severity": "warning",
+      "code": "INVALID_DESTINATION_URL",
+      "offerId": "moshimo-circle-reuse-ai-saas",
+      "message": "HTTPSの案件リンクが必要です。"
+    },
+    {
+      "severity": "warning",
+      "code": "NOT_PARTNERED",
+      "offerId": "moshimo-circle-reuse-ai-saas",
+      "message": "提携完了前の案件です。"
+    },
+    {
+      "severity": "warning",
+      "code": "INVALID_DESTINATION_URL",
+      "offerId": "moshimo-spot-jinji",
+      "message": "HTTPSの案件リンクが必要です。"
+    },
+    {
+      "severity": "warning",
+      "code": "NOT_PARTNERED",
+      "offerId": "moshimo-spot-jinji",
+      "message": "提携完了前の案件です。"
+    },
+    {
+      "severity": "warning",
+      "code": "INVALID_DESTINATION_URL",
+      "offerId": "moshimo-gleasin",
+      "message": "HTTPSの案件リンクが必要です。"
+    },
+    {
+      "severity": "warning",
+      "code": "NOT_PARTNERED",
+      "offerId": "moshimo-gleasin",
+      "message": "提携完了前の案件です。"
+    },
+    {
+      "severity": "warning",
+      "code": "INVALID_DESTINATION_URL",
+      "offerId": "moshimo-sb-payment",
+      "message": "HTTPSの案件リンクが必要です。"
+    },
+    {
+      "severity": "warning",
+      "code": "NOT_PARTNERED",
+      "offerId": "moshimo-sb-payment",
+      "message": "提携完了前の案件です。"
+    }
+  ]
+}

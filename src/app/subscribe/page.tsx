@@ -1,50 +1,48 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
+import Link from 'next/link';
 import SubscribeForm from '@/components/SubscribeForm';
+import { siteConfig } from '@/config/site';
+import { isNewsletterEnabled } from '@/lib/newsletter';
+import { toSiteUrl } from '@/lib/site-url';
+
+const newsletterEnabled = isNewsletterEnabled(siteConfig.newsletter.endpoint);
 
 export const metadata: Metadata = {
-  title: '無料助成金診断・メール登録',
-  description: '世帯年収・お住まいの地域・ご職業を入力するだけで、あなたが受給できる可能性のある助成金・補助金を無料で診断。パーソナライズされた情報をメールでお届けします。',
-  alternates: {
-    canonical: 'https://joseikin-navi-site.vercel.app/subscribe/',
-  },
+  title: '新着・更新された支援制度をメールで受け取る',
+  description: '助成金ナビに掲載された支援制度の新着・更新情報をメールで受け取るための登録ページです。',
+  alternates: { canonical: toSiteUrl('/subscribe/') },
+  robots: newsletterEnabled ? undefined : { index: false, follow: true },
 };
 
 export default function SubscribePage() {
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 py-12">
       <div className="text-center mb-8">
-        <h1 className="text-3xl font-black text-navy mb-3">
-          あなたに合った助成金を<span className="text-accent-deep">無料診断</span>
-        </h1>
-        <p className="text-muted leading-relaxed">
-          世帯年収・お住まいの地域・ご職業を入力するだけで、<br className="hidden sm:inline" />
-          受給できる可能性のある助成金・補助金の情報をメールでお届けします。
-        </p>
+        <h1 className="text-3xl font-black text-navy mb-3">新着・更新された支援制度をメールで受け取る</h1>
+        <p className="text-muted leading-relaxed">登録した地域に関する新着・更新情報をお知らせするためのページです。制度の対象者であることを保証する診断ではありません。</p>
       </div>
 
-      <SubscribeForm />
-
-      <div className="mt-12 bg-card rounded-xl border-[1.5px] border-line p-6">
-        <h2 className="text-lg font-bold text-navy mb-4 pl-3 border-l-4 border-accent">よくある質問</h2>
-        <div className="space-y-4">
-          <div>
-            <h3 className="text-sm font-bold text-navy mb-1">Q. 本当に無料ですか？</h3>
-            <p className="text-sm text-muted">はい、完全無料でご利用いただけます。費用は一切かかりません。</p>
+      {newsletterEnabled ? (
+        <>
+          <SubscribeForm
+            endpoint={siteConfig.newsletter.endpoint}
+            includesPromotions={siteConfig.newsletter.includesPromotions}
+            unsubscribeUrl={siteConfig.newsletter.unsubscribeUrl}
+          />
+          <div className="mt-10 rounded-xl border border-line bg-card p-6 text-sm text-muted leading-relaxed">
+            <h2 className="mb-2 text-lg font-bold text-navy">配信について</h2>
+            <p>制度の追加・更新状況に応じて配信します。配信頻度は固定していません。</p>
+            {siteConfig.newsletter.senderName && <p className="mt-2">送信者名：{siteConfig.newsletter.senderName}</p>}
+            {siteConfig.newsletter.unsubscribeUrl && <p className="mt-2">配信停止は登録フォームに記載したリンクから手続きできます。</p>}
           </div>
-          <div>
-            <h3 className="text-sm font-bold text-navy mb-1">Q. メールの頻度はどのくらいですか？</h3>
-            <p className="text-sm text-muted">週1〜2回程度、新しい助成金情報やキャンペーン情報をお届けします。</p>
-          </div>
-          <div>
-            <h3 className="text-sm font-bold text-navy mb-1">Q. いつでも解除できますか？</h3>
-            <p className="text-sm text-muted">はい、メール内の解除リンクからいつでもワンクリックで解除できます。</p>
-          </div>
-          <div>
-            <h3 className="text-sm font-bold text-navy mb-1">Q. 個人情報は安全ですか？</h3>
-            <p className="text-sm text-muted">SSL暗号化通信で送信され、第三者への提供は行いません。詳しくは<a href="/privacy/" className="text-navy underline underline-offset-2 hover:text-accent-deep">プライバシーポリシー</a>をご覧ください。</p>
-          </div>
+        </>
+      ) : (
+        <div className="rounded-xl border-2 border-navy bg-card p-6 text-center sm:p-8">
+          <h2 className="text-lg font-bold text-navy">現在、メール登録の受付を停止しています</h2>
+          <p className="mt-2 text-sm leading-relaxed text-muted">配信先と解除方法の設定が完了するまで、メールアドレスは取得しません。制度はサイト内から検索できます。</p>
+          <Link href="/grants/" className="mt-5 inline-flex min-h-11 items-center justify-center rounded-lg bg-navy px-5 py-2 text-sm font-bold text-white">制度を探す</Link>
         </div>
-      </div>
+      )}
     </div>
   );
 }

@@ -1,86 +1,39 @@
-import { Metadata } from 'next';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getAllTags, getGrantsByTag, tagToSlug, slugToTag } from '@/lib/grants';
-import { CollectionJsonLd } from '@/components/JsonLd';
 import GrantCard from '@/components/GrantCard';
-import Sidebar from '@/components/Sidebar';
+import { getGrantsByTag, slugToTag } from '@/lib/grants';
+import { toSiteUrl } from '@/lib/site-url';
 
-interface Props {
-  params: Promise<{ slug: string }>;
-}
+interface Props { params: Promise<{ slug: string }> }
 
-export function generateStaticParams() {
-  return getAllTags({ includeExpired: true }).map((tag) => ({ slug: tagToSlug(tag) }));
-}
+// タグは自動生成された補助導線のため、一括静的生成せずアクセス時に表示する。
+export function generateStaticParams() { return []; }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const tag = slugToTag(slug, { includeExpired: true });
+  const tag = slugToTag(slug);
   if (!tag) return {};
-
-  const title = `「${tag}」に関する助成金・補助金一覧`;
   return {
-    title,
-    description: `${tag}に関連する公式リンク記載の助成金・補助金・給付金の一覧ページです。`,
-    alternates: {
-      canonical: `https://joseikin-navi-site.vercel.app/tag/${slug}/`,
-    },
+    title: `「${tag}」に関連する支援制度`,
+    description: `${tag}に関連する支援制度の検索補助ページです。対象条件と受付状況は各制度の公式情報でご確認ください。`,
+    alternates: { canonical: toSiteUrl(`/tag/${slug}/`) },
+    robots: { index: false, follow: true },
   };
 }
 
 export default async function TagPage({ params }: Props) {
   const { slug } = await params;
-  const tag = slugToTag(slug, { includeExpired: true });
+  const tag = slugToTag(slug);
   if (!tag) notFound();
-
   const grants = getGrantsByTag(tag);
-  const visibleGrants = grants.slice(0, 80);
-  const baseUrl = 'https://joseikin-navi-site.vercel.app';
-
+  const visible = grants.slice(0, 24);
   return (
-    <>
-      <CollectionJsonLd
-        name={`「${tag}」に関する助成金・補助金`}
-        description={`${tag}に関連する助成金・補助金の一覧`}
-        url={`${baseUrl}/tag/${slug}/`}
-      />
-
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
-        <nav className="text-sm text-faint mb-6 flex items-center gap-1">
-          <Link href="/" className="hover:text-navy hover:underline underline-offset-2">ホーム</Link>
-          <span>/</span>
-          <span className="text-muted">#{tag}</span>
-        </nav>
-
-        <div className="border-l-4 border-accent pl-4 mb-8">
-          <h1 className="text-2xl font-black text-navy mb-2">
-            「{tag}」に関する助成金・補助金
-          </h1>
-          <p className="text-sm text-muted">公式リンク記載の助成金が{grants.length}件見つかりました。</p>
-        </div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-8">
-          <div className="space-y-4">
-            {visibleGrants.map((grant) => (
-              <GrantCard key={grant.slug} grant={grant} />
-            ))}
-            {visibleGrants.length === 0 && (
-              <div className="rounded-xl border-2 border-line-strong bg-wash p-5 text-sm text-muted">
-                現在公開中の制度はありません。期限切れの制度は一覧から外しています。
-              </div>
-            )}
-            {grants.length > visibleGrants.length && (
-              <div className="rounded-xl border-2 border-line-strong bg-wash p-5 text-sm text-muted">
-                該当制度は全{grants.length}件あります。表示は上位{visibleGrants.length}件に絞っています。
-              </div>
-            )}
-          </div>
-          <div className="hidden lg:block">
-            <Sidebar />
-          </div>
-        </div>
-      </div>
-    </>
+    <main className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
+      <nav aria-label="パンくず" className="mb-6 text-sm text-muted"><Link href="/" className="text-navy underline underline-offset-4">ホーム</Link><span className="mx-2" aria-hidden="true">/</span><span aria-current="page">#{tag}</span></nav>
+      <header className="border-l-4 border-accent pl-4"><p className="text-xs font-bold text-blue-700">検索補助タグ</p><h1 className="mt-1 text-2xl font-black text-navy">「{tag}」に関連する支援制度</h1><p className="mt-2 text-sm leading-7 text-muted">{grants.length.toLocaleString('ja-JP')}件の候補があります。ここでは24件まで表示します。</p></header>
+      {visible.length ? <div className="mt-8 grid gap-4 md:grid-cols-2">{visible.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div> : <p className="mt-8 rounded-xl border border-line bg-wash p-5 text-sm text-muted">現在掲載中の制度はありません。</p>}
+      <Link href={`/grants/?q=${encodeURIComponent(tag)}`} className="mt-8 inline-flex min-h-11 items-center rounded-lg bg-navy px-5 font-bold text-white">このキーワードで制度を検索する</Link>
+    </main>
   );
 }

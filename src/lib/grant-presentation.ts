@@ -1,5 +1,35 @@
 const ELIGIBILITY_SEPARATOR = /[。；;、\n]+/;
 const PLACEHOLDER_HOSTS = new Set(['example.com', 'localhost']);
+const INTERNAL_AUDIT_PATTERN = /生成データ|旧生成データ|旧データ|HTTP\s*200|Last-Modified|補正理由|補正しました|補正し|重複回避|重複防止|互換slug|内部監査|抽出ログ|AIプロンプト/i;
+
+export function containsInternalAuditText(value?: string): boolean {
+  return Boolean(value && INTERNAL_AUDIT_PATTERN.test(value));
+}
+
+export function sanitizePublicGrantText(value?: string): string {
+  if (!value) return '';
+
+  if (/<[a-z][\s\S]*>/i.test(value)) {
+    return value
+      .replace(/<(p|li|div|section)[^>]*>[\s\S]*?<\/\1>/gi, (block) => (
+        containsInternalAuditText(block) ? '' : block
+      ))
+      .trim();
+  }
+
+  return value
+    .split(/(?<=。)/)
+    .filter((sentence) => !containsInternalAuditText(sentence))
+    .join('')
+    .trim();
+}
+
+export function sanitizeGrantTitle(value: string): string {
+  return value
+    .replace(/[（(][^）)]*(?:生成データ|補正理由|内部監査|HTTP\s*200|Last-Modified)[^）)]*[）)]/gi, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
 
 function isOfficialHttpUrl(value: string): boolean {
   try {
@@ -41,6 +71,6 @@ export function normalizeOfficialUrls(
 
 export function formatVerifiedDate(verifiedAt?: string): string {
   return verifiedAt
-    ? `公式出典を${verifiedAt}に確認`
-    : '確認日 未登録';
+    ? `自動照合日：${verifiedAt}`
+    : '自動照合日：未登録';
 }

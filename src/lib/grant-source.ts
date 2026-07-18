@@ -2,16 +2,14 @@ export interface GrantSourceLike {
   officialUrl: string;
   sourceUrls?: string[];
   verifiedAt?: string;
+  humanReviewedAt?: string | null;
 }
 
 const PLACEHOLDER_HOSTS = new Set(['example.com', 'localhost']);
 
-export function hasOfficialSource(grant: GrantSourceLike): boolean {
-  const officialUrl = grant.officialUrl?.trim();
-  if (!officialUrl) return false;
-
+function isValidOfficialUrl(value: string): boolean {
   try {
-    const url = new URL(officialUrl);
+    const url = new URL(value);
     return (
       (url.protocol === 'https:' || url.protocol === 'http:') &&
       !PLACEHOLDER_HOSTS.has(url.hostname.replace(/^www\./, ''))
@@ -21,12 +19,22 @@ export function hasOfficialSource(grant: GrantSourceLike): boolean {
   }
 }
 
+export function getValidOfficialSourceUrls(grant: GrantSourceLike): string[] {
+  return [...new Set([grant.officialUrl, ...(grant.sourceUrls ?? [])]
+    .map((value) => value?.trim())
+    .filter((value): value is string => Boolean(value) && isValidOfficialUrl(value as string)))];
+}
+
+export function hasOfficialSource(grant: GrantSourceLike): boolean {
+  return getValidOfficialSourceUrls(grant).length > 0;
+}
+
 export function isManuallyVerifiedGrant(grant: GrantSourceLike): boolean {
-  return hasOfficialSource(grant) && Boolean(grant.verifiedAt || grant.sourceUrls?.length);
+  return hasOfficialSource(grant) && Boolean(grant.humanReviewedAt);
 }
 
 export function getGrantSourceStatus(grant: GrantSourceLike): {
-  level: 'verified' | 'linked' | 'unverified';
+  level: 'human' | 'automated' | 'linked' | 'unverified';
   label: string;
   shortLabel: string;
   className: string;
@@ -34,11 +42,21 @@ export function getGrantSourceStatus(grant: GrantSourceLike): {
 } {
   if (isManuallyVerifiedGrant(grant)) {
     return {
-      level: 'verified',
-      label: '公式出典確認済み',
-      shortLabel: '公式確認',
+      level: 'human',
+      label: '人手確認済み',
+      shortLabel: '人手確認',
       className: 'bg-emerald-50 text-emerald-800 border-emerald-300',
-      description: '編集時点で公式サイト・公式資料を確認した掲載情報です。',
+      description: '記録された確認日に、人が公式ページと掲載内容を照合しています。申請前には最新の公式募集要項もご確認ください。',
+    };
+  }
+
+  if (hasOfficialSource(grant) && grant.verifiedAt) {
+    return {
+      level: 'automated',
+      label: '公式情報リンクあり・自動照合',
+      shortLabel: '自動照合',
+      className: 'bg-blue-50 text-blue-800 border-blue-300',
+      description: '公式情報へのリンクを自動処理で照合した記録があります。人手確認済みを意味するものではありません。',
     };
   }
 

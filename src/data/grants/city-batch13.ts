@@ -160,32 +160,49 @@ export const cityGrantsBatch13: Grant[] = [
   },
   {
     slug: 'hachioji-startup-support',
-    title: '八王子市 創業支援補助金',
+    title: '令和8年度 八王子市創業者販路拡大支援補助金',
+    officialName: '令和8年度（2026年度）創業者販路拡大支援補助金',
     organization: '八王子市',
     type: 'local',
-    maxAmount: '最大50万円',
-    maxAmountNum: 50,
+    supportType: 'subsidy',
+    maxAmount: '補助率4分の3以内・上限10万円',
+    maxAmountNum: 10,
     category: 'employment',
     prefecture: '東京都',
-    tags: ['八王子市', '創業支援', '補助金'],
-    eligibility: '八王子市内で新たに創業する方、または創業後1年以内の方',
-    applicationPeriod: '毎年4月〜12月（予算に達し次第終了）',
-    description: '八王子市が実施する創業支援補助金です。市内での新規創業にかかる初期費用を最大50万円補助します。',
+    tags: ['八王子市', '創業', '販路拡大', '補助金'],
+    audiences: ['soleProprietor', 'business'],
+    primaryAudience: 'business',
+    purposes: ['startup', 'businessGrowth'],
+    primaryPurpose: 'startup',
+    affiliateIntents: ['accounting'],
+    monetizationAllowed: true,
+    statusOverride: 'open',
+    deadlineDate: '2027-01-31',
+    budgetMayCloseEarly: true,
+    eligibility: '八王子市内に本社または主たる事業所を設置予定、またはすでに有する小規模企業で、公式公募要領に定める創業者などの条件をすべて満たす方',
+    applicationPeriod: '2026年4月1日〜2027年1月31日（予算終了次第、受付終了）',
+    description: '八王子市内の創業者による新たな販売先の獲得を目的とした取組を支援する補助金です。ウェブサイト関連費や広報費などについて、補助率4分の3以内、上限10万円です。',
+    eligibleCosts: ['ウェブサイト関連費', '広報費'],
+    applicationMethod: '八王子市公式ページのオンラインフォームから申請',
+    contactInformation: '八王子市 経済産業部産業振興課（企業支援） 電話：042-620-7379',
     sections: [
       {
         heading: '制度の概要',
-        content: '<p>八王子市 創業支援補助金は、<span class="marker">市内で新たに事業を始める方を対象に、創業に必要な初期費用の一部を補助</span>する制度です。</p><p>23の大学が集まる学園都市・八王子市は、若者の起業やイノベーション創出に力を入れています。店舗改装費、設備購入費、広告宣伝費などが補助対象です。</p><p>補助率は対象経費の2分の1で、<strong>上限は50万円</strong>です。<span class="marker-green">市の創業支援セミナーを受講した方は優先的に採択</span>されます。</p>'
+        content: '<p>八王子市内の創業者を増やし、販路拡大に係る取組を促進することを目的とした制度です。自社の製品・サービスの新たな販売先獲得を目的とする取組が対象です。</p>'
       },
       {
-        heading: '対象者と申請方法',
-        content: '<div class="summary-box" data-title="申請要件"><p>八王子市内で新たに事業を開始する個人・法人</p><p>創業後1年以内の方も対象</p><p>市税の滞納がないこと</p><p>八王子市の創業支援事業計画に基づく特定創業支援等事業を受けた方</p></div><p>八王子市役所産業振興部に事業計画書と見積書を提出します。書類審査に加え、プレゼンテーション審査が行われる場合があります。</p><p><span class="marker">交付決定前に支出した経費は補助対象外</span>ですので、必ず決定通知を受けてから事業に着手してください。</p>'
+        heading: '主な対象条件',
+        content: '<p>八王子市内に本社または主たる事業所を設置予定、またはすでに有する小規模企業であること、公式公募要領に定める創業者に該当すること、特定創業支援等事業による支援を受けた証明書を実績報告時までに取得することなど、すべての条件を満たす必要があります。</p>'
       },
       {
-        heading: '支給額と注意点',
-        content: '<p>補助額は対象経費の2分の1以内で、<strong>上限50万円</strong>です。補助対象となる経費は店舗改装費、機械装置費、広告宣伝費、委託費などです。</p><p>交付後は<span class="marker">事業の実施報告書を提出する義務</span>があります。事業を5年以内に廃止した場合は補助金の返還を求められることがあります。</p><div class="note-box">八王子市では創業支援セミナーやビジネスコンテストも開催しています。創業を検討中の方はまず八王子市産業振興部や商工会議所に相談することをおすすめします。</div>'
+        heading: '支援内容と申請期間',
+        content: '<p>ウェブサイト関連費、広報費などについて、補助率は4分の3以内、上限は10万円です。申請期間は2026年4月1日から2027年1月31日までで、予算が終了次第、受付を終了します。申請前に公式公募要領を確認してください。</p>'
       }
     ],
-    officialUrl: 'https://www.city.hachioji.tokyo.jp/',
+    officialUrl: 'https://www.city.hachioji.tokyo.jp/kurashi/sangyo/001/p035372.html',
+    sourceName: '八王子市公式ホームページ「令和8年度（2026年度）創業者販路拡大支援補助金の公募について」',
+    verifiedAt: '2026-07-17',
+    contentUpdatedAt: '2026-07-17',
     publishedAt: '2026-03-12',
   },
 

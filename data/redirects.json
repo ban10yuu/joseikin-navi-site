@@ -1,0 +1,14 @@
+[
+  {
+    "source": "/grant/kushiro-elderly-taxi/",
+    "destination": "/grant/kushiro-elderly-outing-bus/",
+    "statusCode": 301,
+    "reason": "制度実体が高齢者外出促進バス事業のため"
+  },
+  {
+    "source": "/grant/kagoshima-elderly-taxi/",
+    "destination": "/grant/kagoshima-keiro-pass/",
+    "statusCode": 301,
+    "reason": "制度実体が敬老パスのため"
+  }
+]

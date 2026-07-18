@@ -1,6 +1,11 @@
-import { CATEGORY_LABELS, Grant, TYPE_LABELS } from '@/lib/types';
-import { getDeadlineStatus } from '@/lib/deadline';
+import { CATEGORY_LABELS, Grant, SUPPORT_TYPE_LABELS, TYPE_LABELS } from '@/lib/types';
 import { formatVerifiedDate, splitEligibilityText } from '@/lib/grant-presentation';
+import {
+  getEffectiveGrantStatus,
+  GRANT_STATUS_LABELS,
+  isRepayableSupport,
+} from '@/lib/grant-status';
+import OfficialSourceButton from './OfficialSourceButton';
 
 interface GrantDecisionSummaryProps {
   grant: Grant;
@@ -8,28 +13,21 @@ interface GrantDecisionSummaryProps {
   sourceLabel: string;
 }
 
-function getApplicationStatus(grant: Grant, expired: boolean): string {
-  if (expired) return '掲載上の申請期限は終了';
-
-  const status = getDeadlineStatus(grant);
-  if (status === 'year-round') return '通年・随時受付の記載あり';
-  if (status === 'ending-soon') return '締切が近づいています';
-  if (status === 'budget-limited') return '予算到達で終了する場合あり';
-
-  return '最新の受付状況は公式サイトで確認';
-}
-
 export default function GrantDecisionSummary({
   grant,
   expired,
   sourceLabel,
 }: GrantDecisionSummaryProps) {
+  const status = getEffectiveGrantStatus(grant);
+  const isClosed = expired || status === 'closed';
+  const isLoan = isRepayableSupport(grant.supportType);
   const eligibilityItems = splitEligibilityText(grant.eligibility);
 
   return (
     <header className="grant-decision-summary">
       <div className="grant-summary-badges">
         <span className="is-type">{TYPE_LABELS[grant.type]}</span>
+        <span>{SUPPORT_TYPE_LABELS[grant.supportType ?? 'unknown']}</span>
         <span>{CATEGORY_LABELS[grant.category]}</span>
         <span>{grant.prefecture}</span>
         <span className="is-source">{sourceLabel}</span>
@@ -38,7 +36,7 @@ export default function GrantDecisionSummary({
       <h1>{grant.title}</h1>
       <p className="grant-summary-organization">実施機関：{grant.organization}</p>
 
-      {expired && (
+      {isClosed && (
         <div className="grant-summary-alert" role="status">
           <strong>掲載上の申請期限は終了しています</strong>
           <p>次回募集、後継制度、受付再開の有無を公式サイトまたは担当窓口で確認してください。</p>
@@ -46,13 +44,31 @@ export default function GrantDecisionSummary({
       )}
 
       <dl className="grant-summary-facts">
-        <div className="is-amount">
-          <dt>支給・補助額</dt>
-          <dd>{grant.maxAmount}</dd>
+        <div>
+          <dt>制度種別</dt>
+          <dd>{SUPPORT_TYPE_LABELS[grant.supportType ?? 'unknown']}</dd>
+        </div>
+        <div>
+          <dt>実施機関</dt>
+          <dd>{grant.organization}</dd>
+        </div>
+        <div>
+          <dt>主な対象者</dt>
+          <dd>
+            {eligibilityItems.length > 0 ? (
+              <ul className="grant-summary-eligibility-list">
+                {eligibilityItems.map((item) => <li key={item}>{item}</li>)}
+              </ul>
+            ) : '公式募集要項で確認'}
+          </dd>
         </div>
         <div>
           <dt>対象地域</dt>
           <dd>{grant.prefecture}</dd>
+        </div>
+        <div className="is-amount">
+          <dt>支援額</dt>
+          <dd>{grant.maxAmount}{isLoan && <p className="grant-loan-notice">貸付制度・原則として返済が必要です</p>}</dd>
         </div>
         <div>
           <dt>申請期間</dt>
@@ -60,41 +76,19 @@ export default function GrantDecisionSummary({
         </div>
         <div>
           <dt>受付状況</dt>
-          <dd>{getApplicationStatus(grant, expired)}</dd>
+          <dd>{GRANT_STATUS_LABELS[status]}{grant.budgetMayCloseEarly && <p className="grant-budget-note">予算到達により早期終了する場合があります。</p>}</dd>
+        </div>
+        <div>
+          <dt>公式情報確認日</dt>
+          <dd>{grant.verifiedAt ?? '確認日未登録'}</dd>
+        </div>
+        <div>
+          <dt>確認方法</dt>
+          <dd>{sourceLabel}</dd>
         </div>
       </dl>
 
-      <div className="grant-summary-description">
-        <h2>この制度について</h2>
-        <p>{grant.description}</p>
-      </div>
-
-      <section className="grant-eligibility-summary" aria-labelledby="grant-eligibility-title">
-        <h2 id="grant-eligibility-title">主な対象条件</h2>
-        <p className="grant-eligibility-note">掲載データに記載された条件の要約です。細かな要件は公式募集要項で確認してください。</p>
-        {eligibilityItems.length > 0 || grant.targetIncome || grant.targetOccupation ? (
-          <ul>
-            {eligibilityItems.map((item) => (
-              <li key={item}>{item}</li>
-            ))}
-            {grant.targetIncome && <li>収入に関する記載：{grant.targetIncome}</li>}
-            {grant.targetOccupation && <li>職業に関する記載：{grant.targetOccupation}</li>}
-          </ul>
-        ) : (
-          <p className="grant-eligibility-missing">対象条件は公式募集要項で確認してください。</p>
-        )}
-      </section>
-
-      <a
-        href={grant.officialUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="grant-official-primary"
-      >
-        公式サイトで最新情報を確認
-        <span className="sr-only">（新しいタブで開きます）</span>
-        <span aria-hidden="true">↗</span>
-      </a>
+      <OfficialSourceButton href={grant.officialUrl} status={status} grantId={grant.slug} audience={grant.primaryAudience} purpose={grant.primaryPurpose} />
       <p className="grant-summary-verified">{formatVerifiedDate(grant.verifiedAt)}。対象条件と受付状況は公式情報を優先してください。</p>
     </header>
   );

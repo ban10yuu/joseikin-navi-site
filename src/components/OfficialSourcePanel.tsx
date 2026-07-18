@@ -4,22 +4,28 @@ interface OfficialSourcePanelProps {
   officialUrl: string;
   sourceUrls?: string[];
   sourceName?: string;
-  sourceNote?: string;
   verifiedAt?: string;
+  humanReviewedAt?: string | null;
   statusLabel: string;
   statusDescription: string;
-  statusLevel: 'verified' | 'linked' | 'unverified';
+  statusLevel: 'human' | 'automated' | 'linked' | 'unverified';
+  grantId?: string;
+  audience?: string;
+  purpose?: string;
 }
 
 export default function OfficialSourcePanel({
   officialUrl,
   sourceUrls,
   sourceName,
-  sourceNote,
   verifiedAt,
+  humanReviewedAt,
   statusLabel,
   statusDescription,
   statusLevel,
+  grantId,
+  audience,
+  purpose,
 }: OfficialSourcePanelProps) {
   const urls = normalizeOfficialUrls(officialUrl, sourceUrls);
 
@@ -34,6 +40,9 @@ export default function OfficialSourcePanel({
       </div>
 
       <p className="grant-source-description">{statusDescription}</p>
+      {humanReviewedAt && (
+        <p className="grant-source-human"><span>人手確認日</span>{humanReviewedAt}</p>
+      )}
       {sourceName && (
         <p className="grant-source-name"><span>確認元</span>{sourceName}</p>
       )}
@@ -41,7 +50,7 @@ export default function OfficialSourcePanel({
       <ul className="grant-source-links">
         {urls.map((url, index) => (
           <li key={url}>
-            <a href={url} target="_blank" rel="noopener noreferrer">
+            <a href={url} target="_blank" rel="noopener noreferrer" data-analytics-event="official_source_click" data-page-type="grant" data-grant-id={grantId} data-audience={audience} data-purpose={purpose} data-placement="source-panel" data-position={String(index + 1)}>
               公式情報を確認{urls.length > 1 ? ` ${index + 1}` : ''}
               <span className="sr-only">（新しいタブで開きます）</span>
               <span aria-hidden="true">↗</span>
@@ -50,12 +59,6 @@ export default function OfficialSourcePanel({
         ))}
       </ul>
 
-      {sourceNote && (
-        <details className="grant-source-history">
-          <summary>確認履歴を見る</summary>
-          <p>{sourceNote}</p>
-        </details>
-      )}
     </section>
   );
 }

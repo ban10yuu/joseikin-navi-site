@@ -6,7 +6,26 @@ export interface GrantDeadlineLike {
 export type DeadlineStatus = 'year-round' | 'ending-soon' | 'ended' | 'budget-limited' | null;
 
 export function getDeadlineDateEnd(deadlineDate: string): Date {
-  return new Date(`${deadlineDate}T23:59:59+09:00`);
+  if (/^\d{4}-\d{2}-\d{2}$/.test(deadlineDate)) {
+    return new Date(`${deadlineDate}T23:59:59.999+09:00`);
+  }
+
+  if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(?::\d{2})?$/.test(deadlineDate)) {
+    return new Date(`${deadlineDate}+09:00`);
+  }
+
+  return new Date(deadlineDate);
+}
+
+export function formatDeadlineInTokyo(deadlineDate: string): string {
+  const includesTime = deadlineDate.includes('T');
+  return new Intl.DateTimeFormat('ja-JP', {
+    timeZone: 'Asia/Tokyo',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    ...(includesTime ? { hour: '2-digit', minute: '2-digit', hour12: false } : {}),
+  }).format(getDeadlineDateEnd(deadlineDate));
 }
 
 export function isGrantExpired(grant: GrantDeadlineLike, now = new Date()): boolean {

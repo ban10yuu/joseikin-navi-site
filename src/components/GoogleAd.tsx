@@ -1,8 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-
-const AD_CLIENT = 'ca-pub-1611624572831066';
+import { shouldRenderDisplayAd } from '@/lib/monetization';
 
 type AdFormat = 'auto' | 'horizontal' | 'vertical' | 'rectangle';
 
@@ -32,11 +31,12 @@ export default function GoogleAd({
   slot = process.env.NEXT_PUBLIC_ADSENSE_SLOT,
   label = '広告',
 }: GoogleAdProps) {
+  const clientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
   const pushed = useRef(false);
   const containerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    if (!slot || pushed.current) return;
+    if (!shouldRenderDisplayAd(clientId, slot) || pushed.current) return;
 
     const pushAd = () => {
       if (pushed.current) return true;
@@ -71,17 +71,19 @@ export default function GoogleAd({
       window.clearTimeout(timeout);
       observer.disconnect();
     }
-  }, [slot]);
+  }, [clientId, slot]);
+
+  if (!shouldRenderDisplayAd(clientId, slot)) return null;
 
   return (
     <div ref={containerRef} className={`overflow-hidden ${className}`} aria-label={label}>
-      <div className="mb-1 text-center text-[10px] font-medium tracking-wider text-faint">
+      <div data-ad-label className="mb-1 text-center text-[10px] font-medium tracking-wider text-faint">
         {label}
       </div>
       <ins
         className="adsbygoogle"
         style={{ display: 'block', minHeight: MIN_HEIGHT_BY_FORMAT[format] }}
-        data-ad-client={AD_CLIENT}
+        data-ad-client={clientId}
         data-ad-slot={slot}
         data-ad-format={format}
         data-full-width-responsive="true"

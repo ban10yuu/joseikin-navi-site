@@ -1,248 +1,105 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import GoogleAd from '@/components/GoogleAd';
+import ResponsiveAffiliatePlacement from '@/components/ResponsiveAffiliatePlacement';
+import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
+import { getEligibleAffiliateOffers } from '@/lib/monetization';
+import { toSiteUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
-  title: '助成金の申請ガイド｜初めての方でも分かる申請の流れと必要書類',
-  description:
-    '助成金・補助金・給付金の申請方法を初めての方にも分かりやすく解説。申請の流れ、必要書類の準備、審査のポイント、よくある失敗例まで網羅的にご紹介します。',
-  alternates: { canonical: 'https://joseikin-navi-site.vercel.app/guide/' },
+  title: '申請前ガイド｜個人向け・事業者向けの確認手順',
+  description: '支援制度を探してから公式情報、窓口、必要書類、期限を確認する手順を、個人向けと事業者向けに分けて説明します。',
+  alternates: { canonical: toSiteUrl('/guide/') },
 };
 
-const steps = [
-  {
-    num: 1,
-    title: '対象となる助成金を探す',
-    desc: 'まずは自分が利用できる助成金を見つけましょう。当サイトのトップページにある「助成金診断クイズ」を使えば、世帯構成・収入状況・目的に応じた助成金が簡単に見つかります。',
-    tips: [
-      'カテゴリ（子育て・住宅・医療など）から探すのも効果的',
-      'お住まいの都道府県の独自制度も忘れずにチェック',
-      '複数の助成金を同時に利用できるケースも多い',
-    ],
-  },
-  {
-    num: 2,
-    title: '受給条件を確認する',
-    desc: '助成金には対象者の条件（年齢、所得、世帯構成など）が設定されています。条件を満たしているか事前に確認しましょう。不明な点は各制度の窓口に問い合わせるのが確実です。',
-    tips: [
-      '所得制限は「収入」ではなく「所得」で判断されることが多い',
-      '世帯全体の所得か、申請者個人の所得かを確認',
-      '条件ギリギリの場合は窓口に相談してみる',
-    ],
-  },
-  {
-    num: 3,
-    title: '必要書類を準備する',
-    desc: '申請に必要な書類を揃えます。当サイトの各助成金ページには「必要書類チェックリスト」を掲載していますので、活用してください。書類の取得には時間がかかるものもあるため、早めの準備がおすすめです。',
-    tips: [
-      '住民票・所得証明書はマイナンバーカードでコンビニ取得可能',
-      '書類の有効期限（通常3ヶ月以内）に注意',
-      '原本が必要かコピーでよいかを事前に確認',
-    ],
-  },
-  {
-    num: 4,
-    title: '申請書を作成・提出する',
-    desc: '申請書に必要事項を記入し、必要書類とともに提出します。窓口への持参、郵送、オンライン申請など、制度によって提出方法が異なります。記入ミスは審査の遅延につながるため、丁寧に記入しましょう。',
-    tips: [
-      '記入例があれば必ず参考にする',
-      '押印が必要な場合はシャチハタ不可のことが多い',
-      '提出前にコピーを取っておくと安心',
-    ],
-  },
-  {
-    num: 5,
-    title: '審査結果を待つ',
-    desc: '提出後は審査が行われます。審査期間は制度によって異なり、数日〜数ヶ月かかる場合があります。不備があった場合は修正の連絡が来ますので、迅速に対応しましょう。',
-    tips: [
-      '審査中に住所や口座が変わった場合は速やかに届出',
-      '追加書類の提出を求められる場合もある',
-      '不支給の場合は理由を確認し、再申請を検討',
-    ],
-  },
-  {
-    num: 6,
-    title: '助成金を受給する',
-    desc: '審査に通過すると、指定した銀行口座に助成金が振り込まれます。受給後に報告書の提出が必要な制度もありますので、忘れずに対応しましょう。',
-    tips: [
-      '振込日は制度ごとに異なる（月末・翌月15日など）',
-      '補助金は事業完了後の後払いが一般的',
-      '確定申告が必要になるケースもあるので要確認',
-    ],
-  },
-];
+const personalSteps = [
+  { title: '対象制度を探す', text: '対象区分、地域、目的を選び、候補を絞ります。検索結果だけで対象可否は確定しません。' },
+  { title: '公式情報を確認する', text: '制度名、実施機関、対象者、支援内容、申請期間を公式ページと募集要項で確認します。' },
+  { title: '申請窓口を確認する', text: '申請先、問い合わせ先、窓口・郵送・電子申請などの提出方法を確認します。' },
+  { title: '必要書類を公式情報で確認する', text: '書類名、対象年度、発行日の条件、原本・写しの指定は制度ごとに異なります。' },
+  { title: '期限内に申請する', text: '締切日、締切時刻、必着・消印有効、予算到達による早期終了の記載を確認します。' },
+  { title: '結果や支給時期を確認する', text: '通知方法、追加資料への対応、支給・交付時期、決定後の手続きを確認します。' },
+] as const;
 
-const commonDocs = [
-  { name: '本人確認書類', detail: 'マイナンバーカード、運転免許証、パスポートなど' },
-  { name: '住民票の写し', detail: '市区町村の窓口またはコンビニで取得（3ヶ月以内のもの）' },
-  { name: '所得証明書（課税証明書）', detail: '市区町村の窓口で取得。前年の所得が記載されたもの' },
-  { name: '振込先口座の通帳コピー', detail: '金融機関名・支店名・口座番号・名義が分かるページ' },
-  { name: '印鑑', detail: '認印で可の場合が多いがシャチハタ不可の場合あり' },
-  { name: '健康保険証', detail: '医療関連の助成金で必要になることが多い' },
-];
+const businessSteps = [
+  { title: '公募要領を読む', text: '概要ページだけでなく、公募要領、交付要綱、FAQ、様式を確認します。' },
+  { title: '対象者・対象経費・補助率を確認する', text: '所在地、事業規模、事業期間、対象外経費、上限額を含めて確認します。' },
+  { title: '交付決定前の発注・契約可否を確認する', text: '申請、採択、交付決定、契約、発注、支払いの順序を誤ると対象外になる場合があります。制度固有の規定を確認してください。' },
+  { title: '事業計画・見積書・証明資料を準備する', text: '指定様式、見積条件、相見積の要否、証明資料の対象期間を公募要領で確認します。' },
+  { title: '電子申請アカウントを準備する', text: '電子申請の場合は、指定アカウント、本人確認、権限設定、利用可能時間を確認します。' },
+  { title: '実績報告・証憑保存・後払い条件を確認する', text: '実績報告期限、請求手続き、証憑の保存期間、支払時期、返還条件を確認します。' },
+] as const;
 
-const mistakes = [
-  { title: '申請期限を過ぎてしまう', desc: '助成金には申請期限があります。特に補助金は公募期間が短いため、早めに情報をキャッチしましょう。' },
-  { title: '書類の不備・記入ミス', desc: '書類の不備は審査遅延や不支給の原因になります。記入例をよく確認し、提出前にダブルチェックしましょう。' },
-  { title: '対象外の経費を申請する', desc: '補助金には対象となる経費が細かく決められています。対象外の経費を含めると全額不支給になるリスクがあります。' },
-  { title: '事業開始後に申請する', desc: '多くの補助金は「交付決定前に開始した事業は対象外」です。必ず申請・採択後に事業を開始しましょう。' },
-];
+function GuideSteps({ steps }: { steps: readonly { title: string; text: string }[] }) {
+  return (
+    <ol className="grid gap-3">
+      {steps.map((step, index) => (
+        <li key={step.title} className="grid grid-cols-[2.5rem_minmax(0,1fr)] gap-3 rounded-lg border border-line bg-card p-4 sm:p-5">
+          <span className="flex h-10 w-10 items-center justify-center rounded-md bg-navy text-sm font-black text-white" aria-hidden="true">{index + 1}</span>
+          <div><h3 className="text-base font-black leading-7 text-navy">{step.title}</h3><p className="mt-1 text-sm leading-7 text-muted">{step.text}</p></div>
+        </li>
+      ))}
+    </ol>
+  );
+}
 
 export default function GuidePage() {
+  const businessAffiliates = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+    pageType: 'businessGuide', audiences: ['soleProprietor', 'business', 'nonprofit'],
+    purposes: ['startup', 'businessGrowth', 'digitalTransformation'], intents: ['accounting', 'electronicContract'],
+    monetizationAllowed: true, limit: 2,
+  });
+
   return (
     <>
-      <div className="bg-navy py-10 sm:py-14 border-b-4 border-accent">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6">
-          <nav className="text-xs text-white/60 mb-4">
-            <Link href="/" className="hover:text-white hover:underline underline-offset-2">ホーム</Link>
-            <span className="mx-1">/</span>
-            <span className="text-white/85">申請ガイド</span>
-          </nav>
-          <h1 className="text-2xl sm:text-3xl font-black text-white mb-3 tracking-wide">
-            助成金の申請ガイド
-          </h1>
-          <p className="text-white/80">
-            初めての方でも安心。助成金・補助金の申請手順を6つのステップで分かりやすく解説します。
-          </p>
+      <header className="border-b-4 border-accent bg-navy py-10 text-white sm:py-14">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+          <nav className="mb-4 text-sm text-white/65"><Link href="/" className="underline underline-offset-4">ホーム</Link><span aria-hidden="true" className="mx-2">/</span>申請前ガイド</nav>
+          <h1 className="text-3xl font-black leading-tight sm:text-4xl">申請前に確認すること</h1>
+          <p className="mt-4 max-w-2xl text-base leading-8 text-white/80">個人・家族向けと事業者・団体向けでは、注意する順序が異なります。自分に合う手順を選んでください。</p>
         </div>
-      </div>
+      </header>
 
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8">
-        <GoogleAd />
+      <main className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-14">
+        <nav aria-label="ガイド内メニュー" className="mb-10 grid gap-3 sm:grid-cols-2">
+          <a href="#individual-guide" className="flex min-h-14 items-center justify-between rounded-lg border-2 border-navy bg-card px-5 py-3 font-black text-navy">個人・家族向けを見る<span aria-hidden="true">↓</span></a>
+          <a href="#business-guide" className="flex min-h-14 items-center justify-between rounded-lg border-2 border-accent bg-card px-5 py-3 font-black text-accent-deep">事業者・団体向けを見る<span aria-hidden="true">↓</span></a>
+        </nav>
 
-        {/* 申請の流れ */}
-        <section className="mt-8">
-          <h2 className="text-xl font-bold text-navy mb-6 flex items-center gap-2">
-            <span className="w-8 h-8 rounded-lg bg-navy text-white flex items-center justify-center text-sm font-bold">1</span>
-            申請の流れ（6ステップ）
-          </h2>
-          <div className="space-y-6">
-            {steps.map((step) => (
-              <div
-                key={step.num}
-                className="bg-card border-[1.5px] border-line rounded-xl p-5 sm:p-6"
-              >
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-accent text-white font-black text-lg flex items-center justify-center">
-                    {step.num}
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-base font-bold text-navy mb-2">
-                      {step.title}
-                    </h3>
-                    <p className="text-sm text-ink leading-relaxed mb-3">
-                      {step.desc}
-                    </p>
-                    <div className="bg-wash rounded-lg p-3 border-l-4 border-navy">
-                      <p className="text-xs font-bold text-navy mb-1.5">ポイント</p>
-                      <ul className="space-y-1">
-                        {step.tips.map((tip, i) => (
-                          <li key={i} className="text-xs text-ink flex items-start gap-1.5">
-                            <span className="text-accent-deep font-bold mt-0.5">&#10003;</span>
-                            {tip}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+        <section id="individual-guide" className="scroll-mt-24" aria-labelledby="individual-guide-title">
+          <p className="text-sm font-black text-accent-deep">個人・家族向け</p>
+          <h2 id="individual-guide-title" className="mt-1 text-2xl font-black leading-relaxed text-navy">候補を見つけてから申請するまで</h2>
+          <p className="mb-5 mt-2 text-base leading-8 text-muted">住所、年齢、世帯、所得などの基準日は制度ごとに異なります。公式情報に書かれた条件をそのまま確認します。</p>
+          <GuideSteps steps={personalSteps} />
         </section>
 
-        <GoogleAd className="mt-8" />
-
-        {/* よく使う書類 */}
-        <section className="mt-10">
-          <h2 className="text-xl font-bold text-navy mb-6 flex items-center gap-2">
-            <span className="w-8 h-8 rounded-lg bg-navy text-white flex items-center justify-center text-sm font-bold">2</span>
-            よく必要になる書類一覧
-          </h2>
-          <div className="bg-card border-2 border-line-strong rounded-xl overflow-hidden">
-            <table className="w-full">
-              <thead>
-                <tr className="bg-navy">
-                  <th className="text-left text-xs font-bold text-white px-4 py-3">書類名</th>
-                  <th className="text-left text-xs font-bold text-white px-4 py-3 hidden sm:table-cell">取得方法・備考</th>
-                </tr>
-              </thead>
-              <tbody>
-                {commonDocs.map((doc, i) => (
-                  <tr key={i} className="border-t border-line">
-                    <td className="px-4 py-3">
-                      <p className="text-sm font-bold text-navy">{doc.name}</p>
-                      <p className="text-xs text-muted sm:hidden mt-0.5">{doc.detail}</p>
-                    </td>
-                    <td className="px-4 py-3 text-sm text-ink hidden sm:table-cell">{doc.detail}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+        <section id="business-guide" className="mt-14 scroll-mt-24 border-t-2 border-line pt-12" aria-labelledby="business-guide-title">
+          <p className="text-sm font-black text-accent-deep">事業者・団体向け</p>
+          <h2 id="business-guide-title" className="mt-1 text-2xl font-black leading-relaxed text-navy">公募要領から実績報告まで</h2>
+          <p className="mb-5 mt-2 text-base leading-8 text-muted">対象経費や着手時期を誤らないよう、申請前だけでなく交付決定後の義務まで確認します。</p>
+          {businessAffiliates.length > 0 && (
+            <ResponsiveAffiliatePlacement offers={businessAffiliates} pageType="businessGuide" placement="business-guide-intro" audience="business" purpose="businessGrowth" className="guide-affiliate-placement mb-5" expandAt={1024} />
+          )}
+          <GuideSteps steps={businessSteps} />
         </section>
 
-        {/* よくある失敗 */}
-        <section className="mt-10">
-          <h2 className="text-xl font-bold text-navy mb-6 flex items-center gap-2">
-            <span className="w-8 h-8 rounded-lg bg-accent text-white flex items-center justify-center text-sm font-black">!</span>
-            よくある失敗例と対策
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {mistakes.map((m, i) => (
-              <div key={i} className="bg-accent-wash border-[1.5px] border-accent rounded-xl p-4">
-                <h3 className="text-sm font-bold text-accent-deep mb-1.5">{m.title}</h3>
-                <p className="text-xs text-ink leading-relaxed">{m.desc}</p>
-              </div>
-            ))}
-          </div>
-        </section>
+        <aside className="mt-12 rounded-lg border-l-4 border-caution bg-caution-wash p-5">
+          <h2 className="text-lg font-black text-navy">このガイドで一律に案内しないこと</h2>
+          <p className="mt-2 text-sm leading-7 text-ink">住民票の有効期限、印鑑の種類、必要書類、支給時期、併用可否は制度ごとに異なります。一般化せず、公式募集要項または担当窓口でご確認ください。</p>
+        </aside>
 
-        <GoogleAd className="mt-8" />
-
-        {/* CTA */}
-        <div className="mt-10 bg-card border-2 border-navy rounded-xl p-6 text-center shadow-sm">
-          <h2 className="text-lg font-bold text-navy mb-2">
-            さっそく助成金を探してみましょう
-          </h2>
-          <p className="text-sm text-muted mb-4">
-            2,500件以上の助成金の中から、あなたに合った制度が見つかります。
-          </p>
-          <div className="flex flex-wrap justify-center gap-3">
-            <Link
-              href="/"
-              className="inline-block px-6 py-2.5 bg-accent text-white text-sm font-bold rounded-lg hover:bg-accent-deep transition-colors shadow-sm"
-            >
-              助成金を探す
-            </Link>
-            <Link
-              href="/faq/"
-              className="inline-block px-6 py-2.5 bg-card text-navy text-sm font-bold rounded-lg border-2 border-navy hover:bg-wash transition-colors"
-            >
-              よくある質問
-            </Link>
-          </div>
+        <div className="mt-10 flex flex-wrap gap-3">
+          <Link href="/grants/" className="inline-flex min-h-11 items-center rounded-md bg-accent px-5 py-3 text-sm font-black text-white">制度を探す</Link>
+          <Link href="/faq/" className="inline-flex min-h-11 items-center rounded-md border-2 border-navy bg-card px-5 py-3 text-sm font-black text-navy">よくある質問を見る</Link>
         </div>
-      </div>
+      </main>
 
-      {/* 構造化データ */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'HowTo',
-            name: '助成金の申請方法',
-            description: '助成金・補助金の申請手順を6つのステップで解説',
-            step: steps.map((s) => ({
-              '@type': 'HowToStep',
-              position: s.num,
-              name: s.title,
-              text: s.desc,
-            })),
-          }),
-        }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@graph': [
+          { '@type': 'HowTo', name: '個人・家族向けの支援制度申請前ガイド', step: personalSteps.map((step, index) => ({ '@type': 'HowToStep', position: index + 1, name: step.title, text: step.text })) },
+          { '@type': 'HowTo', name: '事業者・団体向けの支援制度申請前ガイド', step: businessSteps.map((step, index) => ({ '@type': 'HowToStep', position: index + 1, name: step.title, text: step.text })) },
+        ],
+      }) }} />
     </>
   );
 }

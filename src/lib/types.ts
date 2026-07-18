@@ -9,6 +9,110 @@ export type GrantCategory =
   | 'living'       // 生活支援
   | 'disaster';    // 災害・緊急
 
+export type LegacyGrantCategory =
+  | GrantCategory
+  | 'startup'
+  | 'primary-industry'
+  | 'agriculture'
+  | 'equipment'
+  | 'environment'
+  | 'community'
+  | 'business'
+  | 'digital'
+  | 'disability'
+  | 'energy'
+  | 'finance'
+  | 'financing'
+  | 'healthcare'
+  | 'life'
+  | 'migration'
+  | 'relocation'
+  | 'safety'
+  | 'technology'
+  | 'transport'
+  | 'transportation'
+  | 'utility'
+  | 'welfare';
+
+export type SupportType =
+  | 'grant'
+  | 'subsidy'
+  | 'benefit'
+  | 'allowance'
+  | 'loan'
+  | 'scholarshipLoan'
+  | 'reduction'
+  | 'taxCredit'
+  | 'insuranceBenefit'
+  | 'discount'
+  | 'voucher'
+  | 'inKind'
+  | 'other'
+  | 'unknown';
+
+export type Audience =
+  | 'individual'
+  | 'family'
+  | 'student'
+  | 'senior'
+  | 'personWithDisability'
+  | 'jobSeeker'
+  | 'soleProprietor'
+  | 'business'
+  | 'nonprofit'
+  | 'researcher'
+  | 'localOrganization'
+  | 'other';
+
+export type Purpose =
+  | 'childcare'
+  | 'housing'
+  | 'medical'
+  | 'education'
+  | 'employment'
+  | 'startup'
+  | 'businessGrowth'
+  | 'digitalTransformation'
+  | 'energySaving'
+  | 'wageIncrease'
+  | 'welfare'
+  | 'disaster'
+  | 'livingSupport'
+  | 'regionalRevitalization'
+  | 'research'
+  | 'other';
+
+export type GrantStatus =
+  | 'scheduled'
+  | 'open'
+  | 'closingSoon'
+  | 'closed'
+  | 'suspended'
+  | 'unknown';
+
+export type VerificationMethod = 'automated' | 'human' | 'mixed' | 'unknown';
+export type ContentStatus = 'published' | 'needsReview' | 'duplicate' | 'unverified' | 'archived';
+export type IndexStatus = 'index' | 'noindex';
+export type AffiliateIntent =
+  | 'accounting'
+  | 'expenseManagement'
+  | 'payroll'
+  | 'attendance'
+  | 'humanResources'
+  | 'electronicContract'
+  | 'cloudStorage'
+  | 'businessPlanning'
+  | 'ecommerce'
+  | 'reservationSystem'
+  | 'pos'
+  | 'employeeTraining'
+  | 'professionalConsultation'
+  | 'homeEnergyConsultation'
+  | 'systemDevelopment'
+  | 'fertilityCare'
+  | 'medicalExpenseTax'
+  | 'treatmentCostManagement';
+
 // ── 助成金タイプ ──
 export type GrantType = 'national' | 'local' | 'ngo';
 
@@ -44,7 +148,92 @@ export interface Grant {
   verifiedAt?: string;     // 公式出典で確認した日 (ISO date)
   searchText?: string;     // 一覧・絞り込み用の検索対象テキスト
   publishedAt: string;
+  id?: string;
+  officialName?: string | null;
+  providerType?: string;
+  supportType?: SupportType;
+  audiences?: Audience[];
+  primaryAudience?: Audience;
+  purposes?: Purpose[];
+  primaryPurpose?: Purpose;
+  municipality?: string | null;
+  amountMin?: number;
+  amountMax?: number;
+  subsidyRate?: string;
+  applicationStartAt?: string;
+  applicationEndAt?: string;
+  status?: GrantStatus;
+  statusOverride?: GrantStatus;
+  budgetMayCloseEarly?: boolean;
+  eligibleCosts?: string[];
+  applicationMethod?: string;
+  requiredDocuments?: string[];
+  contactInformation?: string;
+  verificationMethod?: VerificationMethod;
+  humanReviewedAt?: string | null;
+  sourceUpdatedAt?: string;
+  contentUpdatedAt?: string;
+  contentStatus?: ContentStatus;
+  indexStatus?: IndexStatus;
+  noindexReason?: string;
+  affiliateIntents?: AffiliateIntent[];
+  monetizationAllowed?: boolean;
+  redirectFrom?: string[];
 }
+
+export type LegacyGrant = Omit<
+  Grant,
+  'category' | 'relatedCategories' | 'maxAmountNum' | 'applicationPeriod'
+> & {
+  category: LegacyGrantCategory;
+  relatedCategories?: LegacyGrantCategory[];
+  maxAmountNum?: number;
+  applicationPeriod?: string;
+};
+
+export type NormalizedGrant = Omit<
+  Grant,
+  | 'id'
+  | 'officialName'
+  | 'providerType'
+  | 'supportType'
+  | 'audiences'
+  | 'primaryAudience'
+  | 'purposes'
+  | 'primaryPurpose'
+  | 'municipality'
+  | 'status'
+  | 'verificationMethod'
+  | 'humanReviewedAt'
+  | 'contentUpdatedAt'
+  | 'contentStatus'
+  | 'indexStatus'
+  | 'affiliateIntents'
+  | 'monetizationAllowed'
+> & {
+  id: string;
+  officialName: string | null;
+  providerName: string;
+  providerType: string;
+  supportType: SupportType;
+  audiences: Audience[];
+  primaryAudience: Audience;
+  purposes: Purpose[];
+  primaryPurpose: Purpose;
+  country: '日本';
+  municipality: string | null;
+  status: GrantStatus;
+  verificationMethod: VerificationMethod;
+  humanReviewedAt: string | null;
+  sourceTitle: string | null;
+  sourceUrl: string | null;
+  sourceCheckedAt: string | null;
+  contentUpdatedAt: string;
+  contentStatus: ContentStatus;
+  indexStatus: IndexStatus;
+  affiliateIntents: AffiliateIntent[];
+  monetizationAllowed: boolean;
+};
 
 // ── カテゴリラベル ──
 export const CATEGORY_LABELS: Record<GrantCategory, string> = {
@@ -75,6 +264,23 @@ export const TYPE_LABELS: Record<GrantType, string> = {
   national: '国の制度',
   local: '自治体の制度',
   ngo: '民間・NPO',
+};
+
+export const SUPPORT_TYPE_LABELS: Record<SupportType, string> = {
+  grant: '助成金',
+  subsidy: '補助金',
+  benefit: '給付金',
+  allowance: '手当',
+  loan: '貸付',
+  scholarshipLoan: '奨学金貸付',
+  reduction: '減免',
+  taxCredit: '税額控除',
+  insuranceBenefit: '保険給付',
+  discount: '料金割引',
+  voucher: '利用券',
+  inKind: '現物給付',
+  other: 'その他の支援',
+  unknown: '制度種別は公式情報で確認',
 };
 
 // ── タイプカラー ──

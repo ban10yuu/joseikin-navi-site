@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
-import { getDeadlineStatus } from './deadline.ts';
+import { formatDeadlineInTokyo, getDeadlineDateEnd, getDeadlineStatus } from './deadline.ts';
 
 describe('getDeadlineStatus', () => {
   it('申請期間が欠けているデータは状態不明として扱う', () => {
@@ -43,5 +43,11 @@ describe('getDeadlineStatus', () => {
 
   it('予算・先着の記載を予算次第として扱う', () => {
     assert.equal(getDeadlineStatus({ applicationPeriod: '先着順。予算到達で終了' }), 'budget-limited');
+  });
+
+  it('締切時刻がある場合はその時刻をAsia/Tokyoで判定する', () => {
+    const deadline = getDeadlineDateEnd('2026-07-13T17:00:00+09:00');
+    assert.equal(deadline.toISOString(), '2026-07-13T08:00:00.000Z');
+    assert.equal(formatDeadlineInTokyo('2026-07-13T17:00:00+09:00'), '2026年7月13日 17:00');
   });
 });
