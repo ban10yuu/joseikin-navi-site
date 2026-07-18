@@ -1,0 +1,108 @@
+{
+  "audit": "nationwide-final-audit-035-hokkaido-second-pass-015",
+  "checkedAt": "2026-07-19T07:57:00+09:00",
+  "source": "tasks/discovery/hokkaido-second-pass-015-snippets.json",
+  "municipalities": [
+    "浦臼町",
+    "新十津川町",
+    "妹背牛町",
+    "秩父別町"
+  ],
+  "summary": {
+    "adopted": 0,
+    "held": 14,
+    "excluded": 0,
+    "sourceUrlsChecked": 14,
+    "dataChange": "none: no new grant slugs added",
+    "notes": "北海道第2巡015は、浦臼町・新十津川町・妹背牛町・秩父別町の第2巡候補を自治体コード順に再確認した。4町とも第1巡掲載済み制度、通常行政/国制度、リンク先不一致、現行性疑義、又は金額/上限・受付状況不足の候補が中心で、新規に制度名・対象・金額/上限・条件・期限/受付状況が揃う未掲載制度は確認できなかった。"
+  },
+  "existingCoverageCounts": {
+    "浦臼町": 13,
+    "新十津川町": 14,
+    "妹背牛町": 19,
+    "秩父別町": 24
+  },
+  "heldCandidates": [
+    {
+      "municipality": "浦臼町",
+      "title": "就学援助制度",
+      "reason": "公式本文の金額欄が令和3年度予定年額のままで、令和8年度現行額として扱えないため掲載しない。"
+    },
+    {
+      "municipality": "浦臼町",
+      "title": "任意予防接種",
+      "reason": "接種費用助成、対象、助成回数は確認したが、助成額又は自己負担額が公式本文で確認できないため掲載保留。"
+    },
+    {
+      "municipality": "浦臼町",
+      "title": "医療費助成・児童手当等",
+      "reason": "医療費助成は住民手続きページ上の言及のみで個別制度ページがなく、児童手当等は国制度として町窓口案内に留める。"
+    },
+    {
+      "municipality": "新十津川町",
+      "title": "奨学金制度・給食費無料",
+      "reason": "一覧ページで制度名・概要を確認したが、個別ページが404で金額・対象・条件を個別公式ページとして確認できないため掲載保留。"
+    },
+    {
+      "municipality": "新十津川町",
+      "title": "妊婦歯科健診・妊婦/子どもインフルエンザ",
+      "reason": "無料又は全額助成の候補は確認したが、個別ページ又は実施条件の確認が弱いため掲載しない。"
+    },
+    {
+      "municipality": "新十津川町",
+      "title": "文化スポーツ団体助成・ユニフォーム購入助成・大会参加助成等",
+      "reason": "一覧上の候補で、個別制度ページ・金額・対象確認まで保留する。"
+    },
+    {
+      "municipality": "新十津川町",
+      "title": "出生記念品・町内公共交通無料・無料教室等",
+      "reason": "現物給付、通常サービス、施設案内又は補助・給付の個別制度として必須項目が不足する候補は掲載しない。"
+    },
+    {
+      "municipality": "妹背牛町",
+      "title": "奨学資金貸付制度",
+      "reason": "学校カテゴリ上の候補は確認したが、個別ページが404で貸付額・対象・条件を個別公式ページとして確認できないため掲載保留。"
+    },
+    {
+      "municipality": "妹背牛町",
+      "title": "風しん予防接種",
+      "reason": "一部助成と対象は確認したが、自己負担額又は助成額は公式HTML本文で確認できず、PDF側の現行性整理が必要なため掲載しない。"
+    },
+    {
+      "municipality": "妹背牛町",
+      "title": "児童手当・国保・町営住宅・空き家情報等",
+      "reason": "国制度、通常給付、住宅/移住案内又は通常行政サービスで、町独自の個別補助・給付要件が揃うものだけ掲載対象とする。"
+    },
+    {
+      "municipality": "秩父別町",
+      "title": "新婚・子育て世帯引越し費用助成",
+      "reason": "公式本文に令和4年度で終了となる場合がある旨が残り、現行性に疑義があるため掲載しない。"
+    },
+    {
+      "municipality": "秩父別町",
+      "title": "インフルエンザ予防接種助成・奨学資金貸与事業",
+      "reason": "候補ニュース又はリンク先が個別制度本文として機能せず、対象・金額・条件を個別公式ページとして確認できないため掲載保留。"
+    },
+    {
+      "municipality": "秩父別町",
+      "title": "出会い応援補助金・ふるさと回帰同窓会開催補助金",
+      "reason": "出会い応援は補助率・上限額が公式HTML本文だけでは不足し、同窓会補助は補助先が開催店舗で住民向け助成金として整理が必要なため掲載しない。"
+    },
+    {
+      "municipality": "秩父別町",
+      "title": "結婚祝金事業・国保・町営住宅・空き家情報等",
+      "reason": "候補リンクの解決先不一致、国保通常給付、住宅情報、ふるさと納税、通常行政サービスは個別の補助・給付要件が揃うものだけ掲載対象とする。"
+    }
+  ],
+  "urlStatusFile": "tasks/discovery/nationwide-final-audit-035-hokkaido-second-pass-015-url-status.txt",
+  "validation": {
+    "addedSlugUniqueness": "not applicable: no new grant slugs added",
+    "urlReachability": "pass: representative candidate URLs 14/14 HTTP 200",
+    "syntax": "not run: grant data unchanged in 035",
+    "json": "pass: nationwide-final-audit-035-hokkaido-second-pass-015-resolution.json and checkpoint parsed",
+    "eslint": "not run: grant data unchanged in 035",
+    "diffCheck": "pass: git diff --check on nationwide-final-audit-035 target files",
+    "auditCoverage": "not rerun: no grant entries added; 026時点の既知別件 src/lib/grant-copy.ts:114 tags.map TypeError が残る"
+  },
+  "next": "北海道第2巡016として、雨竜町・北竜町・沼田町・鷹栖町など前方保留候補を自治体コード順に継続確認する。"
+}

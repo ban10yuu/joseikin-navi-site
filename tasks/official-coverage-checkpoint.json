@@ -1,44 +1,44 @@
 {
-  "updatedAt": "2026-07-19T07:48:00+09:00",
+  "updatedAt": "2026-07-19T07:57:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nationwide-final-audit-034-second-pass-ledger",
-    "municipality": "北海道第2巡014（由仁町・長沼町・栗山町・月形町）",
+    "code": "nationwide-final-audit-035-second-pass-ledger",
+    "municipality": "北海道第2巡015（浦臼町・新十津川町・妹背牛町・秩父別町）",
     "adopted": 0,
-    "held": 12,
+    "held": 14,
     "excluded": 0,
-    "sourceUrlsChecked": 12,
+    "sourceUrlsChecked": 14,
     "validation": {
-      "previousMunicipality": "全国最終監査033後、進捗JSON・HEAD・チェックリストを起点に北海道第2巡014を確認。由仁町・長沼町・栗山町・月形町の候補は既存掲載済み、通常行政/国制度、期限切れ、又は金額/上限・現行受付不足として保留。追加採用なし。",
-      "syntax": "not run: grant data unchanged in 034",
-      "json": "pass: nationwide-final-audit-034-hokkaido-second-pass-014-resolution.json and checkpoint parsed",
+      "previousMunicipality": "全国最終監査034後、進捗JSON・HEAD・チェックリストを起点に北海道第2巡015を確認。浦臼町・新十津川町・妹背牛町・秩父別町の候補は既存掲載済み、通常行政/国制度、リンク先不一致、現行性疑義、又は金額/上限・受付状況不足として保留。追加採用なし。",
+      "syntax": "not run: grant data unchanged in 035",
+      "json": "pass: nationwide-final-audit-035-hokkaido-second-pass-015-resolution.json and checkpoint parsed",
       "addedSlugUniqueness": "not applicable: no new grant slugs added",
-      "urlReachability": "pass: 北海道第2巡014の代表確認URL 12/12 HTTP 200 in tasks/discovery/nationwide-final-audit-034-hokkaido-second-pass-014-url-status.txt",
-      "eslint": "not run: grant data unchanged in 034",
-      "diffCheck": "pass: git diff --check on nationwide-final-audit-034 target files",
+      "urlReachability": "pass: 北海道第2巡015の代表確認URL 14/14 HTTP 200 in tasks/discovery/nationwide-final-audit-035-hokkaido-second-pass-015-url-status.txt",
+      "eslint": "not run: grant data unchanged in 035",
+      "diffCheck": "pass: git diff --check on nationwide-final-audit-035 target files",
       "auditCoverage": "not rerun: no grant entries added; 026時点の既知別件 src/lib/grant-copy.ts:114 tags.map TypeError が残る",
-      "notes": "北海道第2巡014は追加採用0、保留継続12。全国完了ではない。"
+      "notes": "北海道第2巡015は追加採用0、保留継続14。全国完了ではない。"
     }
   },
   "next": {
-    "code": "nationwide-final-audit-035-second-pass-ledger",
-    "municipality": "北海道第2巡015（浦臼町・新十津川町・妹背牛町・秩父別町）又は第2巡保留台帳の次未完了単位",
-    "shortlist": "第2巡014の未解消保留は既存掲載済み、通常行政/国制度、期限切れ、又は金額/上限・現行受付不足として台帳残し。次は北海道第2巡015の浦臼町・新十津川町・妹背牛町・秩父別町から再開する。",
-    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-034-hokkaido-second-pass-014-resolution.json、nationwide-final-audit-034-hokkaido-second-pass-014-url-status.txt、hokkaido-second-pass-015-snippets.json、チェックリスト、HEADだけで復旧する。raw gap 0を全国完了扱いにせず、第2巡保留、国・公的機関の同粒度棚卸し、coverage監査ブロッカー確認を継続する。"
+    "code": "nationwide-final-audit-036-second-pass-ledger",
+    "municipality": "北海道第2巡016（雨竜町・北竜町・沼田町・鷹栖町）又は第2巡保留台帳の次未完了単位",
+    "shortlist": "第2巡015の未解消保留は既存掲載済み、通常行政/国制度、リンク先不一致、現行性疑義、又は金額/上限・受付状況不足として台帳残し。次は北海道第2巡016の雨竜町・北竜町・沼田町・鷹栖町から再開する。",
+    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-035-hokkaido-second-pass-015-resolution.json、nationwide-final-audit-035-hokkaido-second-pass-015-url-status.txt、hokkaido-second-pass-016-snippets.json、チェックリスト、HEADだけで復旧する。raw gap 0を全国完了扱いにせず、第2巡保留、国・公的機関の同粒度棚卸し、coverage監査ブロッカー確認を継続する。"
   },
   "prefectureMilestone": {
     "prefecture": "全国最終監査",
-    "completedBatches": "final-audit-034",
-    "completedMunicipalitiesAndEntities": 128,
+    "completedBatches": "final-audit-035",
+    "completedMunicipalitiesAndEntities": 132,
     "adopted": 0,
     "recent15": {
-      "batches": "全国最終監査031-034",
+      "batches": "全国最終監査032-035",
       "municipalities": 16,
-      "adopted": 2,
+      "adopted": 1,
       "compactions": 6,
-      "shortlistAdoptionRate": "第034は北海道第2巡014の代表確認URL 12本から追加採用0、保留継続12",
+      "shortlistAdoptionRate": "第035は北海道第2巡015の代表確認URL 14本から追加採用0、保留継続14",
       "auditRuns": 92,
-      "commits": 29,
+      "commits": 30,
       "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは0だが全国完了条件ではなく、第2巡保留、国・公的機関の同粒度棚卸し、coverage監査ブロッカー確認が残る。"
     }
   },
