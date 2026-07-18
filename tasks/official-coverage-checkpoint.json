@@ -1,44 +1,44 @@
 {
-  "updatedAt": "2026-07-19T07:08:00+09:00",
+  "updatedAt": "2026-07-19T07:20:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nationwide-final-audit-031-second-pass-ledger",
-    "municipality": "北海道第2巡011（共和町・岩内町・泊村・神恵内村）",
-    "adopted": 1,
-    "held": 8,
+    "code": "nationwide-final-audit-032-second-pass-ledger",
+    "municipality": "北海道第2巡012（積丹町・古平町・仁木町・余市町）",
+    "adopted": 0,
+    "held": 13,
     "excluded": 0,
-    "sourceUrlsChecked": 2,
+    "sourceUrlsChecked": 15,
     "validation": {
-      "previousMunicipality": "全国最終監査030後、進捗JSON・HEAD・チェックリストを起点に北海道第2巡011を確認。岩内町の国民健康保険一部負担金の減免等は公式本文/PDFで対象・免除/2分の1減額・徴収猶予・期間・申請条件が確認でき、HEAD時点のデータ本体に既に復旧済み。共和町・泊村は主要候補が既掲載済み、神恵内村の未掲載候補は金額/上限不足が中心。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: nationwide-final-audit-031-hokkaido-second-pass-011-resolution.json and checkpoint parsed",
-      "addedSlugUniqueness": "pass: adopted slug appears exactly once in src/data/grants/verified-local-misc-2026.ts",
-      "urlReachability": "pass: 北海道第2巡011の公式URL 2/2 HTTP 200 in tasks/discovery/nationwide-final-audit-031-hokkaido-second-pass-011-url-status.txt",
-      "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on nationwide-final-audit-031 target files",
-      "auditCoverage": "not rerun: 026時点の既知別件 src/lib/grant-copy.ts:114 tags.map TypeError が残る",
-      "notes": "北海道第2巡011は採用1、保留継続8。採用slugはHEAD時点で既に1件存在するため重複追加なし。全国完了ではない。"
+      "previousMunicipality": "全国最終監査031後、進捗JSON・HEAD・チェックリストを起点に北海道第2巡012を確認。積丹町・古平町・仁木町・余市町の主要候補は既存掲載済み又はカテゴリ導線/通常行政情報/外部制度/広報再掲。追加採用なし。",
+      "syntax": "not run: grant data unchanged in 032",
+      "json": "pass: nationwide-final-audit-032-hokkaido-second-pass-012-resolution.json and checkpoint parsed",
+      "addedSlugUniqueness": "not applicable: no new grant slugs added",
+      "urlReachability": "pass: 北海道第2巡012の代表確認URL 15/15 HTTP 200 in tasks/discovery/nationwide-final-audit-032-hokkaido-second-pass-012-url-status.txt",
+      "eslint": "not run: grant data unchanged in 032",
+      "diffCheck": "pass: git diff --check on nationwide-final-audit-032 target files",
+      "auditCoverage": "not rerun: no grant entries added; 026時点の既知別件 src/lib/grant-copy.ts:114 tags.map TypeError が残る",
+      "notes": "北海道第2巡012は追加採用0、保留継続13。全国完了ではない。"
     }
   },
   "next": {
-    "code": "nationwide-final-audit-032-second-pass-ledger",
-    "municipality": "北海道第2巡012（積丹町・古平町・仁木町・余市町）又は第2巡保留台帳の次未完了単位",
-    "shortlist": "第2巡011の未解消保留は金額/上限不足、外部制度、通常サービス、又は過年度制度として台帳残し。次は北海道第2巡012の前方保留を確認し、積丹町・古平町・仁木町・余市町の既存掲載済み/保留候補から再開する。",
-    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-031-hokkaido-second-pass-011-resolution.json、nationwide-final-audit-031-hokkaido-second-pass-011-url-status.txt、hokkaido-second-pass-012-snippets.json、チェックリスト、HEADだけで復旧する。raw gap 0を全国完了扱いにせず、第2巡保留、国・公的機関の同粒度棚卸し、coverage監査ブロッカー確認を継続する。"
+    "code": "nationwide-final-audit-033-second-pass-ledger",
+    "municipality": "北海道第2巡013（赤井川村・南幌町・奈井江町・上砂川町）又は第2巡保留台帳の次未完了単位",
+    "shortlist": "第2巡012の未解消保留はカテゴリ導線、税手続き、外部/過年度貸付、通常行政情報、公共交通運賃、企業寄附/交付金実績、又は既存掲載済み制度の広報再掲として台帳残し。次は北海道第2巡013の南幌町子ども文化・スポーツ全道大会等補助金採用候補から再開する。",
+    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-032-hokkaido-second-pass-012-resolution.json、nationwide-final-audit-032-hokkaido-second-pass-012-url-status.txt、hokkaido-second-pass-013-snippets.json、チェックリスト、HEADだけで復旧する。raw gap 0を全国完了扱いにせず、第2巡保留、国・公的機関の同粒度棚卸し、coverage監査ブロッカー確認を継続する。"
   },
   "prefectureMilestone": {
     "prefecture": "全国最終監査",
-    "completedBatches": "final-audit-031",
-    "completedMunicipalitiesAndEntities": 116,
-    "adopted": 1,
+    "completedBatches": "final-audit-032",
+    "completedMunicipalitiesAndEntities": 120,
+    "adopted": 0,
     "recent15": {
-      "batches": "全国最終監査028-031",
+      "batches": "全国最終監査029-032",
       "municipalities": 16,
-      "adopted": 20,
+      "adopted": 18,
       "compactions": 6,
-      "shortlistAdoptionRate": "第031は北海道第2巡011の公式URL 2本から採用1、保留継続8。ただし採用slugは既に本体復旧済みで重複追加なし",
+      "shortlistAdoptionRate": "第032は北海道第2巡012の代表確認URL 15本から追加採用0、保留継続13",
       "auditRuns": 92,
-      "commits": 26,
+      "commits": 27,
       "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは0だが全国完了条件ではなく、第2巡保留、国・公的機関の同粒度棚卸し、coverage監査ブロッカー確認が残る。"
     }
   },

@@ -12096,3 +12096,14 @@
 - 検証: 追加1slugの存在数1件、公式URL 2/2 HTTP 200を確認。監査JSON parse、checkpoint JSON parse、`node --check src/data/grants/verified-local-misc-2026.ts`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は今回再実行せず、026時点の既知別件 `src/lib/grant-copy.ts` の `tags.map` TypeErrorを継続ブロッカーとして扱う。
 - 到達点: 北海道第2巡011は4町村確認済み、採用1、保留継続8。全国公式棚卸しは未完了。
 - 次回: 北海道第2巡012として、積丹町・古平町・仁木町・余市町など前方保留候補を自治体コード順に継続確認する。
+
+### 全国公式棚卸し最終監査032（北海道第2巡012 積丹町・古平町・仁木町・余市町）
+
+- 対象: `tasks/discovery/hokkaido-second-pass-012-snippets.json` の積丹町・古平町・仁木町・余市町を確認。
+- 公式確認: 積丹町は手続き・まちづくり・健康福祉カテゴリ、町税減免/住宅証明等を確認。古平町は公式トップ、建設・産業、健康・医療・福祉、子育て・教育カテゴリを確認。仁木町は国保税・国保給付、医療/福祉/子育て/事業カテゴリ等を確認。余市町は2026年7月広報、地域産業支援補助金事業の既存掲載済み個別ページを確認。
+- 解消方法: 追加採用0件。積丹町6件、古平町16件、仁木町22件、余市町20件の主要候補は既に掲載済み。未掲載候補はカテゴリ導線、税手続き、外部/過年度貸付、通常行政情報、公共交通の運賃設定、企業寄附/交付金実績、又は既存掲載済み制度の広報再掲として台帳に残す。
+- 保留継続: 積丹町のカテゴリ導線・町税減免/住宅証明/企業版ふるさと納税、古平町の公式カテゴリ/出産費資金貸付、仁木町の国保税・生活福祉資金・障害者手帳案内・ニキバス・企業版ふるさと納税等、余市町の広報再掲・下水道排水設備試験・観光/施設情報等。
+- 成果物: `tasks/discovery/nationwide-final-audit-032-hokkaido-second-pass-012-resolution.json`、`tasks/discovery/nationwide-final-audit-032-hokkaido-second-pass-012-url-status.txt` を作成。代表確認URL 15/15 はHTTP 200。
+- 検証: 監査JSON parse、checkpoint JSON parse、対象ファイル `git diff --check` はpass。助成金データ本体の追加・編集はないため `node --check src/data/grants/verified-local-misc-2026.ts` と eslint は今回省略。`npm run audit:coverage` は今回の追加採用0件では再実行しない。
+- 到達点: 北海道第2巡012は4町確認済み、追加採用0、保留継続13。全国公式棚卸しは未完了。
+- 次回: 北海道第2巡013として、赤井川村・南幌町・奈井江町・上砂川町など前方保留候補を自治体コード順に継続確認する。
