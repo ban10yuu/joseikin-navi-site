@@ -11709,3 +11709,13 @@
 - 検証: 公式URL 90/90 HTTP 200（`tasks/discovery/kagoshima-official-coverage-007-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（007 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - メトリクス: 5自治体、90制度採用、一次候補383件、採用率23.5%。鹿児島県001-007累計は35自治体・団体、595制度。直近15自治体単位（005-007）は15自治体・282制度。全国公式棚卸しは未完了。
 - 次回: 鹿児島県公式棚卸し008として、瀬戸内町・龍郷町・喜界町・徳之島町・天城町から再開する。
+
+### 鹿児島県公式棚卸し008（46525瀬戸内町・46527龍郷町・46529喜界町・46530徳之島町・46531天城町）
+
+- 対象公式トップ: 瀬戸内町 `https://www.town.setouchi.lg.jp/`、龍郷町 `https://www.town.tatsugo.lg.jp/`、喜界町 `https://www.town.kikai.lg.jp/`、徳之島町 `https://www.tokunoshima-town.org/`、天城町 `https://www.town.amagi.lg.jp/` をHTTP 200で確認。sitemap.xmlは瀬戸内町が200、龍郷町・喜界町・徳之島町・天城町は404または未使用のため、公式 `sitemap.html`、天城町 `sitemap/`、カテゴリBFSで補完。
+- 公式sitemap/カテゴリBFS候補: 593件（喜界町28、瀬戸内町85、龍郷町105、徳之島町119、天城町256）。title強一致25件。候補数が150件超のため `tasks/discovery/kagoshima-official-coverage-008-rescored-shortlist.tsv` と `tasks/discovery/kagoshima-official-coverage-008-auto-selection.tsv` へ本文スニペット付き再スコアを保存。
+- 採用: 85制度（喜界町8、瀬戸内町20、龍郷町29、徳之島町23、天城町5）。`kagoshima-official-008-001-2026` から `kagoshima-official-008-085-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、トップ、共通ナビ、申請書単体、受付終了、募集終了、実績/採択、職員採用、同一制度の重複導線、単なる税・保険料説明は採用せず、候補JSON/TSVに残置。天城町はHTTP 200でも本文詳細が薄いカテゴリページが多いため、第1巡は公式カテゴリ本文で制度対象が示される最小採用に留めた。
+- 検証: 公式URL 85/85 HTTP 200（`tasks/discovery/kagoshima-official-coverage-008-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（008 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体、85制度採用、一次候補593件、採用率14.3%。鹿児島県001-008累計は40自治体・団体、680制度。直近15自治体単位（006-008）は15自治体・275制度。全国公式棚卸しは未完了。
+- 次回: 鹿児島県公式棚卸し009として、伊仙町・和泊町・知名町・与論町から再開する。
