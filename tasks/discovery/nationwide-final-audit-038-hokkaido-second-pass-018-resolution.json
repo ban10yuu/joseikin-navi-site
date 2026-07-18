@@ -1,0 +1,121 @@
+{
+  "audit": "nationwide-final-audit-038-hokkaido-second-pass-018",
+  "checkedAt": "2026-07-19T08:28:00+09:00",
+  "source": "tasks/discovery/hokkaido-second-pass-018-snippets.json",
+  "scope": "北海道第2巡018（上川町・東川町・美瑛町・上富良野町）",
+  "municipalities": [
+    {
+      "code": "01457",
+      "name": "上川町",
+      "existingCoverageCount": 33,
+      "adopted": [],
+      "held": [
+        {
+          "title": "令和8年度住宅リフォーム等補助金",
+          "reason": "HTML本文で申込期間は確認できるが、補助率・上限のPDF精査が未完了のため保留。",
+          "evidenceUrl": "https://www.town.hokkaido-kamikawa.lg.jp/section/d57c9r0000000wah.html"
+        },
+        {
+          "title": "みんなが輝くまち上川事業支援金・産後ケア・任意予防接種等",
+          "reason": "金額・対象・受付状況又は町独自性の追加確認が必要なため保留。",
+          "evidenceUrl": "https://www.town.hokkaido-kamikawa.lg.jp/section/chiikimiryoku/e7a2uq0000000hzn.html?cp=h8nafq0000000ais&cs=c07_03s0"
+        },
+        {
+          "title": "児童手当・国民年金独自給付等",
+          "reason": "国制度又は通常窓口案内として扱い、町独自制度としては掲載しない。",
+          "evidenceUrl": "https://www.town.hokkaido-kamikawa.lg.jp/category/edu/index.html"
+        }
+      ]
+    },
+    {
+      "code": "01458",
+      "name": "東川町",
+      "existingCoverageCount": 12,
+      "adopted": [],
+      "held": [
+        {
+          "title": "妊産婦応援・産後ケア・産前産後ヘルパー・補聴器購入費助成等",
+          "reason": "公式PDF又は本文で金額・対象・受付状況の追加確認が必要なため保留。",
+          "evidenceUrl": "https://higashikawa-town.jp/portal/kurashi/panel/75"
+        },
+        {
+          "title": "人づくり地域づくり支援・生涯教育助成・奨学金返還支援等",
+          "reason": "候補は確認したが、個別の金額/上限・対象・受付状況を公式本文で固定できないため保留。",
+          "evidenceUrl": "https://higashikawa-town.jp/portal/kurashi/panel/100"
+        },
+        {
+          "title": "WELCOME事業・新築苗木プレゼント・国保/介護/年金等",
+          "reason": "現物給付又は国制度・通常窓口案内として扱い、補助金等としての掲載優先度が低いものは掲載しない。",
+          "evidenceUrl": "https://higashikawa-town.jp/portal/kurashi/panel/79"
+        }
+      ]
+    },
+    {
+      "code": "01459",
+      "name": "美瑛町",
+      "existingCoverageCount": 15,
+      "adopted": [],
+      "held": [
+        {
+          "title": "妊婦健診・産婦健診・妊婦歯科健診・不妊治療・任意予防接種",
+          "reason": "制度名又は支援導線は確認したが、公式HTML本文だけで助成額・対象・受付状況を確定できないため保留。",
+          "evidenceUrl": "https://town.biei.hokkaido.jp/child/"
+        },
+        {
+          "title": "農業振興条例・農業担い手研修センター",
+          "reason": "制度名又は支援導線は確認したが、個別の助成額・上限・現行受付状況が不足するため保留。",
+          "evidenceUrl": "https://town.biei.hokkaido.jp/industry/agriculture/"
+        },
+        {
+          "title": "新生児祝品・小中学校入学祝品・町営住宅等",
+          "reason": "現物給付、通常行政サービス、求人、寄附、又は町独自性が弱い候補は掲載しない。",
+          "evidenceUrl": "https://town.biei.hokkaido.jp/life/municipa-housing/"
+        }
+      ]
+    },
+    {
+      "code": "01460",
+      "name": "上富良野町",
+      "existingCoverageCount": 30,
+      "adopted": [],
+      "held": [
+        {
+          "title": "妊婦RSウイルス予防接種",
+          "reason": "対象と実施医療機関は確認できるが、助成額又は自己負担額が公式本文で確認できないため掲載しない。",
+          "evidenceUrl": "https://www.town.kamifurano.hokkaido.jp/index.php?id=3140"
+        },
+        {
+          "title": "児童手当・障害児福祉手当等",
+          "reason": "国制度又は通常窓口案内として扱い、町独自制度としては掲載しない。",
+          "evidenceUrl": "https://www.town.kamifurano.hokkaido.jp/index.php?id=43"
+        },
+        {
+          "title": "ふるさと納税・町営住宅・移住相談・施設案内等",
+          "reason": "寄附、住宅案内、通常行政サービス、税控除・外部交通割引は補助・給付の個別制度として必要項目が揃うものだけ掲載対象とする。",
+          "evidenceUrl": "https://www.town.kamifurano.hokkaido.jp/index.php?id=106"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "adopted": 0,
+    "held": 12,
+    "excluded": 0,
+    "sourceUrlsChecked": 12,
+    "dataChange": "none",
+    "notes": "4自治体とも既存掲載済み制度、通常行政/国制度、現物給付、又は金額/上限・受付状況不足の候補が中心で、新規に制度名・対象・金額/上限・条件・期限/受付状況が揃う未掲載制度は確認できなかった。"
+  },
+  "validation": {
+    "syntax": "not run: grant data unchanged in 038",
+    "json": "pass: nationwide-final-audit-038-hokkaido-second-pass-018-resolution.json and checkpoint parsed",
+    "addedSlugUniqueness": "not applicable: no new grant slugs added",
+    "urlReachability": "pass: representative official URLs 12/12 HTTP 200 in nationwide-final-audit-038-hokkaido-second-pass-018-url-status.txt",
+    "eslint": "not run: grant data unchanged in 038",
+    "diffCheck": "pass: git diff --check on nationwide-final-audit-038 target files",
+    "auditCoverage": "not rerun: no grant entries added; 026時点の既知別件 src/lib/grant-copy.ts:114 tags.map TypeError が残る"
+  },
+  "next": {
+    "code": "nationwide-final-audit-039-second-pass-ledger",
+    "municipality": "北海道第2巡019（中富良野町・南富良野町・占冠村・和寒町）"
+  }
+}
