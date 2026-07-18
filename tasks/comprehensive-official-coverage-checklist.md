@@ -11759,3 +11759,13 @@
 - 検証: 公式URL 65件を `tasks/discovery/okinawa-official-coverage-003-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（003 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - メトリクス: 5自治体、65制度採用、一次候補890件、採用率7.3%。沖縄県001-003累計は15自治体・団体、201制度。直近15自治体・団体では201制度、監査3回、commit3回。全国公式棚卸しは未完了。
 - 次回: 沖縄県公式棚卸し004として、今帰仁村・本部町・恩納村・宜野座村・金武町から再開する。
+
+### 沖縄県公式棚卸し004（47306今帰仁村・47308本部町・47311恩納村・47313宜野座村・47314金武町）
+
+- 対象公式トップ: 今帰仁村 `https://www.nakijin.jp/`、本部町 `https://www.town.motobu.okinawa.jp/`、恩納村 `https://www.vill.onna.okinawa.jp/`、宜野座村 `https://www.vill.ginoza.okinawa.jp/`、金武町 `https://www.town.kin.okinawa.jp/` をHTTP 200で確認。sitemap.xmlは今帰仁村・本部町・宜野座村・金武町が200、恩納村は公式 `/sitemap/` で補完。
+- 公式sitemap/カテゴリBFS候補: 396件（今帰仁村89、本部町91、恩納村33、宜野座村151、金武町32）。title強一致105件。shortlistが150件超のため `tasks/discovery/okinawa-official-coverage-004-rescored-shortlist.tsv` と `tasks/discovery/okinawa-official-coverage-004-auto-selection.tsv` へ本文スニペット付き再スコアを保存。本部町は `/doc/` 配下を公式個別ページとして補足。
+- 採用: 38制度（今帰仁村9、本部町6、恩納村4、宜野座村11、金武町8）。`okinawa-official-004-001-2026` から `okinawa-official-004-038-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、トップ、共通ナビ、申請書単体、制度性の弱いページ、受付終了、募集終了、実績/採択、職員採用、同一制度の重複導線、単なる税・保険料説明は採用せず、候補JSON/TSVに残置。宜野座村の高等職業訓練促進給付金は重複導線2件を除外し、本部町は個別docページのローカル再取得が一部Access Deniedとなるため、候補抽出時点の公式本文スニペットで根拠を保持。
+- 検証: 公式URL 38件を `tasks/discovery/okinawa-official-coverage-004-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（004 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体、38制度採用、一次候補396件、採用率9.6%。沖縄県001-004累計は20自治体・団体、239制度。直近15自治体単位（002-004）は15自治体・163制度、監査3回、commit3回。全国公式棚卸しは未完了。
+- 次回: 沖縄県公式棚卸し005として、伊江村・読谷村・嘉手納町・北谷町・北中城村から再開する。
