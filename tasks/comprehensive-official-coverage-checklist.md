@@ -11819,3 +11819,13 @@
 - 検証: 公式URL 67件を `tasks/discovery/okinawa-official-coverage-009-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（009 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - メトリクス: 2自治体、67制度採用、一次候補334件、採用率20.1%。沖縄県001-009累計は42自治体・団体、461制度。県末尾12自治体（007-009）は127制度、監査3回、commit3回。全国公式棚卸しは未完了。
 - 次回: 自治体コード順の都道府県・市区町村第1巡は沖縄県末尾まで到達。次回は進捗JSON・チェックリスト・候補台帳を確認し、国・公的機関、第2巡保留、候補未判定、最終監査の未完了箇所を解消する。
+
+### 全国公式棚卸し最終監査001（沖縄009後の第1パス）
+
+- 対象: HEAD `df2591e`、`tasks/official-coverage-checkpoint.json`、本チェックリスト、`tasks/discovery/` の成果物、既存rawギャップ監査を確認。新規自治体棚卸しは行わず、全国完了判定に必要な未完了面だけを棚卸し。
+- 成果物集計: `tasks/discovery/nationwide-final-audit-001.json` と `tasks/discovery/nationwide-final-audit-001-prefecture-summary.tsv` を作成。`adopted.json` 120件、成果物ファイル3545件、候補JSON 597件、選定系287件、URL台帳187件、`adopted.json` 上の採用合計7621件を確認。ただし古い都道府県ほど `adopted-urls`、`entries`、TS直書きなど命名が揺れているため、最終監査前に正規化が必要。
+- 既存rawギャップ: `tasks/discovery/nationwide-final-audit-001-raw-gaps.json` を作成。raw 108ファイル、verified 20ファイル、raw unique 4375、verified unique 27763、未検証raw slug 82、raw重複slug 32を確認。上位は千葉県9、愛知県8、埼玉県7、長野県7、北海道7。
+- 未判定/保留: 本チェックリスト内に `未反映`、`要判定`、`掲載保留`、`次巡候補`、`第2巡`、`未完了`、`不足`、`保留` を含む行が1724件残存。既存raw gap 0、HTTP 200、都道府県末尾到達だけでは全国完了扱いにしない。
+- 国・公的機関: `verified-national-*`、`national*.ts`、`verified-ngo-*` は存在するが、自治体棚卸しと同粒度の `tasks/discovery/` 成果物は第1パスでは確認できなかった。raw gap解消後に国・公的機関の公式ページ単位棚卸しを別途正規化する。
+- 検証: `node --check tasks/discovery/nationwide-final-audit-001.mjs`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 5`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-001-coverage.log` に保存。
+- 次回: `tasks/discovery/nationwide-final-audit-001-raw-gaps.json` の既存raw未検証82件を、千葉県・愛知県・埼玉県・長野県・北海道の上位から公式本文/PDF単位で3〜5自治体または60〜100制度ずつ解消する。採用、期限切れ、除外、公式URL不在を制度単位で記録し、その後に第2巡保留と国・公的機関の正規化監査へ進む。

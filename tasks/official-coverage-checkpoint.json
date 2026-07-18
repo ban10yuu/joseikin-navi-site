@@ -1,45 +1,45 @@
 {
-  "updatedAt": "2026-07-19T01:45:00+09:00",
+  "updatedAt": "2026-07-19T02:08:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "okinawa-official-coverage-009",
-    "municipality": "竹富町・与那国町",
-    "adopted": 67,
-    "held": 0,
-    "excluded": 267,
-    "sourceUrlsChecked": 67,
+    "code": "nationwide-final-audit-001",
+    "municipality": "全国公式棚卸し最終監査第1パス",
+    "adopted": 0,
+    "held": 1806,
+    "excluded": 0,
+    "sourceUrlsChecked": 0,
     "validation": {
-      "previousMunicipality": "沖縄県公式棚卸し009として47381竹富町、47382与那国町を確認し、67件を採用。沖縄県の自治体コード順第1巡は末尾まで到達。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and 009 discover/build scripts",
-      "json": "pass: candidates 334, selections 67, adopted 67 parsed; counts {\"竹富町\":47,\"与那国町\":20}",
-      "addedSlugUniqueness": "pass: added slugs 67 from okinawa-official-009-001-2026 through okinawa-official-009-067-2026; added duplicate 0; global duplicate 0",
-      "urlReachability": "pass: adopted build non200 empty; 67 adopted official URLs retained in tasks/discovery/okinawa-official-coverage-009-url-status.txt",
-      "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on 009 target files",
-      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at unrelated src/lib/grant-copy.ts:114 sanitizeGrantCopy tags.map TypeError",
-      "notes": "公式トップは竹富町・与那国町ともHTTP 200で確認済み。両町ともsitemap.xmlを確認し、竹富町は公式sitemap/guide/lifeevent/topics/soshiki導線、与那国町はsitemap.html/カテゴリ/RSS導線で補完。候補334件、title強一致53件。shortlistが150件超かつ候補比40%超のため本文スニペット付き再スコア台帳を保存。トップ・カテゴリ・共通ナビ・申請書単体・職員採用・入札・旧年度重複・本文根拠が薄いページを除外。"
+      "previousMunicipality": "沖縄県公式棚卸し009後の最終監査第1パスとして、HEAD df2591e、進捗JSON、チェックリスト、discovery成果物、既存rawギャップを集計。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check tasks/discovery/nationwide-final-audit-001.mjs",
+      "json": "pass: nationwide-final-audit-001.json and raw-gaps parsed; adoptedFiles 120, outcomeFiles 3545, raw gaps 82",
+      "addedSlugUniqueness": "not-applicable: this audit pass added no grant slugs",
+      "urlReachability": "not-run: this audit pass did not refetch official URLs; existing url-status artifact count 187 recorded",
+      "eslint": "not-run: audit artifact only; no grant source change",
+      "diffCheck": "pass: git diff --check on nationwide-final-audit-001 target files before checkpoint update",
+      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at unrelated src/lib/grant-copy.ts:114 sanitizeGrantCopy tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-001-coverage.log",
+      "notes": "最終監査第1パスでは、チェックリスト先頭が未完了、未反映/要判定/掲載保留/第2巡候補等の行が1724件、既存raw未検証slugが82件残存。国・公的機関はverified-national系データはあるが、自治体棚卸しと同粒度のdiscovery成果物は未確認。都道府県別成果物は命名揺れがあり正規化が必要。"
     }
   },
   "next": {
-    "code": "post-okinawa-final-audit",
-    "municipality": "全国公式棚卸し最終監査・候補未判定解消",
-    "shortlist": "沖縄県公式棚卸し009で竹富町・与那国町を確認し67件を採用。自治体コード順の都道府県・市区町村第1巡は沖縄県末尾まで到達。次回はチェックリスト・進捗JSON・候補台帳から未判定候補、国/公的機関、都道府県/自治体の第2巡保留を監査し、全国完了条件を満たすまで解消する。",
-    "instructions": "既存raw gap 0やHTTP 200では完了扱いにせず、候補未判定、国・都道府県・全市区町村・公的機関の公式ページ単位の制度情報、URL到達、チェックリスト集計、最終監査を確認する。"
+    "code": "nationwide-final-audit-002-raw-gap-resolution",
+    "municipality": "既存raw未検証82件の公式ページ単位解消",
+    "shortlist": "最終監査第1パスで既存raw未検証82件を確認。上位は千葉県9、愛知県8、埼玉県7、長野県7、北海道7。まずcity-batch78等の結婚新生活支援補助金候補から、公式個別URL・対象・金額/上限・条件・期限/受付状況を確認し、採用/期限切れ/除外を制度単位で記録する。",
+    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-001-raw-gaps.json、nationwide-final-audit-001.json、チェックリスト、HEADだけで復旧する。1ターンで3〜5自治体または60〜100制度または45〜55分まで、既存raw gapを公式本文/PDF単位で解消する。国・公的機関と第2巡保留はraw gap解消後に正規化監査へ進む。"
   },
   "prefectureMilestone": {
-    "prefecture": "沖縄県",
-    "completedBatches": "001-009",
-    "completedMunicipalitiesAndEntities": 42,
-    "adopted": 461,
+    "prefecture": "全国最終監査",
+    "completedBatches": "final-audit-001",
+    "completedMunicipalitiesAndEntities": 0,
+    "adopted": 0,
     "recent15": {
-      "batches": "沖縄007-009",
-      "municipalities": 12,
-      "adopted": 127,
+      "batches": "沖縄009後の全国最終監査第1パス",
+      "municipalities": 0,
+      "adopted": 0,
       "compactions": 1,
-      "shortlistAdoptionRate": "67/334 = 20.1% for 009; 007-009 total 127 schemes",
+      "shortlistAdoptionRate": "not-applicable: audit inventory only",
       "auditRuns": 3,
-      "commits": 3,
-      "note": "009で沖縄県末尾2自治体を処理し、都道府県・市区町村の自治体コード順第1巡は沖縄県末尾まで到達。全国完了条件には国・公的機関、候補未判定、第2巡保留、最終監査の確認が残る。"
+      "commits": 1,
+      "note": "都道府県・市区町村第1巡は沖縄末尾まで到達したが、raw gap 82、未判定/保留記録1724行、国・公的機関の同粒度棚卸し未確認、coverage監査ブロッカーが残るため全国完了ではない。"
     }
   },
   "batchRules": {

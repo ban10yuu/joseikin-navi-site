@@ -1,0 +1,666 @@
+{
+  "generatedAt": "2026-07-18T16:00:44.663Z",
+  "headCheckpoint": {
+    "updatedAt": "2026-07-19T01:45:00+09:00",
+    "lastCompleted": "okinawa-official-coverage-009",
+    "next": "post-okinawa-final-audit"
+  },
+  "completionJudgement": {
+    "nationwideComplete": false,
+    "blockers": [
+      "チェックリスト先頭が未完了のまま",
+      "未反映・要判定・掲載保留・第2巡候補の記録が残存",
+      "国・公的機関の公式棚卸し成果物が自治体棚卸しと同等の粒度で確認できない",
+      "都道府県別成果物の命名がadopted.json/adopted-urls/entries/TS直書きで揺れており、最終監査前に正規化が必要",
+      "npm run audit:coverage は別件 grant-copy.ts TypeError で停止中"
+    ]
+  },
+  "discoveryInventory": {
+    "adoptedFiles": 120,
+    "outcomeFiles": 3545,
+    "candidateFiles": 597,
+    "selectionFiles": 287,
+    "urlStatusFiles": 187,
+    "totalAdoptedInAdoptedJson": 7621
+  },
+  "checklistInventory": {
+    "officialCoverageHeadings": 232,
+    "prefecturesWithOfficialCoverageHeading": 40,
+    "checklistHeadingNameMissingPrefectures": [
+      "北海道",
+      "青森県",
+      "宮城県",
+      "秋田県",
+      "山形県",
+      "福島県",
+      "茨城県",
+      "栃木県",
+      "群馬県",
+      "埼玉県",
+      "千葉県",
+      "東京都",
+      "神奈川県",
+      "新潟県",
+      "富山県",
+      "石川県",
+      "福井県",
+      "山梨県"
+    ],
+    "unresolvedLineCount": 1724,
+    "unresolvedSamples": [
+      {
+        "lineNumber": 10,
+        "text": "- 状態: 未完了"
+      },
+      {
+        "lineNumber": 11,
+        "text": "- 2026-07-09時点で、既存rawデータの公式確認は完了しているが、全自治体公式サイトの網羅棚卸しは未完了。"
+      },
+      {
+        "lineNumber": 18,
+        "text": "| 未反映 | 天理市 | 天理市移住支援金 | https://www.city.tenri.nara.jp/kakuka/kankyoukeizaibu/sangyoukyousouryokukyoukasitu/1568250403738.html | 奈良県との共同事業。移住支援金として収録候補。 |"
+      },
+      {
+        "lineNumber": 19,
+        "text": "| 未反映 | 天理市 | 既存木造住宅耐震改修支援 | https://www.city.tenri.nara.jp/kakuka/kensetsubu/eizenka/sumai/support/1390445660957.html | 令和8年度。耐震改修工事費用の一部補助。 |"
+      },
+      {
+        "lineNumber": 20,
+        "text": "| 未反映 | 天理市 | 既存木造住宅耐震診断支援 | https://www.city.tenri.nara.jp/kakuka/kensetsubu/eizenka/sumai/support/1390453934962.html | 令和8年度。耐震診断費用を助成。 |"
+      },
+      {
+        "lineNumber": 21,
+        "text": "| 未反映 | 天理市 | 特殊詐欺等防止対策機器購入費補助金 | https://www.city.tenri.nara.jp/kakuka/kurasibunkabu/bousaianzenka/bouhan/8409.html | 令和8年度。防犯電話等の購入費補助。 |"
+      },
+      {
+        "lineNumber": 22,
+        "text": "| 未反映 | 天理市 | 天理市国保脳ドック検診助成 | https://www.city.tenri.nara.jp/kakuka/kurasibunkabu/hokeniryouka/kenkouhoken/8347.html | 国保加入者向け検診費助成。 |"
+      },
+      {
+        "lineNumber": 23,
+        "text": "| 未反映 | 天理市 | 企業立地支援制度 | https://www.city.tenri.nara.jp/kakuka/kankyoukeizaibu/sangyoukyousouryokukyoukasitu/1420431875185.html | 固定資産税相当額・地元雇用奨励金。 |"
+      },
+      {
+        "lineNumber": 24,
+        "text": "| 要判定 | 天理市 | 物価高騰支援給付金 | https://www.city.tenri.nara.jp/kakuka/kenkoufukushibu/shakaifukushika/14147.html | 申請期限が過去の場合は期限切れ扱いまたは掲載停止。 |"
+      },
+      {
+        "lineNumber": 25,
+        "text": "| 要判定 | 天理市 | 物価高対応子育て応援手当 | https://www.city.tenri.nara.jp/kakuka/kenkoukodomokateikyoku/kodomoshienka/kakushu_teate/15334.html | 受付終了表記あり。期限切れ扱いで収録するか判定。 |"
+      },
+      {
+        "lineNumber": 55,
+        "text": "- `scripts/discover-official-candidates.mjs` は `src` 由来の画像・JS・CSS等assetを除外し、`href` とsitemap上のページ/PDF/DOC/XLS系だけを探索する。一次探索100URLで候補が弱い場合のみ300URLまで深掘りし、低優先候補は削除せず第2巡へ残す。"
+      },
+      {
+        "lineNumber": 62,
+        "text": "- 重い自治体、150件超のshortlist、公式サイト障害、PDF抽出不良がある場合は、候補・保留理由・次地点をcheckpointへ残し、品質条件が満たせる候補だけ採用して次自治体へ進む。"
+      },
+      {
+        "lineNumber": 11738,
+        "text": "- 低優先/除外: カテゴリ、トップ、共通ナビ、申請書単体、受付終了、募集終了、実績/採択、職員採用、同一制度の重複導線、単なる税・保険料説明は採用せず、候補JSON/TSVに残置。浦添市は個別ページ取得がローカル403で遮られたため、第1巡は公式助成カテゴリ導線を採用し、第2巡で個別 `doc/` ページの再取得を優先する。"
+      },
+      {
+        "lineNumber": 11740,
+        "text": "- メトリクス: 5自治体・団体、76制度採用、一次候補279件、採用率27.2%。沖縄県001累計は5自治体・団体、76制度。全国公式棚卸しは未完了。"
+      },
+      {
+        "lineNumber": 11748,
+        "text": "- 低優先/除外: カテゴリ、トップ、共通ナビ、申請書単体、制度性の弱いページ、受付終了、募集終了、実績/採択、職員採用、同一制度の重複導線、単なる税・保険料説明は採用せず、候補JSON/TSVに残置。名護市・糸満市は個別制度ページがsitemapに露出しないものが多いため、第1巡は公式カテゴリ本文に制度名と支援導線が確認できるページを採用し、第2巡で個別ページ再取得を優先する。"
+      },
+      {
+        "lineNumber": 11750,
+        "text": "- メトリクス: 5自治体、60制度採用、一次候補157件、採用率38.2%。沖縄県001-002累計は10自治体・団体、136制度。直近10自治体・団体では136制度、監査2回、commit2回。全国公式棚卸しは未完了。"
+      },
+      {
+        "lineNumber": 11760,
+        "text": "- メトリクス: 5自治体、65制度採用、一次候補890件、採用率7.3%。沖縄県001-003累計は15自治体・団体、201制度。直近15自治体・団体では201制度、監査3回、commit3回。全国公式棚卸しは未完了。"
+      },
+      {
+        "lineNumber": 11770,
+        "text": "- メトリクス: 5自治体、38制度採用、一次候補396件、採用率9.6%。沖縄県001-004累計は20自治体・団体、239制度。直近15自治体単位（002-004）は15自治体・163制度、監査3回、commit3回。全国公式棚卸しは未完了。"
+      },
+      {
+        "lineNumber": 11780,
+        "text": "- メトリクス: 5自治体、52制度採用、一次候補328件、採用率15.9%。沖縄県001-005累計は25自治体・団体、291制度。直近15自治体単位（003-005）は15自治体・155制度、監査3回、commit3回。全国公式棚卸しは未完了。"
+      },
+      {
+        "lineNumber": 11790,
+        "text": "- メトリクス: 5自治体、43制度採用、一次候補910件、採用率4.7%。沖縄県001-006累計は30自治体・団体、334制度。直近15自治体単位（004-006）は15自治体・133制度、監査3回、commit3回。全国公式棚卸しは未完了。"
+      },
+      {
+        "lineNumber": 11800,
+        "text": "- メトリクス: 5自治体、35制度採用、一次候補366件、採用率9.6%。沖縄県001-007累計は35自治体・団体、369制度。直近15自治体単位（005-007）は15自治体・130制度、監査3回、commit3回。全国公式棚卸しは未完了。"
+      },
+      {
+        "lineNumber": 11810,
+        "text": "- メトリクス: 5自治体、25制度採用、一次候補116件、採用率21.6%。沖縄県001-008累計は40自治体・団体、394制度。直近15自治体単位（006-008）は15自治体・103制度、監査3回、commit3回。全国公式棚卸しは未完了。"
+      },
+      {
+        "lineNumber": 11820,
+        "text": "- メトリクス: 2自治体、67制度採用、一次候補334件、採用率20.1%。沖縄県001-009累計は42自治体・団体、461制度。県末尾12自治体（007-009）は127制度、監査3回、commit3回。全国公式棚卸しは未完了。"
+      },
+      {
+        "lineNumber": 11821,
+        "text": "- 次回: 自治体コード順の都道府県・市区町村第1巡は沖縄県末尾まで到達。次回は進捗JSON・チェックリスト・候補台帳を確認し、国・公的機関、第2巡保留、候補未判定、最終監査の未完了箇所を解消する。"
+      }
+    ]
+  },
+  "nationalAndPublicInstitutionInventory": {
+    "discoveryFiles": [],
+    "verifiedDataFiles": [
+      "national-new.ts",
+      "national-new2.ts",
+      "national.ts",
+      "ngo-new.ts",
+      "ngo.ts",
+      "verified-national-business-legacy-2026.ts",
+      "verified-national-childcare-2026.ts",
+      "verified-national-continuous-support-2026.ts",
+      "verified-national-core-welfare-2026.ts",
+      "verified-national-deadline-fixes-2026.ts",
+      "verified-national-employment-support-2026.ts",
+      "verified-national-misc-2026.ts",
+      "verified-national-support-2026.ts",
+      "verified-ngo-misc-2026.ts",
+      "verified-ngo-national-2026.ts"
+    ]
+  },
+  "byPrefix": {
+    "ehime": {
+      "adoptedFiles": 5,
+      "adopted": 309,
+      "urlStatusFiles": 5,
+      "candidateFiles": 10,
+      "selectionFiles": 5
+    },
+    "fukuoka": {
+      "adoptedFiles": 12,
+      "adopted": 1018,
+      "urlStatusFiles": 12,
+      "candidateFiles": 20,
+      "selectionFiles": 12
+    },
+    "fukushima": {
+      "adoptedFiles": 7,
+      "adopted": 216,
+      "urlStatusFiles": 0,
+      "candidateFiles": 15,
+      "selectionFiles": 7
+    },
+    "fukushima-second-pass-001-adopted.json": {
+      "adoptedFiles": 1,
+      "adopted": 8,
+      "urlStatusFiles": 0,
+      "candidateFiles": 0,
+      "selectionFiles": 0
+    },
+    "fukushima-second-pass-002-adopted.json": {
+      "adoptedFiles": 1,
+      "adopted": 29,
+      "urlStatusFiles": 0,
+      "candidateFiles": 0,
+      "selectionFiles": 0
+    },
+    "fukushima-second-pass-003-adopted.json": {
+      "adoptedFiles": 1,
+      "adopted": 14,
+      "urlStatusFiles": 0,
+      "candidateFiles": 0,
+      "selectionFiles": 0
+    },
+    "fukushima-second-pass-004-adopted.json": {
+      "adoptedFiles": 1,
+      "adopted": 23,
+      "urlStatusFiles": 0,
+      "candidateFiles": 0,
+      "selectionFiles": 0
+    },
+    "fukushima-second-pass-005-adopted.json": {
+      "adoptedFiles": 1,
+      "adopted": 19,
+      "urlStatusFiles": 0,
+      "candidateFiles": 0,
+      "selectionFiles": 0
+    },
+    "fukushima-second-pass-006-adopted.json": {
+      "adoptedFiles": 1,
+      "adopted": 18,
+      "urlStatusFiles": 0,
+      "candidateFiles": 0,
+      "selectionFiles": 0
+    },
+    "fukushima-second-pass-007-adopted.json": {
+      "adoptedFiles": 1,
+      "adopted": 10,
+      "urlStatusFiles": 0,
+      "candidateFiles": 0,
+      "selectionFiles": 0
+    },
+    "fukushima-second-pass-008-adopted.json": {
+      "adoptedFiles": 1,
+      "adopted": 12,
+      "urlStatusFiles": 0,
+      "candidateFiles": 0,
+      "selectionFiles": 0
+    },
+    "fukushima-second-pass-009-adopted.json": {
+      "adoptedFiles": 1,
+      "adopted": 3,
+      "urlStatusFiles": 0,
+      "candidateFiles": 0,
+      "selectionFiles": 0
+    },
+    "fukushima-second-pass-010-adopted.json": {
+      "adoptedFiles": 1,
+      "adopted": 12,
+      "urlStatusFiles": 0,
+      "candidateFiles": 0,
+      "selectionFiles": 0
+    },
+    "fukushima-second-pass-011-adopted.json": {
+      "adoptedFiles": 1,
+      "adopted": 3,
+      "urlStatusFiles": 0,
+      "candidateFiles": 0,
+      "selectionFiles": 0
+    },
+    "fukushima-second-pass-012-adopted.json": {
+      "adoptedFiles": 1,
+      "adopted": 1,
+      "urlStatusFiles": 0,
+      "candidateFiles": 0,
+      "selectionFiles": 0
+    },
+    "fukushima-second-pass-013-adopted.json": {
+      "adoptedFiles": 1,
+      "adopted": 3,
+      "urlStatusFiles": 0,
+      "candidateFiles": 0,
+      "selectionFiles": 0
+    },
+    "fukushima-second-pass-014-adopted.json": {
+      "adoptedFiles": 1,
+      "adopted": 6,
+      "urlStatusFiles": 0,
+      "candidateFiles": 0,
+      "selectionFiles": 0
+    },
+    "fukushima-second-pass-015-adopted.json": {
+      "adoptedFiles": 1,
+      "adopted": 1,
+      "urlStatusFiles": 0,
+      "candidateFiles": 0,
+      "selectionFiles": 0
+    },
+    "hiroshima": {
+      "adoptedFiles": 5,
+      "adopted": 425,
+      "urlStatusFiles": 5,
+      "candidateFiles": 5,
+      "selectionFiles": 5
+    },
+    "kagawa": {
+      "adoptedFiles": 4,
+      "adopted": 311,
+      "urlStatusFiles": 4,
+      "candidateFiles": 8,
+      "selectionFiles": 4
+    },
+    "kagoshima": {
+      "adoptedFiles": 9,
+      "adopted": 761,
+      "urlStatusFiles": 9,
+      "candidateFiles": 9,
+      "selectionFiles": 18
+    },
+    "kochi": {
+      "adoptedFiles": 7,
+      "adopted": 457,
+      "urlStatusFiles": 7,
+      "candidateFiles": 14,
+      "selectionFiles": 7
+    },
+    "kumamoto": {
+      "adoptedFiles": 9,
+      "adopted": 600,
+      "urlStatusFiles": 9,
+      "candidateFiles": 12,
+      "selectionFiles": 9
+    },
+    "miyazaki": {
+      "adoptedFiles": 6,
+      "adopted": 401,
+      "urlStatusFiles": 6,
+      "candidateFiles": 6,
+      "selectionFiles": 6
+    },
+    "nagasaki": {
+      "adoptedFiles": 5,
+      "adopted": 346,
+      "urlStatusFiles": 2,
+      "candidateFiles": 9,
+      "selectionFiles": 5
+    },
+    "oita": {
+      "adoptedFiles": 5,
+      "adopted": 336,
+      "urlStatusFiles": 5,
+      "candidateFiles": 5,
+      "selectionFiles": 5
+    },
+    "okayama": {
+      "adoptedFiles": 6,
+      "adopted": 551,
+      "urlStatusFiles": 6,
+      "candidateFiles": 7,
+      "selectionFiles": 5
+    },
+    "okinawa": {
+      "adoptedFiles": 9,
+      "adopted": 461,
+      "urlStatusFiles": 9,
+      "candidateFiles": 9,
+      "selectionFiles": 9
+    },
+    "saga": {
+      "adoptedFiles": 4,
+      "adopted": 364,
+      "urlStatusFiles": 4,
+      "candidateFiles": 4,
+      "selectionFiles": 4
+    },
+    "shimane": {
+      "adoptedFiles": 3,
+      "adopted": 241,
+      "urlStatusFiles": 4,
+      "candidateFiles": 14,
+      "selectionFiles": 4
+    },
+    "tokushima": {
+      "adoptedFiles": 5,
+      "adopted": 395,
+      "urlStatusFiles": 5,
+      "candidateFiles": 10,
+      "selectionFiles": 5
+    },
+    "yamaguchi": {
+      "adoptedFiles": 4,
+      "adopted": 267,
+      "urlStatusFiles": 4,
+      "candidateFiles": 7,
+      "selectionFiles": 4
+    },
+    "aichi": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 11,
+      "candidateFiles": 11,
+      "selectionFiles": 0
+    },
+    "gifu": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 8,
+      "candidateFiles": 8,
+      "selectionFiles": 5
+    },
+    "gifu-shizuoka": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 1,
+      "candidateFiles": 1,
+      "selectionFiles": 0
+    },
+    "hyogo-nara": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 1,
+      "candidateFiles": 1,
+      "selectionFiles": 2
+    },
+    "hyogo": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 8,
+      "candidateFiles": 8,
+      "selectionFiles": 12
+    },
+    "kyoto": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 6,
+      "candidateFiles": 6,
+      "selectionFiles": 6
+    },
+    "mie": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 6,
+      "candidateFiles": 7,
+      "selectionFiles": 7
+    },
+    "nagano": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 13,
+      "candidateFiles": 15,
+      "selectionFiles": 0
+    },
+    "nara": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 7,
+      "candidateFiles": 7,
+      "selectionFiles": 14
+    },
+    "osaka": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 9,
+      "candidateFiles": 9,
+      "selectionFiles": 9
+    },
+    "shiga": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 4,
+      "candidateFiles": 4,
+      "selectionFiles": 4
+    },
+    "shizuoka": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 7,
+      "candidateFiles": 7,
+      "selectionFiles": 0
+    },
+    "tottori": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 4,
+      "candidateFiles": 18,
+      "selectionFiles": 12
+    },
+    "wakayama": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 6,
+      "candidateFiles": 6,
+      "selectionFiles": 13
+    },
+    "akita": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 7,
+      "selectionFiles": 0
+    },
+    "aomori": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 11,
+      "selectionFiles": 0
+    },
+    "aomori-prefecture-final": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 1,
+      "selectionFiles": 0
+    },
+    "chiba": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 14,
+      "selectionFiles": 28
+    },
+    "fukui": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 19,
+      "selectionFiles": 0
+    },
+    "gunma": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 9,
+      "selectionFiles": 13
+    },
+    "hokkaido": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 23,
+      "selectionFiles": 0
+    },
+    "ibaraki": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 12,
+      "selectionFiles": 0
+    },
+    "ishikawa": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 23,
+      "selectionFiles": 0
+    },
+    "iwate": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 4,
+      "selectionFiles": 0
+    },
+    "kanagawa": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 41,
+      "selectionFiles": 0
+    },
+    "miyagi": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 9,
+      "selectionFiles": 0
+    },
+    "niigata": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 29,
+      "selectionFiles": 0
+    },
+    "saitama": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 16,
+      "selectionFiles": 32
+    },
+    "tochigi": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 7,
+      "selectionFiles": 0
+    },
+    "tokyo": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 67,
+      "selectionFiles": 16
+    },
+    "toyama": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 18,
+      "selectionFiles": 0
+    },
+    "yamagata": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 9,
+      "selectionFiles": 0
+    },
+    "yamanashi-nagano": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 1,
+      "selectionFiles": 0
+    },
+    "yamanashi": {
+      "adoptedFiles": 0,
+      "adopted": 0,
+      "urlStatusFiles": 0,
+      "candidateFiles": 5,
+      "selectionFiles": 0
+    }
+  },
+  "noOutcomeArtifactPrefixes": [],
+  "noStructuredAdoptedJsonPrefixes": [
+    "hokkaido",
+    "aomori",
+    "iwate",
+    "miyagi",
+    "akita",
+    "yamagata",
+    "ibaraki",
+    "tochigi",
+    "gunma",
+    "saitama",
+    "chiba",
+    "tokyo",
+    "kanagawa",
+    "niigata",
+    "toyama",
+    "ishikawa",
+    "fukui",
+    "yamanashi",
+    "nagano",
+    "gifu",
+    "shizuoka",
+    "aichi",
+    "mie",
+    "shiga",
+    "kyoto",
+    "osaka",
+    "hyogo",
+    "nara",
+    "wakayama",
+    "tottori"
+  ]
+}

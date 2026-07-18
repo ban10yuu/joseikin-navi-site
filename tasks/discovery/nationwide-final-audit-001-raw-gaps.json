@@ -1,0 +1,262 @@
+{
+  "rawFiles": 108,
+  "verifiedFiles": 20,
+  "rawUnique": 4375,
+  "verifiedUnique": 27763,
+  "gaps": 82,
+  "duplicateRawSlugs": 32,
+  "byPrefecture": {
+    "千葉県": 9,
+    "愛知県": 8,
+    "埼玉県": 7,
+    "長野県": 7,
+    "北海道": 7,
+    "大阪府": 5,
+    "兵庫県": 4,
+    "茨城県": 3,
+    "鹿児島県": 3,
+    "神奈川県": 3,
+    "栃木県": 3,
+    "群馬県": 2,
+    "秋田県": 2,
+    "福岡県": 2,
+    "福島県": 2,
+    "愛媛県": 1,
+    "岡山県": 1,
+    "岩手県": 1,
+    "岐阜県": 1,
+    "宮城県": 1,
+    "広島県": 1,
+    "佐賀県": 1,
+    "三重県": 1,
+    "山口県": 1,
+    "青森県": 1,
+    "大分県": 1,
+    "長崎県": 1,
+    "島根県": 1,
+    "徳島県": 1,
+    "福井県": 1
+  },
+  "byCategory": {
+    "housing": 75,
+    "employment": 7
+  },
+  "byFile": {
+    "src/data/grants/city-batch69.ts": 6,
+    "src/data/grants/city-batch75.ts": 6,
+    "src/data/grants/city-batch78.ts": 6,
+    "src/data/grants/city-batch46.ts": 3,
+    "src/data/grants/city-batch47.ts": 3,
+    "src/data/grants/city-batch48.ts": 3,
+    "src/data/grants/city-batch50.ts": 3,
+    "src/data/grants/city-batch51.ts": 3,
+    "src/data/grants/city-batch52.ts": 3,
+    "src/data/grants/city-batch53.ts": 3,
+    "src/data/grants/city-batch54.ts": 3,
+    "src/data/grants/city-batch55.ts": 3,
+    "src/data/grants/city-batch56.ts": 3,
+    "src/data/grants/city-batch59.ts": 3,
+    "src/data/grants/city-batch60.ts": 3,
+    "src/data/grants/city-batch62.ts": 3,
+    "src/data/grants/city-batch63.ts": 3,
+    "src/data/grants/city-batch64.ts": 3,
+    "src/data/grants/city-batch65.ts": 3,
+    "src/data/grants/city-batch36.ts": 2,
+    "src/data/grants/city-batch38.ts": 2,
+    "src/data/grants/city-batch49.ts": 2,
+    "src/data/grants/city-batch1.ts": 1,
+    "src/data/grants/city-batch16.ts": 1,
+    "src/data/grants/city-batch20.ts": 1,
+    "src/data/grants/city-batch35.ts": 1,
+    "src/data/grants/city-batch39.ts": 1,
+    "src/data/grants/city-batch44.ts": 1,
+    "src/data/grants/city-batch45.ts": 1,
+    "src/data/grants/city-batch58.ts": 1,
+    "src/data/grants/city-batch66.ts": 1,
+    "src/data/grants/local.ts": 1
+  },
+  "sampleGaps": [
+    {
+      "slug": "ichinomiya-newlywed-housing",
+      "title": "一宮市 結婚新生活支援補助金",
+      "organization": "一宮市",
+      "prefecture": "愛知県",
+      "category": "housing",
+      "maxAmount": "最大60万円",
+      "officialUrl": "",
+      "file": "src/data/grants/city-batch78.ts"
+    },
+    {
+      "slug": "okazaki-newlywed-housing",
+      "title": "岡崎市 結婚新生活支援補助金",
+      "organization": "岡崎市",
+      "prefecture": "愛知県",
+      "category": "housing",
+      "maxAmount": "最大60万円",
+      "officialUrl": "",
+      "file": "src/data/grants/city-batch78.ts"
+    },
+    {
+      "slug": "kasugai-newlywed-housing",
+      "title": "春日井市 結婚新生活支援補助金",
+      "organization": "春日井市",
+      "prefecture": "愛知県",
+      "category": "housing",
+      "maxAmount": "最大60万円",
+      "officialUrl": "",
+      "file": "src/data/grants/city-batch78.ts"
+    },
+    {
+      "slug": "seto-newlywed-housing",
+      "title": "瀬戸市 結婚新生活支援補助金",
+      "organization": "瀬戸市",
+      "prefecture": "愛知県",
+      "category": "housing",
+      "maxAmount": "最大60万円",
+      "officialUrl": "",
+      "file": "src/data/grants/city-batch78.ts"
+    },
+    {
+      "slug": "handa-newlywed-housing",
+      "title": "半田市 結婚新生活支援補助金",
+      "organization": "半田市",
+      "prefecture": "愛知県",
+      "category": "housing",
+      "maxAmount": "最大60万円",
+      "officialUrl": "",
+      "file": "src/data/grants/city-batch78.ts"
+    }
+  ],
+  "sampleDuplicateRawSlugs": [
+    {
+      "slug": "ebina-scholarship",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "ebina-scholarship",
+          "title": "海老名市 奨学金制度",
+          "organization": "海老名市",
+          "prefecture": "神奈川県",
+          "category": "education",
+          "maxAmount": "月額最大3万円",
+          "officialUrl": "https://www.city.ebina.kanagawa.jp/",
+          "file": "src/data/grants/city-batch31.ts"
+        },
+        {
+          "slug": "ebina-scholarship",
+          "title": "海老名市 奨学金制度",
+          "organization": "海老名市",
+          "prefecture": "神奈川県",
+          "category": "education",
+          "maxAmount": "最大月額4万円",
+          "officialUrl": "https://www.city.ebina.kanagawa.jp/",
+          "file": "src/data/grants/city-batch71.ts"
+        }
+      ]
+    },
+    {
+      "slug": "hachioji-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "hachioji-startup-support",
+          "title": "八王子市 創業支援補助金",
+          "organization": "八王子市",
+          "prefecture": "東京都",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch100.ts"
+        },
+        {
+          "slug": "hachioji-startup-support",
+          "title": "八王子市 創業支援補助金",
+          "organization": "八王子市",
+          "prefecture": "東京都",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.hachioji.tokyo.jp/",
+          "file": "src/data/grants/city-batch13.ts"
+        }
+      ]
+    },
+    {
+      "slug": "hakodate-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "hakodate-startup-support",
+          "title": "函館市 創業支援補助金",
+          "organization": "函館市",
+          "prefecture": "北海道",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city.hakodate.hokkaido.jp/",
+          "file": "src/data/grants/city-batch12.ts"
+        },
+        {
+          "slug": "hakodate-startup-support",
+          "title": "函館市 創業支援補助金",
+          "organization": "函館市",
+          "prefecture": "北海道",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch95.ts"
+        }
+      ]
+    },
+    {
+      "slug": "hakusan-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "hakusan-startup-support",
+          "title": "白山市 創業支援補助金",
+          "organization": "白山市",
+          "prefecture": "石川県",
+          "category": "employment",
+          "maxAmount": "最大100万円",
+          "officialUrl": "https://www.city.hakusan.lg.jp/",
+          "file": "src/data/grants/city-batch32.ts"
+        },
+        {
+          "slug": "hakusan-startup-support",
+          "title": "白山市 創業支援補助金",
+          "organization": "白山市",
+          "prefecture": "石川県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch98.ts"
+        }
+      ]
+    },
+    {
+      "slug": "hanamaki-startup-support",
+      "count": 2,
+      "entries": [
+        {
+          "slug": "hanamaki-startup-support",
+          "title": "花巻市 創業支援補助金",
+          "organization": "花巻市",
+          "prefecture": "岩手県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "https://www.city.hanamaki.iwate.jp/",
+          "file": "src/data/grants/city-batch26.ts"
+        },
+        {
+          "slug": "hanamaki-startup-support",
+          "title": "花巻市 創業支援補助金",
+          "organization": "花巻市",
+          "prefecture": "岩手県",
+          "category": "employment",
+          "maxAmount": "最大50万円",
+          "officialUrl": "",
+          "file": "src/data/grants/city-batch96.ts"
+        }
+      ]
+    }
+  ]
+}
