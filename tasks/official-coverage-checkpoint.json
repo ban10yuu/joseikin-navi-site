@@ -1,44 +1,44 @@
 {
-  "updatedAt": "2026-07-19T04:20:00+09:00",
+  "updatedAt": "2026-07-19T04:39:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nationwide-final-audit-021-second-pass-ledger",
-    "municipality": "北海道第18バッチ第2巡保留（足寄町・陸別町・浦幌町）",
-    "adopted": 6,
-    "held": 10,
-    "excluded": 1,
-    "sourceUrlsChecked": 16,
+    "code": "nationwide-final-audit-022-second-pass-ledger",
+    "municipality": "北海道第19バッチ第2巡保留（釧路町・厚岸町・浜中町）",
+    "adopted": 5,
+    "held": 4,
+    "excluded": 4,
+    "sourceUrlsChecked": 14,
     "validation": {
-      "previousMunicipality": "全国最終監査020後、raw gap 0を全国完了扱いにせず、チェックリスト上の古い第2巡保留から北海道第18バッチ（足寄町・陸別町・浦幌町）を再確認。足寄町はPDF・詳細ページで金額まで固定できた5件、陸別町は全額公費負担を確認できた子どもの予防接種1件を追加。金額・上限を公式本文で固定できない候補は保留継続し、浦幌町UIJターン移住支援金は受付停止・取扱未定により現行掲載しない。",
+      "previousMunicipality": "全国最終監査021後、北海道第18バッチ残保留を追加OCR・個別本文不足として残し、第2巡台帳の次単位である北海道第19バッチ（釧路町・厚岸町・浜中町）を再確認。釧路町はデコ活推進補助金と重度障がい者等福祉券、浜中町は安心住まいる促進、人づくり基金、ファミリー・サポート利用料助成の計5件を追加。厚岸町は個別本文不足・過年度終了・無料診断サービスとしてデータ反映なし。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: nationwide-final-audit-021-hokkaido-batch018-second-pass-resolution.json and checkpoint parsed",
-      "addedSlugUniqueness": "pass: new second-pass slugs 6件は各1件のみ",
-      "urlReachability": "pass: 北海道第18バッチ第2巡確認URL 16/16 HTTP 200 in tasks/discovery/nationwide-final-audit-021-hokkaido-batch018-url-status.txt",
+      "json": "pass: nationwide-final-audit-022-hokkaido-batch019-second-pass-resolution.json and checkpoint parsed",
+      "addedSlugUniqueness": "pass: new second-pass slugs 5件は各1件のみ",
+      "urlReachability": "pass: 北海道第19バッチ第2巡確認URL 14/14 HTTP 200 in tasks/discovery/nationwide-final-audit-022-hokkaido-batch019-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on nationwide-final-audit-021 target files",
-      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at existing unrelated src/lib/grant-copy.ts:114 tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-021-hokkaido-batch018-coverage.log",
-      "notes": "第18バッチの一部保留は10件残る。足寄町新規就農支援、陸別町の産婦健診・産後ケア・予防接種一部・重度心身障害者医療費、浦幌町のこども医療費・がん検診・妊産婦健診費用等・児童手当は次巡へ残す。全国完了ではない。"
+      "diffCheck": "pass: git diff --check on nationwide-final-audit-022 target files",
+      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at existing unrelated src/lib/grant-copy.ts:114 tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-022-hokkaido-batch019-coverage.log",
+      "notes": "第19バッチの一部保留は4件残る。釧路町スポーツ振興助成金、釧路町障害者就労等通所支援助成・障害者等援護旅費助成、厚岸町医療費助成等、浜中町日常生活用具給付・T字型ステッキ給付は次巡へ残す。全国完了ではない。"
     }
   },
   "next": {
-    "code": "nationwide-final-audit-022-second-pass-ledger",
-    "municipality": "北海道第18バッチ残保留又は第2巡保留台帳の次未完了単位",
-    "shortlist": "第18バッチ021で足寄町5件・陸別町1件を追加。次は足寄町新規就農支援のOCR/公式資料確認、陸別町の助成額未固定候補、浦幌町のこども医療費・がん検診・妊産婦健診・児童手当重複整理、又はチェックリスト上の次未完了保留単位へ進む。",
-    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-021-hokkaido-batch018-second-pass-resolution.json、nationwide-final-audit-021-hokkaido-batch018-url-status.txt、チェックリスト、HEADだけで復旧する。raw gap 0を全国完了扱いにせず、第2巡保留台帳と国・公的機関の公式ページ単位棚卸し状況を確認して次の未完了単位へ進む。"
+    "code": "nationwide-final-audit-023-second-pass-ledger",
+    "municipality": "北海道第19バッチ残保留又は第2巡保留台帳の次未完了単位",
+    "shortlist": "第19バッチ022で釧路町2件・浜中町3件を追加。次は釧路町の金額未固定候補、厚岸町の医療費助成等の個別公式本文、浜中町の日常生活用具・T字型ステッキ給付の掲載方針整理、又はチェックリスト上の次未完了保留単位へ進む。",
+    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-022-hokkaido-batch019-second-pass-resolution.json、nationwide-final-audit-022-hokkaido-batch019-url-status.txt、チェックリスト、HEADだけで復旧する。raw gap 0を全国完了扱いにせず、第2巡保留台帳と国・公的機関の公式ページ単位棚卸し状況を確認して次の未完了単位へ進む。"
   },
   "prefectureMilestone": {
     "prefecture": "全国最終監査",
-    "completedBatches": "final-audit-021",
-    "completedMunicipalitiesAndEntities": 83,
-    "adopted": 6,
+    "completedBatches": "final-audit-022",
+    "completedMunicipalitiesAndEntities": 86,
+    "adopted": 5,
     "recent15": {
-      "batches": "全国最終監査018-021",
+      "batches": "全国最終監査019-022",
       "municipalities": 15,
-      "adopted": 12,
+      "adopted": 11,
       "compactions": 6,
-      "shortlistAdoptionRate": "第021は北海道第18バッチ保留17件中、6件採用・10件保留継続・1件現行掲載除外",
-      "auditRuns": 79,
-      "commits": 18,
+      "shortlistAdoptionRate": "第022は北海道第19バッチ保留13件中、5件採用・4件保留継続・4件現行掲載除外",
+      "auditRuns": 80,
+      "commits": 19,
       "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは0だが全国完了条件ではなく、第2巡保留、国・公的機関の同粒度棚卸し、coverage監査ブロッカー確認が残る。"
     }
   },

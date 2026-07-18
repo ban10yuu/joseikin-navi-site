@@ -1,0 +1,111 @@
+{
+  "auditCode": "nationwide-final-audit-022-second-pass-ledger",
+  "checkedAt": "2026-07-19T04:39:00+09:00",
+  "sourceBatch": "hokkaido-batch-019",
+  "municipalities": [
+    {
+      "code": "01661",
+      "name": "釧路町",
+      "adopted": [
+        {
+          "slug": "kushiro-town-deco-action-subsidy-2025",
+          "title": "釧路町 デコ活推進補助金",
+          "officialUrl": "http://www.town.kushiro.lg.jp/material/252731170311/08",
+          "basis": "公式PDFで、対象者、太陽光発電・蓄電池・性能向上リフォームの上限、受付期間、完了報告期限を確認。現在は受付終了の期限付き制度として反映。"
+        },
+        {
+          "slug": "kushiro-town-disability-welfare-voucher-2026",
+          "title": "釧路町 重度障がい者等福祉券",
+          "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/30702/00006/150811210320.html",
+          "basis": "公式障がい福祉ページで、対象者、町民税非課税世帯、障がい区分、毎年7月頃の申請書送付、2万円分の福祉券を確認。"
+        }
+      ],
+      "held": [
+        {
+          "title": "釧路町スポーツ振興助成金",
+          "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/52302/00013/153016520609.html",
+          "reason": "対象・申請条件は確認できたが、助成額又は算定上限を本文で固定できないため保留。"
+        },
+        {
+          "title": "釧路町 障害者就労等通所支援助成・障害者等援護旅費助成",
+          "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/30702/00006/150811210320.html",
+          "reason": "対象と支援概要は確認したが、補助率・上限額が本文で固定できないため保留。"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "釧路町 福祉灯油購入費助成事業",
+          "officialUrl": "http://www.town.kushiro.lg.jp/living-guide/32701/00007/231717391011.html",
+          "reason": "令和7年10月15日から11月14日受付の単年度情報であり、現在日は受付終了後。令和8年度相当の受付確認まで現行掲載しない。"
+        }
+      ]
+    },
+    {
+      "code": "01662",
+      "name": "厚岸町",
+      "adopted": [],
+      "held": [
+        {
+          "title": "厚岸町 こども医療・ひとり親医療・重度心身障害者医療等",
+          "reason": "様式・関連候補はあるが、個別公式本文で対象・金額・申請条件を揃えて確認できていないため保留継続。"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "厚岸町 ハッピーブライダル奨励事業",
+          "officialUrl": "https://www.akkeshi-town.jp/kurashi/sumai/house/zyutaku_shien/bridal_/",
+          "reason": "公式ページの受付が令和6年度対象・令和7年3月17日締切で終了済み。令和8年度版未確認のため現行掲載しない。"
+        },
+        {
+          "title": "厚岸町 木造一戸建て住宅の無料簡易耐震診断",
+          "officialUrl": "https://www.akkeshi-town.jp/kurashi/sumai/house/zyutaku_shien/free_taishin/",
+          "reason": "無料診断サービスであり、補助金・助成金・給付金・一時金としての金銭支給制度ではないため掲載しない。"
+        }
+      ]
+    },
+    {
+      "code": "01663",
+      "name": "浜中町",
+      "adopted": [
+        {
+          "slug": "hamanaka-safe-sumairu-housing-subsidy-2026",
+          "title": "浜中町 安心住まいる促進事業助成金",
+          "officialUrl": "https://www.townhamanaka.jp/kurashi_kankyou/jutaku/2017-2-23-smile.html",
+          "basis": "公式HTML、リーフレットPDF、要綱PDFで、対象者、工事着手前申請、新築30万円、住宅リフォーム10%・上限20万円、水洗化改造10%・上限3万円を確認。"
+        },
+        {
+          "slug": "hamanaka-human-resource-fund-subsidy-2026",
+          "title": "浜中町 人づくり基金事業補助",
+          "officialUrl": "https://www.townhamanaka.jp/kakuka/kikakuzaiseika/chiikishinkou/2017-0327-1428-33.html",
+          "basis": "公式HTMLと要綱PDFで、対象者、対象事業、対象経費、国内・海外の期間、宿泊費・食費基準、国内50万円・海外100万円上限を確認。"
+        },
+        {
+          "slug": "hamanaka-family-support-fee-subsidy-2026",
+          "title": "浜中町 ファミリー・サポート・センター事業利用料助成",
+          "officialUrl": "https://www.townhamanaka.jp/kenkou_fukushi_iryou/fukushi/jidoufukushi/2022-0509-1709-53.html",
+          "basis": "公式HTML、令和8版ガイドブックPDF、チラシPDFで、対象児童、利用料30分450円、交通費1km30円、利用料と交通費の2分の1助成、子ども1人月40時間上限を確認。"
+        }
+      ],
+      "held": [
+        {
+          "title": "浜中町 日常生活用具給付・T字型ステッキ給付",
+          "reason": "現物給付として確認できるが、個別金額と掲載方針整理が必要なため保留。"
+        }
+      ],
+      "excluded": [
+        {
+          "title": "浜中町 産業振興資金貸付（商工機器等購入資金貸付）",
+          "officialUrl": "https://www.townhamanaka.jp/sangyou_shigoto/syoukou/syoukoukiki.html",
+          "reason": "公式本文に対象と償還期限はあるが、貸付限度額が「お問い合わせください」で固定できないため掲載しない。"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "adopted": 5,
+    "held": 4,
+    "excluded": 4,
+    "sourceUrlsChecked": 14,
+    "notes": "北海道第19バッチの第2巡保留を釧路町・厚岸町・浜中町の順で再確認。PDF本文又は公式HTMLで必須項目を固定できた5件を追加し、金額未固定・過年度終了・無料サービス・貸付限度額不明は保留又は除外に整理した。"
+  }
+}
