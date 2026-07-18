@@ -11729,3 +11729,13 @@
 - 検証: 公式URL 81/81 HTTP 200（`tasks/discovery/kagoshima-official-coverage-009-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（009 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - メトリクス: 4自治体、81制度採用、一次候補442件、採用率18.3%。鹿児島県001-009累計は県・全市町村44自治体・団体、761制度。直近15自治体単位（007-009）は14自治体・256制度。鹿児島県は第1巡到達。全国公式棚卸しは未完了。
 - 次回: 沖縄県公式棚卸し001として、沖縄県・那覇市・宜野湾市・石垣市・浦添市から再開する。
+
+### 沖縄県公式棚卸し001（47000沖縄県・47201那覇市・47205宜野湾市・47207石垣市・47208浦添市）
+
+- 対象公式トップ: 沖縄県 `https://www.pref.okinawa.lg.jp/`、那覇市 `https://www.city.naha.okinawa.jp/`、宜野湾市 `https://www.city.ginowan.lg.jp/`、石垣市 `https://www.city.ishigaki.okinawa.jp/`、浦添市 `https://www.city.urasoe.lg.jp/` をHTTP 200で確認。sitemap.xmlは宜野湾市・石垣市・浦添市が200、沖縄県・那覇市は404または未使用のため、公式 `sitemap.html`、検索/カテゴリBFSで補完。
+- 公式sitemap/カテゴリBFS候補: 279件（浦添市33、沖縄県43、宜野湾市91、石垣市104、那覇市8）。title強一致78件。shortlistが150件超のため `tasks/discovery/okinawa-official-coverage-001-rescored-shortlist.tsv` と `tasks/discovery/okinawa-official-coverage-001-auto-selection.tsv` へ本文スニペット付き再スコアを保存。
+- 採用: 76制度（沖縄県5、那覇市3、浦添市5、宜野湾市25、石垣市38）。`okinawa-official-001-001-2026` から `okinawa-official-001-076-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、トップ、共通ナビ、申請書単体、受付終了、募集終了、実績/採択、職員採用、同一制度の重複導線、単なる税・保険料説明は採用せず、候補JSON/TSVに残置。浦添市は個別ページ取得がローカル403で遮られたため、第1巡は公式助成カテゴリ導線を採用し、第2巡で個別 `doc/` ページの再取得を優先する。
+- 検証: 公式URL 76件を `tasks/discovery/okinawa-official-coverage-001-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（001 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。那覇市・浦添市および沖縄県一部URLはローカル再取得時にAkamai 403が出たため、候補抽出時点の公式本文スニペットで根拠を保持。
+- メトリクス: 5自治体・団体、76制度採用、一次候補279件、採用率27.2%。沖縄県001累計は5自治体・団体、76制度。全国公式棚卸しは未完了。
+- 次回: 沖縄県公式棚卸し002として、名護市・糸満市・沖縄市・豊見城市・うるま市から再開する。
