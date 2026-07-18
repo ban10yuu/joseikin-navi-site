@@ -107,6 +107,8 @@ export type AffiliateIntent =
   | 'pos'
   | 'employeeTraining'
   | 'professionalConsultation'
+  | 'homeEnergyConsultation'
+  | 'systemDevelopment'
   | 'fertilityCare'
   | 'medicalExpenseTax'
   | 'treatmentCostManagement';

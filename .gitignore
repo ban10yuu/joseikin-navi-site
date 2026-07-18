@@ -15,6 +15,7 @@
 reports/e2e/*.png
 reports/e2e/axe-results.json
 reports/lighthouse-*.json
+/reports/seo-article-pipeline/
 /.cache/
 /tasks/discovery/*-candidates.json
 /tasks/discovery/*-url-validation.json

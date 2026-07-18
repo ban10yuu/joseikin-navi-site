@@ -18,6 +18,8 @@
     "audit:deadlines": "node --test src/lib/deadline.test.mjs src/lib/grant-status.test.mjs",
     "audit:links": "node scripts/audit-links.mjs",
     "audit:migration": "node scripts/audit-domain-migration.mjs",
+    "seo:article": "node scripts/run-seo-article-pipeline.mjs",
+    "audit:seo-articles": "node scripts/run-seo-article-pipeline.mjs --audit",
     "assets:illustrations": "node scripts/process-illustration-sheets.mjs"
   },
   "dependencies": {

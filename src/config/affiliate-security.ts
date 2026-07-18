@@ -1,8 +1,8 @@
 export const AFFILIATE_HOST_ALLOWLIST = {
-  tracking: ['px.a8.net'],
-  creative: ['www23.a8.net', 'www26.a8.net', 'www27.a8.net', 'www28.a8.net', 'www29.a8.net'],
-  impression: ['www10.a8.net', 'www11.a8.net', 'www13.a8.net', 'www15.a8.net', 'www17.a8.net'],
-  redirect: ['a8.yayoi-kk.co.jp', 'a8cv.f.012grp.co.jp'],
+  tracking: ['px.a8.net', 'af.moshimo.com'],
+  creative: ['www23.a8.net', 'www26.a8.net', 'www27.a8.net', 'www28.a8.net', 'www29.a8.net', 'image.moshimo.com'],
+  impression: ['www10.a8.net', 'www11.a8.net', 'www13.a8.net', 'www15.a8.net', 'www17.a8.net', 'i.moshimo.com'],
+  redirect: ['a8.yayoi-kk.co.jp', 'a8cv.f.012grp.co.jp', 'ac-rt.catsys.jp'],
   landing: [
     'f.012grp.co.jp',
     'www.easy-myshop.jp',
@@ -10,6 +10,9 @@ export const AFFILIATE_HOST_ALLOWLIST = {
     'www.onamae-server.com',
     'www.shin-server.jp',
     'www.yayoi-kk.co.jp',
+    'andaze.jobshub.life',
+    'kikuchi.tax',
+    'kurashi-saiene-navi.com',
   ],
 } as const;
 
@@ -41,6 +44,16 @@ export const AFFILIATE_PRIVACY_SERVICES = {
     timing: '広告が画面に表示される際、および広告リンクを選択した際',
     retention: 'Cookieの有効期限はプログラムにより数日から3か月程度（A8.net公開情報）',
     policyUrl: 'https://www.a8.net/privacy.html',
+  },
+  'もしもアフィリエイト': {
+    provider: '株式会社もしも',
+    assetHosts: ['image.moshimo.com', 'i.moshimo.com'],
+    clickHosts: ['af.moshimo.com', 'ac-rt.catsys.jp'],
+    landingHosts: ['andaze.jobshub.life', 'kikuchi.tax', 'kurashi-saiene-navi.com'],
+    purpose: '広告素材の配信、広告表示・クリック・申込み成果の計測',
+    timing: '広告が画面に表示される際、および広告リンクを選択した際',
+    retention: 'Cookie等の保存期間はプロモーションごとの条件により異なります',
+    policyUrl: 'https://www.moshimo.co.jp/company/privacy',
   },
 } as const;
 

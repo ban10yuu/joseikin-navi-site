@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-07-17T13:20:46.047Z",
-  "totalOffers": 12,
-  "enabledOffers": 6,
+  "generatedAt": "2026-07-18T21:31:26.718Z",
+  "totalOffers": 17,
+  "enabledOffers": 9,
   "criticalIssues": 0,
-  "warningIssues": 10,
+  "warningIssues": 12,
   "issues": [
     {
       "severity": "warning",
@@ -16,6 +16,18 @@
       "code": "NOT_PARTNERED",
       "offerId": "a8-smaregi-timecard",
       "message": "提携完了前の案件です。"
+    },
+    {
+      "severity": "warning",
+      "code": "INVALID_DESTINATION_URL",
+      "offerId": "a8-plement-seishei-sheet",
+      "message": "HTTPSの案件リンクが必要です。"
+    },
+    {
+      "severity": "warning",
+      "code": "INVALID_DESTINATION_URL",
+      "offerId": "a8-plement-syringe",
+      "message": "HTTPSの案件リンクが必要です。"
     },
     {
       "severity": "warning",

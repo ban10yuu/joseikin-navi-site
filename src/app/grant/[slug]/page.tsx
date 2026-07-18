@@ -18,7 +18,7 @@ import {
   isGrantExpired,
 } from '@/lib/grants';
 import { splitEligibilityText } from '@/lib/grant-presentation';
-import { getGrantAffiliateIntents } from '@/lib/affiliate-context';
+import { getGrantAffiliateIntents, shouldAllowDerivedAffiliateContext } from '@/lib/affiliate-context';
 import { getValidOfficialSourceUrls } from '@/lib/grant-source';
 import { groupGrantSections, type GrantSectionGroup } from '@/lib/grant-sections';
 import { getEffectiveGrantStatus, getOfficialCtaLabel, isRepayableSupport } from '@/lib/grant-status';
@@ -105,7 +105,11 @@ export default async function GrantDetailPage({ params }: Props) {
     audiences: grant.audiences ?? [],
     purposes: grant.purposes ?? [],
     intents: affiliateIntents,
-    monetizationAllowed: grant.monetizationAllowed,
+    monetizationAllowed: shouldAllowDerivedAffiliateContext({
+      purposes: grant.purposes,
+      intents: affiliateIntents,
+      monetizationAllowed: grant.monetizationAllowed,
+    }),
     status,
     indexable: sourceStatus.level !== 'unverified' && !expired && grant.indexStatus !== 'noindex' && grant.contentStatus === 'published',
     hasOfficialSource: Boolean(primaryOfficialUrl),

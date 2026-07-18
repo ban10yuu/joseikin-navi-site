@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "minimumScore": 85,
+  "maxRevisionCycles": 3,
+  "publishMode": "manualReviewOnly",
+  "notificationMode": "consoleAndReport",
+  "qualityWeights": {
+    "factualAccuracy": 30,
+    "humanReadability": 20,
+    "intentMatch": 15,
+    "structure": 15,
+    "sourceCoverage": 15,
+    "metadata": 5
+  }
+}

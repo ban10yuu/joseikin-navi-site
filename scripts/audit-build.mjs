@@ -69,7 +69,7 @@ for (const page of pages) {
   if (affiliateImpressions.length > 2) add('critical', 'TOO_MANY_AFFILIATE_OFFERS', page.route, `同一ページのPR案件は最大2件です（現在${affiliateImpressions.length}件）。`);
   const offerIds = [...page.html.matchAll(/<aside\b[^>]*data-offer-id="([^"]+)"[^>]*>/g)].map((match) => match[1]);
   if (new Set(offerIds).size !== offerIds.length) add('critical', 'DUPLICATE_AFFILIATE_OFFER', page.route, '同じPR案件が同一ページに重複表示されています。');
-  if (page.route === '/' && affiliateImpressions.length !== 0) add('critical', 'UNEXPECTED_INITIAL_HOME_AFFILIATE', page.route, 'トップの初期状態ではPRを表示せず、事業者選択後に表示する必要があります。');
+  if (page.route === '/' && affiliateImpressions.length !== 1) add('critical', 'INVALID_INITIAL_HOME_AFFILIATE_COUNT', page.route, `トップの初期表示PRは1件である必要があります（現在${affiliateImpressions.length}件）。`);
   if (page.route === '/guide/' && affiliateImpressions.length !== 1) add('critical', 'INVALID_GUIDE_AFFILIATE_COUNT', page.route, `申請前ガイドの初期表示PRは1件である必要があります（現在${affiliateImpressions.length}件）。`);
   const officialClickIndex = page.html.indexOf('data-analytics-event="official_source_click"');
   const officialPanelIndex = page.html.indexOf('grant-source-panel');

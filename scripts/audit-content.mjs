@@ -23,13 +23,15 @@ const { getAllGrantsUnfiltered, hasOfficialSource, isGrantExpired, isManuallyVer
 const { containsInternalAuditText } = require('../src/lib/grant-presentation.ts');
 const { getValidOfficialSourceUrls } = require('../src/lib/grant-source.ts');
 const { isRepayableSupport } = require('../src/lib/grant-status.ts');
+const { getEffectiveGrantStatus } = require('../src/lib/grant-status.ts');
+const { getGrantAffiliateIntents, shouldAllowDerivedAffiliateContext } = require('../src/lib/affiliate-context.ts');
+const { getEligibleAffiliateOffers } = require('../src/lib/monetization.ts');
+const { AFFILIATE_OFFERS } = require('../src/config/affiliate-offers.ts');
 
 const grants = getAllGrantsUnfiltered();
 const issues = [];
 const addIssue = (severity, code, grant, message) => issues.push({ severity, code, slug: grant?.slug ?? '', title: grant?.title ?? '', message });
 const forbidden = /助成金診断クイズ|全国2,500件以上|必要書類チェックリストを掲載しています|公式サイトで申請する|必ず受給できる|条件を満たせばほぼ確実|申請すれば受け取れる/;
-const businessAudiences = new Set(['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization']);
-const sensitivePurposes = new Set(['medical', 'welfare', 'disaster', 'livingSupport']);
 const tokyoDateParts = new Intl.DateTimeFormat('en-US', {
   timeZone: 'Asia/Tokyo',
   year: 'numeric',
@@ -74,11 +76,30 @@ for (const [title, slugs] of titleMap) if (slugs.length > 1) addIssue('warning',
 for (const [url, slugs] of urlMap) if (slugs.length > 1) addIssue('warning', 'DUPLICATE_OFFICIAL_URL', { slug: slugs[0], title: '' }, `同じ公式URLが${slugs.length}件あります：${url}`);
 for (const [body, slugs] of bodyMap) if (slugs.length >= 5) addIssue('warning', 'DUPLICATE_BODY', { slug: slugs[0], title: '' }, `同じ概要・対象者の組合せが${slugs.length}件あります（${body.slice(0, 40)}…）。`);
 
-const monetizationAllowed = grants.filter((grant) =>
-  grant.monetizationAllowed
-  && grant.audiences?.some((audience) => businessAudiences.has(audience))
-  && !grant.purposes?.some((purpose) => sensitivePurposes.has(purpose)),
-).length;
+const monetizationAllowed = grants.filter((grant) => {
+  const affiliateIntents = getGrantAffiliateIntents({
+    title: grant.title,
+    description: grant.description,
+    tags: grant.tags,
+    purposes: grant.purposes,
+    affiliateIntents: grant.affiliateIntents ?? [],
+  });
+  return getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+    pageType: 'grant',
+    audiences: grant.audiences ?? [],
+    purposes: grant.purposes ?? [],
+    intents: affiliateIntents,
+    monetizationAllowed: shouldAllowDerivedAffiliateContext({
+      purposes: grant.purposes,
+      intents: affiliateIntents,
+      monetizationAllowed: grant.monetizationAllowed,
+    }),
+    status: getEffectiveGrantStatus(grant),
+    indexable: grant.indexStatus !== 'noindex' && grant.contentStatus === 'published' && !isGrantExpired(grant),
+    hasOfficialSource: hasOfficialSource(grant),
+    limit: 1,
+  }).length > 0;
+}).length;
 
 const summary = {
   generatedAt: new Date().toISOString(),
@@ -106,7 +127,7 @@ fs.writeFileSync(path.join(reportDir, 'content-audit.csv'), `severity,code,slug,
 const issueCounts = [...new Map(issues.map((issue) => [issue.code, issues.filter((item) => item.code === issue.code).length])).entries()].sort((a, b) => b[1] - a[1]);
 const markdown = `# コンテンツ品質レポート\n\n生成日時：${summary.generatedAt}\n\n| 指標 | 件数 |\n|---|---:|\n${[
   ['総制度数', summary.total], ['公式URLあり', summary.officialUrl], ['自動照合', summary.automated], ['人手確認', summary.humanReviewed], ['noindex', summary.noindex], ['期限切れ', summary.expired], ['重複指摘', summary.duplicates], ['修正待ち', summary.needsReview], ['貸付', summary.loans], ['アフィリエイト掲載可能', summary.affiliateEligible], ['アフィリエイト掲載禁止', summary.affiliateBlocked], ['重大エラー', summary.critical], ['警告', summary.warnings],
-].map(([label, value]) => `| ${label} | ${Number(value).toLocaleString('ja-JP')} |`).join('\n')}\n\n## 指摘内訳\n\n${issueCounts.length ? issueCounts.map(([code, count]) => `- ${code}: ${count.toLocaleString('ja-JP')}件`).join('\n') : '- 指摘なし'}\n\n## 判定方針\n\n- 人手確認は humanReviewedAt が明示された制度だけを集計しています。\n- 公式URLなし、修正待ち、内部監査文言を含む制度は公開インデックス対象にしません。\n- アフィリエイト掲載可能は事業者向けかつセンシティブ目的でない制度の潜在件数です。候補案件は提携・公開条件を満たすまで無効化し、公開画面にはPR枠を表示しません。\n`;
+].map(([label, value]) => `| ${label} | ${Number(value).toLocaleString('ja-JP')} |`).join('\n')}\n\n## 指摘内訳\n\n${issueCounts.length ? issueCounts.map(([code, count]) => `- ${code}: ${count.toLocaleString('ja-JP')}件`).join('\n') : '- 指摘なし'}\n\n## 判定方針\n\n- 人手確認は humanReviewedAt が明示された制度だけを集計しています。\n- 公式URLなし、修正待ち、内部監査文言を含む制度は公開インデックス対象にしません。\n- アフィリエイト掲載可能は、公開状態、公式確認先、受付状況、対象者、目的、広告意図、提携済み案件がすべて一致する制度数です。申請中や無効な案件は数えません。\n`;
 fs.writeFileSync(path.join(reportDir, 'content-audit.md'), markdown);
 fs.writeFileSync(path.join(root, 'docs', 'content-quality-report.md'), markdown);
 
