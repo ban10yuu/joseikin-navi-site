@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-07-19T05:15:00+09:00",
+  "scope": "島根県・徳島県・福井県raw gap各1件の公式ページ単位解消",
+  "beforeRawGaps": 3,
+  "resolvedRawGaps": 3,
+  "afterRawGapsExpected": 0,
+  "items": [
+    {
+      "prefecture": "島根県",
+      "municipality": "松江市",
+      "rawSlug": "matsue-newlywed-rent",
+      "resolution": "official-unconfirmed-suppressed",
+      "officialProgramName": "松江市 結婚新生活支援補助金（公式確認不可）",
+      "target": "島根県公式の令和8年度結婚新生活支援事業実施市町リストに松江市が含まれず、松江市公式補助金一覧・結婚離婚ページでも現行個別ページを確認できないため対象外",
+      "amount": "現行の結婚新生活支援補助金として公式確認不可",
+      "conditions": "島根県の令和8年度実施市町は浜田市、江津市、奥出雲町、川本町、美郷町、邑南町、津和野町、吉賀町。松江市補助金一覧には該当制度なし。",
+      "deadline": "現行の結婚新生活支援補助金として公式確認不可。通常一覧から除外。",
+      "officialUrl": "https://www.pref.shimane.lg.jp/education/syoushika/syoushika/genjo/koufukin/kekkonshinseikatsu.html",
+      "sourceUrls": [
+        "https://www.pref.shimane.lg.jp/education/syoushika/syoushika/genjo/koufukin/kekkonshinseikatsu.html",
+        "https://www.city.matsue.lg.jp/gyoseijoho/hojyokin/index.html",
+        "https://www.city.matsue.lg.jp/dekigotokarasagasu/kekkon_rikon/index.html"
+      ],
+      "summary": "松江市の旧raw候補は令和8年度の公式実施市町に含まれず、松江市公式個別ページも確認できないため掲載抑止として解消する。"
+    },
+    {
+      "prefecture": "徳島県",
+      "municipality": "徳島市",
+      "rawSlug": "tokushima-city-newlywed-rent",
+      "resolution": "official-unconfirmed-suppressed",
+      "officialProgramName": "徳島市 結婚新生活支援補助金（公式確認不可）",
+      "target": "徳島県公式の令和8年度地域少子化対策重点推進事業や移住定住支援一覧、徳島市公式の手当・補助金ページ等で現行の徳島市結婚新生活支援補助金を確認できないため対象外",
+      "amount": "現行の結婚新生活支援補助金として公式確認不可",
+      "conditions": "県ページ・移住定住支援一覧では鳴門市、阿南市等の結婚新生活支援は確認できるが徳島市は確認不可。徳島市の住居確保給付金は生活困窮者向け。",
+      "deadline": "現行の結婚新生活支援補助金として公式確認不可。通常一覧から除外。",
+      "officialUrl": "https://www.pref.tokushima.lg.jp/ippannokata/kenko/kosodateshien/7304480/",
+      "sourceUrls": [
+        "https://www.pref.tokushima.lg.jp/ippannokata/kenko/kosodateshien/7304480/",
+        "https://iju.pref.tokushima.lg.jp/wp-content/themes/minde/img/system/iju_teiju.pdf",
+        "https://www.city.tokushima.tokushima.jp/kosodate/kodokomyu/genre_kensaku/teate_hojokin/index.html",
+        "https://www.city.tokushima.tokushima.jp/shisei/mayor/mayor_press/press_2025/kaiken20260217.files/kaiken2026021705.pdf"
+      ],
+      "summary": "徳島市の旧raw候補は県・市公式の現行個別制度を確認できず、掲載抑止として解消する。"
+    },
+    {
+      "prefecture": "福井県",
+      "municipality": "福井市",
+      "rawSlug": "fukui-city-newlywed-rent",
+      "resolution": "official-current-integrated",
+      "officialProgramName": "福井市結婚生活スタートアップ応援事業",
+      "target": "婚姻日の年齢が夫婦二人とも29歳以下で賃貸住宅に住む世帯等、福井市公式要綱の要件を満たす新婚世帯",
+      "amount": "結婚生活補助金最大60万円、結婚支援金一律40万円、合計最大100万円",
+      "conditions": "結婚生活補助金は賃貸住宅の住宅賃借費用と引越費用が対象。結婚支援金は使途制限なし。年齢区分により補助額が異なる。",
+      "deadline": "令和8年度制度。要件詳細は公式要綱を確認。raw slugは公式制度へ統合するため通常一覧から除外。",
+      "officialUrl": "https://www.city.fukui.lg.jp/kurasi/kekkonsien/ssinnkonnsannsienn/startupouen.html",
+      "sourceUrls": [
+        "https://www.city.fukui.lg.jp/kurasi/kekkonsien/ssinnkonnsannsienn/startupouen.html",
+        "https://www.city.fukui.lg.jp/sisei/hojyo/kurasi/jutaku_seisaku31.html",
+        "https://www.city.fukui.lg.jp/sisei/hojyo/kurasi/akiya-shutoku31.html"
+      ],
+      "summary": "旧rawの新婚世帯家賃補助候補を令和8年度の公式結婚生活スタートアップ応援事業へ統合し、重複掲載を抑止する。"
+    }
+  ],
+  "urlReachability": "official URL/PDF 10/10 HTTP 200 in nationwide-final-audit-019-url-status.txt",
+  "next": "既存raw未検証gap 0。raw gap解消後の第2巡保留・国公的機関正規化監査へ進む"
+}

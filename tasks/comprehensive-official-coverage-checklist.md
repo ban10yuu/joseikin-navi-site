@@ -11982,3 +11982,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-018-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-018-url-status.txt`、`tasks/discovery/nationwide-final-audit-018-raw-gaps-after.json` を作成。公式URL/PDF 11/11 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは7件から3件へ減少。山口県・青森県・大分県・長崎県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-018-coverage.log` に保存。
 - 次回: raw gap残3件。島根県・徳島県・福井県が各1。次は島根県のraw gap1件から、公式本文/PDF確認を継続する。全国公式棚卸しは未完了。
+
+### 全国公式棚卸し最終監査019（島根県・徳島県・福井県raw gap 3件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-018-raw-gaps-after.json` の島根県1件、松江市 `matsue-newlywed-rent`、徳島県1件、徳島市 `tokushima-city-newlywed-rent`、福井県1件、福井市 `fukui-city-newlywed-rent` を確認。
+- 公式確認: 松江市は島根県公式の令和8年度結婚新生活支援事業実施市町リストに含まれず、松江市公式補助金一覧・結婚離婚ページでも現行個別ページを確認不可。徳島市は徳島県公式の令和8年度地域少子化対策重点推進事業、移住定住支援一覧、徳島市公式手当・補助金ページ、令和8年度当初予算資料を確認し、徳島市の結婚新生活支援補助金は確認不可。福井市は公式「令和8年度結婚生活スタートアップ応援事業」で、賃貸住宅に住む新婚世帯の住宅賃借費用・引越費用を対象とする結婚生活補助金最大60万円/30万円、使途制限なしの結婚支援金一律40万円/30万円、合計最大100万円/60万円を確認。
+- 解消方法: 松江市と徳島市は現行公式個別募集ページを確認できないため掲載抑止。福井市は旧rawの新婚世帯家賃補助候補を現行公式の結婚生活スタートアップ応援事業へ補正統合し、通常一覧への重複・誤掲載を抑止。
+- 成果物: `tasks/discovery/nationwide-final-audit-019-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-019-url-status.txt`、`tasks/discovery/nationwide-final-audit-019-raw-gaps-after.json` を作成。公式URL/PDF 10/10 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは3件から0件へ減少。島根県・徳島県・福井県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-019-coverage.log` に保存。
+- 次回: 既存raw未検証gapは0件。ただし、raw gap 0は全国完了条件ではない。第2巡保留、国・都道府県・公的機関の同粒度棚卸し、候補未判定解消、coverage監査ブロッカー解消後に最終監査へ進む。

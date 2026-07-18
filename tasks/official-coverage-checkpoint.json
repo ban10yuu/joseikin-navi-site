@@ -1,45 +1,45 @@
 {
-  "updatedAt": "2026-07-19T04:45:00+09:00",
+  "updatedAt": "2026-07-19T05:15:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nationwide-final-audit-018",
-    "municipality": "山口県・青森県・大分県・長崎県raw gap4件解消（周南市・弘前市・大分市・佐世保市）",
+    "code": "nationwide-final-audit-019",
+    "municipality": "島根県・徳島県・福井県raw gap3件解消（松江市・徳島市・福井市）",
     "adopted": 0,
-    "held": 3,
-    "excluded": 4,
-    "sourceUrlsChecked": 11,
+    "held": 0,
+    "excluded": 3,
+    "sourceUrlsChecked": 10,
     "validation": {
-      "previousMunicipality": "全国公式棚卸し最終監査017後、既存raw未検証7件のうち山口県・青森県・大分県・長崎県各1件を公式本文/PDFで確認。周南市・弘前市・大分市は現行公式個別募集ページを確認できず掲載抑止、佐世保市は旧結婚新生活支援候補を現行公式の子育て応援住宅支援事業補助金へ補正統合した。全国公式棚卸しは未完了。",
+      "previousMunicipality": "全国公式棚卸し最終監査018後、既存raw未検証3件の島根県・徳島県・福井県各1件を公式本文/PDFで確認。松江市・徳島市は現行公式個別募集ページを確認できず掲載抑止、福井市は旧新婚世帯家賃補助候補を現行公式の結婚生活スタートアップ応援事業へ補正統合した。raw gap 0到達。ただし全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: nationwide-final-audit-018-raw-gap-resolution.json, raw-gaps-after, checkpoint parsed; raw gaps 7 -> 3, 山口県・青森県・大分県・長崎県raw gap 0",
-      "addedSlugUniqueness": "pass: audit-raw-verified-gaps recognized 4 added raw slugs; duplicateRawSlugs remains existing baseline only",
-      "urlReachability": "pass: official URL/PDF 11/11 HTTP 200 in tasks/discovery/nationwide-final-audit-018-url-status.txt",
+      "json": "pass: nationwide-final-audit-019-raw-gap-resolution.json, raw-gaps-after, checkpoint parsed; raw gaps 3 -> 0, 島根県・徳島県・福井県raw gap 0",
+      "addedSlugUniqueness": "pass: audit-raw-verified-gaps recognized 3 added raw slugs; duplicateRawSlugs remains existing baseline only",
+      "urlReachability": "pass: official URL/PDF 10/10 HTTP 200 in tasks/discovery/nationwide-final-audit-019-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on nationwide-final-audit-018 target files",
-      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at existing unrelated src/lib/grant-copy.ts:114 tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-018-coverage.log",
-      "notes": "raw gap解消対象は周南市、弘前市、大分市、佐世保市の4件。山口県・青森県・大分県・長崎県raw gapは残0。"
+      "diffCheck": "pass: git diff --check on nationwide-final-audit-019 target files",
+      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at existing unrelated src/lib/grant-copy.ts:114 tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-019-coverage.log",
+      "notes": "raw gap解消対象は松江市、徳島市、福井市の3件。島根県・徳島県・福井県raw gapは残0。"
     }
   },
   "next": {
-    "code": "nationwide-final-audit-019-raw-gap-resolution",
-    "municipality": "島根県・徳島県・福井県raw gap各1件の公式ページ単位解消",
-    "shortlist": "最終監査018後の既存raw未検証は3件見込み。島根県・徳島県・福井県が各1。次回は島根県raw gap1件から自治体コード順・都道府県順で、公式個別URL・対象・金額/上限・条件・期限/受付状況を確認し、採用/期限切れ/除外を制度単位で記録する。",
-    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-018-raw-gaps-after.json、nationwide-final-audit-018-raw-gap-resolution.json、チェックリスト、HEADだけで復旧する。1ターンで3〜5自治体または60〜100制度または45〜55分まで、既存raw gapを公式本文/PDF単位で解消する。国・公的機関と第2巡保留はraw gap解消後に正規化監査へ進む。"
+    "code": "nationwide-final-audit-020-second-pass-normalization",
+    "municipality": "raw gap 0到達後の第2巡保留・国公的機関正規化監査",
+    "shortlist": "最終監査019後の既存raw未検証は0件見込み。ただしraw gap 0は全国完了条件ではない。第2巡保留、国・都道府県・公的機関の同粒度棚卸し、候補未判定解消、coverage監査ブロッカーの扱いを確認する。",
+    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-019-raw-gaps-after.json、nationwide-final-audit-019-raw-gap-resolution.json、チェックリスト、HEADだけで復旧する。raw gap 0を全国完了扱いにせず、第2巡保留台帳と国・公的機関の公式ページ単位棚卸し状況を確認して次の未完了単位へ進む。"
   },
   "prefectureMilestone": {
     "prefecture": "全国最終監査",
-    "completedBatches": "final-audit-018",
-    "completedMunicipalitiesAndEntities": 77,
+    "completedBatches": "final-audit-019",
+    "completedMunicipalitiesAndEntities": 80,
     "adopted": 0,
     "recent15": {
-      "batches": "全国最終監査016-018",
-      "municipalities": 12,
+      "batches": "全国最終監査017-019",
+      "municipalities": 11,
       "adopted": 0,
       "compactions": 5,
-      "shortlistAdoptionRate": "12/12 raw gaps resolved since final-audit-016; Ehime/Okayama/Iwate/Gifu/Miyagi/Hiroshima/Saga/Mie/Yamaguchi/Aomori/Oita/Nagasaki all targeted prefecture gaps resolved",
-      "auditRuns": 76,
-      "commits": 16,
-      "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは82から3へ減少。ただし未判定/保留記録、国・公的機関の同粒度棚卸し未確認、coverage監査ブロッカーが残るため全国完了ではない。"
+      "shortlistAdoptionRate": "11/11 raw gaps resolved since final-audit-017; Miyagi/Hiroshima/Saga/Mie/Yamaguchi/Aomori/Oita/Nagasaki/Shimane/Tokushima/Fukui all targeted prefecture gaps resolved",
+      "auditRuns": 77,
+      "commits": 17,
+      "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは82から0へ減少。ただしraw gap 0は全国完了条件ではなく、未判定/保留記録、国・公的機関の同粒度棚卸し未確認、coverage監査ブロッカーが残るため全国完了ではない。"
     }
   },
   "batchRules": {
