@@ -1,0 +1,88 @@
+{
+  "audit": "nationwide-final-audit-036-hokkaido-second-pass-016",
+  "checkedAt": "2026-07-19T08:06:00+09:00",
+  "source": "tasks/discovery/hokkaido-second-pass-016-snippets.json",
+  "municipalities": [
+    "雨竜町",
+    "北竜町",
+    "沼田町",
+    "鷹栖町"
+  ],
+  "summary": {
+    "adopted": 0,
+    "held": 10,
+    "excluded": 0,
+    "sourceUrlsChecked": 10,
+    "dataChange": "none: no new grant slugs added",
+    "notes": "北海道第2巡016は、雨竜町・北竜町・沼田町・鷹栖町の第2巡候補を自治体コード順に再確認した。4自治体とも第1巡掲載済み制度、通常行政/国・道制度、終了済み制度、又は金額/上限・令和8年度受付状況不足の候補が中心で、新規に制度名・対象・金額/上限・条件・期限/受付状況が揃う未掲載制度は確認できなかった。"
+  },
+  "existingCoverageCounts": {
+    "雨竜町": 21,
+    "北竜町": 23,
+    "沼田町": 24,
+    "鷹栖町": 28
+  },
+  "heldCandidates": [
+    {
+      "municipality": "雨竜町",
+      "title": "任意インフルエンザ予防接種・B類疾病の季節性インフルエンザ",
+      "reason": "自己負担ありまでは確認したが、公式本文で助成額又は自己負担額が確認できないため掲載しない。"
+    },
+    {
+      "municipality": "雨竜町",
+      "title": "児童手当・児童扶養手当・国保出産育児一時金・自立支援医療等",
+      "reason": "全国標準制度又は通常窓口案内で、町独自又は町窓口の個別補助・給付として必要項目が揃うものだけ掲載対象とする。"
+    },
+    {
+      "municipality": "北竜町",
+      "title": "児童手当・児童扶養手当・特別障がい者手当等",
+      "reason": "公式本文で現行月額等は確認したが、国制度として町窓口案内に留め、町独自制度としては掲載しない。"
+    },
+    {
+      "municipality": "北竜町",
+      "title": "奨学資金RTF申請書URL",
+      "reason": "公式ページ上のリンク候補だがHTTP 404のためsourceUrlsから除外し、本文と条例PDFで確認済みの制度だけ採用する。"
+    },
+    {
+      "municipality": "北竜町",
+      "title": "物価高騰対応重点支援地方創生臨時交付金事業一覧・一般割引等",
+      "reason": "事業一覧、通常サービス、外部割引、寄附・空き家情報等は個別補助・給付要件が揃うものだけ掲載対象とする。"
+    },
+    {
+      "municipality": "沼田町",
+      "title": "北海道休業協力・感染リスク低減支援金等",
+      "reason": "終了済み又は国・道制度の周知として扱い、沼田町独自制度としては掲載しない。"
+    },
+    {
+      "municipality": "沼田町",
+      "title": "インフルエンザ・新型コロナ予防接種助成",
+      "reason": "令和8年度詳細未定の案内のみで、助成額・対象・受付状況を公式本文で確定できないため掲載しない。"
+    },
+    {
+      "municipality": "沼田町",
+      "title": "公営住宅家賃減免・施設使用料減免・通常行政サービス等",
+      "reason": "町独自又は町窓口の個別補助・給付要件が揃うものだけ掲載対象とし、通常の施設・相談・リンク集は掲載しない。"
+    },
+    {
+      "municipality": "鷹栖町",
+      "title": "農業に対する補助・森林づくりに対する補助・鷹栖町振興補助金",
+      "reason": "公式HTML本文で制度名・対象は確認できるが、補助率・上限や事業別上限が要綱PDF等の追加確認を要するため保留。"
+    },
+    {
+      "municipality": "鷹栖町",
+      "title": "出産育児一時金・児童手当・国保・町営住宅等",
+      "reason": "全国標準制度、通常行政サービス、住宅/移住案内は町独自又は町窓口の個別補助・給付要件が揃うものだけ掲載対象とする。"
+    }
+  ],
+  "urlStatusFile": "tasks/discovery/nationwide-final-audit-036-hokkaido-second-pass-016-url-status.txt",
+  "validation": {
+    "addedSlugUniqueness": "not applicable: no new grant slugs added",
+    "urlReachability": "pass: representative candidate URLs 10/10 HTTP 200",
+    "syntax": "not run: grant data unchanged in 036",
+    "json": "pass: nationwide-final-audit-036-hokkaido-second-pass-016-resolution.json and checkpoint parsed",
+    "eslint": "not run: grant data unchanged in 036",
+    "diffCheck": "pass: git diff --check on nationwide-final-audit-036 target files",
+    "auditCoverage": "not rerun: no grant entries added; 026時点の既知別件 src/lib/grant-copy.ts:114 tags.map TypeError が残る"
+  },
+  "next": "北海道第2巡017として、東神楽町・当麻町・比布町・愛別町など前方保留候補を自治体コード順に継続確認する。"
+}

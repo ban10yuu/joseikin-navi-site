@@ -12140,3 +12140,14 @@
 - 検証: 監査JSON parse、checkpoint JSON parse、対象ファイル `git diff --check` はpass。助成金データ本体の追加・編集はないため `node --check src/data/grants/verified-local-misc-2026.ts` と eslint は今回省略。`npm run audit:coverage` は今回の追加採用0件では再実行しない。
 - 到達点: 北海道第2巡015は4町確認済み、追加採用0、保留継続14。全国公式棚卸しは未完了。
 - 次回: 北海道第2巡016として、雨竜町・北竜町・沼田町・鷹栖町など前方保留候補を自治体コード順に継続確認する。
+
+### 全国公式棚卸し最終監査036（北海道第2巡016 雨竜町・北竜町・沼田町・鷹栖町）
+
+- 対象: `tasks/discovery/hokkaido-second-pass-016-snippets.json` の雨竜町・北竜町・沼田町・鷹栖町を確認。
+- 公式確認: 雨竜町は任意接種、児童手当等候補を確認。北竜町は児童手当、奨学資金制度、物価高騰対応重点支援地方創生臨時交付金候補を確認。沼田町は休業協力/支援金等、予防接種、家賃減免等候補を確認。鷹栖町は農業・森林・振興補助、児童手当/国保等候補を確認。
+- 解消方法: 追加採用0件。4自治体とも第1巡掲載済み制度、通常行政/国・道制度、終了済み制度、又は金額/上限・令和8年度受付状況不足の候補が中心で、新規に制度名・対象・金額/上限・条件・期限/受付状況が揃う未掲載制度は確認できなかった。
+- 保留継続: 雨竜町の任意インフルエンザ予防接種、児童手当/国保/自立支援医療等、北竜町の児童手当等、奨学資金RTF申請書URL、物価高騰対応事業一覧等、沼田町の休業協力/感染リスク低減支援金、予防接種助成、公営住宅/施設減免等、鷹栖町の農業/森林/振興補助、出産育児一時金/児童手当/国保等を台帳に残す。
+- 成果物: `tasks/discovery/nationwide-final-audit-036-hokkaido-second-pass-016-resolution.json`、`tasks/discovery/nationwide-final-audit-036-hokkaido-second-pass-016-url-status.txt` を作成。代表確認URL 10/10 はHTTP 200。
+- 検証: 監査JSON parse、checkpoint JSON parse、対象ファイル `git diff --check` はpass。助成金データ本体の追加・編集はないため `node --check src/data/grants/verified-local-misc-2026.ts` と eslint は今回省略。`npm run audit:coverage` は今回の追加採用0件では再実行しない。
+- 到達点: 北海道第2巡016は4自治体確認済み、追加採用0、保留継続10。全国公式棚卸しは未完了。
+- 次回: 北海道第2巡017として、東神楽町・当麻町・比布町・愛別町など前方保留候補を自治体コード順に継続確認する。
