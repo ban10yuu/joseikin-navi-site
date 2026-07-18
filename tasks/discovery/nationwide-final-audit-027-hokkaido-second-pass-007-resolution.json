@@ -1,0 +1,80 @@
+{
+  "batch": "nationwide-final-audit-027-hokkaido-second-pass-007",
+  "verifiedAt": "2026-07-19T05:50:00+09:00",
+  "scope": {
+    "sourceLedger": "hokkaido-second-pass-007",
+    "municipalities": [
+      "上ノ国町",
+      "厚沢部町",
+      "乙部町",
+      "奥尻町"
+    ],
+    "focus": "北海道第2巡007の前方保留候補を自治体コード順に再確認"
+  },
+  "adopted": [],
+  "alreadyListed": [
+    {
+      "municipality": "上ノ国町",
+      "reason": "エアコン購入費、子ども医療費、保育料・副食費、給食費、学童、妊婦支援給付、出生祝金、医療従事者養成、不妊治療、予防接種、空き家除却、漁業担い手、若年者等雇用奨励、新規起業者支援など主要候補は既に掲載済み。"
+    },
+    {
+      "municipality": "厚沢部町",
+      "reason": "奨学資金、就学援助、特別支援教育就学奨励、移住支援金、住宅取得・新築・改修・空き家関連、医療・子育て・予防接種等の主要候補は既に掲載済み。"
+    },
+    {
+      "municipality": "乙部町",
+      "reason": "スマイル商品券、子育て応援手当、医療費助成、障害者手当、高齢者交通費、長寿祝金、企業振興促進条例など主要候補は既に掲載済み。"
+    },
+    {
+      "municipality": "奥尻町",
+      "reason": "物価高騰対策給付金、医療費助成、乳児栄養強化給付金、妊産婦健診通院費、不妊治療、家族介護用品、特定疾患健康診査費用助成、特定疾患療養費助成、創業・雇用拡大補助金など主要候補は既に掲載済み。"
+    }
+  ],
+  "continuedHold": [
+    {
+      "municipality": "上ノ国町",
+      "candidate": "農業関連補助事業、水産加工施設整備支援",
+      "reason": "農業関連補助は公式本文で個別の補助率・上限・現行申請条件が不足。水産加工施設整備支援は過年度事業のため掲載しない。当番医ページは予防接種助成の共通ナビ一致であり、個別制度ページではない。"
+    },
+    {
+      "municipality": "厚沢部町",
+      "candidate": "子育てカテゴリ、福祉・介護カテゴリ、地域おこし協力隊募集、子育てガイドPDF",
+      "reason": "カテゴリページは一覧導線、地域おこし協力隊は雇用募集、画像中心PDFは本文抽出・必須項目確認が不十分。個別制度ページ又は公式PDFで制度名・対象・金額等を確認できるものだけ掲載済み。"
+    },
+    {
+      "municipality": "乙部町",
+      "candidate": "定額減税不足額給付",
+      "officialUrl": "https://www.town.otobe.lg.jp/section/kikaku/diu5g10000001yls.html",
+      "reason": "公式ページで対象者と支給方法は確認したが、支給額は確認書記載であり、本文上で金額・上限を固定できない。受付期限も本文に明記されていないため掲載保留を継続。"
+    },
+    {
+      "municipality": "奥尻町",
+      "candidate": "障害手当の古い令和3年度額、空き家バンク、移住相談、町営住宅、住宅リフォーム注意喚起、地域計画、通常サービス案内",
+      "reason": "古い金額・情報提供・通常行政サービスであり、現行の個別補助金・助成金・給付金として必須項目を固定できない。町独自で金額が確認できる特定疾患2件は既に掲載済み。"
+    }
+  ],
+  "excluded": [],
+  "candidateReview": {
+    "shortlistRows": 42,
+    "notExistingStrongRows": 12,
+    "sourceUrlsChecked": 4,
+    "officialPagesChecked": [
+      "https://www.town.kaminokuni.lg.jp/hotnews/detail/00003558.html",
+      "https://www.town.assabu.lg.jp/life/1/9/",
+      "https://www.town.assabu.lg.jp/life/1/8/",
+      "https://www.town.otobe.lg.jp/section/kikaku/diu5g10000001yls.html"
+    ]
+  },
+  "validation": {
+    "urlReachability": "pass: official pages checked 4/4 HTTP 200 in nationwide-final-audit-027-hokkaido-second-pass-007-url-status.txt",
+    "json": "pass: this resolution JSON and checkpoint parsed",
+    "syntax": "not run for grant data because no grant entries were added or edited",
+    "eslint": "not run for grant data because no grant entries were added or edited",
+    "diffCheck": "pass: git diff --check on nationwide-final-audit-027 target files",
+    "auditCoverage": "not rerun for this no-adoption ledger-only update; existing blocker remains src/lib/grant-copy.ts tags.map TypeError from 026"
+  },
+  "sourceFiles": [
+    "tasks/discovery/hokkaido-second-pass-007-snippets.json"
+  ],
+  "next": "北海道第2巡008として、今金町・せたな町・島牧村・寿都町など前方保留候補を自治体コード順に継続確認する。"
+}

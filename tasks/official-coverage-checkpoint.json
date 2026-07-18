@@ -1,43 +1,43 @@
 {
-  "updatedAt": "2026-07-19T05:22:30+09:00",
+  "updatedAt": "2026-07-19T05:50:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nationwide-final-audit-026-second-pass-ledger",
-    "municipality": "北海道第2巡006残保留（鹿部町・八雲町・長万部町・江差町）",
-    "adopted": 2,
-    "held": 2,
+    "code": "nationwide-final-audit-027-second-pass-ledger",
+    "municipality": "北海道第2巡007（上ノ国町・厚沢部町・乙部町・奥尻町）",
+    "adopted": 0,
+    "held": 4,
     "excluded": 0,
-    "sourceUrlsChecked": 2,
+    "sourceUrlsChecked": 4,
     "validation": {
-      "previousMunicipality": "全国最終監査025後、進捗JSON・HEAD・チェックリストを起点に北海道第2巡006の残保留を復旧。長万部町の在宅福祉支援事業携帯電話購入費助成と江差町の地域総合整備資金貸付は金額/上限不足で保留継続。江差町の固定資産税課税免除と固定資産税不均一課税は公式本文で対象・支援内容・条件・税免除年数又は税率を確認して追加。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: nationwide-final-audit-026-hokkaido-second-pass-006-resolution.json and checkpoint parsed",
-      "addedSlugUniqueness": "pass: esashi-depopulated-area-fixed-asset-tax-exemption-2026 and esashi-peninsula-fixed-asset-tax-reduced-rate-2026 are each present exactly once",
-      "urlReachability": "pass: 北海道第2巡006残保留追加2件 2/2 HTTP 200 in tasks/discovery/nationwide-final-audit-026-hokkaido-second-pass-006-url-status.txt",
-      "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on nationwide-final-audit-026 target files",
-      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at existing unrelated src/lib/grant-copy.ts:114 tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-026-hokkaido-second-pass-006-coverage.log",
-      "notes": "長万部町在宅福祉支援事業の携帯電話購入費助成と江差町地域総合整備資金貸付は必須項目不足で保留継続。全国完了ではない。"
+      "previousMunicipality": "全国最終監査026後、進捗JSON・HEAD・チェックリストを起点に北海道第2巡007を確認。上ノ国町・厚沢部町・乙部町・奥尻町の主要候補は既掲載又は必須項目不足で、追加採用なし。乙部町の定額減税不足額給付などは金額/上限又は期限を本文で固定できず保留継続。",
+      "syntax": "not run: grant data unchanged in 027",
+      "json": "pass: nationwide-final-audit-027-hokkaido-second-pass-007-resolution.json and checkpoint parsed",
+      "addedSlugUniqueness": "not applicable: no new grant slugs added",
+      "urlReachability": "pass: 北海道第2巡007確認URL 4/4 HTTP 200 in tasks/discovery/nationwide-final-audit-027-hokkaido-second-pass-007-url-status.txt",
+      "eslint": "not run: grant data unchanged in 027",
+      "diffCheck": "pass: git diff --check on nationwide-final-audit-027 target files",
+      "auditCoverage": "not rerun: no grant entries added; 026時点の既知別件 src/lib/grant-copy.ts:114 tags.map TypeError が残る",
+      "notes": "北海道第2巡007は追加採用0、保留継続4。全国完了ではない。"
     }
   },
   "next": {
-    "code": "nationwide-final-audit-027-second-pass-ledger",
-    "municipality": "北海道第2巡007（上ノ国町・厚沢部町・乙部町・奥尻町）又は第2巡保留台帳の次未完了単位",
-    "shortlist": "第2巡006の未解消保留は金額/上限不足として台帳残し。次は北海道第2巡007の前方保留又はHEAD時点の第2巡保留台帳の次未完了単位を確認する。",
-    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-026-hokkaido-second-pass-006-resolution.json、nationwide-final-audit-026-hokkaido-second-pass-006-url-status.txt、チェックリスト、HEADだけで復旧する。raw gap 0を全国完了扱いにせず、第2巡保留、国・公的機関の同粒度棚卸し、coverage監査ブロッカー確認を継続する。"
+    "code": "nationwide-final-audit-028-second-pass-ledger",
+    "municipality": "北海道第2巡008（今金町・せたな町・島牧村・寿都町）又は第2巡保留台帳の次未完了単位",
+    "shortlist": "第2巡007の未解消保留は金額/上限不足又は通常サービスとして台帳残し。次は北海道第2巡008の前方保留を確認し、せたな町の次世代型店舗づくり事業補助金・脱炭素化推進補助金など既存スニペットの採用候補から再開する。",
+    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-027-hokkaido-second-pass-007-resolution.json、nationwide-final-audit-027-hokkaido-second-pass-007-url-status.txt、hokkaido-second-pass-008-snippets.json、チェックリスト、HEADだけで復旧する。raw gap 0を全国完了扱いにせず、第2巡保留、国・公的機関の同粒度棚卸し、coverage監査ブロッカー確認を継続する。"
   },
   "prefectureMilestone": {
     "prefecture": "全国最終監査",
-    "completedBatches": "final-audit-026",
-    "completedMunicipalitiesAndEntities": 96,
-    "adopted": 2,
+    "completedBatches": "final-audit-027",
+    "completedMunicipalitiesAndEntities": 100,
+    "adopted": 0,
     "recent15": {
-      "batches": "全国最終監査023-026",
-      "municipalities": 15,
-      "adopted": 23,
+      "batches": "全国最終監査024-027",
+      "municipalities": 17,
+      "adopted": 6,
       "compactions": 6,
-      "shortlistAdoptionRate": "第026は北海道第2巡006残保留4候補のうち、2件採用・2件保留継続",
-      "auditRuns": 89,
+      "shortlistAdoptionRate": "第027は北海道第2巡007保留4町の追加採用0、既掲載4、保留継続4",
+      "auditRuns": 90,
       "commits": 23,
       "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは0だが全国完了条件ではなく、第2巡保留、国・公的機関の同粒度棚卸し、coverage監査ブロッカー確認が残る。"
     }

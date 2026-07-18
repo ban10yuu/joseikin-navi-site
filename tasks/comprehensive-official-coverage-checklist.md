@@ -12033,3 +12033,22 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-019-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-019-url-status.txt`、`tasks/discovery/nationwide-final-audit-019-raw-gaps-after.json` を作成。公式URL/PDF 10/10 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは3件から0件へ減少。島根県・徳島県・福井県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-019-coverage.log` に保存。
 - 次回: 既存raw未検証gapは0件。ただし、raw gap 0は全国完了条件ではない。第2巡保留、国・都道府県・公的機関の同粒度棚卸し、候補未判定解消、coverage監査ブロッカー解消後に最終監査へ進む。
+
+### 全国公式棚卸し最終監査020-026（第2巡保留の復旧到達点）
+
+- 復旧範囲: HEADと `tasks/discovery/nationwide-final-audit-020*` から `026*` の成果物を再確認し、raw gap 0後に天理市第2巡、北海道第18-21バッチ、第20バッチ残、北海道第2巡006まで進んでいることを確認。
+- 採用: 020は天理市6件、021は北海道第18バッチ6件、022は北海道第19バッチ5件、024は北海道残保留1件、025は北海道第21バッチ3件、026は江差町2件を採用。023は標茶町画像PDF等の保留整理で追加採用なし。
+- 保留: 026時点で長万部町在宅福祉支援事業の携帯電話購入費助成、江差町地域総合整備資金貸付などは金額/上限不足として保留継続。raw gap 0は全国完了条件ではない。
+- 成果物: `tasks/discovery/nationwide-final-audit-020-tenri-second-pass-resolution.json` から `tasks/discovery/nationwide-final-audit-026-hokkaido-second-pass-006-resolution.json`、各URL status、coverage logを確認済み。
+- 到達点: `tasks/official-coverage-checkpoint.json` は 2026-07-19T05:22:30+09:00 時点で `nationwide-final-audit-026-second-pass-ledger`、北海道第2巡006残保留（鹿部町・八雲町・長万部町・江差町）を指している。
+- 次回: 北海道第2巡007として、上ノ国町・厚沢部町・乙部町・奥尻町から再開する。
+
+### 全国公式棚卸し最終監査027（北海道第2巡007 上ノ国町・厚沢部町・乙部町・奥尻町）
+
+- 対象: `tasks/discovery/hokkaido-second-pass-007-snippets.json` の上ノ国町・厚沢部町・乙部町・奥尻町を確認。
+- 公式確認: 上ノ国町は不妊治療・予防接種等の個別ページ、厚沢部町は子育て・福祉カテゴリ、乙部町は定額減税不足額給付ページ、奥尻町は既存掲載済みの特定疾患・創業等を中心に第2巡候補を確認。
+- 解消方法: 追加採用0件。上ノ国町・厚沢部町・乙部町・奥尻町の主要候補は既に掲載済み。上ノ国町の農業関連補助・水産加工施設整備、厚沢部町の画像中心PDF、乙部町の定額減税不足額給付、奥尻町の古い障害手当・通常サービス案内は、金額/上限・期限・現行個別制度性の不足により保留継続又は採用不可として整理。
+- 成果物: `tasks/discovery/nationwide-final-audit-027-hokkaido-second-pass-007-resolution.json`、`tasks/discovery/nationwide-final-audit-027-hokkaido-second-pass-007-url-status.txt` を作成。公式確認URL 4/4 はHTTP 200。
+- 検証: 監査JSON parse、checkpoint JSON parse、対象ファイル `git diff --check` はpass。助成金データ本体の追加・編集はないため `node --check src/data/grants/verified-local-misc-2026.ts` と eslint は今回省略。`npm run audit:coverage` は026時点の既知別件 `src/lib/grant-copy.ts` の `tags.map` TypeErrorが残るため、今回の追加採用0件では再実行しない。
+- 到達点: 北海道第2巡007は4町確認済み、追加採用0、保留継続4。全国公式棚卸しは未完了。
+- 次回: 北海道第2巡008として、今金町・せたな町・島牧村・寿都町など前方保留候補を自治体コード順に継続確認する。
