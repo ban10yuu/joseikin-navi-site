@@ -1,0 +1,80 @@
+{
+  "run": "nationwide-final-audit-023-hokkaido-batch020-second-pass-ledger",
+  "verifiedAt": "2026-07-19T04:56:00+09:00",
+  "scope": "北海道第20バッチ第2巡保留（鶴居村・別海町、標茶町保留確認）",
+  "sourceCheckpoint": "nationwide-final-audit-022-second-pass-ledger",
+  "municipalitiesChecked": [
+    {
+      "code": "01667",
+      "name": "鶴居村",
+      "result": "held candidates already resolved in HEAD",
+      "adoptedSlugs": [],
+      "alreadyReflectedSlugs": [
+        "tsurui-commerce-tourism-activation-subsidy-2026",
+        "tsurui-crowdfunding-support-subsidy-2026"
+      ],
+      "notes": "第1巡保留だったPDF依存2件は、現行データで公式HTMLと公式PDFをsourceUrlsに持つレコードとして反映済みのため重複追加しない。"
+    },
+    {
+      "code": "01691",
+      "name": "別海町",
+      "result": "adopted",
+      "adoptedSlugs": [
+        "bekkai-pregnant-women-support-benefit-2026",
+        "bekkai-postpartum-health-checkup-subsidy-2026",
+        "bekkai-newborn-hearing-test-subsidy-2026",
+        "bekkai-one-month-infant-checkup-subsidy-2026",
+        "bekkai-family-care-supplies-voucher-2026",
+        "bekkai-elderly-gathering-place-activity-subsidy-2026",
+        "bekkai-care-worker-employment-continuation-subsidy-2026",
+        "bekkai-care-worker-wage-improvement-subsidy-2026"
+      ],
+      "officialPagesChecked": [
+        "https://betsukai.jp/kurashi/birth/birth_sonota/h31jyoseijigyou/",
+        "https://betsukai.jp/kurashi/birth/ninshin/ninshin_shussannnikansurukakushuhiyounojosei/ninpunotamenosienkyufukin/",
+        "https://betsukai.jp/kurashi/birth/ninshin/ninshin_shussannnikansurukakushuhiyounojosei/sanpukenkousinsahinojosei/",
+        "https://betsukai.jp/kurashi/birth/ninshin/ninshin_shussannnikansurukakushuhiyounojosei/sinseijityoukakukensahinojosei/",
+        "https://betsukai.jp/kurashi/birth/ninshin/ninshin_shussannnikansurukakushuhiyounojosei/ikkagetsukensin/",
+        "https://betsukai.jp/kurashi/fukushi/kourei_fukushi/",
+        "https://betsukai.jp/kurashi/fukushi/kourei_fukushi/kazokukaigoyouhin/",
+        "https://betsukai.jp/kurashi/fukushi/kourei_fukushi/ikoinoba/",
+        "https://betsukai.jp/kurashi/fukushi/kourei_fukushi/kaigo_zigyousyo/",
+        "https://betsukai.jp/kurashi/fukushi/kourei_fukushi/kaigo_zigyousyo/syuugyousien/",
+        "https://betsukai.jp/kurashi/fukushi/kourei_fukushi/kaigo_zigyousyo/syoguukaizenn/",
+        "https://betsukai.jp/kyoiku/gakko_kyoiku/betukaikoukousiennzigyou/",
+        "https://betsukai.jp/resources/output/contents/file/release/3337/35301/PDF.pdf"
+      ],
+      "held": [
+        {
+          "title": "別海町 別海高等学校支援事業",
+          "url": "https://betsukai.jp/kyoiku/gakko_kyoiku/betukaikoukousiennzigyou/",
+          "reason": "公式HTMLと令和6年度実績PDFで支援メニュー・予算額は確認したが、2026年度の個別上限・対象者別交付条件として固定できない。"
+        },
+        {
+          "title": "老人クラブ運営費補助事業、敬老会開催経費助成事業、高齢者バス・ハイヤー共通利用券、介護職員確保対策支援事業",
+          "url": "https://betsukai.jp/kurashi/fukushi/kourei_fukushi/",
+          "reason": "個別金額又は受付条件が公式本文だけで不足するため追加対象外。"
+        }
+      ]
+    },
+    {
+      "code": "01664",
+      "name": "標茶町",
+      "result": "held",
+      "adoptedSlugs": [],
+      "notes": "画像PDF 5件は今回の範囲でOCR/目視確認まで到達せず、制度名・対象・金額・期限の必須項目確認待ちとして保留継続。"
+    }
+  ],
+  "counts": {
+    "adopted": 8,
+    "alreadyReflected": 2,
+    "held": 3,
+    "excluded": 0,
+    "sourceUrlsChecked": 14
+  },
+  "next": {
+    "code": "nationwide-final-audit-024-second-pass-ledger",
+    "municipality": "北海道第20バッチ標茶町画像PDF保留又はチェックリスト上の次未完了保留単位",
+    "shortlist": "標茶町画像PDF 5件のOCR/目視確認、又は第19バッチ以前の釧路町・厚岸町・浜中町残保留を継続確認する。"
+  }
+}
