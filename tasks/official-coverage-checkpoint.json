@@ -1,45 +1,45 @@
 {
-  "updatedAt": "2026-07-18T23:29:40+09:00",
+  "updatedAt": "2026-07-18T23:50:33+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "okinawa-official-coverage-006",
-    "municipality": "中城村・西原町・与那原町・南風原町・渡嘉敷村",
-    "adopted": 43,
+    "code": "okinawa-official-coverage-007",
+    "municipality": "座間味村・粟国村・渡名喜村・南大東村・北大東村",
+    "adopted": 35,
     "held": 0,
-    "excluded": 867,
-    "sourceUrlsChecked": 43,
+    "excluded": 331,
+    "sourceUrlsChecked": 35,
     "validation": {
-      "previousMunicipality": "沖縄県公式棚卸し006として47328中城村、47329西原町、47348与那原町、47350南風原町、47353渡嘉敷村を確認し、43件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and 006 discover/build scripts",
-      "json": "pass: candidates 910, selections 43, adopted 43 parsed; counts {\"西原町\":7,\"中城村\":23,\"渡嘉敷村\":4,\"南風原町\":6,\"与那原町\":3}",
-      "addedSlugUniqueness": "pass: added slugs 43 from okinawa-official-006-001-2026 through okinawa-official-006-043-2026; added duplicate 0; global duplicate 0",
-      "urlReachability": "pass: build non200 empty; 43 adopted official URLs retained in tasks/discovery/okinawa-official-coverage-006-url-status.txt",
+      "previousMunicipality": "沖縄県公式棚卸し007として47354座間味村、47355粟国村、47356渡名喜村、47357南大東村、47358北大東村を確認し、35件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and 007 discover/build scripts",
+      "json": "pass: candidates 366, selections 35, adopted 35 parsed; counts {\"座間味村\":15,\"粟国村\":5,\"渡名喜村\":3,\"南大東村\":11,\"北大東村\":1}",
+      "addedSlugUniqueness": "pass: added slugs 35 from okinawa-official-007-001-2026 through okinawa-official-007-035-2026; added duplicate 0; global duplicate 0",
+      "urlReachability": "pass: build non200 empty; 35 adopted official URLs retained in tasks/discovery/okinawa-official-coverage-007-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on 006 target files",
+      "diffCheck": "pass: git diff --check on 007 target files",
       "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at unrelated src/lib/grant-copy.ts:114 sanitizeGrantCopy tags.map TypeError",
-      "notes": "公式トップは中城村・西原町・与那原町・南風原町・渡嘉敷村すべてHTTP 200で確認済み。中城村はsitemap.xmlと/sitemap/、西原町・与那原町・南風原町はsitemap_index.xmlとsitemap.html、渡嘉敷村はsitemap.xmlとsitemap.htmlを確認。公式sitemap/カテゴリBFSで904候補を抽出し、渡嘉敷村は通常BFS候補0件だったため公式sitemap再帰確認と公式検索結果/PDFスニペットで6候補を補足、候補合計910件（中城村373、西原町251、与那原町107、南風原町173、渡嘉敷村6）。title強一致72件。候補数が150件超のため本文スニペット付き再スコアを実施。トップ・カテゴリ・共通ナビ・申請書単体・職員採用・入札・COVID過年度・情報提供のみ・重複導線を除外。"
+      "notes": "公式トップは座間味村・粟国村・渡名喜村・南大東村・北大東村すべてHTTP 200で確認済み。座間味村はsitemap.xmlと/sitemap/、粟国村はsitemap.xmlとsitemap.html、南大東村はsitemap_index.xmlとsitemap.html、北大東村はsitemap.xmlとsitemap.htmlを確認。渡名喜村はsitemapがなく、公式トップ・JSP一覧・公式トピックスページ送りで給付金候補を補足。公式sitemap/カテゴリBFS候補は363件、自動候補0件だった渡名喜村を公式トピックスから3件補足し候補合計366件。候補数が150件超のため本文スニペット付き再スコアを実施。トップ・カテゴリ・共通ナビ・申請書単体・職員採用・入札・過年度効果検証・情報提供のみ・重複導線を除外。"
     }
   },
   "next": {
-    "code": "okinawa-official-coverage-007",
-    "municipality": "座間味村・粟国村・渡名喜村・南大東村・北大東村",
-    "shortlist": "沖縄県公式棚卸し006で中城村・西原町・与那原町・南風原町・渡嘉敷村を確認し43件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で47354座間味村から再開する。",
-    "instructions": "次回は沖縄県公式棚卸し007として、47354座間味村、47355粟国村、47356渡名喜村、47357南大東村、47358北大東村の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの沖縄県完了行やHTTP 200だけでは完了扱いにしない。"
+    "code": "okinawa-official-coverage-008",
+    "municipality": "伊平屋村・伊是名村・久米島町・八重瀬町・多良間村",
+    "shortlist": "沖縄県公式棚卸し007で座間味村・粟国村・渡名喜村・南大東村・北大東村を確認し35件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で47359伊平屋村から再開する。",
+    "instructions": "次回は沖縄県公式棚卸し008として、47359伊平屋村、47360伊是名村、47361久米島町、47362八重瀬町、47375多良間村の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの沖縄県完了行やHTTP 200だけでは完了扱いにしない。"
   },
   "prefectureMilestone": {
     "prefecture": "沖縄県",
-    "completedBatches": "001-006",
-    "completedMunicipalitiesAndEntities": 30,
-    "adopted": 334,
+    "completedBatches": "001-007",
+    "completedMunicipalitiesAndEntities": 35,
+    "adopted": 369,
     "recent15": {
-      "batches": "沖縄004-006",
+      "batches": "沖縄005-007",
       "municipalities": 15,
-      "adopted": 133,
-      "compactions": 0,
-      "shortlistAdoptionRate": "43/910 = 4.7% for 006 after rescoring; 004-006 total 133 schemes",
+      "adopted": 130,
+      "compactions": 1,
+      "shortlistAdoptionRate": "35/366 = 9.6% for 007 after rescoring; 005-007 total 130 schemes",
       "auditRuns": 3,
       "commits": 3,
-      "note": "006は中城村CMSで候補過多、渡嘉敷村はAccess Denied/通常BFS漏れがあり、公式sitemap再帰とfallbackEvidenceで補完。採用率は低いがカテゴリ/広報/入札ノイズを大きく除外して品質優先。"
+      "note": "007は南大東村CMSで候補過多、渡名喜村は古いEUC-JP/JSPサイトで通常BFS候補0件だったため、公式トピックスページ送りとfallbackEvidenceで補完。採用率は低いがカテゴリ/入札/職員採用/効果検証ノイズを除外して品質優先。"
     }
   },
   "batchRules": {

@@ -11789,3 +11789,13 @@
 - 検証: 公式URL 43件を `tasks/discovery/okinawa-official-coverage-006-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（006 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - メトリクス: 5自治体、43制度採用、一次候補910件、採用率4.7%。沖縄県001-006累計は30自治体・団体、334制度。直近15自治体単位（004-006）は15自治体・133制度、監査3回、commit3回。全国公式棚卸しは未完了。
 - 次回: 沖縄県公式棚卸し007として、座間味村・粟国村・渡名喜村・南大東村・北大東村から再開する。
+
+### 沖縄県公式棚卸し007（47354座間味村・47355粟国村・47356渡名喜村・47357南大東村・47358北大東村）
+
+- 対象公式トップ: 座間味村 `https://www.vill.zamami.okinawa.jp/`、粟国村 `https://www.vill.aguni.okinawa.jp/`、渡名喜村 `http://www.vill.tonaki.okinawa.jp/`、南大東村 `https://www.vill.minamidaito.okinawa.jp/`、北大東村 `https://vill.kitadaito.okinawa.jp/` をHTTP 200で確認。座間味村は `sitemap.xml` と `/sitemap/`、粟国村は `sitemap.xml` と `sitemap.html`、南大東村は `sitemap_index.xml` と `sitemap.html`、北大東村は `sitemap.xml` と `sitemap.html` を確認。渡名喜村はsitemapがないため、公式トップ、`topics.jsp`、`list_typeB.jsp`、公式トピックスのページ送りを確認。
+- 公式sitemap/カテゴリBFS候補: 366件（座間味村112、粟国村9、渡名喜村3、南大東村236、北大東村6）。通常BFSでは渡名喜村0件だったため、公式トピックス一覧をページ送り確認し、給付金・物価高騰対応支援給付金など3候補を補足。title強一致26件。shortlistが150件超のため `tasks/discovery/okinawa-official-coverage-007-rescored-shortlist.tsv` と `tasks/discovery/okinawa-official-coverage-007-auto-selection.tsv` へ本文スニペット付き再スコアを保存。
+- 採用: 35制度（座間味村15、粟国村5、渡名喜村3、南大東村11、北大東村1）。`okinawa-official-007-001-2026` から `okinawa-official-007-035-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: トップ、カテゴリ、共通ナビ、申請書単体、職員採用、入札・プロポーザル、過年度効果検証、広報・議会だより、情報提供のみ、制度改正だけの導線、同一制度の補足導線は採用せず、候補JSON/TSVに残置。渡名喜村はEUC-JPのJSP本文を公式トピックスから確認し、fallbackEvidence付きで採用した。
+- 検証: 公式URL 35件を `tasks/discovery/okinawa-official-coverage-007-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（007 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体、35制度採用、一次候補366件、採用率9.6%。沖縄県001-007累計は35自治体・団体、369制度。直近15自治体単位（005-007）は15自治体・130制度、監査3回、commit3回。全国公式棚卸しは未完了。
+- 次回: 沖縄県公式棚卸し008として、伊平屋村・伊是名村・久米島町・八重瀬町・多良間村から再開する。
