@@ -2464,6 +2464,28 @@
     - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/hokkaido-second-pass-006-snippets.json`: pass
     - `npm run audit:coverage`: pass（failures 0、activePublished 7439、officialLinkedActive 7401、manuallyVerifiedActive 7401、北海道 localOfficial 3044）
 
+- 2026-07-19 全国最終監査026（北海道第2巡006残保留: 鹿部町・八雲町・長万部町・江差町）:
+  - 状態: HEADと第2巡006進捗JSONから残保留を復旧し、長万部町の在宅福祉支援事業携帯電話購入費助成、江差町の地域総合整備資金貸付、過疎地域固定資産税課税免除、半島振興地域固定資産税不均一課税を再確認。江差町公式「起業を応援します」ページで制度名・対象・支援内容・条件・申請相談先が揃い、固定資産税の免除年数又は軽減税率まで確認できた2件を追加した。
+  - 追加・更新ファイル:
+    - `src/data/grants/verified-local-misc-2026.ts`
+    - `tasks/discovery/nationwide-final-audit-026-hokkaido-second-pass-006-resolution.json`
+    - `tasks/discovery/nationwide-final-audit-026-hokkaido-second-pass-006-url-status.txt`
+    - `tasks/discovery/nationwide-final-audit-026-hokkaido-second-pass-006-coverage.log`
+    - `tasks/official-coverage-checkpoint.json`
+  - 採用:
+    - 江差町: 2件（過疎地域自立促進のための固定資産税課税免除、半島振興地域企業立地促進のための固定資産税不均一課税）
+  - 保留継続:
+    - 長万部町 在宅福祉支援事業の携帯電話購入費助成: 公式ページで制度見出し・対象は確認できるが、助成額・上限が本文だけでは確認できないため掲載しない。
+    - 江差町 地域総合整備資金の貸付（ふるさと融資）: 公式ページで対象法人・対象事業・無利子貸付・貸付対象費用総額2,500万円以上は確認できるが、貸付上限・貸付条件は問い合わせ案内のため保留継続。
+  - 検証:
+    - `node --check src/data/grants/verified-local-misc-2026.ts`: pass
+    - JSON parse: pass
+    - slug重複確認: 重複0（追加2件すべて存在）
+    - 追加2件の `node scripts/check-grant-source-urls.mjs --slug ... --timeout-ms 60000 --concurrency 2`: pass
+    - `npx eslint src/data/grants/verified-local-misc-2026.ts`: pass
+    - `git diff --check -- src/data/grants/verified-local-misc-2026.ts tasks/comprehensive-official-coverage-checklist.md tasks/official-coverage-checkpoint.json tasks/discovery/nationwide-final-audit-026-hokkaido-second-pass-006-resolution.json tasks/discovery/nationwide-final-audit-026-hokkaido-second-pass-006-url-status.txt`: pass
+    - `npm run audit:coverage`: 既存の `src/lib/grant-copy.ts:114` `tags.map` TypeError でcoverage集計前に停止。ログを `tasks/discovery/nationwide-final-audit-026-hokkaido-second-pass-006-coverage.log` に保存。
+
 - 2026-07-12 第2巡保留候補整理（前方サンプル: 上ノ国町・厚沢部町・乙部町・奥尻町）:
   - 状態: 第2巡007として、対象4自治体の第2バッチshortlist 42件を再スコアリングし、未掲載強候補12件を抽出。上ノ国町、厚沢部町、乙部町、奥尻町の公式カテゴリ/個別ページを短い本文スニペットで確認したが、既存掲載済み・一覧導線・通常行政サービス・募集案内・過年度又は金額/期限不足に該当し、制度名・対象・金額/上限・条件・期限/受付状況が揃う新規掲載候補は確認できなかった。
   - 追加・更新ファイル:

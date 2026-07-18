@@ -1,0 +1,75 @@
+{
+  "batch": "nationwide-final-audit-026-hokkaido-second-pass-006",
+  "verifiedAt": "2026-07-19T05:22:30+09:00",
+  "scope": {
+    "sourceLedger": "hokkaido-second-pass-006",
+    "municipalities": [
+      "鹿部町",
+      "八雲町",
+      "長万部町",
+      "江差町"
+    ],
+    "focus": "第2巡006の残保留候補をHEADと既存進捗JSONから再確認"
+  },
+  "adopted": [
+    {
+      "slug": "esashi-depopulated-area-fixed-asset-tax-exemption-2026",
+      "municipality": "江差町",
+      "officialUrl": "https://www.hokkaido-esashi.jp/modules/towninfo/content0021.html",
+      "evidence": "江差町公式ページ「起業を応援します」で、過疎地域自立促進の固定資産税課税免除、対象業種、取得価格2,500万円超、対象資産、資産取得後3か年度の課税免除、税務課への申請相談を確認。"
+    },
+    {
+      "slug": "esashi-peninsula-fixed-asset-tax-reduced-rate-2026",
+      "municipality": "江差町",
+      "officialUrl": "https://www.hokkaido-esashi.jp/modules/towninfo/content0021.html",
+      "evidence": "江差町公式ページ「起業を応援します」で、半島振興地域企業立地促進の固定資産税不均一課税、対象分野、対象資産、3か年度の税率（第1年度0.14%、第2年度0.35%、第3年度0.70%）、税務課への申請相談を確認。"
+    }
+  ],
+  "alreadyListed": [
+    {
+      "municipality": "鹿部町",
+      "reason": "第2巡003で主要候補は既存掲載済み、新規採用なしまで確認済み。"
+    },
+    {
+      "municipality": "八雲町",
+      "reason": "第2巡006で5件採用済み。今回の残保留再確認では新規追加対象なし。"
+    },
+    {
+      "municipality": "長万部町",
+      "items": [
+        "チャイルドシート購入費補助金",
+        "避難所等整備補助金"
+      ],
+      "reason": "第2巡006で既に `oshamambe-child-seat-subsidy-2026` と `oshamambe-evacuation-shelter-equipment-subsidy-2026` として掲載済み。"
+    },
+    {
+      "municipality": "江差町",
+      "items": [
+        "工場誘致条例による助成",
+        "企業立地助成金・雇用奨励助成金"
+      ],
+      "reason": "既に `esashi-factory-location-subsidy-2026` と `esashi-enterprise-location-employment-subsidy-2026` として掲載済み。"
+    }
+  ],
+  "continuedHold": [
+    {
+      "municipality": "長万部町",
+      "candidate": "在宅福祉支援事業の携帯電話購入費助成",
+      "officialUrl": "https://www.town.oshamambe.lg.jp/soshiki/7/586.html",
+      "reason": "公式ページ本文で緊急通報機能付き携帯電話購入費助成の見出しと対象は確認できるが、助成額・上限が本文だけでは確認できないため掲載しない。"
+    },
+    {
+      "municipality": "江差町",
+      "candidate": "地域総合整備資金の貸付（ふるさと融資）",
+      "officialUrl": "https://www.hokkaido-esashi.jp/modules/towninfo/content0021.html",
+      "reason": "公式ページで対象法人、対象事業、貸付対象費用総額2,500万円以上、無利子貸付は確認できるが、貸付上限・貸付条件は問い合わせ案内のため必須項目不足として保留継続。"
+    }
+  ],
+  "excluded": [],
+  "sourceFiles": [
+    "tasks/discovery/hokkaido-second-pass-006-snippets.json",
+    "tasks/discovery/tmp-second-pass-006/html/https___www.town.oshamambe.lg.jp_soshiki_7_586.html.html",
+    "tasks/discovery/tmp-second-pass-006/html/https___www.hokkaido-esashi.jp_modules_towninfo_content0021.html_page_print.html"
+  ],
+  "next": "北海道第2巡007として、上ノ国町・厚沢部町・乙部町・奥尻町など前方保留候補を自治体コード順に継続確認する。"
+}
