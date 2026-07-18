@@ -100,7 +100,7 @@ export function getEligibleAffiliateOffers(
   if (!context.monetizationAllowed && !sensitiveContext) return [];
   if (context.pageType === 'grant') {
     if (!context.indexable || !context.hasOfficialSource) return [];
-    if (!context.status || !['open', 'scheduled', 'closingSoon'].includes(context.status)) return [];
+    if (!context.status || !['open', 'scheduled', 'closingSoon', 'unknown'].includes(context.status)) return [];
   }
 
   const defaultLimit = context.pageType === 'grant' ? 1 : Number.POSITIVE_INFINITY;

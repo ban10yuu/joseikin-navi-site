@@ -19,6 +19,8 @@ describe('affiliate production config', () => {
       'moshimo-saiene-home-consultation',
       'moshimo-andaze-dx-development',
       'moshimo-kikuchi-tax-adviser',
+      'a8-plement-seishei-sheet',
+      'a8-plement-syringe',
     ]);
     for (const offer of publishable) {
       if (offer.network === 'A8.net') {
@@ -92,5 +94,25 @@ describe('affiliate production config', () => {
     }, NOW);
 
     assert.deepEqual(result.map((offer) => offer.id), ['moshimo-saiene-home-consultation']);
+  });
+
+  it('公式確認済みの受付中不妊治療制度では不妊治療に一致する案件だけを選ぶ', () => {
+    const result = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+      pageType: 'grant', audiences: ['individual', 'family'], purposes: ['medical'],
+      intents: ['fertilityCare'], monetizationAllowed: false, status: 'open',
+      indexable: true, hasOfficialSource: true, limit: 2,
+    }, NOW);
+
+    assert.deepEqual(result.map((offer) => offer.id), ['a8-plement-seishei-sheet', 'a8-plement-syringe']);
+  });
+
+  it('受付状況が不明でも公式確認済みの不妊治療制度なら文脈一致案件を選ぶ', () => {
+    const result = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+      pageType: 'grant', audiences: ['individual'], purposes: ['medical', 'childcare'],
+      intents: ['fertilityCare', 'treatmentCostManagement'], monetizationAllowed: false, status: 'unknown',
+      indexable: true, hasOfficialSource: true, limit: 2,
+    }, NOW);
+
+    assert.deepEqual(result.map((offer) => offer.id), ['a8-plement-seishei-sheet', 'a8-plement-syringe']);
   });
 });
