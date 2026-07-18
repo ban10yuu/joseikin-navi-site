@@ -12052,3 +12052,14 @@
 - 検証: 監査JSON parse、checkpoint JSON parse、対象ファイル `git diff --check` はpass。助成金データ本体の追加・編集はないため `node --check src/data/grants/verified-local-misc-2026.ts` と eslint は今回省略。`npm run audit:coverage` は026時点の既知別件 `src/lib/grant-copy.ts` の `tags.map` TypeErrorが残るため、今回の追加採用0件では再実行しない。
 - 到達点: 北海道第2巡007は4町確認済み、追加採用0、保留継続4。全国公式棚卸しは未完了。
 - 次回: 北海道第2巡008として、今金町・せたな町・島牧村・寿都町など前方保留候補を自治体コード順に継続確認する。
+
+### 全国公式棚卸し最終監査028（北海道第2巡008 今金町・せたな町・島牧村・寿都町）
+
+- 対象: `tasks/discovery/hokkaido-second-pass-008-snippets.json` の今金町・せたな町・島牧村・寿都町を確認。
+- 公式確認: せたな町の次世代型店舗づくり事業補助金、脱炭素化推進補助金を公式HTML/PDFで再確認。今金町は第1巡29件、寿都町は母子保健・予防接種・国保給付・医療費助成・福祉灯油・労働者育成等が既掲載済みであることを確認。
+- 採用: 2件。`setana-next-generation-store-subsidy-2026` は町内商工業者等、キャッシュレス決済導入・店舗等環境整備・低コスト対策支援、補助率3分の1以内、上限100万円、対象経費下限30万円を確認。`setana-decarbonization-promotion-subsidy-2026` は町内住宅等への太陽光発電・蓄電池等導入、太陽光1kW10万円、個人上限100万円・事業者上限200万円、蓄電池個人上限37万円・事業者上限118万円等を確認。両slugはHEAD時点のデータ本体に既に1件ずつ存在するため重複追加はしない。
+- 保留継続: 今金町の小児おたふくかぜ予防接種、せたな町の地域支援事業・予防接種しおり、島牧村の健診・住宅利用案内・通常サービス、寿都町の障害者手当・不妊治療等は金額/上限又は条件不足、通常サービス、古い金額のため保留継続。
+- 成果物: `tasks/discovery/nationwide-final-audit-028-hokkaido-second-pass-008-resolution.json`、`tasks/discovery/nationwide-final-audit-028-hokkaido-second-pass-008-url-status.txt` を作成。採用根拠URL 5/5 はHTTP 200。
+- 検証: 監査JSON parse、checkpoint JSON parse、追加2slugの存在数1件ずつ、`node --check src/data/grants/verified-local-misc-2026.ts`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` はこの復旧単位では再実行せず、026時点の既知別件 `src/lib/grant-copy.ts` の `tags.map` TypeErrorを継続ブロッカーとして扱う。
+- 到達点: 北海道第2巡008は4町確認済み、採用2、保留継続4。全国公式棚卸しは未完了。
+- 次回: 北海道第2巡009として、黒松内町・蘭越町・ニセコ町・真狩村など前方保留候補を自治体コード順に継続確認する。
