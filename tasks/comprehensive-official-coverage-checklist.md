@@ -12074,3 +12074,14 @@
 - 検証: 監査JSON parse、checkpoint JSON parse、対象ファイル `git diff --check` はpass。助成金データ本体の追加・編集はないため `node --check src/data/grants/verified-local-misc-2026.ts` と eslint は今回省略。`npm run audit:coverage` は今回の追加採用0件では再実行しない。
 - 到達点: 北海道第2巡009は4町確認済み、追加採用0、保留継続4。全国公式棚卸しは未完了。
 - 次回: 北海道第2巡010として、留寿都村・喜茂別町・京極町・倶知安町など前方保留候補を自治体コード順に継続確認する。
+
+### 全国公式棚卸し最終監査030（北海道第2巡010 留寿都村・喜茂別町・京極町・倶知安町）
+
+- 対象: `tasks/discovery/hokkaido-second-pass-010-snippets.json` の留寿都村・喜茂別町・京極町・倶知安町を確認。
+- 公式確認: 京極町は暮らし支援ガイドブック2026 PDF、インフルエンザ・新型コロナワクチン助成ページ/PDF、各種がん検診ページを確認。倶知安町は介護人材等確保支援事業ページ/PDFを確認。留寿都村・喜茂別町は既存掲載済み候補、期限切れ、金額不足、又は通常サービス案内として確認。
+- 採用: 17件。京極町の遠距離就学支援助成金、妊婦支援給付金、子育て支援券、福祉灯油、敬老/長寿祝金、温泉入館料助成、デマンドタクシー、省エネ家電買換え、生ごみ減量化、融雪施設、創業、除排雪免許、移住支援金、まちづくり、予防接種、がん検診免除の16件と、倶知安町の介護人材等確保支援事業補助金1件を確認。17slugはHEAD時点のデータ本体に既に1件ずつ存在するため重複追加しない。
+- 保留継続: 留寿都村の定額減税調整給付・農業国事業案内、喜茂別町の民間賃貸住宅家賃助成・こども誰でも通園制度、京極町の各種農業関連補助金・住宅新築改修外部制度紹介は、期限切れ、町独自性不足、金額/上限不足、又は掲載対象外として台帳に残す。
+- 成果物: `tasks/discovery/nationwide-final-audit-030-hokkaido-second-pass-010-resolution.json`、`tasks/discovery/nationwide-final-audit-030-hokkaido-second-pass-010-url-status.txt` を作成。重複除外後の公式URL 7/7 はHTTP 200。
+- 検証: 追加17slugの存在数1件ずつ、公式URL 7/7 HTTP 200を確認。監査JSON parse、checkpoint JSON parse、`node --check src/data/grants/verified-local-misc-2026.ts`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は今回再実行せず、026時点の既知別件 `src/lib/grant-copy.ts` の `tags.map` TypeErrorを継続ブロッカーとして扱う。
+- 到達点: 北海道第2巡010は4町確認済み、採用17、保留継続6。全国公式棚卸しは未完了。
+- 次回: 北海道第2巡011として、共和町・岩内町・泊村・神恵内村など前方保留候補を自治体コード順に継続確認する。
