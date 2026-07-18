@@ -12107,3 +12107,14 @@
 - 検証: 監査JSON parse、checkpoint JSON parse、対象ファイル `git diff --check` はpass。助成金データ本体の追加・編集はないため `node --check src/data/grants/verified-local-misc-2026.ts` と eslint は今回省略。`npm run audit:coverage` は今回の追加採用0件では再実行しない。
 - 到達点: 北海道第2巡012は4町確認済み、追加採用0、保留継続13。全国公式棚卸しは未完了。
 - 次回: 北海道第2巡013として、赤井川村・南幌町・奈井江町・上砂川町など前方保留候補を自治体コード順に継続確認する。
+
+### 全国公式棚卸し最終監査033（北海道第2巡013 赤井川村・南幌町・奈井江町・上砂川町）
+
+- 対象: `tasks/discovery/hokkaido-second-pass-013-snippets.json` の赤井川村・南幌町・奈井江町・上砂川町を確認。
+- 公式確認: 南幌町の子ども文化・スポーツ全道大会等補助金は、公式本文、別表RTF、提出マニュアルPDFで対象者、全道・全国規模大会、交通費3分の2、宿泊費全道大会1泊7,000円以内・全国大会1泊12,000円以内、大会参加料全額、出場決定後の事前協議を確認。赤井川村は商工関連、教育/高校生就学、助成候補ページを確認。奈井江町は農政補助、創業支援、予防接種候補を確認。上砂川町は乗り合いタクシー等の代表候補を確認。
+- 採用: 1件。`nanporo-child-culture-sports-tournament-subsidy-2026` はHEAD時点のデータ本体に既に1件存在するため重複追加しない。
+- 保留継続: 赤井川村の商工関連事業補助金、高校生就学支援助成制度、区会街路灯設置等は期限切れ又は必須項目不足。南幌町の就学援助、児童手当/障害福祉/国保/後期高齢者/介護保険負担軽減は既存整理又は通常行政制度。奈井江町の農業応援・創業支援・インフルエンザ予防接種は町独自額、現行受付又は令和8年度案内不足。上砂川町の予防接種、乗り合いタクシー、町営住宅、空き家/空き地等は金額/上限不足又は通常行政情報として台帳に残す。
+- 成果物: `tasks/discovery/nationwide-final-audit-033-hokkaido-second-pass-013-resolution.json`、`tasks/discovery/nationwide-final-audit-033-hokkaido-second-pass-013-url-status.txt` を作成。採用根拠/代表確認URL 12/12 はHTTP 200。
+- 検証: 追加1slugの存在数1件、公式URL 12/12 HTTP 200を確認。監査JSON parse、checkpoint JSON parse、`node --check src/data/grants/verified-local-misc-2026.ts`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は今回再実行せず、026時点の既知別件 `src/lib/grant-copy.ts` の `tags.map` TypeErrorを継続ブロッカーとして扱う。
+- 到達点: 北海道第2巡013は4町村確認済み、採用1、保留継続10。全国公式棚卸しは未完了。
+- 次回: 北海道第2巡014として、由仁町・長沼町・栗山町・月形町など前方保留候補を自治体コード順に継続確認する。
