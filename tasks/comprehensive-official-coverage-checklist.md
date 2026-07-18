@@ -11946,3 +11946,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-014-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-014-url-status.txt`、`tasks/discovery/nationwide-final-audit-014-raw-gaps-after.json` を作成。公式URL/PDF/検索URL 11/11 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは23件から19件へ減少。群馬県・秋田県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-014-coverage.log` に保存。
 - 次回: raw gap残19件。上位は福岡県2、福島県2、以降は愛媛県・岡山県・岩手県・岐阜県・宮城県・広島県・佐賀県・三重県・山口県・青森県・大分県・長崎県・島根県・徳島県・福井県が各1。福岡県のraw gap2件から、公式本文/PDF確認を継続する。全国公式棚卸しは未完了。
+
+### 全国公式棚卸し最終監査015（福岡県・福島県raw gap 4件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-014-raw-gaps-after.json` の福岡県2件、久留米市 `kurume-newlywed-rent`、福岡市 `fukuoka-city-newlywed-rent`、および福島県2件、いわき市 `iwaki-newlywed-rent`、会津若松市 `aizu-newlywed-rent` を確認。
+- 公式確認: 久留米市は公式「令和8年度久留米市結婚新生活支援補助金」で住宅貸借・住宅取得・リフォーム・引越費用、29歳以下上限60万円・39歳以下上限30万円、締切令和9年2月26日を確認。福岡市は公式セーフティネット住宅、子育て世帯住替え助成、住居確保給付金を確認したが、旧raw候補の最大30万円または60万円の新婚世帯住居費支援・結婚新生活支援型制度の現行公式個別ページは確認不可。いわき市は公式結婚支援ページ、住宅セーフティネット制度、令和元年度包括外部監査PDF、令和3年度予算資料を確認し、過年度実施記録はあるが現行の対象・金額・申請期限を備えた募集ページは確認不可。会津若松市は公式「結婚新生活支援事業補助金」で住居費・引越費用、29歳以下上限60万円・その他30万円、申請期間令和8年7月1日から令和9年3月12日を確認。
+- 解消方法: 久留米市と会津若松市は令和8年度の公式結婚新生活支援事業へ統合し、旧raw slugを解消。福岡市といわき市は現行公式個別募集ページを確認できないため、期限切れ抑止レコードとして追加し通常一覧への誤掲載を抑止。
+- 成果物: `tasks/discovery/nationwide-final-audit-015-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-015-url-status.txt`、`tasks/discovery/nationwide-final-audit-015-raw-gaps-after.json` を作成。公式URL/PDF 11/11 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは19件から15件へ減少。福岡県・福島県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-015-coverage.log` に保存。
+- 次回: raw gap残15件。愛媛県・岡山県・岩手県・岐阜県・宮城県・広島県・佐賀県・三重県・山口県・青森県・大分県・長崎県・島根県・徳島県・福井県が各1。愛媛県のraw gap1件から、公式本文/PDF確認を継続する。全国公式棚卸しは未完了。

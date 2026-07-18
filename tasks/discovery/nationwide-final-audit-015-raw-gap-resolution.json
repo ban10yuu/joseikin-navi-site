@@ -1,0 +1,62 @@
+{
+  "batch": "nationwide-final-audit-015",
+  "checkedAt": "2026-07-19T03:25:00+09:00",
+  "scope": "福岡県raw gap2件、福島県raw gap2件",
+  "beforeGaps": 19,
+  "resolved": [
+    {
+      "slug": "kurume-newlywed-rent",
+      "organization": "久留米市",
+      "prefecture": "福岡県",
+      "resolution": "official-current-integrated",
+      "officialUrl": "https://www.city.kurume.fukuoka.jp/1060manabi/2010kosodate/3250ouenjigyou/2023kekkonsinseikatusienhojyokin.html",
+      "programName": "令和8年度久留米市結婚新生活支援補助金",
+      "target": "令和8年1月1日から令和9年2月26日までに婚姻届を受理され、夫婦とも39歳以下、所得合計500万円未満、市内居住・住民登録等を満たす新婚夫婦",
+      "amount": "夫婦とも29歳以下は最大60万円、夫婦とも39歳以下は最大30万円",
+      "conditions": "住宅貸借費用、住宅取得費用、住宅リフォーム費用、引越費用が対象。市税滞納なし、他の公的家賃補助なし、講座受講等が必要。",
+      "period": "令和9年2月26日まで。予算額到達時は受付終了。",
+      "reason": "rawの月額家賃補助候補を、現行公式ページで確認できる結婚新生活支援補助金へ統合して解消。"
+    },
+    {
+      "slug": "fukuoka-city-newlywed-rent",
+      "organization": "福岡市",
+      "prefecture": "福岡県",
+      "resolution": "official-unconfirmed-suppressed",
+      "officialUrl": "https://www.city.fukuoka.lg.jp/jutaku-toshi/jigyochosei/life/tourokujuutakuseido.html",
+      "programName": "福岡市 新婚世帯住居費支援事業（公式確認不可）",
+      "target": "現行の申請可能な新婚世帯住居費支援事業または結婚新生活支援補助金を公式確認できないため対象外",
+      "amount": "現行の新婚世帯向け住居費支援として公式確認不可",
+      "conditions": "福岡市公式の住宅支援ではセーフティネット住宅、子育て世帯住替え助成、住居確保給付金を確認したが、raw候補の最大30万円または60万円の新婚世帯住居費支援型制度ではない。",
+      "period": "現行制度として公式確認できないため通常一覧から除外。",
+      "reason": "制度名、対象、金額、申請期限を備えた現行公式個別ページに到達できないため、旧raw slugを期限切れ抑止レコードとして解消。"
+    },
+    {
+      "slug": "iwaki-newlywed-rent",
+      "organization": "いわき市",
+      "prefecture": "福島県",
+      "resolution": "official-unconfirmed-suppressed",
+      "officialUrl": "https://www.city.iwaki.lg.jp/www/contents/1637884643474/index.html",
+      "programName": "いわき市 結婚新生活支援事業（現行公式募集確認不可）",
+      "target": "現行の申請可能な結婚新生活支援事業または新婚世帯住居費補助を公式確認できないため対象外",
+      "amount": "現行制度として公式確認不可",
+      "conditions": "結婚支援の取組ページは婚活イベント等の案内。令和元年度包括外部監査PDFでは結婚新生活サポート事業費が平成30年度で終了した旨を確認。令和3年度予算資料には過年度実施記録があるが、現行募集ページではない。",
+      "period": "現行制度として公式確認できないため通常一覧から除外。",
+      "reason": "対象、金額、申請期限を備えた現行公式募集ページを確認できないため、旧raw slugを期限切れ抑止レコードとして解消。"
+    },
+    {
+      "slug": "aizu-newlywed-rent",
+      "organization": "会津若松市",
+      "prefecture": "福島県",
+      "resolution": "official-current-integrated",
+      "officialUrl": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2023022800043/",
+      "programName": "会津若松市結婚新生活支援事業補助金",
+      "target": "令和8年1月1日から令和9年3月31日までに婚姻届を提出し、夫婦とも39歳以下、所得合計500万円未満、夫婦双方の市内住民登録等を満たす夫婦",
+      "amount": "夫婦とも29歳以下は最大60万円、その他の対象世帯は最大30万円",
+      "conditions": "住居費と引越費用が対象。住宅・引越について他の公的補助等を受けていないこと、市税滞納なし、指定講座受講等が必要。",
+      "period": "令和8年7月1日から令和9年3月12日まで。予算上限到達時は受付終了予定。",
+      "reason": "rawの月額家賃補助候補を、現行公式ページで確認できる結婚新生活支援事業補助金へ統合して解消。"
+    }
+  ],
+  "urlStatusFile": "tasks/discovery/nationwide-final-audit-015-url-status.txt",
+  "notes": "福岡県2件と福島県2件のraw slugを公式ページ単位で確認し、現行公式制度への統合または公式確認不可による掲載抑止として解消した。"
+}
