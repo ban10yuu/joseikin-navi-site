@@ -1,0 +1,71 @@
+{
+  "auditCode": "nationwide-final-audit-012-raw-gap-resolution",
+  "checkedAt": "2026-07-19T04:05:00+09:00",
+  "prefecture": "神奈川県",
+  "rawGapBefore": 29,
+  "rawGapAfter": 26,
+  "prefectureRawGapAfter": 0,
+  "resolutions": [
+    {
+      "rawSlug": "yokosuka-newlywed-rent",
+      "organization": "横須賀市",
+      "rawTitle": "横須賀市 結婚新生活支援事業",
+      "action": "既存正規公式確認レコードへの期限切れ統合aliasとして追加し、公開重複を抑止",
+      "resolvedTitle": "横須賀市 結婚新生活支援事業",
+      "officialUrl": "https://www.city.yokosuka.kanagawa.jp/0810/kekkonshien.html",
+      "basis": "公式ページで令和8年度結婚新生活支援事業を確認。2026年1月1日から2027年2月25日までの婚姻またはパートナーシップ宣誓、双方49歳以下、所得500万円未満等が対象。住宅購入・賃貸・リフォーム・引越費用を補助し、上限は29歳以下60万円、39歳以下30万円、49歳以下20万円。受付は2026年4月1日から2027年2月25日まで。"
+    },
+    {
+      "rawSlug": "kawasaki-newlywed-rent",
+      "organization": "川崎市",
+      "rawTitle": "川崎市 結婚新生活支援事業補助金",
+      "action": "公式FAQの実施なし確認に基づく期限切れ抑止レコードとして追加",
+      "resolvedTitle": "川崎市 結婚新生活支援事業補助金（実施なし）",
+      "officialUrl": "https://www.city.kawasaki.jp/templates/faq/450/0000155315.html",
+      "basis": "川崎市公式FAQで、川崎市では現時点で結婚新生活支援事業（結婚助成金）を実施していないと確認。旧rawの最大60万円補助は現行公式制度として確認できないため通常一覧から除外。"
+    },
+    {
+      "rawSlug": "sagamihara-newlywed-housing",
+      "organization": "相模原市",
+      "rawTitle": "相模原市 結婚新生活支援事業",
+      "action": "公式補正制度への期限切れ統合aliasとして追加し、公開重複を抑止",
+      "resolvedTitle": "相模原市 結婚新生活・移住定住支援事業",
+      "officialUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/sumai/1026513/1030229.html",
+      "basis": "公式ページで令和8年度結婚新生活・移住定住支援事業を確認。新たに婚姻した夫婦やパートナーシップ宣誓者等を対象に、引越業者または運送業者へ支払った実費を上限15万円補助。受付は2026年6月1日から2027年3月31日までで、予算到達時終了の可能性あり。"
+    }
+  ],
+  "urlStatus": [
+    {
+      "status": 200,
+      "url": "https://www.city.yokosuka.kanagawa.jp/0810/kekkonshien.html",
+      "contentType": "text/html"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.yokosuka.kanagawa.jp/0810/documents/hituyousyorui.pdf",
+      "contentType": "application/pdf"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.kawasaki.jp/templates/faq/450/0000155315.html",
+      "contentType": "text/html"
+    },
+    {
+      "status": 200,
+      "url": "https://www.city.sagamihara.kanagawa.jp/kurashi/1026489/sumai/1026513/1030229.html",
+      "contentType": "text/html"
+    }
+  ],
+  "next": {
+    "rawGaps": 26,
+    "topPrefectures": {
+      "栃木県": 3,
+      "群馬県": 2,
+      "秋田県": 2,
+      "福岡県": 2,
+      "福島県": 2
+    },
+    "nextCode": "nationwide-final-audit-013-raw-gap-resolution",
+    "nextMunicipality": "栃木県raw gap3件の公式ページ単位解消"
+  }
+}

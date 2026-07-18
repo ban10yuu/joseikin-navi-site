@@ -11919,3 +11919,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-011-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-011-url-status.txt`、`tasks/discovery/nationwide-final-audit-011-raw-gaps-after.json` を作成。公式URL/PDF 8/8 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは32件から29件へ減少。鹿児島県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-011-coverage.log` に保存。
 - 次回: raw gap残29件。上位は神奈川県3、栃木県3、群馬県2、秋田県2、福岡県2、福島県2。神奈川県のraw gap3件から、公式本文/PDF確認を継続する。
+
+### 全国公式棚卸し最終監査012（神奈川県raw gap 3件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-011-raw-gaps-after.json` の神奈川県3件、横須賀市 `yokosuka-newlywed-rent`、川崎市 `kawasaki-newlywed-rent`、相模原市 `sagamihara-newlywed-housing` を確認。
+- 公式確認: 横須賀市は公式「令和8年度結婚新生活支援事業」で住宅購入費用、住宅賃貸費用、住宅リフォーム費用、引越し費用、29歳以下上限60万円・39歳以下上限30万円・49歳以下上限20万円、受付2026年4月1日から2027年2月25日を確認。川崎市は公式FAQで結婚新生活支援事業（結婚助成金）を現時点では実施していないことを確認。相模原市は公式「結婚新生活・移住定住支援事業」で引越業者・運送業者へ支払った実費、上限15万円、受付2026年6月1日から2027年3月31日を確認。
+- 解消方法: 横須賀市と相模原市は既存正規slugまたは公式補正済み制度の公開重複を避ける期限切れ統合aliasとして追加。川崎市は公式FAQの実施なし確認に基づく期限切れ抑止レコードとして追加。
+- 成果物: `tasks/discovery/nationwide-final-audit-012-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-012-url-status.txt`、`tasks/discovery/nationwide-final-audit-012-raw-gaps-after.json` を作成。公式URL/PDF 4/4 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは29件から26件へ減少。神奈川県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止し、`tasks/discovery/nationwide-final-audit-012-coverage.log` に保存。
+- 次回: raw gap残26件。上位は栃木県3、群馬県2、秋田県2、福岡県2、福島県2。栃木県のraw gap3件から、公式本文/PDF確認を継続する。
