@@ -1,45 +1,45 @@
 {
-  "updatedAt": "2026-07-19T01:32:00+09:00",
+  "updatedAt": "2026-07-19T01:45:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "okinawa-official-coverage-008",
-    "municipality": "伊平屋村・伊是名村・久米島町・八重瀬町・多良間村",
-    "adopted": 25,
+    "code": "okinawa-official-coverage-009",
+    "municipality": "竹富町・与那国町",
+    "adopted": 67,
     "held": 0,
-    "excluded": 91,
-    "sourceUrlsChecked": 25,
+    "excluded": 267,
+    "sourceUrlsChecked": 67,
     "validation": {
-      "previousMunicipality": "沖縄県公式棚卸し008として47359伊平屋村、47360伊是名村、47361久米島町、47362八重瀬町、47375多良間村を確認し、25件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and 008 discover/build scripts",
-      "json": "pass: candidates 116, selections 25, adopted 25 parsed; counts {\"伊平屋村\":2,\"伊是名村\":12,\"久米島町\":6,\"八重瀬町\":1,\"多良間村\":4}",
-      "addedSlugUniqueness": "pass: added slugs 25 from okinawa-official-008-001-2026 through okinawa-official-008-025-2026; added duplicate 0; global duplicate 0",
-      "urlReachability": "pass-with-notes: adopted build non200 empty; 25 adopted official URLs retained in tasks/discovery/okinawa-official-coverage-008-url-status.txt. Some later liveFetch checks return Access Denied, while candidate extraction/fallbackEvidence retained official body evidence.",
+      "previousMunicipality": "沖縄県公式棚卸し009として47381竹富町、47382与那国町を確認し、67件を採用。沖縄県の自治体コード順第1巡は末尾まで到達。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and 009 discover/build scripts",
+      "json": "pass: candidates 334, selections 67, adopted 67 parsed; counts {\"竹富町\":47,\"与那国町\":20}",
+      "addedSlugUniqueness": "pass: added slugs 67 from okinawa-official-009-001-2026 through okinawa-official-009-067-2026; added duplicate 0; global duplicate 0",
+      "urlReachability": "pass: adopted build non200 empty; 67 adopted official URLs retained in tasks/discovery/okinawa-official-coverage-009-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on 008 target files",
+      "diffCheck": "pass: git diff --check on 009 target files",
       "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at unrelated src/lib/grant-copy.ts:114 sanitizeGrantCopy tags.map TypeError",
-      "notes": "公式トップは伊平屋村・伊是名村・久米島町・八重瀬町・多良間村すべてHTTP 200で確認済み。伊是名村・久米島町はsitemap.xmlを確認。伊平屋村・八重瀬町・多良間村は公式トップ/カテゴリ/docs/RSS導線を確認。候補116件、title強一致16件。八重瀬町は通常スコア0件だったため公式docs既存確認URLと本文根拠で1件補足。トップ・カテゴリ・共通ナビ・入札・職員採用・事業評価・国制度の単なる案内・重複導線を除外。"
+      "notes": "公式トップは竹富町・与那国町ともHTTP 200で確認済み。両町ともsitemap.xmlを確認し、竹富町は公式sitemap/guide/lifeevent/topics/soshiki導線、与那国町はsitemap.html/カテゴリ/RSS導線で補完。候補334件、title強一致53件。shortlistが150件超かつ候補比40%超のため本文スニペット付き再スコア台帳を保存。トップ・カテゴリ・共通ナビ・申請書単体・職員採用・入札・旧年度重複・本文根拠が薄いページを除外。"
     }
   },
   "next": {
-    "code": "okinawa-official-coverage-009",
-    "municipality": "竹富町・与那国町",
-    "shortlist": "沖縄県公式棚卸し008で伊平屋村・伊是名村・久米島町・八重瀬町・多良間村を確認し25件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で47381竹富町から再開する。",
-    "instructions": "次回は沖縄県公式棚卸し009として、47381竹富町、47382与那国町の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの沖縄県完了行やHTTP 200だけでは完了扱いにしない。沖縄県内市町村の残り2自治体を処理後、沖縄県最終確認と次都道府県への遷移条件を確認する。"
+    "code": "post-okinawa-final-audit",
+    "municipality": "全国公式棚卸し最終監査・候補未判定解消",
+    "shortlist": "沖縄県公式棚卸し009で竹富町・与那国町を確認し67件を採用。自治体コード順の都道府県・市区町村第1巡は沖縄県末尾まで到達。次回はチェックリスト・進捗JSON・候補台帳から未判定候補、国/公的機関、都道府県/自治体の第2巡保留を監査し、全国完了条件を満たすまで解消する。",
+    "instructions": "既存raw gap 0やHTTP 200では完了扱いにせず、候補未判定、国・都道府県・全市区町村・公的機関の公式ページ単位の制度情報、URL到達、チェックリスト集計、最終監査を確認する。"
   },
   "prefectureMilestone": {
     "prefecture": "沖縄県",
-    "completedBatches": "001-008",
-    "completedMunicipalitiesAndEntities": 40,
-    "adopted": 394,
+    "completedBatches": "001-009",
+    "completedMunicipalitiesAndEntities": 42,
+    "adopted": 461,
     "recent15": {
-      "batches": "沖縄006-008",
-      "municipalities": 15,
-      "adopted": 103,
+      "batches": "沖縄007-009",
+      "municipalities": 12,
+      "adopted": 127,
       "compactions": 1,
-      "shortlistAdoptionRate": "25/116 = 21.6% for 008; 006-008 total 103 schemes",
+      "shortlistAdoptionRate": "67/334 = 20.1% for 009; 007-009 total 127 schemes",
       "auditRuns": 3,
       "commits": 3,
-      "note": "008は伊是名村は候補品質良好、伊平屋村はカテゴリ/広報/採用ノイズが多く個別制度2件に絞り込み。八重瀬町は公式docs取得制限のため公式確認済みfallbackEvidenceで補完。"
+      "note": "009で沖縄県末尾2自治体を処理し、都道府県・市区町村の自治体コード順第1巡は沖縄県末尾まで到達。全国完了条件には国・公的機関、候補未判定、第2巡保留、最終監査の確認が残る。"
     }
   },
   "batchRules": {

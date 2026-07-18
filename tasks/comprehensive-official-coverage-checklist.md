@@ -11809,3 +11809,13 @@
 - 検証: 公式URL 25件を `tasks/discovery/okinawa-official-coverage-008-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（008 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - メトリクス: 5自治体、25制度採用、一次候補116件、採用率21.6%。沖縄県001-008累計は40自治体・団体、394制度。直近15自治体単位（006-008）は15自治体・103制度、監査3回、commit3回。全国公式棚卸しは未完了。
 - 次回: 沖縄県公式棚卸し009として、竹富町・与那国町から再開する。
+
+### 沖縄県公式棚卸し009（47381竹富町・47382与那国町）
+
+- 対象公式トップ: 竹富町 `https://www.town.taketomi.lg.jp/`、与那国町 `https://www.town.yonaguni.okinawa.jp/` をHTTP 200で確認。竹富町・与那国町とも `sitemap.xml` を確認。竹富町は公式 `/sitemap/`、`/guide/`、`/lifeevent/`、`/topics/`、`/soshiki/`、与那国町は `sitemap.html`、公式カテゴリ/RSS導線で補完。
+- 公式sitemap/カテゴリBFS候補: 334件（竹富町184、与那国町150）。title強一致53件。shortlistが150件超かつ候補比40%超のため `tasks/discovery/okinawa-official-coverage-009-rescore-shortlist.tsv` に短文本文スニペット付き再スコア台帳を保存。
+- 採用: 67制度（竹富町47、与那国町20）。`okinawa-official-009-001-2026` から `okinawa-official-009-067-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: トップ、カテゴリ、RSS、共通ナビ、申請書単体、職員採用、入札・調達、実績公表、外部制度中心、旧年度重複、本文根拠が薄い与那国町不妊治療費助成/歯科渡航費助成、竹富町オーバーツーリズム案内等は採用せず候補JSON/TSV/再スコア台帳に残置。
+- 検証: 公式URL 67件を `tasks/discovery/okinawa-official-coverage-009-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（009 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 2自治体、67制度採用、一次候補334件、採用率20.1%。沖縄県001-009累計は42自治体・団体、461制度。県末尾12自治体（007-009）は127制度、監査3回、commit3回。全国公式棚卸しは未完了。
+- 次回: 自治体コード順の都道府県・市区町村第1巡は沖縄県末尾まで到達。次回は進捗JSON・チェックリスト・候補台帳を確認し、国・公的機関、第2巡保留、候補未判定、最終監査の未完了箇所を解消する。
