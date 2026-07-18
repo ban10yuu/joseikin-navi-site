@@ -1,0 +1,82 @@
+{
+  "checkedAt": "2026-07-19T04:45:00+09:00",
+  "scope": "山口県・青森県・大分県・長崎県raw gap各1件の公式ページ単位解消",
+  "beforeRawGaps": 7,
+  "resolvedRawGaps": 4,
+  "afterRawGapsExpected": 3,
+  "items": [
+    {
+      "prefecture": "山口県",
+      "municipality": "周南市",
+      "rawSlug": "shunan-newlywed-rent",
+      "resolution": "official-unconfirmed-suppressed",
+      "officialProgramName": "周南市 新婚世帯家賃補助（公式確認不可）",
+      "target": "周南市公式サイトで現行の新婚世帯家賃補助・結婚新生活支援の個別募集ページを確認できないため対象外",
+      "amount": "現行の新婚世帯家賃補助として公式確認不可",
+      "conditions": "生活支援課の住居確保給付金は離職等で住居を失った方または失うおそれのある方への生活困窮者向け支援であり、新婚世帯向け制度ではない。",
+      "deadline": "現行の新婚世帯家賃補助として公式確認不可。通常一覧から除外。",
+      "officialUrl": "https://www.city.shunan.lg.jp/soshiki/26/",
+      "sourceUrls": [
+        "https://www.city.shunan.lg.jp/soshiki/26/",
+        "https://www.city.shunan.lg.jp/"
+      ],
+      "summary": "旧rawの新婚世帯家賃補助は現行公式個別ページを確認できないため、掲載抑止として解消する。"
+    },
+    {
+      "prefecture": "青森県",
+      "municipality": "弘前市",
+      "rawSlug": "hirosaki-newlywed-rent",
+      "resolution": "official-unconfirmed-suppressed",
+      "officialProgramName": "弘前市 新婚世帯家賃補助制度（公式確認不可）",
+      "target": "弘前市公式の補助・助成一覧等で現行の新婚世帯家賃補助・結婚新生活支援を確認できないため対象外",
+      "amount": "現行の新婚世帯家賃補助として公式確認不可",
+      "conditions": "住居確保給付金は生活困窮者向け、就農希望者等住居確保事業費補助金は農業研修等のため市外から転入する就農希望者向けで、旧raw候補とは対象が異なる。",
+      "deadline": "現行の新婚世帯家賃補助として公式確認不可。通常一覧から除外。",
+      "officialUrl": "https://www.city.hirosaki.aomori.jp/kurashi/machi/hojo.html",
+      "sourceUrls": [
+        "https://www.city.hirosaki.aomori.jp/kurashi/machi/hojo.html",
+        "https://www.city.hirosaki.aomori.jp/oshirase/jouhou/jyuukyo_leaflet.pdf",
+        "https://www.city.hirosaki.aomori.jp/sangyo/nogyo/sinnkisannnyuukasokuka.html"
+      ],
+      "summary": "公式補助・助成一覧と関連住居支援を確認し、旧rawの新婚世帯家賃補助は現行公式確認不可として掲載抑止する。"
+    },
+    {
+      "prefecture": "大分県",
+      "municipality": "大分市",
+      "rawSlug": "oita-city-newlywed-rent",
+      "resolution": "official-unconfirmed-suppressed",
+      "officialProgramName": "大分市 新婚世帯住居費補助金（公式確認不可）",
+      "target": "大分市公式の手当・助成一覧等で現行の新婚世帯住居費補助・結婚新生活支援を確認できないため対象外",
+      "amount": "現行の新婚世帯住居費補助として公式確認不可",
+      "conditions": "住居確保給付金の家賃補助分・転居費用補助分はいずれも経済的困窮や家計改善を対象とする支援であり、新婚世帯向け制度ではない。",
+      "deadline": "現行の新婚世帯住居費補助として公式確認不可。通常一覧から除外。",
+      "officialUrl": "https://www.city.oita.oita.jp/benrinavi/teate/index.html",
+      "sourceUrls": [
+        "https://www.city.oita.oita.jp/benrinavi/teate/index.html",
+        "https://www.city.oita.oita.jp/o090/kenko/fukushi/jyukyokakuho.html",
+        "https://www.city.oita.oita.jp/o090/kenko/fukushi/jyukyokakuhotenkyo.html"
+      ],
+      "summary": "公式手当・助成一覧と住居確保給付金を確認し、旧rawの新婚世帯住居費補助は現行公式確認不可として掲載抑止する。"
+    },
+    {
+      "prefecture": "長崎県",
+      "municipality": "佐世保市",
+      "rawSlug": "sasebo-newlywed-rent",
+      "resolution": "official-current-integrated",
+      "officialProgramName": "佐世保市子育て応援住宅支援事業補助金（結婚新生活支援は公式確認不可）",
+      "target": "中学生以下の子または妊娠中の子を持つ子育て世帯が、佐世保市の居住誘導区域内で中古住宅を取得し、10年以上居住等の公式要件を満たす場合",
+      "amount": "中古住宅取得費の5分の1、上限40万円",
+      "conditions": "補助金交付決定後の契約、10年以上居住、町内会加入、市税滞納なし等。結婚新生活支援事業は過年度に実施見送りの公式回答を確認。",
+      "deadline": "令和8年度受付は2026年5月18日開始、予算がなくなり次第終了。完了実績報告は2027年1月末まで。",
+      "officialUrl": "https://www.city.sasebo.lg.jp/tosiseibi/jyutak/3sedaidoukyokinkyo.html",
+      "sourceUrls": [
+        "https://www.city.sasebo.lg.jp/soumu/kouhou/tegami/iken_10016.html",
+        "https://www.city.sasebo.lg.jp/tosiseibi/jyutak/3sedaidoukyokinkyo.html",
+        "https://www.city.sasebo.lg.jp/documents/29828/r8flyer.pdf"
+      ],
+      "summary": "旧rawの結婚新生活支援最大60万円は現行公式確認不可。公式で受付中の子育て応援住宅支援事業補助金へ補正統合し、重複・誤掲載を抑止する。"
+    }
+  ],
+  "urlReachability": "official URL/PDF 11/11 HTTP 200 in nationwide-final-audit-018-url-status.txt",
+  "next": "島根県・徳島県・福井県raw gap各1件の公式ページ単位解消"
+}
