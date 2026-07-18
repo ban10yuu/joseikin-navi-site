@@ -11659,3 +11659,13 @@
 - 検証: 公式URL 67/67 HTTP 200（`tasks/discovery/kagoshima-official-coverage-002-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（002 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - メトリクス: 5自治体、67制度採用、一次候補1,162件、採用率5.8%。鹿児島県001-002累計は10自治体・団体、140制度。全国公式棚卸しは未完了。
 - 次回: 鹿児島県公式棚卸し003として、日置市・曽於市・霧島市・いちき串木野市・南さつま市から再開する。
+
+### 鹿児島県公式棚卸し003（46216日置市・46217曽於市・46218霧島市・46219いちき串木野市・46220南さつま市）
+
+- 対象公式トップ: 日置市 `https://www.city.hioki.kagoshima.jp/`、曽於市 `https://www.city.soo.kagoshima.jp/`、霧島市 `https://www.city-kirishima.jp/`、いちき串木野市 `https://www.city.ichikikushikino.lg.jp/`、南さつま市 `https://www.city.minamisatsuma.lg.jp/` をHTTP 200で確認。sitemap.xmlは曽於市・いちき串木野市・南さつま市が200、日置市・霧島市が404のため公式カテゴリBFSで補完。
+- 公式sitemap/カテゴリBFS候補: 1,028件（日置市143、曽於市223、霧島市213、いちき串木野市125、南さつま市324）。title強一致82件。shortlistが150件超のため `tasks/discovery/kagoshima-official-coverage-003-rescored-shortlist.tsv` と `tasks/discovery/kagoshima-official-coverage-003-auto-selection.tsv` へ本文スニペット付き再スコアを保存。
+- 採用: 74制度（日置市16、曽於市15、霧島市17、いちき串木野市15、南さつま市11）。`kagoshima-official-003-001-2026` から `kagoshima-official-003-074-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、トップ、共通ナビ、申請書単体、制度改正告知、募集終了、実績/効果検証、税・保険料負担の一般周知、同一制度の重複導線は採用せず、候補JSON/TSVに残置。南さつま市は同一制度の複数アーカイブURLを正規系の個別ページへ寄せて採用。
+- 検証: 公式URL 74/74 HTTP 200（`tasks/discovery/kagoshima-official-coverage-003-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（003 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体、74制度採用、一次候補1,028件、採用率7.2%。鹿児島県001-003累計は15自治体・団体、214制度。次の15自治体単位では15自治体・214制度、監査3回、commit3回。全国公式棚卸しは未完了。
+- 次回: 鹿児島県公式棚卸し004として、志布志市・奄美市・南九州市・伊佐市・姶良市から再開する。
