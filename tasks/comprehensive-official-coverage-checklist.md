@@ -11618,3 +11618,14 @@
 - メトリクス: 5自治体、60制度採用、一次候補214件、採用率28.0%。宮崎県001-004累計は20自治体・団体、296制度、次の15自治体単位メトリクスでは宮崎003-004合算で10自治体139制度。監査は004単位で1回集約予定、commitも004単位で1回予定。
 - 到達点: 宮崎県は45402新富町から45406都農町まで第1巡到達。全国公式棚卸しは未完了。
 - 次回: 宮崎県公式棚卸し005として、門川町・諸塚村・椎葉村・美郷町・高千穂町から再開する。
+
+### 宮崎県公式棚卸し005（45421門川町・45429諸塚村・45430椎葉村・45431美郷町・45441高千穂町）
+
+- 対象公式トップ: 門川町 `https://www.town.kadogawa.lg.jp/`、諸塚村 `https://www.vill.morotsuka.miyazaki.jp/`、椎葉村 `https://www.vill.shiiba.miyazaki.jp/`、美郷町 `https://www.town.miyazaki-misato.lg.jp/`、高千穂町 `https://www.town-takachiho.jp/` をHTTP 200で確認。sitemap.xmlは諸塚村・高千穂町が200、美郷町は404。門川町はsitemap.xmlが404本文のためカテゴリBFSへ切替、椎葉村は公式カテゴリとsitemap.php導線で補完。
+- 公式sitemap/カテゴリBFS候補: 433件（門川町78、諸塚村36、椎葉村42、美郷町155、高千穂町122）。title強一致55件。候補数が150件超のため `tasks/discovery/miyazaki-official-coverage-005-rescored-shortlist.tsv` と `tasks/discovery/miyazaki-official-coverage-005-auto-selection.tsv` へ本文スニペット付き再スコアを保存。
+- 採用: 77制度（門川町20、諸塚村8、椎葉村10、美郷町20、高千穂町19）。`miyazaki-official-005-001-2026` から `miyazaki-official-005-077-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、制度一覧、負担金周知、国・県制度のみの案内、過年度/臨時交付金/実績/効果検証、申請書単体、入札・募集・イベント、同一制度の重複導線は採用せず、候補JSON/TSVに残置。美郷町は `listNNNNN.html` と `kijiNNN/index.html` の公式導線を補完し、候補未判定を解消。
+- 検証: 公式URL 77/77 HTTP 200（`tasks/discovery/miyazaki-official-coverage-005-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（005 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体、77制度採用、一次候補433件、採用率17.8%。宮崎県001-005累計は25自治体・団体、373制度。宮崎003-005の次15自治体単位では15自治体216制度、監査は005単位で1回集約予定、commitも005単位で1回予定。
+- 到達点: 宮崎県は45421門川町から45441高千穂町まで第1巡到達。全国公式棚卸しは未完了。
+- 次回: 宮崎県公式棚卸し006として、日之影町・五ヶ瀬町から再開する。
