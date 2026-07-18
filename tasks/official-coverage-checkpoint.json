@@ -1,36 +1,36 @@
 {
-  "updatedAt": "2026-07-18T12:58:00+09:00",
+  "updatedAt": "2026-07-18T13:42:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "miyazaki-official-coverage-006",
-    "municipality": "日之影町・五ヶ瀬町",
-    "adopted": 28,
+    "code": "kagoshima-official-coverage-001",
+    "municipality": "鹿児島県・鹿児島市・鹿屋市・枕崎市・阿久根市",
+    "adopted": 73,
     "held": 0,
-    "excluded": 80,
-    "sourceUrlsChecked": 28,
+    "excluded": 676,
+    "sourceUrlsChecked": 73,
     "validation": {
-      "previousMunicipality": "宮崎県公式棚卸し006として45442日之影町、45443五ヶ瀬町を確認し、28件を採用。宮崎県内の県・全市町村は第1巡到達。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and miyazaki-official-coverage-006 discover/build scripts",
+      "previousMunicipality": "鹿児島県公式棚卸し001として46000鹿児島県、46201鹿児島市、46203鹿屋市、46204枕崎市、46206阿久根市を確認し、73件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and kagoshima-official-coverage-001 discover/build scripts",
       "json": "pass: checkpoint, candidates, selections, adopted JSON parsed",
-      "addedSlugUniqueness": "pass: 28 added slugs unique and whole dataset duplicate count 0",
-      "urlReachability": "pass: build non200 empty; 28 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/miyazaki-official-coverage-006-url-status.txt",
+      "addedSlugUniqueness": "pass: 73 added slugs unique and whole dataset duplicate count 0",
+      "urlReachability": "pass: build non200 empty; 73 adopted official URLs returned HTTP 200 by final URL reachability check saved to tasks/discovery/kagoshima-official-coverage-001-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
       "diffCheck": "pass: target files git diff --check completed",
       "auditCoverage": "blocked: npm run audit:coverage stops at existing unrelated src/lib/grant-copy.ts sanitizeGrantCopy tags.map TypeError before coverage aggregation",
-      "notes": "公式トップは日之影町 https://www.town.hinokage.lg.jp/、五ヶ瀬町 https://www.town.gokase.miyazaki.jp/ をHTTP 200で確認。sitemap.xmlも両町200で確認。公式sitemap/カテゴリBFSで108候補（日之影町58、五ヶ瀬町50）を抽出し、title強一致22件。本文スニペット付き再スコアからカテゴリ、負担金周知、県主体、過年度コロナ施策、実績/効果検証、重複導線を除外。日之影町20、五ヶ瀬町8を採用。"
+      "notes": "公式トップは鹿児島県・鹿児島市・鹿屋市・枕崎市・阿久根市すべてHTTP 200で確認。sitemap.xmlは枕崎市のみ404のため公式カテゴリBFSを併用し、他4団体はsitemap.xml 200を起点に確認。公式sitemap/カテゴリBFSで749候補（鹿児島県128、鹿児島市240、鹿屋市154、枕崎市147、阿久根市80）を抽出し、title強一致98件。shortlistが150件超のため本文スニペット付き再スコアからカテゴリ、リンク集、申請書単体、制度改正告知、募集結果、実績/効果検証、負担周知を除外。鹿児島県6、鹿児島市17、鹿屋市18、枕崎市12、阿久根市20を採用。"
     }
   },
   "next": {
-    "code": "kagoshima-official-coverage-001",
-    "municipality": "鹿児島県・鹿児島市・鹿屋市・枕崎市・阿久根市",
-    "shortlist": "宮崎県公式棚卸し006で日之影町・五ヶ瀬町を確認し28件を採用。宮崎県001-006累計は県・全市町村27自治体・団体、401制度で第1巡到達。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で鹿児島県から再開する。",
-    "instructions": "次回は鹿児島県公式棚卸し001として、46000鹿児島県、46201鹿児島市、46203鹿屋市、46204枕崎市、46206阿久根市の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの鹿児島県完了行やHTTP 200だけでは完了扱いにしない。"
+    "code": "kagoshima-official-coverage-002",
+    "municipality": "出水市・指宿市・西之表市・垂水市・薩摩川内市",
+    "shortlist": "鹿児島県公式棚卸し001で鹿児島県・鹿児島市・鹿屋市・枕崎市・阿久根市を確認し73件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で46208出水市から再開する。",
+    "instructions": "次回は鹿児島県公式棚卸し002として、46208出水市、46210指宿市、46213西之表市、46214垂水市、46215薩摩川内市の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの鹿児島県完了行やHTTP 200だけでは完了扱いにしない。"
   },
   "prefectureMilestone": {
-    "status": "completed-first-pass",
-    "prefecture": "miyazaki",
-    "lastBatch": "miyazaki-official-coverage-006",
-    "notes": "宮崎県公式棚卸し001-006で県・全市町村27自治体・団体に第1巡到達し、401制度を採用。全国公式棚卸しは未完了で、次は鹿児島県公式棚卸し001。"
+    "status": "in-progress",
+    "prefecture": "kagoshima",
+    "lastBatch": "kagoshima-official-coverage-001",
+    "notes": "鹿児島県公式棚卸し001で46000鹿児島県から46206阿久根市まで5自治体・団体に第1巡到達し、73制度を採用。全国公式棚卸しは未完了で、次は出水市・指宿市・西之表市・垂水市・薩摩川内市。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",

@@ -11639,3 +11639,13 @@
 - 検証: 公式URL 28/28 HTTP 200（`tasks/discovery/miyazaki-official-coverage-006-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（006 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - メトリクス: 2自治体、28制度採用、一次候補108件、採用率25.9%。宮崎県001-006累計は県・全市町村27自治体・団体、401制度。宮崎県は第1巡到達。全国公式棚卸しは未完了。
 - 次回: 鹿児島県公式棚卸し001として、鹿児島県・鹿児島市・鹿屋市・枕崎市・阿久根市から再開する。
+
+### 鹿児島県公式棚卸し001（46000鹿児島県・46201鹿児島市・46203鹿屋市・46204枕崎市・46206阿久根市）
+
+- 対象公式トップ: 鹿児島県 `https://www.pref.kagoshima.jp/`、鹿児島市 `https://www.city.kagoshima.lg.jp/`、鹿屋市 `https://www.city.kanoya.lg.jp/`、枕崎市 `https://www.city.makurazaki.lg.jp/`、阿久根市 `https://www.city.akune.lg.jp/` をHTTP 200で確認。sitemap.xmlは鹿児島県・鹿児島市・鹿屋市・阿久根市が200、枕崎市が404のため公式カテゴリBFSで補完。
+- 公式sitemap/カテゴリBFS候補: 749件（鹿児島県128、鹿児島市240、鹿屋市154、枕崎市147、阿久根市80）。title強一致98件。shortlistが150件超のため `tasks/discovery/kagoshima-official-coverage-001-rescored-shortlist.tsv` と `tasks/discovery/kagoshima-official-coverage-001-auto-selection.tsv` へ本文スニペット付き再スコアを保存。
+- 採用: 73制度（鹿児島県6、鹿児島市17、鹿屋市18、枕崎市12、阿久根市20）。`kagoshima-official-001-001-2026` から `kagoshima-official-001-073-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、リンク集、申請書単体、制度改正告知、旧制度、募集終了、募集結果、実績/効果検証、税・保険料負担の周知、同一制度の重複導線は採用せず、候補JSON/TSVに残置。枕崎市は一覧ページから公式個別制度URLを補完し、カテゴリ単体は第2巡台帳扱い。
+- 検証: 公式URL 73/73 HTTP 200（`tasks/discovery/kagoshima-official-coverage-001-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（001 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体・団体、73制度採用、一次候補749件、採用率9.7%。鹿児島県001累計は5自治体・団体、73制度。全国公式棚卸しは未完了。
+- 次回: 鹿児島県公式棚卸し002として、出水市・指宿市・西之表市・垂水市・薩摩川内市から再開する。
