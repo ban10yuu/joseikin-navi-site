@@ -11719,3 +11719,13 @@
 - 検証: 公式URL 85/85 HTTP 200（`tasks/discovery/kagoshima-official-coverage-008-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（008 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
 - メトリクス: 5自治体、85制度採用、一次候補593件、採用率14.3%。鹿児島県001-008累計は40自治体・団体、680制度。直近15自治体単位（006-008）は15自治体・275制度。全国公式棚卸しは未完了。
 - 次回: 鹿児島県公式棚卸し009として、伊仙町・和泊町・知名町・与論町から再開する。
+
+### 鹿児島県公式棚卸し009（46532伊仙町・46533和泊町・46534知名町・46535与論町）
+
+- 対象公式トップ: 伊仙町 `https://www.town.isen.kagoshima.jp/`、和泊町 `https://www.town.wadomari.lg.jp/`、知名町 `https://www.town.china.lg.jp/`、与論町 `https://www.yoron.jp/` をHTTP 200で確認。sitemap.xmlは伊仙町・知名町が200、和泊町・与論町は404または未使用のため、公式トップ、`sitemap.html`、カテゴリBFSで補完。
+- 公式sitemap/カテゴリBFS候補: 442件（伊仙町97、和泊町68、知名町113、与論町164）。title強一致59件。候補数が150件超のため `tasks/discovery/kagoshima-official-coverage-009-rescored-shortlist.tsv` と `tasks/discovery/kagoshima-official-coverage-009-auto-selection.tsv` へ本文スニペット付き再スコアを保存。
+- 採用: 81制度（伊仙町13、和泊町13、知名町28、与論町27）。`kagoshima-official-009-001-2026` から `kagoshima-official-009-081-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、トップ、共通ナビ、申請書単体、受付終了、募集終了、実績/採択、職員採用、同一制度の重複導線、単なる税・保険料説明は採用せず、候補JSON/TSVに残置。知名町は同一制度の複数導線を代表URLへ寄せて採用。
+- 検証: 公式URL 81/81 HTTP 200（`tasks/discovery/kagoshima-official-coverage-009-url-status.txt`）。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（009 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 4自治体、81制度採用、一次候補442件、採用率18.3%。鹿児島県001-009累計は県・全市町村44自治体・団体、761制度。直近15自治体単位（007-009）は14自治体・256制度。鹿児島県は第1巡到達。全国公式棚卸しは未完了。
+- 次回: 沖縄県公式棚卸し001として、沖縄県・那覇市・宜野湾市・石垣市・浦添市から再開する。
