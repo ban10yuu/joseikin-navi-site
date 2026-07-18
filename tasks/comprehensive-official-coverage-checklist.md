@@ -11865,3 +11865,12 @@
 - 成果物: `tasks/discovery/nationwide-final-audit-005-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-005-url-status.txt`、`tasks/discovery/nationwide-final-audit-005-raw-gaps-after.json` を作成。公式/カテゴリ/検索URL 7/7 はHTTP 200。
 - 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100` はpassし、既存raw未検証slugは65件から58件へ減少。埼玉県raw gapは0件。
 - 次回: raw gap残58件。上位は長野県7、北海道7、大阪府5、兵庫県4、茨城県3、鹿児島県3、神奈川県3、栃木県3。長野県のraw gap7件から、公式本文/PDF確認を継続する。
+
+### 全国公式棚卸し最終監査006（長野県raw gap 7件解消）
+
+- 対象: `tasks/discovery/nationwide-final-audit-005-raw-gaps-after.json` の長野県7件、岡谷市 `okaya-agri-newcomer`、松本市 `matsumoto-agri-newcomer` / `matsumoto-newlywed-rent`、上田市 `ueda-agri-newcomer`、諏訪市 `suwa-agri-newcomer`、長野市 `nagano-agri-newcomer`、飯田市 `iida-agri-newcomer` を確認。
+- 公式確認: 岡谷市は公式補助金・助成金一覧で農林水産課補助金を確認したが、新規就農者支援交付金の現行募集ページなし。松本市の新規就農者支援交付金は令和8年度当初予算主要事務事業資料等を確認したが、raw記載の年間最大150万円の現行募集ページなし。松本市結婚新生活支援事業補助金は公式ページとPDFで最大70万円/40万円、対象経費、条件、申請期間を確認。上田市は公式例規で担い手農家育成定着支援事業補助金上限200万円を確認。諏訪市は公式補助制度一覧で新規就農者育成総合対策補助金を確認。長野市は公式「新規就農者機械助成」で認定新規就農者上限80万円等を確認。飯田市は公式例規で農業人材力強化総合支援事業補助金交付要綱を確認。
+- 解消方法: 岡谷市・松本市新規就農2件は期限切れ抑止。松本市結婚新生活、上田市、諏訪市、長野市、飯田市の5件は既存正規slugまたは公式補正制度の公開重複を避ける期限切れ統合aliasとして追加。
+- 成果物: `tasks/discovery/nationwide-final-audit-006-raw-gap-resolution.json`、`tasks/discovery/nationwide-final-audit-006-url-status.txt`、`tasks/discovery/nationwide-final-audit-006-raw-gaps-after.json` を作成。公式/PDF/例規URL 7/7 はHTTP 200。
+- 検証: `node --check src/data/grants/verified-local-misc-2026.ts`、監査JSON parse、`node scripts/audit-raw-verified-gaps.mjs --json --limit 100`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpassし、既存raw未検証slugは58件から51件へ減少。長野県raw gapは0件。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- 次回: raw gap残51件。上位は北海道7、大阪府5、兵庫県4、茨城県3、鹿児島県3、神奈川県3、栃木県3。北海道のraw gap7件から、公式本文/PDF確認を継続する。

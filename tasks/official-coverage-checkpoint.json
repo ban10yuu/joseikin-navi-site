@@ -1,45 +1,45 @@
 {
-  "updatedAt": "2026-07-19T01:40:00+09:00",
+  "updatedAt": "2026-07-19T01:58:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "nationwide-final-audit-005",
-    "municipality": "埼玉県raw gap7件解消（越谷市・所沢市・川越市・草加市・秩父市・朝霞市）",
+    "code": "nationwide-final-audit-006",
+    "municipality": "長野県raw gap7件解消（岡谷市・松本市・上田市・諏訪市・長野市・飯田市）",
     "adopted": 0,
-    "held": 58,
+    "held": 51,
     "excluded": 7,
     "sourceUrlsChecked": 7,
     "validation": {
-      "previousMunicipality": "全国公式棚卸し最終監査004後、既存raw未検証65件のうち埼玉県7件を公式本文または公式カテゴリで確認。現行公式確認不可6件、現行制度の正規slug統合1件を期限切れalias/抑止として追加。全国公式棚卸しは未完了。",
+      "previousMunicipality": "全国公式棚卸し最終監査005後、既存raw未検証58件のうち長野県7件を公式本文/PDFまたは公式例規で確認。現行公式確認不可2件、現行制度/補正の正規slug統合5件を期限切れalias/抑止として追加。全国公式棚卸しは未完了。",
       "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts",
-      "json": "pass: nationwide-final-audit-005-raw-gap-resolution.json and raw-gaps-after parsed; raw gaps 65 -> 58, 埼玉県raw gap 0",
+      "json": "pass: nationwide-final-audit-006-raw-gap-resolution.json and raw-gaps-after parsed; raw gaps 58 -> 51, 長野県raw gap 0",
       "addedSlugUniqueness": "pass: audit-raw-verified-gaps recognized 7 added raw slugs; duplicateRawSlugs remains existing 32",
-      "urlReachability": "pass: 7/7 official/category/search URLs HTTP 200 in tasks/discovery/nationwide-final-audit-005-url-status.txt",
+      "urlReachability": "pass: 7/7 official/PDF/reiki URLs HTTP 200 in tasks/discovery/nationwide-final-audit-006-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on nationwide-final-audit-005 target files",
-      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at unrelated src/lib/grant-copy.ts:114 sanitizeGrantCopy tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-005-coverage.log",
-      "notes": "raw gap解消対象は越谷市、所沢市2件、川越市、草加市、秩父市、朝霞市。埼玉県raw gapは残0。公開重複・誤掲載を避けるため6件は期限切れ抑止、秩父市1件は現行公式制度への期限切れ統合レコードとした。"
+      "diffCheck": "pass: git diff --check on nationwide-final-audit-006 target files",
+      "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at unrelated src/lib/grant-copy.ts:114 sanitizeGrantCopy tags.map TypeError; log saved to tasks/discovery/nationwide-final-audit-006-coverage.log",
+      "notes": "raw gap解消対象は岡谷市、松本市2件、上田市、諏訪市、長野市、飯田市。長野県raw gapは残0。公開重複・誤掲載を避けるため岡谷市・松本市新規就農2件は期限切れ抑止、松本市結婚新生活・上田市・諏訪市・長野市・飯田市の5件は現行公式制度への期限切れ統合レコードとした。"
     }
   },
   "next": {
-    "code": "nationwide-final-audit-006-raw-gap-resolution",
-    "municipality": "長野県raw gap7件の公式ページ単位解消",
-    "shortlist": "最終監査005後の既存raw未検証は58件。上位は長野県7、北海道7、大阪府5、兵庫県4、茨城県3、鹿児島県3、神奈川県3、栃木県3。次回は長野県のraw gap7件から、公式個別URL・対象・金額/上限・条件・期限/受付状況を確認し、採用/期限切れ/除外を制度単位で記録する。",
-    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-005-raw-gaps-after.json、nationwide-final-audit-005-raw-gap-resolution.json、チェックリスト、HEADだけで復旧する。1ターンで3〜5自治体または60〜100制度または45〜55分まで、既存raw gapを公式本文/PDF単位で解消する。国・公的機関と第2巡保留はraw gap解消後に正規化監査へ進む。"
+    "code": "nationwide-final-audit-007-raw-gap-resolution",
+    "municipality": "北海道raw gap7件の公式ページ単位解消",
+    "shortlist": "最終監査006後の既存raw未検証は51件。上位は北海道7、大阪府5、兵庫県4、茨城県3、鹿児島県3、神奈川県3、栃木県3、群馬県2、秋田県2、福岡県2、福島県2。次回は北海道raw gap7件から、公式個別URL・対象・金額/上限・条件・期限/受付状況を確認し、採用/期限切れ/除外を制度単位で記録する。",
+    "instructions": "次回は新規タスクを作らず、tasks/discovery/nationwide-final-audit-006-raw-gaps-after.json、nationwide-final-audit-006-raw-gap-resolution.json、チェックリスト、HEADだけで復旧する。1ターンで3〜5自治体または60〜100制度または45〜55分まで、既存raw gapを公式本文/PDF単位で解消する。国・公的機関と第2巡保留はraw gap解消後に正規化監査へ進む。"
   },
   "prefectureMilestone": {
     "prefecture": "全国最終監査",
-    "completedBatches": "final-audit-005",
-    "completedMunicipalitiesAndEntities": 23,
+    "completedBatches": "final-audit-006",
+    "completedMunicipalitiesAndEntities": 29,
     "adopted": 0,
     "recent15": {
-      "batches": "全国最終監査003-005",
-      "municipalities": 19,
+      "batches": "全国最終監査004-006",
+      "municipalities": 21,
       "adopted": 0,
       "compactions": 2,
-      "shortlistAdoptionRate": "19/19 raw gaps resolved since final-audit-003; Chiba/Aichi/Saitama all resolved to raw gap 0",
-      "auditRuns": 24,
-      "commits": 3,
-      "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは82から58へ減少し、千葉県・愛知県・埼玉県は残0。ただし未判定/保留記録、国・公的機関の同粒度棚卸し未確認、coverage監査ブロッカーが残るため全国完了ではない。"
+      "shortlistAdoptionRate": "22/22 raw gaps resolved since final-audit-004; Aichi/Saitama/Nagano all resolved to raw gap 0",
+      "auditRuns": 32,
+      "commits": 4,
+      "note": "都道府県・市区町村第1巡は沖縄末尾まで到達済み。raw gapは82から51へ減少し、千葉県・愛知県・埼玉県・長野県は残0。ただし未判定/保留記録、国・公的機関の同粒度棚卸し未確認、coverage監査ブロッカーが残るため全国完了ではない。"
     }
   },
   "batchRules": {
