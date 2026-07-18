@@ -57,8 +57,14 @@ export function auditAffiliateOffers(offers: AffiliateOffer[], now = new Date())
     if (!offer.audiences.length) add(offer, 'MISSING_AUDIENCE', '対象者が設定されていません。');
     if (!offer.intents.length) add(offer, 'MISSING_INTENT', '案件intentが設定されていません。');
     if (!offer.allowedPageTypes.length) add(offer, 'MISSING_PAGE_TYPE', '掲載可能ページが設定されていません。');
-    if (offer.allowedPurposes.some((purpose) => SENSITIVE_PURPOSES.includes(purpose))) add(offer, 'SENSITIVE_PURPOSE_ALLOWED', 'センシティブ目的を掲載許可に含めています。');
-    if (!SENSITIVE_PURPOSES.every((purpose) => offer.blockedPurposes.includes(purpose))) add(offer, 'MISSING_SENSITIVE_BLOCKS', 'センシティブ目的の除外設定が不足しています。');
+    const allowedSensitivePurposes = offer.allowedPurposes.filter((purpose) => SENSITIVE_PURPOSES.includes(purpose));
+    if (allowedSensitivePurposes.length > 0 && offer.allowSensitiveContexts !== true) {
+      add(offer, 'SENSITIVE_PURPOSE_ALLOWED', 'センシティブ目的を明示許可なしで掲載対象に含めています。');
+    }
+    const requiredSensitiveBlocks = SENSITIVE_PURPOSES.filter((purpose) => !allowedSensitivePurposes.includes(purpose));
+    if (!requiredSensitiveBlocks.every((purpose) => offer.blockedPurposes.includes(purpose))) {
+      add(offer, 'MISSING_SENSITIVE_BLOCKS', '掲載を許可していないセンシティブ目的の除外設定が不足しています。');
+    }
     if (MISLEADING_BUTTON_PATTERN.test(offer.buttonText)) add(offer, 'MISLEADING_BUTTON_TEXT', '公式申請と誤認し得るボタン文言です。');
     if (!offer.disclosureText.trim()) add(offer, 'MISSING_DISCLOSURE', 'アフィリエイト開示文がありません。');
     if (!offer.advertiserName.trim()) add(offer, 'MISSING_ADVERTISER', '広告主名がありません。');

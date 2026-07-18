@@ -18,6 +18,7 @@ import {
   isGrantExpired,
 } from '@/lib/grants';
 import { splitEligibilityText } from '@/lib/grant-presentation';
+import { getGrantAffiliateIntents } from '@/lib/affiliate-context';
 import { getValidOfficialSourceUrls } from '@/lib/grant-source';
 import { groupGrantSections, type GrantSectionGroup } from '@/lib/grant-sections';
 import { getEffectiveGrantStatus, getOfficialCtaLabel, isRepayableSupport } from '@/lib/grant-status';
@@ -86,19 +87,29 @@ export default async function GrantDetailPage({ params }: Props) {
   const eligibilityItems = splitEligibilityText(grant.eligibility);
   const purpose = grant.primaryPurpose;
   const businessAudience = ['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization'].includes(grant.primaryAudience ?? '');
+  const sensitivePurpose = grant.purposes.some((item) => ['medical', 'welfare', 'disaster', 'livingSupport'].includes(item));
   const primaryOfficialUrl = getValidOfficialSourceUrls(grant)[0];
-  const affiliateIntents = grant.affiliateIntents ?? [];
+  const affiliateIntents = getGrantAffiliateIntents({
+    title: grant.title,
+    description: grant.description,
+    tags: grant.tags,
+    purposes: grant.purposes,
+    affiliateIntents: grant.affiliateIntents ?? [],
+  });
+  const affiliateHeading = businessAudience ? '事業に関連するサービス' : 'この制度の目的に関連するサービス';
+  const affiliateDescription = businessAudience
+    ? '事業の準備や運営に関連する民間サービスの広告です。この制度の申請や採択に必須ではありません。'
+    : 'この制度の目的に直接関連する民間サービスの広告です。制度の利用や申請に必須ではありません。';
   const affiliateOffers = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
     pageType: 'grant',
-    placementMode: 'allGrantDetails',
     audiences: grant.audiences ?? [],
     purposes: grant.purposes ?? [],
     intents: affiliateIntents,
-    monetizationAllowed: true,
+    monetizationAllowed: grant.monetizationAllowed,
     status,
     indexable: sourceStatus.level !== 'unverified' && !expired && grant.indexStatus !== 'noindex' && grant.contentStatus === 'published',
     hasOfficialSource: Boolean(primaryOfficialUrl),
-    limit: 6,
+    limit: sensitivePurpose ? 2 : 6,
   });
   const primaryAffiliateOffers = affiliateOffers.slice(0, 2);
   const secondaryAffiliateOffers = affiliateOffers.slice(2);
@@ -148,8 +159,8 @@ export default async function GrantDetailPage({ params }: Props) {
                 placement="grant-after-official-source"
                 className="grant-affiliate-placement"
                 expandAt={1200}
-                heading="事業者向けサービス"
-                description="事業を行う方向けの民間サービス広告です。この制度の申請や採択に必須ではありません。"
+                heading={affiliateHeading}
+                description={affiliateDescription}
               />
             ) : null}
 
@@ -209,8 +220,8 @@ export default async function GrantDetailPage({ params }: Props) {
               placement="grant-before-correction"
               className="grant-affiliate-inline-placement"
               expandAt={1200}
-              heading="事業者向けサービス"
-              description="事業を行う方向けの民間サービス広告です。この制度の申請や採択に必須ではありません。"
+              heading={affiliateHeading}
+              description={affiliateDescription}
             />
           ) : null}
 

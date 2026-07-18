@@ -180,6 +180,19 @@ describe('normalizeGrant', () => {
     assert.equal(result.monetizationAllowed, true);
   });
 
+  it('個人・家族向けでも非センシティブ目的と明示intentがあれば文脈広告の候補にできる', () => {
+    const result = normalizeGrant({
+      ...baseGrant,
+      title: '例示市 住宅購入相談支援',
+      description: '住宅取得に関する相談費用を支援します。',
+      audiences: ['individual', 'family'],
+      purposes: ['housing'],
+      affiliateIntents: ['professionalConsultation'],
+    });
+
+    assert.equal(result.monetizationAllowed, true);
+  });
+
   it('事業準備と関連する目的でもaffiliate intentを推測で補完しない', () => {
     const result = normalizeGrant({
       ...baseGrant,
@@ -220,7 +233,6 @@ describe('normalizeGrant', () => {
       { purposes: ['digitalTransformation'], officialUrl: '', indexStatus: 'index' },
       { purposes: ['digitalTransformation'], officialUrl: baseGrant.officialUrl, indexStatus: 'noindex' },
       { purposes: ['digitalTransformation'], officialUrl: baseGrant.officialUrl, contentStatus: 'needsReview' },
-      { purposes: ['digitalTransformation'], officialUrl: baseGrant.officialUrl, audiences: ['individual'] },
       { purposes: ['digitalTransformation'], officialUrl: baseGrant.officialUrl, affiliateIntents: [] },
     ];
 

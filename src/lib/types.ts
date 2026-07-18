@@ -106,7 +106,10 @@ export type AffiliateIntent =
   | 'reservationSystem'
   | 'pos'
   | 'employeeTraining'
-  | 'professionalConsultation';
+  | 'professionalConsultation'
+  | 'fertilityCare'
+  | 'medicalExpenseTax'
+  | 'treatmentCostManagement';
 
 // ── 助成金タイプ ──
 export type GrantType = 'national' | 'local' | 'ngo';

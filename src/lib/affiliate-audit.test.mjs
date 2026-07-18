@@ -54,6 +54,22 @@ describe('affiliate offer audit', () => {
     }
   });
 
+  it('明示許可した医療専用案件は医療以外のセンシティブ目的を除外すれば許可する', () => {
+    const issues = auditAffiliateOffers([{
+      ...validOffer,
+      id: 'fertility-care-1',
+      audiences: ['individual', 'family'],
+      intents: ['fertilityCare'],
+      allowedPurposes: ['medical'],
+      blockedPurposes: ['welfare', 'disaster', 'livingSupport'],
+      allowSensitiveContexts: true,
+    }], new Date('2026-07-15'));
+    const codes = new Set(issues.map((issue) => issue.code));
+
+    assert.equal(codes.has('SENSITIVE_PURPOSE_ALLOWED'), false);
+    assert.equal(codes.has('MISSING_SENSITIVE_BLOCKS'), false);
+  });
+
   it('無効案件の不完全設定は警告、有効案件は重大エラーにする', () => {
     const issues = auditAffiliateOffers([{ ...validOffer, enabled: false, destinationUrl: null }], new Date('2026-07-15'));
     assert.equal(issues.find((issue) => issue.code === 'INVALID_DESTINATION_URL')?.severity, 'warning');

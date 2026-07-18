@@ -7,7 +7,6 @@ export const AFFILIATE_LINK_REL = 'sponsored nofollow noopener noreferrer';
 
 const SENSITIVE_PURPOSES = new Set<Purpose>(['medical', 'welfare', 'disaster', 'livingSupport']);
 const SENSITIVE_AUDIENCES = new Set<Audience>(['personWithDisability']);
-const BUSINESS_AUDIENCES = new Set<Audience>(['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization']);
 const SENSITIVE_TEXT_PATTERN = /(医療|疾病|難病|障害|生活困窮|災害|被災|緊急支援|介護|ひとり親|死亡|葬祭|DV|ＤＶ|虐待)/iu;
 
 export interface MonetizationContext {
@@ -20,7 +19,6 @@ export interface MonetizationContext {
   indexable?: boolean;
   hasOfficialSource?: boolean;
   sensitive?: boolean;
-  placementMode?: 'contextual' | 'allGrantDetails';
   limit?: number;
 }
 
@@ -98,11 +96,9 @@ export function getEligibleAffiliateOffers(
   context: MonetizationContext,
   now = new Date(),
 ): AffiliateOffer[] {
-  const isAllGrantDetails = context.pageType === 'grant' && context.placementMode === 'allGrantDetails';
-  if (!isAllGrantDetails && !context.monetizationAllowed) return [];
-  if (!isAllGrantDetails && (context.sensitive || isSensitiveAffiliateContext(context))) return [];
-  if (context.pageType === 'grant' && !isAllGrantDetails) {
-    if (!context.audiences.some((audience) => BUSINESS_AUDIENCES.has(audience))) return [];
+  const sensitiveContext = Boolean(context.sensitive || isSensitiveAffiliateContext(context));
+  if (!context.monetizationAllowed && !sensitiveContext) return [];
+  if (context.pageType === 'grant') {
     if (!context.indexable || !context.hasOfficialSource) return [];
     if (!context.status || !['open', 'scheduled', 'closingSoon'].includes(context.status)) return [];
   }
@@ -113,10 +109,12 @@ export function getEligibleAffiliateOffers(
   const scored = offers
     .filter((offer) => isAffiliateOfferPublishable(offer, now))
     .filter((offer) => offer.allowedPageTypes.includes(context.pageType))
-    .filter((offer) => isAllGrantDetails || offer.audiences.length === 0 || intersects(offer.audiences, context.audiences))
-    .filter((offer) => isAllGrantDetails || (offer.intents.length > 0 && intersects(offer.intents, context.intents)))
-    .filter((offer) => isAllGrantDetails || offer.allowedPurposes.length === 0 || intersects(offer.allowedPurposes, context.purposes))
-    .filter((offer) => isAllGrantDetails || !intersects(offer.blockedPurposes, context.purposes))
+    .filter((offer) => context.monetizationAllowed || (sensitiveContext && offer.allowSensitiveContexts === true))
+    .filter((offer) => !sensitiveContext || offer.allowSensitiveContexts === true)
+    .filter((offer) => offer.audiences.length === 0 || intersects(offer.audiences, context.audiences))
+    .filter((offer) => offer.intents.length > 0 && intersects(offer.intents, context.intents))
+    .filter((offer) => offer.allowedPurposes.length === 0 || intersects(offer.allowedPurposes, context.purposes))
+    .filter((offer) => !intersects(offer.blockedPurposes, context.purposes))
     .map((offer) => ({
       offer,
       audienceScore: offer.audiences.filter((item) => context.audiences.includes(item)).length,

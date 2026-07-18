@@ -135,7 +135,6 @@ function inferPurposes(input: LegacyGrant): Purpose[] {
   return unique(purposes.length ? purposes : ['other']);
 }
 
-const BUSINESS_AUDIENCES = new Set<Audience>(['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization']);
 const SENSITIVE_PURPOSES = new Set<Purpose>(['medical', 'welfare', 'disaster', 'livingSupport']);
 
 function inferAffiliateIntents(input: LegacyGrant): AffiliateIntent[] {
@@ -197,7 +196,6 @@ export function normalizeGrant(input: LegacyGrant): NormalizedGrant {
     && contentStatus === 'published'
     && indexStatus === 'index'
     && affiliateIntents.length > 0
-    && audiences.some((audience) => BUSINESS_AUDIENCES.has(audience))
     && !purposes.some((purpose) => SENSITIVE_PURPOSES.has(purpose));
   const sections = input.sections
     .filter((section) => !containsInternalAuditText(section.heading))

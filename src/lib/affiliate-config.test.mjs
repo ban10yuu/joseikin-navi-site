@@ -53,14 +53,14 @@ describe('affiliate production config', () => {
     assert.equal(suspendedCreative?.claimReviewStatus, 'pending');
   });
 
-  it('全詳細配置では個人・センシティブ・終了制度にも公開可能な広告を返す', () => {
+  it('詳細ページ指定でも個人・医療制度へ事業者広告を流用しない', () => {
     const result = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
       pageType: 'grant', audiences: ['individual'], purposes: ['businessGrowth', 'medical'],
       intents: ['accounting'], monetizationAllowed: false, status: 'closed', indexable: false,
       hasOfficialSource: false, placementMode: 'allGrantDetails', limit: 2,
     }, NOW);
 
-    assert.deepEqual(result.map((offer) => offer.id), ['a8-freee-accounting-wiz', 'a8-yayoi-accounting-next']);
+    assert.deepEqual(result, []);
   });
 
   it('もしもの申請中4案件は公開条件を満たすまで非表示にする', () => {

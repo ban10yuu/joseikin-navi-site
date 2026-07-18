@@ -85,12 +85,35 @@ describe('affiliate offers', () => {
     assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, status: 'open' }, new Date('2026-07-13')).map((item) => item.id), [offer.id]);
   });
 
-  it('全詳細配置では個人・センシティブ・終了・確認待ちでも公開可能な広告を返す', () => {
+  it('詳細ページ指定だけでは個人・医療制度へ事業者向け広告を返さない', () => {
     const result = getEligibleAffiliateOffers([offer], {
       ...context, audiences: ['family'], purposes: ['medical'], intents: [], monetizationAllowed: false,
       status: 'closed', indexable: false, hasOfficialSource: false, placementMode: 'allGrantDetails', limit: 2,
     }, new Date('2026-07-13'));
-    assert.deepEqual(result.map((item) => item.id), [offer.id]);
+    assert.deepEqual(result, []);
+  });
+
+  it('医療文脈を明示許可した案件は対象者・目的・意図がすべて一致した場合だけ返す', () => {
+    const fertilityOffer = {
+      ...offer,
+      id: 'fertility-care-1',
+      offerName: '不妊治療相談サービス',
+      audiences: ['individual', 'family'],
+      intents: ['fertilityCare'],
+      allowedPurposes: ['medical'],
+      allowSensitiveContexts: true,
+    };
+    const fertilityContext = {
+      pageType: 'grant', audiences: ['family'], purposes: ['medical'], intents: ['fertilityCare'],
+      monetizationAllowed: false, status: 'open', indexable: true, hasOfficialSource: true,
+    };
+
+    assert.deepEqual(
+      getEligibleAffiliateOffers([fertilityOffer], fertilityContext, new Date('2026-07-13')).map((item) => item.id),
+      ['fertility-care-1'],
+    );
+    assert.deepEqual(getEligibleAffiliateOffers([fertilityOffer], { ...fertilityContext, intents: ['medicalExpenseTax'] }, new Date('2026-07-13')), []);
+    assert.deepEqual(getEligibleAffiliateOffers([fertilityOffer], { ...fertilityContext, audiences: ['business'] }, new Date('2026-07-13')), []);
   });
 
   it('副目的にセンシティブ目的を1つでも含む制度を拒否する', () => {

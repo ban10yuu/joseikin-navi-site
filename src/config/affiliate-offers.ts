@@ -16,6 +16,7 @@ export interface AffiliateOffer {
   intents: AffiliateIntent[];
   allowedPurposes: Purpose[];
   blockedPurposes: Purpose[];
+  allowSensitiveContexts?: boolean;
   allowedPageTypes: AffiliatePageType[];
   validFrom: string | null;
   validUntil: string | null;
