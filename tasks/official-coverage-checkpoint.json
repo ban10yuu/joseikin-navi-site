@@ -1,43 +1,46 @@
 {
-  "updatedAt": "2026-07-18T23:00:00+09:00",
+  "updatedAt": "2026-07-18T23:29:40+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "okinawa-official-coverage-005",
-    "municipality": "伊江村・読谷村・嘉手納町・北谷町・北中城村",
-    "adopted": 52,
+    "code": "okinawa-official-coverage-006",
+    "municipality": "中城村・西原町・与那原町・南風原町・渡嘉敷村",
+    "adopted": 43,
     "held": 0,
-    "excluded": 276,
-    "sourceUrlsChecked": 52,
+    "excluded": 867,
+    "sourceUrlsChecked": 43,
     "validation": {
-      "previousMunicipality": "沖縄県公式棚卸し005として47315伊江村、47324読谷村、47325嘉手納町、47326北谷町、47327北中城村を確認し、52件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and 005 discover/build scripts",
-      "json": "pass: candidates 328, selections 52, adopted 52 parsed; counts {\"嘉手納町\":8,\"北谷町\":3,\"読谷村\":16,\"北中城村\":15,\"伊江村\":10}",
-      "addedSlugUniqueness": "pass: added slugs 52 from okinawa-official-005-001-2026 through okinawa-official-005-052-2026; added duplicate 0; global duplicate 0",
-      "urlReachability": "pass: build non200 empty; 52 adopted official URLs retained in tasks/discovery/okinawa-official-coverage-005-url-status.txt",
+      "previousMunicipality": "沖縄県公式棚卸し006として47328中城村、47329西原町、47348与那原町、47350南風原町、47353渡嘉敷村を確認し、43件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and 006 discover/build scripts",
+      "json": "pass: candidates 910, selections 43, adopted 43 parsed; counts {\"西原町\":7,\"中城村\":23,\"渡嘉敷村\":4,\"南風原町\":6,\"与那原町\":3}",
+      "addedSlugUniqueness": "pass: added slugs 43 from okinawa-official-006-001-2026 through okinawa-official-006-043-2026; added duplicate 0; global duplicate 0",
+      "urlReachability": "pass: build non200 empty; 43 adopted official URLs retained in tasks/discovery/okinawa-official-coverage-006-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on 005 target files",
+      "diffCheck": "pass: git diff --check on 006 target files",
       "auditCoverage": "blocked: npm run audit:coverage stops before coverage aggregation at unrelated src/lib/grant-copy.ts:114 sanitizeGrantCopy tags.map TypeError",
-      "notes": "公式トップは伊江村・読谷村・嘉手納町・北谷町・北中城村すべてHTTP 200で確認済み。伊江村は公式/sitemap/、読谷村はsitemap.xmlとsitemap.html、嘉手納町はsitemap.html、北中城村はsitemap.xmlを確認。北谷町はトップ200だがsite_map.htmlや個別ページのローカル再取得がAccess Deniedとなるため、公式ページ/PDFの検索キャッシュおよび既存公式確認済みsourceNoteから3候補を補足。公式sitemap/カテゴリBFSで328候補（伊江村41、読谷村123、嘉手納町17、北谷町3、北中城村144）を抽出し、title強一致87件。候補数が150件超のため本文スニペット付き再スコアを実施。嘉手納町は/info/配下の公式制度URLを補足し、弱いカテゴリ・職員採用・COVID過年度・情報提供だけのページを除外。"
+      "notes": "公式トップは中城村・西原町・与那原町・南風原町・渡嘉敷村すべてHTTP 200で確認済み。中城村はsitemap.xmlと/sitemap/、西原町・与那原町・南風原町はsitemap_index.xmlとsitemap.html、渡嘉敷村はsitemap.xmlとsitemap.htmlを確認。公式sitemap/カテゴリBFSで904候補を抽出し、渡嘉敷村は通常BFS候補0件だったため公式sitemap再帰確認と公式検索結果/PDFスニペットで6候補を補足、候補合計910件（中城村373、西原町251、与那原町107、南風原町173、渡嘉敷村6）。title強一致72件。候補数が150件超のため本文スニペット付き再スコアを実施。トップ・カテゴリ・共通ナビ・申請書単体・職員採用・入札・COVID過年度・情報提供のみ・重複導線を除外。"
     }
   },
   "next": {
-    "code": "okinawa-official-coverage-006",
-    "municipality": "中城村・西原町・与那原町・南風原町・渡嘉敷村",
-    "shortlist": "沖縄県公式棚卸し005で伊江村・読谷村・嘉手納町・北谷町・北中城村を確認し52件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で47328中城村から再開する。",
-    "instructions": "次回は沖縄県公式棚卸し006として、47328中城村、47329西原町、47348与那原町、47350南風原町、47353渡嘉敷村の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの沖縄県完了行やHTTP 200だけでは完了扱いにしない。"
+    "code": "okinawa-official-coverage-007",
+    "municipality": "座間味村・粟国村・渡名喜村・南大東村・北大東村",
+    "shortlist": "沖縄県公式棚卸し006で中城村・西原町・与那原町・南風原町・渡嘉敷村を確認し43件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で47354座間味村から再開する。",
+    "instructions": "次回は沖縄県公式棚卸し007として、47354座間味村、47355粟国村、47356渡名喜村、47357南大東村、47358北大東村の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの沖縄県完了行やHTTP 200だけでは完了扱いにしない。"
   },
   "prefectureMilestone": {
     "prefecture": "沖縄県",
-    "completedBatches": "001-005",
-    "completedMunicipalitiesAndEntities": 25,
-    "adopted": 291,
-    "recent15Municipalities": {
-      "batches": "沖縄003-005",
+    "completedBatches": "001-006",
+    "completedMunicipalitiesAndEntities": 30,
+    "adopted": 334,
+    "recent15": {
+      "batches": "沖縄004-006",
       "municipalities": 15,
-      "adopted": 155,
-      "metrics": "15自治体・団体/3バッチ、採用155制度、監査3回、commit3回予定。採用率は005で52/328=15.9%。"
-    },
-    "status": "沖縄県は第1巡で47000沖縄県から47327北中城村まで到達。全国公式棚卸しは未完了。次は沖縄県公式棚卸し006。"
+      "adopted": 133,
+      "compactions": 0,
+      "shortlistAdoptionRate": "43/910 = 4.7% for 006 after rescoring; 004-006 total 133 schemes",
+      "auditRuns": 3,
+      "commits": 3,
+      "note": "006は中城村CMSで候補過多、渡嘉敷村はAccess Denied/通常BFS漏れがあり、公式sitemap再帰とfallbackEvidenceで補完。採用率は低いがカテゴリ/広報/入札ノイズを大きく除外して品質優先。"
+    }
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
