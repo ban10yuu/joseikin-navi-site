@@ -12063,3 +12063,14 @@
 - 検証: 監査JSON parse、checkpoint JSON parse、追加2slugの存在数1件ずつ、`node --check src/data/grants/verified-local-misc-2026.ts`、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` はこの復旧単位では再実行せず、026時点の既知別件 `src/lib/grant-copy.ts` の `tags.map` TypeErrorを継続ブロッカーとして扱う。
 - 到達点: 北海道第2巡008は4町確認済み、採用2、保留継続4。全国公式棚卸しは未完了。
 - 次回: 北海道第2巡009として、黒松内町・蘭越町・ニセコ町・真狩村など前方保留候補を自治体コード順に継続確認する。
+
+### 全国公式棚卸し最終監査029（北海道第2巡009 黒松内町・蘭越町・ニセコ町・真狩村）
+
+- 対象: `tasks/discovery/hokkaido-second-pass-009-snippets.json` の黒松内町・蘭越町・ニセコ町・真狩村を確認。
+- 公式確認: 4町のカテゴリ/個別ページ15URLを再確認。黒松内町は大人の健康、母子保健、移住相談窓口。蘭越町は子育て・教育、健康・福祉、しごと・産業。ニセコ町は移住、建築、検診案内、しごと・産業。真狩村は移住・定住、社の森ふれあいタウン、子育て・教育、健康・福祉、道民生活応援ポイント問い合わせを確認。
+- 解消方法: 追加採用0件。黒松内町18件、蘭越町26件、ニセコ町12件、真狩村22件の主要候補は既に掲載済み。未掲載候補は一覧導線、通常行政サービス、北海道事業案内、又は金額/上限・期限/受付状況不足のため保留継続又は採用不可として整理。
+- 保留継続: 黒松内町の通所交通費助成・じん臓機能障害者通院交通費助成・修学資金貸付等、蘭越町の健診/予防接種/給付金相談導線、ニセコ町の産業振興基金概説・検診案内・建築規制、真狩村の定住促進奨励事業・予防接種/健診・道民生活応援ポイント等。
+- 成果物: `tasks/discovery/nationwide-final-audit-029-hokkaido-second-pass-009-resolution.json`、`tasks/discovery/nationwide-final-audit-029-hokkaido-second-pass-009-url-status.txt` を作成。確認URL 15/15 はHTTP 200。
+- 検証: 監査JSON parse、checkpoint JSON parse、対象ファイル `git diff --check` はpass。助成金データ本体の追加・編集はないため `node --check src/data/grants/verified-local-misc-2026.ts` と eslint は今回省略。`npm run audit:coverage` は今回の追加採用0件では再実行しない。
+- 到達点: 北海道第2巡009は4町確認済み、追加採用0、保留継続4。全国公式棚卸しは未完了。
+- 次回: 北海道第2巡010として、留寿都村・喜茂別町・京極町・倶知安町など前方保留候補を自治体コード順に継続確認する。
