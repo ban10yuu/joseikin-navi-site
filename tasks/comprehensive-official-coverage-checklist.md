@@ -11739,3 +11739,13 @@
 - 検証: 公式URL 76件を `tasks/discovery/okinawa-official-coverage-001-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（001 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。那覇市・浦添市および沖縄県一部URLはローカル再取得時にAkamai 403が出たため、候補抽出時点の公式本文スニペットで根拠を保持。
 - メトリクス: 5自治体・団体、76制度採用、一次候補279件、採用率27.2%。沖縄県001累計は5自治体・団体、76制度。全国公式棚卸しは未完了。
 - 次回: 沖縄県公式棚卸し002として、名護市・糸満市・沖縄市・豊見城市・うるま市から再開する。
+
+### 沖縄県公式棚卸し002（47209名護市・47210糸満市・47211沖縄市・47212豊見城市・47213うるま市）
+
+- 対象公式トップ: 名護市 `https://www.city.nago.okinawa.jp/`、糸満市 `https://www.city.itoman.lg.jp/`、沖縄市 `https://www.city.okinawa.okinawa.jp/`、豊見城市 `https://www.city.tomigusuku.lg.jp/`、うるま市 `https://www.city.uruma.lg.jp/` をHTTP 200で確認。sitemap.xmlは沖縄市・豊見城市・うるま市が200、名護市・糸満市は404または未使用のため、公式 `sitemap.html`、検索/カテゴリBFSで補完。
+- 公式sitemap/カテゴリBFS候補: 157件（うるま市9、沖縄市75、糸満市46、豊見城市8、名護市19）。title強一致10件。shortlistが150件超のため `tasks/discovery/okinawa-official-coverage-002-rescored-shortlist.tsv` と `tasks/discovery/okinawa-official-coverage-002-auto-selection.tsv` へ本文スニペット付き再スコアを保存。
+- 採用: 60制度（名護市20、糸満市12、沖縄市18、豊見城市5、うるま市5）。`okinawa-official-002-001-2026` から `okinawa-official-002-060-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、トップ、共通ナビ、申請書単体、制度性の弱いページ、受付終了、募集終了、実績/採択、職員採用、同一制度の重複導線、単なる税・保険料説明は採用せず、候補JSON/TSVに残置。名護市・糸満市は個別制度ページがsitemapに露出しないものが多いため、第1巡は公式カテゴリ本文に制度名と支援導線が確認できるページを採用し、第2巡で個別ページ再取得を優先する。
+- 検証: 公式URL 60件を `tasks/discovery/okinawa-official-coverage-002-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（002 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。名護市・糸満市・豊見城市・うるま市の一部URLはローカル再取得時に403が出たため、候補抽出時点の公式本文スニペットで根拠を保持。
+- メトリクス: 5自治体、60制度採用、一次候補157件、採用率38.2%。沖縄県001-002累計は10自治体・団体、136制度。直近10自治体・団体では136制度、監査2回、commit2回。全国公式棚卸しは未完了。
+- 次回: 沖縄県公式棚卸し003として、宮古島市・南城市・国頭村・大宜味村・東村から再開する。
