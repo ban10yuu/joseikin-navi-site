@@ -11749,3 +11749,13 @@
 - 検証: 公式URL 60件を `tasks/discovery/okinawa-official-coverage-002-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（002 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。名護市・糸満市・豊見城市・うるま市の一部URLはローカル再取得時に403が出たため、候補抽出時点の公式本文スニペットで根拠を保持。
 - メトリクス: 5自治体、60制度採用、一次候補157件、採用率38.2%。沖縄県001-002累計は10自治体・団体、136制度。直近10自治体・団体では136制度、監査2回、commit2回。全国公式棚卸しは未完了。
 - 次回: 沖縄県公式棚卸し003として、宮古島市・南城市・国頭村・大宜味村・東村から再開する。
+
+### 沖縄県公式棚卸し003（47214宮古島市・47215南城市・47301国頭村・47302大宜味村・47303東村）
+
+- 対象公式トップ: 宮古島市 `https://www.city.miyakojima.lg.jp/`、南城市 `https://www.city.nanjo.okinawa.jp/`、国頭村 `https://www.vill.kunigami.okinawa.jp/`、大宜味村 `https://www.vill.ogimi.okinawa.jp/`、東村 `https://www.vill.higashi.okinawa.jp/` をHTTP 200で確認。sitemap.xmlは宮古島市・大宜味村・東村が200、南城市は公式 `/sitemap/`、国頭村は公式トップ/カテゴリBFSで補完。
+- 公式sitemap/カテゴリBFS候補: 890件（宮古島市115、南城市540、国頭村31、大宜味村56、東村148）。title強一致132件。shortlistが150件超のため `tasks/discovery/okinawa-official-coverage-003-rescored-shortlist.tsv` と `tasks/discovery/okinawa-official-coverage-003-auto-selection.tsv` へ本文スニペット付き再スコアを保存。
+- 採用: 65制度（宮古島市20、南城市20、国頭村5、大宜味村8、東村12）。`okinawa-official-003-001-2026` から `okinawa-official-003-065-2026` として追加。制度名・対象・金額/上限または支援内容・条件・申請/受付状況を公式本文で確認。
+- 低優先/除外: カテゴリ、トップ、共通ナビ、申請書単体、制度性の弱いページ、受付終了、募集終了、実績/採択、職員採用、同一制度の重複導線、単なる税・保険料説明は採用せず、候補JSON/TSVに残置。採用後レビューでカテゴリのみ、期限切れ重複、村外窓口中心の弱い導線7件を除外し、第1巡は65件に絞った。
+- 検証: 公式URL 65件を `tasks/discovery/okinawa-official-coverage-003-url-status.txt` に保存。`node --check src/data/grants/verified-local-misc-2026.ts`、`node --check`（003 discover/build）、JSON parse、追加slug重複0・全体slug重複0、`npx eslint src/data/grants/verified-local-misc-2026.ts`、対象ファイル `git diff --check` はpass。`npm run audit:coverage` は既知の別件 `src/lib/grant-copy.ts` の `sanitizeGrantCopy` `tags.map` TypeErrorでcoverage集計前に停止。
+- メトリクス: 5自治体、65制度採用、一次候補890件、採用率7.3%。沖縄県001-003累計は15自治体・団体、201制度。直近15自治体・団体では201制度、監査3回、commit3回。全国公式棚卸しは未完了。
+- 次回: 沖縄県公式棚卸し004として、今帰仁村・本部町・恩納村・宜野座村・金武町から再開する。

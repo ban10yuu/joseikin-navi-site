@@ -1,42 +1,43 @@
 {
-  "updatedAt": "2026-07-18T22:16:00+09:00",
+  "updatedAt": "2026-07-18T22:35:00+09:00",
   "mode": "municipality-official-coverage",
   "lastCompleted": {
-    "code": "okinawa-official-coverage-002",
-    "municipality": "名護市・糸満市・沖縄市・豊見城市・うるま市",
-    "adopted": 60,
+    "code": "okinawa-official-coverage-003",
+    "municipality": "宮古島市・南城市・国頭村・大宜味村・東村",
+    "adopted": 65,
     "held": 0,
-    "excluded": 97,
-    "sourceUrlsChecked": 60,
+    "excluded": 825,
+    "sourceUrlsChecked": 65,
     "validation": {
-      "previousMunicipality": "沖縄県公式棚卸し002として47209名護市、47210糸満市、47211沖縄市、47212豊見城市、47213うるま市を確認し、60件を採用。全国公式棚卸しは未完了。",
-      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and node --check for okinawa-official-coverage-002 discover/build passed",
-      "json": "pass: checkpoint, candidates, selections, adopted JSON parsed; candidates 157, selections 60, adopted 60, non200 0",
-      "addedSlugUniqueness": "pass: okinawa-official-002-001-2026 through okinawa-official-002-060-2026 present; added duplicate 0; global slug duplicate 0",
-      "urlReachability": "pass with note: build non200 empty; 60 adopted official URLs retained in tasks/discovery/okinawa-official-coverage-002-url-status.txt. 名護市・糸満市・豊見城市・うるま市の一部URLはローカル再取得時に403が出たため、候補抽出時点の公式本文スニペットを根拠として保持。",
+      "previousMunicipality": "沖縄県公式棚卸し003として47214宮古島市、47215南城市、47301国頭村、47302大宜味村、47303東村を確認し、65件を採用。全国公式棚卸しは未完了。",
+      "syntax": "pass: node --check src/data/grants/verified-local-misc-2026.ts and node --check for okinawa-official-coverage-003 discover/build passed",
+      "json": "pass: checkpoint, candidates, selections, adopted JSON parsed; candidates 890, selections 65, adopted 65, non200 0",
+      "addedSlugUniqueness": "pass: okinawa-official-003-001-2026 through okinawa-official-003-065-2026 present; added duplicate 0; global slug duplicate 0",
+      "urlReachability": "pass: build non200 empty; 65 adopted official URLs retained in tasks/discovery/okinawa-official-coverage-003-url-status.txt",
       "eslint": "pass: npx eslint src/data/grants/verified-local-misc-2026.ts",
-      "diffCheck": "pass: git diff --check on 002 target files",
+      "diffCheck": "pass: git diff --check on 003 target files",
       "auditCoverage": "blocked: npm run audit:coverage still stops in unrelated src/lib/grant-copy.ts:114 sanitizeGrantCopy tags.map TypeError before coverage aggregation",
-      "notes": "公式トップは名護市・糸満市・沖縄市・豊見城市・うるま市すべてHTTP 200で確認済み。sitemap.xmlは沖縄市・豊見城市・うるま市が200、名護市・糸満市はsitemap.html/カテゴリBFSで補完。公式sitemap/カテゴリBFSで157候補（うるま市9、沖縄市75、糸満市46、豊見城市8、名護市19）を抽出し、title強一致10件。候補数が150件超のため本文スニペット付き再スコアを実施。カテゴリ、共通ナビ、申請書単体、制度性の弱いページ、重複導線は候補JSON/TSVに残し、第1巡として60件を採用。"
+      "notes": "公式トップは宮古島市・南城市・国頭村・大宜味村・東村すべてHTTP 200で確認済み。sitemap.xmlは宮古島市・大宜味村・東村が200、南城市は公式/sitemap/、国頭村は公式トップ/カテゴリBFSで補完。公式sitemap/カテゴリBFSで890候補（宮古島市115、南城市540、国頭村31、大宜味村56、東村148）を抽出し、title強一致132件。候補数が150件超のため本文スニペット付き再スコアを実施。採用後レビューでカテゴリのみ、期限切れ重複、村外窓口中心の弱い導線7件を除外し、65件を採用。"
     }
   },
   "next": {
-    "code": "okinawa-official-coverage-003",
-    "municipality": "宮古島市・南城市・国頭村・大宜味村・東村",
-    "shortlist": "沖縄県公式棚卸し002で名護市・糸満市・沖縄市・豊見城市・うるま市を確認し60件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で47214宮古島市から再開する。",
-    "instructions": "次回は沖縄県公式棚卸し003として、47214宮古島市、47215南城市、47301国頭村、47302大宜味村、47303東村の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの沖縄県完了行やHTTP 200だけでは完了扱いにしない。"
+    "code": "okinawa-official-coverage-004",
+    "municipality": "今帰仁村・本部町・恩納村・宜野座村・金武町",
+    "shortlist": "沖縄県公式棚卸し003で宮古島市・南城市・国頭村・大宜味村・東村を確認し65件を採用。次回は固定コミットや既存raw完了扱いではなく、HEAD・進捗JSON・公式ページ単位の要件で47306今帰仁村から再開する。",
+    "instructions": "次回は沖縄県公式棚卸し004として、47306今帰仁村、47308本部町、47311恩納村、47313宜野座村、47314金武町の公式トップ、sitemap/検索/カテゴリBFSを確認し、制度名・対象・金額/上限・条件・期限/受付状況・公式URLを公式本文単位で採用する。既存rawの沖縄県完了行やHTTP 200だけでは完了扱いにしない。"
   },
   "prefectureMilestone": {
     "prefecture": "沖縄県",
-    "completedBatches": "001-002",
-    "completedMunicipalitiesAndEntities": 10,
-    "adopted": 136,
+    "completedBatches": "001-003",
+    "completedMunicipalitiesAndEntities": 15,
+    "adopted": 201,
     "recent15Municipalities": {
-      "batches": "沖縄001-002",
-      "municipalities": 10,
-      "adopted": 136
+      "batches": "沖縄001-003",
+      "municipalities": 15,
+      "adopted": 201,
+      "metrics": "15自治体・団体/3バッチ、採用201制度、監査3回、commit3回予定。"
     },
-    "status": "沖縄県は第1巡で47000沖縄県から47213うるま市まで到達。全国公式棚卸しは未完了。次は沖縄県公式棚卸し003。"
+    "status": "沖縄県は第1巡で47000沖縄県から47303東村まで到達。全国公式棚卸しは未完了。次は沖縄県公式棚卸し004。"
   },
   "batchRules": {
     "targetMunicipalitiesPerTurn": "3-5",
