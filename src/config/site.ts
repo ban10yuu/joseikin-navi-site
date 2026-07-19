@@ -6,6 +6,9 @@ function optionalValue(value: string | undefined): string | null {
   return normalized ? normalized : null;
 }
 
+// GA4の測定IDは公開情報です。環境変数を設定すれば移行時に上書きできます。
+const defaultGa4MeasurementId = 'G-N3WLX1MLYW';
+
 export const siteConfig = {
   name: optionalValue(process.env.NEXT_PUBLIC_SITE_NAME) ?? '助成金ナビ',
   url: getSiteUrl(),
@@ -15,7 +18,7 @@ export const siteConfig = {
   contactFormUrl: optionalValue(process.env.NEXT_PUBLIC_CONTACT_FORM_URL),
   googleSiteVerification: optionalValue(process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION),
   analytics: {
-    ga4MeasurementId: optionalValue(process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID),
+    ga4MeasurementId: optionalValue(process.env.NEXT_PUBLIC_GA4_MEASUREMENT_ID) ?? defaultGa4MeasurementId,
     vercelAnalyticsEnabled: process.env.NEXT_PUBLIC_VERCEL_ANALYTICS_ENABLED === 'true',
   },
   adsense: {
