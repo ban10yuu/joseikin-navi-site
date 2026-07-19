@@ -25,6 +25,7 @@ import { getEffectiveGrantStatus, getOfficialCtaLabel, isRepayableSupport } from
 import { toSiteUrl } from '@/lib/site-url';
 import { getEligibleAffiliateOffers, isSensitiveAffiliateContext } from '@/lib/monetization';
 import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
+import { hasApprovedSensitiveAffiliateContext } from '@/config/affiliate-security';
 import { CATEGORY_LABELS, SUPPORT_TYPE_LABELS, type Section } from '@/lib/types';
 
 interface Props { params: Promise<{ slug: string }> }
@@ -105,15 +106,17 @@ export default async function GrantDetailPage({ params }: Props) {
   const affiliateIntents = getGrantAffiliateIntents({
     title: grant.title,
     description: grant.description,
+    eligibility: grant.eligibility,
     tags: grant.tags,
     purposes: grant.purposes,
     primaryPurpose: grant.primaryPurpose,
+    audiences: grant.audiences,
     affiliateIntents: grant.affiliateIntents ?? [],
   });
   const affiliateHeading = businessAudience ? '事業に関連するサービス' : 'この制度の目的に関連するサービス';
   const affiliateDescription = businessAudience
     ? '事業の準備や運営に関連する民間サービスの広告です。この制度の申請や採択に必須ではありません。'
-    : 'この制度の目的に直接関連する民間サービスの広告です。制度の利用や申請に必須ではありません。';
+    : 'この制度の目的に関連する民間サービスの広告です。制度の利用や申請に必須ではありません。';
   const affiliateOffers = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
     pageType: 'grant',
     audiences: grant.audiences ?? [],
@@ -127,11 +130,12 @@ export default async function GrantDetailPage({ params }: Props) {
       sensitive: sensitiveContext,
     }),
     status,
-    indexable: sourceStatus.level !== 'unverified' && !expired && grant.indexStatus !== 'noindex' && grant.contentStatus === 'published',
+    indexable: sourceStatus.level !== 'unverified' && grant.indexStatus !== 'noindex' && grant.contentStatus === 'published',
     hasOfficialSource: Boolean(primaryOfficialUrl),
     sensitive: sensitiveContext,
+    sensitiveMonetizationApproved: hasApprovedSensitiveAffiliateContext(grant.slug, affiliateIntents),
     texts: affiliateContextTexts,
-    limit: 2,
+    limit: 3,
   });
   const primaryAffiliateOffers = affiliateOffers.slice(0, 1);
   const secondaryAffiliateOffers = affiliateOffers.slice(1);
@@ -181,7 +185,6 @@ export default async function GrantDetailPage({ params }: Props) {
                 intents={affiliateIntents}
                 placement="grant-after-official-source"
                 className="grant-affiliate-placement"
-                expandAt={1200}
                 heading={affiliateHeading}
                 description={affiliateDescription}
               />
@@ -243,7 +246,9 @@ export default async function GrantDetailPage({ params }: Props) {
               intents={affiliateIntents}
               placement="grant-before-correction"
               className="grant-affiliate-inline-placement"
-              expandAt={1200}
+              visibleCount={2}
+              positionOffset={1}
+              lazyCreatives
               heading={affiliateHeading}
               description={affiliateDescription}
             />

@@ -69,6 +69,10 @@ export default function AnalyticsEvents() {
             impressionTimers.delete(element);
             return;
           }
+          if (element.querySelector('[data-creative-load="deferred"]')) {
+            impressionTimers.delete(element);
+            return;
+          }
           trackOnce(readEvent(element, element.dataset.analyticsImpressionEvent));
           observer.unobserve(element);
           impressionTimers.delete(element);
@@ -91,6 +95,14 @@ export default function AnalyticsEvents() {
 
     const mutationObserver = new MutationObserver((records) => {
       for (const record of records) {
+        if (record.type === 'attributes' && record.target instanceof HTMLElement && record.target.dataset.creativeLoad === 'loaded') {
+          const impression = record.target.closest<HTMLElement>('[data-analytics-impression="true"]');
+          if (impression) {
+            observer.unobserve(impression);
+            observer.observe(impression);
+          }
+          continue;
+        }
         record.addedNodes.forEach((node) => {
           if (!(node instanceof HTMLElement)) return;
           if (node.matches('[data-analytics-render="true"], [data-analytics-impression="true"]')
@@ -114,7 +126,7 @@ export default function AnalyticsEvents() {
     document.addEventListener('click', handleClick);
     document.addEventListener('submit', handleSubmit);
     registerTree(document);
-    mutationObserver.observe(document.body, { childList: true, subtree: true });
+    mutationObserver.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['data-creative-load'] });
     return () => {
       document.removeEventListener('click', handleClick);
       document.removeEventListener('submit', handleSubmit);

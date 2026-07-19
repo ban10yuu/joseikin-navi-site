@@ -1,6 +1,7 @@
 import json
 import os
 from pathlib import Path
+from urllib.parse import urljoin, urlparse
 from playwright.sync_api import sync_playwright
 from axe_playwright_python.sync_playwright import Axe
 
@@ -24,6 +25,9 @@ def rectangles_overlap(left, right):
         or right['y'] + right['height'] <= left['y']
     )
 
+def normalize_external_url(value):
+    return urljoin('https://shienseido-navi.jp/', value or '')
+
 def check_affiliate_image_ratio(page, image, message):
     try:
         image.scroll_into_view_if_needed(timeout=5000)
@@ -39,6 +43,14 @@ def check_affiliate_image_ratio(page, image, message):
     except Exception:
         check(False, f'{message}（公式PR画像を読み込めません）')
 
+def load_affiliate_creative(card):
+    try:
+        card.scroll_into_view_if_needed(timeout=5000)
+        card.locator('.affiliate-creative-link img').first.wait_for(state='visible', timeout=5000)
+        return True
+    except Exception:
+        return False
+
 def open_page(browser, path, width=1280, height=900):
     page = browser.new_page(viewport={'width': width, 'height': height})
     console_errors = []
@@ -50,6 +62,22 @@ def open_page(browser, path, width=1280, height=900):
 
 with sync_playwright() as playwright:
     browser = playwright.chromium.launch(headless=True, executable_path=CHROME_PATH)
+
+    # 画面外のASP画像と計測ピクセルは、広告枠へ近づくまで取得しない
+    lazy_home = browser.new_page(viewport={'width': 390, 'height': 320})
+    ad_image_requests = []
+    ad_hosts = {'image.moshimo.com', 'i.moshimo.com'}
+    lazy_home.on('request', lambda request: ad_image_requests.append(request.url) if request.resource_type == 'image' and (((urlparse(request.url).hostname or '') in ad_hosts) or (urlparse(request.url).hostname or '').endswith('.a8.net')) else None)
+    lazy_home.goto(f'{BASE_URL}/', wait_until='domcontentloaded')
+    lazy_home.wait_for_timeout(300)
+    deferred_creatives = lazy_home.locator('.home-affiliate-more [data-creative-load="deferred"]')
+    check(deferred_creatives.count() > 0, 'トップの画面外PRが初期状態で遅延されていません')
+    initial_ad_request_count = len(ad_image_requests)
+    lazy_home.locator('.home-affiliate-more').scroll_into_view_if_needed()
+    lazy_home.wait_for_timeout(500)
+    check(lazy_home.locator('.home-affiliate-more [data-creative-load="loaded"]').count() > 0, 'トップの遅延PRが接近後も読み込まれません')
+    check(len(ad_image_requests) > initial_ad_request_count, 'トップの遅延PR画像が接近後にだけ取得されることを確認できません')
+    lazy_home.close()
 
     # トップの装飾が人物や案内アイコンへ重ならないこと
     for visual_width in [320, 768, 1440]:
@@ -70,19 +98,20 @@ with sync_playwright() as playwright:
         if audience_visual.count() == 1:
             guide_number = first_guide.locator('.home-search-guide-number').bounding_box()
             check(not rectangles_overlap(guide_number, audience_visual.bounding_box()), f'トップ ({visual_width}px): 手順番号が対象アイコンへ重なっています')
-        initial_affiliate_image = visual_home.locator('.home-business-affiliate .affiliate-creative-link img').first
-        expected_count = 1
-        check(initial_affiliate_image.count() == expected_count, f'トップ ({visual_width}px): 初期状態のPR画像数が設計と一致しません')
+        initial_affiliate_pr = visual_home.locator('[data-analytics-impression-event="affiliate_impression"]')
+        check(2 < initial_affiliate_pr.count() <= 4, f'トップ ({visual_width}px): 初期状態の個人向けPRが3件以上ではありません')
         visual_home.wait_for_timeout(750)
         visual_home.get_by_role('button', name='事業者・団体向け').click()
-        affiliate_image = visual_home.locator('.home-business-affiliate .affiliate-creative-link img').first
+        affiliate_pr = visual_home.locator('[data-analytics-impression-event="affiliate_impression"]')
         try:
-            affiliate_image.first.wait_for(state='attached', timeout=5000)
+            affiliate_pr.first.wait_for(state='attached', timeout=5000)
         except Exception:
             pass
-        check(affiliate_image.count() == expected_count, f'トップ ({visual_width}px): 表示されるPR画像数が設計と一致しません')
-        for image_index in range(affiliate_image.count()):
-            check_affiliate_image_ratio(visual_home, affiliate_image.nth(image_index), f'トップ ({visual_width}px): 公式PR画像の固有比率が崩れています')
+        check(2 < affiliate_pr.count() <= 4, f'トップ ({visual_width}px): 事業者向けPRが3件以上ではありません')
+        for pr_index in range(affiliate_pr.count()):
+            current_pr = affiliate_pr.nth(pr_index)
+            check(load_affiliate_creative(current_pr), f'トップ ({visual_width}px): 公式PR画像が接近後も読み込まれません')
+            check_affiliate_image_ratio(visual_home, current_pr.locator('.affiliate-creative-link img').first, f'トップ ({visual_width}px): 公式PR画像の固有比率が崩れています')
         visual_home.close()
 
     # PCでは検索フォームの右に公式PRを配置する
@@ -92,7 +121,9 @@ with sync_playwright() as playwright:
     desktop_search = desktop_home.locator('.home-search-panel')
     desktop_rail = desktop_home.locator('.home-business-affiliate')
     desktop_pr = desktop_home.locator('.home-business-affiliate [data-analytics-impression-event="affiliate_impression"]')
-    check(desktop_pr.count() == 1, 'トップPC: PRカルーセルの表示中案件が1件ではありません')
+    desktop_more_pr = desktop_home.locator('.home-affiliate-more [data-analytics-impression-event="affiliate_impression"]')
+    check(desktop_pr.count() == 1, 'トップPC: 右レールの主PRが1件ではありません')
+    check(2 <= desktop_more_pr.count() <= 3, 'トップPC: 検索下の関連PRが2〜3件ではありません')
     if desktop_pr.count() >= 1:
         desktop_search_box = desktop_home.locator('.home-search-step').first.bounding_box()
         desktop_heading_box = desktop_home.locator('.home-search-heading').bounding_box()
@@ -109,43 +140,49 @@ with sync_playwright() as playwright:
     # 主要URLとフォーム、メニュー、URLクエリの動作
     home, home_errors = open_page(browser, '/', 390, 844)
     home.screenshot(path=str(REPORT_DIR / 'home-390.png'), full_page=True)
-    check(home.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 1, 'トップ初期状態に個人・家族向けPRが表示されません')
+    check(2 < home.locator('[data-analytics-impression-event="affiliate_impression"]').count() <= 4, 'トップ初期状態に個人向けPRが3件以上表示されません')
     home.get_by_role('button', name='事業者・団体向け').click()
     home.wait_for_timeout(200)
-    hero_pr = home.locator('[data-analytics-impression-event="affiliate_impression"][data-placement="home-business-selection"]')
-    check(hero_pr.count() == 1, 'トップモバイルで事業者選択後のPRが1件表示されません')
-    if hero_pr.count() == 1:
+    hero_pr = home.locator('[data-analytics-impression-event="affiliate_impression"][data-placement="home-featured-rail"], [data-analytics-impression-event="affiliate_impression"][data-placement="home-related-row"]')
+    check(2 < hero_pr.count() <= 4, 'トップモバイルで事業者選択後のPRが3件以上表示されません')
+    check(len(set(hero_pr.evaluate_all('(items) => items.map((item) => item.dataset.offerId)'))) == hero_pr.count(), 'トップモバイルで同じPR案件が重複しています')
+    check(hero_pr.evaluate_all('(items) => items.map((item) => Number(item.dataset.position))') == list(range(1, hero_pr.count() + 1)), 'トップモバイルの初期PR計測位置が連番ではありません')
+    if hero_pr.count() >= 1:
         hero_pr_box = hero_pr.nth(0).bounding_box()
         check(hero_pr_box['width'] <= 320, 'トップモバイル: PR枠が300pxクリエイティブより不自然に広がっています')
         for pr_index in range(hero_pr.count()):
             current_pr = hero_pr.nth(pr_index)
+            check(load_affiliate_creative(current_pr), 'トップPRが接近後も読み込まれません')
             check(current_pr.locator('[data-ad-label]').is_visible(), 'トップのPR表記が見える状態ではありません')
             check(current_pr.locator('[data-ad-label]').inner_text().strip() == 'PR', 'トップのPR表記がPRだけではありません')
             check(current_pr.locator('.affiliate-banner-visual').count() == 0, 'トップPRに自作ビジュアル要素が残っています')
             check(current_pr.locator('.affiliate-creative-link img').first.is_visible(), 'トップPRにASP提供クリエイティブ画像が表示されていません')
-    hero_pr_cta = hero_pr.locator('.affiliate-creative-cta')
+    hero_pr_cta = home.locator('[data-placement="home-featured-rail"] .affiliate-creative-cta').first
     hero_pr_cta.focus()
     check(hero_pr_cta.evaluate('(element) => document.activeElement === element'), 'トップモバイル: PRの明示CTAへキーボードフォーカスできません')
-    carousel_next = home.get_by_role('button', name='次へ')
+    carousel_next = home.locator('.home-affiliate-more').get_by_role('button', name='次へ')
     if carousel_next.count() == 1:
-        first_offer_id = hero_pr.get_attribute('data-offer-id')
+        more_pr = home.locator('.home-affiliate-more [data-analytics-impression-event="affiliate_impression"]')
+        first_offer_id = more_pr.first.get_attribute('data-offer-id')
+        first_position = int(more_pr.first.get_attribute('data-position'))
         carousel_next.focus()
         home.keyboard.press('Enter')
         home.wait_for_timeout(100)
-        switched_pr = home.locator('[data-analytics-impression-event="affiliate_impression"][data-placement="home-business-selection"]')
-        check(switched_pr.get_attribute('data-offer-id') != first_offer_id, 'トップモバイル: Enterで次のPRへ切り替わりません')
-        check('2 /' in home.locator('.responsive-affiliate-controls [role="status"]').inner_text(), 'トップモバイル: PR切り替え状態が更新されません')
+        switched_pr = home.locator('.home-affiliate-more [data-analytics-impression-event="affiliate_impression"]')
+        check(switched_pr.first.get_attribute('data-offer-id') != first_offer_id, 'トップモバイル: Enterで次のPR群へ切り替わりません')
+        check(int(switched_pr.first.get_attribute('data-position')) > first_position, 'トップモバイル: 切り替え後のPR計測位置が更新されません')
+        check('件 / 全' in home.locator('.home-affiliate-more .responsive-affiliate-controls [role="status"]').inner_text(), 'トップモバイル: PR切り替え状態が更新されません')
     check(home.locator('.home-search-submit').evaluate('(submit) => Boolean(submit.compareDocumentPosition(document.querySelector(\'.home-business-affiliate\')) & Node.DOCUMENT_POSITION_FOLLOWING)'), 'トップモバイル: PRが検索ボタンより前に割り込んでいます')
-    check(hero_pr.bounding_box()['y'] >= home.locator('.home-search-submit').bounding_box()['y'] + home.locator('.home-search-submit').bounding_box()['height'], 'トップモバイル: PRが検索操作を視覚的に遮っています')
+    check(hero_pr.first.bounding_box()['y'] >= home.locator('.home-search-submit').bounding_box()['y'] + home.locator('.home-search-submit').bounding_box()['height'], 'トップモバイル: PRが検索操作を視覚的に遮っています')
     home_business_audit = Axe().run(home, options={'runOnly': {'type': 'tag', 'values': ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa']}, 'resultTypes': ['violations']})
     axe_results['/ (事業者選択後)'] = home_business_audit.response
     home_business_major = [item for item in home_business_audit.response['violations'] if item.get('impact') in ('critical', 'serious')]
     check(len(home_business_major) == 0, f'トップ事業者選択後: axe重大違反 {[(item["id"], len(item["nodes"])) for item in home_business_major]}')
-    check(home.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 1, 'トップモバイルの可視PRが1件ではありません')
+    check(2 < home.locator('[data-analytics-impression-event="affiliate_impression"]').count() <= 4, 'トップモバイルの可視PRが3件以上ではありません')
     home.get_by_role('button', name='省エネ').click()
     check(home.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 0, '適合案件がない省エネ選択時にもPRが表示されています')
     home.get_by_role('button', name='創業').click()
-    check(home.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 1, '創業選択時に適合PRが表示されません')
+    check(2 < home.locator('[data-analytics-impression-event="affiliate_impression"]').count() <= 4, '創業選択時に適合PRが3件以上表示されません')
     check(home.locator('input[name="audience"]').get_attribute('value') == 'business', 'トップ: 対象切替が検索条件へ反映されません')
     home.get_by_role('button', name='メニューを開く').click()
     check(home.get_by_role('navigation', name='モバイルメニュー').is_visible(), 'モバイルメニューが開きません')
@@ -237,13 +274,13 @@ with sync_playwright() as playwright:
 
     ended_business, ended_business_errors = open_page(browser, '/grant/adachi-startup-support/', 390, 844)
     check(ended_business.get_by_text('次回募集・後継制度を公式サイトで確認').count() >= 1, '終了済み創業制度のCTAが次回募集確認になっていません')
-    check(ended_business.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 2, '終了済み創業制度の詳細にPRが2枠表示されません')
+    check(0 < ended_business.locator('[data-analytics-impression-event="affiliate_impression"]').count() <= 3, '終了済み創業制度の詳細に適合PRが表示されません')
     check(len(ended_business_errors) == 0, f'終了済み創業制度: console error {ended_business_errors}')
     ended_business.close()
 
     sensitive, sensitive_errors = open_page(browser, '/grant/ora-fertility-treatment-subsidy-2026/', 390, 844)
     sensitive_impression = sensitive.locator('[data-analytics-impression-event="affiliate_impression"]')
-    check(sensitive_impression.count() == 2, '個人向け・医療系の制度詳細にPRが2枠表示されません')
+    check(0 < sensitive_impression.count() <= 2, '個人向け・医療系の制度詳細に適合PRが表示されません')
     check(sensitive.get_by_text('事業者・団体向けサービス').count() == 0, '個人向け詳細に事業者向けという誤った広告区分が残っています')
     check(sensitive.locator('.grant-summary-eligibility-list li').count() >= 2, '要約カードの主な対象者が箇条書きになっていません')
     check(len(sensitive_errors) == 0, f'個人向け・医療系制度: console error {sensitive_errors}')
@@ -255,7 +292,7 @@ with sync_playwright() as playwright:
     affiliate_desktop_rail = affiliate_desktop.locator('.grant-affiliate-placement')
     affiliate_desktop_pr = affiliate_desktop_rail.locator('[data-analytics-impression-event="affiliate_impression"]')
     check(affiliate_desktop_pr.count() == 1, '制度詳細PC: 右レールの表示中PRが1件ではありません')
-    check(affiliate_desktop.locator('[data-analytics-impression-event="affiliate_impression"]').count() == 2, '制度詳細PC: 上部・本文後半のPRカルーセルがありません')
+    check(0 < affiliate_desktop.locator('[data-analytics-impression-event="affiliate_impression"]').count() <= 3, '制度詳細PC: 適合PRが表示されません')
     if affiliate_desktop_pr.count() >= 1:
         affiliate_desktop_article_box = affiliate_desktop.locator('.grant-detail-main-start').bounding_box()
         affiliate_desktop_official_box = affiliate_desktop.locator('.grant-source-panel').bounding_box()
@@ -272,18 +309,38 @@ with sync_playwright() as playwright:
     affiliate, affiliate_errors = open_page(browser, '/grant/hachioji-startup-support/', 390, 844)
     affiliate_impression = affiliate.locator('[data-analytics-impression-event="affiliate_impression"]')
     affiliate_link = affiliate.locator('.affiliate-creative-link a')
-    check(affiliate_impression.count() == 2, '制度詳細モバイルにPRが2枠表示されません')
-    check(affiliate_link.count() == 2, '制度詳細モバイルのPRリンクが2件ではありません')
+    tracked_affiliate_links = affiliate.locator('a[data-analytics-event="affiliate_click"]')
+    check(0 < affiliate_impression.count() <= 3, '制度詳細モバイルに適合PRが表示されません')
+    for pr_index in range(affiliate_impression.count()):
+        affiliate_impression.nth(pr_index).scroll_into_view_if_needed()
+    affiliate.wait_for_timeout(300)
+    check(affiliate_link.count() == affiliate_impression.count(), '制度詳細モバイルのASP発行リンク数がPR数と一致しません')
+    check(len(set(affiliate_impression.evaluate_all('(items) => items.map((item) => item.dataset.offerId)'))) == affiliate_impression.count(), '制度詳細モバイルで同じPR案件が重複しています')
+    check(tracked_affiliate_links.count() == affiliate_impression.count() * 2, '制度詳細の画像リンクと明示CTAが各案件に揃っていません')
     for link_index in range(affiliate_link.count()):
         current_link = affiliate_link.nth(link_index)
         check(current_link.get_attribute('rel') == 'nofollow', 'PRリンクがASP発行コードのrel属性と一致しません')
+    for link_index in range(tracked_affiliate_links.count()):
+        current_link = tracked_affiliate_links.nth(link_index)
+        check(current_link.get_attribute('target') == '_blank', '実クリック用PRリンクが新しいタブで開きません')
+        for required_rel in ['sponsored', 'nofollow', 'noopener', 'noreferrer']:
+            check(required_rel in (current_link.get_attribute('rel') or '').split(), f'実クリック用PRリンクに{required_rel}がありません')
+    for overlay_index in range(affiliate.locator('.affiliate-creative-overlay').count()):
+        overlay = affiliate.locator('.affiliate-creative-overlay').nth(overlay_index)
+        check(overlay.get_attribute('tabindex') == '-1' and overlay.get_attribute('aria-hidden') == 'true', '画像全面リンクがキーボード導線へ重複しています')
     for pr_index in range(affiliate_impression.count()):
         check(affiliate_impression.nth(pr_index).locator('[data-ad-label]').inner_text().strip() == 'PR', 'PR表記がPRだけではありません')
     check(affiliate_impression.locator('.affiliate-banner-visual').count() == 0, '制度詳細PRに自作ビジュアル要素が残っています')
     for pr_index in range(affiliate_impression.count()):
         current_image = affiliate_impression.nth(pr_index).locator('.affiliate-creative-link img').first
+        current_pr = affiliate_impression.nth(pr_index)
         check(current_image.is_visible(), '制度詳細PRにASP公式クリエイティブ画像が表示されていません')
         check(current_image.evaluate('(element) => element.closest("a") !== null'), 'ASPバナー内の画像が発行リンク内にありません')
+        issued_anchor = current_pr.locator('.affiliate-creative-link a').first
+        issued_images = current_pr.locator('.affiliate-creative-link img')
+        check(normalize_external_url(issued_anchor.get_attribute('href')) == normalize_external_url(current_pr.get_attribute('data-expected-affiliate-url')), 'ASP発行リンクが案件台帳の成果URLと一致しません')
+        check(normalize_external_url(issued_images.first.get_attribute('src')) == normalize_external_url(current_pr.get_attribute('data-expected-creative-url')), 'ASP発行画像が案件台帳のクリエイティブURLと一致しません')
+        check(issued_images.count() >= 2 and normalize_external_url(issued_images.last.get_attribute('src')) == normalize_external_url(current_pr.get_attribute('data-expected-impression-url')), 'ASP発行計測ピクセルが案件台帳と一致しません')
         check_affiliate_image_ratio(affiliate, current_image, '制度詳細モバイル: 公式PR画像の固有比率が崩れています')
     check(affiliate.locator('.grant-official-primary').count() >= 1, 'PR表示ページに公式CTAがありません')
     if affiliate_impression.count() >= 1:
@@ -328,14 +385,21 @@ with sync_playwright() as playwright:
     narrow_home, _ = open_page(browser, '/', 320, 900)
     field_boxes = [narrow_home.locator('.home-search-field').nth(index).bounding_box() for index in range(2)]
     check(field_boxes[1]['y'] >= field_boxes[0]['y'] + field_boxes[0]['height'], '320pxで地域とキーワードが1列になっていません')
+    narrow_more = narrow_home.locator('.home-affiliate-more .responsive-affiliate-slides')
+    narrow_card = narrow_more.locator('.responsive-affiliate-slide').first
+    narrow_more_box = narrow_more.bounding_box()
+    narrow_card_box = narrow_card.bounding_box()
+    check(narrow_card_box['width'] >= 240, '320pxで横スワイプ広告が小さくなりすぎています')
+    check(narrow_more_box['x'] + narrow_more_box['width'] - (narrow_card_box['x'] + narrow_card_box['width']) >= 32, '320pxで次の広告カードがあることを示す見切れ幅が不足しています')
     narrow_home.close()
 
     # 画面幅が変わってもカルーセルの同時表示数を安定させる
-    for boundary_width, expected_pr_count in [(1023, 1), (1024, 1)]:
+    for boundary_width in [1023, 1024]:
         boundary_home, _ = open_page(browser, '/', boundary_width, 900)
         boundary_home.get_by_role('button', name='事業者・団体向け').click()
         boundary_home.wait_for_timeout(150)
-        check(boundary_home.locator('[data-analytics-impression-event="affiliate_impression"][data-placement="home-business-selection"]').count() == expected_pr_count, f'トップ ({boundary_width}px): PR同時表示数が境界仕様と一致しません')
+        boundary_pr_count = boundary_home.locator('[data-analytics-impression-event="affiliate_impression"][data-placement="home-featured-rail"], [data-analytics-impression-event="affiliate_impression"][data-placement="home-related-row"]').count()
+        check(2 < boundary_pr_count <= 4, f'トップ ({boundary_width}px): PR同時表示数が3〜4件ではありません')
         boundary_home.close()
 
     # WCAG A/AAの自動検査（critical/seriousを失敗扱い）

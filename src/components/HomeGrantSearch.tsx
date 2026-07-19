@@ -90,16 +90,16 @@ export default function HomeGrantSearch({
 
   const selectedPurposeOption = PURPOSES[audience].find((item) => item.label === selectedPurpose);
   const audienceAffiliateOffers = audience === 'business' ? businessAffiliateOffers : personalAffiliateOffers;
-  const unselectedOffers = audience === 'personal'
-    ? audienceAffiliateOffers.filter((offer) => offer.allowedPurposes.some((purpose) => ['childcare', 'housing', 'education'].includes(purpose)))
-    : audienceAffiliateOffers;
+  const unselectedOffers = audienceAffiliateOffers;
   const selectedAffiliateOffers = (selectedPurposeOption
       ? audienceAffiliateOffers.filter((offer) => Boolean(selectedPurposeOption.purpose)
         && Boolean(selectedPurposeOption.intents?.length)
         && offer.allowedPurposes.includes(selectedPurposeOption.purpose as Purpose)
         && selectedPurposeOption.intents?.some((intent) => offer.intents.includes(intent)))
-      : unselectedOffers).slice(0, 3);
+      : unselectedOffers).slice(0, 8);
   const showContextualAffiliate = selectedAffiliateOffers.length > 0;
+  const featuredAffiliateOffers = selectedAffiliateOffers.slice(0, 1);
+  const moreAffiliateOffers = selectedAffiliateOffers.slice(1);
   const affiliatePurpose = selectedPurposeOption?.purpose ?? (audience === 'business' ? 'businessGrowth' : 'other');
 
   return (
@@ -240,13 +240,13 @@ export default function HomeGrantSearch({
         {showContextualAffiliate ? (
           <div className="home-business-affiliate">
             <ResponsiveAffiliatePlacement
-              offers={selectedAffiliateOffers}
+              key={`featured-${featuredAffiliateOffers.map((offer) => offer.id).join('-')}`}
+              offers={featuredAffiliateOffers}
               pageType="home"
-              placement="home-business-selection"
+              placement="home-featured-rail"
               audience={audience === 'business' ? 'business' : 'individual'}
               purpose={affiliatePurpose}
               className="home-affiliate-placement"
-              expandAt={1024}
               heading={selectedPurposeOption ? '選択した目的に関連するサービス' : audience === 'business' ? '事業の準備・運営に関連するサービス' : '暮らし・学びに関連するサービス'}
               description="民間サービスの広告です。制度の利用や申請に必須ではありません。"
             />
@@ -257,6 +257,26 @@ export default function HomeGrantSearch({
       <p className="home-search-footnote">
         掲載総数{totalCount.toLocaleString('ja-JP')}件。候補を見つけるための検索です。対象条件と受付状況は、各制度の公式ページで最終確認してください。
       </p>
+
+      {moreAffiliateOffers.length > 0 ? (
+        <div className="home-affiliate-more">
+          <p className="home-affiliate-swipe-hint">横にスワイプして関連サービスを確認できます</p>
+          <ResponsiveAffiliatePlacement
+            key={`more-${moreAffiliateOffers.map((offer) => offer.id).join('-')}`}
+            offers={moreAffiliateOffers}
+            pageType="home"
+            placement="home-related-row"
+            audience={audience === 'business' ? 'business' : 'individual'}
+            purpose={affiliatePurpose}
+            className="home-affiliate-more-placement"
+            visibleCount={3}
+            positionOffset={1}
+            lazyCreatives
+            heading="そのほかの関連サービス"
+            description="現在選択している対象に関連する民間サービスの広告です。"
+          />
+        </div>
+      ) : null}
       </section>
   );
 }

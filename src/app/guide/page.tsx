@@ -77,7 +77,7 @@ export default function GuidePage() {
           <h2 id="business-guide-title" className="mt-1 text-2xl font-black leading-relaxed text-navy">公募要領から実績報告まで</h2>
           <p className="mb-5 mt-2 text-base leading-8 text-muted">対象経費や着手時期を誤らないよう、申請前だけでなく交付決定後の義務まで確認します。</p>
           {businessAffiliates.length > 0 && (
-            <ResponsiveAffiliatePlacement offers={businessAffiliates} pageType="businessGuide" placement="business-guide-intro" audience="business" purpose="businessGrowth" className="guide-affiliate-placement mb-5" expandAt={1024} />
+            <ResponsiveAffiliatePlacement offers={businessAffiliates} pageType="businessGuide" placement="business-guide-intro" audience="business" purpose="businessGrowth" className="guide-affiliate-placement mb-5" lazyCreatives />
           )}
           <GuideSteps steps={businessSteps} />
         </section>

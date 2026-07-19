@@ -79,6 +79,25 @@ export const AFFILIATE_PRIVACY_SERVICES = {
   },
 } as const;
 
+// センシティブ領域は、自動付与されたintentだけでは解禁しない。
+// 運営者が許可した「制度IDの語」とintentの組合せを、広告設定とは別の台帳で照合する。
+export const SENSITIVE_AFFILIATE_APPROVAL_RULES = [
+  {
+    intent: 'fertilityCare',
+    approvedGrantIds: [
+      'ashoro-advanced-fertility-treatment-subsidy-2026',
+      'nakanojo-infertility-treatment-2026',
+      'ora-fertility-treatment-subsidy-2026',
+    ],
+  },
+] as const;
+
+export function hasApprovedSensitiveAffiliateContext(grantId: string, intents: readonly string[]): boolean {
+  return SENSITIVE_AFFILIATE_APPROVAL_RULES.some((rule) =>
+    intents.includes(rule.intent)
+    && (rule.approvedGrantIds as readonly string[]).includes(grantId));
+}
+
 export function isAllowedAffiliateHost(kind: keyof typeof AFFILIATE_HOST_ALLOWLIST, url: string | null | undefined): boolean {
   if (!url) return false;
   try {

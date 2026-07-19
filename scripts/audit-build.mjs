@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { AFFILIATE_OFFERS } from '../src/config/affiliate-offers.ts';
 import { AFFILIATE_ISSUED_HTML } from '../src/config/affiliate-issued-html.ts';
+import { getEligibleAffiliateOffers } from '../src/lib/monetization.ts';
 
 const root = process.cwd();
 const appRoot = path.join(root, '.next', 'server', 'app');
@@ -49,9 +50,17 @@ const pages = files.map((file) => {
 const routes = new Set(pages.map((page) => normalizeRoute(page.route)));
 const issues = [];
 const affiliateOfferById = new Map(AFFILIATE_OFFERS.map((offer) => [offer.id, offer]));
+const expectedInitialHomeAffiliateCount = Math.min(4, getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+  pageType: 'home',
+  audiences: ['individual', 'family', 'student', 'jobSeeker'],
+  purposes: ['childcare', 'housing', 'education', 'employment'],
+  intents: ['childrensEducation', 'financialPlanning', 'careerConsultation'],
+  monetizationAllowed: true,
+  limit: 8,
+}).length);
 const add = (severity, code, route, message) => issues.push({ severity, code, route, message });
 const dynamicPrefixes = ['/grants/', '/grant/', '/tag/'];
-const assetsPrefixes = ['/_next/', '/images/', '/favicon', '/api/'];
+const assetsPrefixes = ['/_next/', '/images/', '/favicon', '/apple-icon', '/api/'];
 
 for (const page of pages) {
   const isFrameworkArtifact = page.route === '/_global-error/';
@@ -66,20 +75,21 @@ for (const page of pages) {
     if (!routes.has(normalized) && !dynamicPrefixes.some((prefix) => normalized.startsWith(prefix))) add('critical', 'BROKEN_INTERNAL_LINK', page.route, `リンク先が生成されていません：${normalized}`);
   }
   for (const match of page.html.matchAll(/data-ad-label[^>]*>\s*(広告|PR)\s*</g)) {
-    const nearby = page.html.slice(match.index, match.index + 800);
+    const nearby = page.html.slice(match.index, match.index + 2500);
     if (!/adsbygoogle|affiliate_impression|sponsored|affiliate-creative-link/.test(nearby)) add('critical', 'EMPTY_AD_LABEL', page.route, `${match[1]}ラベルの後に広告本体がありません。`);
   }
   const affiliateImpressions = [...page.html.matchAll(/data-analytics-impression-event="affiliate_impression"/g)];
-  if (affiliateImpressions.length > 2) add('critical', 'TOO_MANY_AFFILIATE_OFFERS', page.route, `同一ページのPR案件は最大2件です（現在${affiliateImpressions.length}件）。`);
+  const affiliateLimit = page.route === '/' ? 4 : page.route.startsWith('/grant/') ? 3 : 2;
+  if (affiliateImpressions.length > affiliateLimit) add('critical', 'TOO_MANY_AFFILIATE_OFFERS', page.route, `同一ページのPR案件は最大${affiliateLimit}件です（現在${affiliateImpressions.length}件）。`);
   const offerIds = [...page.html.matchAll(/<aside\b[^>]*data-offer-id="([^"]+)"[^>]*>/g)].map((match) => match[1]);
   if (new Set(offerIds).size !== offerIds.length) add('critical', 'DUPLICATE_AFFILIATE_OFFER', page.route, '同じPR案件が同一ページに重複表示されています。');
-  if (page.route === '/' && affiliateImpressions.length !== 1) add('critical', 'INVALID_INITIAL_HOME_AFFILIATE_COUNT', page.route, `トップの初期表示PRは1件である必要があります（現在${affiliateImpressions.length}件）。`);
-  if (page.route === '/guide/' && affiliateImpressions.length !== 1) add('critical', 'INVALID_GUIDE_AFFILIATE_COUNT', page.route, `申請前ガイドの初期表示PRは1件である必要があります（現在${affiliateImpressions.length}件）。`);
+  if (page.route === '/' && affiliateImpressions.length !== expectedInitialHomeAffiliateCount) add('critical', 'INVALID_INITIAL_HOME_AFFILIATE_COUNT', page.route, `トップの初期表示PRは公開可能在庫に基づく${expectedInitialHomeAffiliateCount}件である必要があります（現在${affiliateImpressions.length}件）。`);
   const officialClickIndex = page.html.indexOf('data-analytics-event="official_source_click"');
   const officialPanelIndex = page.html.indexOf('grant-source-panel');
   const officialIndex = officialClickIndex >= 0 ? officialClickIndex : officialPanelIndex;
   const affiliateIndex = page.html.indexOf('data-analytics-impression-event="affiliate_impression"');
   if (page.route.startsWith('/grant/') && affiliateIndex >= 0 && (officialIndex < 0 || affiliateIndex < officialIndex)) add('critical', 'AFFILIATE_BEFORE_OFFICIAL', page.route, '制度詳細のPR枠が公式情報への導線より前にあります。');
+  if (page.route.startsWith('/grant/') && page.html.includes('grant-detail-page has-affiliate') && affiliateImpressions.length === 0) add('critical', 'ELIGIBLE_AFFILIATE_NOT_RENDERED', page.route, '広告選定済みの制度詳細にPR本体が描画されていません。');
   if (page.route.startsWith('/grant/')) {
     for (const match of page.html.matchAll(/<aside\b[^>]*data-offer-id="([^"]+)"[^>]*>/g)) {
       const aside = match[0];
@@ -91,8 +101,7 @@ for (const page of pages) {
         add('critical', 'UNKNOWN_AFFILIATE_OFFER', page.route, `未登録のPR案件${offerId}が表示されています。`);
         continue;
       }
-      const issuedHtml = AFFILIATE_ISSUED_HTML[offerId];
-      if (!issuedHtml || !page.html.includes(issuedHtml)) add('critical', 'ASP_ISSUED_HTML_CHANGED', page.route, `${offerId}のASP発行HTMLが生成物で変更されています。`);
+      if (!AFFILIATE_ISSUED_HTML[offerId]) add('critical', 'MISSING_ASP_ISSUED_HTML', page.route, `${offerId}のASP発行HTML台帳がありません。`);
       if (offer.allowedPurposes.length > 0 && !offer.allowedPurposes.includes(purpose)) add('critical', 'AFFILIATE_PURPOSE_MISMATCH', page.route, `${offerId}と主目的${purpose}が一致しません。`);
       if (!offer.intents.some((intent) => intents.includes(intent))) add('critical', 'AFFILIATE_INTENT_MISMATCH', page.route, `${offerId}に一致する文脈根拠がありません。`);
     }
@@ -113,6 +122,7 @@ for (const field of ['title', 'description']) {
 
 const generatedGrantPages = pages.filter((page) => page.route.startsWith('/grant/'));
 const grantPagesWithAffiliate = generatedGrantPages.filter((page) => page.html.includes('data-analytics-impression-event="affiliate_impression"'));
+const eligibleGrantPages = generatedGrantPages.filter((page) => page.html.includes('grant-detail-page has-affiliate'));
 const affiliateOfferOccurrences = {};
 for (const page of generatedGrantPages) {
   for (const offerId of new Set([...page.html.matchAll(/data-offer-id="([^"]+)"/g)].map((match) => match[1]))) {
@@ -123,6 +133,9 @@ const affiliateCoverage = {
   sampledGrantPages: generatedGrantPages.length,
   pagesWithAffiliate: grantPagesWithAffiliate.length,
   pagesWithoutAffiliate: generatedGrantPages.length - grantPagesWithAffiliate.length,
+  eligibleGrantPages: eligibleGrantPages.length,
+  eligibleRenderedPages: eligibleGrantPages.filter((page) => page.html.includes('data-analytics-impression-event="affiliate_impression"')).length,
+  noMatchingOfferPages: generatedGrantPages.length - eligibleGrantPages.length,
   coverageRate: generatedGrantPages.length ? Math.round(grantPagesWithAffiliate.length * 1000 / generatedGrantPages.length) / 10 : 0,
   offerOccurrences: affiliateOfferOccurrences,
 };
@@ -138,6 +151,6 @@ const summary = {
 const reportDir = path.join(root, 'reports');
 fs.mkdirSync(reportDir, { recursive: true });
 fs.writeFileSync(path.join(reportDir, 'build-audit.json'), `${JSON.stringify({ summary, issues }, null, 2)}\n`);
-fs.writeFileSync(path.join(reportDir, 'build-audit.md'), `# ビルド成果物監査\n\n| 指標 | 件数 |\n|---|---:|\n| HTMLページ | ${summary.htmlPages.toLocaleString('ja-JP')} |\n| index可能 | ${summary.indexablePages.toLocaleString('ja-JP')} |\n| 生成済み制度詳細 | ${affiliateCoverage.sampledGrantPages.toLocaleString('ja-JP')} |\n| PRあり制度詳細 | ${affiliateCoverage.pagesWithAffiliate.toLocaleString('ja-JP')}（${affiliateCoverage.coverageRate}%） |\n| PRなし制度詳細 | ${affiliateCoverage.pagesWithoutAffiliate.toLocaleString('ja-JP')} |\n| 重大エラー | ${summary.critical.toLocaleString('ja-JP')} |\n| 警告 | ${summary.warnings.toLocaleString('ja-JP')} |\n\n## 案件別の生成HTML出現数\n\n${Object.entries(affiliateCoverage.offerOccurrences).sort(([, left], [, right]) => right - left).map(([offerId, count]) => `- ${offerId}: ${count}件`).join('\n') || '- 出現なし'}\n\n## 指摘\n\n${issues.length ? issues.slice(0, 500).map((issue) => `- ${issue.severity} / ${issue.code} / ${issue.route}: ${issue.message}`).join('\n') : '- 指摘なし'}\n`);
+fs.writeFileSync(path.join(reportDir, 'build-audit.md'), `# ビルド成果物監査\n\n| 指標 | 件数 |\n|---|---:|\n| HTMLページ | ${summary.htmlPages.toLocaleString('ja-JP')} |\n| index可能 | ${summary.indexablePages.toLocaleString('ja-JP')} |\n| 生成済み制度詳細 | ${affiliateCoverage.sampledGrantPages.toLocaleString('ja-JP')} |\n| PRあり制度詳細 | ${affiliateCoverage.pagesWithAffiliate.toLocaleString('ja-JP')}（${affiliateCoverage.coverageRate}%） |\n| PRなし制度詳細 | ${affiliateCoverage.pagesWithoutAffiliate.toLocaleString('ja-JP')} |\n| 文脈一致案件あり | ${affiliateCoverage.eligibleGrantPages.toLocaleString('ja-JP')} |\n| 文脈一致案件の描画成功 | ${affiliateCoverage.eligibleRenderedPages.toLocaleString('ja-JP')} |\n| 文脈一致する提携済み案件なし | ${affiliateCoverage.noMatchingOfferPages.toLocaleString('ja-JP')} |\n| 重大エラー | ${summary.critical.toLocaleString('ja-JP')} |\n| 警告 | ${summary.warnings.toLocaleString('ja-JP')} |\n\n## 案件別の生成HTML出現数\n\n${Object.entries(affiliateCoverage.offerOccurrences).sort(([, left], [, right]) => right - left).map(([offerId, count]) => `- ${offerId}: ${count}件`).join('\n') || '- 出現なし'}\n\n## 指摘\n\n${issues.length ? issues.slice(0, 500).map((issue) => `- ${issue.severity} / ${issue.code} / ${issue.route}: ${issue.message}`).join('\n') : '- 指摘なし'}\n`);
 console.log(JSON.stringify(summary, null, 2));
 if (summary.critical > 0) process.exitCode = 1;

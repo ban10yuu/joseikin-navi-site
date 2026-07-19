@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generatedAt": "2026-07-19T00:02:32.347Z",
+    "generatedAt": "2026-07-19T08:17:53.687Z",
     "total": 27875,
     "officialUrl": 27552,
     "automated": 27591,
@@ -10,10 +10,47 @@
     "duplicates": 1620,
     "needsReview": 2564,
     "loans": 722,
-    "affiliateEligible": 1077,
-    "affiliateBlocked": 26798,
+    "affiliateEligible": 984,
+    "affiliateBlocked": 26891,
+    "affiliateCoverageRate": 3.5,
+    "affiliateExclusionCounts": {
+      "missingOfficialSource": 323,
+      "notIndexable": 2280,
+      "suspended": 0,
+      "sensitiveNotApproved": 15643,
+      "noMatchingPartneredOffer": 8645
+    },
+    "affiliateGapByPrimaryPurpose": {
+      "childcare": 4868,
+      "medical": 5577,
+      "employment": 3159,
+      "welfare": 1623,
+      "housing": 4287,
+      "education": 1680,
+      "disaster": 687,
+      "livingSupport": 4222,
+      "startup": 260,
+      "energySaving": 113,
+      "digitalTransformation": 1,
+      "businessGrowth": 360,
+      "regionalRevitalization": 25,
+      "other": 29
+    },
+    "affiliateGapByPrimaryAudience": {
+      "family": 9826,
+      "individual": 8357,
+      "student": 1914,
+      "personWithDisability": 2334,
+      "soleProprietor": 182,
+      "senior": 1063,
+      "business": 2893,
+      "jobSeeker": 115,
+      "localOrganization": 184,
+      "nonprofit": 19,
+      "researcher": 4
+    },
     "critical": 0,
-    "warnings": 3332
+    "warnings": 3333
   },
   "issues": [
     {
@@ -23339,6 +23376,13 @@
       "slug": "mie-official-006-056-2026",
       "title": "",
       "message": "同じ概要・対象者の組合せが22件あります（紀宝町が公式に案内する「」です。制度名、対象、支援内容、申請・受付情報を公式ペー…）。"
+    },
+    {
+      "severity": "warning",
+      "code": "AFFILIATE_COVERAGE_BELOW_TARGET",
+      "slug": "",
+      "title": "",
+      "message": "全制度の文脈一致広告カバレッジが目標5%未満です（現在3.5%）。"
     }
   ]
 }

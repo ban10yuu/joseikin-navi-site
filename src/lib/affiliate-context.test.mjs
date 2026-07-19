@@ -78,6 +78,57 @@ describe('getGrantAffiliateIntents', () => {
     }), ['payroll']);
   });
 
+  it('自治体サイト名と団体向け教育事業を個人向け広告意図へ誤分類しない', () => {
+    const municipalSite = {
+      title: '農業者労災保険加入支援',
+      description: '詳細は久御山町ホームページで確認できます。',
+      tags: [],
+      purposes: ['businessGrowth'],
+      primaryPurpose: 'businessGrowth',
+      audiences: ['business'],
+      affiliateIntents: [],
+    };
+    const organizationEducation = {
+      title: '子どもの学び支援事業補助金',
+      description: '子どもの読書活動を実施する運営団体を補助します。',
+      tags: [],
+      purposes: ['education'],
+      primaryPurpose: 'education',
+      audiences: ['family'],
+      affiliateIntents: [],
+    };
+    assert.equal(getGrantAffiliateIntents(municipalSite).includes('cloudStorage'), false);
+    assert.equal(getGrantAffiliateIntents(organizationEducation).includes('childrensEducation'), false);
+  });
+
+  it('対象条件に団体・雇用主とある制度を個人向け広告へ誤分類しない', () => {
+    assert.equal(getGrantAffiliateIntents({
+      title: 'こどもの居場所づくり補助金',
+      description: '地域の子どもの学びと読書活動を支援します。',
+      eligibility: 'こどもの居場所づくりに取り組む団体。個人での申請はできません。',
+      tags: ['絵本', '教育'], purposes: ['childcare', 'education'], primaryPurpose: 'childcare',
+      audiences: ['family'], affiliateIntents: [],
+    }).includes('childrensEducation'), false);
+
+    assert.equal(getGrantAffiliateIntents({
+      title: '合同企業説明会出展支援補助金',
+      description: '求人や採用活動に要する費用を補助します。',
+      eligibility: '市内に事業所を置く企業が対象です。',
+      tags: ['就職'], purposes: ['employment'], primaryPurpose: 'employment',
+      audiences: ['jobSeeker'], affiliateIntents: [],
+    }).includes('careerConsultation'), false);
+  });
+
+  it('人材確保という制度名だけで求職者本人向け広告を抑止しない', () => {
+    assert.equal(getGrantAffiliateIntents({
+      title: '人材確保支援金',
+      description: '離職中の求職者の就職を支援します。',
+      eligibility: '1か月以上離職している求職者本人が対象です。',
+      tags: ['求職'], purposes: ['employment'], primaryPurpose: 'employment',
+      audiences: ['jobSeeker'], affiliateIntents: [],
+    }).includes('careerConsultation'), true);
+  });
+
   it('雇用・教育・起業制度を対応する承認済み広告の文脈へ分類する', () => {
     assert.deepEqual(getGrantAffiliateIntents({
       title: '就職支援制度', description: '求職者の就職を支援します。', tags: ['就職'],
@@ -143,6 +194,32 @@ describe('getGrantAffiliateIntents', () => {
     });
 
     assert.deepEqual(result, []);
+  });
+
+  it('対象者と主目的だけでは汎用案件へ分類しない', () => {
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '住宅取得支援制度', description: '住宅の取得費用を支援します。', tags: ['住宅'],
+      purposes: ['housing'], primaryPurpose: 'housing', audiences: ['individual', 'family'], affiliateIntents: [],
+    }), []);
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '中小企業設備投資補助金', description: '事業の成長に必要な設備投資を支援します。', tags: ['設備'],
+      purposes: ['businessGrowth'], primaryPurpose: 'businessGrowth', audiences: ['business'], affiliateIntents: [],
+    }), []);
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '子育て世帯利用料助成', description: 'サービス利用料の一部を助成します。', tags: ['子育て'],
+      purposes: ['childcare'], primaryPurpose: 'childcare', audiences: ['family'], affiliateIntents: [],
+    }), []);
+  });
+
+  it('センシティブ制度と対象者不一致には汎用intentを補完しない', () => {
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '生活困窮世帯の住居支援', description: '生活に困窮する世帯を支援します。', tags: ['生活困窮'],
+      purposes: ['housing', 'livingSupport'], primaryPurpose: 'livingSupport', audiences: ['family'], affiliateIntents: [],
+    }), []);
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '企業向け住宅設備補助', description: '社宅設備を支援します。', tags: ['住宅'],
+      purposes: ['housing'], primaryPurpose: 'housing', audiences: ['business'], affiliateIntents: [],
+    }), []);
   });
 });
 

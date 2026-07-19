@@ -3,6 +3,7 @@ import { AFFILIATE_ISSUED_HTML } from '@/config/affiliate-issued-html';
 import { AFFILIATE_LINK_REL } from '@/lib/monetization';
 import type { AffiliateIntent, Audience, Purpose } from '@/lib/types';
 import AffiliateDisclosure from './AffiliateDisclosure';
+import AffiliateIssuedCreative from './AffiliateIssuedCreative';
 
 interface AffiliateRecommendationProps {
   offer: AffiliateOffer;
@@ -14,6 +15,8 @@ interface AffiliateRecommendationProps {
   purpose?: Purpose;
   intents?: AffiliateIntent[];
   compact?: boolean;
+  compactDisclosure?: boolean;
+  lazyCreative?: boolean;
   headingLevel?: 'h2' | 'h3';
 }
 
@@ -100,7 +103,7 @@ function getOfferCopy(offer: AffiliateOffer) {
   };
 }
 
-export default function AffiliateRecommendation({ offer, pageType, placement, position = 1, grantId, audience, purpose, intents = [], compact = false, headingLevel = 'h2' }: AffiliateRecommendationProps) {
+export default function AffiliateRecommendation({ offer, pageType, placement, position = 1, grantId, audience, purpose, intents = [], compact = false, compactDisclosure = false, lazyCreative = false, headingLevel = 'h2' }: AffiliateRecommendationProps) {
   const Heading = headingLevel;
   const copy = getOfferCopy(offer);
   const issuedHtml = AFFILIATE_ISSUED_HTML[offer.id];
@@ -128,12 +131,15 @@ export default function AffiliateRecommendation({ offer, pageType, placement, po
       data-analytics-render-event="affiliate_render"
       data-analytics-impression="true"
       data-analytics-impression-event="affiliate_impression"
+      data-expected-affiliate-url={offer.destinationUrl ?? undefined}
+      data-expected-creative-url={offer.creativeImageUrl ?? undefined}
+      data-expected-impression-url={offer.impressionPixelUrl ?? undefined}
       aria-labelledby={headingId}
       {...analyticsAttributes}
     >
       {hasAdvertiserCreative ? (
         <>
-          <AffiliateDisclosure text={offer.disclosureText} />
+          <AffiliateDisclosure text={offer.disclosureText} compact={compactDisclosure} />
           <div className="affiliate-creative-context">
             <p className="affiliate-banner-eyebrow">{copy.eyebrow}</p>
             <Heading id={headingId} className="affiliate-banner-headline">{offer.offerName}</Heading>
@@ -144,13 +150,21 @@ export default function AffiliateRecommendation({ offer, pageType, placement, po
               className="affiliate-creative-link"
               aria-hidden="true"
               inert
-              dangerouslySetInnerHTML={{ __html: issuedHtml }}
-            />
+            >
+              <AffiliateIssuedCreative
+                offerId={offer.id}
+                width={offer.creativeWidth ?? 300}
+                height={offer.creativeHeight ?? 250}
+                lazy={lazyCreative}
+              />
+            </div>
             <a
               href={offer.destinationUrl ?? undefined}
               target="_blank"
               rel={AFFILIATE_LINK_REL}
               className="affiliate-creative-overlay"
+              tabIndex={-1}
+              aria-hidden="true"
               data-analytics-event="affiliate_click"
               {...analyticsAttributes}
               aria-label={`${offer.advertiserName}の${offer.offerName}を見る（PR・新しいタブで開きます）`}
@@ -163,9 +177,9 @@ export default function AffiliateRecommendation({ offer, pageType, placement, po
             className="affiliate-creative-cta"
             data-analytics-event="affiliate_click"
             {...analyticsAttributes}
-            aria-label={`${offer.advertiserName}の${offer.offerName}を見る（PR・新しいタブで開きます）`}
+            aria-label={`${offer.buttonText || 'サービスの詳細を見る'}：${offer.advertiserName}（PR・新しいタブで開きます）`}
           >
-            サービスの詳細を見る（PR）<span aria-hidden="true"> ↗</span>
+            {offer.buttonText || 'サービスの詳細を見る'}<span className="sr-only">（PR・新しいタブで開きます）</span><span aria-hidden="true"> ↗</span>
           </a>
           <p className="affiliate-advertiser-note">広告主：{offer.advertiserName}。制度の実施機関ではなく、利用は申請・採択の条件ではありません。補助対象かは公式募集要項でご確認ください。</p>
         </>
@@ -197,7 +211,7 @@ export default function AffiliateRecommendation({ offer, pageType, placement, po
             data-creative-id={offer.creativeId ?? undefined}
             data-format="text"
             data-experiment-variant="responsive-affiliate-v1"
-            aria-label={`${offer.advertiserName}の${offer.offerName}を見る（PR・新しいタブで開きます）`}
+            aria-label={`${offer.buttonText || 'サービスを見る'}：${offer.advertiserName}（PR・新しいタブで開きます）`}
           >
             {offer.buttonText || 'サービスを見る'}<span aria-hidden="true">→</span><span className="sr-only">（PR・新しいタブで開きます）</span>
           </a>

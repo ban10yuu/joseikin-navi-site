@@ -6,6 +6,7 @@ import { isAllowedAffiliateHost } from '../config/affiliate-security.ts';
 export const AFFILIATE_LINK_REL = 'sponsored nofollow noopener noreferrer';
 
 const SENSITIVE_PURPOSES = new Set<Purpose>(['medical', 'welfare', 'disaster', 'livingSupport']);
+const HARD_SECONDARY_SENSITIVE_PURPOSES = new Set<Purpose>(['medical', 'welfare', 'disaster']);
 const SENSITIVE_AUDIENCES = new Set<Audience>(['personWithDisability']);
 const SENSITIVE_TEXT_PATTERN = /(医療|疾病|難病|障害|生活困窮|災害|被災|緊急支援|介護|ひとり親|死亡|葬祭|DV|ＤＶ|虐待)/iu;
 
@@ -20,6 +21,7 @@ export interface MonetizationContext {
   indexable?: boolean;
   hasOfficialSource?: boolean;
   sensitive?: boolean;
+  sensitiveMonetizationApproved?: boolean;
   texts?: string[];
   limit?: number;
 }
@@ -48,7 +50,9 @@ export function isSensitiveAffiliateContext({
   audiences: Audience[];
   texts?: string[];
 }): boolean {
-  const purposesToCheck = primaryPurpose ? [primaryPurpose] : purposes;
+  const purposesToCheck = primaryPurpose
+    ? [primaryPurpose, ...purposes.filter((purpose) => HARD_SECONDARY_SENSITIVE_PURPOSES.has(purpose))]
+    : purposes;
   return purposesToCheck.some((purpose) => SENSITIVE_PURPOSES.has(purpose))
     || audiences.some((audience) => SENSITIVE_AUDIENCES.has(audience))
     || texts.some((value) => SENSITIVE_TEXT_PATTERN.test(value));
@@ -103,10 +107,15 @@ export function getEligibleAffiliateOffers(
   now = new Date(),
 ): AffiliateOffer[] {
   const sensitiveContext = Boolean(context.sensitive || isSensitiveAffiliateContext(context));
-  const blockingPurposes = context.primaryPurpose ? [context.primaryPurpose] : context.purposes;
+  const blockingPurposes = context.primaryPurpose
+    ? [context.primaryPurpose, ...context.purposes.filter((purpose) => HARD_SECONDARY_SENSITIVE_PURPOSES.has(purpose))]
+    : context.purposes;
   const matchingPurposes = context.primaryPurpose ? [context.primaryPurpose] : context.purposes;
   if (context.pageType === 'grant' && context.hasOfficialSource === false) return [];
-  if (!context.monetizationAllowed && !sensitiveContext) return [];
+  if (context.pageType === 'grant' && context.indexable === false) return [];
+  if (context.pageType === 'grant' && context.status === 'suspended') return [];
+  if (sensitiveContext && !context.sensitiveMonetizationApproved) return [];
+  if (!sensitiveContext && !context.monetizationAllowed) return [];
 
   const defaultLimit = context.pageType === 'grant' ? 1 : Number.POSITIVE_INFINITY;
   const limit = Math.max(0, context.limit ?? defaultLimit);
@@ -114,7 +123,6 @@ export function getEligibleAffiliateOffers(
   const scored = offers
     .filter((offer) => isAffiliateOfferPublishable(offer, now))
     .filter((offer) => offer.allowedPageTypes.includes(context.pageType))
-    .filter((offer) => context.monetizationAllowed || (sensitiveContext && offer.allowSensitiveContexts === true))
     .filter((offer) => !sensitiveContext || offer.allowSensitiveContexts === true)
     .filter((offer) => offer.audiences.length === 0 || intersects(offer.audiences, context.audiences))
     .filter((offer) => offer.intents.length > 0 && intersects(offer.intents, context.intents))
@@ -126,9 +134,9 @@ export function getEligibleAffiliateOffers(
       purposeScore: offer.allowedPurposes.filter((item) => matchingPurposes.includes(item)).length,
       intentScore: offer.intents.filter((item) => context.intents.includes(item)).length,
     }))
-    .sort((left, right) => right.audienceScore - left.audienceScore
+    .sort((left, right) => right.intentScore - left.intentScore
       || right.purposeScore - left.purposeScore
-      || right.intentScore - left.intentScore
+      || right.audienceScore - left.audienceScore
       || right.offer.priority - left.offer.priority
       || (right.offer.verifiedAt ?? '').localeCompare(left.offer.verifiedAt ?? ''));
 

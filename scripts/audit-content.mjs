@@ -25,8 +25,10 @@ const { getValidOfficialSourceUrls } = require('../src/lib/grant-source.ts');
 const { isRepayableSupport } = require('../src/lib/grant-status.ts');
 const { getEffectiveGrantStatus } = require('../src/lib/grant-status.ts');
 const { getGrantAffiliateIntents, shouldAllowDerivedAffiliateContext } = require('../src/lib/affiliate-context.ts');
-const { getEligibleAffiliateOffers } = require('../src/lib/monetization.ts');
+const { getEligibleAffiliateOffers, isSensitiveAffiliateContext } = require('../src/lib/monetization.ts');
 const { AFFILIATE_OFFERS } = require('../src/config/affiliate-offers.ts');
+const { AFFILIATE_ISSUED_HTML } = require('../src/config/affiliate-issued-html.ts');
+const { hasApprovedSensitiveAffiliateContext } = require('../src/config/affiliate-security.ts');
 
 const grants = getAllGrantsUnfiltered();
 const issues = [];
@@ -76,30 +78,98 @@ for (const [title, slugs] of titleMap) if (slugs.length > 1) addIssue('warning',
 for (const [url, slugs] of urlMap) if (slugs.length > 1) addIssue('warning', 'DUPLICATE_OFFICIAL_URL', { slug: slugs[0], title: '' }, `同じ公式URLが${slugs.length}件あります：${url}`);
 for (const [body, slugs] of bodyMap) if (slugs.length >= 5) addIssue('warning', 'DUPLICATE_BODY', { slug: slugs[0], title: '' }, `同じ概要・対象者の組合せが${slugs.length}件あります（${body.slice(0, 40)}…）。`);
 
+const affiliateExclusionCounts = {
+  missingOfficialSource: 0,
+  notIndexable: 0,
+  suspended: 0,
+  sensitiveNotApproved: 0,
+  noMatchingPartneredOffer: 0,
+};
+const affiliateGapByPrimaryPurpose = {};
+const affiliateGapByPrimaryAudience = {};
+const recordAffiliateGap = (grant) => {
+  const purpose = grant.primaryPurpose ?? grant.purposes?.[0] ?? 'unknown';
+  const audience = grant.primaryAudience ?? grant.audiences?.[0] ?? 'unknown';
+  affiliateGapByPrimaryPurpose[purpose] = (affiliateGapByPrimaryPurpose[purpose] ?? 0) + 1;
+  affiliateGapByPrimaryAudience[audience] = (affiliateGapByPrimaryAudience[audience] ?? 0) + 1;
+};
 const monetizationAllowed = grants.filter((grant) => {
+  const affiliateContextTexts = [
+    grant.title,
+    grant.description,
+    grant.eligibility,
+    grant.applicationPeriod,
+    ...grant.tags,
+    ...grant.sections.flatMap((section) => [section.heading, section.content]),
+  ];
+  const sensitiveContext = isSensitiveAffiliateContext({
+    purposes: grant.purposes,
+    primaryPurpose: grant.primaryPurpose,
+    audiences: grant.audiences,
+    texts: affiliateContextTexts,
+  });
   const affiliateIntents = getGrantAffiliateIntents({
     title: grant.title,
     description: grant.description,
+    eligibility: grant.eligibility,
     tags: grant.tags,
     purposes: grant.purposes,
+    primaryPurpose: grant.primaryPurpose,
+    audiences: grant.audiences,
     affiliateIntents: grant.affiliateIntents ?? [],
   });
-  return getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+  if (!hasOfficialSource(grant)) {
+    affiliateExclusionCounts.missingOfficialSource += 1;
+    recordAffiliateGap(grant);
+    return false;
+  }
+  if (grant.indexStatus === 'noindex' || grant.contentStatus !== 'published') {
+    affiliateExclusionCounts.notIndexable += 1;
+    recordAffiliateGap(grant);
+    return false;
+  }
+  if (getEffectiveGrantStatus(grant) === 'suspended') {
+    affiliateExclusionCounts.suspended += 1;
+    recordAffiliateGap(grant);
+    return false;
+  }
+  const sensitiveMonetizationApproved = hasApprovedSensitiveAffiliateContext(grant.slug, affiliateIntents);
+  if (sensitiveContext && !sensitiveMonetizationApproved) {
+    affiliateExclusionCounts.sensitiveNotApproved += 1;
+    recordAffiliateGap(grant);
+    return false;
+  }
+  const eligibleOffers = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
     pageType: 'grant',
     audiences: grant.audiences ?? [],
     purposes: grant.purposes ?? [],
+    primaryPurpose: grant.primaryPurpose,
     intents: affiliateIntents,
     monetizationAllowed: shouldAllowDerivedAffiliateContext({
       purposes: grant.purposes,
       intents: affiliateIntents,
       monetizationAllowed: grant.monetizationAllowed,
+      sensitive: sensitiveContext,
     }),
     status: getEffectiveGrantStatus(grant),
-    indexable: grant.indexStatus !== 'noindex' && grant.contentStatus === 'published' && !isGrantExpired(grant),
+    indexable: true,
     hasOfficialSource: hasOfficialSource(grant),
+    sensitive: sensitiveContext,
+    sensitiveMonetizationApproved,
+    texts: affiliateContextTexts,
     limit: 1,
-  }).length > 0;
+  });
+  for (const offer of eligibleOffers) {
+    if (!AFFILIATE_ISSUED_HTML[offer.id]) addIssue('critical', 'ELIGIBLE_AFFILIATE_MISSING_ISSUED_HTML', grant, `適合案件${offer.id}にASP発行HTMLがありません。`);
+  }
+  if (eligibleOffers.length === 0) {
+    affiliateExclusionCounts.noMatchingPartneredOffer += 1;
+    recordAffiliateGap(grant);
+  }
+  return eligibleOffers.length > 0;
 }).length;
+const affiliateCoverageRate = Math.round(monetizationAllowed * 1000 / grants.length) / 10;
+if (affiliateCoverageRate < 5) addIssue('warning', 'AFFILIATE_COVERAGE_BELOW_TARGET', null, `全制度の文脈一致広告カバレッジが目標5%未満です（現在${affiliateCoverageRate}%）。`);
 
 const summary = {
   generatedAt: new Date().toISOString(),
@@ -114,6 +184,10 @@ const summary = {
   loans: grants.filter((grant) => isRepayableSupport(grant.supportType)).length,
   affiliateEligible: monetizationAllowed,
   affiliateBlocked: grants.length - monetizationAllowed,
+  affiliateCoverageRate,
+  affiliateExclusionCounts,
+  affiliateGapByPrimaryPurpose,
+  affiliateGapByPrimaryAudience,
   critical: issues.filter((issue) => issue.severity === 'critical').length,
   warnings: issues.filter((issue) => issue.severity === 'warning').length,
 };
@@ -126,8 +200,8 @@ const csvEscape = (value) => `"${String(value ?? '').replaceAll('"', '""')}"`;
 fs.writeFileSync(path.join(reportDir, 'content-audit.csv'), `severity,code,slug,title,message\n${issues.map((issue) => [issue.severity, issue.code, issue.slug, issue.title, issue.message].map(csvEscape).join(',')).join('\n')}\n`);
 const issueCounts = [...new Map(issues.map((issue) => [issue.code, issues.filter((item) => item.code === issue.code).length])).entries()].sort((a, b) => b[1] - a[1]);
 const markdown = `# コンテンツ品質レポート\n\n生成日時：${summary.generatedAt}\n\n| 指標 | 件数 |\n|---|---:|\n${[
-  ['総制度数', summary.total], ['公式URLあり', summary.officialUrl], ['自動照合', summary.automated], ['人手確認', summary.humanReviewed], ['noindex', summary.noindex], ['期限切れ', summary.expired], ['重複指摘', summary.duplicates], ['修正待ち', summary.needsReview], ['貸付', summary.loans], ['アフィリエイト掲載可能', summary.affiliateEligible], ['アフィリエイト掲載禁止', summary.affiliateBlocked], ['重大エラー', summary.critical], ['警告', summary.warnings],
-].map(([label, value]) => `| ${label} | ${Number(value).toLocaleString('ja-JP')} |`).join('\n')}\n\n## 指摘内訳\n\n${issueCounts.length ? issueCounts.map(([code, count]) => `- ${code}: ${count.toLocaleString('ja-JP')}件`).join('\n') : '- 指摘なし'}\n\n## 判定方針\n\n- 人手確認は humanReviewedAt が明示された制度だけを集計しています。\n- 公式URLなし、修正待ち、内部監査文言を含む制度は公開インデックス対象にしません。\n- アフィリエイト掲載可能は、公開状態、公式確認先、受付状況、対象者、目的、広告意図、提携済み案件がすべて一致する制度数です。申請中や無効な案件は数えません。\n`;
+  ['総制度数', summary.total], ['公式URLあり', summary.officialUrl], ['自動照合', summary.automated], ['人手確認', summary.humanReviewed], ['noindex', summary.noindex], ['期限切れ', summary.expired], ['重複指摘', summary.duplicates], ['修正待ち', summary.needsReview], ['貸付', summary.loans], ['アフィリエイト掲載可能', summary.affiliateEligible], ['アフィリエイト掲載禁止', summary.affiliateBlocked], ['広告カバレッジ（%）', summary.affiliateCoverageRate], ['重大エラー', summary.critical], ['警告', summary.warnings],
+].map(([label, value]) => `| ${label} | ${Number(value).toLocaleString('ja-JP')} |`).join('\n')}\n\n## アフィリエイト非表示の内訳\n\n- 公式確認先なし：${summary.affiliateExclusionCounts.missingOfficialSource.toLocaleString('ja-JP')}件\n- noindex・修正待ち：${summary.affiliateExclusionCounts.notIndexable.toLocaleString('ja-JP')}件\n- 一時停止：${summary.affiliateExclusionCounts.suspended.toLocaleString('ja-JP')}件\n- センシティブ領域の個別承認なし：${summary.affiliateExclusionCounts.sensitiveNotApproved.toLocaleString('ja-JP')}件\n- 文脈に一致する提携済み案件なし：${summary.affiliateExclusionCounts.noMatchingPartneredOffer.toLocaleString('ja-JP')}件\n\n### 未掲載の主目的（上位）\n\n${Object.entries(summary.affiliateGapByPrimaryPurpose).sort(([, left], [, right]) => right - left).slice(0, 12).map(([key, count]) => `- ${key}: ${count.toLocaleString('ja-JP')}件`).join('\n')}\n\n### 未掲載の主対象（上位）\n\n${Object.entries(summary.affiliateGapByPrimaryAudience).sort(([, left], [, right]) => right - left).slice(0, 12).map(([key, count]) => `- ${key}: ${count.toLocaleString('ja-JP')}件`).join('\n')}\n\n## 指摘内訳\n\n${issueCounts.length ? issueCounts.map(([code, count]) => `- ${code}: ${count.toLocaleString('ja-JP')}件`).join('\n') : '- 指摘なし'}\n\n## 判定方針\n\n- 人手確認は humanReviewedAt が明示された制度だけを集計しています。\n- 公式URLなし、修正待ち、内部監査文言を含む制度は公開インデックス対象にしません。\n- アフィリエイト掲載可能は、公開状態、公式確認先、受付状況、対象者、目的、広告意図、提携済み案件がすべて一致する制度数です。申請中や無効な案件は数えません。\n`;
 fs.writeFileSync(path.join(reportDir, 'content-audit.md'), markdown);
 fs.writeFileSync(path.join(root, 'docs', 'content-quality-report.md'), markdown);
 

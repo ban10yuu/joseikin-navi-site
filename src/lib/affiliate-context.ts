@@ -1,11 +1,13 @@
-import type { AffiliateIntent, Purpose } from './types.ts';
+import type { AffiliateIntent, Audience, Purpose } from './types.ts';
 
 interface GrantAffiliateContextSource {
   title: string;
   description: string;
+  eligibility?: string;
   tags: string[];
   purposes: Purpose[];
   primaryPurpose?: Purpose;
+  audiences?: Audience[];
   affiliateIntents: AffiliateIntent[];
 }
 
@@ -20,13 +22,18 @@ const REUSE_PATTERN = /(リユース|中古品|古物|買取|査定|循環型|�
 const TRADE_AREA_PATTERN = /(商圏|立地|出店|空き店舗|店舗開業|店舗改修)/u;
 const FINANCIAL_PLANNING_PATTERN = /(家計|住宅ローン|教育費|学費|奨学金|資金計画|保険|費用相談)/u;
 const ECOMMERCE_PATTERN = /(ECサイト|ネットショップ|オンライン販売|通販|販路開拓)/iu;
-const BUSINESS_WEBSITE_PATTERN = /(ホームページ|Webサイト|ウェブサイト|事業用サイト)/iu;
+const BUSINESS_WEBSITE_PATTERN = /((自社|事業用|企業|店舗).{0,8}(ホームページ|Webサイト|ウェブサイト)|ホームページ.{0,6}(制作|作成|開設|構築|改修)|Webサイト.{0,6}(制作|作成|開設|構築|改修))/iu;
+const ORGANIZATION_APPLICANT_PATTERN = /(運営(?:する)?団体|実施(?:する)?団体|対象事業者|対象法人|法人・団体|施設運営者|事業を実施する団体|取り組む団体|活動を行う団体|団体が対象|個人申請不可|個人での申請不可)/u;
+const EMPLOYER_APPLICANT_PATTERN = /(企業(?:側)?が対象|事業者が対象|雇用する事業者|雇用主|求人企業|採用(?:活動|費|経費)|(?:企業|事業者|雇用主).{0,8}人材確保|人材確保.{0,8}(?:企業|事業者|雇用主)|合同企業説明会|就職フェア.{0,8}(出展|参加))/u;
 const PAYROLL_PATTERN = /(賃上げ|賃金引上げ|給与計算|給与引上げ)/u;
 const CAREER_PATTERN = /(求職|就職|転職|求人|離職|失業|就業支援|再就職)/u;
 
 export function getGrantAffiliateIntents(grant: GrantAffiliateContextSource): AffiliateIntent[] {
   const intents = new Set<AffiliateIntent>(grant.affiliateIntents);
-  const text = [grant.title, grant.description, ...grant.tags].join(' ');
+  const text = [grant.title, grant.description, grant.eligibility ?? '', ...grant.tags].join(' ');
+  const primaryPurpose = grant.primaryPurpose ?? grant.purposes[0];
+  const organizationApplicant = ORGANIZATION_APPLICANT_PATTERN.test(text);
+  const employerApplicant = EMPLOYER_APPLICANT_PATTERN.test(text);
 
   if (grant.purposes.some((purpose) => purpose === 'housing' || purpose === 'energySaving') && HOME_ENERGY_PATTERN.test(text)) {
     intents.add('homeEnergyConsultation');
@@ -50,12 +57,11 @@ export function getGrantAffiliateIntents(grant: GrantAffiliateContextSource): Af
 
   if (grant.purposes.includes('startup')) intents.add('businessPlanning');
   if (grant.purposes.includes('startup')) intents.add('companyFormation');
-  const primaryPurpose = grant.primaryPurpose ?? grant.purposes[0];
-  if (primaryPurpose === 'employment' && CAREER_PATTERN.test(text)) intents.add('careerConsultation');
-  if (grant.purposes.some((purpose) => purpose === 'childcare' || purpose === 'education') && CHILD_EDUCATION_PATTERN.test(text)) {
+  if (primaryPurpose === 'employment' && CAREER_PATTERN.test(text) && !organizationApplicant && !employerApplicant) intents.add('careerConsultation');
+  if (grant.purposes.some((purpose) => purpose === 'childcare' || purpose === 'education') && CHILD_EDUCATION_PATTERN.test(text) && !organizationApplicant) {
     intents.add('childrensEducation');
   }
-  if (grant.purposes.some((purpose) => purpose === 'housing' || purpose === 'education') && FINANCIAL_PLANNING_PATTERN.test(text)) {
+  if (grant.purposes.some((purpose) => purpose === 'housing' || purpose === 'education') && FINANCIAL_PLANNING_PATTERN.test(text) && !organizationApplicant) {
     intents.add('financialPlanning');
   }
   if (grant.purposes.some((purpose) => ['startup', 'businessGrowth', 'digitalTransformation', 'regionalRevitalization'].includes(purpose)) && REUSE_PATTERN.test(text)) {

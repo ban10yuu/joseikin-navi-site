@@ -60,10 +60,11 @@ export default function HomePage() {
     pageType: 'home', audiences: ['soleProprietor', 'business'], purposes: ['startup', 'businessGrowth', 'digitalTransformation'],
     intents: ['accounting', 'expenseManagement', 'payroll', 'attendance', 'humanResources', 'electronicContract', 'cloudStorage', 'businessPlanning', 'ecommerce', 'reservationSystem', 'pos', 'employeeTraining', 'professionalConsultation', 'companyFormation', 'reuseValuation', 'tradeAreaAnalysis'],
     monetizationAllowed: true,
+    limit: 8,
   });
   const personalHeroAffiliates = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
     pageType: 'home', audiences: ['individual', 'family', 'student', 'jobSeeker'], purposes: ['childcare', 'housing', 'education', 'employment'],
-    intents: ['childrensEducation', 'financialPlanning', 'careerConsultation'], monetizationAllowed: true,
+    intents: ['childrensEducation', 'financialPlanning', 'careerConsultation'], monetizationAllowed: true, limit: 8,
   });
 
   return (
@@ -84,7 +85,7 @@ export default function HomePage() {
             </div>
             <div className="home-hero-visual" aria-hidden="true">
               <div className="home-hero-picture">
-                <Image src={ILLUSTRATION_VISUALS.hero} alt="" width={640} height={640} priority sizes="(max-width: 768px) 120px, 300px" />
+                <Image src={ILLUSTRATION_VISUALS.hero} alt="" width={640} height={640} sizes="(max-width: 768px) 120px, 300px" />
               </div>
               <ul className="home-hero-motifs">
                 {HOME_HERO_MOTIFS.map((motif) => (

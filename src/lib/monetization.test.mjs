@@ -105,7 +105,7 @@ describe('affiliate offers', () => {
     };
     const fertilityContext = {
       pageType: 'grant', audiences: ['family'], purposes: ['medical'], intents: ['fertilityCare'],
-      monetizationAllowed: false, status: 'open', indexable: true, hasOfficialSource: true,
+      monetizationAllowed: false, sensitiveMonetizationApproved: true, status: 'open', indexable: true, hasOfficialSource: true,
     };
 
     assert.deepEqual(
@@ -114,9 +114,10 @@ describe('affiliate offers', () => {
     );
     assert.deepEqual(getEligibleAffiliateOffers([fertilityOffer], { ...fertilityContext, intents: ['medicalExpenseTax'] }, new Date('2026-07-13')), []);
     assert.deepEqual(getEligibleAffiliateOffers([fertilityOffer], { ...fertilityContext, audiences: ['business'] }, new Date('2026-07-13')), []);
+    assert.deepEqual(getEligibleAffiliateOffers([fertilityOffer], { ...fertilityContext, sensitiveMonetizationApproved: false }, new Date('2026-07-13')), []);
   });
 
-  it('粗い副カテゴリのみで事業者制度の関連広告を消さない', () => {
+  it('粗い副目的だけでは非センシティブな主目的の広告を遮断しない', () => {
     const result = getEligibleAffiliateOffers([offer], {
       ...context,
       primaryPurpose: 'businessGrowth',
@@ -156,11 +157,14 @@ describe('affiliate offers', () => {
     assert.equal(isSensitiveAffiliateContext({ purposes: ['businessGrowth'], audiences: ['business'], texts: ['災害復旧設備補助金'] }), true);
     assert.equal(isSensitiveAffiliateContext({ purposes: ['businessGrowth'], audiences: ['business'], texts: ['DV被害者支援'] }), true);
     assert.equal(isSensitiveAffiliateContext({ purposes: ['businessGrowth'], audiences: ['business'], texts: ['通常の設備投資補助金'] }), false);
+    assert.equal(isSensitiveAffiliateContext({ purposes: ['childcare', 'livingSupport'], primaryPurpose: 'childcare', audiences: ['family'], texts: ['子育て世帯支援'] }), false);
+    assert.equal(isSensitiveAffiliateContext({ purposes: ['childcare', 'medical'], primaryPurpose: 'childcare', audiences: ['family'], texts: ['子育て世帯支援'] }), true);
     assert.equal(isSensitiveAffiliateContext({ purposes: ['childcare'], primaryPurpose: 'childcare', audiences: ['family'], texts: ['特別児童扶養手当', '障害児を養育する家庭'] }), true);
   });
 
-  it('受付終了によるnoindexと広告選定は分離し、公式確認先なしは拒否する', () => {
-    assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, indexable: false }, new Date('2026-07-13')).map((item) => item.id), [offer.id]);
+  it('noindex・一時停止・公式確認先なしの制度では広告を表示しない', () => {
+    assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, indexable: false }, new Date('2026-07-13')), []);
+    assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, status: 'suspended' }, new Date('2026-07-13')), []);
     assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, hasOfficialSource: false }, new Date('2026-07-13')), []);
   });
 

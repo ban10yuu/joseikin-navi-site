@@ -44,7 +44,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b-4 border-accent bg-navy shadow-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6">
-        <Link href="/" className="flex min-h-11 min-w-0 items-center gap-2.5 rounded-md" aria-label="助成金ナビ ホーム">
+        <Link href="/" className="flex min-h-11 min-w-0 items-center gap-2.5 rounded-md" aria-label="助成金ナビ">
           <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-accent text-base font-black text-white">助</span>
           <span className="min-w-0 leading-tight">
             <span className="block text-lg font-black tracking-wide text-white">助成金ナビ</span>

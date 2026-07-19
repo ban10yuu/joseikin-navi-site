@@ -2,11 +2,18 @@ import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 import { AFFILIATE_OFFERS } from '../config/affiliate-offers.ts';
 import { AFFILIATE_ISSUED_HTML } from '../config/affiliate-issued-html.ts';
+import { hasApprovedSensitiveAffiliateContext } from '../config/affiliate-security.ts';
 import { getEligibleAffiliateOffers, isAffiliateOfferPublishable } from './monetization.ts';
 
 const NOW = new Date('2026-07-19T12:00:00+09:00');
 
 describe('affiliate production config', () => {
+  it('センシティブ広告は制度IDと意図を別台帳で照合する', () => {
+    assert.equal(hasApprovedSensitiveAffiliateContext('ora-fertility-treatment-subsidy-2026', ['fertilityCare']), true);
+    assert.equal(hasApprovedSensitiveAffiliateContext('new-city-fertility-treatment-2026', ['fertilityCare']), false);
+    assert.equal(hasApprovedSensitiveAffiliateContext('ora-fertility-treatment-subsidy-2026', ['medicalExpenseTax']), false);
+  });
+
   it('根拠を確認できた公式バナー案件だけを公開する', () => {
     const publishable = AFFILIATE_OFFERS.filter((offer) => isAffiliateOfferPublishable(offer, NOW));
 
@@ -149,7 +156,7 @@ describe('affiliate production config', () => {
   it('公式確認済みの受付中不妊治療制度では不妊治療に一致する案件だけを選ぶ', () => {
     const result = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
       pageType: 'grant', audiences: ['individual', 'family'], purposes: ['medical'],
-      intents: ['fertilityCare'], monetizationAllowed: false, status: 'open',
+      intents: ['fertilityCare'], monetizationAllowed: false, sensitiveMonetizationApproved: true, status: 'open',
       indexable: true, hasOfficialSource: true, limit: 2,
     }, NOW);
 
@@ -159,7 +166,7 @@ describe('affiliate production config', () => {
   it('受付状況が不明でも公式確認済みの不妊治療制度なら文脈一致案件を選ぶ', () => {
     const result = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
       pageType: 'grant', audiences: ['individual'], purposes: ['medical', 'childcare'],
-      intents: ['fertilityCare', 'treatmentCostManagement'], monetizationAllowed: false, status: 'unknown',
+      intents: ['fertilityCare', 'treatmentCostManagement'], monetizationAllowed: false, sensitiveMonetizationApproved: true, status: 'unknown',
       indexable: true, hasOfficialSource: true, limit: 2,
     }, NOW);
 

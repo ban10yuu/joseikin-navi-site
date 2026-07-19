@@ -3331,3 +3331,4 @@ severity,code,slug,title,message
 "warning","DUPLICATE_BODY","katsushika-migration-bonus","","同じ概要・対象者の組合せが34件あります（|…）。"
 "warning","DUPLICATE_BODY","ichikawa-scholarship-repayment","","同じ概要・対象者の組合せが5件あります（|掲載停止…）。"
 "warning","DUPLICATE_BODY","mie-official-006-056-2026","","同じ概要・対象者の組合せが22件あります（紀宝町が公式に案内する「」です。制度名、対象、支援内容、申請・受付情報を公式ペー…）。"
+"warning","AFFILIATE_COVERAGE_BELOW_TARGET","","","全制度の文脈一致広告カバレッジが目標5%未満です（現在3.5%）。"
