@@ -19,10 +19,11 @@ interface PurposeOption {
 
 const PURPOSES: Record<Audience, PurposeOption[]> = {
   personal: [
-    { label: '子育て', query: '子育て', category: 'childcare' },
-    { label: '住まい', query: '住宅', category: 'housing' },
+    { label: '子育て', query: '子育て', category: 'childcare', purpose: 'childcare', intents: ['childrensEducation'] },
+    { label: '住まい', query: '住宅', category: 'housing', purpose: 'housing', intents: ['financialPlanning'] },
     { label: '医療・健康', query: '医療', category: 'medical' },
-    { label: '学び・教育', query: '教育', category: 'education' },
+    { label: '学び・教育', query: '教育', category: 'education', purpose: 'education', intents: ['childrensEducation', 'financialPlanning'] },
+    { label: '仕事・転職', query: '就職 転職', purpose: 'employment', intents: ['careerConsultation'] },
     { label: '介護・福祉', query: '介護', category: 'nursing' },
     { label: '生活支援', query: '生活', category: 'living' },
   ],
@@ -31,8 +32,8 @@ const PURPOSES: Record<Audience, PurposeOption[]> = {
     { label: '雇用', query: '雇用', purpose: 'employment', intents: ['humanResources', 'attendance', 'payroll'] },
     { label: '設備投資', query: '設備', purpose: 'businessGrowth', intents: [] },
     { label: '省エネ', query: '省エネ', purpose: 'energySaving', intents: [] },
-    { label: '販路開拓', query: '販路', purpose: 'businessGrowth', intents: [] },
-    { label: '地域活性化', query: '地域 活性', purpose: 'regionalRevitalization', intents: [] },
+    { label: '販路開拓', query: '販路', purpose: 'businessGrowth', intents: ['ecommerce'] },
+    { label: '地域活性化', query: '地域 活性', purpose: 'regionalRevitalization', intents: ['tradeAreaAnalysis'] },
   ],
 };
 
@@ -41,6 +42,7 @@ const prefectures = PREFECTURES.filter((prefecture) => prefecture !== '全国');
 interface HomeGrantSearchProps {
   totalCount: number;
   officialLinkedCount: number;
+  personalAffiliateOffers?: AffiliateOffer[];
   businessAffiliateOffers?: AffiliateOffer[];
 }
 
@@ -64,6 +66,7 @@ function AudienceIcon({ type }: { type: Audience }) {
 export default function HomeGrantSearch({
   totalCount,
   officialLinkedCount,
+  personalAffiliateOffers = [],
   businessAffiliateOffers = [],
 }: HomeGrantSearchProps) {
   const [audience, setAudience] = useState<Audience>('personal');
@@ -85,18 +88,22 @@ export default function HomeGrantSearch({
     setCategory(isSelected ? '' : purpose.category || '');
   };
 
-  const selectedPurposeOption = PURPOSES.business.find((item) => item.label === selectedPurpose);
-  const selectedAffiliateOffers = (audience === 'business' && selectedPurposeOption
-      ? businessAffiliateOffers.filter((offer) => Boolean(selectedPurposeOption.purpose)
+  const selectedPurposeOption = PURPOSES[audience].find((item) => item.label === selectedPurpose);
+  const audienceAffiliateOffers = audience === 'business' ? businessAffiliateOffers : personalAffiliateOffers;
+  const unselectedOffers = audience === 'personal'
+    ? audienceAffiliateOffers.filter((offer) => offer.allowedPurposes.some((purpose) => ['childcare', 'housing', 'education'].includes(purpose)))
+    : audienceAffiliateOffers;
+  const selectedAffiliateOffers = (selectedPurposeOption
+      ? audienceAffiliateOffers.filter((offer) => Boolean(selectedPurposeOption.purpose)
+        && Boolean(selectedPurposeOption.intents?.length)
         && offer.allowedPurposes.includes(selectedPurposeOption.purpose as Purpose)
-        && (!selectedPurposeOption.intents?.length
-          || selectedPurposeOption.intents.some((intent) => offer.intents.includes(intent))))
-      : businessAffiliateOffers).slice(0, 3);
-  const showBusinessAffiliate = selectedAffiliateOffers.length > 0;
-  const affiliatePurpose = selectedPurposeOption?.purpose ?? 'businessGrowth';
+        && selectedPurposeOption.intents?.some((intent) => offer.intents.includes(intent)))
+      : unselectedOffers).slice(0, 3);
+  const showContextualAffiliate = selectedAffiliateOffers.length > 0;
+  const affiliatePurpose = selectedPurposeOption?.purpose ?? (audience === 'business' ? 'businessGrowth' : 'other');
 
   return (
-      <section aria-labelledby="home-search-title" className={`home-search home-search-panel${showBusinessAffiliate ? ' has-business-affiliate' : ''}`}>
+      <section aria-labelledby="home-search-title" className={`home-search home-search-panel${showContextualAffiliate ? ' has-business-affiliate' : ''}`}>
       <div className="home-search-heading">
         <div>
           <p className="home-search-eyebrow">補助金・助成金・給付金を検索</p>
@@ -230,16 +237,18 @@ export default function HomeGrantSearch({
           <span aria-hidden="true">→</span>
         </button>
 
-        {showBusinessAffiliate ? (
+        {showContextualAffiliate ? (
           <div className="home-business-affiliate">
             <ResponsiveAffiliatePlacement
               offers={selectedAffiliateOffers}
               pageType="home"
               placement="home-business-selection"
-              audience="business"
+              audience={audience === 'business' ? 'business' : 'individual'}
               purpose={affiliatePurpose}
               className="home-affiliate-placement"
               expandAt={1024}
+              heading={selectedPurposeOption ? '選択した目的に関連するサービス' : audience === 'business' ? '事業の準備・運営に関連するサービス' : '暮らし・学びに関連するサービス'}
+              description="民間サービスの広告です。制度の利用や申請に必須ではありません。"
             />
           </div>
         ) : null}

@@ -1,8 +1,8 @@
 'use client';
 
-import { useEffect, useId, useState } from 'react';
+import { useId, useState } from 'react';
 import type { AffiliateOffer, AffiliatePageType } from '@/config/affiliate-offers';
-import type { Audience, Purpose } from '@/lib/types';
+import type { AffiliateIntent, Audience, Purpose } from '@/lib/types';
 import AffiliateRecommendation from './AffiliateRecommendation';
 
 interface ResponsiveAffiliatePlacementProps {
@@ -12,6 +12,7 @@ interface ResponsiveAffiliatePlacementProps {
   grantId?: string;
   audience?: Audience;
   purpose?: Purpose;
+  intents?: AffiliateIntent[];
   className?: string;
   expandAt?: 1024 | 1200;
   heading?: string;
@@ -25,27 +26,18 @@ export default function ResponsiveAffiliatePlacement({
   grantId,
   audience,
   purpose,
+  intents = [],
   className = '',
-  expandAt = 1200,
   heading = '申請準備に関連するサービス',
   description = '民間サービスの広告です。制度の申請や採択に必須ではありません。',
 }: ResponsiveAffiliatePlacementProps) {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [isExpanded, setIsExpanded] = useState(false);
   const regionId = useId();
-
-  useEffect(() => {
-    const media = window.matchMedia(`(min-width: ${expandAt}px)`);
-    const update = () => setIsExpanded(media.matches);
-    update();
-    media.addEventListener('change', update);
-    return () => media.removeEventListener('change', update);
-  }, [expandAt]);
 
   if (offers.length === 0) return null;
 
   const boundedIndex = Math.min(activeIndex, offers.length - 1);
-  const visibleOffers = isExpanded ? offers : [offers[boundedIndex]];
+  const visibleOffers = [offers[boundedIndex]];
 
   return (
     <section className={`responsive-affiliate-placement ${className}`.trim()} aria-label={`${heading}（広告）`}>
@@ -56,24 +48,24 @@ export default function ResponsiveAffiliatePlacement({
         </div>
       </div>
 
-      {offers.length > 1 && !isExpanded ? (
+      {offers.length > 1 ? (
         <div className="responsive-affiliate-controls" role="group" aria-label="広告の切り替え">
           <button
             type="button"
-            onClick={() => setActiveIndex((index) => (index - 1 + offers.length) % offers.length)}
+            onClick={() => setActiveIndex((index) => (Math.min(index, offers.length - 1) - 1 + offers.length) % offers.length)}
             aria-controls={regionId}
           >
-            <span aria-hidden="true">←</span> 前へ
+            <span aria-hidden="true">←</span><span className="responsive-control-label">前へ</span>
           </button>
           <p role="status" aria-live="polite" aria-atomic="true">
-            {offers.length}件中{boundedIndex + 1}件目、{offers[boundedIndex].offerName}
+            {boundedIndex + 1} / {offers.length}<span className="sr-only">、{offers[boundedIndex].offerName}</span>
           </p>
           <button
             type="button"
-            onClick={() => setActiveIndex((index) => (index + 1) % offers.length)}
+            onClick={() => setActiveIndex((index) => (Math.min(index, offers.length - 1) + 1) % offers.length)}
             aria-controls={regionId}
           >
-            次へ <span aria-hidden="true">→</span>
+            <span className="responsive-control-label">次へ</span><span aria-hidden="true">→</span>
           </button>
         </div>
       ) : null}
@@ -95,6 +87,7 @@ export default function ResponsiveAffiliatePlacement({
               grantId={grantId}
               audience={audience}
               purpose={purpose}
+              intents={intents}
               compact
               headingLevel="h3"
             />

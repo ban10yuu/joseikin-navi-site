@@ -3,6 +3,7 @@ import type { Purpose } from './types.ts';
 import { getTokyoDate, isValidAffiliateDate } from './affiliate-date.ts';
 import { isAllowedAffiliateHost } from '../config/affiliate-security.ts';
 import { createHash } from 'node:crypto';
+import { AFFILIATE_ISSUED_HTML } from '../config/affiliate-issued-html.ts';
 
 export type AffiliateAuditSeverity = 'critical' | 'warning';
 
@@ -29,7 +30,7 @@ function isPositiveInteger(value: number | null): boolean {
   return Number.isInteger(value) && Number(value) > 0;
 }
 
-export function auditAffiliateOffers(offers: AffiliateOffer[], now = new Date()): AffiliateAuditIssue[] {
+export function auditAffiliateOffers(offers: AffiliateOffer[], now = new Date(), issuedHtmlByOfferId: Readonly<Record<string, string>> = AFFILIATE_ISSUED_HTML): AffiliateAuditIssue[] {
   const issues: AffiliateAuditIssue[] = [];
   const idCounts = new Map<string, number>();
   const today = getTokyoDate(now);
@@ -70,9 +71,16 @@ export function auditAffiliateOffers(offers: AffiliateOffer[], now = new Date())
     if (!offer.advertiserName.trim()) add(offer, 'MISSING_ADVERTISER', '広告主名がありません。');
     if (!offer.offerName.trim()) add(offer, 'MISSING_OFFER_NAME', '案件名がありません。');
     if (offer.enabled) {
+      const issuedHtml = issuedHtmlByOfferId[offer.id] ?? '';
+      if (!issuedHtml) add(offer, 'MISSING_ASP_ISSUED_HTML', 'ASP管理画面が発行した未改変HTMLがありません。');
+      const includesIssuedUrl = (url: string) => issuedHtml.includes(url) || issuedHtml.includes(url.replace(/^https:/u, ''));
+      if (offer.destinationUrl && !includesIssuedUrl(offer.destinationUrl)) add(offer, 'ASP_HTML_DESTINATION_MISMATCH', '発行HTMLと案件リンクが一致しません。');
+      if (offer.creativeImageUrl && !includesIssuedUrl(offer.creativeImageUrl)) add(offer, 'ASP_HTML_CREATIVE_MISMATCH', '発行HTMLと広告素材URLが一致しません。');
+      if (offer.impressionPixelUrl && !includesIssuedUrl(offer.impressionPixelUrl)) add(offer, 'ASP_HTML_PIXEL_MISMATCH', '発行HTMLと計測タグが一致しません。');
       if (!isHttpsUrl(offer.creativeImageUrl)) add(offer, 'MISSING_OFFICIAL_CREATIVE', '公開案件には広告主・ASP提供クリエイティブ画像が必要です。');
       if (!offer.creativeAlt?.trim()) add(offer, 'MISSING_CREATIVE_ALT', '広告主提供クリエイティブ画像の代替テキストがありません。');
       if (!isPositiveInteger(offer.creativeWidth) || !isPositiveInteger(offer.creativeHeight)) add(offer, 'MISSING_CREATIVE_SIZE', '広告主提供クリエイティブ画像の表示サイズがありません。');
+      if (Number(offer.creativeWidth) > 300) add(offer, 'CREATIVE_TOO_WIDE', '320px画面で原寸表示できる幅300px以下のASP発行素材が必要です。');
       if (!isHttpsUrl(offer.impressionPixelUrl)) add(offer, 'MISSING_IMPRESSION_PIXEL', 'ASP提供タグの計測ピクセルURLがありません。');
       if (!offer.creativeId?.trim()) add(offer, 'MISSING_CREATIVE_ID', '広告主提供クリエイティブの識別子がありません。');
       if (!isHttpsUrl(offer.creativeSourceUrl)) add(offer, 'MISSING_CREATIVE_SOURCE_URL', '広告主提供クリエイティブの取得元URLがありません。');
@@ -139,41 +147,8 @@ export async function auditPublishedAffiliateRemotes(
       }
     }
 
-    if (offer.destinationUrl && offer.verifiedLandingHost) {
-      try {
-        let currentUrl = offer.destinationUrl;
-        const observedHosts: string[] = [];
-        let completed = false;
-        for (let hop = 0; hop < 8; hop += 1) {
-          const currentHost = new URL(currentUrl).host;
-          observedHosts.push(currentHost);
-          const response = await fetchWithTimeout(fetchImpl, currentUrl, { redirect: 'manual', cache: 'no-store' });
-          const location = response.headers.get('location');
-          if (response.status >= 300 && response.status < 400 && location) {
-            currentUrl = new URL(location, currentUrl).toString();
-            continue;
-          }
-          await response.body?.cancel();
-          completed = true;
-          break;
-        }
-        const finalHost = new URL(currentUrl).host;
-        if (!completed) issues.push(remoteIssue(offer, 'REMOTE_REDIRECT_LIMIT', '広告リンクのリダイレクトが8回以内に完了しません。'));
-        if (finalHost !== offer.verifiedLandingHost) {
-          issues.push(remoteIssue(offer, 'REMOTE_LANDING_HOST_MISMATCH', `実際の最終遷移先${finalHost}が確認済みhostと一致しません。`));
-        }
-        const unapprovedHosts = observedHosts.filter((host, index) => {
-          if (index === 0) return !isAllowedAffiliateHost('tracking', `https://${host}`);
-          if (host === finalHost) return !isAllowedAffiliateHost('landing', `https://${host}`);
-          return !isAllowedAffiliateHost('redirect', `https://${host}`);
-        });
-        if (unapprovedHosts.length > 0) {
-          issues.push(remoteIssue(offer, 'REMOTE_REDIRECT_HOST_UNAPPROVED', `未承認のリダイレクトhostを検出しました：${[...new Set(unapprovedHosts)].join('、')}`));
-        }
-      } catch (error) {
-        issues.push(remoteIssue(offer, 'REMOTE_REDIRECT_CHECK_FAILED', `広告リンクのオンライン照合に失敗しました：${error instanceof Error ? error.message : String(error)}`));
-      }
-    }
+    // 成果計測URLは監査から絶対に取得しない。クリック計測の汚染を避けるため、
+    // 遷移先はASP管理画面で確認したhostと日付の静的証跡だけを検査する。
   }
 
   return issues;

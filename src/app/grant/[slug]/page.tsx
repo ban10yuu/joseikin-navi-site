@@ -23,7 +23,7 @@ import { getValidOfficialSourceUrls } from '@/lib/grant-source';
 import { groupGrantSections, type GrantSectionGroup } from '@/lib/grant-sections';
 import { getEffectiveGrantStatus, getOfficialCtaLabel, isRepayableSupport } from '@/lib/grant-status';
 import { toSiteUrl } from '@/lib/site-url';
-import { getEligibleAffiliateOffers } from '@/lib/monetization';
+import { getEligibleAffiliateOffers, isSensitiveAffiliateContext } from '@/lib/monetization';
 import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
 import { CATEGORY_LABELS, SUPPORT_TYPE_LABELS, type Section } from '@/lib/types';
 
@@ -87,13 +87,27 @@ export default async function GrantDetailPage({ params }: Props) {
   const eligibilityItems = splitEligibilityText(grant.eligibility);
   const purpose = grant.primaryPurpose;
   const businessAudience = ['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization'].includes(grant.primaryAudience ?? '');
-  const sensitivePurpose = grant.purposes.some((item) => ['medical', 'welfare', 'disaster', 'livingSupport'].includes(item));
+  const affiliateContextTexts = [
+    grant.title,
+    grant.description,
+    grant.eligibility,
+    grant.applicationPeriod,
+    ...grant.tags,
+    ...grant.sections.flatMap((section) => [section.heading, section.content]),
+  ];
+  const sensitiveContext = isSensitiveAffiliateContext({
+    purposes: grant.purposes,
+    primaryPurpose: grant.primaryPurpose,
+    audiences: grant.audiences,
+    texts: affiliateContextTexts,
+  });
   const primaryOfficialUrl = getValidOfficialSourceUrls(grant)[0];
   const affiliateIntents = getGrantAffiliateIntents({
     title: grant.title,
     description: grant.description,
     tags: grant.tags,
     purposes: grant.purposes,
+    primaryPurpose: grant.primaryPurpose,
     affiliateIntents: grant.affiliateIntents ?? [],
   });
   const affiliateHeading = businessAudience ? '事業に関連するサービス' : 'この制度の目的に関連するサービス';
@@ -104,19 +118,23 @@ export default async function GrantDetailPage({ params }: Props) {
     pageType: 'grant',
     audiences: grant.audiences ?? [],
     purposes: grant.purposes ?? [],
+    primaryPurpose: grant.primaryPurpose,
     intents: affiliateIntents,
     monetizationAllowed: shouldAllowDerivedAffiliateContext({
       purposes: grant.purposes,
       intents: affiliateIntents,
       monetizationAllowed: grant.monetizationAllowed,
+      sensitive: sensitiveContext,
     }),
     status,
     indexable: sourceStatus.level !== 'unverified' && !expired && grant.indexStatus !== 'noindex' && grant.contentStatus === 'published',
     hasOfficialSource: Boolean(primaryOfficialUrl),
-    limit: sensitivePurpose ? 2 : 6,
+    sensitive: sensitiveContext,
+    texts: affiliateContextTexts,
+    limit: 2,
   });
-  const primaryAffiliateOffers = affiliateOffers.slice(0, 2);
-  const secondaryAffiliateOffers = affiliateOffers.slice(2);
+  const primaryAffiliateOffers = affiliateOffers.slice(0, 1);
+  const secondaryAffiliateOffers = affiliateOffers.slice(1);
 
   const orderedGroups: GrantSectionGroup[] = ['overview', 'eligibility', 'amount', 'period', 'costs', 'method', 'documents', 'contact'];
   const classifiedCount = orderedGroups.reduce((count, group) => count + sectionGroups[group].length, 0);
@@ -160,6 +178,7 @@ export default async function GrantDetailPage({ params }: Props) {
                 grantId={grant.slug}
                 audience={grant.primaryAudience}
                 purpose={grant.primaryPurpose}
+                intents={affiliateIntents}
                 placement="grant-after-official-source"
                 className="grant-affiliate-placement"
                 expandAt={1200}
@@ -221,6 +240,7 @@ export default async function GrantDetailPage({ params }: Props) {
               grantId={grant.slug}
               audience={grant.primaryAudience}
               purpose={grant.primaryPurpose}
+              intents={affiliateIntents}
               placement="grant-before-correction"
               className="grant-affiliate-inline-placement"
               expandAt={1200}

@@ -63,6 +63,76 @@ describe('getGrantAffiliateIntents', () => {
     assert.deepEqual(result, ['systemDevelopment']);
   });
 
+  it('販路開拓・ホームページ・賃上げ制度を対応する事業サービスへ分類する', () => {
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '中小企業販路開拓支援補助金', description: 'ECサイトとオンライン販売の導入を支援します。', tags: ['販路開拓'],
+      purposes: ['businessGrowth'], affiliateIntents: [],
+    }), ['ecommerce']);
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '中小企業ホームページ作成支援', description: '事業用サイトの開設費を補助します。', tags: ['Web'],
+      purposes: ['digitalTransformation'], affiliateIntents: [],
+    }), ['cloudStorage']);
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '事業場内最低賃金引上げ支援', description: '給与計算と賃金引上げを支援します。', tags: ['賃上げ'],
+      purposes: ['wageIncrease'], affiliateIntents: [],
+    }), ['payroll']);
+  });
+
+  it('雇用・教育・起業制度を対応する承認済み広告の文脈へ分類する', () => {
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '就職支援制度', description: '求職者の就職を支援します。', tags: ['就職'],
+      purposes: ['employment'], primaryPurpose: 'employment', affiliateIntents: [],
+    }), ['careerConsultation']);
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '子どもの学習支援', description: '家庭の学びを支援します。', tags: ['教育'],
+      purposes: ['childcare', 'education'], affiliateIntents: [],
+    }), ['childrensEducation']);
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '創業支援補助金', description: '新規創業を支援します。', tags: ['起業'],
+      purposes: ['startup'], affiliateIntents: [],
+    }), ['businessPlanning', 'companyFormation']);
+  });
+
+  it('住宅の副カテゴリemploymentで転職広告を出さない', () => {
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '住宅リフォーム補助金', description: '自宅の改修工事を支援します。', tags: ['住宅'],
+      purposes: ['housing', 'employment'], primaryPurpose: 'housing', affiliateIntents: [],
+    }), []);
+  });
+
+  it('手当と医療費助成を絵本広告の文脈にしない', () => {
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '特別児童扶養手当', description: '対象家庭へ手当を支給します。', tags: ['児童', '手当'],
+      purposes: ['childcare', 'livingSupport'], primaryPurpose: 'childcare', affiliateIntents: [],
+    }), []);
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '子どもの読書活動支援', description: '絵本を通じた学びを支援します。', tags: ['読書'],
+      purposes: ['childcare', 'education'], primaryPurpose: 'childcare', affiliateIntents: [],
+    }), ['childrensEducation']);
+  });
+
+  it('成人教育や地域イベントには子ども向け・店舗向け広告意図を付けない', () => {
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '大学生向け奨学金', description: '大学等の修学費用を支援します。', tags: ['高等教育'],
+      purposes: ['education'], affiliateIntents: [],
+    }), ['financialPlanning']);
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '地域イベント開催支援', description: '地域交流イベントの開催費を補助します。', tags: ['交流'],
+      purposes: ['regionalRevitalization'], affiliateIntents: [],
+    }), []);
+  });
+
+  it('リユース査定と出店分析は本文が一致する制度だけに付ける', () => {
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '中古品リユース事業DX補助金', description: '買取査定システムの導入を支援します。', tags: ['古物'],
+      purposes: ['digitalTransformation'], affiliateIntents: [],
+    }), ['reuseValuation']);
+    assert.deepEqual(getGrantAffiliateIntents({
+      title: '空き店舗出店支援補助金', description: '店舗開業時の立地検討と改修を支援します。', tags: ['商圏'],
+      purposes: ['startup', 'regionalRevitalization'], affiliateIntents: [],
+    }), ['businessPlanning', 'companyFormation', 'tradeAreaAnalysis']);
+  });
+
   it('住宅目的がなければ太陽光という語だけで住宅広告の意図を追加しない', () => {
     const result = getGrantAffiliateIntents({
       title: '太陽光関連企業の研究開発支援',
@@ -90,5 +160,12 @@ describe('shouldAllowDerivedAffiliateContext', () => {
     assert.equal(shouldAllowDerivedAffiliateContext({
       purposes: ['medical'], intents: ['fertilityCare'], monetizationAllowed: false,
     }), false);
+  });
+
+  it('非センシティブと判定済みなら粗い副目的だけで候補を消さない', () => {
+    assert.equal(shouldAllowDerivedAffiliateContext({
+      purposes: ['businessGrowth', 'livingSupport'], intents: ['ecommerce'], monetizationAllowed: false,
+      sensitive: false,
+    }), true);
   });
 });

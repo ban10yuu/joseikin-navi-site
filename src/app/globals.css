@@ -122,7 +122,7 @@ body {
 
 .affiliate-disclosure > span:not(.sr-only) {
   color: #5f4a24;
-  font-size: 0.6875rem;
+  font-size: 0.8125rem;
   font-weight: 700;
   line-height: 1.5;
 }
@@ -213,12 +213,24 @@ body {
 .affiliate-creative-link {
   position: relative;
   z-index: 1;
-  display: grid;
+  display: block;
   grid-column: 1 / -1;
-  justify-items: center;
-  gap: 0.75rem;
+  text-align: center;
   color: inherit;
   text-decoration: none;
+}
+
+.affiliate-creative-shell {
+  position: relative;
+  grid-column: 1 / -1;
+}
+
+.affiliate-creative-overlay {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  display: block;
+  border-radius: 6px;
 }
 
 .affiliate-creative-context {
@@ -232,22 +244,24 @@ body {
 }
 
 .affiliate-creative-cta {
-  display: inline-flex;
-  min-height: 46px;
-  width: 100%;
+  display: flex;
+  min-height: 48px;
+  margin-top: 0.65rem;
   align-items: center;
   justify-content: center;
-  border-radius: 8px;
+  border: 2px solid #78350f;
+  border-radius: 10px;
   background: #78350f;
-  padding: 0.65rem 0.75rem;
+  padding: 0.65rem 1rem;
   color: #ffffff;
-  font-size: 0.8125rem;
+  font-size: 0.875rem;
   font-weight: 900;
   line-height: 1.4;
   text-align: center;
+  text-decoration: none;
 }
 
-.affiliate-creative-link:hover .affiliate-creative-cta {
+.affiliate-creative-cta:hover {
   background: #92400e;
 }
 
@@ -256,7 +270,7 @@ body {
   z-index: 1;
   margin-top: 0.6rem;
   color: #64748b;
-  font-size: 0.6875rem;
+  font-size: 0.75rem;
   line-height: 1.6;
   text-align: left;
 }
@@ -285,7 +299,7 @@ body {
 .responsive-affiliate-heading p {
   margin-top: 0.15rem;
   color: #64748b;
-  font-size: 0.6875rem;
+  font-size: 0.75rem;
   line-height: 1.6;
 }
 
@@ -323,7 +337,7 @@ body {
 .responsive-affiliate-placement .affiliate-disclosure strong {
   min-height: 24px;
   padding: 0.1rem 0.55rem;
-  font-size: 0.6875rem;
+  font-size: 0.75rem;
 }
 
 .responsive-affiliate-placement .affiliate-creative-image {
@@ -334,9 +348,14 @@ body {
   box-shadow: none;
 }
 
+.responsive-affiliate-placement .affiliate-creative-link {
+  min-block-size: 300px;
+  align-content: center;
+}
+
 .responsive-affiliate-controls {
   display: grid;
-  grid-template-columns: minmax(88px, 1fr) auto minmax(88px, 1fr);
+  grid-template-columns: minmax(44px, 1fr) auto minmax(44px, 1fr);
   gap: 0.5rem;
   align-items: center;
   margin-top: 0.75rem;
@@ -358,6 +377,31 @@ body {
   font-size: 0.75rem;
   font-weight: 800;
   text-align: center;
+}
+
+.responsive-affiliate-controls button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.affiliate-creative-new-tab {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+@media (max-width: 359px) {
+  .responsive-control-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+  }
 }
 
 .responsive-affiliate-slides {
@@ -1800,7 +1844,7 @@ body {
     position: sticky;
     top: 6.5rem;
     grid-column: 2;
-    grid-row: 1 / span 2;
+    grid-row: 2;
     width: 318px;
     margin-top: 0;
   }

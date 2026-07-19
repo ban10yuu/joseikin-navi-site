@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 import { AFFILIATE_OFFERS } from '../config/affiliate-offers.ts';
+import { AFFILIATE_ISSUED_HTML } from '../config/affiliate-issued-html.ts';
 import { getEligibleAffiliateOffers, isAffiliateOfferPublishable } from './monetization.ts';
 
 const NOW = new Date('2026-07-19T12:00:00+09:00');
@@ -16,13 +17,19 @@ describe('affiliate production config', () => {
       'a8-easy-myshop-ecommerce',
       'a8-onamae-rental-server',
       'a8-shin-rental-server',
-      'moshimo-saiene-home-consultation',
       'moshimo-andaze-dx-development',
       'moshimo-kikuchi-tax-adviser',
       'a8-plement-seishei-sheet',
       'a8-plement-syringe',
+      'moshimo-circle-reuse-ai-saas',
+      'moshimo-gleasin',
+      'moshimo-worldlibrary-childrens-books',
+      'moshimo-money-life-fp',
+      'moshimo-sakucareer-match',
+      'moshimo-zero-company-formation',
     ]);
     for (const offer of publishable) {
+      assert.ok(AFFILIATE_ISSUED_HTML[offer.id], `${offer.id}にASP発行HTMLがありません`);
       if (offer.network === 'A8.net') {
         assert.match(offer.creativeImageUrl ?? '', /^https:\/\/www\d+\.a8\.net\/svt\/bgt\?/);
         assert.match(offer.impressionPixelUrl ?? '', /^https:\/\/www\d+\.a8\.net\/0\.gif\?/);
@@ -76,7 +83,7 @@ describe('affiliate production config', () => {
   it('もしもの申請中案件は公開条件を満たすまで非表示にする', () => {
     const candidates = AFFILIATE_OFFERS.filter((offer) => offer.network === 'もしもアフィリエイト' && offer.partnershipStatus === 'applied');
 
-    assert.deepEqual(candidates.map((offer) => offer.externalProgramId), ['7644', '7602', '7520', '3836']);
+    assert.deepEqual(candidates.map((offer) => offer.externalProgramId), ['7602', '3836']);
     for (const offer of candidates) {
       assert.equal(offer.enabled, false);
       assert.equal(offer.partnershipStatus, 'applied');
@@ -86,6 +93,49 @@ describe('affiliate production config', () => {
     }
   });
 
+  it('教育・雇用・創業制度では文脈に一致する新規承認案件だけを選ぶ', () => {
+    const education = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+      pageType: 'grant', audiences: ['family'], purposes: ['childcare', 'education'],
+      intents: ['childrensEducation', 'financialPlanning'], monetizationAllowed: true, status: 'open',
+      indexable: true, hasOfficialSource: true, limit: 3,
+    }, NOW);
+    const employment = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+      pageType: 'grant', audiences: ['individual', 'jobSeeker'], purposes: ['employment'],
+      intents: ['careerConsultation'], monetizationAllowed: true, status: 'open',
+      indexable: true, hasOfficialSource: true, limit: 3,
+    }, NOW);
+    const startup = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+      pageType: 'grant', audiences: ['soleProprietor', 'business'], purposes: ['startup'],
+      intents: ['businessPlanning', 'companyFormation'], monetizationAllowed: true, status: 'open',
+      indexable: true, hasOfficialSource: true, limit: 6,
+    }, NOW);
+
+    assert.deepEqual(education.map((offer) => offer.id), [
+      'moshimo-worldlibrary-childrens-books',
+      'moshimo-money-life-fp',
+    ]);
+    assert.deepEqual(employment.map((offer) => offer.id), ['moshimo-sakucareer-match']);
+    assert.equal(startup.some((offer) => offer.id === 'moshimo-zero-company-formation'), true);
+    assert.equal(startup.some((offer) => offer.id === 'moshimo-circle-reuse-ai-saas'), false);
+    assert.equal(startup.some((offer) => offer.id === 'moshimo-gleasin'), false);
+  });
+
+  it('リユース査定と商圏分析は専用intentに一致した制度だけで選ぶ', () => {
+    const reuse = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+      pageType: 'grant', audiences: ['business'], purposes: ['digitalTransformation'],
+      intents: ['reuseValuation'], monetizationAllowed: true, status: 'open', indexable: true,
+      hasOfficialSource: true, limit: 3,
+    }, NOW);
+    const tradeArea = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+      pageType: 'grant', audiences: ['soleProprietor', 'business'], purposes: ['startup', 'regionalRevitalization'],
+      intents: ['tradeAreaAnalysis'], monetizationAllowed: true, status: 'open', indexable: true,
+      hasOfficialSource: true, limit: 3,
+    }, NOW);
+
+    assert.deepEqual(reuse.map((offer) => offer.id), ['moshimo-circle-reuse-ai-saas']);
+    assert.deepEqual(tradeArea.map((offer) => offer.id), ['moshimo-gleasin']);
+  });
+
   it('住宅省エネ制度では住宅向け案件だけを選ぶ', () => {
     const result = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
       pageType: 'grant', audiences: ['family'], purposes: ['housing', 'energySaving'],
@@ -93,7 +143,7 @@ describe('affiliate production config', () => {
       indexable: true, hasOfficialSource: true, limit: 2,
     }, NOW);
 
-    assert.deepEqual(result.map((offer) => offer.id), ['moshimo-saiene-home-consultation']);
+    assert.deepEqual(result, []);
   });
 
   it('公式確認済みの受付中不妊治療制度では不妊治療に一致する案件だけを選ぶ', () => {

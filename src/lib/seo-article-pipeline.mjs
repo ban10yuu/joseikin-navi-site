@@ -49,7 +49,6 @@ const REQUIRED_STRUCTURE_FIELDS = [
   'shortAnswer',
   'aiAnswer',
   'sections',
-  'faq',
   'internalLinks',
   'cta',
 ];
@@ -59,6 +58,10 @@ function cleanText(value) {
     .replace(/<[^>]*>/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+function normalizeComparableText(value) {
+  return cleanText(value).normalize('NFKC');
 }
 
 function articleText(article) {
@@ -80,8 +83,13 @@ function splitSentences(text) {
 }
 
 function isValidDate(value) {
-  return /^\d{4}-\d{2}-\d{2}$/.test(String(value ?? ''))
-    && Number.isFinite(Date.parse(`${value}T00:00:00+09:00`));
+  const matched = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(value ?? ''));
+  if (!matched) return false;
+  const year = Number(matched[1]);
+  const month = Number(matched[2]);
+  const day = Number(matched[3]);
+  const date = new Date(Date.UTC(year, month - 1, day));
+  return date.getUTCFullYear() === year && date.getUTCMonth() === month - 1 && date.getUTCDate() === day;
 }
 
 function isHttpUrl(value) {
@@ -91,6 +99,48 @@ function isHttpUrl(value) {
   } catch {
     return false;
   }
+}
+
+function parseHttpUrl(value) {
+  if (!isHttpUrl(value)) return null;
+  return new URL(value);
+}
+
+function isApprovedOfficialHost(value, allowedHosts = []) {
+  const parsed = parseHttpUrl(value);
+  if (!parsed) return false;
+  const hostname = parsed.hostname.toLowerCase();
+  const normalizedAllowlist = allowedHosts.map((host) => String(host).toLowerCase());
+  return hostname.endsWith('.go.jp') || hostname.endsWith('.lg.jp') || normalizedAllowlist.includes(hostname);
+}
+
+function factualArticleText(article) {
+  return [
+    article?.title,
+    article?.metaDescription,
+    article?.shortAnswer,
+    article?.aiAnswer,
+    ...(article?.sections ?? []).map((section) => section.content),
+    ...(article?.faq ?? []).map((entry) => entry.answer),
+  ].map(cleanText).filter(Boolean).join('\n');
+}
+
+function claimExcerpts(claim) {
+  const values = Array.isArray(claim?.excerpts) ? claim.excerpts : [claim?.text];
+  return values.map(cleanText).filter(Boolean);
+}
+
+function quantifiedTokens(value) {
+  return normalizeComparableText(value).match(/\d+分の\d+|\d[\d,]*(?:\.\d+)?\s*(?:万円|円|歳|年|月|日|人|件|%)/gu) ?? [];
+}
+
+function unsupportedClaimSentences(article) {
+  const factualText = factualArticleText(article);
+  const mappedExcerpts = (article?.claims ?? []).flatMap(claimExcerpts);
+  const highRiskPattern = /(?:\d[\d,]*(?:\.\d+)?\s*(?:万円|円|歳|年|月|日|人|件|％|%)|所得制限|住民票|印鑑|必要書類|申請不要|対象(?:です|と案内|となる)|交付(?:します|しています|され)|支給(?:します|され)|受付(?:中|開始|終了)(?:です|しました|します)|受付期間は)/u;
+  return splitSentences(factualText)
+    .filter((sentence) => highRiskPattern.test(sentence))
+    .filter((sentence) => !mappedExcerpts.some((excerpt) => normalizeComparableText(sentence) === normalizeComparableText(excerpt)));
 }
 
 function normalizeWeights(weights = {}) {
@@ -129,24 +179,29 @@ export function classifySearchIntent(keyword = '') {
   return INTENT_PATTERNS.find(([, pattern]) => pattern.test(normalized))?.[0] ?? 'informational';
 }
 
-export function validateTruthPacket(packet, article) {
+export function validateTruthPacket(packet, article, options = {}) {
   const errors = [];
   const sources = Array.isArray(packet?.sources) ? packet.sources : [];
   const facts = Array.isArray(packet?.facts) ? packet.facts : [];
   const claims = Array.isArray(article?.claims) ? article.claims : [];
   const sourceById = new Map(sources.map((source) => [source.id, source]));
   const factById = new Map(facts.map((fact) => [fact.id, fact]));
+  const runtimeEvidence = options.runtimeEvidenceBySourceId ?? {};
 
   if (sources.length === 0) {
     errors.push({ code: 'OFFICIAL_SOURCE_REQUIRED', message: '公式情報の確認先がありません。' });
   }
 
   for (const source of sources) {
+    const parsedSourceUrl = parseHttpUrl(source.url);
+    const allowedHosts = Array.isArray(source.allowedHosts) ? source.allowedHosts : [];
     if (!source.id || source.sourceType !== 'official') {
       errors.push({ code: 'SOURCE_NOT_OFFICIAL', sourceId: source.id ?? null, message: '公式情報として識別された出典だけを使用できます。' });
     }
-    if (!isHttpUrl(source.url)) {
+    if (!parsedSourceUrl) {
       errors.push({ code: 'INVALID_SOURCE_URL', sourceId: source.id ?? null, message: '出典URLが有効なHTTP(S) URLではありません。' });
+    } else if (!isApprovedOfficialHost(source.url, allowedHosts)) {
+      errors.push({ code: 'UNVERIFIED_OFFICIAL_HOST', sourceId: source.id ?? null, message: '行政機関の公式ドメインとして確認できない出典です。' });
     }
     if (!isValidDate(source.sourceCheckedAt)) {
       errors.push({ code: 'SOURCE_CHECK_DATE_REQUIRED', sourceId: source.id ?? null, message: '公式情報の確認日が必要です。' });
@@ -157,19 +212,52 @@ export function validateTruthPacket(packet, article) {
     if (!['automated', 'human', 'mixed'].includes(source.verificationMethod)) {
       errors.push({ code: 'VERIFICATION_METHOD_REQUIRED', sourceId: source.id ?? null, message: '自動照合・人手確認の区別が必要です。' });
     }
+    const retrieval = runtimeEvidence[source.id];
+    const finalUrl = parseHttpUrl(retrieval?.finalUrl);
+    const markers = Array.isArray(source.evidenceMarkers) ? source.evidenceMarkers.map(normalizeComparableText).filter(Boolean) : [];
+    const normalizedText = normalizeComparableText(retrieval?.normalizedText);
+    if (!retrieval
+      || retrieval.httpStatus < 200
+      || retrieval.httpStatus >= 300
+      || !isValidDate(retrieval.retrievedAt)
+      || !finalUrl
+      || !parsedSourceUrl
+      || finalUrl.hostname !== parsedSourceUrl.hostname
+      || !isApprovedOfficialHost(retrieval.finalUrl, allowedHosts)
+      || !/^[a-f0-9]{64}$/u.test(String(retrieval.normalizedContentHash ?? ''))
+      || retrieval.normalizationVersion !== 'visible-text-nfkc-v1'
+      || !/^text\/(?:html|plain)/u.test(String(retrieval.contentType ?? ''))
+      || markers.length < 2
+      || markers.some((marker) => !normalizedText.includes(marker))) {
+      errors.push({ code: 'SOURCE_RETRIEVAL_EVIDENCE_REQUIRED', sourceId: source.id ?? null, message: '公式ページの取得結果、本文ハッシュ、照合語を確認できません。' });
+    }
     if (['human', 'mixed'].includes(source.verificationMethod) && !isValidDate(source.humanReviewedAt)) {
       errors.push({ code: 'HUMAN_REVIEW_DATE_REQUIRED', sourceId: source.id ?? null, message: '人手確認を表示するには確認日の記録が必要です。' });
     }
   }
 
   for (const fact of facts) {
-    if (!fact.id || !fact.field || !['exists', 'doesNotExist'].includes(fact.status)) {
-      errors.push({ code: 'INVALID_TRUTH_FACT', factId: fact.id ?? null, message: '事実は存在・不存在のどちらかを明示する必要があります。' });
+    if (!fact.id || !fact.field || !['exists', 'notFoundInReviewedSources'].includes(fact.status)) {
+      errors.push({ code: 'INVALID_TRUTH_FACT', factId: fact.id ?? null, message: '事実は確認済み、または確認資料内で未発見として記録する必要があります。' });
     }
     if (!Array.isArray(fact.sourceIds) || fact.sourceIds.length === 0) {
       errors.push({ code: 'FACT_SOURCE_REQUIRED', factId: fact.id ?? null, message: '事実に公式出典が紐付いていません。' });
     } else if (fact.sourceIds.some((sourceId) => !sourceById.has(sourceId))) {
       errors.push({ code: 'FACT_SOURCE_NOT_FOUND', factId: fact.id ?? null, message: '事実が参照する出典を確認できません。' });
+    }
+    const evidence = Array.isArray(fact.evidence) ? fact.evidence : [];
+    if (fact.status === 'exists' && evidence.length === 0) {
+      errors.push({ code: 'FACT_EVIDENCE_REQUIRED', factId: fact.id ?? null, message: '確認済み事実には公式本文の根拠抜粋が必要です。' });
+    }
+    for (const item of evidence) {
+      const sourceEvidence = runtimeEvidence[item.sourceId];
+      if (!fact.sourceIds?.includes(item.sourceId) || !normalizeComparableText(sourceEvidence?.normalizedText).includes(normalizeComparableText(item.excerpt))) {
+        errors.push({ code: 'FACT_EVIDENCE_NOT_FOUND', factId: fact.id ?? null, message: '事実の根拠抜粋を取得した公式本文で確認できません。' });
+      }
+    }
+    if (fact.status === 'notFoundInReviewedSources'
+      && fact.sourceIds.some((sourceId) => !['human', 'mixed'].includes(sourceById.get(sourceId)?.verificationMethod))) {
+      errors.push({ code: 'NEGATIVE_FACT_REQUIRES_HUMAN_REVIEW', factId: fact.id ?? null, message: '記載が見つからないという判断には人手確認が必要です。' });
     }
   }
 
@@ -192,7 +280,33 @@ export function validateTruthPacket(packet, article) {
       errors.push({ code: 'FACT_ASSERTION_MISMATCH', factId: claim.factId, message: '公式資料上の存在・不存在と記事の主張が一致しません。' });
       continue;
     }
+    const excerpts = claimExcerpts(claim);
+    if (excerpts.length === 0) {
+      errors.push({ code: 'CLAIM_TEXT_REQUIRED', factId: claim.factId, message: '主張が本文のどの記述に対応するか記録されていません。' });
+      continue;
+    }
+    const body = factualArticleText(article);
+    if (excerpts.some((excerpt) => !body.includes(excerpt))) {
+      errors.push({ code: 'CLAIM_TEXT_NOT_FOUND', factId: claim.factId, message: '主張として登録した文言が本文にありません。' });
+      continue;
+    }
+    const bodySentences = splitSentences(body).map(normalizeComparableText);
+    if (excerpts.some((excerpt) => !bodySentences.includes(normalizeComparableText(excerpt)))) {
+      errors.push({ code: 'CLAIM_SENTENCE_COVERAGE_REQUIRED', factId: claim.factId, message: '根拠IDは主張を含む文全体へ紐付ける必要があります。' });
+      continue;
+    }
+    const factTokens = new Set(quantifiedTokens(fact.value));
+    const unmatchedTokens = excerpts.flatMap(quantifiedTokens).filter((token) => !factTokens.has(token));
+    if (unmatchedTokens.length > 0) {
+      errors.push({ code: 'CLAIM_VALUE_MISMATCH', factId: claim.factId, values: [...new Set(unmatchedTokens)], message: '本文中の金額・年齢・日付が公式根拠の値と一致しません。' });
+      continue;
+    }
     verifiedClaims += 1;
+  }
+
+  const unmappedSentences = unsupportedClaimSentences(article);
+  if (unmappedSentences.length > 0) {
+    errors.push({ code: 'UNMAPPED_ARTICLE_CLAIM', examples: unmappedSentences.slice(0, 3), message: '金額・年齢・対象条件などの制度固有記述が事実IDに紐付いていません。' });
   }
 
   const officialUrls = new Set(sources.map((source) => source.url).filter(isHttpUrl));
@@ -228,18 +342,23 @@ export function inspectArticleStructure(article) {
   for (const field of REQUIRED_STRUCTURE_FIELDS) {
     const value = article?.[field];
     if (field === 'sections' && (!Array.isArray(value) || value.length < 2)) missing.push(field);
-    else if (field === 'faq' && (!Array.isArray(value) || value.length < 1)) missing.push(field);
     else if (field === 'internalLinks' && (!Array.isArray(value) || value.length < 2)) missing.push(field);
     else if (field === 'cta' && (!value || value.type !== 'officialSource' || !cleanText(value.label) || !isHttpUrl(value.href))) missing.push(field);
-    else if (!['sections', 'faq', 'internalLinks', 'cta'].includes(field) && !cleanText(value)) missing.push(field);
+    else if (!['sections', 'internalLinks', 'cta'].includes(field) && !cleanText(value)) missing.push(field);
   }
 
   const invalid = [];
   if (cleanText(article?.title).length > 60) invalid.push('titleTooLong');
+  if (cleanText(article?.title).length < 12) invalid.push('titleTooShort');
   if (cleanText(article?.metaDescription).length > 160) invalid.push('metaDescriptionTooLong');
+  if (cleanText(article?.metaDescription).length < 50) invalid.push('metaDescriptionTooShort');
   if ((article?.sections ?? []).some((section) => !cleanText(section.heading) || !cleanText(section.content))) invalid.push('emptySection');
   if ((article?.faq ?? []).some((entry) => !cleanText(entry.question) || !cleanText(entry.answer))) invalid.push('emptyFaq');
   if ((article?.internalLinks ?? []).some((link) => !cleanText(link.label) || !String(link.href ?? '').startsWith('/'))) invalid.push('invalidInternalLink');
+  if ((article?.internalLinks ?? []).some((link) => link.href === article?.targetPath)) invalid.push('selfInternalLink');
+  if (!['newArticle', 'enhanceExisting'].includes(article?.publicationMode)) invalid.push('invalidPublicationMode');
+  if (article?.publicationMode === 'enhanceExisting' && !String(article?.targetPath ?? '').startsWith('/grant/')) invalid.push('invalidEnhancementTarget');
+  if (article?.publicationMode === 'newArticle' && article?.targetPath) invalid.push('unexpectedTargetPath');
 
   return {
     valid: missing.length === 0 && invalid.length === 0,
@@ -329,9 +448,9 @@ function intentMatchRatio(intent, article, keyword) {
   return Math.min(1, intentHit + keywordHit);
 }
 
-export function scoreArticle({ keyword, intent, truthPacket, article, config = {} }) {
+export function scoreArticle({ keyword, intent, truthPacket, article, config = {}, runtimeEvidenceBySourceId = {}, siteContext = {} }) {
   const weights = normalizeWeights(config.qualityWeights);
-  const truth = validateTruthPacket(truthPacket, article);
+  const truth = validateTruthPacket(truthPacket, article, { runtimeEvidenceBySourceId });
   const structure = inspectArticleStructure(article);
   const antiSlop = runAntiSlopPasses(article);
   const passOnePenalty = antiSlop.pass1.reduce((sum, issue) => sum + Math.min(0.3, issue.count * 0.12), 0);
@@ -367,10 +486,21 @@ export function scoreArticle({ keyword, intent, truthPacket, article, config = {
   revisionReasons.push(...antiSlop.pass1.map((issue) => issue.code), ...antiSlop.pass2.map((issue) => issue.code));
   if (dimensions.intentMatch.ratio < 0.7) revisionReasons.push('SEARCH_INTENT_MISMATCH');
   if (metadataRatio === 0) revisionReasons.push('INVALID_METADATA');
+  if (keyword?.strategy === 'enhanceExisting'
+    && (article?.publicationMode !== 'enhanceExisting' || article?.targetPath !== keyword?.targetPath)) {
+    revisionReasons.push('EXISTING_PAGE_CONFLICT');
+  }
+  if (keyword?.strategy === 'enhanceExisting') {
+    const target = siteContext.targetsByPath?.[article?.targetPath];
+    const officialUrls = new Set((truthPacket?.sources ?? []).map((source) => source.url));
+    if (!target) revisionReasons.push('TARGET_PATH_NOT_FOUND');
+    else if (!(target.officialUrls ?? []).some((url) => officialUrls.has(url))) revisionReasons.push('TARGET_OFFICIAL_SOURCE_MISMATCH');
+    if (siteContext.redirectSources?.includes(article?.targetPath)) revisionReasons.push('TARGET_IS_REDIRECT_SOURCE');
+  }
   if (total < minimumScore && revisionReasons.length === 0) revisionReasons.push('QUALITY_SCORE_BELOW_THRESHOLD');
 
   return {
-    passed: total >= minimumScore && truth.valid && structure.valid && antiSlop.valid,
+    passed: total >= minimumScore && truth.valid && structure.valid && antiSlop.valid && revisionReasons.length === 0,
     total,
     minimumScore,
     dimensions,
@@ -409,7 +539,7 @@ function lockedDraftOutput({ keyword, intent, article, quality, status }) {
   };
 }
 
-export function runSeoArticlePipeline({ backlog = [], truthPackets = [], articleDrafts = [], config = {} }) {
+export function runSeoArticlePipeline({ backlog = [], truthPackets = [], articleDrafts = [], config = {}, runtimeEvidenceBySourceId = {}, siteContext = {} }) {
   const selection = selectNextKeyword(backlog);
   if (selection.status === 'stopped') {
     return {
@@ -440,7 +570,7 @@ export function runSeoArticlePipeline({ backlog = [], truthPackets = [], article
     };
   }
 
-  const quality = scoreArticle({ keyword, intent, truthPacket, article, config });
+  const quality = scoreArticle({ keyword, intent, truthPacket, article, config, runtimeEvidenceBySourceId, siteContext });
   const revisionLimitReached = !quality.passed
     && Number(article.revisionCycle ?? 0) >= Number(config.maxRevisionCycles ?? 3);
   const status = quality.passed

@@ -1,6 +1,7 @@
 import type { AffiliateOffer, AffiliatePageType } from '@/config/affiliate-offers';
-import { AFFILIATE_LINK_REL, isAffiliateOfferPublishable } from '@/lib/monetization';
-import type { Audience, Purpose } from '@/lib/types';
+import { AFFILIATE_ISSUED_HTML } from '@/config/affiliate-issued-html';
+import { AFFILIATE_LINK_REL } from '@/lib/monetization';
+import type { AffiliateIntent, Audience, Purpose } from '@/lib/types';
 import AffiliateDisclosure from './AffiliateDisclosure';
 
 interface AffiliateRecommendationProps {
@@ -11,6 +12,7 @@ interface AffiliateRecommendationProps {
   grantId?: string;
   audience?: Audience;
   purpose?: Purpose;
+  intents?: AffiliateIntent[];
   compact?: boolean;
   headingLevel?: 'h2' | 'h3';
 }
@@ -51,27 +53,66 @@ const OFFER_COPY: Record<string, { eyebrow: string; headline: string; subhead: s
     headline: '電子契約で、申請準備の書類管理を軽くする',
     subhead: '事業者・団体向け',
   },
+  'moshimo-circle-reuse-ai-saas': {
+    eyebrow: 'リユース事業の査定業務に',
+    headline: 'AI査定サービスで、査定業務の効率化を検討',
+    subhead: 'リユース事業者向け',
+  },
+  'moshimo-gleasin': {
+    eyebrow: '出店・店舗開業の立地検討に',
+    headline: '商圏と立地の分析サービスを確認',
+    subhead: '店舗・事業者向け',
+  },
+  'moshimo-worldlibrary-childrens-books': {
+    eyebrow: '子どもの読書・学びに',
+    headline: '世界の絵本が届くギフト定期便',
+    subhead: '子育て家庭向け',
+  },
+  'moshimo-remoful-career': {
+    eyebrow: 'リモートワークを軸に仕事を探す方へ',
+    headline: 'リモートワーク求人の転職支援を確認',
+    subhead: '求職者・転職希望者向け',
+  },
+  'moshimo-money-life-fp': {
+    eyebrow: '住まい・教育費を含む家計相談に',
+    headline: 'ファイナンシャルプランナーへの無料相談',
+    subhead: '個人・家族向け',
+  },
+  'moshimo-sakucareer-match': {
+    eyebrow: '自分に合う転職支援を探す方へ',
+    headline: '転職エージェントとの無料面談を確認',
+    subhead: '求職者・転職希望者向け',
+  },
+  'moshimo-zero-company-formation': {
+    eyebrow: '法人設立の手続きを検討している方へ',
+    headline: '法人設立支援サービスの内容を確認',
+    subhead: '創業者・個人事業主向け',
+  },
 };
 
 function getOfferCopy(offer: AffiliateOffer) {
+  const personalOffer = offer.audiences.some((audience) => ['individual', 'family', 'student', 'jobSeeker'].includes(audience))
+    && !offer.audiences.some((audience) => ['soleProprietor', 'business', 'nonprofit', 'localOrganization'].includes(audience));
   return OFFER_COPY[offer.id] ?? {
-    eyebrow: '事業者の申請準備に関連',
+    eyebrow: personalOffer ? '制度の目的に関連するサービス' : '事業の準備・運営に関連',
     headline: offer.offerName,
-    subhead: '事業者・団体向けサービス',
+    subhead: personalOffer ? '個人・家族向けサービス' : '事業者・団体向けサービス',
   };
 }
 
-export default function AffiliateRecommendation({ offer, pageType, placement, position = 1, grantId, audience, purpose, compact = false, headingLevel = 'h2' }: AffiliateRecommendationProps) {
-  if (!isAffiliateOfferPublishable(offer)) return null;
+export default function AffiliateRecommendation({ offer, pageType, placement, position = 1, grantId, audience, purpose, intents = [], compact = false, headingLevel = 'h2' }: AffiliateRecommendationProps) {
   const Heading = headingLevel;
   const copy = getOfferCopy(offer);
-  const hasAdvertiserCreative = Boolean(offer.creativeImageUrl && offer.creativeWidth && offer.creativeHeight);
+  const issuedHtml = AFFILIATE_ISSUED_HTML[offer.id];
+  if (!issuedHtml) return null;
+  const hasAdvertiserCreative = Boolean(issuedHtml);
   const headingId = `affiliate-${offer.id}-${placement}`.replace(/[^a-zA-Z0-9_-]/g, '-');
   const analyticsAttributes = {
     'data-page-type': pageType,
     'data-grant-id': grantId,
     'data-audience': audience,
     'data-purpose': purpose,
+    'data-context-intents': intents.join(','),
     'data-offer-id': offer.id,
     'data-network': offer.network,
     'data-placement': placement,
@@ -98,38 +139,34 @@ export default function AffiliateRecommendation({ offer, pageType, placement, po
             <Heading id={headingId} className="affiliate-banner-headline">{offer.offerName}</Heading>
             <p className="affiliate-banner-subhead">{copy.subhead}</p>
           </div>
+          <div className="affiliate-creative-shell">
+            <div
+              className="affiliate-creative-link"
+              aria-hidden="true"
+              inert
+              dangerouslySetInnerHTML={{ __html: issuedHtml }}
+            />
+            <a
+              href={offer.destinationUrl ?? undefined}
+              target="_blank"
+              rel={AFFILIATE_LINK_REL}
+              className="affiliate-creative-overlay"
+              data-analytics-event="affiliate_click"
+              {...analyticsAttributes}
+              aria-label={`${offer.advertiserName}の${offer.offerName}を見る（PR・新しいタブで開きます）`}
+            />
+          </div>
           <a
-            href={offer.destinationUrl}
+            href={offer.destinationUrl ?? undefined}
             target="_blank"
             rel={AFFILIATE_LINK_REL}
-            className="affiliate-creative-link"
-            aria-label={`${offer.advertiserName}の${offer.offerName}を見る（PR・新しいタブで開きます）`}
+            className="affiliate-creative-cta"
             data-analytics-event="affiliate_click"
             {...analyticsAttributes}
+            aria-label={`${offer.advertiserName}の${offer.offerName}を見る（PR・新しいタブで開きます）`}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={offer.creativeImageUrl ?? ''}
-              alt={offer.creativeAlt ?? offer.offerName}
-              width={offer.creativeWidth ?? undefined}
-              height={offer.creativeHeight ?? undefined}
-              className="affiliate-creative-image"
-              style={{
-                width: `${offer.creativeWidth}px`,
-                height: 'auto',
-                aspectRatio: `${offer.creativeWidth} / ${offer.creativeHeight}`,
-              }}
-              loading="lazy"
-              decoding="async"
-              fetchPriority="low"
-              referrerPolicy="strict-origin-when-cross-origin"
-            />
-            <span className="affiliate-creative-cta">{offer.offerName}を見る（PR） <span aria-hidden="true">↗</span></span>
+            サービスの詳細を見る（PR）<span aria-hidden="true"> ↗</span>
           </a>
-          {offer.impressionPixelUrl ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img src={offer.impressionPixelUrl} alt="" width="1" height="1" className="affiliate-tracking-pixel" loading="lazy" decoding="async" referrerPolicy="strict-origin-when-cross-origin" />
-          ) : null}
           <p className="affiliate-advertiser-note">広告主：{offer.advertiserName}。制度の実施機関ではなく、利用は申請・採択の条件ではありません。補助対象かは公式募集要項でご確認ください。</p>
         </>
       ) : (
@@ -144,7 +181,7 @@ export default function AffiliateRecommendation({ offer, pageType, placement, po
           </div>
 
           <a
-            href={offer.destinationUrl}
+            href={offer.destinationUrl ?? undefined}
             target="_blank"
             rel={AFFILIATE_LINK_REL}
             className="affiliate-banner-button"

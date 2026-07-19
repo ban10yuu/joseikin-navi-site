@@ -1,19 +1,19 @@
 {
   "summary": {
-    "generatedAt": "2026-07-18T22:08:46.434Z",
-    "total": 27876,
-    "officialUrl": 27553,
-    "automated": 27592,
+    "generatedAt": "2026-07-19T00:02:32.347Z",
+    "total": 27875,
+    "officialUrl": 27552,
+    "automated": 27591,
     "humanReviewed": 0,
-    "noindex": 2604,
+    "noindex": 2603,
     "expired": 994,
-    "duplicates": 1621,
-    "needsReview": 2565,
+    "duplicates": 1620,
+    "needsReview": 2564,
     "loans": 722,
-    "affiliateEligible": 560,
-    "affiliateBlocked": 27316,
+    "affiliateEligible": 1077,
+    "affiliateBlocked": 26798,
     "critical": 0,
-    "warnings": 3334
+    "warnings": 3332
   },
   "issues": [
     {
@@ -3444,13 +3444,6 @@
       "code": "DESCRIPTION_MISSING",
       "slug": "fukuyama-childcare-subsidy",
       "title": "福山市 第2子以降の保育料無償化",
-      "message": "概要がなく、メタ説明と本文の整合を確認できません。"
-    },
-    {
-      "severity": "warning",
-      "code": "DESCRIPTION_MISSING",
-      "slug": "fukuyama-elderly-taxi",
-      "title": "福山市 おでかけ乗車券（バス・タクシー共通券）",
       "message": "概要がなく、メタ説明と本文の整合を確認できません。"
     },
     {
@@ -19706,13 +19699,6 @@
       "slug": "onomichi-child-medical-aid",
       "title": "",
       "message": "同じ公式URLが2件あります：https://www.city.onomichi.hiroshima.jp/site/onohug/2018.html"
-    },
-    {
-      "severity": "warning",
-      "code": "DUPLICATE_OFFICIAL_URL",
-      "slug": "fukuyama-elderly-support",
-      "title": "",
-      "message": "同じ公式URLが2件あります：https://www.city.fukuyama.hiroshima.jp/site/koureisha-shien/378928.html"
     },
     {
       "severity": "warning",

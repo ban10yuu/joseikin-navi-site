@@ -80,8 +80,8 @@ describe('affiliate offers', () => {
     assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, audiences: ['family'] }, new Date('2026-07-13')), []);
   });
 
-  it('他の掲載条件を満たしていても受付終了制度には表示しない', () => {
-    assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, status: 'closed' }, new Date('2026-07-13')), []);
+  it('受付終了制度でも文脈に一致する民間サービスは表示できる', () => {
+    assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, status: 'closed' }, new Date('2026-07-13')).map((item) => item.id), [offer.id]);
     assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, status: 'open' }, new Date('2026-07-13')).map((item) => item.id), [offer.id]);
   });
 
@@ -116,24 +116,51 @@ describe('affiliate offers', () => {
     assert.deepEqual(getEligibleAffiliateOffers([fertilityOffer], { ...fertilityContext, audiences: ['business'] }, new Date('2026-07-13')), []);
   });
 
-  it('副目的にセンシティブ目的を1つでも含む制度を拒否する', () => {
+  it('粗い副カテゴリのみで事業者制度の関連広告を消さない', () => {
+    const result = getEligibleAffiliateOffers([offer], {
+      ...context,
+      primaryPurpose: 'businessGrowth',
+      purposes: ['businessGrowth', 'livingSupport'],
+      sensitive: false,
+    }, new Date('2026-07-13'));
+    assert.deepEqual(result.map((item) => item.id), [offer.id]);
+  });
+
+  it('副目的だけが一致する広告は主目的と不一致なら表示しない', () => {
+    const result = getEligibleAffiliateOffers([offer], {
+      ...context,
+      primaryPurpose: 'housing',
+      purposes: ['housing', 'businessGrowth'],
+    }, new Date('2026-07-13'));
+    assert.deepEqual(result, []);
+  });
+
+  it('主目的または本文がセンシティブな場合は引き続き拒否する', () => {
     for (const sensitivePurpose of ['medical', 'welfare', 'disaster', 'livingSupport']) {
       const result = getEligibleAffiliateOffers([offer], {
         ...context,
+        primaryPurpose: sensitivePurpose,
         purposes: ['businessGrowth', sensitivePurpose],
       }, new Date('2026-07-13'));
-      assert.deepEqual(result, [], `${sensitivePurpose}を副目的に含む制度が広告対象になりました`);
+      assert.deepEqual(result, [], `${sensitivePurpose}が主目的の制度が広告対象になりました`);
     }
+    assert.deepEqual(getEligibleAffiliateOffers([offer], {
+      ...context,
+      primaryPurpose: 'businessGrowth',
+      purposes: ['businessGrowth', 'livingSupport'],
+      sensitive: true,
+    }, new Date('2026-07-13')), []);
   });
 
   it('目的分類だけでなく制度名やタグの緊急・脆弱性語も判定する', () => {
     assert.equal(isSensitiveAffiliateContext({ purposes: ['businessGrowth'], audiences: ['business'], texts: ['災害復旧設備補助金'] }), true);
     assert.equal(isSensitiveAffiliateContext({ purposes: ['businessGrowth'], audiences: ['business'], texts: ['DV被害者支援'] }), true);
     assert.equal(isSensitiveAffiliateContext({ purposes: ['businessGrowth'], audiences: ['business'], texts: ['通常の設備投資補助金'] }), false);
+    assert.equal(isSensitiveAffiliateContext({ purposes: ['childcare'], primaryPurpose: 'childcare', audiences: ['family'], texts: ['特別児童扶養手当', '障害児を養育する家庭'] }), true);
   });
 
-  it('index不可または公式確認先なしの制度を拒否する', () => {
-    assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, indexable: false }, new Date('2026-07-13')), []);
+  it('受付終了によるnoindexと広告選定は分離し、公式確認先なしは拒否する', () => {
+    assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, indexable: false }, new Date('2026-07-13')).map((item) => item.id), [offer.id]);
     assert.deepEqual(getEligibleAffiliateOffers([offer], { ...context, hasOfficialSource: false }, new Date('2026-07-13')), []);
   });
 

@@ -10,5 +10,11 @@
     "destination": "/grant/kagoshima-keiro-pass/",
     "statusCode": 301,
     "reason": "制度実体が敬老パスのため"
+  },
+  {
+    "source": "/grant/fukuyama-elderly-taxi/",
+    "destination": "/grant/fukuyama-elderly-support/",
+    "statusCode": 301,
+    "reason": "同じ公式制度のおでかけ乗車券に統合するため"
   }
 ]

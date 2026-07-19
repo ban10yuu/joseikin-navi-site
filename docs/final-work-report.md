@@ -1,7 +1,7 @@
 # 最終作業報告
 
-作業日：2026年7月13日（アフィリエイト基盤を2026年7月17日に更新）
-作業ブランチ：`feature/joseikin-trust-platform`
+作業日：2026年7月19日
+作業ブランチ：`release/ai-slop-affiliate-20260719`
 
 ## 実装内容
 
@@ -21,8 +21,12 @@
 - `src/components/Header.tsx`、`Footer.tsx`：全ページ共通ナビゲーション
 - `src/config/site.ts`：サイト、運営者、外部サービス設定
 - `src/config/affiliate-offers.ts`：アフィリエイト案件設定
+- `src/config/affiliate-issued-html.ts`：ASP発行HTMLの未改変保存
+- `src/lib/seo-article-pipeline.mjs`：公式資料との照合を必須にしたSEO記事品質ゲート
 - `scripts/audit-content.mjs`：制度データ監査
+- `scripts/audit-affiliates.mjs`：案件、公式クリエイティブ、発行HTMLの監査
 - `scripts/audit-build.mjs`：生成HTML、内部リンク、メタ情報、広告枠監査
+- `scripts/run-seo-article-pipeline.mjs`：公式ページ再取得とレビュー待ち原稿の生成
 - `scripts/run-e2e.py`、`scripts/e2e-smoke.py`：実ブラウザ検証
 
 ## リダイレクト
@@ -31,6 +35,7 @@
 |---|---|---:|
 | `/grant/kushiro-elderly-taxi/` | `/grant/kushiro-elderly-outing-bus/` | 301 |
 | `/grant/kagoshima-elderly-taxi/` | `/grant/kagoshima-keiro-pass/` | 301 |
+| `/grant/fukuyama-elderly-taxi/` | `/grant/fukuyama-elderly-support/` | 301 |
 
 対応表は `data/redirects.json` と `docs/redirect-map.csv` で管理します。
 
@@ -40,15 +45,16 @@
 |---|---|
 | `npm run lint` | 成功 |
 | `npm run typecheck` | 成功 |
-| `npm test` | 126件成功 |
-| `npm run audit:affiliates` | 登録12件、公開6件、重大エラー0件（審査中・確認待ち6件は非表示） |
+| `npm test` | 171件成功 |
+| `npm run audit:affiliates` | 登録22件、公開可能16件、重大エラー0件 |
 | `npm run check:copy` | 成功 |
-| `npm run audit:content` | 重大エラー0件 |
+| `npm run audit:content` | 27,875制度、重大エラー0件 |
+| `npm run audit:seo-articles -- --dry-run` | 1件reviewReady、blocked 0件、自動公開なし |
 | `npm run build` | 成功、328ルート生成（制度詳細は主要240件を事前生成し、残りはISRで生成） |
-| `npm run audit:build` | 重大エラー0件 |
-| `npm run test:e2e` | 74ページ検査成功、axe 9ページで重大違反0件 |
+| `npm run audit:build` | 322 HTML、重大エラー0件、警告0件。生成済み制度詳細240件中15件に文脈一致PRを表示 |
+| `npm run test:e2e` | 74ケース成功、axe 9ページで重大違反0件 |
 
-Lighthouseのモバイル計測中央値はPerformance 97、Accessibility 100、Best Practices 100、SEO 100でした。LCPは2.6秒、CLSは0、Total Blocking Timeは10msです。詳細は `reports/lighthouse-summary.md` に記録しました。
+ASP発行バナーは発行HTMLを変更せず保存し、読み上げとキーボード操作のためのリンクを外側に追加しています。320〜1440pxで横スクロールがないことをE2Eで確認しました。
 
 ## 追加した環境変数
 
@@ -69,14 +75,20 @@ Lighthouseのモバイル計測中央値はPerformance 97、Accessibility 100、
 
 ## アフィリエイト案件の有効化
 
-2026年7月17日時点でA8.netの提携済み案件を再確認し、支援制度ナビ用に発行された広告リンクと公式クリエイティブを取得しました。公開中はfreee会計、弥生会計 Next、makeshop、easy myShop、お名前.comレンタルサーバー、シンレンタルサーバーの6案件です。KANBEI SIGNはクリエイティブ内の「補助金対象」という表現を制度横断で保証できないため無効化し、スマレジともしもアフィリエイトの申請中案件も承認・素材確認が終わるまで非表示にしています。
+2026年7月19日時点でA8.net・もしもアフィリエイトの設定は22案件です。このうち提携済み、発行HTMLあり、確認期限内、文脈一致、幅300px以下の公開条件を満たす16案件を公開候補にしています。KANBEI SIGNは素材内の制度横断表現を確認できないため停止し、幅300pxを超える再エネ相談とRemofulは320px向けの未改変素材を取得するまで停止しています。申請中案件も承認・素材確認が終わるまで非表示です。
 
-案件選定には対象者、目的、intentの一致を使用します。トップページは最大3案件、制度詳細はPCで上部2案件と本文後半4案件を重複なしで表示し、モバイルでは横スライドにして本文を圧迫しない構成にしました。個人・家族向けを含む制度詳細で関連候補を表示しつつ、利用者の選択内容に近い案件を優先します。提携状態、HTTPSリンク、確認日、期間、対象者、intent、掲載ページ、CTA、開示文を`npm run audit:affiliates`で検査できます。詳細な有効化手順は`docs/affiliate-activation.md`に記録しています。
+案件選定には主目的、対象者、intent、公式情報の有無を使用します。トップ初期表示は1件、制度詳細は公式情報より後へ最大2件を重複なしで表示します。静的生成した制度詳細240件では、直接関連する広告がある15件だけに表示されました。提携状態、HTTPSリンク、確認日、期間、対象者、intent、掲載ページ、CTA、開示文、発行HTMLを`npm run audit:affiliates`と`npm run audit:build`で検査できます。
+
+## AI臭除去SEOパイプライン
+
+キーワード、原稿、真実性パケットを入力し、実行時に公式ページを再取得して本文と根拠箇所を照合します。取得先hostの許可リスト、HTTP応答、本文SHA-256、数値・日付・対象条件の一致、既存URLとの対応、禁止表現、文章品質を検査します。合格しても自動公開はせず、`reviewReady`、draft、noindex、人手承認待ちで停止します。
+
+現在は「福山市 おでかけ乗車券」の1原稿が`reviewReady`です。通常実行は`npm run seo:article`、変更を保存しない監査は`npm run audit:seo-articles -- --dry-run`です。
 
 A8.netの審査中案件は承認を確認した後にだけ、発行された広告リンク、`partnershipStatus=partnered`、`enabled=true`を設定します。公開案件は月1回以上、提携状態とリンク有効性を再確認します。
 
 ## 未解決項目
 
-コンテンツ監査には警告2,430件が残っています。内訳の中心は説明文不足、公式URL重複、公式確認先不足です。該当ページはnoindex基準と修正待ち判定で検索公開を抑えていますが、公式資料を照合したうえで順次修正する必要があります。
+コンテンツ監査には警告3,332件が残っています。公式URL重複1,620件、修正待ち2,564件を含みます。重大エラーは0件ですが、これらは公式資料を照合したうえで順次統合・修正する必要があります。
 
-アフィリエイト拡充分は2026年7月17日に本番へ反映しました。公開URLで公式クリエイティブ、リンク先、表示件数、320〜1440pxのレイアウトを再検証し、74ページ検査とaxe 9ページで失敗0件を確認しています。
+広告の掲載率を増やすには、未掲載ページの主目的と直接一致する承認済み案件、および幅300px以下のASP発行クリエイティブを追加取得する必要があります。無関係な汎用広告で空きを埋める設定には戻しません。

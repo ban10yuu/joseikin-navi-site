@@ -28,7 +28,8 @@ const validOffer = {
 
 describe('affiliate offer audit', () => {
   it('有効で必要項目が揃った案件は指摘しない', () => {
-    assert.deepEqual(auditAffiliateOffers([validOffer], new Date('2026-07-15')), []);
+    const issuedHtml = `<a href="${validOffer.destinationUrl}"><img src="${validOffer.creativeImageUrl}"></a><img src="${validOffer.impressionPixelUrl}">`;
+    assert.deepEqual(auditAffiliateOffers([validOffer], new Date('2026-07-15'), { [validOffer.id]: issuedHtml }), []);
   });
 
   it('重複ID、無効URL、確認日なし、期間逆転と期限切れを検出する', () => {
@@ -124,7 +125,7 @@ describe('affiliate offer audit', () => {
     assert.equal(future.some((issue) => issue.code === 'FUTURE_VERIFIED_AT'), true);
   });
 
-  it('公開案件のクリエイティブSHAと実リダイレクト経路をオンライン照合する', async () => {
+  it('公開案件のクリエイティブSHAだけをオンライン照合し成果URLへアクセスしない', async () => {
     const creative = Buffer.from('verified creative');
     const offer = {
       ...validOffer,
@@ -133,27 +134,22 @@ describe('affiliate offer audit', () => {
     const mockFetch = async (input) => {
       const url = String(input);
       if (url.startsWith('https://www23.a8.net/')) return new Response(creative, { status: 200 });
-      if (url.startsWith('https://px.a8.net/')) return new Response(null, { status: 302, headers: { location: 'https://a8cv.f.012grp.co.jp/track' } });
-      if (url.startsWith('https://a8cv.f.012grp.co.jp/')) return new Response(null, { status: 302, headers: { location: 'https://f.012grp.co.jp/landing' } });
-      if (url.startsWith('https://f.012grp.co.jp/')) return new Response(null, { status: 200 });
       throw new Error(`unexpected URL: ${url}`);
     };
 
     assert.deepEqual(await auditPublishedAffiliateRemotes([offer], mockFetch), []);
   });
 
-  it('リモート素材差替えと未承認の最終遷移先を重大エラーにする', async () => {
+  it('リモート素材差替えを重大エラーにする', async () => {
     const mockFetch = async (input) => {
       const url = String(input);
       if (url.startsWith('https://www23.a8.net/')) return new Response('changed creative', { status: 200 });
-      if (url.startsWith('https://px.a8.net/')) return new Response(null, { status: 302, headers: { location: 'https://example.invalid/landing' } });
-      if (url.startsWith('https://example.invalid/')) return new Response(null, { status: 200 });
       throw new Error(`unexpected URL: ${url}`);
     };
     const codes = new Set((await auditPublishedAffiliateRemotes([validOffer], mockFetch)).map((issue) => issue.code));
 
     assert.equal(codes.has('REMOTE_CREATIVE_FINGERPRINT_MISMATCH'), true);
-    assert.equal(codes.has('REMOTE_LANDING_HOST_MISMATCH'), true);
-    assert.equal(codes.has('REMOTE_REDIRECT_HOST_UNAPPROVED'), true);
+    assert.equal(codes.has('REMOTE_LANDING_HOST_MISMATCH'), false);
+    assert.equal(codes.has('REMOTE_REDIRECT_HOST_UNAPPROVED'), false);
   });
 });

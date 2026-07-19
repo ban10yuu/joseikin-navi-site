@@ -1,5 +1,35 @@
 {
   "schemaVersion": 1,
-  "updatedAt": null,
-  "items": []
+  "updatedAt": "2026-07-19",
+  "items": [
+    {
+      "id": "gsc-fukuyama-odekake-ticket",
+      "keyword": "福山市 おでかけ乗車券",
+      "status": "pending",
+      "targetAudience": "senior",
+      "priority": 100,
+      "strategy": "enhanceExisting",
+      "targetPath": "/grant/fukuyama-elderly-support/",
+      "source": "googleSearchConsole",
+      "property": "https://shienseido-navi.jp/",
+      "searchType": "web",
+      "dimensions": ["query"],
+      "filters": {
+        "country": null,
+        "device": null,
+        "page": null
+      },
+      "dataState": "screenObserved",
+      "requiresManualTargetVerification": true,
+      "measurementPeriod": "2026-06-22/2026-07-19",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": null,
+      "position": null,
+      "rawExportHash": null,
+      "observedAt": "2026-07-19",
+      "collectedAt": "2026-07-19T07:36:00+09:00",
+      "collectionMethod": "Search Console画面のURLプレフィックスプロパティから取得"
+    }
+  ]
 }

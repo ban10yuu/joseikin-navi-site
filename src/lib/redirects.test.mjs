@@ -8,6 +8,7 @@ describe('grant redirects', () => {
     assert.deepEqual(REDIRECTS, [
       { source: '/grant/kushiro-elderly-taxi/', destination: '/grant/kushiro-elderly-outing-bus/', statusCode: 301 },
       { source: '/grant/kagoshima-elderly-taxi/', destination: '/grant/kagoshima-keiro-pass/', statusCode: 301 },
+      { source: '/grant/fukuyama-elderly-taxi/', destination: '/grant/fukuyama-elderly-support/', statusCode: 301 },
     ]);
   });
 
@@ -18,7 +19,7 @@ describe('grant redirects', () => {
   it('旧URLのslugを掲載データから除外できる', () => {
     assert.deepEqual(
       [...REDIRECT_SOURCE_SLUGS],
-      ['kushiro-elderly-taxi', 'kagoshima-elderly-taxi'],
+      ['kushiro-elderly-taxi', 'kagoshima-elderly-taxi', 'fukuyama-elderly-taxi'],
     );
   });
 });

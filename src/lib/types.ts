@@ -121,7 +121,13 @@ export type AffiliateIntent =
   | 'systemDevelopment'
   | 'fertilityCare'
   | 'medicalExpenseTax'
-  | 'treatmentCostManagement';
+  | 'treatmentCostManagement'
+  | 'careerConsultation'
+  | 'childrensEducation'
+  | 'companyFormation'
+  | 'financialPlanning'
+  | 'reuseValuation'
+  | 'tradeAreaAnalysis';
 
 // ── 助成金タイプ ──
 export type GrantType = 'national' | 'local' | 'ngo';

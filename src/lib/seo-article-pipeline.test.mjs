@@ -27,8 +27,11 @@ const truthPacket = {
       sourceType: 'official',
       title: '例示市創業支援補助金 募集要項',
       url: 'https://www.city.example.lg.jp/business/startup/guideline.pdf',
+      allowedHosts: ['www.city.example.lg.jp'],
+      evidenceMarkers: ['例示市創業支援補助金', '上限50万円'],
       sourceCheckedAt: '2026-07-19',
-      verificationMethod: 'automated',
+      verificationMethod: 'mixed',
+      humanReviewedAt: '2026-07-19',
       institutionMatch: true,
       programNameMatch: true,
     },
@@ -40,6 +43,7 @@ const truthPacket = {
       status: 'exists',
       value: '例示市創業支援補助金',
       sourceIds: ['official-guideline'],
+      evidence: [{ sourceId: 'official-guideline', excerpt: '例示市創業支援補助金' }],
     },
     {
       id: 'fact-amount',
@@ -47,11 +51,12 @@ const truthPacket = {
       status: 'exists',
       value: '補助対象経費の2分の1、上限50万円',
       sourceIds: ['official-guideline'],
+      evidence: [{ sourceId: 'official-guideline', excerpt: '補助対象経費の2分の1、上限50万円' }],
     },
     {
       id: 'fact-required-documents',
       field: 'requiredDocuments',
-      status: 'doesNotExist',
+      status: 'notFoundInReviewedSources',
       value: null,
       sourceIds: ['official-guideline'],
     },
@@ -61,8 +66,9 @@ const truthPacket = {
 const article = {
   keywordId: keyword.id,
   slug: 'example-startup-application-guide',
+  publicationMode: 'newArticle',
   title: '例示市の創業補助金｜申請方法と公式確認先',
-  metaDescription: '例示市の創業支援補助金について、申請前に確認したい手順、補助額、公式の募集要項を整理します。',
+  metaDescription: '例示市の創業支援補助金について、申請前に確認したい手順、補助額、受付期間、公式の募集要項と確認先を分かりやすく整理します。',
   shortAnswer: '申請前に、例示市の募集要項で対象者、対象経費、受付期間を確認します。',
   aiAnswer: '例示市の創業支援補助金は、公式募集要項で制度の存在と上限額を確認できます。申請方法や提出書類は募集時期によって変わる可能性があるため、当サイトの説明だけで判断せず、申請前に公式ページを確認してください。',
   sections: [
@@ -91,10 +97,27 @@ const article = {
     href: 'https://www.city.example.lg.jp/business/startup/guideline.pdf',
   },
   claims: [
-    { factId: 'fact-program-exists', assertion: 'exists' },
-    { factId: 'fact-amount', assertion: 'exists' },
-    { factId: 'fact-required-documents', assertion: 'doesNotExist' },
+    { factId: 'fact-program-exists', assertion: 'exists', excerpts: ['例示市の創業支援補助金は、公式募集要項で制度の存在と上限額を確認できます。'] },
+    { factId: 'fact-amount', assertion: 'exists', excerpts: ['公式募集要項では、補助対象経費の2分の1、上限50万円と案内されています。'] },
+    { factId: 'fact-required-documents', assertion: 'notFoundInReviewedSources', excerpts: ['確認した公式資料では必要書類を特定できません。'] },
   ],
+};
+
+const runtimeEvidenceBySourceId = {
+  'official-guideline': {
+    httpStatus: 200,
+    retrievedAt: '2026-07-19',
+    finalUrl: 'https://www.city.example.lg.jp/business/startup/guideline.pdf',
+    contentType: 'text/html; charset=utf-8',
+    normalizationVersion: 'visible-text-nfkc-v1',
+    normalizedContentHash: 'a'.repeat(64),
+    normalizedText: '例示市創業支援補助金 募集要項 補助対象経費の2分の1、上限50万円',
+  },
+};
+
+const pipelineRuntime = {
+  runtimeEvidenceBySourceId,
+  siteContext: { targetsByPath: {}, redirectSources: [] },
 };
 
 const config = {
@@ -145,7 +168,7 @@ describe('classifySearchIntent', () => {
 
 describe('validateTruthPacket', () => {
   it('制度の存在と公式資料にない項目を別の事実として検証する', () => {
-    const result = validateTruthPacket(truthPacket, article);
+    const result = validateTruthPacket(truthPacket, article, { runtimeEvidenceBySourceId });
 
     assert.equal(result.valid, true);
     assert.deepEqual(result.errors, []);
@@ -155,11 +178,86 @@ describe('validateTruthPacket', () => {
   it('公式資料で存在しない項目を存在すると書いた場合は拒否する', () => {
     const result = validateTruthPacket(truthPacket, {
       ...article,
-      claims: [{ factId: 'fact-required-documents', assertion: 'exists' }],
-    });
+      claims: [{ factId: 'fact-required-documents', assertion: 'exists', excerpts: ['確認した公式資料では必要書類を特定できません。'] }],
+    }, { runtimeEvidenceBySourceId });
 
     assert.equal(result.valid, false);
     assert.ok(result.errors.some((error) => error.code === 'FACT_ASSERTION_MISMATCH'));
+  });
+
+  it('本文へ追加された未根拠の金額・年齢・必要書類を拒否する', () => {
+    const result = validateTruthPacket(truthPacket, {
+      ...article,
+      aiAnswer: `${article.aiAnswer} 対象は18歳以上で、年99万円を交付します。住民票と印鑑が必要です。`,
+    }, { runtimeEvidenceBySourceId });
+
+    assert.equal(result.valid, false);
+    assert.ok(result.errors.some((error) => error.code === 'UNMAPPED_ARTICLE_CLAIM'));
+  });
+
+  it('根拠文と同じ一文へ未根拠条件を追記しても拒否する', () => {
+    const injected = {
+      ...article,
+      sections: article.sections.map((section) => section.heading === '支援内容'
+        ? { ...section, content: '公式募集要項では、補助対象経費の2分の1、上限50万円と案内され、住民票と印鑑も必要です。' }
+        : section),
+    };
+    const result = validateTruthPacket(truthPacket, injected, { runtimeEvidenceBySourceId });
+    assert.equal(result.valid, false);
+    assert.ok(result.errors.some((error) => ['CLAIM_TEXT_NOT_FOUND', 'UNMAPPED_ARTICLE_CLAIM'].includes(error.code)));
+  });
+
+  it('偽の市役所風ドメインと自己申告の取得証跡を拒否する', () => {
+    const fakeUrl = 'https://city.evil.jp/fake';
+    const result = validateTruthPacket({
+      ...truthPacket,
+      sources: [{ ...truthPacket.sources[0], url: fakeUrl, allowedHosts: [] }],
+    }, { ...article, cta: { ...article.cta, href: fakeUrl } }, {
+      runtimeEvidenceBySourceId: { 'official-guideline': { ...runtimeEvidenceBySourceId['official-guideline'], finalUrl: fakeUrl } },
+    });
+    assert.equal(result.valid, false);
+    assert.ok(result.errors.some((error) => error.code === 'UNVERIFIED_OFFICIAL_HOST'));
+  });
+
+  it('不正URLや実在しない日付でもクラッシュせず構造化エラーを返す', () => {
+    const result = validateTruthPacket({
+      ...truthPacket,
+      sources: [{ ...truthPacket.sources[0], url: 'not a url', sourceCheckedAt: '2026-02-30' }],
+    }, article, { runtimeEvidenceBySourceId });
+    assert.equal(result.valid, false);
+    assert.ok(result.errors.some((error) => error.code === 'INVALID_SOURCE_URL'));
+    assert.ok(result.errors.some((error) => error.code === 'SOURCE_CHECK_DATE_REQUIRED'));
+  });
+
+  it('日本語分数の改変を検出する', () => {
+    const altered = {
+      ...article,
+      sections: article.sections.map((section) => section.heading === '支援内容'
+        ? { ...section, content: '公式募集要項では、補助対象経費の3分の2、上限50万円と案内されています。' }
+        : section),
+      claims: article.claims.map((claim) => claim.factId === 'fact-amount'
+        ? { ...claim, excerpts: ['公式募集要項では、補助対象経費の3分の2、上限50万円と案内されています。'] }
+        : claim),
+    };
+    const result = validateTruthPacket(truthPacket, altered, { runtimeEvidenceBySourceId });
+    assert.equal(result.valid, false);
+    assert.ok(result.errors.some((error) => error.code === 'CLAIM_VALUE_MISMATCH'));
+  });
+
+  it('主張として登録した数値が公式根拠と違う場合は拒否する', () => {
+    const altered = {
+      ...article,
+      sections: article.sections.map((section) => section.heading === '支援内容'
+        ? { ...section, content: '公式募集要項では、補助対象経費の2分の1、上限500万円と案内されています。' }
+        : section),
+      claims: article.claims.map((claim) => claim.factId === 'fact-amount'
+        ? { ...claim, excerpts: ['公式募集要項では、補助対象経費の2分の1、上限500万円と案内されています。'] }
+        : claim),
+    };
+    const result = validateTruthPacket(truthPacket, altered, { runtimeEvidenceBySourceId });
+
+    assert.equal(result.valid, false);
+    assert.ok(result.errors.some((error) => error.code === 'CLAIM_VALUE_MISMATCH'));
   });
 
   it('自動照合を人手確認済みに昇格させない', () => {
@@ -170,7 +268,7 @@ describe('validateTruthPacket', () => {
         verificationMethod: 'human',
         humanReviewedAt: null,
       }],
-    }, article);
+    }, article, { runtimeEvidenceBySourceId });
 
     assert.equal(result.valid, false);
     assert.ok(result.errors.some((error) => error.code === 'HUMAN_REVIEW_DATE_REQUIRED'));
@@ -183,7 +281,7 @@ describe('article quality gates', () => {
 
     const result = inspectArticleStructure({ ...article, faq: [], cta: null });
     assert.equal(result.valid, false);
-    assert.ok(result.missing.includes('faq'));
+    assert.equal(result.missing.includes('faq'), false);
     assert.ok(result.missing.includes('cta'));
   });
 
@@ -205,6 +303,7 @@ describe('article quality gates', () => {
 
   it('重み付き品質スコアで修正理由を返す', () => {
     const lowQuality = scoreArticle({
+      ...pipelineRuntime,
       keyword,
       intent: 'howTo',
       truthPacket,
@@ -225,6 +324,7 @@ describe('article quality gates', () => {
 describe('runSeoArticlePipeline', () => {
   it('合格しても自動公開せずdraft・noindex・人手承認待ちにする', () => {
     const result = runSeoArticlePipeline({
+      ...pipelineRuntime,
       backlog: [keyword],
       truthPackets: [truthPacket],
       articleDrafts: [article],
@@ -243,6 +343,7 @@ describe('runSeoArticlePipeline', () => {
 
   it('基準未満の記事を構成工程へ戻して公開経路を閉じる', () => {
     const result = runSeoArticlePipeline({
+      ...pipelineRuntime,
       backlog: [keyword],
       truthPackets: [truthPacket],
       articleDrafts: [{ ...article, shortAnswer: '', faq: [] }],
@@ -257,6 +358,7 @@ describe('runSeoArticlePipeline', () => {
 
   it('自動修正回数の上限に達したら人手確認へ止める', () => {
     const result = runSeoArticlePipeline({
+      ...pipelineRuntime,
       backlog: [keyword],
       truthPackets: [truthPacket],
       articleDrafts: [{ ...article, revisionCycle: 3, shortAnswer: '', faq: [] }],
@@ -271,6 +373,7 @@ describe('runSeoArticlePipeline', () => {
 
   it('同じキーワードの修正版が複数ある場合は最新の版を採点する', () => {
     const result = runSeoArticlePipeline({
+      ...pipelineRuntime,
       backlog: [keyword],
       truthPackets: [truthPacket],
       articleDrafts: [

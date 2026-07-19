@@ -1,5 +1,61 @@
 {
   "schemaVersion": 1,
-  "updatedAt": null,
-  "items": []
+  "updatedAt": "2026-07-19",
+  "items": [
+    {
+      "keywordId": "gsc-fukuyama-odekake-ticket",
+      "providerName": "福山市",
+      "sources": [
+        {
+          "id": "fukuyama-official-odekake-ticket",
+          "sourceType": "official",
+          "title": "福山市 おでかけ乗車券の交付",
+          "url": "https://www.city.fukuyama.hiroshima.jp/site/koureisha-shien/378928.html",
+          "allowedHosts": ["www.city.fukuyama.hiroshima.jp"],
+          "evidenceMarkers": ["おでかけ乗車券の交付", "満75歳以上", "1人年間7,000円分", "翌年3月末"],
+          "sourceCheckedAt": "2026-07-07",
+          "verificationMethod": "automated",
+          "institutionMatch": true,
+          "programNameMatch": true
+        }
+      ],
+      "facts": [
+        {
+          "id": "fukuyama-odekake-program-exists",
+          "field": "programExistence",
+          "status": "exists",
+          "value": "福山市 おでかけ乗車券の交付",
+          "sourceIds": ["fukuyama-official-odekake-ticket"],
+          "evidence": [{ "sourceId": "fukuyama-official-odekake-ticket", "excerpt": "おでかけ乗車券の交付" }]
+        },
+        {
+          "id": "fukuyama-odekake-eligibility",
+          "field": "eligibility",
+          "status": "exists",
+          "value": "10月1日時点で福山市内に住所のある満75歳以上の人",
+          "sourceIds": ["fukuyama-official-odekake-ticket"],
+          "evidence": [{ "sourceId": "fukuyama-official-odekake-ticket", "excerpt": "市内に住所のある満75歳以上(10月1日時点)の人" }]
+        },
+        {
+          "id": "fukuyama-odekake-amount",
+          "field": "amount",
+          "status": "exists",
+          "value": "1人あたり年7,000円分（バス・タクシー共通券5,000円分、バス専用券2,000円分）",
+          "sourceIds": ["fukuyama-official-odekake-ticket"],
+          "evidence": [{ "sourceId": "fukuyama-official-odekake-ticket", "excerpt": "市内で利用できる乗車券1人年間7,000円分(バス・タクシー共通券5,000円・バス専用券2,000円分)交付" }]
+        },
+        {
+          "id": "fukuyama-odekake-application",
+          "field": "applicationPeriod",
+          "status": "exists",
+          "value": "7月上旬に申請はがきを送付し、10月から翌年3月末まで窓口申請可",
+          "sourceIds": ["fukuyama-official-odekake-ticket"],
+          "evidence": [
+            { "sourceId": "fukuyama-official-odekake-ticket", "excerpt": "7月上旬に対象者へ申請はがきを郵送します。" },
+            { "sourceId": "fukuyama-official-odekake-ticket", "excerpt": "10月から翌年3月末までの間、窓口でも申請を受付け" }
+          ]
+        }
+      ]
+    }
+  ]
 }

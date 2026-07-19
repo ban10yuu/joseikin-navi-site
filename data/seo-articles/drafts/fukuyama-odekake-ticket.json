@@ -1,0 +1,74 @@
+{
+  "keywordId": "gsc-fukuyama-odekake-ticket",
+  "revisionCycle": 2,
+  "slug": "fukuyama-odekake-ticket-guide",
+  "publicationMode": "enhanceExisting",
+  "targetPath": "/grant/fukuyama-elderly-support/",
+  "title": "福山市のおでかけ乗車券｜対象者・交付額・公式確認先",
+  "metaDescription": "福山市のおでかけ乗車券について、対象年齢、交付額、申請時期、手続き前に確認する公式ページを分かりやすく整理します。",
+  "shortAnswer": "福山市のおでかけ乗車券は、10月1日時点で市内に住所がある満75歳以上の人を対象とする外出支援です。",
+  "aiAnswer": "福山市は、対象者に年7,000円分のおでかけ乗車券を交付しています。内訳はバス・タクシー共通券5,000円分とバス専用券2,000円分です。申請時期や窓口は年度によって変わる可能性があるため、手続き前の公式確認が欠かせません。",
+  "sections": [
+    {
+      "heading": "対象になる人",
+      "content": "公式ページによる対象者は、10月1日時点で福山市内に住所がある満75歳以上の人です。"
+    },
+    {
+      "heading": "交付される乗車券",
+      "content": "交付額は1人あたり年7,000円分となります。バス・タクシー共通券5,000円分と、バス専用券2,000円分で構成されています。"
+    },
+    {
+      "heading": "申請時期の確認",
+      "content": "福山市は7月上旬に申請はがきを送り、10月から翌年3月末まで窓口申請を受け付けると案内しています。受付場所などの最新情報は公式ページをご覧ください。"
+    }
+  ],
+  "faq": [
+    {
+      "question": "タクシーだけに使える券ですか？",
+      "answer": "交付内容には、バスとタクシーで使える共通券5,000円分と、バス専用券2,000円分が含まれます。"
+    }
+  ],
+  "internalLinks": [
+    {
+      "label": "広島県の支援制度を探す",
+      "href": "/grants/?pref=%E5%BA%83%E5%B3%B6%E7%9C%8C"
+    },
+    {
+      "label": "申請前ガイドを確認する",
+      "href": "/guide/"
+    }
+  ],
+  "cta": {
+    "type": "officialSource",
+    "label": "福山市公式ページで最新の案内を確認",
+    "href": "https://www.city.fukuyama.hiroshima.jp/site/koureisha-shien/378928.html"
+  },
+  "claims": [
+    {
+      "factId": "fukuyama-odekake-eligibility",
+      "assertion": "exists",
+      "excerpts": [
+        "福山市のおでかけ乗車券は、10月1日時点で市内に住所がある満75歳以上の人を対象とする外出支援です。",
+        "公式ページによる対象者は、10月1日時点で福山市内に住所がある満75歳以上の人です。"
+      ]
+    },
+    {
+      "factId": "fukuyama-odekake-amount",
+      "assertion": "exists",
+      "excerpts": [
+        "福山市は、対象者に年7,000円分のおでかけ乗車券を交付しています。",
+        "内訳はバス・タクシー共通券5,000円分とバス専用券2,000円分です。",
+        "交付額は1人あたり年7,000円分となります。",
+        "バス・タクシー共通券5,000円分と、バス専用券2,000円分で構成されています。",
+        "交付内容には、バスとタクシーで使える共通券5,000円分と、バス専用券2,000円分が含まれます。"
+      ]
+    },
+    {
+      "factId": "fukuyama-odekake-application",
+      "assertion": "exists",
+      "excerpts": [
+        "福山市は7月上旬に申請はがきを送り、10月から翌年3月末まで窓口申請を受け付けると案内しています。"
+      ]
+    }
+  ]
+}

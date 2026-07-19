@@ -56,10 +56,14 @@ export default function HomePage() {
     .sort((left, right) => (left.deadlineDate ?? '').localeCompare(right.deadlineDate ?? ''))
     .slice(0, 4);
   const newsletterEnabled = isNewsletterEnabled(siteConfig.newsletter.endpoint);
-  const heroAffiliates = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+  const businessHeroAffiliates = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
     pageType: 'home', audiences: ['soleProprietor', 'business'], purposes: ['startup', 'businessGrowth', 'digitalTransformation'],
-    intents: ['accounting', 'expenseManagement', 'payroll', 'attendance', 'humanResources', 'electronicContract', 'cloudStorage', 'businessPlanning', 'ecommerce', 'reservationSystem', 'pos', 'employeeTraining', 'professionalConsultation'],
-    monetizationAllowed: true, limit: 6,
+    intents: ['accounting', 'expenseManagement', 'payroll', 'attendance', 'humanResources', 'electronicContract', 'cloudStorage', 'businessPlanning', 'ecommerce', 'reservationSystem', 'pos', 'employeeTraining', 'professionalConsultation', 'companyFormation', 'reuseValuation', 'tradeAreaAnalysis'],
+    monetizationAllowed: true,
+  });
+  const personalHeroAffiliates = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+    pageType: 'home', audiences: ['individual', 'family', 'student', 'jobSeeker'], purposes: ['childcare', 'housing', 'education', 'employment'],
+    intents: ['childrensEducation', 'financialPlanning', 'careerConsultation'], monetizationAllowed: true,
   });
 
   return (
@@ -96,7 +100,8 @@ export default function HomePage() {
           <HomeGrantSearch
             totalCount={stats.total}
             officialLinkedCount={stats.officialLinked}
-            businessAffiliateOffers={heroAffiliates}
+            personalAffiliateOffers={personalHeroAffiliates}
+            businessAffiliateOffers={businessHeroAffiliates}
           />
           <section className="home-seo-link-panel" aria-labelledby="popular-search-title">
             <div>
