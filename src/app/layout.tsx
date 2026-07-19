@@ -8,6 +8,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
+  applicationName: siteConfig.name,
   title: {
     default: '助成金ナビ｜地域と目的から支援制度を探す',
     template: '%s｜助成金ナビ',
@@ -41,6 +42,17 @@ export const metadata: Metadata = {
   alternates: {
     canonical: siteConfig.url,
   },
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '64x64', type: 'image/x-icon' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
+  },
+  appleWebApp: {
+    title: siteConfig.name,
+  },
+  category: 'public assistance search',
   verification: siteConfig.googleSiteVerification ? { google: siteConfig.googleSiteVerification } : undefined,
 };
 
