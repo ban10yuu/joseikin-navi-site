@@ -16,5 +16,11 @@
     "destination": "/grant/fukuyama-elderly-support/",
     "statusCode": 301,
     "reason": "同じ公式制度のおでかけ乗車券に統合するため"
+  },
+  {
+    "source": "/grant/fukaya-結婚新生活支援事業補助金lywed-life-support-subsidy-2026/",
+    "destination": "/grant/fukaya-newlywed-life-support-subsidy-2026/",
+    "statusCode": 301,
+    "reason": "日本語と英語が混在した旧slugを英語slugへ正規化するため"
   }
 ]
