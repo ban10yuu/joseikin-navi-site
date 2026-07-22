@@ -1918,28 +1918,22 @@ body {
   }
 
   .grant-detail-page.has-affiliate .grant-detail-article {
-    display: grid;
-    grid-template-columns: minmax(0, 980px) 318px;
-    grid-template-rows: auto 1fr;
-    column-gap: 1.5rem;
-    align-items: start;
+    position: relative;
+    padding-right: 342px;
   }
 
   .grant-detail-main-start {
-    grid-column: 1;
-    grid-row: 1;
+    max-width: 980px;
   }
 
   .grant-detail-main-rest {
-    grid-column: 1;
-    grid-row: 2;
+    max-width: 980px;
   }
 
   .grant-affiliate-placement {
-    position: sticky;
-    top: 6.5rem;
-    grid-column: 2;
-    grid-row: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 318px;
     margin-top: 0;
   }
