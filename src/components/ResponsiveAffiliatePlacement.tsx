@@ -13,6 +13,7 @@ interface ResponsiveAffiliatePlacementProps {
   grantId?: string;
   audience?: Audience;
   purpose?: Purpose;
+  contextPurposes?: Purpose[];
   intents?: AffiliateIntent[];
   className?: string;
   visibleCount?: number;
@@ -29,6 +30,7 @@ export default function ResponsiveAffiliatePlacement({
   grantId,
   audience,
   purpose,
+  contextPurposes = [],
   intents = [],
   className = '',
   visibleCount = 1,
@@ -97,6 +99,7 @@ export default function ResponsiveAffiliatePlacement({
               grantId={grantId}
               audience={audience}
               purpose={purpose}
+              contextPurposes={contextPurposes}
               intents={intents}
               compact
               compactDisclosure

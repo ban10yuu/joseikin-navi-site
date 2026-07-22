@@ -13,6 +13,7 @@ interface AffiliateRecommendationProps {
   grantId?: string;
   audience?: Audience;
   purpose?: Purpose;
+  contextPurposes?: Purpose[];
   intents?: AffiliateIntent[];
   compact?: boolean;
   compactDisclosure?: boolean;
@@ -103,7 +104,7 @@ function getOfferCopy(offer: AffiliateOffer) {
   };
 }
 
-export default function AffiliateRecommendation({ offer, pageType, placement, position = 1, grantId, audience, purpose, intents = [], compact = false, compactDisclosure = false, lazyCreative = false, headingLevel = 'h2' }: AffiliateRecommendationProps) {
+export default function AffiliateRecommendation({ offer, pageType, placement, position = 1, grantId, audience, purpose, contextPurposes = [], intents = [], compact = false, compactDisclosure = false, lazyCreative = false, headingLevel = 'h2' }: AffiliateRecommendationProps) {
   const Heading = headingLevel;
   const copy = getOfferCopy(offer);
   const issuedHtml = AFFILIATE_ISSUED_HTML[offer.id];
@@ -115,6 +116,7 @@ export default function AffiliateRecommendation({ offer, pageType, placement, po
     'data-grant-id': grantId,
     'data-audience': audience,
     'data-purpose': purpose,
+    'data-context-purposes': contextPurposes.join(','),
     'data-context-intents': intents.join(','),
     'data-offer-id': offer.id,
     'data-network': offer.network,
@@ -204,6 +206,7 @@ export default function AffiliateRecommendation({ offer, pageType, placement, po
             data-grant-id={grantId}
             data-audience={audience}
             data-purpose={purpose}
+            data-context-purposes={contextPurposes.join(',')}
             data-offer-id={offer.id}
             data-network={offer.network}
             data-placement={placement}

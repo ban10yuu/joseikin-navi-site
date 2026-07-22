@@ -165,6 +165,7 @@ export default async function GrantDetailPage({ params }: Props) {
     .slice(0, 6);
   const primaryAffiliateOffers = affiliateOffers.slice(0, 3);
   const secondaryAffiliateOffers = affiliateOffers.slice(3);
+  const affiliateMatchPurposes = [...new Set([...(grant.purposes ?? []), ...detailAffiliateContext.purposes])];
 
   const orderedGroups: GrantSectionGroup[] = ['overview', 'eligibility', 'amount', 'period', 'costs', 'method', 'documents', 'contact'];
   const classifiedCount = orderedGroups.reduce((count, group) => count + sectionGroups[group].length, 0);
@@ -208,6 +209,7 @@ export default async function GrantDetailPage({ params }: Props) {
                 grantId={grant.slug}
                 audience={grant.primaryAudience}
                 purpose={grant.primaryPurpose}
+                contextPurposes={affiliateMatchPurposes}
                 intents={detailAffiliateContext.intents}
                 placement="grant-after-official-source"
                 className="grant-affiliate-placement"
@@ -270,6 +272,7 @@ export default async function GrantDetailPage({ params }: Props) {
               grantId={grant.slug}
               audience={grant.primaryAudience}
               purpose={grant.primaryPurpose}
+              contextPurposes={affiliateMatchPurposes}
               intents={detailAffiliateContext.intents}
               placement="grant-before-correction"
               className="grant-affiliate-inline-placement"

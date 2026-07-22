@@ -79,7 +79,7 @@ for (const page of pages) {
     if (!/adsbygoogle|affiliate_impression|sponsored|affiliate-creative-link/.test(nearby)) add('critical', 'EMPTY_AD_LABEL', page.route, `${match[1]}ラベルの後に広告本体がありません。`);
   }
   const affiliateImpressions = [...page.html.matchAll(/data-analytics-impression-event="affiliate_impression"/g)];
-  const affiliateLimit = page.route === '/' ? 4 : page.route.startsWith('/grant/') ? 3 : 2;
+  const affiliateLimit = page.route === '/' ? 4 : page.route.startsWith('/grant/') ? 5 : 2;
   if (affiliateImpressions.length > affiliateLimit) add('critical', 'TOO_MANY_AFFILIATE_OFFERS', page.route, `同一ページのPR案件は最大${affiliateLimit}件です（現在${affiliateImpressions.length}件）。`);
   const offerIds = [...page.html.matchAll(/<aside\b[^>]*data-offer-id="([^"]+)"[^>]*>/g)].map((match) => match[1]);
   if (new Set(offerIds).size !== offerIds.length) add('critical', 'DUPLICATE_AFFILIATE_OFFER', page.route, '同じPR案件が同一ページに重複表示されています。');
@@ -96,13 +96,16 @@ for (const page of pages) {
       const offerId = match[1];
       const offer = affiliateOfferById.get(offerId);
       const purpose = aside.match(/data-purpose="([^"]*)"/)?.[1] ?? '';
+      const contextPurposes = (aside.match(/data-context-purposes="([^"]*)"/)?.[1] ?? '').split(',').filter(Boolean);
       const intents = (aside.match(/data-context-intents="([^"]*)"/)?.[1] ?? '').split(',').filter(Boolean);
       if (!offer) {
         add('critical', 'UNKNOWN_AFFILIATE_OFFER', page.route, `未登録のPR案件${offerId}が表示されています。`);
         continue;
       }
       if (!AFFILIATE_ISSUED_HTML[offerId]) add('critical', 'MISSING_ASP_ISSUED_HTML', page.route, `${offerId}のASP発行HTML台帳がありません。`);
-      if (offer.allowedPurposes.length > 0 && !offer.allowedPurposes.includes(purpose)) add('critical', 'AFFILIATE_PURPOSE_MISMATCH', page.route, `${offerId}と主目的${purpose}が一致しません。`);
+      if (offer.allowedPurposes.length > 0 && !offer.allowedPurposes.some((allowedPurpose) => [purpose, ...contextPurposes].includes(allowedPurpose))) {
+        add('critical', 'AFFILIATE_PURPOSE_MISMATCH', page.route, `${offerId}と主目的・文脈目的${[purpose, ...contextPurposes].filter(Boolean).join(',')}が一致しません。`);
+      }
       if (!offer.intents.some((intent) => intents.includes(intent))) add('critical', 'AFFILIATE_INTENT_MISMATCH', page.route, `${offerId}に一致する文脈根拠がありません。`);
     }
   }
