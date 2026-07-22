@@ -24,6 +24,17 @@ describe('affiliate production config', () => {
       'a8-easy-myshop-ecommerce',
       'a8-onamae-rental-server',
       'a8-shin-rental-server',
+      'a8-aquaclara-childcare-water',
+      'a8-r4career-career-agent',
+      'a8-sumai-iroha-plus',
+      'a8-zero-start-solar',
+      'a8-geni-educational-toys',
+      'a8-berpy-baby-goods',
+      'a8-famm-family-photo',
+      'a8-doridori-family-safety',
+      'a8-moji-family-chair',
+      'a8-onsuku-qualification',
+      'a8-shikaku-toruniha',
       'moshimo-andaze-dx-development',
       'moshimo-kikuchi-tax-adviser',
       'a8-plement-seishei-sheet',
@@ -118,10 +129,11 @@ describe('affiliate production config', () => {
     }, NOW);
 
     assert.deepEqual(education.map((offer) => offer.id), [
+      'a8-aquaclara-childcare-water',
+      'a8-geni-educational-toys',
       'moshimo-worldlibrary-childrens-books',
-      'moshimo-money-life-fp',
     ]);
-    assert.deepEqual(employment.map((offer) => offer.id), ['moshimo-sakucareer-match']);
+    assert.deepEqual(employment.map((offer) => offer.id), ['a8-r4career-career-agent', 'moshimo-sakucareer-match', 'a8-onsuku-qualification']);
     assert.equal(startup.some((offer) => offer.id === 'moshimo-zero-company-formation'), true);
     assert.equal(startup.some((offer) => offer.id === 'moshimo-circle-reuse-ai-saas'), false);
     assert.equal(startup.some((offer) => offer.id === 'moshimo-gleasin'), false);
@@ -150,7 +162,7 @@ describe('affiliate production config', () => {
       indexable: true, hasOfficialSource: true, limit: 2,
     }, NOW);
 
-    assert.deepEqual(result, []);
+    assert.deepEqual(result.map((offer) => offer.id), ['a8-zero-start-solar']);
   });
 
   it('公式確認済みの受付中不妊治療制度では不妊治療に一致する案件だけを選ぶ', () => {
