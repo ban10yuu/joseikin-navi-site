@@ -5,6 +5,7 @@ import GrantCard from '@/components/GrantCard';
 import { getAllGrantsUnfiltered, getGrantQualityStats } from '@/lib/grants';
 import { GRANT_STATUS_LABELS } from '@/lib/grant-status';
 import { normalizeGrantQuery, queryGrants, type GrantQuery } from '@/lib/grant-query';
+import { compactMetaDescription } from '@/lib/seo-metadata';
 import { toSiteUrl } from '@/lib/site-url';
 import { ILLUSTRATION_VISUALS } from '@/lib/visual-assets';
 import {
@@ -55,7 +56,7 @@ export async function generateMetadata({ searchParams }: { searchParams: Promise
   const filtered = hasSearchConditions(params);
   return {
     title: '補助金・助成金・給付金を検索｜地域・対象・目的で探す',
-    description: '全国の補助金・助成金・給付金・支援制度を、地域、対象者、目的、制度種別、受付状況、公式情報リンクの有無から検索できます。',
+    description: compactMetaDescription('全国の補助金・助成金・給付金を、地域、対象者、目的、制度種別、受付状況、公式情報リンクの有無から検索できます。'),
     alternates: { canonical: toSiteUrl('/grants/') },
     robots: filtered ? { index: false, follow: true } : undefined,
   };

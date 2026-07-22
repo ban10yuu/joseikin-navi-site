@@ -5,6 +5,7 @@ import GrantCard from '@/components/GrantCard';
 import { BreadcrumbJsonLd, CollectionJsonLd } from '@/components/JsonLd';
 import { getGrantsBySupportType } from '@/lib/grants';
 import { getEffectiveGrantStatus } from '@/lib/grant-status';
+import { compactMetaDescription } from '@/lib/seo-metadata';
 import { toSiteUrl } from '@/lib/site-url';
 import { PREFECTURES, SUPPORT_TYPE_LABELS, type SupportType } from '@/lib/types';
 
@@ -57,7 +58,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const label = SUPPORT_TYPE_LABELS[supportType];
   const title = `${label}を地域・対象から探す｜補助金・助成金・給付金検索｜助成金ナビ`;
-  const description = `${label}に該当する支援制度を、地域、対象者、受付状況、公式情報の確認先とともに整理しています。申請前に公式募集要項をご確認ください。`;
+  const description = compactMetaDescription(`${label}に該当する支援制度を地域と対象者から検索。受付状況、支援内容、公式情報の確認先を整理しています。`);
   const url = toSiteUrl(`/support-type/${supportType}/`);
 
   return {

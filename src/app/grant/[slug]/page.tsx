@@ -22,6 +22,7 @@ import { getGrantAffiliateIntents, getGrantDetailAffiliateMatchContext, shouldAl
 import { getValidOfficialSourceUrls } from '@/lib/grant-source';
 import { groupGrantSections, type GrantSectionGroup } from '@/lib/grant-sections';
 import { getEffectiveGrantStatus, getOfficialCtaLabel, isRepayableSupport } from '@/lib/grant-status';
+import { grantMetaDescription } from '@/lib/seo-metadata';
 import { toSiteUrl } from '@/lib/site-url';
 import { getEligibleAffiliateOffers, isSensitiveAffiliateContext } from '@/lib/monetization';
 import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
@@ -54,10 +55,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : grant.verifiedAt
       ? `公式情報確認日${grant.verifiedAt}`
       : '公式情報の確認先を掲載';
-  const description = (!hasOfficialSource(grant)
-    ? `${grant.title}（${grant.organization}）。公式情報の確認先は未登録です。掲載内容だけで制度の存在や対象可否を判断せず、実施機関へご確認ください。`
-    : `${grant.title}（${grant.organization}）の主な対象は${eligibility}。支援内容は${grant.maxAmount}、${deadline}。${checked}。`
-  ).slice(0, 140);
+  const description = grantMetaDescription({
+    title: grant.title,
+    organization: grant.organization,
+    eligibility,
+    amount: grant.maxAmount,
+    deadline,
+    checked,
+    hasOfficialSource: hasOfficialSource(grant),
+  });
   return {
     title,
     description,

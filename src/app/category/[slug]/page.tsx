@@ -6,6 +6,7 @@ import GrantCard from '@/components/GrantCard';
 import { BreadcrumbJsonLd, CollectionJsonLd } from '@/components/JsonLd';
 import { getGrantsByCategory } from '@/lib/grants';
 import { getEffectiveGrantStatus } from '@/lib/grant-status';
+import { compactMetaDescription } from '@/lib/seo-metadata';
 import { toSiteUrl } from '@/lib/site-url';
 import { CATEGORY_COLORS, CATEGORY_LABELS, PREFECTURES, type Audience, type GrantCategory, type Purpose } from '@/lib/types';
 import { getCategoryVisual } from '@/lib/visual-assets';
@@ -21,6 +22,49 @@ const CATEGORY_INTROS: Record<GrantCategory, string> = {
   nursing: '高齢者、障害のある方、介護する家族などを支える制度を整理しています。利用条件や窓口は自治体ごとに異なります。',
   living: '日々の暮らしや家計を支える制度を整理しています。緊急の場合は、掲載情報だけで判断せず自治体の相談窓口へお問い合わせください。',
   disaster: '災害による被害からの生活・事業再建を支える制度を整理しています。対象地域と受付期間を公式情報でご確認ください。',
+};
+
+const CATEGORY_SEO_GUIDES: Record<GrantCategory, { searchIntent: string; checkpoints: string[]; relatedQueries: string[] }> = {
+  childcare: {
+    searchIntent: '子育て・出産の制度は、子どもの年齢、世帯状況、居住地で対象が変わります。まず地域を選び、児童手当、医療費助成、出産、保育、ひとり親支援など目的に近い制度を確認してください。',
+    checkpoints: ['子どもの年齢・出生予定日・世帯状況', '所得制限や住民登録の条件', '申請期限、支給時期、必要な公式書類'],
+    relatedQueries: ['子育て 給付金', '出産 助成金', '子ども 医療費 助成', 'ひとり親 支援制度'],
+  },
+  housing: {
+    searchIntent: '住宅・リフォームの制度は、工事着手前の申請が必要なものがあります。住宅取得、耐震改修、省エネ、移住、家賃支援など、目的と地域を分けて確認してください。',
+    checkpoints: ['対象住宅の所在地、築年数、所有者条件', '契約・着工前に申請が必要か', '対象工事、補助率、上限額、施工業者の条件'],
+    relatedQueries: ['リフォーム 補助金', '住宅 補助金', '省エネ 補助金', '移住 支援金'],
+  },
+  medical: {
+    searchIntent: '医療・健康の制度は、対象となる治療、年齢、所得、医師の判断など制度ごとに条件が異なります。掲載内容だけで判断せず、公式窓口で確認してください。',
+    checkpoints: ['対象となる治療・検査・医療費の範囲', '年齢、所得、居住地、保険加入の条件', '申請前後どちらで手続きする制度か'],
+    relatedQueries: ['医療費 助成', '不妊治療 助成金', '検診 補助金', '健康 支援制度'],
+  },
+  education: {
+    searchIntent: '教育・資格の制度は、給付型、貸付型、授業料減免、資格取得支援など種類が分かれます。返済が必要な制度かどうかを必ず確認してください。',
+    checkpoints: ['給付型か貸付型か', '学校・講座・資格の対象範囲', '成績、所得、居住地、申請期限'],
+    relatedQueries: ['奨学金 給付金', '資格取得 補助金', '学費 支援', '教育 助成金'],
+  },
+  employment: {
+    searchIntent: '就職・雇用・創業の制度は、個人向けの就職支援と事業者向けの雇用助成が混在します。対象者を分けて検索すると見つけやすくなります。',
+    checkpoints: ['個人向けか事業者向けか', '雇用、研修、創業、設備投資など対象経費', '公募期間、実績報告、交付決定前の着手可否'],
+    relatedQueries: ['創業 補助金', '雇用 助成金', '転職 支援金', '人材育成 助成金'],
+  },
+  nursing: {
+    searchIntent: '介護・福祉の制度は、高齢者、障害のある方、介護する家族など対象が細かく分かれます。地域の窓口と公式情報を優先して確認してください。',
+    checkpoints: ['本人・家族・介護者のどちらが対象か', '要介護認定、障害者手帳、年齢などの条件', '利用券、給付、減免など支援の形'],
+    relatedQueries: ['介護 助成金', '高齢者 支援制度', '障害者 補助金', '福祉 給付金'],
+  },
+  living: {
+    searchIntent: '生活支援の制度は、家計、住まい、医療、子育てなど複数の目的にまたがります。緊急性が高い場合は、自治体の相談窓口もあわせて確認してください。',
+    checkpoints: ['世帯収入、家族構成、住民登録の条件', '給付、貸付、減免のどれに当たるか', '申請期限と相談窓口'],
+    relatedQueries: ['生活支援 給付金', '家計 支援制度', '低所得 支援金', '減免制度'],
+  },
+  disaster: {
+    searchIntent: '災害支援の制度は、対象地域、被害状況、罹災証明などが重要です。受付期間が短い場合があるため、公式情報と窓口を早めに確認してください。',
+    checkpoints: ['対象災害、対象地域、被害区分', '罹災証明や被害確認の必要性', '生活再建、住宅、事業再建のどれに該当するか'],
+    relatedQueries: ['災害 支援金', '被災者 給付金', '住宅 再建 補助金', '事業再建 補助金'],
+  },
 };
 
 const AUDIENCE_LABELS: Record<Audience, string> = {
@@ -45,7 +89,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!validCategories.includes(slug)) return {};
   const label = CATEGORY_LABELS[slug as GrantCategory];
   const title = `${label}の補助金・助成金・給付金｜対象・地域・受付状況から探す`;
-  const description = `${label}に関する補助金・助成金・給付金などの支援制度を、主な対象、地域、支援内容、受付状況、公式情報の確認先とともに整理しています。`;
+  const description = compactMetaDescription(`${label}に関する補助金・助成金・給付金を地域と対象者から検索。受付状況、支援内容、公式情報の確認先を整理しています。`);
   return { title, description, alternates: { canonical: toSiteUrl(`/category/${slug}/`) }, openGraph: { title, description, url: toSiteUrl(`/category/${slug}/`) } };
 }
 
@@ -61,6 +105,15 @@ function relatedPurposes(grants: ReturnType<typeof getGrantsByCategory>): Purpos
   return [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6).map(([purpose]) => purpose);
 }
 
+function topPrefectures(grants: ReturnType<typeof getGrantsByCategory>) {
+  return PREFECTURES
+    .filter((prefecture) => prefecture !== '全国')
+    .map((prefecture) => ({ prefecture, count: grants.filter((grant) => grant.prefecture === prefecture || grant.prefecture === '全国').length }))
+    .filter((item) => item.count > 0)
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 12);
+}
+
 export default async function CategoryPage({ params }: Props) {
   const { slug } = await params;
   if (!validCategories.includes(slug)) notFound();
@@ -71,6 +124,8 @@ export default async function CategoryPage({ params }: Props) {
   const recentlyUpdated = [...grants].sort((a, b) => (b.contentUpdatedAt ?? b.verifiedAt ?? b.publishedAt).localeCompare(a.contentUpdatedAt ?? a.verifiedAt ?? a.publishedAt)).slice(0, 4);
   const audiences = topAudiences(grants);
   const purposes = relatedPurposes(grants);
+  const prefectures = topPrefectures(grants);
+  const guide = CATEGORY_SEO_GUIDES[category];
   const canonical = toSiteUrl(`/category/${slug}/`);
 
   return (
@@ -116,6 +171,42 @@ export default async function CategoryPage({ params }: Props) {
           <h2 id="related-purpose-title" className="text-xl font-black text-navy">関連する目的から探す</h2>
           <div className="mt-4 flex flex-wrap gap-2">{purposes.map((purpose) => <Link key={purpose} href={`/grants/?cat=${category}&purpose=${purpose}`} className="inline-flex min-h-11 items-center rounded-lg border border-line bg-white px-4 text-sm font-bold text-navy underline underline-offset-4">{PURPOSE_LABELS[purpose]}</Link>)}</div>
         </section>
+
+        <section className="mt-12 grid gap-5 lg:grid-cols-[1.2fr_0.8fr]" aria-labelledby="category-guide-title">
+          <div className="rounded-2xl border border-line bg-card p-5 sm:p-7">
+            <p className="text-sm font-black text-accent">探し方のポイント</p>
+            <h2 id="category-guide-title" className="mt-2 text-2xl font-black text-navy">{label}の制度を探す前に確認すること</h2>
+            <p className="mt-4 leading-8 text-muted">{guide.searchIntent}</p>
+            <ul className="mt-5 space-y-3">
+              {guide.checkpoints.map((item) => (
+                <li key={item} className="flex gap-3 leading-7 text-ink">
+                  <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-accent" aria-hidden="true" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-5 text-sm leading-7 text-muted">掲載情報だけで対象可否は確定しません。申請前に、実施機関の公式募集要項、受付状況、問い合わせ先を確認してください。</p>
+          </div>
+          <nav aria-label={`${label}の関連検索`} className="rounded-2xl border border-line bg-card p-5 sm:p-7">
+            <h2 className="text-xl font-black text-navy">よく探される関連テーマ</h2>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {guide.relatedQueries.map((query) => (
+                <Link key={query} href={`/grants/?cat=${category}&q=${encodeURIComponent(query)}`} className="inline-flex min-h-11 items-center rounded-lg border border-line bg-white px-4 text-sm font-bold text-navy underline underline-offset-4">{query}</Link>
+              ))}
+            </div>
+          </nav>
+        </section>
+
+        <nav aria-label={`${label}を地域から探す`} className="mt-12 rounded-2xl bg-wash p-5 sm:p-7">
+          <h2 className="text-xl font-black text-navy">地域別に{label}の制度を探す</h2>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {prefectures.map((item) => (
+              <Link key={item.prefecture} href={`/grants/?cat=${category}&pref=${encodeURIComponent(item.prefecture)}`} className="inline-flex min-h-11 items-center rounded-lg border border-line bg-white px-4 text-sm font-bold text-navy underline underline-offset-4">
+                {item.prefecture}（{item.count.toLocaleString('ja-JP')}）
+              </Link>
+            ))}
+          </div>
+        </nav>
       </main>
     </>
   );
