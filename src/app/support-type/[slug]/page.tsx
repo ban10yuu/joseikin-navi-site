@@ -57,7 +57,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!supportType) return {};
 
   const label = SUPPORT_TYPE_LABELS[supportType];
-  const title = `${label}を地域・対象から探す｜補助金・助成金・給付金検索｜助成金ナビ`;
+  const title = `${label}を地域・対象から探す｜補助金・助成金・給付金検索`;
   const description = compactMetaDescription(`${label}に該当する支援制度を地域と対象者から検索。受付状況、支援内容、公式情報の確認先を整理しています。`);
   const url = toSiteUrl(`/support-type/${supportType}/`);
 
