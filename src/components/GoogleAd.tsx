@@ -4,11 +4,13 @@ import { useEffect, useRef } from 'react';
 import { shouldRenderDisplayAd } from '@/lib/monetization';
 
 type AdFormat = 'auto' | 'horizontal' | 'vertical' | 'rectangle';
+export type AdPlacement = 'default' | 'top' | 'inArticle' | 'sidebar' | 'list' | 'footer';
 
 interface GoogleAdProps {
   format?: AdFormat;
   className?: string;
   slot?: string;
+  placement?: AdPlacement;
   label?: string;
 }
 
@@ -25,18 +27,33 @@ const MIN_HEIGHT_BY_FORMAT: Record<AdFormat, number> = {
   rectangle: 250,
 };
 
+const SLOT_BY_PLACEMENT: Record<AdPlacement, string | undefined> = {
+  default: process.env.NEXT_PUBLIC_ADSENSE_SLOT,
+  top: process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP ?? process.env.NEXT_PUBLIC_ADSENSE_SLOT,
+  inArticle: process.env.NEXT_PUBLIC_ADSENSE_SLOT_IN_ARTICLE ?? process.env.NEXT_PUBLIC_ADSENSE_SLOT,
+  sidebar: process.env.NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR ?? process.env.NEXT_PUBLIC_ADSENSE_SLOT,
+  list: process.env.NEXT_PUBLIC_ADSENSE_SLOT_LIST ?? process.env.NEXT_PUBLIC_ADSENSE_SLOT,
+  footer: process.env.NEXT_PUBLIC_ADSENSE_SLOT_FOOTER ?? process.env.NEXT_PUBLIC_ADSENSE_SLOT,
+};
+
+function resolveSlot(slot: string | undefined, placement: AdPlacement): string | undefined {
+  return slot ?? SLOT_BY_PLACEMENT[placement] ?? SLOT_BY_PLACEMENT.default;
+}
+
 export default function GoogleAd({
   format = 'auto',
   className = '',
-  slot = process.env.NEXT_PUBLIC_ADSENSE_SLOT,
+  slot,
+  placement = 'default',
   label = '広告',
 }: GoogleAdProps) {
   const clientId = process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID;
+  const resolvedSlot = resolveSlot(slot, placement);
   const pushed = useRef(false);
   const containerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    if (!shouldRenderDisplayAd(clientId, slot) || pushed.current) return;
+    if (!shouldRenderDisplayAd(clientId, resolvedSlot) || pushed.current) return;
 
     const pushAd = () => {
       if (pushed.current) return true;
@@ -71,12 +88,12 @@ export default function GoogleAd({
       window.clearTimeout(timeout);
       observer.disconnect();
     }
-  }, [clientId, slot]);
+  }, [clientId, resolvedSlot]);
 
-  if (!shouldRenderDisplayAd(clientId, slot)) return null;
+  if (!shouldRenderDisplayAd(clientId, resolvedSlot)) return null;
 
   return (
-    <div ref={containerRef} className={`overflow-hidden ${className}`} aria-label={label}>
+    <div ref={containerRef} className={`adsense-slot overflow-hidden ${className}`} aria-label={label}>
       <div data-ad-label className="mb-1 text-center text-[10px] font-medium tracking-wider text-faint">
         {label}
       </div>
@@ -84,7 +101,7 @@ export default function GoogleAd({
         className="adsbygoogle"
         style={{ display: 'block', minHeight: MIN_HEIGHT_BY_FORMAT[format] }}
         data-ad-client={clientId}
-        data-ad-slot={slot}
+        data-ad-slot={resolvedSlot}
         data-ad-format={format}
         data-full-width-responsive="true"
       />

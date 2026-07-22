@@ -1846,6 +1846,45 @@ body {
   border-color: #142d4f;
 }
 
+/* ── Display ads ── */
+.adsense-slot {
+  width: 100%;
+  border-radius: 16px;
+  background:
+    linear-gradient(135deg, rgb(37 87 167 / 0.06), rgb(255 255 255 / 0.9)),
+    #ffffff;
+}
+
+.adsense-slot [data-ad-label] {
+  color: #64748b;
+}
+
+.home-adsense-slot,
+.listing-adsense-slot,
+.grant-adsense-inline-slot,
+.grant-adsense-rail-slot {
+  border: 1px solid #dbe4f0;
+  padding: 0.5rem;
+  box-shadow: 0 10px 28px rgb(15 23 42 / 0.05);
+}
+
+.home-adsense-slot--hero {
+  margin: 1.25rem auto 0;
+  max-width: 980px;
+}
+
+.grant-adsense-inline-slot {
+  margin: 1.75rem 0;
+}
+
+.grant-adsense-inline-slot--first {
+  margin-top: 0;
+}
+
+.grant-adsense-rail-slot {
+  background: #ffffff;
+}
+
 /* ── Grant detail: decision-first layout ── */
 .grant-detail-page {
   width: 100%;
@@ -1912,6 +1951,13 @@ body {
   margin-top: 2rem;
 }
 
+.grant-affiliate-placement {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-top: 1.25rem;
+}
+
 @media (min-width: 1200px) {
   .grant-detail-page.has-affiliate {
     max-width: 1346px;
@@ -1936,12 +1982,19 @@ body {
     right: 0;
     width: 318px;
     margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
   }
 
   .grant-affiliate-rail {
     position: sticky;
     top: 6.5rem;
     margin: 0;
+  }
+
+  .grant-affiliate-rail-placement {
+    min-width: 0;
   }
 }
 

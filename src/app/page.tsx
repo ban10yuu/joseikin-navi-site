@@ -2,10 +2,11 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import GrantCard from '@/components/GrantCard';
+import DisplayAdSlot from '@/components/DisplayAdSlot';
 import HomeGrantSearch from '@/components/HomeGrantSearch';
 import SubscribeForm from '@/components/SubscribeForm';
 import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
-import { siteConfig } from '@/config/site';
+import { isAdsenseEnabled, siteConfig } from '@/config/site';
 import { getGrantQualityStats, getOfficialLinkedGrants, getRecentlyUpdatedGrants } from '@/lib/grants';
 import { getEffectiveGrantStatus } from '@/lib/grant-status';
 import { getEligibleAffiliateOffers } from '@/lib/monetization';
@@ -104,6 +105,11 @@ export default function HomePage() {
             personalAffiliateOffers={personalHeroAffiliates}
             businessAffiliateOffers={businessHeroAffiliates}
           />
+          <DisplayAdSlot
+            placement="top"
+            format="horizontal"
+            className="home-adsense-slot home-adsense-slot--hero"
+          />
           <section className="home-seo-link-panel" aria-labelledby="popular-search-title">
             <div>
               <p className="home-search-eyebrow">よく探される条件</p>
@@ -162,6 +168,14 @@ export default function HomePage() {
         </div>
       </section>
 
+      {isAdsenseEnabled ? (
+        <section className="bg-card py-6" aria-label="広告">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6">
+            <DisplayAdSlot placement="top" format="horizontal" className="home-adsense-slot" />
+          </div>
+        </section>
+      ) : null}
+
       <section className="border-b border-line bg-amber-50/60 py-10 sm:py-14" aria-labelledby="closing-heading">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="home-section-heading"><p>受付中と確認できた制度のみ</p><h2 id="closing-heading">締切が近い制度</h2></div>
@@ -177,6 +191,14 @@ export default function HomePage() {
           <Link href="/grants/?sort=checked" className="home-text-link">最近確認した制度をもっと見る <span aria-hidden="true">→</span></Link>
         </div>
       </section>
+
+      {isAdsenseEnabled ? (
+        <section className="bg-white py-6" aria-label="広告">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6">
+            <DisplayAdSlot placement="footer" format="horizontal" className="home-adsense-slot" />
+          </div>
+        </section>
+      ) : null}
 
       <section className="home-howto-section" aria-labelledby="before-heading">
         <div className="home-howto-layout mx-auto max-w-6xl px-4 sm:px-6">

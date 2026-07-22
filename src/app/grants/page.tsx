@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
+import { Fragment } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import DisplayAdSlot from '@/components/DisplayAdSlot';
 import GrantCard from '@/components/GrantCard';
+import { isAdsenseEnabled } from '@/config/site';
 import { getAllGrantsUnfiltered, getGrantQualityStats } from '@/lib/grants';
 import { GRANT_STATUS_LABELS } from '@/lib/grant-status';
 import { normalizeGrantQuery, queryGrants, type GrantQuery } from '@/lib/grant-query';
@@ -275,6 +278,8 @@ export default async function GrantsListPage({ searchParams }: { searchParams: P
 
         <ActiveFilters query={query} />
 
+        {isAdsenseEnabled ? <DisplayAdSlot placement="list" format="horizontal" className="listing-adsense-slot mb-6" /> : null}
+
         <div className="mb-5 flex flex-col gap-3 border-b border-line pb-4 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <h2 className="text-xl font-black text-navy">検索結果</h2>
@@ -285,7 +290,16 @@ export default async function GrantsListPage({ searchParams }: { searchParams: P
 
         {result.items.length > 0 ? (
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            {result.items.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}
+            {result.items.map((grant, index) => (
+              <Fragment key={grant.slug}>
+                <GrantCard grant={grant} />
+                {isAdsenseEnabled && (index === 5 || index === 13) ? (
+                  <div className="md:col-span-2">
+                    <DisplayAdSlot placement="list" format="horizontal" className="listing-adsense-slot" />
+                  </div>
+                ) : null}
+              </Fragment>
+            ))}
           </div>
         ) : (
           <section className="grant-empty-state rounded-2xl border border-line bg-wash p-6 sm:p-8" aria-labelledby="no-results-title">
@@ -303,6 +317,8 @@ export default async function GrantsListPage({ searchParams }: { searchParams: P
         )}
 
         <Pagination query={query} page={result.page} pageCount={result.pageCount} />
+
+        {isAdsenseEnabled ? <DisplayAdSlot placement="footer" format="horizontal" className="listing-adsense-slot mt-8" /> : null}
 
         <aside className="mt-10 rounded-xl border border-amber-300 bg-amber-50 p-4 text-sm leading-7 text-amber-950">
           <p className="font-bold">申請前に公式情報をご確認ください</p>

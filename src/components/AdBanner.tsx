@@ -1,37 +1,24 @@
 'use client';
 
 import GoogleAd from './GoogleAd';
-import { shouldRenderDisplayAd } from '@/lib/monetization';
+import type { AdPlacement } from './GoogleAd';
 
 interface AdBannerProps {
   size?: 'full' | 'medium' | 'compact';
+  placement?: AdPlacement;
+  className?: string;
 }
 
-export default function AdBanner({ size = 'full' }: AdBannerProps) {
-  if (!shouldRenderDisplayAd(
-    process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID,
-    process.env.NEXT_PUBLIC_ADSENSE_SLOT,
-  )) return null;
+export default function AdBanner({ size = 'full', placement = 'default', className = '' }: AdBannerProps) {
+  const wrapperClassName = className.trim();
 
   if (size === 'compact') {
-    return (
-      <div className="my-4">
-        <GoogleAd format="horizontal" />
-      </div>
-    );
+    return <GoogleAd format="horizontal" placement={placement} className={`my-4 ${wrapperClassName}`} />;
   }
 
   if (size === 'medium') {
-    return (
-      <div className="my-6">
-        <GoogleAd format="rectangle" />
-      </div>
-    );
+    return <GoogleAd format="rectangle" placement={placement} className={`my-6 ${wrapperClassName}`} />;
   }
 
-  return (
-    <div className="my-8">
-      <GoogleAd format="auto" />
-    </div>
-  );
+  return <GoogleAd format="auto" placement={placement} className={`my-8 ${wrapperClassName}`} />;
 }

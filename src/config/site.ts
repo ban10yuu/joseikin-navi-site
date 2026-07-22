@@ -24,6 +24,13 @@ export const siteConfig = {
   adsense: {
     clientId: optionalValue(process.env.NEXT_PUBLIC_ADSENSE_CLIENT_ID),
     slotId: optionalValue(process.env.NEXT_PUBLIC_ADSENSE_SLOT),
+    slots: {
+      top: optionalValue(process.env.NEXT_PUBLIC_ADSENSE_SLOT_TOP),
+      inArticle: optionalValue(process.env.NEXT_PUBLIC_ADSENSE_SLOT_IN_ARTICLE),
+      sidebar: optionalValue(process.env.NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR),
+      list: optionalValue(process.env.NEXT_PUBLIC_ADSENSE_SLOT_LIST),
+      footer: optionalValue(process.env.NEXT_PUBLIC_ADSENSE_SLOT_FOOTER),
+    },
   },
   newsletter: {
     endpoint: optionalValue(process.env.NEXT_PUBLIC_NEWSLETTER_ENDPOINT),
@@ -40,5 +47,10 @@ export const siteConfig = {
 export const isAdsenseVerificationEnabled = shouldLoadAdsenseScript(siteConfig.adsense.clientId);
 export const isAdsenseEnabled = shouldRenderDisplayAd(
   siteConfig.adsense.clientId,
-  siteConfig.adsense.slotId,
+  siteConfig.adsense.slotId
+    ?? siteConfig.adsense.slots.top
+    ?? siteConfig.adsense.slots.inArticle
+    ?? siteConfig.adsense.slots.sidebar
+    ?? siteConfig.adsense.slots.list
+    ?? siteConfig.adsense.slots.footer,
 );

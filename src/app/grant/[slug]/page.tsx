@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import GrantCard from '@/components/GrantCard';
+import DisplayAdSlot from '@/components/DisplayAdSlot';
 import GrantDecisionSummary from '@/components/GrantDecisionSummary';
 import { BreadcrumbJsonLd, GrantJsonLd } from '@/components/JsonLd';
 import OfficialCheckpoints from '@/components/OfficialCheckpoints';
@@ -27,6 +28,7 @@ import { toSiteUrl } from '@/lib/site-url';
 import { getEligibleAffiliateOffers, isSensitiveAffiliateContext } from '@/lib/monetization';
 import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
 import { hasApprovedSensitiveAffiliateContext } from '@/config/affiliate-security';
+import { siteConfig } from '@/config/site';
 import { CATEGORY_LABELS, SUPPORT_TYPE_LABELS, type Section } from '@/lib/types';
 
 interface Props { params: Promise<{ slug: string }> }
@@ -172,6 +174,14 @@ export default async function GrantDetailPage({ params }: Props) {
   const primaryAffiliateOffers = affiliateOffers.slice(0, 3);
   const secondaryAffiliateOffers = affiliateOffers.slice(3);
   const affiliateMatchPurposes = [...new Set([...(grant.purposes ?? []), ...detailAffiliateContext.purposes])];
+  const hasManualAdsenseSlot = Boolean(
+    siteConfig.adsense.slotId
+      ?? siteConfig.adsense.slots.top
+      ?? siteConfig.adsense.slots.inArticle
+      ?? siteConfig.adsense.slots.sidebar
+      ?? siteConfig.adsense.slots.footer,
+  );
+  const showMonetizationRail = affiliateOffers.length > 0 || hasManualAdsenseSlot;
 
   const orderedGroups: GrantSectionGroup[] = ['overview', 'eligibility', 'amount', 'period', 'costs', 'method', 'documents', 'contact'];
   const classifiedCount = orderedGroups.reduce((count, group) => count + sectionGroups[group].length, 0);
@@ -185,7 +195,7 @@ export default async function GrantDetailPage({ params }: Props) {
         { name: grant.title, url: toSiteUrl(`/grant/${slug}/`) },
       ]} />
 
-      <div className={`grant-detail-page${affiliateOffers.length > 0 ? ' has-affiliate' : ''}`}>
+      <div className={`grant-detail-page${showMonetizationRail ? ' has-affiliate' : ''}`}>
         <nav className="grant-breadcrumb" aria-label="パンくずリスト"><Link href="/">ホーム</Link><span aria-hidden="true">/</span><Link href={`/category/${grant.category}/`}>{CATEGORY_LABELS[grant.category]}</Link><span aria-hidden="true">/</span><span aria-current="page">{grant.title}</span></nav>
 
         <div className="grant-detail-layout">
@@ -208,26 +218,34 @@ export default async function GrantDetailPage({ params }: Props) {
               />
             </div>
 
-            {primaryAffiliateOffers.length > 0 ? (
-              <ResponsiveAffiliatePlacement
-                offers={primaryAffiliateOffers}
-                pageType="grant"
-                grantId={grant.slug}
-                audience={grant.primaryAudience}
-                purpose={grant.primaryPurpose}
-                contextPurposes={affiliateMatchPurposes}
-                intents={detailAffiliateContext.intents}
-                placement="grant-after-official-source"
-                className="grant-affiliate-placement"
-                visibleCount={3}
-                heading={affiliateHeading}
-                description={affiliateDescription}
-              />
+            {showMonetizationRail ? (
+              <aside className="grant-affiliate-placement" aria-label="広告と関連サービス">
+                <DisplayAdSlot placement="sidebar" format="rectangle" className="grant-adsense-rail-slot" />
+                {primaryAffiliateOffers.length > 0 ? (
+                  <ResponsiveAffiliatePlacement
+                    offers={primaryAffiliateOffers}
+                    pageType="grant"
+                    grantId={grant.slug}
+                    audience={grant.primaryAudience}
+                    purpose={grant.primaryPurpose}
+                    contextPurposes={affiliateMatchPurposes}
+                    intents={detailAffiliateContext.intents}
+                    placement="grant-after-official-source"
+                    className="grant-affiliate-rail-placement"
+                    visibleCount={3}
+                    heading={affiliateHeading}
+                    description={affiliateDescription}
+                  />
+                ) : null}
+                <DisplayAdSlot placement="sidebar" format="rectangle" className="grant-adsense-rail-slot" />
+              </aside>
             ) : null}
 
             <div className="grant-detail-main-rest">
 
           <div className="article-content grant-article-content">
+            <DisplayAdSlot placement="inArticle" format="horizontal" className="grant-adsense-inline-slot grant-adsense-inline-slot--first" />
+
             <DetailSection id="overview" title="制度の概要" sections={sectionGroups.overview}>
               <p>{grant.description}</p>
             </DetailSection>
@@ -235,6 +253,8 @@ export default async function GrantDetailPage({ params }: Props) {
             <DetailSection id="eligibility" title="主な対象条件" sections={sectionGroups.eligibility}>
               {eligibilityItems.length || grant.targetIncome || grant.targetOccupation ? <ul>{eligibilityItems.map((item) => <li key={item}>{item}</li>)}{grant.targetIncome && <li>収入に関する記載：{grant.targetIncome}</li>}{grant.targetOccupation && <li>職業に関する記載：{grant.targetOccupation}</li>}</ul> : null}
             </DetailSection>
+
+            <DisplayAdSlot placement="inArticle" format="horizontal" className="grant-adsense-inline-slot" />
 
             <DetailSection id="support" title="支援内容・金額" sections={sectionGroups.amount}>
               <table className="info-table"><caption className="sr-only">支援内容と金額</caption><tbody><tr><th scope="row">制度種別</th><td>{SUPPORT_TYPE_LABELS[grant.supportType ?? 'unknown']}</td></tr><tr><th scope="row">支援額</th><td>{grant.maxAmount}</td></tr>{grant.subsidyRate && <tr><th scope="row">補助率</th><td>{grant.subsidyRate}</td></tr>}</tbody></table>
@@ -245,6 +265,8 @@ export default async function GrantDetailPage({ params }: Props) {
               {grant.applicationPeriod ? <p>{grant.applicationPeriod}</p> : null}
               {grant.budgetMayCloseEarly && <p className="mt-3 rounded-lg border border-amber-300 bg-amber-50 p-3 font-bold text-amber-950">予算到達により早期終了する場合があります。</p>}
             </DetailSection>
+
+            <DisplayAdSlot placement="inArticle" format="horizontal" className="grant-adsense-inline-slot" />
 
             <DetailSection id="eligible-costs" title="対象経費または対象内容" sections={sectionGroups.costs}>
               {grant.eligibleCosts?.length ? <ul>{grant.eligibleCosts.map((item) => <li key={item}>{item}</li>)}</ul> : null}
