@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
-import { getGrantAffiliateIntents, shouldAllowDerivedAffiliateContext } from './affiliate-context.ts';
+import { getGrantAffiliateIntents, getGrantDetailAffiliateMatchContext, shouldAllowDerivedAffiliateContext } from './affiliate-context.ts';
 
 describe('getGrantAffiliateIntents', () => {
   it('不妊治療制度を不妊治療相談と治療費管理の文脈へ分類する', () => {
@@ -244,5 +244,25 @@ describe('shouldAllowDerivedAffiliateContext', () => {
       purposes: ['businessGrowth', 'livingSupport'], intents: ['ecommerce'], monetizationAllowed: false,
       sensitive: false,
     }), true);
+  });
+});
+
+describe('getGrantDetailAffiliateMatchContext', () => {
+  it('個別ページでは特別児童扶養手当にも子育て・教育系PRの文脈を補完する', () => {
+    const result = getGrantDetailAffiliateMatchContext({
+      title: '与那国町 特別児童扶養手当',
+      description: '特別児童扶養手当は、与那国町が案内する支援制度です。',
+      eligibility: '与那国町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方',
+      tags: ['児童', '手当'],
+      purposes: ['childcare', 'livingSupport'],
+      primaryPurpose: 'childcare',
+      audiences: ['family'],
+      affiliateIntents: [],
+    });
+
+    assert.deepEqual(result, {
+      intents: ['childrensEducation', 'financialPlanning'],
+      purposes: ['childcare', 'education'],
+    });
   });
 });

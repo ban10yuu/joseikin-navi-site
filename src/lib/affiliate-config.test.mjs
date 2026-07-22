@@ -3,6 +3,7 @@ import { describe, it } from 'node:test';
 import { AFFILIATE_OFFERS } from '../config/affiliate-offers.ts';
 import { AFFILIATE_ISSUED_HTML } from '../config/affiliate-issued-html.ts';
 import { hasApprovedSensitiveAffiliateContext } from '../config/affiliate-security.ts';
+import { getGrantDetailAffiliateMatchContext } from './affiliate-context.ts';
 import { getEligibleAffiliateOffers, isAffiliateOfferPublishable } from './monetization.ts';
 
 const NOW = new Date('2026-07-19T12:00:00+09:00');
@@ -163,6 +164,30 @@ describe('affiliate production config', () => {
     }, NOW);
 
     assert.deepEqual(result.map((offer) => offer.id), ['a8-zero-start-solar']);
+  });
+
+  it('個別ページでは目的・対象者から補完して3件以上の関連PRを選べる', () => {
+    const detailContext = getGrantDetailAffiliateMatchContext({
+      title: '与那国町 特別児童扶養手当',
+      description: '特別児童扶養手当は、与那国町が案内する支援制度です。',
+      eligibility: '与那国町内の児童・子育て世帯・ひとり親家庭・妊産婦等で公式要件を満たす方',
+      tags: ['児童', '手当'],
+      purposes: ['childcare', 'livingSupport'],
+      primaryPurpose: 'childcare',
+      audiences: ['family'],
+      affiliateIntents: [],
+    });
+    const result = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+      pageType: 'grant', audiences: ['family'], purposes: detailContext.purposes,
+      intents: detailContext.intents, monetizationAllowed: true, status: 'open',
+      indexable: true, hasOfficialSource: true, sensitive: false, limit: 3,
+    }, NOW);
+
+    assert.deepEqual(result.map((offer) => offer.id), [
+      'a8-aquaclara-childcare-water',
+      'a8-geni-educational-toys',
+      'moshimo-worldlibrary-childrens-books',
+    ]);
   });
 
   it('公式確認済みの受付中不妊治療制度では不妊治療に一致する案件だけを選ぶ', () => {

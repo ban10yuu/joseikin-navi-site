@@ -18,7 +18,7 @@ import {
   isGrantExpired,
 } from '@/lib/grants';
 import { splitEligibilityText } from '@/lib/grant-presentation';
-import { getGrantAffiliateIntents, shouldAllowDerivedAffiliateContext } from '@/lib/affiliate-context';
+import { getGrantAffiliateIntents, getGrantDetailAffiliateMatchContext, shouldAllowDerivedAffiliateContext } from '@/lib/affiliate-context';
 import { getValidOfficialSourceUrls } from '@/lib/grant-source';
 import { groupGrantSections, type GrantSectionGroup } from '@/lib/grant-sections';
 import { getEffectiveGrantStatus, getOfficialCtaLabel, isRepayableSupport } from '@/lib/grant-status';
@@ -113,11 +113,22 @@ export default async function GrantDetailPage({ params }: Props) {
     audiences: grant.audiences,
     affiliateIntents: grant.affiliateIntents ?? [],
   });
+  const detailAffiliateContext = getGrantDetailAffiliateMatchContext({
+    title: grant.title,
+    description: grant.description,
+    eligibility: grant.eligibility,
+    tags: grant.tags,
+    purposes: grant.purposes,
+    primaryPurpose: grant.primaryPurpose,
+    audiences: grant.audiences,
+    affiliateIntents,
+    texts: affiliateContextTexts,
+  });
   const affiliateHeading = businessAudience ? '事業に関連するサービス' : 'この制度の目的に関連するサービス';
   const affiliateDescription = businessAudience
     ? '事業の準備や運営に関連する民間サービスの広告です。この制度の申請や採択に必須ではありません。'
     : 'この制度の目的に関連する民間サービスの広告です。制度の利用や申請に必須ではありません。';
-  const affiliateOffers = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+  const strictAffiliateOffers = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
     pageType: 'grant',
     audiences: grant.audiences ?? [],
     purposes: grant.purposes ?? [],
@@ -135,10 +146,25 @@ export default async function GrantDetailPage({ params }: Props) {
     sensitive: sensitiveContext,
     sensitiveMonetizationApproved: hasApprovedSensitiveAffiliateContext(grant.slug, affiliateIntents),
     texts: affiliateContextTexts,
-    limit: 3,
+    limit: 6,
   });
-  const primaryAffiliateOffers = affiliateOffers.slice(0, 1);
-  const secondaryAffiliateOffers = affiliateOffers.slice(1);
+  const fallbackAffiliateOffers = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
+    pageType: 'grant',
+    audiences: grant.audiences ?? [],
+    purposes: detailAffiliateContext.purposes,
+    intents: detailAffiliateContext.intents,
+    monetizationAllowed: detailAffiliateContext.intents.length > 0,
+    status,
+    indexable: sourceStatus.level !== 'unverified' && grant.indexStatus !== 'noindex' && grant.contentStatus === 'published',
+    hasOfficialSource: Boolean(primaryOfficialUrl),
+    sensitive: false,
+    limit: 6,
+  });
+  const affiliateOffers = [...strictAffiliateOffers, ...fallbackAffiliateOffers]
+    .filter((offer, index, offers) => offers.findIndex((item) => item.id === offer.id) === index)
+    .slice(0, 6);
+  const primaryAffiliateOffers = affiliateOffers.slice(0, 3);
+  const secondaryAffiliateOffers = affiliateOffers.slice(3);
 
   const orderedGroups: GrantSectionGroup[] = ['overview', 'eligibility', 'amount', 'period', 'costs', 'method', 'documents', 'contact'];
   const classifiedCount = orderedGroups.reduce((count, group) => count + sectionGroups[group].length, 0);
@@ -182,9 +208,10 @@ export default async function GrantDetailPage({ params }: Props) {
                 grantId={grant.slug}
                 audience={grant.primaryAudience}
                 purpose={grant.primaryPurpose}
-                intents={affiliateIntents}
+                intents={detailAffiliateContext.intents}
                 placement="grant-after-official-source"
                 className="grant-affiliate-placement"
+                visibleCount={3}
                 heading={affiliateHeading}
                 description={affiliateDescription}
               />
@@ -243,7 +270,7 @@ export default async function GrantDetailPage({ params }: Props) {
               grantId={grant.slug}
               audience={grant.primaryAudience}
               purpose={grant.primaryPurpose}
-              intents={affiliateIntents}
+              intents={detailAffiliateContext.intents}
               placement="grant-before-correction"
               className="grant-affiliate-inline-placement"
               visibleCount={2}

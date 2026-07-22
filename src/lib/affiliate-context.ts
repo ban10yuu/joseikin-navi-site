@@ -11,6 +11,11 @@ interface GrantAffiliateContextSource {
   affiliateIntents: AffiliateIntent[];
 }
 
+interface GrantDetailAffiliateContextSource extends GrantAffiliateContextSource {
+  texts?: string[];
+}
+
+const SENSITIVE_PURPOSE_SET = new Set<Purpose>(['medical', 'welfare', 'disaster', 'livingSupport']);
 const FERTILITY_CONTEXT_PATTERN = /(不妊|妊活|生殖補助|体外受精|顕微授精)/u;
 const MEDICAL_EXPENSE_TAX_PATTERN = /医療費控除/u;
 const TREATMENT_COST_PATTERN = /(治療費|医療費|自己負担)/u;
@@ -83,6 +88,51 @@ export function getGrantAffiliateIntents(grant: GrantAffiliateContextSource): Af
   }
 
   return [...intents];
+}
+
+function addUnique<T>(values: Set<T>, additions: T[]) {
+  for (const value of additions) values.add(value);
+}
+
+export function getGrantDetailAffiliateMatchContext(grant: GrantDetailAffiliateContextSource): {
+  intents: AffiliateIntent[];
+  purposes: Purpose[];
+} {
+  const intents = new Set<AffiliateIntent>(getGrantAffiliateIntents(grant));
+  const purposes = new Set<Purpose>(grant.purposes.filter((purpose) => !SENSITIVE_PURPOSE_SET.has(purpose)));
+  const text = [grant.title, grant.description, grant.eligibility ?? '', ...grant.tags, ...(grant.texts ?? [])].join(' ');
+  const businessAudience = grant.audiences?.some((audience) => ['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization'].includes(audience)) ?? false;
+  const familyAudience = grant.audiences?.some((audience) => ['individual', 'family', 'student', 'jobSeeker'].includes(audience)) ?? false;
+  const childFamilyContext = /(子育て|児童|こども|子ども|出産|妊娠|育児|扶養|家庭|ひとり親)/u.test(text)
+    || grant.purposes.includes('childcare')
+    || grant.audiences?.includes('family');
+
+  if (businessAudience || grant.purposes.some((purpose) => ['startup', 'businessGrowth', 'digitalTransformation', 'regionalRevitalization', 'wageIncrease', 'research'].includes(purpose))) {
+    addUnique(purposes, ['startup', 'businessGrowth', 'digitalTransformation', 'regionalRevitalization']);
+    addUnique(intents, ['businessPlanning', 'accounting', 'professionalConsultation', 'ecommerce', 'cloudStorage', 'systemDevelopment', 'companyFormation']);
+  }
+  if (childFamilyContext) {
+    addUnique(purposes, ['childcare', 'education']);
+    addUnique(intents, ['childrensEducation', 'financialPlanning']);
+  }
+  if (grant.purposes.some((purpose) => purpose === 'education') || grant.audiences?.some((audience) => ['student', 'jobSeeker'].includes(audience))) {
+    addUnique(purposes, ['education', 'employment']);
+    addUnique(intents, ['childrensEducation', 'employeeTraining', 'careerConsultation', 'financialPlanning']);
+  }
+  if (grant.purposes.some((purpose) => purpose === 'housing' || purpose === 'energySaving')) {
+    addUnique(purposes, ['housing', 'energySaving']);
+    addUnique(intents, ['financialPlanning', 'homeEnergyConsultation']);
+  }
+  if (grant.purposes.includes('employment') || grant.audiences?.includes('jobSeeker')) {
+    addUnique(purposes, ['employment', 'education']);
+    addUnique(intents, ['careerConsultation', 'employeeTraining']);
+  }
+  if (familyAudience && intents.size === 0) {
+    addUnique(purposes, ['education', 'housing', 'employment']);
+    addUnique(intents, ['financialPlanning', 'careerConsultation', 'employeeTraining', 'homeEnergyConsultation']);
+  }
+
+  return { intents: [...intents], purposes: [...purposes] };
 }
 
 export function shouldAllowDerivedAffiliateContext({
