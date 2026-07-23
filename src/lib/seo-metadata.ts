@@ -36,6 +36,6 @@ export function grantMetaDescription(input: {
   }
 
   return compactMetaDescription(
-    `${input.title}（${input.organization}）の対象、支援内容、申請期限、公式情報の確認先を整理。主な対象は${input.eligibility}。支援内容は${input.amount}。${input.checked}。`,
+    `${input.title}（${input.organization}）の対象者、支援額、申請期間、公式情報の確認先を整理。支援内容は${input.amount}。${input.checked}。申請前に公式ページで最新条件を確認してください。`,
   );
 }

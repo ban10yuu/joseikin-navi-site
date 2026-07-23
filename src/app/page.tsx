@@ -6,6 +6,7 @@ import DisplayAdSlot from '@/components/DisplayAdSlot';
 import HomeGrantSearch from '@/components/HomeGrantSearch';
 import SubscribeForm from '@/components/SubscribeForm';
 import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
+import { SEARCH_CONSOLE_OPPORTUNITIES } from '@/config/search-console-opportunities';
 import { isAdsenseEnabled, siteConfig } from '@/config/site';
 import { getGrantQualityStats, getOfficialLinkedGrants, getRecentlyUpdatedGrants } from '@/lib/grants';
 import { getEffectiveGrantStatus } from '@/lib/grant-status';
@@ -126,6 +127,22 @@ export default function HomePage() {
             <div className="home-support-links" aria-label="制度種別から探す">
               {SUPPORT_TYPE_LINKS.map((supportType) => (
                 <Link key={supportType} href={`/support-type/${supportType}/`}>{SUPPORT_TYPE_LABELS[supportType]}</Link>
+              ))}
+            </div>
+          </section>
+          <section className="home-query-link-panel" aria-labelledby="query-opportunity-title">
+            <div>
+              <p className="home-search-eyebrow">制度名・自治体名から</p>
+              <h2 id="query-opportunity-title">検索されている制度を直接確認する</h2>
+              <p className="home-query-link-lead">商品券、介護用品、住み替え、奨学金など、制度名で探す人が多いテーマへの入口です。</p>
+            </div>
+            <div className="home-query-link-grid">
+              {SEARCH_CONSOLE_OPPORTUNITIES.map((item) => (
+                <Link key={item.label} href={item.href}>
+                  <span className="home-query-link-tag">{item.intent}</span>
+                  <strong>{item.label}</strong>
+                  <span>{item.description}</span>
+                </Link>
               ))}
             </div>
           </section>

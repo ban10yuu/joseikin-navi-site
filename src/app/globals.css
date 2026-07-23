@@ -1440,6 +1440,82 @@ body {
   text-underline-offset: 4px;
 }
 
+.home-query-link-panel {
+  max-width: 980px;
+  margin: 1rem auto 0;
+  padding: 1rem;
+  border: 1px solid #bfdbfe;
+  border-radius: 12px;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+}
+
+.home-query-link-panel h2 {
+  margin-top: 0.15rem;
+  color: #111827;
+  font-size: 1.125rem;
+  font-weight: 900;
+  line-height: 1.45;
+}
+
+.home-query-link-lead {
+  margin-top: 0.35rem;
+  color: #475569;
+  font-size: 0.8125rem;
+  line-height: 1.7;
+}
+
+.home-query-link-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin-top: 0.85rem;
+}
+
+.home-query-link-grid a {
+  display: block;
+  min-height: 126px;
+  border: 1px solid #dbe5f0;
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 0.8rem;
+  color: #17345f;
+  text-decoration: none;
+}
+
+.home-query-link-grid a:hover {
+  border-color: #2557a7;
+  box-shadow: 0 10px 24px rgba(37, 87, 167, 0.1);
+}
+
+.home-query-link-grid strong,
+.home-query-link-grid span {
+  display: block;
+}
+
+.home-query-link-grid strong {
+  margin-top: 0.45rem;
+  font-size: 0.875rem;
+  font-weight: 900;
+  line-height: 1.45;
+}
+
+.home-query-link-grid a > span:last-child {
+  margin-top: 0.3rem;
+  color: #475569;
+  font-size: 0.75rem;
+  line-height: 1.6;
+}
+
+.home-query-link-tag {
+  width: fit-content;
+  border-radius: 999px;
+  background: #eff6ff;
+  padding: 0.2rem 0.5rem;
+  color: #1d4ed8;
+  font-size: 0.6875rem;
+  font-weight: 900;
+}
+
 .home-trust-strip {
   display: flex;
   flex-wrap: wrap;
@@ -3047,6 +3123,20 @@ body {
 
   .home-seo-link-grid span {
     font-size: 0.6875rem;
+  }
+
+  .home-query-link-panel {
+    padding: 0.85rem;
+  }
+
+  .home-query-link-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .home-query-link-grid a {
+    min-height: auto;
+    padding: 0.75rem;
   }
 
   .home-howto-list {

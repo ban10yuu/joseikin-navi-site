@@ -28,6 +28,7 @@ describe('seo metadata helpers', () => {
     });
 
     assert.equal(description.length <= 118, true);
-    assert.match(description, /対象、支援内容、申請期限/);
+    assert.match(description, /対象者、支援額、申請期間/);
+    assert.match(description, /公式ページ/);
   });
 });
