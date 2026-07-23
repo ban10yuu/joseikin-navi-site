@@ -91,16 +91,24 @@ export default function HomeGrantSearch({
   const selectedPurposeOption = PURPOSES[audience].find((item) => item.label === selectedPurpose);
   const audienceAffiliateOffers = audience === 'business' ? businessAffiliateOffers : personalAffiliateOffers;
   const unselectedOffers = audienceAffiliateOffers;
-  const selectedAffiliateOffers = (selectedPurposeOption
+  const contextMatchedAffiliateOffers = selectedPurposeOption
       ? audienceAffiliateOffers.filter((offer) => Boolean(selectedPurposeOption.purpose)
         && Boolean(selectedPurposeOption.intents?.length)
         && offer.allowedPurposes.includes(selectedPurposeOption.purpose as Purpose)
         && selectedPurposeOption.intents?.some((intent) => offer.intents.includes(intent)))
-      : unselectedOffers).slice(0, 8);
+      : unselectedOffers;
+  const usesBroadAffiliateFallback = Boolean(selectedPurposeOption && contextMatchedAffiliateOffers.length === 0);
+  const selectedAffiliateOffers = (usesBroadAffiliateFallback ? unselectedOffers : contextMatchedAffiliateOffers).slice(0, 8);
   const showContextualAffiliate = selectedAffiliateOffers.length > 0;
   const featuredAffiliateOffers = selectedAffiliateOffers.slice(0, 1);
   const moreAffiliateOffers = selectedAffiliateOffers.slice(1);
   const affiliatePurpose = selectedPurposeOption?.purpose ?? (audience === 'business' ? 'businessGrowth' : 'other');
+  const affiliateHeading = usesBroadAffiliateFallback
+    ? audience === 'business' ? '事業の準備・運営に関連するサービス' : '個人・家族向けのサービス'
+    : selectedPurposeOption ? '選択した目的に関連するサービス' : audience === 'business' ? '事業の準備・運営に関連するサービス' : '暮らし・学びに関連するサービス';
+  const affiliateDescription = usesBroadAffiliateFallback
+    ? '選択した目的に完全一致する広告が少ないため、個人・家族向けの民間サービス広告を表示しています。制度の利用や申請に必須ではありません。'
+    : '民間サービスの広告です。制度の利用や申請に必須ではありません。';
 
   return (
       <section aria-labelledby="home-search-title" className={`home-search home-search-panel${showContextualAffiliate ? ' has-business-affiliate' : ''}`}>
@@ -247,8 +255,8 @@ export default function HomeGrantSearch({
               audience={audience === 'business' ? 'business' : 'individual'}
               purpose={affiliatePurpose}
               className="home-affiliate-placement"
-              heading={selectedPurposeOption ? '選択した目的に関連するサービス' : audience === 'business' ? '事業の準備・運営に関連するサービス' : '暮らし・学びに関連するサービス'}
-              description="民間サービスの広告です。制度の利用や申請に必須ではありません。"
+              heading={affiliateHeading}
+              description={affiliateDescription}
             />
           </div>
         ) : null}
@@ -272,8 +280,8 @@ export default function HomeGrantSearch({
             visibleCount={3}
             positionOffset={1}
             lazyCreatives
-            heading="そのほかの関連サービス"
-            description="現在選択している対象に関連する民間サービスの広告です。"
+            heading={usesBroadAffiliateFallback ? 'そのほかの個人・家族向けサービス' : 'そのほかの関連サービス'}
+            description={usesBroadAffiliateFallback ? '選択した目的に完全一致する広告が少ない場合の補助的なPR枠です。' : '現在選択している対象に関連する民間サービスの広告です。'}
           />
         </div>
       ) : null}
