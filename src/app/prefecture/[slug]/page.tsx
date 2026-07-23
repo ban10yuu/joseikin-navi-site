@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import GrantCard from '@/components/GrantCard';
 import { BreadcrumbJsonLd, CollectionJsonLd } from '@/components/JsonLd';
+import { getSearchConsoleOpportunitiesForPrefecture } from '@/config/search-console-opportunities';
 import { getGrantsByPrefecture } from '@/lib/grants';
 import { toSiteUrl } from '@/lib/site-url';
 import { CATEGORY_LABELS, PREFECTURES, type GrantCategory } from '@/lib/types';
@@ -58,6 +59,7 @@ export default async function PrefecturePage({ params }: Props) {
     .filter((item) => item.count > 0);
   const encodedPrefecture = encodeURIComponent(prefecture);
   const canonical = toSiteUrl(`/prefecture/${encodedPrefecture}/`);
+  const searchOpportunities = getSearchConsoleOpportunitiesForPrefecture(prefecture, 6);
 
   return (
     <>
@@ -100,6 +102,21 @@ export default async function PrefecturePage({ params }: Props) {
           <div className="home-section-heading"><p>情報の確認日を基準に掲載</p><h2 id="pref-recent-title">最近更新された制度</h2></div>
           <div className="grid gap-4 md:grid-cols-2">{recentlyUpdated.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div>
         </section>
+
+        {searchOpportunities.length > 0 ? (
+          <section className="mt-12 border-t border-line pt-10" aria-labelledby="pref-search-opportunity-title">
+            <div className="home-section-heading"><p>Search Consoleで表示がある地域テーマ</p><h2 id="pref-search-opportunity-title">{prefecture}でよく検索されている制度</h2></div>
+            <div className="home-query-link-grid">
+              {searchOpportunities.map((item) => (
+                <Link key={item.label} href={item.href}>
+                  <span className="home-query-link-tag">{item.intent}</span>
+                  <strong>{item.label}</strong>
+                  <span>{item.description}</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        ) : null}
 
         {nearby.length > 0 && <nav aria-label={`${region}の都道府県`} className="mt-12 rounded-2xl bg-wash p-5 sm:p-7"><h2 className="text-xl font-black text-navy">同じ地域から探す</h2><div className="mt-4 flex flex-wrap gap-2">{nearby.map((item) => <Link key={item} href={`/prefecture/${encodeURIComponent(item)}/`} className="inline-flex min-h-11 items-center rounded-lg border border-line bg-white px-4 text-sm font-bold text-navy underline underline-offset-4">{item}</Link>)}</div></nav>}
       </main>

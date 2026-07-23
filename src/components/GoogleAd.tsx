@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { shouldRenderDisplayAd } from '@/lib/monetization';
 
 type AdFormat = 'auto' | 'horizontal' | 'vertical' | 'rectangle';
@@ -51,6 +51,8 @@ export default function GoogleAd({
   const resolvedSlot = resolveSlot(slot, placement);
   const pushed = useRef(false);
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const insRef = useRef<HTMLModElement | null>(null);
+  const [isUnfilled, setIsUnfilled] = useState(false);
 
   useEffect(() => {
     if (!shouldRenderDisplayAd(clientId, resolvedSlot) || pushed.current) return;
@@ -90,7 +92,25 @@ export default function GoogleAd({
     }
   }, [clientId, resolvedSlot]);
 
-  if (!shouldRenderDisplayAd(clientId, resolvedSlot)) return null;
+  useEffect(() => {
+    if (!shouldRenderDisplayAd(clientId, resolvedSlot)) return;
+    const element = insRef.current;
+    if (!element) return;
+
+    const updateAdStatus = () => {
+      const status = element.getAttribute('data-ad-status');
+      if (status === 'unfilled') setIsUnfilled(true);
+      if (status === 'filled') setIsUnfilled(false);
+    };
+
+    updateAdStatus();
+    const observer = new MutationObserver(updateAdStatus);
+    observer.observe(element, { attributes: true, attributeFilter: ['data-ad-status'] });
+
+    return () => observer.disconnect();
+  }, [clientId, resolvedSlot]);
+
+  if (!shouldRenderDisplayAd(clientId, resolvedSlot) || isUnfilled) return null;
 
   return (
     <div ref={containerRef} className={`adsense-slot overflow-hidden ${className}`} aria-label={label}>
@@ -98,6 +118,7 @@ export default function GoogleAd({
         {label}
       </div>
       <ins
+        ref={insRef}
         className="adsbygoogle"
         style={{ display: 'block', minHeight: MIN_HEIGHT_BY_FORMAT[format] }}
         data-ad-client={clientId}

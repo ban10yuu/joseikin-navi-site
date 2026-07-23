@@ -28,6 +28,7 @@ import { toSiteUrl } from '@/lib/site-url';
 import { getEligibleAffiliateOffers, isSensitiveAffiliateContext } from '@/lib/monetization';
 import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
 import { hasApprovedSensitiveAffiliateContext } from '@/config/affiliate-security';
+import { getSearchConsoleOpportunitiesForGrant, SEARCH_CONSOLE_OPPORTUNITIES } from '@/config/search-console-opportunities';
 import { siteConfig } from '@/config/site';
 import { CATEGORY_LABELS, SUPPORT_TYPE_LABELS, type Section } from '@/lib/types';
 
@@ -49,7 +50,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!grant) return {};
   const sourceStatus = getGrantSourceStatus(grant);
   const expired = isGrantExpired(grant);
-  const title = expired ? `${grant.title}｜受付状況・次回募集の確認先` : `${grant.title}｜対象・金額・申請期限`;
+  const opportunity = SEARCH_CONSOLE_OPPORTUNITIES.find((item) => item.grantSlugs?.includes(slug));
+  const titleSubject = opportunity?.observedQuery ?? grant.title;
+  const title = expired ? `${titleSubject}｜受付状況・次回募集の確認先` : `${titleSubject}｜対象・金額・申請期限`;
   const eligibility = (grant.eligibility || '公式情報で確認').replace(/[。．]+$/u, '');
   const deadline = (grant.applicationPeriod || '申請期限は公式情報で確認').replace(/[。．]+$/u, '');
   const checked = !hasOfficialSource(grant)
@@ -182,6 +185,12 @@ export default async function GrantDetailPage({ params }: Props) {
       ?? siteConfig.adsense.slots.footer,
   );
   const showMonetizationRail = affiliateOffers.length > 0 || hasManualAdsenseSlot;
+  const searchOpportunities = getSearchConsoleOpportunitiesForGrant({
+    slug: grant.slug,
+    category: grant.category,
+    purposes: grant.purposes,
+    prefecture: grant.prefecture,
+  }, 4);
 
   const orderedGroups: GrantSectionGroup[] = ['overview', 'eligibility', 'amount', 'period', 'costs', 'method', 'documents', 'contact'];
   const classifiedCount = orderedGroups.reduce((count, group) => count + sectionGroups[group].length, 0);
@@ -288,6 +297,21 @@ export default async function GrantDetailPage({ params }: Props) {
           </div>
 
           <OfficialCheckpoints />
+
+          {searchOpportunities.length > 0 ? (
+            <nav aria-label="関連する検索キーワード" className="grant-search-opportunity-links">
+              <p className="grant-search-opportunity-eyebrow">検索されている関連テーマ</p>
+              <h2>この制度に近い条件で探す</h2>
+              <div>
+                {searchOpportunities.map((item) => (
+                  <Link key={item.label} href={item.href}>
+                    <span>{item.intent}</span>
+                    <strong>{item.observedQuery}</strong>
+                  </Link>
+                ))}
+              </div>
+            </nav>
+          ) : null}
 
           {related.length > 0 && <section className="grant-related" aria-labelledby="related-grants-title"><div className="home-section-heading"><p>対象・目的・地域が近い制度</p><h2 id="related-grants-title">関連する制度</h2></div><div className="grant-related-grid">{related.map((item) => <GrantCard key={item.slug} grant={item} />)}</div></section>}
 

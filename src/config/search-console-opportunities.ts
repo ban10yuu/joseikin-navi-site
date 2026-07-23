@@ -1,9 +1,15 @@
+import type { GrantCategory, Purpose } from '@/lib/types';
+
 export type SearchConsoleOpportunity = {
   label: string;
   description: string;
   href: string;
   intent: '生活支援' | '子育て' | '介護' | '住まい' | '学び';
   observedQuery: string;
+  categories: GrantCategory[];
+  purposes: Purpose[];
+  prefectures?: string[];
+  grantSlugs?: string[];
 };
 
 export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
@@ -13,6 +19,10 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     href: '/grant/annaka-citizen-voucher-2026/',
     intent: '生活支援',
     observedQuery: '安中市民商品券',
+    categories: ['living'],
+    purposes: ['livingSupport'],
+    prefectures: ['群馬県'],
+    grantSlugs: ['annaka-citizen-voucher-2026'],
   },
   {
     label: '宮崎市 介護用品支給',
@@ -20,6 +30,10 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     href: '/grant/miyazaki-city-nursing-equipment/',
     intent: '介護',
     observedQuery: '宮崎市介護用品支給事業',
+    categories: ['nursing'],
+    purposes: ['welfare'],
+    prefectures: ['宮崎県'],
+    grantSlugs: ['miyazaki-city-nursing-equipment'],
   },
   {
     label: '由利本荘市 生活応援券',
@@ -27,6 +41,10 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     href: '/grant/yurihonjo-life-support-voucher-2026/',
     intent: '生活支援',
     observedQuery: '由利本荘市 生活応援券',
+    categories: ['living'],
+    purposes: ['livingSupport'],
+    prefectures: ['秋田県'],
+    grantSlugs: ['yurihonjo-life-support-voucher-2026'],
   },
   {
     label: '福山市 おでかけ乗車券',
@@ -34,6 +52,10 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     href: '/grant/fukuyama-elderly-support/',
     intent: '介護',
     observedQuery: '福山市 おでかけ乗車券',
+    categories: ['nursing'],
+    purposes: ['welfare'],
+    prefectures: ['広島県'],
+    grantSlugs: ['fukuyama-elderly-support'],
   },
   {
     label: '渋谷区 住み替え支援',
@@ -41,6 +63,10 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     href: '/grant/shibuya-housing-subsidy/',
     intent: '住まい',
     observedQuery: '渋谷区 住み替え',
+    categories: ['housing'],
+    purposes: ['housing'],
+    prefectures: ['東京都'],
+    grantSlugs: ['shibuya-housing-subsidy'],
   },
   {
     label: '日本学生支援機構・奨学金関連',
@@ -48,6 +74,8 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     href: '/grants/?q=%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E6%94%AF%E6%8F%B4%E6%A9%9F%E6%A7%8B%20%E5%A5%A8%E5%AD%A6%E9%87%91',
     intent: '学び',
     observedQuery: '日本学生支援機構 奨学金',
+    categories: ['education'],
+    purposes: ['education'],
   },
   {
     label: '那須町 那須が大好き応援券',
@@ -55,6 +83,10 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     href: '/grant/nasu-regional-coupon-2026/',
     intent: '生活支援',
     observedQuery: '那須が大好き応援券',
+    categories: ['living'],
+    purposes: ['livingSupport'],
+    prefectures: ['栃木県'],
+    grantSlugs: ['nasu-regional-coupon-2026'],
   },
   {
     label: '子育て・出産の給付金',
@@ -62,5 +94,40 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     href: '/category/childcare/',
     intent: '子育て',
     observedQuery: '子育て 出産 補助金',
+    categories: ['childcare'],
+    purposes: ['childcare'],
   },
 ];
+
+export function getSearchConsoleOpportunitiesForCategory(category: GrantCategory, limit = 4): SearchConsoleOpportunity[] {
+  return SEARCH_CONSOLE_OPPORTUNITIES
+    .filter((item) => item.categories.includes(category))
+    .slice(0, limit);
+}
+
+export function getSearchConsoleOpportunitiesForPrefecture(prefecture: string, limit = 4): SearchConsoleOpportunity[] {
+  return SEARCH_CONSOLE_OPPORTUNITIES
+    .filter((item) => item.prefectures?.includes(prefecture))
+    .slice(0, limit);
+}
+
+export function getSearchConsoleOpportunitiesForGrant(input: {
+  slug: string;
+  category: GrantCategory;
+  purposes?: Purpose[];
+  prefecture?: string;
+}, limit = 4): SearchConsoleOpportunity[] {
+  const matched = SEARCH_CONSOLE_OPPORTUNITIES
+    .map((item) => {
+      let score = 0;
+      if (item.grantSlugs?.includes(input.slug)) score += 6;
+      if (item.prefectures?.includes(input.prefecture ?? '')) score += 2;
+      if (item.categories.includes(input.category)) score += 2;
+      if (input.purposes?.some((purpose) => item.purposes.includes(purpose))) score += 1;
+      return { item, score };
+    })
+    .filter(({ score }) => score > 0)
+    .sort((left, right) => right.score - left.score);
+
+  return matched.map(({ item }) => item).slice(0, limit);
+}

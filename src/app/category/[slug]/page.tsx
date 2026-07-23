@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import GrantCard from '@/components/GrantCard';
 import { BreadcrumbJsonLd, CollectionJsonLd } from '@/components/JsonLd';
+import { getSearchConsoleOpportunitiesForCategory } from '@/config/search-console-opportunities';
 import { getGrantsByCategory } from '@/lib/grants';
 import { getEffectiveGrantStatus } from '@/lib/grant-status';
 import { compactMetaDescription } from '@/lib/seo-metadata';
@@ -127,6 +128,7 @@ export default async function CategoryPage({ params }: Props) {
   const prefectures = topPrefectures(grants);
   const guide = CATEGORY_SEO_GUIDES[category];
   const canonical = toSiteUrl(`/category/${slug}/`);
+  const searchOpportunities = getSearchConsoleOpportunitiesForCategory(category, 6);
 
   return (
     <>
@@ -166,6 +168,21 @@ export default async function CategoryPage({ params }: Props) {
           <div className="home-section-heading"><p>情報の確認日を基準に掲載</p><h2 id="category-recent-title">最近更新された制度</h2></div>
           <div className="grid gap-4 md:grid-cols-2">{recentlyUpdated.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div>
         </section>
+
+        {searchOpportunities.length > 0 ? (
+          <section className="mt-12 border-t border-line pt-10" aria-labelledby="category-search-opportunity-title">
+            <div className="home-section-heading"><p>Search Consoleで表示があるテーマ</p><h2 id="category-search-opportunity-title">よく検索されている{label}の制度</h2></div>
+            <div className="home-query-link-grid">
+              {searchOpportunities.map((item) => (
+                <Link key={item.label} href={item.href}>
+                  <span className="home-query-link-tag">{item.intent}</span>
+                  <strong>{item.label}</strong>
+                  <span>{item.description}</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        ) : null}
 
         <section className="mt-12 rounded-2xl bg-wash p-5 sm:p-7" aria-labelledby="related-purpose-title">
           <h2 id="related-purpose-title" className="text-xl font-black text-navy">関連する目的から探す</h2>

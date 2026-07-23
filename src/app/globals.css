@@ -1950,11 +1950,11 @@ body {
 }
 
 .grant-adsense-inline-slot {
-  margin: 1.75rem 0;
+  margin: 1.5rem 0;
 }
 
 .grant-adsense-inline-slot--first {
-  margin-top: 0;
+  margin: 0.75rem 0 1rem;
 }
 
 .grant-adsense-rail-slot {
@@ -2575,6 +2575,71 @@ body {
 
 .grant-related {
   margin-top: 2.5rem;
+}
+
+.grant-search-opportunity-links {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  border: 1px solid #dbe4f0;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.grant-search-opportunity-eyebrow {
+  margin: 0;
+  color: #2557a7;
+  font-size: 0.75rem;
+  font-weight: 800;
+  line-height: 1.6;
+}
+
+.grant-search-opportunity-links h2 {
+  margin-top: 0.25rem;
+  color: #142d4f;
+  font-size: 1.125rem;
+  font-weight: 900;
+  line-height: 1.45;
+}
+
+.grant-search-opportunity-links > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.9rem;
+}
+
+.grant-search-opportunity-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #f8fafc;
+  color: #142d4f;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.grant-search-opportunity-links a:hover {
+  border-color: #2557a7;
+  box-shadow: 0 8px 20px rgb(15 23 42 / 0.06);
+}
+
+.grant-search-opportunity-links a span {
+  flex: 0 0 auto;
+  padding: 0.15rem 0.45rem;
+  border-radius: 9999px;
+  background: #eaf1fb;
+  color: #2557a7;
+  font-size: 0.6875rem;
+  font-weight: 900;
+}
+
+.grant-search-opportunity-links a strong {
+  font-size: 0.875rem;
+  font-weight: 900;
 }
 
 .grant-related-grid {
