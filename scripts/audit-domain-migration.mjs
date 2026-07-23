@@ -7,11 +7,30 @@ const inputPath = path.resolve(process.env.MIGRATION_URL_LIST || 'artifacts/migr
 const concurrency = Math.max(1, Number(process.env.MIGRATION_AUDIT_CONCURRENCY || 24));
 const retries = Math.max(1, Number(process.env.MIGRATION_AUDIT_RETRIES || 3));
 
-if (!fs.existsSync(inputPath)) {
-  throw new Error(`移行前URL一覧がありません: ${inputPath}`);
+async function loadCanonicalUrls() {
+  if (fs.existsSync(inputPath)) {
+    return [...new Set(fs.readFileSync(inputPath, 'utf8').split(/\r?\n/).filter(Boolean))];
+  }
+
+  const sitemapUrl = `${canonicalOrigin}/sitemap.xml`;
+  console.warn(`移行前URL一覧がありません。現行sitemapから監査URLを取得します: ${sitemapUrl}`);
+
+  const response = await fetch(sitemapUrl, {
+    headers: { 'user-agent': 'JoseikinMigrationAudit/1.0' },
+  });
+  if (!response.ok) {
+    throw new Error(`sitemapを取得できません: ${sitemapUrl} (${response.status})`);
+  }
+
+  const xml = await response.text();
+  const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]).filter(Boolean);
+  if (urls.length === 0) {
+    throw new Error(`sitemapからURLを抽出できません: ${sitemapUrl}`);
+  }
+  return [...new Set(urls)];
 }
 
-const canonicalUrls = [...new Set(fs.readFileSync(inputPath, 'utf8').split(/\r?\n/).filter(Boolean))];
+const canonicalUrls = await loadCanonicalUrls();
 const failures = [];
 let nextIndex = 0;
 let completed = 0;
