@@ -24,6 +24,7 @@ export interface MonetizationContext {
   sensitiveMonetizationApproved?: boolean;
   texts?: string[];
   limit?: number;
+  diversityKey?: string;
 }
 
 function intersects<T>(left: T[], right: T[]): boolean {
@@ -37,6 +38,23 @@ function isValidDestination(value: string | null): value is string {
   } catch {
     return false;
   }
+}
+
+function stableHash(value: string): number {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return hash >>> 0;
+}
+
+function shouldDiversifyAffiliateOrder(context: MonetizationContext): boolean {
+  const personalAudience = context.audiences.some((audience) =>
+    ['individual', 'family', 'student', 'senior', 'jobSeeker'].includes(audience));
+  const businessAudience = context.audiences.some((audience) =>
+    ['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization'].includes(audience));
+  return context.pageType === 'grant' && Boolean(context.diversityKey?.trim()) && personalAudience && !businessAudience;
 }
 
 export function isSensitiveAffiliateContext({
@@ -119,6 +137,8 @@ export function getEligibleAffiliateOffers(
 
   const defaultLimit = context.pageType === 'grant' ? 1 : Number.POSITIVE_INFINITY;
   const limit = Math.max(0, context.limit ?? defaultLimit);
+  const diversifyOrder = shouldDiversifyAffiliateOrder(context);
+  const diversityKey = context.diversityKey?.trim() ?? '';
 
   const scored = offers
     .filter((offer) => isAffiliateOfferPublishable(offer, now))
@@ -133,12 +153,23 @@ export function getEligibleAffiliateOffers(
       audienceScore: offer.audiences.filter((item) => context.audiences.includes(item)).length,
       purposeScore: offer.allowedPurposes.filter((item) => matchingPurposes.includes(item)).length,
       intentScore: offer.intents.filter((item) => context.intents.includes(item)).length,
+      diversityScore: stableHash(`${diversityKey}:${offer.id}`),
     }))
-    .sort((left, right) => right.intentScore - left.intentScore
-      || right.purposeScore - left.purposeScore
-      || right.audienceScore - left.audienceScore
-      || right.offer.priority - left.offer.priority
-      || (right.offer.verifiedAt ?? '').localeCompare(left.offer.verifiedAt ?? ''));
+    .sort((left, right) => {
+      if (diversifyOrder) {
+        return right.purposeScore - left.purposeScore
+          || right.audienceScore - left.audienceScore
+          || left.diversityScore - right.diversityScore
+          || right.intentScore - left.intentScore
+          || right.offer.priority - left.offer.priority
+          || (right.offer.verifiedAt ?? '').localeCompare(left.offer.verifiedAt ?? '');
+      }
+      return right.intentScore - left.intentScore
+        || right.purposeScore - left.purposeScore
+        || right.audienceScore - left.audienceScore
+        || right.offer.priority - left.offer.priority
+        || (right.offer.verifiedAt ?? '').localeCompare(left.offer.verifiedAt ?? '');
+    });
 
   const seen = new Set<string>();
   return scored

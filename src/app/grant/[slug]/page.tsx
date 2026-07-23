@@ -158,6 +158,7 @@ export default async function GrantDetailPage({ params }: Props) {
     sensitiveMonetizationApproved: hasApprovedSensitiveAffiliateContext(grant.slug, affiliateIntents),
     texts: affiliateContextTexts,
     limit: 6,
+    diversityKey: grant.slug,
   });
   const fallbackAffiliateOffers = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
     pageType: 'grant',
@@ -170,6 +171,7 @@ export default async function GrantDetailPage({ params }: Props) {
     hasOfficialSource: Boolean(primaryOfficialUrl),
     sensitive: false,
     limit: 6,
+    diversityKey: grant.slug,
   });
   const affiliateOffers = [...strictAffiliateOffers, ...fallbackAffiliateOffers]
     .filter((offer, index, offers) => offers.findIndex((item) => item.id === offer.id) === index)

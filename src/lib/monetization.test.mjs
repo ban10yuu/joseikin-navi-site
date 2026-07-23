@@ -180,6 +180,34 @@ describe('affiliate offers', () => {
     assert.deepEqual(result.map((item) => item.id), ['accounting-high']);
   });
 
+  it('個人・家族向けの個別ページでは制度ごとに同一ジャンル広告の順番を分散する', () => {
+    const familyContext = {
+      pageType: 'grant',
+      audiences: ['family'],
+      purposes: ['childcare'],
+      primaryPurpose: 'childcare',
+      intents: ['childrensEducation'],
+      monetizationAllowed: true,
+      status: 'open',
+      indexable: true,
+      hasOfficialSource: true,
+      limit: 3,
+    };
+    const familyOffers = [
+      { ...offer, id: 'family-a', audiences: ['family'], intents: ['childrensEducation'], allowedPurposes: ['childcare'], priority: 100 },
+      { ...offer, id: 'family-b', audiences: ['family'], intents: ['childrensEducation'], allowedPurposes: ['childcare'], priority: 90 },
+      { ...offer, id: 'family-c', audiences: ['family'], intents: ['childrensEducation'], allowedPurposes: ['childcare'], priority: 80 },
+      { ...offer, id: 'family-d', audiences: ['family'], intents: ['childrensEducation'], allowedPurposes: ['childcare'], priority: 70 },
+    ];
+
+    const noDiversity = getEligibleAffiliateOffers(familyOffers, familyContext, new Date('2026-07-13')).map((item) => item.id);
+    const pageA = getEligibleAffiliateOffers(familyOffers, { ...familyContext, diversityKey: 'childcare-grant-a' }, new Date('2026-07-13')).map((item) => item.id);
+    const pageB = getEligibleAffiliateOffers(familyOffers, { ...familyContext, diversityKey: 'childcare-grant-b' }, new Date('2026-07-13')).map((item) => item.id);
+
+    assert.deepEqual(noDiversity, ['family-a', 'family-b', 'family-c']);
+    assert.notDeepEqual(pageA, pageB);
+  });
+
   it('PRリンクに必要なrel属性を固定する', () => {
     assert.equal(AFFILIATE_LINK_REL, 'sponsored nofollow noopener noreferrer');
   });
