@@ -4,9 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "generate:grants-runtime": "node scripts/generate-runtime-grants.mjs",
+    "prebuild": "npm run generate:grants-runtime",
     "build": "next build --webpack",
     "start": "next start",
+    "cf:build": "opennextjs-cloudflare build",
+    "cf:preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "cf:deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "cf:upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
+    "cf:typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
     "lint": "eslint",
+    "pretypecheck": "npm run generate:grants-runtime",
     "typecheck": "tsc --noEmit",
     "test": "node --test src/lib/*.test.mjs",
     "test:e2e": "python3 scripts/run-e2e.py",
@@ -24,18 +32,21 @@
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.0",
-    "next": "16.1.6",
+    "next": "^16.2.11",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.20.2",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "esbuild": "^0.28.1",
     "eslint": "^9",
-    "eslint-config-next": "16.1.6",
+    "eslint-config-next": "^16.2.11",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "^4.114.0"
   }
 }

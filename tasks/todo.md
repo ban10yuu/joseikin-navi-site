@@ -1054,3 +1054,16 @@
 - [x] ローカル実ブラウザでトップ・検索結果・コンソールエラー0を確認
 - [ ] Vercel Proへアップグレードしてチーム停止を解除
 - [ ] 修正版を本番デプロイし、独自ドメインでHTTP 200を確認
+
+# 2026-07-25 Cloudflare Workers移行
+
+- [x] Next.js 16.2.11とOpenNext Cloudflareへ対応
+- [x] Workers・静的資産・R2キャッシュの設定を追加
+- [x] 制度27,875件を公開用データへ変換し、内部監査情報を本番バンドルから分離
+- [x] Cloudflareビルド1,993ページ、単体テスト174件、typecheckを確認
+- [x] Workerを圧縮後9,952.68KiBまで削減し、10MiB上限内へ収める
+- [ ] Cloudflare OAuth認証を完了
+- [ ] R2キャッシュ領域を作成
+- [ ] workers.dev仮URLへ公開して主要ページを実機確認
+- [ ] `shienseido-navi.jp`をCloudflareへ切り替え、HTTP 200を確認
+- [ ] Vercel停止中のDNS・転送設定を整理

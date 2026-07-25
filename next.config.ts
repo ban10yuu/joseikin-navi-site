@@ -1,7 +1,10 @@
 import type { NextConfig } from 'next';
+import { initOpenNextCloudflareForDev } from '@opennextjs/cloudflare';
 import { REDIRECTS } from './src/data/redirects';
 import { AFFILIATE_HOST_ALLOWLIST } from './src/config/affiliate-security';
 import { getCanonicalHostRedirects } from './src/lib/host-redirect';
+
+initOpenNextCloudflareForDev();
 
 const affiliateImageSources = [
   ...AFFILIATE_HOST_ALLOWLIST.creative,
@@ -44,6 +47,7 @@ const nextConfig: NextConfig = {
         source: '/grants/',
         headers: [
           { key: 'Vercel-CDN-Cache-Control', value: 'public, s-maxage=3600, stale-while-revalidate=86400' },
+          { key: 'Cloudflare-CDN-Cache-Control', value: 'public, s-maxage=3600, stale-while-revalidate=86400' },
         ],
       },
     ];

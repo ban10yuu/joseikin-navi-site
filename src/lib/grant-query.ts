@@ -53,15 +53,20 @@ export interface QueryGrantLike {
   deadlineDate?: string;
   applicationPeriod?: string;
   maxAmountNum: number;
+  maxAmount?: string;
   amountMax?: number;
   officialUrl: string;
   sourceCheckedAt?: string | null;
   verifiedAt?: string;
+  sourceName?: string;
   contentUpdatedAt?: string;
   publishedAt: string;
   searchText?: string;
   description: string;
   eligibility: string;
+  targetIncome?: string;
+  targetOccupation?: string;
+  sections?: Array<{ heading: string; content: string }>;
   tags: string[];
   category: GrantCategory;
   relatedCategories?: GrantCategory[];
@@ -110,7 +115,33 @@ function audienceMatches(grant: QueryGrantLike, group: AudienceGroup): boolean {
 }
 
 function searchText(grant: QueryGrantLike): string {
-  return grant.searchText ?? [grant.title, grant.organization, grant.description, grant.eligibility, grant.prefecture, ...grant.tags].join(' ').toLowerCase();
+  if (grant.searchText) return grant.searchText;
+
+  const sectionText = grant.sections
+    ?.flatMap((section) => [
+      section.heading,
+      section.content.replace(/<[^>]+>/g, ' '),
+    ])
+    .join(' ');
+
+  return [
+    grant.title,
+    grant.organization,
+    grant.maxAmount,
+    grant.description,
+    grant.eligibility,
+    grant.targetIncome,
+    grant.targetOccupation,
+    grant.applicationPeriod,
+    grant.prefecture,
+    grant.category,
+    grant.sourceName,
+    ...grant.tags,
+    sectionText,
+  ]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase();
 }
 
 function relevanceScore(grant: QueryGrantLike, query: string): number {
