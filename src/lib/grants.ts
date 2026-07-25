@@ -1,4 +1,4 @@
-import runtimeCatalog from '@/generated/grants-runtime.json';
+import { getCloudflareContext } from '@opennextjs/cloudflare';
 import type {
   Grant,
   GrantCategory,
@@ -17,13 +17,191 @@ import { getSearchTokens, matchesSearchText } from '@/lib/search';
 import { calculateGrantStats } from '@/lib/grant-stats';
 import { rankRelatedGrants } from '@/lib/related-grants';
 
-interface RuntimeGrantCatalog {
-  grants: NormalizedGrant[];
+type RuntimeIndexRow = [
+  string, string, string, GrantType, string, number, GrantCategory,
+  GrantCategory[] | null, string, string[], string, string, string | null,
+  string, string, string | null, string[] | null, string | null, string,
+  NormalizedGrant['supportType'], NormalizedGrant['audiences'],
+  NormalizedGrant['primaryAudience'], NormalizedGrant['purposes'],
+  NormalizedGrant['primaryPurpose'], string | null, NormalizedGrant['status'],
+  NormalizedGrant['verificationMethod'], string, NormalizedGrant['contentStatus'],
+  NormalizedGrant['indexStatus'], string | null, boolean,
+];
+
+interface RuntimeIndexCatalog {
+  grants: RuntimeIndexRow[];
   duplicatedSlugsRemoved: number;
 }
 
-const { grants: allGrants, duplicatedSlugsRemoved } =
-  runtimeCatalog as RuntimeGrantCatalog;
+interface GrantRepository {
+  allGrants: NormalizedGrant[];
+  publishedGrants: NormalizedGrant[];
+  activePublishedGrants: NormalizedGrant[];
+  expiredGrants: NormalizedGrant[];
+  officialLinkedGrants: NormalizedGrant[];
+  allOfficialLinkedGrants: NormalizedGrant[];
+  manuallyVerifiedGrants: NormalizedGrant[];
+  duplicatedSlugsRemoved: number;
+}
+
+const runtimeAssetRoot = 'data/grants-runtime';
+const runtimeIndexPartCount = 4;
+let repositoryPromise: Promise<GrantRepository> | null = null;
+const detailShardPromises = new Map<string, Promise<NormalizedGrant[]>>();
+
+function grantShard(slug: string): string {
+  let hash = 2166136261;
+  for (let index = 0; index < slug.length; index += 1) {
+    hash = Math.imul(hash ^ slug.charCodeAt(index), 16777619);
+  }
+  return ((hash >>> 0) % 64).toString(16).padStart(2, '0');
+}
+
+async function loadRuntimeAsset<T>(relativePath: string): Promise<T> {
+  try {
+    const { env } = await getCloudflareContext({ async: true });
+    if (env.ASSETS) {
+      const response = await env.ASSETS.fetch(
+        `http://assets.local/${runtimeAssetRoot}/${relativePath}`
+      );
+      if (response.ok) {
+        return await response.json() as T;
+      }
+    }
+  } catch {
+    // Next.jsのビルド中はCloudflareのASSETSがまだ未配置のため、
+    // 下のローカルファイル読み込みへフォールバックする。
+  }
+
+  const [{ readFile }, path] = await Promise.all([
+    import('node:fs/promises'),
+    import('node:path'),
+  ]);
+  const filePath = path.join(
+    process.cwd(),
+    'public',
+    runtimeAssetRoot,
+    relativePath
+  );
+  return JSON.parse(await readFile(filePath, 'utf8')) as T;
+}
+
+function decodeIndexGrant(row: RuntimeIndexRow): NormalizedGrant {
+  const [
+    slug, title, organization, type, maxAmount, maxAmountNum, category,
+    relatedCategories, prefecture, tags, eligibility, applicationPeriod,
+    deadlineDate, description, officialUrl, sourceName, sourceUrls, verifiedAt,
+    publishedAt, supportType, audiences, primaryAudience, purposes,
+    primaryPurpose, municipality, status, verificationMethod, contentUpdatedAt,
+    contentStatus, indexStatus, humanReviewedAt, monetizationAllowed,
+  ] = row;
+  return {
+    slug,
+    id: slug,
+    title,
+    officialName: title,
+    organization,
+    providerName: organization,
+    providerType: type,
+    type,
+    maxAmount,
+    maxAmountNum,
+    category,
+    relatedCategories: relatedCategories ?? undefined,
+    prefecture,
+    country: '日本',
+    tags,
+    eligibility,
+    applicationPeriod,
+    deadlineDate: deadlineDate ?? undefined,
+    description,
+    sections: [],
+    officialUrl,
+    sourceName: sourceName ?? undefined,
+    sourceUrls: sourceUrls ?? undefined,
+    verifiedAt: verifiedAt ?? undefined,
+    publishedAt,
+    supportType,
+    audiences,
+    primaryAudience,
+    purposes,
+    primaryPurpose,
+    municipality,
+    status,
+    verificationMethod,
+    humanReviewedAt,
+    sourceTitle: sourceName,
+    sourceUrl: officialUrl || null,
+    sourceCheckedAt: verifiedAt,
+    contentUpdatedAt,
+    contentStatus,
+    indexStatus,
+    affiliateIntents: [],
+    monetizationAllowed,
+  };
+}
+
+function getSourceRank(grant: Grant): number {
+  if (isManuallyVerifiedGrant(grant)) return 2;
+  if (hasOfficialSource(grant)) return 1;
+  return 0;
+}
+
+async function getRepository(): Promise<GrantRepository> {
+  if (!repositoryPromise) {
+    repositoryPromise = Promise.all(
+      Array.from({ length: runtimeIndexPartCount }, (_, index) =>
+        loadRuntimeAsset<RuntimeIndexCatalog>(`index-${index}.json`)
+      )
+    )
+      .then((catalogParts) => {
+        const allGrants = catalogParts
+          .flatMap((catalog) => catalog.grants)
+          .map(decodeIndexGrant);
+        const publishedGrants = [...allGrants].sort((left, right) => {
+          const sourceDiff = getSourceRank(right) - getSourceRank(left);
+          if (sourceDiff !== 0) return sourceDiff;
+          const activeDiff =
+            Number(isGrantExpired(left)) - Number(isGrantExpired(right));
+          if (activeDiff !== 0) return activeDiff;
+          return right.maxAmountNum - left.maxAmountNum;
+        });
+        const activePublishedGrants = publishedGrants.filter(
+          (grant) => !isGrantExpired(grant)
+        );
+        const expiredGrants = publishedGrants.filter(
+          (grant) => isGrantExpired(grant)
+        );
+        const officialLinkedGrants =
+          activePublishedGrants.filter(hasOfficialSource);
+        return {
+          allGrants,
+          publishedGrants,
+          activePublishedGrants,
+          expiredGrants,
+          officialLinkedGrants,
+          allOfficialLinkedGrants: publishedGrants.filter(hasOfficialSource),
+          manuallyVerifiedGrants:
+            activePublishedGrants.filter(isManuallyVerifiedGrant),
+          duplicatedSlugsRemoved: catalogParts.reduce(
+            (total, catalog) => total + catalog.duplicatedSlugsRemoved,
+            0
+          ),
+        };
+      });
+  }
+  return repositoryPromise;
+}
+
+async function loadDetailShard(slug: string): Promise<NormalizedGrant[]> {
+  const shard = grantShard(slug);
+  let promise = detailShardPromises.get(shard);
+  if (!promise) {
+    promise = loadRuntimeAsset<NormalizedGrant[]>(`detail-${shard}.json`);
+    detailShardPromises.set(shard, promise);
+  }
+  return promise;
+}
 
 function stripHtml(value: string): string {
   return value
@@ -44,7 +222,6 @@ export function buildGrantSearchText(grant: LegacyGrant): string {
   const sectionText = grant.sections
     .flatMap((section) => [section.heading, stripHtml(section.content)])
     .join(' ');
-
   return [
     grant.title,
     grant.organization,
@@ -60,10 +237,7 @@ export function buildGrantSearchText(grant: LegacyGrant): string {
     grant.description,
     sectionText,
     grant.sourceName,
-  ]
-    .filter(Boolean)
-    .join(' ')
-    .toLowerCase();
+  ].filter(Boolean).join(' ').toLowerCase();
 }
 
 export {
@@ -73,29 +247,6 @@ export {
   isManuallyVerifiedGrant,
 };
 
-function getSourceRank(grant: Grant): number {
-  if (isManuallyVerifiedGrant(grant)) return 2;
-  if (hasOfficialSource(grant)) return 1;
-  return 0;
-}
-
-const publishedGrants = [...allGrants].sort((a, b) => {
-  const sourceDiff = getSourceRank(b) - getSourceRank(a);
-  if (sourceDiff !== 0) return sourceDiff;
-
-  const activeDiff = Number(isGrantExpired(a)) - Number(isGrantExpired(b));
-  if (activeDiff !== 0) return activeDiff;
-
-  return b.maxAmountNum - a.maxAmountNum;
-});
-
-const activePublishedGrants = publishedGrants.filter((grant) => !isGrantExpired(grant));
-const expiredGrants = publishedGrants.filter((grant) => isGrantExpired(grant));
-const officialLinkedGrants = activePublishedGrants.filter(hasOfficialSource);
-const allOfficialLinkedGrants = publishedGrants.filter(hasOfficialSource);
-const manuallyVerifiedGrants = activePublishedGrants.filter(isManuallyVerifiedGrant);
-const sharedGrantStats = calculateGrantStats(activePublishedGrants);
-
 export const MIN_INDEXABLE_MUNICIPALITY_GRANTS = 3;
 
 export interface MunicipalityGroup {
@@ -104,92 +255,107 @@ export interface MunicipalityGroup {
   count: number;
 }
 
-export function getAllGrantsUnfiltered(): Grant[] {
-  return allGrants;
+export async function getAllGrantsUnfiltered(): Promise<Grant[]> {
+  return (await getRepository()).allGrants;
 }
 
-export function getAllGrants(): Grant[] {
-  return activePublishedGrants;
+export async function getAllGrants(): Promise<Grant[]> {
+  return (await getRepository()).activePublishedGrants;
 }
 
-export function getOfficialLinkedGrants(options: { includeExpired?: boolean } = {}): Grant[] {
-  return options.includeExpired ? allOfficialLinkedGrants : officialLinkedGrants;
+export async function getOfficialLinkedGrants(
+  options: { includeExpired?: boolean } = {}
+): Promise<Grant[]> {
+  const repository = await getRepository();
+  return options.includeExpired
+    ? repository.allOfficialLinkedGrants
+    : repository.officialLinkedGrants;
 }
 
-export function getManuallyVerifiedGrants(): Grant[] {
-  return manuallyVerifiedGrants;
+export async function getManuallyVerifiedGrants(): Promise<Grant[]> {
+  return (await getRepository()).manuallyVerifiedGrants;
 }
 
-export function getExpiredGrants(): Grant[] {
-  return expiredGrants;
+export async function getExpiredGrants(): Promise<Grant[]> {
+  return (await getRepository()).expiredGrants;
 }
 
-export function getGrantQualityStats(): {
-  total: number;
-  unfilteredTotal: number;
-  officialLinked: number;
-  manuallyVerified: number;
-  unverified: number;
-  duplicatedSlugsRemoved: number;
-  active: number;
-  expired: number;
-  categoryCounts: ReturnType<typeof calculateGrantStats>['categoryCounts'];
-  officialCategoryCounts: ReturnType<typeof calculateGrantStats>['officialCategoryCounts'];
-  categoryAssignmentTotal: number;
-  multiplePurposeCount: number;
-} {
+export async function getGrantQualityStats() {
+  const repository = await getRepository();
+  const stats = calculateGrantStats(repository.activePublishedGrants);
   return {
-    total: sharedGrantStats.total,
-    unfilteredTotal: allGrants.length,
-    active: activePublishedGrants.length,
-    expired: expiredGrants.length,
-    officialLinked: sharedGrantStats.officialLinked,
-    manuallyVerified: manuallyVerifiedGrants.length,
-    unverified: activePublishedGrants.length - officialLinkedGrants.length,
-    duplicatedSlugsRemoved,
-    categoryCounts: sharedGrantStats.categoryCounts,
-    officialCategoryCounts: sharedGrantStats.officialCategoryCounts,
-    categoryAssignmentTotal: sharedGrantStats.categoryAssignmentTotal,
-    multiplePurposeCount: sharedGrantStats.multiplePurposeCount,
+    total: stats.total,
+    unfilteredTotal: repository.allGrants.length,
+    active: repository.activePublishedGrants.length,
+    expired: repository.expiredGrants.length,
+    officialLinked: stats.officialLinked,
+    manuallyVerified: repository.manuallyVerifiedGrants.length,
+    unverified:
+      repository.activePublishedGrants.length -
+      repository.officialLinkedGrants.length,
+    duplicatedSlugsRemoved: repository.duplicatedSlugsRemoved,
+    categoryCounts: stats.categoryCounts,
+    officialCategoryCounts: stats.officialCategoryCounts,
+    categoryAssignmentTotal: stats.categoryAssignmentTotal,
+    multiplePurposeCount: stats.multiplePurposeCount,
   };
 }
 
-export function getGrantBySlug(slug: string): NormalizedGrant | undefined {
-  return allGrants.find((grant) => grant.slug === slug);
+export async function getGrantBySlug(
+  slug: string
+): Promise<NormalizedGrant | undefined> {
+  return (await loadDetailShard(slug)).find((grant) => grant.slug === slug);
 }
 
-export function grantMatchesCategory(grant: Grant, category: GrantCategory): boolean {
-  return grant.category === category || grant.relatedCategories?.includes(category) === true;
+export function grantMatchesCategory(
+  grant: Grant,
+  category: GrantCategory
+): boolean {
+  return grant.category === category ||
+    grant.relatedCategories?.includes(category) === true;
 }
 
-export function getGrantsByCategory(category: GrantCategory): Grant[] {
-  return officialLinkedGrants.filter((grant) => grantMatchesCategory(grant, category));
+export async function getGrantsByCategory(
+  category: GrantCategory
+): Promise<Grant[]> {
+  return (await getRepository()).officialLinkedGrants.filter(
+    (grant) => grantMatchesCategory(grant, category)
+  );
 }
 
-export function getGrantsByType(type: GrantType): Grant[] {
-  return officialLinkedGrants.filter((grant) => grant.type === type);
+export async function getGrantsByType(type: GrantType): Promise<Grant[]> {
+  return (await getRepository()).officialLinkedGrants.filter(
+    (grant) => grant.type === type
+  );
 }
 
-export function getGrantsByPrefecture(prefecture: string): Grant[] {
-  return officialLinkedGrants.filter(
+export async function getGrantsByPrefecture(
+  prefecture: string
+): Promise<Grant[]> {
+  return (await getRepository()).officialLinkedGrants.filter(
     (grant) => grant.prefecture === prefecture || grant.prefecture === '全国'
   );
 }
 
-export function getGrantsByMunicipality(prefecture: string, municipality: string): Grant[] {
-  return officialLinkedGrants.filter(
-    (grant) => grant.prefecture === prefecture && grant.municipality === municipality
+export async function getGrantsByMunicipality(
+  prefecture: string,
+  municipality: string
+): Promise<Grant[]> {
+  return (await getRepository()).officialLinkedGrants.filter(
+    (grant) =>
+      grant.prefecture === prefecture && grant.municipality === municipality
   );
 }
 
-export function getMunicipalityGroups(): MunicipalityGroup[] {
+export async function getMunicipalityGroups(): Promise<MunicipalityGroup[]> {
   const groups = new Map<string, number>();
-  officialLinkedGrants.forEach((grant) => {
-    if (!grant.prefecture || grant.prefecture === '全国' || !grant.municipality) return;
+  (await getRepository()).officialLinkedGrants.forEach((grant) => {
+    if (!grant.prefecture || grant.prefecture === '全国' || !grant.municipality) {
+      return;
+    }
     const key = `${grant.prefecture}\u001f${grant.municipality}`;
     groups.set(key, (groups.get(key) ?? 0) + 1);
   });
-
   return Array.from(groups.entries())
     .map(([key, count]) => {
       const [prefecture, municipality] = key.split('\u001f');
@@ -204,76 +370,100 @@ export function getMunicipalityGroups(): MunicipalityGroup[] {
     });
 }
 
-export function getMunicipalitiesForPrefecture(prefecture: string): MunicipalityGroup[] {
-  return getMunicipalityGroups()
+export async function getMunicipalitiesForPrefecture(
+  prefecture: string
+): Promise<MunicipalityGroup[]> {
+  return (await getMunicipalityGroups())
     .filter((item) => item.prefecture === prefecture)
-    .sort((left, right) => right.count - left.count ||
-      left.municipality.localeCompare(right.municipality));
+    .sort((left, right) =>
+      right.count - left.count ||
+      left.municipality.localeCompare(right.municipality)
+    );
 }
 
-export function getGrantsBySupportType(supportType: SupportType): Grant[] {
-  return officialLinkedGrants.filter((grant) => grant.supportType === supportType);
+export async function getGrantsBySupportType(
+  supportType: SupportType
+): Promise<Grant[]> {
+  return (await getRepository()).officialLinkedGrants.filter(
+    (grant) => grant.supportType === supportType
+  );
 }
 
-export function getRecentlyUpdatedGrants(limit = 10): Grant[] {
-  return [...officialLinkedGrants]
-    .sort((left, right) => right.contentUpdatedAt.localeCompare(left.contentUpdatedAt))
+export async function getRecentlyUpdatedGrants(
+  limit = 10
+): Promise<Grant[]> {
+  return [...(await getRepository()).officialLinkedGrants]
+    .sort((left, right) =>
+      right.contentUpdatedAt.localeCompare(left.contentUpdatedAt)
+    )
     .slice(0, limit);
 }
 
-export function getRelatedGrants(grant: NormalizedGrant, limit = 6): Grant[] {
-  const pool = hasOfficialSource(grant) ? officialLinkedGrants : publishedGrants;
+export async function getRelatedGrants(
+  grant: NormalizedGrant,
+  limit = 6
+): Promise<Grant[]> {
+  const repository = await getRepository();
+  const pool = hasOfficialSource(grant)
+    ? repository.officialLinkedGrants
+    : repository.publishedGrants;
   return rankRelatedGrants(grant, pool, limit);
 }
 
-export function searchGrants(query: string): Grant[] {
+export async function searchGrants(query: string): Promise<Grant[]> {
   if (getSearchTokens(query).length === 0) return [];
-
-  return activePublishedGrants.filter((grant) =>
+  return (await getRepository()).activePublishedGrants.filter((grant) =>
     matchesSearchText(buildGrantSearchText(grant), query)
   );
 }
 
-export function getAllSlugs(): string[] {
-  return allGrants.map((grant) => grant.slug);
+export async function getAllSlugs(): Promise<string[]> {
+  return (await getRepository()).allGrants.map((grant) => grant.slug);
 }
 
-export function getAllTags(options: { includeExpired?: boolean } = {}): string[] {
-  const tagSet = new Set<string>();
-  const pool = options.includeExpired ? allOfficialLinkedGrants : officialLinkedGrants;
-  pool.forEach((grant) => grant.tags.forEach((tag) => tagSet.add(tag)));
-  return Array.from(tagSet).sort();
+export async function getAllTags(
+  options: { includeExpired?: boolean } = {}
+): Promise<string[]> {
+  const repository = await getRepository();
+  const pool = options.includeExpired
+    ? repository.allOfficialLinkedGrants
+    : repository.officialLinkedGrants;
+  const tags = new Set<string>();
+  pool.forEach((grant) => grant.tags.forEach((tag) => tags.add(tag)));
+  return Array.from(tags).sort();
 }
 
-export function getGrantsByTag(tag: string): Grant[] {
-  return officialLinkedGrants.filter((grant) => grant.tags.includes(tag));
+export async function getGrantsByTag(tag: string): Promise<Grant[]> {
+  return (await getRepository()).officialLinkedGrants.filter(
+    (grant) => grant.tags.includes(tag)
+  );
 }
 
 export function tagToSlug(tag: string): string {
   return encodeURIComponent(tag.toLowerCase().replace(/\s+/g, '-'));
 }
 
-export function slugToTag(
+export async function slugToTag(
   slug: string,
   options: { includeExpired?: boolean } = {}
-): string | undefined {
+): Promise<string | undefined> {
   const decoded = decodeURIComponent(slug);
-  return getAllTags(options).find(
+  return (await getAllTags(options)).find(
     (tag) => tag.toLowerCase().replace(/\s+/g, '-') === decoded
   );
 }
 
-export function getActivePrefectures(): string[] {
+export async function getActivePrefectures(): Promise<string[]> {
   const prefectures = new Set<string>();
-  officialLinkedGrants.forEach((grant) => {
+  (await getRepository()).officialLinkedGrants.forEach((grant) => {
     if (grant.prefecture !== '全国') prefectures.add(grant.prefecture);
   });
   return Array.from(prefectures).sort();
 }
 
-export function getActiveCategories(): GrantCategory[] {
+export async function getActiveCategories(): Promise<GrantCategory[]> {
   const categories = new Set<GrantCategory>();
-  officialLinkedGrants.forEach((grant) => {
+  (await getRepository()).officialLinkedGrants.forEach((grant) => {
     categories.add(grant.category);
     grant.relatedCategories?.forEach((category) => categories.add(category));
   });

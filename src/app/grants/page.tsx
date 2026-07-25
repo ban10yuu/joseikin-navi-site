@@ -251,8 +251,11 @@ export default async function GrantsListPage({ searchParams }: { searchParams: P
   const rawParams = await searchParams;
   const focusSearch = (Array.isArray(rawParams.focus) ? rawParams.focus[0] : rawParams.focus) === 'search';
   const query = normalizeGrantQuery(rawParams);
-  const result = queryGrants(getAllGrantsUnfiltered(), query);
-  const stats = getGrantQualityStats();
+  const [allGrants, stats] = await Promise.all([
+    getAllGrantsUnfiltered(),
+    getGrantQualityStats(),
+  ]);
+  const result = queryGrants(allGrants, query);
 
   return (
     <>

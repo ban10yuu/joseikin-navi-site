@@ -7,6 +7,66 @@ const root = process.cwd();
 const generatedDir = path.join(root, 'src', 'generated');
 const bundlePath = path.join(root, '.tmp-grants-source.mjs');
 const outputPath = path.join(generatedDir, 'grants-runtime.json');
+const publicRuntimeDir = path.join(root, 'public', 'data', 'grants-runtime');
+const shardCount = 64;
+const indexPartCount = 4;
+
+function grantShard(slug) {
+  let hash = 2166136261;
+  for (let index = 0; index < slug.length; index += 1) {
+    hash = Math.imul(hash ^ slug.charCodeAt(index), 16777619);
+  }
+  return ((hash >>> 0) % shardCount).toString(16).padStart(2, '0');
+}
+
+function runtimeGrant(grant) {
+  const {
+    searchText: _searchText,
+    sourceNote: _sourceNote,
+    noindexReason: _noindexReason,
+    statusOverride: _statusOverride,
+    redirectFrom: _redirectFrom,
+    ...result
+  } = grant;
+  return result;
+}
+
+function indexGrant(grant) {
+  return [
+    grant.slug,
+    grant.title,
+    grant.organization,
+    grant.type,
+    grant.maxAmount,
+    grant.maxAmountNum,
+    grant.category,
+    grant.relatedCategories ?? null,
+    grant.prefecture,
+    grant.tags,
+    grant.eligibility,
+    grant.applicationPeriod,
+    grant.deadlineDate ?? null,
+    grant.description,
+    grant.officialUrl,
+    grant.sourceName ?? null,
+    grant.sourceUrls ?? null,
+    grant.verifiedAt ?? null,
+    grant.publishedAt,
+    grant.supportType,
+    grant.audiences,
+    grant.primaryAudience,
+    grant.purposes,
+    grant.primaryPurpose,
+    grant.municipality,
+    grant.status,
+    grant.verificationMethod,
+    grant.contentUpdatedAt,
+    grant.contentStatus,
+    grant.indexStatus,
+    grant.humanReviewedAt,
+    grant.monetizationAllowed,
+  ];
+}
 
 await build({
   entryPoints: [path.join(root, 'src', 'lib', 'grants-source.ts')],
@@ -21,20 +81,19 @@ await build({
 
 try {
   const source = await import(`${pathToFileURL(bundlePath).href}?t=${Date.now()}`);
-  const grants = source.getAllGrantsUnfiltered().map((grant) => {
-    const {
-      searchText: _searchText,
-      sourceNote: _sourceNote,
-      noindexReason: _noindexReason,
-      statusOverride: _statusOverride,
-      redirectFrom: _redirectFrom,
-      ...runtimeGrant
-    } = grant;
-    return runtimeGrant;
-  });
+  const grants = source.getAllGrantsUnfiltered().map(runtimeGrant);
   const stats = source.getGrantQualityStats();
+  const shards = Object.fromEntries(
+    Array.from({ length: shardCount }, (_, index) => [
+      index.toString(16).padStart(2, '0'),
+      [],
+    ])
+  );
+  grants.forEach((grant) => shards[grantShard(grant.slug)].push(grant));
 
   await mkdir(generatedDir, { recursive: true });
+  await rm(publicRuntimeDir, { recursive: true, force: true });
+  await mkdir(publicRuntimeDir, { recursive: true });
   await writeFile(
     outputPath,
     `${JSON.stringify({
@@ -43,9 +102,36 @@ try {
     })}\n`,
     'utf8'
   );
+  const indexRows = grants.map(indexGrant);
+  const indexPartSize = Math.ceil(indexRows.length / indexPartCount);
+  await Promise.all(
+    Array.from({ length: indexPartCount }, (_, index) =>
+      writeFile(
+        path.join(publicRuntimeDir, `index-${index}.json`),
+        `${JSON.stringify({
+          grants: indexRows.slice(
+            index * indexPartSize,
+            (index + 1) * indexPartSize
+          ),
+          duplicatedSlugsRemoved:
+            index === 0 ? stats.duplicatedSlugsRemoved : 0,
+        })}\n`,
+        'utf8'
+      )
+    )
+  );
+  await Promise.all(
+    Object.entries(shards).map(([shard, shardGrants]) =>
+      writeFile(
+        path.join(publicRuntimeDir, `detail-${shard}.json`),
+        `${JSON.stringify(shardGrants)}\n`,
+        'utf8'
+      )
+    )
+  );
 
   console.log(
-    `公開用制度データを生成: ${grants.length.toLocaleString('ja-JP')}件`
+    `公開用制度データを生成: ${grants.length.toLocaleString('ja-JP')}件（${shardCount}分割）`
   );
 } finally {
   await rm(bundlePath, { force: true });

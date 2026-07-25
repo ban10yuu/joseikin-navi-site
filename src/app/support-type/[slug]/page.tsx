@@ -75,7 +75,7 @@ export default async function SupportTypePage({ params }: Props) {
   if (!supportType) notFound();
 
   const label = SUPPORT_TYPE_LABELS[supportType];
-  const grants = getGrantsBySupportType(supportType);
+  const grants = await getGrantsBySupportType(supportType);
   if (grants.length === 0) notFound();
 
   const openGrants = grants.filter((grant) => ['open', 'closingSoon'].includes(getEffectiveGrantStatus(grant))).slice(0, 12);

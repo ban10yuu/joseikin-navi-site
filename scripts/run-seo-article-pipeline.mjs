@@ -78,7 +78,7 @@ async function fetchRuntimeEvidence(truthPackets) {
 
 function loadSiteContext() {
   const require = installTypeScriptRequireHook();
-  const { getAllGrantsUnfiltered } = require('../src/lib/grants.ts');
+  const { getAllGrantsUnfiltered } = require('../src/lib/grants-source.ts');
   const redirectData = require('../data/redirects.json');
   const targetsByPath = {};
   for (const grant of getAllGrantsUnfiltered()) {

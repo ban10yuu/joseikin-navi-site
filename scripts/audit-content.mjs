@@ -19,7 +19,7 @@ require.extensions['.ts'] = function compileTypeScript(module, filename) {
   module._compile(output.outputText, filename);
 };
 
-const { getAllGrantsUnfiltered, hasOfficialSource, isGrantExpired, isManuallyVerifiedGrant } = require('../src/lib/grants.ts');
+const { getAllGrantsUnfiltered, hasOfficialSource, isGrantExpired, isManuallyVerifiedGrant } = require('../src/lib/grants-source.ts');
 const { containsInternalAuditText } = require('../src/lib/grant-presentation.ts');
 const { getValidOfficialSourceUrls } = require('../src/lib/grant-source.ts');
 const { isRepayableSupport } = require('../src/lib/grant-status.ts');

@@ -49,10 +49,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default function HomePage() {
-  const stats = getGrantQualityStats();
-  const officialGrants = getOfficialLinkedGrants();
-  const recentlyUpdatedGrants = getRecentlyUpdatedGrants(4);
+export default async function HomePage() {
+  const [stats, officialGrants, recentlyUpdatedGrants] = await Promise.all([
+    getGrantQualityStats(),
+    getOfficialLinkedGrants(),
+    getRecentlyUpdatedGrants(4),
+  ]);
   const closingSoonGrants = officialGrants
     .filter((grant) => getEffectiveGrantStatus(grant) === 'closingSoon')
     .sort((left, right) => (left.deadlineDate ?? '').localeCompare(right.deadlineDate ?? ''))

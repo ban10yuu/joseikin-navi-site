@@ -38,15 +38,17 @@ export const dynamicParams = true;
 export const revalidate = 86400;
 
 export async function generateStaticParams() {
-  const recentGrantSlugs = new Set(getRecentlyUpdatedGrants(240).map((grant) => grant.slug));
-  return getOfficialLinkedGrants()
+  const recentGrantSlugs = new Set(
+    (await getRecentlyUpdatedGrants(240)).map((grant) => grant.slug)
+  );
+  return (await getOfficialLinkedGrants())
     .filter((grant) => grant.indexStatus !== 'noindex' && grant.contentStatus === 'published' && recentGrantSlugs.has(grant.slug))
     .map((grant) => ({ slug: grant.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const grant = getGrantBySlug(slug);
+  const grant = await getGrantBySlug(slug);
   if (!grant) return {};
   const sourceStatus = getGrantSourceStatus(grant);
   const expired = isGrantExpired(grant);
@@ -89,9 +91,9 @@ function DetailSection({ id, title, sections, children }: { id: string; title: s
 
 export default async function GrantDetailPage({ params }: Props) {
   const { slug } = await params;
-  const grant = getGrantBySlug(slug);
+  const grant = await getGrantBySlug(slug);
   if (!grant) notFound();
-  const related = getRelatedGrants(grant, 4);
+  const related = await getRelatedGrants(grant, 4);
   const sourceStatus = getGrantSourceStatus(grant);
   const expired = isGrantExpired(grant);
   const status = getEffectiveGrantStatus(grant);

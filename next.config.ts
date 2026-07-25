@@ -50,6 +50,12 @@ const nextConfig: NextConfig = {
           { key: 'Cloudflare-CDN-Cache-Control', value: 'public, s-maxage=3600, stale-while-revalidate=86400' },
         ],
       },
+      {
+        source: '/grant/:path*',
+        headers: [
+          { key: 'Cloudflare-CDN-Cache-Control', value: 'public, s-maxage=86400, stale-while-revalidate=604800' },
+        ],
+      },
     ];
   },
 };

@@ -47,7 +47,7 @@ const {
   hasOfficialSource,
   isGrantExpired,
   isManuallyVerifiedGrant,
-} = require('../src/lib/grants.ts');
+} = require('../src/lib/grants-source.ts');
 const { CATEGORY_LABELS, PREFECTURES } = require('../src/lib/types.ts');
 
 const prefectures = PREFECTURES.filter((prefecture) => prefecture !== '全国');

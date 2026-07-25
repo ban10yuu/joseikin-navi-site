@@ -1062,8 +1062,11 @@
 - [x] 制度27,875件を公開用データへ変換し、内部監査情報を本番バンドルから分離
 - [x] Cloudflareビルド1,993ページ、単体テスト174件、typecheckを確認
 - [x] Workerを圧縮後9,952.68KiBまで削減し、10MiB上限内へ収める
-- [ ] Cloudflare OAuth認証を完了
-- [ ] R2キャッシュ領域を作成
-- [ ] workers.dev仮URLへ公開して主要ページを実機確認
+- [x] Cloudflare OAuth認証を完了
+- [x] R2を使わず静的資産キャッシュで動く構成へ変更
+- [x] 制度データをWorker外へ分離し、Workerを展開前9MB・圧縮後1.45MBへ削減
+- [x] workers.dev仮URLへ公開（トップ・事前生成詳細はHTTP 200）
+- [ ] Workers Paid（月5ドル）を有効化し、動的検索・未事前生成詳細のCPU 503を解消
+- [ ] workers.devで検索・未事前生成詳細を再確認
 - [ ] `shienseido-navi.jp`をCloudflareへ切り替え、HTTP 200を確認
 - [ ] Vercel停止中のDNS・転送設定を整理

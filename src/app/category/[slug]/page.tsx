@@ -9,7 +9,7 @@ import { getGrantsByCategory } from '@/lib/grants';
 import { getEffectiveGrantStatus } from '@/lib/grant-status';
 import { compactMetaDescription } from '@/lib/seo-metadata';
 import { toSiteUrl } from '@/lib/site-url';
-import { CATEGORY_COLORS, CATEGORY_LABELS, PREFECTURES, type Audience, type GrantCategory, type Purpose } from '@/lib/types';
+import { CATEGORY_COLORS, CATEGORY_LABELS, PREFECTURES, type Audience, type Grant, type GrantCategory, type Purpose } from '@/lib/types';
 import { getCategoryVisual } from '@/lib/visual-assets';
 
 const validCategories = Object.keys(CATEGORY_LABELS);
@@ -94,19 +94,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return { title, description, alternates: { canonical: toSiteUrl(`/category/${slug}/`) }, openGraph: { title, description, url: toSiteUrl(`/category/${slug}/`) } };
 }
 
-function topAudiences(grants: ReturnType<typeof getGrantsByCategory>): Audience[] {
+function topAudiences(grants: Grant[]): Audience[] {
   const counts = new Map<Audience, number>();
   grants.forEach((grant) => grant.audiences?.forEach((audience) => counts.set(audience, (counts.get(audience) ?? 0) + 1)));
   return [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 4).map(([audience]) => audience);
 }
 
-function relatedPurposes(grants: ReturnType<typeof getGrantsByCategory>): Purpose[] {
+function relatedPurposes(grants: Grant[]): Purpose[] {
   const counts = new Map<Purpose, number>();
   grants.forEach((grant) => grant.purposes?.forEach((purpose) => counts.set(purpose, (counts.get(purpose) ?? 0) + 1)));
   return [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6).map(([purpose]) => purpose);
 }
 
-function topPrefectures(grants: ReturnType<typeof getGrantsByCategory>) {
+function topPrefectures(grants: Grant[]) {
   return PREFECTURES
     .filter((prefecture) => prefecture !== '全国')
     .map((prefecture) => ({ prefecture, count: grants.filter((grant) => grant.prefecture === prefecture || grant.prefecture === '全国').length }))
@@ -120,7 +120,7 @@ export default async function CategoryPage({ params }: Props) {
   if (!validCategories.includes(slug)) notFound();
   const category = slug as GrantCategory;
   const label = CATEGORY_LABELS[category];
-  const grants = getGrantsByCategory(category);
+  const grants = await getGrantsByCategory(category);
   const openGrants = grants.filter((grant) => ['open', 'closingSoon'].includes(getEffectiveGrantStatus(grant))).slice(0, 12);
   const recentlyUpdated = [...grants].sort((a, b) => (b.contentUpdatedAt ?? b.verifiedAt ?? b.publishedAt).localeCompare(a.contentUpdatedAt ?? a.verifiedAt ?? a.publishedAt)).slice(0, 4);
   const audiences = topAudiences(grants);

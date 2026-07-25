@@ -12,7 +12,7 @@ export function generateStaticParams() { return []; }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const tag = slugToTag(slug);
+  const tag = await slugToTag(slug);
   if (!tag) return {};
   return {
     title: `「${tag}」に関連する支援制度`,
@@ -24,9 +24,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function TagPage({ params }: Props) {
   const { slug } = await params;
-  const tag = slugToTag(slug);
+  const tag = await slugToTag(slug);
   if (!tag) notFound();
-  const grants = getGrantsByTag(tag);
+  const grants = await getGrantsByTag(tag);
   const visible = grants.slice(0, 24);
   return (
     <main className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">

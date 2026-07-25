@@ -28,8 +28,8 @@ function slugToPrefecture(slug: string): string | undefined {
   return prefectures.find((prefecture) => prefecture === decoded);
 }
 
-export function generateStaticParams() {
-  return getMunicipalityGroups().map((group) => ({
+export async function generateStaticParams() {
+  return (await getMunicipalityGroups()).map((group) => ({
     prefecture: group.prefecture,
     municipality: group.municipality,
   }));
@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const municipality = decodeSegment(municipalitySlug);
   if (!prefecture || !municipality) return {};
 
-  const grants = getGrantsByMunicipality(prefecture, municipality);
+  const grants = await getGrantsByMunicipality(prefecture, municipality);
   if (grants.length === 0) return {};
   const indexable = grants.length >= MIN_INDEXABLE_MUNICIPALITY_GRANTS;
 
@@ -63,7 +63,7 @@ export default async function MunicipalityPage({ params }: Props) {
   const municipality = decodeSegment(municipalitySlug);
   if (!prefecture || !municipality) notFound();
 
-  const grants = getGrantsByMunicipality(prefecture, municipality);
+  const grants = await getGrantsByMunicipality(prefecture, municipality);
   if (grants.length === 0) notFound();
 
   const openGrants = grants
@@ -79,7 +79,7 @@ export default async function MunicipalityPage({ params }: Props) {
     .map(([key, label]) => ({ key, label, count: grants.filter((grant) => grant.category === key || grant.relatedCategories?.includes(key)).length }))
     .filter((item) => item.count > 0);
 
-  const neighboringMunicipalities = getMunicipalitiesForPrefecture(prefecture)
+  const neighboringMunicipalities = (await getMunicipalitiesForPrefecture(prefecture))
     .filter((item) => item.municipality !== municipality)
     .slice(0, 12);
 

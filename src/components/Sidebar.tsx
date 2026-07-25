@@ -3,8 +3,8 @@ import { CATEGORY_LABELS } from '@/lib/types';
 import { getRecentlyUpdatedGrants } from '@/lib/grants';
 import AdBanner from './AdBanner';
 
-export default function Sidebar() {
-  const recentlyUpdated = getRecentlyUpdatedGrants(6);
+export default async function Sidebar() {
+  const recentlyUpdated = await getRecentlyUpdatedGrants(6);
   const categories = Object.entries(CATEGORY_LABELS);
 
   return (

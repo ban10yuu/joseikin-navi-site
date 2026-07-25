@@ -10,9 +10,9 @@ export const dynamic = 'force-static';
 
 const SEO_SUPPORT_TYPES: SupportType[] = ['subsidy', 'grant', 'benefit', 'allowance', 'loan', 'scholarshipLoan', 'reduction', 'taxCredit', 'insuranceBenefit', 'discount', 'voucher', 'inKind'];
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
-  const grantsForSitemap = getOfficialLinkedGrants().filter((grant) => grant.indexStatus !== 'noindex' && grant.contentStatus === 'published');
+  const grantsForSitemap = (await getOfficialLinkedGrants()).filter((grant) => grant.indexStatus !== 'noindex' && grant.contentStatus === 'published');
   const listingLastModified = getCollectionLastModified(grantsForSitemap, now);
   const grantsByCategory = (category: keyof typeof CATEGORY_LABELS) => grantsForSitemap.filter((grant) => grantMatchesCategory(grant, category));
   const grantsBySupportType = (supportType: SupportType) => grantsForSitemap.filter((grant) => grant.supportType === supportType);
@@ -57,7 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const municipalityPages: MetadataRoute.Sitemap = getMunicipalityGroups()
+  const municipalityPages: MetadataRoute.Sitemap = (await getMunicipalityGroups())
     .filter((group) => group.count >= MIN_INDEXABLE_MUNICIPALITY_GRANTS)
     .map((group) => {
       const grantsForMunicipality = grantsForSitemap.filter((grant) => grant.prefecture === group.prefecture && grant.municipality === group.municipality);

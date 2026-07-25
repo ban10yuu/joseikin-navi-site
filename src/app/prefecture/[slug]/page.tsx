@@ -49,10 +49,12 @@ export default async function PrefecturePage({ params }: Props) {
   const prefecture = slugToPref(slug);
   if (!prefecture) notFound();
   const region = getRegion(prefecture);
-  const grants = getGrantsByPrefecture(prefecture);
+  const [grants, municipalities] = await Promise.all([
+    getGrantsByPrefecture(prefecture),
+    getMunicipalitiesForPrefecture(prefecture),
+  ]);
   const localGrants = grants.filter((grant) => grant.prefecture === prefecture);
   const nationalGrants = grants.filter((grant) => grant.prefecture === '全国');
-  const municipalities = getMunicipalitiesForPrefecture(prefecture);
   const recentlyUpdated = [...grants].sort((a, b) => (b.contentUpdatedAt ?? b.verifiedAt ?? b.publishedAt).localeCompare(a.contentUpdatedAt ?? a.verifiedAt ?? a.publishedAt)).slice(0, 4);
   const nearby = (REGION_MAP[region] ?? []).filter((item) => item !== prefecture);
   const categoryCounts = (Object.entries(CATEGORY_LABELS) as [GrantCategory, string][])
