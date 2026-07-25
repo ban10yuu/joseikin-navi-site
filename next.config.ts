@@ -2,7 +2,6 @@ import type { NextConfig } from 'next';
 import { initOpenNextCloudflareForDev } from '@opennextjs/cloudflare';
 import { REDIRECTS } from './src/data/redirects';
 import { AFFILIATE_HOST_ALLOWLIST } from './src/config/affiliate-security';
-import { getCanonicalHostRedirects } from './src/lib/host-redirect';
 
 initOpenNextCloudflareForDev();
 
@@ -31,7 +30,7 @@ const nextConfig: NextConfig = {
   skipProxyUrlNormalize: true,
   images: { unoptimized: true },
   async redirects() {
-    return [...getCanonicalHostRedirects(), ...REDIRECTS];
+    return REDIRECTS;
   },
   async headers() {
     return [
