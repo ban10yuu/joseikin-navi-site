@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { siteConfig } from '@/config/site';
-import { getOfficialLinkedGrants, grantMatchesCategory } from '@/lib/grants';
+import { MIN_INDEXABLE_MUNICIPALITY_GRANTS, getMunicipalityGroups, getOfficialLinkedGrants, grantMatchesCategory } from '@/lib/grants';
 import { toSiteUrl } from '@/lib/site-url';
 import { CATEGORY_LABELS, PREFECTURES, type SupportType } from '@/lib/types';
 import { isNewsletterEnabled } from '@/lib/newsletter';
@@ -56,5 +56,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly',
     priority: 0.7,
   }));
-  return [...staticPages, ...categories, ...supportTypes, ...prefectures, ...grants];
+
+  const municipalityPages: MetadataRoute.Sitemap = getMunicipalityGroups()
+    .filter((group) => group.count >= MIN_INDEXABLE_MUNICIPALITY_GRANTS)
+    .map((group) => {
+      const grantsForMunicipality = grantsForSitemap.filter((grant) => grant.prefecture === group.prefecture && grant.municipality === group.municipality);
+      return {
+        url: toSiteUrl(`/municipality/${encodeURIComponent(group.prefecture)}/${encodeURIComponent(group.municipality)}/`),
+        lastModified: getCollectionLastModified(grantsForMunicipality, now),
+        changeFrequency: 'weekly' as const,
+        priority: 0.65,
+      };
+    });
+
+  return [...staticPages, ...categories, ...supportTypes, ...prefectures, ...municipalityPages, ...grants];
 }

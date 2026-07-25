@@ -139,6 +139,10 @@ export default async function GrantDetailPage({ params }: Props) {
   const affiliateDescription = businessAudience
     ? '事業の準備や運営に関連する民間サービスの広告です。この制度の申請や採択に必須ではありません。'
     : 'この制度の目的に関連する民間サービスの広告です。制度の利用や申請に必須ではありません。';
+  const conciseSummaryTargets = splitEligibilityText(grant.eligibility)
+    .slice(0, 3)
+    .join('・') || '公式要項をご確認ください';
+  const conciseSummary = `${grant.prefecture}の${grant.organization}が実施している${grant.title}は、${SUPPORT_TYPE_LABELS[grant.supportType ?? 'unknown']}として、${grant.maxAmount || '支援内容'}を扱う制度です。対象の目安は${conciseSummaryTargets}で、申請期間は${grant.applicationPeriod || '公式要項で確認'}です。`;
   const strictAffiliateOffers = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
     pageType: 'grant',
     audiences: grant.audiences ?? [],
@@ -227,6 +231,11 @@ export default async function GrantDetailPage({ params }: Props) {
                 audience={grant.primaryAudience}
                 purpose={grant.primaryPurpose}
               />
+
+              <section className="grant-summary-description">
+                <h2>この制度をかんたんに言うと</h2>
+                <p>{conciseSummary}</p>
+              </section>
             </div>
 
             {showMonetizationRail ? (

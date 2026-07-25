@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import GrantCard from '@/components/GrantCard';
 import { BreadcrumbJsonLd, CollectionJsonLd } from '@/components/JsonLd';
 import { getSearchConsoleOpportunitiesForPrefecture } from '@/config/search-console-opportunities';
-import { getGrantsByPrefecture } from '@/lib/grants';
+import { getGrantsByPrefecture, getMunicipalitiesForPrefecture } from '@/lib/grants';
 import { toSiteUrl } from '@/lib/site-url';
 import { CATEGORY_LABELS, PREFECTURES, type GrantCategory } from '@/lib/types';
 
@@ -52,6 +52,7 @@ export default async function PrefecturePage({ params }: Props) {
   const grants = getGrantsByPrefecture(prefecture);
   const localGrants = grants.filter((grant) => grant.prefecture === prefecture);
   const nationalGrants = grants.filter((grant) => grant.prefecture === '全国');
+  const municipalities = getMunicipalitiesForPrefecture(prefecture);
   const recentlyUpdated = [...grants].sort((a, b) => (b.contentUpdatedAt ?? b.verifiedAt ?? b.publishedAt).localeCompare(a.contentUpdatedAt ?? a.verifiedAt ?? a.publishedAt)).slice(0, 4);
   const nearby = (REGION_MAP[region] ?? []).filter((item) => item !== prefecture);
   const categoryCounts = (Object.entries(CATEGORY_LABELS) as [GrantCategory, string][])
@@ -102,6 +103,29 @@ export default async function PrefecturePage({ params }: Props) {
           <div className="home-section-heading"><p>情報の確認日を基準に掲載</p><h2 id="pref-recent-title">最近更新された制度</h2></div>
           <div className="grid gap-4 md:grid-cols-2">{recentlyUpdated.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div>
         </section>
+
+        {municipalities.length > 0 ? (
+          <section className="mt-12 border-t border-line pt-10" aria-labelledby="pref-municipality-title">
+            <div className="flex flex-wrap items-end justify-between gap-3">
+              <div className="home-section-heading mb-0">
+                <p>市区町村から絞る</p>
+                <h2 id="pref-municipality-title">{prefecture}の市区町村</h2>
+              </div>
+              <p className="text-xs text-muted">制度件数の多い順（{municipalities.length}件）</p>
+            </div>
+            <div className="mt-5 flex flex-wrap gap-2">
+              {municipalities.slice(0, 12).map((municipality) => (
+                <Link
+                  key={`${municipality.prefecture}:${municipality.municipality}`}
+                  href={`/municipality/${encodeURIComponent(municipality.prefecture)}/${encodeURIComponent(municipality.municipality)}/`}
+                  className="inline-flex min-h-11 items-center rounded-full border border-line bg-white px-4 text-sm font-bold text-navy"
+                >
+                  {municipality.municipality}（{municipality.count.toLocaleString('ja-JP')}）
+                </Link>
+              ))}
+            </div>
+          </section>
+        ) : null}
 
         {searchOpportunities.length > 0 ? (
           <section className="mt-12 border-t border-line pt-10" aria-labelledby="pref-search-opportunity-title">

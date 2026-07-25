@@ -1,6 +1,7 @@
 import type { NextConfig } from 'next';
 import { REDIRECTS } from './src/data/redirects';
 import { AFFILIATE_HOST_ALLOWLIST } from './src/config/affiliate-security';
+import { getCanonicalHostRedirects } from './src/lib/host-redirect';
 
 const affiliateImageSources = [
   ...AFFILIATE_HOST_ALLOWLIST.creative,
@@ -27,17 +28,25 @@ const nextConfig: NextConfig = {
   skipProxyUrlNormalize: true,
   images: { unoptimized: true },
   async redirects() {
-    return REDIRECTS;
+    return [...getCanonicalHostRedirects(), ...REDIRECTS];
   },
   async headers() {
-    return [{
-      source: '/(.*)',
-      headers: [
-        { key: 'Content-Security-Policy', value: contentSecurityPolicy },
-        { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
-        { key: 'X-Content-Type-Options', value: 'nosniff' },
-      ],
-    }];
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          { key: 'Content-Security-Policy', value: contentSecurityPolicy },
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+        ],
+      },
+      {
+        source: '/grants/',
+        headers: [
+          { key: 'Vercel-CDN-Cache-Control', value: 'public, s-maxage=3600, stale-while-revalidate=86400' },
+        ],
+      },
+    ];
   },
 };
 

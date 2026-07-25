@@ -349,6 +349,14 @@ const allOfficialLinkedGrants = publishedGrants.filter(hasOfficialSource);
 const manuallyVerifiedGrants = activePublishedGrants.filter(isManuallyVerifiedGrant);
 const sharedGrantStats = calculateGrantStats(activePublishedGrants);
 
+export const MIN_INDEXABLE_MUNICIPALITY_GRANTS = 3;
+
+export interface MunicipalityGroup {
+  prefecture: string;
+  municipality: string;
+  count: number;
+}
+
 // ── All grants (unfiltered, for sitemap) ──
 export function getAllGrantsUnfiltered(): Grant[] {
   return allGrants;
@@ -421,6 +429,38 @@ export function getGrantsByPrefecture(prefecture: string): Grant[] {
   return officialLinkedGrants.filter(
     (g) => g.prefecture === prefecture || g.prefecture === '全国'
   );
+}
+
+export function getGrantsByMunicipality(prefecture: string, municipality: string): Grant[] {
+  return officialLinkedGrants.filter((g) => (
+    g.prefecture === prefecture &&
+    g.municipality === municipality
+  ));
+}
+
+export function getMunicipalityGroups(): MunicipalityGroup[] {
+  const groups = new Map<string, number>();
+  officialLinkedGrants.forEach((grant) => {
+    if (!grant.prefecture || grant.prefecture === '全国' || !grant.municipality) return;
+    const key = `${grant.prefecture}\u001f${grant.municipality}`;
+    groups.set(key, (groups.get(key) ?? 0) + 1);
+  });
+
+  return Array.from(groups.entries())
+    .map(([key, count]) => {
+      const [prefecture, municipality] = key.split('\u001f');
+      return { prefecture, municipality, count };
+    })
+    .sort((a, b) => {
+      if (a.prefecture !== b.prefecture) return a.prefecture.localeCompare(b.prefecture);
+      return b.count - a.count || a.municipality.localeCompare(b.municipality);
+    });
+}
+
+export function getMunicipalitiesForPrefecture(prefecture: string): MunicipalityGroup[] {
+  return getMunicipalityGroups()
+    .filter((item) => item.prefecture === prefecture)
+    .sort((a, b) => b.count - a.count || a.municipality.localeCompare(b.municipality));
 }
 
 export function getGrantsBySupportType(supportType: SupportType): Grant[] {
