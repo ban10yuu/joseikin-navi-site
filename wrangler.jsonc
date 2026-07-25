@@ -2,6 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "shienseido-navi",
   "main": ".open-next/worker.js",
+  "workers_dev": true,
   "compatibility_date": "2026-07-25",
   "compatibility_flags": [
     "nodejs_compat",
@@ -15,6 +16,16 @@
     {
       "binding": "WORKER_SELF_REFERENCE",
       "service": "shienseido-navi"
+    }
+  ],
+  "routes": [
+    {
+      "pattern": "shienseido-navi.jp/*",
+      "zone_name": "shienseido-navi.jp"
+    },
+    {
+      "pattern": "www.shienseido-navi.jp/*",
+      "zone_name": "shienseido-navi.jp"
     }
   ],
   "observability": {
