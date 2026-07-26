@@ -1,4 +1,14 @@
 {
-  "buildCommand": "npx next build --webpack",
-  "fluid": false
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "",
+  "outputDirectory": "vercel-legacy",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "https://shienseido-navi.jp/:path*",
+      "permanent": true
+    }
+  ]
 }

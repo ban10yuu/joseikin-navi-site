@@ -47,3 +47,61 @@ export function rankRelatedGrants<T extends RelatedGrantLike>(
     .slice(0, limit)
     .map((item) => item.candidate);
 }
+
+function relatedBucketKey(audience: Audience, purpose: Purpose, prefecture: string): string {
+  return `${audience}\u001f${purpose}\u001f${prefecture}`;
+}
+
+/**
+ * 全件走査を各詳細リクエストで繰り返さないための生成時索引。
+ * rankRelatedGrants と同じ候補だけを、対象者・目的・地域のバケットから
+ * 元データ順に復元して採点するため、表示精度と同点時の順序を維持する。
+ */
+export function buildRelatedGrantCatalog<T extends RelatedGrantLike>(
+  grants: T[],
+  limit = 6,
+): Map<string, T[]> {
+  const buckets = new Map<string, number[]>();
+
+  grants.forEach((grant, index) => {
+    if (!hasOfficialSource(grant)) return;
+    if (grant.status === 'closed' || grant.status === 'suspended') return;
+
+    const purposes = new Set([grant.primaryPurpose, ...grant.purposes]);
+    grant.audiences.forEach((audience) => {
+      purposes.forEach((purpose) => {
+        const key = relatedBucketKey(audience, purpose, grant.prefecture);
+        const bucket = buckets.get(key);
+        if (bucket) {
+          bucket.push(index);
+        } else {
+          buckets.set(key, [index]);
+        }
+      });
+    });
+  });
+
+  return new Map(
+    grants.map((current) => {
+      const candidateIndexes = new Set<number>();
+      const purposes = new Set([current.primaryPurpose, ...current.purposes]);
+      const prefectures = new Set([current.prefecture, '全国']);
+
+      current.audiences.forEach((audience) => {
+        purposes.forEach((purpose) => {
+          prefectures.forEach((prefecture) => {
+            const bucket = buckets.get(
+              relatedBucketKey(audience, purpose, prefecture)
+            );
+            bucket?.forEach((index) => candidateIndexes.add(index));
+          });
+        });
+      });
+
+      const candidates = Array.from(candidateIndexes)
+        .sort((left, right) => left - right)
+        .map((index) => grants[index]);
+      return [current.slug, rankRelatedGrants(current, candidates, limit)];
+    })
+  );
+}

@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
-import { rankRelatedGrants } from './related-grants.ts';
+import { buildRelatedGrantCatalog, rankRelatedGrants } from './related-grants.ts';
 
 const current = {
   slug: 'current', audiences: ['senior'], primaryPurpose: 'welfare', purposes: ['welfare'],
@@ -26,5 +26,22 @@ describe('rankRelatedGrants', () => {
       { ...current, slug: 'closed', status: 'closed' },
     ];
     assert.deepEqual(rankRelatedGrants(current, candidates), []);
+  });
+
+  it('生成時索引でも全件走査と同じ順序を返す', () => {
+    const candidates = [
+      current,
+      { ...current, slug: 'same', status: 'scheduled' },
+      { ...current, slug: 'national', prefecture: '全国', supportType: 'allowance' },
+      { ...current, slug: 'other-pref', prefecture: '大阪府' },
+      { ...current, slug: 'other-audience', audiences: ['business'] },
+      { ...current, slug: 'shared-purpose', primaryPurpose: 'livingSupport', purposes: ['livingSupport', 'welfare'] },
+      { ...current, slug: 'source-only', officialUrl: '', sourceUrls: ['https://tokyo.example.jp/source-only'] },
+    ];
+    const expected = rankRelatedGrants(current, candidates, 6).map((item) => item.slug);
+    const actual = buildRelatedGrantCatalog(candidates, 6)
+      .get(current.slug)
+      .map((item) => item.slug);
+    assert.deepEqual(actual, expected);
   });
 });

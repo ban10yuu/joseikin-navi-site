@@ -15,7 +15,6 @@ import {
 import { isGrantExpired } from '@/lib/deadline';
 import { getSearchTokens, matchesSearchText } from '@/lib/search';
 import { calculateGrantStats } from '@/lib/grant-stats';
-import { rankRelatedGrants } from '@/lib/related-grants';
 
 type RuntimeIndexRow = [
   string, string, string, GrantType, string, number, GrantCategory,
@@ -26,6 +25,13 @@ type RuntimeIndexRow = [
   NormalizedGrant['primaryPurpose'], string | null, NormalizedGrant['status'],
   NormalizedGrant['verificationMethod'], string, NormalizedGrant['contentStatus'],
   NormalizedGrant['indexStatus'], string | null, boolean,
+];
+
+type RuntimeRelatedRow = [
+  string, string, string, GrantType, string, GrantCategory, string, string,
+  string, string | null, string, string[] | null, string | null, string | null,
+  NormalizedGrant['status'], NormalizedGrant['supportType'], boolean,
+  NormalizedGrant['primaryAudience'], NormalizedGrant['primaryPurpose'],
 ];
 
 interface RuntimeIndexCatalog {
@@ -48,13 +54,25 @@ const runtimeAssetRoot = 'data/grants-runtime';
 const runtimeIndexPartCount = 4;
 let repositoryPromise: Promise<GrantRepository> | null = null;
 const detailShardPromises = new Map<string, Promise<NormalizedGrant[]>>();
+const relatedShardPromises =
+  new Map<string, Promise<Record<string, string[]>>>();
+const relatedCardShardPromises =
+  new Map<string, Promise<Record<string, RuntimeRelatedRow>>>();
 
-function grantShard(slug: string): string {
+function hashSlug(slug: string): number {
   let hash = 2166136261;
   for (let index = 0; index < slug.length; index += 1) {
     hash = Math.imul(hash ^ slug.charCodeAt(index), 16777619);
   }
-  return ((hash >>> 0) % 64).toString(16).padStart(2, '0');
+  return hash >>> 0;
+}
+
+function grantShard(slug: string): string {
+  return (hashSlug(slug) % 64).toString(16).padStart(2, '0');
+}
+
+function relatedCardShard(slug: string): string {
+  return (hashSlug(slug) % 256).toString(16).padStart(2, '0');
 }
 
 async function loadRuntimeAsset<T>(relativePath: string): Promise<T> {
@@ -201,6 +219,86 @@ async function loadDetailShard(slug: string): Promise<NormalizedGrant[]> {
     detailShardPromises.set(shard, promise);
   }
   return promise;
+}
+
+async function loadRelatedShard(
+  slug: string
+): Promise<Record<string, string[]>> {
+  const shard = grantShard(slug);
+  let promise = relatedShardPromises.get(shard);
+  if (!promise) {
+    promise = loadRuntimeAsset<Record<string, string[]>>(
+      `related-${shard}.json`
+    );
+    relatedShardPromises.set(shard, promise);
+  }
+  return promise;
+}
+
+async function loadRelatedCardShard(
+  slug: string
+): Promise<Record<string, RuntimeRelatedRow>> {
+  const shard = relatedCardShard(slug);
+  let promise = relatedCardShardPromises.get(shard);
+  if (!promise) {
+    promise = loadRuntimeAsset<Record<string, RuntimeRelatedRow>>(
+      `related-card-${shard}.json`
+    );
+    relatedCardShardPromises.set(shard, promise);
+  }
+  return promise;
+}
+
+function decodeRelatedGrant(row: RuntimeRelatedRow): NormalizedGrant {
+  const [
+    slug, title, organization, type, maxAmount, category, prefecture,
+    eligibility, applicationPeriod, deadlineDate, officialUrl, sourceUrls,
+    verifiedAt, humanReviewedAt, status, supportType, budgetMayCloseEarly,
+    primaryAudience, primaryPurpose,
+  ] = row;
+  return {
+    slug,
+    id: slug,
+    title,
+    officialName: title,
+    organization,
+    providerName: organization,
+    providerType: type,
+    type,
+    maxAmount,
+    maxAmountNum: 0,
+    category,
+    prefecture,
+    country: '日本',
+    tags: [],
+    eligibility,
+    applicationPeriod,
+    deadlineDate: deadlineDate ?? undefined,
+    description: '',
+    sections: [],
+    officialUrl,
+    sourceUrls: sourceUrls ?? undefined,
+    verifiedAt: verifiedAt ?? undefined,
+    publishedAt: verifiedAt ?? '',
+    supportType,
+    audiences: [primaryAudience],
+    primaryAudience,
+    purposes: [primaryPurpose],
+    primaryPurpose,
+    municipality: null,
+    status,
+    verificationMethod: humanReviewedAt ? 'human' : 'automated',
+    humanReviewedAt,
+    sourceTitle: null,
+    sourceUrl: officialUrl || null,
+    sourceCheckedAt: verifiedAt,
+    contentUpdatedAt: verifiedAt ?? '',
+    contentStatus: 'published',
+    indexStatus: 'index',
+    affiliateIntents: [],
+    monetizationAllowed: false,
+    budgetMayCloseEarly,
+  };
 }
 
 function stripHtml(value: string): string {
@@ -403,11 +501,21 @@ export async function getRelatedGrants(
   grant: NormalizedGrant,
   limit = 6
 ): Promise<Grant[]> {
-  const repository = await getRepository();
-  const pool = hasOfficialSource(grant)
-    ? repository.officialLinkedGrants
-    : repository.publishedGrants;
-  return rankRelatedGrants(grant, pool, limit);
+  const relatedSlugs =
+    ((await loadRelatedShard(grant.slug))[grant.slug] ?? []).slice(0, limit);
+  const cardShards = await Promise.all(
+    Array.from(new Set(relatedSlugs.map(relatedCardShard))).map(async (shard) => {
+      const firstSlug = relatedSlugs.find(
+        (slug) => relatedCardShard(slug) === shard
+      );
+      return firstSlug ? loadRelatedCardShard(firstSlug) : {};
+    })
+  );
+  const cards = Object.assign({}, ...cardShards);
+  return relatedSlugs
+    .map((slug) => cards[slug])
+    .filter((row): row is RuntimeRelatedRow => Boolean(row))
+    .map(decodeRelatedGrant);
 }
 
 export async function searchGrants(query: string): Promise<Grant[]> {

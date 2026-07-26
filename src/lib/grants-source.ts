@@ -4,7 +4,7 @@ import { getGrantSourceStatus, hasOfficialSource, isManuallyVerifiedGrant } from
 import { isGrantExpired } from '@/lib/deadline';
 import { getSearchTokens, matchesSearchText } from '@/lib/search';
 import { calculateGrantStats } from '@/lib/grant-stats';
-import { rankRelatedGrants } from '@/lib/related-grants';
+import { buildRelatedGrantCatalog, rankRelatedGrants } from '@/lib/related-grants';
 import { verifiedBusinessGrants2026 } from '@/data/grants/verified-business-2026';
 import { verifiedHyogoChildcareGrants2026 } from '@/data/grants/verified-hyogo-childcare-2026';
 import { verifiedHyogoMunicipalChildcareGrants2026 } from '@/data/grants/verified-hyogo-municipal-childcare-2026';
@@ -471,6 +471,8 @@ export function getRelatedGrants(grant: NormalizedGrant, limit = 6): Grant[] {
   const pool = hasOfficialSource(grant) ? officialLinkedGrants : publishedGrants;
   return rankRelatedGrants(grant, pool, limit);
 }
+
+export { buildRelatedGrantCatalog };
 
 export function searchGrants(query: string): Grant[] {
   if (getSearchTokens(query).length === 0) return [];

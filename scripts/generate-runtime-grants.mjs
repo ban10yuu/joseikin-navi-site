@@ -9,14 +9,25 @@ const bundlePath = path.join(root, '.tmp-grants-source.mjs');
 const outputPath = path.join(generatedDir, 'grants-runtime.json');
 const publicRuntimeDir = path.join(root, 'public', 'data', 'grants-runtime');
 const shardCount = 64;
+const relatedCardShardCount = 256;
 const indexPartCount = 4;
 
-function grantShard(slug) {
+function hashSlug(slug) {
   let hash = 2166136261;
   for (let index = 0; index < slug.length; index += 1) {
     hash = Math.imul(hash ^ slug.charCodeAt(index), 16777619);
   }
-  return ((hash >>> 0) % shardCount).toString(16).padStart(2, '0');
+  return hash >>> 0;
+}
+
+function grantShard(slug) {
+  return (hashSlug(slug) % shardCount).toString(16).padStart(2, '0');
+}
+
+function relatedCardShard(slug) {
+  return (hashSlug(slug) % relatedCardShardCount)
+    .toString(16)
+    .padStart(2, '0');
 }
 
 function runtimeGrant(grant) {
@@ -68,6 +79,30 @@ function indexGrant(grant) {
   ];
 }
 
+function relatedGrant(grant) {
+  return [
+    grant.slug,
+    grant.title,
+    grant.organization,
+    grant.type,
+    grant.maxAmount,
+    grant.category,
+    grant.prefecture,
+    grant.eligibility,
+    grant.applicationPeriod,
+    grant.deadlineDate ?? null,
+    grant.officialUrl,
+    grant.sourceUrls ?? null,
+    grant.verifiedAt ?? null,
+    grant.humanReviewedAt ?? null,
+    grant.status,
+    grant.supportType,
+    grant.budgetMayCloseEarly ?? false,
+    grant.primaryAudience,
+    grant.primaryPurpose,
+  ];
+}
+
 await build({
   entryPoints: [path.join(root, 'src', 'lib', 'grants-source.ts')],
   bundle: true,
@@ -90,6 +125,26 @@ try {
     ])
   );
   grants.forEach((grant) => shards[grantShard(grant.slug)].push(grant));
+  const relatedCatalog = source.buildRelatedGrantCatalog(grants, 6);
+  const relatedShards = Object.fromEntries(
+    Array.from({ length: shardCount }, (_, index) => [
+      index.toString(16).padStart(2, '0'),
+      {},
+    ])
+  );
+  const relatedCardShards = Object.fromEntries(
+    Array.from({ length: relatedCardShardCount }, (_, index) => [
+      index.toString(16).padStart(2, '0'),
+      {},
+    ])
+  );
+  relatedCatalog.forEach((related, slug) => {
+    relatedShards[grantShard(slug)][slug] = related.map((grant) => grant.slug);
+    related.forEach((grant) => {
+      relatedCardShards[relatedCardShard(grant.slug)][grant.slug] =
+        relatedGrant(grant);
+    });
+  });
 
   await mkdir(generatedDir, { recursive: true });
   await rm(publicRuntimeDir, { recursive: true, force: true });
@@ -125,6 +180,24 @@ try {
       writeFile(
         path.join(publicRuntimeDir, `detail-${shard}.json`),
         `${JSON.stringify(shardGrants)}\n`,
+        'utf8'
+      )
+    )
+  );
+  await Promise.all(
+    Object.entries(relatedShards).map(([shard, related]) =>
+      writeFile(
+        path.join(publicRuntimeDir, `related-${shard}.json`),
+        `${JSON.stringify(related)}\n`,
+        'utf8'
+      )
+    )
+  );
+  await Promise.all(
+    Object.entries(relatedCardShards).map(([shard, cards]) =>
+      writeFile(
+        path.join(publicRuntimeDir, `related-card-${shard}.json`),
+        `${JSON.stringify(cards)}\n`,
         'utf8'
       )
     )
