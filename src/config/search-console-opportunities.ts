@@ -4,7 +4,7 @@ export type SearchConsoleOpportunity = {
   label: string;
   description: string;
   href: string;
-  intent: '生活支援' | '子育て' | '介護' | '住まい' | '学び';
+  intent: '生活支援' | '子育て' | '介護' | '住まい' | '学び' | '医療';
   observedQuery: string;
   categories: GrantCategory[];
   purposes: Purpose[];
@@ -70,12 +70,24 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
   },
   {
     label: '日本学生支援機構・奨学金関連',
-    description: '奨学金返還支援や教育関連の制度をキーワードで探せます。',
-    href: '/grants/?q=%E6%97%A5%E6%9C%AC%E5%AD%A6%E7%94%9F%E6%94%AF%E6%8F%B4%E6%A9%9F%E6%A7%8B%20%E5%A5%A8%E5%AD%A6%E9%87%91',
+    description: '給付奨学金と貸与奨学金の違い、対象、申込時期、公式確認先を整理しています。',
+    href: '/grant/jasso-shougakukin/',
     intent: '学び',
     observedQuery: '日本学生支援機構 奨学金',
     categories: ['education'],
     purposes: ['education'],
+    grantSlugs: ['jasso-shougakukin'],
+  },
+  {
+    label: '四日市市 子宮頸がん検診',
+    description: '市が行う検診の対象、費用、実施期間と公式確認先を整理しています。',
+    href: '/grant/yokkaichi-cancer-screening/',
+    intent: '医療',
+    observedQuery: '子宮頸がん検診 四日市',
+    categories: ['medical'],
+    purposes: ['medical'],
+    prefectures: ['三重県'],
+    grantSlugs: ['yokkaichi-cancer-screening'],
   },
   {
     label: '那須町 那須が大好き応援券',

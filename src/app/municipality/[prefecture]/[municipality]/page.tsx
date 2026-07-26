@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import DisplayAdSlot from '@/components/DisplayAdSlot';
 import GrantCard from '@/components/GrantCard';
 import { BreadcrumbJsonLd, CollectionJsonLd } from '@/components/JsonLd';
 import { MIN_INDEXABLE_MUNICIPALITY_GRANTS, getGrantsByMunicipality, getMunicipalityGroups, getMunicipalitiesForPrefecture } from '@/lib/grants';
 import { GRANT_STATUS_LABELS, getEffectiveGrantStatus } from '@/lib/grant-status';
-import { compactMetaDescription } from '@/lib/seo-metadata';
+import { municipalityMeta } from '@/lib/seo-metadata';
 import { toSiteUrl } from '@/lib/site-url';
 import { CATEGORY_LABELS, PREFECTURES, type GrantCategory } from '@/lib/types';
 
@@ -44,9 +45,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const grants = await getGrantsByMunicipality(prefecture, municipality);
   if (grants.length === 0) return {};
   const indexable = grants.length >= MIN_INDEXABLE_MUNICIPALITY_GRANTS;
+  const openCount = grants.filter((grant) => ['open', 'closingSoon'].includes(getEffectiveGrantStatus(grant))).length;
+  const latestCheckedAt = grants
+    .map((grant) => grant.verifiedAt)
+    .filter((value): value is string => Boolean(value))
+    .sort((left, right) => right.localeCompare(left))[0] ?? null;
 
-  const title = `${prefecture}・${municipality}の補助金・助成金・給付金`;
-  const description = compactMetaDescription(`${prefecture}${municipality}で利用できる補助金・助成金・給付金・支援制度を、対象者・カテゴリ・受付状況から確認できる公式情報の一覧です。`);
+  const { title, description } = municipalityMeta({
+    prefecture,
+    municipality,
+    officialLinkedCount: grants.length,
+    openCount,
+    latestCheckedAt,
+  });
   const canonical = toSiteUrl(`/municipality/${encodeURIComponent(prefecture)}/${encodeURIComponent(municipality)}/`);
   return {
     title,
@@ -66,9 +77,15 @@ export default async function MunicipalityPage({ params }: Props) {
   const grants = await getGrantsByMunicipality(prefecture, municipality);
   if (grants.length === 0) notFound();
 
-  const openGrants = grants
-    .filter((grant) => ['open', 'closingSoon'].includes(getEffectiveGrantStatus(grant)))
-    .slice(0, 12);
+  const openGrantCandidates = grants.filter((grant) => ['open', 'closingSoon'].includes(getEffectiveGrantStatus(grant)));
+  const openGrants = openGrantCandidates.slice(0, 12);
+  const latestCheckedAt = grants
+    .map((grant) => grant.verifiedAt)
+    .filter((value): value is string => Boolean(value))
+    .sort((left, right) => right.localeCompare(left))[0] ?? null;
+  const latestCheckedLabel = latestCheckedAt
+    ? new Intl.DateTimeFormat('ja-JP', { timeZone: 'Asia/Tokyo', year: 'numeric', month: 'long', day: 'numeric' }).format(new Date(`${latestCheckedAt}T00:00:00+09:00`))
+    : null;
 
   const recentlyUpdated = [...grants]
     .sort((left, right) => (right.verifiedAt ?? right.contentUpdatedAt ?? right.publishedAt)
@@ -83,7 +100,6 @@ export default async function MunicipalityPage({ params }: Props) {
     .filter((item) => item.municipality !== municipality)
     .slice(0, 12);
 
-  const isIndexable = grants.length >= MIN_INDEXABLE_MUNICIPALITY_GRANTS;
   const encodedPrefecture = encodeURIComponent(prefecture);
   const encodedMunicipality = encodeURIComponent(municipality);
   const canonical = toSiteUrl(`/municipality/${encodedPrefecture}/${encodedMunicipality}/`);
@@ -102,24 +118,30 @@ export default async function MunicipalityPage({ params }: Props) {
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <nav aria-label="パンくず" className="mb-4 text-sm text-white/70"><Link href="/" className="underline underline-offset-4">ホーム</Link><span className="mx-2" aria-hidden="true">/</span><Link href="/grants/" className="underline underline-offset-4">制度を探す</Link><span className="mx-2" aria-hidden="true">/</span><Link href={`/prefecture/${encodedPrefecture}/`} className="underline underline-offset-4">{prefecture}</Link><span className="mx-2" aria-hidden="true">/</span><span aria-current="page">{municipality}</span></nav>
           <span className="inline-flex rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs font-bold">市区町村から探す</span>
-          <h1 className="mt-3 text-3xl font-black leading-tight">{prefecture}・{municipality}の補助金・助成金・給付金</h1>
+          <h1 className="mt-3 text-3xl font-black leading-tight">{municipality}の補助金・助成金・給付金</h1>
           <p className="mt-4 max-w-3xl text-base leading-8 text-white/85">{municipality}で申請対象となる制度を、制度種別・対象・カテゴリ・受付状況で確認できます。公開制度は公式情報の確認先を持つものを優先して掲載しています。</p>
           <p className="mt-3 text-sm font-bold">公式情報の確認先がある制度：{grants.length.toLocaleString('ja-JP')}件</p>
-          <p className="mt-1 text-xs text-white/70">{isIndexable ? '通常インデックスします' : '件数が少ないため必要に応じてnoindex運用します'}。</p>
+          <p className="mt-1 text-xs text-white/70">
+            {openGrantCandidates.length > 0 ? `受付中：${openGrantCandidates.length.toLocaleString('ja-JP')}件` : '受付中と確認できる制度はありません'}
+            {latestCheckedLabel ? `・公式情報の最終確認日：${latestCheckedLabel}` : ''}
+          </p>
         </div>
       </header>
 
       <main className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
         <section className="rounded-2xl border border-line bg-card p-5 sm:p-6" aria-labelledby="municipality-filter-title">
           <h2 id="municipality-filter-title" className="text-xl font-black text-navy">{prefecture}{municipality}で使えそうな制度を探す</h2>
-          <form action="/grants/" method="get" role="search" data-analytics-event="filter_apply" data-page-type="municipality" className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          <form action="/grants/" method="get" role="search" data-analytics-event="filter_apply" data-page-type="municipality" className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-[1fr_180px_180px_auto]">
             <input type="hidden" name="pref" value={prefecture} />
             <input type="hidden" name="municipality" value={municipality} />
             <label className="text-sm font-bold text-navy" htmlFor="municipality-q">キーワード<input id="municipality-q" name="q" type="search" placeholder="制度名、対象者など" className="mt-1 min-h-11 w-full rounded-lg border border-line bg-white px-3 text-base" /></label>
             <label className="text-sm font-bold text-navy">対象<select name="audience" defaultValue="" className="mt-1 min-h-11 w-full rounded-lg border border-line bg-white px-3 text-base"><option value="">すべての対象</option><option value="individual">個人・家族向け</option><option value="business">事業者・団体向け</option></select></label>
             <label className="text-sm font-bold text-navy">カテゴリ<select name="cat" defaultValue="" className="mt-1 min-h-11 w-full rounded-lg border border-line bg-white px-3 text-base"><option value="">すべてのカテゴリ</option>{Object.entries(CATEGORY_LABELS).map(([key, label]) => <option key={key} value={key}>{label}</option>)}</select></label>
+            <button type="submit" className="min-h-11 self-end rounded-lg bg-navy px-5 font-bold text-white">この条件で探す</button>
           </form>
         </section>
+
+        <DisplayAdSlot placement="list" format="horizontal" className="listing-adsense-slot mt-8" />
 
         <section className="mt-12" aria-labelledby="municipality-open-title">
           <div className="flex flex-wrap items-end justify-between gap-3">
@@ -133,6 +155,8 @@ export default async function MunicipalityPage({ params }: Props) {
           <div className="home-section-heading"><p>{prefecture}・{municipality}を確認</p><h2 id="municipality-all-title">全制度</h2></div>
           <div className="grid gap-4 md:grid-cols-2">{grants.slice(0, 24).map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div>
         </section>
+
+        <DisplayAdSlot placement="footer" format="horizontal" className="listing-adsense-slot mt-10" />
 
         <section className="mt-12 border-t border-line pt-10" aria-labelledby="municipality-recent-title">
           <div className="home-section-heading"><p>情報の確認日を基準に掲載</p><h2 id="municipality-recent-title">最近更新された制度</h2></div>

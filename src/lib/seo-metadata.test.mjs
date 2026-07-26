@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
-import { compactMetaDescription, grantMetaDescription } from './seo-metadata.ts';
+import { compactMetaDescription, grantMetaDescription, municipalityMeta } from './seo-metadata.ts';
 
 describe('seo metadata helpers', () => {
   it('meta descriptionを文の途中で不自然に切らない', () => {
@@ -30,5 +30,34 @@ describe('seo metadata helpers', () => {
     assert.equal(description.length <= 118, true);
     assert.match(description, /対象者、支援額、申請期間/);
     assert.match(description, /公式ページ/);
+  });
+
+  it('市町村名＋補助金の検索意図と掲載件数をタイトル・説明文へ含める', () => {
+    const metadata = municipalityMeta({
+      prefecture: '奈良県',
+      municipality: '天理市',
+      officialLinkedCount: 18,
+      openCount: 6,
+      latestCheckedAt: '2026-07-25',
+    });
+
+    assert.equal(metadata.title, '天理市の補助金・助成金・給付金一覧｜公式情報18件・奈良県');
+    assert.match(metadata.description, /^天理市で使える可能性のある補助金・助成金・給付金を18件掲載。/u);
+    assert.match(metadata.description, /受付中6件/u);
+    assert.match(metadata.description, /2026年7月25日/u);
+    assert.ok(metadata.description.length <= 118);
+  });
+
+  it('受付中制度や確認日がなくても推測を含めない', () => {
+    const metadata = municipalityMeta({
+      prefecture: '奈良県',
+      municipality: '例示町',
+      officialLinkedCount: 3,
+      openCount: 0,
+      latestCheckedAt: null,
+    });
+
+    assert.doesNotMatch(metadata.description, /受付中/u);
+    assert.doesNotMatch(metadata.description, /確認日/u);
   });
 });
