@@ -54,7 +54,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const expired = isGrantExpired(grant);
   const opportunity = SEARCH_CONSOLE_OPPORTUNITIES.find((item) => item.grantSlugs?.includes(slug));
   const titleSubject = opportunity?.observedQuery ?? grant.title;
-  const title = expired ? `${titleSubject}｜受付状況・次回募集の確認先` : `${titleSubject}｜対象・金額・申請期限`;
+  const title = expired
+    ? `${titleSubject}｜受付状況・次回募集の確認先`
+    : opportunity?.seoTitle ?? `${titleSubject}｜対象・金額・申請期限`;
   const eligibility = (grant.eligibility || '公式情報で確認').replace(/[。．]+$/u, '');
   const deadline = (grant.applicationPeriod || '申請期限は公式情報で確認').replace(/[。．]+$/u, '');
   const checked = !hasOfficialSource(grant)
@@ -62,7 +64,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : grant.verifiedAt
       ? `公式情報確認日${grant.verifiedAt}`
       : '公式情報の確認先を掲載';
-  const description = grantMetaDescription({
+  const description = opportunity?.metaDescription ?? grantMetaDescription({
     title: grant.title,
     organization: grant.organization,
     eligibility,
@@ -144,7 +146,9 @@ export default async function GrantDetailPage({ params }: Props) {
   const conciseSummaryTargets = splitEligibilityText(grant.eligibility)
     .slice(0, 3)
     .join('・') || '公式要項をご確認ください';
-  const conciseSummary = `${grant.prefecture}の${grant.organization}が実施している${grant.title}は、${SUPPORT_TYPE_LABELS[grant.supportType ?? 'unknown']}として、${grant.maxAmount || '支援内容'}を扱う制度です。対象の目安は${conciseSummaryTargets}で、申請期間は${grant.applicationPeriod || '公式要項で確認'}です。`;
+  const matchingOpportunity = SEARCH_CONSOLE_OPPORTUNITIES.find((item) => item.grantSlugs?.includes(grant.slug));
+  const conciseSummary = matchingOpportunity?.shortAnswer
+    ?? `${grant.prefecture}の${grant.organization}が実施している${grant.title}は、${SUPPORT_TYPE_LABELS[grant.supportType ?? 'unknown']}として、${grant.maxAmount || '支援内容'}を扱う制度です。対象の目安は${conciseSummaryTargets}で、申請期間は${grant.applicationPeriod || '公式要項で確認'}です。`;
   const strictAffiliateOffers = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
     pageType: 'grant',
     audiences: grant.audiences ?? [],

@@ -10,6 +10,9 @@ export type SearchConsoleOpportunity = {
   purposes: Purpose[];
   prefectures?: string[];
   grantSlugs?: string[];
+  seoTitle?: string;
+  metaDescription?: string;
+  shortAnswer?: string;
 };
 
 export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
@@ -19,6 +22,9 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     href: '/grant/annaka-citizen-voucher-2026/',
     intent: '生活支援',
     observedQuery: '安中市民商品券',
+    seoTitle: '安中市民商品券｜1人4,000円・利用期限',
+    metaDescription: '安中市民商品券は、2026年6月1日時点で安中市に住民登録がある人へ1人4,000円分を配布。利用期限は2027年1月31日です。対象と公式確認先を掲載しています。',
+    shortAnswer: '安中市民商品券は、2026年6月1日時点で安中市に住民登録がある人へ、1人4,000円分の商品券を配布する物価高騰対策です。',
     categories: ['living'],
     purposes: ['livingSupport'],
     prefectures: ['群馬県'],
@@ -52,6 +58,9 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     href: '/grant/fukuyama-elderly-support/',
     intent: '介護',
     observedQuery: '福山市 おでかけ乗車券',
+    seoTitle: '福山市 おでかけ乗車券｜75歳以上・年7,000円分',
+    metaDescription: '福山市のおでかけ乗車券は、10月1日時点で市内に住所がある満75歳以上の人が対象。年7,000円分を交付し、バス・タクシー共通券とバス専用券に分かれます。',
+    shortAnswer: '福山市のおでかけ乗車券は、10月1日時点で市内に住所がある満75歳以上の人へ、年7,000円分の乗車券を交付する外出支援です。',
     categories: ['nursing'],
     purposes: ['welfare'],
     prefectures: ['広島県'],
