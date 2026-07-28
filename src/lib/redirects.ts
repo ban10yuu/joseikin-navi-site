@@ -24,3 +24,12 @@ export function validateRedirects(redirects: SiteRedirect[]): string[] {
 
   return [...new Set(issues)];
 }
+
+export function getPathRedirectUrl(url: URL, redirects: SiteRedirect[]): string | null {
+  const redirect = redirects.find((item) => item.source === url.pathname);
+  if (!redirect) return null;
+
+  const destination = new URL(redirect.destination, url.origin);
+  destination.search = url.search;
+  return destination.toString();
+}

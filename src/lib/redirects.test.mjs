@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 import { REDIRECT_SOURCE_SLUGS, REDIRECTS } from '../data/redirects.ts';
-import { validateRedirects } from './redirects.ts';
+import { getPathRedirectUrl, validateRedirects } from './redirects.ts';
 
 describe('grant redirects', () => {
   it('制度実体に合う新URLへ301で転送する', () => {
@@ -22,6 +22,23 @@ describe('grant redirects', () => {
     assert.deepEqual(
       [...REDIRECT_SOURCE_SLUGS],
       ['kushiro-elderly-taxi', 'kagoshima-elderly-taxi', 'fukuyama-elderly-taxi', 'fukaya-結婚新生活支援事業補助金lywed-life-support-subsidy-2026', 'nara-city-childcare-subsidy'],
+    );
+  });
+
+  it('配信層で旧URLを正規URLへ転送しクエリを保持する', () => {
+    assert.equal(
+      getPathRedirectUrl(
+        new URL('https://shienseido-navi.jp/grant/nara-city-childcare-subsidy/?from=google'),
+        REDIRECTS,
+      ),
+      'https://shienseido-navi.jp/grant/nara-city-child-medical/?from=google',
+    );
+  });
+
+  it('転送対象外のURLは変更しない', () => {
+    assert.equal(
+      getPathRedirectUrl(new URL('https://shienseido-navi.jp/grant/nara-city-child-medical/'), REDIRECTS),
+      null,
     );
   });
 });
