@@ -22,5 +22,11 @@
     "destination": "/grant/fukaya-newlywed-life-support-subsidy-2026/",
     "statusCode": 301,
     "reason": "日本語と英語が混在した旧slugを英語slugへ正規化するため"
+  },
+  {
+    "source": "/grant/nara-city-childcare-subsidy/",
+    "destination": "/grant/nara-city-child-medical/",
+    "statusCode": 301,
+    "reason": "同じ奈良市子ども医療費助成制度の重複URLを統合するため"
   }
 ]

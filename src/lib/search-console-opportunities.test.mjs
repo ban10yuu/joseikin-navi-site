@@ -21,6 +21,33 @@ describe('Search Console実測クエリの詳細ページ改善', () => {
     assert.match(opportunity?.shortAnswer ?? '', /満75歳以上/u);
   });
 
+  it('JASSO奨学金に給付型と貸与型の違いが明記されている', () => {
+    const opportunity = SEARCH_CONSOLE_OPPORTUNITIES.find((item) =>
+      item.grantSlugs?.includes('jasso-shougakukin'));
+
+    assert.equal(opportunity?.seoTitle, 'JASSO奨学金｜給付型・第一種・第二種の違い');
+    assert.match(opportunity?.metaDescription ?? '', /返済不要の給付型/u);
+    assert.match(opportunity?.shortAnswer ?? '', /学校を通じて/u);
+  });
+
+  it('表示回数上位の地域制度に具体的な検索結果文がある', () => {
+    const expectedSlugs = [
+      'nara-city-child-medical',
+      'yokkaichi-cancer-screening',
+      'nishihara-kanamaru-voucher-2026',
+      'natori-child-medical',
+      'nasu-regional-coupon-2026',
+    ];
+
+    for (const slug of expectedSlugs) {
+      const opportunity = SEARCH_CONSOLE_OPPORTUNITIES.find((item) =>
+        item.grantSlugs?.includes(slug));
+      assert.ok(opportunity?.seoTitle, slug);
+      assert.ok(opportunity?.metaDescription, slug);
+      assert.ok(opportunity?.shortAnswer, slug);
+    }
+  });
+
   it('検索結果向けの説明文は160文字以内に収まる', () => {
     for (const opportunity of SEARCH_CONSOLE_OPPORTUNITIES) {
       if (!opportunity.metaDescription) continue;

@@ -1,3 +1,6 @@
 old_url,new_url,status_code,reason
 /grant/kushiro-elderly-taxi/,/grant/kushiro-elderly-outing-bus/,301,制度実体が高齢者外出促進バス事業のため
 /grant/kagoshima-elderly-taxi/,/grant/kagoshima-keiro-pass/,301,制度実体が敬老パスのため
+/grant/fukuyama-elderly-taxi/,/grant/fukuyama-elderly-support/,301,同じ公式制度のおでかけ乗車券に統合するため
+/grant/fukaya-結婚新生活支援事業補助金lywed-life-support-subsidy-2026/,/grant/fukaya-newlywed-life-support-subsidy-2026/,301,日本語と英語が混在した旧slugを英語slugへ正規化するため
+/grant/nara-city-childcare-subsidy/,/grant/nara-city-child-medical/,301,同じ奈良市子ども医療費助成制度の重複URLを統合するため

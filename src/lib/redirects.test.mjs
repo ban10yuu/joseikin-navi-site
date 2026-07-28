@@ -10,6 +10,7 @@ describe('grant redirects', () => {
       { source: '/grant/kagoshima-elderly-taxi/', destination: '/grant/kagoshima-keiro-pass/', statusCode: 301 },
       { source: '/grant/fukuyama-elderly-taxi/', destination: '/grant/fukuyama-elderly-support/', statusCode: 301 },
       { source: '/grant/fukaya-結婚新生活支援事業補助金lywed-life-support-subsidy-2026/', destination: '/grant/fukaya-newlywed-life-support-subsidy-2026/', statusCode: 301 },
+      { source: '/grant/nara-city-childcare-subsidy/', destination: '/grant/nara-city-child-medical/', statusCode: 301 },
     ]);
   });
 
@@ -20,7 +21,7 @@ describe('grant redirects', () => {
   it('旧URLのslugを掲載データから除外できる', () => {
     assert.deepEqual(
       [...REDIRECT_SOURCE_SLUGS],
-      ['kushiro-elderly-taxi', 'kagoshima-elderly-taxi', 'fukuyama-elderly-taxi', 'fukaya-結婚新生活支援事業補助金lywed-life-support-subsidy-2026'],
+      ['kushiro-elderly-taxi', 'kagoshima-elderly-taxi', 'fukuyama-elderly-taxi', 'fukaya-結婚新生活支援事業補助金lywed-life-support-subsidy-2026', 'nara-city-childcare-subsidy'],
     );
   });
 });
