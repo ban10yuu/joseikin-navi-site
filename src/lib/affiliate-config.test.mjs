@@ -19,8 +19,6 @@ describe('affiliate production config', () => {
     const publishable = AFFILIATE_OFFERS.filter((offer) => isAffiliateOfferPublishable(offer, NOW));
 
     assert.deepEqual(publishable.map((offer) => offer.id), [
-      'a8-freee-accounting-wiz',
-      'a8-yayoi-accounting-next',
       'a8-makeshop-ecommerce',
       'a8-easy-myshop-ecommerce',
       'a8-onamae-rental-server',
@@ -59,14 +57,21 @@ describe('affiliate production config', () => {
       assert.ok((offer.creativeWidth ?? 0) > 0);
       assert.ok((offer.creativeHeight ?? 0) > 0);
     }
+    for (const offerId of ['a8-freee-accounting-wiz', 'a8-yayoi-accounting-next']) {
+      const suspended = AFFILIATE_OFFERS.find((offer) => offer.id === offerId);
+      assert.ok(suspended);
+      assert.equal(suspended.enabled, false);
+      assert.equal(suspended.partnershipStatus, 'suspended');
+      assert.equal(isAffiliateOfferPublishable(suspended, NOW), false);
+    }
   });
 
-  it('トップと適合する事業者向け制度詳細で公開可能な案件だけを選ぶ', () => {
+  it('停止案件を除外し、トップと制度詳細で有効な関連案件だけを選ぶ', () => {
     const homeOffers = getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
       pageType: 'home',
       audiences: ['soleProprietor', 'business'],
       purposes: ['startup', 'businessGrowth', 'digitalTransformation'],
-      intents: ['accounting', 'electronicContract'],
+      intents: ['ecommerce', 'businessPlanning'],
       monetizationAllowed: true,
       limit: 2,
     }, NOW);
@@ -74,7 +79,7 @@ describe('affiliate production config', () => {
       pageType: 'grant',
       audiences: ['business'],
       purposes: ['businessGrowth', 'digitalTransformation'],
-      intents: ['accounting', 'electronicContract', 'businessPlanning'],
+      intents: ['ecommerce', 'businessPlanning'],
       monetizationAllowed: true,
       status: 'open',
       indexable: true,
@@ -82,8 +87,8 @@ describe('affiliate production config', () => {
       limit: 2,
     }, NOW);
 
-    assert.deepEqual(homeOffers.map((offer) => offer.id), ['a8-freee-accounting-wiz', 'a8-yayoi-accounting-next']);
-    assert.deepEqual(detailOffers.map((offer) => offer.id), ['a8-freee-accounting-wiz', 'a8-yayoi-accounting-next']);
+    assert.deepEqual(homeOffers.map((offer) => offer.id), ['a8-makeshop-ecommerce', 'a8-easy-myshop-ecommerce']);
+    assert.deepEqual(detailOffers.map((offer) => offer.id), ['a8-makeshop-ecommerce', 'a8-easy-myshop-ecommerce']);
     const suspendedCreative = AFFILIATE_OFFERS.find((offer) => offer.id === 'a8-kanbei-sign');
     assert.equal(suspendedCreative?.enabled, false);
     assert.equal(suspendedCreative?.claimReviewStatus, 'pending');

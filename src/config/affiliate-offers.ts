@@ -50,7 +50,7 @@ const SENSITIVE_PURPOSES: Purpose[] = ['medical', 'welfare', 'disaster', 'living
 // A8.netで存在と条件を確認した候補。提携完了・広告リンク取得までは公開しない。
 export const AFFILIATE_OFFERS: AffiliateOffer[] = [
   {
-    id: 'a8-freee-accounting-wiz', enabled: true, network: 'A8.net', advertiserName: '株式会社Ｗｉｚ',
+    id: 'a8-freee-accounting-wiz', enabled: false, network: 'A8.net', advertiserName: '株式会社Ｗｉｚ',
     offerName: 'クラウド会計ソフト【freee会計】', destinationUrl: 'https://px.a8.net/svt/ejp?a8mat=4B8111+7NNQMY+3SPO+9FMXR5',
     audiences: ['soleProprietor', 'business', 'nonprofit', 'localOrganization'],
     intents: ['accounting', 'businessPlanning'], allowedPurposes: ['startup', 'businessGrowth', 'digitalTransformation'],
@@ -69,11 +69,11 @@ export const AFFILIATE_OFFERS: AffiliateOffer[] = [
     creativeVerifiedAt: '2026-07-17', destinationHost: 'px.a8.net', claimReviewStatus: 'reviewed',
     verifiedLandingHost: 'f.012grp.co.jp', landingVerifiedAt: '2026-07-17',
     creativeFingerprint: 'a99783555e35c5aa94452507aa8e8e75d00a6adeab36a3f6ab62d4b9b94b523f',
-    nextReviewAt: '2026-08-17', claimReviewSource: 'A8.net広告リンク・広告素材', reviewMethod: 'automated',
-    partnershipStatus: 'partnered', priority: 60,
+    nextReviewAt: '2026-07-28', claimReviewSource: 'A8.net無効クリックレポート（2026-07-25・26）および案件検索結果なしを確認',
+    reviewMethod: 'mixed', partnershipStatus: 'suspended', priority: 60,
   },
   {
-    id: 'a8-yayoi-accounting-next', enabled: true, network: 'A8.net', advertiserName: '弥生株式会社',
+    id: 'a8-yayoi-accounting-next', enabled: false, network: 'A8.net', advertiserName: '弥生株式会社',
     offerName: '法人向けクラウド会計ソフト【弥生会計 Next】',
     destinationUrl: 'https://px.a8.net/svt/ejp?a8mat=4B82L5+7H3YZE+35XE+639IP',
     audiences: ['soleProprietor', 'business', 'nonprofit', 'localOrganization'],
@@ -91,8 +91,8 @@ export const AFFILIATE_OFFERS: AffiliateOffer[] = [
     creativeVerifiedAt: '2026-07-17', destinationHost: 'px.a8.net', claimReviewStatus: 'reviewed',
     verifiedLandingHost: 'www.yayoi-kk.co.jp', landingVerifiedAt: '2026-07-17',
     creativeFingerprint: '1ce34ff634e80888f3af441b78071ff1994426ef9927bb5e52928943d22ffffe',
-    nextReviewAt: '2026-08-17', claimReviewSource: 'A8.net提携情報・支援制度ナビ専用広告素材を2026-07-17に確認',
-    reviewMethod: 'mixed', partnershipStatus: 'partnered', priority: 58,
+    nextReviewAt: '2026-07-28', claimReviewSource: 'A8.net無効クリックレポート（2026-07-25・26）および案件検索結果なしを確認',
+    reviewMethod: 'mixed', partnershipStatus: 'suspended', priority: 58,
   },
   {
     id: 'a8-makeshop-ecommerce', enabled: true, network: 'A8.net', advertiserName: 'ＧＭＯメイクショップ株式会社',
