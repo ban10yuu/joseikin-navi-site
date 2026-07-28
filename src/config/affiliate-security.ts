@@ -1,7 +1,7 @@
 export const AFFILIATE_HOST_ALLOWLIST = {
-  tracking: ['px.a8.net', 'af.moshimo.com'],
-  creative: ['www20.a8.net', 'www21.a8.net', 'www22.a8.net', 'www23.a8.net', 'www24.a8.net', 'www26.a8.net', 'www27.a8.net', 'www28.a8.net', 'www29.a8.net', 'image.moshimo.com'],
-  impression: ['www10.a8.net', 'www11.a8.net', 'www12.a8.net', 'www13.a8.net', 'www14.a8.net', 'www15.a8.net', 'www16.a8.net', 'www17.a8.net', 'www18.a8.net', 'www19.a8.net', 'i.moshimo.com'],
+  tracking: ['px.a8.net', 'af.moshimo.com', 't.afi-b.com'],
+  creative: ['www20.a8.net', 'www21.a8.net', 'www22.a8.net', 'www23.a8.net', 'www24.a8.net', 'www26.a8.net', 'www27.a8.net', 'www28.a8.net', 'www29.a8.net', 'image.moshimo.com', 'www.afi-b.com'],
+  impression: ['www10.a8.net', 'www11.a8.net', 'www12.a8.net', 'www13.a8.net', 'www14.a8.net', 'www15.a8.net', 'www16.a8.net', 'www17.a8.net', 'www18.a8.net', 'www19.a8.net', 'i.moshimo.com', 't.afi-b.com'],
   redirect: ['a8.yayoi-kk.co.jp', 'a8cv.f.012grp.co.jp', 'ems-a8net-tracking.easy-myshop.jp', 'ac-rt.catsys.jp'],
   landing: [
     'f.012grp.co.jp',
@@ -31,6 +31,14 @@ export const AFFILIATE_HOST_ALLOWLIST = {
     'sakucareer-match.jp',
     'www.gleasin.jp',
     'www.worldlibrary.co.jp',
+    's15.aspservice.jp',
+    'e-venz.com',
+    'jp.shokz.com',
+    'ods-sauna.online',
+    'dep.tc',
+    'soregadaiji-wifi.com',
+    'www.teamlabbody.com',
+    'yoilight.com',
   ],
 } as const;
 
@@ -101,6 +109,25 @@ export const AFFILIATE_PRIVACY_SERVICES = {
     timing: '広告が画面に表示される際、および広告リンクを選択した際',
     retention: 'Cookie等の保存期間はプロモーションごとの条件により異なります',
     policyUrl: 'https://www.moshimo.co.jp/company/privacy',
+  },
+  afb: {
+    provider: '株式会社フォーイット',
+    assetHosts: ['www.afi-b.com', 't.afi-b.com'],
+    clickHosts: ['t.afi-b.com'],
+    landingHosts: [
+      's15.aspservice.jp',
+      'e-venz.com',
+      'jp.shokz.com',
+      'ods-sauna.online',
+      'dep.tc',
+      'soregadaiji-wifi.com',
+      'www.teamlabbody.com',
+      'yoilight.com',
+    ],
+    purpose: '広告素材の配信、広告表示・クリック・申込み成果の計測',
+    timing: '広告が画面に表示される際、および広告リンクを選択した際',
+    retention: 'Cookie等の保存期間はプロモーションごとの条件により異なります',
+    policyUrl: 'https://www.afi-b.com/privacy/',
   },
 } as const;
 
