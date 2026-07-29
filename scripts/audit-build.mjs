@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { AFFILIATE_OFFERS } from '../src/config/affiliate-offers.ts';
 import { AFFILIATE_ISSUED_HTML } from '../src/config/affiliate-issued-html.ts';
+import { SEARCH_CONSOLE_OPPORTUNITIES } from '../src/config/search-console-opportunities.ts';
 import { getEligibleAffiliateOffers } from '../src/lib/monetization.ts';
 
 const root = process.cwd();
@@ -61,6 +62,17 @@ const expectedInitialHomeAffiliateCount = Math.min(4, getEligibleAffiliateOffers
 const add = (severity, code, route, message) => issues.push({ severity, code, route, message });
 const dynamicPrefixes = ['/grants/', '/grant/', '/tag/'];
 const assetsPrefixes = ['/_next/', '/images/', '/favicon', '/apple-icon', '/api/'];
+const searchPriorityRoutes = new Set(
+  SEARCH_CONSOLE_OPPORTUNITIES
+    .filter((item) => item.grantSlugs?.length)
+    .map((item) => normalizeRoute(item.href))
+);
+
+for (const route of searchPriorityRoutes) {
+  if (!routes.has(route)) {
+    add('critical', 'SEARCH_PRIORITY_PAGE_NOT_PRERENDERED', route, 'Search Console実績ページが静的生成されていません。');
+  }
+}
 
 for (const page of pages) {
   const isFrameworkArtifact = page.route === '/_global-error/';
