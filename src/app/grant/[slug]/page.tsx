@@ -23,7 +23,7 @@ import { getGrantAffiliateIntents, getGrantDetailAffiliateMatchContext, shouldAl
 import { getValidOfficialSourceUrls } from '@/lib/grant-source';
 import { groupGrantSections, type GrantSectionGroup } from '@/lib/grant-sections';
 import { getEffectiveGrantStatus, getOfficialCtaLabel, isRepayableSupport } from '@/lib/grant-status';
-import { grantMetaDescription } from '@/lib/seo-metadata';
+import { grantMetaDescription, grantMetaTitle } from '@/lib/seo-metadata';
 import { toSiteUrl } from '@/lib/site-url';
 import { getEligibleAffiliateOffers, isSensitiveAffiliateContext } from '@/lib/monetization';
 import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
@@ -54,9 +54,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const expired = isGrantExpired(grant);
   const opportunity = SEARCH_CONSOLE_OPPORTUNITIES.find((item) => item.grantSlugs?.includes(slug));
   const titleSubject = opportunity?.observedQuery ?? grant.title;
-  const title = expired
-    ? `${titleSubject}｜受付状況・次回募集の確認先`
-    : opportunity?.seoTitle ?? `${titleSubject}｜対象・金額・申請期限`;
+  const title = grantMetaTitle({
+    titleSubject,
+    expired,
+    seoTitle: expired ? undefined : opportunity?.seoTitle,
+  });
   const eligibility = (grant.eligibility || '公式情報で確認').replace(/[。．]+$/u, '');
   const deadline = (grant.applicationPeriod || '申請期限は公式情報で確認').replace(/[。．]+$/u, '');
   const checked = !hasOfficialSource(grant)

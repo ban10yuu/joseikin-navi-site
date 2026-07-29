@@ -26,6 +26,7 @@ const { isRepayableSupport } = require('../src/lib/grant-status.ts');
 const { getEffectiveGrantStatus } = require('../src/lib/grant-status.ts');
 const { getGrantAffiliateIntents, shouldAllowDerivedAffiliateContext } = require('../src/lib/affiliate-context.ts');
 const { getEligibleAffiliateOffers, isSensitiveAffiliateContext } = require('../src/lib/monetization.ts');
+const { grantMetaTitle } = require('../src/lib/seo-metadata.ts');
 const { AFFILIATE_OFFERS } = require('../src/config/affiliate-offers.ts');
 const { AFFILIATE_ISSUED_HTML } = require('../src/config/affiliate-issued-html.ts');
 const { hasApprovedSensitiveAffiliateContext } = require('../src/config/affiliate-security.ts');
@@ -61,7 +62,10 @@ for (const grant of grants) {
   const publicText = [grant.title, grant.description, grant.eligibility, ...grant.sections.flatMap((section) => [section.heading, section.content])].join('\n');
   if (containsInternalAuditText(publicText)) addIssue('critical', 'INTERNAL_AUDIT_PUBLIC', grant, '公開用本文に内部監査文言が残っています。');
   if (forbidden.test(publicText)) addIssue('critical', 'FORBIDDEN_COPY', grant, '公開禁止表現が残っています。');
-  const metaTitle = `${grant.title}｜対象・金額・申請期限｜助成金ナビ`;
+  const metaTitle = `${grantMetaTitle({
+    titleSubject: grant.title,
+    expired: isGrantExpired(grant),
+  })}｜助成金ナビ`;
   if (metaTitle.length > 65) addIssue('warning', 'META_TITLE_LONG', grant, `推定タイトルが長すぎます（${metaTitle.length}文字）。`);
   if (!grant.description?.trim()) addIssue('warning', 'DESCRIPTION_MISSING', grant, '概要がなく、メタ説明と本文の整合を確認できません。');
 

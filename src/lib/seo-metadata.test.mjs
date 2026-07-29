@@ -1,8 +1,40 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
-import { compactMetaDescription, grantMetaDescription, municipalityMeta } from './seo-metadata.ts';
+import { compactMetaDescription, grantMetaDescription, grantMetaTitle, municipalityMeta } from './seo-metadata.ts';
 
 describe('seo metadata helpers', () => {
+  it('長い制度名でもサイト名を含む検索タイトルを65文字以内に収める', () => {
+    const title = grantMetaTitle({
+      titleSubject: '本巣市 在宅障がい者への災害時の電源確保支援について（本巣市要電源重度障がい児者災害時等非常用電源装置等購入費助成金）',
+      expired: false,
+    });
+
+    assert.equal(`${title}｜助成金ナビ`.length <= 65, true);
+    assert.equal(title.endsWith('｜対象・金額・申請期限'), true);
+    assert.match(title, /…｜対象/u);
+  });
+
+  it('終了制度の検索タイトルには次回募集の確認先を残す', () => {
+    const title = grantMetaTitle({
+      titleSubject: '非常に長い制度名'.repeat(10),
+      expired: true,
+    });
+
+    assert.equal(`${title}｜助成金ナビ`.length <= 65, true);
+    assert.equal(title.endsWith('｜受付状況・次回募集の確認先'), true);
+  });
+
+  it('Search Console向けの個別タイトルも上限内に収める', () => {
+    const title = grantMetaTitle({
+      titleSubject: '使われない制度名',
+      expired: false,
+      seoTitle: '検索実績に基づいて設定した非常に長い個別タイトル'.repeat(4),
+    });
+
+    assert.equal(`${title}｜助成金ナビ`.length <= 65, true);
+    assert.equal(title.endsWith('…'), true);
+  });
+
   it('meta descriptionを文の途中で不自然に切らない', () => {
     const description = compactMetaDescription('補助金・助成金・給付金を地域と目的から探せます。申請前に公式情報で対象条件、支援額、受付状況を確認してください。長い補足説明です。', 40);
 

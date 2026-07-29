@@ -2,6 +2,34 @@ function normalizeWhitespace(value: string): string {
   return value.replace(/\s+/g, ' ').trim();
 }
 
+const SITE_TITLE_SUFFIX = '｜助成金ナビ';
+const OPEN_GRANT_TITLE_SUFFIX = '｜対象・金額・申請期限';
+const CLOSED_GRANT_TITLE_SUFFIX = '｜受付状況・次回募集の確認先';
+
+function compactMetaTitle(value: string, maxLength: number): string {
+  const text = normalizeWhitespace(value);
+  if (text.length <= maxLength) return text;
+  return `${text.slice(0, Math.max(1, maxLength - 1)).trimEnd()}…`;
+}
+
+export function grantMetaTitle(input: {
+  titleSubject: string;
+  expired: boolean;
+  seoTitle?: string;
+  maxLength?: number;
+}): string {
+  const maxLength = input.maxLength ?? 65;
+  const pageTitleLimit = Math.max(1, maxLength - SITE_TITLE_SUFFIX.length);
+
+  if (input.seoTitle) {
+    return compactMetaTitle(input.seoTitle, pageTitleLimit);
+  }
+
+  const detailSuffix = input.expired ? CLOSED_GRANT_TITLE_SUFFIX : OPEN_GRANT_TITLE_SUFFIX;
+  const subjectLimit = Math.max(1, pageTitleLimit - detailSuffix.length);
+  return `${compactMetaTitle(input.titleSubject, subjectLimit)}${detailSuffix}`;
+}
+
 export function compactMetaDescription(value: string, maxLength = 118): string {
   const text = normalizeWhitespace(value);
   if (text.length <= maxLength) return text;
