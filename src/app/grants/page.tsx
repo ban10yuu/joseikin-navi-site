@@ -5,7 +5,7 @@ import Link from 'next/link';
 import DisplayAdSlot from '@/components/DisplayAdSlot';
 import GrantCard from '@/components/GrantCard';
 import { isAdsenseEnabled } from '@/config/site';
-import { getAllGrantsUnfiltered, getGrantQualityStats } from '@/lib/grants';
+import { getAllGrantsUnfiltered, getGrantQualityStats, getInitialGrantListing } from '@/lib/grants';
 import { GRANT_STATUS_LABELS } from '@/lib/grant-status';
 import { normalizeGrantQuery, queryGrants, type GrantQuery } from '@/lib/grant-query';
 import { compactMetaDescription } from '@/lib/seo-metadata';
@@ -50,7 +50,10 @@ const SORT_LABELS = {
 function hasSearchConditions(params: SearchParams): boolean {
   return Object.entries(params).some(([key, value]) => {
     const item = Array.isArray(value) ? value[0] : value;
-    return Boolean(item) && !(key === 'official' && item === '1');
+    if (!item || key === 'focus') return false;
+    if (key === 'official' && item === '1') return false;
+    if (key === 'page' && item === '1') return false;
+    return true;
   });
 }
 
@@ -251,11 +254,22 @@ export default async function GrantsListPage({ searchParams }: { searchParams: P
   const rawParams = await searchParams;
   const focusSearch = (Array.isArray(rawParams.focus) ? rawParams.focus[0] : rawParams.focus) === 'search';
   const query = normalizeGrantQuery(rawParams);
-  const [allGrants, stats] = await Promise.all([
-    getAllGrantsUnfiltered(),
-    getGrantQualityStats(),
-  ]);
-  const result = queryGrants(allGrants, query);
+  const initialRequest = !hasSearchConditions(rawParams);
+  const initialListing = initialRequest ? await getInitialGrantListing() : null;
+  const [allGrants, stats] = initialListing
+    ? [null, { total: initialListing.total, officialLinked: initialListing.officialLinked }]
+    : await Promise.all([
+      getAllGrantsUnfiltered(),
+      getGrantQualityStats(),
+    ]);
+  const result = initialListing
+    ? {
+      items: initialListing.grants,
+      total: initialListing.officialLinked,
+      page: 1,
+      pageCount: Math.max(1, Math.ceil(initialListing.officialLinked / 24)),
+    }
+    : queryGrants(allGrants ?? [], query);
 
   return (
     <>

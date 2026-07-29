@@ -175,6 +175,22 @@ try {
       )
     )
   );
+  const initialListingGrants = source
+    .getOfficialLinkedGrants()
+    .sort((left, right) =>
+      (right.sourceCheckedAt ?? right.verifiedAt ?? right.contentUpdatedAt ?? right.publishedAt)
+        .localeCompare(left.sourceCheckedAt ?? left.verifiedAt ?? left.contentUpdatedAt ?? left.publishedAt)
+    )
+    .slice(0, 24);
+  await writeFile(
+    path.join(publicRuntimeDir, 'listing-initial.json'),
+    `${JSON.stringify({
+      grants: initialListingGrants.map(indexGrant),
+      total: stats.total,
+      officialLinked: stats.officialLinked,
+    })}\n`,
+    'utf8'
+  );
   await Promise.all(
     Object.entries(shards).map(([shard, shardGrants]) =>
       writeFile(

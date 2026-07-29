@@ -39,6 +39,12 @@ interface RuntimeIndexCatalog {
   duplicatedSlugsRemoved: number;
 }
 
+interface RuntimeInitialListing {
+  grants: RuntimeIndexRow[];
+  total: number;
+  officialLinked: number;
+}
+
 interface GrantRepository {
   allGrants: NormalizedGrant[];
   publishedGrants: NormalizedGrant[];
@@ -355,6 +361,21 @@ export interface MunicipalityGroup {
 
 export async function getAllGrantsUnfiltered(): Promise<Grant[]> {
   return (await getRepository()).allGrants;
+}
+
+export async function getInitialGrantListing(): Promise<{
+  grants: Grant[];
+  total: number;
+  officialLinked: number;
+}> {
+  const listing = await loadRuntimeAsset<RuntimeInitialListing>(
+    'listing-initial.json'
+  );
+  return {
+    grants: listing.grants.map(decodeIndexGrant),
+    total: listing.total,
+    officialLinked: listing.officialLinked,
+  };
 }
 
 export async function getAllGrants(): Promise<Grant[]> {
