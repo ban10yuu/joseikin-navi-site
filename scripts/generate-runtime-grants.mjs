@@ -8,7 +8,8 @@ const generatedDir = path.join(root, 'src', 'generated');
 const bundlePath = path.join(root, '.tmp-grants-source.mjs');
 const outputPath = path.join(generatedDir, 'grants-runtime.json');
 const publicRuntimeDir = path.join(root, 'public', 'data', 'grants-runtime');
-const shardCount = 64;
+const detailShardCount = 256;
+const relatedShardCount = 64;
 const relatedCardShardCount = 256;
 const indexPartCount = 4;
 const businessAudiences = new Set([
@@ -23,8 +24,12 @@ function hashSlug(slug) {
   return hash >>> 0;
 }
 
-function grantShard(slug) {
-  return (hashSlug(slug) % shardCount).toString(16).padStart(2, '0');
+function detailShard(slug) {
+  return (hashSlug(slug) % detailShardCount).toString(16).padStart(2, '0');
+}
+
+function relatedShard(slug) {
+  return (hashSlug(slug) % relatedShardCount).toString(16).padStart(2, '0');
 }
 
 function relatedCardShard(slug) {
@@ -126,15 +131,15 @@ try {
   const grants = source.getAllGrantsUnfiltered().map(runtimeGrant);
   const stats = source.getGrantQualityStats();
   const shards = Object.fromEntries(
-    Array.from({ length: shardCount }, (_, index) => [
+    Array.from({ length: detailShardCount }, (_, index) => [
       index.toString(16).padStart(2, '0'),
       [],
     ])
   );
-  grants.forEach((grant) => shards[grantShard(grant.slug)].push(grant));
+  grants.forEach((grant) => shards[detailShard(grant.slug)].push(grant));
   const relatedCatalog = source.buildRelatedGrantCatalog(grants, 6);
   const relatedShards = Object.fromEntries(
-    Array.from({ length: shardCount }, (_, index) => [
+    Array.from({ length: relatedShardCount }, (_, index) => [
       index.toString(16).padStart(2, '0'),
       {},
     ])
@@ -146,7 +151,7 @@ try {
     ])
   );
   relatedCatalog.forEach((related, slug) => {
-    relatedShards[grantShard(slug)][slug] = related.map((grant) => grant.slug);
+    relatedShards[relatedShard(slug)][slug] = related.map((grant) => grant.slug);
     related.forEach((grant) => {
       relatedCardShards[relatedCardShard(grant.slug)][grant.slug] =
         relatedGrant(grant);
@@ -295,7 +300,7 @@ try {
   );
 
   console.log(
-    `公開用制度データを生成: ${grants.length.toLocaleString('ja-JP')}件（${shardCount}分割）`
+    `公開用制度データを生成: ${grants.length.toLocaleString('ja-JP')}件（詳細${detailShardCount}分割・関連${relatedShardCount}分割）`
   );
 } finally {
   await rm(bundlePath, { force: true });

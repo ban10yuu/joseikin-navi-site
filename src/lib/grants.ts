@@ -68,6 +68,8 @@ interface GrantRepository {
 
 const runtimeAssetRoot = 'data/grants-runtime';
 const runtimeIndexPartCount = 4;
+const detailShardCount = 256;
+const relatedShardCount = 64;
 let repositoryPromise: Promise<GrantRepository> | null = null;
 const detailShardPromises = new Map<string, Promise<NormalizedGrant[]>>();
 const relatedShardPromises =
@@ -83,8 +85,12 @@ function hashSlug(slug: string): number {
   return hash >>> 0;
 }
 
-function grantShard(slug: string): string {
-  return (hashSlug(slug) % 64).toString(16).padStart(2, '0');
+function detailShard(slug: string): string {
+  return (hashSlug(slug) % detailShardCount).toString(16).padStart(2, '0');
+}
+
+function relatedShard(slug: string): string {
+  return (hashSlug(slug) % relatedShardCount).toString(16).padStart(2, '0');
 }
 
 function relatedCardShard(slug: string): string {
@@ -232,7 +238,7 @@ async function getRepository(): Promise<GrantRepository> {
 }
 
 async function loadDetailShard(slug: string): Promise<NormalizedGrant[]> {
-  const shard = grantShard(slug);
+  const shard = detailShard(slug);
   let promise = detailShardPromises.get(shard);
   if (!promise) {
     promise = loadRuntimeAsset<NormalizedGrant[]>(`detail-${shard}.json`);
@@ -244,7 +250,7 @@ async function loadDetailShard(slug: string): Promise<NormalizedGrant[]> {
 async function loadRelatedShard(
   slug: string
 ): Promise<Record<string, string[]>> {
-  const shard = grantShard(slug);
+  const shard = relatedShard(slug);
   let promise = relatedShardPromises.get(shard);
   if (!promise) {
     promise = loadRuntimeAsset<Record<string, string[]>>(
