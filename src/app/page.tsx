@@ -179,7 +179,7 @@ export default async function HomePage() {
               <details key={region.name} className="rounded-xl border border-line bg-card p-4 open:border-navy/40">
                 <summary className="flex min-h-11 cursor-pointer items-center justify-between font-black text-navy">{region.name}<span aria-hidden="true">＋</span></summary>
                 <div className="flex flex-wrap gap-2 border-t border-line pt-3">
-                  {region.prefectures.map((prefecture) => <Link key={prefecture} href={`/grants/?pref=${encodeURIComponent(prefecture)}`} className="inline-flex min-h-11 items-center rounded-lg bg-white px-3 text-sm font-bold text-navy underline underline-offset-4">{prefecture}</Link>)}
+                  {region.prefectures.map((prefecture) => <Link key={prefecture} href={`/prefecture/${encodeURIComponent(prefecture)}/`} className="inline-flex min-h-11 items-center rounded-lg bg-white px-3 text-sm font-bold text-navy underline underline-offset-4">{prefecture}</Link>)}
                 </div>
               </details>
             ))}

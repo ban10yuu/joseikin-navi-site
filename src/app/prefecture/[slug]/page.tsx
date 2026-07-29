@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import GrantCard from '@/components/GrantCard';
 import { BreadcrumbJsonLd, CollectionJsonLd } from '@/components/JsonLd';
 import { getSearchConsoleOpportunitiesForPrefecture } from '@/config/search-console-opportunities';
-import { getGrantsByPrefecture, getMunicipalitiesForPrefecture } from '@/lib/grants';
+import { MIN_INDEXABLE_MUNICIPALITY_GRANTS, getGrantsByPrefecture, getMunicipalitiesForPrefecture } from '@/lib/grants';
 import { toSiteUrl } from '@/lib/site-url';
 import { CATEGORY_LABELS, PREFECTURES, type GrantCategory } from '@/lib/types';
 
@@ -57,6 +57,11 @@ export default async function PrefecturePage({ params }: Props) {
   const nationalGrants = grants.filter((grant) => grant.prefecture === '全国');
   const recentlyUpdated = [...grants].sort((a, b) => (b.contentUpdatedAt ?? b.verifiedAt ?? b.publishedAt).localeCompare(a.contentUpdatedAt ?? a.verifiedAt ?? a.publishedAt)).slice(0, 4);
   const nearby = (REGION_MAP[region] ?? []).filter((item) => item !== prefecture);
+  const indexableMunicipalities = municipalities.filter(
+    (municipality) => municipality.count >= MIN_INDEXABLE_MUNICIPALITY_GRANTS
+  );
+  const featuredMunicipalities = indexableMunicipalities.slice(0, 12);
+  const remainingMunicipalities = indexableMunicipalities.slice(12);
   const categoryCounts = (Object.entries(CATEGORY_LABELS) as [GrantCategory, string][])
     .map(([key, label]) => ({ key, label, count: grants.filter((grant) => grant.category === key || grant.relatedCategories?.includes(key)).length }))
     .filter((item) => item.count > 0);
@@ -106,17 +111,17 @@ export default async function PrefecturePage({ params }: Props) {
           <div className="grid gap-4 md:grid-cols-2">{recentlyUpdated.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div>
         </section>
 
-        {municipalities.length > 0 ? (
+        {indexableMunicipalities.length > 0 ? (
           <section className="mt-12 border-t border-line pt-10" aria-labelledby="pref-municipality-title">
             <div className="flex flex-wrap items-end justify-between gap-3">
               <div className="home-section-heading mb-0">
                 <p>市区町村から絞る</p>
                 <h2 id="pref-municipality-title">{prefecture}の市区町村</h2>
               </div>
-              <p className="text-xs text-muted">制度件数の多い順（{municipalities.length}件）</p>
+              <p className="text-xs text-muted">制度件数の多い順（{indexableMunicipalities.length}件）</p>
             </div>
             <div className="mt-5 flex flex-wrap gap-2">
-              {municipalities.slice(0, 12).map((municipality) => (
+              {featuredMunicipalities.map((municipality) => (
                 <Link
                   key={`${municipality.prefecture}:${municipality.municipality}`}
                   href={`/municipality/${encodeURIComponent(municipality.prefecture)}/${encodeURIComponent(municipality.municipality)}/`}
@@ -126,6 +131,24 @@ export default async function PrefecturePage({ params }: Props) {
                 </Link>
               ))}
             </div>
+            {remainingMunicipalities.length > 0 ? (
+              <details className="mt-5 rounded-xl border border-line bg-wash p-4">
+                <summary className="flex min-h-11 cursor-pointer items-center font-bold text-navy">
+                  残り{remainingMunicipalities.length.toLocaleString('ja-JP')}市区町村を表示
+                </summary>
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {remainingMunicipalities.map((municipality) => (
+                    <Link
+                      key={`${municipality.prefecture}:${municipality.municipality}`}
+                      href={`/municipality/${encodeURIComponent(municipality.prefecture)}/${encodeURIComponent(municipality.municipality)}/`}
+                      className="inline-flex min-h-11 items-center rounded-full border border-line bg-white px-4 text-sm font-bold text-navy"
+                    >
+                      {municipality.municipality}（{municipality.count.toLocaleString('ja-JP')}）
+                    </Link>
+                  ))}
+                </div>
+              </details>
+            ) : null}
           </section>
         ) : null}
 
