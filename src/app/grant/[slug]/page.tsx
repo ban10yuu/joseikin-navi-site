@@ -41,8 +41,15 @@ export async function generateStaticParams() {
   const recentGrantSlugs = new Set(
     (await getRecentlyUpdatedGrants(240)).map((grant) => grant.slug)
   );
+  const searchPrioritySlugs = new Set(
+    SEARCH_CONSOLE_OPPORTUNITIES.flatMap((item) => item.grantSlugs ?? [])
+  );
   return (await getOfficialLinkedGrants())
-    .filter((grant) => grant.indexStatus !== 'noindex' && grant.contentStatus === 'published' && recentGrantSlugs.has(grant.slug))
+    .filter((grant) =>
+      grant.indexStatus !== 'noindex' &&
+      grant.contentStatus === 'published' &&
+      (recentGrantSlugs.has(grant.slug) || searchPrioritySlugs.has(grant.slug))
+    )
     .map((grant) => ({ slug: grant.slug }));
 }
 
