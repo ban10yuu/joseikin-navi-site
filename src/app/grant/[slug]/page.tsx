@@ -276,7 +276,7 @@ export default async function GrantDetailPage({ params }: Props) {
             <DisplayAdSlot placement="inArticle" format="horizontal" className="grant-adsense-inline-slot grant-adsense-inline-slot--first" />
 
             <DetailSection id="overview" title="制度の概要" sections={sectionGroups.overview}>
-              <p>{grant.description}</p>
+              {grant.description ? <p>{grant.description}</p> : null}
             </DetailSection>
 
             <DetailSection id="eligibility" title="主な対象条件" sections={sectionGroups.eligibility}>

@@ -8,7 +8,7 @@ export function GrantJsonLd({ grant }: { grant: Grant }) {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: grant.title,
-    description: grant.description,
+    ...(grant.description ? { description: grant.description } : {}),
     ...(siteConfig.operatorName ? {
       author: { '@type': 'Organization', name: siteConfig.operatorName },
       publisher: { '@type': 'Organization', name: siteConfig.operatorName, url: siteConfig.url },
