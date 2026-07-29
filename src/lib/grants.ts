@@ -39,10 +39,20 @@ interface RuntimeIndexCatalog {
   duplicatedSlugsRemoved: number;
 }
 
+interface RuntimeFilterCatalog {
+  grants: RuntimeIndexRow[];
+}
+
 interface RuntimeInitialListing {
   grants: RuntimeIndexRow[];
   total: number;
   officialLinked: number;
+}
+
+interface RuntimeFilterManifest {
+  prefectures: Record<string, number>;
+  categories: Partial<Record<GrantCategory, number>>;
+  audiences: Partial<Record<'individual' | 'business', number>>;
 }
 
 interface GrantRepository {
@@ -79,6 +89,10 @@ function grantShard(slug: string): string {
 
 function relatedCardShard(slug: string): string {
   return (hashSlug(slug) % 256).toString(16).padStart(2, '0');
+}
+
+function filterFileKey(value: string): string {
+  return hashSlug(value).toString(16).padStart(8, '0');
 }
 
 async function loadRuntimeAsset<T>(relativePath: string): Promise<T> {
@@ -376,6 +390,51 @@ export async function getInitialGrantListing(): Promise<{
     total: listing.total,
     officialLinked: listing.officialLinked,
   };
+}
+
+export async function getGrantsForQueryScope(input: {
+  prefecture: string | null;
+  category: GrantCategory | null;
+  audience: 'individual' | 'business' | null;
+}): Promise<Grant[]> {
+  const manifest = await loadRuntimeAsset<RuntimeFilterManifest>(
+    'filter-manifest.json'
+  );
+  const candidates = [
+    input.prefecture && manifest.prefectures[input.prefecture] !== undefined
+      ? {
+        count: manifest.prefectures[input.prefecture],
+        paths: [
+          `filter-pref-${filterFileKey(input.prefecture)}.json`,
+          'filter-pref-national.json',
+        ],
+      }
+      : null,
+    input.category && manifest.categories[input.category] !== undefined
+      ? {
+        count: manifest.categories[input.category] ?? Number.MAX_SAFE_INTEGER,
+        paths: [`filter-category-${input.category}.json`],
+      }
+      : null,
+    input.audience && manifest.audiences[input.audience] !== undefined
+      ? {
+        count: manifest.audiences[input.audience],
+        paths: [`filter-audience-${input.audience}.json`],
+      }
+      : null,
+  ]
+    .filter((candidate): candidate is { count: number; paths: string[] } =>
+      Boolean(candidate)
+    )
+    .sort((left, right) => left.count - right.count);
+
+  if (candidates.length === 0) return getAllGrantsUnfiltered();
+  const catalogs = await Promise.all(
+    candidates[0].paths.map((path) =>
+      loadRuntimeAsset<RuntimeFilterCatalog>(path)
+    )
+  );
+  return catalogs.flatMap((catalog) => catalog.grants).map(decodeIndexGrant);
 }
 
 export async function getAllGrants(): Promise<Grant[]> {

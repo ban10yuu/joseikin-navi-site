@@ -5,7 +5,7 @@ import Link from 'next/link';
 import DisplayAdSlot from '@/components/DisplayAdSlot';
 import GrantCard from '@/components/GrantCard';
 import { isAdsenseEnabled } from '@/config/site';
-import { getAllGrantsUnfiltered, getGrantQualityStats, getInitialGrantListing } from '@/lib/grants';
+import { getGrantsForQueryScope, getInitialGrantListing } from '@/lib/grants';
 import { GRANT_STATUS_LABELS } from '@/lib/grant-status';
 import { normalizeGrantQuery, queryGrants, type GrantQuery } from '@/lib/grant-query';
 import { compactMetaDescription } from '@/lib/seo-metadata';
@@ -255,14 +255,19 @@ export default async function GrantsListPage({ searchParams }: { searchParams: P
   const focusSearch = (Array.isArray(rawParams.focus) ? rawParams.focus[0] : rawParams.focus) === 'search';
   const query = normalizeGrantQuery(rawParams);
   const initialRequest = !hasSearchConditions(rawParams);
-  const initialListing = initialRequest ? await getInitialGrantListing() : null;
+  const initialListing = await getInitialGrantListing();
   const [allGrants, stats] = initialListing
+    && initialRequest
     ? [null, { total: initialListing.total, officialLinked: initialListing.officialLinked }]
-    : await Promise.all([
-      getAllGrantsUnfiltered(),
-      getGrantQualityStats(),
-    ]);
-  const result = initialListing
+    : [
+      await getGrantsForQueryScope({
+        prefecture: query.pref,
+        category: query.category,
+        audience: query.audience,
+      }),
+      { total: initialListing.total, officialLinked: initialListing.officialLinked },
+    ];
+  const result = initialRequest
     ? {
       items: initialListing.grants,
       total: initialListing.officialLinked,

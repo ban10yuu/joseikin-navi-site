@@ -11,6 +11,9 @@ const publicRuntimeDir = path.join(root, 'public', 'data', 'grants-runtime');
 const shardCount = 64;
 const relatedCardShardCount = 256;
 const indexPartCount = 4;
+const businessAudiences = new Set([
+  'soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization',
+]);
 
 function hashSlug(slug) {
   let hash = 2166136261;
@@ -28,6 +31,10 @@ function relatedCardShard(slug) {
   return (hashSlug(slug) % relatedCardShardCount)
     .toString(16)
     .padStart(2, '0');
+}
+
+function filterFileKey(value) {
+  return hashSlug(value).toString(16).padStart(8, '0');
 }
 
 function runtimeGrant(grant) {
@@ -191,6 +198,74 @@ try {
     })}\n`,
     'utf8'
   );
+  const prefectures = [...new Set(grants.map((grant) => grant.prefecture))]
+    .filter((prefecture) => prefecture !== '全国');
+  const categories = [...new Set(grants.flatMap((grant) => [
+    grant.category,
+    ...(grant.relatedCategories ?? []),
+  ]))];
+  const audienceFilters = {
+    business: grants.filter((grant) =>
+      grant.audiences.some((audience) => businessAudiences.has(audience))
+    ),
+  };
+  const nationalGrants = grants.filter((grant) => grant.prefecture === '全国');
+  const prefectureFilters = Object.fromEntries(prefectures.map((prefecture) => [
+    prefecture,
+    grants.filter((grant) => grant.prefecture === prefecture),
+  ]));
+  const categoryFilters = Object.fromEntries(categories.map((category) => [
+    category,
+    grants.filter((grant) =>
+      grant.category === category || grant.relatedCategories?.includes(category)
+    ),
+  ]));
+  await Promise.all([
+    ...Object.entries(prefectureFilters).map(([prefecture, matchingGrants]) =>
+      writeFile(
+        path.join(publicRuntimeDir, `filter-pref-${filterFileKey(prefecture)}.json`),
+        `${JSON.stringify({ grants: matchingGrants.map(indexGrant) })}\n`,
+        'utf8'
+      )
+    ),
+    writeFile(
+      path.join(publicRuntimeDir, 'filter-pref-national.json'),
+      `${JSON.stringify({ grants: nationalGrants.map(indexGrant) })}\n`,
+      'utf8'
+    ),
+    ...Object.entries(categoryFilters).map(([category, matchingGrants]) =>
+      writeFile(
+        path.join(publicRuntimeDir, `filter-category-${category}.json`),
+        `${JSON.stringify({ grants: matchingGrants.map(indexGrant) })}\n`,
+        'utf8'
+      )
+    ),
+    ...Object.entries(audienceFilters).map(([audience, matchingGrants]) =>
+      writeFile(
+        path.join(publicRuntimeDir, `filter-audience-${audience}.json`),
+        `${JSON.stringify({ grants: matchingGrants.map(indexGrant) })}\n`,
+        'utf8'
+      )
+    ),
+    writeFile(
+      path.join(publicRuntimeDir, 'filter-manifest.json'),
+      `${JSON.stringify({
+        prefectures: Object.fromEntries(
+          Object.entries(prefectureFilters).map(([key, value]) => [
+            key,
+            value.length + nationalGrants.length,
+          ])
+        ),
+        categories: Object.fromEntries(
+          Object.entries(categoryFilters).map(([key, value]) => [key, value.length])
+        ),
+        audiences: Object.fromEntries(
+          Object.entries(audienceFilters).map(([key, value]) => [key, value.length])
+        ),
+      })}\n`,
+      'utf8'
+    ),
+  ]);
   await Promise.all(
     Object.entries(shards).map(([shard, shardGrants]) =>
       writeFile(
