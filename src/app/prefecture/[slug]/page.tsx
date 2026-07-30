@@ -110,17 +110,17 @@ export default async function PrefecturePage({ params }: Props) {
 
         <section className="mt-12" aria-labelledby="local-grants-title">
           <div className="flex flex-wrap items-end justify-between gap-3"><div className="home-section-heading mb-0"><p>都道府県・市区町村の制度</p><h2 id="local-grants-title">{prefecture}独自の制度</h2></div><Link href={`/grants/?pref=${encodedPrefecture}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">この地域の制度をすべて見る</Link></div>
-          {localGrants.length ? <div className="mt-5 grid gap-4 md:grid-cols-2">{localGrants.slice(0, 24).map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div> : <p className="mt-5 rounded-xl border border-line bg-wash p-5 text-sm leading-7 text-muted">現在、{prefecture}独自の制度で公式情報の確認先がある掲載データはありません。全国対象の制度もあわせてご確認ください。</p>}
+          {localGrants.length ? <div className="mt-5 grid gap-4 md:grid-cols-2">{localGrants.slice(0, 24).map((grant, index) => <GrantCard key={grant.slug} grant={grant} pageType="prefecture" placement="local_grants" position={index + 1} />)}</div> : <p className="mt-5 rounded-xl border border-line bg-wash p-5 text-sm leading-7 text-muted">現在、{prefecture}独自の制度で公式情報の確認先がある掲載データはありません。全国対象の制度もあわせてご確認ください。</p>}
         </section>
 
         <section className="mt-12 border-t border-line pt-10" aria-labelledby="national-grants-title">
           <div className="home-section-heading"><p>{prefecture}からも確認できる制度</p><h2 id="national-grants-title">全国対象の制度</h2></div>
-          <div className="grid gap-4 md:grid-cols-2">{nationalGrants.slice(0, 8).map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div>
+          <div className="grid gap-4 md:grid-cols-2">{nationalGrants.slice(0, 8).map((grant, index) => <GrantCard key={grant.slug} grant={grant} pageType="prefecture" placement="nationwide_grants" position={index + 1} />)}</div>
         </section>
 
         <section className="mt-12 border-t border-line pt-10" aria-labelledby="pref-recent-title">
           <div className="home-section-heading"><p>情報の確認日を基準に掲載</p><h2 id="pref-recent-title">最近更新された制度</h2></div>
-          <div className="grid gap-4 md:grid-cols-2">{recentlyUpdated.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div>
+          <div className="grid gap-4 md:grid-cols-2">{recentlyUpdated.map((grant, index) => <GrantCard key={grant.slug} grant={grant} pageType="prefecture" placement="recently_updated" position={index + 1} />)}</div>
         </section>
 
         {indexableMunicipalities.length > 0 ? (

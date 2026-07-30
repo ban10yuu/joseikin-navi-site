@@ -32,7 +32,7 @@ export default async function TagPage({ params }: Props) {
     <main className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14">
       <nav aria-label="パンくず" className="mb-6 text-sm text-muted"><Link href="/" className="text-navy underline underline-offset-4">ホーム</Link><span className="mx-2" aria-hidden="true">/</span><span aria-current="page">#{tag}</span></nav>
       <header className="border-l-4 border-accent pl-4"><p className="text-xs font-bold text-blue-700">検索補助タグ</p><h1 className="mt-1 text-2xl font-black text-navy">「{tag}」に関連する支援制度</h1><p className="mt-2 text-sm leading-7 text-muted">{grants.length.toLocaleString('ja-JP')}件の候補があります。ここでは24件まで表示します。</p></header>
-      {visible.length ? <div className="mt-8 grid gap-4 md:grid-cols-2">{visible.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div> : <p className="mt-8 rounded-xl border border-line bg-wash p-5 text-sm text-muted">現在掲載中の制度はありません。</p>}
+      {visible.length ? <div className="mt-8 grid gap-4 md:grid-cols-2">{visible.map((grant, index) => <GrantCard key={grant.slug} grant={grant} pageType="tag" placement="tag_results" position={index + 1} />)}</div> : <p className="mt-8 rounded-xl border border-line bg-wash p-5 text-sm text-muted">現在掲載中の制度はありません。</p>}
       <Link href={`/grants/?q=${encodeURIComponent(tag)}`} className="mt-8 inline-flex min-h-11 items-center rounded-lg bg-navy px-5 font-bold text-white">このキーワードで制度を検索する</Link>
     </main>
   );

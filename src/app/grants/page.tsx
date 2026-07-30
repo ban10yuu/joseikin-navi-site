@@ -347,7 +347,12 @@ export default async function GrantsListPage({ searchParams }: { searchParams: P
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             {result.items.map((grant, index) => (
               <Fragment key={grant.slug}>
-                <GrantCard grant={grant} />
+                <GrantCard
+                  grant={grant}
+                  pageType="listing"
+                  placement="search_results"
+                  position={(result.page - 1) * 24 + index + 1}
+                />
                 {isAdsenseEnabled && (index === 5 || index === 13) ? (
                   <div className="md:col-span-2">
                     <DisplayAdSlot placement="list" format="horizontal" className="listing-adsense-slot" />

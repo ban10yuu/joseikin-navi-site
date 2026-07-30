@@ -169,12 +169,12 @@ export default async function CategoryPage({ params }: Props) {
 
         <section className="mt-12" aria-labelledby="open-grants-title">
           <div className="flex flex-wrap items-end justify-between gap-3"><div className="home-section-heading mb-0"><p>公式情報で受付中と確認</p><h2 id="open-grants-title">受付中の制度</h2></div><Link href={`/grants/?cat=${category}&status=open`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">受付中の制度をすべて見る</Link></div>
-          {openGrants.length ? <div className="mt-5 grid gap-4 md:grid-cols-2">{openGrants.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div> : <p className="mt-5 rounded-xl border border-line bg-wash p-5 text-sm leading-7 text-muted">現在、公式情報で受付中と確認できる制度はありません。受付状況が不明な制度は受付中として扱っていません。</p>}
+          {openGrants.length ? <div className="mt-5 grid gap-4 md:grid-cols-2">{openGrants.map((grant, index) => <GrantCard key={grant.slug} grant={grant} pageType="category" placement="open_grants" position={index + 1} />)}</div> : <p className="mt-5 rounded-xl border border-line bg-wash p-5 text-sm leading-7 text-muted">現在、公式情報で受付中と確認できる制度はありません。受付状況が不明な制度は受付中として扱っていません。</p>}
         </section>
 
         <section className="mt-12 border-t border-line pt-10" aria-labelledby="category-recent-title">
           <div className="home-section-heading"><p>情報の確認日を基準に掲載</p><h2 id="category-recent-title">最近更新された制度</h2></div>
-          <div className="grid gap-4 md:grid-cols-2">{recentlyUpdated.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div>
+          <div className="grid gap-4 md:grid-cols-2">{recentlyUpdated.map((grant, index) => <GrantCard key={grant.slug} grant={grant} pageType="category" placement="recently_updated" position={index + 1} />)}</div>
         </section>
 
         {searchOpportunities.length > 0 ? (

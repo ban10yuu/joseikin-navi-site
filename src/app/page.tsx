@@ -198,7 +198,7 @@ export default async function HomePage() {
       <section className="border-b border-line bg-amber-50/60 py-10 sm:py-14" aria-labelledby="closing-heading">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="home-section-heading"><p>受付中と確認できた制度のみ</p><h2 id="closing-heading">締切が近い制度</h2></div>
-          {closingSoonGrants.length ? <div className="grid gap-4 md:grid-cols-2">{closingSoonGrants.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div> : <p className="rounded-xl border border-amber-200 bg-white p-5 text-sm leading-7 text-slate-700">現在、公式情報で受付中かつ締切間近と確認できる制度は掲載していません。受付状況が不明な制度は締切間近として扱っていません。</p>}
+          {closingSoonGrants.length ? <div className="grid gap-4 md:grid-cols-2">{closingSoonGrants.map((grant, index) => <GrantCard key={grant.slug} grant={grant} pageType="home" placement="closing_soon" position={index + 1} />)}</div> : <p className="rounded-xl border border-amber-200 bg-white p-5 text-sm leading-7 text-slate-700">現在、公式情報で受付中かつ締切間近と確認できる制度は掲載していません。受付状況が不明な制度は締切間近として扱っていません。</p>}
           <Link href="/grants/?sort=deadline" className="home-text-link">申請期限が登録された制度を確認する <span aria-hidden="true">→</span></Link>
         </div>
       </section>
@@ -206,7 +206,7 @@ export default async function HomePage() {
       <section className="border-b border-line bg-card py-10 sm:py-14" aria-labelledby="recent-heading">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="home-section-heading"><p>情報の確認日を基準に掲載</p><h2 id="recent-heading">最近更新された制度</h2></div>
-          <div className="grid gap-4 md:grid-cols-2">{recentlyUpdatedGrants.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div>
+          <div className="grid gap-4 md:grid-cols-2">{recentlyUpdatedGrants.map((grant, index) => <GrantCard key={grant.slug} grant={grant} pageType="home" placement="recently_updated" position={index + 1} />)}</div>
           <Link href="/grants/?sort=checked" className="home-text-link">最近確認した制度をもっと見る <span aria-hidden="true">→</span></Link>
         </div>
       </section>

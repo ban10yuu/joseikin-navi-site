@@ -163,19 +163,19 @@ export default async function MunicipalityPage({ params }: Props) {
             <div className="home-section-heading mb-0"><p>受付中</p><h2 id="municipality-open-title">受付中の{municipality}制度</h2></div>
             <Link href={`/grants/?pref=${encodedPrefecture}&municipality=${encodeURIComponent(municipality)}&status=open`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">受付中制度をすべて見る</Link>
           </div>
-          {openGrants.length ? <div className="mt-5 grid gap-4 md:grid-cols-2">{openGrants.slice(0, 12).map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div> : <p className="mt-5 rounded-xl border border-line bg-wash p-5 text-sm leading-7 text-muted">現在、{municipality}での受付中と確認できる制度はありません。公式情報の期限・更新日により状況は変わるため、再検索してください。</p>}
+          {openGrants.length ? <div className="mt-5 grid gap-4 md:grid-cols-2">{openGrants.slice(0, 12).map((grant, index) => <GrantCard key={grant.slug} grant={grant} pageType="municipality" placement="open_grants" position={index + 1} />)}</div> : <p className="mt-5 rounded-xl border border-line bg-wash p-5 text-sm leading-7 text-muted">現在、{municipality}での受付中と確認できる制度はありません。公式情報の期限・更新日により状況は変わるため、再検索してください。</p>}
         </section>
 
         <section className="mt-12 border-t border-line pt-10" aria-labelledby="municipality-all-title">
           <div className="home-section-heading"><p>{prefecture}・{municipality}を確認</p><h2 id="municipality-all-title">全制度</h2></div>
-          <div className="grid gap-4 md:grid-cols-2">{grants.slice(0, 24).map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div>
+          <div className="grid gap-4 md:grid-cols-2">{grants.slice(0, 24).map((grant, index) => <GrantCard key={grant.slug} grant={grant} pageType="municipality" placement="all_grants" position={index + 1} />)}</div>
         </section>
 
         <DisplayAdSlot placement="footer" format="horizontal" className="listing-adsense-slot mt-10" />
 
         <section className="mt-12 border-t border-line pt-10" aria-labelledby="municipality-recent-title">
           <div className="home-section-heading"><p>情報の確認日を基準に掲載</p><h2 id="municipality-recent-title">最近更新された制度</h2></div>
-          <div className="grid gap-4 md:grid-cols-2">{recentlyUpdated.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div>
+          <div className="grid gap-4 md:grid-cols-2">{recentlyUpdated.map((grant, index) => <GrantCard key={grant.slug} grant={grant} pageType="municipality" placement="recently_updated" position={index + 1} />)}</div>
         </section>
 
         {categoryCounts.length > 0 ? (

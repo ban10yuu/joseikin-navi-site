@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { CATEGORY_LABELS, SUPPORT_TYPE_LABELS, TYPE_LABELS, GrantCategory, GrantStatus, GrantType, SupportType } from '@/lib/types';
 import { getGrantCardCtaLabel } from '@/lib/grant-card-cta';
+import { buildGrantCardTracking } from '@/lib/grant-card-tracking';
 import { getGrantSourceStatus } from '@/lib/grant-source';
 import { getEffectiveGrantStatus, GRANT_STATUS_LABELS, isRepayableSupport } from '@/lib/grant-status';
 
@@ -38,13 +39,31 @@ const STATUS_BADGES: Partial<Record<GrantStatus, string>> = {
   suspended: 'bg-amber-50 text-amber-800 border-amber-300',
 };
 
-export default function GrantCard({ grant }: { grant: GrantCardItem }) {
+export default function GrantCard({
+  grant,
+  pageType,
+  placement,
+  position,
+}: {
+  grant: GrantCardItem;
+  pageType?: string;
+  placement?: string;
+  position?: number;
+}) {
   const status = getEffectiveGrantStatus(grant);
   const isEnded = status === 'closed';
   const sourceStatus = getGrantSourceStatus(grant);
 
   return (
-    <Link href={`/grant/${grant.slug}/`} className={`grant-card block ${isEnded ? 'is-ended' : ''}`} data-analytics-event="grant_card_click" data-page-type="listing" data-grant-id={grant.slug} data-audience={grant.primaryAudience} data-purpose={grant.primaryPurpose}>
+    <Link
+      href={`/grant/${grant.slug}/`}
+      className={`grant-card block ${isEnded ? 'is-ended' : ''}`}
+      data-analytics-event="grant_card_click"
+      data-grant-id={grant.slug}
+      data-audience={grant.primaryAudience}
+      data-purpose={grant.primaryPurpose}
+      {...buildGrantCardTracking({ pageType, placement, position })}
+    >
       <div className="grant-card-badges">
         <span className="grant-card-type">{TYPE_LABELS[grant.type]}</span>
         <span>{SUPPORT_TYPE_LABELS[grant.supportType ?? 'unknown']}</span>

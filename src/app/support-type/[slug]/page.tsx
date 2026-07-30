@@ -150,7 +150,7 @@ export default async function SupportTypePage({ params }: Props) {
             <Link href={`/grants/?supportType=${supportType}&status=open`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">受付中の{label}をすべて見る</Link>
           </div>
           {openGrants.length ? (
-            <div className="mt-5 grid gap-4 md:grid-cols-2">{openGrants.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div>
+            <div className="mt-5 grid gap-4 md:grid-cols-2">{openGrants.map((grant, index) => <GrantCard key={grant.slug} grant={grant} pageType="support_type" placement="open_grants" position={index + 1} />)}</div>
           ) : (
             <p className="mt-5 rounded-xl border border-line bg-wash p-5 text-sm leading-7 text-muted">現在、公式情報で受付中と確認できる{label}はありません。受付状況が不明な制度は受付中として扱っていません。</p>
           )}
@@ -158,7 +158,7 @@ export default async function SupportTypePage({ params }: Props) {
 
         <section className="mt-12 border-t border-line pt-10" aria-labelledby="support-type-recent-title">
           <div className="home-section-heading"><p>情報の確認日を基準に掲載</p><h2 id="support-type-recent-title">最近更新された{label}</h2></div>
-          <div className="grid gap-4 md:grid-cols-2">{recentlyUpdated.map((grant) => <GrantCard key={grant.slug} grant={grant} />)}</div>
+          <div className="grid gap-4 md:grid-cols-2">{recentlyUpdated.map((grant, index) => <GrantCard key={grant.slug} grant={grant} pageType="support_type" placement="recently_updated" position={index + 1} />)}</div>
         </section>
 
         <nav aria-label={`${label}を地域から探す`} className="mt-12 rounded-2xl bg-wash p-5 sm:p-7">
