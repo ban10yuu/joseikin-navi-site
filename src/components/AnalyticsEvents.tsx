@@ -1,9 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import { ANALYTICS_EVENTS, trackAnalyticsEvent, type AnalyticsEventName, type AnalyticsEventParameters } from '@/lib/analytics';
-
-const PARAMETER_KEYS = ['pageType', 'grantId', 'audience', 'purpose', 'offerId', 'network', 'placement', 'position', 'creativeId', 'format', 'deviceClass', 'experimentVariant'] as const;
+import { ANALYTICS_EVENTS, ANALYTICS_PARAMETER_KEYS, trackAnalyticsEvent, type AnalyticsEventName, type AnalyticsEventParameters } from '@/lib/analytics';
 
 function getDeviceClass(): string {
   if (window.innerWidth <= 768) return 'mobile';
@@ -15,7 +13,7 @@ function readEvent(element: HTMLElement, eventName?: string): { name: AnalyticsE
   const name = (eventName ?? element.dataset.analyticsEvent) as AnalyticsEventName | undefined;
   if (!name || !ANALYTICS_EVENTS.includes(name)) return null;
   const parameters: AnalyticsEventParameters = {};
-  for (const key of PARAMETER_KEYS) {
+  for (const key of ANALYTICS_PARAMETER_KEYS) {
     const value = element.dataset[key];
     if (value) parameters[key] = value;
   }
