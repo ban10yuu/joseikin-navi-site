@@ -264,6 +264,7 @@ export default async function GrantsListPage({ searchParams }: { searchParams: P
         prefecture: query.pref,
         category: query.category,
         audience: query.audience,
+        query: query.q,
       }),
       { total: initialListing.total, officialLinked: initialListing.officialLinked },
     ];

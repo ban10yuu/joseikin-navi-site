@@ -15,6 +15,12 @@ const indexPartCount = 4;
 const businessAudiences = new Set([
   'soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization',
 ]);
+const popularSearchKeywords = [
+  '子育て', '出産', '不妊', '結婚', '住宅', '住まい', '空き家', '移住',
+  '医療', '介護', '福祉', '障害', '教育', '奨学金', '就職', '雇用',
+  '創業', '起業', 'DX', 'デジタル', '省エネ', '賃上げ', '災害',
+  '生活支援', '補助金', '助成金', '給付金',
+];
 
 function hashSlug(slug) {
   let hash = 2166136261;
@@ -128,7 +134,8 @@ await build({
 
 try {
   const source = await import(`${pathToFileURL(bundlePath).href}?t=${Date.now()}`);
-  const grants = source.getAllGrantsUnfiltered().map(runtimeGrant);
+  const sourceGrants = source.getAllGrantsUnfiltered();
+  const grants = sourceGrants.map(runtimeGrant);
   const stats = source.getGrantQualityStats();
   const shards = Object.fromEntries(
     Array.from({ length: detailShardCount }, (_, index) => [
@@ -244,6 +251,14 @@ try {
       grant.category === category || grant.relatedCategories?.includes(category)
     ),
   ]));
+  const keywordFilters = Object.fromEntries(popularSearchKeywords.map((keyword) => [
+    keyword,
+    sourceGrants
+      .filter((grant) =>
+        source.buildGrantSearchText(grant).includes(keyword.toLowerCase())
+      )
+      .map(runtimeGrant),
+  ]));
   await Promise.all([
     ...Object.entries(prefectureFilters).map(([prefecture, matchingGrants]) =>
       writeFile(
@@ -271,6 +286,13 @@ try {
         'utf8'
       )
     ),
+    ...Object.entries(keywordFilters).map(([keyword, matchingGrants]) =>
+      writeFile(
+        path.join(publicRuntimeDir, `filter-keyword-${filterFileKey(keyword)}.json`),
+        `${JSON.stringify({ grants: matchingGrants.map(indexGrant) })}\n`,
+        'utf8'
+      )
+    ),
     writeFile(
       path.join(publicRuntimeDir, 'filter-manifest.json'),
       `${JSON.stringify({
@@ -285,6 +307,9 @@ try {
         ),
         audiences: Object.fromEntries(
           Object.entries(audienceFilters).map(([key, value]) => [key, value.length])
+        ),
+        keywords: Object.fromEntries(
+          Object.entries(keywordFilters).map(([key, value]) => [key, value.length])
         ),
       })}\n`,
       'utf8'

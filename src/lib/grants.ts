@@ -13,7 +13,11 @@ import {
   isManuallyVerifiedGrant,
 } from '@/lib/grant-source';
 import { isGrantExpired } from '@/lib/deadline';
-import { getSearchTokens, matchesSearchText } from '@/lib/search';
+import {
+  getSearchTokens,
+  matchesSearchText,
+  selectNarrowestSearchKeyword,
+} from '@/lib/search';
 import { calculateGrantStats } from '@/lib/grant-stats';
 
 type RuntimeIndexRow = [
@@ -53,6 +57,7 @@ interface RuntimeFilterManifest {
   prefectures: Record<string, number>;
   categories: Partial<Record<GrantCategory, number>>;
   audiences: Partial<Record<'individual' | 'business', number>>;
+  keywords: Record<string, number>;
 }
 
 interface RuntimeMunicipalityIndex {
@@ -407,9 +412,14 @@ export async function getGrantsForQueryScope(input: {
   prefecture: string | null;
   category: GrantCategory | null;
   audience: 'individual' | 'business' | null;
+  query: string;
 }): Promise<Grant[]> {
   const manifest = await loadRuntimeAsset<RuntimeFilterManifest>(
     'filter-manifest.json'
+  );
+  const keyword = selectNarrowestSearchKeyword(
+    input.query,
+    manifest.keywords ?? {}
   );
   const candidates = [
     input.prefecture && manifest.prefectures[input.prefecture] !== undefined
@@ -431,6 +441,12 @@ export async function getGrantsForQueryScope(input: {
       ? {
         count: manifest.audiences[input.audience],
         paths: [`filter-audience-${input.audience}.json`],
+      }
+      : null,
+    keyword
+      ? {
+        count: manifest.keywords[keyword],
+        paths: [`filter-keyword-${filterFileKey(keyword)}.json`],
       }
       : null,
   ]
