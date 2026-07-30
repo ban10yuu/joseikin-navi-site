@@ -4,7 +4,7 @@ import { getCanonicalRedirectUrl } from '@/lib/host-redirect';
 import { getPathRedirectUrl } from '@/lib/redirects';
 import { getStaticListingRewriteUrl } from '@/lib/static-listing-route';
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const canonicalDestination = getCanonicalRedirectUrl(
     request.nextUrl,
     request.nextUrl.hostname
