@@ -35,6 +35,8 @@ const grants = getAllGrantsUnfiltered();
 const issues = [];
 const addIssue = (severity, code, grant, message) => issues.push({ severity, code, slug: grant?.slug ?? '', title: grant?.title ?? '', message });
 const forbidden = /助成金診断クイズ|全国2,500件以上|必要書類チェックリストを掲載しています|公式サイトで申請する|必ず受給できる|条件を満たせばほぼ確実|申請すれば受け取れる/;
+const petSterilizationTitle = /(?:猫|犬).*(?:不妊|去勢)|(?:不妊|去勢).*(?:猫|犬)/;
+const humanInfertilityContext = /不妊治療|不育症|夫婦/;
 const tokyoDateParts = new Intl.DateTimeFormat('en-US', {
   timeZone: 'Asia/Tokyo',
   year: 'numeric',
@@ -59,6 +61,9 @@ for (const grant of grants) {
   if (grant.contentStatus === 'needsReview' && grant.indexStatus === 'index') addIssue('critical', 'INDEX_NEEDS_REVIEW', grant, '修正待ちの制度がindex対象です。');
   if (isGrantExpired(grant) && ['open', 'closingSoon'].includes(grant.statusOverride ?? grant.status ?? '')) addIssue('critical', 'EXPIRED_OPEN', grant, '期限切れですが受付中の状態が残っています。');
   if (/貸付|融資/.test(grant.title) && !isRepayableSupport(grant.supportType)) addIssue('warning', 'LOAN_TYPE_MISMATCH', grant, '貸付を示す制度名ですが貸付種別ではありません。');
+  if (petSterilizationTitle.test(grant.title) && humanInfertilityContext.test(grant.eligibility ?? '')) {
+    addIssue('critical', 'PET_HUMAN_ELIGIBILITY_MISMATCH', grant, '犬猫の不妊去勢制度に、人向け不妊治療の対象者説明が設定されています。');
+  }
   const publicText = [grant.title, grant.description, grant.eligibility, ...grant.sections.flatMap((section) => [section.heading, section.content])].join('\n');
   if (containsInternalAuditText(publicText)) addIssue('critical', 'INTERNAL_AUDIT_PUBLIC', grant, '公開用本文に内部監査文言が残っています。');
   if (forbidden.test(publicText)) addIssue('critical', 'FORBIDDEN_COPY', grant, '公開禁止表現が残っています。');
