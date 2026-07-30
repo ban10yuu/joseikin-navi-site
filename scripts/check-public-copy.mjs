@@ -18,6 +18,7 @@ export const PUBLIC_COPY_RULES = [
   '既存データに重複がないことを確認',
   '新規公式確認済み制度として追加',
   '補正理由',
+  'Search Consoleで表示がある',
 ];
 
 export function findPublicCopyViolations(files) {

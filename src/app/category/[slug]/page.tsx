@@ -179,7 +179,7 @@ export default async function CategoryPage({ params }: Props) {
 
         {searchOpportunities.length > 0 ? (
           <section className="mt-12 border-t border-line pt-10" aria-labelledby="category-search-opportunity-title">
-            <div className="home-section-heading"><p>Search Consoleで表示があるテーマ</p><h2 id="category-search-opportunity-title">よく検索されている{label}の制度</h2></div>
+            <div className="home-section-heading"><p>制度名や地域名から探されている情報</p><h2 id="category-search-opportunity-title">よく検索されている{label}の制度</h2></div>
             <div className="home-query-link-grid">
               {searchOpportunities.map((item) => (
                 <Link key={item.label} href={item.href}>

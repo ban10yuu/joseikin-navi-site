@@ -37,4 +37,16 @@ describe('findPublicCopyViolations', () => {
 
     assert.deepEqual(result, []);
   });
+
+  it('内部計測サービス名を公開ページへ表示しない', () => {
+    const result = findPublicCopyViolations([
+      {
+        path: 'src/app/example/page.tsx',
+        content: '<p>Search Consoleで表示があるテーマ</p>',
+      },
+    ]);
+
+    assert.equal(result.length, 1);
+    assert.equal(result[0].phrase, 'Search Consoleで表示がある');
+  });
 });

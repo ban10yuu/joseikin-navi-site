@@ -166,7 +166,7 @@ export default async function PrefecturePage({ params }: Props) {
 
         {searchOpportunities.length > 0 ? (
           <section className="mt-12 border-t border-line pt-10" aria-labelledby="pref-search-opportunity-title">
-            <div className="home-section-heading"><p>Search Consoleで表示がある地域テーマ</p><h2 id="pref-search-opportunity-title">{prefecture}でよく検索されている制度</h2></div>
+            <div className="home-section-heading"><p>地域名と制度名から探されている情報</p><h2 id="pref-search-opportunity-title">{prefecture}でよく検索されている制度</h2></div>
             <div className="home-query-link-grid">
               {searchOpportunities.map((item) => (
                 <Link key={item.label} href={item.href}>
