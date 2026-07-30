@@ -48,10 +48,43 @@ describe('Search Console実測クエリの詳細ページ改善', () => {
     }
   });
 
+  it('渋谷区の住み替え検索を内容が一致する制度へ案内する', () => {
+    const opportunity = SEARCH_CONSOLE_OPPORTUNITIES.find(
+      (item) => item.observedQuery === '渋谷区 住み替え'
+    );
+
+    assert.deepEqual(opportunity?.grantSlugs, ['shibuya-housing-purchase']);
+    assert.equal(opportunity?.href, '/grant/shibuya-housing-purchase/');
+    assert.match(opportunity?.seoTitle ?? '', /住み替え家賃補助/u);
+    assert.match(opportunity?.shortAnswer ?? '', /月額上限1万円/u);
+    assert.equal(
+      SEARCH_CONSOLE_OPPORTUNITIES.some((item) =>
+        item.grantSlugs?.includes('shibuya-housing-subsidy')),
+      false
+    );
+  });
+
   it('検索結果向けの説明文は160文字以内に収まる', () => {
     for (const opportunity of SEARCH_CONSOLE_OPPORTUNITIES) {
       if (!opportunity.metaDescription) continue;
       assert.ok(opportunity.metaDescription.length <= 160, opportunity.observedQuery);
     }
+  });
+
+  it('制度詳細への導線と優先slugを同じURLに保つ', () => {
+    const prioritySlugs = [];
+
+    for (const opportunity of SEARCH_CONSOLE_OPPORTUNITIES) {
+      if (!opportunity.grantSlugs?.length) continue;
+      assert.equal(opportunity.grantSlugs.length, 1, opportunity.observedQuery);
+      assert.equal(
+        opportunity.href,
+        `/grant/${opportunity.grantSlugs[0]}/`,
+        opportunity.observedQuery
+      );
+      prioritySlugs.push(opportunity.grantSlugs[0]);
+    }
+
+    assert.equal(new Set(prioritySlugs).size, prioritySlugs.length);
   });
 });
