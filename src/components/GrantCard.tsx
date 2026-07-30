@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { CATEGORY_LABELS, SUPPORT_TYPE_LABELS, TYPE_LABELS, GrantCategory, GrantStatus, GrantType, SupportType } from '@/lib/types';
+import { getGrantCardCtaLabel } from '@/lib/grant-card-cta';
 import { getGrantSourceStatus } from '@/lib/grant-source';
 import { getEffectiveGrantStatus, GRANT_STATUS_LABELS, isRepayableSupport } from '@/lib/grant-status';
 
@@ -43,7 +44,7 @@ export default function GrantCard({ grant }: { grant: GrantCardItem }) {
   const sourceStatus = getGrantSourceStatus(grant);
 
   return (
-    <Link href={`/grant/${grant.slug}/`} className={`grant-card block ${isEnded ? 'opacity-60' : ''}`} data-analytics-event="grant_card_click" data-page-type="listing" data-grant-id={grant.slug} data-audience={grant.primaryAudience} data-purpose={grant.primaryPurpose}>
+    <Link href={`/grant/${grant.slug}/`} className={`grant-card block ${isEnded ? 'is-ended' : ''}`} data-analytics-event="grant_card_click" data-page-type="listing" data-grant-id={grant.slug} data-audience={grant.primaryAudience} data-purpose={grant.primaryPurpose}>
       <div className="grant-card-badges">
         <span className="grant-card-type">{TYPE_LABELS[grant.type]}</span>
         <span>{SUPPORT_TYPE_LABELS[grant.supportType ?? 'unknown']}</span>
@@ -89,7 +90,7 @@ export default function GrantCard({ grant }: { grant: GrantCardItem }) {
         <span className={sourceStatus.level === 'human' ? 'is-verified' : ''}>
           {grant.verifiedAt ? `自動照合日：${grant.verifiedAt}` : sourceStatus.label}
         </span>
-        <span className="grant-card-link">詳しく見る <span aria-hidden="true">→</span></span>
+        <span className="grant-card-link">{getGrantCardCtaLabel(status)} <span aria-hidden="true">→</span></span>
       </div>
     </Link>
   );

@@ -1826,10 +1826,23 @@ body {
 }
 
 .grant-card-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
   flex-shrink: 0;
-  color: #2557a7;
+  padding: 0.45rem 0.7rem;
+  border-radius: 6px;
+  background: #e9f0fb;
+  color: #173f7a;
   font-size: 0.75rem;
   font-weight: 800;
+  line-height: 1.35;
+  text-align: right;
+}
+
+.grant-card.is-ended {
+  border-color: #d9d4c8;
+  background: #fafaf9;
 }
 
 .grant-card:hover {
@@ -3295,6 +3308,18 @@ body {
 
   .grant-card-facts {
     grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  }
+
+  .grant-card-footer {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .grant-card-link {
+    justify-content: center;
+    width: 100%;
+    min-height: 44px;
+    text-align: center;
   }
 
   .amount-badge {
