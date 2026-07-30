@@ -2,6 +2,7 @@ import type { NextConfig } from 'next';
 import { initOpenNextCloudflareForDev } from '@opennextjs/cloudflare';
 import { REDIRECTS } from './src/data/redirects';
 import { AFFILIATE_HOST_ALLOWLIST } from './src/config/affiliate-security';
+import { DYNAMIC_HTML_CDN_CACHE_CONTROL } from './src/config/cache-policy';
 
 initOpenNextCloudflareForDev();
 
@@ -45,14 +46,14 @@ const nextConfig: NextConfig = {
       {
         source: '/grants/',
         headers: [
-          { key: 'Vercel-CDN-Cache-Control', value: 'public, s-maxage=3600, stale-while-revalidate=86400' },
-          { key: 'Cloudflare-CDN-Cache-Control', value: 'public, s-maxage=3600, stale-while-revalidate=86400' },
+          { key: 'Vercel-CDN-Cache-Control', value: DYNAMIC_HTML_CDN_CACHE_CONTROL },
+          { key: 'Cloudflare-CDN-Cache-Control', value: DYNAMIC_HTML_CDN_CACHE_CONTROL },
         ],
       },
       {
         source: '/grant/:path*',
         headers: [
-          { key: 'Cloudflare-CDN-Cache-Control', value: 'public, s-maxage=86400, stale-while-revalidate=604800' },
+          { key: 'Cloudflare-CDN-Cache-Control', value: DYNAMIC_HTML_CDN_CACHE_CONTROL },
         ],
       },
     ];
