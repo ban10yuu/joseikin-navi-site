@@ -290,6 +290,22 @@ export default async function GrantsListPage({ searchParams }: { searchParams: P
       </div>
 
       <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+        <nav aria-label="目的別の支援制度" className="mb-6 rounded-2xl border border-line bg-white p-4 shadow-sm sm:p-5">
+          <p className="text-sm font-black text-navy">よく使われる目的から探す</p>
+          <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-4 lg:grid-cols-8">
+            {Object.entries(CATEGORY_LABELS).map(([slug, label]) => (
+              <Link
+                key={slug}
+                href={`/category/${slug}/`}
+                className="inline-flex min-h-11 items-center justify-center rounded-lg border border-line bg-wash px-3 py-2 text-center text-sm font-bold leading-5 text-navy hover:border-navy hover:bg-white focus:outline-none focus:ring-2 focus:ring-navy focus:ring-offset-2"
+              >
+                {label}
+                <span className="sr-only">の支援制度を探す</span>
+              </Link>
+            ))}
+          </div>
+        </nav>
+
         <details open={focusSearch || hasSearchConditions(rawParams)} className="mb-6 rounded-xl border border-line bg-card p-4 lg:hidden">
           <summary className="min-h-11 cursor-pointer py-2 font-bold text-navy">検索条件を指定する</summary>
           <div className="pt-5"><SearchFields query={query} idPrefix="mobile" /></div>

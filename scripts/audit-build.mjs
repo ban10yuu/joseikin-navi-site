@@ -73,7 +73,7 @@ const expectedInitialHomeAffiliateCount = Math.min(4, getEligibleAffiliateOffers
   limit: 8,
 }).length);
 const add = (severity, code, route, message) => issues.push({ severity, code, route, message });
-const dynamicPrefixes = ['/grants/', '/grant/', '/municipality/', '/tag/'];
+const dynamicPrefixes = ['/grants/', '/grant/', '/tag/'];
 const assetsPrefixes = ['/_next/', '/images/', '/favicon', '/apple-icon', '/api/'];
 const searchPriorityRoutes = new Set(
   SEARCH_CONSOLE_OPPORTUNITIES

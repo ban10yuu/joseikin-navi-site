@@ -6,7 +6,6 @@ import GrantCard from '@/components/GrantCard';
 import { BreadcrumbJsonLd, CollectionJsonLd } from '@/components/JsonLd';
 import { MIN_INDEXABLE_MUNICIPALITY_GRANTS, getGrantsByMunicipality, getMunicipalityGroups, getMunicipalitiesForPrefecture } from '@/lib/grants';
 import { GRANT_STATUS_LABELS, getEffectiveGrantStatus } from '@/lib/grant-status';
-import { selectMunicipalityPrerenderGroups } from '@/lib/municipality-prerender';
 import { municipalityMeta } from '@/lib/seo-metadata';
 import { toSiteUrl } from '@/lib/site-url';
 import { CATEGORY_LABELS, PREFECTURES, type GrantCategory } from '@/lib/types';
@@ -14,9 +13,6 @@ import { CATEGORY_LABELS, PREFECTURES, type GrantCategory } from '@/lib/types';
 interface Props {
   params: Promise<{ prefecture: string; municipality: string }>;
 }
-
-export const dynamicParams = true;
-export const revalidate = 86400;
 
 function decodeSegment(value: string): string {
   try {
@@ -34,10 +30,7 @@ function slugToPrefecture(slug: string): string | undefined {
 }
 
 export async function generateStaticParams() {
-  return selectMunicipalityPrerenderGroups(
-    await getMunicipalityGroups(),
-    300
-  ).map((group) => ({
+  return (await getMunicipalityGroups()).map((group) => ({
     prefecture: group.prefecture,
     municipality: group.municipality,
   }));
