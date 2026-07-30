@@ -97,6 +97,7 @@ const detailShardCount = 256;
 const relatedShardCount = 64;
 const searchCatalogPartCount = 8;
 const searchCardShardCount = 128;
+const runtimeFilterManifestFile = 'filter-manifest-v2.json';
 let repositoryPromise: Promise<GrantRepository> | null = null;
 let municipalityIndexPromise: Promise<RuntimeMunicipalityIndex> | null = null;
 let searchCatalogPromise: Promise<SearchCatalogRow[]> | null = null;
@@ -502,7 +503,7 @@ export async function getGrantsForQueryScope(input: {
   query: string;
 }): Promise<Grant[]> {
   const manifest = await loadRuntimeAsset<RuntimeFilterManifest>(
-    'filter-manifest.json'
+    runtimeFilterManifestFile
   );
   const keyword = selectNarrowestSearchKeyword(
     input.query,

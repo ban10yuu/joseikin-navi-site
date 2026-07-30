@@ -15,6 +15,7 @@ const relatedCardShardCount = 256;
 const indexPartCount = 4;
 const searchCatalogPartCount = 8;
 const searchCardShardCount = 128;
+const filterManifestFile = 'filter-manifest-v2.json';
 const businessAudiences = new Set([
   'soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization',
 ]);
@@ -353,7 +354,7 @@ try {
       )
     ),
     writeFile(
-      path.join(publicRuntimeDir, 'filter-manifest.json'),
+      path.join(publicRuntimeDir, filterManifestFile),
       `${JSON.stringify({
         prefectures: Object.fromEntries(
           Object.entries(prefectureFilters).map(([key, value]) => [
