@@ -12,6 +12,8 @@ const detailShardCount = 256;
 const relatedShardCount = 64;
 const relatedCardShardCount = 256;
 const indexPartCount = 4;
+const searchCatalogPartCount = 8;
+const searchCardShardCount = 128;
 const businessAudiences = new Set([
   'soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization',
 ]);
@@ -44,8 +46,33 @@ function relatedCardShard(slug) {
     .padStart(2, '0');
 }
 
+function searchCardShard(slug) {
+  return (hashSlug(slug) % searchCardShardCount)
+    .toString(16)
+    .padStart(2, '0');
+}
+
 function filterFileKey(value) {
   return hashSlug(value).toString(16).padStart(8, '0');
+}
+
+function compactSearchText(grant) {
+  return [
+    grant.title,
+    grant.organization,
+    grant.maxAmount,
+    grant.description,
+    grant.eligibility,
+    grant.applicationPeriod,
+    grant.prefecture,
+    grant.category,
+    grant.sourceName,
+    ...grant.tags,
+  ]
+    .filter(Boolean)
+    .join(' ')
+    .replace(/\s+/g, ' ')
+    .toLowerCase();
 }
 
 function runtimeGrant(grant) {
@@ -178,21 +205,58 @@ try {
   );
   const indexRows = grants.map(indexGrant);
   const indexPartSize = Math.ceil(indexRows.length / indexPartCount);
+  const searchCatalogRows = grants.map((grant) => [
+    grant.slug,
+    compactSearchText(grant),
+  ]);
+  const searchCatalogPartSize = Math.ceil(
+    searchCatalogRows.length / searchCatalogPartCount
+  );
+  const searchCardShards = Object.fromEntries(
+    Array.from({ length: searchCardShardCount }, (_, index) => [
+      index.toString(16).padStart(2, '0'),
+      [],
+    ])
+  );
+  indexRows.forEach((row) => {
+    searchCardShards[searchCardShard(row[0])].push(row);
+  });
   await Promise.all(
-    Array.from({ length: indexPartCount }, (_, index) =>
-      writeFile(
-        path.join(publicRuntimeDir, `index-${index}.json`),
-        `${JSON.stringify({
-          grants: indexRows.slice(
-            index * indexPartSize,
-            (index + 1) * indexPartSize
-          ),
-          duplicatedSlugsRemoved:
-            index === 0 ? stats.duplicatedSlugsRemoved : 0,
-        })}\n`,
-        'utf8'
-      )
-    )
+    [
+      ...Array.from({ length: indexPartCount }, (_, index) =>
+        writeFile(
+          path.join(publicRuntimeDir, `index-${index}.json`),
+          `${JSON.stringify({
+            grants: indexRows.slice(
+              index * indexPartSize,
+              (index + 1) * indexPartSize
+            ),
+            duplicatedSlugsRemoved:
+              index === 0 ? stats.duplicatedSlugsRemoved : 0,
+          })}\n`,
+          'utf8'
+        )
+      ),
+      ...Array.from({ length: searchCatalogPartCount }, (_, index) =>
+        writeFile(
+          path.join(publicRuntimeDir, `search-catalog-${index}.json`),
+          `${JSON.stringify({
+            grants: searchCatalogRows.slice(
+              index * searchCatalogPartSize,
+              (index + 1) * searchCatalogPartSize
+            ),
+          })}\n`,
+          'utf8'
+        )
+      ),
+      ...Object.entries(searchCardShards).map(([shard, rows]) =>
+        writeFile(
+          path.join(publicRuntimeDir, `search-card-${shard}.json`),
+          `${JSON.stringify({ grants: rows })}\n`,
+          'utf8'
+        )
+      ),
+    ]
   );
   const initialListingGrants = source
     .getOfficialLinkedGrants()

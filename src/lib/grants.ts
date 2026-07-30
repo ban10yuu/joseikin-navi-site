@@ -18,6 +18,10 @@ import {
   matchesSearchText,
   selectNarrowestSearchKeyword,
 } from '@/lib/search';
+import {
+  findSearchCatalogSlugs,
+  type SearchCatalogRow,
+} from '@/lib/search-catalog';
 import { calculateGrantStats } from '@/lib/grant-stats';
 import {
   MIN_INDEXABLE_MUNICIPALITY_GRANTS,
@@ -68,6 +72,14 @@ interface RuntimeMunicipalityIndex {
   municipalities: Record<string, number>;
 }
 
+interface RuntimeSearchCatalog {
+  grants: SearchCatalogRow[];
+}
+
+interface RuntimeSearchCardCatalog {
+  grants: RuntimeIndexRow[];
+}
+
 interface GrantRepository {
   allGrants: NormalizedGrant[];
   publishedGrants: NormalizedGrant[];
@@ -83,13 +95,18 @@ const runtimeAssetRoot = 'data/grants-runtime';
 const runtimeIndexPartCount = 4;
 const detailShardCount = 256;
 const relatedShardCount = 64;
+const searchCatalogPartCount = 8;
+const searchCardShardCount = 128;
 let repositoryPromise: Promise<GrantRepository> | null = null;
 let municipalityIndexPromise: Promise<RuntimeMunicipalityIndex> | null = null;
+let searchCatalogPromise: Promise<SearchCatalogRow[]> | null = null;
 const detailShardPromises = new Map<string, Promise<NormalizedGrant[]>>();
 const relatedShardPromises =
   new Map<string, Promise<Record<string, string[]>>>();
 const relatedCardShardPromises =
   new Map<string, Promise<Record<string, RuntimeRelatedRow>>>();
+const searchCardShardPromises =
+  new Map<string, Promise<RuntimeIndexRow[]>>();
 
 function hashSlug(slug: string): number {
   let hash = 2166136261;
@@ -109,6 +126,12 @@ function relatedShard(slug: string): string {
 
 function relatedCardShard(slug: string): string {
   return (hashSlug(slug) % 256).toString(16).padStart(2, '0');
+}
+
+function searchCardShard(slug: string): string {
+  return (hashSlug(slug) % searchCardShardCount)
+    .toString(16)
+    .padStart(2, '0');
 }
 
 function filterFileKey(value: string): string {
@@ -259,6 +282,63 @@ async function loadDetailShard(slug: string): Promise<NormalizedGrant[]> {
     detailShardPromises.set(shard, promise);
   }
   return promise;
+}
+
+async function loadSearchCatalog(): Promise<SearchCatalogRow[]> {
+  if (!searchCatalogPromise) {
+    searchCatalogPromise = Promise.all(
+      Array.from({ length: searchCatalogPartCount }, (_, index) =>
+        loadRuntimeAsset<RuntimeSearchCatalog>(
+          `search-catalog-${index}.json`
+        )
+      )
+    ).then((catalogs) => catalogs.flatMap((catalog) => catalog.grants));
+  }
+  return searchCatalogPromise;
+}
+
+async function loadSearchCardShard(
+  slug: string
+): Promise<RuntimeIndexRow[]> {
+  const shard = searchCardShard(slug);
+  let promise = searchCardShardPromises.get(shard);
+  if (!promise) {
+    promise = loadRuntimeAsset<RuntimeSearchCardCatalog>(
+      `search-card-${shard}.json`
+    ).then((catalog) => catalog.grants);
+    searchCardShardPromises.set(shard, promise);
+  }
+  return promise;
+}
+
+async function getArbitrarySearchCandidates(
+  query: string
+): Promise<Grant[]> {
+  const matchedSlugs = findSearchCatalogSlugs(
+    await loadSearchCatalog(),
+    query
+  );
+  if (matchedSlugs.length === 0) return [];
+
+  const matchedSlugSet = new Set(matchedSlugs);
+  const shards = await Promise.all(
+    Array.from(new Set(matchedSlugs.map(searchCardShard))).map((shard) => {
+      const firstSlug = matchedSlugs.find(
+        (slug) => searchCardShard(slug) === shard
+      );
+      return firstSlug ? loadSearchCardShard(firstSlug) : [];
+    })
+  );
+  const rowsBySlug = new Map(
+    shards
+      .flat()
+      .filter((row) => matchedSlugSet.has(row[0]))
+      .map((row) => [row[0], row])
+  );
+  return matchedSlugs
+    .map((slug) => rowsBySlug.get(slug))
+    .filter((row): row is RuntimeIndexRow => Boolean(row))
+    .map(decodeIndexGrant);
 }
 
 async function loadRelatedShard(
@@ -462,7 +542,11 @@ export async function getGrantsForQueryScope(input: {
     )
     .sort((left, right) => left.count - right.count);
 
-  if (candidates.length === 0) return getAllGrantsUnfiltered();
+  if (candidates.length === 0) {
+    return input.query.trim()
+      ? getArbitrarySearchCandidates(input.query)
+      : getAllGrantsUnfiltered();
+  }
   const catalogs = await Promise.all(
     candidates[0].paths.map((path) =>
       loadRuntimeAsset<RuntimeFilterCatalog>(path)
