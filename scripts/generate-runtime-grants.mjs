@@ -2,6 +2,7 @@ import { build } from 'esbuild';
 import { mkdir, rm, writeFile } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
 import path from 'node:path';
+import { POPULAR_SEARCH_KEYWORDS } from './lib/popular-search-keywords.mjs';
 
 const root = process.cwd();
 const generatedDir = path.join(root, 'src', 'generated');
@@ -17,12 +18,6 @@ const searchCardShardCount = 128;
 const businessAudiences = new Set([
   'soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization',
 ]);
-const popularSearchKeywords = [
-  '子育て', '出産', '不妊', '結婚', '住宅', '住まい', '空き家', '移住',
-  '医療', '介護', '福祉', '障害', '教育', '奨学金', '就職', '雇用',
-  '創業', '起業', 'DX', 'デジタル', '省エネ', '賃上げ', '災害',
-  '生活支援', '補助金', '助成金', '給付金',
-];
 
 function hashSlug(slug) {
   let hash = 2166136261;
@@ -315,7 +310,7 @@ try {
       grant.category === category || grant.relatedCategories?.includes(category)
     ),
   ]));
-  const keywordFilters = Object.fromEntries(popularSearchKeywords.map((keyword) => [
+  const keywordFilters = Object.fromEntries(POPULAR_SEARCH_KEYWORDS.map((keyword) => [
     keyword,
     sourceGrants
       .filter((grant) =>
