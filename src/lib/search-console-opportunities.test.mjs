@@ -48,6 +48,15 @@ describe('Search Console実測クエリの詳細ページ改善', () => {
     }
   });
 
+  it('制度詳細へ案内する実測クエリは検索結果文と冒頭回答を持つ', () => {
+    for (const opportunity of SEARCH_CONSOLE_OPPORTUNITIES) {
+      if (!opportunity.grantSlugs?.length) continue;
+      assert.ok(opportunity.seoTitle, opportunity.observedQuery);
+      assert.ok(opportunity.metaDescription, opportunity.observedQuery);
+      assert.ok(opportunity.shortAnswer, opportunity.observedQuery);
+    }
+  });
+
   it('渋谷区の住み替え検索を内容が一致する制度へ案内する', () => {
     const opportunity = SEARCH_CONSOLE_OPPORTUNITIES.find(
       (item) => item.observedQuery === '渋谷区 住み替え'
