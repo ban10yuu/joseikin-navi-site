@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import DisplayAdSlot from '@/components/DisplayAdSlot';
 import GrantCard from '@/components/GrantCard';
+import { BreadcrumbJsonLd, GrantCollectionJsonLd } from '@/components/JsonLd';
 import { isAdsenseEnabled } from '@/config/site';
 import { getGrantsForQueryScope, getInitialGrantListing } from '@/lib/grants';
 import { GRANT_STATUS_LABELS } from '@/lib/grant-status';
@@ -279,6 +280,21 @@ export default async function GrantsListPage({ searchParams }: { searchParams: P
 
   return (
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: 'ホーム', url: toSiteUrl('/') },
+          { name: '制度を探す', url: toSiteUrl('/grants/') },
+        ]}
+      />
+      <GrantCollectionJsonLd
+        name="補助金・助成金・給付金を検索"
+        description="全国の補助金・助成金・給付金を、地域、対象、目的、制度種別から探せます。"
+        url={toSiteUrl('/grants/')}
+        items={result.items.map((grant) => ({
+          name: grant.title,
+          url: toSiteUrl(`/grant/${grant.slug}/`),
+        }))}
+      />
       <div className="border-b-4 border-accent bg-navy py-10 sm:py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <nav aria-label="パンくず" className="mb-4 text-xs text-white/70"><Link href="/" className="hover:underline">ホーム</Link><span className="mx-2" aria-hidden="true">/</span><span aria-current="page">制度を探す</span></nav>
@@ -365,7 +381,6 @@ export default async function GrantsListPage({ searchParams }: { searchParams: P
         </aside>
       </main>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'CollectionPage', name: '支援制度を探す', url: toSiteUrl('/grants/'), numberOfItems: stats.officialLinked }) }} />
     </>
   );
 }
