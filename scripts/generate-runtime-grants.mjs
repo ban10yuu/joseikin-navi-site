@@ -203,6 +203,25 @@ try {
     })}\n`,
     'utf8'
   );
+  const municipalityCounts = new Map();
+  source.getOfficialLinkedGrants().forEach((grant) => {
+    if (!grant.prefecture || grant.prefecture === '全国' || !grant.municipality) {
+      return;
+    }
+    const key = `${grant.prefecture}\u001f${grant.municipality}`;
+    municipalityCounts.set(key, (municipalityCounts.get(key) ?? 0) + 1);
+  });
+  await writeFile(
+    path.join(publicRuntimeDir, 'municipality-index.json'),
+    `${JSON.stringify({
+      municipalities: Object.fromEntries(
+        [...municipalityCounts.entries()]
+          .filter(([, count]) => count >= source.MIN_INDEXABLE_MUNICIPALITY_GRANTS)
+          .sort(([left], [right]) => left.localeCompare(right))
+      ),
+    })}\n`,
+    'utf8'
+  );
   const prefectures = [...new Set(grants.map((grant) => grant.prefecture))]
     .filter((prefecture) => prefecture !== '全国');
   const categories = [...new Set(grants.flatMap((grant) => [

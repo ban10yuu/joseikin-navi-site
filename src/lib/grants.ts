@@ -55,6 +55,10 @@ interface RuntimeFilterManifest {
   audiences: Partial<Record<'individual' | 'business', number>>;
 }
 
+interface RuntimeMunicipalityIndex {
+  municipalities: Record<string, number>;
+}
+
 interface GrantRepository {
   allGrants: NormalizedGrant[];
   publishedGrants: NormalizedGrant[];
@@ -71,6 +75,7 @@ const runtimeIndexPartCount = 4;
 const detailShardCount = 256;
 const relatedShardCount = 64;
 let repositoryPromise: Promise<GrantRepository> | null = null;
+let municipalityIndexPromise: Promise<RuntimeMunicipalityIndex> | null = null;
 const detailShardPromises = new Map<string, Promise<NormalizedGrant[]>>();
 const relatedShardPromises =
   new Map<string, Promise<Record<string, string[]>>>();
@@ -563,6 +568,24 @@ export async function getMunicipalitiesForPrefecture(
       right.count - left.count ||
       left.municipality.localeCompare(right.municipality)
     );
+}
+
+export async function getIndexableMunicipalityHref(
+  prefecture: string,
+  municipality: string | null | undefined
+): Promise<string | null> {
+  if (!municipality || !prefecture || prefecture === '全国') return null;
+  if (!municipalityIndexPromise) {
+    municipalityIndexPromise = loadRuntimeAsset<RuntimeMunicipalityIndex>(
+      'municipality-index.json'
+    );
+  }
+  const index = await municipalityIndexPromise;
+  const key = `${prefecture}\u001f${municipality}`;
+  if ((index.municipalities[key] ?? 0) < MIN_INDEXABLE_MUNICIPALITY_GRANTS) {
+    return null;
+  }
+  return `/municipality/${encodeURIComponent(prefecture)}/${encodeURIComponent(municipality)}/`;
 }
 
 export async function getGrantsBySupportType(

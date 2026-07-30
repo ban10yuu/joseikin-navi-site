@@ -12,6 +12,7 @@ import MobileOfficialCta from '@/components/MobileOfficialCta';
 import {
   getGrantBySlug,
   getGrantSourceStatus,
+  getIndexableMunicipalityHref,
   getOfficialLinkedGrants,
   getRecentlyUpdatedGrants,
   getRelatedGrants,
@@ -112,6 +113,7 @@ export default async function GrantDetailPage({ params }: Props) {
   const eligibilityItems = splitEligibilityText(grant.eligibility);
   const purpose = grant.primaryPurpose;
   const hasPrefectureHub = (PREFECTURES as readonly string[]).includes(grant.prefecture) && grant.prefecture !== '全国';
+  const municipalityHref = await getIndexableMunicipalityHref(grant.prefecture, grant.municipality);
   const businessAudience = ['soleProprietor', 'business', 'nonprofit', 'researcher', 'localOrganization'].includes(grant.primaryAudience ?? '');
   const affiliateContextTexts = [
     grant.title,
@@ -342,7 +344,7 @@ export default async function GrantDetailPage({ params }: Props) {
 
           {related.length > 0 && <section className="grant-related" aria-labelledby="related-grants-title"><div className="home-section-heading"><p>対象・目的・地域が近い制度</p><h2 id="related-grants-title">関連する制度</h2></div><div className="grant-related-grid">{related.map((item) => <GrantCard key={item.slug} grant={item} />)}</div></section>}
 
-          <nav aria-label="この制度に関連する検索" className="mt-8 rounded-xl border border-line bg-wash p-5"><h2 className="text-lg font-black text-navy">条件が近い制度を探す</h2><div className="mt-3 flex flex-wrap gap-3">{hasPrefectureHub ? <Link href={`/prefecture/${encodeURIComponent(grant.prefecture)}/`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">{grant.prefecture}の補助金・助成金</Link> : <Link href="/grants/" className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">全国の支援制度</Link>}{purpose && <Link href={`/grants/?purpose=${purpose}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">同じ目的の制度</Link>}<Link href={`/grants/?audience=${businessAudience ? 'business' : 'individual'}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">同じ対象区分の制度</Link>{grant.supportType && grant.supportType !== 'unknown' && <Link href={`/support-type/${grant.supportType}/`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">同じ制度種別</Link>}<Link href="/guide/" className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">申請前ガイド</Link></div></nav>
+          <nav aria-label="この制度に関連する検索" className="mt-8 rounded-xl border border-line bg-wash p-5"><h2 className="text-lg font-black text-navy">条件が近い制度を探す</h2><div className="mt-3 flex flex-wrap gap-3">{municipalityHref && grant.municipality ? <Link href={municipalityHref} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">{grant.municipality}の補助金・助成金</Link> : null}{hasPrefectureHub ? <Link href={`/prefecture/${encodeURIComponent(grant.prefecture)}/`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">{grant.prefecture}の補助金・助成金</Link> : <Link href="/grants/" className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">全国の支援制度</Link>}{purpose && <Link href={`/grants/?purpose=${purpose}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">同じ目的の制度</Link>}<Link href={`/grants/?audience=${businessAudience ? 'business' : 'individual'}`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">同じ対象区分の制度</Link>{grant.supportType && grant.supportType !== 'unknown' && <Link href={`/support-type/${grant.supportType}/`} className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">同じ制度種別</Link>}<Link href="/guide/" className="min-h-11 py-2 font-bold text-navy underline underline-offset-4">申請前ガイド</Link></div></nav>
 
           {secondaryAffiliateOffers.length > 0 ? (
             <ResponsiveAffiliatePlacement

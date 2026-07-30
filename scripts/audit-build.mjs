@@ -8,6 +8,7 @@ import { getEligibleAffiliateOffers } from '../src/lib/monetization.ts';
 const root = process.cwd();
 const appRoot = path.join(root, '.next', 'server', 'app');
 if (!fs.existsSync(appRoot)) throw new Error('.next/server/app がありません。先に npm run build を実行してください。');
+const runtimeDataRoot = path.join(root, 'public', 'data', 'grants-runtime');
 
 function walk(directory) {
   return fs.readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
@@ -49,6 +50,18 @@ const pages = files.map((file) => {
   };
 });
 const routes = new Set(pages.map((page) => normalizeRoute(page.route)));
+const municipalityIndex = JSON.parse(
+  fs.readFileSync(path.join(runtimeDataRoot, 'municipality-index.json'), 'utf8')
+).municipalities;
+const detailGrantBySlug = new Map();
+for (const fileName of fs.readdirSync(runtimeDataRoot).filter((fileName) =>
+  /^detail-[0-9a-f]{2}\.json$/.test(fileName)
+)) {
+  const grants = JSON.parse(
+    fs.readFileSync(path.join(runtimeDataRoot, fileName), 'utf8')
+  );
+  for (const grant of grants) detailGrantBySlug.set(grant.slug, grant);
+}
 const issues = [];
 const affiliateOfferById = new Map(AFFILIATE_OFFERS.map((offer) => [offer.id, offer]));
 const expectedInitialHomeAffiliateCount = Math.min(4, getEligibleAffiliateOffers(AFFILIATE_OFFERS, {
@@ -103,6 +116,17 @@ for (const page of pages) {
   if (page.route.startsWith('/grant/') && affiliateIndex >= 0 && (officialIndex < 0 || affiliateIndex < officialIndex)) add('critical', 'AFFILIATE_BEFORE_OFFICIAL', page.route, '制度詳細のPR枠が公式情報への導線より前にあります。');
   if (page.route.startsWith('/grant/') && page.html.includes('grant-detail-page has-affiliate') && affiliateImpressions.length === 0) add('critical', 'ELIGIBLE_AFFILIATE_NOT_RENDERED', page.route, '広告選定済みの制度詳細にPR本体が描画されていません。');
   if (page.route.startsWith('/grant/')) {
+    const slug = page.route.split('/').filter(Boolean)[1];
+    const grant = detailGrantBySlug.get(slug);
+    const municipalityKey = grant?.municipality
+      ? `${grant.prefecture}\u001f${grant.municipality}`
+      : null;
+    const expectsMunicipalityLink = municipalityKey
+      ? (municipalityIndex[municipalityKey] ?? 0) >= 3
+      : false;
+    const hasMunicipalityLink = page.html.includes('href="/municipality/');
+    if (expectsMunicipalityLink && !hasMunicipalityLink) add('critical', 'MISSING_MUNICIPALITY_HUB_LINK', page.route, 'index可能な市区町村SEOページへの内部リンクがありません。');
+    if (!expectsMunicipalityLink && hasMunicipalityLink) add('critical', 'INVALID_MUNICIPALITY_HUB_LINK', page.route, 'index対象外の市区町村ページへ内部リンクしています。');
     for (const match of page.html.matchAll(/<aside\b[^>]*data-offer-id="([^"]+)"[^>]*>/g)) {
       const aside = match[0];
       const offerId = match[1];
@@ -138,6 +162,7 @@ for (const field of ['title', 'description']) {
 const generatedGrantPages = pages.filter((page) => page.route.startsWith('/grant/'));
 const grantPagesWithAffiliate = generatedGrantPages.filter((page) => page.html.includes('data-analytics-impression-event="affiliate_impression"'));
 const eligibleGrantPages = generatedGrantPages.filter((page) => page.html.includes('grant-detail-page has-affiliate'));
+const municipalityLinkedGrantPages = generatedGrantPages.filter((page) => page.html.includes('href="/municipality/'));
 const affiliateOfferOccurrences = {};
 for (const page of generatedGrantPages) {
   for (const offerId of new Set([...page.html.matchAll(/data-offer-id="([^"]+)"/g)].map((match) => match[1]))) {
@@ -151,6 +176,7 @@ const affiliateCoverage = {
   eligibleGrantPages: eligibleGrantPages.length,
   eligibleRenderedPages: eligibleGrantPages.filter((page) => page.html.includes('data-analytics-impression-event="affiliate_impression"')).length,
   noMatchingOfferPages: generatedGrantPages.length - eligibleGrantPages.length,
+  municipalityLinkedPages: municipalityLinkedGrantPages.length,
   coverageRate: generatedGrantPages.length ? Math.round(grantPagesWithAffiliate.length * 1000 / generatedGrantPages.length) / 10 : 0,
   offerOccurrences: affiliateOfferOccurrences,
 };
@@ -166,6 +192,6 @@ const summary = {
 const reportDir = path.join(root, 'reports');
 fs.mkdirSync(reportDir, { recursive: true });
 fs.writeFileSync(path.join(reportDir, 'build-audit.json'), `${JSON.stringify({ summary, issues }, null, 2)}\n`);
-fs.writeFileSync(path.join(reportDir, 'build-audit.md'), `# ビルド成果物監査\n\n| 指標 | 件数 |\n|---|---:|\n| HTMLページ | ${summary.htmlPages.toLocaleString('ja-JP')} |\n| index可能 | ${summary.indexablePages.toLocaleString('ja-JP')} |\n| 生成済み制度詳細 | ${affiliateCoverage.sampledGrantPages.toLocaleString('ja-JP')} |\n| PRあり制度詳細 | ${affiliateCoverage.pagesWithAffiliate.toLocaleString('ja-JP')}（${affiliateCoverage.coverageRate}%） |\n| PRなし制度詳細 | ${affiliateCoverage.pagesWithoutAffiliate.toLocaleString('ja-JP')} |\n| 文脈一致案件あり | ${affiliateCoverage.eligibleGrantPages.toLocaleString('ja-JP')} |\n| 文脈一致案件の描画成功 | ${affiliateCoverage.eligibleRenderedPages.toLocaleString('ja-JP')} |\n| 文脈一致する提携済み案件なし | ${affiliateCoverage.noMatchingOfferPages.toLocaleString('ja-JP')} |\n| 重大エラー | ${summary.critical.toLocaleString('ja-JP')} |\n| 警告 | ${summary.warnings.toLocaleString('ja-JP')} |\n\n## 案件別の生成HTML出現数\n\n${Object.entries(affiliateCoverage.offerOccurrences).sort(([, left], [, right]) => right - left).map(([offerId, count]) => `- ${offerId}: ${count}件`).join('\n') || '- 出現なし'}\n\n## 指摘\n\n${issues.length ? issues.slice(0, 500).map((issue) => `- ${issue.severity} / ${issue.code} / ${issue.route}: ${issue.message}`).join('\n') : '- 指摘なし'}\n`);
+fs.writeFileSync(path.join(reportDir, 'build-audit.md'), `# ビルド成果物監査\n\n| 指標 | 件数 |\n|---|---:|\n| HTMLページ | ${summary.htmlPages.toLocaleString('ja-JP')} |\n| index可能 | ${summary.indexablePages.toLocaleString('ja-JP')} |\n| 生成済み制度詳細 | ${affiliateCoverage.sampledGrantPages.toLocaleString('ja-JP')} |\n| PRあり制度詳細 | ${affiliateCoverage.pagesWithAffiliate.toLocaleString('ja-JP')}（${affiliateCoverage.coverageRate}%） |\n| PRなし制度詳細 | ${affiliateCoverage.pagesWithoutAffiliate.toLocaleString('ja-JP')} |\n| 文脈一致案件あり | ${affiliateCoverage.eligibleGrantPages.toLocaleString('ja-JP')} |\n| 文脈一致案件の描画成功 | ${affiliateCoverage.eligibleRenderedPages.toLocaleString('ja-JP')} |\n| 文脈一致する提携済み案件なし | ${affiliateCoverage.noMatchingOfferPages.toLocaleString('ja-JP')} |\n| 市区町村SEOページへ内部リンク | ${affiliateCoverage.municipalityLinkedPages.toLocaleString('ja-JP')} |\n| 重大エラー | ${summary.critical.toLocaleString('ja-JP')} |\n| 警告 | ${summary.warnings.toLocaleString('ja-JP')} |\n\n## 案件別の生成HTML出現数\n\n${Object.entries(affiliateCoverage.offerOccurrences).sort(([, left], [, right]) => right - left).map(([offerId, count]) => `- ${offerId}: ${count}件`).join('\n') || '- 出現なし'}\n\n## 指摘\n\n${issues.length ? issues.slice(0, 500).map((issue) => `- ${issue.severity} / ${issue.code} / ${issue.route}: ${issue.message}`).join('\n') : '- 指摘なし'}\n`);
 console.log(JSON.stringify(summary, null, 2));
 if (summary.critical > 0) process.exitCode = 1;
