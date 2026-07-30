@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import GrantCard from '@/components/GrantCard';
-import { BreadcrumbJsonLd, CollectionJsonLd } from '@/components/JsonLd';
+import { BreadcrumbJsonLd, GrantCollectionJsonLd } from '@/components/JsonLd';
 import { getSearchConsoleOpportunitiesForPrefecture } from '@/config/search-console-opportunities';
 import { MIN_INDEXABLE_MUNICIPALITY_GRANTS, getGrantsByPrefecture, getMunicipalitiesForPrefecture } from '@/lib/grants';
 import { toSiteUrl } from '@/lib/site-url';
@@ -72,7 +72,15 @@ export default async function PrefecturePage({ params }: Props) {
   return (
     <>
       <BreadcrumbJsonLd items={[{ name: 'ホーム', url: toSiteUrl('/') }, { name: '地域から探す', url: toSiteUrl('/grants/') }, { name: prefecture, url: canonical }]} />
-      <CollectionJsonLd name={`${prefecture}の支援制度`} description={`${prefecture}で利用できる支援制度の一覧`} url={canonical} />
+      <GrantCollectionJsonLd
+        name={`${prefecture}の支援制度`}
+        description={`${prefecture}で利用できる支援制度の一覧`}
+        url={canonical}
+        items={grants.slice(0, 24).map((grant) => ({
+          name: grant.title,
+          url: toSiteUrl(`/grant/${grant.slug}/`),
+        }))}
+      />
       <header className="border-b-4 border-accent bg-navy py-10 text-white sm:py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <nav aria-label="パンくず" className="mb-4 text-sm text-white/70"><Link href="/" className="underline underline-offset-4">ホーム</Link><span className="mx-2" aria-hidden="true">/</span><span aria-current="page">{prefecture}</span></nav>

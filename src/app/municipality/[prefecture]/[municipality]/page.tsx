@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import DisplayAdSlot from '@/components/DisplayAdSlot';
 import GrantCard from '@/components/GrantCard';
-import { BreadcrumbJsonLd, CollectionJsonLd } from '@/components/JsonLd';
+import { BreadcrumbJsonLd, GrantCollectionJsonLd } from '@/components/JsonLd';
 import { MIN_INDEXABLE_MUNICIPALITY_GRANTS, getGrantsByMunicipality, getMunicipalityGroups, getMunicipalitiesForPrefecture } from '@/lib/grants';
 import { GRANT_STATUS_LABELS, getEffectiveGrantStatus } from '@/lib/grant-status';
 import { municipalityMeta } from '@/lib/seo-metadata';
@@ -112,7 +112,15 @@ export default async function MunicipalityPage({ params }: Props) {
         { name: prefecture, url: toSiteUrl(`/prefecture/${encodedPrefecture}/`) },
         { name: municipality, url: canonical },
       ]} />
-      <CollectionJsonLd name={`${prefecture}${municipality}の支援制度`} description={`${prefecture}・${municipality}の補助金制度を掲載しています`} url={canonical} />
+      <GrantCollectionJsonLd
+        name={`${prefecture}${municipality}の支援制度`}
+        description={`${prefecture}・${municipality}の補助金制度を掲載しています`}
+        url={canonical}
+        items={grants.slice(0, 24).map((grant) => ({
+          name: grant.title,
+          url: toSiteUrl(`/grant/${grant.slug}/`),
+        }))}
+      />
 
       <header className="border-b-4 border-accent bg-navy py-10 text-white sm:py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">

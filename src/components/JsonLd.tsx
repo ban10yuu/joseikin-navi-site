@@ -1,5 +1,9 @@
 import { Grant, CATEGORY_LABELS } from '@/lib/types';
 import { siteConfig } from '@/config/site';
+import {
+  buildCollectionJsonLd,
+  type CollectionJsonLdInput,
+} from '@/lib/collection-jsonld';
 import { toSiteUrl } from '@/lib/site-url';
 
 // ── Article JSON-LD for grant detail pages ──
@@ -71,20 +75,25 @@ export function FaqJsonLd({ grant }: { grant: Grant }) {
 
 // ── Collection Page JSON-LD ──
 export function CollectionJsonLd({ name, description, url }: { name: string; description: string; url: string }) {
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'CollectionPage',
+  const jsonLd = buildCollectionJsonLd({
     name,
     description,
     url,
-    isPartOf: {
-      '@type': 'WebSite',
-      name: siteConfig.name,
-      url: siteConfig.url,
-    },
-    inLanguage: 'ja',
-  };
+    siteName: siteConfig.name,
+    siteUrl: siteConfig.url,
+  });
 
+  return (
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+  );
+}
+
+export function GrantCollectionJsonLd(props: CollectionJsonLdInput) {
+  const jsonLd = buildCollectionJsonLd({
+    ...props,
+    siteName: siteConfig.name,
+    siteUrl: siteConfig.url,
+  });
   return (
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
   );

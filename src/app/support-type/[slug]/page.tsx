@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import GrantCard from '@/components/GrantCard';
-import { BreadcrumbJsonLd, CollectionJsonLd } from '@/components/JsonLd';
+import { BreadcrumbJsonLd, GrantCollectionJsonLd } from '@/components/JsonLd';
 import { getGrantsBySupportType } from '@/lib/grants';
 import { getEffectiveGrantStatus } from '@/lib/grant-status';
 import { compactMetaDescription } from '@/lib/seo-metadata';
@@ -92,7 +92,15 @@ export default async function SupportTypePage({ params }: Props) {
   return (
     <>
       <BreadcrumbJsonLd items={[{ name: 'ホーム', url: toSiteUrl('/') }, { name: label, url: canonical }]} />
-      <CollectionJsonLd name={`${label}の支援制度`} description={SUPPORT_TYPE_INTROS[supportType] ?? `${label}に該当する支援制度を整理しています。`} url={canonical} />
+      <GrantCollectionJsonLd
+        name={`${label}の支援制度`}
+        description={SUPPORT_TYPE_INTROS[supportType] ?? `${label}に該当する支援制度を整理しています。`}
+        url={canonical}
+        items={grants.slice(0, 24).map((grant) => ({
+          name: grant.title,
+          url: toSiteUrl(`/grant/${grant.slug}/`),
+        }))}
+      />
 
       <header className="border-b-4 border-accent bg-navy py-10 text-white sm:py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import GrantCard from '@/components/GrantCard';
-import { BreadcrumbJsonLd, CollectionJsonLd } from '@/components/JsonLd';
+import { BreadcrumbJsonLd, GrantCollectionJsonLd } from '@/components/JsonLd';
 import { getSearchConsoleOpportunitiesForCategory } from '@/config/search-console-opportunities';
 import { getGrantsByCategory } from '@/lib/grants';
 import { getEffectiveGrantStatus } from '@/lib/grant-status';
@@ -133,7 +133,15 @@ export default async function CategoryPage({ params }: Props) {
   return (
     <>
       <BreadcrumbJsonLd items={[{ name: 'ホーム', url: toSiteUrl('/') }, { name: label, url: canonical }]} />
-      <CollectionJsonLd name={`${label}の支援制度`} description={CATEGORY_INTROS[category]} url={canonical} />
+      <GrantCollectionJsonLd
+        name={`${label}の支援制度`}
+        description={CATEGORY_INTROS[category]}
+        url={canonical}
+        items={grants.slice(0, 24).map((grant) => ({
+          name: grant.title,
+          url: toSiteUrl(`/grant/${grant.slug}/`),
+        }))}
+      />
       <header className="border-b-4 border-accent bg-navy py-10 text-white sm:py-14">
         <div className="category-hero mx-auto max-w-6xl px-4 sm:px-6">
           <div>
