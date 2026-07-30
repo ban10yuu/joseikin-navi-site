@@ -4,7 +4,11 @@ import { notFound } from 'next/navigation';
 import GrantCard from '@/components/GrantCard';
 import { BreadcrumbJsonLd, GrantCollectionJsonLd } from '@/components/JsonLd';
 import { getSearchConsoleOpportunitiesForPrefecture } from '@/config/search-console-opportunities';
-import { MIN_INDEXABLE_MUNICIPALITY_GRANTS, getGrantsByPrefecture, getMunicipalitiesForPrefecture } from '@/lib/grants';
+import {
+  getGrantsByPrefecture,
+  getMunicipalitiesForPrefecture,
+  isIndexableMunicipalityGroup,
+} from '@/lib/grants';
 import { toSiteUrl } from '@/lib/site-url';
 import { CATEGORY_LABELS, PREFECTURES, type GrantCategory } from '@/lib/types';
 
@@ -58,7 +62,7 @@ export default async function PrefecturePage({ params }: Props) {
   const recentlyUpdated = [...grants].sort((a, b) => (b.contentUpdatedAt ?? b.verifiedAt ?? b.publishedAt).localeCompare(a.contentUpdatedAt ?? a.verifiedAt ?? a.publishedAt)).slice(0, 4);
   const nearby = (REGION_MAP[region] ?? []).filter((item) => item !== prefecture);
   const indexableMunicipalities = municipalities.filter(
-    (municipality) => municipality.count >= MIN_INDEXABLE_MUNICIPALITY_GRANTS
+    isIndexableMunicipalityGroup
   );
   const featuredMunicipalities = indexableMunicipalities.slice(0, 12);
   const remainingMunicipalities = indexableMunicipalities.slice(12);

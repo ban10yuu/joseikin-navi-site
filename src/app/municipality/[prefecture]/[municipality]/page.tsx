@@ -4,7 +4,13 @@ import { notFound } from 'next/navigation';
 import DisplayAdSlot from '@/components/DisplayAdSlot';
 import GrantCard from '@/components/GrantCard';
 import { BreadcrumbJsonLd, GrantCollectionJsonLd } from '@/components/JsonLd';
-import { MIN_INDEXABLE_MUNICIPALITY_GRANTS, getGrantsByMunicipality, getMunicipalityGroups, getMunicipalitiesForPrefecture } from '@/lib/grants';
+import {
+  MIN_INDEXABLE_MUNICIPALITY_GRANTS,
+  getGrantsByMunicipality,
+  getMunicipalityGroups,
+  getMunicipalitiesForPrefecture,
+  isIndexableMunicipalityGroup,
+} from '@/lib/grants';
 import { GRANT_STATUS_LABELS, getEffectiveGrantStatus } from '@/lib/grant-status';
 import { municipalityMeta } from '@/lib/seo-metadata';
 import { toSiteUrl } from '@/lib/site-url';
@@ -97,6 +103,7 @@ export default async function MunicipalityPage({ params }: Props) {
     .filter((item) => item.count > 0);
 
   const neighboringMunicipalities = (await getMunicipalitiesForPrefecture(prefecture))
+    .filter(isIndexableMunicipalityGroup)
     .filter((item) => item.municipality !== municipality)
     .slice(0, 12);
 

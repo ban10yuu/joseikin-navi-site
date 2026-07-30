@@ -2,6 +2,7 @@ import { NextResponse, type NextRequest } from 'next/server';
 import { REDIRECTS } from '@/data/redirects';
 import { getCanonicalRedirectUrl } from '@/lib/host-redirect';
 import { getPathRedirectUrl } from '@/lib/redirects';
+import { getStaticListingRewriteUrl } from '@/lib/static-listing-route';
 
 export function middleware(request: NextRequest) {
   const canonicalDestination = getCanonicalRedirectUrl(
@@ -15,9 +16,16 @@ export function middleware(request: NextRequest) {
 
   if (destination) return NextResponse.redirect(destination, 301);
 
-  return canonicalDestination
-    ? NextResponse.redirect(canonicalDestination, 308)
-    : NextResponse.next();
+  if (canonicalDestination) {
+    return NextResponse.redirect(canonicalDestination, 308);
+  }
+
+  const staticListingRewrite = getStaticListingRewriteUrl(request.nextUrl);
+  if (staticListingRewrite) {
+    return NextResponse.rewrite(staticListingRewrite);
+  }
+
+  return NextResponse.next();
 }
 
 export const config = {

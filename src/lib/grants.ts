@@ -19,6 +19,10 @@ import {
   selectNarrowestSearchKeyword,
 } from '@/lib/search';
 import { calculateGrantStats } from '@/lib/grant-stats';
+import {
+  MIN_INDEXABLE_MUNICIPALITY_GRANTS,
+  isIndexableMunicipalityGroup,
+} from '@/lib/municipality-indexability';
 
 type RuntimeIndexRow = [
   string, string, string, GrantType, string, number, GrantCategory,
@@ -381,7 +385,10 @@ export {
   isManuallyVerifiedGrant,
 };
 
-export const MIN_INDEXABLE_MUNICIPALITY_GRANTS = 3;
+export {
+  MIN_INDEXABLE_MUNICIPALITY_GRANTS,
+  isIndexableMunicipalityGroup,
+};
 
 export interface MunicipalityGroup {
   prefecture: string;

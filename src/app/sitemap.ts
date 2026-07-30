@@ -1,6 +1,11 @@
 import type { MetadataRoute } from 'next';
 import { siteConfig } from '@/config/site';
-import { MIN_INDEXABLE_MUNICIPALITY_GRANTS, getMunicipalityGroups, getOfficialLinkedGrants, grantMatchesCategory } from '@/lib/grants';
+import {
+  getMunicipalityGroups,
+  getOfficialLinkedGrants,
+  grantMatchesCategory,
+  isIndexableMunicipalityGroup,
+} from '@/lib/grants';
 import { toSiteUrl } from '@/lib/site-url';
 import { CATEGORY_LABELS, PREFECTURES, type SupportType } from '@/lib/types';
 import { isNewsletterEnabled } from '@/lib/newsletter';
@@ -58,7 +63,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }));
 
   const municipalityPages: MetadataRoute.Sitemap = (await getMunicipalityGroups())
-    .filter((group) => group.count >= MIN_INDEXABLE_MUNICIPALITY_GRANTS)
+    .filter(isIndexableMunicipalityGroup)
     .map((group) => {
       const grantsForMunicipality = grantsForSitemap.filter((grant) => grant.prefecture === group.prefecture && grant.municipality === group.municipality);
       return {

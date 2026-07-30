@@ -98,6 +98,15 @@ for (const page of pages) {
     if (assetsPrefixes.some((prefix) => href.startsWith(prefix))) continue;
     const normalized = normalizeRoute(href);
     if (!routes.has(normalized) && !dynamicPrefixes.some((prefix) => normalized.startsWith(prefix))) add('critical', 'BROKEN_INTERNAL_LINK', page.route, `リンク先が生成されていません：${normalized}`);
+    if (normalized.startsWith('/municipality/')) {
+      const [, , encodedPrefecture, encodedMunicipality] = normalized.split('/');
+      const municipalityKey = encodedPrefecture && encodedMunicipality
+        ? `${decodeURIComponent(encodedPrefecture)}\u001f${decodeURIComponent(encodedMunicipality)}`
+        : null;
+      if (!municipalityKey || (municipalityIndex[municipalityKey] ?? 0) < 3) {
+        add('critical', 'NOINDEX_MUNICIPALITY_INTERNAL_LINK', page.route, `index対象外の市区町村ページへリンクしています：${normalized}`);
+      }
+    }
   }
   for (const match of page.html.matchAll(/data-ad-label[^>]*>\s*(広告|PR)\s*</g)) {
     const nearby = page.html.slice(match.index, match.index + 2500);
