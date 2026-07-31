@@ -48,6 +48,22 @@ describe('Search Console実測クエリの詳細ページ改善', () => {
     }
   });
 
+  it('医療費相談クエリで表示される3自治体ページに検索意図に合う回答がある', () => {
+    const expected = [
+      ['komatsu-official-001-014-2026-ishikawa', /窓口負担(?:を)?無料/u],
+      ['otaru-child-medical', /初診時一部負担金/u],
+      ['kakamigahara-child-medical', /30日以内/u],
+    ];
+
+    for (const [slug, answerPattern] of expected) {
+      const opportunity = SEARCH_CONSOLE_OPPORTUNITIES.find((item) =>
+        item.grantSlugs?.includes(slug));
+      assert.ok(opportunity?.seoTitle, slug);
+      assert.match(opportunity?.metaDescription ?? '', /医療費/u, slug);
+      assert.match(opportunity?.shortAnswer ?? '', answerPattern, slug);
+    }
+  });
+
   it('制度詳細へ案内する実測クエリは検索結果文と冒頭回答を持つ', () => {
     for (const opportunity of SEARCH_CONSOLE_OPPORTUNITIES) {
       if (!opportunity.grantSlugs?.length) continue;
