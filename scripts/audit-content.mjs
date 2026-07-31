@@ -2,7 +2,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import Module from 'node:module';
 import { createRequire } from 'node:module';
-import { hasGenericMunicipalityTitle } from './lib/content-audit-rules.mjs';
+import {
+  containsBrowserBoilerplate,
+  hasGenericMunicipalityTitle,
+} from './lib/content-audit-rules.mjs';
 
 const root = process.cwd();
 const require = createRequire(import.meta.url);
@@ -105,7 +108,15 @@ for (const grant of grants) {
   ) {
     addIssue('critical', 'APPLICATION_PERIOD_NAV_CONTAMINATION', grant, '申請期間に別制度やサイト内ナビゲーションの文章が混入しています。');
   }
-  const publicText = [grant.title, grant.description, grant.eligibility, ...grant.sections.flatMap((section) => [section.heading, section.content])].join('\n');
+  const publicText = [
+    grant.title,
+    grant.description,
+    grant.eligibility,
+    grant.amountText,
+    grant.applicationPeriod,
+    ...grant.sections.flatMap((section) => [section.heading, section.content]),
+  ].join('\n');
+  if (containsBrowserBoilerplate(publicText)) addIssue('critical', 'PUBLIC_BROWSER_BOILERPLATE', grant, '公開本文に公式サイトのブラウザ案内文が混入しています。');
   if (publicNavigationContamination.test(publicText)) addIssue('critical', 'PUBLIC_NAV_CONTAMINATION', grant, '公開本文に公式サイトのナビゲーションやパンくずが混入しています。');
   if (containsInternalAuditText(publicText)) addIssue('critical', 'INTERNAL_AUDIT_PUBLIC', grant, '公開用本文に内部監査文言が残っています。');
   if (forbidden.test(publicText)) addIssue('critical', 'FORBIDDEN_COPY', grant, '公開禁止表現が残っています。');

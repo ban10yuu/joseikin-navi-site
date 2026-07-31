@@ -1,7 +1,10 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-import { hasGenericMunicipalityTitle } from '../../scripts/lib/content-audit-rules.mjs';
+import {
+  containsBrowserBoilerplate,
+  hasGenericMunicipalityTitle,
+} from '../../scripts/lib/content-audit-rules.mjs';
 
 test('自治体名だけの制度名を検出する', () => {
   assert.equal(hasGenericMunicipalityTitle({ title: '紀宝町 ', organization: '紀宝町' }), true);
@@ -17,4 +20,10 @@ test('具体的な制度名は許可する', () => {
     title: '太地町 出産祝金',
     organization: '太地町',
   }), false);
+});
+
+test('公式サイトから混入したブラウザ案内文を検出する', () => {
+  assert.equal(containsBrowserBoilerplate('ご利用のブラウザーを最新版へ更新してください。'), true);
+  assert.equal(containsBrowserBoilerplate('InternetExplorerの最新バージョンにアップグレードしてください。'), true);
+  assert.equal(containsBrowserBoilerplate('対象条件は公式ページでご確認ください。'), false);
 });
