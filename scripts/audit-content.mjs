@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import Module from 'node:module';
 import { createRequire } from 'node:module';
+import { hasGenericMunicipalityTitle } from './lib/content-audit-rules.mjs';
 
 const root = process.cwd();
 const require = createRequire(import.meta.url);
@@ -64,6 +65,7 @@ const bodyMap = new Map();
 for (const grant of grants) {
   if (!grant.title?.trim()) addIssue('critical', 'MISSING_NAME', grant, '制度名がありません。');
   if (!grant.organization?.trim()) addIssue('critical', 'MISSING_PROVIDER', grant, '実施機関がありません。');
+  if (hasGenericMunicipalityTitle(grant)) addIssue('critical', 'GENERIC_MUNICIPALITY_TITLE', grant, '自治体名だけで制度を識別できない仮タイトルです。');
   if (!grant.eligibility?.trim()) addIssue('warning', 'MISSING_ELIGIBILITY', grant, '主な対象者がありません。');
   if (!grant.verifiedAt) addIssue('warning', 'MISSING_CHECK_DATE', grant, '公式情報の確認日がありません。');
   if (grant.verifiedAt && grant.verifiedAt > todayInTokyo) addIssue('critical', 'FUTURE_CHECK_DATE', grant, '公式情報の確認日が未来日です。');
