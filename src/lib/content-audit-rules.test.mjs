@@ -4,6 +4,8 @@ import test from 'node:test';
 import {
   containsBrowserBoilerplate,
   hasGenericMunicipalityTitle,
+  hasOverlongAmountExtraction,
+  hasTruncatedApplicationPeriod,
 } from '../../scripts/lib/content-audit-rules.mjs';
 
 test('自治体名だけの制度名を検出する', () => {
@@ -26,4 +28,16 @@ test('公式サイトから混入したブラウザ案内文を検出する', ()
   assert.equal(containsBrowserBoilerplate('ご利用のブラウザーを最新版へ更新してください。'), true);
   assert.equal(containsBrowserBoilerplate('InternetExplorerの最新バージョンにアップグレードしてください。'), true);
   assert.equal(containsBrowserBoilerplate('対象条件は公式ページでご確認ください。'), false);
+});
+
+test('途中で切れた長文の申請期間を検出する', () => {
+  const clipped = `${'申請手続きや対象条件の抽出文'.repeat(14)}に従う`;
+  assert.equal(hasTruncatedApplicationPeriod(clipped), true);
+  assert.equal(hasTruncatedApplicationPeriod('公式ページ記載の申請手続に従う'), false);
+});
+
+test('支援額へ混入した長い本文断片を検出する', () => {
+  const clipped = `制度名に係る支援（${'対象者や必要書類の本文'.repeat(18)}）`;
+  assert.equal(hasOverlongAmountExtraction(clipped), true);
+  assert.equal(hasOverlongAmountExtraction('購入費の2分の1、上限2万円'), false);
 });

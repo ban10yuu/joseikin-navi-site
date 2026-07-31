@@ -14,3 +14,13 @@ const browserBoilerplate = /ご利用のブラウザー|InternetExplorerの最�
 export function containsBrowserBoilerplate(text) {
   return browserBoilerplate.test(text ?? '');
 }
+
+export function hasTruncatedApplicationPeriod(text) {
+  const value = text?.trim() ?? '';
+  return value.length > 160 && /に従う$/.test(value);
+}
+
+export function hasOverlongAmountExtraction(text) {
+  const value = text?.trim() ?? '';
+  return value.length > 180 && /に係る(?:支援|補助|助成)[（(]/.test(value);
+}

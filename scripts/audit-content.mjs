@@ -5,6 +5,8 @@ import { createRequire } from 'node:module';
 import {
   containsBrowserBoilerplate,
   hasGenericMunicipalityTitle,
+  hasOverlongAmountExtraction,
+  hasTruncatedApplicationPeriod,
 } from './lib/content-audit-rules.mjs';
 
 const root = process.cwd();
@@ -91,6 +93,12 @@ for (const grant of grants) {
     addIssue('critical', 'MEAL_DELIVERY_ELIGIBILITY_MISMATCH', grant, '高齢者等向け配食サービスに事業者向けの対象者説明が設定されています。');
   }
   const applicationPeriod = grant.applicationPeriod ?? '';
+  if (hasTruncatedApplicationPeriod(applicationPeriod)) {
+    addIssue('warning', 'TRUNCATED_APPLICATION_PERIOD', grant, '申請期間に途中で切れた公式本文の断片が混入しています。');
+  }
+  if (hasOverlongAmountExtraction(grant.amountText)) {
+    addIssue('warning', 'OVERLONG_AMOUNT_EXTRACTION', grant, '支援額に長い公式本文の断片が混入しています。');
+  }
   const navigationTokenCount = applicationPeriodNavigationTokens.filter((token) => applicationPeriod.includes(token)).length;
   const menuTokenCount = applicationPeriodMenuTokens.filter((token) => applicationPeriod.includes(token)).length;
   const childcareMenuTokenCount = applicationPeriodChildcareMenuTokens.filter((token) => applicationPeriod.includes(token)).length;
