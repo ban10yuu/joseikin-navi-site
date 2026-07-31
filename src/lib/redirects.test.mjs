@@ -43,6 +43,16 @@ describe('grant redirects', () => {
     );
   });
 
+  it('日本語を含む旧URLも301転送する', () => {
+    assert.equal(
+      getPathRedirectUrl(
+        new URL('https://shienseido-navi.jp/grant/fukaya-結婚新生活支援事業補助金lywed-life-support-subsidy-2026/?from=google'),
+        REDIRECTS,
+      ),
+      'https://shienseido-navi.jp/grant/fukaya-newlywed-life-support-subsidy-2026/?from=google',
+    );
+  });
+
   it('転送対象外のURLは変更しない', () => {
     assert.equal(
       getPathRedirectUrl(new URL('https://shienseido-navi.jp/grant/nara-city-child-medical/'), REDIRECTS),

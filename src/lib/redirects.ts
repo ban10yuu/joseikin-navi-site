@@ -26,7 +26,14 @@ export function validateRedirects(redirects: SiteRedirect[]): string[] {
 }
 
 export function getPathRedirectUrl(url: URL, redirects: SiteRedirect[]): string | null {
-  const redirect = redirects.find((item) => item.source === url.pathname);
+  let pathname = url.pathname;
+  try {
+    pathname = decodeURIComponent(pathname);
+  } catch {
+    // 不正なパーセントエンコードは一致させず、通常の404処理へ渡す。
+  }
+
+  const redirect = redirects.find((item) => item.source === pathname);
   if (!redirect) return null;
 
   const destination = new URL(redirect.destination, url.origin);
