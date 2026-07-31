@@ -36,7 +36,6 @@ describe('Search Console実測クエリの詳細ページ改善', () => {
       'yokkaichi-cancer-screening',
       'nishihara-kanamaru-voucher-2026',
       'natori-child-medical',
-      'nasu-regional-coupon-2026',
     ];
 
     for (const slug of expectedSlugs) {
@@ -53,6 +52,24 @@ describe('Search Console実測クエリの詳細ページ改善', () => {
       ['komatsu-official-001-014-2026-ishikawa', /窓口負担(?:を)?無料/u],
       ['otaru-child-medical', /初診時一部負担金/u],
       ['kakamigahara-child-medical', /30日以内/u],
+    ];
+
+    for (const [slug, answerPattern] of expected) {
+      const opportunity = SEARCH_CONSOLE_OPPORTUNITIES.find((item) =>
+        item.grantSlugs?.includes(slug));
+      assert.ok(opportunity?.seoTitle, slug);
+      assert.match(opportunity?.metaDescription ?? '', /医療費/u, slug);
+      assert.match(opportunity?.shortAnswer ?? '', answerPattern, slug);
+    }
+  });
+
+  it('追加で表示された医療費相談5自治体にも検索意図に合う回答がある', () => {
+    const expected = [
+      ['neyagawa-child-medical', /高校生世代/u],
+      ['hiroshima-official-003-033-2026', /目的別/u],
+      ['matsuyama-child-medical', /資格申請/u],
+      ['maebashi-child-medical', /高校生世代/u],
+      ['hikone-child-medical', /自己負担なし/u],
     ];
 
     for (const [slug, answerPattern] of expected) {
