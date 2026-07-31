@@ -96,6 +96,18 @@ describe('Search Console実測クエリの詳細ページ改善', () => {
     }
   });
 
+  it('越谷市の人間ドック補助検索に助成額と対象者で答える', () => {
+    const opportunity = SEARCH_CONSOLE_OPPORTUNITIES.find(
+      (item) => item.observedQuery === '越谷市 人間ドック 補助 金'
+    );
+
+    assert.deepEqual(opportunity?.grantSlugs, ['koshigaya-health-checkup-subsidy']);
+    assert.equal(opportunity?.href, '/grant/koshigaya-health-checkup-subsidy/');
+    assert.match(opportunity?.seoTitle ?? '', /上限1万円/u);
+    assert.match(opportunity?.metaDescription ?? '', /35歳以上/u);
+    assert.match(opportunity?.shortAnswer ?? '', /一年度に一回/u);
+  });
+
   it('制度詳細へ案内する実測クエリは検索結果文と冒頭回答を持つ', () => {
     for (const opportunity of SEARCH_CONSOLE_OPPORTUNITIES) {
       if (!opportunity.grantSlugs?.length) continue;
