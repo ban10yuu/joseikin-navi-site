@@ -1,5 +1,6 @@
 function canonicalSlugScore(grant, preferredSlugs) {
   const slug = grant.slug ?? '';
+  const title = grant.title ?? '';
   let score = 0;
 
   if (preferredSlugs.has(slug)) score += 10_000;
@@ -9,8 +10,21 @@ function canonicalSlugScore(grant, preferredSlugs) {
   if (!/-v\d+(?:-|$)/u.test(slug)) score += 300;
   if (!/-20\d{2}(?:-|$)/u.test(slug)) score += 100;
   if (grant.description?.trim()) score += 50;
+  if (/(?:newlywed|marriage)/iu.test(slug) && !/(?:結婚|新婚)/u.test(title)) score -= 5_000;
+  if (/telework/iu.test(slug) && !/テレワーク/u.test(title)) score -= 5_000;
 
   return score;
+}
+
+export function normalizeDuplicateTitle(title) {
+  return title
+    .normalize('NFKC')
+    .replace(/こども/gu, '子ども')
+    .replace(/[\s・･]/gu, '')
+    .replace(/[（(](?:既存制度へ統合|既存slugに統合|既存slugへ集約)[）)]/gu, '')
+    .replace(/(?:を助成しています|の手続き|について)$/u, '')
+    .replace(/制度$/u, '')
+    .replace(/[「」『』]/gu, '');
 }
 
 export function chooseCanonicalGrant(grants, preferredSlugs = new Set()) {
@@ -45,7 +59,12 @@ export function buildExactDuplicateRedirects(
       return;
     }
 
-    const key = `${grant.title.trim()}\n${grant.officialUrl.trim()}`;
+    const key = [
+      grant.organization?.trim() ?? '',
+      grant.officialUrl.trim(),
+      normalizeDuplicateTitle(grant.title.trim()),
+      grant.primaryPurpose ?? '',
+    ].join('\n');
     const group = groups.get(key) ?? [];
     group.push(grant);
     groups.set(key, group);
