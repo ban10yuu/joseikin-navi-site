@@ -85,7 +85,7 @@ export default async function HomePage() {
           <div className="home-hero-top">
             <div className="home-hero-intro">
               <p className="home-hero-kicker">国・自治体などの公式情報を整理</p>
-              <h1>補助金・助成金・給付金を、地域と目的から探す</h1>
+              <h1>助成金ナビで、補助金・助成金・給付金を地域と目的から探す</h1>
             </div>
             <div className="home-hero-visual" aria-hidden="true">
               <div className="home-hero-picture">

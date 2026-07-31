@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AnalyticsEvents from '@/components/AnalyticsEvents';
 import { siteConfig, isAdsenseVerificationEnabled } from '@/config/site';
+import { buildWebsiteJsonLd } from '@/lib/website-jsonld';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -83,30 +84,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'WebSite',
-              name: siteConfig.name,
-              alternateName: 'Joseikin Navi',
-              url: siteConfig.url,
-              description: '国・自治体・民間団体の助成金・補助金情報を公式リンク記載ページとして掲載するナビゲーションサイト',
-              ...(siteConfig.operatorName ? {
-                publisher: {
-                  '@type': 'Organization',
-                  name: siteConfig.operatorName,
-                  url: siteConfig.url,
-                },
-              } : {}),
-              potentialAction: {
-                '@type': 'SearchAction',
-                target: {
-                  '@type': 'EntryPoint',
-                  urlTemplate: `${siteConfig.url}/grants/?q={search_term_string}`,
-                },
-                'query-input': 'required name=search_term_string',
-              },
-              inLanguage: 'ja',
-            }),
+            __html: JSON.stringify(buildWebsiteJsonLd({
+              siteName: siteConfig.name,
+              siteUrl: siteConfig.url,
+              operatorName: siteConfig.operatorName,
+            })),
           }}
         />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
