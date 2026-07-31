@@ -14,6 +14,7 @@ function compactMetaTitle(value: string, maxLength: number): string {
 
 export function grantMetaTitle(input: {
   titleSubject: string;
+  locationLabel?: string;
   expired: boolean;
   seoTitle?: string;
   maxLength?: number;
@@ -27,7 +28,12 @@ export function grantMetaTitle(input: {
 
   const detailSuffix = input.expired ? CLOSED_GRANT_TITLE_SUFFIX : OPEN_GRANT_TITLE_SUFFIX;
   const subjectLimit = Math.max(1, pageTitleLimit - detailSuffix.length);
-  return `${compactMetaTitle(input.titleSubject, subjectLimit)}${detailSuffix}`;
+  const normalizedSubject = normalizeWhitespace(input.titleSubject);
+  const normalizedLocation = normalizeWhitespace(input.locationLabel ?? '');
+  const localizedSubject = normalizedLocation && !normalizedSubject.includes(normalizedLocation)
+    ? `${normalizedLocation} ${normalizedSubject}`
+    : normalizedSubject;
+  return `${compactMetaTitle(localizedSubject, subjectLimit)}${detailSuffix}`;
 }
 
 export function compactMetaDescription(value: string, maxLength = 118): string {

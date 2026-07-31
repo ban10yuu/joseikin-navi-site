@@ -134,6 +134,7 @@ for (const grant of grants) {
   if (forbidden.test(publicText)) addIssue('critical', 'FORBIDDEN_COPY', grant, '公開禁止表現が残っています。');
   const metaTitle = `${grantMetaTitle({
     titleSubject: grant.title,
+    locationLabel: grant.municipality ?? (grant.prefecture !== '全国' ? grant.prefecture : undefined),
     expired: isGrantExpired(grant),
   })}｜助成金ナビ`;
   if (metaTitle.length > 65) addIssue('warning', 'META_TITLE_LONG', grant, `推定タイトルが長すぎます（${metaTitle.length}文字）。`);

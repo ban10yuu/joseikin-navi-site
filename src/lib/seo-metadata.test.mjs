@@ -35,6 +35,26 @@ describe('seo metadata helpers', () => {
     assert.equal(title.endsWith('…'), true);
   });
 
+  it('制度名に地域名がない場合は市区町村名を補って検索結果を識別できる', () => {
+    const title = grantMetaTitle({
+      titleSubject: '児童手当',
+      locationLabel: '愛荘町',
+      expired: false,
+    });
+
+    assert.equal(title, '愛荘町 児童手当｜対象・金額・申請期限');
+  });
+
+  it('制度名に地域名が含まれる場合は重ねて表示しない', () => {
+    const title = grantMetaTitle({
+      titleSubject: '天理市 子ども医療費助成制度',
+      locationLabel: '天理市',
+      expired: false,
+    });
+
+    assert.equal(title, '天理市 子ども医療費助成制度｜対象・金額・申請期限');
+  });
+
   it('meta descriptionを文の途中で不自然に切らない', () => {
     const description = compactMetaDescription('補助金・助成金・給付金を地域と目的から探せます。申請前に公式情報で対象条件、支援額、受付状況を確認してください。長い補足説明です。', 40);
 
