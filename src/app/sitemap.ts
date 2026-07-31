@@ -12,6 +12,7 @@ import { isNewsletterEnabled } from '@/lib/newsletter';
 import { getCollectionLastModified, getGrantLastModified } from '@/lib/sitemap-dates';
 
 export const dynamic = 'force-static';
+export const revalidate = 3600;
 
 const SEO_SUPPORT_TYPES: SupportType[] = ['subsidy', 'grant', 'benefit', 'allowance', 'loan', 'scholarshipLoan', 'reduction', 'taxCredit', 'insuranceBenefit', 'discount', 'voucher', 'inKind'];
 
