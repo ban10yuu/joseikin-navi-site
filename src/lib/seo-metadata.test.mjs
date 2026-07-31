@@ -48,11 +48,23 @@ describe('seo metadata helpers', () => {
   it('制度名に地域名が含まれる場合は重ねて表示しない', () => {
     const title = grantMetaTitle({
       titleSubject: '天理市 子ども医療費助成制度',
-      locationLabel: '天理市',
+      prefectureLabel: '奈良県',
+      municipalityLabel: '天理市',
       expired: false,
     });
 
-    assert.equal(title, '天理市 子ども医療費助成制度｜対象・金額・申請期限');
+    assert.equal(title, '奈良県 天理市 子ども医療費助成制度｜対象・金額・申請期限');
+  });
+
+  it('同名自治体を都道府県名で区別しつつ市区町村名は重複させない', () => {
+    const title = grantMetaTitle({
+      titleSubject: '府中市 児童手当',
+      prefectureLabel: '広島県',
+      municipalityLabel: '府中市',
+      expired: false,
+    });
+
+    assert.equal(title, '広島県 府中市 児童手当｜対象・金額・申請期限');
   });
 
   it('meta descriptionを文の途中で不自然に切らない', () => {

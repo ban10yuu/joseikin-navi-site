@@ -15,6 +15,8 @@ function compactMetaTitle(value: string, maxLength: number): string {
 export function grantMetaTitle(input: {
   titleSubject: string;
   locationLabel?: string;
+  prefectureLabel?: string;
+  municipalityLabel?: string;
   expired: boolean;
   seoTitle?: string;
   maxLength?: number;
@@ -29,10 +31,17 @@ export function grantMetaTitle(input: {
   const detailSuffix = input.expired ? CLOSED_GRANT_TITLE_SUFFIX : OPEN_GRANT_TITLE_SUFFIX;
   const subjectLimit = Math.max(1, pageTitleLimit - detailSuffix.length);
   const normalizedSubject = normalizeWhitespace(input.titleSubject);
+  const normalizedPrefecture = normalizeWhitespace(input.prefectureLabel ?? '');
+  const normalizedMunicipality = normalizeWhitespace(input.municipalityLabel ?? '');
   const normalizedLocation = normalizeWhitespace(input.locationLabel ?? '');
-  const localizedSubject = normalizedLocation && !normalizedSubject.includes(normalizedLocation)
-    ? `${normalizedLocation} ${normalizedSubject}`
-    : normalizedSubject;
+  const missingLocationParts = [normalizedPrefecture, normalizedMunicipality]
+    .filter((part) => part && !normalizedSubject.includes(part));
+  const locationPrefix = missingLocationParts.length > 0
+    ? missingLocationParts.join(' ')
+    : normalizedLocation && !normalizedSubject.includes(normalizedLocation)
+      ? normalizedLocation
+      : '';
+  const localizedSubject = locationPrefix ? `${locationPrefix} ${normalizedSubject}` : normalizedSubject;
   return `${compactMetaTitle(localizedSubject, subjectLimit)}${detailSuffix}`;
 }
 

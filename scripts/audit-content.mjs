@@ -66,6 +66,7 @@ const tokyoDatePart = (type) => tokyoDateParts.find((part) => part.type === type
 const todayInTokyo = `${tokyoDatePart('year')}-${tokyoDatePart('month')}-${tokyoDatePart('day')}`;
 
 const titleMap = new Map();
+const metaTitleMap = new Map();
 const urlMap = new Map();
 const bodyMap = new Map();
 for (const grant of grants) {
@@ -134,10 +135,14 @@ for (const grant of grants) {
   if (forbidden.test(publicText)) addIssue('critical', 'FORBIDDEN_COPY', grant, '公開禁止表現が残っています。');
   const metaTitle = `${grantMetaTitle({
     titleSubject: grant.title,
-    locationLabel: grant.municipality ?? (grant.prefecture !== '全国' ? grant.prefecture : undefined),
+    prefectureLabel: grant.prefecture !== '全国' ? grant.prefecture : undefined,
+    municipalityLabel: grant.municipality ?? undefined,
     expired: isGrantExpired(grant),
   })}｜助成金ナビ`;
   if (metaTitle.length > 65) addIssue('warning', 'META_TITLE_LONG', grant, `推定タイトルが長すぎます（${metaTitle.length}文字）。`);
+  if (grant.indexStatus !== 'noindex' && grant.contentStatus === 'published') {
+    metaTitleMap.set(metaTitle, [...(metaTitleMap.get(metaTitle) ?? []), grant.slug]);
+  }
   if (!grant.description?.trim()) addIssue('warning', 'DESCRIPTION_MISSING', grant, '概要がなく、メタ説明と本文の整合を確認できません。');
 
   titleMap.set(grant.title, [...(titleMap.get(grant.title) ?? []), grant.slug]);
@@ -150,6 +155,7 @@ for (const grant of grants) {
 }
 
 for (const [title, slugs] of titleMap) if (slugs.length > 1) addIssue('warning', 'DUPLICATE_TITLE', { slug: slugs[0], title }, `同じタイトルが${slugs.length}件あります。`);
+for (const [title, slugs] of metaTitleMap) if (slugs.length > 1) addIssue('warning', 'DUPLICATE_META_TITLE', { slug: slugs[0], title }, `index可能な検索タイトルが${slugs.length}ページで重複しています：${slugs.join(', ')}`);
 for (const [url, slugs] of urlMap) if (slugs.length > 1) addIssue('warning', 'DUPLICATE_OFFICIAL_URL', { slug: slugs[0], title: '' }, `同じ公式URLが${slugs.length}件あります：${url}`);
 for (const [body, slugs] of bodyMap) if (slugs.length >= 5) addIssue('warning', 'DUPLICATE_BODY', { slug: slugs[0], title: '' }, `同じ概要・対象者の組合せが${slugs.length}件あります（${body.slice(0, 40)}…）。`);
 

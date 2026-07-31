@@ -64,7 +64,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const titleSubject = opportunity?.observedQuery ?? grant.title;
   const title = grantMetaTitle({
     titleSubject,
-    locationLabel: grant.municipality ?? (grant.prefecture !== '全国' ? grant.prefecture : undefined),
+    prefectureLabel: grant.prefecture !== '全国' ? grant.prefecture : undefined,
+    municipalityLabel: grant.municipality ?? undefined,
     expired,
     seoTitle: expired ? undefined : opportunity?.seoTitle,
   });

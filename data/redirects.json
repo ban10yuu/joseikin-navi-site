@@ -1402,5 +1402,11 @@
     "destination": "/grant/iwakuni-startup-support/",
     "statusCode": 301,
     "reason": "同一制度名・同一公式URLの完全重複を「岩国市創業支援補助金」へ統合するため"
+  },
+  {
+    "source": "/grant/yatsushiro-child-medical-aid/",
+    "destination": "/grant/yatsushiro-child-medical/",
+    "statusCode": 301,
+    "reason": "八代市の同一こども医療費助成制度を、複数の公式確認先を保持した詳細ページへ統合するため"
   }
 ]

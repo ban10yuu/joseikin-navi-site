@@ -235,6 +235,11 @@ export const verifiedMunicipalChildMedicalGrants2026: Grant[] = [
     note: '入院も窓口無料とは記載しないでください。入院や県外受診などは払い戻し扱いです。',
     officialUrl: 'https://attaka.city.yatsushiro.kumamoto.jp/navi/navi-149',
     sourceName: '八代市 こども医療費助成制度について',
+    sourceUrls: [
+      'https://attaka.city.yatsushiro.kumamoto.jp/navi/navi-149',
+      'https://www.city.yatsushiro.lg.jp/kiji00324827/index.html',
+      'https://www.city.yatsushiro.lg.jp/reiki/reiki_honbun/r371RG00000392.html',
+    ],
   }),
   createMunicipalChildMedicalGrant({
     slug: 'nakatsu-child-medical',
