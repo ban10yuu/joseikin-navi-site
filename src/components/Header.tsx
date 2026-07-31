@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { DESKTOP_NAVIGATION, MOBILE_NAVIGATION } from '@/config/navigation';
 
@@ -45,7 +46,15 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b-4 border-accent bg-navy shadow-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6">
         <Link href="/" className="flex min-h-11 min-w-0 items-center gap-2.5 rounded-md" aria-label="助成金ナビ">
-          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-accent text-base font-black text-white">助</span>
+          <Image
+            src="/favicon.svg"
+            width={36}
+            height={36}
+            alt=""
+            aria-hidden="true"
+            priority
+            className="h-9 w-9 shrink-0 rounded-md"
+          />
           <span className="min-w-0 leading-tight">
             <span className="block text-lg font-black tracking-wide text-white">助成金ナビ</span>
             <span className="hidden text-[10px] tracking-wider text-white/65 sm:block">公式情報への確認先を整理</span>

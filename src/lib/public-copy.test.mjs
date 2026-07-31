@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 import { describe, it } from 'node:test';
 import { findPublicCopyViolations } from '../../scripts/check-public-copy.mjs';
 
@@ -48,5 +49,13 @@ describe('findPublicCopyViolations', () => {
 
     assert.equal(result.length, 1);
     assert.equal(result[0].phrase, 'Search Consoleで表示がある');
+  });
+
+  it('ロゴの装飾文字をサイト名と連続する可視テキストにしない', () => {
+    for (const file of ['src/components/Header.tsx', 'src/components/Footer.tsx']) {
+      const source = readFileSync(file, 'utf8');
+      assert.doesNotMatch(source, />助<\/span>/u, `${file}の装飾文字が検索結果のサイト名に連結されます`);
+      assert.match(source, /alt=""/u, `${file}の装飾画像は読み上げ対象から外します`);
+    }
   });
 });

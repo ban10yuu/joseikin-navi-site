@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { FOOTER_NAVIGATION } from '@/config/navigation';
 import { siteConfig } from '@/config/site';
@@ -14,7 +15,14 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-[1.2fr_1fr_1.35fr]">
           <div>
             <Link href="/" className="inline-flex min-h-11 items-center gap-2 rounded-md">
-              <span className="flex h-8 w-8 items-center justify-center rounded-md bg-accent text-sm font-black text-white">助</span>
+              <Image
+                src="/favicon.svg"
+                width={32}
+                height={32}
+                alt=""
+                aria-hidden="true"
+                className="h-8 w-8 rounded-md"
+              />
               <span className="text-lg font-black tracking-wide text-white">{siteConfig.name}</span>
             </Link>
             <p className="mt-3 max-w-sm text-sm leading-7 text-white/70">国・自治体・民間団体の公式情報をもとに、支援制度の対象、内容、期限、確認先を整理する民間運営の情報サイトです。</p>
