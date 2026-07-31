@@ -36,6 +36,7 @@ const issues = [];
 const addIssue = (severity, code, grant, message) => issues.push({ severity, code, slug: grant?.slug ?? '', title: grant?.title ?? '', message });
 const forbidden = /助成金診断クイズ|全国2,500件以上|必要書類チェックリストを掲載しています|公式サイトで申請する|必ず受給できる|条件を満たせばほぼ確実|申請すれば受け取れる/;
 const applicationPeriodNavigationContamination = /支給分）から児童手当制度が一部変わります|便利ナビ[\s\S]*ごみ分別辞典/;
+const applicationPeriodNavigationTokens = ['公共施設等', '施設予約システム', 'イベントカレンダー', 'ここから本文です'];
 const petSterilizationTitle = /(?:猫|犬).*(?:不妊|去勢)|(?:不妊|去勢).*(?:猫|犬)/;
 const humanInfertilityContext = /不妊治療|不育症|夫婦/;
 const tokyoDateParts = new Intl.DateTimeFormat('en-US', {
@@ -65,7 +66,9 @@ for (const grant of grants) {
   if (petSterilizationTitle.test(grant.title) && humanInfertilityContext.test(grant.eligibility ?? '')) {
     addIssue('critical', 'PET_HUMAN_ELIGIBILITY_MISMATCH', grant, '犬猫の不妊去勢制度に、人向け不妊治療の対象者説明が設定されています。');
   }
-  if (applicationPeriodNavigationContamination.test(grant.applicationPeriod ?? '')) {
+  const applicationPeriod = grant.applicationPeriod ?? '';
+  const navigationTokenCount = applicationPeriodNavigationTokens.filter((token) => applicationPeriod.includes(token)).length;
+  if (applicationPeriodNavigationContamination.test(applicationPeriod) || navigationTokenCount >= 3) {
     addIssue('critical', 'APPLICATION_PERIOD_NAV_CONTAMINATION', grant, '申請期間に別制度やサイト内ナビゲーションの文章が混入しています。');
   }
   const publicText = [grant.title, grant.description, grant.eligibility, ...grant.sections.flatMap((section) => [section.heading, section.content])].join('\n');
