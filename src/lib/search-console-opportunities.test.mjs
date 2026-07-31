@@ -81,6 +81,21 @@ describe('Search Console実測クエリの詳細ページ改善', () => {
     }
   });
 
+  it('次ページで表示された岩国市と唐津市の検索意図にも具体的に答える', () => {
+    const expected = [
+      ['iwakuni-child-medical-aid', /小学生・中学生/u],
+      ['saga-official-001-014-2026', /上限50万円/u],
+    ];
+
+    for (const [slug, answerPattern] of expected) {
+      const opportunity = SEARCH_CONSOLE_OPPORTUNITIES.find((item) =>
+        item.grantSlugs?.includes(slug));
+      assert.ok(opportunity?.seoTitle, slug);
+      assert.ok(opportunity?.metaDescription, slug);
+      assert.match(opportunity?.shortAnswer ?? '', answerPattern, slug);
+    }
+  });
+
   it('制度詳細へ案内する実測クエリは検索結果文と冒頭回答を持つ', () => {
     for (const opportunity of SEARCH_CONSOLE_OPPORTUNITIES) {
       if (!opportunity.grantSlugs?.length) continue;
