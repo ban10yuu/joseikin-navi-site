@@ -3,6 +3,7 @@ import test from 'node:test';
 
 import {
   containsBrowserBoilerplate,
+  containsPublicNavigationBoilerplate,
   hasGenericMunicipalityTitle,
   hasOverlongAmountExtraction,
   hasTruncatedApplicationPeriod,
@@ -27,7 +28,14 @@ test('具体的な制度名は許可する', () => {
 test('公式サイトから混入したブラウザ案内文を検出する', () => {
   assert.equal(containsBrowserBoilerplate('ご利用のブラウザーを最新版へ更新してください。'), true);
   assert.equal(containsBrowserBoilerplate('InternetExplorerの最新バージョンにアップグレードしてください。'), true);
+  assert.equal(containsBrowserBoilerplate('ページの先頭です。 メニューを飛ばして本文へ'), true);
   assert.equal(containsBrowserBoilerplate('対象条件は公式ページでご確認ください。'), false);
+});
+
+test('公式サイトから混入した共通ナビゲーションを検出する', () => {
+  assert.equal(containsPublicNavigationBoilerplate('本文へ移動 文字サイズ 小 標準 大'), true);
+  assert.equal(containsPublicNavigationBoilerplate('このページに関するお問い合わせ先 福祉課'), true);
+  assert.equal(containsPublicNavigationBoilerplate('補助内容は公式ページでご確認ください。'), false);
 });
 
 test('途中で切れた長文の申請期間を検出する', () => {

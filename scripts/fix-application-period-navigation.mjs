@@ -1,6 +1,8 @@
 import { readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
+import { containsPublicNavigationBoilerplate } from './lib/content-audit-rules.mjs';
+
 const writeChanges = process.argv.includes('--write');
 const root = process.cwd();
 const reportPath = path.join(root, 'reports', 'content-audit.json');
@@ -37,10 +39,11 @@ for (const fileName of fileNames) {
 
 const changedFiles = new Set();
 const repaired = [];
+const alreadyRepaired = [];
 const replacedFields = {};
 
 for (const slug of targetSlugs) {
-  const slugPatterns = [`"slug": "${slug}"`, `"slug":"${slug}"`, `slug:"${slug}"`];
+  const slugPatterns = [`"slug": "${slug}"`, `"slug":"${slug}"`, `slug: "${slug}"`, `slug:"${slug}"`];
   const matchingFiles = [...sourceFiles.entries()].filter(([, source]) =>
     slugPatterns.some((pattern) => source.includes(pattern)),
   );
@@ -55,7 +58,7 @@ for (const slug of targetSlugs) {
       .map((pattern) => source.indexOf(pattern))
       .filter((index) => index >= 0),
   );
-  const nextSlugIndexes = ['"slug": "', '"slug":"', 'slug:"']
+  const nextSlugIndexes = ['"slug": "', '"slug":"', 'slug: "', 'slug:"']
     .map((pattern) => source.indexOf(pattern, slugIndex + 1))
     .filter((index) => index >= 0);
   const recordEnd = nextSlugIndexes.length > 0 ? Math.min(...nextSlugIndexes) : source.length;
@@ -70,7 +73,9 @@ for (const slug of targetSlugs) {
       const shouldReplace = field === 'applicationPeriod'
         ? targetIssues.get(slug).has('APPLICATION_PERIOD_NAV_CONTAMINATION')
           || publicNavigationPattern.test(value)
-        : publicNavigationPattern.test(value);
+          || containsPublicNavigationBoilerplate(value)
+        : publicNavigationPattern.test(value)
+          || containsPublicNavigationBoilerplate(value);
       if (!shouldReplace) return match;
       repairedFields.push(field);
       replacedFields[field] = (replacedFields[field] ?? 0) + 1;
@@ -86,7 +91,8 @@ for (const slug of targetSlugs) {
   }
 
   if (repairedFields.length === 0) {
-    throw new Error(`${slug}: 修復対象の公開フィールドが見つかりません。`);
+    alreadyRepaired.push(slug);
+    continue;
   }
 
   const updatedSource = `${source.slice(0, slugIndex)}${updatedRecord}${source.slice(recordEnd)}`;
@@ -104,6 +110,7 @@ if (writeChanges) {
 console.log(JSON.stringify({
   mode: writeChanges ? 'write' : 'dry-run',
   repaired: repaired.length,
+  alreadyRepaired: alreadyRepaired.length,
   replacedFields,
   changedFiles: [...changedFiles].map((filePath) => path.relative(root, filePath)),
 }, null, 2));
