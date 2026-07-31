@@ -36,10 +36,15 @@ const issues = [];
 const addIssue = (severity, code, grant, message) => issues.push({ severity, code, slug: grant?.slug ?? '', title: grant?.title ?? '', message });
 const forbidden = /助成金診断クイズ|全国2,500件以上|必要書類チェックリストを掲載しています|公式サイトで申請する|必ず受給できる|条件を満たせばほぼ確実|申請すれば受け取れる/;
 const applicationPeriodNavigationContamination = /支給分）から児童手当制度が一部変わります|便利ナビ[\s\S]*ごみ分別辞典/;
-const applicationPeriodNavigationTokens = ['公共施設等', '施設予約システム', 'イベントカレンダー', 'ここから本文です'];
+const applicationPeriodNavigationTokens = ['公共施設等', '公共施設案内', '施設予約システム', 'イベントカレンダー', 'ここから本文です'];
 const applicationPeriodMenuTokens = ['暮らしサポート', '妊娠・出産', '育児・教育', '結婚・離婚', '引越し・住まい', '各種相談', 'インターネットでできる手続き', 'ごみ', '公共交通', '申請書等'];
+const applicationPeriodChildcareMenuTokens = ['保育所・認定こども園', 'こども家庭センター', '子育て支援パスポート', '児童手当', '子育て短期支援事業', '里親制度', '子育て支援アプリ'];
 const petSterilizationTitle = /(?:猫|犬).*(?:不妊|去勢)|(?:不妊|去勢).*(?:猫|犬)/;
 const humanInfertilityContext = /不妊治療|不育症|夫婦/;
+const businessApplicantContext = /事業者・就労者・創業者・農業者・団体等/;
+const driverEmploymentIncentiveTitle = /運転士.*就職奨励金/;
+const lowBirthWeightSupportTitle = /低出生体重児等支援事業/;
+const mealDeliverySupportTitle = /「食」の自立支援事業|配食サービス/;
 const tokyoDateParts = new Intl.DateTimeFormat('en-US', {
   timeZone: 'Asia/Tokyo',
   year: 'numeric',
@@ -67,10 +72,20 @@ for (const grant of grants) {
   if (petSterilizationTitle.test(grant.title) && humanInfertilityContext.test(grant.eligibility ?? '')) {
     addIssue('critical', 'PET_HUMAN_ELIGIBILITY_MISMATCH', grant, '犬猫の不妊去勢制度に、人向け不妊治療の対象者説明が設定されています。');
   }
+  if (driverEmploymentIncentiveTitle.test(grant.title) && grant.primaryPurpose !== 'employment') {
+    addIssue('critical', 'EMPLOYMENT_PURPOSE_MISMATCH', grant, '運転士の就職奨励金が雇用目的に分類されていません。');
+  }
+  if (lowBirthWeightSupportTitle.test(grant.title) && businessApplicantContext.test(grant.eligibility ?? '')) {
+    addIssue('critical', 'INFANT_SUPPORT_ELIGIBILITY_MISMATCH', grant, '低出生体重児等支援事業に事業者向けの対象者説明が設定されています。');
+  }
+  if (mealDeliverySupportTitle.test(grant.title) && businessApplicantContext.test(grant.eligibility ?? '')) {
+    addIssue('critical', 'MEAL_DELIVERY_ELIGIBILITY_MISMATCH', grant, '高齢者等向け配食サービスに事業者向けの対象者説明が設定されています。');
+  }
   const applicationPeriod = grant.applicationPeriod ?? '';
   const navigationTokenCount = applicationPeriodNavigationTokens.filter((token) => applicationPeriod.includes(token)).length;
   const menuTokenCount = applicationPeriodMenuTokens.filter((token) => applicationPeriod.includes(token)).length;
-  if (applicationPeriodNavigationContamination.test(applicationPeriod) || navigationTokenCount >= 3 || menuTokenCount >= 5) {
+  const childcareMenuTokenCount = applicationPeriodChildcareMenuTokens.filter((token) => applicationPeriod.includes(token)).length;
+  if (applicationPeriodNavigationContamination.test(applicationPeriod) || navigationTokenCount >= 3 || menuTokenCount >= 5 || childcareMenuTokenCount >= 4) {
     addIssue('critical', 'APPLICATION_PERIOD_NAV_CONTAMINATION', grant, '申請期間に別制度やサイト内ナビゲーションの文章が混入しています。');
   }
   const publicText = [grant.title, grant.description, grant.eligibility, ...grant.sections.flatMap((section) => [section.heading, section.content])].join('\n');
