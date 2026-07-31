@@ -7,6 +7,29 @@ const inputPath = path.resolve(process.env.MIGRATION_URL_LIST || 'artifacts/migr
 const concurrency = Math.max(1, Number(process.env.MIGRATION_AUDIT_CONCURRENCY || 24));
 const retries = Math.max(1, Number(process.env.MIGRATION_AUDIT_RETRIES || 3));
 
+async function assertLegacyOriginCanRedirect() {
+  const legacyUrl = `${legacyOrigin}/`;
+  const expectedLocation = `${canonicalOrigin}/`;
+  const response = await fetch(legacyUrl, {
+    method: 'HEAD',
+    redirect: 'manual',
+    headers: { 'user-agent': 'JoseikinMigrationAudit/1.0' },
+  });
+  const location = response.headers.get('location');
+  const resolvedLocation = location ? new URL(location, legacyUrl).href : null;
+
+  if (![301, 308].includes(response.status) || resolvedLocation !== expectedLocation) {
+    const providerError = response.headers.get('x-vercel-error');
+    throw new Error([
+      `移行元ホストが正規URLへ転送できません: ${legacyUrl}`,
+      `status=${response.status}`,
+      `location=${location ?? 'なし'}`,
+      providerError ? `providerError=${providerError}` : null,
+      '全URL監査は中止しました。先に移行元の301/308転送を復旧してください。',
+    ].filter(Boolean).join(' / '));
+  }
+}
+
 async function loadCanonicalUrls() {
   if (fs.existsSync(inputPath)) {
     return [...new Set(fs.readFileSync(inputPath, 'utf8').split(/\r?\n/).filter(Boolean))];
@@ -30,6 +53,7 @@ async function loadCanonicalUrls() {
   return [...new Set(urls)];
 }
 
+await assertLegacyOriginCanRedirect();
 const canonicalUrls = await loadCanonicalUrls();
 const failures = [];
 let nextIndex = 0;

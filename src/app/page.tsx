@@ -39,11 +39,11 @@ const FEATURED_PURPOSE_LINKS: { label: string; purpose: Purpose; audience: 'indi
 const SUPPORT_TYPE_LINKS: SupportType[] = ['subsidy', 'grant', 'benefit', 'allowance', 'loan', 'voucher'];
 
 export const metadata: Metadata = {
-  title: { absolute: 'あなたの地域の補助金・助成金を探す｜助成金ナビ' },
+  title: { absolute: '助成金ナビ｜地域の補助金・助成金を探す' },
   description: '子育て、住まい、仕事、事業支援など、全国の補助金・助成金・給付金を地域と目的から検索。申請前に確認したい公式ページもあわせて案内します。',
   alternates: { canonical: toSiteUrl('/') },
   openGraph: {
-    title: 'あなたの地域の補助金・助成金を探す｜助成金ナビ',
+    title: '助成金ナビ｜地域の補助金・助成金を探す',
     description: '子育て、住まい、仕事、事業支援など、全国の支援制度を地域と目的から探せます。',
     url: toSiteUrl('/'),
   },
@@ -263,7 +263,7 @@ export default async function HomePage() {
             '@graph': [
               {
                 '@type': 'WebPage',
-                name: 'あなたの地域の補助金・助成金を探す｜助成金ナビ',
+                name: '助成金ナビ｜地域の補助金・助成金を探す',
                 url: toSiteUrl('/'),
                 description: '全国の補助金・助成金・給付金・支援制度を地域、対象者、目的、制度種別から検索できるページです。申請前に確認したい公式ページも案内します。',
                 inLanguage: 'ja',
