@@ -9,6 +9,7 @@ export type SearchConsoleOpportunity = {
   categories: GrantCategory[];
   purposes: Purpose[];
   prefectures?: string[];
+  municipalities?: string[];
   grantSlugs?: string[];
   seoTitle?: string;
   metaDescription?: string;
@@ -310,6 +311,21 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     grantSlugs: ['koshigaya-health-checkup-subsidy'],
   },
   {
+    label: '美濃市 子育て世帯住宅支援事業補助金',
+    description: '子育て世帯・若い夫婦世帯の住宅取得や空き家リフォームに対する支援です。',
+    href: '/grant/gifu-official-002-013-2026/',
+    intent: '住まい',
+    observedQuery: '美濃市 補助金 リフォーム',
+    seoTitle: '美濃市 子育て世帯住宅支援｜住宅取得・リフォーム',
+    metaDescription: '美濃市の子育て世帯住宅支援事業補助金は、住宅取得や空き家購入・リフォームを行う子育て世帯・若い夫婦世帯が対象です。基本額20万円と加算、契約・申請要件を整理しています。',
+    shortAnswer: '美濃市の子育て世帯住宅支援事業補助金は、市内で住宅取得または空き家購入・リフォームを行う対象世帯へ、基本額20万円に転入者・子どもなどの加算を行う制度です。',
+    categories: ['housing'],
+    purposes: ['housing'],
+    prefectures: ['岐阜県'],
+    municipalities: ['美濃市'],
+    grantSlugs: ['gifu-official-002-013-2026'],
+  },
+  {
     label: '子育て・出産の給付金',
     description: '児童手当、出産、医療費など、家族向けの制度をまとめて探せます。',
     href: '/category/childcare/',
@@ -329,6 +345,18 @@ export function getSearchConsoleOpportunitiesForCategory(category: GrantCategory
 export function getSearchConsoleOpportunitiesForPrefecture(prefecture: string, limit = 4): SearchConsoleOpportunity[] {
   return SEARCH_CONSOLE_OPPORTUNITIES
     .filter((item) => item.prefectures?.includes(prefecture))
+    .slice(0, limit);
+}
+
+export function getSearchConsoleOpportunitiesForMunicipality(
+  prefecture: string,
+  municipality: string,
+  limit = 4,
+): SearchConsoleOpportunity[] {
+  return SEARCH_CONSOLE_OPPORTUNITIES
+    .filter((item) =>
+      item.prefectures?.includes(prefecture) && item.municipalities?.includes(municipality)
+    )
     .slice(0, limit);
 }
 

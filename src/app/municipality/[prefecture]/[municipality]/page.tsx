@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import DisplayAdSlot from '@/components/DisplayAdSlot';
 import GrantCard from '@/components/GrantCard';
 import { BreadcrumbJsonLd, GrantCollectionJsonLd } from '@/components/JsonLd';
+import { getSearchConsoleOpportunitiesForMunicipality } from '@/config/search-console-opportunities';
 import {
   MIN_INDEXABLE_MUNICIPALITY_GRANTS,
   getGrantsByMunicipality,
@@ -110,6 +111,7 @@ export default async function MunicipalityPage({ params }: Props) {
   const encodedPrefecture = encodeURIComponent(prefecture);
   const encodedMunicipality = encodeURIComponent(municipality);
   const canonical = toSiteUrl(`/municipality/${encodedPrefecture}/${encodedMunicipality}/`);
+  const searchOpportunities = getSearchConsoleOpportunitiesForMunicipality(prefecture, municipality);
 
   return (
     <>
@@ -155,6 +157,31 @@ export default async function MunicipalityPage({ params }: Props) {
             <button type="submit" className="min-h-11 self-end rounded-lg bg-navy px-5 font-bold text-white">この条件で探す</button>
           </form>
         </section>
+
+        {searchOpportunities.length > 0 ? (
+          <section className="mt-8 rounded-2xl border border-line bg-white p-5 sm:p-6" aria-labelledby="municipality-search-demand-title">
+            <div className="home-section-heading mb-0">
+              <p>実際に検索されている制度</p>
+              <h2 id="municipality-search-demand-title">{municipality}で検索されている支援</h2>
+            </div>
+            <div className="mt-4 grid gap-3 md:grid-cols-2">
+              {searchOpportunities.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="rounded-xl border border-line bg-wash p-4 transition hover:border-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                >
+                  <span className="text-xs font-bold text-accent">{item.intent}</span>
+                  <h3 className="mt-1 font-black text-navy">{item.label}</h3>
+                  <p className="mt-2 text-sm leading-7 text-muted">{item.description}</p>
+                  <span className="mt-3 inline-flex min-h-11 items-center font-bold text-navy underline underline-offset-4">
+                    制度の対象・金額を確認
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        ) : null}
 
         <DisplayAdSlot placement="list" format="horizontal" className="listing-adsense-slot mt-8" />
 

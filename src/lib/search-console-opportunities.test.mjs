@@ -1,6 +1,9 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
-import { SEARCH_CONSOLE_OPPORTUNITIES } from '../config/search-console-opportunities.ts';
+import {
+  SEARCH_CONSOLE_OPPORTUNITIES,
+  getSearchConsoleOpportunitiesForMunicipality,
+} from '../config/search-console-opportunities.ts';
 
 describe('Search Console実測クエリの詳細ページ改善', () => {
   it('安中市民商品券に実測値を反映した検索結果文と冒頭回答がある', () => {
@@ -106,6 +109,16 @@ describe('Search Console実測クエリの詳細ページ改善', () => {
     assert.match(opportunity?.seoTitle ?? '', /上限1万円/u);
     assert.match(opportunity?.metaDescription ?? '', /35歳以上/u);
     assert.match(opportunity?.shortAnswer ?? '', /一年度に一回/u);
+  });
+
+  it('美濃市のリフォーム補助検索を市区町村ページと対象制度へ反映する', () => {
+    const [opportunity] = getSearchConsoleOpportunitiesForMunicipality('岐阜県', '美濃市');
+
+    assert.equal(opportunity?.observedQuery, '美濃市 補助金 リフォーム');
+    assert.deepEqual(opportunity?.grantSlugs, ['gifu-official-002-013-2026']);
+    assert.equal(opportunity?.href, '/grant/gifu-official-002-013-2026/');
+    assert.match(opportunity?.seoTitle ?? '', /住宅取得・リフォーム/u);
+    assert.match(opportunity?.shortAnswer ?? '', /基本額20万円/u);
   });
 
   it('制度詳細へ案内する実測クエリは検索結果文と冒頭回答を持つ', () => {
