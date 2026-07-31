@@ -218,7 +218,8 @@ const municipalChildMedicalTier5Batch3Seeds: MunicipalChildMedicalSeed[] = [
     officialUrl: 'https://www.city.tsubame.niigata.jp/soshiki/kenko_fukushi/4/90/1759.html',
     sourceName: '燕市 子ども医療費助成',
     sourceUrls: [
-      'https://www.city.tsubame.niigata.jp/soshiki/kenko_fukushi/4/90/831.html'
+      'https://www.city.tsubame.niigata.jp/soshiki/kenko_fukushi/4/90/831.html',
+      'https://www.city.tsubame.niigata.jp/life/2/9/8187.html',
     ],
   },
   {
@@ -238,6 +239,10 @@ const municipalChildMedicalTier5Batch3Seeds: MunicipalChildMedicalSeed[] = [
     note: '保険適用外、200床以上病院の紹介状なし保険外併用療養費、学校等での災害共済給付対象は対象外です。',
     officialUrl: 'https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/4/1/11767.html',
     sourceName: '高岡市 こども医療費助成',
+    sourceUrls: [
+      'https://www.city.takaoka.toyama.jp/soshiki/kodomo_kosodateka/2/4/1/11767.html',
+      'https://www.city.takaoka.toyama.jp/gyosei/kosodate_kyoiku/kosodate_site/4/2/11769.html',
+    ],
   },
   {
     slug: 'hakusan-child-medical',

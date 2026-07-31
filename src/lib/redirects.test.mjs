@@ -12,6 +12,9 @@ describe('grant redirects', () => {
       { source: '/grant/fukaya-結婚新生活支援事業補助金lywed-life-support-subsidy-2026/', destination: '/grant/fukaya-newlywed-life-support-subsidy-2026/', statusCode: 301 },
       { source: '/grant/nara-city-childcare-subsidy/', destination: '/grant/nara-city-child-medical/', statusCode: 301 },
       { source: '/grant/yatsushiro-child-medical-aid/', destination: '/grant/yatsushiro-child-medical/', statusCode: 301 },
+      { source: '/grant/tsubame-8187-2026-niigata/', destination: '/grant/tsubame-child-medical/', statusCode: 301 },
+      { source: '/grant/takaoka-official-001-007-2026-toyama/', destination: '/grant/takaoka-child-medical/', statusCode: 301 },
+      { source: '/grant/gifu-official-001-008-2026/', destination: '/grant/gifu-city-child-medical/', statusCode: 301 },
     ];
 
     for (const redirect of requiredRedirects) {
@@ -32,6 +35,9 @@ describe('grant redirects', () => {
     assert.ok(REDIRECT_SOURCE_SLUGS.has('kagoshima-elderly-taxi'));
     assert.ok(REDIRECT_SOURCE_SLUGS.has('nara-city-childcare-subsidy'));
     assert.ok(REDIRECT_SOURCE_SLUGS.has('yatsushiro-child-medical-aid'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('tsubame-8187-2026-niigata'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('takaoka-official-001-007-2026-toyama'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('gifu-official-001-008-2026'));
     assert.equal(REDIRECT_SOURCE_SLUGS.size, REDIRECTS.length);
   });
 

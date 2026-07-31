@@ -1408,5 +1408,23 @@
     "destination": "/grant/yatsushiro-child-medical/",
     "statusCode": 301,
     "reason": "八代市の同一こども医療費助成制度を、複数の公式確認先を保持した詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/tsubame-8187-2026-niigata/",
+    "destination": "/grant/tsubame-child-medical/",
+    "statusCode": 301,
+    "reason": "燕市の同一子ども医療費助成制度を、対象条件と助成内容が詳しい詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/takaoka-official-001-007-2026-toyama/",
+    "destination": "/grant/takaoka-child-medical/",
+    "statusCode": 301,
+    "reason": "高岡市の同一こども医療費助成制度を、対象条件と申請方法が詳しい詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/gifu-official-001-008-2026/",
+    "destination": "/grant/gifu-city-child-medical/",
+    "statusCode": 301,
+    "reason": "岐阜市の同一子ども医療費助成制度を、対象条件と手続きが詳しい詳細ページへ統合するため"
   }
 ]
