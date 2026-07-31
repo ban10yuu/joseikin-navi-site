@@ -22,5 +22,5 @@ export function hasTruncatedApplicationPeriod(text) {
 
 export function hasOverlongAmountExtraction(text) {
   const value = text?.trim() ?? '';
-  return value.length > 180 && /に係る(?:支援|補助|助成)[（(]/.test(value);
+  return value.length > 120 && /に係る(?:支援|補助|助成)[（(]/.test(value);
 }

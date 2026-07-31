@@ -37,7 +37,8 @@ test('途中で切れた長文の申請期間を検出する', () => {
 });
 
 test('支援額へ混入した長い本文断片を検出する', () => {
-  const clipped = `制度名に係る支援（${'対象者や必要書類の本文'.repeat(18)}）`;
+  const clipped = `制度名に係る支援（${'対象者や必要書類の本文'.repeat(14)}）`;
   assert.equal(hasOverlongAmountExtraction(clipped), true);
   assert.equal(hasOverlongAmountExtraction('購入費の2分の1、上限2万円'), false);
+  assert.equal(hasOverlongAmountExtraction('制度名に係る支援（購入費の2分の1、上限2万円）'), false);
 });
