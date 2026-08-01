@@ -23,6 +23,13 @@ describe('popular search keywords', () => {
       '住み替え',
       '子ども医療費',
       'がん検診',
+      '医療費',
+      '人間ドック',
+      '教育費',
+      '教育資金',
+      '就学援助',
+      '家屋解体',
+      'リフォーム',
     ];
 
     observedTerms.forEach((term) => {
