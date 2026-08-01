@@ -168,6 +168,7 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     categories: ['medical', 'childcare'],
     purposes: ['medical', 'childcare'],
     prefectures: ['石川県'],
+    municipalities: ['小松市'],
     grantSlugs: ['komatsu-official-001-014-2026-ishikawa'],
   },
   {
@@ -182,6 +183,7 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     categories: ['medical', 'childcare'],
     purposes: ['medical', 'childcare'],
     prefectures: ['北海道'],
+    municipalities: ['小樽市'],
     grantSlugs: ['otaru-child-medical'],
   },
   {
@@ -196,6 +198,7 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     categories: ['medical', 'childcare'],
     purposes: ['medical', 'childcare'],
     prefectures: ['岐阜県'],
+    municipalities: ['各務原市'],
     grantSlugs: ['kakamigahara-child-medical'],
   },
   {
@@ -210,6 +213,7 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     categories: ['medical', 'childcare'],
     purposes: ['medical', 'childcare'],
     prefectures: ['大阪府'],
+    municipalities: ['寝屋川市'],
     grantSlugs: ['neyagawa-child-medical'],
   },
   {
@@ -224,6 +228,7 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     categories: ['medical'],
     purposes: ['medical'],
     prefectures: ['広島県'],
+    municipalities: ['廿日市市'],
     grantSlugs: ['hiroshima-official-003-033-2026'],
   },
   {
@@ -238,6 +243,7 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     categories: ['medical', 'childcare'],
     purposes: ['medical', 'childcare'],
     prefectures: ['愛媛県'],
+    municipalities: ['松山市'],
     grantSlugs: ['matsuyama-child-medical'],
   },
   {
@@ -252,6 +258,7 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     categories: ['medical', 'childcare'],
     purposes: ['medical', 'childcare'],
     prefectures: ['群馬県'],
+    municipalities: ['前橋市'],
     grantSlugs: ['maebashi-child-medical'],
   },
   {
@@ -266,6 +273,7 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
     categories: ['medical', 'childcare'],
     purposes: ['medical', 'childcare'],
     prefectures: ['滋賀県'],
+    municipalities: ['彦根市'],
     grantSlugs: ['hikone-child-medical'],
   },
   {

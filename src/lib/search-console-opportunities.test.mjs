@@ -84,6 +84,24 @@ describe('Search Console実測クエリの詳細ページ改善', () => {
     }
   });
 
+  it('表示が増えた医療費相談制度を該当する市区町村ページへ接続する', () => {
+    const expected = [
+      ['石川県', '小松市', 'komatsu-official-001-014-2026-ishikawa'],
+      ['北海道', '小樽市', 'otaru-child-medical'],
+      ['岐阜県', '各務原市', 'kakamigahara-child-medical'],
+      ['大阪府', '寝屋川市', 'neyagawa-child-medical'],
+      ['広島県', '廿日市市', 'hiroshima-official-003-033-2026'],
+      ['愛媛県', '松山市', 'matsuyama-child-medical'],
+      ['群馬県', '前橋市', 'maebashi-child-medical'],
+      ['滋賀県', '彦根市', 'hikone-child-medical'],
+    ];
+
+    for (const [prefecture, municipality, slug] of expected) {
+      const opportunities = getSearchConsoleOpportunitiesForMunicipality(prefecture, municipality);
+      assert.equal(opportunities.some((item) => item.grantSlugs?.includes(slug)), true, `${prefecture}${municipality}`);
+    }
+  });
+
   it('次ページで表示された岩国市と唐津市の検索意図にも具体的に答える', () => {
     const expected = [
       ['iwakuni-child-medical-aid', /小学生・中学生/u],
