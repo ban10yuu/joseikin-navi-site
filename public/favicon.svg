@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="助成金ナビ">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" rx="14" fill="#2B60B8"/>
-  <text x="32" y="44" text-anchor="middle" font-family="Noto Sans JP, Hiragino Sans, sans-serif" font-weight="800" font-size="32" fill="#FFFFFF">助</text>
+  <path d="M17 14h25a5 5 0 0 1 5 5v24a5 5 0 0 1-5 5H17a5 5 0 0 1-5-5V19a5 5 0 0 1 5-5Z" fill="#fff"/>
+  <path d="M20 23h19M20 31h12M20 39h9" fill="none" stroke="#2B60B8" stroke-linecap="round" stroke-width="4"/>
+  <circle cx="42" cy="41" r="9" fill="#F6A623" stroke="#fff" stroke-width="3"/>
+  <path d="m48.5 47.5 5 5" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="4"/>
 </svg>
