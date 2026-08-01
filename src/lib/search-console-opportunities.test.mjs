@@ -150,6 +150,17 @@ describe('Search Console実測クエリの詳細ページ改善', () => {
     assert.match(opportunity?.shortAnswer ?? '', /児童生徒と保護者/u);
   });
 
+  it('宜野湾市の教育費相談検索を市区町村ページと就学援助制度へ反映する', () => {
+    const [opportunity] = getSearchConsoleOpportunitiesForMunicipality('沖縄県', '宜野湾市');
+
+    assert.equal(opportunity?.observedQuery, '宜野湾市 教育費 相談');
+    assert.deepEqual(opportunity?.grantSlugs, ['ginowan-school-lunch-subsidy']);
+    assert.equal(opportunity?.href, '/grant/ginowan-school-lunch-subsidy/');
+    assert.match(opportunity?.seoTitle ?? '', /学校給食費/u);
+    assert.match(opportunity?.metaDescription ?? '', /修学旅行費/u);
+    assert.match(opportunity?.shortAnswer ?? '', /学用品費/u);
+  });
+
   it('制度詳細へ案内する実測クエリは検索結果文と冒頭回答を持つ', () => {
     for (const opportunity of SEARCH_CONSOLE_OPPORTUNITIES) {
       if (!opportunity.grantSlugs?.length) continue;
