@@ -1426,5 +1426,17 @@
     "destination": "/grant/gifu-city-child-medical/",
     "statusCode": 301,
     "reason": "岐阜市の同一子ども医療費助成制度を、対象条件と手続きが詳しい詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/tokushima-child-medical-aid/",
+    "destination": "/grant/tokushima-city-child-medical/",
+    "statusCode": 301,
+    "reason": "徳島市の同一子ども医療費助成制度を、複数の公式確認先を保持した詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/kawasaki-childcare-subsidy/",
+    "destination": "/grant/kawasaki-child-medical/",
+    "statusCode": 301,
+    "reason": "川崎市の同一小児医療費助成事業を、複数の公式確認先を保持した詳細ページへ統合するため"
   }
 ]
