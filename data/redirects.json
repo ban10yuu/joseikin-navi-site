@@ -1633,7 +1633,7 @@
   },
   {
     "source": "/grant/kounosu-marriage-結婚新生活支援事業補助金-life-subsidy-2026/",
-    "destination": "/grant/kounosu-marriage-結婚新生活支援事業補助金-life-support-2026/",
+    "destination": "/grant/kounosu-newlywed-life-support-2026/",
     "statusCode": 301,
     "reason": "鴻巣市の制度一覧から、令和8年度の期限・予算・対象費用が詳しい結婚新生活支援補助金ページへ統合するため"
   },
@@ -1648,5 +1648,11 @@
     "destination": "/grant/tokushima-official-005-035-2026/",
     "statusCode": 301,
     "reason": "上板町の同一子どもはぐくみ医療費助成を、令和6年制度改正後の現行公式ページへ統合するため"
+  },
+  {
+    "source": "/grant/kounosu-marriage-結婚新生活支援事業補助金-life-support-2026/",
+    "destination": "/grant/kounosu-newlywed-life-support-2026/",
+    "statusCode": 301,
+    "reason": "日本語が混在する旧URLを、鴻巣市結婚新生活支援補助金の英数字正規URLへ移行するため"
   }
 ]
