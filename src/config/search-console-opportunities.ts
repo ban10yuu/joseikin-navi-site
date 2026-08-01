@@ -18,6 +18,17 @@ export type SearchConsoleOpportunity = {
 
 export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
   {
+    label: '釧路市の補助金・助成金・給付金',
+    description: '釧路市の制度を、対象者、目的、制度種別、受付状況からまとめて確認できます。',
+    href: '/municipality/%E5%8C%97%E6%B5%B7%E9%81%93/%E9%87%A7%E8%B7%AF%E5%B8%82/',
+    intent: '生活支援',
+    observedQuery: '釧路 補助金',
+    categories: ['living', 'childcare', 'housing', 'medical'],
+    purposes: ['livingSupport', 'childcare', 'housing', 'medical'],
+    prefectures: ['北海道'],
+    municipalities: ['釧路市'],
+  },
+  {
     label: '安中市 安中市民商品券',
     description: '物価高騰対策の商品券。対象者、金額、利用期限を確認できます。',
     href: '/grant/annaka-citizen-voucher-2026/',

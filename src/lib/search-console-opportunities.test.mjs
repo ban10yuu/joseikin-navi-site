@@ -102,6 +102,24 @@ describe('Search Console実測クエリの詳細ページ改善', () => {
     }
   });
 
+  it('釧路の補助金検索を釧路市の地域一覧へ案内する', () => {
+    const opportunity = SEARCH_CONSOLE_OPPORTUNITIES.find(
+      (item) => item.observedQuery === '釧路 補助金'
+    );
+
+    assert.equal(
+      opportunity?.href,
+      '/municipality/%E5%8C%97%E6%B5%B7%E9%81%93/%E9%87%A7%E8%B7%AF%E5%B8%82/'
+    );
+    assert.deepEqual(opportunity?.municipalities, ['釧路市']);
+    assert.equal(opportunity?.grantSlugs, undefined);
+    assert.equal(
+      getSearchConsoleOpportunitiesForMunicipality('北海道', '釧路市')
+        .some((item) => item.observedQuery === '釧路 補助金'),
+      true
+    );
+  });
+
   it('次ページで表示された岩国市と唐津市の検索意図にも具体的に答える', () => {
     const expected = [
       ['iwakuni-child-medical-aid', /小学生・中学生/u],
