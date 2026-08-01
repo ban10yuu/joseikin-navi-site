@@ -17,6 +17,9 @@ describe('grant redirects', () => {
       { source: '/grant/gifu-official-001-008-2026/', destination: '/grant/gifu-city-child-medical/', statusCode: 301 },
       { source: '/grant/tokushima-child-medical-aid/', destination: '/grant/tokushima-city-child-medical/', statusCode: 301 },
       { source: '/grant/kawasaki-childcare-subsidy/', destination: '/grant/kawasaki-child-medical/', statusCode: 301 },
+      { source: '/grant/tokushima-official-001-002-2026/', destination: '/grant/tokushima-pregnant-support-benefit-2026/', statusCode: 301 },
+      { source: '/grant/okinawa-official-002-049-2026/', destination: '/grant/okinawa-city-child-medical/', statusCode: 301 },
+      { source: '/grant/kanazawa-official-001-001-2026-ishikawa/', destination: '/grant/kanazawa-child-medical/', statusCode: 301 },
     ];
 
     for (const redirect of requiredRedirects) {
@@ -42,6 +45,9 @@ describe('grant redirects', () => {
     assert.ok(REDIRECT_SOURCE_SLUGS.has('gifu-official-001-008-2026'));
     assert.ok(REDIRECT_SOURCE_SLUGS.has('tokushima-child-medical-aid'));
     assert.ok(REDIRECT_SOURCE_SLUGS.has('kawasaki-childcare-subsidy'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('tokushima-official-001-002-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('okinawa-official-002-049-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('kanazawa-official-001-001-2026-ishikawa'));
     assert.equal(REDIRECT_SOURCE_SLUGS.size, REDIRECTS.length);
   });
 

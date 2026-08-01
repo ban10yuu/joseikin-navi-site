@@ -1438,5 +1438,23 @@
     "destination": "/grant/kawasaki-child-medical/",
     "statusCode": 301,
     "reason": "川崎市の同一小児医療費助成事業を、複数の公式確認先を保持した詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/tokushima-official-001-002-2026/",
+    "destination": "/grant/tokushima-pregnant-support-benefit-2026/",
+    "statusCode": 301,
+    "reason": "徳島市の同一妊婦支援給付金事業を、給付額と申請期限が詳しい詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/okinawa-official-002-049-2026/",
+    "destination": "/grant/okinawa-city-child-medical/",
+    "statusCode": 301,
+    "reason": "沖縄市の同一こども医療費助成制度を、対象条件と助成方法が詳しい詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/kanazawa-official-001-001-2026-ishikawa/",
+    "destination": "/grant/kanazawa-child-medical/",
+    "statusCode": 301,
+    "reason": "金沢市の同一子育て支援医療費助成制度を、複数の公式確認先を保持した詳細ページへ統合するため"
   }
 ]
