@@ -161,6 +161,28 @@ describe('Search Console実測クエリの詳細ページ改善', () => {
     assert.match(opportunity?.shortAnswer ?? '', /学用品費/u);
   });
 
+  it('東根市の医療費相談検索を子育て支援医療給付制度へ反映する', () => {
+    const [opportunity] = getSearchConsoleOpportunitiesForMunicipality('山形県', '東根市');
+
+    assert.equal(opportunity?.observedQuery, '東根市 医療費 相談');
+    assert.deepEqual(opportunity?.grantSlugs, ['higashine-child-medical-expense-subsidy-2026']);
+    assert.equal(opportunity?.href, '/grant/higashine-child-medical-expense-subsidy-2026/');
+    assert.match(opportunity?.seoTitle ?? '', /18歳年度末/u);
+    assert.match(opportunity?.metaDescription ?? '', /窓口負担/u);
+    assert.match(opportunity?.shortAnswer ?? '', /通院・入院/u);
+  });
+
+  it('阿賀野市の教育資金相談検索を返済が必要な奨学金制度へ反映する', () => {
+    const [opportunity] = getSearchConsoleOpportunitiesForMunicipality('新潟県', '阿賀野市');
+
+    assert.equal(opportunity?.observedQuery, '阿賀野市 教育資金 相談');
+    assert.deepEqual(opportunity?.grantSlugs, ['agano-scholarship']);
+    assert.equal(opportunity?.href, '/grant/agano-scholarship/');
+    assert.match(opportunity?.seoTitle ?? '', /無利子貸付/u);
+    assert.match(opportunity?.metaDescription ?? '', /返済/u);
+    assert.match(opportunity?.shortAnswer ?? '', /貸付制度/u);
+  });
+
   it('制度詳細へ案内する実測クエリは検索結果文と冒頭回答を持つ', () => {
     for (const opportunity of SEARCH_CONSOLE_OPPORTUNITIES) {
       if (!opportunity.grantSlugs?.length) continue;
