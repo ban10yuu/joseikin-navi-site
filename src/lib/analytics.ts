@@ -1,5 +1,5 @@
 export const ANALYTICS_EVENTS = [
-  'affiliate_render', 'affiliate_impression', 'affiliate_click', 'official_source_click', 'search_submit', 'filter_apply', 'grant_card_click', 'newsletter_signup', 'correction_request',
+  'affiliate_render', 'affiliate_placement_impression', 'affiliate_impression', 'affiliate_click', 'official_source_click', 'search_submit', 'filter_apply', 'grant_card_click', 'newsletter_signup', 'correction_request',
 ] as const;
 
 export const ANALYTICS_PARAMETER_KEYS = [

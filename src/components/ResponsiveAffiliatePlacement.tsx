@@ -52,7 +52,20 @@ export default function ResponsiveAffiliatePlacement({
 
   return (
     <section className={`responsive-affiliate-placement ${className}`.trim()} aria-label={`${heading}（広告）`}>
-      <div className="responsive-affiliate-heading">
+      <div
+        className="responsive-affiliate-heading"
+        data-analytics-impression="true"
+        data-analytics-impression-event="affiliate_placement_impression"
+        data-page-type={pageType}
+        data-grant-id={grantId}
+        data-audience={audience}
+        data-purpose={purpose}
+        data-context-purposes={contextPurposes.join(',')}
+        data-context-intents={intents.join(',')}
+        data-placement={placement}
+        data-format="placement"
+        data-experiment-variant="responsive-affiliate-v1"
+      >
         <div>
           <h2>{heading}</h2>
           <p>{description}</p>
