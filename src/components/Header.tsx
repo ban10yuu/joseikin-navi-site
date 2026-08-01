@@ -47,7 +47,7 @@ export default function Header() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-6">
         <Link href="/" className="flex min-h-11 min-w-0 items-center gap-2.5 rounded-md" aria-label="助成金ナビ">
           <Image
-            src="/favicon.svg"
+            src="/brand-mark.svg"
             width={36}
             height={36}
             alt=""

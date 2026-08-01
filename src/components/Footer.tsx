@@ -16,7 +16,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="inline-flex min-h-11 items-center gap-2 rounded-md">
               <Image
-                src="/favicon.svg"
+                src="/brand-mark.svg"
                 width={32}
                 height={32}
                 alt=""

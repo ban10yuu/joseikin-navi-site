@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: '64x64', type: 'image/x-icon' },
-      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/brand-mark.svg', type: 'image/svg+xml' },
     ],
     apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
   },
@@ -91,7 +91,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             })),
           }}
         />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/brand-mark.svg" type="image/svg+xml" />
       </head>
       <body className="antialiased min-h-screen flex flex-col bg-surface text-ink">
         {siteConfig.analytics.ga4MeasurementId && <AnalyticsEvents />}
