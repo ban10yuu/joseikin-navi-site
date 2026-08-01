@@ -53,6 +53,10 @@ describe('grant redirects', () => {
       { source: '/grant/nomi-official-002-088-2026-ishikawa/', destination: '/grant/nomi-official-002-089-2026-ishikawa/', statusCode: 301 },
       { source: '/grant/tokushima-official-005-028-2026/', destination: '/grant/tokushima-official-005-035-2026/', statusCode: 301 },
       { source: '/grant/kounosu-marriage-結婚新生活支援事業補助金-life-support-2026/', destination: '/grant/kounosu-newlywed-life-support-2026/', statusCode: 301 },
+      { source: '/grant/kasukabe-school-lunch-fee-support-2026/', destination: '/grant/kasukabe-school-lunch-subsidy/', statusCode: 301 },
+      { source: '/grant/tokushima-official-001-015-2026/', destination: '/grant/tokushima-water-saving/', statusCode: 301 },
+      { source: '/grant/aichi-official-005-073-2026/', destination: '/grant/aichi-official-005-063-2026/', statusCode: 301 },
+      { source: '/grant/hiroshima-official-005-019-2026/', destination: '/grant/hiroshima-official-005-007-2026/', statusCode: 301 },
     ];
 
     for (const redirect of requiredRedirects) {
@@ -114,6 +118,10 @@ describe('grant redirects', () => {
     assert.ok(REDIRECT_SOURCE_SLUGS.has('nomi-official-002-088-2026-ishikawa'));
     assert.ok(REDIRECT_SOURCE_SLUGS.has('tokushima-official-005-028-2026'));
     assert.ok(REDIRECT_SOURCE_SLUGS.has('kounosu-marriage-結婚新生活支援事業補助金-life-support-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('kasukabe-school-lunch-fee-support-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('tokushima-official-001-015-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('aichi-official-005-073-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('hiroshima-official-005-019-2026'));
     assert.equal(REDIRECT_SOURCE_SLUGS.size, REDIRECTS.length);
   });
 

@@ -1654,5 +1654,29 @@
     "destination": "/grant/kounosu-newlywed-life-support-2026/",
     "statusCode": 301,
     "reason": "日本語が混在する旧URLを、鴻巣市結婚新生活支援補助金の英数字正規URLへ移行するため"
+  },
+  {
+    "source": "/grant/kasukabe-school-lunch-fee-support-2026/",
+    "destination": "/grant/kasukabe-school-lunch-subsidy/",
+    "statusCode": 301,
+    "reason": "物価高騰対策一覧から抽出した学校給食費支援を、令和8年度の対象月と手続が詳しい制度ページへ統合するため"
+  },
+  {
+    "source": "/grant/tokushima-official-001-015-2026/",
+    "destination": "/grant/tokushima-water-saving/",
+    "statusCode": 301,
+    "reason": "徳島市の同一合併処理浄化槽転換補助を、工事区分別の金額と受付状況を再確認した詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/aichi-official-005-073-2026/",
+    "destination": "/grant/aichi-official-005-063-2026/",
+    "statusCode": 301,
+    "reason": "知立市公式が同じcanonicalを指定する一般不妊治療費助成事業を統合するため"
+  },
+  {
+    "source": "/grant/hiroshima-official-005-019-2026/",
+    "destination": "/grant/hiroshima-official-005-007-2026/",
+    "statusCode": 301,
+    "reason": "大崎上島町公式の本文が一致する母子保健助成を、2025年更新の現行ページへ統合するため"
   }
 ]
