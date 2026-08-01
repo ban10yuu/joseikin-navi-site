@@ -32,6 +32,11 @@ describe('grant redirects', () => {
       { source: '/grant/ehime-official-001-065-2026/', destination: '/grant/imabari-infertility/', statusCode: 301 },
       { source: '/grant/okayama-official-001-031-2026/', destination: '/grant/kurashiki-birth-bonus/', statusCode: 301 },
       { source: '/grant/osaka-official-001-023-2026/', destination: '/grant/sakai-scholarship/', statusCode: 301 },
+      { source: '/grant/tottori-official-003-060-2026/', destination: '/grant/tottori-official-003-053-2026/', statusCode: 301 },
+      { source: '/grant/mie-official-006-010-2026/', destination: '/grant/mie-official-006-007-2026/', statusCode: 301 },
+      { source: '/grant/wakayama-official-002-062-2026/', destination: '/grant/wakayama-official-002-067-2026/', statusCode: 301 },
+      { source: '/grant/okayama-official-006-017-2026/', destination: '/grant/okayama-official-006-026-2026/', statusCode: 301 },
+      { source: '/grant/okayama-official-006-018-2026/', destination: '/grant/okayama-official-006-025-2026/', statusCode: 301 },
     ];
 
     for (const redirect of requiredRedirects) {
@@ -72,6 +77,11 @@ describe('grant redirects', () => {
     assert.ok(REDIRECT_SOURCE_SLUGS.has('ehime-official-001-065-2026'));
     assert.ok(REDIRECT_SOURCE_SLUGS.has('okayama-official-001-031-2026'));
     assert.ok(REDIRECT_SOURCE_SLUGS.has('osaka-official-001-023-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('tottori-official-003-060-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('mie-official-006-010-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('wakayama-official-002-062-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('okayama-official-006-017-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('okayama-official-006-018-2026'));
     assert.equal(REDIRECT_SOURCE_SLUGS.size, REDIRECTS.length);
   });
 

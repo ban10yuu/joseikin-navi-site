@@ -1528,5 +1528,35 @@
     "destination": "/grant/sakai-scholarship/",
     "statusCode": 301,
     "reason": "同一公式URLの堺未来応援奨学金を、制度説明が詳しい詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/tottori-official-003-060-2026/",
+    "destination": "/grant/tottori-official-003-053-2026/",
+    "statusCode": 301,
+    "reason": "大文字小文字だけが異なる同一公式URLの日吉津村耐震補助制度を、公式canonicalと一致する詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/mie-official-006-010-2026/",
+    "destination": "/grant/mie-official-006-007-2026/",
+    "statusCode": 301,
+    "reason": "南伊勢町公式が同じ正規ページを指定する子ども医療費助成を統合するため"
+  },
+  {
+    "source": "/grant/wakayama-official-002-062-2026/",
+    "destination": "/grant/wakayama-official-002-067-2026/",
+    "statusCode": 301,
+    "reason": "紀美野町公式が同じ正規ページを指定する創業支援事業補助金を統合するため"
+  },
+  {
+    "source": "/grant/okayama-official-006-017-2026/",
+    "destination": "/grant/okayama-official-006-026-2026/",
+    "statusCode": 301,
+    "reason": "美咲町公式が同じ正規ページを指定する結婚定住促進祝金を統合するため"
+  },
+  {
+    "source": "/grant/okayama-official-006-018-2026/",
+    "destination": "/grant/okayama-official-006-025-2026/",
+    "statusCode": 301,
+    "reason": "美咲町公式が同じ正規ページを指定する就職定住促進祝金を統合するため"
   }
 ]
