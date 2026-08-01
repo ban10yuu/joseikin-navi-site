@@ -11,4 +11,14 @@ describe('サイトマップのキャッシュ制御', () => {
 
     assert.match(source, /export const revalidate = 3600;/u);
   });
+
+  it('検索エンジンが使用しないpriorityとchangefreqを出力しない', async () => {
+    const source = await readFile(
+      new URL('../app/sitemap.ts', import.meta.url),
+      'utf8'
+    );
+
+    assert.doesNotMatch(source, /\bpriority\s*:/u);
+    assert.doesNotMatch(source, /\bchangeFrequency\s*:/u);
+  });
 });

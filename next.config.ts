@@ -2,7 +2,10 @@ import type { NextConfig } from 'next';
 import { initOpenNextCloudflareForDev } from '@opennextjs/cloudflare';
 import { REDIRECTS } from './src/data/redirects';
 import { AFFILIATE_HOST_ALLOWLIST } from './src/config/affiliate-security';
-import { DYNAMIC_HTML_CDN_CACHE_CONTROL } from './src/config/cache-policy';
+import {
+  CRAWLER_RESOURCE_CDN_CACHE_CONTROL,
+  DYNAMIC_HTML_CDN_CACHE_CONTROL,
+} from './src/config/cache-policy';
 
 initOpenNextCloudflareForDev();
 
@@ -54,6 +57,12 @@ const nextConfig: NextConfig = {
         source: '/grant/:path*',
         headers: [
           { key: 'Cloudflare-CDN-Cache-Control', value: DYNAMIC_HTML_CDN_CACHE_CONTROL },
+        ],
+      },
+      {
+        source: '/:crawlerResource(sitemap.xml|robots.txt)',
+        headers: [
+          { key: 'Cloudflare-CDN-Cache-Control', value: CRAWLER_RESOURCE_CDN_CACHE_CONTROL },
         ],
       },
     ];

@@ -28,8 +28,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticPages: MetadataRoute.Sitemap = staticPaths.map((path, index) => ({
     url: toSiteUrl(path),
     ...(index < 2 && listingLastModified ? { lastModified: listingLastModified } : {}),
-    changeFrequency: index < 2 ? 'daily' : 'monthly',
-    priority: index === 0 ? 1 : index === 1 ? 0.9 : 0.5,
   }));
   const categories: MetadataRoute.Sitemap = Object.keys(CATEGORY_LABELS).flatMap((categoryValue) => {
     const category = categoryValue as keyof typeof CATEGORY_LABELS;
@@ -37,8 +35,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     return categoryGrants.length === 0 ? [] : [{
       url: toSiteUrl(`/category/${category}/`),
       lastModified: getCollectionLastModified(categoryGrants, now),
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
     }];
   });
   const supportTypes: MetadataRoute.Sitemap = SEO_SUPPORT_TYPES.flatMap((supportType) => {
@@ -46,21 +42,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     return matchingGrants.length === 0 ? [] : [{
       url: toSiteUrl(`/support-type/${supportType}/`),
       lastModified: getCollectionLastModified(matchingGrants, now),
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
     }];
   });
   const prefectures: MetadataRoute.Sitemap = PREFECTURES.filter((prefecture) => prefecture !== '全国' && grantsByPrefecture(prefecture).length > 0).map((prefecture) => ({
     url: toSiteUrl(`/prefecture/${encodeURIComponent(prefecture)}/`),
     lastModified: getCollectionLastModified(grantsByPrefecture(prefecture), now),
-    changeFrequency: 'weekly',
-    priority: 0.7,
   }));
   const grants: MetadataRoute.Sitemap = grantsForSitemap.map((grant) => ({
     url: toSiteUrl(`/grant/${grant.slug}/`),
     lastModified: getGrantLastModified(grant, now),
-    changeFrequency: 'monthly',
-    priority: 0.7,
   }));
 
   const municipalityPages: MetadataRoute.Sitemap = (await getMunicipalityGroups())
@@ -70,8 +60,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       return {
         url: toSiteUrl(`/municipality/${encodeURIComponent(group.prefecture)}/${encodeURIComponent(group.municipality)}/`),
         lastModified: getCollectionLastModified(grantsForMunicipality, now),
-        changeFrequency: 'weekly' as const,
-        priority: 0.65,
       };
     });
 
