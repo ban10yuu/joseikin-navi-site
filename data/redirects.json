@@ -1558,5 +1558,71 @@
     "destination": "/grant/okayama-official-006-025-2026/",
     "statusCode": 301,
     "reason": "美咲町公式が同じ正規ページを指定する就職定住促進祝金を統合するため"
+  },
+  {
+    "source": "/grant/sagamihara-newlywed-housing/",
+    "destination": "/grant/sagamihara-migration-support/",
+    "statusCode": 301,
+    "reason": "同一公式URLの相模原市結婚新生活・移住定住支援事業を統合するため"
+  },
+  {
+    "source": "/grant/iwate-education-scholarship-returnee/",
+    "destination": "/grant/iwate-industrial-scholarship-repayment-2026/",
+    "statusCode": 301,
+    "reason": "同一公式URLのいわて産業人材奨学金返還支援制度を令和8年度ページへ統合するため"
+  },
+  {
+    "source": "/grant/hyogo-official-003-019-2026/",
+    "destination": "/grant/kakogawa-disability-medical/",
+    "statusCode": 301,
+    "reason": "加古川市公式が指定する正規ページへ障害者医療費助成制度を統合するため"
+  },
+  {
+    "source": "/grant/nara-official-008-076-2026/",
+    "destination": "/grant/nara-official-008-069-2026/",
+    "statusCode": 301,
+    "reason": "東吉野村の同一田舎暮らしエコ補助を移住向け公式ページの詳細へ統合するため"
+  },
+  {
+    "source": "/grant/wakayama-official-005-035-2026/",
+    "destination": "/grant/wakayama-official-005-037-2026/",
+    "statusCode": 301,
+    "reason": "白浜町公式が指定する正規ページへ宿泊税対応システム改修等事業補助金を統合するため"
+  },
+  {
+    "source": "/grant/wakayama-official-005-040-2026/",
+    "destination": "/grant/wakayama-official-005-043-2026/",
+    "statusCode": 301,
+    "reason": "白浜町公式が同じ正規ページを指定する木造住宅耐震診断事業を統合するため"
+  },
+  {
+    "source": "/grant/wakayama-official-005-041-2026/",
+    "destination": "/grant/wakayama-official-005-044-2026/",
+    "statusCode": 301,
+    "reason": "白浜町公式が同じ正規ページを指定する住宅耐震改修補助金を統合するため"
+  },
+  {
+    "source": "/grant/hiroshima-official-001-030-2026/",
+    "destination": "/grant/hiroshima-official-001-031-2026/",
+    "statusCode": 301,
+    "reason": "公式ページ本文が一致する呉市令和8年度自転車用ヘルメット助成を統合するため"
+  },
+  {
+    "source": "/grant/nagasaki-official-002-059-2026/",
+    "destination": "/grant/nagasaki-official-002-053-2026/",
+    "statusCode": 301,
+    "reason": "壱岐市公式が指定する正規ページへ母子保健サービス案内を統合するため"
+  },
+  {
+    "source": "/grant/nagasaki-official-002-058-2026/",
+    "destination": "/grant/nagasaki-official-002-054-2026/",
+    "statusCode": 301,
+    "reason": "壱岐市公式が指定する正規ページへ子ども関係手当・制度案内を統合するため"
+  },
+  {
+    "source": "/grant/fukuoka-official-011-095-2026/",
+    "destination": "/grant/fukuoka-official-011-091-2026/",
+    "statusCode": 301,
+    "reason": "福智町公式が同じ正規ページを指定する移住者空き家リフォーム工事補助金を統合するため"
   }
 ]
