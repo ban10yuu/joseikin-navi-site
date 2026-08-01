@@ -38,7 +38,7 @@ describe('grant redirects', () => {
       { source: '/grant/okayama-official-006-017-2026/', destination: '/grant/okayama-official-006-026-2026/', statusCode: 301 },
       { source: '/grant/okayama-official-006-018-2026/', destination: '/grant/okayama-official-006-025-2026/', statusCode: 301 },
       { source: '/grant/sagamihara-newlywed-housing/', destination: '/grant/sagamihara-migration-support/', statusCode: 301 },
-      { source: '/grant/iwate-education-scholarship-returnee/', destination: '/grant/iwate-industrial-scholarship-repayment-2026/', statusCode: 301 },
+      { source: '/grant/iwate-education-scholarship-returnee/', destination: '/grant/iwate-scholarship-repayment/', statusCode: 301 },
       { source: '/grant/hyogo-official-003-019-2026/', destination: '/grant/kakogawa-disability-medical/', statusCode: 301 },
       { source: '/grant/nara-official-008-076-2026/', destination: '/grant/nara-official-008-069-2026/', statusCode: 301 },
       { source: '/grant/wakayama-official-005-035-2026/', destination: '/grant/wakayama-official-005-037-2026/', statusCode: 301 },
@@ -48,6 +48,10 @@ describe('grant redirects', () => {
       { source: '/grant/nagasaki-official-002-059-2026/', destination: '/grant/nagasaki-official-002-053-2026/', statusCode: 301 },
       { source: '/grant/nagasaki-official-002-058-2026/', destination: '/grant/nagasaki-official-002-054-2026/', statusCode: 301 },
       { source: '/grant/fukuoka-official-011-095-2026/', destination: '/grant/fukuoka-official-011-091-2026/', statusCode: 301 },
+      { source: '/grant/iwate-industrial-scholarship-repayment-2026/', destination: '/grant/iwate-scholarship-repayment/', statusCode: 301 },
+      { source: '/grant/kounosu-marriage-結婚新生活支援事業補助金-life-subsidy-2026/', destination: '/grant/kounosu-marriage-結婚新生活支援事業補助金-life-support-2026/', statusCode: 301 },
+      { source: '/grant/nomi-official-002-088-2026-ishikawa/', destination: '/grant/nomi-official-002-089-2026-ishikawa/', statusCode: 301 },
+      { source: '/grant/tokushima-official-005-028-2026/', destination: '/grant/tokushima-official-005-035-2026/', statusCode: 301 },
     ];
 
     for (const redirect of requiredRedirects) {
@@ -104,6 +108,10 @@ describe('grant redirects', () => {
     assert.ok(REDIRECT_SOURCE_SLUGS.has('nagasaki-official-002-059-2026'));
     assert.ok(REDIRECT_SOURCE_SLUGS.has('nagasaki-official-002-058-2026'));
     assert.ok(REDIRECT_SOURCE_SLUGS.has('fukuoka-official-011-095-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('iwate-industrial-scholarship-repayment-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('kounosu-marriage-結婚新生活支援事業補助金-life-subsidy-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('nomi-official-002-088-2026-ishikawa'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('tokushima-official-005-028-2026'));
     assert.equal(REDIRECT_SOURCE_SLUGS.size, REDIRECTS.length);
   });
 
