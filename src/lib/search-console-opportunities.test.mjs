@@ -183,6 +183,26 @@ describe('Search Console実測クエリの詳細ページ改善', () => {
     assert.match(opportunity?.shortAnswer ?? '', /貸付制度/u);
   });
 
+  it('八代市の教育資金相談検索を返済が必要な奨学資金へ反映する', () => {
+    const [opportunity] = getSearchConsoleOpportunitiesForMunicipality('熊本県', '八代市');
+
+    assert.equal(opportunity?.observedQuery, '八代市 教育資金 相談');
+    assert.deepEqual(opportunity?.grantSlugs, ['kumamoto-official-001-027-2026']);
+    assert.match(opportunity?.seoTitle ?? '', /月額上限5万円/u);
+    assert.match(opportunity?.metaDescription ?? '', /返済が必要/u);
+    assert.match(opportunity?.shortAnswer ?? '', /給付型ではなく/u);
+  });
+
+  it('直方市の教育費相談検索を随時受付の就学援助へ反映する', () => {
+    const [opportunity] = getSearchConsoleOpportunitiesForMunicipality('福岡県', '直方市');
+
+    assert.equal(opportunity?.observedQuery, '直方市 教育費 相談');
+    assert.deepEqual(opportunity?.grantSlugs, ['fukuoka-official-001-058-2026']);
+    assert.match(opportunity?.seoTitle ?? '', /就学援助/u);
+    assert.match(opportunity?.metaDescription ?? '', /随時受付/u);
+    assert.match(opportunity?.shortAnswer ?? '', /学校給食費/u);
+  });
+
   it('制度詳細へ案内する実測クエリは検索結果文と冒頭回答を持つ', () => {
     for (const opportunity of SEARCH_CONSOLE_OPPORTUNITIES) {
       if (!opportunity.grantSlugs?.length) continue;
