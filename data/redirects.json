@@ -1480,5 +1480,53 @@
     "destination": "/grant/kobayashi-child-medical-aid/",
     "statusCode": 301,
     "reason": "小林市の同一子育て支援子ども医療費助成事業を、対象期間と自己負担額が詳しい詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/nara-pref-scholarship-repayment-2026/",
+    "destination": "/grant/nara-company-scholarship-repayment/",
+    "statusCode": 301,
+    "reason": "奈良県の同一奨学金返還支援事業補助金を、現行公式ページと補助条件が詳しい詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/osaka-official-001-027-2026/",
+    "destination": "/grant/kishiwada-housing-reform/",
+    "statusCode": 301,
+    "reason": "岸和田市の同一空家リフォーム事業補助金を、令和8年度の金額と期限が詳しい詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/nagai-startup-business-subsidy-2026/",
+    "destination": "/grant/nagai-startup-support-2026/",
+    "statusCode": 301,
+    "reason": "長井市公式が同じ正規ページを指定する起業・創業支援事業補助金を、募集要項付き詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/tsu-migration-bonus/",
+    "destination": "/grant/tsu-migration-support/",
+    "statusCode": 301,
+    "reason": "津市の同一移住支援補助金を、対象要件と申請資料が詳しい詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/kawaguchi-home-earthquake-diagnosis-subsidy-2026/",
+    "destination": "/grant/kawaguchi-seismic-diagnosis/",
+    "statusCode": 301,
+    "reason": "川口市公式が同じ正規ページを指定する住宅耐震診断補助金を、補助額と対象住宅が詳しい詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/ehime-official-001-065-2026/",
+    "destination": "/grant/imabari-infertility/",
+    "statusCode": 301,
+    "reason": "今治市の同一不妊治療費助成を、保険診療と先進医療の区別が詳しい詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/okayama-official-001-031-2026/",
+    "destination": "/grant/kurashiki-birth-bonus/",
+    "statusCode": 301,
+    "reason": "倉敷市の同一妊婦支援給付金を、妊娠期と出生後の給付内容が詳しい詳細ページへ統合するため"
+  },
+  {
+    "source": "/grant/osaka-official-001-023-2026/",
+    "destination": "/grant/sakai-scholarship/",
+    "statusCode": 301,
+    "reason": "同一公式URLの堺未来応援奨学金を、制度説明が詳しい詳細ページへ統合するため"
   }
 ]

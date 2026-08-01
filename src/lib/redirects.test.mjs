@@ -24,6 +24,14 @@ describe('grant redirects', () => {
       { source: '/grant/kasukabe-business-support-benefit-2026/', destination: '/grant/kasukabe-sme-support/', statusCode: 301 },
       { source: '/grant/tsuru-official-001-042-2026-yamanashi/', destination: '/grant/tsuru-child-medical-aid/', statusCode: 301 },
       { source: '/grant/miyazaki-official-002-048-2026/', destination: '/grant/kobayashi-child-medical-aid/', statusCode: 301 },
+      { source: '/grant/nara-pref-scholarship-repayment-2026/', destination: '/grant/nara-company-scholarship-repayment/', statusCode: 301 },
+      { source: '/grant/osaka-official-001-027-2026/', destination: '/grant/kishiwada-housing-reform/', statusCode: 301 },
+      { source: '/grant/nagai-startup-business-subsidy-2026/', destination: '/grant/nagai-startup-support-2026/', statusCode: 301 },
+      { source: '/grant/tsu-migration-bonus/', destination: '/grant/tsu-migration-support/', statusCode: 301 },
+      { source: '/grant/kawaguchi-home-earthquake-diagnosis-subsidy-2026/', destination: '/grant/kawaguchi-seismic-diagnosis/', statusCode: 301 },
+      { source: '/grant/ehime-official-001-065-2026/', destination: '/grant/imabari-infertility/', statusCode: 301 },
+      { source: '/grant/okayama-official-001-031-2026/', destination: '/grant/kurashiki-birth-bonus/', statusCode: 301 },
+      { source: '/grant/osaka-official-001-023-2026/', destination: '/grant/sakai-scholarship/', statusCode: 301 },
     ];
 
     for (const redirect of requiredRedirects) {
@@ -56,6 +64,14 @@ describe('grant redirects', () => {
     assert.ok(REDIRECT_SOURCE_SLUGS.has('kasukabe-business-support-benefit-2026'));
     assert.ok(REDIRECT_SOURCE_SLUGS.has('tsuru-official-001-042-2026-yamanashi'));
     assert.ok(REDIRECT_SOURCE_SLUGS.has('miyazaki-official-002-048-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('nara-pref-scholarship-repayment-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('osaka-official-001-027-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('nagai-startup-business-subsidy-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('tsu-migration-bonus'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('kawaguchi-home-earthquake-diagnosis-subsidy-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('ehime-official-001-065-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('okayama-official-001-031-2026'));
+    assert.ok(REDIRECT_SOURCE_SLUGS.has('osaka-official-001-023-2026'));
     assert.equal(REDIRECT_SOURCE_SLUGS.size, REDIRECTS.length);
   });
 
