@@ -139,6 +139,17 @@ describe('Search Console実測クエリの詳細ページ改善', () => {
     assert.match(opportunity?.shortAnswer ?? '', /基本額20万円/u);
   });
 
+  it('名護市の教育費相談検索を市区町村ページと就学援助制度へ反映する', () => {
+    const [opportunity] = getSearchConsoleOpportunitiesForMunicipality('沖縄県', '名護市');
+
+    assert.equal(opportunity?.observedQuery, '名護市 教育費 相談');
+    assert.deepEqual(opportunity?.grantSlugs, ['okinawa-official-002-016-2026']);
+    assert.equal(opportunity?.href, '/grant/okinawa-official-002-016-2026/');
+    assert.match(opportunity?.seoTitle ?? '', /就学援助制度/u);
+    assert.match(opportunity?.metaDescription ?? '', /名護市の公式案内/u);
+    assert.match(opportunity?.shortAnswer ?? '', /児童生徒と保護者/u);
+  });
+
   it('制度詳細へ案内する実測クエリは検索結果文と冒頭回答を持つ', () => {
     for (const opportunity of SEARCH_CONSOLE_OPPORTUNITIES) {
       if (!opportunity.grantSlugs?.length) continue;
