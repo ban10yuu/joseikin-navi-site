@@ -6,7 +6,7 @@ import DisplayAdSlot from '@/components/DisplayAdSlot';
 import HomeGrantSearch from '@/components/HomeGrantSearch';
 import SubscribeForm from '@/components/SubscribeForm';
 import { AFFILIATE_OFFERS } from '@/config/affiliate-offers';
-import { SEARCH_CONSOLE_OPPORTUNITIES } from '@/config/search-console-opportunities';
+import { getHomepageSearchConsoleOpportunities } from '@/config/search-console-opportunities';
 import { isAdsenseEnabled, siteConfig } from '@/config/site';
 import { getGrantQualityStats, getOfficialLinkedGrants, getRecentlyUpdatedGrants } from '@/lib/grants';
 import { getEffectiveGrantStatus } from '@/lib/grant-status';
@@ -70,6 +70,7 @@ export default async function HomePage() {
     pageType: 'home', audiences: ['individual', 'family', 'student', 'jobSeeker'], purposes: ['childcare', 'housing', 'education', 'employment'],
     intents: ['childrensEducation', 'financialPlanning', 'careerConsultation'], monetizationAllowed: true, limit: 8,
   });
+  const searchOpportunities = getHomepageSearchConsoleOpportunities();
 
   return (
     <>
@@ -139,7 +140,7 @@ export default async function HomePage() {
               <p className="home-query-link-lead">商品券、介護用品、住み替え、奨学金など、制度名で探す人が多いテーマへの入口です。</p>
             </div>
             <div className="home-query-link-grid">
-              {SEARCH_CONSOLE_OPPORTUNITIES.map((item) => (
+              {searchOpportunities.map((item) => (
                 <Link key={item.label} href={item.href}>
                   <span className="home-query-link-tag">{item.intent}</span>
                   <strong>{item.label}</strong>
@@ -154,6 +155,10 @@ export default async function HomePage() {
             <li><span aria-hidden="true">✓</span> 制度ごとに公式ページを案内</li>
             <li><span aria-hidden="true">✓</span> 自動照合日と人手確認を区別</li>
           </ul>
+          <p className="mx-auto mt-4 max-w-4xl text-center text-sm leading-7 text-slate-600">
+            助成金ナビは、制度の候補を探して公式情報へ進みやすくする民間運営サイトです。
+            <Link href="/about/" className="ml-1 font-bold text-navy underline underline-offset-4">サイトの役割と運営方針を確認</Link>
+          </p>
         </div>
       </section>
 

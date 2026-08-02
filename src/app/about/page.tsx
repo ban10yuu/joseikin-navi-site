@@ -5,14 +5,14 @@ import { siteConfig } from '@/config/site';
 import { toSiteUrl } from '@/lib/site-url';
 
 export const metadata: Metadata = {
-  title: '運営者情報・サイトについて',
-  description: '助成金ナビの運営形態、役割、公式サイトとの違いをご案内します。',
+  title: '助成金ナビとは｜運営方針・公式サイトとの違い',
+  description: '助成金ナビの役割、民間運営であること、公式情報の確認方法、運営者情報と各種方針をご案内します。',
   alternates: { canonical: toSiteUrl('/about/') },
 };
 
 export default function AboutPage() {
   return (
-    <PolicyPage title="運営者情報・サイトについて" lead="助成金ナビは、支援制度の候補を探し、公式情報へ進みやすくするための民間運営サイトです。国・自治体の公式サイトではありません。">
+    <PolicyPage title="助成金ナビとは・運営者情報" lead="助成金ナビは、支援制度の候補を探し、公式情報へ進みやすくするための民間運営サイトです。国・自治体の公式サイトではありません。">
       <section>
         <h2>サイトの役割</h2>
         <p>制度名、対象、支援内容、申請期間、公式情報の確認先を整理します。掲載情報だけで対象可否や受付状況を確定せず、申請前に公式募集要項をご確認ください。</p>

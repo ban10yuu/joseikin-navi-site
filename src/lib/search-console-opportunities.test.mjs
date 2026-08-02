@@ -2,10 +2,22 @@ import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 import {
   SEARCH_CONSOLE_OPPORTUNITIES,
+  getHomepageSearchConsoleOpportunities,
   getSearchConsoleOpportunitiesForMunicipality,
 } from '../config/search-console-opportunities.ts';
 
 describe('Search Console実測クエリの詳細ページ改善', () => {
+  it('トップページは実測上位の検索入口だけに内部リンクを集中する', () => {
+    const opportunities = getHomepageSearchConsoleOpportunities();
+
+    assert.equal(opportunities.length, 12);
+    assert.equal(opportunities[0]?.observedQuery, '釧路 補助金');
+    assert.deepEqual(
+      getHomepageSearchConsoleOpportunities(2).map((item) => item.observedQuery),
+      ['釧路 補助金', '安中市民商品券'],
+    );
+  });
+
   it('安中市民商品券に実測値を反映した検索結果文と冒頭回答がある', () => {
     const opportunity = SEARCH_CONSOLE_OPPORTUNITIES.find((item) =>
       item.grantSlugs?.includes('annaka-citizen-voucher-2026'));

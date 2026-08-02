@@ -445,6 +445,10 @@ export const SEARCH_CONSOLE_OPPORTUNITIES: SearchConsoleOpportunity[] = [
   },
 ];
 
+export function getHomepageSearchConsoleOpportunities(limit = 12): SearchConsoleOpportunity[] {
+  return SEARCH_CONSOLE_OPPORTUNITIES.slice(0, Math.max(0, limit));
+}
+
 export function getSearchConsoleOpportunitiesForCategory(category: GrantCategory, limit = 4): SearchConsoleOpportunity[] {
   return SEARCH_CONSOLE_OPPORTUNITIES
     .filter((item) => item.categories.includes(category))

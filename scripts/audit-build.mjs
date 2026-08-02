@@ -133,7 +133,12 @@ for (const page of pages) {
     const expectsMunicipalityLink = municipalityKey
       ? (municipalityIndex[municipalityKey] ?? 0) >= 3
       : false;
-    const hasMunicipalityLink = page.html.includes('href="/municipality/');
+    const expectedMunicipalityHref = municipalityKey
+      ? `/municipality/${encodeURIComponent(grant.prefecture)}/${encodeURIComponent(grant.municipality)}/`
+      : null;
+    const hasMunicipalityLink = expectedMunicipalityHref
+      ? page.html.includes(`href="${expectedMunicipalityHref}"`)
+      : false;
     if (expectsMunicipalityLink && !hasMunicipalityLink) add('critical', 'MISSING_MUNICIPALITY_HUB_LINK', page.route, 'index可能な市区町村SEOページへの内部リンクがありません。');
     if (!expectsMunicipalityLink && hasMunicipalityLink) add('critical', 'INVALID_MUNICIPALITY_HUB_LINK', page.route, 'index対象外の市区町村ページへ内部リンクしています。');
     for (const match of page.html.matchAll(/<aside\b[^>]*data-offer-id="([^"]+)"[^>]*>/g)) {
