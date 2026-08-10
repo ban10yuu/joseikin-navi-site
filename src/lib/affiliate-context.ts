@@ -115,10 +115,6 @@ export function getGrantDetailAffiliateMatchContext(grant: GrantDetailAffiliateC
     addUnique(purposes, ['childcare', 'education']);
     addUnique(intents, ['childrensEducation', 'financialPlanning']);
   }
-  if (grant.purposes.some((purpose) => purpose === 'education') || grant.audiences?.some((audience) => ['student', 'jobSeeker'].includes(audience))) {
-    addUnique(purposes, ['education', 'employment']);
-    addUnique(intents, ['childrensEducation', 'employeeTraining', 'careerConsultation', 'financialPlanning']);
-  }
   if (grant.purposes.some((purpose) => purpose === 'housing' || purpose === 'energySaving')) {
     addUnique(purposes, ['housing', 'energySaving']);
     addUnique(intents, ['financialPlanning', 'homeEnergyConsultation']);

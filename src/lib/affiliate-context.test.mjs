@@ -248,6 +248,24 @@ describe('shouldAllowDerivedAffiliateContext', () => {
 });
 
 describe('getGrantDetailAffiliateMatchContext', () => {
+  it('奨学金を子ども向け商品・研修・転職広告の文脈へ広げない', () => {
+    const result = getGrantDetailAffiliateMatchContext({
+      title: '日本学生支援機構（JASSO）奨学金',
+      description: '経済的理由で修学が困難な学生等へ給付奨学金と貸与奨学金を実施します。',
+      eligibility: '大学・短大・高専・専門学校に在学する学生等が対象です。',
+      tags: ['奨学金', '給付型奨学金', '貸与奨学金', 'JASSO'],
+      purposes: ['education'],
+      primaryPurpose: 'education',
+      audiences: ['student'],
+      affiliateIntents: [],
+    });
+
+    assert.deepEqual(result, {
+      intents: ['financialPlanning'],
+      purposes: ['education'],
+    });
+  });
+
   it('個別ページでは特別児童扶養手当にも子育て・教育系PRの文脈を補完する', () => {
     const result = getGrantDetailAffiliateMatchContext({
       title: '与那国町 特別児童扶養手当',
